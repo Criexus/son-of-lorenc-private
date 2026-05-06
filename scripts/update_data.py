@@ -385,6 +385,199 @@ def update_metrics(data: dict[str, Any], price: dict[str, Any]) -> None:
                 m["note"] = f"Auto-Update: {price['changePercent']}% vs. vorheriger Schlusskurs"
             return
 
+
+def is_placeholder_text(text: str) -> bool:
+    low = (text or "").lower()
+    return any(x in low for x in [
+        "im aufbau", "vorlage", "ergänzt", "hauptprogramm", "zweitprogramm",
+        "frühe pipeline", "dossier angelegt", "automatische news folgen"
+    ])
+
+def find_program_names(news, trials):
+    text = " ".join([n.get("title", "") for n in news] + [t.get("title", "") for t in trials])
+    candidates = re.findall(r"\b[A-Z]{1,6}[- ]?\d{2,4}\b|\bCOMP\d{2,4}\b", text)
+    out, seen = [], set()
+    for c in candidates:
+        c = c.replace(" ", "-").upper()
+        if c not in seen:
+            seen.add(c)
+            out.append(c)
+    return out[:4]
+
+def summarize_news_theme(news, trials, ticker):
+    text = " ".join(n.get("title", "") for n in news).lower()
+    text += " " + " ".join((t.get("conditions", "") + " " + t.get("title", "")) for t in trials).lower()
+    if any(w in text for w in ["obesity", "mash", "metabolic", "pemvidutide"]):
+        return "Stoffwechsel / Adipositas / Lebererkrankungen"
+    if any(w in text for w in ["depression", "ptsd", "anxiety", "psychedelic", "mental", "neuro"]):
+        return "psychische / neurologische Erkrankungen"
+    if any(w in text for w in ["oncology", "cancer", "tumor", "glioblastoma"]):
+        return "Onkologie / Krebsmedizin"
+    if any(w in text for w in ["gene therapy", "rare disease", "lentiviral", "aav"]):
+        return "Gentherapie / seltene Erkrankungen"
+    if any(w in text for w in ["autoimmune", "autoimmun", "cell therapy", "car-t", "cart"]):
+        return "Autoimmunerkrankungen / Zelltherapie"
+    return "Biotech / klinische Entwicklung"
+
+def build_auto_pipeline(data, news, trials):
+    ticker = data.get("ticker", "")
+    name = data.get("name", ticker)
+    programs = find_program_names(news, trials)
+    theme = summarize_news_theme(news, trials, ticker)
+    cards = []
+
+    for i, prog in enumerate(programs[:3]):
+        score = 76 if i == 0 else 62 if i == 1 else 48
+        cards.append({
+            "stage": "Programm / Wirkstoffkandidat",
+            "class": "phase3" if score >= 70 else "phase2",
+            "name": prog,
+            "text": f"{prog} taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+            "score": score,
+            "score_label": "sehr wichtig" if score >= 70 else "wichtig"
+        })
+
+    if trials:
+        first = trials[0]
+        cards.append({
+            "stage": first.get("phase") or "Studienregister",
+            "class": "phase2",
+            "name": "Studienregister-Treffer",
+            "text": f"Zu {name} wurden Treffer im Studienregister gefunden. Das ist wichtig, weil Studienstatus, Patientengruppe und Updates zeigen können, ob ein Programm vorankommt.",
+            "score": 58,
+            "score_label": "prüfen"
+        })
+
+    cards.append({
+        "stage": "Geschäft / Forschungsschwerpunkt",
+        "class": "early",
+        "name": theme,
+        "text": f"{name} wird anhand der gefundenen Daten als Unternehmen im Bereich {theme} eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+        "score": 45,
+        "score_label": "Grundlage"
+    })
+    return cards[:4]
+
+def build_auto_zones(price):
+    val = price.get("regularMarketPrice")
+    if isinstance(val, (int, float)) and val > 0:
+        low = round(val * 0.82, 2)
+        pull = round(val * 0.9, 2)
+        work_low = round(val * 0.95, 2)
+        work_high = round(val * 1.08, 2)
+        high = round(val * 1.18, 2)
+        return [
+            {"zone": f"Rücksetzer: ca. ${low}–${pull}", "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."},
+            {"zone": f"Arbeitsbereich: ca. ${work_low}–${work_high}", "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."},
+            {"zone": f"Momentum: über ca. ${high}", "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."},
+            {"zone": "Warnbereich", "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."}
+        ]
+    return [
+        {"zone": "Rücksetzer", "text": "Interessant nur, wenn keine schlechte Unternehmensmeldung dahintersteht."},
+        {"zone": "Beobachten", "text": "Erst News, Finanzierung und Studienstand prüfen."},
+        {"zone": "Momentum", "text": "Nach starken Anstiegen steigt das Rückschlagrisiko."},
+        {"zone": "Warnbereich", "text": "Bei Verwässerung, schwachen Daten oder knapper Finanzierung vorsichtig bleiben."}
+    ]
+
+def build_auto_catalysts(news, filings, trials):
+    out = []
+    if any(n.get("trigger_type") == "Studienphase / Readout" for n in news) or trials:
+        out.append({"tag": "Studien", "title": "Neue Studienergebnisse oder Studienstart", "text": "Bei Biotech-Aktien sind Studienmeldungen oft der wichtigste Kurstreiber. Wichtig ist: Sind es echte Daten oder nur eine Ankündigung?"})
+    if any(n.get("trigger_type") == "FDA / Regulatorik" for n in news):
+        out.append({"tag": "Behörde", "title": "FDA-/Zulassungs- oder Behördenmeldung", "text": "Solche Meldungen können stark bewegen. Entscheidend ist, ob die Behörde wirklich etwas bestätigt oder ob nur ein Plan kommuniziert wurde."})
+    if any(n.get("trigger_type") == "Finanzierung / Verwässerung" for n in news) or any(str(f.get("form","")).upper() in ["S-1","F-3","S-3","424B5","424B"] for f in filings):
+        out.append({"tag": "Geld / neue Aktien", "title": "Finanzierung oder mögliche Verwässerung", "text": "Wenn das Unternehmen neue Aktien ausgibt, kann das den Kurs drücken. Gleichzeitig braucht ein kleines Biotech-Unternehmen oft frisches Geld."})
+    out.append({"tag": "Regelmäßig prüfen", "title": "Quartalszahlen, Cashbestand und Unternehmensupdates", "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."})
+    return out[:4]
+
+def build_auto_scenarios(name):
+    return {
+        "bear": {"title": "Schlechter Fall", "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."},
+        "base": {"title": "Normaler Fall", "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."},
+        "bull": {"title": "Guter Fall", "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."}
+    }
+
+def build_auto_risks(news, filings):
+    risks = [
+        {"title": "Biotech-Risiko", "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."},
+        {"title": "Finanzierungsrisiko", "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."},
+        {"title": "Starke Kursschwankungen", "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."}
+    ]
+    if any(n.get("trigger_type") == "Finanzierung / Verwässerung" for n in news) or any(str(f.get("form","")).upper() in ["S-1","F-3","S-3","424B","424B5"] for f in filings):
+        risks.insert(0, {"title": "Neue Aktien / Verwässerung", "text": "Es gibt Hinweise auf Finanzierungsthemen. Das kann bedeuten, dass bestehende Aktionäre durch neue Aktien verwässert werden."})
+    if any(n.get("trigger_type") == "FDA / Regulatorik" for n in news):
+        risks.append({"title": "Behördenrisiko", "text": "Wenn FDA oder andere Behörden anders entscheiden als erwartet, kann das den Kurs stark beeinflussen."})
+    return risks[:6]
+
+def build_auto_clear_view(data, news):
+    name = data.get("name", data.get("ticker", "Diese Aktie"))
+    ticker = data.get("ticker", "")
+    hard = [n for n in news if n.get("trigger_level") == "high"]
+    p1 = f"{name} ({ticker}) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt."
+    p2 = "Es wurden wichtige Hinweise gefunden, die man genauer lesen sollte. Besonders relevant sind Meldungen zu Studien, Behörden, Finanzierung oder möglichen neuen Aktien." if hard else "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig."
+    p3 = "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
+    return [p1, p2, p3]
+
+def should_autofill(data):
+    pipeline = data.get("pipeline") or []
+    clear = " ".join(data.get("clear_view") or [])
+    headline = data.get("headline", "")
+    return (not pipeline or is_placeholder_text(headline) or is_placeholder_text(clear) or any(is_placeholder_text(p.get("name","") + " " + p.get("text","")) for p in pipeline))
+
+def autofill_dossier(data, news, filings, trials, price):
+    if not should_autofill(data):
+        return
+    ticker = data.get("ticker", "")
+    name = data.get("name", ticker)
+    data["headline"] = f"{name} – einfache Phasenanalyse"
+    data["thesis"] = f"Kurzthese: {name} wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung."
+    data["phase"] = "Automatische Grundanalyse"
+    data["character"] = "spekulativ · stark nachrichtenabhängig"
+    data["chart_subtitle"] = "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts."
+    data["chart_note"] = "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung."
+    data["pipeline_intro"] = "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können."
+    data["pipeline"] = build_auto_pipeline(data, news, trials)
+    data["zones"] = build_auto_zones(price)
+    data["catalysts"] = build_auto_catalysts(news, filings, trials)
+    data["scenarios"] = build_auto_scenarios(name)
+    data["risks"] = build_auto_risks(news, filings)
+    data["clear_view"] = build_auto_clear_view(data, news)
+    existing_events = data.get("events") or []
+    if not existing_events or any(is_placeholder_text(e.get("title","")) for e in existing_events):
+        events = []
+        for n in news[:8]:
+            events.append({
+                "d": n.get("published_at") or "News",
+                "p": price.get("regularMarketPrice") or 1.0,
+                "title": n.get("title", "News"),
+                "phase": n.get("trigger_type", "Nachricht"),
+                "reaction": n.get("impact", "Kursrelevanz prüfen"),
+                "details": n.get("assessment", "Diese Meldung sollte geprüft werden."),
+                "watch": n.get("watch", "Quelle lesen und Zusammenhang prüfen."),
+                "impact": n.get("impact", "unklar"),
+                "source": n.get("source", "News"),
+                "url": n.get("url", "#"),
+                "future": False
+            })
+        for f in filings[:3]:
+            events.append({
+                "d": f.get("filingDate") or "SEC",
+                "p": price.get("regularMarketPrice") or 1.0,
+                "title": f"{f.get('form','SEC Filing')} · offizielle Meldung",
+                "phase": "Offizielle Unternehmensmeldung",
+                "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+                "details": f.get("description", "Offizielle SEC-Meldung."),
+                "source": "SEC EDGAR",
+                "url": f.get("url", "#"),
+                "future": False
+            })
+        data["events"] = events[:12] if events else [{
+            "d": "Start", "p": price.get("regularMarketPrice") or 1.0, "title": "Automatische Grundanalyse angelegt",
+            "phase": "Start", "reaction": "Es wurden noch keine starken Nachrichten gefunden.",
+            "details": "Das System beobachtet die Aktie weiter automatisch.", "source": "Son of Lorenc", "url": "#", "future": False
+        }]
+
+
 def update():
     watchlist = read_json(CONFIG)
     mp = sec_ticker_map()
@@ -438,7 +631,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v1.3-news-engine",
+        "version": "master-v1.7-auto-dossier",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"

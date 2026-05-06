@@ -1,28 +1,31 @@
-# Son of Lorenc – Master v1.6 Simple Timeline
+# Son of Lorenc – Master v1.9 Mobile Accordion
 
-Diese Version enthält weiterhin die Löschfunktion aus v1.5 und verbessert die Verständlichkeit.
+Diese Version enthält alles aus v1.8 und verbessert die Mobile-/Tablet-Nutzung.
 
-## Neu in v1.6
+## Neu in v1.9
 
-- Kurs-/Newsdiagramm ist chronologisch sortiert
-- Zeitlinie läuft sauber von links nach rechts: alt → neu
-- automatische News, SEC-Filings und Studienregister-Treffer werden in die Zeitlinie einsortiert
-- einfachere Begriffe im Dashboard
-- „Katalysator“ wird als „wichtiger Auslöser / Termin“ erklärt
-- Pipeline-Karten werden einfacher formuliert
-- „Werttreiber“ wird erklärt: wie stark ein Programm den Kurs bewegen kann
-- Szenario & Einstieg nutzt Anfänger-Sprache
-- Löschfunktion bleibt enthalten
+- Live-News sind jetzt aufklappbar
+- wichtige Hinweise / Trigger sind jetzt aufklappbar
+- offizielle SEC-Unternehmensmeldungen sind jetzt aufklappbar
+- weniger Scroll-Länge auf iPhone und Tablet
+- Analyse startet sauberer und übersichtlicher
+- Karten sind besser für Touch-Bedienung optimiert
+- Diagramm ist auf kleinen Displays horizontal scrollbar
+- Admin-Menü bleibt als Dropdown oben
 
-## Für Online-Update
+## Online-Update
 
-Nur diese Code-Dateien kopieren/pushen, damit aktuelle Daten wie CABA erhalten bleiben:
+Nur diese Dateien pushen:
 
 - `index.html`
 - `assets/app.js`
 - `assets/style.css`
+- `scripts/update_data.py`
+- `scripts/delete_stock.py`
+- `worker/worker.js`
+- `README.md`
 
-Optional:
-- `data/*.json` nur, wenn die Beispieltexte überschrieben werden sollen.
+Nicht kopieren:
 
-Der Worker muss für diese Änderung nicht neu angepasst werden, wenn v1.5 bereits läuft.
+- `data/`
+- `config/watchlist.json`

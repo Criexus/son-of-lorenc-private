@@ -25,80 +25,88 @@
     <div class="topActions">
       <select id="tickerSelect" aria-label="Ticker auswählen"></select>
       <button id="refreshBtn" class="refreshBtn" type="button">Daten neu laden</button>
+
+      <details class="adminDropdown">
+        <summary>Admin ▾</summary>
+        <div class="adminDropdownPanel">
+          <div class="miniAdminBlock">
+            <div class="miniAdminHead">
+              <h2>Aktie hinzufügen</h2>
+              <p>Neue Aktie dauerhaft speichern und automatisch analysieren lassen.</p>
+            </div>
+
+            <form id="addStockForm" class="adminForm compactAdminForm">
+              <div class="adminGrid compactGrid">
+                <label>
+                  <span>Ticker *</span>
+                  <input id="newTicker" name="ticker" placeholder="z. B. ENVB" autocomplete="off" required>
+                </label>
+                <label>
+                  <span>Name *</span>
+                  <input id="newName" name="name" placeholder="z. B. Enveric Biosciences" autocomplete="off" required>
+                </label>
+                <label>
+                  <span>Börse</span>
+                  <input id="newExchange" name="exchange" placeholder="NASDAQ" value="NASDAQ" autocomplete="off">
+                </label>
+                <label>
+                  <span>Thema</span>
+                  <input id="newTheme" name="theme" placeholder="Biotech / Pharma / ETF / ..." autocomplete="off">
+                </label>
+                <label class="wide">
+                  <span>News-Suchbegriff</span>
+                  <input id="newQuery" name="query" placeholder="z. B. Enveric Biosciences ENVB EB-003 stock news" autocomplete="off">
+                </label>
+                <label>
+                  <span>SEC-Ticker</span>
+                  <input id="newSecQuery" name="sec_query" placeholder="ENVB" autocomplete="off">
+                </label>
+                <label>
+                  <span>Admin-PIN optional</span>
+                  <input id="adminPin" name="adminPin" type="password" placeholder="nur falls gesetzt">
+                </label>
+              </div>
+              <div class="adminActions">
+                <button class="refreshBtn" type="submit">Aktie speichern</button>
+                <button class="ghostBtn" id="fillQueryBtn" type="button">Suchbegriff automatisch füllen</button>
+              </div>
+              <p id="adminStatus" class="adminStatus">Neue Aktien werden dauerhaft im GitHub-Repository gespeichert.</p>
+            </form>
+          </div>
+
+          <div class="miniAdminBlock dangerMini">
+            <div class="miniAdminHead">
+              <h2>Aktie löschen</h2>
+              <p>Entfernt eine Aktie dauerhaft aus Watchlist und Daten-Dateien.</p>
+            </div>
+
+            <form id="deleteStockForm" class="adminForm compactAdminForm">
+              <div class="adminGrid compactDeleteGrid">
+                <label>
+                  <span>Aktie auswählen *</span>
+                  <select id="deleteTickerSelect" required></select>
+                </label>
+                <label>
+                  <span>Bestätigung *</span>
+                  <input id="deleteConfirm" placeholder='exakt "LÖSCHEN" eingeben' autocomplete="off" required>
+                </label>
+                <label>
+                  <span>Admin-PIN optional</span>
+                  <input id="deleteAdminPin" type="password" placeholder="nur falls gesetzt">
+                </label>
+              </div>
+              <div class="adminActions">
+                <button class="deleteBtn" type="submit">Aktie löschen</button>
+              </div>
+              <p id="deleteStatus" class="adminStatus">Zum Schutz vor Versehen muss exakt <code>LÖSCHEN</code> eingegeben werden.</p>
+            </form>
+          </div>
+        </div>
+      </details>
+
     </div>
   </div>
-
-
-  <section class="section card panel adminPanel">
-    <div class="sectionHead">
-      <div>
-        <h2>Admin · Neue Aktie hinzufügen</h2>
-        <p class="sub">Ticker eingeben, speichern, danach wird die Aktie in Watchlist und Datenstruktur angelegt. Online speichert der Cloudflare Worker direkt im GitHub-Repository.</p>
-      </div>
-      <span class="liveBadge">v1.2</span>
-    </div>
-
-    <form id="addStockForm" class="adminForm">
-      <div class="adminGrid">
-        <label>
-          <span>Ticker *</span>
-          <input id="newTicker" name="ticker" placeholder="z. B. ALTI" autocomplete="off" required>
-        </label>
-        <label>
-          <span>Name *</span>
-          <input id="newName" name="name" placeholder="z. B. AlTi Global" autocomplete="off" required>
-        </label>
-        <label>
-          <span>Börse</span>
-          <input id="newExchange" name="exchange" placeholder="NASDAQ" value="NASDAQ" autocomplete="off">
-        </label>
-        <label>
-          <span>Thema</span>
-          <input id="newTheme" name="theme" placeholder="Biotech / Pharma / ETF / ..." autocomplete="off">
-        </label>
-        <label class="wide">
-          <span>News-Suchbegriff</span>
-          <input id="newQuery" name="query" placeholder="z. B. AlTi Global ALTI stock news" autocomplete="off">
-        </label>
-        <label>
-          <span>SEC-Ticker</span>
-          <input id="newSecQuery" name="sec_query" placeholder="ALTI" autocomplete="off">
-        </label>
-        <label>
-          <span>Admin-PIN optional</span>
-          <input id="adminPin" name="adminPin" type="password" placeholder="nur falls gesetzt">
-        </label>
-      </div>
-      <div class="adminActions">
-        <button class="refreshBtn" type="submit">Aktie speichern</button>
-        <button class="ghostBtn" id="fillQueryBtn" type="button">Suchbegriff automatisch füllen</button>
-      </div>
-      <p id="adminStatus" class="adminStatus">Lokal kannst du alternativ das Terminal-Skript nutzen: <code>python3 scripts/add_stock.py ALTI "AlTi Global"</code></p>
-    </form>
-  </section>
-
-
-
-  <section class="section card panel adminPanel dangerPanel">
-    <div class="sectionHead">
-      <div>
-        <h2>Admin · Aktie löschen</h2>
-        <p class="sub">Entfernt eine Aktie dauerhaft aus Watchlist, Dashboard-Daten und Dossier-Datei. Danach wird die Seite neu deployed.</p>
-      </div>
-      <span class="liveBadge dangerBadge">Löschen</span>
-    </div>
-    <form id="deleteStockForm" class="adminForm">
-      <div class="adminGrid deleteGrid">
-        <label><span>Aktie auswählen *</span><select id="deleteTickerSelect" required></select></label>
-        <label><span>Bestätigung *</span><input id="deleteConfirm" placeholder='Zum Löschen exakt "LÖSCHEN" eingeben' autocomplete="off" required></label>
-        <label><span>Admin-PIN optional</span><input id="deleteAdminPin" type="password" placeholder="nur falls gesetzt"></label>
-      </div>
-      <div class="adminActions"><button class="deleteBtn" type="submit">Aktie löschen</button></div>
-      <p id="deleteStatus" class="adminStatus">Lokal kannst du alternativ nutzen: <code>python3 scripts/delete_stock.py CABA</code></p>
-    </form>
-  </section>
-
-  <section class="hero">
+<section class="hero">
     <div class="card heroMain">
       <div class="heroWatermark">
         <img src="/assets/logo.png" alt="" aria-hidden="true">
@@ -157,40 +165,61 @@
     <div class="risk" id="risks"></div>
   </section>
 
-  <section class="section card panel livePanel">
-    <div class="sectionHead">
+  
+  <details class="section card panel livePanel collapseCard">
+    <summary class="collapseSummary">
       <div>
         <h2>Automatisch gefundene Live-News</h2>
-        <p class="sub">Diese Treffer kommen aus dem automatischen Datenupdate. Die Kursrelevanz muss trotzdem geprüft werden.</p>
+        <p class="sub">Aufklappen, um automatisch gefundene Artikel mit Einordnung und Quellenlink zu sehen.</p>
       </div>
-      <span class="liveBadge" id="liveNewsCount">0 Treffer</span>
+      <div class="summaryRight">
+        <span class="liveBadge" id="liveNewsCount">0 Treffer</span>
+        <span class="chevron">▾</span>
+      </div>
+    </summary>
+    <div class="collapseBody">
+      <div class="liveNewsList" id="liveNews"></div>
     </div>
-    <div class="liveNewsList" id="liveNews"></div>
-  </section>
+  </details>
 
 
-  <section class="section card panel livePanel">
-    <div class="sectionHead">
+
+  
+  <details class="section card panel livePanel collapseCard">
+    <summary class="collapseSummary">
       <div>
         <h2>Automatisch erkannte wichtige Hinweise</h2>
-        <p class="sub">Das System markiert Meldungen, die für den Kurs wichtig sein könnten – zum Beispiel Studienergebnisse, FDA-Themen, Finanzierung oder Quartalszahlen.</p>
+        <p class="sub">Aufklappen, um wichtige Auslöser wie Studien, Finanzierung, Behördenmeldungen oder Quartalszahlen zu prüfen.</p>
       </div>
-      <span class="liveBadge" id="triggerCount">0 Trigger</span>
+      <div class="summaryRight">
+        <span class="liveBadge" id="triggerCount">0 Trigger</span>
+        <span class="chevron">▾</span>
+      </div>
+    </summary>
+    <div class="collapseBody">
+      <div class="triggerGrid" id="detectedTriggers"></div>
     </div>
-    <div class="triggerGrid" id="detectedTriggers"></div>
-  </section>
+  </details>
 
 
-  <section class="section card panel livePanel">
-    <div class="sectionHead">
+
+  
+  <details class="section card panel livePanel collapseCard">
+    <summary class="collapseSummary">
       <div>
         <h2>Offizielle Unternehmensmeldungen (SEC)</h2>
-        <p class="sub">Offizielle Börsenmeldungen aus den USA. Besonders wichtig bei Kapitalerhöhungen, Quartalszahlen, Cashbestand oder großen Unternehmensereignissen.</p>
+        <p class="sub">Aufklappen, um offizielle US-Börsenmeldungen wie Quartalsberichte, Kapitalerhöhungen oder Unternehmensereignisse zu sehen.</p>
       </div>
-      <span class="liveBadge" id="secCount">0 Filings</span>
+      <div class="summaryRight">
+        <span class="liveBadge" id="secCount">0 Filings</span>
+        <span class="chevron">▾</span>
+      </div>
+    </summary>
+    <div class="collapseBody">
+      <div class="liveNewsList" id="secFilings"></div>
     </div>
-    <div class="liveNewsList" id="secFilings"></div>
-  </section>
+  </details>
+
 
   <section class="section card panel">
     <h2>Einfache Zusammenfassung</h2>

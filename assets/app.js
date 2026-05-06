@@ -43,6 +43,7 @@ async function boot() {
     await loadTicker(currentTicker);
     $("refreshBtn").textContent = "Daten neu laden";
   });
+  initDropdownBehavior();
   initAdminForm();
   initDeleteForm();
   await loadTicker(wl[0]?.ticker || "ATAI");
@@ -486,6 +487,18 @@ window.select = function(i) {
   renderList();
   renderDetail();
 };
+
+
+
+function initDropdownBehavior() {
+  document.addEventListener("click", (event) => {
+    const admin = document.querySelector(".adminDropdown");
+    if (!admin || !admin.open) return;
+    if (!admin.contains(event.target)) {
+      admin.open = false;
+    }
+  });
+}
 
 
 function initAdminForm() {

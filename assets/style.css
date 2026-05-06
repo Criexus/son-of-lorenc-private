@@ -393,3 +393,377 @@ a{color:#9ec8ff;text-decoration:none}.wrap{max-width:1440px;margin:0 auto;paddin
 .zone b{
   color:#fff;
 }
+
+/* v1.8 Admin Dropdown */
+.adminDropdown{
+  position:relative;
+  z-index:40;
+}
+
+.adminDropdown summary{
+  list-style:none;
+  cursor:pointer;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.14);
+  color:#fff;
+  border-radius:14px;
+  padding:10px 14px;
+  font-weight:800;
+  user-select:none;
+}
+
+.adminDropdown summary::-webkit-details-marker{
+  display:none;
+}
+
+.adminDropdown[open] summary{
+  background:rgba(255,87,87,.13);
+  border-color:rgba(255,87,87,.35);
+  color:#ffd0d0;
+}
+
+.adminDropdownPanel{
+  position:absolute;
+  top:52px;
+  right:0;
+  width:min(920px, calc(100vw - 44px));
+  max-height:78vh;
+  overflow:auto;
+  padding:16px;
+  border-radius:20px;
+  background:linear-gradient(180deg,rgba(14,20,30,.98),rgba(8,12,18,.98));
+  border:1px solid rgba(255,255,255,.13);
+  box-shadow:0 30px 100px rgba(0,0,0,.72);
+}
+
+.miniAdminBlock{
+  padding:16px;
+  border-radius:18px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.08);
+}
+
+.miniAdminBlock + .miniAdminBlock{
+  margin-top:14px;
+}
+
+.dangerMini{
+  border-color:rgba(255,87,87,.2);
+}
+
+.miniAdminHead h2{
+  margin:0 0 4px;
+  font-size:20px;
+  letter-spacing:-.02em;
+}
+
+.miniAdminHead p{
+  margin:0 0 14px;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.compactAdminForm{
+  gap:12px;
+}
+
+.compactGrid{
+  grid-template-columns:repeat(3,1fr);
+}
+
+.compactGrid label.wide{
+  grid-column:span 2;
+}
+
+.compactDeleteGrid{
+  grid-template-columns:1fr 1.2fr 1fr;
+}
+
+.compactDeleteGrid select{
+  width:100%;
+  background:#0e141e;
+  color:var(--text);
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:14px;
+  padding:11px 12px;
+  outline:none;
+}
+
+@media(max-width:900px){
+  .adminDropdown{
+    width:100%;
+  }
+
+  .adminDropdown summary{
+    text-align:center;
+  }
+
+  .adminDropdownPanel{
+    position:fixed;
+    left:12px;
+    right:12px;
+    top:92px;
+    width:auto;
+    max-height:78vh;
+  }
+
+  .compactGrid,
+  .compactDeleteGrid{
+    grid-template-columns:1fr;
+  }
+
+  .compactGrid label.wide{
+    grid-column:span 1;
+  }
+}
+
+@media(max-width:650px){
+  .adminDropdownPanel{
+    top:110px;
+  }
+}
+
+/* v1.9 Mobile Accordion */
+.collapseCard{
+  padding:0;
+}
+
+.collapseSummary{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:14px;
+  cursor:pointer;
+  padding:20px 22px;
+  list-style:none;
+  user-select:none;
+}
+
+.collapseSummary::-webkit-details-marker{
+  display:none;
+}
+
+.collapseSummary h2{
+  margin:0 0 6px;
+  font-size:24px;
+  letter-spacing:-.02em;
+}
+
+.collapseSummary .sub{
+  margin:0;
+}
+
+.summaryRight{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex:0 0 auto;
+}
+
+.chevron{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:34px;
+  height:34px;
+  border-radius:999px;
+  background:rgba(255,255,255,.055);
+  border:1px solid rgba(255,255,255,.11);
+  color:#fff;
+  transition:.18s ease;
+}
+
+.collapseCard[open] .chevron{
+  transform:rotate(180deg);
+  background:rgba(255,87,87,.12);
+  border-color:rgba(255,87,87,.28);
+}
+
+.collapseBody{
+  padding:0 22px 22px;
+}
+
+.collapseCard:not([open]){
+  background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.014));
+}
+
+.collapseCard[open]{
+  border-color:rgba(255,87,87,.16);
+}
+
+/* bessere Kachel-Lesbarkeit auf Tablet/Mobile */
+.liveNewsList,
+.triggerGrid{
+  align-items:stretch;
+}
+
+.liveItem,
+.triggerItem,
+.riskItem,
+.pipeCard,
+.scenario,
+.zone{
+  -webkit-tap-highlight-color:transparent;
+}
+
+@media(max-width:1050px){
+  .wrap{
+    max-width:900px;
+  }
+
+  .hero{
+    grid-template-columns:1fr;
+  }
+
+  .scoreGrid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pipeline{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .grid2,
+  .grid3{
+    grid-template-columns:1fr;
+  }
+
+  .liveNewsList,
+  .triggerGrid{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:760px){
+  .wrap{
+    padding:14px 10px 36px;
+  }
+
+  .stockSwitch{
+    border-radius:18px;
+    padding:12px;
+  }
+
+  .brandBlock{
+    align-items:center;
+  }
+
+  .brandText b{
+    font-size:16px;
+  }
+
+  .heroMain{
+    padding:20px;
+  }
+
+  h1{
+    font-size:34px;
+    line-height:1.02;
+  }
+
+  .thesis{
+    font-size:15px;
+  }
+
+  .status{
+    gap:8px;
+  }
+
+  .pill{
+    width:100%;
+    border-radius:14px;
+  }
+
+  .scoreGrid,
+  .pipeline,
+  .risk{
+    grid-template-columns:1fr;
+  }
+
+  .panel{
+    padding:18px;
+  }
+
+  .collapseSummary{
+    padding:18px;
+    align-items:center;
+  }
+
+  .collapseSummary h2{
+    font-size:20px;
+  }
+
+  .collapseSummary .sub{
+    font-size:12px;
+  }
+
+  .summaryRight{
+    flex-direction:column;
+    align-items:flex-end;
+    gap:7px;
+  }
+
+  .liveBadge{
+    font-size:11px;
+  }
+
+  .collapseBody{
+    padding:0 18px 18px;
+  }
+
+  .chartWrap{
+    padding:10px;
+    overflow-x:auto;
+  }
+
+  #chart{
+    min-width:760px;
+    height:360px;
+  }
+
+  .eventList{
+    max-height:none;
+  }
+
+  .eventBtn{
+    padding:13px;
+  }
+
+  .zone{
+    grid-template-columns:1fr;
+  }
+
+  .liveItem,
+  .triggerItem{
+    padding:14px;
+  }
+
+  .sourceLink{
+    width:100%;
+    justify-content:center;
+  }
+}
+
+@media(max-width:430px){
+  .brandLogo{
+    width:48px;
+    height:48px;
+  }
+
+  h1{
+    font-size:30px;
+  }
+
+  .metric .value{
+    font-size:21px;
+  }
+
+  .collapseSummary{
+    gap:8px;
+  }
+
+  .chevron{
+    width:30px;
+    height:30px;
+  }
+}
