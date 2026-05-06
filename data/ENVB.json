@@ -1,0 +1,191 @@
+{
+  "ticker": "ENVB",
+  "exchange": "NASDAQ",
+  "name": "Enveric Biosciences",
+  "eyebrow": "Son of Lorenc · Phasenanalyse · ENVB",
+  "headline": "Enveric Biosciences – Phasenanalyse im Aufbau",
+  "thesis": "Kurzthese: ENVB wurde neu in das Son-of-Lorenc-System aufgenommen. Der Dossier-Aufbau ist vorbereitet; aktuelle News, Kursdaten und SEC-Filings werden über das Update-System geladen.",
+  "stand": "2026-05-06",
+  "phase": "A/B · Beobachtung / Story-Aufbau",
+  "character": "Research-Wert · Risiko prüfen",
+  "metrics": [
+    {
+      "label": "Aktueller Kurs",
+      "value": "wird aktualisiert",
+      "note": "aus automatischem Datenabruf",
+      "key": "price"
+    },
+    {
+      "label": "52W-Spanne",
+      "value": "offen",
+      "note": "manuell/automatisch ergänzen",
+      "key": "range52"
+    },
+    {
+      "label": "Cash & Wertpapiere",
+      "value": "offen",
+      "note": "letzten Bericht prüfen",
+      "key": "cash"
+    },
+    {
+      "label": "Cash Runway",
+      "value": "offen",
+      "note": "Finanzierungsreichweite prüfen",
+      "key": "runway"
+    },
+    {
+      "label": "Umsatz",
+      "value": "offen",
+      "note": "je nach Entwicklungsphase relevant",
+      "key": "revenue"
+    },
+    {
+      "label": "Risikoklasse",
+      "value": "offen",
+      "note": "muss eingeordnet werden",
+      "key": "risk"
+    }
+  ],
+  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
+  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "events": [
+    {
+      "d": "Start",
+      "p": 1,
+      "title": "Dossier angelegt",
+      "phase": "Phase A – Aufbau",
+      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
+      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
+      "source": "Son of Lorenc",
+      "future": false
+    },
+    {
+      "d": "News",
+      "p": 1.2,
+      "title": "Automatische News folgen",
+      "phase": "Phase B – Monitoring",
+      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
+      "details": "Kursrelevanz muss geprüft werden.",
+      "source": "Automatisches Monitoring",
+      "future": false
+    },
+    {
+      "d": "Katalysator",
+      "p": 1.35,
+      "title": "Nächsten harten Trigger definieren",
+      "phase": "Nächster Katalysator",
+      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
+      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
+      "source": "manuelle Analyse",
+      "future": true
+    }
+  ],
+  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline": [
+    {
+      "stage": "Lead Asset / Haupttreiber",
+      "class": "phase3",
+      "name": "Hauptprogramm",
+      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
+      "score": 70,
+      "score_label": "hoch"
+    },
+    {
+      "stage": "Zweitprogramm / Option",
+      "class": "phase2",
+      "name": "Zweitprogramm",
+      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
+      "score": 50,
+      "score_label": "mittel"
+    },
+    {
+      "stage": "Early Stage",
+      "class": "early",
+      "name": "Frühe Pipeline",
+      "text": "Langfristiger Optionswert.",
+      "score": 30,
+      "score_label": "langfristig"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Pullback",
+      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+    },
+    {
+      "zone": "Arbeitszone",
+      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+    },
+    {
+      "zone": "Momentum",
+      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+    },
+    {
+      "zone": "Warnzone",
+      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Kurzfristig",
+      "title": "Nächste News / Quartalszahlen",
+      "text": "Termin oder Katalysator ergänzen."
+    },
+    {
+      "tag": "Mittelfristig",
+      "title": "Pipeline-/Projektupdate",
+      "text": "Relevanten operativen Meilenstein ergänzen."
+    },
+    {
+      "tag": "Risiko",
+      "title": "Cash / Verwässerung prüfen",
+      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "title": "Bear Case",
+      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+    },
+    "base": {
+      "title": "Base Case",
+      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+    },
+    "bull": {
+      "title": "Bull Case",
+      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+    }
+  },
+  "risks": [
+    {
+      "title": "Studiendaten-/Projekt-Risiko",
+      "text": "Operative Fortschritte müssen bestätigt werden."
+    },
+    {
+      "title": "Verwässerungsrisiko",
+      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+    },
+    {
+      "title": "Volatilität",
+      "text": "Kleine und mittlere Werte reagieren stark auf News."
+    },
+    {
+      "title": "Hype-Risiko",
+      "text": "Schnelle Peaks werden oft wieder abverkauft."
+    }
+  ],
+  "clear_view": [
+    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
+    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+  ],
+  "sources": [
+    "Son of Lorenc Mastertemplate",
+    "Automatische Quellen werden nach Update ergänzt."
+  ],
+  "latest_auto": {
+    "last_update_utc": "2026-05-06T14:11:16.381Z",
+    "price": null,
+    "news": [],
+    "sec_filings": []
+  }
+}
