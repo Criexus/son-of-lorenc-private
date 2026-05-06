@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.69",
-      "note": "Auto-Update: 6.03% vs. vorheriger Schlusskurs",
+      "value": "$3.83",
+      "note": "Auto-Update: 10.2% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,19 +183,49 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T16:57:39Z",
+    "last_update_utc": "2026-05-06T18:12:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.69,
+      "regularMarketPrice": 3.835,
       "previousClose": 3.48,
-      "change": 0.21,
-      "changePercent": 6.03
+      "change": 0.355,
+      "changePercent": 10.2
     },
     "news": [
       {
+        "title": "Rocket Pharmaceuticals erlöst 180 Mio. US-Dollar durch Verkauf von Prüf-Voucher - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLTNXLW0xSDFNNGlwNFJ0YW0tRXVaV0RQVEJDSkIyTHp4ZktLUnRqbFJvbXNqYTdjZTZsY2RTN2NhbGZfWTdOcTZ4aUNPVU1NdzlzcWdBNGJaWV9xUERBek1udlVtb2hFejVHRFJCSFVncWptY0dPOS1PQzY3bjVPNWZMQ3BMTXNtRWVVZHJLZVhTd0F0blViaFlmR1d0b1VrOXUxMHdHTURybk45bWNRTjN6ZmFmVDluSXlwVFRJemc3WURKWnhzWlZBSGg?oc=5",
+        "published_at": "2026-04-28T11:09:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5",
+        "published_at": "2026-03-27T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5",
         "published_at": "2026-03-27T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Rocket Pharmaceuticals RCKT stock news",
@@ -214,21 +244,6 @@
         "published_at": "2025-09-30T07:00:00Z",
         "source": "Der Aktionär",
         "query": "RCKT CRL FDA",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
-        "title": "Capricor readies revised FDA pitch for Duchenne cell therapy - BioPharma Dive",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0Rrd0xfb1d3WTZVUWw1OFBZWTU5YjBtX2NyX0IwdE9jd1RIQ3cxQXh0TWtEVFk1dHltU0cyZUNBMlNiTm81ZTh0bFVXWi1JNGJ0cXF5OHZ5SlRnRE96ZHdGMzNzcmlHTzlmMXFYTEZiU2s1RjlCOGY2QTVmbUtLVjhHN0RnUjBtMHFpOGJUS2I3N05aTlhEWVdGbzhtSkJ3?oc=5",
-        "published_at": "2025-09-25T07:00:00Z",
-        "source": "BioPharma Dive",
-        "query": "Rocket Pharmaceuticals clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -597,18 +612,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Capricor readies revised FDA pitch for Duchenne cell therapy - BioPharma Dive",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "BioPharma Dive",
-        "date": "2025-09-25T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0Rrd0xfb1d3WTZVUWw1OFBZWTU5YjBtX2NyX0IwdE9jd1RIQ3cxQXh0TWtEVFk1dHltU0cyZUNBMlNiTm81ZTh0bFVXWi1JNGJ0cXF5OHZ5SlRnRE96ZHdGMzNzcmlHTzlmMXFYTEZiU2s1RjlCOGY2QTVmbUtLVjhHN0RnUjBtMHFpOGJUS2I3N05aTlhEWVdGbzhtSkJ3?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Scholar Rock: Zulassung vertagt? Egal – die Aktie rockt! - Der Aktionär",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -645,6 +648,18 @@
         "source": "Investing.com Deutsch",
         "date": "2026-03-27T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-03-27T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5"
       },
       {
         "type": "ClinicalTrials.gov",

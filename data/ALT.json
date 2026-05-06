@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.21",
-      "note": "Auto-Update: 21.86% vs. vorheriger Schlusskurs",
+      "value": "$3.19",
+      "note": "Auto-Update: 21.48% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,31 +183,16 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T16:57:52Z",
+    "last_update_utc": "2026-05-06T18:13:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.205,
+      "regularMarketPrice": 3.195,
       "previousClose": 2.63,
-      "change": 0.575,
-      "changePercent": 21.86
+      "change": 0.565,
+      "changePercent": 21.48
     },
     "news": [
-      {
-        "title": "Shortseller-Positionen aktuell: u.a. Aixtron, Cancom, Hypoport, Scout24, Suss MicroTec, TeamViewer, TUI - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DaWp3Zlg5a0lzZVVIN1hScG1WUXM1OUxnTnotTmszdHUxakh2Sm9SU2JVUFFCblVvSE1MM3A1c293LVUzWTdncVo0eDZMck50WmdlUmdubEwyLXBnTnZRdVNZQ1dwWlc3ay0ybm9XcmNDdndYNmRUYnZrVHbSAYIBQVVfeXFMTjExMFJQaDdJb1kyc09PSFV2RlFKZDYwbkNabWNfV3pHQWtFQy1IQnFkRHA2UHNaYUUxZmhXeVFrdjBPMGxGQjVGMXQ1V095U3lnOFJMSFpTVEsxSi1kN1JWdUQ1M0ZFaFBDa1JTcS02N2YyVlNIRmVISkFEZVhIcmN5Zw?oc=5",
-        "published_at": "2026-05-06T05:31:52Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
-      },
       {
         "title": "Altimmune's $225 Million Capital Raise Extends Runway Through Pivotal MASH Trial Readout - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdEtzX0d0aG1jTmNQMG9UVTZmbnVqTE4zUy1sSzdzYncyM3VleHNqdlMwejhQNFg1T0ZKWjE5cFNuYTBxc3lJcEQ5bGhqcUdMUmRqRV9IX0JZSXNzdG0wWkttZGxaNGs0UFlZSjVhX3dCYjEwbG5PYmF0UXBmRzh3YUVyRnBfODYtSWtRR2RuMi14RXRVbkNJMWRINmdkTW5mWjJucjhSLWVKOXRUYjlKZmR6YVZOVVhGUllnRXJ2TTFOTjBlc01MUDNhLTQ?oc=5",
@@ -374,6 +359,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Ausgrabungen in Griechenland: Älteste Holzwerkzeuge Europas entdeckt - Spektrum der Wissenschaft",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXR5ek5aUlFwcW02LXpKZWQyQmFobG5iLVp4WXg1YjZkSmIyRWdwdE5vbmRTaXVmNFoyeWp2am1NZEdFTF9Fa3g1ZlFyVUtMT3lFa042b2p5ejh0enE5VFlyT3VwbWVDY0FIdURSMUd6QXo4aTRSTDkxUmRvQ2gxb0Nxc1I1OUZaSERnODVQN0VraDJRY2h4Sy13?oc=5",
+        "published_at": "2026-01-27T08:00:00Z",
+        "source": "Spektrum der Wissenschaft",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Altimmune Shares Surge on Clinical Milestones and Market Dynamics - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
@@ -404,26 +404,11 @@
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
       },
       {
-        "title": "675 Jahre Stockacher Narrengericht: Das war das Narrentreffen - SWR",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSkRpTWRKTmlFbTcySXpuXzdhOXBRbTJrZTlHeTBVN0thd0ppWkQ5X293MHFoU2REVm01Wlo5LWxlMlF0aTVnUEZYcW9jSC1YRU5fM0hONkh6dTBieUlMUjhGRi01MGRIeldJQVdpSDhWSmVlc0ZhdUo3YURoSS1HeGZ1aFQwZHBJbnltUGZMMUpFVUVwZTZxWFJlNmhyczBMbDFBcVlXUEpZMThGcHlySXhLODg1bUpSZ2lfODYwUmxuM3NHLXN1bkVxVUdHYlFnVmRiR01Kbw?oc=5",
-        "published_at": "2026-01-25T08:00:00Z",
-        "source": "SWR",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Altimmune Aktie: Spekulative Rally - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWk5QdGtYZHVBaHppb1QxOUNvMWNqT2c2eDFZc0dVS3IxWFl2eTZuOWRFak14ZnNrUEp4YVV1UG1rMGkxVlNnSm16TF9qdTh3TEFQVU5FOW83VWxxa0Z2MDBheWhuQ2RudkZWN3NlaGdQNTNJUGVVNUFYa1RkYnNhUS1Udl8tWDlzNDdUSFRn?oc=5",
-        "published_at": "2026-01-25T08:00:00Z",
-        "source": "Börse Express",
-        "query": "ALT pemvidutide phase 2 phase 3",
+        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
+        "published_at": "2026-01-21T00:01:24Z",
+        "source": "Goldesel.de",
+        "query": "Altimmune ALT pemvidutide stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -438,21 +423,6 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13TUYxVnpHZC1vdHhubnJJM2E3RDNJOFlaVTBOT3hIWEZEdnJJdzBVeV92RGtuaFQwV3dqeTZKWVJvUlZ1WG4zZHp4Q3oyRUs5OFFfZXVLTE1scmowUkZKek9zRmJodlc3dWU2b1p6VmVRazl0cEFHVE8zZ1A?oc=5",
         "published_at": "2026-01-20T08:00:00Z",
         "source": "WDR",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Dinosaurier: T. rex wurde deutlich älter als gedacht - Spektrum der Wissenschaft",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1pPS2JYUElyc2tlWDhKM01DVmcxcHM3Y2ZaZ3dSbFN2WVl2bWNsNDY3MTN0OG5IbHFabm5ZamVFQ3JlR1lOMmVKNHBHazFxcUJGZzVFdXRTOHdfT2RsNE5UT3dJSzIwN2VVeU9mYUhTMUtocDRMTFdxeFk0R080bkNmV1A5LXJvTGxmcmFRdmFEdw?oc=5",
-        "published_at": "2026-01-15T08:00:00Z",
-        "source": "Spektrum der Wissenschaft",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -554,21 +524,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Historischer Meilenstein: Die Xbox 360 ist jetzt 20 Jahre alt und feiert trotz anfänglicher Kontroversen - GameStar",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNajFpYlVQNDN2YjJmdXA3dFkyY05OZ1Q4eGtFRDVPbEU4VWJMS0pXYVpCRGNmeUFrWWlFU1l5VUJ4ZVFtVDdPalliakJWTzU2MkNNV1ZIcEtOSGpjYV9TSTV5NzBxRjlzbjhOS29OcTkzRXU1S0tseGt3elpQQnhTcmYtdw?oc=5",
-        "published_at": "2025-11-23T08:00:00Z",
-        "source": "GameStar",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
         "title": "Altimmune Shares Poised for Potential Breakthrough - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUFINW1xd0RfamFPQ0Q4WHUyelFLaF9Jcm9HYnNiZXh4cmxyQ2F2S2VlOFpnaXlMZU44R0VmanpGSUNFbURURXp0NkRfUkVoLW9XQTI2V1FuNC1DZU1XUGZ4TEtKZDVTb0Y4Z3BhUFRhejgzQjEzaWRwd0tVM05fMWlBa01weThFLUloX3ExUXZzbXFiVEZTREZLcVgwaEdwdUNSejdZRXZ4bkIxeXc?oc=5",
         "published_at": "2025-11-17T08:00:00Z",
@@ -614,6 +569,51 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5",
+        "published_at": "2025-08-20T07:00:00Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+      },
+      {
+        "title": "Altwerden in Stuttgart Wie Ex-Oberbürgermeister Schuster die Sinnfrage im Alter beantwortet - stuttgarter-zeitung.de",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVHE2b2tIenIwczJLSlpDcS1kM3IxTEZQWWZaR1RFX2FhbmlZTnVTNkdUTWJJTFJuTkRUbFp0UjhzLVN1dXJ6d2tWNzBFZjdRcUxiWlNwSV90WlcxaGZZZUxoWGZZb1U5R3pMemE5Ukc5eE1BU0Y3VjRmZnNEQWR4aVRIYk5wMXFBcGpVdk82dGZIaU1WV0xFN28yMGV2SzRCb0hrNTBCWUlGeV9HUFlWRGQwYXY2dkpCcmVtY1BDQlhKcm9wUUZZUklfQm9MakxpLWp2V2xDbVlZTXZWM2lad1o0ekVfLXZkdTJMZTAxY21SWEt5LUhTUDM0TXhiQkNGWl9tUkFmWQ?oc=5",
+        "published_at": "2025-06-13T07:00:00Z",
+        "source": "stuttgarter-zeitung.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Studie: In Deutschland droht Angebotsmangel an emissionsarmen Logistikobjekten - Logistik Heute",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFdKazhnc0FtOGJoSzg4LWVlaFk1YlRmY29RajhoUkZ1aEl1Qk15aG5XQkRubXlxOE4xOGZfR0sta3hJdndDLWk2OFFPeHVZM0NZTlVLcVA3b29Gd2lkSjVMSTk0UE9QeU9DRUhqNUNWLWNVSlRvd2pJRlMtODl1b2VPSnZxTjVfb2RkMWxRb2tkU21pRFFoTEtjN3JLaUYzbXRMTnhFM2dab2pPNDBLM2w3Mkk?oc=5",
+        "published_at": "2025-06-10T07:00:00Z",
+        "source": "Logistik Heute",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Anti-Aging: Taurin doch kein Verjüngungsmittel - science.ORF.at",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQkpSTk5DSEtyTEJJQ2ZNUk9yOEppVV9Yb1hGVnRoellwbVJEM2FtUTB6TUFXZWRjUjBCMUQ2WHdYdXNQOEg0dGlCTUJMM0xC?oc=5",
         "published_at": "2025-06-05T07:00:00Z",
@@ -629,10 +629,10 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Ältester Mensch der Welt stirbt mit 116 Jahren in Brasilien – News - Deutsches Ärzteblatt",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMm81MDFjZWpwLU8xSWxfZTJfbXN3UV9LVEVzWFlSYXZ5NkFMQVdycDZzdWlMV1pTQ3c3LXBmMmlKZjlveG1na0dWcGRGZnFqRUNKOGxuVXNuaUVjN2tUckJGRjlyUjNoNU9XSzFIM1lwZTlScmZFdUh3cTdHRjgxaEhmNzZxSWhCY25kd21NQjZUamZvdWxFd2VhOTVPdTNERGlqeEMwR1A2VWtHYnhBNV9tOVNVSEZMSzBpNWp2WGxMeUdZb25j?oc=5",
-        "published_at": "2025-05-02T07:00:00Z",
-        "source": "Deutsches Ärzteblatt",
+        "title": "Aus Hochhaus geworfener Einkaufswagen trifft zwei Autos, eins der Feuerwehr - rbb24.de",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM0xKMmdQWGhnREVUMjFGMGl5bTZ5UWxlY2VVNDE4MzNQSXlYV0NOVlkxVnJrc2dtX3dyTXVNa0tUOC1TY3dRRjU0UHItd3ktblBORkcyY0paRHZ2NFlTOFFaeWFuRmRfY0VYbzlvOTdFaDJST1ZfeF96d0xyUElLbnBsc2Uxd1g2bHBJbFByb05RYTVKbGNJbWRHWnBPemRGRDFXY25SbWxZQlRHYl8zZA?oc=5",
+        "published_at": "2025-04-10T07:00:00Z",
+        "source": "rbb24.de",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1172,6 +1172,18 @@
         "date": "2019-01-21"
       },
       {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
+        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "4investors.de",
+        "date": "2025-08-20T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5"
+      },
+      {
         "type": "SEC Filing",
         "level": "low",
         "title": "4 · 2026-04-01",
@@ -1194,14 +1206,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G · 2026-04-30",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-30"
       }
     ],
     "queries_used": [
