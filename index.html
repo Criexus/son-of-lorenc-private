@@ -78,6 +78,26 @@
   </section>
 
 
+
+  <section class="section card panel adminPanel dangerPanel">
+    <div class="sectionHead">
+      <div>
+        <h2>Admin · Aktie löschen</h2>
+        <p class="sub">Entfernt eine Aktie dauerhaft aus Watchlist, Dashboard-Daten und Dossier-Datei. Danach wird die Seite neu deployed.</p>
+      </div>
+      <span class="liveBadge dangerBadge">Löschen</span>
+    </div>
+    <form id="deleteStockForm" class="adminForm">
+      <div class="adminGrid deleteGrid">
+        <label><span>Aktie auswählen *</span><select id="deleteTickerSelect" required></select></label>
+        <label><span>Bestätigung *</span><input id="deleteConfirm" placeholder='Zum Löschen exakt "LÖSCHEN" eingeben' autocomplete="off" required></label>
+        <label><span>Admin-PIN optional</span><input id="deleteAdminPin" type="password" placeholder="nur falls gesetzt"></label>
+      </div>
+      <div class="adminActions"><button class="deleteBtn" type="submit">Aktie löschen</button></div>
+      <p id="deleteStatus" class="adminStatus">Lokal kannst du alternativ nutzen: <code>python3 scripts/delete_stock.py CABA</code></p>
+    </form>
+  </section>
+
   <section class="hero">
     <div class="card heroMain">
       <div class="heroWatermark">
@@ -96,32 +116,32 @@
 
   <section class="section grid2">
     <div class="card panel">
-      <h2>Klickbares Kurs-/Newsdiagramm</h2>
+      <h2>Zeitlinie: Kurs & Nachrichten</h2>
       <p class="sub" id="chartSubtitle"></p>
       <div class="chartWrap"><svg id="chart" viewBox="0 0 1100 430" role="img" aria-label="schematischer News-Kursverlauf"></svg></div>
       <p class="timelineNote" id="chartNote"></p>
     </div>
     <div class="card panel">
-      <h2>News-Details</h2>
+      <h2>Details zum ausgewählten Punkt</h2>
       <div class="eventList" id="eventList"></div>
       <div class="detail" id="detail"></div>
     </div>
   </section>
 
   <section class="section card panel">
-    <h2>Pipeline / Produktphasen</h2>
+    <h2>Woran arbeitet das Unternehmen?</h2>
     <p class="sub" id="pipelineIntro"></p>
     <div class="pipeline" id="pipeline"></div>
   </section>
 
   <section class="section grid2">
     <div class="card panel">
-      <h2>Szenario & Einstieg</h2>
-      <p class="sub">Keine Kaufempfehlung. Das ist eine nüchterne Chancen-Risiko-Zonenlogik.</p>
+      <h2>Mögliche Kursbereiche & Einstiegsidee</h2>
+      <p class="sub">Keine Kaufempfehlung. Hier geht es nur darum, welche Kursbereiche eher interessant, riskant oder überhitzt wirken.</p>
       <div class="zoneList" id="zones"></div>
     </div>
     <div class="card panel">
-      <h2>Nächste Katalysatoren</h2>
+      <h2>Nächste wichtige Termine / Auslöser</h2>
       <div id="catalysts"></div>
     </div>
   </section>
@@ -133,7 +153,7 @@
   </section>
 
   <section class="section card panel">
-    <h2>Cash / Verwässerung / Risikoanalyse</h2>
+    <h2>Geldlage, neue Aktien & Risiken</h2>
     <div class="risk" id="risks"></div>
   </section>
 
@@ -152,8 +172,8 @@
   <section class="section card panel livePanel">
     <div class="sectionHead">
       <div>
-        <h2>Datentrigger / Analyse-Signale</h2>
-        <p class="sub">Automatisch erkannte Hinweise aus News, SEC-Filings und Studienregistern. Diese Trigger sind eine Vorfilterung, keine finale Bewertung.</p>
+        <h2>Automatisch erkannte wichtige Hinweise</h2>
+        <p class="sub">Das System markiert Meldungen, die für den Kurs wichtig sein könnten – zum Beispiel Studienergebnisse, FDA-Themen, Finanzierung oder Quartalszahlen.</p>
       </div>
       <span class="liveBadge" id="triggerCount">0 Trigger</span>
     </div>
@@ -164,8 +184,8 @@
   <section class="section card panel livePanel">
     <div class="sectionHead">
       <div>
-        <h2>Aktuelle SEC-Filings</h2>
-        <p class="sub">Offizielle Unternehmensmeldungen. Besonders relevant für Cash, Verwässerung, Quartalsberichte und Kapitalmaßnahmen.</p>
+        <h2>Offizielle Unternehmensmeldungen (SEC)</h2>
+        <p class="sub">Offizielle Börsenmeldungen aus den USA. Besonders wichtig bei Kapitalerhöhungen, Quartalszahlen, Cashbestand oder großen Unternehmensereignissen.</p>
       </div>
       <span class="liveBadge" id="secCount">0 Filings</span>
     </div>
@@ -173,12 +193,12 @@
   </section>
 
   <section class="section card panel">
-    <h2>Klare Einordnung</h2>
+    <h2>Einfache Zusammenfassung</h2>
     <div id="clearView"></div>
   </section>
 
   <section class="section card panel footerSources">
-    <h2 style="color:#fff">Quellenbasis</h2>
+    <h2 style="color:#fff">Quellen & Links</h2>
     <ul id="sources"></ul>
     <p class="small">Nur Informations- und Analysezwecke. Keine Anlageberatung, keine Kauf- oder Verkaufsempfehlung.</p>
   </section>

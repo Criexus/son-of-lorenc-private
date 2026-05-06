@@ -1,38 +1,28 @@
-# Son of Lorenc – Master v1.4 News Analysis & Links
+# Son of Lorenc – Master v1.6 Simple Timeline
 
-Diese Version ergänzt v1.3 um eine konsequente News-Einordnung und klickbare Quellenlinks.
+Diese Version enthält weiterhin die Löschfunktion aus v1.5 und verbessert die Verständlichkeit.
 
-## Neu in v1.4
+## Neu in v1.6
 
-- jede automatisch gefundene News bekommt eine Einordnung
-- jede News bekommt „Worauf achten“
-- jede News bekommt „Möglicher Effekt“
-- Quellenlinks sind klickbar:
-  - in der Live-News-Sektion
-  - in den News-Details rechts am Diagramm
-  - in den Datentriggern
-- farbliche Trigger-Schwere:
-  - high
-  - medium
-  - low
+- Kurs-/Newsdiagramm ist chronologisch sortiert
+- Zeitlinie läuft sauber von links nach rechts: alt → neu
+- automatische News, SEC-Filings und Studienregister-Treffer werden in die Zeitlinie einsortiert
+- einfachere Begriffe im Dashboard
+- „Katalysator“ wird als „wichtiger Auslöser / Termin“ erklärt
+- Pipeline-Karten werden einfacher formuliert
+- „Werttreiber“ wird erklärt: wie stark ein Programm den Kurs bewegen kann
+- Szenario & Einstieg nutzt Anfänger-Sprache
+- Löschfunktion bleibt enthalten
 
-## Wichtig
+## Für Online-Update
 
-Die Einordnung ist in der kostenlosen Version regelbasiert. Sie erkennt Schlüsseltrigger wie FDA, Phase, Readout, Offering, Cash, SEC, Partnerschaft usw.
+Nur diese Code-Dateien kopieren/pushen, damit aktuelle Daten wie CABA erhalten bleiben:
 
-Für eine echte KI-Einordnung können wir später OpenAI API ergänzen.
+- `index.html`
+- `assets/app.js`
+- `assets/style.css`
 
-## Lokal testen
+Optional:
+- `data/*.json` nur, wenn die Beispieltexte überschrieben werden sollen.
 
-```bash
-cd ~/Downloads/son-of-lorenc-master-v1-4-news-analysis-links
-python3 -m pip install -r requirements.txt
-python3 scripts/update_data.py
-python3 -m http.server 8090
-```
-
-Dann öffnen:
-
-```text
-http://localhost:8090
-```
+Der Worker muss für diese Änderung nicht neu angepasst werden, wenn v1.5 bereits läuft.

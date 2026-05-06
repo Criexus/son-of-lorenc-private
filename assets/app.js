@@ -35,6 +35,7 @@ async function boot() {
   await loadMeta();
   const wl = await getJson("/data/watchlist.json");
   $("tickerSelect").innerHTML = wl.map(x => `<option value="${esc(x.ticker)}">${esc(x.ticker)} · ${esc(x.name)}</option>`).join("");
+  populateDeleteDropdown(wl);
   $("tickerSelect").addEventListener("change", e => loadTicker(e.target.value));
   $("refreshBtn").addEventListener("click", async () => {
     $("refreshBtn").textContent = "Lade…";
@@ -43,6 +44,7 @@ async function boot() {
     $("refreshBtn").textContent = "Daten neu laden";
   });
   initAdminForm();
+  initDeleteForm();
   await loadTicker(wl[0]?.ticker || "ATAI");
 }
 
@@ -98,43 +100,44 @@ function render() {
   $("pipelineIntro").textContent = data.pipeline_intro || "";
   $("pipeline").innerHTML = (data.pipeline || []).map(p => `
     <div class="pipeCard">
-      <span class="stage ${esc(p.class || "early")}">${esc(p.stage)}</span>
-      <h3>${esc(p.name)}</h3>
-      <p>${esc(p.text)}</p>
+      <span class="stage ${esc(p.class || "early")}">${esc(simplePhaseLabel(p.stage))}</span>
+      <h3>${esc(simplifyText(p.name))}</h3>
+      <p>${esc(simplifyText(p.text))}</p>
       <div class="rank"><i style="width:${Number(p.score || 0)}%"></i></div>
-      <p class="small">Werttreiber: ${esc(p.score_label || `${p.score || 0}%`)}</p>
+      <p class="small"><strong>Warum wichtig?</strong> ${esc(simpleDriverLabel(p.score))}</p>
+      <p class="small">Heißt einfach: Je stärker dieses Programm ist, desto eher kann es die Aktie positiv oder negativ bewegen.</p>
     </div>
   `).join("");
 
   $("zones").innerHTML = (data.zones || []).map(z => `
-    <div class="zone"><b>${esc(z.zone)}</b><span>${esc(z.text)}</span></div>
+    <div class="zone"><b>${esc(simplifyText(z.zone))}</b><span>${esc(simplifyText(z.text))}</span></div>
   `).join("");
 
   $("catalysts").innerHTML = (data.catalysts || []).map(c => `
     <div class="scenario base">
-      <span class="tag">${esc(c.tag)}</span>
-      <h3>${esc(c.title)}</h3>
-      <p>${esc(c.text)}</p>
+      <span class="tag">${esc(simplifyText(c.tag))}</span>
+      <h3>${esc(simplifyText(c.title))}</h3>
+      <p>${esc(simplifyText(c.text))}</p>
     </div><br>
   `).join("");
 
   const s = data.scenarios || {};
-  $("bearTitle").textContent = s.bear?.title || "Bear Case";
-  $("bearText").textContent = s.bear?.text || "";
-  $("baseTitle").textContent = s.base?.title || "Base Case";
-  $("baseText").textContent = s.base?.text || "";
-  $("bullTitle").textContent = s.bull?.title || "Bull Case";
-  $("bullText").textContent = s.bull?.text || "";
+  $("bearTitle").textContent = simplifyText(s.bear?.title || "schlechter Fall");
+  $("bearText").textContent = simplifyText(s.bear?.text || "");
+  $("baseTitle").textContent = simplifyText(s.base?.title || "normaler Fall");
+  $("baseText").textContent = simplifyText(s.base?.text || "");
+  $("bullTitle").textContent = simplifyText(s.bull?.title || "guter Fall");
+  $("bullText").textContent = simplifyText(s.bull?.text || "");
 
   $("risks").innerHTML = (data.risks || []).map(r => `
-    <div class="riskItem"><b>${esc(r.title)}:</b> ${esc(r.text)}</div>
+    <div class="riskItem"><b>${esc(simplifyText(r.title))}:</b> ${esc(simplifyText(r.text))}</div>
   `).join("");
 
   renderLiveNews();
   renderTriggers();
   renderSecFilings();
 
-  $("clearView").innerHTML = (data.clear_view || []).map(p => `<p>${esc(p)}</p>`).join("");
+  $("clearView").innerHTML = (data.clear_view || []).map(p => `<p>${esc(simplifyText(p))}</p>`).join("");
 
   $("sources").innerHTML = (data.sources || []).map(src => {
     if (typeof src === "string") return `<li>${esc(src)}</li>`;
@@ -179,6 +182,105 @@ function renderSecFilings() {
       <p>Offizielle Meldung. Besonders bei S-1, F-3, 424B, 8-K, 10-Q/20-F auf Cash und Verwässerung prüfen.</p>
     </article>
   `).join("");
+}
+
+
+
+function simplifyText(text = "") {
+  return String(text)
+    .replaceAll("Katalysator", "wichtiger Auslöser")
+    .replaceAll("katalysator", "wichtiger Auslöser")
+    .replaceAll("Readout", "Studienergebnisse")
+    .replaceAll("readout", "Studienergebnisse")
+    .replaceAll("Topline", "erste Studienergebnisse")
+    .replaceAll("topline", "erste Studienergebnisse")
+    .replaceAll("H2 2026", "zweite Jahreshälfte 2026")
+    .replaceAll("Q1", "1. Quartal")
+    .replaceAll("Q2", "2. Quartal")
+    .replaceAll("Q3", "3. Quartal")
+    .replaceAll("Q4", "4. Quartal")
+    .replaceAll("Bear Case", "schlechter Fall")
+    .replaceAll("Base Case", "normaler Fall")
+    .replaceAll("Bull Case", "guter Fall")
+    .replaceAll("Verwässerung", "neue Aktien / Verwässerung")
+    .replaceAll("Cash Runway", "wie lange das Geld reicht")
+    .replaceAll("Phase‑3", "Phase 3")
+    .replaceAll("Phase‑2", "Phase 2");
+}
+
+function simplePhaseLabel(text = "") {
+  const s = simplifyText(text);
+  if (/phase\s*3/i.test(s)) return `${s} · sehr wichtig, weil späte Studienphase`;
+  if (/phase\s*2/i.test(s)) return `${s} · wichtig, aber noch nicht endgültig`;
+  if (/early|preclinical|discovery/i.test(s)) return `${s} · frühe Forschung, eher langfristig`;
+  return s;
+}
+
+function simpleDriverLabel(score) {
+  const n = Number(score || 0);
+  if (n >= 85) return "sehr wichtig für den Kurs";
+  if (n >= 65) return "kann den Kurs deutlich bewegen";
+  if (n >= 40) return "mittlerer Einfluss";
+  return "eher langfristig / kleiner Einfluss";
+}
+
+function parseTimelineDate(value = "", fallbackIndex = 0, future = false) {
+  const raw = String(value || "").trim();
+
+  // ISO / normal Date
+  const iso = Date.parse(raw);
+  if (!Number.isNaN(iso)) return iso;
+
+  // dd.mm.yyyy
+  const de = raw.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+  if (de) return Date.UTC(Number(de[3]), Number(de[2]) - 1, Number(de[1]));
+
+  // mm/yyyy or dd.mm without year -> current year fallback
+  const deShort = raw.match(/^(\d{1,2})\.(\d{1,2})\.?$/);
+  if (deShort) {
+    const year = new Date().getFullYear();
+    return Date.UTC(year, Number(deShort[2]) - 1, Number(deShort[1]));
+  }
+
+  // Q1/Q2/Q3/Q4 2026
+  const q = raw.match(/Q([1-4])\s*(\d{4})/i);
+  if (q) {
+    const quarter = Number(q[1]);
+    const month = (quarter - 1) * 3 + 1; // middle-ish month of quarter
+    return Date.UTC(Number(q[2]), month, 15);
+  }
+
+  // H1/H2 2026
+  const h = raw.match(/H([12])\s*(\d{4})/i);
+  if (h) {
+    const month = Number(h[1]) === 1 ? 2 : 8;
+    return Date.UTC(Number(h[2]), month, 15);
+  }
+
+  // German descriptions
+  if (/zweite jahreshälfte/i.test(raw)) {
+    const year = Number((raw.match(/(\d{4})/) || [null, new Date().getFullYear()])[1]);
+    return Date.UTC(year, 8, 15);
+  }
+  if (/erste jahreshälfte/i.test(raw)) {
+    const year = Number((raw.match(/(\d{4})/) || [null, new Date().getFullYear()])[1]);
+    return Date.UTC(year, 2, 15);
+  }
+
+  // placeholders: keep at beginning if not future, otherwise at end
+  const base = future ? Date.UTC(2099, 0, 1) : Date.UTC(1970, 0, 1);
+  return base + fallbackIndex;
+}
+
+function sortEventsChronologically(events) {
+  return [...events].map((e, i) => ({
+    ...e,
+    _order: i,
+    _sort: parseTimelineDate(e.sort_date || e.published_at || e.d || e.filingDate || e.last_update || e.start_date, i, e.future)
+  })).sort((a, b) => {
+    if (a._sort !== b._sort) return a._sort - b._sort;
+    return a._order - b._order;
+  });
 }
 
 
@@ -234,11 +336,11 @@ function combinedEvents() {
 
   const auto = [...autoNewsEvents, ...filingEvents, ...trialEvents];
 
-  if (manualLooksPlaceholder && auto.length) return auto.slice(0, 24);
-  if (!manual.length && auto.length) return auto.slice(0, 24);
+  if (manualLooksPlaceholder && auto.length) return sortEventsChronologically(auto.slice(0, 24));
+  if (!manual.length && auto.length) return sortEventsChronologically(auto.slice(0, 24));
 
   // Für kuratierte Dossiers bleiben manuelle Daten vorne; Live-Treffer werden angehängt.
-  return [...manual, ...auto.slice(0, 10)].slice(0, 28);
+  return sortEventsChronologically([...manual, ...auto.slice(0, 10)].slice(0, 28));
 }
 
 function shortDate(value) {
@@ -347,14 +449,14 @@ function draw() {
   }
 
   const label = el("text", { x: 72, y: 35, fill: "#c7d0dc", "font-size": 13 });
-  label.textContent = "Schematische News-/Kursphasen · Rot = historisch · Gelb gestrichelt = erwartete Katalysatoren";
+  label.textContent = "Chronologische Zeitlinie · von links nach rechts: ältere bis neuere Nachrichten / Termine";
 }
 
 function renderList() {
   const events = combinedEvents();
   $("eventList").innerHTML = events.map((e, i) => `
     <button class="eventBtn${i === active ? " active" : ""}" onclick="select(${i})">
-      <b>${esc(e.d)} · ${esc(e.title)}</b><span>${esc(e.phase)}</span>
+      <b>${esc(e.d)} · ${esc(e.title)}</b><span>${esc(simplifyText(e.phase))}</span>
     </button>
   `).join("");
 }
@@ -367,10 +469,10 @@ function renderDetail() {
   }
   const link = e.url && e.url !== "#" ? `<p><a class="sourceLink" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">Artikel / Quelle öffnen →</a></p>` : "";
   $("detail").innerHTML = `
-    <span class="phaseTag">${esc(e.phase)}</span>
-    <h3>${esc(e.title)}</h3>
-    <p><strong>Kurs-/Newsreaktion:</strong> ${esc(e.reaction)}</p>
-    <p><strong>Einordnung:</strong> ${esc(e.details)}</p>
+    <span class="phaseTag">${esc(simplifyText(e.phase))}</span>
+    <h3>${esc(simplifyText(e.title))}</h3>
+    <p><strong>Kurs-/Newsreaktion:</strong> ${esc(simplifyText(e.reaction))}</p>
+    <p><strong>Einordnung:</strong> ${esc(simplifyText(e.details))}</p>
     ${e.watch ? `<p><strong>Worauf achten:</strong> ${esc(e.watch)}</p>` : ""}
     ${e.impact ? `<p><strong>Möglicher Effekt:</strong> ${esc(e.impact)}</p>` : ""}
     <p class="small"><strong>Quelle:</strong> ${esc(e.source)}</p>
@@ -452,6 +554,54 @@ function initAdminForm() {
   });
 }
 
+
+
+function populateDeleteDropdown(watchlist) {
+  const sel = $("deleteTickerSelect");
+  if (!sel) return;
+  sel.innerHTML = (watchlist || []).map(x => `<option value="${esc(x.ticker)}">${esc(x.ticker)} · ${esc(x.name || "")}</option>`).join("");
+}
+
+function initDeleteForm() {
+  const form = $("deleteStockForm");
+  const status = $("deleteStatus");
+  if (!form) return;
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const apiUrl = (window.SOL_ADMIN_API_URL || "").trim().replace(/\/$/, "");
+    const ticker = $("deleteTickerSelect").value.trim().toUpperCase();
+    const confirmText = $("deleteConfirm").value.trim();
+    const adminPin = $("deleteAdminPin").value;
+    if (confirmText !== "LÖSCHEN") {
+      status.className = "adminStatus err";
+      status.textContent = 'Bitte exakt "LÖSCHEN" eingeben, damit nichts versehentlich entfernt wird.';
+      return;
+    }
+    if (!apiUrl) {
+      status.className = "adminStatus err";
+      status.innerHTML = `Admin-Worker ist noch nicht verbunden. Lokal nutze: <code>python3 scripts/delete_stock.py ${esc(ticker)}</code>`;
+      return;
+    }
+    status.className = "adminStatus";
+    status.textContent = `Lösche ${ticker} aus GitHub…`;
+    try {
+      const res = await fetch(`${apiUrl}/delete-stock`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ticker, adminPin })
+      });
+      const result = await res.json().catch(() => ({}));
+      if (!res.ok || !result.ok) throw new Error(result.error || result.message || `Fehler ${res.status}`);
+      status.className = "adminStatus ok";
+      status.textContent = `${ticker} wurde gelöscht. GitHub/Cloudflare braucht ggf. kurz zum Deployen. Danach Seite hart neu laden.`;
+      $("deleteConfirm").value = "";
+      await loadMeta();
+    } catch (err) {
+      status.className = "adminStatus err";
+      status.textContent = `Fehler beim Löschen: ${err.message}`;
+    }
+  });
+}
 
 boot().catch(err => {
   document.body.innerHTML = `<pre style="color:white;padding:30px">Fehler: ${esc(err.message)}
