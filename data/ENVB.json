@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "wird aktualisiert",
-      "note": "aus automatischem Datenabruf",
+      "value": "$3.17",
+      "note": "Auto-Update: -38.57% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -87,9 +87,492 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T15:09:10.212Z",
-    "price": null,
-    "news": [],
-    "sec_filings": []
+    "last_update_utc": "2026-05-06T15:10:18Z",
+    "price": {
+      "source": "Yahoo Finance Chart Endpoint",
+      "currency": "USD",
+      "regularMarketPrice": 3.17,
+      "previousClose": 5.16,
+      "change": -1.99,
+      "changePercent": -38.57
+    },
+    "news": [
+      {
+        "title": "Lakewood-Amedex beruft CEO von Enveric in den Verwaltungsrat - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTU1Qzl0eGczcHBDNHBfT1JLUF9UYkVSV3RUVjlyd3FoR1ZVTjRZbHJKdkVZVDBfbnl5T0RJSnRJeVB6OXRDT0h3dlI5ak93MWpvTkEwTEY4MzlZRk1NX1YtVUdjWmkxc0U4V0hncWVXNWtWU0l6WnVCUUdzNVNObnRiUG9mZDc4dFNYOHZXQzl3cnhqbEFPMWNfR2tQNkFNSVhwT1NnMUhWV2U2V0ZZNF9SRzZoUQ?oc=5",
+        "published_at": "2026-04-28T11:48:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Enveric Biosciences ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Auto anmelden: Was ist die eVB-Nummer und wie bekommt man sie? - ka-news",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHZTOUJ1WnhOSTMwTlN3QUF4RTZBNTBZMkxIdlB0RDRuUF8weWpRa3daaXZKdVItcWpxTXdiOHEtZk1Ib091dVgwVzNPOUZzRjlvYkZpUC16UGt0a1o0QUZaREN0SERKeVlDejJZdG11cUtvcmdjbWhrbVJOLVMzNkVhV2ZDVU45eU0xTDBvc0JVYjNDdGRSS1NtS3FuSWZoU3dMQUpmbms3QQ?oc=5",
+        "published_at": "2026-04-27T08:51:10Z",
+        "source": "ka-news",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Potsdam: Klinikum EvB schreibt zweite Geschäftsführung aus - kma Online",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQci1LbUtOUTNzVnJNX091STFLYUtZMjVYWkJPUHltWkdKbXRscEVpMG9iSGZWUzh2R2lYRm15Qy0xMWJLc3dYTGcwWXZWR0VlQU5HZTV3NlNEQXAzeWpHNzJHX0s1QlhOWnRsbGE4RGZjbEZ4Y28wTmZZREhuV1VBQWRLcnBRNzh0MGJWc1daN0ctbTB5cXUzbDZ5N29aWUlmbEhNZk5UUm1uSmE4Rk01LUk0b0phczFQOFJzOA?oc=5",
+        "published_at": "2026-03-25T07:00:00Z",
+        "source": "kma Online",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Verwaltung: Open Source wird zum Standard - heise online",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWk9zbUlEZVdBclJWd2ZJQ2lNQ3h0dXBac3Q5UkhQT3RDZFBuTnlMV3Vfd1U1X1NVX0FFQUNqQnNZRFoxUnpHeFEyMmxZX2JfcjA1SG84blA5dERITFFteHM5amtsN2VHQjZPYVhldzlNS0xSWnlqZU05T0UxQ25vM3RkU0FoeXc?oc=5",
+        "published_at": "2026-03-20T07:00:00Z",
+        "source": "heise online",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Klinikum EvB und Diakonissenhaus Teltow arbeiten zusammen - kma Online",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSHJSak4wRV8wZ24xZ1g0MkRlS051UjhjMmNQbk91ZV9jUG03VjRTUF9HdFJ5YVVHaHdLYmk5WWUyejYwTEtUcV9MV21FMkVfeDM4OVMzenlvS1I0TTZJVnRzMVpkS2hFNEVTdm5GQ0xFSURFenk2cnZCWXVKTVhQRER6WHVVOXVOM1FFZ250dTEwdmtDVDFVOXJKSVpzemlDT0Y4aHNuM05nU0J2TW96SWJGcWczNTJXS3c?oc=5",
+        "published_at": "2026-02-03T08:00:00Z",
+        "source": "kma Online",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Wahnsinn um Enbridge Inc: Darum reden jetzt alle über ENB – lohnt sich der Einstieg noch? - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTDJTSTFIaWlnQXRUZV84aF9GSTRsd0s0ZVVOUFRidG42Mm42WF81V1pYNUJLVE9rVzViQUE3OV9XRzZUUXdRVkg0UzZObTFRanFEZFFQcmlSYjIydnl5TmMtMncwblc5c1h2TUt0aVJtb0sxLTBXemREU0tEeWkxYkVrdm16LWhXMlp5TExJMHlaaXpGNS1TNGI0NmpFeXNXU05GZXBsVUd3YXZyQm05TTRLc0hDSFdKYjJZTXk0aGVkN05oZ3c?oc=5",
+        "published_at": "2025-12-31T08:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Schwerer Unfall in Kutenholz: EVB-Zug prallt an Bahnübergang gegen Traktor - kreiszeitung-wochenblatt.de",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYlM1Y2RqY1VhZWZFU3hORkhsRjV5RXpGR2ozZ0NqV0poTHZuc0Y3cE1QTWpJdERHNUY3XzhqbHUxRURENEpMZm12dDc3SUJxQWl1R0ZTTmxtclAzSDFuWVN2WFhnVE9kcHlDYWxzQ0lucVB6czBBa21KVVU2VVlNZWFtRDE0Wm85d0ZBaGRxcVd1Rjd6bFFoUGh6Tk5GdDM3aThwdnpxcm5CTHpCemxjR1FUZjhHZDl4M1ZlbVBkOS1HSVFuMWc0WUUzVFh3eDQ1WDB1aER3TllZbHUweEE?oc=5",
+        "published_at": "2025-09-17T07:00:00Z",
+        "source": "kreiszeitung-wochenblatt.de",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "ENB Prognose — Kursziel für 2027 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPU3BoZFpDVnJocGJzUWpha29uaFgyaGR1VVhmbW5SckJpVHMxWWxEVV92V01FQTVBYnVHZU9reXJaZW04aEhyWFBQWUNRbnZwRGZZa0ZiaTRVT0RzSG5NdEd3?oc=5",
+        "published_at": "2022-08-16T20:00:04Z",
+        "source": "TradingView",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "ENB Aktienkurs und Chart — TSX:ENB - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE90VDdBSl9IT3A5NS1YMm56U084WmFESU5ZNFlkZUhwb1JoVVVpTGNVb2p1ZmFQdnNQZEZqUVZYTDMzaGRUazE1YWVENGltdXdYLXZBdW1R?oc=5",
+        "published_at": "2018-12-09T08:00:00Z",
+        "source": "TradingView",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Technische Analyse von Enbridge Inc. (TSX: ENB) - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQeGpQcHpBdUJIOVpNcnN1clZ0VHRZc1YzZG81UXFPSTlrRG5jbllvTWZBWXRLT1pZRUhzUFM1VTk0TzN2aUdTRWZkNVp3bm54NFZZdzBHTkJKTTFPODNsVXB3cmI?oc=5",
+        "published_at": "2018-05-22T23:03:41Z",
+        "source": "TradingView",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Enveric Biosciences Aktie | ENVB Kurs | Realtime - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HcThLdHNOeXFtVTVlM1pSUFlJdlFzZkJPUEZFS1JsYmJ0YmczazhpUnJuQTVJclZiOHJoYWVrenlRWU1adTBvRGk5dmQ5Q2kxczJ1VmgwaVZaR3pq?oc=5",
+        "published_at": "2017-11-13T11:22:06Z",
+        "source": "Investing.com Deutsch",
+        "query": "Enveric Biosciences ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      }
+    ],
+    "sec_filings": [
+      {
+        "form": "D",
+        "filingDate": "2026-05-04",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000089082126000002/xslFormDX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-04-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226020410/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEFA14A",
+        "filingDate": "2026-04-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226020405/formdefa14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-04-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/999999999526001390/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226019676/form424b3.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "S-3",
+        "filingDate": "2026-04-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226018724/forms-3.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-04-20",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226017960/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "ARS",
+        "filingDate": "2026-04-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226016546/formars.pdf",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEFA14A",
+        "filingDate": "2026-04-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226016544/formdefa14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEF 14A",
+        "filingDate": "2026-04-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226016543/formdef14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "PRE 14A",
+        "filingDate": "2026-04-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226015175/formpre14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "10-K",
+        "filingDate": "2026-03-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226013294/form10-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-03-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226013290/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-02-18",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226007345/form424b3.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-02-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/999999999526000616/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "D",
+        "filingDate": "2026-02-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000089082126000001/xslFormDX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "S-1",
+        "filingDate": "2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226005852/forms-1.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226005606/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B5",
+        "filingDate": "2026-02-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226005591/form424b5.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-02-04",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000092963826000500/xslSCHEDULE_13G_X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      }
+    ],
+    "clinical_trials": [],
+    "detected_triggers": [
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B5 · 2026-02-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-06"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "S-1 · 2026-02-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-10"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-02-18",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-18"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "S-3 · 2026-04-23",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-23"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-29"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-02-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-06"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-K · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-04-20",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-04-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-02-04",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-04"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "D · 2026-02-11",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-11"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-02-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "PRE 14A · 2026-04-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-03"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "ARS · 2026-04-14",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-04-14",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEF 14A · 2026-04-14",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-04-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-29"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-04-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "D · 2026-05-04",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-04"
+      }
+    ],
+    "queries_used": [
+      "Enveric Biosciences ENVB EB-003 EB-002 stock news",
+      "Enveric Biosciences ENVB stock news",
+      "ENVB stock news"
+    ],
+    "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
   }
 }
