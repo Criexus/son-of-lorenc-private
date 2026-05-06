@@ -520,9 +520,24 @@ def build_auto_clear_view(data, news):
 
 def should_autofill(data):
     pipeline = data.get("pipeline") or []
+    zones = data.get("zones") or []
+    catalysts = data.get("catalysts") or []
+    risks = data.get("risks") or []
     clear = " ".join(data.get("clear_view") or [])
     headline = data.get("headline", "")
-    return (not pipeline or is_placeholder_text(headline) or is_placeholder_text(clear) or any(is_placeholder_text(p.get("name","") + " " + p.get("text","")) for p in pipeline))
+    thesis = data.get("thesis", "")
+    return (
+        not pipeline
+        or not zones
+        or not catalysts
+        or not risks
+        or not clear.strip()
+        or is_placeholder_text(headline)
+        or is_placeholder_text(thesis)
+        or is_placeholder_text(clear)
+        or any(is_placeholder_text((p.get("name","") + " " + p.get("text",""))) for p in pipeline)
+        or any("offen" in str(x).lower() for x in [clear, headline, thesis])
+    )
 
 def autofill_dossier(data, news, filings, trials, price):
     if not should_autofill(data):
@@ -631,7 +646,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v1.7-auto-dossier",
+        "version": "master-v2.0-solid-admin-autodossier",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"

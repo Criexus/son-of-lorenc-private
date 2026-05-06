@@ -490,6 +490,15 @@ window.select = function(i) {
 
 
 
+
+function closeAdminDropdownSoon() {
+  setTimeout(() => {
+    const admin = document.querySelector(".adminDropdown");
+    if (admin) admin.open = false;
+  }, 1200);
+}
+
+
 function initDropdownBehavior() {
   document.addEventListener("click", (event) => {
     const admin = document.querySelector(".adminDropdown");
@@ -556,6 +565,7 @@ function initAdminForm() {
 
       status.className = "adminStatus ok";
       status.textContent = `Gespeichert: ${payload.ticker}. GitHub/Cloudflare braucht ggf. kurz zum Deployen. Danach Daten neu laden.`;
+      closeAdminDropdownSoon();
 
       form.reset();
       $("newExchange").value = "NASDAQ";
@@ -607,6 +617,7 @@ function initDeleteForm() {
       if (!res.ok || !result.ok) throw new Error(result.error || result.message || `Fehler ${res.status}`);
       status.className = "adminStatus ok";
       status.textContent = `${ticker} wurde gelöscht. GitHub/Cloudflare braucht ggf. kurz zum Deployen. Danach Seite hart neu laden.`;
+      closeAdminDropdownSoon();
       $("deleteConfirm").value = "";
       await loadMeta();
     } catch (err) {

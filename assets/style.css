@@ -818,3 +818,97 @@ a{color:#9ec8ff;text-decoration:none}.wrap{max-width:1440px;margin:0 auto;paddin
     z-index:10080 !important;
   }
 }
+
+/* v2.0 Solid Admin Panel Fix */
+.adminDropdown{
+  position:relative;
+  z-index:50000 !important;
+}
+
+.adminDropdown[open]::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.56);
+  z-index:49990;
+  pointer-events:none;
+}
+
+.adminDropdownPanel{
+  position:fixed !important;
+  top:96px !important;
+  right:28px !important;
+  left:auto !important;
+  width:min(880px, calc(100vw - 56px)) !important;
+  max-height:calc(100vh - 126px) !important;
+  overflow:auto !important;
+  z-index:50010 !important;
+
+  background:#101722 !important;
+  background-image:
+    radial-gradient(circle at 20% 0%, rgba(255,87,87,.12), transparent 34%),
+    linear-gradient(180deg,#151d2a 0%,#0b111a 100%) !important;
+  opacity:1 !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+
+  border:1px solid rgba(255,255,255,.20) !important;
+  box-shadow:0 40px 120px rgba(0,0,0,.88), 0 0 0 1px rgba(255,87,87,.10) inset !important;
+}
+
+.miniAdminBlock{
+  background:#121a27 !important;
+  border:1px solid rgba(255,255,255,.12) !important;
+  opacity:1 !important;
+}
+
+.dangerMini{
+  background:#161721 !important;
+  border-color:rgba(255,87,87,.30) !important;
+}
+
+.adminGrid input,
+.compactDeleteGrid select,
+.deleteGrid select{
+  background:#090f18 !important;
+  border-color:rgba(255,255,255,.18) !important;
+  color:#fff !important;
+}
+
+.adminGrid input::placeholder{
+  color:rgba(255,255,255,.48) !important;
+}
+
+.stockSwitch,
+.topActions{
+  overflow:visible !important;
+  z-index:40000 !important;
+}
+
+.hero,
+.section,
+.panel,
+.card{
+  z-index:1;
+}
+
+@media(max-width:900px){
+  .adminDropdownPanel{
+    top:86px !important;
+    left:12px !important;
+    right:12px !important;
+    width:auto !important;
+    max-height:calc(100vh - 108px) !important;
+    border-radius:18px !important;
+  }
+}
+
+@media(max-width:560px){
+  .adminDropdownPanel{
+    top:76px !important;
+    left:8px !important;
+    right:8px !important;
+    max-height:calc(100vh - 88px) !important;
+    padding:12px !important;
+  }
+}
