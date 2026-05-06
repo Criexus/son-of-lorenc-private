@@ -767,3 +767,54 @@ a{color:#9ec8ff;text-decoration:none}.wrap{max-width:1440px;margin:0 auto;paddin
     height:30px;
   }
 }
+
+/* v1.9.1 Admin Dropdown Fix */
+.stockSwitch,
+.topActions,
+.adminDropdown{
+  overflow:visible !important;
+}
+
+.stockSwitch{
+  position:sticky;
+  top:10px;
+  z-index:10000;
+}
+
+.adminDropdown{
+  position:relative;
+  z-index:10050;
+}
+
+.adminDropdownPanel{
+  z-index:10080 !important;
+  position:absolute;
+  top:54px;
+  right:0;
+}
+
+.hero,
+.section,
+.panel,
+.card{
+  position:relative;
+  z-index:1;
+}
+
+@media(max-width:900px){
+  .stockSwitch{
+    position:sticky;
+    top:8px;
+    z-index:10000;
+  }
+
+  .adminDropdownPanel{
+    position:fixed !important;
+    left:12px;
+    right:12px;
+    top:92px;
+    width:auto;
+    max-height:78vh;
+    z-index:10080 !important;
+  }
+}
