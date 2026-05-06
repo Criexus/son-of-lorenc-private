@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.06",
-      "note": "Auto-Update: 11.68% vs. vorheriger Schlusskurs",
+      "value": "$3.07",
+      "note": "Auto-Update: 16.58% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T13:10:21Z",
+    "last_update_utc": "2026-05-06T14:02:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.06,
-      "previousClose": 2.74,
-      "change": 0.32,
-      "changePercent": 11.68
+      "regularMarketPrice": 3.066,
+      "previousClose": 2.63,
+      "change": 0.436,
+      "changePercent": 16.58
     },
     "news": [
       {
@@ -408,7 +408,7 @@
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
         "published_at": "2026-01-21T00:01:24Z",
         "source": "Goldesel.de",
-        "query": "Altimmune ALT pemvidutide stock news",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -554,6 +554,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DLUxxOEVlam5IZG83anV1ZzU5c0xPaTFWd0w1WVhFUlp2QUo3MnlsYl9zazM2Q1FGV0lqRGlfVjRTNTBOZi1mQkVvM1ZRNFdCTjluLVo3QXY4UWQwS3V0aTJSbE5TZ0NuNXVmcWU1NjF6dV9SSllGYm1WYy3SAYIBQVVfeXFMUEpLN1lCajFqYnJNMlhXZmxCWjlQODB0aHhGWGtxSFRZdmpkQTVfdFRvTjIzN2UwaW0tZE96bXF4bkxkUlpfWnBXY005TE51SjdlR1NKel9nTU9vS213S2pJa01tTVhvRFR6em9QNURTZ2ROc2dVTXI2UWszVjFKRGdEZw?oc=5",
+        "published_at": "2025-10-29T07:00:00Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+      },
+      {
         "title": "Altimmune Aktie: Kampf gegen die Klagewelle - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTN5NGNjQnFNRXJxOWZhdVpORGRRRngwWFFKWU4yUUdRbTMyUWJCRWRmTlNMdkZUMFZPY0FEQzZlV0pBSlhSbmFleEd4S2phS2NRNmE0ajg5TjlNTFVJVEJBMnl0ZVhPQ1pEQWlpelk4SDNXTkxKbFg1Nk1OQ2hSVVM5eGZOV1FBcVNJcHA3ZmdtN1E2UDhSRGtB?oc=5",
         "published_at": "2025-09-20T07:00:00Z",
@@ -599,39 +614,24 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Anti-Aging: Taurin doch kein Verjüngungsmittel - science.ORF.at",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQkpSTk5DSEtyTEJJQ2ZNUk9yOEppVV9Yb1hGVnRoellwbVJEM2FtUTB6TUFXZWRjUjBCMUQ2WHdYdXNQOEg0dGlCTUJMM0xC?oc=5",
+        "published_at": "2025-06-05T07:00:00Z",
+        "source": "science.ORF.at",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Ältester Mensch der Welt stirbt mit 116 Jahren in Brasilien – News - Deutsches Ärzteblatt",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMm81MDFjZWpwLU8xSWxfZTJfbXN3UV9LVEVzWFlSYXZ5NkFMQVdycDZzdWlMV1pTQ3c3LXBmMmlKZjlveG1na0dWcGRGZnFqRUNKOGxuVXNuaUVjN2tUckJGRjlyUjNoNU9XSzFIM1lwZTlScmZFdUh3cTdHRjgxaEhmNzZxSWhCY25kd21NQjZUamZvdWxFd2VhOTVPdTNERGlqeEMwR1A2VWtHYnhBNV9tOVNVSEZMSzBpNWp2WGxMeUdZb25j?oc=5",
         "published_at": "2025-05-02T07:00:00Z",
-        "source": "Deutsches Ärzteblatt",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Aus Hochhaus geworfener Einkaufswagen trifft zwei Autos, eins der Feuerwehr - rbb24.de",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM0xKMmdQWGhnREVUMjFGMGl5bTZ5UWxlY2VVNDE4MzNQSXlYV0NOVlkxVnJrc2dtX3dyTXVNa0tUOC1TY3dRRjU0UHItd3ktblBORkcyY0paRHZ2NFlTOFFaeWFuRmRfY0VYbzlvOTdFaDJST1ZfeF96d0xyUElLbnBsc2Uxd1g2bHBJbFByb05RYTVKbGNJbWRHWnBPemRGRDFXY25SbWxZQlRHYl8zZA?oc=5",
-        "published_at": "2025-04-10T07:00:00Z",
-        "source": "rbb24.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Zahl der Schwangerschaftsabbrüche im vergangenen Jahr nahezu unverändert – News - Deutsches Ärzteblatt",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObl9PaU9RNVRzVHgzczZFUGFYUkFRVkVkRmxpOGRUOFJiMFp6MjV2X2pMc3lFdFdxQlVVRFJiWngzUWtoOWdJdDV6MDVydmpvX0ZQYllOSERSbkNzZVVTZGZ2WjFleEVzN1RWU3lHWU1HenRvVFJNNVJINHhld00tOFdrX2FaOTF2Q2lEVU4xcTFBZGRGN0I3SjJmVzBxZDNiNkhaQThxVDFyR3RZS2ppcm5zR2dHRnItV21TWkxfUUxZcVQ1aklKOGlmY09MaTM5U0ZDaVFnUTY?oc=5",
-        "published_at": "2025-04-03T07:00:00Z",
         "source": "Deutsches Ärzteblatt",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
@@ -1184,12 +1184,16 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5"
       },
       {
-        "type": "SEC Filing",
+        "type": "Konferenz / Präsentation",
         "level": "low",
-        "title": "4 · 2026-04-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-01"
+        "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "4investors.de",
+        "date": "2025-10-29T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DLUxxOEVlam5IZG83anV1ZzU5c0xPaTFWd0w1WVhFUlp2QUo3MnlsYl9zazM2Q1FGV0lqRGlfVjRTNTBOZi1mQkVvM1ZRNFdCTjluLVo3QXY4UWQwS3V0aTJSbE5TZ0NuNXVmcWU1NjF6dV9SSllGYm1WYy3SAYIBQVVfeXFMUEpLN1lCajFqYnJNMlhXZmxCWjlQODB0aHhGWGtxSFRZdmpkQTVfdFRvTjIzN2UwaW0tZE96bXF4bkxkUlpfWnBXY005TE51SjdlR1NKel9nTU9vS213S2pJa01tTVhvRFR6em9QNURTZ2ROc2dVTXI2UWszVjFKRGdEZw?oc=5"
       },
       {
         "type": "SEC Filing",
@@ -1202,10 +1206,10 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-04-06",
+        "title": "4 · 2026-04-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-06"
+        "date": "2026-04-01"
       }
     ],
     "queries_used": [
