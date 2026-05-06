@@ -3,4 +3,4 @@
 // Beispiel:
 // window.SOL_ADMIN_API_URL = "https://son-of-lorenc-admin.DEIN-SUBDOMAIN.workers.dev";
 
-window.SOL_ADMIN_API_URL = "";
+window.SOL_ADMIN_API_URL = "https://son-of-lorenc-admin.orange-leaf-ff17.workers.dev";
