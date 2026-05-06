@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$9.73",
-      "note": "Auto-Update: 16.17% vs. vorheriger Schlusskurs",
+      "value": "$9.76",
+      "note": "Auto-Update: 16.47% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T20:06:56Z",
+    "last_update_utc": "2026-05-06T21:36:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 9.735,
+      "regularMarketPrice": 9.76,
       "previousClose": 8.38,
-      "change": 1.355,
-      "changePercent": 16.17
+      "change": 1.38,
+      "changePercent": 16.47
     },
     "news": [
       {
@@ -359,21 +359,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Compass Pathways Aktie: Warten auf die FDA - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOVFZTmFyazRlRERWbVAxNkgxbmVnR0M4M3Ixbl93ZDNUbEVPbnNRRDNjdlROWEYxZFBBWl8xakQ1LW11T0x4TV9GNzZEeDFKc1dHYnFXVUhjbXFYcC1ONTlSS0pQT2hPSzRzRmNZaHZCMGpDalZiMElTX0dkY2RfcUkxbFdVMkNqWnpyVkl6TE9wTGtFTFhWQjZYSnEydlVWUXc?oc=5",
-        "published_at": "2026-03-16T07:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
         "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVVFUGZGZXRfa1BfQ3JrRDBPeWdEdExBRUJKNHRHUXpqQm5zUEJKdUhnUERVb1BKUWU1MU1zNjY1ekJhTHZTVVdEelFJZDE4YUlYalhBMUI5MnpFSHBYRkZXZ1hPeHZNOUtINjVkOUJGRHg4T0I2Y0ZUTWFSVjBDS3lQcGhlWHFiZ1V3X3pzQmRKWGpnU0xZT3poeUVidWM?oc=5",
         "published_at": "2026-03-09T07:00:00Z",
@@ -499,6 +484,21 @@
         "published_at": "2022-10-12T08:36:37Z",
         "source": "TradingView",
         "query": "CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "COMPASS Pathways Aktie News | aktuelle Nachrichten | A2QCDR | US20451W1018 - Wallstreet Online",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzSlFKNkRCU0ZPV1lsRWVmeTR2dEpSdHhRTzR3Wk9aWkc2eXlKcV9feWZCdHJLYVdSbVItdHhsd0JLUFMzQkhNR0JyYk54SVNlNmRvekVyZWpuV2JBelZUQW9EbUFVaEpBREhiUUVnTHBucUhZRExtTUg3UDVYNzQ?oc=5",
+        "published_at": "2021-08-05T15:55:05Z",
+        "source": "Wallstreet Online",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -880,18 +880,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Compass Pathways Aktie: Warten auf die FDA - AD HOC NEWS",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "AD HOC NEWS",
-        "date": "2026-03-16T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOVFZTmFyazRlRERWbVAxNkgxbmVnR0M4M3Ixbl93ZDNUbEVPbnNRRDNjdlROWEYxZFBBWl8xakQ1LW11T0x4TV9GNzZEeDFKc1dHYnFXVUhjbXFYcC1ONTlSS0pQT2hPSzRzRmNZaHZCMGpDalZiMElTX0dkY2RfcUkxbFdVMkNqWnpyVkl6TE9wTGtFTFhWQjZYSnEydlVWUXc?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1108,6 +1096,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-02-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-03-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-03"
       }
     ],
     "queries_used": [
