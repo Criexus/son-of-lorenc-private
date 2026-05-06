@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#06080b" />
+<meta name="robots" content="noindex,nofollow,noarchive" />
+<title>Son of Lorenc – Phasenanalyse</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="stockSwitch card">
+    <div class="brandBlock">
+      <img src="/assets/logo.png" alt="Son of Lorenc Logo" class="brandLogo">
+      <div class="brandText">
+        <b>Son of Lorenc</b>
+        <span>Private Phasenanalyse · Master-Dossier</span>
+        <small id="globalUpdate">Update wird geladen…</small>
+      </div>
+    </div>
+    <div class="topActions">
+      <select id="tickerSelect" aria-label="Ticker auswählen"></select>
+      <button id="refreshBtn" class="refreshBtn" type="button">Daten neu laden</button>
+    </div>
+  </div>
+
+
+  <section class="section card panel adminPanel">
+    <div class="sectionHead">
+      <div>
+        <h2>Admin · Neue Aktie hinzufügen</h2>
+        <p class="sub">Ticker eingeben, speichern, danach wird die Aktie in Watchlist und Datenstruktur angelegt. Online speichert der Cloudflare Worker direkt im GitHub-Repository.</p>
+      </div>
+      <span class="liveBadge">v1.2</span>
+    </div>
+
+    <form id="addStockForm" class="adminForm">
+      <div class="adminGrid">
+        <label>
+          <span>Ticker *</span>
+          <input id="newTicker" name="ticker" placeholder="z. B. ALTI" autocomplete="off" required>
+        </label>
+        <label>
+          <span>Name *</span>
+          <input id="newName" name="name" placeholder="z. B. AlTi Global" autocomplete="off" required>
+        </label>
+        <label>
+          <span>Börse</span>
+          <input id="newExchange" name="exchange" placeholder="NASDAQ" value="NASDAQ" autocomplete="off">
+        </label>
+        <label>
+          <span>Thema</span>
+          <input id="newTheme" name="theme" placeholder="Biotech / Pharma / ETF / ..." autocomplete="off">
+        </label>
+        <label class="wide">
+          <span>News-Suchbegriff</span>
+          <input id="newQuery" name="query" placeholder="z. B. AlTi Global ALTI stock news" autocomplete="off">
+        </label>
+        <label>
+          <span>SEC-Ticker</span>
+          <input id="newSecQuery" name="sec_query" placeholder="ALTI" autocomplete="off">
+        </label>
+        <label>
+          <span>Admin-PIN optional</span>
+          <input id="adminPin" name="adminPin" type="password" placeholder="nur falls gesetzt">
+        </label>
+      </div>
+      <div class="adminActions">
+        <button class="refreshBtn" type="submit">Aktie speichern</button>
+        <button class="ghostBtn" id="fillQueryBtn" type="button">Suchbegriff automatisch füllen</button>
+      </div>
+      <p id="adminStatus" class="adminStatus">Lokal kannst du alternativ das Terminal-Skript nutzen: <code>python3 scripts/add_stock.py ALTI "AlTi Global"</code></p>
+    </form>
+  </section>
+
+
+  <section class="hero">
+    <div class="card heroMain">
+      <div class="heroWatermark">
+        <img src="/assets/logo.png" alt="" aria-hidden="true">
+      </div>
+      <div class="eyebrow" id="eyebrow"></div>
+      <h1 id="headline"></h1>
+      <p class="thesis" id="thesis"></p>
+      <div class="status" id="status"></div>
+    </div>
+    <div class="card scoreBox">
+      <h2 style="margin-top:0">Markt- & Kennzahlen-Kacheln</h2>
+      <div class="scoreGrid" id="scoreGrid"></div>
+    </div>
+  </section>
+
+  <section class="section grid2">
+    <div class="card panel">
+      <h2>Klickbares Kurs-/Newsdiagramm</h2>
+      <p class="sub" id="chartSubtitle"></p>
+      <div class="chartWrap"><svg id="chart" viewBox="0 0 1100 430" role="img" aria-label="schematischer News-Kursverlauf"></svg></div>
+      <p class="timelineNote" id="chartNote"></p>
+    </div>
+    <div class="card panel">
+      <h2>News-Details</h2>
+      <div class="eventList" id="eventList"></div>
+      <div class="detail" id="detail"></div>
+    </div>
+  </section>
+
+  <section class="section card panel">
+    <h2>Pipeline / Produktphasen</h2>
+    <p class="sub" id="pipelineIntro"></p>
+    <div class="pipeline" id="pipeline"></div>
+  </section>
+
+  <section class="section grid2">
+    <div class="card panel">
+      <h2>Szenario & Einstieg</h2>
+      <p class="sub">Keine Kaufempfehlung. Das ist eine nüchterne Chancen-Risiko-Zonenlogik.</p>
+      <div class="zoneList" id="zones"></div>
+    </div>
+    <div class="card panel">
+      <h2>Nächste Katalysatoren</h2>
+      <div id="catalysts"></div>
+    </div>
+  </section>
+
+  <section class="section grid3">
+    <div class="scenario bear"><span class="tag">Bear Case</span><h3 id="bearTitle"></h3><p id="bearText"></p></div>
+    <div class="scenario base"><span class="tag">Base Case</span><h3 id="baseTitle"></h3><p id="baseText"></p></div>
+    <div class="scenario bull"><span class="tag">Bull Case</span><h3 id="bullTitle"></h3><p id="bullText"></p></div>
+  </section>
+
+  <section class="section card panel">
+    <h2>Cash / Verwässerung / Risikoanalyse</h2>
+    <div class="risk" id="risks"></div>
+  </section>
+
+  <section class="section card panel livePanel">
+    <div class="sectionHead">
+      <div>
+        <h2>Automatisch gefundene Live-News</h2>
+        <p class="sub">Diese Treffer kommen aus dem automatischen Datenupdate. Die Kursrelevanz muss trotzdem geprüft werden.</p>
+      </div>
+      <span class="liveBadge" id="liveNewsCount">0 Treffer</span>
+    </div>
+    <div class="liveNewsList" id="liveNews"></div>
+  </section>
+
+
+  <section class="section card panel livePanel">
+    <div class="sectionHead">
+      <div>
+        <h2>Datentrigger / Analyse-Signale</h2>
+        <p class="sub">Automatisch erkannte Hinweise aus News, SEC-Filings und Studienregistern. Diese Trigger sind eine Vorfilterung, keine finale Bewertung.</p>
+      </div>
+      <span class="liveBadge" id="triggerCount">0 Trigger</span>
+    </div>
+    <div class="triggerGrid" id="detectedTriggers"></div>
+  </section>
+
+
+  <section class="section card panel livePanel">
+    <div class="sectionHead">
+      <div>
+        <h2>Aktuelle SEC-Filings</h2>
+        <p class="sub">Offizielle Unternehmensmeldungen. Besonders relevant für Cash, Verwässerung, Quartalsberichte und Kapitalmaßnahmen.</p>
+      </div>
+      <span class="liveBadge" id="secCount">0 Filings</span>
+    </div>
+    <div class="liveNewsList" id="secFilings"></div>
+  </section>
+
+  <section class="section card panel">
+    <h2>Klare Einordnung</h2>
+    <div id="clearView"></div>
+  </section>
+
+  <section class="section card panel footerSources">
+    <h2 style="color:#fff">Quellenbasis</h2>
+    <ul id="sources"></ul>
+    <p class="small">Nur Informations- und Analysezwecke. Keine Anlageberatung, keine Kauf- oder Verkaufsempfehlung.</p>
+  </section>
+</div>
+<script src="/config/admin.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>

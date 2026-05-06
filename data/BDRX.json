@@ -1,0 +1,581 @@
+{
+  "ticker": "BDRX",
+  "exchange": "NASDAQ",
+  "name": "Biodexa Pharmaceuticals",
+  "eyebrow": "Son of Lorenc · Phasenanalyse · BDRX",
+  "headline": "Biodexa Pharmaceuticals – Phasenanalyse im Aufbau",
+  "thesis": "Kurzthese: BDRX wird im Son-of-Lorenc-System beobachtet. Die Struktur entspricht exakt dem ATAI-Masterlayout; Inhalte werden über JSON gepflegt und können später per KI oder manuell vertieft werden.",
+  "stand": "2026-05-06",
+  "phase": "A/B · Beobachtung / Story-Aufbau",
+  "character": "Hochvolatil · Research-Wert",
+  "metrics": [
+    {
+      "label": "Aktueller Kurs",
+      "value": "$4.48",
+      "note": "Auto-Update: 35.76% vs. vorheriger Schlusskurs",
+      "key": "price"
+    },
+    {
+      "label": "52W-Spanne",
+      "value": "offen",
+      "note": "manuell/automatisch ergänzen",
+      "key": "range52"
+    },
+    {
+      "label": "Cash & Wertpapiere",
+      "value": "offen",
+      "note": "letzten Bericht prüfen",
+      "key": "cash"
+    },
+    {
+      "label": "Cash Runway",
+      "value": "offen",
+      "note": "Finanzierungsreichweite prüfen",
+      "key": "runway"
+    },
+    {
+      "label": "Umsatz",
+      "value": "offen",
+      "note": "je nach Entwicklungsphase relevant",
+      "key": "revenue"
+    },
+    {
+      "label": "Risikoklasse",
+      "value": "8/10",
+      "note": "spekulativ",
+      "key": "risk"
+    }
+  ],
+  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus den hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
+  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "events": [
+    {
+      "d": "Start",
+      "p": 1.0,
+      "title": "Dossier angelegt",
+      "phase": "Phase A – Aufbau",
+      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
+      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
+      "source": "Son of Lorenc",
+      "future": false
+    },
+    {
+      "d": "News",
+      "p": 1.2,
+      "title": "Automatische News folgen",
+      "phase": "Phase B – Monitoring",
+      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
+      "details": "Kursrelevanz muss geprüft werden.",
+      "source": "Automatisches Monitoring",
+      "future": false
+    },
+    {
+      "d": "Katalysator",
+      "p": 1.35,
+      "title": "Nächsten harten Trigger definieren",
+      "phase": "Nächster Katalysator",
+      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
+      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
+      "source": "manuelle Analyse",
+      "future": true
+    }
+  ],
+  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline": [
+    {
+      "stage": "Lead Asset / Haupttreiber",
+      "class": "phase3",
+      "name": "Hauptprogramm",
+      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
+      "score": 70,
+      "score_label": "hoch"
+    },
+    {
+      "stage": "Zweitprogramm / Option",
+      "class": "phase2",
+      "name": "Zweitprogramm",
+      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
+      "score": 50,
+      "score_label": "mittel"
+    },
+    {
+      "stage": "Early Stage",
+      "class": "early",
+      "name": "Frühe Pipeline",
+      "text": "Langfristiger Optionswert.",
+      "score": 30,
+      "score_label": "langfristig"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Pullback",
+      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+    },
+    {
+      "zone": "Arbeitszone",
+      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+    },
+    {
+      "zone": "Momentum",
+      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+    },
+    {
+      "zone": "Warnzone",
+      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Kurzfristig",
+      "title": "Nächste News / Quartalszahlen",
+      "text": "Termin oder Katalysator ergänzen."
+    },
+    {
+      "tag": "Mittelfristig",
+      "title": "Pipeline-/Projektupdate",
+      "text": "Relevanten operativen Meilenstein ergänzen."
+    },
+    {
+      "tag": "Risiko",
+      "title": "Cash / Verwässerung prüfen",
+      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "title": "Bear Case",
+      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+    },
+    "base": {
+      "title": "Base Case",
+      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+    },
+    "bull": {
+      "title": "Bull Case",
+      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+    }
+  },
+  "risks": [
+    {
+      "title": "Studiendaten-/Projekt-Risiko",
+      "text": "Operative Fortschritte müssen bestätigt werden."
+    },
+    {
+      "title": "Verwässerungsrisiko",
+      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+    },
+    {
+      "title": "Volatilität",
+      "text": "Kleine und mittlere Werte reagieren stark auf News."
+    },
+    {
+      "title": "Hype-Risiko",
+      "text": "Schnelle Peaks werden oft wieder abverkauft."
+    }
+  ],
+  "clear_view": [
+    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
+    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+  ],
+  "sources": [
+    "Son of Lorenc Mastertemplate",
+    "Automatische Quellen werden nach Update ergänzt."
+  ],
+  "latest_auto": {
+    "last_update_utc": "2026-05-06T09:20:21Z",
+    "price": {
+      "source": "Yahoo Finance Chart Endpoint",
+      "currency": "USD",
+      "regularMarketPrice": 4.48,
+      "previousClose": 3.3,
+      "change": 1.18,
+      "changePercent": 35.76
+    },
+    "news": [
+      {
+        "title": "Tanner Pharma Group und Biodexa starten globales Early-Access-Programm für FAP-Patienten - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tYnhvaG81Mk1DWDFmaUpuOGR5Y3EzYzc2cWVSWHhZcWhSb2hucG1hLUFiUUZCTl96aExaUE04aTNGc0ptbzJPUXVpQ0VvTmZ1eVg0bUplbTNpcC1naXFsUVFib0w3Z1k?oc=5",
+        "published_at": "2026-03-31T07:00:00Z",
+        "source": "Business Wire",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      }
+    ],
+    "sec_filings": [
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004258/bio424b3_333291598.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004255/bio424b3_333279994.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004256/bio424b3_333281489.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004254/bio424b3_333278040.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004257/bio424b3_333284350.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004253/bio424b3_333272693.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000982/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000980/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000979/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000978/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000977/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000975/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "POS AM",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003935/bioposama2_333284350.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "POS AM",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003936/bioposama1_333291598.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "POS AM",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003934/bioposama2_333281489.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "POS AM",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003933/bioposama2_333279994.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "POS AM",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003932/bioposama3_333278040.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "POS AM",
+        "filingDate": "2026-03-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003931/bioposama3_333272693.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "20-F",
+        "filingDate": "2026-03-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003921/bp31726520f.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-03-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000117184326001984/f6k_032726.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      }
+    ],
+    "clinical_trials": [
+      {
+        "nct_id": "NCT06950385",
+        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Familial Adenomatous Polyposis (FAP)",
+        "last_update": "",
+        "start_date": "2025-07-18",
+        "url": "https://clinicaltrials.gov/study/NCT06950385"
+      },
+      {
+        "nct_id": "NCT05324501",
+        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Glioblastoma",
+        "last_update": "",
+        "start_date": "2022-10-19",
+        "url": "https://clinicaltrials.gov/study/NCT05324501"
+      },
+      {
+        "nct_id": "NCT04230499",
+        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
+        "last_update": "",
+        "start_date": "2021-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT04230499"
+      }
+    ],
+    "detected_triggers": [
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
+        "source": "NCT04230499",
+        "date": "2021-01-18"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE1",
+        "source": "NCT05324501",
+        "date": "2022-10-19"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT06950385",
+        "date": "2025-07-18"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "20-F · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "POS AM · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "POS AM · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "POS AM · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "POS AM · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "POS AM · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "POS AM · 2026-03-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-30"
+      }
+    ],
+    "queries_used": [
+      "Biodexa Pharmaceuticals BDRX stock news",
+      "BDRX stock news",
+      "Biodexa BDRX clinical trial oncology",
+      "Biodexa Pharmaceuticals FDA",
+      "BDRX offering reverse split"
+    ],
+    "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
+  }
+}

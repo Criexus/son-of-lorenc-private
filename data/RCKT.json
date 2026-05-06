@@ -1,0 +1,897 @@
+{
+  "ticker": "RCKT",
+  "exchange": "NASDAQ",
+  "name": "Rocket Pharmaceuticals",
+  "eyebrow": "Son of Lorenc · Phasenanalyse · RCKT",
+  "headline": "Rocket Pharmaceuticals – Phasenanalyse im Aufbau",
+  "thesis": "Kurzthese: RCKT wird im Son-of-Lorenc-System beobachtet. Die Struktur entspricht exakt dem ATAI-Masterlayout; Inhalte werden über JSON gepflegt und können später per KI oder manuell vertieft werden.",
+  "stand": "2026-05-06",
+  "phase": "A/B · Beobachtung / Story-Aufbau",
+  "character": "Hochvolatil · Research-Wert",
+  "metrics": [
+    {
+      "label": "Aktueller Kurs",
+      "value": "$3.54",
+      "note": "Auto-Update: 3.21% vs. vorheriger Schlusskurs",
+      "key": "price"
+    },
+    {
+      "label": "52W-Spanne",
+      "value": "offen",
+      "note": "manuell/automatisch ergänzen",
+      "key": "range52"
+    },
+    {
+      "label": "Cash & Wertpapiere",
+      "value": "offen",
+      "note": "letzten Bericht prüfen",
+      "key": "cash"
+    },
+    {
+      "label": "Cash Runway",
+      "value": "offen",
+      "note": "Finanzierungsreichweite prüfen",
+      "key": "runway"
+    },
+    {
+      "label": "Umsatz",
+      "value": "offen",
+      "note": "je nach Entwicklungsphase relevant",
+      "key": "revenue"
+    },
+    {
+      "label": "Risikoklasse",
+      "value": "8/10",
+      "note": "spekulativ",
+      "key": "risk"
+    }
+  ],
+  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus den hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
+  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "events": [
+    {
+      "d": "Start",
+      "p": 1.0,
+      "title": "Dossier angelegt",
+      "phase": "Phase A – Aufbau",
+      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
+      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
+      "source": "Son of Lorenc",
+      "future": false
+    },
+    {
+      "d": "News",
+      "p": 1.2,
+      "title": "Automatische News folgen",
+      "phase": "Phase B – Monitoring",
+      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
+      "details": "Kursrelevanz muss geprüft werden.",
+      "source": "Automatisches Monitoring",
+      "future": false
+    },
+    {
+      "d": "Katalysator",
+      "p": 1.35,
+      "title": "Nächsten harten Trigger definieren",
+      "phase": "Nächster Katalysator",
+      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
+      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
+      "source": "manuelle Analyse",
+      "future": true
+    }
+  ],
+  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline": [
+    {
+      "stage": "Lead Asset / Haupttreiber",
+      "class": "phase3",
+      "name": "Hauptprogramm",
+      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
+      "score": 70,
+      "score_label": "hoch"
+    },
+    {
+      "stage": "Zweitprogramm / Option",
+      "class": "phase2",
+      "name": "Zweitprogramm",
+      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
+      "score": 50,
+      "score_label": "mittel"
+    },
+    {
+      "stage": "Early Stage",
+      "class": "early",
+      "name": "Frühe Pipeline",
+      "text": "Langfristiger Optionswert.",
+      "score": 30,
+      "score_label": "langfristig"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Pullback",
+      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+    },
+    {
+      "zone": "Arbeitszone",
+      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+    },
+    {
+      "zone": "Momentum",
+      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+    },
+    {
+      "zone": "Warnzone",
+      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Kurzfristig",
+      "title": "Nächste News / Quartalszahlen",
+      "text": "Termin oder Katalysator ergänzen."
+    },
+    {
+      "tag": "Mittelfristig",
+      "title": "Pipeline-/Projektupdate",
+      "text": "Relevanten operativen Meilenstein ergänzen."
+    },
+    {
+      "tag": "Risiko",
+      "title": "Cash / Verwässerung prüfen",
+      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "title": "Bear Case",
+      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+    },
+    "base": {
+      "title": "Base Case",
+      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+    },
+    "bull": {
+      "title": "Bull Case",
+      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+    }
+  },
+  "risks": [
+    {
+      "title": "Studiendaten-/Projekt-Risiko",
+      "text": "Operative Fortschritte müssen bestätigt werden."
+    },
+    {
+      "title": "Verwässerungsrisiko",
+      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+    },
+    {
+      "title": "Volatilität",
+      "text": "Kleine und mittlere Werte reagieren stark auf News."
+    },
+    {
+      "title": "Hype-Risiko",
+      "text": "Schnelle Peaks werden oft wieder abverkauft."
+    }
+  ],
+  "clear_view": [
+    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
+    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+  ],
+  "sources": [
+    "Son of Lorenc Mastertemplate",
+    "Automatische Quellen werden nach Update ergänzt."
+  ],
+  "latest_auto": {
+    "last_update_utc": "2026-05-06T09:20:27Z",
+    "price": {
+      "source": "Yahoo Finance Chart Endpoint",
+      "currency": "USD",
+      "regularMarketPrice": 3.54,
+      "previousClose": 3.43,
+      "change": 0.11,
+      "changePercent": 3.21
+    },
+    "news": [
+      {
+        "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5",
+        "published_at": "2026-03-27T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5",
+        "published_at": "2026-03-27T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "Scholar Rock: Zulassung vertagt? Egal – die Aktie rockt! - Der Aktionär",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVBQOUpBQWZkMExpM19yME5CQkFJSmlFUDR5MFkyQzhVMHJ4emUyY2FNSFppYUNCMGdUVXlCbWJFOEM0SElDVzlnZlZrSmdFTXlXeUtyelM0VkpralM1MDlpWWp0MjdSeGduckYtZmxlUENEYUxXeE1saEtCY294T0ZEM0cwaXRsMDJJOEJjZU13UGhUQldBMTdBbWdfRWZ6SzdQWTlkUTJ6aTVfT0ZDMzFjdTdzcVk?oc=5",
+        "published_at": "2025-09-30T07:00:00Z",
+        "source": "Der Aktionär",
+        "query": "RCKT CRL FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "Capricor readies revised FDA pitch for Duchenne cell therapy - BioPharma Dive",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0Rrd0xfb1d3WTZVUWw1OFBZWTU5YjBtX2NyX0IwdE9jd1RIQ3cxQXh0TWtEVFk1dHltU0cyZUNBMlNiTm81ZTh0bFVXWi1JNGJ0cXF5OHZ5SlRnRE96ZHdGMzNzcmlHTzlmMXFYTEZiU2s1RjlCOGY2QTVmbUtLVjhHN0RnUjBtMHFpOGJUS2I3N05aTlhEWVdGbzhtSkJ3?oc=5",
+        "published_at": "2025-09-25T07:00:00Z",
+        "source": "BioPharma Dive",
+        "query": "Rocket Pharmaceuticals clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "Neun „Strong Buy“-Aktien mit Kurssteigerungen von 69 bis über 200 Prozent, laut Top-Analysten der Wall Street - Business Insider Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSl9qRkxyVlBoYTc3WU94SjNTM3Q0akY4UWpwVS1WS19rX2VaVUo3dTVNUG1TckxUREhBcElKZy1QdkVGRzFBT2hhUnVTblI3T2c5aWRzUVBjdnYwTkNkSEhOekFjS3lKM1BSMGpGenVpbTVucFQ4djJEY25pa1lKNjFFTDhCakdxMEtsbEEyT052ZzlyYjJJWWdBbG1sY0MwdXVmTXloSkxQSm05WWVna3JNdC1yN0lmbjdYanJNMTZJSE5BZUtBQWpjSWpYaC1JSmlLVnRB?oc=5",
+        "published_at": "2023-12-21T08:00:00Z",
+        "source": "Business Insider Deutschland",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen."
+      },
+      {
+        "title": "Mirati's flagship KRAS inhibitor Krazati gets rebuffed in Europe - Fierce Pharma",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX3NmVGhaSVdPVjFfZWhvcXB2S2hvZ05kY2lRdmdGUUthczllOGZDcVMtc2Q4UEMzdjFYVGlYY01sQjVTVjN3WllWZXRmTHFzaFpvaEU4anh0U3dxRU9jcTlSRkx1VlhlbmtjVVFXYzN3M3NEZF9PN1FfOTNIeFJ3UkRSN3RIQmR5Wng2WE1kZDJUVXU4WkROV0hVMHA?oc=5",
+        "published_at": "2023-07-21T07:00:00Z",
+        "source": "Fierce Pharma",
+        "query": "Rocket Pharmaceuticals clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "RCKT Prognose — Kursziel für 2027 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XRnRDTFJaT3ByT1l2Rm44X05CNkRwV3RIbGpJM3pKaGRtaF9LZzhJWW5ha2RPUF9FZW9mU2E5cThOdUwxUmlaTU1nVUw1aFhBYm5lYW5YU1RwdDFCa0psbmd2RVEyQkU?oc=5",
+        "published_at": "2022-08-16T22:16:59Z",
+        "source": "TradingView",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Rocket Pharmaceuticals Aktie • A2JA9Q • US77313F1066 - Onvista",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNei1iZTR0MkRvVGQzbklWdXdlOUVfZTJnQk1vano5czgzb2NUVnVhcUFYQXd6NHhhQlEtRGY4VndUZUdUR3BBTnpaaXlsdnBOZkpDM080bHQ0OUZ2czduT0lhZExaRHRPS2RSU0VMbi1CblRRemF4MG40OGIwdHZiZA?oc=5",
+        "published_at": "2021-10-10T07:26:07Z",
+        "source": "Onvista",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "RCKT Aktienkurs und Chart — NASDAQ:RCKT - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoZlJhUm9KSjNzNFNocXBvMTNUalQ3QjZ3V25uSzNBb0dRM3lVQTVybjh0NzZlYWxOaUVrc2phX3NyZ0k0ZzlIZW5iWGxSdXFDX2otUjJkTC11R2s?oc=5",
+        "published_at": "2018-01-09T13:47:58Z",
+        "source": "TradingView",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      }
+    ],
+    "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126017275/ef20071574_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SC TO-I",
+        "filingDate": "2026-04-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126016865/ny20069837x2_sctoi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "ARS",
+        "filingDate": "2026-04-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126013342/ny20067122x4_ars.pdf",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEFA14A",
+        "filingDate": "2026-04-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126013340/ny20067122x3_defa14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEF 14A",
+        "filingDate": "2026-04-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126013335/ny20067122x2_def14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SC TO-C",
+        "filingDate": "2026-04-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126013112/ny20069837x1_sctoc.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SCHEDULE 13G/A",
+        "filingDate": "2026-03-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000010290926002213/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-03-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126011573/ef20069038_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "PRE 14A",
+        "filingDate": "2026-03-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126010967/ny20067122x1_pre14a.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-03-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/999999999526000767/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-03-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008853/ef20067503_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B5",
+        "filingDate": "2026-03-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008849/ny20066752x3_424b5.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "CORRESP",
+        "filingDate": "2026-03-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008290/filename1.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "UPLOAD",
+        "filingDate": "2026-03-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000000000026002361/filename1.pdf",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "S-3",
+        "filingDate": "2026-03-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126007341/ny20066752x1_s3.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-02-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126006981/ef20066645_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "10-K",
+        "filingDate": "2026-02-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000119312526076551/rckt-20251231.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-02-20",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126006330/xslF345X05/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-02-20",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126006326/xslF345X05/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-02-20",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126006317/xslF345X05/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      }
+    ],
+    "clinical_trials": [
+      {
+        "nct_id": "NCT04105166",
+        "title": "Gene Therapy for Pyruvate Kinase Deficiency (PKD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Pyruvate Kinase Deficiency",
+        "last_update": "",
+        "start_date": "2020-07-06",
+        "url": "https://clinicaltrials.gov/study/NCT04105166"
+      },
+      {
+        "nct_id": "NCT03766386",
+        "title": "The Natural History of Danon Disease",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Danon Disease",
+        "last_update": "",
+        "start_date": "2018-11-30",
+        "url": "https://clinicaltrials.gov/study/NCT03766386"
+      },
+      {
+        "nct_id": "NCT06779825",
+        "title": "Impact of Stimulants and In-Scanner Motion on Attentive Task Performance in ADHD (ADHD_NFB)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "ADHD",
+        "last_update": "",
+        "start_date": "2025-02",
+        "url": "https://clinicaltrials.gov/study/NCT06779825"
+      },
+      {
+        "nct_id": "NCT06422351",
+        "title": "Clinical Trial to Evaluate the Efficacy of Gene Therapy for Pyruvate Kinase Deficiency",
+        "status": "SUSPENDED",
+        "phase": "PHASE2",
+        "conditions": "Pyruvate Kinase Deficiency",
+        "last_update": "",
+        "start_date": "2026-04",
+        "url": "https://clinicaltrials.gov/study/NCT06422351"
+      },
+      {
+        "nct_id": "NCT03882437",
+        "title": "Gene Therapy for Male Patients With Danon Disease (DD) Using RP-A501; AAV9.LAMP2B",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Danon Disease",
+        "last_update": "",
+        "start_date": "2019-04-17",
+        "url": "https://clinicaltrials.gov/study/NCT03882437"
+      },
+      {
+        "nct_id": "NCT03191305",
+        "title": "Comparison of the Efficacy of Rivroxaban to Coumadin( Warfarin ) in Cerebral Venous Thrombosis",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Cerebral Venous Thrombosis",
+        "last_update": "",
+        "start_date": "2017-08",
+        "url": "https://clinicaltrials.gov/study/NCT03191305"
+      },
+      {
+        "nct_id": "NCT06282432",
+        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Leukocyte Adhesion Deficiency",
+        "last_update": "",
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT06282432"
+      },
+      {
+        "nct_id": "NCT02937974",
+        "title": "Evaluate the Efficacy of Xuebijing Injection in Acute Exacerbations of COPD",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Pulmonary Disease, Chronic Obstructive",
+        "last_update": "",
+        "start_date": "2016-10",
+        "url": "https://clinicaltrials.gov/study/NCT02937974"
+      },
+      {
+        "nct_id": "NCT06092034",
+        "title": "A Gene Therapy Study of RP-A501 in Male Patients With Danon Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Danon Disease",
+        "last_update": "",
+        "start_date": "2023-09-05",
+        "url": "https://clinicaltrials.gov/study/NCT06092034"
+      },
+      {
+        "nct_id": "NCT02096354",
+        "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Colorectal Neoplasms",
+        "last_update": "",
+        "start_date": "2014-05",
+        "url": "https://clinicaltrials.gov/study/NCT02096354"
+      },
+      {
+        "nct_id": "NCT04248439",
+        "title": "Gene Therapy for Fanconi Anemia, Complementation Group A",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Fanconi Anemia Complementation Group A",
+        "last_update": "",
+        "start_date": "2020-07-15",
+        "url": "https://clinicaltrials.gov/study/NCT04248439"
+      },
+      {
+        "nct_id": "NCT05408715",
+        "title": "A Natural History Study in Children With a Type II Collagen Disorder With Short Stature",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "SEDC, Hypochondrogenesis, Semd, Strudwick Type, Kniest Dysplasia",
+        "last_update": "",
+        "start_date": "2022-06-29",
+        "url": "https://clinicaltrials.gov/study/NCT05408715"
+      },
+      {
+        "nct_id": "NCT07097987",
+        "title": "Evaluation of the Efficacy of the Composite WM Formula in Promoting GLP-1 Secretion",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Obesity",
+        "last_update": "",
+        "start_date": "2025-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT07097987"
+      },
+      {
+        "nct_id": "NCT03825783",
+        "title": "A Gene Therapy Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
+        "status": "WITHDRAWN",
+        "phase": "PHASE1",
+        "conditions": "Leukocyte Adhesion Defect - Type I",
+        "last_update": "",
+        "start_date": "2019-04-15",
+        "url": "https://clinicaltrials.gov/study/NCT03825783"
+      },
+      {
+        "nct_id": "NCT07486752",
+        "title": "BAG3-DCM Natural History Study",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Dilated Cardiomyopathy (DCM), Cardiovascular Diseases, Heart Diseases, Genetic Diseases",
+        "last_update": "",
+        "start_date": "2026-05",
+        "url": "https://clinicaltrials.gov/study/NCT07486752"
+      }
+    ],
+    "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Capricor readies revised FDA pitch for Duchenne cell therapy - BioPharma Dive",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "BioPharma Dive",
+        "date": "2025-09-25T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0Rrd0xfb1d3WTZVUWw1OFBZWTU5YjBtX2NyX0IwdE9jd1RIQ3cxQXh0TWtEVFk1dHltU0cyZUNBMlNiTm81ZTh0bFVXWi1JNGJ0cXF5OHZ5SlRnRE96ZHdGMzNzcmlHTzlmMXFYTEZiU2s1RjlCOGY2QTVmbUtLVjhHN0RnUjBtMHFpOGJUS2I3N05aTlhEWVdGbzhtSkJ3?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Scholar Rock: Zulassung vertagt? Egal – die Aktie rockt! - Der Aktionär",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Der Aktionär",
+        "date": "2025-09-30T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVBQOUpBQWZkMExpM19yME5CQkFJSmlFUDR5MFkyQzhVMHJ4emUyY2FNSFppYUNCMGdUVXlCbWJFOEM0SElDVzlnZlZrSmdFTXlXeUtyelM0VkpralM1MDlpWWp0MjdSeGduckYtZmxlUENEYUxXeE1saEtCY294T0ZEM0cwaXRsMDJJOEJjZU13UGhUQldBMTdBbWdfRWZ6SzdQWTlkUTJ6aTVfT0ZDMzFjdTdzcVk?oc=5"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "S-3 · 2026-03-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-02"
+      },
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B5 · 2026-03-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-10"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-03-27T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-03-27T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT02096354",
+        "date": "2014-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Evaluate the Efficacy of Xuebijing Injection in Acute Exacerbations of COPD",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT02937974",
+        "date": "2016-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Comparison of the Efficacy of Rivroxaban to Coumadin( Warfarin ) in Cerebral Venous Thrombosis",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03191305",
+        "date": "2017-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Gene Therapy Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
+        "reason": "Studienregister-Treffer: WITHDRAWN PHASE1",
+        "source": "NCT03825783",
+        "date": "2019-04-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Gene Therapy for Male Patients With Danon Disease (DD) Using RP-A501; AAV9.LAMP2B",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT03882437",
+        "date": "2019-04-17"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Gene Therapy for Pyruvate Kinase Deficiency (PKD)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT04105166",
+        "date": "2020-07-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Gene Therapy for Fanconi Anemia, Complementation Group A",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
+        "source": "NCT04248439",
+        "date": "2020-07-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Gene Therapy Study of RP-A501 in Male Patients With Danon Disease",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06092034",
+        "date": "2023-09-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Evaluation of the Efficacy of the Composite WM Formula in Promoting GLP-1 Secretion",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07097987",
+        "date": "2025-08-31"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-02-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-26"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-K · 2026-02-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-26"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-03-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-10"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Trial to Evaluate the Efficacy of Gene Therapy for Pyruvate Kinase Deficiency",
+        "reason": "Studienregister-Treffer: SUSPENDED PHASE2",
+        "source": "NCT06422351",
+        "date": "2026-04"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-04-28",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-28"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "The Natural History of Danon Disease",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT03766386",
+        "date": "2018-11-30"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT06282432",
+        "date": "2022-03-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Natural History Study in Children With a Type II Collagen Disorder With Short Stature",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT05408715",
+        "date": "2022-06-29"
+      },
+      {
+        "type": "Analysten / Kursziel",
+        "level": "low",
+        "title": "Neun „Strong Buy“-Aktien mit Kurssteigerungen von 69 bis über 200 Prozent, laut Top-Analysten der Wall Street - Business Insider Deutschland",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "Business Insider Deutschland",
+        "date": "2023-12-21T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSl9qRkxyVlBoYTc3WU94SjNTM3Q0akY4UWpwVS1WS19rX2VaVUo3dTVNUG1TckxUREhBcElKZy1QdkVGRzFBT2hhUnVTblI3T2c5aWRzUVBjdnYwTkNkSEhOekFjS3lKM1BSMGpGenVpbTVucFQ4djJEY25pa1lKNjFFTDhCakdxMEtsbEEyT052ZzlyYjJJWWdBbG1sY0MwdXVmTXloSkxQSm05WWVna3JNdC1yN0lmbjdYanJNMTZJSE5BZUtBQWpjSWpYaC1JSmlLVnRB?oc=5"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Impact of Stimulants and In-Scanner Motion on Attentive Task Performance in ADHD (ADHD_NFB)",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
+        "source": "NCT06779825",
+        "date": "2025-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-02-20",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-20"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-02-20",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-20"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-02-20",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-20"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "CORRESP · 2026-03-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-06"
+      }
+    ],
+    "queries_used": [
+      "Rocket Pharmaceuticals RCKT stock news",
+      "RCKT stock news",
+      "Rocket Pharmaceuticals RCKT gene therapy FDA",
+      "Rocket Pharmaceuticals clinical trial",
+      "RCKT CRL FDA"
+    ],
+    "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
+  }
+}

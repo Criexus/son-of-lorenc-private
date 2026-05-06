@@ -1,0 +1,14 @@
+name = "son-of-lorenc-admin"
+main = "worker.js"
+compatibility_date = "2026-05-06"
+
+[vars]
+GITHUB_OWNER = "Criexus"
+GITHUB_REPO = "son-of-lorenc-private"
+GITHUB_BRANCH = "main"
+ALLOWED_ORIGIN = "https://deine-pages-url.pages.dev"
+
+# Secrets nicht hier eintragen.
+# Per Dashboard oder CLI setzen:
+# wrangler secret put GITHUB_TOKEN
+# wrangler secret put ADMIN_PIN
