@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.25",
-      "note": "Auto-Update: 23.38% vs. vorheriger Schlusskurs",
+      "value": "$3.20",
+      "note": "Auto-Update: 21.79% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,31 +183,16 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T15:10:08Z",
+    "last_update_utc": "2026-05-06T16:49:12Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.245,
+      "regularMarketPrice": 3.203,
       "previousClose": 2.63,
-      "change": 0.615,
-      "changePercent": 23.38
+      "change": 0.573,
+      "changePercent": 21.79
     },
     "news": [
-      {
-        "title": "Shortseller-Positionen aktuell: u.a. Aixtron, Cancom, Hypoport, Scout24, Suss MicroTec, TeamViewer, TUI - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DaWp3Zlg5a0lzZVVIN1hScG1WUXM1OUxnTnotTmszdHUxakh2Sm9SU2JVUFFCblVvSE1MM3A1c293LVUzWTdncVo0eDZMck50WmdlUmdubEwyLXBnTnZRdVNZQ1dwWlc3ay0ybm9XcmNDdndYNmRUYnZrVHbSAYIBQVVfeXFMTjExMFJQaDdJb1kyc09PSFV2RlFKZDYwbkNabWNfV3pHQWtFQy1IQnFkRHA2UHNaYUUxZmhXeVFrdjBPMGxGQjVGMXQ1V095U3lnOFJMSFpTVEsxSi1kN1JWdUQ1M0ZFaFBDa1JTcS02N2YyVlNIRmVISkFEZVhIcmN5Zw?oc=5",
-        "published_at": "2026-05-06T05:31:52Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
-      },
       {
         "title": "Altimmune's $225 Million Capital Raise Extends Runway Through Pivotal MASH Trial Readout - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdEtzX0d0aG1jTmNQMG9UVTZmbnVqTE4zUy1sSzdzYncyM3VleHNqdlMwejhQNFg1T0ZKWjE5cFNuYTBxc3lJcEQ5bGhqcUdMUmRqRV9IX0JZSXNzdG0wWkttZGxaNGs0UFlZSjVhX3dCYjEwbG5PYmF0UXBmRzh3YUVyRnBfODYtSWtRR2RuMi14RXRVbkNJMWRINmdkTW5mWjJucjhSLWVKOXRUYjlKZmR6YVZOVVhGUllnRXJ2TTFOTjBlc01MUDNhLTQ?oc=5",
@@ -374,6 +359,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Ausgrabungen in Griechenland: Älteste Holzwerkzeuge Europas entdeckt - Spektrum der Wissenschaft",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXR5ek5aUlFwcW02LXpKZWQyQmFobG5iLVp4WXg1YjZkSmIyRWdwdE5vbmRTaXVmNFoyeWp2am1NZEdFTF9Fa3g1ZlFyVUtMT3lFa042b2p5ejh0enE5VFlyT3VwbWVDY0FIdURSMUd6QXo4aTRSTDkxUmRvQ2gxb0Nxc1I1OUZaSERnODVQN0VraDJRY2h4Sy13?oc=5",
+        "published_at": "2026-01-27T08:00:00Z",
+        "source": "Spektrum der Wissenschaft",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Altimmune Shares Surge on Clinical Milestones and Market Dynamics - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
@@ -404,21 +404,6 @@
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
       },
       {
-        "title": "675 Jahre Stockacher Narrengericht: Das war das Narrentreffen - SWR",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSkRpTWRKTmlFbTcySXpuXzdhOXBRbTJrZTlHeTBVN0thd0ppWkQ5X293MHFoU2REVm01Wlo5LWxlMlF0aTVnUEZYcW9jSC1YRU5fM0hONkh6dTBieUlMUjhGRi01MGRIeldJQVdpSDhWSmVlc0ZhdUo3YURoSS1HeGZ1aFQwZHBJbnltUGZMMUpFVUVwZTZxWFJlNmhyczBMbDFBcVlXUEpZMThGcHlySXhLODg1bUpSZ2lfODYwUmxuM3NHLXN1bkVxVUdHYlFnVmRiR01Kbw?oc=5",
-        "published_at": "2026-01-25T08:00:00Z",
-        "source": "SWR",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
         "title": "Altimmune Aktie: Spekulative Rally - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWk5QdGtYZHVBaHppb1QxOUNvMWNqT2c2eDFZc0dVS3IxWFl2eTZuOWRFak14ZnNrUEp4YVV1UG1rMGkxVlNnSm16TF9qdTh3TEFQVU5FOW83VWxxa0Z2MDBheWhuQ2RudkZWN3NlaGdQNTNJUGVVNUFYa1RkYnNhUS1Udl8tWDlzNDdUSFRn?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
@@ -438,21 +423,6 @@
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13TUYxVnpHZC1vdHhubnJJM2E3RDNJOFlaVTBOT3hIWEZEdnJJdzBVeV92RGtuaFQwV3dqeTZKWVJvUlZ1WG4zZHp4Q3oyRUs5OFFfZXVLTE1scmowUkZKek9zRmJodlc3dWU2b1p6VmVRazl0cEFHVE8zZ1A?oc=5",
         "published_at": "2026-01-20T08:00:00Z",
         "source": "WDR",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Dinosaurier: T. rex wurde deutlich älter als gedacht - Spektrum der Wissenschaft",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1pPS2JYUElyc2tlWDhKM01DVmcxcHM3Y2ZaZ3dSbFN2WVl2bWNsNDY3MTN0OG5IbHFabm5ZamVFQ3JlR1lOMmVKNHBHazFxcUJGZzVFdXRTOHdfT2RsNE5UT3dJSzIwN2VVeU9mYUhTMUtocDRMTFdxeFk0R080bkNmV1A5LXJvTGxmcmFRdmFEdw?oc=5",
-        "published_at": "2026-01-15T08:00:00Z",
-        "source": "Spektrum der Wissenschaft",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -599,9 +569,9 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Siltronic: Aktie unter Druck – Schwarze Zahlen in 2026? - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZWGZLOHhzRmhFa2FNbDFfcEVGeDJJdnQxcmdSMkw5aXB5TDVmOHVEa0NpcG04QWotYk8wNWtya3JWUmM0Z091cVJhQ0NqdnhMMVFTRmp0TTFhMDF6MXVkQ0RHb19xZTI5UWxLV3lRUjBuVG8tNlY3N2lMWkbSAYIBQVVfeXFMTXFJTVc1dk42UElPOG5CTDgwUE9xbDhpUjNYd3JsMDFwbF9yeWpCejJsQXZGOHdQOGMwOG5qYUpIT2t5dTZMMFF0MDYyT09wcGhQY3Y2MnFsdkQ3UGFkTkVScW9PRkp4dTYyd21hOC12bGpuVWRoU0ViUDdYUmxxM0Z3dw?oc=5",
-        "published_at": "2025-07-29T07:00:00Z",
+        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5",
+        "published_at": "2025-08-20T07:00:00Z",
         "source": "4investors.de",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
@@ -612,6 +582,36 @@
         "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
         "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+      },
+      {
+        "title": "Altwerden in Stuttgart Wie Ex-Oberbürgermeister Schuster die Sinnfrage im Alter beantwortet - stuttgarter-zeitung.de",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVHE2b2tIenIwczJLSlpDcS1kM3IxTEZQWWZaR1RFX2FhbmlZTnVTNkdUTWJJTFJuTkRUbFp0UjhzLVN1dXJ6d2tWNzBFZjdRcUxiWlNwSV90WlcxaGZZZUxoWGZZb1U5R3pMemE5Ukc5eE1BU0Y3VjRmZnNEQWR4aVRIYk5wMXFBcGpVdk82dGZIaU1WV0xFN28yMGV2SzRCb0hrNTBCWUlGeV9HUFlWRGQwYXY2dkpCcmVtY1BDQlhKcm9wUUZZUklfQm9MakxpLWp2V2xDbVlZTXZWM2lad1o0ekVfLXZkdTJMZTAxY21SWEt5LUhTUDM0TXhiQkNGWl9tUkFmWQ?oc=5",
+        "published_at": "2025-06-13T07:00:00Z",
+        "source": "stuttgarter-zeitung.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Studie: In Deutschland droht Angebotsmangel an emissionsarmen Logistikobjekten - Logistik Heute",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFdKazhnc0FtOGJoSzg4LWVlaFk1YlRmY29RajhoUkZ1aEl1Qk15aG5XQkRubXlxOE4xOGZfR0sta3hJdndDLWk2OFFPeHVZM0NZTlVLcVA3b29Gd2lkSjVMSTk0UE9QeU9DRUhqNUNWLWNVSlRvd2pJRlMtODl1b2VPSnZxTjVfb2RkMWxRb2tkU21pRFFoTEtjN3JLaUYzbXRMTnhFM2dab2pPNDBLM2w3Mkk?oc=5",
+        "published_at": "2025-06-10T07:00:00Z",
+        "source": "Logistik Heute",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
         "title": "Anti-Aging: Taurin doch kein Verjüngungsmittel - science.ORF.at",
@@ -629,10 +629,10 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Ältester Mensch der Welt stirbt mit 116 Jahren in Brasilien – News - Deutsches Ärzteblatt",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMm81MDFjZWpwLU8xSWxfZTJfbXN3UV9LVEVzWFlSYXZ5NkFMQVdycDZzdWlMV1pTQ3c3LXBmMmlKZjlveG1na0dWcGRGZnFqRUNKOGxuVXNuaUVjN2tUckJGRjlyUjNoNU9XSzFIM1lwZTlScmZFdUh3cTdHRjgxaEhmNzZxSWhCY25kd21NQjZUamZvdWxFd2VhOTVPdTNERGlqeEMwR1A2VWtHYnhBNV9tOVNVSEZMSzBpNWp2WGxMeUdZb25j?oc=5",
-        "published_at": "2025-05-02T07:00:00Z",
-        "source": "Deutsches Ärzteblatt",
+        "title": "Aus Hochhaus geworfener Einkaufswagen trifft zwei Autos, eins der Feuerwehr - rbb24.de",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM0xKMmdQWGhnREVUMjFGMGl5bTZ5UWxlY2VVNDE4MzNQSXlYV0NOVlkxVnJrc2dtX3dyTXVNa0tUOC1TY3dRRjU0UHItd3ktblBORkcyY0paRHZ2NFlTOFFaeWFuRmRfY0VYbzlvOTdFaDJST1ZfeF96d0xyUElLbnBsc2Uxd1g2bHBJbFByb05RYTVKbGNJbWRHWnBPemRGRDFXY25SbWxZQlRHYl8zZA?oc=5",
+        "published_at": "2025-04-10T07:00:00Z",
+        "source": "rbb24.de",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -788,24 +788,24 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04684914",
-        "title": "HepTcell Immunotherapy in Patients With Inactive Chronic Hepatitis B (CHB)",
-        "status": "TERMINATED",
+        "nct_id": "NCT06987513",
+        "title": "RECLAIM STUDY: A Phase 2 Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+        "status": "ACTIVE_NOT_RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Hepatitis B, Chronic",
+        "conditions": "Alcohol Use Disorder (AUD)",
         "last_update": "",
-        "start_date": "2020-12-26",
-        "url": "https://clinicaltrials.gov/study/NCT04684914"
+        "start_date": "2025-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT06987513"
       },
       {
-        "nct_id": "NCT04442230",
-        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "Coronavirus Infection",
+        "nct_id": "NCT03760549",
+        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Influenza",
         "last_update": "",
-        "start_date": "2020-10-10",
-        "url": "https://clinicaltrials.gov/study/NCT04442230"
+        "start_date": "2019-01-21",
+        "url": "https://clinicaltrials.gov/study/NCT03760549"
       },
       {
         "nct_id": "NCT02496897",
@@ -818,34 +818,14 @@
         "url": "https://clinicaltrials.gov/study/NCT02496897"
       },
       {
-        "nct_id": "NCT04561245",
-        "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
+        "nct_id": "NCT05134662",
+        "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
         "status": "COMPLETED",
         "phase": "PHASE1",
-        "conditions": "Obesity, Nonalcoholic Steatohepatitis",
+        "conditions": "Type 2 Diabetes",
         "last_update": "",
-        "start_date": "2020-11-10",
-        "url": "https://clinicaltrials.gov/study/NCT04561245"
-      },
-      {
-        "nct_id": "NCT03352466",
-        "title": "NasoShield Study of Safety and Immunogenicity",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
-        "last_update": "",
-        "start_date": "2018-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT03352466"
-      },
-      {
-        "nct_id": "NCT03163342",
-        "title": "Immune Response Following Seasonal Influenza Vaccination",
-        "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "Influenza",
-        "last_update": "",
-        "start_date": "2017-05-08",
-        "url": "https://clinicaltrials.gov/study/NCT03163342"
+        "start_date": "2022-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT05134662"
       },
       {
         "nct_id": "NCT00755703",
@@ -858,24 +838,74 @@
         "url": "https://clinicaltrials.gov/study/NCT00755703"
       },
       {
-        "nct_id": "NCT06987513",
-        "title": "RECLAIM STUDY: A Phase 2 Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Alcohol Use Disorder (AUD)",
+        "nct_id": "NCT03163342",
+        "title": "Immune Response Following Seasonal Influenza Vaccination",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Influenza",
         "last_update": "",
-        "start_date": "2025-05-15",
-        "url": "https://clinicaltrials.gov/study/NCT06987513"
+        "start_date": "2017-05-08",
+        "url": "https://clinicaltrials.gov/study/NCT03163342"
       },
       {
-        "nct_id": "NCT04679909",
-        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
+        "nct_id": "NCT05989711",
+        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Non-Alcoholic Steatohepatitis (NASH)",
+        "last_update": "",
+        "start_date": "2023-07-27",
+        "url": "https://clinicaltrials.gov/study/NCT05989711"
+      },
+      {
+        "nct_id": "NCT07009860",
+        "title": "RESTORE TRIAL: A Phase 2 Study Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol-Associated Liver Disease (ALD)",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Alcohol Liver Disease",
+        "last_update": "",
+        "start_date": "2025-06-16",
+        "url": "https://clinicaltrials.gov/study/NCT07009860"
+      },
+      {
+        "nct_id": "NCT03352466",
+        "title": "NasoShield Study of Safety and Immunogenicity",
         "status": "COMPLETED",
         "phase": "PHASE1",
         "conditions": "Healthy Volunteers",
         "last_update": "",
-        "start_date": "2021-02-25",
-        "url": "https://clinicaltrials.gov/study/NCT04679909"
+        "start_date": "2018-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT03352466"
+      },
+      {
+        "nct_id": "NCT05292911",
+        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
+        "last_update": "",
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT05292911"
+      },
+      {
+        "nct_id": "NCT04684914",
+        "title": "HepTcell Immunotherapy in Patients With Inactive Chronic Hepatitis B (CHB)",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Hepatitis B, Chronic",
+        "last_update": "",
+        "start_date": "2020-12-26",
+        "url": "https://clinicaltrials.gov/study/NCT04684914"
+      },
+      {
+        "nct_id": "NCT04561245",
+        "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Obesity, Nonalcoholic Steatohepatitis",
+        "last_update": "",
+        "start_date": "2020-11-10",
+        "url": "https://clinicaltrials.gov/study/NCT04561245"
       },
       {
         "nct_id": "NCT05295875",
@@ -898,44 +928,14 @@
         "url": "https://clinicaltrials.gov/study/NCT03232567"
       },
       {
-        "nct_id": "NCT05134662",
-        "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Type 2 Diabetes",
-        "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05134662"
-      },
-      {
-        "nct_id": "NCT07009860",
-        "title": "RESTORE TRIAL: A Phase 2 Study Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol-Associated Liver Disease (ALD)",
-        "status": "RECRUITING",
+        "nct_id": "NCT04442230",
+        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
+        "status": "TERMINATED",
         "phase": "PHASE2",
-        "conditions": "Alcohol Liver Disease",
+        "conditions": "Coronavirus Infection",
         "last_update": "",
-        "start_date": "2025-06-16",
-        "url": "https://clinicaltrials.gov/study/NCT07009860"
-      },
-      {
-        "nct_id": "NCT05292911",
-        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Non-Alcoholic Fatty Liver Disease",
-        "last_update": "",
-        "start_date": "2022-03-09",
-        "url": "https://clinicaltrials.gov/study/NCT05292911"
-      },
-      {
-        "nct_id": "NCT05989711",
-        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Non-Alcoholic Steatohepatitis (NASH)",
-        "last_update": "",
-        "start_date": "2023-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT05989711"
+        "start_date": "2020-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT04442230"
       }
     ],
     "detected_triggers": [
@@ -1090,14 +1090,6 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT04679909",
-        "date": "2021-02-25"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
         "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT05134662",
@@ -1172,16 +1164,24 @@
         "date": "2026-04-24"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT03760549",
+        "date": "2019-01-21"
+      },
+      {
         "type": "Konferenz / Präsentation",
         "level": "low",
-        "title": "Siltronic: Aktie unter Druck – Schwarze Zahlen in 2026? - 4investors.de",
+        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
         "reason": "Trigger erkannt: Konferenz / Präsentation.",
         "impact": "meist niedriger bis mittlerer Trigger",
         "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
         "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "source": "4investors.de",
-        "date": "2025-07-29T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZWGZLOHhzRmhFa2FNbDFfcEVGeDJJdnQxcmdSMkw5aXB5TDVmOHVEa0NpcG04QWotYk8wNWtya3JWUmM0Z091cVJhQ0NqdnhMMVFTRmp0TTFhMDF6MXVkQ0RHb19xZTI5UWxLV3lRUjBuVG8tNlY3N2lMWkbSAYIBQVVfeXFMTXFJTVc1dk42UElPOG5CTDgwUE9xbDhpUjNYd3JsMDFwbF9yeWpCejJsQXZGOHdQOGMwOG5qYUpIT2t5dTZMMFF0MDYyT09wcGhQY3Y2MnFsdkQ3UGFkTkVScW9PRkp4dTYyd21hOC12bGpuVWRoU0ViUDdYUmxxM0Z3dw?oc=5"
+        "date": "2025-08-20T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5"
       },
       {
         "type": "SEC Filing",
