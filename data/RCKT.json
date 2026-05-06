@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T22:39:16Z",
+    "last_update_utc": "2026-05-06T23:40:10Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -214,6 +214,21 @@
         "published_at": "2025-09-30T07:00:00Z",
         "source": "Der Aktionär",
         "query": "RCKT CRL FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "Capricor readies revised FDA pitch for Duchenne cell therapy - BioPharma Dive",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0Rrd0xfb1d3WTZVUWw1OFBZWTU5YjBtX2NyX0IwdE9jd1RIQ3cxQXh0TWtEVFk1dHltU0cyZUNBMlNiTm81ZTh0bFVXWi1JNGJ0cXF5OHZ5SlRnRE96ZHdGMzNzcmlHTzlmMXFYTEZiU2s1RjlCOGY2QTVmbUtLVjhHN0RnUjBtMHFpOGJUS2I3N05aTlhEWVdGbzhtSkJ3?oc=5",
+        "published_at": "2025-09-25T07:00:00Z",
+        "source": "BioPharma Dive",
+        "query": "Rocket Pharmaceuticals clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -582,6 +597,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Capricor readies revised FDA pitch for Duchenne cell therapy - BioPharma Dive",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "BioPharma Dive",
+        "date": "2025-09-25T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0Rrd0xfb1d3WTZVUWw1OFBZWTU5YjBtX2NyX0IwdE9jd1RIQ3cxQXh0TWtEVFk1dHltU0cyZUNBMlNiTm81ZTh0bFVXWi1JNGJ0cXF5OHZ5SlRnRE96ZHdGMzNzcmlHTzlmMXFYTEZiU2s1RjlCOGY2QTVmbUtLVjhHN0RnUjBtMHFpOGJUS2I3N05aTlhEWVdGbzhtSkJ3?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Scholar Rock: Zulassung vertagt? Egal – die Aktie rockt! - Der Aktionär",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -819,14 +846,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "CORRESP · 2026-03-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "UPLOAD · 2026-03-06",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
