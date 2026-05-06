@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-06T09:20:35Z",
+    "last_update_utc": "2026-05-06T09:32:20Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -214,21 +214,6 @@
         "published_at": "2026-04-25T10:44:10Z",
         "source": "Börse Express",
         "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "B.Riley startet Coverage für Compass Pathways mit Kaufempfehlung und Kursziel von 17 $ - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVFTRlZxNkxyLUFFbzJod3VFVjNxQjItWjVSdXpESGliU2wxQVVnQlVmdFl2NGhZUW9KbWFyOVZlLXktQmFFZTY1YzJDMUVVMDhRd0VabWRIbFVEMDBnR1dfMC1WZVZEVFg0bWFhZDZTd1dwQmdwVGgxZ3BMX0FlOXl0TWV4Y2FxU0pMNEVSWHlDaTd4UWdYLWNSVGMwSWFqXzVIbi1uNEFiQklOY0hORFhrYUQ2emNiN25OOFN5SWlxSjMtQXhSOGFnaWlTQmlXVGNXay1nQktNQnc?oc=5",
-        "published_at": "2026-04-24T08:40:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -344,6 +329,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Compass Pathways Aktie: Warten auf die FDA - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOVFZTmFyazRlRERWbVAxNkgxbmVnR0M4M3Ixbl93ZDNUbEVPbnNRRDNjdlROWEYxZFBBWl8xakQ1LW11T0x4TV9GNzZEeDFKc1dHYnFXVUhjbXFYcC1ONTlSS0pQT2hPSzRzRmNZaHZCMGpDalZiMElTX0dkY2RfcUkxbFdVMkNqWnpyVkl6TE9wTGtFTFhWQjZYSnEydlVWUXc?oc=5",
+        "published_at": "2026-03-16T07:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
         "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVVFUGZGZXRfa1BfQ3JrRDBPeWdEdExBRUJKNHRHUXpqQm5zUEJKdUhnUERVb1BKUWU1MU1zNjY1ekJhTHZTVVdEelFJZDE4YUlYalhBMUI5MnpFSHBYRkZXZ1hPeHZNOUtINjVkOUJGRHg4T0I2Y0ZUTWFSVjBDS3lQcGhlWHFiZ1V3X3pzQmRKWGpnU0xZT3poeUVidWM?oc=5",
         "published_at": "2026-03-09T07:00:00Z",
@@ -394,6 +394,21 @@
         "published_at": "2026-02-25T08:00:00Z",
         "source": "AD HOC NEWS",
         "query": "COMPASS Pathways clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "150 Mio. USD für Compass – Optimi ist der wahre Gamechanger - 24.02.26 - News - Ariva",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQW4tRnNsazRCUUpyNFhWYkkxUTBUbnNJbWpSQlpMbUYxVUhnRzU1Tmp6blkwekZfMjl5VWRpdWRGaERad1M1SjJITE1iV0NsODlRRHA5S3d6Q0pucVJMZHNOSHBmdjk0Y3NaVTJ4ODVGdVlRRjBuQnVVakgyT1dQaU5CTFVOSlpnVHJwazBzUkc4elFFaUszbGZRSHhOQk13Q2d1cmg0cGhkOGlQUFVuYVFvVXIwcTRuVUNya29KdUJqdw?oc=5",
+        "published_at": "2026-02-24T08:00:00Z",
+        "source": "Ariva",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -850,6 +865,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Compass Pathways Aktie: Warten auf die FDA - AD HOC NEWS",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "AD HOC NEWS",
+        "date": "2026-03-16T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOVFZTmFyazRlRERWbVAxNkgxbmVnR0M4M3Ixbl93ZDNUbEVPbnNRRDNjdlROWEYxZFBBWl8xakQ1LW11T0x4TV9GNzZEeDFKc1dHYnFXVUhjbXFYcC1ONTlSS0pQT2hPSzRzRmNZaHZCMGpDalZiMElTX0dkY2RfcUkxbFdVMkNqWnpyVkl6TE9wTGtFTFhWQjZYSnEydlVWUXc?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1066,14 +1093,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-02-17"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-03-03",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-03"
       }
     ],
     "queries_used": [
