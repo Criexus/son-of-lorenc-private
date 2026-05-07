@@ -593,6 +593,30 @@ def autofill_dossier(data, news, filings, trials, price):
         }]
 
 
+
+def build_price_history(data: dict[str, Any], price: dict[str, Any]) -> list[dict[str, Any]]:
+    """Speichert Kurs-Snapshots pro Update. Kein Livechart, sondern Update-Verlauf."""
+    history = []
+    try:
+        history = list((data.get("latest_auto") or {}).get("price_history") or [])
+    except Exception:
+        history = []
+
+    current = price.get("regularMarketPrice") or price.get("price") or price.get("currentPrice")
+    try:
+        current = float(current)
+    except Exception:
+        current = None
+
+    if current and current > 0:
+        stamp = now_iso()
+        # nicht doppelt, wenn gleicher Tag/gleiche Stunde und gleicher Kurs im letzten Eintrag
+        if not history or history[-1].get("price") != current:
+            history.append({"t": stamp, "price": current})
+
+    return history[-80:]
+
+
 def update():
     watchlist = read_json(CONFIG)
     mp = sec_ticker_map()
@@ -622,9 +646,12 @@ def update():
 
         triggers = detected_triggers(news, filings, trials)
 
+        price_history = build_price_history(data, price)
+
         data["latest_auto"] = {
             "last_update_utc": now_iso(),
             "price": price,
+            "price_history": price_history,
             "news": news,
             "sec_filings": filings,
             "clinical_trials": trials,
@@ -646,7 +673,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v2.0-solid-admin-autodossier",
+        "version": "master-v3.1-smart-chart",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"

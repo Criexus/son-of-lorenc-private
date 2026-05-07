@@ -564,6 +564,7 @@ function renderSmart() {
   renderSmartNews();
   renderSmartUpcoming();
   renderSmartAssessment();
+  renderSmartChart();
   updateTradeCalc();
 }
 
@@ -657,6 +658,83 @@ function renderSmartAssessment() {
 
   target.innerHTML = html;
 }
+
+
+function renderSmartChart() {
+  const svg = $("smartChart");
+  const note = $("smartChartNote");
+  if (!svg) return;
+
+  const history = ((data?.latest_auto?.price_history || [])
+    .map(x => ({
+      t: dateMs(x.t || x.time || x.date),
+      price: Number(x.price)
+    }))
+    .filter(x => x.t && Number.isFinite(x.price) && x.price > 0)
+    .sort((a,b) => a.t - b.t)
+  ).slice(-40);
+
+  const current = currentPriceNumber();
+  if (history.length < 2 && current) {
+    const now = Date.now();
+    history.push({ t: now - 24*60*60*1000, price: current });
+    history.push({ t: now, price: current });
+  }
+
+  if (history.length < 2) {
+    svg.innerHTML = `
+      <rect x="0" y="0" width="720" height="260" rx="22" fill="rgba(255,255,255,.035)"></rect>
+      <text x="360" y="126" text-anchor="middle" fill="rgba(255,255,255,.78)" font-size="20" font-weight="800">Noch zu wenig Kursdaten</text>
+      <text x="360" y="158" text-anchor="middle" fill="rgba(255,255,255,.48)" font-size="14">Nach mehreren Updates entsteht hier der Kursverlauf.</text>
+    `;
+    if (note) note.textContent = "Der Smart-Chart baut sich automatisch mit jedem Update auf.";
+    return;
+  }
+
+  const w = 720, h = 260, pad = 34;
+  const prices = history.map(x => x.price);
+  let min = Math.min(...prices);
+  let max = Math.max(...prices);
+  if (min === max) {
+    min *= 0.96;
+    max *= 1.04;
+  }
+  const xAt = (i) => pad + (i / (history.length - 1)) * (w - pad*2);
+  const yAt = (p) => h - pad - ((p - min) / (max - min)) * (h - pad*2);
+
+  const pts = history.map((x,i) => `${xAt(i).toFixed(1)},${yAt(x.price).toFixed(1)}`).join(" ");
+  const first = history[0].price;
+  const last = history[history.length - 1].price;
+  const diff = last - first;
+  const pct = first ? (diff / first) * 100 : 0;
+  const stroke = diff >= 0 ? "#9ff0c0" : "#ffb0b0";
+
+  const grid = [0,1,2,3].map(i => {
+    const y = pad + i * ((h - pad*2)/3);
+    return `<line x1="${pad}" y1="${y}" x2="${w-pad}" y2="${y}" stroke="rgba(255,255,255,.08)" />`;
+  }).join("");
+
+  const circles = history.map((x,i) => {
+    if (i !== history.length - 1 && i !== 0) return "";
+    return `<circle cx="${xAt(i)}" cy="${yAt(x.price)}" r="5" fill="${stroke}" stroke="rgba(0,0,0,.45)" stroke-width="2" />`;
+  }).join("");
+
+  svg.innerHTML = `
+    <rect x="0" y="0" width="720" height="260" rx="22" fill="rgba(255,255,255,.035)"></rect>
+    ${grid}
+    <text x="${pad}" y="24" fill="rgba(255,255,255,.72)" font-size="13">Hoch: ${formatMoney(max)}</text>
+    <text x="${w-pad}" y="24" text-anchor="end" fill="rgba(255,255,255,.72)" font-size="13">Tief: ${formatMoney(min)}</text>
+    <polyline points="${pts}" fill="none" stroke="${stroke}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    ${circles}
+    <text x="${pad}" y="${h-10}" fill="rgba(255,255,255,.55)" font-size="13">${new Date(history[0].t).toLocaleDateString("de-DE")}</text>
+    <text x="${w-pad}" y="${h-10}" text-anchor="end" fill="rgba(255,255,255,.55)" font-size="13">${new Date(history[history.length-1].t).toLocaleDateString("de-DE")}</text>
+  `;
+
+  if (note) {
+    note.innerHTML = `Letzter gespeicherter Kurs: <b>${formatMoney(last)}</b> · Veränderung seit erstem gespeicherten Punkt: <b class="${diff >= 0 ? "gainText" : "lossText"}">${diff >= 0 ? "+" : ""}${formatMoney(diff)} (${pct.toFixed(1)}%)</b>`;
+  }
+}
+
 
 function initTradeCalculator() {
   ["calcBuyPrice", "calcInvest", "calcTargetSlider"].forEach(id => {

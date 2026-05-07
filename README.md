@@ -1,26 +1,18 @@
-# Son of Lorenc – Master v3.0 Smart / Max
+# Son of Lorenc – Master v3.1 Mobile Admin + Smart Börsenchart
 
-Diese Version baut die Oberfläche grundlegend um.
+Diese Version korrigiert zwei Punkte:
 
-## Neu
+## 1. Admin-Menü auf Mobile
+- Admin-Menü ist auf iPhone nicht mehr als Fixed-Overlay eingeblendet
+- es klappt im Seitenfluss unter dem Admin-Button auf
+- dadurch ist es komplett sichtbar
+- kein Abschneiden mehr am oberen oder unteren Rand
 
-### Smart
-- neue schnelle Startseite
-- aktuelle News zuerst
-- News nur aus den letzten 14 Tagen
-- kurze Einschätzung
-- nächste wichtige Termine / Auslöser
-- Kurs-/Gewinn-Rechner mit Einstiegskurs, Einsatz und Verkaufskurs-Regler
-
-### Max
-- volle bisherige Phasenanalyse
-- komplettes Kurs-/Newsdiagramm
-- Pipeline, Risiken, SEC, Trigger, Quellen
-
-### Mobile
-- Topbar stapelt sauber
-- Admin bleibt im Hintergrund
-- Smart ist auf iPhone/Tablet deutlich übersichtlicher
+## 2. Smart Börsenchart
+- Smart bekommt einen gespeicherten Kursverlauf
+- kein Livechart
+- der Chart wächst mit jedem Update
+- `scripts/update_data.py` speichert dafür `latest_auto.price_history`
 
 ## Online-Update
 
@@ -35,6 +27,7 @@ Diese Dateien pushen:
 - README.md
 
 Nicht kopieren:
-
 - data/
 - config/watchlist.json
+
+Danach GitHub Action einmal manuell starten, damit `price_history` entsteht.
