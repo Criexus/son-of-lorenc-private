@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.16",
-      "note": "Auto-Update: -20.0% vs. vorheriger Schlusskurs",
+      "value": "$3.17",
+      "note": "Auto-Update: -19.75% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -87,14 +87,14 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-07T19:11:22Z",
+    "last_update_utc": "2026-05-07T20:45:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.16,
+      "regularMarketPrice": 3.17,
       "previousClose": 3.95,
-      "change": -0.79,
-      "changePercent": -20.0
+      "change": -0.78,
+      "changePercent": -19.75
     },
     "price_history": [
       {
@@ -112,6 +112,10 @@
       {
         "t": "2026-05-07T19:11:22Z",
         "price": 3.16
+      },
+      {
+        "t": "2026-05-07T20:45:55Z",
+        "price": 3.17
       }
     ],
     "news": [
@@ -226,21 +230,6 @@
         "published_at": "2018-12-09T08:00:00Z",
         "source": "TradingView",
         "query": "ENVB stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Enveric Biosciences Aktie | ENVB Kurs | Realtime - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HcThLdHNOeXFtVTVlM1pSUFlJdlFzZkJPUEZFS1JsYmJ0YmczazhpUnJuQTVJclZiOHJoYWVrenlRWU1adTBvRGk5dmQ5Q2kxczJ1VmgwaVZaR3pq?oc=5",
-        "published_at": "2017-11-13T11:22:06Z",
-        "source": "Investing.com Deutsch",
-        "query": "Enveric Biosciences ENVB stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

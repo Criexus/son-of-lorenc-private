@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.98",
-      "note": "Auto-Update: -4.45% vs. vorheriger Schlusskurs",
+      "value": "$4.01",
+      "note": "Auto-Update: -3.61% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -293,14 +293,14 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-07T19:10:45Z",
+    "last_update_utc": "2026-05-07T20:45:20Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.975,
+      "regularMarketPrice": 4.01,
       "previousClose": 4.16,
-      "change": -0.185,
-      "changePercent": -4.45
+      "change": -0.15,
+      "changePercent": -3.61
     },
     "price_history": [
       {
@@ -318,6 +318,10 @@
       {
         "t": "2026-05-07T19:10:45Z",
         "price": 3.975
+      },
+      {
+        "t": "2026-05-07T20:45:20Z",
+        "price": 4.01
       }
     ],
     "news": [
@@ -327,21 +331,6 @@
         "published_at": "2026-05-02T16:04:58Z",
         "source": "simplywall.st",
         "query": "ATAI / AtaiBeckley ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Atai Beckley: EMP-01 zeigt 38% Reduktion - Stock-World",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RYjFKWGtwMGgxNHluTjl6VFhrZkJPNkstSkFjaGhZWDBscThfbVBycDV4ZGxPaUxvVTlmRWhaRFJJbDE2bzFEakhqSjRjYXYyYzJHTjR3Uk8zNHlOQlE1MTdsdEVIUVM2dXQ1MmwzYkVlWVdV?oc=5",
-        "published_at": "2026-04-25T07:00:00Z",
-        "source": "Stock-World",
-        "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
