@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.65",
-      "note": "Auto-Update: 48.09% vs. vorheriger Schlusskurs",
+      "value": "$4.72",
+      "note": "Auto-Update: 50.32% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-07T17:13:34Z",
+    "last_update_utc": "2026-05-07T19:10:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.65,
+      "regularMarketPrice": 4.72,
       "previousClose": 3.14,
-      "change": 1.51,
-      "changePercent": 48.09
+      "change": 1.58,
+      "changePercent": 50.32
     },
     "price_history": [
       {
@@ -204,6 +204,10 @@
       {
         "t": "2026-05-07T17:13:34Z",
         "price": 4.65
+      },
+      {
+        "t": "2026-05-07T19:10:51Z",
+        "price": 4.72
       }
     ],
     "news": [
@@ -221,21 +225,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Biodexa erhält EMA-Zulassung für Phase-3-Studie zur FAP-Behandlung - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tHUHUxRjdra3BtX29adTNnVUVlSnRuaFpETmNaeUtzbUl4enpfalpHWFRnNmlvRlVEN3FaRksyRW5fNlJHenpOYUV4aE5lc1VWUVR3NTY1VXRCSHM5QTNNVTRRejJRVmdQRGkxWFphWXZWSW82czl5SVV1LW9FZEpSTGpjUzFmMnVYa29yRkVoUW16NUtOTkdsX3N4TnRVY2NzMktHS3RpY0JsLWZVamZxTUk1UC1QX1E?oc=5",
-        "published_at": "2025-11-03T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Biodexa Pharmaceuticals BDRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
       }
     ],
     "sec_filings": [
@@ -392,16 +381,6 @@
         "url": "https://clinicaltrials.gov/study/NCT06950385"
       },
       {
-        "nct_id": "NCT04230499",
-        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Familial Adenomatous Polyposis",
-        "last_update": "",
-        "start_date": "2021-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT04230499"
-      },
-      {
         "nct_id": "NCT05324501",
         "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
         "status": "TERMINATED",
@@ -410,21 +389,19 @@
         "last_update": "",
         "start_date": "2022-10-19",
         "url": "https://clinicaltrials.gov/study/NCT05324501"
+      },
+      {
+        "nct_id": "NCT04230499",
+        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
+        "last_update": "",
+        "start_date": "2021-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT04230499"
       }
     ],
     "detected_triggers": [
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "Biodexa erhält EMA-Zulassung für Phase-3-Studie zur FAP-Behandlung - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2025-11-03T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tHUHUxRjdra3BtX29adTNnVUVlSnRuaFpETmNaeUtzbUl4enpfalpHWFRnNmlvRlVEN3FaRksyRW5fNlJHenpOYUV4aE5lc1VWUVR3NTY1VXRCSHM5QTNNVTRRejJRVmdQRGkxWFphWXZWSW82czl5SVV1LW9FZEpSTGpjUzFmMnVYa29yRkVoUW16NUtOTkdsX3N4TnRVY2NzMktHS3RpY0JsLWZVamZxTUk1UC1QX1E?oc=5"
-      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
