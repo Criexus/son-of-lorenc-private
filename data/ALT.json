@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.08",
-      "note": "Auto-Update: 18.27% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: 15.58% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-07T15:09:59Z",
+    "last_update_utc": "2026-05-07T17:13:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.075,
+      "regularMarketPrice": 3.005,
       "previousClose": 2.6,
-      "change": 0.475,
-      "changePercent": 18.27
+      "change": 0.405,
+      "changePercent": 15.58
     },
     "price_history": [
       {
@@ -200,6 +200,10 @@
       {
         "t": "2026-05-07T15:09:59Z",
         "price": 3.075
+      },
+      {
+        "t": "2026-05-07T17:13:54Z",
+        "price": 3.005
       }
     ],
     "news": [
@@ -236,7 +240,7 @@
       {
         "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
-        "published_at": "2026-04-23T06:59:15Z",
+        "published_at": "2026-04-23T07:00:00Z",
         "source": "Börse Express",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
@@ -309,36 +313,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Vierjähriges Kind stirbt nach Sturz aus dem 15. Stock – Das ist bekannt - Berliner Morgenpost",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUmVfUFVQY2M0X1l0NkZ2VTAzZDVLREhsa0VHdDNUcFVCamI1ZTE0cTluWFpzdDBpNmZPNUR6RGdtUVVlV3cyWFU0TlhsV0tkbkVlMXItcDMzdTU2WEIyZGdfcllGb0o0UFhWZ21vS0E0bmotVzV6VGlTWVZLeXZpWlVWQW1aMlR1N3A4c1g0RGYxOWFKWmQ3UEJhX2pkS2RteTZ6WWxsdXp6ZE5WWFpoMHkwSFFvTmZjTG41VUNpbmVhUHpk?oc=5",
-        "published_at": "2026-03-03T08:00:00Z",
-        "source": "Berliner Morgenpost",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Shortseller-Positionen aktuell: freenet, GFT, HelloFresh, Hypoport, Puma, Qiagen, Redcare Pharmacy - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2Um9LZWVjTkdnOU5JcG50UlNNVFRPYUk0aXpNcS1IME9rdHFSWEcyZDRHR0RMcExFQ2dhVWJYNjlXUXdwbGR6SlpSYnVKLVR3QjRuUG9xYl9jRWdnWDl3aUpQM0hfR1NQSnhsbVlzaXNzVHNQbm9UMVdtdUfSAYIBQVVfeXFMT1pGd25xa0NNOHFNZ1hsWTllVXR5azBVLUxCUU9LQ3VxWVRCOVEwd3IyQ0NhZ3lfUWFFa2VycUdGeXN0ZWJVd3FMZlRNSWdPLVRGbTM3N3l0LTR1V0dWRVdrYUtlTVdzRURQR1IyS2t1Y2RWWFM3TkVpcDhmRnNsTjdEZw?oc=5",
-        "published_at": "2026-02-24T08:00:00Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
-      },
-      {
         "title": "Stockacher Narrengericht: Das ist die Geschichte der jahrhundertealten Fastnachtstradition - SWR",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTmpZV3BTb3p2LWlMQjRSU2h5bXdBeXE2Vmw1NjJVZi1RRVlRek53ckdTdnQ1TFB0cHFuOEJUWV84R25RLW9CZ1FZWDVTdEMwMktURmtvaXNlRjZ3ajhRMkFWc3UtUi0xLTdRNlRtZWRjRkJvVmVvMGZfbGduajhkekNHZzlaZ1doM1V6N3lxRUdBVGYwS0VrMXpEbVdfRk5XMF9pbUw0dkhSNXRIcm9hc0w1Q2FYeEN4X0lWU3lLN2liRGpxT0t5WHhJdXNpSFV5SlpZY2Rn?oc=5",
         "published_at": "2026-02-12T08:00:00Z",
@@ -359,21 +333,6 @@
         "published_at": "2026-02-05T08:00:00Z",
         "source": "AD HOC NEWS",
         "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Archäologischer Meilenstein: Die ältesten Holzwerkzeuge der Menschheitsgeschichte entdeckt - SWR",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQnVKeEdscVFmTmphbUpUSG42U210LVh4bkVaR0tjR2RqQWxpa2w3N0VUOTdwcjRSTFhlM0VJam42bkZHbzdLVlFDc202a1FoVmY5b3pHZTlHUHFSVWFBVkVqejRodThzelAtS1hOcC1KUFhLUy1iM2lHSDFDOHdWWnJ2TmYtLUpGejBfczB2SmxkTDJXMy0yT1pkbHQ1YUtoSE5kRmVfNHJRRktxaGltM0lacmRmUHF4eklEaW1kVG5QR3FOTGhmU3l3UjBDZE5LQWtQbQ?oc=5",
-        "published_at": "2026-01-29T08:00:00Z",
-        "source": "SWR",
-        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -474,6 +433,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Aroundtown, Delivery Hero, pbb, Puma, Redcare Pharmacy, Renk, TeamViewer - Aktien-Positionen der Short-Seller - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MQTNFU1JaLXUxa3JaUFI4aHFmMDdVR3dmM0VObXNkYktpTUFET1F4cm9WcmtjLUhHVXotMmh0ZkQzUzQwNXBJcE1uX3N5V3hjOWR4RnQzdlNTTnE4RXhnWmdBaENOdE5KRlYwcEFscEI0bGZac0NxUm9ickLSAYIBQVVfeXFMT1NZZ2V4cHViM2RlMW5Zdi1SaXJVR3VlaVRCcWZsN3JiSmk3YVh5UlIyMHpiSzlTNFhDMVRHWHEyQ01FZXpNM2tyVlVVZFlncnUxWkpPdWRnb1NZZ2k5Sk9UNVZ6ME9SR2psZHE5aDQ3b28ycDA0TVI2Tk5CR2N4aExyQQ?oc=5",
+        "published_at": "2026-01-06T08:00:00Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+      },
+      {
         "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
@@ -549,21 +523,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Altimmune Aktie: Führungswechsel vor dem Sturm! - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZUJxenFDUnlOREluZWxLckhEeUdtZDU1UmxvSFNCLXUzVjBwdzBZSzBYeUxENkRkSGlHOVhsNHE3a3lHR3NzRmNmZWkwWUR0eUZfcVR0amVrajNOd1h2VDdObEl3ZTdfcW9nekhNWE41WHJjV1NCc19jTkNpekNtUU9NTWk2UmJYMU03NHdFZUljNzdjM3E1LWZLRWg5RXhmQ1E?oc=5",
-        "published_at": "2025-12-02T08:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
         "title": "Altimmune Stock: A Perfect Storm for Potential Gains? - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOckw0cVRxMHZzR2hDLTVTUFBIX1l3ZkxOejdVY09VQmZ0aF9YeThUdHVyNjVUS3Q0U3FaTG1kTHctV3k4ZEtKVE1sSDZoMGYzcjdPVkIyLWNfMTFPaWVwb3ZERjlzZVg5QUZrc2VKV3ByZjdsSGVQV3AtQ3UzQURuVDEyQUNuQ3dGWEg2ck5GMmlJcDdJd01oU3loUUE5M2FnQTJ2b1BoYUo?oc=5",
         "published_at": "2025-11-29T08:00:00Z",
@@ -624,10 +583,25 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "AKTIONÄR-Alt-Empfehlung Abivax nach 586 Prozent an einem (!) Tag: So geht es jetzt weiter - Der Aktionär",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZDBtNEJJRDE4MlF0dzh5dENiNTZxenRhdEJJVTgyVV9IWHMyUG53aDdUdG5XS1I5SUFsNjNUSXAwYmVsVzdnbmttc3RqTXZOVENZNjJNQ3cyUlVGbG9QZGkxN3I0TGJqdnRSSWFORlNCMjZxejkwNXBnWklDam01ckc2WDhZX2VNUnFYNzd6eHBjakRWV0Qzb2QtaURyZnF0YTAzNWRadG1JRmhUSlpPUTZoU0VHQ2s2emdHMTl5cDQ5emJVazlRZS1ZYWpnSVMtVGxWcVVsSnNkX002S05ZeXBrR08?oc=5",
-        "published_at": "2025-07-25T07:00:00Z",
-        "source": "Der Aktionär",
+        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5",
+        "published_at": "2025-08-20T07:00:00Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+      },
+      {
+        "title": "Studie: In Deutschland droht Angebotsmangel an emissionsarmen Logistikobjekten - Logistik Heute",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFdKazhnc0FtOGJoSzg4LWVlaFk1YlRmY29RajhoUkZ1aEl1Qk15aG5XQkRubXlxOE4xOGZfR0sta3hJdndDLWk2OFFPeHVZM0NZTlVLcVA3b29Gd2lkSjVMSTk0UE9QeU9DRUhqNUNWLWNVSlRvd2pJRlMtODl1b2VPSnZxTjVfb2RkMWxRb2tkU21pRFFoTEtjN3JLaUYzbXRMTnhFM2dab2pPNDBLM2w3Mkk?oc=5",
+        "published_at": "2025-06-10T07:00:00Z",
+        "source": "Logistik Heute",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -639,10 +613,40 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "AKTIONÄR-Alt-Empfehlung Abivax explodiert 467 Prozent – jetzt die nächsten Überflieger kennenlernen! - Der Aktionär",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd3U3TXJzb092Um5oLTluY0VvbExVcVVTMXBFM2ljOUpTYVZ3Z1pKV2FQdWU3YWpSNDFybjk5ZXE0YnNOclA4WWZPOTdwVWE0anQyRWw0bWlyQUp5MlZiYmJZM29UWjdnZDlxTnJ6VHliYVI1dy1rbGRZSi1mWUNoVmVqeTNOTlhoZ1U1QTF1R2IzYjlpSkF6NXNzSmVKVENWenRjQzhtTW5TMHFoYjhSbEU2NFl5SHV5OG84enVSTnBsdnBkaGppRjRIeTVBd3RQcWhJMVhpRkhVUjNBRE8wZnJENDBlUzBkTms0cTh0bXk1MjRoM2JTcA?oc=5",
-        "published_at": "2025-07-23T07:00:00Z",
-        "source": "Der Aktionär",
+        "title": "Ältester Mensch der Welt stirbt mit 116 Jahren in Brasilien – News - Deutsches Ärzteblatt",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMm81MDFjZWpwLU8xSWxfZTJfbXN3UV9LVEVzWFlSYXZ5NkFMQVdycDZzdWlMV1pTQ3c3LXBmMmlKZjlveG1na0dWcGRGZnFqRUNKOGxuVXNuaUVjN2tUckJGRjlyUjNoNU9XSzFIM1lwZTlScmZFdUh3cTdHRjgxaEhmNzZxSWhCY25kd21NQjZUamZvdWxFd2VhOTVPdTNERGlqeEMwR1A2VWtHYnhBNV9tOVNVSEZMSzBpNWp2WGxMeUdZb25j?oc=5",
+        "published_at": "2025-05-02T07:00:00Z",
+        "source": "Deutsches Ärzteblatt",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Aus Hochhaus geworfener Einkaufswagen trifft zwei Autos, eins der Feuerwehr - rbb24.de",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM0xKMmdQWGhnREVUMjFGMGl5bTZ5UWxlY2VVNDE4MzNQSXlYV0NOVlkxVnJrc2dtX3dyTXVNa0tUOC1TY3dRRjU0UHItd3ktblBORkcyY0paRHZ2NFlTOFFaeWFuRmRfY0VYbzlvOTdFaDJST1ZfeF96d0xyUElLbnBsc2Uxd1g2bHBJbFByb05RYTVKbGNJbWRHWnBPemRGRDFXY25SbWxZQlRHYl8zZA?oc=5",
+        "published_at": "2025-04-10T07:00:00Z",
+        "source": "rbb24.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Zahl der Schwangerschaftsabbrüche im vergangenen Jahr nahezu unverändert – News - Deutsches Ärzteblatt",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObl9PaU9RNVRzVHgzczZFUGFYUkFRVkVkRmxpOGRUOFJiMFp6MjV2X2pMc3lFdFdxQlVVRFJiWngzUWtoOWdJdDV6MDVydmpvX0ZQYllOSERSbkNzZVVTZGZ2WjFleEVzN1RWU3lHWU1HenRvVFJNNVJINHhld00tOFdrX2FaOTF2Q2lEVU4xcTFBZGRGN0I3SjJmVzBxZDNiNkhaQThxVDFyR3RZS2ppcm5zR2dHRnItV21TWkxfUUxZcVQ1aklKOGlmY09MaTM5U0ZDaVFnUTY?oc=5",
+        "published_at": "2025-04-03T07:00:00Z",
+        "source": "Deutsches Ärzteblatt",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1010,7 +1014,7 @@
         "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
         "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "source": "Börse Express",
-        "date": "2026-04-23T06:59:15Z",
+        "date": "2026-04-23T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5"
       },
       {
@@ -1184,14 +1188,26 @@
       {
         "type": "Konferenz / Präsentation",
         "level": "low",
-        "title": "Shortseller-Positionen aktuell: freenet, GFT, HelloFresh, Hypoport, Puma, Qiagen, Redcare Pharmacy - 4investors.de",
+        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
         "reason": "Trigger erkannt: Konferenz / Präsentation.",
         "impact": "meist niedriger bis mittlerer Trigger",
         "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
         "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "source": "4investors.de",
-        "date": "2026-02-24T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2Um9LZWVjTkdnOU5JcG50UlNNVFRPYUk0aXpNcS1IME9rdHFSWEcyZDRHR0RMcExFQ2dhVWJYNjlXUXdwbGR6SlpSYnVKLVR3QjRuUG9xYl9jRWdnWDl3aUpQM0hfR1NQSnhsbVlzaXNzVHNQbm9UMVdtdUfSAYIBQVVfeXFMT1pGd25xa0NNOHFNZ1hsWTllVXR5azBVLUxCUU9LQ3VxWVRCOVEwd3IyQ0NhZ3lfUWFFa2VycUdGeXN0ZWJVd3FMZlRNSWdPLVRGbTM3N3l0LTR1V0dWRVdrYUtlTVdzRURQR1IyS2t1Y2RWWFM3TkVpcDhmRnNsTjdEZw?oc=5"
+        "date": "2025-08-20T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5"
+      },
+      {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
+        "title": "Aroundtown, Delivery Hero, pbb, Puma, Redcare Pharmacy, Renk, TeamViewer - Aktien-Positionen der Short-Seller - 4investors.de",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "4investors.de",
+        "date": "2026-01-06T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MQTNFU1JaLXUxa3JaUFI4aHFmMDdVR3dmM0VObXNkYktpTUFET1F4cm9WcmtjLUhHVXotMmh0ZkQzUzQwNXBJcE1uX3N5V3hjOWR4RnQzdlNTTnE4RXhnWmdBaENOdE5KRlYwcEFscEI0bGZac0NxUm9ickLSAYIBQVVfeXFMT1NZZ2V4cHViM2RlMW5Zdi1SaXJVR3VlaVRCcWZsN3JiSmk3YVh5UlIyMHpiSzlTNFhDMVRHWHEyQ01FZXpNM2tyVlVVZFlncnUxWkpPdWRnb1NZZ2k5Sk9UNVZ6ME9SR2psZHE5aDQ3b28ycDA0TVI2Tk5CR2N4aExyQQ?oc=5"
       },
       {
         "type": "SEC Filing",
@@ -1208,14 +1224,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-04-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-06"
       }
     ],
     "queries_used": [
