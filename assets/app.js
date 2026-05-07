@@ -1,6 +1,7 @@
 let data = null;
 let active = 0;
 let currentTicker = "ATAI";
+let viewMode = localStorage.getItem("solViewMode") || "smart";
 
 const $ = (id) => document.getElementById(id);
 
@@ -43,6 +44,7 @@ async function boot() {
     await loadTicker(currentTicker);
     $("refreshBtn").textContent = "Daten neu laden";
   });
+  initViewMode();
   initDropdownBehavior();
   initAdminForm();
   initDeleteForm();
@@ -137,6 +139,7 @@ function render() {
   renderLiveNews();
   renderTriggers();
   renderSecFilings();
+  renderSmart();
 
   $("clearView").innerHTML = (data.clear_view || []).map(p => `<p>${esc(simplifyText(p))}</p>`).join("");
 
@@ -489,6 +492,213 @@ window.select = function(i) {
 };
 
 
+
+
+
+function initViewMode() {
+  const smartBtn = $("smartModeBtn");
+  const maxBtn = $("maxModeBtn");
+  const setMode = (mode) => {
+    viewMode = mode;
+    localStorage.setItem("solViewMode", mode);
+    document.body.classList.toggle("smart-mode", mode === "smart");
+    document.body.classList.toggle("max-mode", mode === "max");
+    smartBtn?.classList.toggle("active", mode === "smart");
+    maxBtn?.classList.toggle("active", mode === "max");
+    renderSmart();
+  };
+  smartBtn?.addEventListener("click", () => setMode("smart"));
+  maxBtn?.addEventListener("click", () => setMode("max"));
+  setMode(viewMode);
+  initTradeCalculator();
+}
+
+function getAutoNews() {
+  return (data?.latest_auto?.news || []).filter(Boolean);
+}
+
+function dateMs(value) {
+  if (!value) return 0;
+  const ms = Date.parse(value);
+  return Number.isFinite(ms) ? ms : 0;
+}
+
+function recentNews(days = 14) {
+  const now = Date.now();
+  const cutoff = now - days * 24 * 60 * 60 * 1000;
+  return getAutoNews()
+    .filter(n => {
+      const ms = dateMs(n.published_at || n.date);
+      return ms && ms >= cutoff;
+    })
+    .sort((a, b) => dateMs(b.published_at || b.date) - dateMs(a.published_at || a.date));
+}
+
+function currentPriceNumber() {
+  const price = data?.latest_auto?.price || {};
+  const val = price.regularMarketPrice ?? price.price ?? price.currentPrice;
+  const n = Number(val);
+  return Number.isFinite(n) ? n : null;
+}
+
+function formatMoney(value, currency = "$") {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return "offen";
+  return `${currency}${n.toLocaleString("de-DE", { maximumFractionDigits: 2, minimumFractionDigits: n < 10 ? 2 : 0 })}`;
+}
+
+function renderSmart() {
+  if (!data || !$("smartHome")) return;
+
+  $("smartHeadline").textContent = `${data.ticker} · ${data.name || data.ticker}`;
+  $("smartThesis").textContent = simplifyText(data.thesis || "Kompakte Smart-Ansicht mit den wichtigsten News, Einschätzungen und Kursbereichen.");
+
+  const price = data.latest_auto?.price || {};
+  const p = currentPriceNumber();
+  $("smartPriceGrid").innerHTML = `
+    <div class="smartMetric"><span>Aktueller Kurs</span><b>${formatMoney(p)}</b><small>${esc(price.regularMarketChangePercent ? `${price.regularMarketChangePercent}% vs. vorheriger Schluss` : "Live-/Auto-Daten")}</small></div>
+    <div class="smartMetric"><span>52W-Spanne</span><b>${esc(price.fiftyTwoWeekRange || price.range52 || "offen")}</b><small>zur Einordnung der Schwankung</small></div>
+    <div class="smartMetric"><span>Risiko</span><b>${esc(data.character || "spekulativ")}</b><small>keine Kaufempfehlung</small></div>
+  `;
+
+  renderSmartNews();
+  renderSmartUpcoming();
+  renderSmartAssessment();
+  updateTradeCalc();
+}
+
+function renderSmartNews() {
+  const target = $("smartNews");
+  if (!target) return;
+
+  let news = recentNews(14);
+  if (!news.length) {
+    news = getAutoNews()
+      .sort((a, b) => dateMs(b.published_at || b.date) - dateMs(a.published_at || a.date))
+      .slice(0, 6);
+  }
+
+  if (!news.length) {
+    target.innerHTML = `<p class="mutedBox">Noch keine aktuellen News geladen. Starte den Workflow oder warte auf das nächste Auto-Update.</p>`;
+    return;
+  }
+
+  target.innerHTML = news.slice(0, 10).map(n => `
+    <article class="smartNewsItem ${esc(n.trigger_level || "")}">
+      <div class="smartNewsMeta">${esc(fmtDate(n.published_at))} · ${esc(n.source || "Quelle offen")} · ${esc(n.trigger_type || "News")}</div>
+      <h3>${esc(simplifyText(n.title || "Ohne Titel"))}</h3>
+      <p><strong>Einordnung:</strong> ${esc(simplifyText(n.assessment || n.summary || "Diese Meldung sollte geprüft werden."))}</p>
+      ${n.watch ? `<p><strong>Worauf achten:</strong> ${esc(simplifyText(n.watch))}</p>` : ""}
+      ${n.url ? `<a class="sourceLink" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">Quelle öffnen →</a>` : ""}
+    </article>
+  `).join("");
+}
+
+function renderSmartUpcoming() {
+  const target = $("smartUpcoming");
+  if (!target) return;
+
+  const catalysts = (data.catalysts || []).slice(0, 4);
+  const triggers = (data.latest_auto?.detected_triggers || []).slice(0, 4);
+
+  const cards = [
+    ...catalysts.map(c => ({
+      tag: c.tag || "Termin",
+      title: c.title || "Wichtiger Auslöser",
+      text: c.text || "Prüfen, ob dieser Punkt den Kurs bewegen kann."
+    })),
+    ...triggers.map(t => ({
+      tag: t.type || "Hinweis",
+      title: t.title || t.reason || "Automatisch erkannter Hinweis",
+      text: t.assessment || t.watch || "Diese Meldung sollte genauer geprüft werden."
+    }))
+  ].slice(0, 5);
+
+  if (!cards.length) {
+    target.innerHTML = `<p class="mutedBox">Noch keine klaren nächsten Termine erkannt. Achte auf Studienupdates, Finanzierungen, Quartalszahlen oder Behördenmeldungen.</p>`;
+    return;
+  }
+
+  target.innerHTML = cards.map(c => `
+    <div class="smartUpcomingItem">
+      <span>${esc(simplifyText(c.tag))}</span>
+      <b>${esc(simplifyText(c.title))}</b>
+      <p>${esc(simplifyText(c.text))}</p>
+    </div>
+  `).join("");
+}
+
+function renderSmartAssessment() {
+  const target = $("smartAssessment");
+  if (!target) return;
+
+  const clear = (data.clear_view || []).slice(0, 3);
+  const zones = (data.zones || []).slice(0, 3);
+  const recent = recentNews(14);
+  const high = recent.filter(n => n.trigger_level === "high").length;
+
+  let html = "";
+  if (clear.length) {
+    html += clear.map(p => `<p>${esc(simplifyText(p))}</p>`).join("");
+  } else {
+    html += `<p>Diese Aktie ist aktuell stark von News abhängig. Wichtig sind Kurs, News der letzten Tage, Finanzierung und mögliche Studien- oder Behördenmeldungen.</p>`;
+  }
+
+  html += `<div class="smartSignal ${high ? "hot" : ""}">
+    <b>${high ? "Achtung: starke Trigger gefunden" : "Aktueller Smart-Status"}</b>
+    <span>${high ? `${high} stark kursrelevante Meldung(en) in den letzten 14 Tagen erkannt.` : "Keine extremen Trigger in den letzten 14 Tagen erkannt. Trotzdem News genau lesen."}</span>
+  </div>`;
+
+  if (zones.length) {
+    html += `<div class="smartZones">` + zones.map(z => `
+      <div><b>${esc(simplifyText(z.zone))}</b><span>${esc(simplifyText(z.text))}</span></div>
+    `).join("") + `</div>`;
+  }
+
+  target.innerHTML = html;
+}
+
+function initTradeCalculator() {
+  ["calcBuyPrice", "calcInvest", "calcTargetSlider"].forEach(id => {
+    $(id)?.addEventListener("input", updateTradeCalc);
+  });
+}
+
+function updateTradeCalc() {
+  if (!$("tradeResult")) return;
+
+  const current = currentPriceNumber();
+  const buyInput = $("calcBuyPrice");
+  const investInput = $("calcInvest");
+  const slider = $("calcTargetSlider");
+
+  if (current && buyInput && !buyInput.value) {
+    buyInput.value = current.toFixed(2);
+  }
+
+  const buy = Number(buyInput?.value || 0);
+  const invest = Number(investInput?.value || 0);
+  const pct = Number(slider?.value || 0);
+  $("calcTargetLabel").textContent = `${pct >= 0 ? "+" : ""}${pct}%`;
+
+  if (!buy || !invest) {
+    $("tradeResult").innerHTML = "Einstiegskurs und Einsatz eingeben.";
+    return;
+  }
+
+  const sell = buy * (1 + pct / 100);
+  const shares = invest / buy;
+  const value = shares * sell;
+  const profit = value - invest;
+  const profitPct = (profit / invest) * 100;
+
+  $("tradeResult").innerHTML = `
+    <div><span>Verkaufskurs</span><b>${formatMoney(sell)}</b></div>
+    <div><span>Stückzahl ca.</span><b>${shares.toLocaleString("de-DE", { maximumFractionDigits: 2 })}</b></div>
+    <div><span>Endwert</span><b>${formatMoney(value)}</b></div>
+    <div class="${profit >= 0 ? "gain" : "loss"}"><span>${profit >= 0 ? "Gewinn" : "Verlust"}</span><b>${formatMoney(profit)} (${profitPct.toFixed(1)}%)</b></div>
+  `;
+}
 
 
 function closeAdminDropdownSoon() {

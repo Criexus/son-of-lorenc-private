@@ -1,26 +1,30 @@
-# Son of Lorenc – Master v2.0 Solid Admin + Auto-Dossier Fix
+# Son of Lorenc – Master v3.0 Smart / Max
 
-Diese Version behebt zwei Punkte:
+Diese Version baut die Oberfläche grundlegend um.
 
-## 1. Admin-Menü
-- Admin-Menü ist jetzt ein solides, dunkles Panel
-- nicht mehr transparent
-- liegt über den Analyse-Kacheln
-- schließt nach erfolgreichem Speichern/Löschen automatisch
+## Neu
 
-## 2. Auto-Dossier
-- neue Aktien werden aggressiver automatisch befüllt
-- leere/platzhalterhafte Bereiche werden erkannt
-- Woran arbeitet das Unternehmen?
-- mögliche Kursbereiche & Einstiegsidee
+### Smart
+- neue schnelle Startseite
+- aktuelle News zuerst
+- News nur aus den letzten 14 Tagen
+- kurze Einschätzung
 - nächste wichtige Termine / Auslöser
-- guter / normaler / schlechter Fall
-- Geldlage, neue Aktien & Risiken
-- einfache Zusammenfassung
+- Kurs-/Gewinn-Rechner mit Einstiegskurs, Einsatz und Verkaufskurs-Regler
+
+### Max
+- volle bisherige Phasenanalyse
+- komplettes Kurs-/Newsdiagramm
+- Pipeline, Risiken, SEC, Trigger, Quellen
+
+### Mobile
+- Topbar stapelt sauber
+- Admin bleibt im Hintergrund
+- Smart ist auf iPhone/Tablet deutlich übersichtlicher
 
 ## Online-Update
 
-Diese Dateien kopieren und pushen:
+Diese Dateien pushen:
 
 - index.html
 - assets/app.js
@@ -31,7 +35,6 @@ Diese Dateien kopieren und pushen:
 - README.md
 
 Nicht kopieren:
+
 - data/
 - config/watchlist.json
-
-Danach GitHub Action einmal manuell starten.

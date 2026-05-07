@@ -24,6 +24,10 @@
     </div>
     <div class="topActions">
       <select id="tickerSelect" aria-label="Ticker auswählen"></select>
+      <div class="modeSwitch" aria-label="Ansicht wählen">
+        <button id="smartModeBtn" class="modeBtn active" type="button">Smart</button>
+        <button id="maxModeBtn" class="modeBtn" type="button">Max</button>
+      </div>
       <button id="refreshBtn" class="refreshBtn" type="button">Daten neu laden</button>
 
       <details class="adminDropdown">
@@ -106,6 +110,72 @@
 
     </div>
   </div>
+
+  <section id="smartHome" class="smartHome">
+    <div class="card smartHero">
+      <div class="smartHeroText">
+        <span class="smartBadge">SMART VIEW · LETZTE 14 TAGE</span>
+        <h1 id="smartHeadline">Smart-Analyse wird geladen…</h1>
+        <p id="smartThesis">Aktuelle News, erste Einordnung und mögliche Kursbereiche – kompakt für den schnellen Blick.</p>
+      </div>
+      <div class="smartPriceGrid" id="smartPriceGrid"></div>
+    </div>
+
+    <section class="smartGrid">
+      <div class="card smartCard smartTrade">
+        <div class="smartCardHead">
+          <span class="smartKicker">Rechner</span>
+          <h2>Kurs-/Gewinn-Rechner</h2>
+          <p>Gib deinen Einstieg und Einsatz ein. Der Regler zeigt dir, was bei einem Verkaufskurs möglich wäre.</p>
+        </div>
+        <div class="tradeForm">
+          <label>
+            <span>Einstiegskurs</span>
+            <input id="calcBuyPrice" type="number" min="0" step="0.01" placeholder="z. B. 3.50">
+          </label>
+          <label>
+            <span>Einsatz in €/$</span>
+            <input id="calcInvest" type="number" min="0" step="10" value="500">
+          </label>
+          <label class="tradeSlider">
+            <span>Verkaufsziel: <b id="calcTargetLabel">+20%</b></span>
+            <input id="calcTargetSlider" type="range" min="-50" max="200" step="1" value="20">
+          </label>
+        </div>
+        <div class="tradeResult" id="tradeResult">
+          Werte eingeben, dann wird der mögliche Gewinn berechnet.
+        </div>
+      </div>
+
+      <div class="card smartCard smartNewsCard">
+        <div class="smartCardHead">
+          <span class="smartKicker">Aktuell zuerst</span>
+          <h2>Aktuelle News</h2>
+          <p>Nur Meldungen der letzten 14 Tage. Neueste Meldungen stehen oben.</p>
+        </div>
+        <div class="smartNewsList" id="smartNews"></div>
+      </div>
+
+      <div class="card smartCard">
+        <div class="smartCardHead">
+          <span class="smartKicker">Nächste Schritte</span>
+          <h2>Was wird als Nächstes wichtig?</h2>
+          <p>Studien, Finanzierung, Behördenmeldungen oder Quartalszahlen, die den Kurs bewegen könnten.</p>
+        </div>
+        <div class="smartUpcoming" id="smartUpcoming"></div>
+      </div>
+
+      <div class="card smartCard">
+        <div class="smartCardHead">
+          <span class="smartKicker">Einfach erklärt</span>
+          <h2>Erste Einschätzung</h2>
+        </div>
+        <div class="smartAssessment" id="smartAssessment"></div>
+      </div>
+    </section>
+  </section>
+
+  <div id="maxView" class="maxView">
 <section class="hero">
     <div class="card heroMain">
       <div class="heroWatermark">
@@ -231,6 +301,7 @@
     <ul id="sources"></ul>
     <p class="small">Nur Informations- und Analysezwecke. Keine Anlageberatung, keine Kauf- oder Verkaufsempfehlung.</p>
   </section>
+  </div>
 </div>
 <script src="/config/admin.js"></script>
 <script src="/assets/app.js"></script>
