@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-07T08:02:15Z",
+    "last_update_utc": "2026-05-07T10:38:37Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -213,6 +213,21 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Biodexa erhält EMA-Zulassung für Phase-3-Studie zur FAP-Behandlung - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tHUHUxRjdra3BtX29adTNnVUVlSnRuaFpETmNaeUtzbUl4enpfalpHWFRnNmlvRlVEN3FaRksyRW5fNlJHenpOYUV4aE5lc1VWUVR3NTY1VXRCSHM5QTNNVTRRejJRVmdQRGkxWFphWXZWSW82czl5SVV1LW9FZEpSTGpjUzFmMnVYa29yRkVoUW16NUtOTkdsX3N4TnRVY2NzMktHS3RpY0JsLWZVamZxTUk1UC1QX1E?oc=5",
+        "published_at": "2025-11-03T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
       }
     ],
     "sec_filings": [
@@ -390,6 +405,18 @@
       }
     ],
     "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Biodexa erhält EMA-Zulassung für Phase-3-Studie zur FAP-Behandlung - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2025-11-03T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tHUHUxRjdra3BtX29adTNnVUVlSnRuaFpETmNaeUtzbUl4enpfalpHWFRnNmlvRlVEN3FaRksyRW5fNlJHenpOYUV4aE5lc1VWUVR3NTY1VXRCSHM5QTNNVTRRejJRVmdQRGkxWFphWXZWSW82czl5SVV1LW9FZEpSTGpjUzFmMnVYa29yRkVoUW16NUtOTkdsX3N4TnRVY2NzMktHS3RpY0JsLWZVamZxTUk1UC1QX1E?oc=5"
+      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
