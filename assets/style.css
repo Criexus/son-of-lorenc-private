@@ -1681,3 +1681,53 @@ body.max-mode #smartHome{
     min-width:560px;
   }
 }
+
+/* v3.2 Mobile Calculator Top-Down */
+.tradeFormTopDown{
+  grid-template-columns:1fr 1fr;
+}
+
+.tradeFormTopDown label{
+  min-width:0;
+}
+
+.tradeFormTopDown input{
+  font-size:18px;
+  font-weight:800;
+}
+
+.tradeResult{
+  grid-template-columns:repeat(2,1fr);
+}
+
+.tradeResult > div:last-child:nth-child(odd){
+  grid-column:1 / -1;
+}
+
+@media(max-width:760px){
+  .tradeFormTopDown{
+    grid-template-columns:1fr !important;
+  }
+
+  .tradeFormTopDown label span{
+    font-size:12px !important;
+  }
+
+  .tradeFormTopDown input{
+    min-height:54px !important;
+    font-size:20px !important;
+    border-radius:16px !important;
+  }
+
+  .tradeResult{
+    grid-template-columns:1fr !important;
+  }
+
+  .tradeResult > div{
+    padding:16px !important;
+  }
+
+  .tradeResult b{
+    font-size:24px !important;
+  }
+}

@@ -737,9 +737,43 @@ function renderSmartChart() {
 
 
 function initTradeCalculator() {
-  ["calcBuyPrice", "calcInvest", "calcTargetSlider"].forEach(id => {
-    $(id)?.addEventListener("input", updateTradeCalc);
+  const buy = $("calcBuyPrice");
+  const invest = $("calcInvest");
+  const sell = $("calcSellPrice");
+  const pct = $("calcTargetPct");
+
+  buy?.addEventListener("input", () => {
+    syncSellFromPct();
+    updateTradeCalc();
   });
+  invest?.addEventListener("input", updateTradeCalc);
+
+  sell?.addEventListener("input", () => {
+    syncPctFromSell();
+    updateTradeCalc();
+  });
+
+  pct?.addEventListener("input", () => {
+    syncSellFromPct();
+    updateTradeCalc();
+  });
+}
+
+function syncSellFromPct() {
+  const buy = Number($("calcBuyPrice")?.value || 0);
+  const pct = Number($("calcTargetPct")?.value || 0);
+  const sell = $("calcSellPrice");
+  if (!buy || !sell) return;
+  const target = buy * (1 + pct / 100);
+  sell.value = target > 0 ? target.toFixed(2) : "";
+}
+
+function syncPctFromSell() {
+  const buy = Number($("calcBuyPrice")?.value || 0);
+  const sell = Number($("calcSellPrice")?.value || 0);
+  const pct = $("calcTargetPct");
+  if (!buy || !sell || !pct) return;
+  pct.value = (((sell / buy) - 1) * 100).toFixed(1);
 }
 
 function updateTradeCalc() {
@@ -748,7 +782,8 @@ function updateTradeCalc() {
   const current = currentPriceNumber();
   const buyInput = $("calcBuyPrice");
   const investInput = $("calcInvest");
-  const slider = $("calcTargetSlider");
+  const sellInput = $("calcSellPrice");
+  const pctInput = $("calcTargetPct");
 
   if (current && buyInput && !buyInput.value) {
     buyInput.value = current.toFixed(2);
@@ -756,22 +791,27 @@ function updateTradeCalc() {
 
   const buy = Number(buyInput?.value || 0);
   const invest = Number(investInput?.value || 0);
-  const pct = Number(slider?.value || 0);
-  $("calcTargetLabel").textContent = `${pct >= 0 ? "+" : ""}${pct}%`;
 
-  if (!buy || !invest) {
-    $("tradeResult").innerHTML = "Einstiegskurs und Einsatz eingeben.";
+  if (buy && pctInput && sellInput && !sellInput.value) {
+    const pct = Number(pctInput.value || 0);
+    sellInput.value = (buy * (1 + pct / 100)).toFixed(2);
+  }
+
+  const sell = Number(sellInput?.value || 0);
+
+  if (!buy || !invest || !sell) {
+    $("tradeResult").innerHTML = "Einstiegskurs, Einsatz und Verkaufskurs eingeben.";
     return;
   }
 
-  const sell = buy * (1 + pct / 100);
   const shares = invest / buy;
   const value = shares * sell;
   const profit = value - invest;
   const profitPct = (profit / invest) * 100;
 
   $("tradeResult").innerHTML = `
-    <div><span>Verkaufskurs</span><b>${formatMoney(sell)}</b></div>
+    <div><span>Einstieg</span><b>${formatMoney(buy)}</b></div>
+    <div><span>Verkauf</span><b>${formatMoney(sell)}</b></div>
     <div><span>Stückzahl ca.</span><b>${shares.toLocaleString("de-DE", { maximumFractionDigits: 2 })}</b></div>
     <div><span>Endwert</span><b>${formatMoney(value)}</b></div>
     <div class="${profit >= 0 ? "gain" : "loss"}"><span>${profit >= 0 ? "Gewinn" : "Verlust"}</span><b>${formatMoney(profit)} (${profitPct.toFixed(1)}%)</b></div>

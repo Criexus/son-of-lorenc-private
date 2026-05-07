@@ -141,18 +141,22 @@
           <h2>Kurs-/Gewinn-Rechner</h2>
           <p>Gib deinen Einstieg und Einsatz ein. Der Regler zeigt dir, was bei einem Verkaufskurs möglich wäre.</p>
         </div>
-        <div class="tradeForm">
+        <div class="tradeForm tradeFormTopDown">
           <label>
-            <span>Einstiegskurs</span>
+            <span>1. Einstiegskurs</span>
             <input id="calcBuyPrice" type="number" min="0" step="0.01" placeholder="z. B. 3.50">
           </label>
           <label>
-            <span>Einsatz in €/$</span>
+            <span>2. Einsatz in €/$</span>
             <input id="calcInvest" type="number" min="0" step="10" value="500">
           </label>
-          <label class="tradeSlider">
-            <span>Verkaufsziel: <b id="calcTargetLabel">+20%</b></span>
-            <input id="calcTargetSlider" type="range" min="-50" max="200" step="1" value="20">
+          <label>
+            <span>3. Verkaufskurs</span>
+            <input id="calcSellPrice" type="number" min="0" step="0.01" placeholder="z. B. 5.00">
+          </label>
+          <label>
+            <span>4. Ziel in %</span>
+            <input id="calcTargetPct" type="number" step="1" value="20" placeholder="z. B. 20">
           </label>
         </div>
         <div class="tradeResult" id="tradeResult">
