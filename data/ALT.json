@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.05",
-      "note": "Auto-Update: 8.16% vs. vorheriger Schlusskurs",
+      "value": "$3.09",
+      "note": "Auto-Update: 9.57% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T19:03:14Z",
+    "last_update_utc": "2026-05-08T20:33:09Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.05,
+      "regularMarketPrice": 3.09,
       "previousClose": 2.82,
-      "change": 0.23,
-      "changePercent": 8.16
+      "change": 0.27,
+      "changePercent": 9.57
     },
     "price_history": [
       {
@@ -228,6 +228,10 @@
       {
         "t": "2026-05-08T19:03:14Z",
         "price": 3.05
+      },
+      {
+        "t": "2026-05-08T20:33:09Z",
+        "price": 3.09
       }
     ],
     "news": [
@@ -237,6 +241,21 @@
         "published_at": "2026-05-04T16:31:09Z",
         "source": "AD HOC NEWS",
         "query": "Altimmune ALT pemvidutide stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen."
+      },
+      {
+        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
+        "published_at": "2026-04-23T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Studienphase / Readout",
         "trigger_level": "high",
@@ -260,21 +279,6 @@
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen."
-      },
-      {
-        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
-        "published_at": "2026-04-23T07:00:00Z",
-        "source": "Börse Express",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Studienphase / Readout",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen."
       },
       {
         "title": "Altimmune Aktie: Kapitalbasis vor Ausbau - AD HOC NEWS",
@@ -401,7 +405,7 @@
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
         "published_at": "2026-01-28T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "ALT stock news",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -476,7 +480,7 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -492,6 +496,21 @@
         "published_at": "2026-01-05T08:00:00Z",
         "source": "kapitalmarktexperten.de",
         "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Brand im Wohnpark Alterlaa: Eine Tote - wien.ORF.at",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0tWUJEZ3pxTk9qUlVEc2lMVlROTDZBNjFGVDNUb2ZZX3VTTVRpaU9KYndCUHlhMGJrVkJWU1VsN0VJVGNaWW11ejVhdTQ?oc=5",
+        "published_at": "2025-12-27T08:00:00Z",
+        "source": "wien.ORF.at",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -637,40 +656,25 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "AKTIONÄR-Alt-Empfehlung Abivax explodiert 467 Prozent – jetzt die nächsten Überflieger kennenlernen! - Der Aktionär",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd3U3TXJzb092Um5oLTluY0VvbExVcVVTMXBFM2ljOUpTYVZ3Z1pKV2FQdWU3YWpSNDFybjk5ZXE0YnNOclA4WWZPOTdwVWE0anQyRWw0bWlyQUp5MlZiYmJZM29UWjdnZDlxTnJ6VHliYVI1dy1rbGRZSi1mWUNoVmVqeTNOTlhoZ1U1QTF1R2IzYjlpSkF6NXNzSmVKVENWenRjQzhtTW5TMHFoYjhSbEU2NFl5SHV5OG84enVSTnBsdnBkaGppRjRIeTVBd3RQcWhJMVhpRkhVUjNBRE8wZnJENDBlUzBkTms0cTh0bXk1MjRoM2JTcA?oc=5",
+        "published_at": "2025-07-23T07:00:00Z",
+        "source": "Der Aktionär",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Studie: In Deutschland droht Angebotsmangel an emissionsarmen Logistikobjekten - Logistik Heute",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFdKazhnc0FtOGJoSzg4LWVlaFk1YlRmY29RajhoUkZ1aEl1Qk15aG5XQkRubXlxOE4xOGZfR0sta3hJdndDLWk2OFFPeHVZM0NZTlVLcVA3b29Gd2lkSjVMSTk0UE9QeU9DRUhqNUNWLWNVSlRvd2pJRlMtODl1b2VPSnZxTjVfb2RkMWxRb2tkU21pRFFoTEtjN3JLaUYzbXRMTnhFM2dab2pPNDBLM2w3Mkk?oc=5",
         "published_at": "2025-06-10T07:00:00Z",
         "source": "Logistik Heute",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Anti-Aging: Taurin doch kein Verjüngungsmittel - science.ORF.at",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQkpSTk5DSEtyTEJJQ2ZNUk9yOEppVV9Yb1hGVnRoellwbVJEM2FtUTB6TUFXZWRjUjBCMUQ2WHdYdXNQOEg0dGlCTUJMM0xC?oc=5",
-        "published_at": "2025-06-05T07:00:00Z",
-        "source": "science.ORF.at",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Schulleiter von Privatschule prügelt Jungen (10) vor der Klasse zu Tode – wegen einer „Kleinigkeit“ - RTL.de",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMExkNDJVNFlBdU94WTVWNDRuS2pLUm1jUFoxWXFLaHdmM1p6QXRuVHZ6YTRQODA0eWJxVGp6OWlmNXhWNVFoaEZKOUppQnE3QUFvVnROaGkxZHVkMnVQS1UxM3hzZ0U0QlBwdFFyVUVtRzUyV2ZwT05GbWxIYnE1VllDSzg5ZERHZ0pDc3h0QTloNkJrSUY0U3A2NTBmaG1SRThDRTMycEZBRUdLYzNlU2laOA?oc=5",
-        "published_at": "2025-06-03T07:00:00Z",
-        "source": "RTL.de",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

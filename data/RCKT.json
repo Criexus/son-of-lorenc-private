@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.62",
-      "note": "Auto-Update: 1.54% vs. vorheriger Schlusskurs",
+      "value": "$3.63",
+      "note": "Auto-Update: 1.97% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T19:03:00Z",
+    "last_update_utc": "2026-05-08T20:32:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.615,
+      "regularMarketPrice": 3.63,
       "previousClose": 3.56,
-      "change": 0.055,
-      "changePercent": 1.54
+      "change": 0.07,
+      "changePercent": 1.97
     },
     "price_history": [
       {
@@ -228,6 +228,10 @@
       {
         "t": "2026-05-08T19:03:00Z",
         "price": 3.615
+      },
+      {
+        "t": "2026-05-08T20:32:55Z",
+        "price": 3.63
       }
     ],
     "news": [
@@ -356,7 +360,7 @@
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZUZNMS1KeFFRaFRWU2ZVbVlWMDV3dlVyUHVQSHNVTzhaNVBaakdlZXMwdDlPUG5kN0ZDb0M5N0szT3cwUjJFaVZiajhOdEFQMjM5NkQtdTRBWnFqTURSb0F4emVlOW54aHg5WQ?oc=5",
         "published_at": "2018-02-19T15:53:56Z",
         "source": "Finanzen.net",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "query": "RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

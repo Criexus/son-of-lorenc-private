@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.99",
-      "note": "Auto-Update: -3.62% vs. vorheriger Schlusskurs",
+      "value": "$4.03",
+      "note": "Auto-Update: -2.66% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -293,14 +293,14 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T19:02:48Z",
+    "last_update_utc": "2026-05-08T20:32:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.99,
+      "regularMarketPrice": 4.03,
       "previousClose": 4.14,
-      "change": -0.15,
-      "changePercent": -3.62
+      "change": -0.11,
+      "changePercent": -2.66
     },
     "price_history": [
       {
@@ -338,6 +338,10 @@
       {
         "t": "2026-05-08T19:02:48Z",
         "price": 3.99
+      },
+      {
+        "t": "2026-05-08T20:32:42Z",
+        "price": 4.03
       }
     ],
     "news": [
@@ -445,6 +449,21 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "ATAI Life Sciences: Phase 3 startet - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUZmbWhnS3RZam9ISzB3X0NXUzBqU0VacE1ZejU1QldUek83RHdyNVFIanExeTl5Q3FpejVjMFZpdzlPdG5MazZUV3RfYzZxNllHdExoQXRBOURNX05mc0o2bmZzZDgxWXJqTUVyM1F1ekhaNGUxZHdBblhMcmxuRUNJanQxSXlIdXgwUjV5TQ?oc=5",
+        "published_at": "2026-03-15T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen."
       },
       {
         "title": "ATAI Life Sciences Aktie: Strategische Neuausrichtung - Börse Express",
@@ -1040,6 +1059,18 @@
         "date": "2026-03-09"
       },
       {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "ATAI Life Sciences: Phase 3 startet - Börse Express",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "Börse Express",
+        "date": "2026-03-15T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUZmbWhnS3RZam9ISzB3X0NXUzBqU0VacE1ZejU1QldUek83RHdyNVFIanExeTl5Q3FpejVjMFZpdzlPdG5MazZUV3RfYzZxNllHdExoQXRBOURNX05mc0o2bmZzZDgxWXJqTUVyM1F1ekhaNGUxZHdBblhMcmxuRUNJanQxSXlIdXgwUjV5TQ?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Oral Morphine Versus Ketamine in Pain Management",
@@ -1254,14 +1285,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-24"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-04-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-10"
       }
     ],
     "queries_used": [
