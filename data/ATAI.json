@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.01",
-      "note": "Auto-Update: -3.61% vs. vorheriger Schlusskurs",
+      "value": "$4.07",
+      "note": "Auto-Update: -1.81% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -293,14 +293,14 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T12:51:45Z",
+    "last_update_utc": "2026-05-08T14:47:14Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.01,
-      "previousClose": 4.16,
-      "change": -0.15,
-      "changePercent": -3.61
+      "regularMarketPrice": 4.065,
+      "previousClose": 4.14,
+      "change": -0.075,
+      "changePercent": -1.81
     },
     "price_history": [
       {
@@ -322,6 +322,10 @@
       {
         "t": "2026-05-07T20:45:20Z",
         "price": 4.01
+      },
+      {
+        "t": "2026-05-08T14:47:14Z",
+        "price": 4.065
       }
     ],
     "news": [
@@ -360,7 +364,7 @@
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR2hqd2VhSEJRQUZUT0R2OVp1ZklyOUl0WFVDSm14V0hEUU5xRXlYc0pPOHgzTk5zcl8xZFZ6RU5VTFRJZ1N6UjBLWjFzVjdVT1BoNEVVdVFuZ01yUGxLaXR4d0R1V2Z2SExhd0RjQnRuVVZvN3JubzFiSUVUQ3V6aHZWZXNFWFFuZ3dpWXRocU5hWmF6aHpESTdSWGdxOHBIcUxVTnR2OUd4dXJtNDNrUWtDdkd0VU9vMERFM29odlpWZjRKRV9HX3lVRHloTUNQWGx1XzN6MXFqOFpmaFZKb9IB5gFBVV95cUxQY251dzR4ajFiQXZpQ005VjFCTjZIa1p0bGdHNGFnbnpramxpeWd4a1hZTkt2c2xQUktta1hoVTBTQUEwVGpXbEtZQnhSbmhYUURrZFZsMkVQcGhlZ0dkTnNiTG9qamtKa0ZjSHlDcmJJVS15LVcxbFlQNG9VVk8tUWtMYVREZmd4YUtzaU11bFRLclo1ano4YTJ1dGg4U0Zoa0k4S2F4ZmhBX1Frekk0dVZwc3AtdDBkSHlTWTZPdmdqc3oyWEdmcVFjV2hDSEJ2dVlYSG9KTmFUWFZLQk1lSEdRTHJXdw?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
         "source": "simplywall.st",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -474,6 +478,21 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "AtaiBeckley: Aktie legt nach positiven Studienergebnissen um 2 % zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUDlnbno1cFNCbVZwSWx2emoxUmwzQWgzRHEyVjVkbEpJZDVjSDZrRFZST05sc2xzRmxnbVZBSnZyQzBXVGNFN28yMmFQQmFtYWhiUUFCY21UWnpzUGNKT05aaEQ4YkJEOFRyMDBBbDRiNWlYYWVOVDlNSG5zZG82UjB1Smo0YjZobUt4WGlJN2pZb0ZJRTdiU3lzcklBb1g0YmV6QmhEcXJkSDZKRmI1QnFlTVh4UEE5S3Z4ZVRNS2VjQVNZ?oc=5",
+        "published_at": "2026-02-26T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
         "title": "AtaiBeckley Aktie: Strategie im Fokus - Börse Express",
