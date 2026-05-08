@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T11:20:15Z",
+    "last_update_utc": "2026-05-08T12:52:12Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -381,21 +381,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Altimmune-Aktie bricht nach Ankündigung einer 75-Millionen-Dollar-Direktplatzierung ein - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
-        "published_at": "2026-01-28T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
         "title": "Ausgrabungen in Griechenland: Älteste Holzwerkzeuge Europas entdeckt - Spektrum der Wissenschaft",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXR5ek5aUlFwcW02LXpKZWQyQmFobG5iLVp4WXg1YjZkSmIyRWdwdE5vbmRTaXVmNFoyeWp2am1NZEdFTF9Fa3g1ZlFyVUtMT3lFa042b2p5ejh0enE5VFlyT3VwbWVDY0FIdURSMUd6QXo4aTRSTDkxUmRvQ2gxb0Nxc1I1OUZaSERnODVQN0VraDJRY2h4Sy13?oc=5",
         "published_at": "2026-01-27T08:00:00Z",
@@ -456,6 +441,36 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Circus geht in die Kaserne - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSZmlPNVUxZ0ZNeFkzRWZHZm41S0dsNWtPcHQtT0pZaDYtZ1Exa1FnN3JERGxsRkJzbmJnSzNWZEQ0aEpfS2NpYTJ0N3RzSmdxMGQxM1BmTTRoNW5wYklVTDJ3RzVNaHYxZUFfSGJjclBfNGg3RXFSMG1MRGTSAYIBQVVfeXFMTUJYcmI3aEFtblVQSGlDMVVoUGpYM1h2NHcxbzNsZTlRRzIzeDdySHdGN0RBcXVibVVVSm9EMm5BenloX3dWVy1WdlpkVEtKWTdVOHNsOFJ4UVk1bWFwQUEyZmxjd3VPNTQxV2xKb0VzTkxTYXJHSmFHejY4b0lhY1VZdw?oc=5",
+        "published_at": "2026-01-20T08:00:00Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+      },
+      {
+        "title": "Dinosaurier: T. rex wurde deutlich älter als gedacht - Spektrum der Wissenschaft",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1pPS2JYUElyc2tlWDhKM01DVmcxcHM3Y2ZaZ3dSbFN2WVl2bWNsNDY3MTN0OG5IbHFabm5ZamVFQ3JlR1lOMmVKNHBHazFxcUJGZzVFdXRTOHdfT2RsNE5UT3dJSzIwN2VVeU9mYUhTMUtocDRMTFdxeFk0R080bkNmV1A5LXJvTGxmcmFRdmFEdw?oc=5",
+        "published_at": "2026-01-15T08:00:00Z",
+        "source": "Spektrum der Wissenschaft",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
@@ -476,6 +491,21 @@
         "published_at": "2026-01-05T08:00:00Z",
         "source": "kapitalmarktexperten.de",
         "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Brand im Wohnpark Alterlaa: Eine Tote - wien.ORF.at",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0tWUJEZ3pxTk9qUlVEc2lMVlROTDZBNjFGVDNUb2ZZX3VTTVRpaU9KYndCUHlhMGJrVkJWU1VsN0VJVGNaWW11ejVhdTQ?oc=5",
+        "published_at": "2025-12-27T08:00:00Z",
+        "source": "wien.ORF.at",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -591,24 +621,24 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5",
-        "published_at": "2025-08-20T07:00:00Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
-      },
-      {
         "title": "AKTIONÄR-Alt-Empfehlung Abivax nach 586 Prozent an einem (!) Tag: So geht es jetzt weiter - Der Aktionär",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZDBtNEJJRDE4MlF0dzh5dENiNTZxenRhdEJJVTgyVV9IWHMyUG53aDdUdG5XS1I5SUFsNjNUSXAwYmVsVzdnbmttc3RqTXZOVENZNjJNQ3cyUlVGbG9QZGkxN3I0TGJqdnRSSWFORlNCMjZxejkwNXBnWklDam01ckc2WDhZX2VNUnFYNzd6eHBjakRWV0Qzb2QtaURyZnF0YTAzNWRadG1JRmhUSlpPUTZoU0VHQ2s2emdHMTl5cDQ5emJVazlRZS1ZYWpnSVMtVGxWcVVsSnNkX002S05ZeXBrR08?oc=5",
         "published_at": "2025-07-25T07:00:00Z",
+        "source": "Der Aktionär",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "AKTIONÄR-Alt-Empfehlung Abivax explodiert 467 Prozent – jetzt die nächsten Überflieger kennenlernen! - Der Aktionär",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd3U3TXJzb092Um5oLTluY0VvbExVcVVTMXBFM2ljOUpTYVZ3Z1pKV2FQdWU3YWpSNDFybjk5ZXE0YnNOclA4WWZPOTdwVWE0anQyRWw0bWlyQUp5MlZiYmJZM29UWjdnZDlxTnJ6VHliYVI1dy1rbGRZSi1mWUNoVmVqeTNOTlhoZ1U1QTF1R2IzYjlpSkF6NXNzSmVKVENWenRjQzhtTW5TMHFoYjhSbEU2NFl5SHV5OG84enVSTnBsdnBkaGppRjRIeTVBd3RQcWhJMVhpRkhVUjNBRE8wZnJENDBlUzBkTms0cTh0bXk1MjRoM2JTcA?oc=5",
+        "published_at": "2025-07-23T07:00:00Z",
         "source": "Der Aktionär",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
@@ -625,36 +655,6 @@
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFdKazhnc0FtOGJoSzg4LWVlaFk1YlRmY29RajhoUkZ1aEl1Qk15aG5XQkRubXlxOE4xOGZfR0sta3hJdndDLWk2OFFPeHVZM0NZTlVLcVA3b29Gd2lkSjVMSTk0UE9QeU9DRUhqNUNWLWNVSlRvd2pJRlMtODl1b2VPSnZxTjVfb2RkMWxRb2tkU21pRFFoTEtjN3JLaUYzbXRMTnhFM2dab2pPNDBLM2w3Mkk?oc=5",
         "published_at": "2025-06-10T07:00:00Z",
         "source": "Logistik Heute",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Anti-Aging: Taurin doch kein Verjüngungsmittel - science.ORF.at",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9EQkpSTk5DSEtyTEJJQ2ZNUk9yOEppVV9Yb1hGVnRoellwbVJEM2FtUTB6TUFXZWRjUjBCMUQ2WHdYdXNQOEg0dGlCTUJMM0xC?oc=5",
-        "published_at": "2025-06-05T07:00:00Z",
-        "source": "science.ORF.at",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Papsttod: Was bisher geschah und was jetzt geschieht - Vatican News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa0p3bWVyMjFvNlQtRC1Ibkd5V0o5NTRCNlhpQllGODB1S0JhT0lyOS1NVlkxSGZCN3ZhTVl4c1FVeDJtRERvSDY2NmFlaDUydTNPMFJXaXVpeU1nR1dOaVZhTERETnZvNjJCUW11ZVNhbkhyUFp2R1JYN2RhMmptQWFsd1BUanZNU1NuN3pPSU83S0xTVlByYUl3R0ktOW52cjRERDZpZXNjbDQ?oc=5",
-        "published_at": "2025-04-22T07:00:00Z",
-        "source": "Vatican News",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -810,74 +810,14 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04972396",
-        "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
+        "nct_id": "NCT05295875",
+        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
         "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "NASH - Nonalcoholic Steatohepatitis",
-        "last_update": "",
-        "start_date": "2021-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT04972396"
-      },
-      {
-        "nct_id": "NCT03163342",
-        "title": "Immune Response Following Seasonal Influenza Vaccination",
-        "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "Influenza",
-        "last_update": "",
-        "start_date": "2017-05-08",
-        "url": "https://clinicaltrials.gov/study/NCT03163342"
-      },
-      {
-        "nct_id": "NCT04679909",
-        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
-        "last_update": "",
-        "start_date": "2021-02-25",
-        "url": "https://clinicaltrials.gov/study/NCT04679909"
-      },
-      {
-        "nct_id": "NCT03760549",
-        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Influenza",
-        "last_update": "",
-        "start_date": "2019-01-21",
-        "url": "https://clinicaltrials.gov/study/NCT03760549"
-      },
-      {
-        "nct_id": "NCT06987513",
-        "title": "RECLAIM STUDY: A Phase 2 Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
-        "status": "ACTIVE_NOT_RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Alcohol Use Disorder (AUD)",
+        "conditions": "Obesity/Overweight",
         "last_update": "",
-        "start_date": "2025-05-15",
-        "url": "https://clinicaltrials.gov/study/NCT06987513"
-      },
-      {
-        "nct_id": "NCT04442230",
-        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "Coronavirus Infection",
-        "last_update": "",
-        "start_date": "2020-10-10",
-        "url": "https://clinicaltrials.gov/study/NCT04442230"
-      },
-      {
-        "nct_id": "NCT03352466",
-        "title": "NasoShield Study of Safety and Immunogenicity",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
-        "last_update": "",
-        "start_date": "2018-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT03352466"
+        "start_date": "2022-03-31",
+        "url": "https://clinicaltrials.gov/study/NCT05295875"
       },
       {
         "nct_id": "NCT05134662",
@@ -890,6 +830,46 @@
         "url": "https://clinicaltrials.gov/study/NCT05134662"
       },
       {
+        "nct_id": "NCT04415749",
+        "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Healthy Volunteers",
+        "last_update": "",
+        "start_date": "2020-06-15",
+        "url": "https://clinicaltrials.gov/study/NCT04415749"
+      },
+      {
+        "nct_id": "NCT06987513",
+        "title": "RECLAIM STUDY: A Phase 2 Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Alcohol Use Disorder (AUD)",
+        "last_update": "",
+        "start_date": "2025-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT06987513"
+      },
+      {
+        "nct_id": "NCT04972396",
+        "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "NASH - Nonalcoholic Steatohepatitis",
+        "last_update": "",
+        "start_date": "2021-09-15",
+        "url": "https://clinicaltrials.gov/study/NCT04972396"
+      },
+      {
+        "nct_id": "NCT04442230",
+        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Coronavirus Infection",
+        "last_update": "",
+        "start_date": "2020-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT04442230"
+      },
+      {
         "nct_id": "NCT04561245",
         "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
         "status": "COMPLETED",
@@ -898,26 +878,6 @@
         "last_update": "",
         "start_date": "2020-11-10",
         "url": "https://clinicaltrials.gov/study/NCT04561245"
-      },
-      {
-        "nct_id": "NCT05295875",
-        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Obesity/Overweight",
-        "last_update": "",
-        "start_date": "2022-03-31",
-        "url": "https://clinicaltrials.gov/study/NCT05295875"
-      },
-      {
-        "nct_id": "NCT05006885",
-        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Non-Alcoholic Fatty Liver Disease",
-        "last_update": "",
-        "start_date": "2021-09-30",
-        "url": "https://clinicaltrials.gov/study/NCT05006885"
       },
       {
         "nct_id": "NCT02496897",
@@ -940,14 +900,54 @@
         "url": "https://clinicaltrials.gov/study/NCT04684914"
       },
       {
-        "nct_id": "NCT04415749",
-        "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
+        "nct_id": "NCT03163342",
+        "title": "Immune Response Following Seasonal Influenza Vaccination",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2017-05-08",
+        "url": "https://clinicaltrials.gov/study/NCT03163342"
+      },
+      {
+        "nct_id": "NCT03232567",
+        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2017-09-18",
+        "url": "https://clinicaltrials.gov/study/NCT03232567"
+      },
+      {
+        "nct_id": "NCT05989711",
+        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Non-Alcoholic Steatohepatitis (NASH)",
+        "last_update": "",
+        "start_date": "2023-07-27",
+        "url": "https://clinicaltrials.gov/study/NCT05989711"
+      },
+      {
+        "nct_id": "NCT03760549",
+        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2019-01-21",
+        "url": "https://clinicaltrials.gov/study/NCT03760549"
+      },
+      {
+        "nct_id": "NCT04679909",
+        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
         "status": "COMPLETED",
         "phase": "PHASE1",
         "conditions": "Healthy Volunteers",
         "last_update": "",
-        "start_date": "2020-06-15",
-        "url": "https://clinicaltrials.gov/study/NCT04415749"
+        "start_date": "2021-02-25",
+        "url": "https://clinicaltrials.gov/study/NCT04679909"
       },
       {
         "nct_id": "NCT07009860",
@@ -1064,10 +1064,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "NasoShield Study of Safety and Immunogenicity",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT03352466",
-        "date": "2018-01-18"
+        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT03232567",
+        "date": "2017-09-18"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1120,14 +1120,6 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT05006885",
-        "date": "2021-09-30"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
         "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT05134662",
@@ -1140,6 +1132,14 @@
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
         "source": "NCT05295875",
         "date": "2022-03-31"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT05989711",
+        "date": "2023-07-27"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1196,14 +1196,14 @@
       {
         "type": "Konferenz / Präsentation",
         "level": "low",
-        "title": "LS telcom: Nachholeffekte in 2026 - 4investors.de",
+        "title": "Circus geht in die Kaserne - 4investors.de",
         "reason": "Trigger erkannt: Konferenz / Präsentation.",
         "impact": "meist niedriger bis mittlerer Trigger",
         "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
         "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "source": "4investors.de",
-        "date": "2025-08-20T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xZlpMQnRvQ2IybVVUd0phcEEtRW02THBqWGxPX3lBdDA5T21ZYVQ2c3VLTGdDWmRsMlhSa0NZTzFLTVEzaUk0aWhyaW84bGpRUld4T3dfc3NFNVA0OGRQcWRQOWhiaWlQYlBQS1RtOGJ0MHJER25meldwd0HSAYIBQVVfeXFMTU0xNjAxN0tieVVudzlMX0Y2RVZiSVRrV0tKbWh2OUNmWG1JYjNBbmVXZXhGZHFvMUtGZHN2XzQtUFQ4R01IMGM1U0NiZHdSTDh2U1JBaWpHZTlWajdRWm80aWFRTFdVUF95el9VWFZlX1BLQ0I1Z3dsVkQxZVRFRUxpUQ?oc=5"
+        "date": "2026-01-20T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSZmlPNVUxZ0ZNeFkzRWZHZm41S0dsNWtPcHQtT0pZaDYtZ1Exa1FnN3JERGxsRkJzbmJnSzNWZEQ0aEpfS2NpYTJ0N3RzSmdxMGQxM1BmTTRoNW5wYklVTDJ3RzVNaHYxZUFfSGJjclBfNGg3RXFSMG1MRGTSAYIBQVVfeXFMTUJYcmI3aEFtblVQSGlDMVVoUGpYM1h2NHcxbzNsZTlRRzIzeDdySHdGN0RBcXVibVVVSm9EMm5BenloX3dWVy1WdlpkVEtKWTdVOHNsOFJ4UVk1bWFwQUEyZmxjd3VPNTQxV2xKb0VzTkxTYXJHSmFHejY4b0lhY1VZdw?oc=5"
       },
       {
         "type": "SEC Filing",
