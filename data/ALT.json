@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.06",
-      "note": "Auto-Update: 8.33% vs. vorheriger Schlusskurs",
+      "value": "$3.05",
+      "note": "Auto-Update: 8.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T17:50:21Z",
+    "last_update_utc": "2026-05-08T19:03:14Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.055,
+      "regularMarketPrice": 3.05,
       "previousClose": 2.82,
-      "change": 0.235,
-      "changePercent": 8.33
+      "change": 0.23,
+      "changePercent": 8.16
     },
     "price_history": [
       {
@@ -224,6 +224,10 @@
       {
         "t": "2026-05-08T17:50:21Z",
         "price": 3.055
+      },
+      {
+        "t": "2026-05-08T19:03:14Z",
+        "price": 3.05
       }
     ],
     "news": [
@@ -363,6 +367,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Archäologischer Meilenstein: Die ältesten Holzwerkzeuge der Menschheitsgeschichte entdeckt - SWR",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQnVKeEdscVFmTmphbUpUSG42U210LVh4bkVaR0tjR2RqQWxpa2w3N0VUOTdwcjRSTFhlM0VJam42bkZHbzdLVlFDc202a1FoVmY5b3pHZTlHUHFSVWFBVkVqejRodThzelAtS1hOcC1KUFhLUy1iM2lHSDFDOHdWWnJ2TmYtLUpGejBfczB2SmxkTDJXMy0yT1pkbHQ1YUtoSE5kRmVfNHJRRktxaGltM0lacmRmUHF4eklEaW1kVG5QR3FOTGhmU3l3UjBDZE5LQWtQbQ?oc=5",
+        "published_at": "2026-01-29T08:00:00Z",
+        "source": "SWR",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Altimmune Aktie: Kapitalspritze für MASH-Studie - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEZha01BX2JpVzc3eUNCVGlEQkkxSDJPdjZhVlY5cU1Gb09QV19xN0JpN2xlZlNpQXBMVnZxOUhKLXY0TWpQejdOZDJKMDYyNjQ0OFhhbUpYbUxFcGJJZFhIT3N2MUEybHhycExSVFFOWkFldG9qMGMzTWItNUNrYzZocm5tdGREVzdrMQ?oc=5",
         "published_at": "2026-01-28T08:00:00Z",
@@ -382,7 +401,7 @@
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
         "published_at": "2026-01-28T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -603,6 +622,21 @@
         "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
       },
       {
+        "title": "AKTIONÄR-Alt-Empfehlung Abivax nach 586 Prozent an einem (!) Tag: So geht es jetzt weiter - Der Aktionär",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZDBtNEJJRDE4MlF0dzh5dENiNTZxenRhdEJJVTgyVV9IWHMyUG53aDdUdG5XS1I5SUFsNjNUSXAwYmVsVzdnbmttc3RqTXZOVENZNjJNQ3cyUlVGbG9QZGkxN3I0TGJqdnRSSWFORlNCMjZxejkwNXBnWklDam01ckc2WDhZX2VNUnFYNzd6eHBjakRWV0Qzb2QtaURyZnF0YTAzNWRadG1JRmhUSlpPUTZoU0VHQ2s2emdHMTl5cDQ5emJVazlRZS1ZYWpnSVMtVGxWcVVsSnNkX002S05ZeXBrR08?oc=5",
+        "published_at": "2025-07-25T07:00:00Z",
+        "source": "Der Aktionär",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "Studie: In Deutschland droht Angebotsmangel an emissionsarmen Logistikobjekten - Logistik Heute",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObFdKazhnc0FtOGJoSzg4LWVlaFk1YlRmY29RajhoUkZ1aEl1Qk15aG5XQkRubXlxOE4xOGZfR0sta3hJdndDLWk2OFFPeHVZM0NZTlVLcVA3b29Gd2lkSjVMSTk0UE9QeU9DRUhqNUNWLWNVSlRvd2pJRlMtODl1b2VPSnZxTjVfb2RkMWxRb2tkU21pRFFoTEtjN3JLaUYzbXRMTnhFM2dab2pPNDBLM2w3Mkk?oc=5",
         "published_at": "2025-06-10T07:00:00Z",
@@ -633,40 +667,10 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Welche Ernährung dabei hilft, gesund alt zu werden - Apotheken Umschau",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUUtjZG9Od1pTMUtuS3lKdDFmU2JPRm9sNWt4RnV1NmRldzBFb2J4UWYxNkZZU054dlFHMkx6cmJ3MXJyV2JEXzZzSEowU2ZteGJoWW5sV3E1ZlVJc2RMZERFZk1lV2hKYlFaeV9sVU9XLW9xdFZoZl9GUG1lcjJJcE9zYUVuWWpWZi0tM1VoWGtpV0pjaUlJdWw4OU5vY3AwUmUxeUNnRno0LXhqUDNuRm8wX3JHMG9mN3BoaG4xSXZIbWZ0Qm8wV25peW5Tdw?oc=5",
-        "published_at": "2025-04-25T07:00:00Z",
-        "source": "Apotheken Umschau",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Papsttod: Was bisher geschah und was jetzt geschieht - Vatican News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa0p3bWVyMjFvNlQtRC1Ibkd5V0o5NTRCNlhpQllGODB1S0JhT0lyOS1NVlkxSGZCN3ZhTVl4c1FVeDJtRERvSDY2NmFlaDUydTNPMFJXaXVpeU1nR1dOaVZhTERETnZvNjJCUW11ZVNhbkhyUFp2R1JYN2RhMmptQWFsd1BUanZNU1NuN3pPSU83S0xTVlByYUl3R0ktOW52cjRERDZpZXNjbDQ?oc=5",
-        "published_at": "2025-04-22T07:00:00Z",
-        "source": "Vatican News",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Aus Hochhaus geworfener Einkaufswagen trifft zwei Autos, eins der Feuerwehr - rbb24.de",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM0xKMmdQWGhnREVUMjFGMGl5bTZ5UWxlY2VVNDE4MzNQSXlYV0NOVlkxVnJrc2dtX3dyTXVNa0tUOC1TY3dRRjU0UHItd3ktblBORkcyY0paRHZ2NFlTOFFaeWFuRmRfY0VYbzlvOTdFaDJST1ZfeF96d0xyUElLbnBsc2Uxd1g2bHBJbFByb05RYTVKbGNJbWRHWnBPemRGRDFXY25SbWxZQlRHYl8zZA?oc=5",
-        "published_at": "2025-04-10T07:00:00Z",
-        "source": "rbb24.de",
+        "title": "Schulleiter von Privatschule prügelt Jungen (10) vor der Klasse zu Tode – wegen einer „Kleinigkeit“ - RTL.de",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMExkNDJVNFlBdU94WTVWNDRuS2pLUm1jUFoxWXFLaHdmM1p6QXRuVHZ6YTRQODA0eWJxVGp6OWlmNXhWNVFoaEZKOUppQnE3QUFvVnROaGkxZHVkMnVQS1UxM3hzZ0U0QlBwdFFyVUVtRzUyV2ZwT05GbWxIYnE1VllDSzg5ZERHZ0pDc3h0QTloNkJrSUY0U3A2NTBmaG1SRThDRTMycEZBRUdLYzNlU2laOA?oc=5",
+        "published_at": "2025-06-03T07:00:00Z",
+        "source": "RTL.de",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
