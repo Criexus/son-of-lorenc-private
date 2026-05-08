@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T01:56:31Z",
+    "last_update_utc": "2026-05-08T04:49:57Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -338,6 +338,13 @@
     ],
     "sec_filings": [
       {
+        "form": "8-K",
+        "filingDate": "2026-05-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126019573/ef20072739_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "10-Q",
         "filingDate": "2026-05-07",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000119312526211873/rckt-20260331.htm",
@@ -348,13 +355,6 @@
         "form": "144",
         "filingDate": "2026-05-07",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003384/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-05-07",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126019573/ef20072739_8k.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
@@ -812,17 +812,17 @@
         "date": "2026-04-28"
       },
       {
-        "type": "SEC · Finanzbericht",
+        "type": "SEC · Unternehmensereignis",
         "level": "medium",
-        "title": "10-Q · 2026-05-07",
+        "title": "8-K · 2026-05-07",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-07"
       },
       {
-        "type": "SEC · Unternehmensereignis",
+        "type": "SEC · Finanzbericht",
         "level": "medium",
-        "title": "8-K · 2026-05-07",
+        "title": "10-Q · 2026-05-07",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-07"
