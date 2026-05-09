@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-09T21:33:48Z",
+    "last_update_utc": "2026-05-09T22:32:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -309,6 +309,36 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "Scotiabank senkt Kursziel für Rocket Pharmaceuticals auf 19 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbzJMTXd2SjFLaTBGcjQtRHhCMlR2TTNpdmpIVFBrMDBYY2U0S2tuVzZqSlNSejl1c1RYX3hfdDV2Q2VxRGRoSkpZanI2YWZVdE1UaGJGMHJqTENBMmFMWjdfclJuQVY0UmhTUGJCOGZJeWdLNEJ1M1dMa0JYZElJZ1FsRlNKT1hmYnlodmVwUzFEQjdkalQ5dElWWHRvYnNLajctM09XQms3VVpVWm9lUTh3RUM5aE1xZG9qZ1JZUWpUWk1wTnc?oc=5",
+        "published_at": "2025-05-28T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Neun „Strong Buy“-Aktien mit Kurssteigerungen von 69 bis über 200 Prozent, laut Top-Analysten der Wall Street - Business Insider Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSl9qRkxyVlBoYTc3WU94SjNTM3Q0akY4UWpwVS1WS19rX2VaVUo3dTVNUG1TckxUREhBcElKZy1QdkVGRzFBT2hhUnVTblI3T2c5aWRzUVBjdnYwTkNkSEhOekFjS3lKM1BSMGpGenVpbTVucFQ4djJEY25pa1lKNjFFTDhCakdxMEtsbEEyT052ZzlyYjJJWWdBbG1sY0MwdXVmTXloSkxQSm05WWVna3JNdC1yN0lmbjdYanJNMTZJSE5BZUtBQWpjSWpYaC1JSmlLVnRB?oc=5",
+        "published_at": "2023-12-21T08:00:00Z",
+        "source": "Business Insider Deutschland",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen."
       },
       {
         "title": "Mirati's flagship KRAS inhibitor Krazati gets rebuffed in Europe - Fierce Pharma",
@@ -907,17 +937,21 @@
         "date": "2020-06-01"
       },
       {
-        "type": "SEC Filing",
+        "type": "Analysten / Kursziel",
         "level": "low",
-        "title": "CORRESP · 2026-03-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-06"
+        "title": "Neun „Strong Buy“-Aktien mit Kurssteigerungen von 69 bis über 200 Prozent, laut Top-Analysten der Wall Street - Business Insider Deutschland",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "Business Insider Deutschland",
+        "date": "2023-12-21T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSl9qRkxyVlBoYTc3WU94SjNTM3Q0akY4UWpwVS1WS19rX2VaVUo3dTVNUG1TckxUREhBcElKZy1QdkVGRzFBT2hhUnVTblI3T2c5aWRzUVBjdnYwTkNkSEhOekFjS3lKM1BSMGpGenVpbTVucFQ4djJEY25pa1lKNjFFTDhCakdxMEtsbEEyT052ZzlyYjJJWWdBbG1sY0MwdXVmTXloSkxQSm05WWVna3JNdC1yN0lmbjdYanJNMTZJSE5BZUtBQWpjSWpYaC1JSmlLVnRB?oc=5"
       },
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "UPLOAD · 2026-03-06",
+        "title": "CORRESP · 2026-03-06",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
