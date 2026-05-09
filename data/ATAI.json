@@ -293,7 +293,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-09T12:06:47Z",
+    "last_update_utc": "2026-05-09T13:56:39Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -351,6 +351,21 @@
         "published_at": "2026-05-02T16:04:58Z",
         "source": "simplywall.st",
         "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Atai Beckley: EMP-01 zeigt 38% Reduktion - Stock-World",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RYjFKWGtwMGgxNHluTjl6VFhrZkJPNkstSkFjaGhZWDBscThfbVBycDV4ZGxPaUxvVTlmRWhaRFJJbDE2bzFEakhqSjRjYXYyYzJHTjR3Uk8zNHlOQlE1MTdsdEVIUVM2dXQ1MmwzYkVlWVdV?oc=5",
+        "published_at": "2026-04-25T07:00:00Z",
+        "source": "Stock-World",
+        "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
