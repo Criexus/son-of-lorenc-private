@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-09T14:44:03Z",
+    "last_update_utc": "2026-05-09T15:41:08Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -309,6 +309,21 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Shortseller-Positionen aktuell: u.a. pbb, Gerresheimer, Hugo Boss, LANXESS, Puma, Sartorius, TeamViewer - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJcWpqT2s4T3M4TVhTRWFIMVo0MmJFZDBvbXp3XzM0MzNiellRMGJsZF9zbHlmYWNvRWpDVXlLMVB4SG1vSVlvc09SZHlsTlEwcDh4QTJSTWJNdTlqVmI2eWRxWlRqR0s3LXFtcTFBcjRCclJFckdfRVJUNWfSAYIBQVVfeXFMTlRNOFo5ZmlQM0FJWHZLYV8zVlIzcl9tME5ic3Vfb0FsLWxmaGc5VXpjdUV2ZU1mcl9aVXhmTUZwLWZtZkt5UG5KMzluSmw1c2JzRGhsMFdOb09tRElTU3FiVkRZTWlCdFJPdVlXb3pqLTVVV01GeFl4OFdta3ZpUE5OZw?oc=5",
+        "published_at": "2026-04-08T05:42:11Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
       },
       {
         "title": "Altimmune Aktie: Fokus auf Milliardenmarkt - AD HOC NEWS",
@@ -506,36 +521,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Circus geht in die Kaserne - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSZmlPNVUxZ0ZNeFkzRWZHZm41S0dsNWtPcHQtT0pZaDYtZ1Exa1FnN3JERGxsRkJzbmJnSzNWZEQ0aEpfS2NpYTJ0N3RzSmdxMGQxM1BmTTRoNW5wYklVTDJ3RzVNaHYxZUFfSGJjclBfNGg3RXFSMG1MRGTSAYIBQVVfeXFMTUJYcmI3aEFtblVQSGlDMVVoUGpYM1h2NHcxbzNsZTlRRzIzeDdySHdGN0RBcXVibVVVSm9EMm5BenloX3dWVy1WdlpkVEtKWTdVOHNsOFJ4UVk1bWFwQUEyZmxjd3VPNTQxV2xKb0VzTkxTYXJHSmFHejY4b0lhY1VZdw?oc=5",
-        "published_at": "2026-01-20T08:00:00Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
-      },
-      {
-        "title": "Dinosaurier: T. rex wurde deutlich älter als gedacht - Spektrum der Wissenschaft",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1pPS2JYUElyc2tlWDhKM01DVmcxcHM3Y2ZaZ3dSbFN2WVl2bWNsNDY3MTN0OG5IbHFabm5ZamVFQ3JlR1lOMmVKNHBHazFxcUJGZzVFdXRTOHdfT2RsNE5UT3dJSzIwN2VVeU9mYUhTMUtocDRMTFdxeFk0R080bkNmV1A5LXJvTGxmcmFRdmFEdw?oc=5",
-        "published_at": "2026-01-15T08:00:00Z",
-        "source": "Spektrum der Wissenschaft",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
         "title": "Altimmune Aktie: BTD erteilt - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HOXg4V2NROUNVM0EtUkZROG85czNiTThRbEV5RWY1MXhzY0JITHRsNzZpNzRTZVpQZGhtcGh2bFhwZGVOYmlSZ210eGNOMFR0U29nVUdmQlBUbjJoVl9kbFBSVVJJTXQ3QUJwNndRTDFzUQ?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
@@ -642,7 +627,7 @@
       },
       {
         "title": "Altimmune Stock: A Perfect Storm for Potential Gains? - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVG5qdVpWOThBdVFWNHNxS3R4dDdRYk9zR3dMLXFRN1JocXo2SGt5NUd4cTJETVdNYWVhdTFobDA2bW9JdkwwdHdCWmM0WFIyUmk4TTYzTnlFYlppU1YzM08wYmc2NU5iRFQyTjM0QzZuTzQyOUtIQ2h4T016Q2RmZ1V0Zks5ZnJkQnBPZ01TLTNXSnpzcmtjZ0d6U0laNnk5ODExNllRbTRnWjdiYWVN?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOckw0cVRxMHZzR2hDLTVTUFBIX1l3ZkxOejdVY09VQmZ0aF9YeThUdHVyNjVUS3Q0U3FaTG1kTHctV3k4ZEtKVE1sSDZoMGYzcjdPVkIyLWNfMTFPaWVwb3ZERjlzZVg5QUZrc2VKV3ByZjdsSGVQV3AtQ3UzQURuVDEyQUNuQ3dGWEg2ck5GMmlJcDdJd01oU3loUUE5M2FnQTJ2b1BoYUo?oc=5",
         "published_at": "2025-11-29T08:00:00Z",
         "source": "AD HOC NEWS",
         "query": "Altimmune ALT pemvidutide stock news",
@@ -669,6 +654,21 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+      },
+      {
+        "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DLUxxOEVlam5IZG83anV1ZzU5c0xPaTFWd0w1WVhFUlp2QUo3MnlsYl9zazM2Q1FGV0lqRGlfVjRTNTBOZi1mQkVvM1ZRNFdCTjluLVo3QXY4UWQwS3V0aTJSbE5TZ0NuNXVmcWU1NjF6dV9SSllGYm1WYy3SAYIBQVVfeXFMUEpLN1lCajFqYnJNMlhXZmxCWjlQODB0aHhGWGtxSFRZdmpkQTVfdFRvTjIzN2UwaW0tZE96bXF4bkxkUlpfWnBXY005TE51SjdlR1NKel9nTU9vS213S2pJa01tTVhvRFR6em9QNURTZ2ROc2dVTXI2UWszVjFKRGdEZw?oc=5",
+        "published_at": "2025-10-29T07:00:00Z",
+        "source": "4investors.de",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
       },
       {
         "title": "Altimmune Aktie: Kampf gegen die Klagewelle - Börse Express",
@@ -1204,14 +1204,14 @@
       {
         "type": "Konferenz / Präsentation",
         "level": "low",
-        "title": "Circus geht in die Kaserne - 4investors.de",
+        "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
         "reason": "Trigger erkannt: Konferenz / Präsentation.",
         "impact": "meist niedriger bis mittlerer Trigger",
         "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
         "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "source": "4investors.de",
-        "date": "2026-01-20T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSZmlPNVUxZ0ZNeFkzRWZHZm41S0dsNWtPcHQtT0pZaDYtZ1Exa1FnN3JERGxsRkJzbmJnSzNWZEQ0aEpfS2NpYTJ0N3RzSmdxMGQxM1BmTTRoNW5wYklVTDJ3RzVNaHYxZUFfSGJjclBfNGg3RXFSMG1MRGTSAYIBQVVfeXFMTUJYcmI3aEFtblVQSGlDMVVoUGpYM1h2NHcxbzNsZTlRRzIzeDdySHdGN0RBcXVibVVVSm9EMm5BenloX3dWVy1WdlpkVEtKWTdVOHNsOFJ4UVk1bWFwQUEyZmxjd3VPNTQxV2xKb0VzTkxTYXJHSmFHejY4b0lhY1VZdw?oc=5"
+        "date": "2025-10-29T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DLUxxOEVlam5IZG83anV1ZzU5c0xPaTFWd0w1WVhFUlp2QUo3MnlsYl9zazM2Q1FGV0lqRGlfVjRTNTBOZi1mQkVvM1ZRNFdCTjluLVo3QXY4UWQwS3V0aTJSbE5TZ0NuNXVmcWU1NjF6dV9SSllGYm1WYy3SAYIBQVVfeXFMUEpLN1lCajFqYnJNMlhXZmxCWjlQODB0aHhGWGtxSFRZdmpkQTVfdFRvTjIzN2UwaW0tZE96bXF4bkxkUlpfWnBXY005TE51SjdlR1NKel9nTU9vS213S2pJa01tTVhvRFR6em9QNURTZ2ROc2dVTXI2UWszVjFKRGdEZw?oc=5"
       },
       {
         "type": "SEC Filing",
@@ -1238,12 +1238,16 @@
         "date": "2026-04-06"
       },
       {
-        "type": "SEC Filing",
+        "type": "Konferenz / Präsentation",
         "level": "low",
-        "title": "SCHEDULE 13G · 2026-04-30",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-30"
+        "title": "Shortseller-Positionen aktuell: u.a. pbb, Gerresheimer, Hugo Boss, LANXESS, Puma, Sartorius, TeamViewer - 4investors.de",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "4investors.de",
+        "date": "2026-04-08T05:42:11Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBJcWpqT2s4T3M4TVhTRWFIMVo0MmJFZDBvbXp3XzM0MzNiellRMGJsZF9zbHlmYWNvRWpDVXlLMVB4SG1vSVlvc09SZHlsTlEwcDh4QTJSTWJNdTlqVmI2eWRxWlRqR0s3LXFtcTFBcjRCclJFckdfRVJUNWfSAYIBQVVfeXFMTlRNOFo5ZmlQM0FJWHZLYV8zVlIzcl9tME5ic3Vfb0FsLWxmaGc5VXpjdUV2ZU1mcl9aVXhmTUZwLWZtZkt5UG5KMzluSmw1c2JzRGhsMFdOb09tRElTU3FiVkRZTWlCdFJPdVlXb3pqLTVVV01GeFl4OFdta3ZpUE5OZw?oc=5"
       }
     ],
     "queries_used": [
