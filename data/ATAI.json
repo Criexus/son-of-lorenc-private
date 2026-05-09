@@ -293,7 +293,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-08T23:44:43Z",
+    "last_update_utc": "2026-05-09T01:50:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -365,7 +365,7 @@
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RYjFKWGtwMGgxNHluTjl6VFhrZkJPNkstSkFjaGhZWDBscThfbVBycDV4ZGxPaUxvVTlmRWhaRFJJbDE2bzFEakhqSjRjYXYyYzJHTjR3Uk8zNHlOQlE1MTdsdEVIUVM2dXQ1MmwzYkVlWVdV?oc=5",
         "published_at": "2026-04-25T07:00:00Z",
         "source": "Stock-World",
-        "query": "AtaiBeckley BPL-003 phase 3",
+        "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -771,6 +771,21 @@
         "published_at": "2022-08-18T23:25:59Z",
         "source": "TradingView",
         "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "ATAI Aktienkurs und Chart — NASDAQ:ATAI - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwQlZHOTJTS3drNU81UkVOYWRwWVU1YTd0b1dxT1ktRTBRNF8tS2phNEhab1pROVZxSElyRTMyOVVWZXdnOFZ5SUU4OUFGWWlZY2xEdzQyaWhYeEU?oc=5",
+        "published_at": "2017-09-25T16:23:24Z",
+        "source": "TradingView",
+        "query": "atai Beckley clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
