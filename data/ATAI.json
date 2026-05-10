@@ -293,7 +293,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-10T05:28:40Z",
+    "last_update_utc": "2026-05-10T07:38:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -561,6 +561,21 @@
         "published_at": "2025-12-23T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "AtaiBeckley gibt Veränderungen im Vorstand bekannt - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY0czSmY1eExmYkdtdG1hY0RSVGlKWkhjNVVNbzI2aUx3bl9OcFRkWjh6ZE9iVzRfWUFDTXlYWnktRmlFVjhMWFdVUm15VXBkTjRCUTdHRkRGVGZTZldBQ2tGdHhZM2tUaUwxWGdPR2YtSFJpZU81RjVnOU9WZkVSMlJFa3RGSGhORGVVUnhZWUtEMGdVbTI3MzBua2F2VHNGQzUwbVBvSFhPLV9vWEVMQzFLdlJkQ3V2?oc=5",
+        "published_at": "2025-11-05T08:00:00Z",
+        "source": "MarketScreener Deutschland",
+        "query": "atai Beckley clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
