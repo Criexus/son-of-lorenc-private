@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-10T22:35:51Z",
+    "last_update_utc": "2026-05-10T23:40:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -376,6 +376,21 @@
         "published_at": "2026-04-20T07:00:00Z",
         "source": "Finanztrends",
         "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Cutting the Red Tape: What the Latest Executive Order Means for Junior Biotechs - aktien.news",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWUEwMHI1dThGdlB3NVkwWlhaYWkySEtXNnEza3VxUzJnMDZPVEVvNl96VFVjMDAzYy1FTmFsRkFLczhwT1dVTHVZVHFEWXVyUXVvbEdaa1FsWEJHR0hBR2ZLSUZ2ZmhIT2FVZ0dRd3BfZFhreEN4dnppX2NoVzR0Y0hmTGZJeWFoN053N2oyaXJYTHBGV1F3TllpZlI1SnVtQU1zbQ?oc=5",
+        "published_at": "2026-04-18T07:00:00Z",
+        "source": "aktien.news",
+        "query": "COMPASS Pathways clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
