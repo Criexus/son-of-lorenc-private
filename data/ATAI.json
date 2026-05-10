@@ -293,7 +293,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-10T01:50:57Z",
+    "last_update_utc": "2026-05-10T05:28:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -434,21 +434,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "ATAI Life Sciences: Phase 3 startet - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUZmbWhnS3RZam9ISzB3X0NXUzBqU0VacE1ZejU1QldUek83RHdyNVFIanExeTl5Q3FpejVjMFZpdzlPdG5MazZUV3RfYzZxNllHdExoQXRBOURNX05mc0o2bmZzZDgxWXJqTUVyM1F1ekhaNGUxZHdBblhMcmxuRUNJanQxSXlIdXgwUjV5TQ?oc=5",
-        "published_at": "2026-03-15T07:00:00Z",
-        "source": "Börse Express",
-        "query": "ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Studienphase / Readout",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen."
       },
       {
         "title": "ATAI Life Sciences Aktie: Strategische Neuausrichtung - Börse Express",
@@ -1044,18 +1029,6 @@
         "date": "2026-03-09"
       },
       {
-        "type": "Studienphase / Readout",
-        "level": "high",
-        "title": "ATAI Life Sciences: Phase 3 startet - Börse Express",
-        "reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "source": "Börse Express",
-        "date": "2026-03-15T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUZmbWhnS3RZam9ISzB3X0NXUzBqU0VacE1ZejU1QldUek83RHdyNVFIanExeTl5Q3FpejVjMFZpdzlPdG5MazZUV3RfYzZxNllHdExoQXRBOURNX05mc0o2bmZzZDgxWXJqTUVyM1F1ekhaNGUxZHdBblhMcmxuRUNJanQxSXlIdXgwUjV5TQ?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Oral Morphine Versus Ketamine in Pain Management",
@@ -1270,6 +1243,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-24"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-04-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-10"
       }
     ],
     "queries_used": [
