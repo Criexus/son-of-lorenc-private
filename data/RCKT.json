@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-10T14:16:11Z",
+    "last_update_utc": "2026-05-10T15:29:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -346,6 +346,21 @@
         "published_at": "2022-08-16T22:16:59Z",
         "source": "TradingView",
         "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Yamo: Schweizer Start-up lanciert Awareness-Kampagne in Deutschland - Horizont.net",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRDg3dWVNXzdPQm4zaGt6czhZb3BlM0hvU2dwc1pHbWFiSG9yeUFqeXduT1VNc2dTbnNJcE9zcUVwNDNlLXFSeG02bl80UHRBSGNidTdtUnpVakNneXhXVndvSWhmWlQ3ZUwzXzJKZGs1V0ZzYWZqMEVUUmd2S3VBWmU3STdQQ2c1R2VPS2czaTV2VkREU2JiZXBnWGlpbExzQ0RNeU1tczB2dFRUdmdDTGZmV2tZTFYyV1E?oc=5",
+        "published_at": "2022-04-07T07:00:00Z",
+        "source": "Horizont.net",
+        "query": "RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
