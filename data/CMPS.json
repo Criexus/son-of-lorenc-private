@@ -183,7 +183,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-10T19:38:49Z",
+    "last_update_utc": "2026-05-10T20:37:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -414,21 +414,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Compass Pathways Aktie: Warten auf die FDA - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOVFZTmFyazRlRERWbVAxNkgxbmVnR0M4M3Ixbl93ZDNUbEVPbnNRRDNjdlROWEYxZFBBWl8xakQ1LW11T0x4TV9GNzZEeDFKc1dHYnFXVUhjbXFYcC1ONTlSS0pQT2hPSzRzRmNZaHZCMGpDalZiMElTX0dkY2RfcUkxbFdVMkNqWnpyVkl6TE9wTGtFTFhWQjZYSnEydlVWUXc?oc=5",
-        "published_at": "2026-03-16T07:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
       },
       {
         "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
@@ -976,18 +961,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Compass Pathways Aktie: Warten auf die FDA - AD HOC NEWS",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "AD HOC NEWS",
-        "date": "2026-03-16T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOVFZTmFyazRlRERWbVAxNkgxbmVnR0M4M3Ixbl93ZDNUbEVPbnNRRDNjdlROWEYxZFBBWl8xakQ1LW11T0x4TV9GNzZEeDFKc1dHYnFXVUhjbXFYcC1ONTlSS0pQT2hPSzRzRmNZaHZCMGpDalZiMElTX0dkY2RfcUkxbFdVMkNqWnpyVkl6TE9wTGtFTFhWQjZYSnEydlVWUXc?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1196,6 +1169,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-24"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
+        "source": "NCT07226232",
+        "date": "2026-06-01"
       }
     ],
     "queries_used": [
