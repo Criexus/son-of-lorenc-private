@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.79",
-      "note": "Auto-Update: 4.99% vs. vorheriger Schlusskurs",
+      "value": "$3.77",
+      "note": "Auto-Update: 4.43% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:12:50Z",
+    "last_update_utc": "2026-05-11T15:22:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.79,
+      "regularMarketPrice": 3.77,
       "previousClose": 3.61,
-      "change": 0.18,
-      "changePercent": 4.99
+      "change": 0.16,
+      "changePercent": 4.43
     },
     "price_history": [
       {
@@ -236,6 +236,10 @@
       {
         "t": "2026-05-11T15:12:50Z",
         "price": 3.79
+      },
+      {
+        "t": "2026-05-11T15:22:49Z",
+        "price": 3.77
       }
     ],
     "news": [

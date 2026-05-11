@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.19",
-      "note": "Auto-Update: 5.63% vs. vorheriger Schlusskurs",
+      "value": "$3.18",
+      "note": "Auto-Update: 5.3% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:13:04Z",
+    "last_update_utc": "2026-05-11T15:23:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.19,
+      "regularMarketPrice": 3.18,
       "previousClose": 3.02,
-      "change": 0.17,
-      "changePercent": 5.63
+      "change": 0.16,
+      "changePercent": 5.3
     },
     "price_history": [
       {
@@ -236,6 +236,10 @@
       {
         "t": "2026-05-11T15:13:04Z",
         "price": 3.19
+      },
+      {
+        "t": "2026-05-11T15:23:05Z",
+        "price": 3.18
       }
     ],
     "news": [
@@ -465,21 +469,6 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "Altimmune’s Leadership Shuffle: A Strategic Pivot Ahead of Critical Data - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZHJwMUpsRXExeWw5emVmcnRFWjY2Nk9QSV93N3NsRktIY29MYjRRSzZnVkZ5ajB2eFVvVUpMVjM0ZTM5Z1FiMTVlWGRuclYxQ3o2R0Zabk5DU090TVQxUWltWkNSSlFuemFCWXJiUXpKR3Vxckl6cWhjc0lkbmxoZVBHVHN2NDY3UE90enpjLWNrbXZPQ25sczJnU29mVUZoOVh2LWRzQUo4WjcwNW45b0ZIWVpSMWFaOU1nVGxLWWtlNG5sWC13RVZR?oc=5",
-        "published_at": "2025-12-02T08:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
         "title": "Altimmune Aktie: Führungswechsel vor dem Sturm! - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZUJxenFDUnlOREluZWxLckhEeUdtZDU1UmxvSFNCLXUzVjBwdzBZSzBYeUxENkRkSGlHOVhsNHE3a3lHR3NzRmNmZWkwWUR0eUZfcVR0amVrajNOd1h2VDdObEl3ZTdfcW9nekhNWE41WHJjV1NCc19jTkNpekNtUU9NTWk2UmJYMU03NHdFZUljNzdjM3E1LWZLRWg5RXhmQ1E?oc=5",
         "published_at": "2025-12-02T08:00:00Z",
@@ -499,7 +488,7 @@
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNlRESUZSck1uOTlOaVhFcTVoUG1vaXdJM0RpeTVNdDNOVlZVVkYyRGdXOXNqdDVBdVVXNnhMaDdUbnR3N2ZWSEl5N0hFTUpmOFJBSlVMT01RYzBELWJqbS1pMGx0Ny04VUxubWRrVi1FLUJhU0U5Ni0tVmVnR1hUcDltMnFnZm9HRUUxN3RtbFo4WDlmTjV5T2NsVmMyWm1xYjctTnVOMEtUX09jRkVLelh3Zy1CMG1ocG13OEVQUV9ObzJpVFJrbk5PQ2I5WFY4YmpMbmZ6eFZGR00?oc=5",
         "published_at": "2025-12-01T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "ALT stock news",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -585,19 +574,19 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
-        "title": "AKTIONÄR-Alt-Empfehlung Abivax nach 586 Prozent an einem (!) Tag: So geht es jetzt weiter - Der Aktionär",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZDBtNEJJRDE4MlF0dzh5dENiNTZxenRhdEJJVTgyVV9IWHMyUG53aDdUdG5XS1I5SUFsNjNUSXAwYmVsVzdnbmttc3RqTXZOVENZNjJNQ3cyUlVGbG9QZGkxN3I0TGJqdnRSSWFORlNCMjZxejkwNXBnWklDam01ckc2WDhZX2VNUnFYNzd6eHBjakRWV0Qzb2QtaURyZnF0YTAzNWRadG1JRmhUSlpPUTZoU0VHQ2s2emdHMTl5cDQ5emJVazlRZS1ZYWpnSVMtVGxWcVVsSnNkX002S05ZeXBrR08?oc=5",
-        "published_at": "2025-07-25T07:00:00Z",
-        "source": "Der Aktionär",
+        "title": "Siltronic: Aktie unter Druck – Schwarze Zahlen in 2026? - 4investors.de",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZWGZLOHhzRmhFa2FNbDFfcEVGeDJJdnQxcmdSMkw5aXB5TDVmOHVEa0NpcG04QWotYk8wNWtya3JWUmM0Z091cVJhQ0NqdnhMMVFTRmp0TTFhMDF6MXVkQ0RHb19xZTI5UWxLV3lRUjBuVG8tNlY3N2lMWkbSAYIBQVVfeXFMTXFJTVc1dk42UElPOG5CTDgwUE9xbDhpUjNYd3JsMDFwbF9yeWpCejJsQXZGOHdQOGMwOG5qYUpIT2t5dTZMMFF0MDYyT09wcGhQY3Y2MnFsdkQ3UGFkTkVScW9PRkp4dTYyd21hOC12bGpuVWRoU0ViUDdYUmxxM0Z3dw?oc=5",
+        "published_at": "2025-07-29T07:00:00Z",
+        "source": "4investors.de",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
+        "trigger_type": "Konferenz / Präsentation",
         "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
       },
       {
         "title": "„Wir wollen keinen Frankfurter Ballermann - Neues Konzept für Alt-Sachsenhausen - Journal Frankfurt",
@@ -678,6 +667,21 @@
         "title": "Zahl der Schwangerschaftsabbrüche im vergangenen Jahr nahezu unverändert – News - Deutsches Ärzteblatt",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObl9PaU9RNVRzVHgzczZFUGFYUkFRVkVkRmxpOGRUOFJiMFp6MjV2X2pMc3lFdFdxQlVVRFJiWngzUWtoOWdJdDV6MDVydmpvX0ZQYllOSERSbkNzZVVTZGZ2WjFleEVzN1RWU3lHWU1HenRvVFJNNVJINHhld00tOFdrX2FaOTF2Q2lEVU4xcTFBZGRGN0I3SjJmVzBxZDNiNkhaQThxVDFyR3RZS2ppcm5zR2dHRnItV21TWkxfUUxZcVQ1aklKOGlmY09MaTM5U0ZDaVFnUTY?oc=5",
         "published_at": "2025-04-03T07:00:00Z",
+        "source": "Deutsches Ärzteblatt",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Morbus Parkinson: Zahl der Patienten könnte sich bis 2050 weltweit verdoppeln – News - Deutsches Ärzteblatt",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaGlXbHJJV2M2UGpHRkNLYWFiRml0Y2pBM2dTdzBJU2otNlh1X2NUZ2lhOVdDOW5qRlNUN0ZGYVJwZzYtY2t0TGJjQWgzTVZEcndPMnZNOHRfLWp1YWhsano1WEZLTzRoTkVqc2NURUh3X05xMUxBZzByOXYxSjdhbU92V3BIT0FLem9kVk9jQlBEMGxSbEp0Z3JnVWg3ODRuSjZfUjdmMTQzZEZJMnJGeXJYbVBsZi1keGppTjJCaVgyQjFSNWpoUkt4bUNSWnp6Y3VIX21uVURvekhINHc?oc=5",
+        "published_at": "2025-03-18T07:00:00Z",
         "source": "Deutsches Ärzteblatt",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
@@ -1208,6 +1212,18 @@
       {
         "type": "Konferenz / Präsentation",
         "level": "low",
+        "title": "Siltronic: Aktie unter Druck – Schwarze Zahlen in 2026? - 4investors.de",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "4investors.de",
+        "date": "2025-07-29T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZWGZLOHhzRmhFa2FNbDFfcEVGeDJJdnQxcmdSMkw5aXB5TDVmOHVEa0NpcG04QWotYk8wNWtya3JWUmM0Z091cVJhQ0NqdnhMMVFTRmp0TTFhMDF6MXVkQ0RHb19xZTI5UWxLV3lRUjBuVG8tNlY3N2lMWkbSAYIBQVVfeXFMTXFJTVc1dk42UElPOG5CTDgwUE9xbDhpUjNYd3JsMDFwbF9yeWpCejJsQXZGOHdQOGMwOG5qYUpIT2t5dTZMMFF0MDYyT09wcGhQY3Y2MnFsdkQ3UGFkTkVScW9PRkp4dTYyd21hOC12bGpuVWRoU0ViUDdYUmxxM0Z3dw?oc=5"
+      },
+      {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
         "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
         "reason": "Trigger erkannt: Konferenz / Präsentation.",
         "impact": "meist niedriger bis mittlerer Trigger",
@@ -1240,14 +1256,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G · 2026-04-30",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-30"
       }
     ],
     "queries_used": [

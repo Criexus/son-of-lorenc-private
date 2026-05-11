@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$9.82",
-      "note": "Auto-Update: 3.15% vs. vorheriger Schlusskurs",
+      "value": "$9.78",
+      "note": "Auto-Update: 2.73% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -183,14 +183,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:12:57Z",
+    "last_update_utc": "2026-05-11T15:22:57Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 9.82,
+      "regularMarketPrice": 9.78,
       "previousClose": 9.52,
-      "change": 0.3,
-      "changePercent": 3.15
+      "change": 0.26,
+      "changePercent": 2.73
     },
     "price_history": [
       {
@@ -236,6 +236,10 @@
       {
         "t": "2026-05-11T15:12:57Z",
         "price": 9.82
+      },
+      {
+        "t": "2026-05-11T15:22:57Z",
+        "price": 9.78
       }
     ],
     "news": [
@@ -379,7 +383,7 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWUEwMHI1dThGdlB3NVkwWlhaYWkySEtXNnEza3VxUzJnMDZPVEVvNl96VFVjMDAzYy1FTmFsRkFLczhwT1dVTHVZVHFEWXVyUXVvbEdaa1FsWEJHR0hBR2ZLSUZ2ZmhIT2FVZ0dRd3BfZFhreEN4dnppX2NoVzR0Y0hmTGZJeWFoN053N2oyaXJYTHBGV1F3TllpZlI1SnVtQU1zbQ?oc=5",
         "published_at": "2026-04-18T07:00:00Z",
         "source": "aktien.news",
-        "query": "COMPASS Pathways clinical trial",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -435,6 +439,21 @@
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       },
       {
+        "title": "Compass Pathways Advances Toward Regulatory Submission - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdXk2ZnFKYnhuNF9pbDFKS3ZOOVpBVE5qeVRMVk9vNzRueDh6a2NDcDlEdlBRdWJiWUtWWG5fSXgtZEE2QnBnbjRackpBQjNNcTloTTRHaWt6TG1ybHlTbHVtUEVPZWZFZllZa0JhZXhlaXdFOWVJWmtyN1ZLd1pBWUdVSUlFd1FCX1Uwd0VVTWFBdXZfTWh4VVFLOHV2ZmZaREFnOTlSR0ZqX2FhRWNkSE0wYw?oc=5",
+        "published_at": "2026-02-25T08:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "COMPASS Pathways clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
         "title": "150 Mio. USD für Compass - Optimi ist der wahre Gamechanger - FinanzNachrichten.de",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMEVqb2dQQW9RaEQ1NG1ZZ2tWTkJYN0d1SDlLRm0zX01ZQm56QlNxYUloTTIwSVVBYjdvbXZTWExYTTA0RE9nc0diZ3NBbFIxR1NUOHFTUktzcW4tRFhPY0V0eE5FQ2R1SEl4Z2pkT21IZ0FjRWduNU95aWk0T2pqVEhqRmlxUlZaQm9QWFhJMUpmOFRkSmRQXy16WEw1bHNBZDJuSHdSTFVDOU16SEFoV0l3Vk5vZ1FvSEZFODZ1ZjlHb2x2OHc?oc=5",
         "published_at": "2026-02-24T08:00:00Z",
@@ -470,36 +489,6 @@
         "published_at": "2026-02-20T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Compass Pathways platziert Kapitalerhöhung über 150 Millionen US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmxzTmhMX2VRT2hLWUg1bU80OWQwZXZySndLd05nWERoaVJjQzg0UlV4SnZNZi1DY25YeF9sUkY3M0lTdWZYbzZHMTdKNmJYb0JCbTFodHJpa1pZZzkzVnN0MDNIcktZa0JZUVpMZ1hfRnRnVnlIVTA5Y2tudnRzSXc2SVg0dmlzdEJIZkVGLXZDdzNuTG9oSC1VeWd4YU5kOXJ5d1FpOVBrOFpYLUtZY0JNSTRmXzJGZ3hnb0txa2x5dm1C?oc=5",
-        "published_at": "2026-02-19T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Finanzierung / Verwässerung",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen."
-      },
-      {
-        "title": "Compass Pathways: Aktie schießt nach positiven Phase-3-Studienergebnissen in die Höhe - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ1hQY3BWVDYzVlFoTTJjenZKMVJROVdQemtJVWdiV1dobXo1STRzSHl0em1VbllMTEpNLWkxSUZDYU05NExwMW11N2wzSElnQ3lPSUNld1VSX1V3T0ZtQXlzX0I1ZTZ4bU4zYV90TmM1cU1XS0tzRXV4U0JZQjVzaFpUV3ZSUWtTOExpeldTb3FVU0s4cFpqMHVTV1Fvc3F2aUIwS3dlZW1Fa3FESlZGb3lXR3IxamZFby0wRnZPZjN0dkpKeFo2WHJ4aVo3UEJlOTZZd21Td2gyeVk?oc=5",
-        "published_at": "2026-02-17T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -553,6 +542,21 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "FDA gibt grünes Licht für PTSD-Studie: Aktie von Compass Pathways legt zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc3dpT2RHcXdzZzhuY2ZCcC1WLWFwaTFJZ3EtLTlTYlZtd1k0WnRNNVByaEQ3bUctbXFzajVXXzBwQUdGalpmRHZXZmZZTXp2cXBUODc3cWhoNFlJUENheENmcHZZNGJKYXVTd1ZTbmNLRlRsNWlKMmFIT09LMWFVSFV6V3JSWFFBXzd2Z01TektsMTJLSDNpdERPSElLOUFBbV9QcTUxN0pnbDliZGc2bkVsWWtnQ1ZNZEZBdThaQjdGSlc0V3lZbnRWcjA?oc=5",
+        "published_at": "2026-01-07T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
       },
       {
         "title": "CMPS Prognose — Kursziel für 2027 - TradingView",
@@ -911,6 +915,18 @@
     ],
     "detected_triggers": [
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "FDA gibt grünes Licht für PTSD-Studie: Aktie von Compass Pathways legt zu - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-01-07T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc3dpT2RHcXdzZzhuY2ZCcC1WLWFwaTFJZ3EtLTlTYlZtd1k0WnRNNVByaEQ3bUctbXFzajVXXzBwQUdGalpmRHZXZmZZTXp2cXBUODc3cWhoNFlJUENheENmcHZZNGJKYXVTd1ZTbmNLRlRsNWlKMmFIT09LMWFVSFV6V3JSWFFBXzd2Z01TektsMTJLSDNpdERPSElLOUFBbV9QcTUxN0pnbDliZGc2bkVsWWtnQ1ZNZEZBdThaQjdGSlc0V3lZbnRWcjA?oc=5"
+      },
+      {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
         "title": "424B5 · 2026-02-17",
@@ -925,18 +941,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-02-19"
-      },
-      {
-        "type": "Finanzierung / Verwässerung",
-        "level": "high",
-        "title": "Compass Pathways platziert Kapitalerhöhung über 150 Millionen US-Dollar - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-02-19T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmxzTmhMX2VRT2hLWUg1bU80OWQwZXZySndLd05nWERoaVJjQzg0UlV4SnZNZi1DY25YeF9sUkY3M0lTdWZYbzZHMTdKNmJYb0JCbTFodHJpa1pZZzkzVnN0MDNIcktZa0JZUVpMZ1hfRnRnVnlIVTA5Y2tudnRzSXc2SVg0dmlzdEJIZkVGLXZDdzNuTG9oSC1VeWd4YU5kOXJ5d1FpOVBrOFpYLUtZY0JNSTRmXzJGZ3hnb0txa2x5dm1C?oc=5"
       },
       {
         "type": "FDA / Regulatorik",

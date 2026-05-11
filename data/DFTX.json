@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "wird aktualisiert",
-      "note": "nach nächstem Update",
+      "value": "$22.07",
+      "note": "Auto-Update: 1.45% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -68,12 +68,480 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:17:26.083778Z",
-    "price": null,
-    "price_history": [],
-    "news": [],
-    "sec_filings": [],
+    "last_update_utc": "2026-05-11T15:23:32Z",
+    "price": {
+      "source": "Yahoo Finance Chart Endpoint",
+      "currency": "USD",
+      "regularMarketPrice": 22.065,
+      "previousClose": 21.75,
+      "change": 0.315,
+      "changePercent": 1.45
+    },
+    "price_history": [
+      {
+        "t": "2026-05-11T15:23:32Z",
+        "price": 22.065
+      }
+    ],
+    "news": [
+      {
+        "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0tfQlFLZjF0UE9VQ3JreHdiWEw3SW1ETG5oUFVnZk9oSVRBYlZTZVplZDBiUmVZdS1ZZ3pZMFBJTmpDTmZlQUY0TWo5RE83azZia3o0eXJCV1NNbnIzMFQzNHc2ZEFRVEhQZHJKWE1HYnZVLXZ4VUxEajljQnZjenItOXF0Vmg2aXNtQlBIQkdNdlBYN3JacWRaelY1VUhncG5mbmtDdTB5bUx5T1JoWGJMWDBpSWNBMVNUd3BBdXVQYUk?oc=5",
+        "published_at": "2026-05-08T02:22:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen."
+      },
+      {
+        "title": "Definium: Drei entscheidende Studienergebnisse für Hoffnungsträger gegen Depressionen und Angststörungen erwartet - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT2I5R2dmVmpoV3pGOTgyQXVQNnlzRlJBTjdpRGtUNDB6ZHlBd0ZqUF96X2FSS3BKS01Ba2VhRnVxQWRRMnZEelkxZnd1U0xBU3RTclkxUDJGWUFMb0NrZU9VbE50WktudWVVaXJMV2JWVmFjejlXMkFQLVhaRm5BR04welN4SHM0SXpxRk5WOGRJUEVpanlXUUlMME9vLURuR1I3cmo4T0J5WUZ2RUJPVVN0Z2NQMVBBZmU0RUJJbU42bGloQmRZUUN4eFUzVFFndTB3S2xELTdQWG9tLTcxYzhsZG9Hb0NDZURIOHY1WEtmTGN3OThodWxtUWY?oc=5",
+        "published_at": "2026-04-22T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Piper Sandler stuft Definium mit \"Overweight\" ein und sieht Kurspotenzial von über 100 % - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLUFKaVZkWWl3MmpEY3puVW5UMFQtVmwxVDRaNnAzNVZkc2hGc2lIUnE3NkJwaDFNOFNYM3RNRVpGU1hxOWowcUNwWUlhRWhlZTRSRFJ0aXpEZFRnQzBOMzNZUWNGWHRDWjlhVlNqcDBpM2lnSzAzRm9BRjEtdVJ6Rk5LMVZ4SjNEM0dIaXZNbURqMUFUMnZUVVA3b01QTHFTZ1d2Y2tLYm01N0V4TUVqUFdsSGprdWxWamxjbW04T095ZHo2b1VyZHlKWDZfeWNiSXEyYnhvNWNVQVR6?oc=5",
+        "published_at": "2026-04-10T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Definium Therapeutics Aktie: Daten-Sommer 2026 - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeDN1cnJFWTNWRUM2M1Izbmt0TGpKQUJyc0tqVndzZnFjTjRrLWlZaHQyZ2Q3M0pIMFdyOE90dEpVdDl3VnR6dDJjel9rb01fSDV2UWxZeVpXZWQ5bk15NlRJOGxBOHpwVHYyWnN6TjVnLVYzX096LUM1c0VrLWp1bFZsWGp5dGlBMl80RXNjVXdoZllYYkRtTFp3SGI4Zkk5elFUMXJmSQ?oc=5",
+        "published_at": "2026-03-28T07:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "\"Definium Therapeutics\" DT120 topline",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Aktie von Definium Therapeutics erreicht 52-Wochen-Hoch bei 18,71 USD - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNzNYdXVRZWxqeVV3SXpwYk1fVVJESGJsakwwcDNPcThDX3FYTjl6N1c1dmpHRzNRaE9RRzJ6YTRDOHpPWVpzMTR6VUlZcVctME1ENGJNWW5fc3d1c3M5WkZkeFdzcWZXa3dfSDRCWHRYbDJJUnNFaXFRLXNHTmxnd2hUSGtmV1FFNXpfQU1MQ0lSUVdTVm81NklEZ094UGkzcEs2ZENLVUkwSXh2WXNNcllETVZ5N1dFQ01hdDNpNA?oc=5",
+        "published_at": "2026-03-10T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "DFTX Prognose — Kursziel für 2027 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qaFpaRldyVzNhUGF5VEhNaUYzbW9JcEZhR0ZVNjIyVkhsMHNVd0dQZmtzRXBwcjVBaDBSQXZNdFVSRVFIdlJkUWJPMzZKV0tuSEd6TnQxb0pMLW5ZcnVKeklNbnZaS1E?oc=5",
+        "published_at": "2026-01-17T11:40:06Z",
+        "source": "TradingView",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Definium Therapeutics Aktie (A420P3,DFTX,CA24477V1058) - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kT0RTMXlPb01BNmdvYzBQcWkwWk12dVJieUFYYVgwSEVudmNFbWQzcW5QLUpYajB1R0pUdFRPeUlVMndmLXNIaW04aklYcWxCYkFxTGRjTDQ0RTBLY0xQenZiTUNNLU9pSUNZ?oc=5",
+        "published_at": "2026-01-17T05:43:45Z",
+        "source": "Finanzen.net",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "DFTX Aktienkurs und Chart — NASDAQ:DFTX - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Hc3NhVHd0YWVGUWZUem1xVmF4MWxkamVRZE1lWUNaUndXbnFwbkRLb0piZnQyT3BSUWhnUzY2Wk5UVUhlUFB1WDEtNUg4bVNkM21RM2tBWkt6WkU?oc=5",
+        "published_at": "2026-01-15T18:49:42Z",
+        "source": "TradingView",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "Definium Therapeutics-Aktie erreicht 52-Wochen-Hoch bei 15,3 USD - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSGVJSmN1a2JBN1dJNlphdlhsd3VXR0RJcGY5R0d0UWN5RFlVTFZNYkV3RGxYX0xZSTdodXZsZERMT1ZMaUlQaFQwbFJkRjdnWm5TUU0wTDV6WllJRFJrcDFJNGhyaU5fM29IY3Y5b3lrcWZSNDNtLVhEMVBQalZLMG9KZzUtUWxjRHB5Y3FUVC1nd0FxY2JQeEhuYWlKQnZwNlZrR3JMdnVBdFo4N1gwNXdPbDZISGM?oc=5",
+        "published_at": "2026-01-15T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      }
+    ],
+    "sec_filings": [
+      {
+        "form": "10-Q",
+        "filingDate": "2026-05-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526211989/dftx-20260331.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-05-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526211929/dftx-20260507.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEFA14A",
+        "filingDate": "2026-04-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526182066/defa14a_2026_proxy_notic.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "DEF 14A",
+        "filingDate": "2026-04-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526182034/dftx-20260427.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-04-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526170509/dftx-20260422.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-03-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526126830/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-03-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526126827/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-03-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526126825/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-03-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000195004726003007/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-03-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000195004726003006/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-03-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000195004726003005/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "10-K",
+        "filingDate": "2026-02-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526076742/dftx-20251231.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-02-26",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526076612/dftx-20260226.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SCHEDULE 13G/A",
+        "filingDate": "2026-02-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000183194226000006/xslSCHEDULE_13G_X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-02-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000093820626000012/xslSCHEDULE_13G_X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-02-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000090266426001011/xslSCHEDULE_13G_X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "SCHEDULE 13G/A",
+        "filingDate": "2026-02-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000117266126000710/xslSCHEDULE_13G_X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526039598/xslF345X05/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526039585/xslF345X05/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-02-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526039579/xslF345X05/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      }
+    ],
     "clinical_trials": [],
-    "detected_triggers": []
+    "detected_triggers": [
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-K · 2026-02-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-26"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-02-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-26"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-04-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-22"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-05-07",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-07"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-05-07",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-07"
+      },
+      {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-05-08T02:22:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0tfQlFLZjF0UE9VQ3JreHdiWEw3SW1ETG5oUFVnZk9oSVRBYlZTZVplZDBiUmVZdS1ZZ3pZMFBJTmpDTmZlQUY0TWo5RE83azZia3o0eXJCV1NNbnIzMFQzNHc2ZEFRVEhQZHJKWE1HYnZVLXZ4VUxEajljQnZjenItOXF0Vmg2aXNtQlBIQkdNdlBYN3JacWRaelY1VUhncG5mbmtDdTB5bUx5T1JoWGJMWDBpSWNBMVNUd3BBdXVQYUk?oc=5"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-02-05",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-05"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-02-05",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-05"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-02-05",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-05"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-02-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-13"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-02-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-02-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-02-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-03-25",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-25"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-03-25",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-25"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-03-25",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-25"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-03-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-26"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-03-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-26"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-03-26",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-26"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-04-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEF 14A · 2026-04-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-27"
+      }
+    ],
+    "queries_used": [
+      "\"Definium Therapeutics\" DFTX stock news",
+      "\"Definium Therapeutics\" DT120 topline",
+      "\"Definium Therapeutics\" DT402 MM120"
+    ],
+    "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
   }
 }
