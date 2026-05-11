@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.03",
-      "note": "Auto-Update: -2.66% vs. vorheriger Schlusskurs",
+      "value": "$4.14",
+      "note": "Auto-Update: -1.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -293,14 +293,14 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T12:34:29Z",
+    "last_update_utc": "2026-05-11T15:12:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.03,
-      "previousClose": 4.14,
-      "change": -0.11,
-      "changePercent": -2.66
+      "regularMarketPrice": 4.145,
+      "previousClose": 4.2,
+      "change": -0.055,
+      "changePercent": -1.31
     },
     "price_history": [
       {
@@ -342,6 +342,10 @@
       {
         "t": "2026-05-08T20:32:42Z",
         "price": 4.03
+      },
+      {
+        "t": "2026-05-11T15:12:38Z",
+        "price": 4.145
       }
     ],
     "news": [
@@ -441,6 +445,21 @@
         "published_at": "2026-04-21T07:00:00Z",
         "source": "simplywall.st",
         "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+      },
+      {
+        "title": "AtaiBeckley-Aktie springt 21 Prozent nach Trump-Erlass zu Psychedelika - aktien.news",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcEpWMUxuX1kyZVR1dF93WlB1UldWMWJWdFdWNmUyNm00N19HcmhZM2R6TVhpS3RSV3ptZWVwUTdRUk5PYUJsUEF5SDYybWl2Zjd4ZjF1c0k3RnJCS3NFTzJxSHRtM3h5ejZ3bWpOZ0VJSEhoN1p3RkljTExfc2hJVjlWbkx6eU0tcHU0TGk2UmhmdWpHazV1QWhn?oc=5",
+        "published_at": "2026-04-21T07:00:00Z",
+        "source": "aktien.news",
+        "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -779,21 +798,6 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
-        "title": "Atai Life Sciences: Aktie klettert auf 52-Wochen-Hoch - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdDhWQUNGQTg5QnVRTG1UM0twX3d5ZlIyM00tSGljRGx0RUduRnhyRm5VR2xjUkxrR0pvQW5zUS1iYlVRdGpyaUJIMVVjOGxSbEU1VUg0MkUwbFBsdDZ6NFU1dTlySFNGSUVuR2wwWHJhZmtjMkprNDJBV1U4X2JfRFRKVXRCN2RsMzBaMVdjRVlIRzVDWXctWVJDLVlGM2U4aVkzOGNjcnBwUQ?oc=5",
-        "published_at": "2025-10-14T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
       }
     ],
     "sec_filings": [
