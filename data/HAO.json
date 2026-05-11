@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$0.04",
-      "note": "Auto-Update: -93.81% vs. vorheriger Schlusskurs",
+      "value": "$0.05",
+      "note": "Auto-Update: -93.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -48,40 +48,158 @@
   ],
   "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
   "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
-  "events": [],
-  "pipeline_intro": "Bei HAO geht es nicht um Studien. Es geht um Geschäftsmodell, Finanzierung, Verwässerung, Nasdaq-Compliance und operative Entwicklung.",
-  "pipeline": [],
-  "zones": [],
-  "catalysts": [],
+  "events": [
+    {
+      "d": "2026-04-22",
+      "p": 0.046,
+      "title": "6-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026046610/ea0287058-6k_haoxi.htm",
+      "future": false
+    },
+    {
+      "d": "2026-04-06",
+      "p": 0.046,
+      "title": "6-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040534/ea0284995-6k_haoxi.htm",
+      "future": false
+    },
+    {
+      "d": "2026-04-06",
+      "p": 0.046,
+      "title": "3 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040213/xslF345X06/ownership.xml",
+      "future": false
+    }
+  ],
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
+  "pipeline": [
+    {
+      "stage": "Geschäftsmodell",
+      "class": "phase2",
+      "name": "Online-Marketing für Healthcare-Kunden",
+      "text": "Haoxi Health Technology ist kein Biotech mit klinischen Studien. Das Unternehmen bietet Online-Marketing-Lösungen an, vor allem für Kunden aus dem Gesundheitsbereich. Wichtig sind Umsatzentwicklung, Kundenwachstum, Margen und ob das Geschäftsmodell nachhaltig profitabel bleibt.",
+      "score": 62,
+      "score_label": "Geschäftsbasis"
+    },
+    {
+      "stage": "Kapitalmarkt",
+      "class": "phase3",
+      "name": "Finanzierung, Verwässerung und Nasdaq-Themen",
+      "text": "Bei HAO sind Kapitalmaßnahmen, neue Aktien, Warrants, Reverse Splits und Nasdaq-Compliance besonders wichtig. Solche Meldungen können den Kurs kurzfristig stark bewegen.",
+      "score": 78,
+      "score_label": "sehr kursrelevant"
+    },
+    {
+      "stage": "Operative Entwicklung",
+      "class": "early",
+      "name": "Partnerschaften und Plattform-News",
+      "text": "Partnerschaften oder neue Plattform-/AI-/Marketing-Angebote können Aufmerksamkeit erzeugen. Entscheidend ist aber, ob daraus echter Umsatz und Gewinn entstehen.",
+      "score": 48,
+      "score_label": "prüfen"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Rücksetzer: ca. $0.04–$0.04",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
+    },
+    {
+      "zone": "Arbeitsbereich: ca. $0.04–$0.05",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
+    },
+    {
+      "zone": "Momentum: über ca. $0.05",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
+    },
+    {
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Kapitalmaßnahme",
+      "title": "Finanzierung, neue Aktien oder Warrants",
+      "text": "Bei Small Caps können Kapitalerhöhungen oder Warrants stark verwässern. Wichtig ist der Preis je Aktie und wie viel neues Kapital wirklich zufließt."
+    },
+    {
+      "tag": "Zahlen",
+      "title": "Umsatz, Gewinn und Cashbestand",
+      "text": "Bei HAO zählen vor allem Umsatzentwicklung, Margen, Cashbestand und ob das Unternehmen profitabel bzw. finanzierbar bleibt."
+    },
+    {
+      "tag": "Börsenstatus",
+      "title": "Nasdaq-Compliance / Reverse-Split-Risiko",
+      "text": "Wenn der Kurs zu lange niedrig bleibt, können Nasdaq-Regeln, Reverse Splits oder Compliance-Meldungen wichtig werden."
+    },
+    {
+      "tag": "Geschäft",
+      "title": "Partnerschaften und neue Plattformangebote",
+      "text": "Partnerschaften oder neue Angebote sind nur dann stark, wenn daraus messbarer Umsatz oder eine bessere Marktposition entsteht."
+    }
+  ],
   "scenarios": {
     "bear": {
       "title": "Schlechter Fall",
-      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
+      "text": "Neue Aktien, Warrants, schwache Zahlen oder Nasdaq-/Reverse-Split-Themen drücken den Kurs. Dann kann die Aktie trotz optisch niedrigem Kurs weiter fallen."
     },
     "base": {
       "title": "Normaler Fall",
-      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
+      "text": "Die Aktie bleibt stark news- und kapitalmarktgetrieben. Ohne klare operative Fortschritte sind schnelle Anstiege oft nur kurzfristig."
     },
     "bull": {
       "title": "Guter Fall",
-      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
+      "text": "Das Unternehmen zeigt Wachstum, verbessert Profitabilität oder meldet eine glaubwürdige Partnerschaft. Dann kann der Markt die Aktie kurzfristig neu bewerten."
     }
   },
-  "risks": [],
-  "clear_view": [],
+  "risks": [
+    {
+      "title": "Verwässerung durch neue Aktien",
+      "text": "Kapitalerhöhungen, Warrants oder ATM-/Offering-Strukturen können bestehende Aktionäre stark verwässern."
+    },
+    {
+      "title": "Small-Cap-Volatilität",
+      "text": "Kleine Aktien können stark schwanken. Kurse können auch ohne fundamentale Änderung schnell steigen oder fallen."
+    },
+    {
+      "title": "Geschäftsmodell-Risiko",
+      "text": "Entscheidend ist, ob Umsatz und Gewinn nachhaltig wachsen. Reine Ankündigungen reichen langfristig nicht."
+    },
+    {
+      "title": "Nasdaq-/Reverse-Split-Risiko",
+      "text": "Bei sehr niedrigen Kursen können Börsenregeln, Reverse Splits oder Compliance-Meldungen wichtig werden."
+    }
+  ],
+  "clear_view": [
+    "Haoxi Health Technology (HAO) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
+  ],
   "sources": [
     "Son of Lorenc Mastertemplate",
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:48:17Z",
+    "last_update_utc": "2026-05-11T16:03:10Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.044,
+      "regularMarketPrice": 0.046,
       "previousClose": 0.711,
-      "change": -0.667,
-      "changePercent": -93.81
+      "change": -0.665,
+      "changePercent": -93.53
     },
     "price_history": [
       {
@@ -166,10 +284,141 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 0.0441
+        "price": 0.0457
+      }
+    ],
+    "price_history_1d": [
+      {
+        "t": "2026-05-11T13:30:00Z",
+        "price": 0.0587
+      },
+      {
+        "t": "2026-05-11T13:35:00Z",
+        "price": 0.0591
+      },
+      {
+        "t": "2026-05-11T13:40:00Z",
+        "price": 0.0525
+      },
+      {
+        "t": "2026-05-11T13:45:00Z",
+        "price": 0.0535
+      },
+      {
+        "t": "2026-05-11T13:50:00Z",
+        "price": 0.0542
+      },
+      {
+        "t": "2026-05-11T13:55:00Z",
+        "price": 0.0526
+      },
+      {
+        "t": "2026-05-11T14:00:00Z",
+        "price": 0.0482
+      },
+      {
+        "t": "2026-05-11T14:05:00Z",
+        "price": 0.046
+      },
+      {
+        "t": "2026-05-11T14:10:00Z",
+        "price": 0.0454
+      },
+      {
+        "t": "2026-05-11T14:15:00Z",
+        "price": 0.0445
+      },
+      {
+        "t": "2026-05-11T14:20:00Z",
+        "price": 0.0465
+      },
+      {
+        "t": "2026-05-11T14:25:00Z",
+        "price": 0.0483
+      },
+      {
+        "t": "2026-05-11T14:30:00Z",
+        "price": 0.049
+      },
+      {
+        "t": "2026-05-11T14:35:00Z",
+        "price": 0.0483
+      },
+      {
+        "t": "2026-05-11T14:40:00Z",
+        "price": 0.0484
+      },
+      {
+        "t": "2026-05-11T14:45:00Z",
+        "price": 0.0479
+      },
+      {
+        "t": "2026-05-11T14:50:00Z",
+        "price": 0.0498
+      },
+      {
+        "t": "2026-05-11T14:55:00Z",
+        "price": 0.0506
+      },
+      {
+        "t": "2026-05-11T15:00:00Z",
+        "price": 0.0478
+      },
+      {
+        "t": "2026-05-11T15:05:00Z",
+        "price": 0.049
+      },
+      {
+        "t": "2026-05-11T15:10:00Z",
+        "price": 0.0485
+      },
+      {
+        "t": "2026-05-11T15:15:00Z",
+        "price": 0.0491
+      },
+      {
+        "t": "2026-05-11T15:20:00Z",
+        "price": 0.049
+      },
+      {
+        "t": "2026-05-11T15:25:00Z",
+        "price": 0.0492
+      },
+      {
+        "t": "2026-05-11T15:30:00Z",
+        "price": 0.0453
+      },
+      {
+        "t": "2026-05-11T15:35:00Z",
+        "price": 0.044
+      },
+      {
+        "t": "2026-05-11T15:40:00Z",
+        "price": 0.0445
+      },
+      {
+        "t": "2026-05-11T15:45:00Z",
+        "price": 0.0449
+      },
+      {
+        "t": "2026-05-11T15:50:00Z",
+        "price": 0.047
+      },
+      {
+        "t": "2026-05-11T15:55:00Z",
+        "price": 0.0471
+      },
+      {
+        "t": "2026-05-11T16:00:00Z",
+        "price": 0.0474
+      },
+      {
+        "t": "2026-05-11T16:02:59Z",
+        "price": 0.0457
       }
     ],
     "price_history_range": "1mo",
+    "price_history_1d_range": "1d/5m",
     "news": [],
     "sec_filings": [
       {

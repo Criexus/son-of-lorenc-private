@@ -1054,6 +1054,52 @@ def build_price_history(data: dict[str, Any], price: dict[str, Any], yahoo_histo
     return history[-80:]
 
 
+
+def yahoo_price_history(ticker, range_="1mo", interval="1d"):
+    """Holt Kursverlauf für Smart-/Max-Charts.
+    Kein Livechart: Wird nur beim Update neu gespeichert.
+    """
+    import urllib.parse
+    from datetime import datetime, timezone
+
+    url = (
+        "https://query1.finance.yahoo.com/v8/finance/chart/"
+        + urllib.parse.quote(str(ticker))
+        + f"?range={range_}&interval={interval}"
+    )
+
+    history = []
+
+    try:
+        data = req_json(url)
+        result = data["chart"]["result"][0]
+        timestamps = result.get("timestamp") or []
+        quote = result.get("indicators", {}).get("quote", [{}])[0]
+        closes = quote.get("close") or []
+
+        for ts, close in zip(timestamps, closes):
+            if close is None:
+                continue
+
+            try:
+                price = round(float(close), 4)
+            except Exception:
+                continue
+
+            history.append({
+                "t": datetime.fromtimestamp(int(ts), timezone.utc)
+                    .replace(microsecond=0)
+                    .isoformat()
+                    .replace("+00:00", "Z"),
+                "price": price
+            })
+
+    except Exception as e:
+        print(f"[WARN] Yahoo history failed for {ticker} {range_}/{interval}: {e}")
+
+    return history[-240:]
+
+
 def update():
     watchlist = read_json(CONFIG)
     mp = sec_ticker_map()
@@ -1075,6 +1121,9 @@ def update():
         yahoo_history = yahoo_price_history(ticker, range_="1mo", interval="1d")
         time.sleep(0.7)
 
+        yahoo_history_1d = yahoo_price_history(ticker, range_="1d", interval="5m")
+        time.sleep(0.7)
+
         news = fetch_all_news(item)
         time.sleep(0.7)
 
@@ -1092,7 +1141,9 @@ def update():
             "last_update_utc": now_iso(),
             "price": price,
             "price_history": price_history,
+            "price_history_1d": yahoo_history_1d,
             "price_history_range": "1mo",
+            "price_history_1d_range": "1d/5m",
             "news": news,
             "sec_filings": filings,
             "clinical_trials": trials,
@@ -1115,7 +1166,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v3.7-company-type-fix",
+        "version": "master-v3.8-smart-chart-news-timeline",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"

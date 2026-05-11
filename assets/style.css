@@ -1783,3 +1783,86 @@ body.max-mode #smartHome{
     min-height:64px;
   }
 }
+
+/* v3.8 Smart Chart + News Timeline */
+.smartChartTimeline{
+  margin-top:14px;
+  display:grid;
+  gap:8px;
+}
+
+.smartTimelineTitle{
+  color:#ffd0d0;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-weight:900;
+  margin-bottom:2px;
+}
+
+.smartTimelineItem{
+  display:grid;
+  grid-template-columns:18px 1fr;
+  gap:10px;
+  align-items:start;
+  text-align:left;
+  width:100%;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.10);
+  color:#fff;
+  border-radius:14px;
+  padding:11px 12px;
+}
+
+.smartTimelineItem b{
+  display:block;
+  font-size:13px;
+  margin-bottom:4px;
+}
+
+.smartTimelineItem small{
+  display:block;
+  color:var(--muted);
+  line-height:1.35;
+}
+
+.dotMini{
+  display:block;
+  width:11px;
+  height:11px;
+  border-radius:999px;
+  margin-top:4px;
+  box-shadow:0 0 0 4px rgba(255,255,255,.055);
+}
+
+.smartTimelineEmpty{
+  padding:13px 14px;
+  border-radius:16px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.10);
+}
+
+.smartTimelineEmpty b{
+  display:block;
+  color:#fff;
+  margin-bottom:4px;
+}
+
+.smartTimelineEmpty span{
+  color:var(--muted);
+  line-height:1.4;
+}
+
+.smartNewsMarker{
+  pointer-events:none;
+}
+
+@media(max-width:760px){
+  .smartTimelineItem{
+    padding:13px;
+  }
+
+  .smartTimelineItem b{
+    font-size:14px;
+  }
+}

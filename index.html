@@ -127,12 +127,13 @@
         <div class="smartCardHead">
           <span class="smartKicker">Börsenchart</span>
           <h2>Aktueller Kursverlauf</h2>
-          <p>Kein Live-Chart. Beim Update wird der Kursverlauf der letzten ca. 30 Tage gespeichert.</p>
+          <p>Kein Live-Chart. Beim Update wird zuerst der aktuelle Tagesverlauf geladen, sonst der 1-Monats-Verlauf.</p>
         </div>
         <div class="smartChartWrap">
           <svg id="smartChart" viewBox="0 0 720 260" role="img" aria-label="Gespeicherter Kursverlauf"></svg>
         </div>
         <p class="smartChartNote" id="smartChartNote">Chart wird nach den nächsten Updates gefüllt.</p>
+        <div class="smartChartTimeline" id="smartChartNewsTimeline"></div>
       </div>
 
       <div class="card smartCard smartTrade">

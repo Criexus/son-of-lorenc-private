@@ -744,6 +744,73 @@ function renderSmartAssessment() {
 }
 
 
+
+function getSmartChartHistory() {
+  const intraday = ((data?.latest_auto?.price_history_1d || [])
+    .map(x => ({ t: dateMs(x.t || x.time || x.date), price: Number(x.price) }))
+    .filter(x => x.t && Number.isFinite(x.price) && x.price > 0)
+    .sort((a,b) => a.t - b.t)
+  );
+
+  if (intraday.length >= 2) {
+    return { history: intraday.slice(-120), label: "1 Tag / letzter gespeicherter Update-Stand", mode: "1D" };
+  }
+
+  const month = ((data?.latest_auto?.price_history || [])
+    .map(x => ({ t: dateMs(x.t || x.time || x.date), price: Number(x.price) }))
+    .filter(x => x.t && Number.isFinite(x.price) && x.price > 0)
+    .sort((a,b) => a.t - b.t)
+  );
+
+  if (month.length >= 2) {
+    return { history: month.slice(-40), label: "ca. 1 Monat / letzter gespeicherter Update-Stand", mode: "1M" };
+  }
+
+  return { history: [], label: "noch zu wenig Kursdaten", mode: "leer" };
+}
+
+function allRelevantNewsSorted(days = 60) {
+  const now = Date.now();
+  const cutoff = now - days * 24 * 60 * 60 * 1000;
+  return getAutoNews()
+    .filter(n => {
+      const ms = dateMs(n.published_at || n.date);
+      return ms && ms >= cutoff;
+    })
+    .sort((a,b) => dateMs(b.published_at || b.date) - dateMs(a.published_at || a.date));
+}
+
+function renderSmartChartNewsTimeline(newsList = []) {
+  const el = $("smartChartNewsTimeline");
+  if (!el) return;
+
+  const news = newsList.length ? newsList : allRelevantNewsSorted(60).slice(0, 8);
+
+  if (!news.length) {
+    el.innerHTML = `
+      <div class="smartTimelineEmpty">
+        <b>Keine passenden News im Zeitraum gefunden.</b>
+        <span>Der Chart bleibt trotzdem aktuell. Wenn neue passende News gefunden werden, erscheinen sie hier automatisch als Zeitlinie.</span>
+      </div>
+    `;
+    return;
+  }
+
+  el.innerHTML = `
+    <div class="smartTimelineTitle">News-Zeitlinie im Chart</div>
+    ${news.slice(0, 8).map((n, idx) => `
+      <button class="smartTimelineItem" type="button" data-smart-news="${idx}">
+        <span class="dotMini" style="background:${newsTypeColor(n.trigger_type || "")}"></span>
+        <span>
+          <b>${esc(fmtDate(n.published_at))} · ${esc(simplifyText(n.trigger_type || "News"))}</b>
+          <small>${esc(simplifyText(n.title || "Ohne Titel"))}</small>
+        </span>
+      </button>
+    `).join("")}
+  `;
+}
+
+
 function renderSmartChart() {
   const svg = $("smartChart");
   const note = $("smartChartNote");
@@ -850,6 +917,125 @@ function renderSmartChart() {
   }
 }
 
+
+
+function renderSmartChart() {
+  const svg = $("smartChart");
+  const note = $("smartChartNote");
+  if (!svg) return;
+
+  const selected = getSmartChartHistory();
+  const history = selected.history;
+
+  if (history.length < 2) {
+    svg.innerHTML = `
+      <rect x="0" y="0" width="720" height="260" rx="22" fill="rgba(255,255,255,.035)"></rect>
+      <text x="360" y="118" text-anchor="middle" fill="rgba(255,255,255,.82)" font-size="20" font-weight="800">Noch zu wenig Kursdaten</text>
+      <text x="360" y="150" text-anchor="middle" fill="rgba(255,255,255,.50)" font-size="14">Nach dem nächsten Update wird hier der Tages- oder Monatsverlauf angezeigt.</text>
+    `;
+    if (note) note.textContent = "Chart wird beim nächsten Datenupdate automatisch gefüllt.";
+    renderSmartChartNewsTimeline([]);
+    return;
+  }
+
+  const w = 720, h = 260, pad = 34;
+  const prices = history.map(x => x.price);
+  let min = Math.min(...prices);
+  let max = Math.max(...prices);
+  if (min === max) {
+    min *= 0.96;
+    max *= 1.04;
+  }
+
+  const minT = history[0].t;
+  const maxT = history[history.length - 1].t;
+  const xTime = (t) => {
+    if (maxT === minT) return pad;
+    return pad + ((t - minT) / (maxT - minT)) * (w - pad*2);
+  };
+  const xAt = (i) => xTime(history[i].t);
+  const yAt = (p) => h - pad - ((p - min) / (max - min)) * (h - pad*2);
+
+  const pts = history.map((x,i) => `${xAt(i).toFixed(1)},${yAt(x.price).toFixed(1)}`).join(" ");
+  const first = history[0].price;
+  const last = history[history.length - 1].price;
+  const diff = last - first;
+  const pct = first ? (diff / first) * 100 : 0;
+  const stroke = diff >= 0 ? "#9ff0c0" : "#ffb0b0";
+
+  const grid = [0,1,2,3].map(i => {
+    const y = pad + i * ((h - pad*2)/3);
+    return `<line x1="${pad}" y1="${y}" x2="${w-pad}" y2="${y}" stroke="rgba(255,255,255,.08)" />`;
+  }).join("");
+
+  const circles = [0, history.length - 1].map((i) => {
+    return `<circle cx="${xAt(i)}" cy="${yAt(history[i].price)}" r="5" fill="${stroke}" stroke="rgba(0,0,0,.45)" stroke-width="2" />`;
+  }).join("");
+
+  const allNews = allRelevantNewsSorted(60);
+  const newsMarkers = allNews
+    .map((n) => {
+      const t = dateMs(n.published_at || n.date);
+      if (!t) return null;
+
+      let nearest = null, nearestIndex = 0, best = Infinity;
+      history.forEach((h, i) => {
+        const d = Math.abs(h.t - t);
+        if (d < best) { best = d; nearest = h; nearestIndex = i; }
+      });
+
+      if (!nearest) return null;
+
+      // Marker im Chart nur, wenn News ungefähr in den Chartzeitraum fällt.
+      // Bei 1D toleranter, damit Tagesnews sichtbar bleiben.
+      const tolerance = selected.mode === "1D" ? 24 * 60 * 60 * 1000 : 4 * 24 * 60 * 60 * 1000;
+      if (t < minT - tolerance || t > maxT + tolerance) return null;
+
+      return { news: n, point: nearest, index: nearestIndex };
+    })
+    .filter(Boolean)
+    .slice(0, 12);
+
+  const markerSvg = newsMarkers.map((m, idx) => {
+    const cx = xAt(m.index);
+    const cy = yAt(m.point.price);
+    const color = newsTypeColor(m.news.trigger_type || "");
+    const title = esc(m.news.title || "News");
+    return `
+      <g class="smartNewsMarker" data-title="${title}">
+        <circle cx="${cx}" cy="${cy}" r="15" fill="${color}" opacity=".20"></circle>
+        <circle cx="${cx}" cy="${cy}" r="7" fill="${color}" stroke="rgba(0,0,0,.58)" stroke-width="2"></circle>
+        <text x="${cx}" y="${Math.max(18, cy - 18)}" text-anchor="middle" fill="${color}" font-size="11" font-weight="900">${idx + 1}</text>
+      </g>
+    `;
+  }).join("");
+
+  const startLabel = selected.mode === "1D"
+    ? new Date(history[0].t).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" })
+    : new Date(history[0].t).toLocaleDateString("de-DE");
+
+  const endLabel = selected.mode === "1D"
+    ? new Date(history[history.length-1].t).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" })
+    : new Date(history[history.length-1].t).toLocaleDateString("de-DE");
+
+  svg.innerHTML = `
+    <rect x="0" y="0" width="720" height="260" rx="22" fill="rgba(255,255,255,.035)"></rect>
+    ${grid}
+    <text x="${pad}" y="24" fill="rgba(255,255,255,.72)" font-size="13">Hoch: ${formatMoney(max)}</text>
+    <text x="${w-pad}" y="24" text-anchor="end" fill="rgba(255,255,255,.72)" font-size="13">Tief: ${formatMoney(min)}</text>
+    <polyline points="${pts}" fill="none" stroke="${stroke}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    ${circles}
+    ${markerSvg}
+    <text x="${pad}" y="${h-10}" fill="rgba(255,255,255,.55)" font-size="13">${startLabel}</text>
+    <text x="${w-pad}" y="${h-10}" text-anchor="end" fill="rgba(255,255,255,.55)" font-size="13">${endLabel}</text>
+  `;
+
+  if (note) {
+    note.innerHTML = `${selected.label} · Letzter gespeicherter Kurs: <b>${formatMoney(last)}</b> · Veränderung im Chartzeitraum: <b class="${diff >= 0 ? "gainText" : "lossText"}">${diff >= 0 ? "+" : ""}${formatMoney(diff)} (${pct.toFixed(1)}%)</b>`;
+  }
+
+  renderSmartChartNewsTimeline(newsMarkers.length ? newsMarkers.map(x => x.news) : allNews.slice(0, 8));
+}
 
 function initTradeCalculator() {
   const buy = $("calcBuyPrice");

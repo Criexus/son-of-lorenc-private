@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.15",
-      "note": "Auto-Update: 4.47% vs. vorheriger Schlusskurs",
+      "value": "$3.12",
+      "note": "Auto-Update: 3.21% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,14 +308,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:47:42Z",
+    "last_update_utc": "2026-05-11T16:02:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.155,
+      "regularMarketPrice": 3.117,
       "previousClose": 3.02,
-      "change": 0.135,
-      "changePercent": 4.47
+      "change": 0.097,
+      "changePercent": 3.21
     },
     "price_history": [
       {
@@ -400,10 +400,141 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 3.155
+        "price": 3.11
+      }
+    ],
+    "price_history_1d": [
+      {
+        "t": "2026-05-11T13:30:00Z",
+        "price": 3.13
+      },
+      {
+        "t": "2026-05-11T13:35:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-05-11T13:40:00Z",
+        "price": 3.1
+      },
+      {
+        "t": "2026-05-11T13:45:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-05-11T13:50:00Z",
+        "price": 3.145
+      },
+      {
+        "t": "2026-05-11T13:55:00Z",
+        "price": 3.13
+      },
+      {
+        "t": "2026-05-11T14:00:00Z",
+        "price": 3.135
+      },
+      {
+        "t": "2026-05-11T14:05:00Z",
+        "price": 3.135
+      },
+      {
+        "t": "2026-05-11T14:10:00Z",
+        "price": 3.16
+      },
+      {
+        "t": "2026-05-11T14:15:00Z",
+        "price": 3.17
+      },
+      {
+        "t": "2026-05-11T14:20:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-05-11T14:25:00Z",
+        "price": 3.175
+      },
+      {
+        "t": "2026-05-11T14:30:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-05-11T14:35:00Z",
+        "price": 3.18
+      },
+      {
+        "t": "2026-05-11T14:40:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-05-11T14:45:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-05-11T14:50:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-05-11T14:55:00Z",
+        "price": 3.1701
+      },
+      {
+        "t": "2026-05-11T15:00:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-05-11T15:05:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-05-11T15:10:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-05-11T15:15:00Z",
+        "price": 3.18
+      },
+      {
+        "t": "2026-05-11T15:20:00Z",
+        "price": 3.18
+      },
+      {
+        "t": "2026-05-11T15:25:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-05-11T15:30:00Z",
+        "price": 3.1984
+      },
+      {
+        "t": "2026-05-11T15:35:00Z",
+        "price": 3.175
+      },
+      {
+        "t": "2026-05-11T15:40:00Z",
+        "price": 3.1577
+      },
+      {
+        "t": "2026-05-11T15:45:00Z",
+        "price": 3.15
+      },
+      {
+        "t": "2026-05-11T15:50:00Z",
+        "price": 3.1516
+      },
+      {
+        "t": "2026-05-11T15:55:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-05-11T16:00:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-05-11T16:02:19Z",
+        "price": 3.11
       }
     ],
     "price_history_range": "1mo",
+    "price_history_1d_range": "1d/5m",
     "news": [
       {
         "title": "Altimmune's $225 Million Capital Raise Extends Runway Through Pivotal MASH Trial Readout - AD HOC NEWS",
@@ -683,22 +814,6 @@
         "published_at": "2025-09-20T07:00:00Z",
         "source": "Börse Express",
         "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
-      },
-      {
-        "title": "Altimmune-Aktie fällt nach Ergebnissen der MASH-Behandlungsstudie - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYVpuaExvcVVsRllmYnBqUnZlbmktS2NUblNmcl9jVGZwVGtyOWdDUXcwX1lObURUY0hoRldwYW94dTZOcFNXVmFWa3FJLTE4QXhWVW14X0JJQmQzVjFFYzI4OG4wNzVNQWozakdEYU1mMmh0ZklJbW9xWlNuRnRPZF9KWEhfcDM4dWYtZ19rMGJnQkp1RGxveUU5WHpoTG9kTzFsUVNYbjZWRzAzd1c2Um9mQ1lWbUJhNFBST2duVy1udw?oc=5",
-        "published_at": "2025-06-26T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
