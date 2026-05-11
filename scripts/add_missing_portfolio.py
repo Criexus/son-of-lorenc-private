@@ -15,7 +15,8 @@ ADDITIONS = [
         "name": "Haoxi Health Technology",
         "exchange": "NASDAQ",
         "theme": "Small Cap / Marketing Technology / China ADR",
-        "query": '"Haoxi Health Technology" HAO stock news',
+        "type": "Company",
+        "query": '"Haoxi Health Technology" HAO direct offering Nasdaq marketing platform stock news',
         "queries": [
             '"Haoxi Health Technology" HAO stock news',
             '"Haoxi Health" HAO Nasdaq',

@@ -48,111 +48,11 @@
   ],
   "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
   "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
-  "events": [
-    {
-      "d": "2026-04-22",
-      "p": 0.043,
-      "title": "6-K · offizielle Meldung",
-      "phase": "Offizielle Unternehmensmeldung",
-      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
-      "details": "Offizielle SEC-Meldung",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026046610/ea0287058-6k_haoxi.htm",
-      "future": false
-    },
-    {
-      "d": "2026-04-06",
-      "p": 0.043,
-      "title": "6-K · offizielle Meldung",
-      "phase": "Offizielle Unternehmensmeldung",
-      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
-      "details": "Offizielle SEC-Meldung",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040534/ea0284995-6k_haoxi.htm",
-      "future": false
-    },
-    {
-      "d": "2026-04-06",
-      "p": 0.043,
-      "title": "3 · offizielle Meldung",
-      "phase": "Offizielle Unternehmensmeldung",
-      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
-      "details": "Offizielle SEC-Meldung",
-      "source": "SEC EDGAR",
-      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040213/xslF345X06/ownership.xml",
-      "future": false
-    }
-  ],
-  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
-  "pipeline": [
-    {
-      "stage": "Programm / Wirkstoffkandidat",
-      "class": "phase3",
-      "name": "SSGJ-706",
-      "text": "SSGJ-706 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
-      "score": 76,
-      "score_label": "sehr wichtig"
-    },
-    {
-      "stage": "Programm / Wirkstoffkandidat",
-      "class": "phase2",
-      "name": "AST-001",
-      "text": "AST-001 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
-      "score": 62,
-      "score_label": "wichtig"
-    },
-    {
-      "stage": "NA",
-      "class": "phase2",
-      "name": "Studienregister-Treffer",
-      "text": "Zu Haoxi Health Technology wurden Treffer im Studienregister gefunden. Das ist wichtig, weil Studienstatus, Patientengruppe und Updates zeigen können, ob ein Programm vorankommt.",
-      "score": 58,
-      "score_label": "prüfen"
-    },
-    {
-      "stage": "Geschäft / Forschungsschwerpunkt",
-      "class": "early",
-      "name": "Onkologie / Krebsmedizin",
-      "text": "Haoxi Health Technology wird anhand der gefundenen Daten als Unternehmen im Bereich Onkologie / Krebsmedizin eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
-      "score": 45,
-      "score_label": "Grundlage"
-    }
-  ],
-  "zones": [
-    {
-      "zone": "Rücksetzer: ca. $0.04–$0.04",
-      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
-    },
-    {
-      "zone": "Arbeitsbereich: ca. $0.04–$0.05",
-      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
-    },
-    {
-      "zone": "Momentum: über ca. $0.05",
-      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
-    },
-    {
-      "zone": "Warnbereich",
-      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
-    }
-  ],
-  "catalysts": [
-    {
-      "tag": "Studien",
-      "title": "Neue Studienergebnisse oder Studienstart",
-      "text": "Bei Biotech-Aktien sind Studienmeldungen oft der wichtigste Kurstreiber. Wichtig ist: Sind es echte Daten oder nur eine Ankündigung?"
-    },
-    {
-      "tag": "Geld / neue Aktien",
-      "title": "Finanzierung oder mögliche Verwässerung",
-      "text": "Wenn das Unternehmen neue Aktien ausgibt, kann das den Kurs drücken. Gleichzeitig braucht ein kleines Biotech-Unternehmen oft frisches Geld."
-    },
-    {
-      "tag": "Regelmäßig prüfen",
-      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
-      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
-    }
-  ],
+  "events": [],
+  "pipeline_intro": "Bei HAO geht es nicht um Studien. Es geht um Geschäftsmodell, Finanzierung, Verwässerung, Nasdaq-Compliance und operative Entwicklung.",
+  "pipeline": [],
+  "zones": [],
+  "catalysts": [],
   "scenarios": {
     "bear": {
       "title": "Schlechter Fall",
@@ -167,29 +67,8 @@
       "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
-  "risks": [
-    {
-      "title": "Neue Aktien / Verwässerung",
-      "text": "Es gibt Hinweise auf Finanzierungsthemen. Das kann bedeuten, dass bestehende Aktionäre durch neue Aktien verwässert werden."
-    },
-    {
-      "title": "Biotech-Risiko",
-      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
-    },
-    {
-      "title": "Finanzierungsrisiko",
-      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
-    },
-    {
-      "title": "Starke Kursschwankungen",
-      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
-    }
-  ],
-  "clear_view": [
-    "Haoxi Health Technology (HAO) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
-    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
-    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
-  ],
+  "risks": [],
+  "clear_view": [],
   "sources": [
     "Son of Lorenc Mastertemplate",
     "Automatische Quellen werden nach Update ergänzt."

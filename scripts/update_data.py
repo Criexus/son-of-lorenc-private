@@ -636,6 +636,152 @@ def is_etf_config(data: dict[str, Any]) -> bool:
     ]).lower()
     return "etf" in blob or data.get("ticker", "").endswith(".DE") and any(x in blob for x in ["msci", "ishares", "ucits"])
 
+
+def is_biotech_config(data: dict[str, Any]) -> bool:
+    blob = " ".join([
+        str(data.get("ticker", "")),
+        str(data.get("name", "")),
+        str(data.get("exchange", "")),
+        str(data.get("character", "")),
+        str(data.get("phase", "")),
+        str(data.get("theme", "")),
+        str(data.get("thesis", "")),
+    ]).lower()
+
+    biotech_words = [
+        "biotech", "pharma", "therapeutics", "biosciences", "clinical", "phase",
+        "fda", "drug", "pipeline", "onkologie", "zns", "psychedelic", "medicine",
+        "gentherapie", "cell therapy", "autoimmun", "adipositas", "mash"
+    ]
+
+    non_biotech_words = [
+        "marketing technology", "china adr", "online marketing", "advertising",
+        "healthcare advertising", "small cap / marketing", "haoxi"
+    ]
+
+    if any(w in blob for w in non_biotech_words):
+        return False
+
+    return any(w in blob for w in biotech_words)
+
+def build_auto_company_focus(data: dict[str, Any], news: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    name = data.get("name", data.get("ticker", "Unternehmen"))
+    ticker = data.get("ticker", "")
+
+    if ticker == "HAO" or "haoxi" in name.lower():
+        return [
+            {
+                "stage": "Geschäftsmodell",
+                "class": "phase2",
+                "name": "Online-Marketing für Healthcare-Kunden",
+                "text": f"{name} ist kein Biotech mit klinischen Studien. Das Unternehmen bietet Online-Marketing-Lösungen an, vor allem für Kunden aus dem Gesundheitsbereich. Wichtig sind Umsatzentwicklung, Kundenwachstum, Margen und ob das Geschäftsmodell nachhaltig profitabel bleibt.",
+                "score": 62,
+                "score_label": "Geschäftsbasis"
+            },
+            {
+                "stage": "Kapitalmarkt",
+                "class": "phase3",
+                "name": "Finanzierung, Verwässerung und Nasdaq-Themen",
+                "text": "Bei HAO sind Kapitalmaßnahmen, neue Aktien, Warrants, Reverse Splits und Nasdaq-Compliance besonders wichtig. Solche Meldungen können den Kurs kurzfristig stark bewegen.",
+                "score": 78,
+                "score_label": "sehr kursrelevant"
+            },
+            {
+                "stage": "Operative Entwicklung",
+                "class": "early",
+                "name": "Partnerschaften und Plattform-News",
+                "text": "Partnerschaften oder neue Plattform-/AI-/Marketing-Angebote können Aufmerksamkeit erzeugen. Entscheidend ist aber, ob daraus echter Umsatz und Gewinn entstehen.",
+                "score": 48,
+                "score_label": "prüfen"
+            }
+        ]
+
+    return [
+        {
+            "stage": "Geschäftsmodell",
+            "class": "phase2",
+            "name": "Umsatz, Wachstum und Profitabilität",
+            "text": f"{name} wird als normales Unternehmen eingeordnet. Wichtig sind Umsatzwachstum, Margen, Cashbestand, Kapitalmaßnahmen und operative Fortschritte.",
+            "score": 60,
+            "score_label": "wichtig"
+        },
+        {
+            "stage": "Kapitalmarkt",
+            "class": "early",
+            "name": "Finanzierung und Kursstruktur",
+            "text": "Bei Small Caps sind neue Aktien, Warrants, Reverse Splits und Börsen-Compliance oft wichtige Kurstreiber.",
+            "score": 65,
+            "score_label": "kursrelevant"
+        }
+    ]
+
+def build_auto_company_catalysts(news: list[dict[str, Any]], filings: list[dict[str, Any]]) -> list[dict[str, str]]:
+    items = []
+
+    if any(n.get("trigger_type") == "Finanzierung / Verwässerung" for n in news) or any(str(f.get("form", "")).upper() in ["F-1", "F-3", "S-1", "S-3", "424B", "424B5", "6-K"] for f in filings):
+        items.append({
+            "tag": "Kapitalmaßnahme",
+            "title": "Finanzierung, neue Aktien oder Warrants",
+            "text": "Bei Small Caps können Kapitalerhöhungen oder Warrants stark verwässern. Wichtig ist der Preis je Aktie und wie viel neues Kapital wirklich zufließt."
+        })
+
+    items.append({
+        "tag": "Zahlen",
+        "title": "Umsatz, Gewinn und Cashbestand",
+        "text": "Bei HAO zählen vor allem Umsatzentwicklung, Margen, Cashbestand und ob das Unternehmen profitabel bzw. finanzierbar bleibt."
+    })
+
+    items.append({
+        "tag": "Börsenstatus",
+        "title": "Nasdaq-Compliance / Reverse-Split-Risiko",
+        "text": "Wenn der Kurs zu lange niedrig bleibt, können Nasdaq-Regeln, Reverse Splits oder Compliance-Meldungen wichtig werden."
+    })
+
+    items.append({
+        "tag": "Geschäft",
+        "title": "Partnerschaften und neue Plattformangebote",
+        "text": "Partnerschaften oder neue Angebote sind nur dann stark, wenn daraus messbarer Umsatz oder eine bessere Marktposition entsteht."
+    })
+
+    return items[:4]
+
+def build_auto_company_scenarios(name: str) -> dict[str, dict[str, str]]:
+    return {
+        "bear": {
+            "title": "Schlechter Fall",
+            "text": "Neue Aktien, Warrants, schwache Zahlen oder Nasdaq-/Reverse-Split-Themen drücken den Kurs. Dann kann die Aktie trotz optisch niedrigem Kurs weiter fallen."
+        },
+        "base": {
+            "title": "Normaler Fall",
+            "text": "Die Aktie bleibt stark news- und kapitalmarktgetrieben. Ohne klare operative Fortschritte sind schnelle Anstiege oft nur kurzfristig."
+        },
+        "bull": {
+            "title": "Guter Fall",
+            "text": "Das Unternehmen zeigt Wachstum, verbessert Profitabilität oder meldet eine glaubwürdige Partnerschaft. Dann kann der Markt die Aktie kurzfristig neu bewerten."
+        }
+    }
+
+def build_auto_company_risks(news: list[dict[str, Any]], filings: list[dict[str, Any]]) -> list[dict[str, str]]:
+    return [
+        {
+            "title": "Verwässerung durch neue Aktien",
+            "text": "Kapitalerhöhungen, Warrants oder ATM-/Offering-Strukturen können bestehende Aktionäre stark verwässern."
+        },
+        {
+            "title": "Small-Cap-Volatilität",
+            "text": "Kleine Aktien können stark schwanken. Kurse können auch ohne fundamentale Änderung schnell steigen oder fallen."
+        },
+        {
+            "title": "Geschäftsmodell-Risiko",
+            "text": "Entscheidend ist, ob Umsatz und Gewinn nachhaltig wachsen. Reine Ankündigungen reichen langfristig nicht."
+        },
+        {
+            "title": "Nasdaq-/Reverse-Split-Risiko",
+            "text": "Bei sehr niedrigen Kursen können Börsenregeln, Reverse Splits oder Compliance-Meldungen wichtig werden."
+        }
+    ]
+
+
 def build_auto_etf_focus(data: dict[str, Any], news: list[dict[str, Any]]) -> list[dict[str, Any]]:
     name = data.get("name", data.get("ticker", "ETF"))
     text = " ".join(n.get("title", "") for n in news).lower()
@@ -818,11 +964,31 @@ def autofill_dossier(data, news, filings, trials, price):
     data["chart_subtitle"] = "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts."
     data["chart_note"] = "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung."
     data["pipeline_intro"] = "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können."
-    data["pipeline"] = build_auto_etf_focus(data, news) if is_etf_config(data) else build_auto_pipeline(data, news, trials)
+    if is_etf_config(data):
+        data["pipeline"] = build_auto_etf_focus(data, news)
+    elif not is_biotech_config(data):
+        data["pipeline"] = build_auto_company_focus(data, news)
+    else:
+        data["pipeline"] = build_auto_pipeline(data, news, trials)
     data["zones"] = build_auto_zones(price)
-    data["catalysts"] = build_auto_catalysts(news, filings, trials)
-    data["scenarios"] = build_auto_etf_scenarios(name) if is_etf_config(data) else build_auto_scenarios(name)
-    data["risks"] = build_auto_risks(news, filings)
+    if is_etf_config(data):
+        data["catalysts"] = build_auto_catalysts(news, filings, trials)
+    elif not is_biotech_config(data):
+        data["catalysts"] = build_auto_company_catalysts(news, filings)
+    else:
+        data["catalysts"] = build_auto_catalysts(news, filings, trials)
+    if is_etf_config(data):
+        data["scenarios"] = build_auto_etf_scenarios(name)
+    elif not is_biotech_config(data):
+        data["scenarios"] = build_auto_company_scenarios(name)
+    else:
+        data["scenarios"] = build_auto_scenarios(name)
+    if is_etf_config(data):
+        data["risks"] = build_auto_risks(news, filings)
+    elif not is_biotech_config(data):
+        data["risks"] = build_auto_company_risks(news, filings)
+    else:
+        data["risks"] = build_auto_risks(news, filings)
     data["clear_view"] = build_auto_clear_view(data, news)
     existing_events = data.get("events") or []
     if not existing_events or any(is_placeholder_text(e.get("title","")) for e in existing_events):
@@ -888,51 +1054,6 @@ def build_price_history(data: dict[str, Any], price: dict[str, Any], yahoo_histo
     return history[-80:]
 
 
-
-def yahoo_price_history(ticker, range_="1mo", interval="1d"):
-    """Holt ca. 1 Monat Tageskurse für den Smart-Chart.
-    Kein Livechart: Wird nur beim Update neu gespeichert.
-    """
-    import urllib.parse
-    from datetime import datetime, timezone
-
-    url = (
-        "https://query1.finance.yahoo.com/v8/finance/chart/"
-        + urllib.parse.quote(str(ticker))
-        + f"?range={range_}&interval={interval}"
-    )
-
-    history = []
-
-    try:
-        data = req_json(url)
-        result = data["chart"]["result"][0]
-        timestamps = result.get("timestamp") or []
-        quote = result.get("indicators", {}).get("quote", [{}])[0]
-        closes = quote.get("close") or []
-
-        for ts, close in zip(timestamps, closes):
-            if close is None:
-                continue
-
-            try:
-                price = round(float(close), 4)
-            except Exception:
-                continue
-
-            history.append({
-                "t": datetime.fromtimestamp(int(ts), timezone.utc)
-                    .replace(microsecond=0)
-                    .isoformat()
-                    .replace("+00:00", "Z"),
-                "price": price
-            })
-
-    except Exception as e:
-        print(f"[WARN] Yahoo history failed for {ticker}: {e}")
-
-    return history[-40:]
-
 def update():
     watchlist = read_json(CONFIG)
     mp = sec_ticker_map()
@@ -994,7 +1115,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v3.6-portfolio-timeline-overlay",
+        "version": "master-v3.7-company-type-fix",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"

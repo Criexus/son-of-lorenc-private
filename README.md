@@ -1,63 +1,33 @@
-# Son of Lorenc – Master v3.6 Portfolio + Timeline Overlay
+# Son of Lorenc – Master v3.7 Company Type Fix
 
-Diese Version setzt die nächsten Punkte um:
+Diese Version behebt das Problem bei HAO:
 
-## 1. Fehlende Depotwerte
+## HAO ist kein Biotech
 
-Neu hinzufügbar über:
+Haoxi Health Technology wird nicht mehr mit Studien, FDA, Pipeline oder Readout behandelt.
 
-```bash
-python3 scripts/add_missing_portfolio.py
-```
+Stattdessen:
 
-Werte:
+- Geschäftsmodell
+- Online-Marketing für Healthcare-Kunden
+- Umsatz / Margen / Cash
+- Finanzierung / Verwässerung
+- Warrants / Offerings
+- Nasdaq-Compliance / Reverse-Split-Risiko
+- Partnerschaften / Plattform-News
 
-- HAO · Haoxi Health Technology
-- RXRX · Recursion Pharmaceuticals
-- 2B76.DE · iShares Automation & Robotics UCITS ETF
-- ELFW.DE · MSCI World ETF
-
-## 2. Timeline besser klickbar
-
-- Punkte haben größere unsichtbare Klickflächen
-- Klick irgendwo in der Chartnähe springt zum nächsten Punkt
-- aktiver Punkt wird stärker markiert
-- News-Liste scrollt zum aktiven Punkt
-
-## 3. Chart + News werden besser abgeglichen
-
-- News werden nicht mehr nur künstlich auf Kurslevel gesetzt
-- News erhalten den nächstliegenden Kurs aus `price_history`
-- Smart-Chart zeigt News-Marker direkt auf dem Kursverlauf
-- Farben unterscheiden News-Typen grob:
-  - Studie / Daten
-  - FDA / Regulatorik
-  - Finanzierung / Verwässerung
-  - SEC / Unternehmensmeldung
-  - allgemeine News
-
-## 4. ETF-Logik
-
-Bei ETFs wird nicht mehr so getan, als gäbe es eine Pipeline.
-Stattdessen wird Fondsfokus, Markttrend und Sektorrisiko erklärt.
-
-## Online-Update
-
-Diese Dateien pushen:
-
-- index.html
-- assets/app.js
-- assets/style.css
-- scripts/update_data.py
-- scripts/add_missing_portfolio.py
-- README.md
-
-Danach:
+## Anwendung
 
 ```bash
-python3 scripts/add_missing_portfolio.py
+cp ~/Downloads/son-of-lorenc-master-v3-7-company-type-fix/scripts/update_data.py ./scripts/update_data.py
+cp ~/Downloads/son-of-lorenc-master-v3-7-company-type-fix/scripts/reset_company_dossiers.py ./scripts/reset_company_dossiers.py
+cp ~/Downloads/son-of-lorenc-master-v3-7-company-type-fix/scripts/add_missing_portfolio.py ./scripts/add_missing_portfolio.py
+cp ~/Downloads/son-of-lorenc-master-v3-7-company-type-fix/README.md ./README.md
+
+python3 scripts/reset_company_dossiers.py
 python3 scripts/update_data.py
-git add config/watchlist.json data/ scripts/update_data.py scripts/add_missing_portfolio.py assets/app.js assets/style.css index.html README.md
-git commit -m "Add portfolio values and improve timeline overlay"
+
+git add scripts/update_data.py scripts/reset_company_dossiers.py scripts/add_missing_portfolio.py README.md data/ config/watchlist.json
+git commit -m "Fix company type handling for HAO"
 git push
 ```
