@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.94",
-      "note": "Auto-Update: 26.28% vs. vorheriger Schlusskurs",
+      "value": "$3.68",
+      "note": "Auto-Update: 17.95% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,14 +191,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T19:26:27Z",
+    "last_update_utc": "2026-05-11T20:58:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.94,
+      "regularMarketPrice": 3.68,
       "previousClose": 3.12,
-      "change": 0.82,
-      "changePercent": 26.28
+      "change": 0.56,
+      "changePercent": 17.95
     },
     "price_history": [
       {
@@ -283,7 +283,7 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 3.94
+        "price": 3.68
       }
     ],
     "price_history_1d": [
@@ -380,13 +380,42 @@
         "price": 4.03
       },
       {
-        "t": "2026-05-11T18:50:54Z",
+        "t": "2026-05-11T18:50:00Z",
         "price": 3.94
+      },
+      {
+        "t": "2026-05-11T19:45:00Z",
+        "price": 3.8
+      },
+      {
+        "t": "2026-05-11T19:55:00Z",
+        "price": 3.65
+      },
+      {
+        "t": "2026-05-11T20:00:00Z",
+        "price": 3.68
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Biodexa startet Phase-3-Studie für FAP-Behandlung mit 20-Millionen-Dollar-Finanzierung - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYmhyZV9WclNZdUkxdXlfeXgyVmpUZDVMNFNQZHEtWXlqUTJrY2lOZEJLVGMzMnowXzVlQ2FMd1NlNlAxbk8xSFdycE43MVZwR0FQY1pKRGdvQWk3SGJ3XzF2eVI5YjdkdndhUzFGRVI0QXhuSFBmclJjQVpvT1g4YlBWYmlIaGV5eWFubGYwUmFMSEFTb1hvenpUbEIzV0hrcEtvdnVNY0NzdG8tT0R3aEhYMWJIWnBnYmwzenhaVWlUY2dPWVVPdHhNMENySDZRQUE?oc=5",
+        "published_at": "2025-09-08T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      }
+    ],
     "sec_filings": [
       {
         "form": "424B3",

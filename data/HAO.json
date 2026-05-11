@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$0.04",
-      "note": "Auto-Update: -93.95% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -93.67% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,14 +192,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T19:27:30Z",
+    "last_update_utc": "2026-05-11T20:59:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.043,
+      "regularMarketPrice": 0.045,
       "previousClose": 0.711,
-      "change": -0.668,
-      "changePercent": -93.95
+      "change": -0.666,
+      "changePercent": -93.67
     },
     "price_history": [
       {
@@ -284,7 +284,7 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 0.0426
+        "price": 0.045
       }
     ],
     "price_history_1d": [
@@ -574,11 +574,35 @@
       },
       {
         "t": "2026-05-11T19:25:00Z",
-        "price": 0.0426
+        "price": 0.0423
       },
       {
-        "t": "2026-05-11T19:27:14Z",
-        "price": 0.0426
+        "t": "2026-05-11T19:30:00Z",
+        "price": 0.0434
+      },
+      {
+        "t": "2026-05-11T19:35:00Z",
+        "price": 0.0435
+      },
+      {
+        "t": "2026-05-11T19:40:00Z",
+        "price": 0.0464
+      },
+      {
+        "t": "2026-05-11T19:45:00Z",
+        "price": 0.0461
+      },
+      {
+        "t": "2026-05-11T19:50:00Z",
+        "price": 0.0445
+      },
+      {
+        "t": "2026-05-11T19:55:00Z",
+        "price": 0.0451
+      },
+      {
+        "t": "2026-05-11T20:00:00Z",
+        "price": 0.045
       }
     ],
     "price_history_range": "1mo",
@@ -728,134 +752,44 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT02812602",
-        "title": "Topical Anesthesia for Removal of Stitches After Total Knee Arthroplasty",
+        "nct_id": "NCT03081130",
+        "title": "Intravenous Laser Irradiation Effect on Treatment Resistant Thin Endometrium",
         "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Endometrium, Laser",
+        "last_update": "",
+        "start_date": "2017-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT03081130"
+      },
+      {
+        "nct_id": "NCT06577792",
+        "title": "Lobectomy-First vs. Lymphadenectomy-First for Operable NSCLC (LOFTY)",
+        "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Metal Staple Removal After Total Knee Replacement",
+        "conditions": "Non Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2016-04",
-        "url": "https://clinicaltrials.gov/study/NCT02812602"
+        "start_date": "2023-08-16",
+        "url": "https://clinicaltrials.gov/study/NCT06577792"
       },
       {
-        "nct_id": "NCT05208944",
-        "title": "THIO Sequenced With Cemiplimab in Advanced NSCLC",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Carcinoma, Non-Small-Cell Lung",
-        "last_update": "",
-        "start_date": "2022-06-08",
-        "url": "https://clinicaltrials.gov/study/NCT05208944"
-      },
-      {
-        "nct_id": "NCT05125939",
-        "title": "Can Overall Adenoma Detection Rate Replace Screening Adenoma Detection Rate ? Multicenter Study",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Adenoma Detection Rate, Colonoscopy",
-        "last_update": "",
-        "start_date": "2021-11-20",
-        "url": "https://clinicaltrials.gov/study/NCT05125939"
-      },
-      {
-        "nct_id": "NCT05086536",
-        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Hepatitis B, Decompensated Cirrhosis",
-        "last_update": "",
-        "start_date": "2021-10-15",
-        "url": "https://clinicaltrials.gov/study/NCT05086536"
-      },
-      {
-        "nct_id": "NCT07269912",
-        "title": "Application of Multimodal MRI in Histological Grading and Prognostic Assessment of Rectal Cancer",
+        "nct_id": "NCT07045844",
+        "title": "Effects of Enteral Feeding Regimens on NEC, Mortality, and Neurodevelopment in Very Preterm Infants",
         "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Rectal Neoplasms, Prognosis",
-        "last_update": "",
-        "start_date": "2027-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT07269912"
-      },
-      {
-        "nct_id": "NCT04172181",
-        "title": "Multi-center Clinical Study of Cord Blood Stem Cell Transplantation for SCID",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Severe Combined Immunodeficiency Disease",
-        "last_update": "",
-        "start_date": "2019-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT04172181"
-      },
-      {
-        "nct_id": "NCT05957653",
-        "title": "Lidocaine Combined With Sufentanil for Preventing Catheter-related Bladder Discomfort",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Prostate Cancer",
-        "last_update": "",
-        "start_date": "2023-10-07",
-        "url": "https://clinicaltrials.gov/study/NCT05957653"
-      },
-      {
-        "nct_id": "NCT06533605",
-        "title": "Phase I Clinical Study to Evaluate the Safety and Efficacy of SSGJ-706 Monotherapy for Patients With Advanced Solid Tumors",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Advanced Solid Tumors Patients",
-        "last_update": "",
-        "start_date": "2024-08",
-        "url": "https://clinicaltrials.gov/study/NCT06533605"
-      },
-      {
-        "nct_id": "NCT06995170",
-        "title": "Investigation of the Correlation Between Polyamine Levels and Their Key Enzymatic Activities in Association With Inflammatory Bowel Disease Progression",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Inflammatory Bowel Diseases, Colitis, Ulcerative, Crohn Disease, Polyamines",
-        "last_update": "",
-        "start_date": "2025-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06995170"
-      },
-      {
-        "nct_id": "NCT07509645",
-        "title": "Efficacy and Safety of Interleukin-6 Receptor Inhibitor Combined With Endovascular Treatment in Patients With Acute Posterior Circulation Large Vessel Occlusion Stroke",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Ischemic Stroke",
-        "last_update": "",
-        "start_date": "2026-04-22",
-        "url": "https://clinicaltrials.gov/study/NCT07509645"
-      },
-      {
-        "nct_id": "NCT07090772",
-        "title": "The Effectiveness of Different Therapeutic Jaw Position Determining Methods in Repositioning Splint Therapy for Temporomandibular Joint Disk Displacement Without Reduction：A Randomized Controlled Clinical Trial",
-        "status": "ENROLLING_BY_INVITATION",
         "phase": "NA",
-        "conditions": "Temporomandibular Disorder (TMD)",
+        "conditions": "Very Preterm Infant, Necrotizing Enterocolitis (NEC)",
         "last_update": "",
-        "start_date": "2025-07-20",
-        "url": "https://clinicaltrials.gov/study/NCT07090772"
+        "start_date": "2026-03-02",
+        "url": "https://clinicaltrials.gov/study/NCT07045844"
       },
       {
-        "nct_id": "NCT05944198",
-        "title": "Clinical Study of 18F-FAPI-RGD PET/CT in Rheumatoid Arthritis",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Rheumatoid Arthritis",
-        "last_update": "",
-        "start_date": "2023-07-14",
-        "url": "https://clinicaltrials.gov/study/NCT05944198"
-      },
-      {
-        "nct_id": "NCT04175587",
-        "title": "Randomized,International Multi-center Clinical Trial of RIF Plus RA for Non-high-risk APL",
+        "nct_id": "NCT05070832",
+        "title": "Hyperthermia Combined With Neoadjuvant Radiochemotherapy for LARC",
         "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Acute Promyelocytic Leukaemia",
+        "phase": "NA",
+        "conditions": "Hyperthermia, Radiotherapy",
         "last_update": "",
-        "start_date": "2019-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT04175587"
+        "start_date": "2022-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05070832"
       },
       {
         "nct_id": "NCT06245330",
@@ -868,14 +802,104 @@
         "url": "https://clinicaltrials.gov/study/NCT06245330"
       },
       {
-        "nct_id": "NCT06890598",
-        "title": "Study of Olomorasib (LY3537982) in Combination With Standard of Care in Participants With Resected or Unresectable KRAS G12C-mutant Non-Small Cell Lung Cancer",
+        "nct_id": "NCT03380039",
+        "title": "Clinical Study of CAR-BCMA T Cells in Patients With Refractory or Relapsed Multiple Myeloma",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Refractory or Relapsed Multiple Myeloma",
+        "last_update": "",
+        "start_date": "2017-10-13",
+        "url": "https://clinicaltrials.gov/study/NCT03380039"
+      },
+      {
+        "nct_id": "NCT04601363",
+        "title": "Personalized Spine Study Group (PSSG) Registry",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Scoliosis; Adolescence, Degenerative Disc Disease, Spinal Fusion, Kyphoscoliosis",
+        "last_update": "",
+        "start_date": "2020-10-29",
+        "url": "https://clinicaltrials.gov/study/NCT04601363"
+      },
+      {
+        "nct_id": "NCT06230445",
+        "title": "Effects of Digital Therapeutic in Whole Process Management of Lung Cancer",
         "status": "RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Carcinoma, Non-Small-Cell Lung",
+        "conditions": "Application of Digital Therapeutic in Lung Cancer Whole Process Management",
         "last_update": "",
-        "start_date": "2025-03-27",
-        "url": "https://clinicaltrials.gov/study/NCT06890598"
+        "start_date": "2023-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT06230445"
+      },
+      {
+        "nct_id": "NCT05654857",
+        "title": "The Prevalence of Family-unit Helicobacter Pylori Infection in Jiangsu",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Helicobacter Pylori Infection",
+        "last_update": "",
+        "start_date": "2023-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT05654857"
+      },
+      {
+        "nct_id": "NCT06847932",
+        "title": "Leveraging AI-ECG Technology for Early Notification and Tracking of AF Development",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Atrial Fibrillation (AF), Premature Atrial Complexes, Atrial Arrhythmias, Artificial Intelligence (AI)",
+        "last_update": "",
+        "start_date": "2025-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT06847932"
+      },
+      {
+        "nct_id": "NCT01148732",
+        "title": "Tracheal Rapid Ultrasound Exam (T.R.U.E) for Confirming Endotracheal Tube Placement in Emergency Intubation",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Intubation",
+        "last_update": "",
+        "start_date": "2010-02",
+        "url": "https://clinicaltrials.gov/study/NCT01148732"
+      },
+      {
+        "nct_id": "NCT07079891",
+        "title": "Association Between Ambient Temperature and Myocardial Injury After Noncardiac Surgery in Adults",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "MINS",
+        "last_update": "",
+        "start_date": "2013-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT07079891"
+      },
+      {
+        "nct_id": "NCT06461910",
+        "title": "Efficacy and Safety of Anti-PD-1, Thymalfasin, and SOX in Neoadjuvant Treatment of cStage III Gastric/Gastroesophageal Junction Adenocarcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Gastric Cancer, Esophagogastric Junction Adenocarcinoma",
+        "last_update": "",
+        "start_date": "2024-06-14",
+        "url": "https://clinicaltrials.gov/study/NCT06461910"
+      },
+      {
+        "nct_id": "NCT06699420",
+        "title": "Qishenyiqi Dripping Pill for Coronary Microvascular Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Coronary Microvascular Disease",
+        "last_update": "",
+        "start_date": "2023-11-08",
+        "url": "https://clinicaltrials.gov/study/NCT06699420"
+      },
+      {
+        "nct_id": "NCT06798129",
+        "title": "Effects of Extracorporeal Treatment in Patients With Acute Poisoning",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Poisoning, Extracorporeal Treatment",
+        "last_update": "",
+        "start_date": "2015-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06798129"
       }
     ],
     "detected_triggers": [
@@ -890,26 +914,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Topical Anesthesia for Removal of Stitches After Total Knee Arthroplasty",
+        "title": "Clinical Study of CAR-BCMA T Cells in Patients With Refractory or Relapsed Multiple Myeloma",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02812602",
-        "date": "2016-04"
+        "source": "NCT03380039",
+        "date": "2017-10-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Randomized,International Multi-center Clinical Trial of RIF Plus RA for Non-high-risk APL",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT04175587",
-        "date": "2019-12-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "THIO Sequenced With Cemiplimab in Advanced NSCLC",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT05208944",
-        "date": "2022-06-08"
+        "title": "Hyperthermia Combined With Neoadjuvant Radiochemotherapy for LARC",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05070832",
+        "date": "2022-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -922,34 +938,42 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Lidocaine Combined With Sufentanil for Preventing Catheter-related Bladder Discomfort",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05957653",
-        "date": "2023-10-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Phase I Clinical Study to Evaluate the Safety and Efficacy of SSGJ-706 Monotherapy for Patients With Advanced Solid Tumors",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT06533605",
-        "date": "2024-08"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Study of Olomorasib (LY3537982) in Combination With Standard of Care in Participants With Resected or Unresectable KRAS G12C-mutant Non-Small Cell Lung Cancer",
+        "title": "Effects of Digital Therapeutic in Whole Process Management of Lung Cancer",
         "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06890598",
-        "date": "2025-03-27"
+        "source": "NCT06230445",
+        "date": "2023-06-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effectiveness of Different Therapeutic Jaw Position Determining Methods in Repositioning Splint Therapy for Temporomandibular Joint Disk Displacement Without Reduction：A Randomized Controlled Clinical Trial",
-        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION NA",
-        "source": "NCT07090772",
-        "date": "2025-07-20"
+        "title": "Lobectomy-First vs. Lymphadenectomy-First for Operable NSCLC (LOFTY)",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06577792",
+        "date": "2023-08-16"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Qishenyiqi Dripping Pill for Coronary Microvascular Disease",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
+        "source": "NCT06699420",
+        "date": "2023-11-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy and Safety of Anti-PD-1, Thymalfasin, and SOX in Neoadjuvant Treatment of cStage III Gastric/Gastroesophageal Junction Adenocarcinoma",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06461910",
+        "date": "2024-06-14"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Leveraging AI-ECG Technology for Early Notification and Tracking of AF Development",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06847932",
+        "date": "2025-07-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1016,6 +1040,14 @@
         "date": "2026-02-10"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Effects of Enteral Feeding Regimens on NEC, Mortality, and Neurodevelopment in Very Preterm Infants",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07045844",
+        "date": "2026-03-02"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-03-06",
@@ -1041,51 +1073,51 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Efficacy and Safety of Interleukin-6 Receptor Inhibitor Combined With Endovascular Treatment in Patients With Acute Posterior Circulation Large Vessel Occlusion Stroke",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07509645",
-        "date": "2026-04-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Multi-center Clinical Study of Cord Blood Stem Cell Transplantation for SCID",
+        "title": "Tracheal Rapid Ultrasound Exam (T.R.U.E) for Confirming Endotracheal Tube Placement in Emergency Intubation",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT04172181",
-        "date": "2019-12-01"
+        "source": "NCT01148732",
+        "date": "2010-02"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05086536",
-        "date": "2021-10-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Can Overall Adenoma Detection Rate Replace Screening Adenoma Detection Rate ? Multicenter Study",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05125939",
-        "date": "2021-11-20"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Clinical Study of 18F-FAPI-RGD PET/CT in Rheumatoid Arthritis",
+        "title": "Association Between Ambient Temperature and Myocardial Injury After Noncardiac Surgery in Adults",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT05944198",
-        "date": "2023-07-14"
+        "source": "NCT07079891",
+        "date": "2013-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Investigation of the Correlation Between Polyamine Levels and Their Key Enzymatic Activities in Association With Inflammatory Bowel Disease Progression",
+        "title": "Effects of Extracorporeal Treatment in Patients With Acute Poisoning",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT06798129",
+        "date": "2015-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Intravenous Laser Irradiation Effect on Treatment Resistant Thin Endometrium",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT03081130",
+        "date": "2017-02-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Personalized Spine Study Group (PSSG) Registry",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06995170",
-        "date": "2025-01-01"
+        "source": "NCT04601363",
+        "date": "2020-10-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "The Prevalence of Family-unit Helicobacter Pylori Infection in Jiangsu",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05654857",
+        "date": "2023-03-01"
       },
       {
         "type": "SEC Filing",
@@ -1110,14 +1142,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
       }
     ],
     "queries_used": [
