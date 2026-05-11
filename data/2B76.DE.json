@@ -1,30 +1,48 @@
 {
-  "ticker": "MAAT.PA",
-  "exchange": "Euronext Paris",
-  "name": "MaaT Pharma",
-  "eyebrow": "Son of Lorenc · Phasenanalyse · MAAT.PA",
-  "headline": "MaaT Pharma – einfache Phasenanalyse",
-  "thesis": "Kurzthese: MaaT Pharma wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
+  "ticker": "2B76.DE",
+  "exchange": "NASDAQ",
+  "name": "iShares Automation & Robotics UCITS ETF",
+  "eyebrow": "Son of Lorenc · Phasenanalyse · 2B76.DE",
+  "headline": "iShares Automation & Robotics UCITS ETF – einfache Phasenanalyse",
+  "thesis": "Kurzthese: iShares Automation & Robotics UCITS ETF wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-11",
   "phase": "Automatische Grundanalyse",
   "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.25",
-      "note": "Auto-Update: 19.64% vs. vorheriger Schlusskurs",
+      "value": "$17.55",
+      "note": "Auto-Update: 8.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
       "label": "52W-Spanne",
       "value": "offen",
-      "note": "nach nächstem Update",
+      "note": "manuell/automatisch ergänzen",
       "key": "range52"
     },
     {
+      "label": "Cash & Wertpapiere",
+      "value": "offen",
+      "note": "letzten Bericht prüfen",
+      "key": "cash"
+    },
+    {
+      "label": "Cash Runway",
+      "value": "offen",
+      "note": "Finanzierungsreichweite prüfen",
+      "key": "runway"
+    },
+    {
+      "label": "Umsatz",
+      "value": "offen",
+      "note": "je nach Entwicklungsphase relevant",
+      "key": "revenue"
+    },
+    {
       "label": "Risikoklasse",
-      "value": "hoch",
-      "note": "Research-Wert",
+      "value": "offen",
+      "note": "muss eingeordnet werden",
       "key": "risk"
     }
   ],
@@ -32,29 +50,16 @@
   "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "2026-04-21T07:00:00Z",
-      "p": 7.26,
-      "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Buy - boerse.de - boerse.de",
+      "d": "2019-01-08T08:47:34Z",
+      "p": 17.548,
+      "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
       "phase": "Allgemeine News",
       "reaction": "unklare Kursrelevanz",
       "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
       "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
       "impact": "unklare Kursrelevanz",
-      "source": "boerse.de",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYTg0NkJoakk1ZmJMZGVRZWJ2c3FKbG0xazByMGpzM3BzSGVySDNJMkRjcERudkxTcERIYUNlUmZHTWtPMlhuOFE0R1VLclZ6SEhJTVU4VUhSRm8yMTJlRDhWRTlUWlBfOFdHeVpnc0RfRV9Zd1hiRVNNd3ZhSUx0c2h2ZFJ6VEJtdE05Rkh1ZnByRGtmMGlaVTNRaFVUQ2dhblZLYjBrcjRUc016SzV1cHl6aEFxc3dxTTJB0gHAAUFVX3lxTE1EcmZQcEhHVDBHcS1CQ1k3a2tNcHhVU3FtTW5BUjUtQWFVWVBPcm5EbmtJVTVfQ2FfZ3Vrb292VGNhaERLa2Z5U0ZGc0lCOHIzVWRkcnNUaDFzUHNzNmdYSWU5MXM3cGVXRTFiRjF5cVNfWFVDTEJPNlltZ1BPVmdlbkxSaDdZM2lqTTMwekZZcGdsVmNEZ0dWbEZrYWl6Y2lZOTgzM0F5SWVMQk5vYXRHbV93RUh5c25lRWJPbjlRVw?oc=5",
-      "future": false
-    },
-    {
-      "d": "2026-03-05T08:00:00Z",
-      "p": 7.26,
-      "title": "Anwendungsbegleitende Datenerhebung und Beschränkung der Versorgungsbefugnis: MaaT013 (Gepoolte allogene Fäkal-Mikroorganismen) – Akute Graft-versus-Host-Krankheit - Gemeinsamer Bundesausschuss",
-      "phase": "Allgemeine News",
-      "reaction": "unklare Kursrelevanz",
-      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-      "impact": "unklare Kursrelevanz",
-      "source": "Gemeinsamer Bundesausschuss",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82Q285ZmV4SlFaNGhrMkM3VmVHR3JUV0UyTlJxd01oVG5NM1c3a0VPTFp6eEtPMjBwMHI1WEFvVUtOYkFhem1RVEJ5Skk1c0paVzBtUEYtN2FkTmpoS0hkeG5vQm1sTFkzc2RGSzE3TWs1SW5GX1Y2cQ?oc=5",
+      "source": "Comdirect",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
       "future": false
     }
   ],
@@ -64,22 +69,22 @@
       "stage": "Geschäft / Forschungsschwerpunkt",
       "class": "early",
       "name": "Biotech / klinische Entwicklung",
-      "text": "MaaT Pharma wird anhand der gefundenen Daten als Unternehmen im Bereich Biotech / klinische Entwicklung eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "text": "iShares Automation & Robotics UCITS ETF wird anhand der gefundenen Daten als Unternehmen im Bereich Biotech / klinische Entwicklung eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
       "score": 45,
       "score_label": "Grundlage"
     }
   ],
   "zones": [
     {
-      "zone": "Rücksetzer: ca. $5.95–$6.53",
+      "zone": "Rücksetzer: ca. $14.39–$15.79",
       "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
     },
     {
-      "zone": "Arbeitsbereich: ca. $6.9–$7.84",
+      "zone": "Arbeitsbereich: ca. $16.67–$18.95",
       "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
     },
     {
-      "zone": "Momentum: über ca. $8.57",
+      "zone": "Momentum: über ca. $20.71",
       "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
     },
     {
@@ -123,113 +128,114 @@
     }
   ],
   "clear_view": [
-    "MaaT Pharma (MAAT.PA) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "iShares Automation & Robotics UCITS ETF (2B76.DE) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
     "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
     "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
-    "Son of Lorenc"
+    "Son of Lorenc Mastertemplate",
+    "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:42:48Z",
+    "last_update_utc": "2026-05-11T15:43:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 7.25,
-      "previousClose": 6.06,
-      "change": 1.19,
-      "changePercent": 19.64
+      "regularMarketPrice": 17.548,
+      "previousClose": 16.196,
+      "change": 1.352,
+      "changePercent": 8.35
     },
     "price_history": [
       {
         "t": "2026-04-13T07:00:00Z",
-        "price": 5.49
+        "price": 14.414
       },
       {
         "t": "2026-04-14T07:00:00Z",
-        "price": 5.68
+        "price": 14.742
       },
       {
         "t": "2026-04-15T07:00:00Z",
-        "price": 5.56
+        "price": 14.766
       },
       {
         "t": "2026-04-16T07:00:00Z",
-        "price": 5.55
+        "price": 15.086
       },
       {
         "t": "2026-04-17T07:00:00Z",
-        "price": 5.51
+        "price": 15.41
       },
       {
         "t": "2026-04-20T07:00:00Z",
-        "price": 5.46
+        "price": 15.3
       },
       {
         "t": "2026-04-21T07:00:00Z",
-        "price": 5.35
+        "price": 15.416
       },
       {
         "t": "2026-04-22T07:00:00Z",
-        "price": 5.35
+        "price": 15.572
       },
       {
         "t": "2026-04-23T07:00:00Z",
-        "price": 5.3
+        "price": 15.622
       },
       {
         "t": "2026-04-24T07:00:00Z",
-        "price": 5.46
+        "price": 16.074
       },
       {
         "t": "2026-04-27T07:00:00Z",
-        "price": 5.86
+        "price": 16.124
       },
       {
         "t": "2026-04-28T07:00:00Z",
-        "price": 5.87
+        "price": 15.754
       },
       {
         "t": "2026-04-29T07:00:00Z",
-        "price": 5.79
+        "price": 15.824
       },
       {
         "t": "2026-04-30T07:00:00Z",
-        "price": 5.85
+        "price": 16.06
       },
       {
         "t": "2026-05-04T07:00:00Z",
-        "price": 5.88
+        "price": 16.196
       },
       {
         "t": "2026-05-05T07:00:00Z",
-        "price": 6.06
+        "price": 16.648
       },
       {
         "t": "2026-05-06T07:00:00Z",
-        "price": 6.3
+        "price": 17.03
       },
       {
         "t": "2026-05-07T07:00:00Z",
-        "price": 6.73
+        "price": 17.162
       },
       {
         "t": "2026-05-08T07:00:00Z",
-        "price": 6.58
+        "price": 17.32
       },
       {
         "t": "2026-05-11T07:00:00Z",
-        "price": 7.25
+        "price": 17.548
       }
     ],
     "price_history_range": "1mo",
     "news": [
       {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Buy - boerse.de - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYTg0NkJoakk1ZmJMZGVRZWJ2c3FKbG0xazByMGpzM3BzSGVySDNJMkRjcERudkxTcERIYUNlUmZHTWtPMlhuOFE0R1VLclZ6SEhJTVU4VUhSRm8yMTJlRDhWRTlUWlBfOFdHeVpnc0RfRV9Zd1hiRVNNd3ZhSUx0c2h2ZFJ6VEJtdE05Rkh1ZnByRGtmMGlaVTNRaFVUQ2dhblZLYjBrcjRUc016SzV1cHl6aEFxc3dxTTJB0gHAAUFVX3lxTE1EcmZQcEhHVDBHcS1CQ1k3a2tNcHhVU3FtTW5BUjUtQWFVWVBPcm5EbmtJVTVfQ2FfZ3Vrb292VGNhaERLa2Z5U0ZGc0lCOHIzVWRkcnNUaDFzUHNzNmdYSWU5MXM3cGVXRTFiRjF5cVNfWFVDTEJPNlltZ1BPVmdlbkxSaDdZM2lqTTMwekZZcGdsVmNEZ0dWbEZrYWl6Y2lZOTgzM0F5SWVMQk5vYXRHbV93RUh5c25lRWJPbjlRVw?oc=5",
-        "published_at": "2026-04-21T07:00:00Z",
-        "source": "boerse.de",
-        "query": "\"MaaT Pharma\" stock news",
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
+        "published_at": "2019-01-08T08:47:34Z",
+        "source": "Comdirect",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -238,32 +244,16 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
-      {
-        "title": "Anwendungsbegleitende Datenerhebung und Beschränkung der Versorgungsbefugnis: MaaT013 (Gepoolte allogene Fäkal-Mikroorganismen) – Akute Graft-versus-Host-Krankheit - Gemeinsamer Bundesausschuss",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82Q285ZmV4SlFaNGhrMkM3VmVHR3JUV0UyTlJxd01oVG5NM1c3a0VPTFp6eEtPMjBwMHI1WEFvVUtOYkFhem1RVEJ5Skk1c0paVzBtUEYtN2FkTmpoS0hkeG5vQm1sTFkzc2RGSzE3TWs1SW5GX1Y2cQ?oc=5",
-        "published_at": "2026-03-05T08:00:00Z",
-        "source": "Gemeinsamer Bundesausschuss",
-        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
+        "relevance_score": 27
       }
     ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
     "queries_used": [
-      "\"MaaT Pharma\" stock news",
-      "\"MaaT013\" Xervyteg MaaT Pharma",
-      "\"MaaT034\" MaaT Pharma"
+      "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+      "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+      "2B76.DE stock news"
     ],
     "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
   }

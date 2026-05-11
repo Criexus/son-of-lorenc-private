@@ -1,0 +1,241 @@
+{
+  "ticker": "ELFW.DE",
+  "exchange": "NASDAQ",
+  "name": "MSCI World ETF",
+  "eyebrow": "Son of Lorenc · Phasenanalyse · ELFW.DE",
+  "headline": "MSCI World ETF – einfache Phasenanalyse",
+  "thesis": "Kurzthese: MSCI World ETF wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
+  "stand": "2026-05-11",
+  "phase": "Automatische Grundanalyse",
+  "character": "spekulativ · stark nachrichtenabhängig",
+  "metrics": [
+    {
+      "label": "Aktueller Kurs",
+      "value": "$41.45",
+      "note": "Auto-Update: 2.15% vs. vorheriger Schlusskurs",
+      "key": "price"
+    },
+    {
+      "label": "52W-Spanne",
+      "value": "offen",
+      "note": "manuell/automatisch ergänzen",
+      "key": "range52"
+    },
+    {
+      "label": "Cash & Wertpapiere",
+      "value": "offen",
+      "note": "letzten Bericht prüfen",
+      "key": "cash"
+    },
+    {
+      "label": "Cash Runway",
+      "value": "offen",
+      "note": "Finanzierungsreichweite prüfen",
+      "key": "runway"
+    },
+    {
+      "label": "Umsatz",
+      "value": "offen",
+      "note": "je nach Entwicklungsphase relevant",
+      "key": "revenue"
+    },
+    {
+      "label": "Risikoklasse",
+      "value": "offen",
+      "note": "muss eingeordnet werden",
+      "key": "risk"
+    }
+  ],
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
+  "events": [
+    {
+      "d": "Start",
+      "p": 41.452,
+      "title": "Automatische Grundanalyse angelegt",
+      "phase": "Start",
+      "reaction": "Es wurden noch keine starken Nachrichten gefunden.",
+      "details": "Das System beobachtet die Aktie weiter automatisch.",
+      "source": "Son of Lorenc",
+      "url": "#",
+      "future": false
+    }
+  ],
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
+  "pipeline": [
+    {
+      "stage": "Geschäft / Forschungsschwerpunkt",
+      "class": "early",
+      "name": "Biotech / klinische Entwicklung",
+      "text": "MSCI World ETF wird anhand der gefundenen Daten als Unternehmen im Bereich Biotech / klinische Entwicklung eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Rücksetzer: ca. $33.99–$37.31",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
+    },
+    {
+      "zone": "Arbeitsbereich: ca. $39.38–$44.77",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
+    },
+    {
+      "zone": "Momentum: über ca. $48.91",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
+    },
+    {
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "title": "Schlechter Fall",
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
+    },
+    "base": {
+      "title": "Normaler Fall",
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
+    },
+    "bull": {
+      "title": "Guter Fall",
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
+    }
+  },
+  "risks": [
+    {
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
+    },
+    {
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
+    },
+    {
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    }
+  ],
+  "clear_view": [
+    "MSCI World ETF (ELFW.DE) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
+  ],
+  "sources": [
+    "Son of Lorenc Mastertemplate",
+    "Automatische Quellen werden nach Update ergänzt."
+  ],
+  "latest_auto": {
+    "last_update_utc": "2026-05-11T15:43:23Z",
+    "price": {
+      "source": "Yahoo Finance Chart Endpoint",
+      "currency": "EUR",
+      "regularMarketPrice": 41.452,
+      "previousClose": 40.58,
+      "change": 0.872,
+      "changePercent": 2.15
+    },
+    "price_history": [
+      {
+        "t": "2026-04-13T07:00:00Z",
+        "price": 39.05
+      },
+      {
+        "t": "2026-04-14T07:00:00Z",
+        "price": 39.498
+      },
+      {
+        "t": "2026-04-15T07:00:00Z",
+        "price": 39.649
+      },
+      {
+        "t": "2026-04-16T07:00:00Z",
+        "price": 39.888
+      },
+      {
+        "t": "2026-04-17T07:00:00Z",
+        "price": 40.356
+      },
+      {
+        "t": "2026-04-20T07:00:00Z",
+        "price": 40.197
+      },
+      {
+        "t": "2026-04-21T07:00:00Z",
+        "price": 40.145
+      },
+      {
+        "t": "2026-04-22T07:00:00Z",
+        "price": 40.302
+      },
+      {
+        "t": "2026-04-23T07:00:00Z",
+        "price": 40.446
+      },
+      {
+        "t": "2026-04-24T07:00:00Z",
+        "price": 40.374
+      },
+      {
+        "t": "2026-04-27T07:00:00Z",
+        "price": 40.313
+      },
+      {
+        "t": "2026-04-28T07:00:00Z",
+        "price": 40.192
+      },
+      {
+        "t": "2026-04-29T07:00:00Z",
+        "price": 40.216
+      },
+      {
+        "t": "2026-04-30T07:00:00Z",
+        "price": 40.46
+      },
+      {
+        "t": "2026-05-04T07:00:00Z",
+        "price": 40.58
+      },
+      {
+        "t": "2026-05-05T07:00:00Z",
+        "price": 40.876
+      },
+      {
+        "t": "2026-05-06T07:00:00Z",
+        "price": 41.354
+      },
+      {
+        "t": "2026-05-07T07:00:00Z",
+        "price": 41.357
+      },
+      {
+        "t": "2026-05-08T07:00:00Z",
+        "price": 41.336
+      },
+      {
+        "t": "2026-05-11T07:00:00Z",
+        "price": 41.452
+      }
+    ],
+    "price_history_range": "1mo",
+    "news": [],
+    "sec_filings": [],
+    "clinical_trials": [],
+    "detected_triggers": [],
+    "queries_used": [
+      "MSCI World ETF ELFW.DE stock news",
+      "MSCI World ETF ELFW.DE stock news",
+      "ELFW.DE stock news"
+    ],
+    "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
+  }
+}

@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$9.75",
-      "note": "Auto-Update: 2.42% vs. vorheriger Schlusskurs",
+      "value": "$9.73",
+      "note": "Auto-Update: 2.22% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,14 +308,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:32:21Z",
+    "last_update_utc": "2026-05-11T15:42:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 9.75,
+      "regularMarketPrice": 9.731,
       "previousClose": 9.52,
-      "change": 0.23,
-      "changePercent": 2.42
+      "change": 0.211,
+      "changePercent": 2.22
     },
     "price_history": [
       {
@@ -400,7 +400,7 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 9.7503
+        "price": 9.7314
       }
     ],
     "price_history_range": "1mo",
@@ -662,22 +662,6 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways platziert Kapitalerhöhung über 150 Millionen US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmxzTmhMX2VRT2hLWUg1bU80OWQwZXZySndLd05nWERoaVJjQzg0UlV4SnZNZi1DY25YeF9sUkY3M0lTdWZYbzZHMTdKNmJYb0JCbTFodHJpa1pZZzkzVnN0MDNIcktZa0JZUVpMZ1hfRnRnVnlIVTA5Y2tudnRzSXc2SVg0dmlzdEJIZkVGLXZDdzNuTG9oSC1VeWd4YU5kOXJ5d1FpOVBrOFpYLUtZY0JNSTRmXzJGZ3hnb0txa2x5dm1C?oc=5",
-        "published_at": "2026-02-19T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Finanzierung / Verwässerung",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways meldet Erfolg in Phase-3-Studie für Depressionsmittel - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONC1kT21CQUQxdm5OWWd2UmNpR2Q4M3NHcFo4UWNJc2JpbjB0MS1qelpkSUFyYzhfSElTQkJNNFNld0lqQUhlTUJaekY5WkdYb2VaX2RYNjhVSHp4Z2tONDdYR3h6NmhyTFlOWFdJSTVvVWVqOU1BQnh3LTU0ek5MMGhBVTZMaGdUZ3ZNRlZ4MVNkRE11cGNINW1uQ1doenJ5eWszb1MtUU9jRHMwd1BiclY5ZFhKS1d5bVhTTE9QVnpUQQ?oc=5",
         "published_at": "2026-02-17T08:00:00Z",
@@ -714,7 +698,7 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc3dpT2RHcXdzZzhuY2ZCcC1WLWFwaTFJZ3EtLTlTYlZtd1k0WnRNNVByaEQ3bUctbXFzajVXXzBwQUdGalpmRHZXZmZZTXp2cXBUODc3cWhoNFlJUENheENmcHZZNGJKYXVTd1ZTbmNLRlRsNWlKMmFIT09LMWFVSFV6V3JSWFFBXzd2Z01TektsMTJLSDNpdERPSElLOUFBbV9QcTUxN0pnbDliZGc2bkVsWWtnQ1ZNZEZBdThaQjdGSlc0V3lZbnRWcjA?oc=5",
         "published_at": "2026-01-07T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -1082,18 +1066,6 @@
         "date": "2026-02-19"
       },
       {
-        "type": "Finanzierung / Verwässerung",
-        "level": "high",
-        "title": "Compass Pathways platziert Kapitalerhöhung über 150 Millionen US-Dollar - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-02-19T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmxzTmhMX2VRT2hLWUg1bU80OWQwZXZySndLd05nWERoaVJjQzg0UlV4SnZNZi1DY25YeF9sUkY3M0lTdWZYbzZHMTdKNmJYb0JCbTFodHJpa1pZZzkzVnN0MDNIcktZa0JZUVpMZ1hfRnRnVnlIVTA5Y2tudnRzSXc2SVg0dmlzdEJIZkVGLXZDdzNuTG9oSC1VeWd4YU5kOXJ5d1FpOVBrOFpYLUtZY0JNSTRmXzJGZ3hnb0txa2x5dm1C?oc=5"
-      },
-      {
         "type": "FDA / Regulatorik",
         "level": "high",
         "title": "Compass Pathways Aktie: Kurs auf Zulassung - AD HOC NEWS",
@@ -1324,6 +1296,14 @@
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
         "source": "NCT07226232",
         "date": "2026-06-01"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2025-11-14",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-11-14"
       }
     ],
     "queries_used": [

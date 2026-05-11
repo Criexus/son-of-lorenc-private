@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.20",
-      "note": "Auto-Update: 5.89% vs. vorheriger Schlusskurs",
+      "value": "$3.17",
+      "note": "Auto-Update: 4.8% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,14 +308,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:32:28Z",
+    "last_update_utc": "2026-05-11T15:42:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.198,
+      "regularMarketPrice": 3.165,
       "previousClose": 3.02,
-      "change": 0.178,
-      "changePercent": 5.89
+      "change": 0.145,
+      "changePercent": 4.8
     },
     "price_history": [
       {
@@ -400,7 +400,7 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 3.1984
+        "price": 3.165
       }
     ],
     "price_history_range": "1mo",
@@ -457,22 +457,6 @@
         "title": "Altimmune Aktie: Kapitalbasis vor Ausbau - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbFVPX2ZTeUpUV0pESWFTbUliaXlOVkFDc2g4UzNRalg2RlRMamU2ZGR5QUxWOFRPaHdEVkVLZFd2M2VaVlVYejNFQl9rUkVOMXlqUE16cVc4cVJfSExDaXdtalpGUVBhTTBJbFgtYXZJNTZKM0hLZ1ppbkpDQTlORUsyRHhsWTVIWHBZUzVNX0tXSUs5TjhyYg?oc=5",
         "published_at": "2026-04-15T07:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
-      },
-      {
-        "title": "Altimmune Aktie: Fokus auf Milliardenmarkt - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHRLaUdkQVVxMGRzWENyeEZ5MFlEUlpXVDdLTmI4STZacWdxSEl2ZHEwMC10cElGTV9xYTNoc0RmN1VCNkU3UTR1WC1VdzNoVFdCdk9ndmhDX1VvcDlIVnktNjB2S2E3TzBhNnZNUG4xMnRndWg3bWswb29CZGVFSHRVZWd4eDRvQ0Y2S0tQLUI2S0VvVXVJZ3BsWVNxdlBPMWc?oc=5",
-        "published_at": "2026-03-26T07:00:00Z",
         "source": "AD HOC NEWS",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
@@ -596,6 +580,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "Altimmune Aktie: Führungswechsel & Daten - kapitalmarktexperten.de",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQelo4WkVEaFg4T0licUhUSFloOGNNZnpjcnlWVE5Hem1SZXJPWEVXaDBpZXlmR0JKNDNXV3dxS1Vhd1VLa1Q0cjlTSHFTd1l6ano3QTFMRXJlTHJEd3BpTlNHclBxZ0VEWlZjYzZ0dUNualBPWVVJNHJ6MGw3VjRfZQ?oc=5",
+        "published_at": "2025-12-18T08:00:00Z",
+        "source": "kapitalmarktexperten.de",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Altimmune Approaches Pivotal Moment with Leadership Shift and Key Data - AD HOC NEWS",

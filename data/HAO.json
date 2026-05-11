@@ -1,0 +1,838 @@
+{
+  "ticker": "HAO",
+  "exchange": "NASDAQ",
+  "name": "Haoxi Health Technology",
+  "eyebrow": "Son of Lorenc · Phasenanalyse · HAO",
+  "headline": "Haoxi Health Technology – einfache Phasenanalyse",
+  "thesis": "Kurzthese: Haoxi Health Technology wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
+  "stand": "2026-05-11",
+  "phase": "Automatische Grundanalyse",
+  "character": "spekulativ · stark nachrichtenabhängig",
+  "metrics": [
+    {
+      "label": "Aktueller Kurs",
+      "value": "$0.04",
+      "note": "Auto-Update: -93.95% vs. vorheriger Schlusskurs",
+      "key": "price"
+    },
+    {
+      "label": "52W-Spanne",
+      "value": "offen",
+      "note": "manuell/automatisch ergänzen",
+      "key": "range52"
+    },
+    {
+      "label": "Cash & Wertpapiere",
+      "value": "offen",
+      "note": "letzten Bericht prüfen",
+      "key": "cash"
+    },
+    {
+      "label": "Cash Runway",
+      "value": "offen",
+      "note": "Finanzierungsreichweite prüfen",
+      "key": "runway"
+    },
+    {
+      "label": "Umsatz",
+      "value": "offen",
+      "note": "je nach Entwicklungsphase relevant",
+      "key": "revenue"
+    },
+    {
+      "label": "Risikoklasse",
+      "value": "offen",
+      "note": "muss eingeordnet werden",
+      "key": "risk"
+    }
+  ],
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
+  "events": [
+    {
+      "d": "2026-04-22",
+      "p": 0.043,
+      "title": "6-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026046610/ea0287058-6k_haoxi.htm",
+      "future": false
+    },
+    {
+      "d": "2026-04-06",
+      "p": 0.043,
+      "title": "6-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040534/ea0284995-6k_haoxi.htm",
+      "future": false
+    },
+    {
+      "d": "2026-04-06",
+      "p": 0.043,
+      "title": "3 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040213/xslF345X06/ownership.xml",
+      "future": false
+    }
+  ],
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
+  "pipeline": [
+    {
+      "stage": "Programm / Wirkstoffkandidat",
+      "class": "phase3",
+      "name": "SSGJ-706",
+      "text": "SSGJ-706 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 76,
+      "score_label": "sehr wichtig"
+    },
+    {
+      "stage": "Programm / Wirkstoffkandidat",
+      "class": "phase2",
+      "name": "AST-001",
+      "text": "AST-001 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 62,
+      "score_label": "wichtig"
+    },
+    {
+      "stage": "NA",
+      "class": "phase2",
+      "name": "Studienregister-Treffer",
+      "text": "Zu Haoxi Health Technology wurden Treffer im Studienregister gefunden. Das ist wichtig, weil Studienstatus, Patientengruppe und Updates zeigen können, ob ein Programm vorankommt.",
+      "score": 58,
+      "score_label": "prüfen"
+    },
+    {
+      "stage": "Geschäft / Forschungsschwerpunkt",
+      "class": "early",
+      "name": "Onkologie / Krebsmedizin",
+      "text": "Haoxi Health Technology wird anhand der gefundenen Daten als Unternehmen im Bereich Onkologie / Krebsmedizin eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Rücksetzer: ca. $0.04–$0.04",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
+    },
+    {
+      "zone": "Arbeitsbereich: ca. $0.04–$0.05",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
+    },
+    {
+      "zone": "Momentum: über ca. $0.05",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
+    },
+    {
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Studien",
+      "title": "Neue Studienergebnisse oder Studienstart",
+      "text": "Bei Biotech-Aktien sind Studienmeldungen oft der wichtigste Kurstreiber. Wichtig ist: Sind es echte Daten oder nur eine Ankündigung?"
+    },
+    {
+      "tag": "Geld / neue Aktien",
+      "title": "Finanzierung oder mögliche Verwässerung",
+      "text": "Wenn das Unternehmen neue Aktien ausgibt, kann das den Kurs drücken. Gleichzeitig braucht ein kleines Biotech-Unternehmen oft frisches Geld."
+    },
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
+    }
+  ],
+  "scenarios": {
+    "bear": {
+      "title": "Schlechter Fall",
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
+    },
+    "base": {
+      "title": "Normaler Fall",
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
+    },
+    "bull": {
+      "title": "Guter Fall",
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
+    }
+  },
+  "risks": [
+    {
+      "title": "Neue Aktien / Verwässerung",
+      "text": "Es gibt Hinweise auf Finanzierungsthemen. Das kann bedeuten, dass bestehende Aktionäre durch neue Aktien verwässert werden."
+    },
+    {
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
+    },
+    {
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
+    },
+    {
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    }
+  ],
+  "clear_view": [
+    "Haoxi Health Technology (HAO) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
+  ],
+  "sources": [
+    "Son of Lorenc Mastertemplate",
+    "Automatische Quellen werden nach Update ergänzt."
+  ],
+  "latest_auto": {
+    "last_update_utc": "2026-05-11T15:43:01Z",
+    "price": {
+      "source": "Yahoo Finance Chart Endpoint",
+      "currency": "USD",
+      "regularMarketPrice": 0.043,
+      "previousClose": 0.711,
+      "change": -0.668,
+      "changePercent": -93.95
+    },
+    "price_history": [
+      {
+        "t": "2026-04-13T13:30:00Z",
+        "price": 1.08
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 1.13
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-04-21T13:30:00Z",
+        "price": 1.11
+      },
+      {
+        "t": "2026-04-22T13:30:00Z",
+        "price": 1.15
+      },
+      {
+        "t": "2026-04-23T13:30:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 1.14
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 1.11
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 1.06
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 0.95
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 0.725
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 0.74
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 0.711
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 0.677
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
+        "price": 0.67
+      },
+      {
+        "t": "2026-05-07T13:30:00Z",
+        "price": 0.708
+      },
+      {
+        "t": "2026-05-08T13:30:00Z",
+        "price": 0.73
+      },
+      {
+        "t": "2026-05-11T13:30:00Z",
+        "price": 0.0435
+      }
+    ],
+    "price_history_range": "1mo",
+    "news": [],
+    "sec_filings": [
+      {
+        "form": "6-K",
+        "filingDate": "2026-04-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026046610/ea0287058-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-04-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040534/ea0284995-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-04-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026040213/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026039655/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026039654/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026039653/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-04-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026039652/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-03-19",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026031919/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-03-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026024670/ea0280399-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-02-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026014275/ea0276359-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026007329/ea0273826-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B5",
+        "filingDate": "2026-01-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026007328/ea0273258-424b5_haoxihealth.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2025-12-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025120070/ea0269110-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2025-12-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025117887/ea0267522-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2025-11-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025109213/ea0264150-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2025-10-24",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025102164/ea0262030-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "20-F",
+        "filingDate": "2025-10-20",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025100369/ea0261580-20f_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2025-10-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025100047/ea0261421-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "EFFECT",
+        "filingDate": "2025-06-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/999999999525001927/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "CORRESP",
+        "filingDate": "2025-06-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025053353/filename1.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      }
+    ],
+    "clinical_trials": [
+      {
+        "nct_id": "NCT02812602",
+        "title": "Topical Anesthesia for Removal of Stitches After Total Knee Arthroplasty",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Metal Staple Removal After Total Knee Replacement",
+        "last_update": "",
+        "start_date": "2016-04",
+        "url": "https://clinicaltrials.gov/study/NCT02812602"
+      },
+      {
+        "nct_id": "NCT05208944",
+        "title": "THIO Sequenced With Cemiplimab in Advanced NSCLC",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Carcinoma, Non-Small-Cell Lung",
+        "last_update": "",
+        "start_date": "2022-06-08",
+        "url": "https://clinicaltrials.gov/study/NCT05208944"
+      },
+      {
+        "nct_id": "NCT05125939",
+        "title": "Can Overall Adenoma Detection Rate Replace Screening Adenoma Detection Rate ? Multicenter Study",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Adenoma Detection Rate, Colonoscopy",
+        "last_update": "",
+        "start_date": "2021-11-20",
+        "url": "https://clinicaltrials.gov/study/NCT05125939"
+      },
+      {
+        "nct_id": "NCT05086536",
+        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Hepatitis B, Decompensated Cirrhosis",
+        "last_update": "",
+        "start_date": "2021-10-15",
+        "url": "https://clinicaltrials.gov/study/NCT05086536"
+      },
+      {
+        "nct_id": "NCT07269912",
+        "title": "Application of Multimodal MRI in Histological Grading and Prognostic Assessment of Rectal Cancer",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Rectal Neoplasms, Prognosis",
+        "last_update": "",
+        "start_date": "2027-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT07269912"
+      },
+      {
+        "nct_id": "NCT04172181",
+        "title": "Multi-center Clinical Study of Cord Blood Stem Cell Transplantation for SCID",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Severe Combined Immunodeficiency Disease",
+        "last_update": "",
+        "start_date": "2019-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT04172181"
+      },
+      {
+        "nct_id": "NCT05957653",
+        "title": "Lidocaine Combined With Sufentanil for Preventing Catheter-related Bladder Discomfort",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Prostate Cancer",
+        "last_update": "",
+        "start_date": "2023-10-07",
+        "url": "https://clinicaltrials.gov/study/NCT05957653"
+      },
+      {
+        "nct_id": "NCT06533605",
+        "title": "Phase I Clinical Study to Evaluate the Safety and Efficacy of SSGJ-706 Monotherapy for Patients With Advanced Solid Tumors",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Advanced Solid Tumors Patients",
+        "last_update": "",
+        "start_date": "2024-08",
+        "url": "https://clinicaltrials.gov/study/NCT06533605"
+      },
+      {
+        "nct_id": "NCT06995170",
+        "title": "Investigation of the Correlation Between Polyamine Levels and Their Key Enzymatic Activities in Association With Inflammatory Bowel Disease Progression",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Inflammatory Bowel Diseases, Colitis, Ulcerative, Crohn Disease, Polyamines",
+        "last_update": "",
+        "start_date": "2025-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06995170"
+      },
+      {
+        "nct_id": "NCT07509645",
+        "title": "Efficacy and Safety of Interleukin-6 Receptor Inhibitor Combined With Endovascular Treatment in Patients With Acute Posterior Circulation Large Vessel Occlusion Stroke",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Ischemic Stroke",
+        "last_update": "",
+        "start_date": "2026-04-22",
+        "url": "https://clinicaltrials.gov/study/NCT07509645"
+      },
+      {
+        "nct_id": "NCT07090772",
+        "title": "The Effectiveness of Different Therapeutic Jaw Position Determining Methods in Repositioning Splint Therapy for Temporomandibular Joint Disk Displacement Without Reduction：A Randomized Controlled Clinical Trial",
+        "status": "ENROLLING_BY_INVITATION",
+        "phase": "NA",
+        "conditions": "Temporomandibular Disorder (TMD)",
+        "last_update": "",
+        "start_date": "2025-07-20",
+        "url": "https://clinicaltrials.gov/study/NCT07090772"
+      },
+      {
+        "nct_id": "NCT05944198",
+        "title": "Clinical Study of 18F-FAPI-RGD PET/CT in Rheumatoid Arthritis",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Rheumatoid Arthritis",
+        "last_update": "",
+        "start_date": "2023-07-14",
+        "url": "https://clinicaltrials.gov/study/NCT05944198"
+      },
+      {
+        "nct_id": "NCT04175587",
+        "title": "Randomized,International Multi-center Clinical Trial of RIF Plus RA for Non-high-risk APL",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "Acute Promyelocytic Leukaemia",
+        "last_update": "",
+        "start_date": "2019-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT04175587"
+      },
+      {
+        "nct_id": "NCT06245330",
+        "title": "A Phase I/II Study of AST-001 in Subjects With Advanced Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Solid Tumor, Pancreatic Cancer",
+        "last_update": "",
+        "start_date": "2022-07-07",
+        "url": "https://clinicaltrials.gov/study/NCT06245330"
+      },
+      {
+        "nct_id": "NCT06890598",
+        "title": "Study of Olomorasib (LY3537982) in Combination With Standard of Care in Participants With Resected or Unresectable KRAS G12C-mutant Non-Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Carcinoma, Non-Small-Cell Lung",
+        "last_update": "",
+        "start_date": "2025-03-27",
+        "url": "https://clinicaltrials.gov/study/NCT06890598"
+      }
+    ],
+    "detected_triggers": [
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B5 · 2026-01-23",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-01-23"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Topical Anesthesia for Removal of Stitches After Total Knee Arthroplasty",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT02812602",
+        "date": "2016-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Randomized,International Multi-center Clinical Trial of RIF Plus RA for Non-high-risk APL",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT04175587",
+        "date": "2019-12-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "THIO Sequenced With Cemiplimab in Advanced NSCLC",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT05208944",
+        "date": "2022-06-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase I/II Study of AST-001 in Subjects With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
+        "source": "NCT06245330",
+        "date": "2022-07-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Lidocaine Combined With Sufentanil for Preventing Catheter-related Bladder Discomfort",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT05957653",
+        "date": "2023-10-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Phase I Clinical Study to Evaluate the Safety and Efficacy of SSGJ-706 Monotherapy for Patients With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT06533605",
+        "date": "2024-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Study of Olomorasib (LY3537982) in Combination With Standard of Care in Participants With Resected or Unresectable KRAS G12C-mutant Non-Small Cell Lung Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT06890598",
+        "date": "2025-03-27"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The Effectiveness of Different Therapeutic Jaw Position Determining Methods in Repositioning Splint Therapy for Temporomandibular Joint Disk Displacement Without Reduction：A Randomized Controlled Clinical Trial",
+        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION NA",
+        "source": "NCT07090772",
+        "date": "2025-07-20"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2025-10-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-10-17"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "20-F · 2025-10-20",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-10-20"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2025-10-24",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-10-24"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2025-11-12",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-11-12"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2025-12-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-12-03"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2025-12-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-12-10"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-01-23",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-01-23"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-02-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-02-10"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-03-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-06"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-04-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-06"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-04-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy and Safety of Interleukin-6 Receptor Inhibitor Combined With Endovascular Treatment in Patients With Acute Posterior Circulation Large Vessel Occlusion Stroke",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07509645",
+        "date": "2026-04-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Multi-center Clinical Study of Cord Blood Stem Cell Transplantation for SCID",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT04172181",
+        "date": "2019-12-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05086536",
+        "date": "2021-10-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Can Overall Adenoma Detection Rate Replace Screening Adenoma Detection Rate ? Multicenter Study",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT05125939",
+        "date": "2021-11-20"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Clinical Study of 18F-FAPI-RGD PET/CT in Rheumatoid Arthritis",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05944198",
+        "date": "2023-07-14"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Investigation of the Correlation Between Polyamine Levels and Their Key Enzymatic Activities in Association With Inflammatory Bowel Disease Progression",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06995170",
+        "date": "2025-01-01"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "CORRESP · 2025-06-11",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-06-11"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2025-06-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2025-06-13"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-03-19",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      }
+    ],
+    "queries_used": [
+      "Haoxi Health Technology HAO stock news",
+      "Haoxi Health Technology HAO stock news",
+      "HAO stock news"
+    ],
+    "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
+  }
+}

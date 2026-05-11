@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.96",
-      "note": "Auto-Update: 27.08% vs. vorheriger Schlusskurs",
+      "value": "$4.00",
+      "note": "Auto-Update: 28.37% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,14 +191,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:32:06Z",
+    "last_update_utc": "2026-05-11T15:42:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.965,
+      "regularMarketPrice": 4.005,
       "previousClose": 3.12,
-      "change": 0.845,
-      "changePercent": 27.08
+      "change": 0.885,
+      "changePercent": 28.37
     },
     "price_history": [
       {
@@ -283,11 +283,27 @@
       },
       {
         "t": "2026-05-11T13:30:00Z",
-        "price": 3.965
+        "price": 4.005
       }
     ],
     "price_history_range": "1mo",
     "news": [
+      {
+        "title": "Biodexa erhält EMA-Zulassung für Phase-3-Studie zur FAP-Behandlung - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tHUHUxRjdra3BtX29adTNnVUVlSnRuaFpETmNaeUtzbUl4enpfalpHWFRnNmlvRlVEN3FaRksyRW5fNlJHenpOYUV4aE5lc1VWUVR3NTY1VXRCSHM5QTNNVTRRejJRVmdQRGkxWFphWXZWSW82czl5SVV1LW9FZEpSTGpjUzFmMnVYa29yRkVoUW16NUtOTkdsX3N4TnRVY2NzMktHS3RpY0JsLWZVamZxTUk1UC1QX1E?oc=5",
+        "published_at": "2025-11-03T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 5
+      },
       {
         "title": "Biodexa startet Phase-3-Studie für FAP-Behandlung mit 20-Millionen-Dollar-Finanzierung - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYmhyZV9WclNZdUkxdXlfeXgyVmpUZDVMNFNQZHEtWXlqUTJrY2lOZEJLVGMzMnowXzVlQ2FMd1NlNlAxbk8xSFdycE43MVZwR0FQY1pKRGdvQWk3SGJ3XzF2eVI5YjdkdndhUzFGRVI0QXhuSFBmclJjQVpvT1g4YlBWYmlIaGV5eWFubGYwUmFMSEFTb1hvenpUbEIzV0hrcEtvdnVNY0NzdG8tT0R3aEhYMWJIWnBnYmwzenhaVWlUY2dPWVVPdHhNMENySDZRQUE?oc=5",
@@ -480,6 +496,18 @@
       }
     ],
     "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Biodexa erhält EMA-Zulassung für Phase-3-Studie zur FAP-Behandlung - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2025-11-03T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tHUHUxRjdra3BtX29adTNnVUVlSnRuaFpETmNaeUtzbUl4enpfalpHWFRnNmlvRlVEN3FaRksyRW5fNlJHenpOYUV4aE5lc1VWUVR3NTY1VXRCSHM5QTNNVTRRejJRVmdQRGkxWFphWXZWSW82czl5SVV1LW9FZEpSTGpjUzFmMnVYa29yRkVoUW16NUtOTkdsX3N4TnRVY2NzMktHS3RpY0JsLWZVamZxTUk1UC1QX1E?oc=5"
+      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
