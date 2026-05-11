@@ -1,33 +1,69 @@
-# Son of Lorenc – Master v3.1 Mobile Admin + Smart Börsenchart
+# Son of Lorenc – Master v3.5 Proper News + Auto-Dossier
 
-Diese Version korrigiert zwei Punkte:
+Diese Version repariert zwei Hauptprobleme:
 
-## 1. Admin-Menü auf Mobile
-- Admin-Menü ist auf iPhone nicht mehr als Fixed-Overlay eingeblendet
-- es klappt im Seitenfluss unter dem Admin-Button auf
-- dadurch ist es komplett sichtbar
-- kein Abschneiden mehr am oberen oder unteren Rand
+## 1. Fremde News werden stärker entfernt
 
-## 2. Smart Börsenchart
-- Smart bekommt einen gespeicherten Kursverlauf
-- kein Livechart
-- der Chart wächst mit jedem Update
-- `scripts/update_data.py` speichert dafür `latest_auto.price_history`
+Beispiele, die jetzt rausfliegen sollten:
+
+- allgemeine Sharedeals-/Portfolio-Artikel ohne Firmenbezug
+- Cathie-Wood/Roku-Artikel bei Guardant
+- Bauch-/Graft-versus-Host-Artikel ohne MaaT Pharma Bezug
+- CLINIGEN-/fremde Pharma-News bei MaaT
+- generische News, die nur wegen einem kurzen Ticker wie GH oder ALT gefunden wurden
+
+Neue Logik:
+- News müssen einen starken Treffer enthalten:
+  - Firmenname
+  - Produkt-/Pipeline-Name
+  - eindeutige Alias-Begriffe
+- kurze Ticker allein reichen nicht mehr
+
+## 2. Auto-Dossier wird wirklich geschrieben
+
+Vorher wurden Platzhalter wie „Dossier angelegt“ oder „wird nach dem nächsten Update ergänzt“ teilweise nicht überschrieben.
+
+Jetzt wird vor dem Speichern ausgeführt:
+
+```python
+autofill_dossier(data, news, filings, trials, price)
+```
+
+Dadurch werden automatisch gefüllt:
+
+- Woran arbeitet das Unternehmen?
+- mögliche Kursbereiche
+- wichtige Termine / Auslöser
+- schlechter / normaler / guter Fall
+- Geldlage, neue Aktien & Risiken
+- einfache Zusammenfassung
+- Zeitlinie aus News/SEC
+
+## Optionaler Reset
+
+Wenn alte Platzhalter hängen bleiben:
+
+```bash
+python3 scripts/clean_bad_news_and_refill.py
+python3 scripts/update_data.py
+```
+
+Dann committen/pushen.
 
 ## Online-Update
 
 Diese Dateien pushen:
 
-- index.html
-- assets/app.js
-- assets/style.css
 - scripts/update_data.py
-- scripts/delete_stock.py
-- worker/worker.js
+- scripts/clean_bad_news_and_refill.py
 - README.md
 
-Nicht kopieren:
-- data/
-- config/watchlist.json
+Danach lokal oder über Actions:
 
-Danach GitHub Action einmal manuell starten, damit `price_history` entsteht.
+```bash
+python3 scripts/clean_bad_news_and_refill.py
+python3 scripts/update_data.py
+git add data/
+git commit -m "Refresh all dossiers with stricter news filter"
+git push
+```
