@@ -1731,3 +1731,55 @@ body.max-mode #smartHome{
     font-size:24px !important;
   }
 }
+
+/* v3.3 One-Month Chart */
+.smartChartNote b{
+  color:#fff;
+}
+
+.smartChartWrap{
+  background:rgba(0,0,0,.22);
+}
+
+@media(min-width:901px){
+  #smartChart{
+    min-width:0 !important;
+  }
+}
+
+/* v3.6 Portfolio + Timeline Overlay */
+.dot,
+.dotHit{
+  cursor:pointer;
+}
+
+.dotHit:hover + .dot,
+.dot:hover{
+  filter:drop-shadow(0 0 10px rgba(255,87,87,.9));
+}
+
+.eventBtn.active{
+  box-shadow:0 0 0 1px rgba(255,87,87,.45) inset, 0 10px 34px rgba(255,87,87,.12);
+}
+
+.smartNewsMarker{
+  pointer-events:none;
+}
+
+.smartChartNote{
+  font-size:14px;
+}
+
+@media(max-width:760px){
+  .dotHit{
+    r:28;
+  }
+
+  .eventList{
+    scroll-margin-top:12px;
+  }
+
+  .eventBtn{
+    min-height:64px;
+  }
+}

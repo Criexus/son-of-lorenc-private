@@ -146,6 +146,22 @@ DEFAULT_NEWS_ALIASES = {
     "DFTX": {
         "strong": ["definium therapeutics", "definium", "dt120", "dt402", "mm120"],
         "weak": ["psychedelic", "neuropsychiatry"]
+    },
+    "HAO": {
+        "strong": ["haoxi health technology", "haoxi health", "haoxi"],
+        "weak": ["marketing technology", "china adr"]
+    },
+    "RXRX": {
+        "strong": ["recursion pharmaceuticals", "recursion", "rxrx", "exscientia"],
+        "weak": ["ai drug discovery", "drug discovery"]
+    },
+    "2B76.DE": {
+        "strong": ["ishares automation", "automation & robotics", "robotics ucits etf", "2b76"],
+        "weak": ["robotics", "automation", "artificial intelligence"]
+    },
+    "ELFW.DE": {
+        "strong": ["msci world", "elfw", "world etf"],
+        "weak": ["global equities", "world stocks"]
     }
 }
 
@@ -609,6 +625,63 @@ def summarize_news_theme(news, trials, ticker):
         return "Autoimmunerkrankungen / Zelltherapie"
     return "Biotech / klinische Entwicklung"
 
+
+def is_etf_config(data: dict[str, Any]) -> bool:
+    blob = " ".join([
+        str(data.get("ticker", "")),
+        str(data.get("name", "")),
+        str(data.get("exchange", "")),
+        str(data.get("character", "")),
+        str(data.get("phase", "")),
+    ]).lower()
+    return "etf" in blob or data.get("ticker", "").endswith(".DE") and any(x in blob for x in ["msci", "ishares", "ucits"])
+
+def build_auto_etf_focus(data: dict[str, Any], news: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    name = data.get("name", data.get("ticker", "ETF"))
+    text = " ".join(n.get("title", "") for n in news).lower()
+
+    theme = "breit gestreute globale Aktien"
+    if "robot" in text or "automation" in text or "ishares automation" in name.lower():
+        theme = "Automation, Robotik und KI-nahe Industrie-/Technologietrends"
+    elif "msci world" in name.lower():
+        theme = "breit gestreute Industrieländer-Aktien weltweit"
+
+    return [
+        {
+            "stage": "ETF-Fokus",
+            "class": "phase2",
+            "name": theme,
+            "text": f"{name} ist kein Einzelunternehmen. Wichtig ist hier der Markt- und Sektortrend: {theme}. Kursbewegungen entstehen vor allem durch Gesamtmarkt, Zinserwartungen, Tech-/Industrie-Sentiment und Währungseffekte.",
+            "score": 65,
+            "score_label": "wichtig"
+        },
+        {
+            "stage": "Marktlogik",
+            "class": "early",
+            "name": "Kein Pipeline-Risiko",
+            "text": "Bei ETFs gibt es keine einzelne Studie oder FDA-Entscheidung. Das Risiko verteilt sich breiter, dafür hängt der Wert stärker an Marktphasen und den größten Positionen im Fonds.",
+            "score": 48,
+            "score_label": "Grundlage"
+        }
+    ]
+
+def build_auto_etf_scenarios(name: str) -> dict[str, dict[str, str]]:
+    return {
+        "bear": {
+            "title": "Schlechter Fall",
+            "text": "Schwacher Gesamtmarkt, steigende Zinsen oder Druck auf Technologie-/Wachstumswerte können den ETF belasten."
+        },
+        "base": {
+            "title": "Normaler Fall",
+            "text": "Der ETF bewegt sich hauptsächlich mit dem breiten Markt oder seinem Sektor. Einzelne News sind meist weniger wichtig als der allgemeine Trend."
+        },
+        "bull": {
+            "title": "Guter Fall",
+            "text": "Starker Gesamtmarkt, sinkende Zinsen oder positiver Sektortrend können den ETF nach oben treiben."
+        }
+    }
+
+
 def build_auto_pipeline(data, news, trials):
     ticker = data.get("ticker", "")
     name = data.get("name", ticker)
@@ -745,10 +818,10 @@ def autofill_dossier(data, news, filings, trials, price):
     data["chart_subtitle"] = "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts."
     data["chart_note"] = "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung."
     data["pipeline_intro"] = "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können."
-    data["pipeline"] = build_auto_pipeline(data, news, trials)
+    data["pipeline"] = build_auto_etf_focus(data, news) if is_etf_config(data) else build_auto_pipeline(data, news, trials)
     data["zones"] = build_auto_zones(price)
     data["catalysts"] = build_auto_catalysts(news, filings, trials)
-    data["scenarios"] = build_auto_scenarios(name)
+    data["scenarios"] = build_auto_etf_scenarios(name) if is_etf_config(data) else build_auto_scenarios(name)
     data["risks"] = build_auto_risks(news, filings)
     data["clear_view"] = build_auto_clear_view(data, news)
     existing_events = data.get("events") or []
@@ -921,7 +994,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v3.5-proper-news-autodossier",
+        "version": "master-v3.6-portfolio-timeline-overlay",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"

@@ -288,6 +288,52 @@ function sortEventsChronologically(events) {
 }
 
 
+
+function getPriceHistory() {
+  return ((data?.latest_auto?.price_history || [])
+    .map(x => ({
+      t: dateMs(x.t || x.time || x.date),
+      price: Number(x.price)
+    }))
+    .filter(x => x.t && Number.isFinite(x.price) && x.price > 0)
+    .sort((a,b) => a.t - b.t)
+  );
+}
+
+function nearestPriceForDate(value, fallbackIndex = 0) {
+  const hist = getPriceHistory();
+  const current = currentPriceNumber();
+  if (!hist.length) return current || autoPriceLevel(fallbackIndex);
+
+  const target = dateMs(value);
+  if (!target) return hist[Math.min(fallbackIndex, hist.length - 1)]?.price || current || autoPriceLevel(fallbackIndex);
+
+  let best = hist[0];
+  let bestDiff = Math.abs(hist[0].t - target);
+  for (const h of hist) {
+    const d = Math.abs(h.t - target);
+    if (d < bestDiff) {
+      best = h;
+      bestDiff = d;
+    }
+  }
+  return best.price || current || autoPriceLevel(fallbackIndex);
+}
+
+function eventDateMs(e, i = 0) {
+  return parseTimelineDate(e.sort_date || e.published_at || e.d || e.filingDate || e.last_update || e.start_date, i, e.future);
+}
+
+function newsTypeColor(kind = "") {
+  const k = String(kind).toLowerCase();
+  if (k.includes("fda") || k.includes("regulator")) return "#f4b45c";
+  if (k.includes("studie") || k.includes("phase") || k.includes("readout")) return "#82d4ff";
+  if (k.includes("finanz") || k.includes("verwässer") || k.includes("offering")) return "#ff8c8c";
+  if (k.includes("sec")) return "#c8a2ff";
+  return "#9ff0c0";
+}
+
+
 function combinedEvents() {
   const manual = Array.isArray(data.events) ? data.events : [];
   const latest = data.latest_auto || {};
@@ -299,7 +345,8 @@ function combinedEvents() {
 
   const autoNewsEvents = news.slice(0, 14).map((n, i) => ({
     d: shortDate(n.published_at) || `News ${i + 1}`,
-    p: autoPriceLevel(i),
+    p: nearestPriceForDate(n.published_at, i),
+    published_at: n.published_at,
     title: n.title || `News ${i + 1}`,
     phase: n.trigger_type || "Live-News",
     reaction: n.trigger_reason || "Automatisch gefundene News. Kursrelevanz prüfen.",
@@ -314,7 +361,8 @@ function combinedEvents() {
 
   const filingEvents = filings.slice(0, 5).map((f, i) => ({
     d: f.filingDate || `SEC ${i + 1}`,
-    p: autoPriceLevel(i + 14),
+    p: nearestPriceForDate(f.filingDate, i + 14),
+    published_at: f.filingDate,
     title: `${f.form || "SEC Filing"} · ${f.filingDate || ""}`,
     phase: classifyFilingPhase(f.form),
     reaction: "Offizielle SEC-Meldung. Besonders auf Cash, Verwässerung, Quartalsbericht und Kapitalmaßnahmen prüfen.",
@@ -327,7 +375,8 @@ function combinedEvents() {
 
   const trialEvents = trials.slice(0, 5).map((tr, i) => ({
     d: tr.last_update || tr.start_date || `Trial ${i + 1}`,
-    p: autoPriceLevel(i + 19),
+    p: nearestPriceForDate(tr.last_update || tr.start_date, i + 19),
+    published_at: tr.last_update || tr.start_date,
     title: tr.title || tr.nct_id || "ClinicalTrials.gov Studie",
     phase: tr.status || "ClinicalTrials.gov",
     reaction: "Studienregister-Treffer. Relevanz zur Pipeline prüfen.",
@@ -444,13 +493,41 @@ function draw() {
     el("polyline", { points: futurePoints, fill: "none", stroke: "#f4b45c", "stroke-width": 3, "stroke-linecap": "round", "stroke-linejoin": "round", "stroke-dasharray": "7 8" });
   }
 
+  // Große unsichtbare Klickflächen: auf Mobile viel leichter zu treffen.
   for (let i = 0; i < events.length; i++) {
     const e = events[i], x = xScale(i, events.length), y = yScale(Number(e.p), min, max);
-    const c = el("circle", { cx: x, cy: y, r: i === active ? 10 : 7, fill: i === active ? "#ff5757" : (e.future ? "#f4b45c" : "#cbd5e1"), stroke: "#0b0f15", "stroke-width": 3, class: "dot" });
+    const hit = el("circle", { cx: x, cy: y, r: 22, fill: "rgba(255,255,255,0)", stroke: "transparent", "stroke-width": 0, class: "dotHit", "data-index": i });
+    hit.style.cursor = "pointer";
+    hit.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      select(i);
+    });
+  }
+
+  for (let i = 0; i < events.length; i++) {
+    const e = events[i], x = xScale(i, events.length), y = yScale(Number(e.p), min, max);
+    const fill = i === active ? "#ff5757" : (e.future ? "#f4b45c" : newsTypeColor(e.phase || e.trigger_type || ""));
+    const c = el("circle", { cx: x, cy: y, r: i === active ? 11 : 7, fill, stroke: "#0b0f15", "stroke-width": 3, class: "dot" });
+    c.style.cursor = "pointer";
     c.addEventListener("click", () => select(i));
     const t = el("text", { x: x, y: 392, fill: i === active ? "#fff" : "#8893a5", "font-size": 11, "text-anchor": "middle" });
     t.textContent = e.d;
   }
+
+  chart.onclick = (ev) => {
+    const rect = chart.getBoundingClientRect();
+    const clickX = ((ev.clientX - rect.left) / rect.width) * 1120;
+    let best = 0;
+    let diff = Infinity;
+    for (let i = 0; i < events.length; i++) {
+      const d = Math.abs(clickX - xScale(i, events.length));
+      if (d < diff) {
+        best = i;
+        diff = d;
+      }
+    }
+    select(best);
+  };
 
   const label = el("text", { x: 72, y: 35, fill: "#c7d0dc", "font-size": 13 });
   label.textContent = "Chronologische Zeitlinie · von links nach rechts: ältere bis neuere Nachrichten / Termine";
@@ -489,6 +566,13 @@ window.select = function(i) {
   draw();
   renderList();
   renderDetail();
+
+  const btn = document.querySelector(`.eventBtn:nth-child(${i + 1})`);
+  if (btn) btn.scrollIntoView({ block: "nearest", behavior: "smooth" });
+
+  if (window.innerWidth < 760) {
+    $("detail")?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
 };
 
 
@@ -687,7 +771,7 @@ function renderSmartChart() {
       <text x="360" y="126" text-anchor="middle" fill="rgba(255,255,255,.78)" font-size="20" font-weight="800">Noch zu wenig Kursdaten</text>
       <text x="360" y="158" text-anchor="middle" fill="rgba(255,255,255,.48)" font-size="14">Nach mehreren Updates entsteht hier der Kursverlauf.</text>
     `;
-    if (note) note.textContent = "Der Smart-Chart baut sich automatisch mit jedem Update auf.";
+    if (note) note.textContent = "Nach dem nächsten Update wird hier der 1-Monats-Kursverlauf angezeigt.";
     return;
   }
 
@@ -719,6 +803,36 @@ function renderSmartChart() {
     return `<circle cx="${xAt(i)}" cy="${yAt(x.price)}" r="5" fill="${stroke}" stroke="rgba(0,0,0,.45)" stroke-width="2" />`;
   }).join("");
 
+
+  const newsMarkers = recentNews(30)
+    .map((n) => {
+      const t = dateMs(n.published_at || n.date);
+      if (!t) return null;
+      let nearest = null, nearestIndex = 0, diff = Infinity;
+      history.forEach((h, i) => {
+        const d = Math.abs(h.t - t);
+        if (d < diff) { nearest = h; nearestIndex = i; diff = d; }
+      });
+      if (!nearest) return null;
+      return { news: n, point: nearest, index: nearestIndex };
+    })
+    .filter(Boolean)
+    .slice(0, 10);
+
+  const markerSvg = newsMarkers.map((m) => {
+    const cx = xAt(m.index);
+    const cy = yAt(m.point.price);
+    const color = newsTypeColor(m.news.trigger_type || "");
+    const title = esc(m.news.title || "News");
+    return `
+      <g class="smartNewsMarker" data-title="${title}">
+        <circle cx="${cx}" cy="${cy}" r="13" fill="${color}" opacity=".18"></circle>
+        <circle cx="${cx}" cy="${cy}" r="6" fill="${color}" stroke="rgba(0,0,0,.55)" stroke-width="2"></circle>
+      </g>
+    `;
+  }).join("");
+
+
   svg.innerHTML = `
     <rect x="0" y="0" width="720" height="260" rx="22" fill="rgba(255,255,255,.035)"></rect>
     ${grid}
@@ -726,12 +840,13 @@ function renderSmartChart() {
     <text x="${w-pad}" y="24" text-anchor="end" fill="rgba(255,255,255,.72)" font-size="13">Tief: ${formatMoney(min)}</text>
     <polyline points="${pts}" fill="none" stroke="${stroke}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
     ${circles}
+    ${markerSvg}
     <text x="${pad}" y="${h-10}" fill="rgba(255,255,255,.55)" font-size="13">${new Date(history[0].t).toLocaleDateString("de-DE")}</text>
     <text x="${w-pad}" y="${h-10}" text-anchor="end" fill="rgba(255,255,255,.55)" font-size="13">${new Date(history[history.length-1].t).toLocaleDateString("de-DE")}</text>
   `;
 
   if (note) {
-    note.innerHTML = `Letzter gespeicherter Kurs: <b>${formatMoney(last)}</b> · Veränderung seit erstem gespeicherten Punkt: <b class="${diff >= 0 ? "gainText" : "lossText"}">${diff >= 0 ? "+" : ""}${formatMoney(diff)} (${pct.toFixed(1)}%)</b>`;
+    note.innerHTML = `Letzter gespeicherter Kurs: <b>${formatMoney(last)}</b> · Veränderung im Chartzeitraum: <b class="${diff >= 0 ? "gainText" : "lossText"}">${diff >= 0 ? "+" : ""}${formatMoney(diff)} (${pct.toFixed(1)}%)</b>`;
   }
 }
 

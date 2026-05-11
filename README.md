@@ -1,69 +1,63 @@
-# Son of Lorenc – Master v3.5 Proper News + Auto-Dossier
+# Son of Lorenc – Master v3.6 Portfolio + Timeline Overlay
 
-Diese Version repariert zwei Hauptprobleme:
+Diese Version setzt die nächsten Punkte um:
 
-## 1. Fremde News werden stärker entfernt
+## 1. Fehlende Depotwerte
 
-Beispiele, die jetzt rausfliegen sollten:
-
-- allgemeine Sharedeals-/Portfolio-Artikel ohne Firmenbezug
-- Cathie-Wood/Roku-Artikel bei Guardant
-- Bauch-/Graft-versus-Host-Artikel ohne MaaT Pharma Bezug
-- CLINIGEN-/fremde Pharma-News bei MaaT
-- generische News, die nur wegen einem kurzen Ticker wie GH oder ALT gefunden wurden
-
-Neue Logik:
-- News müssen einen starken Treffer enthalten:
-  - Firmenname
-  - Produkt-/Pipeline-Name
-  - eindeutige Alias-Begriffe
-- kurze Ticker allein reichen nicht mehr
-
-## 2. Auto-Dossier wird wirklich geschrieben
-
-Vorher wurden Platzhalter wie „Dossier angelegt“ oder „wird nach dem nächsten Update ergänzt“ teilweise nicht überschrieben.
-
-Jetzt wird vor dem Speichern ausgeführt:
-
-```python
-autofill_dossier(data, news, filings, trials, price)
-```
-
-Dadurch werden automatisch gefüllt:
-
-- Woran arbeitet das Unternehmen?
-- mögliche Kursbereiche
-- wichtige Termine / Auslöser
-- schlechter / normaler / guter Fall
-- Geldlage, neue Aktien & Risiken
-- einfache Zusammenfassung
-- Zeitlinie aus News/SEC
-
-## Optionaler Reset
-
-Wenn alte Platzhalter hängen bleiben:
+Neu hinzufügbar über:
 
 ```bash
-python3 scripts/clean_bad_news_and_refill.py
-python3 scripts/update_data.py
+python3 scripts/add_missing_portfolio.py
 ```
 
-Dann committen/pushen.
+Werte:
+
+- HAO · Haoxi Health Technology
+- RXRX · Recursion Pharmaceuticals
+- 2B76.DE · iShares Automation & Robotics UCITS ETF
+- ELFW.DE · MSCI World ETF
+
+## 2. Timeline besser klickbar
+
+- Punkte haben größere unsichtbare Klickflächen
+- Klick irgendwo in der Chartnähe springt zum nächsten Punkt
+- aktiver Punkt wird stärker markiert
+- News-Liste scrollt zum aktiven Punkt
+
+## 3. Chart + News werden besser abgeglichen
+
+- News werden nicht mehr nur künstlich auf Kurslevel gesetzt
+- News erhalten den nächstliegenden Kurs aus `price_history`
+- Smart-Chart zeigt News-Marker direkt auf dem Kursverlauf
+- Farben unterscheiden News-Typen grob:
+  - Studie / Daten
+  - FDA / Regulatorik
+  - Finanzierung / Verwässerung
+  - SEC / Unternehmensmeldung
+  - allgemeine News
+
+## 4. ETF-Logik
+
+Bei ETFs wird nicht mehr so getan, als gäbe es eine Pipeline.
+Stattdessen wird Fondsfokus, Markttrend und Sektorrisiko erklärt.
 
 ## Online-Update
 
 Diese Dateien pushen:
 
+- index.html
+- assets/app.js
+- assets/style.css
 - scripts/update_data.py
-- scripts/clean_bad_news_and_refill.py
+- scripts/add_missing_portfolio.py
 - README.md
 
-Danach lokal oder über Actions:
+Danach:
 
 ```bash
-python3 scripts/clean_bad_news_and_refill.py
+python3 scripts/add_missing_portfolio.py
 python3 scripts/update_data.py
-git add data/
-git commit -m "Refresh all dossiers with stricter news filter"
+git add config/watchlist.json data/ scripts/update_data.py scripts/add_missing_portfolio.py assets/app.js assets/style.css index.html README.md
+git commit -m "Add portfolio values and improve timeline overlay"
 git push
 ```
