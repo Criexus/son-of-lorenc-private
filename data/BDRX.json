@@ -3,16 +3,16 @@
   "exchange": "NASDAQ",
   "name": "Biodexa Pharmaceuticals",
   "eyebrow": "Son of Lorenc · Phasenanalyse · BDRX",
-  "headline": "Biodexa Pharmaceuticals – Phasenanalyse im Aufbau",
-  "thesis": "Kurzthese: BDRX wird im Son-of-Lorenc-System beobachtet. Die Struktur entspricht exakt dem ATAI-Masterlayout; Inhalte werden über JSON gepflegt und können später per KI oder manuell vertieft werden.",
+  "headline": "Biodexa Pharmaceuticals – einfache Phasenanalyse",
+  "thesis": "Kurzthese: Biodexa Pharmaceuticals wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-06",
-  "phase": "A/B · Beobachtung / Story-Aufbau",
-  "character": "Hochvolatil · Research-Wert",
+  "phase": "Automatische Grundanalyse",
+  "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.94",
-      "note": "Auto-Update: 26.28% vs. vorheriger Schlusskurs",
+      "value": "$3.96",
+      "note": "Auto-Update: 27.08% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -46,202 +46,247 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus den hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
-  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1.0,
-      "title": "Dossier angelegt",
-      "phase": "Phase A – Aufbau",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
-      "source": "Son of Lorenc",
+      "d": "2025-09-08T07:00:00Z",
+      "p": 3.965,
+      "title": "Biodexa startet Phase-3-Studie für FAP-Behandlung mit 20-Millionen-Dollar-Finanzierung - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYmhyZV9WclNZdUkxdXlfeXgyVmpUZDVMNFNQZHEtWXlqUTJrY2lOZEJLVGMzMnowXzVlQ2FMd1NlNlAxbk8xSFdycE43MVZwR0FQY1pKRGdvQWk3SGJ3XzF2eVI5YjdkdndhUzFGRVI0QXhuSFBmclJjQVpvT1g4YlBWYmlIaGV5eWFubGYwUmFMSEFTb1hvenpUbEIzV0hrcEtvdnVNY0NzdG8tT0R3aEhYMWJIWnBnYmwzenhaVWlUY2dPWVVPdHhNMENySDZRQUE?oc=5",
       "future": false
     },
     {
-      "d": "News",
-      "p": 1.2,
-      "title": "Automatische News folgen",
-      "phase": "Phase B – Monitoring",
-      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
-      "details": "Kursrelevanz muss geprüft werden.",
-      "source": "Automatisches Monitoring",
+      "d": "2026-04-02",
+      "p": 3.965,
+      "title": "424B3 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004258/bio424b3_333291598.htm",
       "future": false
     },
     {
-      "d": "Katalysator",
-      "p": 1.35,
-      "title": "Nächsten harten Trigger definieren",
-      "phase": "Nächster Katalysator",
-      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
-      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
-      "source": "manuelle Analyse",
-      "future": true
+      "d": "2026-04-02",
+      "p": 3.965,
+      "title": "424B3 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004255/bio424b3_333279994.htm",
+      "future": false
+    },
+    {
+      "d": "2026-04-02",
+      "p": 3.965,
+      "title": "424B3 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004256/bio424b3_333281489.htm",
+      "future": false
     }
   ],
-  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
   "pipeline": [
     {
-      "stage": "Lead Asset / Haupttreiber",
+      "stage": "Programm / Wirkstoffkandidat",
       "class": "phase3",
-      "name": "Hauptprogramm",
-      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
-      "score": 70,
-      "score_label": "hoch"
+      "name": "MTX110",
+      "text": "MTX110 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 76,
+      "score_label": "sehr wichtig"
     },
     {
-      "stage": "Zweitprogramm / Option",
+      "stage": "PHASE3",
       "class": "phase2",
-      "name": "Zweitprogramm",
-      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
-      "score": 50,
-      "score_label": "mittel"
+      "name": "Studienregister-Treffer",
+      "text": "Zu Biodexa Pharmaceuticals wurden Treffer im Studienregister gefunden. Das ist wichtig, weil Studienstatus, Patientengruppe und Updates zeigen können, ob ein Programm vorankommt.",
+      "score": 58,
+      "score_label": "prüfen"
     },
     {
-      "stage": "Early Stage",
+      "stage": "Geschäft / Forschungsschwerpunkt",
       "class": "early",
-      "name": "Frühe Pipeline",
-      "text": "Langfristiger Optionswert.",
-      "score": 30,
-      "score_label": "langfristig"
+      "name": "Onkologie / Krebsmedizin",
+      "text": "Biodexa Pharmaceuticals wird anhand der gefundenen Daten als Unternehmen im Bereich Onkologie / Krebsmedizin eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
     }
   ],
   "zones": [
     {
-      "zone": "Pullback",
-      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+      "zone": "Rücksetzer: ca. $3.25–$3.57",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
     },
     {
-      "zone": "Arbeitszone",
-      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+      "zone": "Arbeitsbereich: ca. $3.77–$4.28",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
     },
     {
-      "zone": "Momentum",
-      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+      "zone": "Momentum: über ca. $4.68",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
     },
     {
-      "zone": "Warnzone",
-      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
     }
   ],
   "catalysts": [
     {
-      "tag": "Kurzfristig",
-      "title": "Nächste News / Quartalszahlen",
-      "text": "Termin oder Katalysator ergänzen."
+      "tag": "Studien",
+      "title": "Neue Studienergebnisse oder Studienstart",
+      "text": "Bei Biotech-Aktien sind Studienmeldungen oft der wichtigste Kurstreiber. Wichtig ist: Sind es echte Daten oder nur eine Ankündigung?"
     },
     {
-      "tag": "Mittelfristig",
-      "title": "Pipeline-/Projektupdate",
-      "text": "Relevanten operativen Meilenstein ergänzen."
-    },
-    {
-      "tag": "Risiko",
-      "title": "Cash / Verwässerung prüfen",
-      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
     }
   ],
   "scenarios": {
     "bear": {
-      "title": "Bear Case",
-      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+      "title": "Schlechter Fall",
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
-      "title": "Base Case",
-      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+      "title": "Normaler Fall",
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
-      "title": "Bull Case",
-      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+      "title": "Guter Fall",
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
   "risks": [
     {
-      "title": "Studiendaten-/Projekt-Risiko",
-      "text": "Operative Fortschritte müssen bestätigt werden."
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
     },
     {
-      "title": "Verwässerungsrisiko",
-      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
     },
     {
-      "title": "Volatilität",
-      "text": "Kleine und mittlere Werte reagieren stark auf News."
-    },
-    {
-      "title": "Hype-Risiko",
-      "text": "Schnelle Peaks werden oft wieder abverkauft."
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
     }
   ],
   "clear_view": [
-    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
-    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+    "Biodexa Pharmaceuticals (BDRX) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc Mastertemplate",
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:22:41Z",
+    "last_update_utc": "2026-05-11T15:32:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.94,
+      "regularMarketPrice": 3.965,
       "previousClose": 3.12,
-      "change": 0.82,
-      "changePercent": 26.28
+      "change": 0.845,
+      "changePercent": 27.08
     },
     "price_history": [
       {
-        "t": "2026-05-07T04:54:01Z",
+        "t": "2026-04-13T13:30:00Z",
+        "price": 3.1
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 3.25
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 3.43
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 3.47
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
+        "price": 4.33
+      },
+      {
+        "t": "2026-04-21T13:30:00Z",
+        "price": 4.0
+      },
+      {
+        "t": "2026-04-22T13:30:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-04-23T13:30:00Z",
+        "price": 3.42
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 3.3
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 3.32
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 3.3
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 3.24
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 3.14
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 3.12
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 4.48
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
         "price": 4.42
       },
       {
-        "t": "2026-05-07T15:09:38Z",
-        "price": 4.585
-      },
-      {
-        "t": "2026-05-07T17:13:34Z",
-        "price": 4.65
-      },
-      {
-        "t": "2026-05-07T19:10:51Z",
-        "price": 4.72
-      },
-      {
-        "t": "2026-05-07T20:45:26Z",
+        "t": "2026-05-07T13:30:00Z",
         "price": 4.86
       },
       {
-        "t": "2026-05-08T14:47:20Z",
-        "price": 4.52
-      },
-      {
-        "t": "2026-05-08T16:08:53Z",
-        "price": 4.625
-      },
-      {
-        "t": "2026-05-08T17:50:01Z",
-        "price": 4.34
-      },
-      {
-        "t": "2026-05-08T19:02:54Z",
-        "price": 4.315
-      },
-      {
-        "t": "2026-05-08T20:32:49Z",
+        "t": "2026-05-08T13:30:00Z",
         "price": 4.25
       },
       {
-        "t": "2026-05-11T15:12:44Z",
-        "price": 3.882
-      },
-      {
-        "t": "2026-05-11T15:22:41Z",
-        "price": 3.94
+        "t": "2026-05-11T13:30:00Z",
+        "price": 3.965
       }
     ],
+    "price_history_range": "1mo",
     "news": [
       {
         "title": "Biodexa startet Phase-3-Studie für FAP-Behandlung mit 20-Millionen-Dollar-Finanzierung - Investing.com Deutsch",
@@ -256,22 +301,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Tanner Pharma erhöht den Bestand an Leukine® in Europa, um die Verfügbarkeit zu erweitern und die Reaktion auf eine potenzielle Strahlenbelastung aufgrund des anhaltenden Konflikts in der Ukraine zu verbessern - Business Wire",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2NXY3Q3Q0U2dpcWV5eGhJREFhMUtPSnVKUW12MW9MMGcxSHhjWmJId09Gdk04NWR5c05Rd3JidUFWcFVvdnlBcmxSU2ZqbUZ0Wmx2RUxmWE5UVi04dUh6akpObXk3cTQ?oc=5",
-        "published_at": "2022-03-25T07:00:00Z",
-        "source": "Business Wire",
-        "query": "Biodexa Pharmaceuticals FDA",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
       }
     ],
     "sec_filings": [

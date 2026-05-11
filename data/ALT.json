@@ -3,16 +3,16 @@
   "exchange": "NASDAQ",
   "name": "Altimmune",
   "eyebrow": "Son of Lorenc · Phasenanalyse · ALT",
-  "headline": "Altimmune – Phasenanalyse im Aufbau",
-  "thesis": "Kurzthese: ALT wird im Son-of-Lorenc-System beobachtet. Die Struktur entspricht exakt dem ATAI-Masterlayout; Inhalte werden über JSON gepflegt und können später per KI oder manuell vertieft werden.",
+  "headline": "Altimmune – einfache Phasenanalyse",
+  "thesis": "Kurzthese: Altimmune wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-06",
-  "phase": "A/B · Beobachtung / Story-Aufbau",
-  "character": "Hochvolatil · Research-Wert",
+  "phase": "Automatische Grundanalyse",
+  "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.18",
-      "note": "Auto-Update: 5.3% vs. vorheriger Schlusskurs",
+      "value": "$3.20",
+      "note": "Auto-Update: 5.89% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -46,202 +46,364 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus den hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
-  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1.0,
-      "title": "Dossier angelegt",
-      "phase": "Phase A – Aufbau",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
-      "source": "Son of Lorenc",
+      "d": "2026-05-04T16:31:09Z",
+      "p": 3.197,
+      "title": "Altimmune's $225 Million Capital Raise Extends Runway Through Pivotal MASH Trial Readout - AD HOC NEWS",
+      "phase": "Studienphase / Readout",
+      "reaction": "potenziell hoher klinischer Trigger",
+      "details": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+      "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+      "impact": "potenziell hoher klinischer Trigger",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdEtzX0d0aG1jTmNQMG9UVTZmbnVqTE4zUy1sSzdzYncyM3VleHNqdlMwejhQNFg1T0ZKWjE5cFNuYTBxc3lJcEQ5bGhqcUdMUmRqRV9IX0JZSXNzdG0wWkttZGxaNGs0UFlZSjVhX3dCYjEwbG5PYmF0UXBmRzh3YUVyRnBfODYtSWtRR2RuMi14RXRVbkNJMWRINmdkTW5mWjJucjhSLWVKOXRUYjlKZmR6YVZOVVhGUllnRXJ2TTFOTjBlc01MUDNhLTQ?oc=5",
       "future": false
     },
     {
-      "d": "News",
-      "p": 1.2,
-      "title": "Automatische News folgen",
-      "phase": "Phase B – Monitoring",
-      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
-      "details": "Kursrelevanz muss geprüft werden.",
-      "source": "Automatisches Monitoring",
+      "d": "2026-04-23T07:00:00Z",
+      "p": 3.197,
+      "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
+      "phase": "Quartalszahlen / Cash",
+      "reaction": "fundamentaler Risiko-Trigger",
+      "details": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+      "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+      "impact": "fundamentaler Risiko-Trigger",
+      "source": "Börse Global",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5",
       "future": false
     },
     {
-      "d": "Katalysator",
-      "p": 1.35,
-      "title": "Nächsten harten Trigger definieren",
-      "phase": "Nächster Katalysator",
-      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
-      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
-      "source": "manuelle Analyse",
-      "future": true
+      "d": "2026-04-23T07:00:00Z",
+      "p": 3.197,
+      "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
+      "phase": "Studienphase / Readout",
+      "reaction": "potenziell hoher klinischer Trigger",
+      "details": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+      "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+      "impact": "potenziell hoher klinischer Trigger",
+      "source": "Börse Express",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-04-15T07:00:00Z",
+      "p": 3.197,
+      "title": "Altimmune Aktie: Kapitalbasis vor Ausbau - AD HOC NEWS",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbFVPX2ZTeUpUV0pESWFTbUliaXlOVkFDc2g4UzNRalg2RlRMamU2ZGR5QUxWOFRPaHdEVkVLZFd2M2VaVlVYejNFQl9rUkVOMXlqUE16cVc4cVJfSExDaXdtalpGUVBhTTBJbFgtYXZJNTZKM0hLZ1ppbkpDQTlORUsyRHhsWTVIWHBZUzVNX0tXSUs5TjhyYg?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-03-26T07:00:00Z",
+      "p": 3.197,
+      "title": "Altimmune Aktie: Fokus auf Milliardenmarkt - AD HOC NEWS",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHRLaUdkQVVxMGRzWENyeEZ5MFlEUlpXVDdLTmI4STZacWdxSEl2ZHEwMC10cElGTV9xYTNoc0RmN1VCNkU3UTR1WC1VdzNoVFdCdk9ndmhDX1VvcDlIVnktNjB2S2E3TzBhNnZNUG4xMnRndWg3bWswb29CZGVFSHRVZWd4eDRvQ0Y2S0tQLUI2S0VvVXVJZ3BsWVNxdlBPMWc?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-03-18T07:00:00Z",
+      "p": 3.197,
+      "title": "Altimmune: Truist startet Buy-Einstufung mit Ziel 12 USD; Pemvidutide könnte global 1 Mrd USD Umsatz erreichen - Goldesel.de",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Goldesel.de",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNOTRXWnBEV3V6Rm1vUkNTdUgtdTFSY1FQWHdCR1g0YjREbk9raGJ6bXV6X2JBRWF4bXlYR21WQWdJYmhrMTJTTXhxbVVDcktEb0JIMU5OeUpoMXo2QVRpOVhzelVWYmJqVlRkcmR3eFVCVnB4c21OSWRDeHlfR2NHdlozUjlBWmQ0TUVhSGh0UWhtdXcwWE8wbjJYbVhjUFlKSWJFa3R6REpndTZHYUNmRV90cXlRX3dYZXBjSDA3SWdoVUJMQzVWR2pxaFh5QUdIZ1NlS3lTTQ?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-02-05T08:00:00Z",
+      "p": 3.197,
+      "title": "Weight-Loss Drug Sector Pressures Altimmune Shares - AD HOC NEWS",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOEZjMlVlVjIzbFdQSjlGZzE0QlpoSTBBS0JzbHAwUG45aWRfRTBmcHZGQUgzWEpIZ2dGcmxkQXlsZVg3TEM4bFFaWGhxd0gxeHRSUGFWaHJ1WkJkVm1PMFRUWU5nVGROYng5NDNPeU15bzJBcEFTOWpSc3BQcVVuT0dqVGZvcVFtYkRWSExnRVJ0YUZrM0Fzb0R3cVZSdW1FSkJFR0xMZ25YOTJ0aUE?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-01-28T08:00:00Z",
+      "p": 3.197,
+      "title": "Altimmune Aktie: Kapitalspritze für MASH-Studie - kapitalmarktexperten.de",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "kapitalmarktexperten.de",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEZha01BX2JpVzc3eUNCVGlEQkkxSDJPdjZhVlY5cU1Gb09QV19xN0JpN2xlZlNpQXBMVnZxOUhKLXY0TWpQejdOZDJKMDYyNjQ0OFhhbUpYbUxFcGJJZFhIT3N2MUEybHhycExSVFFOWkFldG9qMGMzTWItNUNrYzZocm5tdGREVzdrMQ?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-05-01",
+      "p": 3.197,
+      "title": "SCHEDULE 13G · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326190/000090514826002008/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "future": false
+    },
+    {
+      "d": "2026-05-01",
+      "p": 3.197,
+      "title": "SCHEDULE 13G · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326190/000119312526201587/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "future": false
+    },
+    {
+      "d": "2026-05-01",
+      "p": 3.197,
+      "title": "4 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326190/000196059626000002/xslF345X06/form4-05012026_080512.xml",
+      "future": false
     }
   ],
-  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
   "pipeline": [
     {
-      "stage": "Lead Asset / Haupttreiber",
+      "stage": "Programm / Wirkstoffkandidat",
       "class": "phase3",
-      "name": "Hauptprogramm",
-      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
-      "score": 70,
-      "score_label": "hoch"
+      "name": "ALT-801",
+      "text": "ALT-801 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 76,
+      "score_label": "sehr wichtig"
     },
     {
-      "stage": "Zweitprogramm / Option",
+      "stage": "Programm / Wirkstoffkandidat",
       "class": "phase2",
-      "name": "Zweitprogramm",
-      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
-      "score": 50,
-      "score_label": "mittel"
+      "name": "COVID-19",
+      "text": "COVID-19 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 62,
+      "score_label": "wichtig"
     },
     {
-      "stage": "Early Stage",
-      "class": "early",
-      "name": "Frühe Pipeline",
-      "text": "Langfristiger Optionswert.",
-      "score": 30,
-      "score_label": "langfristig"
+      "stage": "Programm / Wirkstoffkandidat",
+      "class": "phase2",
+      "name": "FP-02",
+      "text": "FP-02 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 48,
+      "score_label": "wichtig"
+    },
+    {
+      "stage": "PHASE2",
+      "class": "phase2",
+      "name": "Studienregister-Treffer",
+      "text": "Zu Altimmune wurden Treffer im Studienregister gefunden. Das ist wichtig, weil Studienstatus, Patientengruppe und Updates zeigen können, ob ein Programm vorankommt.",
+      "score": 58,
+      "score_label": "prüfen"
     }
   ],
   "zones": [
     {
-      "zone": "Pullback",
-      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+      "zone": "Rücksetzer: ca. $2.62–$2.88",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
     },
     {
-      "zone": "Arbeitszone",
-      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+      "zone": "Arbeitsbereich: ca. $3.04–$3.45",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
     },
     {
-      "zone": "Momentum",
-      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+      "zone": "Momentum: über ca. $3.77",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
     },
     {
-      "zone": "Warnzone",
-      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
     }
   ],
   "catalysts": [
     {
-      "tag": "Kurzfristig",
-      "title": "Nächste News / Quartalszahlen",
-      "text": "Termin oder Katalysator ergänzen."
+      "tag": "Studien",
+      "title": "Neue Studienergebnisse oder Studienstart",
+      "text": "Bei Biotech-Aktien sind Studienmeldungen oft der wichtigste Kurstreiber. Wichtig ist: Sind es echte Daten oder nur eine Ankündigung?"
     },
     {
-      "tag": "Mittelfristig",
-      "title": "Pipeline-/Projektupdate",
-      "text": "Relevanten operativen Meilenstein ergänzen."
+      "tag": "Behörde",
+      "title": "FDA-/Zulassungs- oder Behördenmeldung",
+      "text": "Solche Meldungen können stark bewegen. Entscheidend ist, ob die Behörde wirklich etwas bestätigt oder ob nur ein Plan kommuniziert wurde."
     },
     {
-      "tag": "Risiko",
-      "title": "Cash / Verwässerung prüfen",
-      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+      "tag": "Geld / neue Aktien",
+      "title": "Finanzierung oder mögliche Verwässerung",
+      "text": "Wenn das Unternehmen neue Aktien ausgibt, kann das den Kurs drücken. Gleichzeitig braucht ein kleines Biotech-Unternehmen oft frisches Geld."
+    },
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
     }
   ],
   "scenarios": {
     "bear": {
-      "title": "Bear Case",
-      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+      "title": "Schlechter Fall",
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
-      "title": "Base Case",
-      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+      "title": "Normaler Fall",
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
-      "title": "Bull Case",
-      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+      "title": "Guter Fall",
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
   "risks": [
     {
-      "title": "Studiendaten-/Projekt-Risiko",
-      "text": "Operative Fortschritte müssen bestätigt werden."
+      "title": "Neue Aktien / Verwässerung",
+      "text": "Es gibt Hinweise auf Finanzierungsthemen. Das kann bedeuten, dass bestehende Aktionäre durch neue Aktien verwässert werden."
     },
     {
-      "title": "Verwässerungsrisiko",
-      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
     },
     {
-      "title": "Volatilität",
-      "text": "Kleine und mittlere Werte reagieren stark auf News."
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
     },
     {
-      "title": "Hype-Risiko",
-      "text": "Schnelle Peaks werden oft wieder abverkauft."
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    },
+    {
+      "title": "Behördenrisiko",
+      "text": "Wenn FDA oder andere Behörden anders entscheiden als erwartet, kann das den Kurs stark beeinflussen."
     }
   ],
   "clear_view": [
-    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
-    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+    "Altimmune (ALT) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Es wurden wichtige Hinweise gefunden, die man genauer lesen sollte. Besonders relevant sind Meldungen zu Studien, Behörden, Finanzierung oder möglichen neuen Aktien.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc Mastertemplate",
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:23:05Z",
+    "last_update_utc": "2026-05-11T15:32:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.18,
+      "regularMarketPrice": 3.198,
       "previousClose": 3.02,
-      "change": 0.16,
-      "changePercent": 5.3
+      "change": 0.178,
+      "changePercent": 5.89
     },
     "price_history": [
       {
-        "t": "2026-05-07T04:54:20Z",
+        "t": "2026-04-13T13:30:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 3.4
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 3.51
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
+        "price": 3.56
+      },
+      {
+        "t": "2026-04-21T13:30:00Z",
+        "price": 3.41
+      },
+      {
+        "t": "2026-04-22T13:30:00Z",
+        "price": 3.47
+      },
+      {
+        "t": "2026-04-23T13:30:00Z",
+        "price": 2.89
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 2.85
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 2.8
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 2.63
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 2.6
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 2.82
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 3.06
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
         "price": 3.26
       },
       {
-        "t": "2026-05-07T15:09:59Z",
-        "price": 3.075
-      },
-      {
-        "t": "2026-05-07T17:13:54Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-07T19:11:12Z",
-        "price": 3.046
-      },
-      {
-        "t": "2026-05-07T20:45:47Z",
+        "t": "2026-05-07T13:30:00Z",
         "price": 3.04
       },
       {
-        "t": "2026-05-08T14:47:40Z",
-        "price": 3.085
-      },
-      {
-        "t": "2026-05-08T16:09:14Z",
-        "price": 3.035
-      },
-      {
-        "t": "2026-05-08T17:50:21Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-08T19:03:14Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-08T20:33:09Z",
+        "t": "2026-05-08T13:30:00Z",
         "price": 3.09
       },
       {
-        "t": "2026-05-11T15:13:04Z",
-        "price": 3.19
-      },
-      {
-        "t": "2026-05-11T15:23:05Z",
-        "price": 3.18
+        "t": "2026-05-11T13:30:00Z",
+        "price": 3.1984
       }
     ],
+    "price_history_range": "1mo",
     "news": [
       {
         "title": "Altimmune's $225 Million Capital Raise Extends Runway Through Pivotal MASH Trial Readout - AD HOC NEWS",
@@ -256,22 +418,8 @@
         "impact": "potenziell hoher klinischer Trigger",
         "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
         "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen."
-      },
-      {
-        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
-        "published_at": "2026-04-23T07:00:00Z",
-        "source": "Börse Express",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Studienphase / Readout",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen."
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
@@ -286,7 +434,24 @@
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen."
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
+        "published_at": "2026-04-23T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Aktie: Kapitalbasis vor Ausbau - AD HOC NEWS",
@@ -301,7 +466,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Altimmune Aktie: Fokus auf Milliardenmarkt - AD HOC NEWS",
@@ -316,7 +482,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Altimmune: Truist startet Buy-Einstufung mit Ziel 12 USD; Pemvidutide könnte global 1 Mrd USD Umsatz erreichen - Goldesel.de",
@@ -331,22 +498,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Vierjähriges Kind stirbt nach Sturz aus dem 15. Stock – Das ist bekannt - Berliner Morgenpost",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUmVfUFVQY2M0X1l0NkZ2VTAzZDVLREhsa0VHdDNUcFVCamI1ZTE0cTluWFpzdDBpNmZPNUR6RGdtUVVlV3cyWFU0TlhsV0tkbkVlMXItcDMzdTU2WEIyZGdfcllGb0o0UFhWZ21vS0E0bmotVzV6VGlTWVZLeXZpWlVWQW1aMlR1N3A4c1g0RGYxOWFKWmQ3UEJhX2pkS2RteTZ6WWxsdXp6ZE5WWFpoMHkwSFFvTmZjTG41VUNpbmVhUHpk?oc=5",
-        "published_at": "2026-03-03T08:00:00Z",
-        "source": "Berliner Morgenpost",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Weight-Loss Drug Sector Pressures Altimmune Shares - AD HOC NEWS",
@@ -361,7 +514,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Aktie: Kapitalspritze für MASH-Studie - kapitalmarktexperten.de",
@@ -376,37 +530,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Ausgrabungen in Griechenland: Älteste Holzwerkzeuge Europas entdeckt - Spektrum der Wissenschaft",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXR5ek5aUlFwcW02LXpKZWQyQmFobG5iLVp4WXg1YjZkSmIyRWdwdE5vbmRTaXVmNFoyeWp2am1NZEdFTF9Fa3g1ZlFyVUtMT3lFa042b2p5ejh0enE5VFlyT3VwbWVDY0FIdURSMUd6QXo4aTRSTDkxUmRvQ2gxb0Nxc1I1OUZaSERnODVQN0VraDJRY2h4Sy13?oc=5",
-        "published_at": "2026-01-27T08:00:00Z",
-        "source": "Spektrum der Wissenschaft",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Altimmune Shares Surge on Clinical Milestones and Market Dynamics - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
-        "published_at": "2026-01-25T08:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "Altimmune ALT pemvidutide stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
@@ -421,7 +546,24 @@
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 8
+      },
+      {
+        "title": "Altimmune Shares Surge on Clinical Milestones and Market Dynamics - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
+        "published_at": "2026-01-25T08:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "Altimmune ALT pemvidutide stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Aktie: BTD erteilt - kapitalmarktexperten.de",
@@ -436,7 +578,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Altimmune-Aktie bricht nach Studiendaten zu MASH-Medikament ein - Investing.com Deutsch",
@@ -451,7 +594,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Approaches Pivotal Moment with Leadership Shift and Key Data - AD HOC NEWS",
@@ -466,7 +610,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Aktie: Führungswechsel vor dem Sturm! - AD HOC NEWS",
@@ -481,7 +626,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Führungswechsel bei Altimmune: Aktie fällt nach Ankündigung des CEO-Abgangs für 2026 - Investing.com Deutsch",
@@ -496,7 +642,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Stock: A Perfect Storm for Potential Gains? - AD HOC NEWS",
@@ -511,7 +658,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Shares Poised for Potential Breakthrough - AD HOC NEWS",
@@ -526,37 +674,8 @@
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
-        "title": "Recycling von Fertigpens: Aus alt mach neu? - Deutsche Apotheker Zeitung, DAZ",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb3F2S1lBWHh6XzJ5YzhRanpFZXZDb205NEFRdDY5VVZKRlUxeEVSb0wxRU5DaThvbE1FTnM2TDRxeGt1cVJpd2JHWFI1UU5hSHVFMTFuczBjNGF1OVlQMWxyZ250Z1NEVHVUcEdyLXBuZ09DX016VUNDYnBuR09MeWt4dzM1M3NVTHo3V0N6RmNQM3AxSm0yTEpLR016YXdNUnROM3ZPSDVjcDQ?oc=5",
-        "published_at": "2025-11-07T08:00:00Z",
-        "source": "Deutsche Apotheker Zeitung, DAZ",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DLUxxOEVlam5IZG83anV1ZzU5c0xPaTFWd0w1WVhFUlp2QUo3MnlsYl9zazM2Q1FGV0lqRGlfVjRTNTBOZi1mQkVvM1ZRNFdCTjluLVo3QXY4UWQwS3V0aTJSbE5TZ0NuNXVmcWU1NjF6dV9SSllGYm1WYy3SAYIBQVVfeXFMUEpLN1lCajFqYnJNMlhXZmxCWjlQODB0aHhGWGtxSFRZdmpkQTVfdFRvTjIzN2UwaW0tZE96bXF4bkxkUlpfWnBXY005TE51SjdlR1NKel9nTU9vS213S2pJa01tTVhvRFR6em9QNURTZ2ROc2dVTXI2UWszVjFKRGdEZw?oc=5",
-        "published_at": "2025-10-29T07:00:00Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Aktie: Kampf gegen die Klagewelle - Börse Express",
@@ -571,28 +690,14 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
-        "title": "Siltronic: Aktie unter Druck – Schwarze Zahlen in 2026? - 4investors.de",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZWGZLOHhzRmhFa2FNbDFfcEVGeDJJdnQxcmdSMkw5aXB5TDVmOHVEa0NpcG04QWotYk8wNWtya3JWUmM0Z091cVJhQ0NqdnhMMVFTRmp0TTFhMDF6MXVkQ0RHb19xZTI5UWxLV3lRUjBuVG8tNlY3N2lMWkbSAYIBQVVfeXFMTXFJTVc1dk42UElPOG5CTDgwUE9xbDhpUjNYd3JsMDFwbF9yeWpCejJsQXZGOHdQOGMwOG5qYUpIT2t5dTZMMFF0MDYyT09wcGhQY3Y2MnFsdkQ3UGFkTkVScW9PRkp4dTYyd21hOC12bGpuVWRoU0ViUDdYUmxxM0Z3dw?oc=5",
-        "published_at": "2025-07-29T07:00:00Z",
-        "source": "4investors.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet."
-      },
-      {
-        "title": "„Wir wollen keinen Frankfurter Ballermann - Neues Konzept für Alt-Sachsenhausen - Journal Frankfurt",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY3hEQUZ5bE96X2ljVUMyMXhaMWFUWlBOZl8zLXlQREdnZ2JwVnF6U0tSbWNfRkNiMjYySWNJSlNDWFJ0b3poWkp5bFJRcUNlbnR6U192UC13SE8wanpjM0MwNmlhbDJIazVjTnNwRTdFbjJha1VjaUFnQkN1UlY3Q2hRWkFSV09tYVpZV0drX09fZ2phUkZMZm1CWGR1UHhsY015dkNzRy1wTld3S3pyZmR1MFQxYnhmZXlDbS1HRGlES2hGeC14dFI4UlVPQ1ltWU9VUGFnNlc1b1RVY3c?oc=5",
-        "published_at": "2025-05-05T07:00:00Z",
-        "source": "Journal Frankfurt",
+        "title": "Altimmune-Aktie fällt nach Ergebnissen der MASH-Behandlungsstudie - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYVpuaExvcVVsRllmYnBqUnZlbmktS2NUblNmcl9jVGZwVGtyOWdDUXcwX1lObURUY0hoRldwYW94dTZOcFNXVmFWa3FJLTE4QXhWVW14X0JJQmQzVjFFYzI4OG4wNzVNQWozakdEYU1mMmh0ZklJbW9xWlNuRnRPZF9KWEhfcDM4dWYtZ19rMGJnQkp1RGxveUU5WHpoTG9kTzFsUVNYbjZWRzAzd1c2Um9mQ1lWbUJhNFBST2duVy1udw?oc=5",
+        "published_at": "2025-06-26T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -601,13 +706,30 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
-        "title": "Ältester Mensch der Welt stirbt mit 116 Jahren in Brasilien – News - Deutsches Ärzteblatt",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMm81MDFjZWpwLU8xSWxfZTJfbXN3UV9LVEVzWFlSYXZ5NkFMQVdycDZzdWlMV1pTQ3c3LXBmMmlKZjlveG1na0dWcGRGZnFqRUNKOGxuVXNuaUVjN2tUckJGRjlyUjNoNU9XSzFIM1lwZTlScmZFdUh3cTdHRjgxaEhmNzZxSWhCY25kd21NQjZUamZvdWxFd2VhOTVPdTNERGlqeEMwR1A2VWtHYnhBNV9tOVNVSEZMSzBpNWp2WGxMeUdZb25j?oc=5",
-        "published_at": "2025-05-02T07:00:00Z",
-        "source": "Deutsches Ärzteblatt",
+        "title": "Altimmune schreitet mit Adipositas-Behandlung in Phase-3-Studien voran - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb1Fvem93ZlBOTnRKTk93U2YwUGZDZ1N6ckhjbXBKVEdTQ2JTUkVvY2tqandaRG9DcU9SWUFwRTVKSGNaaFBoQ29qTG9QVkdEZzF3RF84VkRMOThuVV9tM1QzUHg0cEQtVDJtTFo4UnJMT2VnVEd3aHh6T1Blc1A2cnZ0LWRKV2g4ZE9JOUFRNUVmZk1PNjI4azFHNkFOOEtmekY3Snh3NDFHdk1jWkZJQTZDc1ZrN1lpVW4wS0JYRU0?oc=5",
+        "published_at": "2024-11-07T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56bnFjalZEbTE5eFlYc1ZGbTVrN0FlQXVvMlhQT3paYkhyRWh5MDBVV29yYU1IS0dmOHYydXM5QXVZMW94UWJCTGZ1TUJhekxrY0xBWFdmSnRET3NzZ0pN?oc=5",
+        "published_at": "2023-05-08T20:47:10Z",
+        "source": "extraETF",
         "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -616,14 +738,31 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
       },
       {
-        "title": "Welche Ernährung dabei hilft, gesund alt zu werden - Apotheken Umschau",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUUtjZG9Od1pTMUtuS3lKdDFmU2JPRm9sNWt4RnV1NmRldzBFb2J4UWYxNkZZU054dlFHMkx6cmJ3MXJyV2JEXzZzSEowU2ZteGJoWW5sV3E1ZlVJc2RMZERFZk1lV2hKYlFaeV9sVU9XLW9xdFZoZl9GUG1lcjJJcE9zYUVuWWpWZi0tM1VoWGtpV0pjaUlJdWw4OU5vY3AwUmUxeUNnRno0LXhqUDNuRm8wX3JHMG9mN3BoaG4xSXZIbWZ0Qm8wV25peW5Tdw?oc=5",
-        "published_at": "2025-04-25T07:00:00Z",
-        "source": "Apotheken Umschau",
-        "query": "ALT stock news",
+        "title": "Analyst still sees potential in Altimmune obesity drug after shares plunged on dropout data - Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1g0djQzd0xhVXNJM3VCNmJZRzB3RW1reFo0dDdaSlFSSWpDNXgzU2NRYS1fekJSYzVpQlVhR3UydUlKWm9ENi1QYVhnTzhsbVN3ZjFjT2hMZVRFUEZxM2VEYVZHRHQ0dERTYXJNcmtnMFBEZWNFMDRmOGN5VGRNY0JrcGVEc0lpbklWNS1MRE5FWTNGRXd5LTdwQzg0a25YbVktazl5bG5iNlBLQTZyVUgxeHpQOHljZ3VIZWw2Z0U?oc=5",
+        "published_at": "2023-03-22T07:00:00Z",
+        "source": "Fierce Biotech",
+        "query": "Altimmune pemvidutide obesity",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 8
+      },
+      {
+        "title": "ALTIMMUNE AKTIE | Aktienkurs | US02155H2004 | ALT | A2N5Z6 | News - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VTkgtUXNDZ2x5MVFOdFgyQWRDWUlldXBtekwzU19CWUxyWGdqbTF1QjktY3FDOGRldHNQRDkxc0RsazdkdEZPMXY4MTBNaXZiT2YyVjhOa3BoWnM?oc=5",
+        "published_at": "2019-06-15T03:47:15Z",
+        "source": "Finanzen.net",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -631,14 +770,15 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 8
       },
       {
-        "title": "Papsttod: Was bisher geschah und was jetzt geschieht - Vatican News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa0p3bWVyMjFvNlQtRC1Ibkd5V0o5NTRCNlhpQllGODB1S0JhT0lyOS1NVlkxSGZCN3ZhTVl4c1FVeDJtRERvSDY2NmFlaDUydTNPMFJXaXVpeU1nR1dOaVZhTERETnZvNjJCUW11ZVNhbkhyUFp2R1JYN2RhMmptQWFsd1BUanZNU1NuN3pPSU83S0xTVlByYUl3R0ktOW52cjRERDZpZXNjbDQ?oc=5",
-        "published_at": "2025-04-22T07:00:00Z",
-        "source": "Vatican News",
-        "query": "ALT stock news",
+        "title": "Technische Analyse von Altimmune, Inc. (NASDAQ: ALT) - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xb1o2d2EwUWFqMHBDX29zRnRjaW1IaUxsWllSRkhneXJvcGpaSnI4TEFkMHZxWjFrTThNeWNTRlVKemxzUG9QNHUxckhrZFVJWVZsRnQ5UmZ1MVM4WkcyV2Ffb2NlWk9U?oc=5",
+        "published_at": "2018-05-19T08:56:00Z",
+        "source": "TradingView",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -646,52 +786,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Aus Hochhaus geworfener Einkaufswagen trifft zwei Autos, eins der Feuerwehr - rbb24.de",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM0xKMmdQWGhnREVUMjFGMGl5bTZ5UWxlY2VVNDE4MzNQSXlYV0NOVlkxVnJrc2dtX3dyTXVNa0tUOC1TY3dRRjU0UHItd3ktblBORkcyY0paRHZ2NFlTOFFaeWFuRmRfY0VYbzlvOTdFaDJST1ZfeF96d0xyUElLbnBsc2Uxd1g2bHBJbFByb05RYTVKbGNJbWRHWnBPemRGRDFXY25SbWxZQlRHYl8zZA?oc=5",
-        "published_at": "2025-04-10T07:00:00Z",
-        "source": "rbb24.de",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Zahl der Schwangerschaftsabbrüche im vergangenen Jahr nahezu unverändert – News - Deutsches Ärzteblatt",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObl9PaU9RNVRzVHgzczZFUGFYUkFRVkVkRmxpOGRUOFJiMFp6MjV2X2pMc3lFdFdxQlVVRFJiWngzUWtoOWdJdDV6MDVydmpvX0ZQYllOSERSbkNzZVVTZGZ2WjFleEVzN1RWU3lHWU1HenRvVFJNNVJINHhld00tOFdrX2FaOTF2Q2lEVU4xcTFBZGRGN0I3SjJmVzBxZDNiNkhaQThxVDFyR3RZS2ppcm5zR2dHRnItV21TWkxfUUxZcVQ1aklKOGlmY09MaTM5U0ZDaVFnUTY?oc=5",
-        "published_at": "2025-04-03T07:00:00Z",
-        "source": "Deutsches Ärzteblatt",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Morbus Parkinson: Zahl der Patienten könnte sich bis 2050 weltweit verdoppeln – News - Deutsches Ärzteblatt",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaGlXbHJJV2M2UGpHRkNLYWFiRml0Y2pBM2dTdzBJU2otNlh1X2NUZ2lhOVdDOW5qRlNUN0ZGYVJwZzYtY2t0TGJjQWgzTVZEcndPMnZNOHRfLWp1YWhsano1WEZLTzRoTkVqc2NURUh3X05xMUxBZzByOXYxSjdhbU92V3BIT0FLem9kVk9jQlBEMGxSbEp0Z3JnVWg3ODRuSjZfUjdmMTQzZEZJMnJGeXJYbVBsZi1keGppTjJCaVgyQjFSNWpoUkt4bUNSWnp6Y3VIX21uVURvekhINHc?oc=5",
-        "published_at": "2025-03-18T07:00:00Z",
-        "source": "Deutsches Ärzteblatt",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 8
       }
     ],
     "sec_filings": [
@@ -1210,28 +1306,16 @@
         "date": "2019-01-21"
       },
       {
-        "type": "Konferenz / Präsentation",
+        "type": "Analysten / Kursziel",
         "level": "low",
-        "title": "Siltronic: Aktie unter Druck – Schwarze Zahlen in 2026? - 4investors.de",
-        "reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "source": "4investors.de",
-        "date": "2025-07-29T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZWGZLOHhzRmhFa2FNbDFfcEVGeDJJdnQxcmdSMkw5aXB5TDVmOHVEa0NpcG04QWotYk8wNWtya3JWUmM0Z091cVJhQ0NqdnhMMVFTRmp0TTFhMDF6MXVkQ0RHb19xZTI5UWxLV3lRUjBuVG8tNlY3N2lMWkbSAYIBQVVfeXFMTXFJTVc1dk42UElPOG5CTDgwUE9xbDhpUjNYd3JsMDFwbF9yeWpCejJsQXZGOHdQOGMwOG5qYUpIT2t5dTZMMFF0MDYyT09wcGhQY3Y2MnFsdkQ3UGFkTkVScW9PRkp4dTYyd21hOC12bGpuVWRoU0ViUDdYUmxxM0Z3dw?oc=5"
-      },
-      {
-        "type": "Konferenz / Präsentation",
-        "level": "low",
-        "title": "Suss Microtec: Klare Abstufung nach der Warnung - 4investors.de",
-        "reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "source": "4investors.de",
-        "date": "2025-10-29T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DLUxxOEVlam5IZG83anV1ZzU5c0xPaTFWd0w1WVhFUlp2QUo3MnlsYl9zazM2Q1FGV0lqRGlfVjRTNTBOZi1mQkVvM1ZRNFdCTjluLVo3QXY4UWQwS3V0aTJSbE5TZ0NuNXVmcWU1NjF6dV9SSllGYm1WYy3SAYIBQVVfeXFMUEpLN1lCajFqYnJNMlhXZmxCWjlQODB0aHhGWGtxSFRZdmpkQTVfdFRvTjIzN2UwaW0tZE96bXF4bkxkUlpfWnBXY005TE51SjdlR1NKel9nTU9vS213S2pJa01tTVhvRFR6em9QNURTZ2ROc2dVTXI2UWszVjFKRGdEZw?oc=5"
+        "title": "Analyst still sees potential in Altimmune obesity drug after shares plunged on dropout data - Fierce Biotech",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "Fierce Biotech",
+        "date": "2023-03-22T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1g0djQzd0xhVXNJM3VCNmJZRzB3RW1reFo0dDdaSlFSSWpDNXgzU2NRYS1fekJSYzVpQlVhR3UydUlKWm9ENi1QYVhnTzhsbVN3ZjFjT2hMZVRFUEZxM2VEYVZHRHQ0dERTYXJNcmtnMFBEZWNFMDRmOGN5VGRNY0JrcGVEc0lpbklWNS1MRE5FWTNGRXd5LTdwQzg0a25YbVktazl5bG5iNlBLQTZyVUgxeHpQOHljZ3VIZWw2Z0U?oc=5"
       },
       {
         "type": "SEC Filing",
@@ -1256,6 +1340,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-04-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-30"
       }
     ],
     "queries_used": [

@@ -4,15 +4,15 @@
   "name": "Definium Therapeutics",
   "eyebrow": "Son of Lorenc · Phasenanalyse · DFTX",
   "headline": "Definium Therapeutics – einfache Phasenanalyse",
-  "thesis": "Kurzthese: Definium Therapeutics wurde neu in das Son-of-Lorenc-System aufgenommen. Nach dem nächsten Update werden News, Kursdaten, SEC-/Unternehmensmeldungen und die erste Einschätzung automatisch ergänzt.",
+  "thesis": "Kurzthese: Definium Therapeutics wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-11",
   "phase": "Automatische Grundanalyse",
   "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$22.07",
-      "note": "Auto-Update: 1.45% vs. vorheriger Schlusskurs",
+      "value": "$22.17",
+      "note": "Auto-Update: 1.93% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -28,61 +28,303 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Diese Zeitlinie wird nach dem nächsten Update mit Kurs- und Nachrichtendaten befüllt.",
-  "chart_note": "Kein Livechart. Der Kursverlauf wird beim Update gespeichert.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1,
-      "title": "Dossier angelegt",
-      "phase": "Start",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Nach dem nächsten Update werden News, Kursdaten und Hinweise automatisch ergänzt.",
-      "source": "Son of Lorenc",
+      "d": "2026-05-08T02:22:00Z",
+      "p": 22.12,
+      "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
+      "phase": "Quartalszahlen / Cash",
+      "reaction": "fundamentaler Risiko-Trigger",
+      "details": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+      "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+      "impact": "fundamentaler Risiko-Trigger",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0tfQlFLZjF0UE9VQ3JreHdiWEw3SW1ETG5oUFVnZk9oSVRBYlZTZVplZDBiUmVZdS1ZZ3pZMFBJTmpDTmZlQUY0TWo5RE83azZia3o0eXJCV1NNbnIzMFQzNHc2ZEFRVEhQZHJKWE1HYnZVLXZ4VUxEajljQnZjenItOXF0Vmg2aXNtQlBIQkdNdlBYN3JacWRaelY1VUhncG5mbmtDdTB5bUx5T1JoWGJMWDBpSWNBMVNUd3BBdXVQYUk?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-04-22T07:00:00Z",
+      "p": 22.12,
+      "title": "Definium: Drei entscheidende Studienergebnisse für Hoffnungsträger gegen Depressionen und Angststörungen erwartet - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQT2I5R2dmVmpoV3pGOTgyQXVQNnlzRlJBTjdpRGtUNDB6ZHlBd0ZqUF96X2FSS3BKS01Ba2VhRnVxQWRRMnZEelkxZnd1U0xBU3RTclkxUDJGWUFMb0NrZU9VbE50WktudWVVaXJMV2JWVmFjejlXMkFQLVhaRm5BR04welN4SHM0SXpxRk5WOGRJUEVpanlXUUlMME9vLURuR1I3cmo4T0J5WUZ2RUJPVVN0Z2NQMVBBZmU0RUJJbU42bGloQmRZUUN4eFUzVFFndTB3S2xELTdQWG9tLTcxYzhsZG9Hb0NDZURIOHY1WEtmTGN3OThodWxtUWY?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-04-10T07:00:00Z",
+      "p": 22.12,
+      "title": "Piper Sandler stuft Definium mit \"Overweight\" ein und sieht Kurspotenzial von über 100 % - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNLUFKaVZkWWl3MmpEY3puVW5UMFQtVmwxVDRaNnAzNVZkc2hGc2lIUnE3NkJwaDFNOFNYM3RNRVpGU1hxOWowcUNwWUlhRWhlZTRSRFJ0aXpEZFRnQzBOMzNZUWNGWHRDWjlhVlNqcDBpM2lnSzAzRm9BRjEtdVJ6Rk5LMVZ4SjNEM0dIaXZNbURqMUFUMnZUVVA3b01QTHFTZ1d2Y2tLYm01N0V4TUVqUFdsSGprdWxWamxjbW04T095ZHo2b1VyZHlKWDZfeWNiSXEyYnhvNWNVQVR6?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-03-28T07:00:00Z",
+      "p": 22.12,
+      "title": "Definium Therapeutics Aktie: Daten-Sommer 2026 - AD HOC NEWS",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeDN1cnJFWTNWRUM2M1Izbmt0TGpKQUJyc0tqVndzZnFjTjRrLWlZaHQyZ2Q3M0pIMFdyOE90dEpVdDl3VnR6dDJjel9rb01fSDV2UWxZeVpXZWQ5bk15NlRJOGxBOHpwVHYyWnN6TjVnLVYzX096LUM1c0VrLWp1bFZsWGp5dGlBMl80RXNjVXdoZllYYkRtTFp3SGI4Zkk5elFUMXJmSQ?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-03-10T07:00:00Z",
+      "p": 22.12,
+      "title": "Aktie von Definium Therapeutics erreicht 52-Wochen-Hoch bei 18,71 USD - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNzNYdXVRZWxqeVV3SXpwYk1fVVJESGJsakwwcDNPcThDX3FYTjl6N1c1dmpHRzNRaE9RRzJ6YTRDOHpPWVpzMTR6VUlZcVctME1ENGJNWW5fc3d1c3M5WkZkeFdzcWZXa3dfSDRCWHRYbDJJUnNFaXFRLXNHTmxnd2hUSGtmV1FFNXpfQU1MQ0lSUVdTVm81NklEZ094UGkzcEs2ZENLVUkwSXh2WXNNcllETVZ5N1dFQ01hdDNpNA?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-01-17T05:43:45Z",
+      "p": 22.12,
+      "title": "Definium Therapeutics Aktie (A420P3,DFTX,CA24477V1058) - Finanzen.net",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Finanzen.net",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kT0RTMXlPb01BNmdvYzBQcWkwWk12dVJieUFYYVgwSEVudmNFbWQzcW5QLUpYajB1R0pUdFRPeUlVMndmLXNIaW04aklYcWxCYkFxTGRjTDQ0RTBLY0xQenZiTUNNLU9pSUNZ?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-01-15T08:00:00Z",
+      "p": 22.12,
+      "title": "Definium Therapeutics-Aktie erreicht 52-Wochen-Hoch bei 15,3 USD - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSGVJSmN1a2JBN1dJNlphdlhsd3VXR0RJcGY5R0d0UWN5RFlVTFZNYkV3RGxYX0xZSTdodXZsZERMT1ZMaUlQaFQwbFJkRjdnWm5TUU0wTDV6WllJRFJrcDFJNGhyaU5fM29IY3Y5b3lrcWZSNDNtLVhEMVBQalZLMG9KZzUtUWxjRHB5Y3FUVC1nd0FxY2JQeEhuYWlKQnZwNlZrR3JMdnVBdFo4N1gwNXdPbDZISGM?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 22.12,
+      "title": "10-Q · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526211989/dftx-20260331.htm",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 22.12,
+      "title": "8-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526211929/dftx-20260507.htm",
+      "future": false
+    },
+    {
+      "d": "2026-04-27",
+      "p": 22.12,
+      "title": "DEFA14A · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526182066/defa14a_2026_proxy_notic.htm",
       "future": false
     }
   ],
-  "pipeline_intro": "Wird nach dem nächsten Update automatisch anhand von News, Alias-Begriffen und Studien-/Produktnamen ergänzt.",
-  "pipeline": [],
-  "zones": [],
-  "catalysts": [],
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
+  "pipeline": [
+    {
+      "stage": "Geschäft / Forschungsschwerpunkt",
+      "class": "early",
+      "name": "psychische / neurologische Erkrankungen",
+      "text": "Definium Therapeutics wird anhand der gefundenen Daten als Unternehmen im Bereich psychische / neurologische Erkrankungen eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Rücksetzer: ca. $18.14–$19.91",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
+    },
+    {
+      "zone": "Arbeitsbereich: ca. $21.01–$23.89",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
+    },
+    {
+      "zone": "Momentum: über ca. $26.1",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
+    },
+    {
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
+    }
+  ],
   "scenarios": {
     "bear": {
       "title": "Schlechter Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
       "title": "Normaler Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
       "title": "Guter Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
-  "risks": [],
+  "risks": [
+    {
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
+    },
+    {
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
+    },
+    {
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    }
+  ],
   "clear_view": [
-    "Dieses Dossier wurde neu angelegt. Nach dem nächsten Update werden aktuelle News, Kursverlauf, wichtige Hinweise und eine einfache Ersteinschätzung ergänzt."
+    "Definium Therapeutics (DFTX) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:23:32Z",
+    "last_update_utc": "2026-05-11T15:32:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 22.065,
+      "regularMarketPrice": 22.17,
       "previousClose": 21.75,
-      "change": 0.315,
-      "changePercent": 1.45
+      "change": 0.42,
+      "changePercent": 1.93
     },
     "price_history": [
       {
-        "t": "2026-05-11T15:23:32Z",
-        "price": 22.065
+        "t": "2026-04-13T13:30:00Z",
+        "price": 22.25
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 21.93
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 22.15
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 22.46
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 22.68
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
+        "price": 23.18
+      },
+      {
+        "t": "2026-04-21T13:30:00Z",
+        "price": 23.84
+      },
+      {
+        "t": "2026-04-22T13:30:00Z",
+        "price": 23.08
+      },
+      {
+        "t": "2026-04-23T13:30:00Z",
+        "price": 23.26
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 22.48
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 20.98
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 21.27
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 20.49
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 21.88
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 21.7
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 21.75
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 22.4
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
+        "price": 23.42
+      },
+      {
+        "t": "2026-05-07T13:30:00Z",
+        "price": 23.2
+      },
+      {
+        "t": "2026-05-08T13:30:00Z",
+        "price": 22.05
+      },
+      {
+        "t": "2026-05-11T13:30:00Z",
+        "price": 22.17
       }
     ],
+    "price_history_range": "1mo",
     "news": [
       {
         "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
@@ -97,7 +339,8 @@
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen."
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Definium: Drei entscheidende Studienergebnisse für Hoffnungsträger gegen Depressionen und Angststörungen erwartet - Investing.com Deutsch",
@@ -112,7 +355,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Piper Sandler stuft Definium mit \"Overweight\" ein und sieht Kurspotenzial von über 100 % - Investing.com Deutsch",
@@ -127,7 +371,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Definium Therapeutics Aktie: Daten-Sommer 2026 - AD HOC NEWS",
@@ -142,7 +387,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Aktie von Definium Therapeutics erreicht 52-Wochen-Hoch bei 18,71 USD - Investing.com Deutsch",
@@ -157,22 +403,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "DFTX Prognose — Kursziel für 2027 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qaFpaRldyVzNhUGF5VEhNaUYzbW9JcEZhR0ZVNjIyVkhsMHNVd0dQZmtzRXBwcjVBaDBSQXZNdFVSRVFIdlJkUWJPMzZKV0tuSEd6TnQxb0pMLW5ZcnVKeklNbnZaS1E?oc=5",
-        "published_at": "2026-01-17T11:40:06Z",
-        "source": "TradingView",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Definium Therapeutics Aktie (A420P3,DFTX,CA24477V1058) - Finanzen.net",
@@ -187,22 +419,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "DFTX Aktienkurs und Chart — NASDAQ:DFTX - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Hc3NhVHd0YWVGUWZUem1xVmF4MWxkamVRZE1lWUNaUndXbnFwbkRLb0piZnQyT3BSUWhnUzY2Wk5UVUhlUFB1WDEtNUg4bVNkM21RM2tBWkt6WkU?oc=5",
-        "published_at": "2026-01-15T18:49:42Z",
-        "source": "TradingView",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 16
       },
       {
         "title": "Definium Therapeutics-Aktie erreicht 52-Wochen-Hoch bei 15,3 USD - Investing.com Deutsch",
@@ -217,7 +435,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       }
     ],
     "sec_filings": [

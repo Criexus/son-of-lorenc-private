@@ -4,15 +4,15 @@
   "name": "Guardant Health",
   "eyebrow": "Son of Lorenc · Phasenanalyse · GH",
   "headline": "Guardant Health – einfache Phasenanalyse",
-  "thesis": "Kurzthese: Guardant Health wurde neu in das Son-of-Lorenc-System aufgenommen. Nach dem nächsten Update werden News, Kursdaten, SEC-/Unternehmensmeldungen und die erste Einschätzung automatisch ergänzt.",
+  "thesis": "Kurzthese: Guardant Health wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-11",
   "phase": "Automatische Grundanalyse",
   "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$96.56",
-      "note": "Auto-Update: 5.91% vs. vorheriger Schlusskurs",
+      "value": "$96.52",
+      "note": "Auto-Update: 5.87% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -28,61 +28,299 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Diese Zeitlinie wird nach dem nächsten Update mit Kurs- und Nachrichtendaten befüllt.",
-  "chart_note": "Kein Livechart. Der Kursverlauf wird beim Update gespeichert.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1,
-      "title": "Dossier angelegt",
-      "phase": "Start",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Nach dem nächsten Update werden News, Kursdaten und Hinweise automatisch ergänzt.",
-      "source": "Son of Lorenc",
+      "d": "2026-05-08T03:33:00Z",
+      "p": 96.52,
+      "title": "Guardant Health Q1 2026: Umsatz steigt dank Shield-Dynamik um 48 % - Investing.com Deutsch",
+      "phase": "Quartalszahlen / Cash",
+      "reaction": "fundamentaler Risiko-Trigger",
+      "details": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+      "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+      "impact": "fundamentaler Risiko-Trigger",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdnc4TXRrV29pakNwdmdvVEJ2ZVZBZVR3ZVRmaU05b3RhS0I1S2NiNUVRU2IxYjFybS1nYXpzX0hrdTRyQUNVSDRSdTJacGV4NExlMVhLSXRfQ3NMY0liU1FQVk44VnZGUjF3NkxUZWdoaXJ0ajBwM3RSYlpkSnZ1NElZSTUwanpNbG1ITnQ0RXIwNWViQjRJNTlyazRkWEVDUnY3RWtoMmxKeGlhNjZLUWU1eEcybElwalpr?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-05-04T12:19:00Z",
+      "p": 96.52,
+      "title": "Guardant Health erhält FDA-Zulassung für Begleitdiagnostikum zu VEPPANU - Investing.com Deutsch",
+      "phase": "FDA / Regulatorik",
+      "reaction": "potenziell hoher Kurshebel",
+      "details": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+      "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+      "impact": "potenziell hoher Kurshebel",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXE5U0xpUVotSzRjSndSSEJvdnpVV3J1YkM4LU5tX1gyOHRBaUJsUDNrSkFFbkZRVXhUWnpCTHg5cmlDRndNNjlSaDItcU9XSkU1TXJSVDdianVDWWhtaGg5Q1ZzMFhwVEtmNm9RRWIzcTZUeWtHTjZZbW41cno2RWp4akkycG4zSlJLa2xsaWFRMG5NQ015V29wMGdzdVhlamRoZFdTQTcydGxHYTk5WE44a1ljZVJhckNYTlR3bFljaFp5?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-04-07T07:00:00Z",
+      "p": 96.52,
+      "title": "Guardant Health: Personalvorständin verkauft Aktien im Wert von 355.000 $ - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM2hvQ0d0QUEwODF5NkU2STZ4OURDendBTmJQNG8zV3JwcnVPSFdxMlJiZFhzekFiZkpzTzBmMGUwSzRCcElNNkZYSmZENGFXdncxamdheVAzUFZzeVA4VDBYMkNZemk3R1pxVTFXRHNvMm83elV4R01JMjJMQmJEak9sLU55X0dpU1BaUEt4am9xZkx2OC00RGliSjFqUE94R1gtUEJZSVVJVWE4Q3dQV1NlX19ZWXNhYzQ3UFlLM25EQzZ6X1NmRXNfMzNLRFE?oc=5",
+      "future": false
+    },
+    {
+      "d": "2025-06-03T07:00:00Z",
+      "p": 96.52,
+      "title": "Bluttest für acht Krebsarten: Guardant Healths großer Schritt - Finanztrends",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Finanztrends",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU2VWcEFNMk5TeHF2V2p4RElkaFRLUXFLay1fcmJfNFZwY0FSUVNsSkthbGZ0VUxEclFPajIxYV9SdEtjcW9UVDJXcW5LM1UxMXV2VFB2ZVdrZ0Q2WFBBOUNjb2hRVUZ2QVZwTmtxaFRxMWN4T1Q2MkhYYldZNXNnLU1vc1hscnBoR09Ca0t4TEl2M09Hdmc?oc=5",
+      "future": false
+    },
+    {
+      "d": "2025-05-01T07:00:00Z",
+      "p": 96.52,
+      "title": "Canaccord erhöht Kursziel für Guardant Health auf 65 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTWxiRVVEUFlzem5ZcXUzYUxoOUU3MlBCeDZObVlFWFJacVBneXh2XzNTRjE3b25tV2w4TnF3M1NlUGhMUlVCSnNKR29PanRIOVBrLUh1RFNGc0FBYWhQUzdPRGlTX2lCSk92ZkY3LUhzUW5XYUJmQ1lCZy1TeTVSWDFTVHg4S1pkRDFIMWxacEFZVDlVSVB5b25BU0ppVGFWWS1CaGVWQmotVXF6XzBsSUFGVVZGYjJvOGstRnZKQWRMUzFCZ0NyNV9HdmRWRXB1N1JZSTZyS01INmhGcVow?oc=5",
+      "future": false
+    },
+    {
+      "d": "2018-10-20T09:10:21Z",
+      "p": 96.52,
+      "title": "Technische Analyse von Guardant Health, Inc. (NASDAQ: GH) - TradingView",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Fa1ctSWRxWjhYQTExTUZiamNCNU5SbEE0VG1aUDhuYWFXSmpCb0Fwdnk1UW9acDVUUHZwWGxHUFUyblpEY1JNSE9aTElQV2k2WmJZbEpFajBPUkdsekRGZWpidW0zYjg?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 96.52,
+      "title": "10-Q · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000026/gh-20260331.htm",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 96.52,
+      "title": "8-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000024/gh-20260507.htm",
+      "future": false
+    },
+    {
+      "d": "2026-05-01",
+      "p": 96.52,
+      "title": "4 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1576280/000166623626000011/xslF345X06/wk-form4_1777671928.xml",
       "future": false
     }
   ],
-  "pipeline_intro": "Wird nach dem nächsten Update automatisch anhand von News, Alias-Begriffen und Studien-/Produktnamen ergänzt.",
-  "pipeline": [],
-  "zones": [],
-  "catalysts": [],
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
+  "pipeline": [
+    {
+      "stage": "Geschäft / Forschungsschwerpunkt",
+      "class": "early",
+      "name": "Biotech / klinische Entwicklung",
+      "text": "Guardant Health wird anhand der gefundenen Daten als Unternehmen im Bereich Biotech / klinische Entwicklung eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Rücksetzer: ca. $79.15–$86.87",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
+    },
+    {
+      "zone": "Arbeitsbereich: ca. $91.69–$104.24",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
+    },
+    {
+      "zone": "Momentum: über ca. $113.89",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
+    },
+    {
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Behörde",
+      "title": "FDA-/Zulassungs- oder Behördenmeldung",
+      "text": "Solche Meldungen können stark bewegen. Entscheidend ist, ob die Behörde wirklich etwas bestätigt oder ob nur ein Plan kommuniziert wurde."
+    },
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
+    }
+  ],
   "scenarios": {
     "bear": {
       "title": "Schlechter Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
       "title": "Normaler Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
       "title": "Guter Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
-  "risks": [],
+  "risks": [
+    {
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
+    },
+    {
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
+    },
+    {
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    },
+    {
+      "title": "Behördenrisiko",
+      "text": "Wenn FDA oder andere Behörden anders entscheiden als erwartet, kann das den Kurs stark beeinflussen."
+    }
+  ],
   "clear_view": [
-    "Dieses Dossier wurde neu angelegt. Nach dem nächsten Update werden aktuelle News, Kursverlauf, wichtige Hinweise und eine einfache Ersteinschätzung ergänzt."
+    "Guardant Health (GH) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Es wurden wichtige Hinweise gefunden, die man genauer lesen sollte. Besonders relevant sind Meldungen zu Studien, Behörden, Finanzierung oder möglichen neuen Aktien.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:23:21Z",
+    "last_update_utc": "2026-05-11T15:32:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 96.56,
+      "regularMarketPrice": 96.52,
       "previousClose": 91.17,
-      "change": 5.39,
-      "changePercent": 5.91
+      "change": 5.35,
+      "changePercent": 5.87
     },
     "price_history": [
       {
-        "t": "2026-05-11T15:23:21Z",
-        "price": 96.56
+        "t": "2026-04-13T13:30:00Z",
+        "price": 82.21
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 86.4
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 84.86
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 85.7
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 90.36
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
+        "price": 91.07
+      },
+      {
+        "t": "2026-04-21T13:30:00Z",
+        "price": 90.36
+      },
+      {
+        "t": "2026-04-22T13:30:00Z",
+        "price": 89.56
+      },
+      {
+        "t": "2026-04-23T13:30:00Z",
+        "price": 87.87
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 88.91
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 88.5
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 83.09
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 83.41
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 87.08
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 87.6
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 91.17
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 89.52
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
+        "price": 92.25
+      },
+      {
+        "t": "2026-05-07T13:30:00Z",
+        "price": 92.26
+      },
+      {
+        "t": "2026-05-08T13:30:00Z",
+        "price": 95.7
+      },
+      {
+        "t": "2026-05-11T13:30:00Z",
+        "price": 96.52
       }
     ],
+    "price_history_range": "1mo",
     "news": [
       {
         "title": "Guardant Health Q1 2026: Umsatz steigt dank Shield-Dynamik um 48 % - Investing.com Deutsch",
@@ -97,7 +335,8 @@
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen."
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 17
       },
       {
         "title": "Guardant Health erhält FDA-Zulassung für Begleitdiagnostikum zu VEPPANU - Investing.com Deutsch",
@@ -112,37 +351,8 @@
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
-        "title": "Exact Sciences Corp. Aktie (US30063P1057): Abbott schließt Übernahme ab – Merger wirksam am 23.0 - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzJnWEdCRVhQMnJZck1teWZDRHdGVWIxODl4U3pFUU1OVk1KdGFCOU03ZXBMb3ZYb1h2bDRSSm1zZl96UzJPSXBRMDlXdzdiaXpYV3Z3MWMzSzZaeEhuRmh4aVA3UXJHRVlGeDl2LVdWMDgzR0xlb3p0WTc4dzN0X0ZXUDNleFN6dVRfVWpiZHdkTllnd3BfeDVFbmp1QVpZeERjVndQR3lUY2xvZkRrQzBDNm0wLUtfVlVqRnlkWHQtTXpCZEtF?oc=5",
-        "published_at": "2026-04-29T12:27:09Z",
-        "source": "AD HOC NEWS",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Partnerschaft / Deal",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Partnerschaft / Deal.",
-        "impact": "möglicher Validierungs-Trigger",
-        "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
-        "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "summary": "Trigger erkannt: Partnerschaft / Deal. Einordnung: Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen. Beobachten: Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen."
-      },
-      {
-        "title": "Exact Sciences Corp. Aktie (US30063P1057): Q1/2026-Zahlen am 28.04.2026 nach Börsenschluss erwartet - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbHdOTFhCT2tTWnM1dVE4M25JeHdleWRJajBYaFNFR3J3cEswOXh5WEdiWDhNUFdEZ19CbUFQOWZZZ0h5bElyTGxkSzIzeG40VUR5amdId2pWSU9hMTFiTDRlbG9SZGtEMy1QUXZ0UW9iWXlrTnpmYU0xUDlJSm85SklhcjROTk9aNmxiRnhDUmhPaDQzamZwRTBqOEg0RGgyczZHMUY1a1oyRC0zeXgzRG05UzJ5TzJCYUN2UG12RXhyc3RP?oc=5",
-        "published_at": "2026-04-28T11:11:12Z",
-        "source": "AD HOC NEWS",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen."
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 13
       },
       {
         "title": "Guardant Health: Personalvorständin verkauft Aktien im Wert von 355.000 $ - Investing.com Deutsch",
@@ -157,37 +367,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Cathie Woods ARK verkauft Roku-Aktien und investiert in KI-Unternehmen - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbUU3TTVEcXF6MTlpM2dBNmQ1dVl5QXVwSlJKcFhWcDBPUXdIREZEdEVMYVF2Y2hJSzFBMk5aWm5ncFN2dW5FUVVjQnNrblRORkYySDFSTFVaUkdJUzdqdDdYcGh1dExwejhLUGF2RGdtTUNiRHE4VlZJTzFuRWZZUjZVNi1MNnQ2U0hvcUtMSFRTc0xVYWFucTNLdm4yUzBVQndUdHRTYVpjS3hISnQzdDNWRlRraDE1RTVqQ2ZETG1zQQ?oc=5",
-        "published_at": "2026-01-06T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Analysten verraten: Die besten Large Caps für Dein Portfolio - sharedeals.de",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYkFLTGlycktCYkJPcTJsVWIydTZvZnlHcWl4N0ZmMUxkdl96eS10b0pidDdKcmtSdENMZzBnSFM4QnhhclBKc3BiOGt2bzFjS2J1eFFUV2F2YThYRV9aWi1yVXpYY21haG5vNElSd2hTTEVYMGdNZWhtOVhZNnRiVjZXUG1obTZCbVZHV05oWVY?oc=5",
-        "published_at": "2026-01-03T08:00:00Z",
-        "source": "sharedeals.de",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Partnerschaft / Deal",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Partnerschaft / Deal.",
-        "impact": "möglicher Validierungs-Trigger",
-        "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
-        "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "summary": "Trigger erkannt: Partnerschaft / Deal. Einordnung: Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen. Beobachten: Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Bluttest für acht Krebsarten: Guardant Healths großer Schritt - Finanztrends",
@@ -202,7 +383,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Canaccord erhöht Kursziel für Guardant Health auf 65 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
@@ -217,37 +399,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Darmkrebs im Blut erkennen? - Krebsinformationsdienst",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSjBmU1ZESFd4OEIzUkhETkExb2w0akpCalY0X3NZX1lnOFBwbUp4SXlGckNaY0twQWRwYlVwelgtdTU5b2k5LTdJOFRPZVZxY0laalQybHBoUU9qeHlDRjcxYkt2eW5hc3MyejRYbGFLU0pqbHdCVzZyUkZITkNEQXNiNjI0amZ6cXFzRmFZMzcyX21qc0M3cmdJWQ?oc=5",
-        "published_at": "2025-04-24T07:00:00Z",
-        "source": "Krebsinformationsdienst",
-        "query": "\"Guardant Health\" Shield blood test news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Erster Bluttest auf Darmkrebs in den USA zugelassen - mgo medizin",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTVZObnNWZkk4Zk92Q0dfYjlfTGprN3hPQmNIYXJzV1Rzb3ZPVy1VRGtQMWJxLXF3RHlGbmFtS0IzbXk1V19BQXgtM0Y2RGtyLVE0a2xJWFlsVFFsQ3ViSUVMTHBUNXpnNTZHdGZiNkJiWi1lZ05BSndRWEJ2ak5wNk9BeUI2R2pLMTg1bGR6Y2JUX0pxT0Q1Umd6ZHI5cnhqRGJlM0xldTZqOFU1enNEbjN5em9zOG8tanM2M0U2QUNYV3l2SjZUOFBnaVVHOTlj?oc=5",
-        "published_at": "2024-08-20T07:00:00Z",
-        "source": "mgo medizin",
-        "query": "\"Guardant Health\" Shield blood test news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Technische Analyse von Guardant Health, Inc. (NASDAQ: GH) - TradingView",
@@ -262,7 +415,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 14
       }
     ],
     "sec_filings": [
@@ -422,48 +576,12 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXE5U0xpUVotSzRjSndSSEJvdnpVV3J1YkM4LU5tX1gyOHRBaUJsUDNrSkFFbkZRVXhUWnpCTHg5cmlDRndNNjlSaDItcU9XSkU1TXJSVDdianVDWWhtaGg5Q1ZzMFhwVEtmNm9RRWIzcTZUeWtHTjZZbW41cno2RWp4akkycG4zSlJLa2xsaWFRMG5NQ015V29wMGdzdVhlamRoZFdTQTcydGxHYTk5WE44a1ljZVJhckNYTlR3bFljaFp5?oc=5"
       },
       {
-        "type": "Partnerschaft / Deal",
-        "level": "medium",
-        "title": "Analysten verraten: Die besten Large Caps für Dein Portfolio - sharedeals.de",
-        "reason": "Trigger erkannt: Partnerschaft / Deal.",
-        "impact": "möglicher Validierungs-Trigger",
-        "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
-        "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "source": "sharedeals.de",
-        "date": "2026-01-03T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYkFLTGlycktCYkJPcTJsVWIydTZvZnlHcWl4N0ZmMUxkdl96eS10b0pidDdKcmtSdENMZzBnSFM4QnhhclBKc3BiOGt2bzFjS2J1eFFUV2F2YThYRV9aWi1yVXpYY21haG5vNElSd2hTTEVYMGdNZWhtOVhZNnRiVjZXUG1obTZCbVZHV05oWVY?oc=5"
-      },
-      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-04-27",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-27"
-      },
-      {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Exact Sciences Corp. Aktie (US30063P1057): Q1/2026-Zahlen am 28.04.2026 nach Börsenschluss erwartet - AD HOC NEWS",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "AD HOC NEWS",
-        "date": "2026-04-28T11:11:12Z",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbHdOTFhCT2tTWnM1dVE4M25JeHdleWRJajBYaFNFR3J3cEswOXh5WEdiWDhNUFdEZ19CbUFQOWZZZ0h5bElyTGxkSzIzeG40VUR5amdId2pWSU9hMTFiTDRlbG9SZGtEMy1QUXZ0UW9iWXlrTnpmYU0xUDlJSm85SklhcjROTk9aNmxiRnhDUmhPaDQzamZwRTBqOEg0RGgyczZHMUY1a1oyRC0zeXgzRG05UzJ5TzJCYUN2UG12RXhyc3RP?oc=5"
-      },
-      {
-        "type": "Partnerschaft / Deal",
-        "level": "medium",
-        "title": "Exact Sciences Corp. Aktie (US30063P1057): Abbott schließt Übernahme ab – Merger wirksam am 23.0 - AD HOC NEWS",
-        "reason": "Trigger erkannt: Partnerschaft / Deal.",
-        "impact": "möglicher Validierungs-Trigger",
-        "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
-        "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "source": "AD HOC NEWS",
-        "date": "2026-04-29T12:27:09Z",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYzJnWEdCRVhQMnJZck1teWZDRHdGVWIxODl4U3pFUU1OVk1KdGFCOU03ZXBMb3ZYb1h2bDRSSm1zZl96UzJPSXBRMDlXdzdiaXpYV3Z3MWMzSzZaeEhuRmh4aVA3UXJHRVlGeDl2LVdWMDgzR0xlb3p0WTc4dzN0X0ZXUDNleFN6dVRfVWpiZHdkTllnd3BfeDVFbmp1QVpZeERjVndQR3lUY2xvZkRrQzBDNm0wLUtfVlVqRnlkWHQtTXpCZEtF?oc=5"
       },
       {
         "type": "SEC · Finanzbericht",

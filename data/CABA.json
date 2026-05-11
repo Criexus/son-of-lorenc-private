@@ -3,11 +3,11 @@
   "exchange": "NASDAQ",
   "name": "Cabaletta Bio",
   "eyebrow": "Son of Lorenc · Phasenanalyse · CABA",
-  "headline": "Cabaletta Bio – Phasenanalyse im Aufbau",
-  "thesis": "Kurzthese: CABA wurde neu in das Son-of-Lorenc-System aufgenommen. Der Dossier-Aufbau ist vorbereitet; aktuelle News, Kursdaten und SEC-Filings werden über das Update-System geladen.",
+  "headline": "Cabaletta Bio – einfache Phasenanalyse",
+  "thesis": "Kurzthese: Cabaletta Bio wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-06",
-  "phase": "A/B · Beobachtung / Story-Aufbau",
-  "character": "Research-Wert · Risiko prüfen",
+  "phase": "Automatische Grundanalyse",
+  "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
@@ -46,144 +46,127 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
-  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1,
-      "title": "Dossier angelegt",
-      "phase": "Phase A – Aufbau",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
-      "source": "Son of Lorenc",
+      "d": "2026-05-04",
+      "p": 3.88,
+      "title": "8-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526202446/d145767d8k.htm",
       "future": false
     },
     {
-      "d": "News",
-      "p": 1.2,
-      "title": "Automatische News folgen",
-      "phase": "Phase B – Monitoring",
-      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
-      "details": "Kursrelevanz muss geprüft werden.",
-      "source": "Automatisches Monitoring",
+      "d": "2026-05-04",
+      "p": 3.88,
+      "title": "424B5 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526202441/d930265d424b5.htm",
       "future": false
     },
     {
-      "d": "Katalysator",
-      "p": 1.35,
-      "title": "Nächsten harten Trigger definieren",
-      "phase": "Nächster Katalysator",
-      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
-      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
-      "source": "manuelle Analyse",
-      "future": true
+      "d": "2026-05-04",
+      "p": 3.88,
+      "title": "8-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526202389/d110169d8k.htm",
+      "future": false
     }
   ],
-  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
   "pipeline": [
     {
-      "stage": "Lead Asset / Haupttreiber",
-      "class": "phase3",
-      "name": "Hauptprogramm",
-      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
-      "score": 70,
-      "score_label": "hoch"
-    },
-    {
-      "stage": "Zweitprogramm / Option",
-      "class": "phase2",
-      "name": "Zweitprogramm",
-      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
-      "score": 50,
-      "score_label": "mittel"
-    },
-    {
-      "stage": "Early Stage",
+      "stage": "Geschäft / Forschungsschwerpunkt",
       "class": "early",
-      "name": "Frühe Pipeline",
-      "text": "Langfristiger Optionswert.",
-      "score": 30,
-      "score_label": "langfristig"
+      "name": "Biotech / klinische Entwicklung",
+      "text": "Cabaletta Bio wird anhand der gefundenen Daten als Unternehmen im Bereich Biotech / klinische Entwicklung eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
     }
   ],
   "zones": [
     {
-      "zone": "Pullback",
-      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+      "zone": "Rücksetzer: ca. $3.18–$3.49",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
     },
     {
-      "zone": "Arbeitszone",
-      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+      "zone": "Arbeitsbereich: ca. $3.69–$4.19",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
     },
     {
-      "zone": "Momentum",
-      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+      "zone": "Momentum: über ca. $4.58",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
     },
     {
-      "zone": "Warnzone",
-      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
     }
   ],
   "catalysts": [
     {
-      "tag": "Kurzfristig",
-      "title": "Nächste News / Quartalszahlen",
-      "text": "Termin oder Katalysator ergänzen."
+      "tag": "Geld / neue Aktien",
+      "title": "Finanzierung oder mögliche Verwässerung",
+      "text": "Wenn das Unternehmen neue Aktien ausgibt, kann das den Kurs drücken. Gleichzeitig braucht ein kleines Biotech-Unternehmen oft frisches Geld."
     },
     {
-      "tag": "Mittelfristig",
-      "title": "Pipeline-/Projektupdate",
-      "text": "Relevanten operativen Meilenstein ergänzen."
-    },
-    {
-      "tag": "Risiko",
-      "title": "Cash / Verwässerung prüfen",
-      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
     }
   ],
   "scenarios": {
     "bear": {
-      "title": "Bear Case",
-      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+      "title": "Schlechter Fall",
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
-      "title": "Base Case",
-      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+      "title": "Normaler Fall",
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
-      "title": "Bull Case",
-      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+      "title": "Guter Fall",
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
   "risks": [
     {
-      "title": "Studiendaten-/Projekt-Risiko",
-      "text": "Operative Fortschritte müssen bestätigt werden."
+      "title": "Neue Aktien / Verwässerung",
+      "text": "Es gibt Hinweise auf Finanzierungsthemen. Das kann bedeuten, dass bestehende Aktionäre durch neue Aktien verwässert werden."
     },
     {
-      "title": "Verwässerungsrisiko",
-      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
     },
     {
-      "title": "Volatilität",
-      "text": "Kleine und mittlere Werte reagieren stark auf News."
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
     },
     {
-      "title": "Hype-Risiko",
-      "text": "Schnelle Peaks werden oft wieder abverkauft."
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
     }
   ],
   "clear_view": [
-    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
-    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+    "Cabaletta Bio (CABA) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc Mastertemplate",
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:23:09Z",
+    "last_update_utc": "2026-05-11T15:32:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -194,54 +177,91 @@
     },
     "price_history": [
       {
-        "t": "2026-05-07T04:54:24Z",
+        "t": "2026-04-13T13:30:00Z",
+        "price": 3.2
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 3.26
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 3.4
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 3.44
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
+        "price": 3.305
+      },
+      {
+        "t": "2026-04-21T13:30:00Z",
+        "price": 3.13
+      },
+      {
+        "t": "2026-04-22T13:30:00Z",
+        "price": 3.17
+      },
+      {
+        "t": "2026-04-23T13:30:00Z",
+        "price": 3.05
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 2.91
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 2.86
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 2.78
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 3.83
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 4.15
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
         "price": 3.73
       },
       {
-        "t": "2026-05-07T15:10:02Z",
-        "price": 4.01
-      },
-      {
-        "t": "2026-05-07T17:13:58Z",
-        "price": 3.89
-      },
-      {
-        "t": "2026-05-07T19:11:16Z",
-        "price": 3.88
-      },
-      {
-        "t": "2026-05-07T20:45:50Z",
+        "t": "2026-05-07T13:30:00Z",
         "price": 4.0
       },
       {
-        "t": "2026-05-08T14:47:43Z",
-        "price": 3.84
-      },
-      {
-        "t": "2026-05-08T16:09:18Z",
-        "price": 3.945
-      },
-      {
-        "t": "2026-05-08T17:50:24Z",
-        "price": 3.895
-      },
-      {
-        "t": "2026-05-08T19:03:18Z",
-        "price": 3.89
-      },
-      {
-        "t": "2026-05-08T20:33:12Z",
+        "t": "2026-05-08T13:30:00Z",
         "price": 3.88
       },
       {
-        "t": "2026-05-11T15:13:08Z",
-        "price": 3.87
-      },
-      {
-        "t": "2026-05-11T15:23:09Z",
+        "t": "2026-05-11T13:30:00Z",
         "price": 3.875
       }
     ],
+    "price_history_range": "1mo",
     "news": [],
     "sec_filings": [
       {

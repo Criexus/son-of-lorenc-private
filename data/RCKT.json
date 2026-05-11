@@ -3,16 +3,16 @@
   "exchange": "NASDAQ",
   "name": "Rocket Pharmaceuticals",
   "eyebrow": "Son of Lorenc · Phasenanalyse · RCKT",
-  "headline": "Rocket Pharmaceuticals – Phasenanalyse im Aufbau",
-  "thesis": "Kurzthese: RCKT wird im Son-of-Lorenc-System beobachtet. Die Struktur entspricht exakt dem ATAI-Masterlayout; Inhalte werden über JSON gepflegt und können später per KI oder manuell vertieft werden.",
+  "headline": "Rocket Pharmaceuticals – einfache Phasenanalyse",
+  "thesis": "Kurzthese: Rocket Pharmaceuticals wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-06",
-  "phase": "A/B · Beobachtung / Story-Aufbau",
-  "character": "Hochvolatil · Research-Wert",
+  "phase": "Automatische Grundanalyse",
+  "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.77",
-      "note": "Auto-Update: 4.43% vs. vorheriger Schlusskurs",
+      "value": "$3.74",
+      "note": "Auto-Update: 3.68% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -46,217 +46,354 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus den hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
-  "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1.0,
-      "title": "Dossier angelegt",
-      "phase": "Phase A – Aufbau",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.",
-      "source": "Son of Lorenc",
+      "d": "2026-03-27T07:00:00Z",
+      "p": 3.75,
+      "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
+      "phase": "FDA / Regulatorik",
+      "reaction": "potenziell hoher Kurshebel",
+      "details": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+      "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+      "impact": "potenziell hoher Kurshebel",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5",
       "future": false
     },
     {
-      "d": "News",
-      "p": 1.2,
-      "title": "Automatische News folgen",
-      "phase": "Phase B – Monitoring",
-      "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.",
-      "details": "Kursrelevanz muss geprüft werden.",
-      "source": "Automatisches Monitoring",
+      "d": "2026-03-27T07:00:00Z",
+      "p": 3.75,
+      "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
+      "phase": "FDA / Regulatorik",
+      "reaction": "potenziell hoher Kurshebel",
+      "details": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+      "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+      "impact": "potenziell hoher Kurshebel",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5",
       "future": false
     },
     {
-      "d": "Katalysator",
-      "p": 1.35,
-      "title": "Nächsten harten Trigger definieren",
-      "phase": "Nächster Katalysator",
-      "reaction": "Hier sollte der wichtigste Termin eingetragen werden.",
-      "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.",
-      "source": "manuelle Analyse",
-      "future": true
+      "d": "2025-10-14T07:00:00Z",
+      "p": 3.75,
+      "title": "Rocket Pharmaceuticals: FDA nimmt Zulassungsantrag für Gentherapie gegen seltene Krankheit an - Investing.com Deutsch",
+      "phase": "FDA / Regulatorik",
+      "reaction": "potenziell hoher Kurshebel",
+      "details": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+      "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+      "impact": "potenziell hoher Kurshebel",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSXlZenNlOVR3d0NEUXI4LVAySVltNS0wVVpHcFIwVW9xMENRb2JJdTV2Y3A0TVZ2c0xzZmd5aE5JNXVHVHRtWEZfQkNJOUJvMnBqY2g0MVhfYzBBWHhyZjRYQWlYN1hmNXdSdUF6d3hPaHNlcTRPWW9tcXowaXM5MGExSEdEUEVwTXl4T1VIakhDdE5TdENHZUhKVzZnWGEwRzludjlDQ1ZTYjJPb0hPSWxselhLaHBUdTVxVHIwczNwTTNOZ2NiMXRzSnl0Um1TdHh6bXp2ZlkxRlNUcFJnSjJ3?oc=5",
+      "future": false
+    },
+    {
+      "d": "2025-05-28T07:00:00Z",
+      "p": 3.75,
+      "title": "Scotiabank senkt Kursziel für Rocket Pharmaceuticals auf 19 US-Dollar - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbzJMTXd2SjFLaTBGcjQtRHhCMlR2TTNpdmpIVFBrMDBYY2U0S2tuVzZqSlNSejl1c1RYX3hfdDV2Q2VxRGRoSkpZanI2YWZVdE1UaGJGMHJqTENBMmFMWjdfclJuQVY0UmhTUGJCOGZJeWdLNEJ1M1dMa0JYZElJZ1FsRlNKT1hmYnlodmVwUzFEQjdkalQ5dElWWHRvYnNLajctM09XQms3VVpVWm9lUTh3RUM5aE1xZG9qZ1JZUWpUWk1wTnc?oc=5",
+      "future": false
+    },
+    {
+      "d": "2025-03-03T08:00:00Z",
+      "p": 3.75,
+      "title": "Scotiabank erhöht Kursziel für Rocket Pharmaceuticals auf 52 US-Dollar - Investing.com Deutsch",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Investing.com Deutsch",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNnczZFdyWXZsaHVKQ2hpR2h1NGV1aGk0OEpSa3RfbXkxMEtiLW1zelZCa0F3NEhYTWhzNGpyWW4tdHlNNWJDQVZCbXdjU1NJdG1iRjlRUjd4WUk0dmg1bnh6NWlwVldBQWhwU0NHVS15VFk5LUlGZGhTSmJqT01nOW9MZUwxWFU1TWQxT2NGRENHZkxUdGdxSWhaRzh4MDdCRW5qMmp5emowWkItZzBUa2F1MDh5UWU5TnlObHY5OHFyY29MREJr?oc=5",
+      "future": false
+    },
+    {
+      "d": "2021-10-10T07:26:07Z",
+      "p": 3.75,
+      "title": "ROCKET PHARMACEUTICALS Aktie • A2JA9Q • US77313F1066 - Onvista",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Onvista",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNei1iZTR0MkRvVGQzbklWdXdlOUVfZTJnQk1vano5czgzb2NUVnVhcUFYQXd6NHhhQlEtRGY4VndUZUdUR3BBTnpaaXlsdnBOZkpDM080bHQ0OUZ2czduT0lhZExaRHRPS2RSU0VMbi1CblRRemF4MG40OGIwdHZiZA?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 3.75,
+      "title": "8-K · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126019573/ef20072739_8k.htm",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 3.75,
+      "title": "10-Q · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1281895/000119312526211873/rckt-20260331.htm",
+      "future": false
+    },
+    {
+      "d": "2026-05-07",
+      "p": 3.75,
+      "title": "144 · offizielle Meldung",
+      "phase": "Offizielle Unternehmensmeldung",
+      "reaction": "SEC-Meldung gefunden. Auf Finanzierung, neue Aktien, Quartalszahlen oder Unternehmensereignisse prüfen.",
+      "details": "Offizielle SEC-Meldung",
+      "source": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003384/xsl144X01/primary_doc.xml",
+      "future": false
     }
   ],
-  "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
   "pipeline": [
     {
-      "stage": "Lead Asset / Haupttreiber",
+      "stage": "Programm / Wirkstoffkandidat",
       "class": "phase3",
-      "name": "Hauptprogramm",
-      "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.",
-      "score": 70,
-      "score_label": "hoch"
+      "name": "A601",
+      "text": "A601 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 76,
+      "score_label": "sehr wichtig"
     },
     {
-      "stage": "Zweitprogramm / Option",
+      "stage": "Programm / Wirkstoffkandidat",
       "class": "phase2",
-      "name": "Zweitprogramm",
-      "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.",
-      "score": 50,
-      "score_label": "mittel"
+      "name": "A701",
+      "text": "A701 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 62,
+      "score_label": "wichtig"
     },
     {
-      "stage": "Early Stage",
-      "class": "early",
-      "name": "Frühe Pipeline",
-      "text": "Langfristiger Optionswert.",
-      "score": 30,
-      "score_label": "langfristig"
+      "stage": "Programm / Wirkstoffkandidat",
+      "class": "phase2",
+      "name": "COVID-19",
+      "text": "COVID-19 taucht in aktuellen Meldungen oder Studienhinweisen auf. Das kann für die Aktie wichtig sein. Entscheidend ist, ob echte Studiendaten, Behörden-Schritte oder Finanzierungsmeldungen folgen.",
+      "score": 48,
+      "score_label": "wichtig"
+    },
+    {
+      "stage": "PHASE1",
+      "class": "phase2",
+      "name": "Studienregister-Treffer",
+      "text": "Zu Rocket Pharmaceuticals wurden Treffer im Studienregister gefunden. Das ist wichtig, weil Studienstatus, Patientengruppe und Updates zeigen können, ob ein Programm vorankommt.",
+      "score": 58,
+      "score_label": "prüfen"
     }
   ],
   "zones": [
     {
-      "zone": "Pullback",
-      "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."
+      "zone": "Rücksetzer: ca. $3.07–$3.38",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
     },
     {
-      "zone": "Arbeitszone",
-      "text": "Neutrale Zone für Beobachtung und Tranchendenken."
+      "zone": "Arbeitsbereich: ca. $3.56–$4.05",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
     },
     {
-      "zone": "Momentum",
-      "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."
+      "zone": "Momentum: über ca. $4.42",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
     },
     {
-      "zone": "Warnzone",
-      "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
     }
   ],
   "catalysts": [
     {
-      "tag": "Kurzfristig",
-      "title": "Nächste News / Quartalszahlen",
-      "text": "Termin oder Katalysator ergänzen."
+      "tag": "Studien",
+      "title": "Neue Studienergebnisse oder Studienstart",
+      "text": "Bei Biotech-Aktien sind Studienmeldungen oft der wichtigste Kurstreiber. Wichtig ist: Sind es echte Daten oder nur eine Ankündigung?"
     },
     {
-      "tag": "Mittelfristig",
-      "title": "Pipeline-/Projektupdate",
-      "text": "Relevanten operativen Meilenstein ergänzen."
+      "tag": "Behörde",
+      "title": "FDA-/Zulassungs- oder Behördenmeldung",
+      "text": "Solche Meldungen können stark bewegen. Entscheidend ist, ob die Behörde wirklich etwas bestätigt oder ob nur ein Plan kommuniziert wurde."
     },
     {
-      "tag": "Risiko",
-      "title": "Cash / Verwässerung prüfen",
-      "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."
+      "tag": "Geld / neue Aktien",
+      "title": "Finanzierung oder mögliche Verwässerung",
+      "text": "Wenn das Unternehmen neue Aktien ausgibt, kann das den Kurs drücken. Gleichzeitig braucht ein kleines Biotech-Unternehmen oft frisches Geld."
+    },
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
     }
   ],
   "scenarios": {
     "bear": {
-      "title": "Bear Case",
-      "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."
+      "title": "Schlechter Fall",
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
-      "title": "Base Case",
-      "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."
+      "title": "Normaler Fall",
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
-      "title": "Bull Case",
-      "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."
+      "title": "Guter Fall",
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
   "risks": [
     {
-      "title": "Studiendaten-/Projekt-Risiko",
-      "text": "Operative Fortschritte müssen bestätigt werden."
+      "title": "Neue Aktien / Verwässerung",
+      "text": "Es gibt Hinweise auf Finanzierungsthemen. Das kann bedeuten, dass bestehende Aktionäre durch neue Aktien verwässert werden."
     },
     {
-      "title": "Verwässerungsrisiko",
-      "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
     },
     {
-      "title": "Volatilität",
-      "text": "Kleine und mittlere Werte reagieren stark auf News."
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
     },
     {
-      "title": "Hype-Risiko",
-      "text": "Schnelle Peaks werden oft wieder abverkauft."
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    },
+    {
+      "title": "Behördenrisiko",
+      "text": "Wenn FDA oder andere Behörden anders entscheiden als erwartet, kann das den Kurs stark beeinflussen."
     }
   ],
   "clear_view": [
-    "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
-    "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
+    "Rocket Pharmaceuticals (RCKT) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Es wurden wichtige Hinweise gefunden, die man genauer lesen sollte. Besonders relevant sind Meldungen zu Studien, Behörden, Finanzierung oder möglichen neuen Aktien.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc Mastertemplate",
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:22:49Z",
+    "last_update_utc": "2026-05-11T15:32:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.77,
+      "regularMarketPrice": 3.743,
       "previousClose": 3.61,
-      "change": 0.16,
-      "changePercent": 4.43
+      "change": 0.133,
+      "changePercent": 3.68
     },
     "price_history": [
       {
-        "t": "2026-05-07T04:54:07Z",
+        "t": "2026-04-13T13:30:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-04-14T13:30:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-04-15T13:30:00Z",
+        "price": 3.88
+      },
+      {
+        "t": "2026-04-16T13:30:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-04-17T13:30:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-04-20T13:30:00Z",
         "price": 3.86
       },
       {
-        "t": "2026-05-07T15:09:45Z",
-        "price": 3.805
-      },
-      {
-        "t": "2026-05-07T17:13:40Z",
-        "price": 3.695
-      },
-      {
-        "t": "2026-05-07T19:10:58Z",
-        "price": 3.776
-      },
-      {
-        "t": "2026-05-07T20:45:33Z",
-        "price": 3.67
-      },
-      {
-        "t": "2026-05-08T14:47:26Z",
-        "price": 3.7
-      },
-      {
-        "t": "2026-05-08T16:09:00Z",
-        "price": 3.555
-      },
-      {
-        "t": "2026-05-08T17:50:07Z",
+        "t": "2026-04-21T13:30:00Z",
         "price": 3.66
       },
       {
-        "t": "2026-05-08T19:03:00Z",
-        "price": 3.615
+        "t": "2026-04-22T13:30:00Z",
+        "price": 3.8
       },
       {
-        "t": "2026-05-08T20:32:55Z",
+        "t": "2026-04-23T13:30:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-04-24T13:30:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-04-27T13:30:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-04-28T13:30:00Z",
+        "price": 3.43
+      },
+      {
+        "t": "2026-04-29T13:30:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-04-30T13:30:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-05-01T13:30:00Z",
+        "price": 3.56
+      },
+      {
+        "t": "2026-05-04T13:30:00Z",
+        "price": 3.61
+      },
+      {
+        "t": "2026-05-05T13:30:00Z",
+        "price": 3.54
+      },
+      {
+        "t": "2026-05-06T13:30:00Z",
+        "price": 3.86
+      },
+      {
+        "t": "2026-05-07T13:30:00Z",
+        "price": 3.67
+      },
+      {
+        "t": "2026-05-08T13:30:00Z",
         "price": 3.63
       },
       {
-        "t": "2026-05-11T15:12:50Z",
-        "price": 3.79
-      },
-      {
-        "t": "2026-05-11T15:22:49Z",
-        "price": 3.77
+        "t": "2026-05-11T13:30:00Z",
+        "price": 3.7428
       }
     ],
+    "price_history_range": "1mo",
     "news": [
       {
-        "title": "ASTC Stock Surges Over 28% Pre-Market As Threat Detection And Aviation Screening Tech Gains Momentum - Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYmJxa05VZWYzbzZubzBRU3NJYmlkaEVfRU5lbW50Y0J6QU5IcHZPdV9ZcDN2dGY0TU1VR0o5Nm14a182bVJtUG9BV2prM2VCTXVWdDZOTFY1cEpRVElLeWxvZFNCUmMzVHB6X3Q0WlhfQzI4b0pYYWRFNFBZb0Rvak8xVDIwLUUxdnVQcGZFSE9mUWo3VUJiQm9BMnRZSklTbWtfSEhOVFlGLWtqVnE0Yjgtd3Q3NWhsaXlxR1RLUU85eWNUZUhueWVTRi1pVVBIRE0xbDd4WldkN2l1WUVteWtVZ3RGVG8xT3hN?oc=5",
-        "published_at": "2026-03-30T11:53:46Z",
-        "source": "Stocktwits",
+        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5",
+        "published_at": "2026-03-27T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 29
       },
       {
         "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
@@ -271,22 +408,8 @@
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
-        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5",
-        "published_at": "2026-03-27T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 23
       },
       {
         "title": "Rocket Pharmaceuticals: FDA nimmt Zulassungsantrag für Gentherapie gegen seltene Krankheit an - Investing.com Deutsch",
@@ -301,22 +424,8 @@
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
-      },
-      {
-        "title": "Scholar Rock: Zulassung vertagt? Egal – die Aktie rockt! - Der Aktionär",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVBQOUpBQWZkMExpM19yME5CQkFJSmlFUDR5MFkyQzhVMHJ4emUyY2FNSFppYUNCMGdUVXlCbWJFOEM0SElDVzlnZlZrSmdFTXlXeUtyelM0VkpralM1MDlpWWp0MjdSeGduckYtZmxlUENEYUxXeE1saEtCY294T0ZEM0cwaXRsMDJJOEJjZU13UGhUQldBMTdBbWdfRWZ6SzdQWTlkUTJ6aTVfT0ZDMzFjdTdzcVk?oc=5",
-        "published_at": "2025-09-30T07:00:00Z",
-        "source": "Der Aktionär",
-        "query": "RCKT CRL FDA",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten."
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 23
       },
       {
         "title": "Scotiabank senkt Kursziel für Rocket Pharmaceuticals auf 19 US-Dollar - Investing.com Deutsch",
@@ -331,7 +440,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
       },
       {
         "title": "Scotiabank erhöht Kursziel für Rocket Pharmaceuticals auf 52 US-Dollar - Investing.com Deutsch",
@@ -346,67 +456,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Incyte picks up full Monjuvi rights from partner MorphoSys for $25M - Fierce Pharma",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMFdGeV9tckNGaWFQaVIwdXVaR2N2VXU2NEp6c216TWg3VjNXR1p4VllxM05zNHgxenBZamlGaTJ6NmlmOFdXQXJZaGN2VVlYeHR1akYyRk5PUzRXejU1RGFuNEp0Zjl2UFFNRGJTUHBfdlFtWUhYRDdLeWtBZHNpdmcxTWMyY292bXpPRjBLSmptbXZyck9ZLTdPVXB5Rnlyd2ZGaThHRFRXUk42NFp0LWhIM3lVYnFieGZ0WVpiZnZhNVFqdXc?oc=5",
-        "published_at": "2024-02-06T08:00:00Z",
-        "source": "Fierce Pharma",
-        "query": "Rocket Pharmaceuticals clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Mirati's flagship KRAS inhibitor Krazati gets rebuffed in Europe - Fierce Pharma",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX3NmVGhaSVdPVjFfZWhvcXB2S2hvZ05kY2lRdmdGUUthczllOGZDcVMtc2Q4UEMzdjFYVGlYY01sQjVTVjN3WllWZXRmTHFzaFpvaEU4anh0U3dxRU9jcTlSRkx1VlhlbmtjVVFXYzN3M3NEZF9PN1FfOTNIeFJ3UkRSN3RIQmR5Wng2WE1kZDJUVXU4WkROV0hVMHA?oc=5",
-        "published_at": "2023-07-21T07:00:00Z",
-        "source": "Fierce Pharma",
-        "query": "Rocket Pharmaceuticals clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "RCKT Prognose — Kursziel für 2027 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XRnRDTFJaT3ByT1l2Rm44X05CNkRwV3RIbGpJM3pKaGRtaF9LZzhJWW5ha2RPUF9FZW9mU2E5cThOdUwxUmlaTU1nVUw1aFhBYm5lYW5YU1RwdDFCa0psbmd2RVEyQkU?oc=5",
-        "published_at": "2022-08-16T22:16:59Z",
-        "source": "TradingView",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "Yamo: Schweizer Start-up lanciert Awareness-Kampagne in Deutschland - Horizont.net",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRDg3dWVNXzdPQm4zaGt6czhZb3BlM0hvU2dwc1pHbWFiSG9yeUFqeXduT1VNc2dTbnNJcE9zcUVwNDNlLXFSeG02bl80UHRBSGNidTdtUnpVakNneXhXVndvSWhmWlQ3ZUwzXzJKZGs1V0ZzYWZqMEVUUmd2S3VBWmU3STdQQ2c1R2VPS2czaTV2VkREU2JiZXBnWGlpbExzQ0RNeU1tczB2dFRUdmdDTGZmV2tZTFYyV1E?oc=5",
-        "published_at": "2022-04-07T07:00:00Z",
-        "source": "Horizont.net",
-        "query": "RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
       },
       {
         "title": "ROCKET PHARMACEUTICALS Aktie • A2JA9Q • US77313F1066 - Onvista",
@@ -421,7 +472,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
       }
     ],
     "sec_filings": [
@@ -722,18 +774,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Scholar Rock: Zulassung vertagt? Egal – die Aktie rockt! - Der Aktionär",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Der Aktionär",
-        "date": "2025-09-30T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRVBQOUpBQWZkMExpM19yME5CQkFJSmlFUDR5MFkyQzhVMHJ4emUyY2FNSFppYUNCMGdUVXlCbWJFOEM0SElDVzlnZlZrSmdFTXlXeUtyelM0VkpralM1MDlpWWp0MjdSeGduckYtZmxlUENEYUxXeE1saEtCY294T0ZEM0cwaXRsMDJJOEJjZU13UGhUQldBMTdBbWdfRWZ6SzdQWTlkUTJ6aTVfT0ZDMzFjdTdzcVk?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Rocket Pharmaceuticals: FDA nimmt Zulassungsantrag für Gentherapie gegen seltene Krankheit an - Investing.com Deutsch",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -762,18 +802,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-03-27T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -782,6 +810,18 @@
         "source": "Investing.com Deutsch",
         "date": "2026-03-27T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-03-27T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -974,6 +1014,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-03-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-10"
       }
     ],
     "queries_used": [

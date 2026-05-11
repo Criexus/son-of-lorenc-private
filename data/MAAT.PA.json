@@ -4,15 +4,15 @@
   "name": "MaaT Pharma",
   "eyebrow": "Son of Lorenc · Phasenanalyse · MAAT.PA",
   "headline": "MaaT Pharma – einfache Phasenanalyse",
-  "thesis": "Kurzthese: MaaT Pharma wurde neu in das Son-of-Lorenc-System aufgenommen. Nach dem nächsten Update werden News, Kursdaten, SEC-/Unternehmensmeldungen und die erste Einschätzung automatisch ergänzt.",
+  "thesis": "Kurzthese: MaaT Pharma wird automatisch beobachtet. Das Dossier fasst zusammen, was das Unternehmen macht, welche Nachrichten wichtig sein könnten, welche Risiken bestehen und welche Kursbereiche nur als Orientierung dienen. Keine Kaufempfehlung.",
   "stand": "2026-05-11",
   "phase": "Automatische Grundanalyse",
   "character": "spekulativ · stark nachrichtenabhängig",
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.22",
-      "note": "Auto-Update: 19.14% vs. vorheriger Schlusskurs",
+      "value": "$7.26",
+      "note": "Auto-Update: 19.8% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -28,61 +28,201 @@
       "key": "risk"
     }
   ],
-  "chart_subtitle": "Diese Zeitlinie wird nach dem nächsten Update mit Kurs- und Nachrichtendaten befüllt.",
-  "chart_note": "Kein Livechart. Der Kursverlauf wird beim Update gespeichert.",
+  "chart_subtitle": "Diese Zeitlinie ordnet Nachrichten, Kursbewegungen und wichtige Termine chronologisch ein – von links nach rechts.",
+  "chart_note": "Hinweis: Die Linie ist eine einfache Orientierung. Entscheidend sind die Nachrichtenpunkte und ihre Einordnung.",
   "events": [
     {
-      "d": "Start",
-      "p": 1,
-      "title": "Dossier angelegt",
-      "phase": "Start",
-      "reaction": "Der Wert wurde in die Watchlist aufgenommen.",
-      "details": "Nach dem nächsten Update werden News, Kursdaten und Hinweise automatisch ergänzt.",
-      "source": "Son of Lorenc",
+      "d": "2026-04-21T07:00:00Z",
+      "p": 7.26,
+      "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Buy - boerse.de - boerse.de",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYTg0NkJoakk1ZmJMZGVRZWJ2c3FKbG0xazByMGpzM3BzSGVySDNJMkRjcERudkxTcERIYUNlUmZHTWtPMlhuOFE0R1VLclZ6SEhJTVU4VUhSRm8yMTJlRDhWRTlUWlBfOFdHeVpnc0RfRV9Zd1hiRVNNd3ZhSUx0c2h2ZFJ6VEJtdE05Rkh1ZnByRGtmMGlaVTNRaFVUQ2dhblZLYjBrcjRUc016SzV1cHl6aEFxc3dxTTJB0gHAAUFVX3lxTE1EcmZQcEhHVDBHcS1CQ1k3a2tNcHhVU3FtTW5BUjUtQWFVWVBPcm5EbmtJVTVfQ2FfZ3Vrb292VGNhaERLa2Z5U0ZGc0lCOHIzVWRkcnNUaDFzUHNzNmdYSWU5MXM3cGVXRTFiRjF5cVNfWFVDTEJPNlltZ1BPVmdlbkxSaDdZM2lqTTMwekZZcGdsVmNEZ0dWbEZrYWl6Y2lZOTgzM0F5SWVMQk5vYXRHbV93RUh5c25lRWJPbjlRVw?oc=5",
+      "future": false
+    },
+    {
+      "d": "2026-03-05T08:00:00Z",
+      "p": 7.26,
+      "title": "Anwendungsbegleitende Datenerhebung und Beschränkung der Versorgungsbefugnis: MaaT013 (Gepoolte allogene Fäkal-Mikroorganismen) – Akute Graft-versus-Host-Krankheit - Gemeinsamer Bundesausschuss",
+      "phase": "Allgemeine News",
+      "reaction": "unklare Kursrelevanz",
+      "details": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+      "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+      "impact": "unklare Kursrelevanz",
+      "source": "Gemeinsamer Bundesausschuss",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82Q285ZmV4SlFaNGhrMkM3VmVHR3JUV0UyTlJxd01oVG5NM1c3a0VPTFp6eEtPMjBwMHI1WEFvVUtOYkFhem1RVEJ5Skk1c0paVzBtUEYtN2FkTmpoS0hkeG5vQm1sTFkzc2RGSzE3TWs1SW5GX1Y2cQ?oc=5",
       "future": false
     }
   ],
-  "pipeline_intro": "Wird nach dem nächsten Update automatisch anhand von News, Alias-Begriffen und Studien-/Produktnamen ergänzt.",
-  "pipeline": [],
-  "zones": [],
-  "catalysts": [],
+  "pipeline_intro": "Hier wird einfach erklärt, woran das Unternehmen arbeitet und welche Themen den Kurs bewegen können.",
+  "pipeline": [
+    {
+      "stage": "Geschäft / Forschungsschwerpunkt",
+      "class": "early",
+      "name": "Biotech / klinische Entwicklung",
+      "text": "MaaT Pharma wird anhand der gefundenen Daten als Unternehmen im Bereich Biotech / klinische Entwicklung eingeordnet. Für die Aktie zählt, ob aus Forschung echte klinische Fortschritte und ausreichend Finanzierung entstehen.",
+      "score": 45,
+      "score_label": "Grundlage"
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Rücksetzer: ca. $5.95–$6.53",
+      "text": "Interessanter nur dann, wenn keine schlechte Unternehmensmeldung dahintersteht. Bei kleinen Biotech-Werten können Rücksetzer auch Warnsignale sein."
+    },
+    {
+      "zone": "Arbeitsbereich: ca. $6.9–$7.84",
+      "text": "Hier beobachtet man eher, ob neue gute Nachrichten kommen. Kein Bereich für blinden Einstieg, sondern für ruhige Prüfung."
+    },
+    {
+      "zone": "Momentum: über ca. $8.57",
+      "text": "Wenn der Kurs stark steigt, kann kurzfristig Fantasie entstehen. Gleichzeitig steigt das Risiko, zu spät hinterherzulaufen."
+    },
+    {
+      "zone": "Warnbereich",
+      "text": "Bei Kapitalerhöhungen, Reverse Split, schwachen Studiendaten oder fehlendem Cash vorsichtig bleiben – auch wenn der Kurs optisch billig wirkt."
+    }
+  ],
+  "catalysts": [
+    {
+      "tag": "Regelmäßig prüfen",
+      "title": "Quartalszahlen, Cashbestand und Unternehmensupdates",
+      "text": "Bei frühen Biotech-Werten ist wichtig, wie lange das Geld reicht und ob das Unternehmen seine nächsten Schritte finanzieren kann."
+    }
+  ],
   "scenarios": {
     "bear": {
       "title": "Schlechter Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Das Unternehmen braucht Geld, gibt neue Aktien aus, Studien verzögern sich oder Daten enttäuschen. Dann kann der Kurs deutlich fallen."
     },
     "base": {
       "title": "Normaler Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Die Aktie bleibt stark von Nachrichten abhängig. Gute Meldungen können schnelle Anstiege bringen, aber ohne harte Fortschritte werden Anstiege oft wieder verkauft."
     },
     "bull": {
       "title": "Guter Fall",
-      "text": "Wird nach dem nächsten Update automatisch ergänzt."
+      "text": "Studien, Behördenmeldungen oder Partnerschaften fallen positiv aus. Dann kann die Aktie stark steigen, besonders wenn vorher wenig Vertrauen eingepreist war."
     }
   },
-  "risks": [],
+  "risks": [
+    {
+      "title": "Biotech-Risiko",
+      "text": "Der Kurs hängt stark davon ab, ob Forschung und Studien wirklich funktionieren. Ein negatives Ergebnis kann schnell viel Wert zerstören."
+    },
+    {
+      "title": "Finanzierungsrisiko",
+      "text": "Viele kleine Biotech-Unternehmen verdienen noch kaum Geld und müssen sich über neue Aktien oder Investoren finanzieren."
+    },
+    {
+      "title": "Starke Kursschwankungen",
+      "text": "Solche Aktien können an einem Tag stark steigen und kurz danach wieder deutlich fallen."
+    }
+  ],
   "clear_view": [
-    "Dieses Dossier wurde neu angelegt. Nach dem nächsten Update werden aktuelle News, Kursverlauf, wichtige Hinweise und eine einfache Ersteinschätzung ergänzt."
+    "MaaT Pharma (MAAT.PA) ist ein spekulativer Wert. Das System hat Kursdaten, Nachrichten, offizielle SEC-Meldungen und Studienregister-Treffer geprüft. Wichtig ist nicht nur, ob die Aktie billig aussieht, sondern ob es echte Fortschritte bei Studien, Finanzierung oder Behördenmeldungen gibt.",
+    "Aktuell wurden eher allgemeine Meldungen oder noch keine harten Auslöser erkannt. Ohne starke neue Nachrichten bleibt die Aktie wahrscheinlich stark spekulativ und schwankungsanfällig.",
+    "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
   ],
   "sources": [
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T15:23:27Z",
+    "last_update_utc": "2026-05-11T15:32:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 7.22,
+      "regularMarketPrice": 7.26,
       "previousClose": 6.06,
-      "change": 1.16,
-      "changePercent": 19.14
+      "change": 1.2,
+      "changePercent": 19.8
     },
     "price_history": [
       {
-        "t": "2026-05-11T15:23:27Z",
-        "price": 7.22
+        "t": "2026-04-13T07:00:00Z",
+        "price": 5.49
+      },
+      {
+        "t": "2026-04-14T07:00:00Z",
+        "price": 5.68
+      },
+      {
+        "t": "2026-04-15T07:00:00Z",
+        "price": 5.56
+      },
+      {
+        "t": "2026-04-16T07:00:00Z",
+        "price": 5.55
+      },
+      {
+        "t": "2026-04-17T07:00:00Z",
+        "price": 5.51
+      },
+      {
+        "t": "2026-04-20T07:00:00Z",
+        "price": 5.46
+      },
+      {
+        "t": "2026-04-21T07:00:00Z",
+        "price": 5.35
+      },
+      {
+        "t": "2026-04-22T07:00:00Z",
+        "price": 5.35
+      },
+      {
+        "t": "2026-04-23T07:00:00Z",
+        "price": 5.3
+      },
+      {
+        "t": "2026-04-24T07:00:00Z",
+        "price": 5.46
+      },
+      {
+        "t": "2026-04-27T07:00:00Z",
+        "price": 5.86
+      },
+      {
+        "t": "2026-04-28T07:00:00Z",
+        "price": 5.87
+      },
+      {
+        "t": "2026-04-29T07:00:00Z",
+        "price": 5.79
+      },
+      {
+        "t": "2026-04-30T07:00:00Z",
+        "price": 5.85
+      },
+      {
+        "t": "2026-05-04T07:00:00Z",
+        "price": 5.88
+      },
+      {
+        "t": "2026-05-05T07:00:00Z",
+        "price": 6.06
+      },
+      {
+        "t": "2026-05-06T07:00:00Z",
+        "price": 6.3
+      },
+      {
+        "t": "2026-05-07T07:00:00Z",
+        "price": 6.73
+      },
+      {
+        "t": "2026-05-08T07:00:00Z",
+        "price": 6.58
+      },
+      {
+        "t": "2026-05-11T07:00:00Z",
+        "price": 7.26
       }
     ],
+    "price_history_range": "1mo",
     "news": [
       {
         "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Buy - boerse.de - boerse.de",
@@ -97,7 +237,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
       },
       {
         "title": "Anwendungsbegleitende Datenerhebung und Beschränkung der Versorgungsbefugnis: MaaT013 (Gepoolte allogene Fäkal-Mikroorganismen) – Akute Graft-versus-Host-Krankheit - Gemeinsamer Bundesausschuss",
@@ -112,22 +253,8 @@
         "impact": "unklare Kursrelevanz",
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
-      },
-      {
-        "title": "CLINIGEN GROUP AKTIEN News | A1J440 Nachrichten - FinanzNachrichten.de",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zYUUzSlRITUZkVVBwMkhYOWJUMGY1ZzRqS0dGREs1eUh0Q3BnYUNEU0R0elFiWEdyOFYycjZWN3V1OEZMZWZoTWhFUGpwMlV0cjlLYkpFQm1mZjBUN2RkRmVrcFdXNk53MERMemo2d1QxaGIzeUl2eElDSmpEd1k?oc=5",
-        "published_at": "2018-04-28T06:04:02Z",
-        "source": "FinanzNachrichten.de",
-        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen."
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
       }
     ],
     "sec_filings": [],

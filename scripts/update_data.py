@@ -101,6 +101,168 @@ def normalize_title(title: str) -> str:
     title = re.sub(r" - [^-]+$", "", title)
     return title
 
+
+DEFAULT_NEWS_ALIASES = {
+    "ATAI": {
+        "strong": ["atai", "atai beckley", "beckley", "bpl-003", "rl-007", "vls-01", "emp-01"],
+        "weak": ["psychedelic", "psilocybin"]
+    },
+    "BDRX": {
+        "strong": ["biodexa", "biodexa pharmaceuticals", "mtx110"],
+        "weak": []
+    },
+    "RCKT": {
+        "strong": ["rocket pharmaceuticals", "rocket pharma", "rp-a501", "rp-l102", "kresladi"],
+        "weak": []
+    },
+    "CMPS": {
+        "strong": ["compass pathways", "comp360"],
+        "weak": ["psilocybin"]
+    },
+    "ALT": {
+        "strong": ["altimmune", "pemvidutide"],
+        "weak": ["mash", "obesity"]
+    },
+    "CABA": {
+        "strong": ["cabaletta", "cabaletta bio", "caba-201", "caart"],
+        "weak": ["autoimmune", "cell therapy"]
+    },
+    "ENVB": {
+        "strong": ["enveric", "enveric biosciences", "eb-003", "eb-002"],
+        "weak": ["neuroplastogen", "psychedelic"]
+    },
+    "GH": {
+        "strong": ["guardant health", "guardant", "guardant360", "shield", "reveal"],
+        "weak": ["liquid biopsy", "colorectal", "cancer screening"]
+    },
+    "MAAT.PA": {
+        "strong": ["maat pharma", "maat013", "xervyteg", "maat034"],
+        "weak": ["microbiome"]
+    },
+    "MAAT": {
+        "strong": ["maat pharma", "maat013", "xervyteg", "maat034"],
+        "weak": ["microbiome"]
+    },
+    "DFTX": {
+        "strong": ["definium therapeutics", "definium", "dt120", "dt402", "mm120"],
+        "weak": ["psychedelic", "neuropsychiatry"]
+    }
+}
+
+GENERIC_TICKERS = {"ALT", "GH", "ON", "IT", "AI", "DNA", "USA", "EU", "UK", "SA"}
+BAD_NEWS_HINTS = [
+    "die besten large caps",
+    "für dein portfolio",
+    "shares of several",
+    "why these stocks",
+    "top stocks",
+    "hot stocks",
+    "premarket movers",
+    "market movers",
+    "aktien news |",
+    "aktien news -",
+    "börsen news",
+    "stock market today"
+]
+
+def _norm_term(term: str) -> str:
+    return re.sub(r"\s+", " ", str(term or "").strip().lower())
+
+def build_relevance_terms(config: dict[str, Any]) -> dict[str, Any]:
+    ticker = str(config.get("ticker", "")).upper().strip()
+    name = str(config.get("name", "")).strip()
+    query = str(config.get("query", "")).strip()
+    queries = config.get("queries") or []
+
+    defaults = DEFAULT_NEWS_ALIASES.get(ticker, {"strong": [], "weak": []})
+    strong = list(defaults.get("strong", []))
+    weak = list(defaults.get("weak", []))
+
+    strong.extend(config.get("aliases") or [])
+    strong.extend(config.get("news_aliases") or [])
+    strong.extend(config.get("programs") or [])
+
+    if name:
+        strong.append(name)
+        parts = [p for p in re.split(r"[^A-Za-z0-9.-]+", name) if len(p) >= 5]
+        # Nur sinnvolle Namensbestandteile, nicht generische Wörter.
+        for p in parts:
+            if p.lower() not in {"pharma", "health", "therapeutics", "biosciences", "inc"}:
+                strong.append(p)
+
+    for q in queries + ([query] if query else []):
+        # Nur Pipeline-/Produktcodes aus Suchbegriffen übernehmen, keine generischen Wörter wie stock/news.
+        strong.extend(re.findall(r"\b[A-Z]{2,8}[- ]?\d{2,4}\b|\bCOMP\d{2,4}\b", str(q)))
+
+    stop = {"stock", "news", "share", "shares", "aktie", "inc", "sa", "plc", "ltd", "corp", "therapeutics", "pharma", "biosciences", "health", "company", "group", "clinical"}
+    clean_strong, seen = [], set()
+    for a in strong:
+        a = _norm_term(a)
+        if not a or len(a) < 4 or a in stop:
+            continue
+        if a not in seen:
+            seen.add(a)
+            clean_strong.append(a)
+
+    clean_weak, seen_w = [], set()
+    for a in weak:
+        a = _norm_term(a)
+        if not a or len(a) < 5 or a in stop:
+            continue
+        if a not in seen_w:
+            seen_w.add(a)
+            clean_weak.append(a)
+
+    return {
+        "ticker": ticker,
+        "name": _norm_term(name),
+        "strong": clean_strong,
+        "weak": clean_weak,
+        "strict_ticker": ticker in GENERIC_TICKERS or len(ticker) <= 3
+    }
+
+def news_relevance_score(item: dict[str, Any], relevance: dict[str, Any]) -> int:
+    title = _norm_term(item.get("title", ""))
+    source = _norm_term(item.get("source", ""))
+    query = _norm_term(item.get("query", ""))
+    text = f"{title} {source}"
+
+    if any(bad in title for bad in BAD_NEWS_HINTS):
+        return -10
+
+    score = 0
+
+    for term in relevance.get("strong", []):
+        if term and term in text:
+            score += 6 if len(term) >= 8 else 4
+
+    for term in relevance.get("weak", []):
+        if term and term in text:
+            score += 1
+
+    ticker = relevance.get("ticker", "")
+    if ticker:
+        t = ticker.lower().replace(".pa", "")
+        if re.search(rf"(?<![a-z0-9]){re.escape(t)}(?![a-z0-9])", text):
+            score += 1 if relevance.get("strict_ticker") else 3
+
+    # Bonus, wenn Titel und Query inhaltlich wirklich zusammenpassen.
+    q_terms = [x for x in re.findall(r"[a-z0-9-]{5,}", query) if x not in {"stock", "news", "aktie"}]
+    if any(q in title for q in q_terms[:6]):
+        score += 1
+
+    return score
+
+def is_relevant_news(item: dict[str, Any], relevance: dict[str, Any]) -> bool:
+    title = _norm_term(item.get("title", ""))
+    # Ohne starken Firmen-/Produktbezug raus.
+    strong_hit = any(term in title for term in relevance.get("strong", []))
+    if not strong_hit:
+        return False
+
+    return news_relevance_score(item, relevance) >= 4
+
+
 def google_news(query: str, limit: int = 25) -> list[dict[str, Any]]:
     url = f"https://news.google.com/rss/search?q={urllib.parse.quote_plus(query)}&hl=de&gl=DE&ceid=DE:de"
     xml = req_text(url)
@@ -154,15 +316,17 @@ def rss_feed(url: str, limit: int = 25) -> list[dict[str, Any]]:
         print(f"[WARN] Custom RSS parse failed: {url} -> {e}")
     return out
 
+
 def fetch_all_news(config: dict[str, Any]) -> list[dict[str, Any]]:
     queries = config.get("queries") or [config.get("query", config["ticker"])]
     rss_urls = config.get("rss_urls") or []
     max_news = int(config.get("max_news", 40))
+    relevance = build_relevance_terms(config)
 
     raw = []
     for q in queries:
         print(f"  [NEWS] {q}")
-        raw.extend(google_news(q, limit=20))
+        raw.extend(google_news(q, limit=25))
         time.sleep(0.4)
 
     for url in rss_urls:
@@ -171,11 +335,18 @@ def fetch_all_news(config: dict[str, Any]) -> list[dict[str, Any]]:
         time.sleep(0.4)
 
     seen, deduped = set(), []
+    filtered_out = 0
+
     for n in raw:
         key = normalize_title(n.get("title", ""))
         if not key or key in seen:
             continue
         seen.add(key)
+
+        if not is_relevant_news(n, relevance):
+            filtered_out += 1
+            continue
+
         trigger = classify_text(n.get("title", ""))
         n["trigger_type"] = trigger["type"]
         n["trigger_level"] = trigger["level"]
@@ -184,10 +355,15 @@ def fetch_all_news(config: dict[str, Any]) -> list[dict[str, Any]]:
         n["assessment"] = trigger.get("assessment", "Diese Meldung sollte inhaltlich geprüft werden.")
         n["watch"] = trigger.get("watch", "Quelle und Inhalt prüfen.")
         n["summary"] = f"{trigger['reason']} Einordnung: {trigger.get('assessment','Bitte prüfen')} Beobachten: {trigger.get('watch','Quelle prüfen')}"
+        n["relevance_score"] = news_relevance_score(n, relevance)
         deduped.append(n)
 
-    deduped.sort(key=lambda x: x.get("published_at") or "", reverse=True)
+    if filtered_out:
+        print(f"  [FILTER] {filtered_out} unpassende News entfernt")
+
+    deduped.sort(key=lambda x: (x.get("published_at") or "", x.get("relevance_score", 0)), reverse=True)
     return deduped[:max_news]
+
 
 def sec_ticker_map() -> dict[str, Any]:
     data = req_json("https://www.sec.gov/files/company_tickers.json", headers=SEC_HEADERS)
@@ -386,12 +562,26 @@ def update_metrics(data: dict[str, Any], price: dict[str, Any]) -> None:
             return
 
 
+
 def is_placeholder_text(text: str) -> bool:
     low = (text or "").lower()
     return any(x in low for x in [
-        "im aufbau", "vorlage", "ergänzt", "hauptprogramm", "zweitprogramm",
-        "frühe pipeline", "dossier angelegt", "automatische news folgen"
+        "im aufbau",
+        "vorlage",
+        "ergänzt",
+        "hauptprogramm",
+        "zweitprogramm",
+        "frühe pipeline",
+        "dossier angelegt",
+        "automatische news folgen",
+        "nach dem nächsten update",
+        "wird nach dem nächsten update",
+        "wird nach tiefer recherche",
+        "keine news-datenpunkte",
+        "struktur entspricht exakt",
+        "kann später per ki"
     ])
+
 
 def find_program_names(news, trials):
     text = " ".join([n.get("title", "") for n in news] + [t.get("title", "") for t in trials])
@@ -518,6 +708,7 @@ def build_auto_clear_view(data, news):
     p3 = "Keine Kaufempfehlung. Sinnvoll ist eine ruhige Prüfung: Was macht das Unternehmen, wie lange reicht das Geld, gibt es echte Studienfortschritte und ist der Kurs gerade überhitzt oder nach einem Rücksetzer interessanter?"
     return [p1, p2, p3]
 
+
 def should_autofill(data):
     pipeline = data.get("pipeline") or []
     zones = data.get("zones") or []
@@ -526,18 +717,21 @@ def should_autofill(data):
     clear = " ".join(data.get("clear_view") or [])
     headline = data.get("headline", "")
     thesis = data.get("thesis", "")
+    events_text = " ".join((e.get("title","") + " " + e.get("details","")) for e in (data.get("events") or []))
+    placeholder_blob = " ".join([headline, thesis, clear, events_text, data.get("pipeline_intro","")])
     return (
         not pipeline
         or not zones
         or not catalysts
         or not risks
         or not clear.strip()
-        or is_placeholder_text(headline)
-        or is_placeholder_text(thesis)
-        or is_placeholder_text(clear)
+        or is_placeholder_text(placeholder_blob)
+        or "nach dem nächsten update" in placeholder_blob.lower()
+        or "wird nach" in placeholder_blob.lower()
+        or "dossier angelegt" in placeholder_blob.lower()
         or any(is_placeholder_text((p.get("name","") + " " + p.get("text",""))) for p in pipeline)
-        or any("offen" in str(x).lower() for x in [clear, headline, thesis])
     )
+
 
 def autofill_dossier(data, news, filings, trials, price):
     if not should_autofill(data):
@@ -594,8 +788,13 @@ def autofill_dossier(data, news, filings, trials, price):
 
 
 
-def build_price_history(data: dict[str, Any], price: dict[str, Any]) -> list[dict[str, Any]]:
-    """Speichert Kurs-Snapshots pro Update. Kein Livechart, sondern Update-Verlauf."""
+def build_price_history(data: dict[str, Any], price: dict[str, Any], yahoo_history: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+    """Smart-Chart: bevorzugt echter 1-Monats-Tageskursverlauf.
+    Fallback: gespeicherte Snapshots aus bisherigen Updates.
+    """
+    if yahoo_history and len(yahoo_history) >= 2:
+        return yahoo_history[-40:]
+
     history = []
     try:
         history = list((data.get("latest_auto") or {}).get("price_history") or [])
@@ -610,12 +809,56 @@ def build_price_history(data: dict[str, Any], price: dict[str, Any]) -> list[dic
 
     if current and current > 0:
         stamp = now_iso()
-        # nicht doppelt, wenn gleicher Tag/gleiche Stunde und gleicher Kurs im letzten Eintrag
         if not history or history[-1].get("price") != current:
             history.append({"t": stamp, "price": current})
 
     return history[-80:]
 
+
+
+def yahoo_price_history(ticker, range_="1mo", interval="1d"):
+    """Holt ca. 1 Monat Tageskurse für den Smart-Chart.
+    Kein Livechart: Wird nur beim Update neu gespeichert.
+    """
+    import urllib.parse
+    from datetime import datetime, timezone
+
+    url = (
+        "https://query1.finance.yahoo.com/v8/finance/chart/"
+        + urllib.parse.quote(str(ticker))
+        + f"?range={range_}&interval={interval}"
+    )
+
+    history = []
+
+    try:
+        data = req_json(url)
+        result = data["chart"]["result"][0]
+        timestamps = result.get("timestamp") or []
+        quote = result.get("indicators", {}).get("quote", [{}])[0]
+        closes = quote.get("close") or []
+
+        for ts, close in zip(timestamps, closes):
+            if close is None:
+                continue
+
+            try:
+                price = round(float(close), 4)
+            except Exception:
+                continue
+
+            history.append({
+                "t": datetime.fromtimestamp(int(ts), timezone.utc)
+                    .replace(microsecond=0)
+                    .isoformat()
+                    .replace("+00:00", "Z"),
+                "price": price
+            })
+
+    except Exception as e:
+        print(f"[WARN] Yahoo history failed for {ticker}: {e}")
+
+    return history[-40:]
 
 def update():
     watchlist = read_json(CONFIG)
@@ -635,6 +878,9 @@ def update():
         price = yahoo_price(ticker)
         time.sleep(0.7)
 
+        yahoo_history = yahoo_price_history(ticker, range_="1mo", interval="1d")
+        time.sleep(0.7)
+
         news = fetch_all_news(item)
         time.sleep(0.7)
 
@@ -646,12 +892,13 @@ def update():
 
         triggers = detected_triggers(news, filings, trials)
 
-        price_history = build_price_history(data, price)
+        price_history = build_price_history(data, price, yahoo_history)
 
         data["latest_auto"] = {
             "last_update_utc": now_iso(),
             "price": price,
             "price_history": price_history,
+            "price_history_range": "1mo",
             "news": news,
             "sec_filings": filings,
             "clinical_trials": trials,
@@ -660,6 +907,7 @@ def update():
             "source_note": "Free engine: Google News RSS, SEC EDGAR, ClinicalTrials.gov and optional custom RSS URLs."
         }
 
+        autofill_dossier(data, news, filings, trials, price)
         update_metrics(data, price)
         write_json(path, data)
 
@@ -673,7 +921,7 @@ def update():
     write_json(DATA / "watchlist.json", updated_watchlist)
     write_json(DATA / "meta.json", {
         "app": "Son of Lorenc",
-        "version": "master-v3.1-smart-chart",
+        "version": "master-v3.5-proper-news-autodossier",
         "last_update_utc": now_iso(),
         "status": "updated",
         "source_note": "Google News RSS + SEC EDGAR + ClinicalTrials.gov + optional custom RSS URLs"
