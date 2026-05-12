@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-11T23:28:24Z",
+    "last_update_utc": "2026-05-12T01:16:31Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -797,6 +797,13 @@
     ],
     "sec_filings": [
       {
+        "form": "4",
+        "filingDate": "2026-05-11",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126020649/xslF345X06/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "8-K",
         "filingDate": "2026-05-07",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126019573/ef20072739_8k.htm",
@@ -926,13 +933,6 @@
         "form": "8-K",
         "filingDate": "2026-02-26",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126006981/ef20066645_8k.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "10-K",
-        "filingDate": "2026-02-26",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000119312526076551/rckt-20251231.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1239,14 +1239,6 @@
         "date": "2026-02-26"
       },
       {
-        "type": "SEC · Finanzbericht",
-        "level": "medium",
-        "title": "10-K · 2026-02-26",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-02-26"
-      },
-      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-03-10",
@@ -1341,6 +1333,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-25"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
       }
     ],
     "queries_used": [
