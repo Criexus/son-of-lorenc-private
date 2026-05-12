@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.08",
-      "note": "Auto-Update: 0.82% vs. vorheriger Schlusskurs",
+      "value": "$3.06",
+      "note": "Auto-Update: -0.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,14 +308,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-12T17:30:43Z",
+    "last_update_utc": "2026-05-12T19:19:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.085,
+      "regularMarketPrice": 3.055,
       "previousClose": 3.06,
-      "change": 0.025,
-      "changePercent": 0.82
+      "change": -0.005,
+      "changePercent": -0.16
     },
     "price_history": [
       {
@@ -404,7 +404,7 @@
       },
       {
         "t": "2026-05-12T13:30:00Z",
-        "price": 3.085
+        "price": 3.055
       }
     ],
     "price_history_1d": [
@@ -601,8 +601,96 @@
         "price": 3.085
       },
       {
-        "t": "2026-05-12T17:30:23Z",
+        "t": "2026-05-12T17:30:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-05-12T17:35:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-12T17:40:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-05-12T17:45:00Z",
+        "price": 3.0765
+      },
+      {
+        "t": "2026-05-12T17:50:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-05-12T17:55:00Z",
         "price": 3.085
+      },
+      {
+        "t": "2026-05-12T18:00:00Z",
+        "price": 3.085
+      },
+      {
+        "t": "2026-05-12T18:05:00Z",
+        "price": 3.0634
+      },
+      {
+        "t": "2026-05-12T18:10:00Z",
+        "price": 3.0668
+      },
+      {
+        "t": "2026-05-12T18:15:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-12T18:20:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-05-12T18:25:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-05-12T18:30:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-05-12T18:35:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-05-12T18:40:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-12T18:45:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-05-12T18:50:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-12T18:55:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-05-12T19:00:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-05-12T19:05:00Z",
+        "price": 3.06
+      },
+      {
+        "t": "2026-05-12T19:10:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-12T19:15:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-05-12T19:19:01Z",
+        "price": 3.055
       }
     ],
     "price_history_range": "1mo",
@@ -769,22 +857,6 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
-        "published_at": "2026-01-05T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 7
-      },
-      {
         "title": "Altimmune Aktie: BTD erteilt - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HOXg4V2NROUNVM0EtUkZROG85czNiTThRbEV5RWY1MXhzY0JITHRsNzZpNzRTZVpQZGhtcGh2bFhwZGVOYmlSZ210eGNOMFR0U29nVUdmQlBUbjJoVl9kbFBSVVJJTXQ3QUJwNndRTDFzUQ?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
@@ -942,6 +1014,22 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 8
+      },
+      {
+        "title": "Technische Analyse von Altimmune, Inc. (NASDAQ: ALT) - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xb1o2d2EwUWFqMHBDX29zRnRjaW1IaUxsWllSRkhneXJvcGpaSnI4TEFkMHZxWjFrTThNeWNTRlVKemxzUG9QNHUxckhrZFVJWVZsRnQ5UmZ1MVM4WkcyV2Ffb2NlWk9U?oc=5",
+        "published_at": "2018-05-19T08:56:00Z",
+        "source": "TradingView",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 8
       }
     ],
@@ -1243,18 +1331,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-01-05T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1495,6 +1571,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-05-01",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-01"
       },
       {
         "type": "SEC Filing",

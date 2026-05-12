@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$21.37",
-      "note": "Auto-Update: -4.6% vs. vorheriger Schlusskurs",
+      "value": "$21.25",
+      "note": "Auto-Update: -5.13% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,14 +229,14 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-12T17:31:14Z",
+    "last_update_utc": "2026-05-12T19:19:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 21.37,
+      "regularMarketPrice": 21.25,
       "previousClose": 22.4,
-      "change": -1.03,
-      "changePercent": -4.6
+      "change": -1.15,
+      "changePercent": -5.13
     },
     "price_history": [
       {
@@ -325,7 +325,7 @@
       },
       {
         "t": "2026-05-12T13:30:00Z",
-        "price": 21.37
+        "price": 21.25
       }
     ],
     "price_history_1d": [
@@ -519,11 +519,95 @@
       },
       {
         "t": "2026-05-12T17:25:00Z",
+        "price": 21.37
+      },
+      {
+        "t": "2026-05-12T17:30:00Z",
         "price": 21.36
       },
       {
-        "t": "2026-05-12T17:29:55Z",
-        "price": 21.37
+        "t": "2026-05-12T17:35:00Z",
+        "price": 21.285
+      },
+      {
+        "t": "2026-05-12T17:40:00Z",
+        "price": 21.3
+      },
+      {
+        "t": "2026-05-12T17:45:00Z",
+        "price": 21.3
+      },
+      {
+        "t": "2026-05-12T17:50:00Z",
+        "price": 21.29
+      },
+      {
+        "t": "2026-05-12T17:55:00Z",
+        "price": 21.3
+      },
+      {
+        "t": "2026-05-12T18:00:00Z",
+        "price": 21.27
+      },
+      {
+        "t": "2026-05-12T18:05:00Z",
+        "price": 21.215
+      },
+      {
+        "t": "2026-05-12T18:10:00Z",
+        "price": 21.26
+      },
+      {
+        "t": "2026-05-12T18:15:00Z",
+        "price": 21.26
+      },
+      {
+        "t": "2026-05-12T18:20:00Z",
+        "price": 21.27
+      },
+      {
+        "t": "2026-05-12T18:25:00Z",
+        "price": 21.28
+      },
+      {
+        "t": "2026-05-12T18:30:00Z",
+        "price": 21.315
+      },
+      {
+        "t": "2026-05-12T18:35:00Z",
+        "price": 21.309
+      },
+      {
+        "t": "2026-05-12T18:40:00Z",
+        "price": 21.25
+      },
+      {
+        "t": "2026-05-12T18:45:00Z",
+        "price": 21.2396
+      },
+      {
+        "t": "2026-05-12T18:50:00Z",
+        "price": 21.27
+      },
+      {
+        "t": "2026-05-12T18:55:00Z",
+        "price": 21.17
+      },
+      {
+        "t": "2026-05-12T19:00:00Z",
+        "price": 21.16
+      },
+      {
+        "t": "2026-05-12T19:05:00Z",
+        "price": 21.21
+      },
+      {
+        "t": "2026-05-12T19:10:00Z",
+        "price": 21.2
+      },
+      {
+        "t": "2026-05-12T19:19:26Z",
+        "price": 21.25
       }
     ],
     "price_history_range": "1mo",
@@ -560,22 +644,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0tfQlFLZjF0UE9VQ3JreHdiWEw3SW1ETG5oUFVnZk9oSVRBYlZTZVplZDBiUmVZdS1ZZ3pZMFBJTmpDTmZlQUY0TWo5RE83azZia3o0eXJCV1NNbnIzMFQzNHc2ZEFRVEhQZHJKWE1HYnZVLXZ4VUxEajljQnZjenItOXF0Vmg2aXNtQlBIQkdNdlBYN3JacWRaelY1VUhncG5mbmtDdTB5bUx5T1JoWGJMWDBpSWNBMVNUd3BBdXVQYUk?oc=5",
-        "published_at": "2026-05-08T02:22:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Definium: Drei entscheidende Studienergebnisse für Hoffnungsträger gegen Depressionen und Angststörungen erwartet - Investing.com Deutsch",
@@ -656,6 +724,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
+      },
+      {
+        "title": "Technische Analyse von Definium Therapeutics, Inc. (NASDAQ: DFTX) - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JUGxXU1VqNHNKb05pekFMamNTZVhGdDdJc3lQRHloa19pWXhuRS1QQTRnUGdxS05Wa1hqUXNlMlNQeS1vMndFYTZERHpjcVFTdjZ6d01BT091NVl3cmQ1X09rNzRjMTQ5QWc?oc=5",
+        "published_at": "2026-01-17T09:23:28Z",
+        "source": "TradingView",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 16
       },
       {
         "title": "Definium Therapeutics Aktie (A420P3,DFTX,CA24477V1058) - Finanzen.net",
@@ -873,18 +957,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-07"
-      },
-      {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-05-08T02:22:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0tfQlFLZjF0UE9VQ3JreHdiWEw3SW1ETG5oUFVnZk9oSVRBYlZTZVplZDBiUmVZdS1ZZ3pZMFBJTmpDTmZlQUY0TWo5RE83azZia3o0eXJCV1NNbnIzMFQzNHc2ZEFRVEhQZHJKWE1HYnZVLXZ4VUxEajljQnZjenItOXF0Vmg2aXNtQlBIQkdNdlBYN3JacWRaelY1VUhncG5mbmtDdTB5bUx5T1JoWGJMWDBpSWNBMVNUd3BBdXVQYUk?oc=5"
       },
       {
         "type": "SEC · Unternehmensereignis",

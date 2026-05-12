@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.18",
-      "note": "Auto-Update: -5.73% vs. vorheriger Schlusskurs",
+      "value": "$3.13",
+      "note": "Auto-Update: -6.97% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,14 +290,14 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-12T17:31:26Z",
+    "last_update_utc": "2026-05-12T19:19:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.177,
+      "regularMarketPrice": 3.135,
       "previousClose": 3.37,
-      "change": -0.193,
-      "changePercent": -5.73
+      "change": -0.235,
+      "changePercent": -6.97
     },
     "price_history": [
       {
@@ -386,7 +386,7 @@
       },
       {
         "t": "2026-05-12T13:30:00Z",
-        "price": 3.1765
+        "price": 3.1353
       }
     ],
     "price_history_1d": [
@@ -584,11 +584,95 @@
       },
       {
         "t": "2026-05-12T17:30:00Z",
+        "price": 3.1697
+      },
+      {
+        "t": "2026-05-12T17:35:00Z",
+        "price": 3.155
+      },
+      {
+        "t": "2026-05-12T17:40:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-05-12T17:45:00Z",
+        "price": 3.155
+      },
+      {
+        "t": "2026-05-12T17:50:00Z",
+        "price": 3.155
+      },
+      {
+        "t": "2026-05-12T17:55:00Z",
+        "price": 3.155
+      },
+      {
+        "t": "2026-05-12T18:00:00Z",
+        "price": 3.1622
+      },
+      {
+        "t": "2026-05-12T18:05:00Z",
+        "price": 3.17
+      },
+      {
+        "t": "2026-05-12T18:10:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-05-12T18:15:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-05-12T18:20:00Z",
         "price": 3.175
       },
       {
-        "t": "2026-05-12T17:31:14Z",
-        "price": 3.1765
+        "t": "2026-05-12T18:25:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-05-12T18:30:00Z",
+        "price": 3.17
+      },
+      {
+        "t": "2026-05-12T18:35:00Z",
+        "price": 3.1602
+      },
+      {
+        "t": "2026-05-12T18:40:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-05-12T18:45:00Z",
+        "price": 3.16
+      },
+      {
+        "t": "2026-05-12T18:50:00Z",
+        "price": 3.155
+      },
+      {
+        "t": "2026-05-12T18:55:00Z",
+        "price": 3.1202
+      },
+      {
+        "t": "2026-05-12T19:00:00Z",
+        "price": 3.125
+      },
+      {
+        "t": "2026-05-12T19:05:00Z",
+        "price": 3.14
+      },
+      {
+        "t": "2026-05-12T19:10:00Z",
+        "price": 3.135
+      },
+      {
+        "t": "2026-05-12T19:15:00Z",
+        "price": 3.1361
+      },
+      {
+        "t": "2026-05-12T19:19:50Z",
+        "price": 3.1353
       }
     ],
     "price_history_range": "1mo",
@@ -727,7 +811,7 @@
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TOUYxNkxhZmozN1dmOHJyZ0xxVXdKdXpXTTdTdjhndzRFLU11Y2Zld3ptSlBmVTJNbEdfTG5aTlRQSjgzd0FmdlRWQWFLdDdhS1pOQ1dTNTJkQ1NzNkdPek1zcWVvZ1U?oc=5",
         "published_at": "2022-09-12T07:31:33Z",
         "source": "TradingView",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -775,7 +859,7 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-15T07:00:00Z",
         "source": "TradingView",
-        "query": "RXRX stock news",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
