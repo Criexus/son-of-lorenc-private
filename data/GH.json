@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$97.38",
-      "note": "Auto-Update: 5.56% vs. vorheriger Schlusskurs",
+      "value": "$98.47",
+      "note": "Auto-Update: 6.74% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,20 +225,16 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-13T18:22:21Z",
+    "last_update_utc": "2026-05-13T20:16:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 97.38,
+      "regularMarketPrice": 98.47,
       "previousClose": 92.25,
-      "change": 5.13,
-      "changePercent": 5.56
+      "change": 6.22,
+      "changePercent": 6.74
     },
     "price_history": [
-      {
-        "t": "2026-04-13T13:30:00Z",
-        "price": 82.21
-      },
       {
         "t": "2026-04-14T13:30:00Z",
         "price": 86.4
@@ -325,7 +321,7 @@
       },
       {
         "t": "2026-05-13T13:30:00Z",
-        "price": 97.38
+        "price": 98.47
       }
     ],
     "price_history_1d": [
@@ -563,11 +559,87 @@
       },
       {
         "t": "2026-05-13T18:20:00Z",
+        "price": 97.28
+      },
+      {
+        "t": "2026-05-13T18:25:00Z",
+        "price": 97.29
+      },
+      {
+        "t": "2026-05-13T18:30:00Z",
         "price": 97.14
       },
       {
-        "t": "2026-05-13T18:21:05Z",
-        "price": 97.38
+        "t": "2026-05-13T18:35:00Z",
+        "price": 97.375
+      },
+      {
+        "t": "2026-05-13T18:40:00Z",
+        "price": 97.49
+      },
+      {
+        "t": "2026-05-13T18:45:00Z",
+        "price": 97.77
+      },
+      {
+        "t": "2026-05-13T18:50:00Z",
+        "price": 98.02
+      },
+      {
+        "t": "2026-05-13T18:55:00Z",
+        "price": 97.63
+      },
+      {
+        "t": "2026-05-13T19:00:00Z",
+        "price": 97.67
+      },
+      {
+        "t": "2026-05-13T19:05:00Z",
+        "price": 97.95
+      },
+      {
+        "t": "2026-05-13T19:10:00Z",
+        "price": 97.89
+      },
+      {
+        "t": "2026-05-13T19:15:00Z",
+        "price": 97.76
+      },
+      {
+        "t": "2026-05-13T19:20:00Z",
+        "price": 97.62
+      },
+      {
+        "t": "2026-05-13T19:25:00Z",
+        "price": 97.21
+      },
+      {
+        "t": "2026-05-13T19:30:00Z",
+        "price": 97.29
+      },
+      {
+        "t": "2026-05-13T19:35:00Z",
+        "price": 97.31
+      },
+      {
+        "t": "2026-05-13T19:40:00Z",
+        "price": 97.63
+      },
+      {
+        "t": "2026-05-13T19:45:00Z",
+        "price": 97.58
+      },
+      {
+        "t": "2026-05-13T19:50:00Z",
+        "price": 98.14
+      },
+      {
+        "t": "2026-05-13T19:55:00Z",
+        "price": 98.44
+      },
+      {
+        "t": "2026-05-13T20:00:00Z",
+        "price": 98.47
       }
     ],
     "price_history_range": "1mo",
@@ -588,6 +660,22 @@
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "Guardant Health und Nuvalent schließen Partnerschaft für Krebsdiagnostik - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWjBRNlhhd0FPOUV3cmVYOHkteV9FS2tOakgzb0x4Tk41WGFkaFhrY0dlZ1N4QlFlY1U3dXZ3Znk5OWEycm1PNEg5OG5sTnI5T2d3NWJJR1lyYXBKakNqNVY1TDZvSlVBRTdKR1g5RHZyN2tiZlhKUFFCcnhmdmJ1ckp1S243UFlIYUZubFhXUjUxZHFrYXVNdFRDaUFtNVpzV0M5UnNBSkE1bTR2aXJhbmh6WE9XZUZFWjhCQk1Ca1BsRWhJcWdZ?oc=5",
+        "published_at": "2026-04-30T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Guardant Health: Personalvorständin verkauft Aktien im Wert von 355.000 $ - Investing.com Deutsch",

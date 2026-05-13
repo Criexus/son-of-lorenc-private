@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.62",
-      "note": "Auto-Update: -6.09% vs. vorheriger Schlusskurs",
+      "value": "$3.60",
+      "note": "Auto-Update: -6.74% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,20 +282,16 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-13T18:21:44Z",
+    "last_update_utc": "2026-05-13T20:16:15Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.625,
+      "regularMarketPrice": 3.6,
       "previousClose": 3.86,
-      "change": -0.235,
-      "changePercent": -6.09
+      "change": -0.26,
+      "changePercent": -6.74
     },
     "price_history": [
-      {
-        "t": "2026-04-13T13:30:00Z",
-        "price": 3.64
-      },
       {
         "t": "2026-04-14T13:30:00Z",
         "price": 3.64
@@ -382,7 +378,7 @@
       },
       {
         "t": "2026-05-13T13:30:00Z",
-        "price": 3.625
+        "price": 3.6
       }
     ],
     "price_history_1d": [
@@ -619,29 +615,93 @@
         "price": 3.61
       },
       {
-        "t": "2026-05-13T18:20:46Z",
+        "t": "2026-05-13T18:20:00Z",
+        "price": 3.62
+      },
+      {
+        "t": "2026-05-13T18:25:00Z",
+        "price": 3.62
+      },
+      {
+        "t": "2026-05-13T18:30:00Z",
+        "price": 3.63
+      },
+      {
+        "t": "2026-05-13T18:35:00Z",
         "price": 3.625
+      },
+      {
+        "t": "2026-05-13T18:40:00Z",
+        "price": 3.625
+      },
+      {
+        "t": "2026-05-13T18:45:00Z",
+        "price": 3.625
+      },
+      {
+        "t": "2026-05-13T18:50:00Z",
+        "price": 3.625
+      },
+      {
+        "t": "2026-05-13T18:55:00Z",
+        "price": 3.61
+      },
+      {
+        "t": "2026-05-13T19:00:00Z",
+        "price": 3.615
+      },
+      {
+        "t": "2026-05-13T19:05:00Z",
+        "price": 3.625
+      },
+      {
+        "t": "2026-05-13T19:10:00Z",
+        "price": 3.63
+      },
+      {
+        "t": "2026-05-13T19:15:00Z",
+        "price": 3.635
+      },
+      {
+        "t": "2026-05-13T19:20:00Z",
+        "price": 3.625
+      },
+      {
+        "t": "2026-05-13T19:25:00Z",
+        "price": 3.625
+      },
+      {
+        "t": "2026-05-13T19:30:00Z",
+        "price": 3.635
+      },
+      {
+        "t": "2026-05-13T19:35:00Z",
+        "price": 3.63
+      },
+      {
+        "t": "2026-05-13T19:40:00Z",
+        "price": 3.62
+      },
+      {
+        "t": "2026-05-13T19:45:00Z",
+        "price": 3.595
+      },
+      {
+        "t": "2026-05-13T19:50:00Z",
+        "price": 3.62
+      },
+      {
+        "t": "2026-05-13T19:55:00Z",
+        "price": 3.59
+      },
+      {
+        "t": "2026-05-13T20:00:00Z",
+        "price": 3.6
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Rocket Pharmaceuticals-Aktie (US7731221062): Kursrückgang von 49 Prozent im Jahr - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTBydVpiRUlWVFVzZmtLTGlDU2k4R2Y4Yzc3TXNkSkRzMlY2TlNoUE1XUGMwV184X2h4emU3TjdWUTQxejd0NXEwZGdNYkx2b2k4YUFiUVdaY253S01aay1fZkVJWnpUSU1maGF3SjdzTzRFdTh0eEJObnM2eWJleUhzam5DWEd6eVdmaW5PbC0tV1U0SjB1ZkpCbXJiRU9WdlEtbW1VaXRKWkh1b20yc19KM1h4UENIcFFXVWtqMV9OdVphbDBDSQ?oc=5",
-        "published_at": "2026-05-12T14:25:02Z",
-        "source": "AD HOC NEWS",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
       {
         "title": "Rocket Pharmaceuticals: CCO verkauft Aktien im Wert von 67.740 US-Dollar - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOHRVcmdwM09SZmNJV05QRXR1bnUtTVZ3bEJCQ0MwZkdEQnJmQkdSTU5FbjVBN3V1MWRTazdVYlVGN1pfMzdKQmcxYU90S3Z6Ui02NjROX1A4d2xHbGp0NTVLOHk4eUx3MFV2SnlqMjY0UnE5aXIteUxZcUo5NGRQeTdQZHRZcHRRYnVFbEVWQWluZWl2N1g3T1N2ZmgyWFNyZjZXakl5NkpaVWJsZklpdTVtRFpTaTgzNElSWDM2YXl6R3pIYkZzOUlxYU1WUQ?oc=5",
@@ -737,25 +797,30 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
-      },
-      {
-        "title": "Rocket Pharma. Aktie (A2JA9Q, RCKT) - Kurs, Chart, News & Kennzahlen - Ariva",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9udDJTTjBEMFhXWjJRZ3V1bVhwMWJIcDVrSFNXQjV6ZlNlRjV6d0I2ZXZyaXF6ZU9GVDRJYWw4ODN4Ny1NbWUtUGEteWM4QVlhNGJMY2RPZlJ5MTFGX3hyancyaGxkc0RVTmJkbA?oc=5",
-        "published_at": "2024-09-19T16:49:30Z",
-        "source": "Ariva",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-05-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003570/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-05-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003569/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-05-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003566/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-05-11",
@@ -872,27 +937,6 @@
         "form": "CORRESP",
         "filingDate": "2026-03-06",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008290/filename1.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "UPLOAD",
-        "filingDate": "2026-03-06",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000000000026002361/filename1.pdf",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "S-3",
-        "filingDate": "2026-03-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126007341/ny20066752x1_s3.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-02-26",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126006981/ef20066645_8k.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1065,14 +1109,6 @@
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
-        "title": "S-3 · 2026-03-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-02"
-      },
-      {
-        "type": "SEC · Finanzierung/Verwässerung",
-        "level": "high",
         "title": "424B5 · 2026-03-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1185,14 +1221,6 @@
       {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
-        "title": "8-K · 2026-02-26",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-02-26"
-      },
-      {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
         "title": "8-K · 2026-03-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1281,14 +1309,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "UPLOAD · 2026-03-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "EFFECT · 2026-03-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1301,6 +1321,30 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-25"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-03-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-03-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SC TO-C · 2026-04-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-03"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "ARS · 2026-04-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-06"
       }
     ],
     "queries_used": [
