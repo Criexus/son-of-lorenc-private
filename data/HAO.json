@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-13T08:33:26Z",
+    "last_update_utc": "2026-05-13T11:26:16Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -631,6 +631,13 @@
     ],
     "sec_filings": [
       {
+        "form": "6-K",
+        "filingDate": "2026-05-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026055242/ea0290387-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "424B5",
         "filingDate": "2026-05-12",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026054771/ea0290252-424b5_haoxi.htm",
@@ -760,13 +767,6 @@
         "form": "6-K",
         "filingDate": "2025-10-17",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025100047/ea0261421-6k_haoxi.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "EFFECT",
-        "filingDate": "2025-06-13",
-        "url": "https://www.sec.gov/Archives/edgar/data/1954594/999999999525001927/xslEFFECTX01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1117,6 +1117,14 @@
         "date": "2026-04-22"
       },
       {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-05-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-13"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Application of Ultrasonic Elastography in Lung Lesions",
@@ -1147,14 +1155,6 @@
         "reason": "Studienregister-Treffer: UNKNOWN ",
         "source": "NCT05499442",
         "date": "2022-01-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "EFFECT · 2025-06-13",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2025-06-13"
       },
       {
         "type": "SEC Filing",
