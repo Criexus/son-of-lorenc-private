@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$21.23",
-      "note": "Auto-Update: -9.37% vs. vorheriger Schlusskurs",
+      "value": "$21.78",
+      "note": "Auto-Update: -7.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,14 +229,14 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-13T13:35:10Z",
+    "last_update_utc": "2026-05-13T16:14:37Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 21.225,
+      "regularMarketPrice": 21.78,
       "previousClose": 23.42,
-      "change": -2.195,
-      "changePercent": -9.37
+      "change": -1.64,
+      "changePercent": -7.0
     },
     "price_history": [
       {
@@ -329,17 +329,145 @@
       },
       {
         "t": "2026-05-13T13:30:00Z",
-        "price": 21.225
+        "price": 21.78
       }
     ],
     "price_history_1d": [
       {
         "t": "2026-05-13T13:30:00Z",
+        "price": 21.225
+      },
+      {
+        "t": "2026-05-13T13:35:00Z",
+        "price": 21.12
+      },
+      {
+        "t": "2026-05-13T13:40:00Z",
+        "price": 21.14
+      },
+      {
+        "t": "2026-05-13T13:45:00Z",
         "price": 21.22
       },
       {
-        "t": "2026-05-13T13:34:43Z",
-        "price": 21.225
+        "t": "2026-05-13T13:50:00Z",
+        "price": 21.305
+      },
+      {
+        "t": "2026-05-13T13:55:00Z",
+        "price": 21.41
+      },
+      {
+        "t": "2026-05-13T14:00:00Z",
+        "price": 21.41
+      },
+      {
+        "t": "2026-05-13T14:05:00Z",
+        "price": 21.425
+      },
+      {
+        "t": "2026-05-13T14:10:00Z",
+        "price": 21.585
+      },
+      {
+        "t": "2026-05-13T14:15:00Z",
+        "price": 21.55
+      },
+      {
+        "t": "2026-05-13T14:20:00Z",
+        "price": 21.75
+      },
+      {
+        "t": "2026-05-13T14:25:00Z",
+        "price": 21.6999
+      },
+      {
+        "t": "2026-05-13T14:30:00Z",
+        "price": 21.63
+      },
+      {
+        "t": "2026-05-13T14:35:00Z",
+        "price": 21.72
+      },
+      {
+        "t": "2026-05-13T14:40:00Z",
+        "price": 21.8
+      },
+      {
+        "t": "2026-05-13T14:45:00Z",
+        "price": 21.79
+      },
+      {
+        "t": "2026-05-13T14:50:00Z",
+        "price": 21.77
+      },
+      {
+        "t": "2026-05-13T14:55:00Z",
+        "price": 21.7201
+      },
+      {
+        "t": "2026-05-13T15:00:00Z",
+        "price": 21.74
+      },
+      {
+        "t": "2026-05-13T15:05:00Z",
+        "price": 21.65
+      },
+      {
+        "t": "2026-05-13T15:10:00Z",
+        "price": 21.66
+      },
+      {
+        "t": "2026-05-13T15:15:00Z",
+        "price": 21.76
+      },
+      {
+        "t": "2026-05-13T15:20:00Z",
+        "price": 21.78
+      },
+      {
+        "t": "2026-05-13T15:25:00Z",
+        "price": 21.84
+      },
+      {
+        "t": "2026-05-13T15:30:00Z",
+        "price": 21.845
+      },
+      {
+        "t": "2026-05-13T15:35:00Z",
+        "price": 21.835
+      },
+      {
+        "t": "2026-05-13T15:40:00Z",
+        "price": 21.81
+      },
+      {
+        "t": "2026-05-13T15:45:00Z",
+        "price": 21.8
+      },
+      {
+        "t": "2026-05-13T15:50:00Z",
+        "price": 21.715
+      },
+      {
+        "t": "2026-05-13T15:55:00Z",
+        "price": 21.65
+      },
+      {
+        "t": "2026-05-13T16:00:00Z",
+        "price": 21.84
+      },
+      {
+        "t": "2026-05-13T16:05:00Z",
+        "price": 21.74
+      },
+      {
+        "t": "2026-05-13T16:10:00Z",
+        "price": 21.79
+      },
+      {
+        "t": "2026-05-13T16:13:50Z",
+        "price": 21.78
       }
     ],
     "price_history_range": "1mo",
@@ -360,22 +488,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Definium Therapeutics gibt Behandlungsbeginn des ersten Patienten in Ascend-Studie bekannt - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcHNRQUtpVVloeUZSTjI3Wmdha1JpYXNyZUVwaGdid2duTHcxRFJhVGZDLTNTXzh3RUc0SktyTHFqRjI1Q1lFamt1dHpxd3NJZjJOTUNGWW5oc0dUb0FaR0FKUFlQLWVOcDlqWlE5MzRyX0dPRGNvMmZUZnB6cDBRd1pncmlGT05nVU9DM1JuaUlTMFE1aUN2MEhjMEpIVVp2d1hGVDJrZnFJSlBwMWhrRzY4anRUTmI3MjBaVk44U2RpZXBtUGNfanhJWW1GNGpOU040M083dDh5bnA5Nms3T2J2ZFVDQ19WM21JQQ?oc=5",
-        "published_at": "2026-05-12T11:04:14Z",
-        "source": "MarketScreener Deutschland",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
       },
       {
         "title": "Definium verfehlt Gewinnprognose für Q1 2026 deutlich – Aktie gibt nach - Investing.com Deutsch",
