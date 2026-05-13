@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-13T20:16:32Z",
+    "last_update_utc": "2026-05-13T21:50:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -1083,6 +1083,13 @@
     ],
     "sec_filings": [
       {
+        "form": "S-8",
+        "filingDate": "2026-05-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000041/alt-20260513xs8.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "10-Q",
         "filingDate": "2026-05-13",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000040/alt-20260331x10q.htm",
@@ -1212,13 +1219,6 @@
         "form": "424B5",
         "filingDate": "2026-04-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000031/alt-20260422x424b5.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-04-16",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000027/alt-20260416x8k.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1561,14 +1561,6 @@
         "date": "2025-06-16"
       },
       {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
-        "title": "8-K · 2026-04-16",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-16"
-      },
-      {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
         "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
@@ -1631,6 +1623,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-30"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-05-01",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-01"
       },
       {
         "type": "SEC Filing",
