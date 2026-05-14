@@ -166,7 +166,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-14T08:40:53Z",
+    "last_update_utc": "2026-05-14T11:09:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -588,6 +588,27 @@
     "news": [],
     "sec_filings": [
       {
+        "form": "10-Q",
+        "filingDate": "2026-05-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000026/caba-20260331.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-05-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-20260514.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-05-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000024/caba-20260514.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "8-K",
         "filingDate": "2026-05-04",
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526202446/d145767d8k.htm",
@@ -705,27 +726,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526086118/xslF345X05/ownership.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G",
-        "filingDate": "2026-02-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000110465926017121/xslSCHEDULE_13G_X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G/A",
-        "filingDate": "2026-02-17",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000117266126001156/xslSCHEDULE_13G_X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G/A",
-        "filingDate": "2026-02-17",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000117266126001031/xslSCHEDULE_13G_X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -779,28 +779,28 @@
         "date": "2026-05-04"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G/A · 2026-02-17",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-05-14",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-02-17"
+        "date": "2026-05-14"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G/A · 2026-02-17",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-05-14",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-02-17"
+        "date": "2026-05-14"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G · 2026-02-18",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-05-14",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-02-18"
+        "date": "2026-05-14"
       },
       {
         "type": "SEC Filing",
