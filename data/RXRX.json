@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.06",
-      "note": "Auto-Update: -6.27% vs. vorheriger Schlusskurs",
+      "value": "$3.04",
+      "note": "Auto-Update: -7.03% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,20 +290,16 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-14T19:20:19Z",
+    "last_update_utc": "2026-05-14T20:52:07Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.065,
+      "regularMarketPrice": 3.04,
       "previousClose": 3.27,
-      "change": -0.205,
-      "changePercent": -6.27
+      "change": -0.23,
+      "changePercent": -7.03
     },
     "price_history": [
-      {
-        "t": "2026-04-14T13:30:00Z",
-        "price": 3.54
-      },
       {
         "t": "2026-04-15T13:30:00Z",
         "price": 3.75
@@ -390,7 +386,7 @@
       },
       {
         "t": "2026-05-14T13:30:00Z",
-        "price": 3.065
+        "price": 3.04
       }
     ],
     "price_history_1d": [
@@ -672,20 +668,52 @@
       },
       {
         "t": "2026-05-14T19:15:00Z",
-        "price": 3.0676
+        "price": 3.065
       },
       {
-        "t": "2026-05-14T19:19:51Z",
+        "t": "2026-05-14T19:20:00Z",
         "price": 3.065
+      },
+      {
+        "t": "2026-05-14T19:25:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-05-14T19:30:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-14T19:35:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-05-14T19:40:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-05-14T19:45:00Z",
+        "price": 3.06
+      },
+      {
+        "t": "2026-05-14T19:50:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-05-14T19:55:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-05-14T20:00:00Z",
+        "price": 3.04
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Recursion Pharmaceuticals: Director Blake Borgeson verkauft Aktien im Wert von 105.600 US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS196Z3ZmbEkzZk1GUWVYXzFyWnhWWjVKWlVDNFp5NHVsNjB4X0U5R1R1Y1Fha3liMDNlWHd1ZzRMMF9CR01wUVp5WnBReW13ODJKYzdSWldOZVc1eXJkbm1aOGktRFB5X1E4V3dKRENRa0VsQkVFZWlzNTZKcHI5QXM3N2M0MFpod0xpZHRraUZfX1Rmcng1OURwRDA5dGxRVXppY0NiMnlSN2V0eHAtb2N2S0c4VmpLWjBzNWVCdXBQbnBybnkyVVdkZlpRTVFKS0VDUldxZTNCU0drTU1UbEVya3BrUGYtMzRuRG5n?oc=5",
-        "published_at": "2026-05-07T20:52:00Z",
+        "title": "Recursion Pharmaceuticals: Direktor verkauft Aktien im Wert von 134.800 $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc2lLeEk0LUNueHd1NGdjMW8wVXhIdFZ5MWhQLWRaVy11NnVIaXU2V0E4WXhBVnh1MWZRQnBqd3NRdm9jNTJfazlWb285bjRWWjB3UDcwckIya3ZyRkRWMjhjM0FJdkxwMHk1T2ZnVE41M1ktLU9iYnkxdmZoWmdkcGlzUE84dmhYcTFNZEdxZWJidzlBUkZyYVp5SWgyZE9feXBoQ1lUbGNQNGNzak55ZmFtUmRPXzRzZlVONE1FR2tYdUJ5QU9YWFJ5ajRLZWM?oc=5",
+        "published_at": "2026-05-08T21:21:00Z",
         "source": "Investing.com Deutsch",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
@@ -699,9 +727,9 @@
         "relevance_score": 19
       },
       {
-        "title": "Recursion Pharmaceuticals: Direktor Gibson verkauft Aktien im Wert von 144.400 $ - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSWNCeVlfRDZGWlotRGI0Wmg2TkFkQm40MkhXVUJka3ZnMVBTel9oajdfdGtTZXM1aFRlSXRXNF9ac1k5LTVtR01MUlQtXzRsajdTcEE0OWlwVFlBZHdIdGpJTVNnVXlfVlNicThPaU4weVVLdzEwUjRTVVEwdjVFdl96aUhwM0lPbGhEeXhsUHRBbVFFUm1ka1dBMmZFVmgtX3JaWDBQcjltLW9lODg1ckdYU3VRR2o0ZUdXMDRKTFFEZDY3NmF1cTRCZm5GWU95b2c2Y1RkRFQ?oc=5",
-        "published_at": "2026-04-24T07:00:00Z",
+        "title": "Recursion Pharmaceuticals: Director Blake Borgeson verkauft Aktien im Wert von 105.600 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS196Z3ZmbEkzZk1GUWVYXzFyWnhWWjVKWlVDNFp5NHVsNjB4X0U5R1R1Y1Fha3liMDNlWHd1ZzRMMF9CR01wUVp5WnBReW13ODJKYzdSWldOZVc1eXJkbm1aOGktRFB5X1E4V3dKRENRa0VsQkVFZWlzNTZKcHI5QXM3N2M0MFpod0xpZHRraUZfX1Rmcng1OURwRDA5dGxRVXppY0NiMnlSN2V0eHAtb2N2S0c4VmpLWjBzNWVCdXBQbnBybnkyVVdkZlpRTVFKS0VDUldxZTNCU0drTU1UbEVya3BrUGYtMzRuRG5n?oc=5",
+        "published_at": "2026-05-07T20:52:00Z",
         "source": "Investing.com Deutsch",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
@@ -847,7 +875,7 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-15T07:00:00Z",
         "source": "TradingView",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

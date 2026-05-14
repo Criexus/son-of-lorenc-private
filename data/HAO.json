@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$0.03",
-      "note": "Auto-Update: -96.43% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -96.29% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,20 +192,16 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-14T19:20:13Z",
+    "last_update_utc": "2026-05-14T20:52:00Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.0253,
+      "regularMarketPrice": 0.0263,
       "previousClose": 0.708,
-      "change": -0.6827,
-      "changePercent": -96.43
+      "change": -0.6817,
+      "changePercent": -96.29
     },
     "price_history": [
-      {
-        "t": "2026-04-14T13:30:00Z",
-        "price": 1.13
-      },
       {
         "t": "2026-04-15T13:30:00Z",
         "price": 1.12
@@ -292,7 +288,7 @@
       },
       {
         "t": "2026-05-14T13:30:00Z",
-        "price": 0.0253
+        "price": 0.0263
       }
     ],
     "price_history_1d": [
@@ -574,33 +570,48 @@
       },
       {
         "t": "2026-05-14T19:15:00Z",
+        "price": 0.0253
+      },
+      {
+        "t": "2026-05-14T19:20:00Z",
         "price": 0.0254
       },
       {
-        "t": "2026-05-14T19:19:49Z",
+        "t": "2026-05-14T19:25:00Z",
         "price": 0.0253
+      },
+      {
+        "t": "2026-05-14T19:30:00Z",
+        "price": 0.0254
+      },
+      {
+        "t": "2026-05-14T19:35:00Z",
+        "price": 0.0254
+      },
+      {
+        "t": "2026-05-14T19:40:00Z",
+        "price": 0.0254
+      },
+      {
+        "t": "2026-05-14T19:45:00Z",
+        "price": 0.0257
+      },
+      {
+        "t": "2026-05-14T19:50:00Z",
+        "price": 0.0259
+      },
+      {
+        "t": "2026-05-14T19:55:00Z",
+        "price": 0.0263
+      },
+      {
+        "t": "2026-05-14T20:00:00Z",
+        "price": 0.0263
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Haoxi Health Technology sichert sich 6,5 Millionen US-Dollar durch Direktplatzierung - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSFptemJJVTVjdEtYRjJfRmNNZkJCQXFWelZMeWw5d0IwMDNMRVNfbXVJRERmZFJXd3hIQ0FaUVZCSnFPVjFVVzdPdGFqRDlURGFKM25rY1RYVEVmUkU1cmtiQjZKQWpfelAxc3Z0Q2c2al92SUUwMkR5aG5BeEpKd0J5bVpjZVNjUWRicy1PYkRlZ1hhbGxmcENFbnlVeVBGQndLN1puY0d1MEw4eTV1Um5VZy1jMlkyenJvNDF1dHJMTWNsT1ExbnU5Z01DZzJfMk1JbQ?oc=5",
-        "published_at": "2026-05-11T12:20:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Haoxi Health Technology HAO stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "6-K",

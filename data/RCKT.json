@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.42",
-      "note": "Auto-Update: -6.95% vs. vorheriger Schlusskurs",
+      "value": "$3.40",
+      "note": "Auto-Update: -7.36% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,20 +282,16 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-14T19:19:17Z",
+    "last_update_utc": "2026-05-14T20:51:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.415,
+      "regularMarketPrice": 3.4,
       "previousClose": 3.67,
-      "change": -0.255,
-      "changePercent": -6.95
+      "change": -0.27,
+      "changePercent": -7.36
     },
     "price_history": [
-      {
-        "t": "2026-04-14T13:30:00Z",
-        "price": 3.64
-      },
       {
         "t": "2026-04-15T13:30:00Z",
         "price": 3.88
@@ -382,7 +378,7 @@
       },
       {
         "t": "2026-05-14T13:30:00Z",
-        "price": 3.415
+        "price": 3.4
       }
     ],
     "price_history_1d": [
@@ -667,8 +663,40 @@
         "price": 3.415
       },
       {
-        "t": "2026-05-14T19:18:18Z",
+        "t": "2026-05-14T19:20:00Z",
+        "price": 3.43
+      },
+      {
+        "t": "2026-05-14T19:25:00Z",
         "price": 3.415
+      },
+      {
+        "t": "2026-05-14T19:30:00Z",
+        "price": 3.41
+      },
+      {
+        "t": "2026-05-14T19:35:00Z",
+        "price": 3.425
+      },
+      {
+        "t": "2026-05-14T19:40:00Z",
+        "price": 3.395
+      },
+      {
+        "t": "2026-05-14T19:45:00Z",
+        "price": 3.395
+      },
+      {
+        "t": "2026-05-14T19:50:00Z",
+        "price": 3.4
+      },
+      {
+        "t": "2026-05-14T19:55:00Z",
+        "price": 3.4
+      },
+      {
+        "t": "2026-05-14T20:00:00Z",
+        "price": 3.4
       }
     ],
     "price_history_range": "1mo",
@@ -705,22 +733,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
-      },
-      {
-        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5",
-        "published_at": "2026-03-27T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 29
       },
       {
         "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
@@ -817,9 +829,46 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
+      },
+      {
+        "title": "ROCKET PHARMACEUTICALS AKTIE | Aktienkurs | US77313F1066 | RCKT | A2JA9Q | News - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZUZNMS1KeFFRaFRWU2ZVbVlWMDV3dlVyUHVQSHNVTzhaNVBaakdlZXMwdDlPUG5kN0ZDb0M5N0szT3cwUjJFaVZiajhOdEFQMjM5NkQtdTRBWnFqTURSb0F4emVlOW54aHg5WQ?oc=5",
+        "published_at": "2018-02-19T15:53:56Z",
+        "source": "Finanzen.net",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 26
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-05-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126021321/xslF345X06/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-05-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126021315/xslF345X06/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-05-14",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126021305/xslF345X06/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "144",
         "filingDate": "2026-05-13",
@@ -936,27 +985,6 @@
         "form": "EFFECT",
         "filingDate": "2026-03-10",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/999999999526000767/xslEFFECTX01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-03-10",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008853/ef20067503_8k.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "424B5",
-        "filingDate": "2026-03-10",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008849/ny20066752x3_424b5.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "CORRESP",
-        "filingDate": "2026-03-06",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126008290/filename1.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1127,26 +1155,6 @@
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSXlZenNlOVR3d0NEUXI4LVAySVltNS0wVVpHcFIwVW9xMENRb2JJdTV2Y3A0TVZ2c0xzZmd5aE5JNXVHVHRtWEZfQkNJOUJvMnBqY2g0MVhfYzBBWHhyZjRYQWlYN1hmNXdSdUF6d3hPaHNlcTRPWW9tcXowaXM5MGExSEdEUEVwTXl4T1VIakhDdE5TdENHZUhKVzZnWGEwRzludjlDQ1ZTYjJPb0hPSWxselhLaHBUdTVxVHIwczNwTTNOZ2NiMXRzSnl0Um1TdHh6bXp2ZlkxRlNUcFJnSjJ3?oc=5"
       },
       {
-        "type": "SEC · Finanzierung/Verwässerung",
-        "level": "high",
-        "title": "424B5 · 2026-03-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-10"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "FDA erteilt Rocket Pharmaceuticals Zulassung für Gentherapie KRESLADI - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-03-27T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnJCVE9DX2NaM3FyUzBNOFJjX0xwN0hIVDRCeTctOVQ4MlJjeDJSZVJoMUdIdzI3RHcyNmxLWl9QQkw5Y3BBb3c3a0RESnlCOC1kOFN2TFpXc1lDZU51VWFWYTUtVWZ6bG1oM1pwWUh1MUpkcHFXcUVaMC1IOEVFSFBMRXJQY3ZwWWpYLUVHbmM4OE0tZnRyaVRNUnBnTkZ1R2h1VXFCOUc5cDROMno3RDl2SUdWZHB1YmxkeV9yNUlaWnM?oc=5"
-      },
-      {
         "type": "FDA / Regulatorik",
         "level": "high",
         "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
@@ -1221,14 +1229,6 @@
         "reason": "Studienregister-Treffer: RECRUITING PHASE2",
         "source": "NCT06092034",
         "date": "2023-09-05"
-      },
-      {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
-        "title": "8-K · 2026-03-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-10"
       },
       {
         "type": "SEC · Unternehmensereignis",
@@ -1321,14 +1321,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "CORRESP · 2026-03-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "EFFECT · 2026-03-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1365,6 +1357,38 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-04-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEF 14A · 2026-04-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SC TO-I · 2026-04-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-05-07",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-07"
       }
     ],
     "queries_used": [
