@@ -191,7 +191,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-14T22:00:12Z",
+    "last_update_utc": "2026-05-14T22:58:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -390,7 +390,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Biodexa schlägt auf Hauptversammlung Kapitalneuordnung vor - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTk9BOVZ3T1l3cVpmaUo4Mlo2S0ZSUkdkbVktdlp4cC02NzB5blhtdzVHeGZBMDk4OWdVRGVELUYwckJhN0dIY0tuSU8yRUFsRmFTLUlJMmtkc2hoODd5WllmRDVsbFNWekg1bjFmRnBKSkRHMW15cFZPUUtqS0hXeHQ5cE5sVUJoblZramFFbGxHZDVHOUJjdDQ1WmtCanJGdkJnQXc5a1VuYTUwbTJtMEttczI?oc=5",
+        "published_at": "2026-05-14T12:37:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
