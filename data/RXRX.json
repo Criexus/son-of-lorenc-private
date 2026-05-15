@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.97",
-      "note": "Auto-Update: -10.57% vs. vorheriger Schlusskurs",
+      "value": "$2.93",
+      "note": "Auto-Update: -11.75% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-15T19:02:24Z",
+    "last_update_utc": "2026-05-15T20:39:31Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.969,
+      "regularMarketPrice": 2.93,
       "previousClose": 3.32,
-      "change": -0.351,
-      "changePercent": -10.57,
-      "regularMarketTime": "2026-05-15T19:02:12Z",
+      "change": -0.39,
+      "changePercent": -11.75,
+      "regularMarketTime": "2026-05-15T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.8 – 7.18"
     },
     "price_history": [
-      {
-        "t": "2026-04-15T13:30:00Z",
-        "price": 3.75
-      },
       {
         "t": "2026-04-16T13:30:00Z",
         "price": 3.6
@@ -403,7 +399,7 @@
       },
       {
         "t": "2026-05-15T13:30:00Z",
-        "price": 2.969
+        "price": 2.93
       }
     ],
     "price_history_1d": [
@@ -673,16 +669,76 @@
       },
       {
         "t": "2026-05-15T19:00:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-05-15T19:05:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-05-15T19:10:00Z",
+        "price": 2.9616
+      },
+      {
+        "t": "2026-05-15T19:15:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-05-15T19:20:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-05-15T19:25:00Z",
         "price": 2.96
       },
       {
-        "t": "2026-05-15T19:02:19Z",
+        "t": "2026-05-15T19:30:00Z",
+        "price": 2.9601
+      },
+      {
+        "t": "2026-05-15T19:35:00Z",
         "price": 2.97
+      },
+      {
+        "t": "2026-05-15T19:40:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-05-15T19:45:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-05-15T19:50:00Z",
+        "price": 2.9399
+      },
+      {
+        "t": "2026-05-15T19:55:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-15T20:00:00Z",
+        "price": 2.93
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Recursion Pharmaceuticals: Direktor verkauft Aktien im Wert von 134.800 $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc2lLeEk0LUNueHd1NGdjMW8wVXhIdFZ5MWhQLWRaVy11NnVIaXU2V0E4WXhBVnh1MWZRQnBqd3NRdm9jNTJfazlWb285bjRWWjB3UDcwckIya3ZyRkRWMjhjM0FJdkxwMHk1T2ZnVE41M1ktLU9iYnkxdmZoWmdkcGlzUE84dmhYcTFNZEdxZWJidzlBUkZyYVp5SWgyZE9feXBoQ1lUbGNQNGNzak55ZmFtUmRPXzRzZlVONE1FR2tYdUJ5QU9YWFJ5ajRLZWM?oc=5",
+        "published_at": "2026-05-08T21:21:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
       {
         "title": "Recursion Pharmaceuticals: Director Blake Borgeson verkauft Aktien im Wert von 105.600 US-Dollar - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS196Z3ZmbEkzZk1GUWVYXzFyWnhWWjVKWlVDNFp5NHVsNjB4X0U5R1R1Y1Fha3liMDNlWHd1ZzRMMF9CR01wUVp5WnBReW13ODJKYzdSWldOZVc1eXJkbm1aOGktRFB5X1E4V3dKRENRa0VsQkVFZWlzNTZKcHI5QXM3N2M0MFpod0xpZHRraUZfX1Rmcng1OURwRDA5dGxRVXppY0NiMnlSN2V0eHAtb2N2S0c4VmpLWjBzNWVCdXBQbnBybnkyVVdkZlpRTVFKS0VDUldxZTNCU0drTU1UbEVya3BrUGYtMzRuRG5n?oc=5",
@@ -704,22 +760,6 @@
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhnRXFrLUZibWFIYkkwV04yYklOQkt3dTVHTkRrV2tDZnJIMW1BMk83cWg1YURQc3Z2YVVaQl9FWTlLeUtSdDVjQ3plcm5oOWxoSVlQWEFlNlpaQ1lQT0ZwaDlJb1FqUnlTVjdRT1R0bFcxdXRQbTZHaWJObGJZZU1GRmJYaTA1b0FFbjZqeG00T3JnQ01VZ215a0xjWXoxOWV4YTlsUEpMa0tfUUxEQUdKbG1Qd1k4VXNfZWw1MFZGazBRNzZ2V1hMczZRZw?oc=5",
         "published_at": "2026-02-18T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 19
-      },
-      {
-        "title": "Recursion Pharmaceuticals Approaches a Pivotal Financial and Clinical Juncture - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNVBLTG5LY05fbDZLWFQzeUpQSUpjdTB3TzBxckJmSGpSaWptc1g0NGVORV9aMzY4Q2tmSlJQLVNTMVpqZ1hMUlFuNHk2N1pGVlVGWGlrbThmMDU4R0dfUnBSQzJxSktfazVPYXYwTF9iejVUTDZaelJ6QXFORUllRWJQYm5kYlRhR2lWTlZISFJMUVZpekdObjJPTDBmUGJOSTF6Y0l6VWdheFJwVXhoR3lDd1ZfUUxMLUVsVTkxVGIxS3NJOUtr?oc=5",
-        "published_at": "2026-02-03T08:00:00Z",
-        "source": "AD HOC NEWS",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
