@@ -1477,60 +1477,94 @@ function initDeleteForm() {
 // MOBILE NAVIGATION
 // ══════════════════════════════════════════════════════════
 function initMobileNav() {
-  // Bottom Nav Buttons → gleiche Logik wie Desktop-Buttons
-  const map = {
-    "bottomSmartBtn":   "smart",
-    "bottomCockpitBtn": "cockpit",
-    "bottomMaxBtn":     "max",
-    "bottomNotifyBtn":  null,  // öffnet Benachrichtigungen
-  };
+  // ── Bottom Nav: direkt setMode() aufrufen ──────────────
+  function setBottomActive(mode) {
+    document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
+    const id = mode === "smart"   ? "bottomSmartBtn"
+             : mode === "cockpit" ? "bottomCockpitBtn"
+             : mode === "max"     ? "bottomMaxBtn"
+             : "bottomNotifyBtn";
+    $(id)?.classList.add("active");
+  }
 
-  Object.entries(map).forEach(([id, mode]) => {
-    $(id)?.addEventListener("click", () => {
-      if (mode) {
-        // Mode wechseln
-        const modeBtn = mode === "smart"   ? $("smartModeBtn")
-                      : mode === "cockpit" ? $("cockpitModeBtn")
-                      : $("maxModeBtn");
-        modeBtn?.click();
-        // Bottom Nav aktiv markieren
-        document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
-        $(id)?.classList.add("active");
-        // Nach oben scrollen
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      } else {
-        // Benachrichtigungen: zum Cockpit + Notification Center
-        $("cockpitModeBtn")?.click();
-        document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
-        $("bottomCockpitBtn")?.classList.add("active");
-        setTimeout(() => {
-          $("notificationCenter")?.scrollIntoView({ behavior: "smooth", block: "start" });
-        }, 200);
-      }
-    });
+  $("bottomSmartBtn")?.addEventListener("click", () => {
+    setModeGlobal("smart"); setBottomActive("smart");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  $("bottomCockpitBtn")?.addEventListener("click", () => {
+    setModeGlobal("cockpit"); setBottomActive("cockpit");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  $("bottomMaxBtn")?.addEventListener("click", () => {
+    setModeGlobal("max"); setBottomActive("max");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  $("bottomNotifyBtn")?.addEventListener("click", () => {
+    setModeGlobal("cockpit"); setBottomActive("cockpit");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setTimeout(() => {
+      $("notificationCenter")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 300);
   });
 
-  // Desktop Mode-Buttons → Bottom Nav synchronisieren
-  ["smart","cockpit","max"].forEach(mode => {
-    const deskBtn = mode === "smart"   ? $("smartModeBtn")
+  // ── Drawer-Logik ────────────────────────────────────────
+  function openDrawer()  {
+    $("rightDrawer")?.classList.add("open");
+    $("drawerOverlay")?.classList.add("open");
+    document.body.style.overflow = "hidden";
+    if ($("drawerUpdate") && $("globalUpdate"))
+      $("drawerUpdate").textContent = $("globalUpdate").textContent;
+  }
+  function closeDrawer() {
+    $("rightDrawer")?.classList.remove("open");
+    $("drawerOverlay")?.classList.remove("open");
+    document.body.style.overflow = "";
+  }
+
+  $("drawerTrigger")?.addEventListener("click", openDrawer);
+  $("drawerClose")?.addEventListener("click",   closeDrawer);
+  $("drawerOverlay")?.addEventListener("click",  closeDrawer);
+
+  // Drawer Mode-Buttons
+  $("smartModeBtn")?.addEventListener("click", () => {
+    setModeGlobal("smart"); setBottomActive("smart"); closeDrawer();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  $("cockpitModeBtn")?.addEventListener("click", () => {
+    setModeGlobal("cockpit"); setBottomActive("cockpit"); closeDrawer();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  $("maxModeBtn")?.addEventListener("click", () => {
+    setModeGlobal("max"); setBottomActive("max"); closeDrawer();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  // Aktie aus Drawer-Select wechseln
+  $("tickerSelect")?.addEventListener("change", e => {
+    loadTicker(e.target.value).then(closeDrawer);
+  });
+
+  // Initialen Bottom-Nav-State setzen
+  setBottomActive(viewMode);
+}
+
+// Globale setMode-Funktion (wird von Bottom Nav + Drawer genutzt)
+function setModeGlobal(mode) {
+  viewMode = mode;
+  localStorage.setItem("solViewMode", mode);
+  document.body.className = document.body.className
+    .replace(/\b(smart|cockpit|max)-mode\b/g, "").trim();
+  document.body.classList.add(`${mode}-mode`);
+
+  // Drawer Mode-Buttons aktiv markieren
+  document.querySelectorAll(".drawerModeBtn").forEach(b => b.classList.remove("active"));
+  const drawerBtn = mode === "smart"   ? $("smartModeBtn")
                   : mode === "cockpit" ? $("cockpitModeBtn")
                   : $("maxModeBtn");
-    deskBtn?.addEventListener("click", () => {
-      document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
-      const bnId = mode === "smart"   ? "bottomSmartBtn"
-                 : mode === "cockpit" ? "bottomCockpitBtn"
-                 : "bottomMaxBtn";
-      $(bnId)?.classList.add("active");
-    });
-  });
+  drawerBtn?.classList.add("active");
 
-  // Initialen Mode in Bottom Nav markieren
-  const initialMode = localStorage.getItem("solViewMode") || "smart";
-  const initBnId = initialMode === "smart"   ? "bottomSmartBtn"
-                 : initialMode === "cockpit" ? "bottomCockpitBtn"
-                 : "bottomMaxBtn";
-  document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
-  $(initBnId)?.classList.add("active");
+  if (mode === "cockpit") { renderCockpit(); renderPreMarketOverview(); }
+  if (mode === "smart")   renderSmart();
 }
 
 // ── Start ─────────────────────────────────────────────────
