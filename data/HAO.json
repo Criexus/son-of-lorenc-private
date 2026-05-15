@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-15T06:10:17Z",
+    "last_update_utc": "2026-05-15T09:28:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -611,7 +611,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Haoxi Health Technologie sichert sich 6,5 Millionen $ durch Direktplatzierung - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSjdVQnA0QlFvRzJCZDExSzRoTVgwb2tiaGFsVlMwR2FNX1RNTDJELWpidjVjdnY0aFoydnV0eC1sVWNNejQ0LVhMQmpmWUh6TEVYREM5YmgwWG53dHk5Szhtay14NVlmZVJBZ1N5eXV2c1FWWTNVc3JyNUZKOUs0R2lmQk83X2JIdDBqTUJjVGxidDl4RlRBeWZRT19DV3RuM0kzNUxVckV4aFQxc04xbzB3UDZfZE84bUtqOGJCeFNlSk5kd3k5dkM5NA?oc=5",
+        "published_at": "2026-05-12T21:11:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Haoxi Health Technology HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 11
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
