@@ -5,34 +5,116 @@
 
 "use strict";
 
-// ════════════════════════════════════════════════
-// MODE SWITCH – einzige Quelle der Wahrheit
+// ══════════════════════════════════════════════════════
+// SWITCH MODE + DRAWER
+// ══════════════════════════════════════════════════════
+function switchMode(mode) {
+  if (!['smart','cockpit','max'].includes(mode)) return;
+  viewMode = mode;
+  localStorage.setItem('solViewMode', mode);
+
+  // Body-Klasse
+  document.body.classList.remove('smart-mode','cockpit-mode','max-mode');
+  document.body.classList.add(mode + '-mode');
+
+  // Alle Buttons mit data-mode syncen
+  document.querySelectorAll('[data-mode]').forEach(b =>
+    b.classList.toggle('active', b.dataset.mode === mode)
+  );
+  // Drawer-Modus-Buttons extra
+  document.querySelectorAll('.dModeBtn').forEach(b =>
+    b.classList.toggle('active', b.dataset.mode === mode)
+  );
+  // Bottom Nav syncen
+  document.querySelectorAll('.bnBtn[data-mode]').forEach(b =>
+    b.classList.toggle('active', b.dataset.mode === mode)
+  );
+
+  // Inhalt rendern
+  if (mode === 'cockpit') { renderCockpit?.(); renderPreMarketOverview?.(); }
+  if (mode === 'smart')   renderSmart?.();
+
+  closeDrawer();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function openDrawer() {
+  const drawer  = document.getElementById('rightDrawer');
+  const overlay = document.getElementById('drawerOverlay');
+  if (!drawer) return;
+  drawer.classList.add('open');
+  drawer.setAttribute('aria-hidden','false');
+  overlay?.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  // Update-Zeit
+  const du = document.getElementById('drawerUpdate');
+  const gu = document.getElementById('globalUpdate');
+  if (du && gu) du.textContent = gu.textContent;
+  // Ticker-Liste füllen
+  const ts = document.getElementById('tickerSelect');
+  const ds = document.getElementById('drawerTickerSelect');
+  if (ts && ds) { ds.innerHTML = ts.innerHTML; ds.value = currentTicker; }
+  // Aktiven Mode im Drawer markieren
+  document.querySelectorAll('.dModeBtn').forEach(b =>
+    b.classList.toggle('active', b.dataset.mode === viewMode)
+  );
+}
+
+function closeDrawer() {
+  const drawer  = document.getElementById('rightDrawer');
+  const overlay = document.getElementById('drawerOverlay');
+  drawer?.classList.remove('open');
+  drawer?.setAttribute('aria-hidden','true');
+  overlay?.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 // ════════════════════════════════════════════════
 function switchMode(mode) {
   if (!mode) return;
   viewMode = mode;
   localStorage.setItem("solViewMode", mode);
 
-  // Body-Klassen setzen
-  document.body.classList.remove("smart-mode", "cockpit-mode", "max-mode");
+  // Body-Klassen
+  document.body.classList.remove("smart-mode","cockpit-mode","max-mode");
   document.body.classList.add(mode + "-mode");
 
-  // Alle Mode-Buttons: active entfernen, dann aktiven setzen
-  document.querySelectorAll("[data-mode]").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.mode === mode);
-  });
+  // Alle data-mode Buttons syncen
+  document.querySelectorAll("[data-mode]").forEach(b =>
+    b.classList.toggle("active", b.dataset.mode === mode)
+  );
+
+  // Drawer-Modus-Buttons syncen
+  document.querySelectorAll(".drawerModeBtn").forEach(b =>
+    b.classList.toggle("active", b.dataset.mode === mode)
+  );
 
   // Inhalt rendern
   if (mode === "cockpit") { renderCockpit?.(); renderPreMarketOverview?.(); }
   if (mode === "smart")   { renderSmart?.(); }
 
-  // Drawer schließen falls offen
+  // Drawer schließen
+  closeDrawer();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function openDrawer() {
+  document.getElementById("rightDrawer")?.classList.add("open");
+  document.getElementById("drawerOverlay")?.classList.add("open");
+  document.body.style.overflow = "hidden";
+  const du = document.getElementById("drawerUpdate");
+  const gu = document.getElementById("globalUpdate");
+  if (du && gu) du.textContent = gu.textContent;
+  // Aktien in Drawer-Select füllen
+  const ds = document.getElementById("drawerTickerSelect");
+  const ts = document.getElementById("tickerSelect");
+  if (ds && ts) { ds.innerHTML = ts.innerHTML; ds.value = ts.value; }
+}
+
+function closeDrawer() {
   document.getElementById("rightDrawer")?.classList.remove("open");
   document.getElementById("drawerOverlay")?.classList.remove("open");
   document.body.style.overflow = "";
-
-  // Nach oben scrollen
-  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 
@@ -230,21 +312,12 @@ async function boot() {
   buildTickerSelect();
   populateDeleteDropdown(watchlist);
 
-  $("tickerSelect").addEventListener("change", e => loadTicker(e.target.value));
-  $("refreshBtn").addEventListener("click", async () => {
-    $("refreshBtn").textContent = "Lädt…";
-    await loadMeta();
-    await loadAllData();
-    await loadTicker(currentTicker);
-    $("refreshBtn").textContent = "↻ Neu laden";
-  });
+  // refreshBtn → initMobileNav()
 
   initViewMode();
   initDropdownBehavior();
   initAdminForm();
   initDeleteForm();
-  initPushButton();
-  initPreMarketInfo();
   initMobileNav();
 
   // Alle Daten für Cockpit laden
@@ -294,7 +367,6 @@ async function loadTicker(ticker) {
 
 // ── Mode Switching ────────────────────────────────────────
 function initViewMode() {
-  // Initialen Mode setzen
   switchMode(viewMode);
   initTradeCalculator();
 }
@@ -538,23 +610,20 @@ function renderSmartPreMarket() {
   const pre   = preMarketSignal(price);
   const currency = price.currency === "EUR" ? "€" : "$";
 
-  // Wenn kein marketState bekannt: Card weglassen (kein "Unbekannt" zeigen)
+  // Kein marketState und keine Pre/Post-Daten → Card ausblenden
   if (!pre && !price.marketState) {
-    el.innerHTML = "";
-    el.style.display = "none";
-    return;
+    el.innerHTML = ""; el.style.display = "none"; return;
   }
   el.style.display = "";
   const mState = marketStateLabel(price.marketState);
 
   if (!pre) {
-    // Nur Börsenstatus zeigen ohne Pre/Post-Daten
-    el.innerHTML = `
-      <div class="cardHead">
-        <span class="kicker">📊 Börsenstatus</span>
-        <h2>${mState.icon} ${esc(mState.label)}</h2>
-        <p>Kein Vor-/Nachbörsenhandel verfügbar. Letzter Kurs: <strong>${formatMoney(price.regularMarketPrice, currency)}</strong> (${esc(fmtDate(price.regularMarketTime))})</p>
-      </div>`;
+    if (!price.marketState || price.marketState === "CLOSED") {
+      el.innerHTML = ""; el.style.display = "none"; return;
+    }
+    el.innerHTML = `<div class="cardHead"><span class="kicker">📊 Börsenstatus</span>
+      <h2>${mState.icon} ${esc(mState.label)}</h2>
+      <p>Letzter Kurs: <strong>${formatMoney(price.regularMarketPrice, currency)}</strong></p></div>`;
     return;
   }
 
@@ -564,24 +633,12 @@ function renderSmartPreMarket() {
       <h2>${mState.icon} ${esc(mState.label)}</h2>
     </div>
     <div class="preMarketDetail">
-      <div class="preMarketStat">
-        <span>${pre.label}kurs</span>
-        <strong>${formatMoney(pre.price, currency)}</strong>
-      </div>
-      <div class="preMarketStat">
-        <span>Veränderung</span>
-        <strong class="${pctClass(pre.changePct)}">${pctArrow(pre.changePct)} ${formatPct(pre.changePct)}</strong>
-      </div>
-      <div class="preMarketStat">
-        <span>Letzter Schluss</span>
-        <strong>${formatMoney(price.regularMarketPrice, currency)}</strong>
-      </div>
-      <div class="preMarketStat">
-        <span>Signal</span>
-        <strong class="preSignal ${pre.cls}">${esc(pre.signal)}</strong>
-      </div>
+      <div class="pmStat"><span>${esc(pre.label)}kurs</span><strong>${formatMoney(pre.price, currency)}</strong></div>
+      <div class="pmStat"><span>Veränderung</span><strong class="${pctClass(pre.changePct)}">${pctArrow(pre.changePct)} ${formatPct(pre.changePct)}</strong></div>
+      <div class="pmStat"><span>Letzter Schluss</span><strong>${formatMoney(price.regularMarketPrice, currency)}</strong></div>
+      <div class="pmStat"><span>Signal</span><strong>${esc(pre.signal)}</strong></div>
     </div>
-    <p class="preMarketNote">⚠ ${pre.label}-Daten haben geringe Liquidität. Kurse können sich zur regulären Eröffnung stark ändern. <strong>Keine sichere Prognose.</strong></p>
+    <p class="pmNote">⚠ ${pre.label}-Daten haben geringe Liquidität. Kurse können sich zur Eröffnung stark ändern.</p>
   `;
 }
 
@@ -629,74 +686,6 @@ function renderNotificationCenter() {
 // ══════════════════════════════════════════════════════════
 // PUSH-BENACHRICHTIGUNGEN (vorbereitet)
 // ══════════════════════════════════════════════════════════
-function initPushButton() {
-  const btn = $("notifyBtn");
-  if (!btn) return;
-  btn.addEventListener("click", () => {
-    $("pushDialog")?.classList.toggle("hidden");
-    $("pushOverlay")?.classList.toggle("hidden");
-    renderPushStatus();
-  });
-  $("pushCloseBtn")?.addEventListener("click", () => {
-    $("pushDialog")?.classList.add("hidden");
-    $("pushOverlay")?.classList.add("hidden");
-  });
-  $("pushOverlay")?.addEventListener("click", () => {
-    $("pushDialog")?.classList.add("hidden");
-    $("pushOverlay")?.classList.add("hidden");
-  });
-  $("pushEnableBtn")?.addEventListener("click", requestPushPermission);
-}
-
-function renderPushStatus() {
-  const el = $("pushStatus");
-  if (!el) return;
-  if (!("Notification" in window)) {
-    el.innerHTML = `<p class="adminStatus err">Dein Browser unterstützt keine Push-Benachrichtigungen. Nutze Chrome, Edge oder Safari 16.4+.</p>`;
-    $("pushEnableBtn").disabled = true;
-    return;
-  }
-  const perm = Notification.permission;
-  if (perm === "granted") {
-    el.innerHTML = `<p class="adminStatus ok">✅ Benachrichtigungen sind aktiviert. Du wirst bei wichtigen Meldungen informiert.</p>`;
-    $("pushEnableBtn").textContent = "Aktiviert ✓";
-    $("pushEnableBtn").disabled = true;
-  } else if (perm === "denied") {
-    el.innerHTML = `<p class="adminStatus err">Benachrichtigungen wurden blockiert. Bitte in den Browser-Einstellungen erlauben und die Seite neu laden.</p>`;
-    $("pushEnableBtn").disabled = true;
-  } else {
-    el.innerHTML = `<p class="adminStatus">Klicke auf „Aktivieren" und bestätige die Browser-Anfrage.</p>`;
-    $("pushEnableBtn").disabled = false;
-  }
-}
-
-async function requestPushPermission() {
-  if (!("Notification" in window)) return;
-  const perm = await Notification.requestPermission();
-  renderPushStatus();
-  if (perm === "granted") {
-    // In-App-Test-Notification
-    new Notification("Son of Lorenc", {
-      body:  "Benachrichtigungen aktiv! Du wirst bei wichtigen Meldungen informiert.",
-      icon:  "/assets/logo.png",
-      badge: "/assets/logo.png",
-    });
-    // VAPID-Push-Subscription würde hier mit Cloudflare Worker verbunden werden
-    // TODO: window.SOL_PUSH_SERVER_URL + /subscribe endpoint
-    console.info("[SOL] Push permission granted. VAPID backend pending.");
-  }
-}
-
-// Sende In-App-Notification bei High-Level Trigger (kein Backend nötig)
-function sendLocalNotification(title, body, ticker) {
-  if (Notification.permission !== "granted") return;
-  const n = new Notification(`⚡ ${title}`, {
-    body, icon: "/assets/logo.png", badge: "/assets/logo.png",
-    tag: `sol-${ticker}`,
-  });
-  n.onclick = () => { window.focus(); switchToTicker(ticker, "smart"); };
-}
-
 // ══════════════════════════════════════════════════════════
 // SMART-ANSICHT – einzelne Aktie
 // ══════════════════════════════════════════════════════════
@@ -1493,41 +1482,69 @@ function initDeleteForm() {
 // MOBILE NAVIGATION
 // ══════════════════════════════════════════════════════════
 function initMobileNav() {
-  // Alle Buttons mit data-mode → switchMode()
-  document.addEventListener("click", e => {
-    const btn = e.target.closest("[data-mode]");
-    if (btn) switchMode(btn.dataset.mode);
+  // Zipfel → Drawer öffnen
+  document.getElementById('drawerTrigger')?.addEventListener('click', openDrawer);
+  document.getElementById('drawerClose')?.addEventListener('click',   closeDrawer);
+  document.getElementById('drawerOverlay')?.addEventListener('click', closeDrawer);
+
+  // Aktie aus Drawer-Select
+  document.getElementById('drawerTickerSelect')?.addEventListener('change', e => {
+    loadTicker(e.target.value).then(closeDrawer);
   });
 
-  // Drawer öffnen/schließen
-  document.getElementById("drawerTrigger")?.addEventListener("click", () => {
-    document.getElementById("rightDrawer")?.classList.add("open");
-    document.getElementById("drawerOverlay")?.classList.add("open");
-    document.body.style.overflow = "hidden";
-    const du = document.getElementById("drawerUpdate");
-    const gu = document.getElementById("globalUpdate");
-    if (du && gu) du.textContent = gu.textContent;
-  });
-  const closeFn = () => {
-    document.getElementById("rightDrawer")?.classList.remove("open");
-    document.getElementById("drawerOverlay")?.classList.remove("open");
-    document.body.style.overflow = "";
-  };
-  document.getElementById("drawerClose")?.addEventListener("click",   closeFn);
-  document.getElementById("drawerOverlay")?.addEventListener("click", closeFn);
-
-  // Aktie aus Drawer wechseln
-  document.getElementById("tickerSelect")?.addEventListener("change", e => {
-    loadTicker(e.target.value).then(closeFn);
+  // Desktop Ticker
+  document.getElementById('tickerSelect')?.addEventListener('change', e => {
+    loadTicker(e.target.value);
   });
 
-  // Mitteilungen → Cockpit + Notification Center
-  document.getElementById("bottomNotifyBtn")?.addEventListener("click", () => {
-    switchMode("cockpit");
-    setTimeout(() => {
-      document.getElementById("notificationCenter")
-        ?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 300);
+  // Desktop Refresh
+  document.getElementById('refreshBtnDesktop')?.addEventListener('click', async () => {
+    document.getElementById('refreshBtnDesktop').textContent = '…';
+    await loadMeta(); await loadAllData(); await loadTicker(currentTicker);
+    document.getElementById('refreshBtnDesktop').textContent = '↻ Neu laden';
+  });
+
+  // Drawer Refresh
+  document.getElementById('refreshBtn')?.addEventListener('click', async () => {
+    await loadMeta(); await loadAllData(); await loadTicker(currentTicker);
+    closeDrawer();
+  });
+
+  // Alle [data-mode] Buttons via Event Delegation
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-mode]');
+    if (!btn) return;
+    switchMode(btn.dataset.mode);
+  });
+
+  // Mitteilungen-Button → Cockpit + scrolle zu Notification Center
+  document.getElementById('bottomNotifyBtn')?.addEventListener('click', () => {
+    switchMode('cockpit');
+    setTimeout(() => document.getElementById('notificationCenter')
+      ?.scrollIntoView({behavior:'smooth', block:'start'}), 350);
+  });
+
+  // Desktop Admin Ticker-Lookup
+  document.getElementById('autoLookupBtnDesktop')?.addEventListener('click', async () => {
+    const input = document.getElementById('newTickerDesktop');
+    const status = document.getElementById('lookupStatusDesktop');
+    const ticker = input?.value?.trim().toUpperCase();
+    if (!ticker) return;
+    if (status) { status.className='adminStatus'; status.textContent=`🔍 Suche ${ticker}…`; }
+    const info = await autoLookupTicker(ticker);
+    if (info && status) {
+      status.className='adminStatus ok';
+      status.innerHTML=`✅ <strong>${info.name}</strong> · ${info.exchange} · ${info.type}`;
+    } else if (status) {
+      status.className='adminStatus err';
+      status.textContent=`Nicht gefunden. Bitte über das Mobile-Menü hinzufügen.`;
+    }
+  });
+
+  // Premarket Info Toggle
+  document.getElementById('preMarketInfoBtn')?.addEventListener('click', () => {
+    const el = document.getElementById('preMarketInfo');
+    if (el) el.style.display = el.style.display === 'none' ? 'block' : 'none';
   });
 }
 
