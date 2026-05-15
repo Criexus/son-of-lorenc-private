@@ -37,7 +37,7 @@
 
     <div class="headerControls">
       <!-- Desktop: Ticker-Select hier -->
-      <select id="tickerSelect" class="tickerSelect desktopOnly" aria-label="Aktie auswählen"></select>
+      <select id="tickerSelect" class="tickerSelect" aria-label="Aktie auswählen"></select>
 
       <!-- Desktop: Mode-Switch hier -->
       <div class="modeSwitch desktopOnly" role="group" aria-label="Ansicht wählen">
@@ -47,7 +47,7 @@
       </div>
 
       <button id="refreshBtn" class="btnPrimary" type="button">↻ Neu laden</button>
-      <button id="notifyBtn"  class="btnGhost desktopOnly" type="button" title="Benachrichtigungen">🔔</button>
+      
 
       <details class="adminDropdown">
         <summary class="adminToggle">⚙ Verwaltung</summary>
@@ -112,11 +112,6 @@
       </details>
     </div>
   </div><!-- /headerInner -->
-
-  <!-- Zeile 2: Ticker-Auswahl (nur Mobile sichtbar) -->
-  <div class="tickerRow mobileOnly">
-    <select id="tickerSelectMobile" class="tickerSelect" aria-label="Aktie auswählen"></select>
-  </div>
 </header>
 
 <main class="appMain">

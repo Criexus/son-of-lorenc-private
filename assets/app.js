@@ -225,8 +225,7 @@ function buildTickerSelect() {
   const opts = watchlist.map(x =>
     `<option value="${esc(x.ticker)}">${esc(x.ticker)} · ${esc(x.name)}</option>`
   ).join("");
-  if ($("tickerSelect"))       $("tickerSelect").innerHTML       = opts;
-  if ($("tickerSelectMobile")) $("tickerSelectMobile").innerHTML = opts;
+  if ($("tickerSelect")) $("tickerSelect").innerHTML = opts;
 }
 
 async function loadMeta() {
@@ -255,8 +254,7 @@ async function loadAllData() {
 
 async function loadTicker(ticker) {
   currentTicker = ticker;
-  if ($("tickerSelect"))       $("tickerSelect").value       = ticker;
-  if ($("tickerSelectMobile")) $("tickerSelectMobile").value = ticker;
+  if ($("tickerSelect")) $("tickerSelect").value = ticker;
   data = allData[ticker] || await getJson(`/data/${ticker}.json`);
   allData[ticker] = data;
   active = 0;
@@ -294,8 +292,15 @@ function renderAlertBanner() {
 
   const alerts = collectAlerts();
   const visible = alerts.filter(a => !dismissedAlerts.includes(a.id));
-  if (!visible.length) { banner.innerHTML=""; banner.classList.remove("has-alerts"); document.body.classList.remove("has-alerts"); return; }
-  banner.classList.add("has-alerts"); document.body.classList.add("has-alerts");
+  if (!visible.length) {
+    banner.innerHTML = "";
+    banner.classList.remove("has-alerts");
+    document.body.classList.remove("has-alerts");
+    return;
+  }
+
+  banner.classList.add("has-alerts");
+  document.body.classList.add("has-alerts");
   banner.innerHTML = visible.slice(0, 3).map(a => `
     <div class="alertCard alertCard--${a.level}" role="alert">
       <div class="alertCardBody">
@@ -515,13 +520,25 @@ function renderSmartPreMarket() {
   if (!el || !data) return;
   const price = data.latest_auto?.price || {};
   const pre   = preMarketSignal(price);
-  const mState = marketStateLabel(price.marketState);
   const currency = price.currency === "EUR" ? "€" : "$";
 
-  if (!pre && !price.marketState) { el.innerHTML=""; el.style.display="none"; return; }
-  el.style.display="";
+  // Wenn kein marketState bekannt: Card weglassen (kein "Unbekannt" zeigen)
+  if (!pre && !price.marketState) {
+    el.innerHTML = "";
+    el.style.display = "none";
+    return;
+  }
+  el.style.display = "";
+  const mState = marketStateLabel(price.marketState);
+
   if (!pre) {
-    el.innerHTML = `<div class="cardHead"><span class="kicker">📊 Börsenstatus</span><h2>${mState.icon} ${esc(mState.label)}</h2><p>Letzter Kurs: <strong>${formatMoney(price.regularMarketPrice, currency)}</strong></p></div>`;
+    // Nur Börsenstatus zeigen ohne Pre/Post-Daten
+    el.innerHTML = `
+      <div class="cardHead">
+        <span class="kicker">📊 Börsenstatus</span>
+        <h2>${mState.icon} ${esc(mState.label)}</h2>
+        <p>Kein Vor-/Nachbörsenhandel verfügbar. Letzter Kurs: <strong>${formatMoney(price.regularMarketPrice, currency)}</strong> (${esc(fmtDate(price.regularMarketTime))})</p>
+      </div>`;
     return;
   }
 
@@ -1460,11 +1477,6 @@ function initDeleteForm() {
 // MOBILE NAVIGATION
 // ══════════════════════════════════════════════════════════
 function initMobileNav() {
-  // Mobile Ticker-Select synchronisieren
-  $("tickerSelectMobile")?.addEventListener("change", e => {
-    loadTicker(e.target.value);
-  });
-
   // Bottom Nav Buttons → gleiche Logik wie Desktop-Buttons
   const map = {
     "bottomSmartBtn":   "smart",

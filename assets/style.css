@@ -1136,116 +1136,77 @@ body.max-mode #smartHome { display: none; }
 /* ── Bottom Navigation (nur Mobile) ──────────────────────── */
 .bottomNav { display: none; }
 
+
+/* ══════════════════════════════════════════════════════════
+   RESPONSIVE – TABLETS ≥ 640px
+   ══════════════════════════════════════════════════════════ */
+
+@media (min-width: 640px) {
+  .appMain { padding-left: 20px; padding-right: 20px; }
+  .heroCard { flex-direction: row; align-items: center; }
+  .priceGrid { grid-template-columns: 1fr; min-width: 180px; }
+  .smartGrid { grid-template-columns: 1fr 1fr; }
+  .smartCard.fullWidth { grid-column: 1 / -1; }
+  .calcForm { grid-template-columns: 1fr 1fr; }
+  .calcResult { grid-template-columns: 1fr 1fr; }
+  .pipeline { grid-template-columns: 1fr 1fr; }
+  .riskGrid  { grid-template-columns: 1fr 1fr; }
+  .scoreGrid { grid-template-columns: repeat(3, 1fr); }
+  .newsGrid  { grid-template-columns: 1fr 1fr; }
+  .triggerGrid { grid-template-columns: 1fr 1fr; }
+  .adminGrid { grid-template-columns: repeat(3, 1fr); }
+  .cockpitGrid { grid-template-columns: repeat(2, 1fr); }
+  .preMarketGrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── DESKTOP ≥ 960px ──────────────────────────────────── */
+@media (min-width: 960px) {
+  .appMain { padding-left: 28px; padding-right: 28px; }
+  .smartGrid { grid-template-columns: repeat(2, 1fr); }
+  .grid2 { grid-template-columns: 1.35fr 1fr; }
+  .grid3 { grid-template-columns: repeat(3, 1fr); }
+  .pipeline { grid-template-columns: repeat(4, 1fr); }
+  .scoreGrid { grid-template-columns: repeat(4, 1fr); }
+  #smartChart { min-width: 0; width: 100%; }
+  .adminGrid { grid-template-columns: repeat(3, 1fr); }
+  .cockpitGrid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1200px) {
+  .cockpitGrid { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* ══════════════════════════════════════════════════════════
+   MOBILE — KOMPLETTES LAYOUT < 640px
+   Prinzip:
+   • Header oben:   56px  (Logo + Ticker + Settings)
+   • Content:       dazwischen
+   • Bottom Nav:    68px  (Smart · Cockpit · Max · Signale)
+   ══════════════════════════════════════════════════════════ */
+
+/* Variablen überschreiben */
 @media (max-width: 639px) {
-
-  /* ── Variablen anpassen ─ */
   :root {
-    --header-h:    52px;    /* nur Logo-Zeile */
-    --ticker-h:    50px;    /* Ticker-Zeile darunter */
-    --bottom-nav:  62px;    /* Bottom Nav Höhe */
+    --header-h:   56px;
+    --bottom-nav: 68px;
   }
+}
 
-  /* ── Header: 2-Zeilen-Layout ──────────────────────────── */
-  .appHeader {
-    height: calc(var(--header-h) + var(--ticker-h));
-    flex-direction: column;
-    align-items: stretch;
-  }
+/* ── Bottom Nav (nur Mobile) ──────────────────────────── */
+.bottomNav { display: none; }
 
-  .headerInner {
-    height: var(--header-h);
-    padding: 0 14px;
-    gap: 10px;
-  }
-
-  /* Logo + Name */
-  .brand { flex: 1; }
-  .brandLogo { width: 34px; height: 34px; border-radius: 9px; }
-  .brandText strong { font-size: 14px; }
-  .brandText span   { font-size: 10px; max-width: 180px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-
-  /* Header-Buttons rechts oben */
-  .headerControls {
-    flex: 0;
-    gap: 6px;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-  }
-
-  /* Mode-Switch im Header verstecken – kommt in Bottom Nav */
-  .modeSwitch   { display: none; }
-  #refreshBtn   { display: none; }
-  #notifyBtn    { display: none; } /* Kommt in Bottom Nav */
-
-  .adminToggle {
-    padding: 7px 11px;
-    font-size: 13px;
-    min-height: 38px;
-    border-radius: 10px;
-  }
-
-  /* ── Ticker-Zeile (zweite Header-Zeile) ──────────────── */
-  .appHeader::after {
-    content: '';
-    display: block;
-    height: 1px;
-    background: var(--border);
-  }
-
-  .tickerRow {
-    display: flex;
-    align-items: center;
-    height: var(--ticker-h);
-    padding: 0 14px;
-    gap: 8px;
-    background: rgba(7,9,14,.9);
-    border-bottom: 1px solid var(--border);
-    position: absolute;
-    top: var(--header-h);
-    left: 0; right: 0;
-  }
-
-  .tickerSelect {
-    flex: 1;
-    min-width: 0;
-    font-size: 15px;
-    font-weight: 700;
-    height: 38px;
-    padding: 0 10px;
-    border-radius: 10px;
-    background: var(--surface2);
-    border: 1px solid var(--border2);
-    color: #fff;
-    /* iOS fix */
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a8898' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    padding-right: 28px;
-  }
-
-  /* ── appMain: Platz für Header + Bottom Nav ─────────── */
-  .appMain {
-    padding-top: calc(var(--header-h) + var(--ticker-h) + 16px) !important;
-    padding-bottom: calc(var(--bottom-nav) + 16px) !important;
-    padding-left: 12px !important;
-    padding-right: 12px !important;
-  }
-
-  /* ── Bottom Navigation ───────────────────────────────── */
+@media (max-width: 639px) {
   .bottomNav {
     display: flex;
     position: fixed;
     bottom: 0; left: 0; right: 0;
     height: var(--bottom-nav);
-    background: rgba(7,9,14,.96);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-top: 1px solid var(--border);
-    z-index: 1000;
-    /* iPhone safe area */
+    /* iPhone Home-Indicator */
     padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: rgba(8, 10, 16, 0.97);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-top: 1px solid rgba(255,255,255,.1);
+    z-index: 1000;
   }
 
   .bottomNavBtn {
@@ -1254,767 +1215,282 @@ body.max-mode #smartHome { display: none; }
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3px;
+    gap: 4px;
     background: transparent;
     border: none;
-    color: var(--muted);
+    color: rgba(255,255,255,.4);
     padding: 8px 4px;
-    min-height: 44px;
     cursor: pointer;
     transition: color .15s;
     -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
     position: relative;
   }
 
-  .bottomNavBtn::before {
+  /* Aktiver Tab: Indikator oben + weiß */
+  .bottomNavBtn.active { color: #fff; }
+
+  .bottomNavBtn.active::after {
     content: '';
     position: absolute;
-    top: 0; left: 15%; right: 15%;
-    height: 2px;
-    background: var(--red);
+    top: 0; left: 20%; right: 20%;
+    height: 3px;
+    background: #ff4f4f;
     border-radius: 0 0 3px 3px;
-    opacity: 0;
-    transition: opacity .15s;
   }
 
-  .bottomNavBtn.active {
+  .bottomNavIcon {
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .bottomNavLabel {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    white-space: nowrap;
+  }
+}
+
+/* ── Header (Mobile) ──────────────────────────────────── */
+@media (max-width: 639px) {
+
+  /* Header: nur eine Zeile, 56px */
+  .appHeader {
+    height: var(--header-h);
+    overflow: visible;
+  }
+
+  .headerInner {
+    height: var(--header-h);
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Logo + Name */
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .brandLogo {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+  }
+
+  .brandText strong { font-size: 13px; }
+  .brandText span   {
+    font-size: 10px;
+    max-width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  /* Ticker-Select: nimmt restlichen Platz */
+  .headerControls {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 7px;
+    overflow: visible;
+  }
+
+  /* Ticker-Select direkt im Header */
+  .headerControls .tickerSelect {
+    display: block !important;
+    flex: 1;
+    min-width: 0;
+    max-width: 200px;
+    height: 36px;
+    padding: 0 28px 0 10px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.15);
+    background: rgba(255,255,255,.08);
     color: #fff;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23ffffff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-color: rgba(255,255,255,.08);
   }
-  .bottomNavBtn.active::before { opacity: 1; }
 
-  .bottomNavIcon  { font-size: 20px; line-height: 1; }
-  .bottomNavLabel { font-size: 10px; font-weight: 700; letter-spacing: .04em; white-space: nowrap; }
+  /* Alles andere im Header verstecken */
+  .headerControls .modeSwitch { display: none !important; }
+  .headerControls #refreshBtn { display: none !important; }
+  .headerControls #notifyBtn  { display: none !important; }
 
-  /* ── Alert Banner anpassen ───────────────────────────── */
-  .alertBanner {
-    top: calc(var(--header-h) + var(--ticker-h));
-    padding: 6px 10px;
+  /* Nur Admin-Button bleibt sichtbar – klein und kompakt */
+  .adminToggle {
+    display: flex !important;
+    align-items: center;
+    gap: 4px;
+    padding: 7px 10px;
+    font-size: 12px;
+    min-height: 36px;
+    border-radius: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
-  .alertCard { padding: 10px 12px; }
 
-  /* ── Cockpit ─────────────────────────────────────────── */
-  .cockpitGrid { grid-template-columns: 1fr; }
-  .preMarketGrid { grid-template-columns: 1fr 1fr; }
-  .cockpitCard { padding: 14px; }
-  .cockpitPrice { font-size: 20px; }
+  /* Admin-Panel: öffnet sich unterhalb des Headers */
+  .adminDropdown { overflow: visible; z-index: 2000; }
 
-  /* ── Admin Panel ─────────────────────────────────────── */
+  .adminDropdown[open]::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 1998;
+    pointer-events: none;
+  }
+
   .adminPanel {
     position: fixed;
-    top: calc(var(--header-h) + var(--ticker-h) + 8px);
-    left: 8px; right: 8px;
+    top: calc(var(--header-h) + 8px);
+    left: 8px;
+    right: 8px;
     width: auto;
-    max-height: calc(100vh - var(--header-h) - var(--ticker-h) - var(--bottom-nav) - 20px);
+    max-height: calc(100vh - var(--header-h) - var(--bottom-nav) - 24px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 1999;
   }
 
   .adminGrid        { grid-template-columns: 1fr; }
   .adminGridDelete  { grid-template-columns: 1fr; }
+  .adminGridAdvanced { grid-template-columns: 1fr; }
   .spanFull         { grid-column: auto; }
   .adminActions     { flex-direction: column; }
   .adminActions button { width: 100%; min-height: 48px; font-size: 16px; }
 
-  /* ── Content Cards ───────────────────────────────────── */
-  .heroCard     { padding: 16px; flex-direction: column; }
-  .heroCard h1  { font-size: 28px; }
-  .heroThesis   { font-size: 14px; }
-  .priceGrid    { grid-template-columns: 1fr 1fr; }
-  .smartMetric b { font-size: 20px; }
-  .smartCard    { padding: 16px; }
-
-  .calcForm   { grid-template-columns: 1fr; }
-  .calcResult { grid-template-columns: 1fr; }
-  .calcForm input { min-height: 52px; font-size: 18px; }
-
-  .accordionSummary { padding: 14px 16px; }
-  .accordionSummary h2 { font-size: 18px; }
-  .accordionBody { padding: 0 14px 14px; }
-
-  .preMarketDetail { grid-template-columns: 1fr 1fr; }
-
-  /* ── Cockpit Header ──────────────────────────────────── */
-  .cockpitHeader h1 { font-size: 24px; }
-
-  /* ── Max View Charts ─────────────────────────────────── */
-  #chart { height: 300px; min-width: 720px; }
-
-  /* ── Push Dialog ─────────────────────────────────────── */
-  .pushDialog { bottom: calc(var(--bottom-nav) + 8px); top: auto; transform: translateX(-50%); }
-
-  /* ── Scenarios ───────────────────────────────────────── */
-  .grid3 { grid-template-columns: 1fr; }
+  /* Zweite Ticker-Zeile (tickerRow) komplett ausblenden – Select ist jetzt im Header */
+  .tickerRow { display: none !important; }
 }
 
-/* Sehr kleine Geräte */
-@media (max-width: 380px) {
-  .bottomNavLabel { display: none; }
-  .bottomNavIcon  { font-size: 22px; }
-  .bottomNavBtn   { padding: 10px 4px; }
-  .heroCard h1    { font-size: 24px; }
-  .priceGrid      { grid-template-columns: 1fr; }
-}
-
-/* ══════════════════════════════════════════════════════════
-   NEUE KOMPONENTEN – Cockpit · Alerts · Pre-Markt · Push
-   ══════════════════════════════════════════════════════════ */
-
-/* ── Mode Visibility ──────────────────────────────────────── */
-body.smart-mode   #maxView,
-body.smart-mode   .cockpitView    { display: none; }
-body.max-mode     #smartHome,
-body.max-mode     .cockpitView    { display: none; }
-body.cockpit-mode #smartHome,
-body.cockpit-mode #maxView        { display: none; }
-
-/* Default (kein mode gesetzt) → smart */
-body:not(.smart-mode):not(.max-mode):not(.cockpit-mode) #maxView,
-body:not(.smart-mode):not(.max-mode):not(.cockpit-mode) .cockpitView { display: none; }
-
-/* ── Alert Banner ─────────────────────────────────────────── */
-.alertBanner {
-  position: fixed;
-  top: var(--header-h);
-  left: 0;
-  right: 0;
-  z-index: 900;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 6px 16px;
-  pointer-events: none;
-}
-.alertBanner.has-alerts { pointer-events: auto; }
-
-.alertCard {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  border-radius: var(--radius-sm);
-  padding: 12px 14px;
-  border-left: 4px solid transparent;
-  border: 1px solid transparent;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-}
-.alertCard--high {
-  background: rgba(10,4,4,.92);
-  border-color: rgba(255,50,50,.5);
-  border-left-color: var(--red);
-}
-.alertCard--medium {
-  background: rgba(10,8,2,.92);
-  border-color: rgba(244,180,92,.4);
-  border-left-color: var(--amber);
-}
-
-.alertCardBody {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-}
-.alertLevel {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 11px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  white-space: nowrap;
-  color: var(--muted);
-  flex-shrink: 0;
-  padding-top: 2px;
-}
-.alertMain { flex: 1; min-width: 0; }
-.alertTicker { color: #fff; font-size: 15px; font-weight: 900; margin-right: 8px; }
-.alertCategory {
-  display: inline-flex;
-  border-radius: 999px;
-  padding: 3px 7px;
-  font-size: 11px;
-  font-weight: 700;
-  background: rgba(255,255,255,.07);
-  border: 1px solid var(--border2);
-  color: var(--muted);
-  margin-bottom: 4px;
-}
-.alertTitle { font-size: 14px; font-weight: 700; color: #fff; margin: 4px 0 2px; }
-.alertExplain { font-size: 12px; color: var(--soft); margin: 0 0 4px; line-height: 1.4; }
-.alertMeta { font-size: 11px; color: var(--muted); }
-.alertActions { display: flex; gap: 6px; flex-wrap: wrap; }
-
-/* ── Cockpit Header ───────────────────────────────────────── */
-.cockpitView { padding-top: 4px; }
-
-.cockpitHeader {
-  margin-bottom: 20px;
-}
-.cockpitHeader h1 { font-size: clamp(24px,5vw,40px); margin-bottom: 6px; }
-.cockpitSub { font-size: 15px; color: var(--muted); margin: 0 0 10px; }
-.cockpitUpdateNote { font-size: 12px; color: var(--muted); }
-
-/* ── Cockpit Grid ─────────────────────────────────────────── */
-.cockpitGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.cockpitCard {
-  background: linear-gradient(160deg, rgba(255,255,255,.046), rgba(255,255,255,.016));
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-  cursor: pointer;
-  transition: border-color .18s, transform .12s;
-  position: relative;
-  overflow: hidden;
-}
-.cockpitCard:hover, .cockpitCard:focus {
-  border-color: var(--border2);
-  transform: translateY(-1px);
-  outline: none;
-}
-.cockpitCard:active { transform: translateY(0); }
-
-/* Wichtigkeit-Akzent */
-.cockpitCard.imp-high   { border-left: 3px solid var(--red);   }
-.cockpitCard.imp-medium { border-left: 3px solid var(--amber); }
-.cockpitCard.imp-low    { border-left: 3px solid #6aa8ff; }
-
-.cockpitCardTop {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  gap: 8px;
-}
-
-.tickerBadge {
-  display: inline-flex;
-  background: rgba(255,255,255,.07);
-  border: 1px solid var(--border2);
-  border-radius: 8px;
-  padding: 4px 9px;
-  font-size: 13px;
-  font-weight: 900;
-  color: #fff;
-  letter-spacing: .05em;
-}
-
-.marketState {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  border-radius: 999px;
-  padding: 4px 8px;
-  font-size: 11px;
-  font-weight: 700;
-  white-space: nowrap;
-}
-.market-open   { background: var(--green-dim);  color: #8ff5c5; }
-.market-pre    { background: var(--amber-dim);  color: #ffd8a0; }
-.market-post   { background: rgba(91,158,240,.12); color: #9cc8ff; }
-.market-closed { background: rgba(255,255,255,.05); color: var(--muted); }
-
-.cockpitCardPrice {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-.cockpitPrice { font-size: 22px; font-weight: 900; color: #fff; }
-.cockpitChg   { font-size: 15px; font-weight: 700; }
-
-.cockpitPre {
-  font-size: 12px;
-  padding: 6px 8px;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  background: rgba(255,255,255,.04);
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-.cockpitPre em { font-style: normal; font-size: 11px; color: var(--muted); }
-
-.pre-strong-up   { border-color: rgba(60,214,148,.35)!important; background: rgba(60,214,148,.08)!important; }
-.pre-up          { border-color: rgba(60,214,148,.2)!important; }
-.pre-neutral     {}
-.pre-down        { border-color: rgba(255,180,92,.2)!important; }
-.pre-strong-down { border-color: rgba(255,79,79,.3)!important; background: rgba(255,79,79,.06)!important; }
-
-.cockpitImp {
-  display: inline-flex;
-  font-size: 12px;
-  font-weight: 800;
-  padding: 5px 10px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.05);
-  border: 1px solid var(--border);
-  margin-bottom: 8px;
-}
-.cockpitCard.imp-high   .cockpitImp { background: var(--red-dim);   border-color: rgba(255,79,79,.3);  color: #ffcece; }
-.cockpitCard.imp-medium .cockpitImp { background: var(--amber-dim); border-color: rgba(244,180,92,.3); color: #ffd8a0; }
-.cockpitCard.imp-low    .cockpitImp { background: rgba(91,158,240,.1); border-color: rgba(91,158,240,.25); color: #9cc8ff; }
-
-.cockpitNews {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding: 8px 10px;
-  background: rgba(255,255,255,.035);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  margin-bottom: 6px;
-}
-.cockpitNewsCat { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
-.cockpitNewsTitle { font-size: 13px; color: var(--soft); line-height: 1.35; }
-
-.cockpitTrigger {
-  font-size: 12px;
-  color: #ffcece;
-  background: var(--red-dim);
-  border: 1px solid rgba(255,79,79,.25);
-  border-radius: 8px;
-  padding: 6px 8px;
-  margin-bottom: 6px;
-}
-
-.cockpitFooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 11px;
-  color: var(--muted);
-  margin-top: 6px;
-  padding-top: 8px;
-  border-top: 1px solid var(--border);
-}
-.cockpitDetail { color: var(--blue); font-weight: 700; }
-
-.cockpitCard--empty { opacity: .5; pointer-events: none; }
-
-/* ── Pre-Market Grid ──────────────────────────────────────── */
-.preMarketGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  margin-top: 12px;
-}
-
-.preMarketCard {
-  padding: 14px;
-  border-radius: var(--radius-sm);
-  background: rgba(255,255,255,.04);
-  border: 1px solid var(--border);
-  cursor: pointer;
-  transition: border-color .15s;
-}
-.preMarketCard:hover { border-color: var(--border2); }
-.preMarketCard.pre-strong-up  { border-color: rgba(60,214,148,.35); }
-.preMarketCard.pre-strong-down{ border-color: rgba(255,79,79,.35); }
-
-.preMarketTop {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
-}
-.preMarketLabel { font-size: 12px; color: var(--muted); }
-.preMarketPrice {
-  font-size: 20px;
-  font-weight: 900;
-  color: #fff;
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 4px;
-}
-.preMarketSignalBadge {
-  display: inline-flex;
-  font-size: 12px;
-  font-weight: 700;
-  border-radius: 999px;
-  padding: 3px 8px;
-  background: rgba(255,255,255,.06);
-  border: 1px solid var(--border2);
-  color: var(--soft);
-  margin-bottom: 4px;
-}
-.preMarketBase { font-size: 12px; color: var(--muted); }
-.preMarketTime { font-size: 11px; color: var(--muted); margin-top: 3px; }
-
-/* Smart Pre-Market Card */
-.preMarketDetail {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 10px;
-  margin: 12px 0;
-}
-.preMarketStat {
-  background: rgba(255,255,255,.04);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 12px;
-}
-.preMarketStat span { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: 4px; }
-.preMarketStat strong { display: block; font-size: 18px; font-weight: 900; color: #fff; }
-.preSignal { font-size: 14px; }
-.preMarketNote {
-  font-size: 12px;
-  color: #ffd8a0;
-  background: var(--amber-dim);
-  border: 1px solid rgba(244,180,92,.25);
-  border-radius: var(--radius-sm);
-  padding: 10px 12px;
-  line-height: 1.5;
-}
-
-.sectionHead {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-.btnSmall { padding: 7px 11px; font-size: 12px; border-radius: 10px; }
-.infoBox {
-  font-size: 13px;
-  color: var(--soft);
-  background: rgba(91,158,240,.07);
-  border: 1px solid rgba(91,158,240,.2);
-  border-radius: var(--radius-sm);
-  padding: 12px 14px;
-  margin: 8px 0 12px;
-  line-height: 1.55;
-}
-.infoBox.hidden { display: none; }
-
-/* ── Benachrichtigungszentrale ────────────────────────────── */
-.notifList { display: flex; flex-direction: column; gap: 8px; }
-
-.notifItem {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  padding: 13px;
-  border-radius: var(--radius-sm);
-  background: rgba(255,255,255,.04);
-  border: 1px solid var(--border);
-  border-left: 3px solid transparent;
-}
-.notifItem--high   { border-left-color: var(--red); }
-.notifItem--medium { border-left-color: var(--amber); }
-.notifRead { opacity: .5; }
-
-.notifLeft { flex-shrink: 0; font-size: 18px; line-height: 1; padding-top: 2px; }
-.notifBody { flex: 1; min-width: 0; }
-.notifMeta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 4px;
-  font-size: 12px;
-  color: var(--muted);
-}
-.notifMeta strong { color: #fff; font-size: 13px; }
-.notifTime { font-size: 11px; }
-.notifReadBadge {
-  font-size: 10px;
-  background: rgba(255,255,255,.06);
-  border-radius: 4px;
-  padding: 2px 5px;
-  color: var(--muted);
-}
-.notifTitle   { font-size: 14px; font-weight: 700; color: #fff; margin: 0 0 4px; }
-.notifExplain { font-size: 12px; color: var(--soft); margin: 0; line-height: 1.4; }
-.notifActions { flex-shrink: 0; display: flex; flex-direction: column; gap: 5px; }
-
-/* ── Push-Dialog ──────────────────────────────────────────── */
-.pushOverlay {
-  position: fixed; inset: 0;
-  background: rgba(0,0,0,.6);
-  z-index: 1900;
-  backdrop-filter: blur(4px);
-}
-.pushOverlay.hidden { display: none; }
-
-.pushDialog {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: min(480px, calc(100vw - 32px));
-  z-index: 2000;
-  background: #0e1520;
-  border: 1px solid var(--border2);
-  border-radius: var(--radius-lg);
-  padding: 28px;
-  box-shadow: 0 32px 100px rgba(0,0,0,.8);
-}
-.pushDialog.hidden { display: none; }
-.pushDialog h3 { font-size: 22px; margin-bottom: 10px; }
-.pushDialog p  { font-size: 14px; color: var(--soft); margin-bottom: 14px; line-height: 1.55; }
-.pushStatus { margin-bottom: 14px; min-height: 20px; }
-.pushActions { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
-
-/* ── News-Akkordeon ───────────────────────────────────────── */
-.newsItemLeft {
-  width: 3px;
-  border-radius: 2px;
-  background: var(--border2);
-  flex-shrink: 0;
-  align-self: stretch;
-  min-height: 40px;
-}
-.smartNewsItem { display: flex; gap: 10px; }
-.smartNewsItem.high .newsItemLeft { background: var(--red); }
-.smartNewsItem.medium .newsItemLeft { background: var(--amber); }
-.smartNewsItem.low .newsItemLeft { background: var(--blue); }
-.newsItemBody { flex: 1; min-width: 0; }
-
-.liveItem { display: flex; gap: 10px; }
-.liveItem .newsItemLeft { background: var(--border2); }
-.liveItem.high .newsItemLeft { background: var(--red); }
-.liveItem.medium .newsItemLeft { background: var(--amber); }
-
-.newsCatBadge {
-  display: inline-flex;
-  border-radius: 999px;
-  padding: 3px 7px;
-  font-size: 10px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  background: rgba(255,255,255,.06);
-  border: 1px solid var(--border2);
-  color: var(--muted);
-  margin-right: 6px;
-}
-
-.newsExplainAccordion {
-  margin: 8px 0 6px;
-}
-.newsExplainAccordion summary {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--blue);
-  cursor: pointer;
-  list-style: none;
-  user-select: none;
-  padding: 4px 0;
-}
-.newsExplainAccordion summary::-webkit-details-marker { display: none; }
-.newsExplainBody {
-  padding: 10px 12px;
-  margin-top: 6px;
-  background: rgba(255,255,255,.04);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-}
-.newsExplainBody p { font-size: 13px; color: var(--soft); margin: 5px 0; }
-.newsExplainBody strong { color: #fff; }
-
-/* ── Responsive Cockpit ───────────────────────────────────── */
-@media (min-width: 480px) {
-  .cockpitGrid { grid-template-columns: repeat(2, 1fr); }
-  .preMarketGrid { grid-template-columns: repeat(2, 1fr); }
-}
-@media (min-width: 860px) {
-  .cockpitGrid { grid-template-columns: repeat(3, 1fr); }
-  .preMarketGrid { grid-template-columns: repeat(3, 1fr); }
-}
-@media (min-width: 1100px) {
-  .cockpitGrid { grid-template-columns: repeat(4, 1fr); }
-}
-
-/* Alert Banner – Scroll-Puffer wenn aktiv */
-body.has-alerts .appMain { padding-top: calc(var(--header-h) + 120px); }
-
-/* SmartHome Abstand wenn Alert vorhanden */
+/* ── appMain Abstände (Mobile) ────────────────────────── */
 @media (max-width: 639px) {
-  .alertCard { padding: 10px 12px; }
+  .appMain {
+    padding-top: calc(var(--header-h) + 14px) !important;
+    padding-bottom: calc(var(--bottom-nav) + 16px) !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Mit Alert-Banner: mehr Platz oben */
+  body.has-alerts .appMain {
+    padding-top: calc(var(--header-h) + 190px) !important;
+  }
+}
+
+/* ── Alert-Banner (Mobile) ────────────────────────────── */
+@media (max-width: 639px) {
+  .alertBanner {
+    top: var(--header-h) !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding: 6px 10px !important;
+    z-index: 890 !important;
+  }
+  .alertCard {
+    padding: 10px 12px;
+  }
   .alertMain p { font-size: 12px; }
-  .preMarketDetail { grid-template-columns: 1fr 1fr; }
-  .cockpitCardPrice .cockpitPrice { font-size: 19px; }
-  .notifActions { flex-direction: row; }
+  .alertActions { flex-wrap: wrap; gap: 5px; }
 }
 
-/* ── Desktop/Mobile Visibility Helpers ───────────────────── */
+/* ── Inhalt-Karten (Mobile) ───────────────────────────── */
+@media (max-width: 639px) {
+  /* Hero */
+  .heroCard      { padding: 16px; flex-direction: column; }
+  .heroCard h1   { font-size: 26px; }
+  .heroThesis    { font-size: 13px; }
+  .priceGrid     { grid-template-columns: 1fr 1fr; }
+  .smartMetric b { font-size: 19px; }
+  .smartMetric small { font-size: 11px; }
+
+  /* Cards */
+  .smartCard  { padding: 14px; }
+  .section    { margin-top: 12px; }
+
+  /* Rechner */
+  .calcForm   { grid-template-columns: 1fr 1fr; }
+  .calcResult { grid-template-columns: 1fr 1fr; }
+  .calcForm input { min-height: 48px; font-size: 17px; }
+
+  /* Akkordeons */
+  .accordionSummary   { padding: 13px 14px; }
+  .accordionSummary h2 { font-size: 17px; }
+  .accordionBody      { padding: 0 14px 14px; }
+
+  /* Vorbörse */
+  .preMarketDetail { grid-template-columns: 1fr 1fr; }
+  #smartPreMarket  { padding: 14px; }
+
+  /* Cockpit */
+  .cockpitGrid    { grid-template-columns: 1fr; }
+  .cockpitCard    { padding: 14px; }
+  .cockpitPrice   { font-size: 20px; }
+  .cockpitHeader h1 { font-size: 22px; }
+  .preMarketGrid  { grid-template-columns: 1fr 1fr; }
+
+  /* Max-Modus */
+  .maxHero    { padding: 18px; }
+  .maxHero h1 { font-size: 26px; }
+  .thesis     { font-size: 14px; }
+  .grid2      { grid-template-columns: 1fr; }
+  .grid3      { grid-template-columns: 1fr; }
+  .scoreGrid  { grid-template-columns: 1fr 1fr; }
+  .pipeline   { grid-template-columns: 1fr; }
+  .riskGrid   { grid-template-columns: 1fr; }
+  #chart      { height: 280px; min-width: 700px; }
+
+  /* Push Dialog */
+  .pushDialog {
+    top: auto;
+    bottom: calc(var(--bottom-nav) + 8px);
+    transform: translateX(-50%);
+  }
+
+  /* Szenarios */
+  .scenario   { padding: 14px; }
+  .scenarioTag { font-size: 11px; padding: 4px 8px; }
+
+  /* Ticker Input im Admin */
+  .tickerInputRow  { flex-direction: column; }
+  .tickerInputBig  { font-size: 18px; width: 100%; min-height: 52px; }
+  #autoLookupBtn   { width: 100%; min-height: 50px; }
+}
+
+/* ── Sehr kleines iPhone (≤ 390px) ───────────────────── */
+@media (max-width: 390px) {
+  .bottomNavLabel { font-size: 9px; }
+  .bottomNavIcon  { font-size: 20px; }
+  .heroCard h1    { font-size: 22px; }
+  .brandText strong { display: none; }
+  .headerControls .tickerSelect { max-width: 160px; }
+}
+
+/* ── Hilfklassen ──────────────────────────────────────── */
 .mobileOnly  { display: none; }
-.desktopOnly { display: flex;  }
+.desktopOnly { display: flex; }
 
 @media (max-width: 639px) {
-  .mobileOnly  { display: flex; }
+  .mobileOnly  { display: flex !important; }
   .desktopOnly { display: none !important; }
 }
 
-/* ── Ticker Row (Mobile, Zeile 2 im Header) ───────────────── */
-.tickerRow {
-  display: none;
-}
+/* ── Ticker Row: nur auf Desktop als Fallback ─────────── */
+.tickerRow { display: none; }
 
-@media (max-width: 639px) {
-  .tickerRow {
-    display: flex;
-    align-items: center;
-    height: var(--ticker-h, 50px);
-    padding: 0 12px;
-    gap: 8px;
-    background: rgba(7,9,14,.95);
-    border-bottom: 1px solid var(--border);
-    position: absolute;
-    top: var(--header-h, 52px);
-    left: 0;
-    right: 0;
-    z-index: 999;
-  }
-
-  .tickerRow .tickerSelect {
-    flex: 1;
-    height: 38px;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 0 10px;
-    border-radius: 10px;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a8898' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-color: var(--surface2);
-    color: #fff;
-    border: 1px solid var(--border2);
-    padding-right: 30px;
-  }
-}
-
-/* ── Auto-Lookup Admin Form ───────────────────────────────── */
-.addStep.hidden { display: none; }
-
-.tickerInputRow {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.tickerInputBig {
-  flex: 1;
-  background: rgba(0,0,0,.4);
-  color: #fff;
-  border: 2px solid var(--border2);
-  border-radius: var(--radius-sm);
-  padding: 14px 16px;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: .05em;
-  outline: none;
-  transition: border-color .15s;
-  text-transform: uppercase;
-}
-.tickerInputBig:focus { border-color: rgba(255,79,79,.6); }
-.tickerInputBig::placeholder { text-transform: none; font-weight: 400; opacity: .5; }
-
-#autoLookupBtn { white-space: nowrap; min-height: 50px; font-size: 15px; }
-
-.adminAdvanced {
-  margin: 12px 0;
-}
-.adminAdvanced summary {
-  font-size: 13px;
-  color: var(--blue);
-  cursor: pointer;
-  padding: 6px 0;
-  list-style: none;
-  user-select: none;
-}
-.adminAdvanced summary::-webkit-details-marker { display: none; }
-.adminGridAdvanced { margin-top: 10px; grid-template-columns: repeat(2, 1fr); }
-
-/* Stock Preview Card */
-.previewCard {
-  background: rgba(255,255,255,.05);
-  border: 1px solid var(--border2);
-  border-radius: var(--radius-sm);
-  padding: 16px;
-  margin-bottom: 12px;
-}
-.previewHeader {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 8px;
-}
-.previewType {
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-}
-.previewName {
-  font-size: 18px;
-  color: #fff;
-  margin: 0 0 8px;
-}
-.previewMeta {
-  display: flex;
-  gap: 12px;
-  font-size: 13px;
-  color: var(--muted);
-  margin-bottom: 8px;
-}
-.previewQueries {
-  font-size: 12px;
-  color: var(--muted);
-}
-.previewQueries summary {
-  cursor: pointer;
-  color: var(--blue);
-  padding: 4px 0;
-  list-style: none;
-}
-.previewQueries summary::-webkit-details-marker { display: none; }
-.previewQueries ul {
-  margin: 6px 0 0 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-.previewQueries li { color: var(--soft); }
-
-@media (max-width: 639px) {
-  .tickerInputRow { flex-direction: column; }
-  .tickerInputBig { font-size: 20px; width: 100%; min-height: 56px; }
-  #autoLookupBtn  { width: 100%; min-height: 52px; }
-  .adminGridAdvanced { grid-template-columns: 1fr; }
-}
-
-
-/* MOBILE FIXES */
-body.has-alerts .appMain { padding-top: calc(var(--header-h) + 16px + 120px) !important; }
-@media (max-width: 639px) {
-  body.has-alerts .appMain { padding-top: calc(var(--header-h) + var(--ticker-h) + 16px + 200px) !important; }
-  .headerControls .modeSwitch  { display: none !important; }
-  .headerControls #notifyBtn   { display: none !important; }
-  .headerControls #refreshBtn  { display: none !important; }
-  .headerControls .tickerSelect{ display: none !important; }
-  .headerInner { display:flex; align-items:center; justify-content:space-between; padding:0 12px; }
-  .brand { flex:1; min-width:0; }
-  .adminToggle { gap:4px; padding:7px 12px !important; font-size:13px !important; min-height:38px !important; white-space:nowrap; }
-  .adminDropdown[open]::before { content:''; position:fixed; inset:0; background:rgba(0,0,0,.65); z-index:9998; pointer-events:none; }
-  .adminPanel { z-index:9999 !important; top: calc(var(--header-h) + var(--ticker-h) + 8px) !important; }
-  .alertBanner { top: calc(var(--header-h, 52px) + var(--ticker-h, 50px)) !important; padding:6px 10px !important; }
-  .appHeader { overflow: visible !important; }
-}
-#smartPreMarket:empty { display:none; }
-.mobileOnly  { display:none; }
-.desktopOnly { display:flex; }
-@media (max-width:639px) {
-  .mobileOnly  { display:flex !important; }
-  .desktopOnly { display:none !important; }
-}
+/* smartPreMarket: unsichtbar wenn leer */
+#smartPreMarket:empty { display: none; }
