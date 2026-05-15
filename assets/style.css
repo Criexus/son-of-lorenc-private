@@ -1184,345 +1184,27 @@ body.max-mode #smartHome { display: none; }
    ══════════════════════════════════════════════════════════ */
 
 /* Variablen überschreiben */
-@media (max-width: 639px) {
-  :root {
-    --header-h:   56px;
-    --bottom-nav: 68px;
-  }
-}
 
-/* ── Bottom Nav (nur Mobile) ──────────────────────────── */
-.bottomNav { display: none; }
-
-@media (max-width: 639px) {
-  .bottomNav {
-    display: flex;
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    height: var(--bottom-nav);
-    /* iPhone Home-Indicator */
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-    background: rgba(8, 10, 16, 0.97);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border-top: 1px solid rgba(255,255,255,.1);
-    z-index: 1000;
-  }
-
-  .bottomNavBtn {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    background: transparent;
-    border: none;
-    color: rgba(255,255,255,.4);
-    padding: 8px 4px;
-    cursor: pointer;
-    transition: color .15s;
-    -webkit-tap-highlight-color: transparent;
-    touch-action: manipulation;
-    position: relative;
-  }
-
-  /* Aktiver Tab: Indikator oben + weiß */
-  .bottomNavBtn.active { color: #fff; }
-
-  .bottomNavBtn.active::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 20%; right: 20%;
-    height: 3px;
-    background: #ff4f4f;
-    border-radius: 0 0 3px 3px;
-  }
-
-  .bottomNavIcon {
-    font-size: 22px;
-    line-height: 1;
-  }
-
-  .bottomNavLabel {
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: .03em;
-    white-space: nowrap;
-  }
-}
-
-/* ── Header (Mobile) ──────────────────────────────────── */
-@media (max-width: 639px) {
-
-  /* Header: nur eine Zeile, 56px */
-  .appHeader {
-    height: var(--header-h);
-    overflow: visible;
-  }
-
-  .headerInner {
-    height: var(--header-h);
-    padding: 0 12px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  /* Logo + Name */
-  .brand {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
-  }
-
-  .brandLogo {
-    width: 34px;
-    height: 34px;
-    border-radius: 9px;
-  }
-
-  .brandText strong { font-size: 13px; }
-  .brandText span   {
-    font-size: 10px;
-    max-width: 140px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
-  /* Ticker-Select: nimmt restlichen Platz */
-  .headerControls {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 7px;
-    overflow: visible;
-  }
-
-  /* Ticker-Select direkt im Header */
-  .headerControls .tickerSelect {
-    display: block !important;
-    flex: 1;
-    min-width: 0;
-    max-width: 200px;
-    height: 36px;
-    padding: 0 28px 0 10px;
-    font-size: 13px;
-    font-weight: 700;
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,.15);
-    background: rgba(255,255,255,.08);
-    color: #fff;
-    -webkit-appearance: none;
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23ffffff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-    background-color: rgba(255,255,255,.08);
-  }
-
-  /* Alles andere im Header verstecken */
-  .headerControls .modeSwitch { display: none !important; }
-  .headerControls #refreshBtn { display: none !important; }
-  .headerControls #notifyBtn  { display: none !important; }
-
-  /* Nur Admin-Button bleibt sichtbar – klein und kompakt */
-  .adminToggle {
-    display: flex !important;
-    align-items: center;
-    gap: 4px;
-    padding: 7px 10px;
-    font-size: 12px;
-    min-height: 36px;
-    border-radius: 10px;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-
-  /* Admin-Panel: öffnet sich unterhalb des Headers */
-  .adminDropdown { overflow: visible; z-index: 2000; }
-
-  .adminDropdown[open]::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,.7);
-    z-index: 1998;
-    pointer-events: none;
-  }
-
-  .adminPanel {
-    position: fixed;
-    top: calc(var(--header-h) + 8px);
-    left: 8px;
-    right: 8px;
-    width: auto;
-    max-height: calc(100vh - var(--header-h) - var(--bottom-nav) - 24px);
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    z-index: 1999;
-  }
-
-  .adminGrid        { grid-template-columns: 1fr; }
-  .adminGridDelete  { grid-template-columns: 1fr; }
-  .adminGridAdvanced { grid-template-columns: 1fr; }
-  .spanFull         { grid-column: auto; }
-  .adminActions     { flex-direction: column; }
-  .adminActions button { width: 100%; min-height: 48px; font-size: 16px; }
-
-  /* Zweite Ticker-Zeile (tickerRow) komplett ausblenden – Select ist jetzt im Header */
-  .tickerRow { display: none !important; }
-}
-
-/* ── appMain Abstände (Mobile) ────────────────────────── */
-@media (max-width: 639px) {
-  .appMain {
-    padding-top: calc(var(--header-h) + 14px) !important;
-    padding-bottom: calc(var(--bottom-nav) + 16px) !important;
-    padding-left: 12px !important;
-    padding-right: 12px !important;
-  }
-
-  /* Mit Alert-Banner: mehr Platz oben */
-  body.has-alerts .appMain {
-    padding-top: calc(var(--header-h) + 190px) !important;
-  }
-}
-
-/* ── Alert-Banner (Mobile) ────────────────────────────── */
-@media (max-width: 639px) {
-  .alertBanner {
-    top: var(--header-h) !important;
-    left: 0 !important;
-    right: 0 !important;
-    padding: 6px 10px !important;
-    z-index: 890 !important;
-  }
-  .alertCard {
-    padding: 10px 12px;
-  }
-  .alertMain p { font-size: 12px; }
-  .alertActions { flex-wrap: wrap; gap: 5px; }
-}
-
-/* ── Inhalt-Karten (Mobile) ───────────────────────────── */
-@media (max-width: 639px) {
-  /* Hero */
-  .heroCard      { padding: 16px; flex-direction: column; }
-  .heroCard h1   { font-size: 26px; }
-  .heroThesis    { font-size: 13px; }
-  .priceGrid     { grid-template-columns: 1fr 1fr; }
-  .smartMetric b { font-size: 19px; }
-  .smartMetric small { font-size: 11px; }
-
-  /* Cards */
-  .smartCard  { padding: 14px; }
-  .section    { margin-top: 12px; }
-
-  /* Rechner */
-  .calcForm   { grid-template-columns: 1fr 1fr; }
-  .calcResult { grid-template-columns: 1fr 1fr; }
-  .calcForm input { min-height: 48px; font-size: 17px; }
-
-  /* Akkordeons */
-  .accordionSummary   { padding: 13px 14px; }
-  .accordionSummary h2 { font-size: 17px; }
-  .accordionBody      { padding: 0 14px 14px; }
-
-  /* Vorbörse */
-  .preMarketDetail { grid-template-columns: 1fr 1fr; }
-  #smartPreMarket  { padding: 14px; }
-
-  /* Cockpit */
-  .cockpitGrid    { grid-template-columns: 1fr; }
-  .cockpitCard    { padding: 14px; }
-  .cockpitPrice   { font-size: 20px; }
-  .cockpitHeader h1 { font-size: 22px; }
-  .preMarketGrid  { grid-template-columns: 1fr 1fr; }
-
-  /* Max-Modus */
-  .maxHero    { padding: 18px; }
-  .maxHero h1 { font-size: 26px; }
-  .thesis     { font-size: 14px; }
-  .grid2      { grid-template-columns: 1fr; }
-  .grid3      { grid-template-columns: 1fr; }
-  .scoreGrid  { grid-template-columns: 1fr 1fr; }
-  .pipeline   { grid-template-columns: 1fr; }
-  .riskGrid   { grid-template-columns: 1fr; }
-  #chart      { height: 280px; min-width: 700px; }
-
-  /* Push Dialog */
-  .pushDialog {
-    top: auto;
-    bottom: calc(var(--bottom-nav) + 8px);
-    transform: translateX(-50%);
-  }
-
-  /* Szenarios */
-  .scenario   { padding: 14px; }
-  .scenarioTag { font-size: 11px; padding: 4px 8px; }
-
-  /* Ticker Input im Admin */
-  .tickerInputRow  { flex-direction: column; }
-  .tickerInputBig  { font-size: 18px; width: 100%; min-height: 52px; }
-  #autoLookupBtn   { width: 100%; min-height: 50px; }
-}
-
-/* ── Sehr kleines iPhone (≤ 390px) ───────────────────── */
-@media (max-width: 390px) {
-  .bottomNavLabel { font-size: 9px; }
-  .bottomNavIcon  { font-size: 20px; }
-  .heroCard h1    { font-size: 22px; }
-  .brandText strong { display: none; }
-  .headerControls .tickerSelect { max-width: 160px; }
-}
-
-/* ── Hilfklassen ──────────────────────────────────────── */
-.mobileOnly  { display: none; }
-.desktopOnly { display: flex; }
-
-@media (max-width: 639px) {
-  .mobileOnly  { display: flex !important; }
-  .desktopOnly { display: none !important; }
-}
-
-/* ── Ticker Row: nur auf Desktop als Fallback ─────────── */
-.tickerRow { display: none; }
-
-/* smartPreMarket: unsichtbar wenn leer */
-#smartPreMarket:empty { display: none; }
-
-
-/* ════════════════════════════════════════════════
-   RECHTER DRAWER – Mobile Slide-in Menü
-   ════════════════════════════════════════════════ */
-
-/* Overlay */
+/* ════════════════════════════════════════════════════════
+   DRAWER OVERLAY
+   ════════════════════════════════════════════════════════ */
 .drawerOverlay {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.65);
+  background: rgba(0,0,0,.7);
   z-index: 1500;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  opacity: 0;
-  transition: opacity .28s ease;
 }
-.drawerOverlay.open {
-  display: block;
-  opacity: 1;
-}
+.drawerOverlay.open { display: block; }
 
-/* Drawer Panel */
+/* ════════════════════════════════════════════════════════
+   RECHTER DRAWER PANEL
+   ════════════════════════════════════════════════════════ */
 .rightDrawer {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; right: 0; bottom: 0;
   width: min(320px, 88vw);
   background: #0d1117;
   border-left: 1px solid rgba(255,255,255,.12);
@@ -1531,26 +1213,20 @@ body.max-mode #smartHome { display: none; }
   transition: transform .3s cubic-bezier(.4,0,.2,1);
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  box-shadow: -20px 0 60px rgba(0,0,0,.6);
+  overflow: hidden;
 }
-.rightDrawer.open {
-  transform: translateX(0);
-}
+.rightDrawer.open { transform: translateX(0); }
 
-/* Drawer Header */
-.drawerHeader {
+.drawerHead {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 16px 16px 14px;
+  padding: 18px 16px;
   border-bottom: 1px solid rgba(255,255,255,.08);
   flex-shrink: 0;
 }
 .drawerLogo {
-  width: 38px;
-  height: 38px;
+  width: 36px; height: 36px;
   border-radius: 10px;
   object-fit: contain;
   background: rgba(255,255,255,.06);
@@ -1558,209 +1234,766 @@ body.max-mode #smartHome { display: none; }
   padding: 4px;
   flex-shrink: 0;
 }
-.drawerHeader strong {
-  display: block;
-  font-size: 15px;
-  color: #fff;
-}
-.drawerHeader span {
-  display: block;
-  font-size: 10px;
-  color: #ff9b9b;
-  margin-top: 1px;
-}
-.drawerCloseBtn {
+.drawerHeadText strong { display:block; font-size:15px; color:#fff; }
+.drawerHeadText span   { display:block; font-size:10px; color:#ff9b9b; }
+.drawerClose {
   margin-left: auto;
-  flex-shrink: 0;
-  width: 34px;
-  height: 34px;
+  width: 34px; height: 34px;
   border-radius: 50%;
   background: rgba(255,255,255,.07);
   border: 1px solid rgba(255,255,255,.1);
-  color: #fff;
-  font-size: 14px;
+  color: #fff; font-size: 14px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-tap-highlight-color: transparent;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
 }
 
-/* Drawer Sections */
-.drawerSection {
-  padding: 14px 16px;
-  border-bottom: 1px solid rgba(255,255,255,.06);
+.drawerBody {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 0;
 }
-.drawerAdminSection { border-bottom: none; }
 
-.drawerLabel {
-  display: block;
+.drawerBlock {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+}
+.drawerAdminBlock { border-bottom: none; }
+
+.drawerBlockLabel {
   font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .12em;
-  color: rgba(255,255,255,.4);
-  margin-bottom: 10px;
+  color: rgba(255,255,255,.38);
+  margin: 0 0 10px;
 }
 
-/* Stock Selector im Drawer */
 .drawerSelect {
   width: 100%;
   height: 46px;
   padding: 0 36px 0 12px;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 15px; font-weight: 700;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,.15);
-  background: rgba(255,255,255,.07);
   color: #fff;
-  -webkit-appearance: none;
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23ffffff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 12px center;
-  background-color: rgba(255,255,255,.07);
+  -webkit-appearance: none; appearance: none;
+  background: rgba(255,255,255,.07)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23fff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E")
+    no-repeat right 12px center;
 }
 
-/* Mode Buttons im Drawer */
 .drawerModes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 8px;
 }
 .drawerModeBtn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  padding: 12px 8px;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 5px;
+  padding: 13px 8px;
   border-radius: 12px;
   background: rgba(255,255,255,.05);
   border: 1px solid rgba(255,255,255,.1);
   color: rgba(255,255,255,.5);
-  font-size: 12px;
-  font-weight: 800;
+  font-size: 12px; font-weight: 800;
   cursor: pointer;
   transition: all .15s;
   -webkit-tap-highlight-color: transparent;
 }
 .drawerModeBtn span { font-size: 22px; line-height: 1; }
 .drawerModeBtn.active {
-  background: rgba(255,79,79,.15);
-  border-color: rgba(255,79,79,.4);
+  background: rgba(255,79,79,.18);
+  border-color: rgba(255,79,79,.45);
   color: #fff;
 }
-.drawerModeBtn:active { transform: scale(.96); }
 
-/* Voller Button im Drawer */
-.drawerFullBtn {
-  width: 100%;
-  min-height: 44px;
-  font-size: 15px;
-}
+.drawerFullBtn { width: 100%; min-height: 46px; font-size: 15px; }
 
-/* Admin-Dropdown im Drawer */
-.drawerAdminSection .adminDropdown {
-  position: static;
-  z-index: auto;
-}
-.drawerAdminSection .adminToggle {
-  width: 100%;
-  justify-content: flex-start;
-  min-height: 44px;
-  font-size: 14px;
-  border-radius: 12px;
-}
-.drawerAdminSection .adminPanel {
-  position: static;
-  width: 100%;
-  max-height: none;
-  box-shadow: none;
-  border-radius: 12px;
-  margin-top: 8px;
-}
+/* Admin im Drawer */
+.drawerAdminBlock .adminDropdown { position: static; z-index: auto; }
+.drawerAdminBlock .adminToggle   { width:100%; min-height:44px; font-size:14px; justify-content:flex-start; border-radius:12px; }
+.drawerAdminBlock .adminPanel    { position:static; width:100%; max-height:none; box-shadow:none; border-radius:12px; margin-top:8px; z-index:auto; }
 
-/* ── Drawer Trigger (Zipfel oben rechts) ──────────── */
+/* ════════════════════════════════════════════════════════
+   ZIPFEL – rechts, vertikal zentriert
+   ════════════════════════════════════════════════════════ */
 .drawerTrigger {
-  /* Standardmäßig im Header versteckt */
-  display: none;
+  display: none;  /* desktop: versteckt */
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1400;
+  width: 44px;
+  height: 58px;
+  border-radius: 18px 0 0 18px;
+  border: 1.5px solid rgba(255,255,255,.2);
+  border-right: none;
+  background: rgba(13,17,23,.96);
+  box-shadow: -6px 0 24px rgba(0,0,0,.6);
+  cursor: pointer;
+  padding: 7px 10px 7px 7px;
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  justify-content: center;
+  transition: background .18s;
+}
+.drawerTrigger img {
+  width: 28px; height: 28px;
+  object-fit: contain;
+  border-radius: 8px;
+  opacity: .92;
+  pointer-events: none;
+}
+.drawerTrigger:active {
+  background: rgba(255,79,79,.3);
+  transform: translateY(-50%) translateX(-3px);
 }
 
-/* ── Rechter Zipfel: fixiert, vertikal zentriert ── */
+/* ════════════════════════════════════════════════════════
+   BOTTOM NAV
+   ════════════════════════════════════════════════════════ */
+.bottomNav { display: none; }
+
+/* ════════════════════════════════════════════════════════
+   RESPONSIVE: TABLETS ≥ 640px
+   ════════════════════════════════════════════════════════ */
+@media (min-width: 640px) {
+  .appMain { padding-left: 20px; padding-right: 20px; }
+  .heroCard { flex-direction: row; align-items: center; }
+  .priceGrid { grid-template-columns: 1fr; min-width: 180px; }
+  .smartGrid { grid-template-columns: 1fr 1fr; }
+  .smartCard.fullWidth { grid-column: 1 / -1; }
+  .calcForm, .calcResult { grid-template-columns: 1fr 1fr; }
+  .pipeline, .riskGrid { grid-template-columns: 1fr 1fr; }
+  .scoreGrid { grid-template-columns: repeat(3,1fr); }
+  .newsGrid, .triggerGrid { grid-template-columns: 1fr 1fr; }
+  .adminGrid { grid-template-columns: repeat(3,1fr); }
+  .cockpitGrid, .preMarketGrid { grid-template-columns: repeat(2,1fr); }
+}
+
+@media (min-width: 960px) {
+  .appMain { padding-left: 28px; padding-right: 28px; }
+  .smartGrid { grid-template-columns: repeat(2,1fr); }
+  .grid2 { grid-template-columns: 1.35fr 1fr; }
+  .grid3 { grid-template-columns: repeat(3,1fr); }
+  .pipeline { grid-template-columns: repeat(4,1fr); }
+  .scoreGrid { grid-template-columns: repeat(4,1fr); }
+  .cockpitGrid { grid-template-columns: repeat(3,1fr); }
+}
+@media (min-width: 1200px) {
+  .cockpitGrid { grid-template-columns: repeat(4,1fr); }
+}
+
+/* ════════════════════════════════════════════════════════
+   MOBILE < 640px
+   ════════════════════════════════════════════════════════ */
+/* ════════════════════════════════════════
+   HEADER DESKTOP
+════════════════════════════════════════ */
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 0;
+}
+.tickerSelect {
+  background: var(--surface2);
+  color: var(--text);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 14px;
+  min-width: 200px;
+}
+.btnSm {
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 10px;
+  min-height: 36px;
+  white-space: nowrap;
+}
+
+/* ════════════════════════════════════════
+   RESPONSIVE GRIDS
+════════════════════════════════════════ */
+@media (min-width: 640px) {
+  .appMain { padding-left: 20px; padding-right: 20px; }
+  .heroCard { flex-direction: row; align-items: center; }
+  .priceGrid { grid-template-columns: 1fr; min-width: 180px; }
+  .smartGrid { grid-template-columns: 1fr 1fr; }
+  .fullWidth  { grid-column: 1/-1; }
+  .calcForm, .calcResult { grid-template-columns: 1fr 1fr; }
+  .pipeline, .riskGrid { grid-template-columns: 1fr 1fr; }
+  .scoreGrid { grid-template-columns: repeat(3,1fr); }
+  .newsGrid, .triggerGrid { grid-template-columns: 1fr 1fr; }
+  .adminGrid { grid-template-columns: repeat(2,1fr); }
+  .cockpitGrid, .preMarketGrid { grid-template-columns: repeat(2,1fr); }
+}
+@media (min-width: 960px) {
+  .appMain { padding-left: 28px; padding-right: 28px; }
+  .grid2 { grid-template-columns: 1.4fr 1fr; }
+  .grid3 { grid-template-columns: repeat(3,1fr); }
+  .pipeline { grid-template-columns: repeat(4,1fr); }
+  .scoreGrid { grid-template-columns: repeat(4,1fr); }
+  .cockpitGrid { grid-template-columns: repeat(3,1fr); }
+}
+@media (min-width: 1200px) {
+  .cockpitGrid { grid-template-columns: repeat(4,1fr); }
+}
+
+/* ════════════════════════════════════════
+   VIEW HEADER
+════════════════════════════════════════ */
+.viewHeader { margin-bottom: 20px; }
+.viewHeader h1 { font-size: clamp(26px,5vw,42px); margin-bottom: 6px; }
+.viewHeader p  { color: var(--muted); font-size: 15px; }
+
+/* ════════════════════════════════════════
+   DRAWER OVERLAY
+════════════════════════════════════════ */
+.drawerOverlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.72);
+  z-index: 1500;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.drawerOverlay.open { display: block; }
+
+/* ════════════════════════════════════════
+   DRAWER PANEL
+════════════════════════════════════════ */
+.rightDrawer {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: min(300px, 86vw);
+  background: #0c1018;
+  border-left: 1px solid rgba(255,255,255,.11);
+  z-index: 1600;
+  transform: translateX(100%);
+  transition: transform .28s cubic-bezier(.4,0,.2,1);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -16px 0 48px rgba(0,0,0,.7);
+}
+.rightDrawer.open { transform: translateX(0); }
+
+.drawerHead {
+  display: flex; align-items: center; gap: 10px;
+  padding: 16px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  flex-shrink: 0;
+}
+.drawerLogo {
+  width: 34px; height: 34px; border-radius: 9px;
+  object-fit: contain;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  padding: 3px; flex-shrink: 0;
+}
+.drawerHead strong { display:block; font-size:14px; color:#fff; }
+.drawerHead span   { display:block; font-size:10px; color:#ff9b9b; }
+.drawerClose {
+  margin-left: auto; flex-shrink: 0;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.1);
+  color: #fff; font-size: 13px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.drawerBody { flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+.drawerBlock { padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,.05); }
+.drawerLabel {
+  font-size: 10px; font-weight: 900; text-transform: uppercase;
+  letter-spacing: .12em; color: rgba(255,255,255,.35); margin: 0 0 8px;
+}
+
+.drawerSelect {
+  width: 100%; height: 44px;
+  padding: 0 32px 0 10px; font-size: 14px; font-weight: 700;
+  border-radius: 11px; border: 1px solid rgba(255,255,255,.14);
+  color: #fff;
+  -webkit-appearance: none; appearance: none;
+  background: rgba(255,255,255,.07)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23fff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E")
+    no-repeat right 10px center;
+}
+
+.drawerModes { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; }
+.drawerModeBtn {
+  display:flex; flex-direction:column; align-items:center; gap:4px;
+  padding: 11px 6px; border-radius: 12px;
+  background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.09);
+  color: rgba(255,255,255,.45); font-size: 11px; font-weight: 800;
+  cursor: pointer; transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.drawerModeBtn span { font-size: 20px; line-height: 1; }
+.drawerModeBtn.active {
+  background: rgba(255,79,79,.16); border-color: rgba(255,79,79,.4); color: #fff;
+}
+
+.drawerFullBtn { width: 100%; min-height: 44px; font-size: 14px; }
+
+/* Admin im Drawer kompakt */
+.drawerBlock .adminDropdown { position: static; }
+.drawerBlock .adminToggle   { width:100%; min-height:42px; font-size:13px; border-radius:11px; }
+.drawerBlock .adminPanel    { position:static; width:100%; max-height:none; box-shadow:none; border-radius:12px; margin-top:8px; z-index:auto; padding:12px; }
+.drawerBlock .adminGrid     { grid-template-columns: 1fr; }
+
+/* ════════════════════════════════════════
+   ZIPFEL
+════════════════════════════════════════ */
+.drawerTrigger { display: none; }
+
+/* ════════════════════════════════════════
+   BOTTOM NAV
+════════════════════════════════════════ */
+.bottomNav { display: none; }
+
+/* ════════════════════════════════════════
+   MOBILE < 640px
+════════════════════════════════════════ */
+
+/* ════════════════════════════════════════════
+   MODE VISIBILITY – die einzige Wahrheit
+════════════════════════════════════════════ */
+#cockpitView, #maxView { display: none; }
+#smartHome             { display: block; }
+
+body.smart-mode   #smartHome    { display: block !important; }
+body.smart-mode   #cockpitView  { display: none  !important; }
+body.smart-mode   #maxView      { display: none  !important; }
+
+body.cockpit-mode #cockpitView  { display: block !important; }
+body.cockpit-mode #smartHome    { display: none  !important; }
+body.cockpit-mode #maxView      { display: none  !important; }
+
+body.max-mode     #maxView      { display: block !important; }
+body.max-mode     #smartHome    { display: none  !important; }
+body.max-mode     #cockpitView  { display: none  !important; }
+
+/* ════════════════════════════════════════════
+   HEADER
+════════════════════════════════════════════ */
+.hInner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+.hBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.hLogo {
+  width: 38px; height: 38px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.1);
+  padding: 4px;
+}
+.hBrandText strong { display:block; font-size:15px; color:#fff; font-weight:900; }
+.hBrandText span   { display:block; font-size:11px; color:#ff9b9b; }
+
+.hControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 0;
+}
+.hSelect {
+  background: var(--surface2);
+  color: var(--text);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 14px;
+  min-width: 220px;
+  max-width: 320px;
+}
+.hModes {
+  display: flex;
+  gap: 3px;
+  padding: 3px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  flex-shrink: 0;
+}
+.hModeBtn {
+  border: none;
+  border-radius: 11px;
+  padding: 7px 14px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .15s;
+}
+.hModeBtn.active {
+  background: var(--red-dim);
+  color: #fff;
+  box-shadow: 0 0 0 1px rgba(255,79,79,.25) inset;
+}
+.hBtn {
+  padding: 8px 14px;
+  font-size: 13px;
+  white-space: nowrap;
+  border-radius: var(--radius-sm);
+}
+
+/* ════════════════════════════════════════════
+   PAGE HELPERS
+════════════════════════════════════════════ */
+.pageHead { margin-bottom: 20px; }
+.pageHead h1 { font-size: clamp(24px,5vw,42px); margin-bottom: 6px; }
+.pageHead p  { color: var(--muted); font-size: 15px; }
+.mbs { margin-bottom: 16px; }
+.secHead { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.btnSm { padding: 7px 11px; font-size: 12px; border-radius: 10px; white-space: nowrap; }
+
+/* ════════════════════════════════════════════
+   DRAWER OVERLAY
+════════════════════════════════════════════ */
+.drawerOverlay {
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.72);
+  z-index: 1500;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.drawerOverlay.open { display: block; }
+
+/* ════════════════════════════════════════════
+   DRAWER PANEL
+════════════════════════════════════════════ */
+.rightDrawer {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: min(300px, 86vw);
+  background: #0c1018;
+  border-left: 1px solid rgba(255,255,255,.12);
+  z-index: 1600;
+  transform: translateX(110%);
+  transition: transform .28s cubic-bezier(.4,0,.2,1);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -16px 0 48px rgba(0,0,0,.7);
+  overflow: hidden;
+}
+.rightDrawer.open { transform: translateX(0); }
+
+.dHead {
+  display: flex; align-items: center; gap: 10px;
+  padding: 16px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  flex-shrink: 0;
+}
+.dLogo {
+  width: 34px; height: 34px; border-radius: 9px;
+  object-fit: contain; background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1); padding: 3px; flex-shrink: 0;
+}
+.dHead strong { display:block; font-size:14px; color:#fff; font-weight:900; }
+.dHead span   { display:block; font-size:10px; color:#ff9b9b; }
+.dClose {
+  margin-left: auto; flex-shrink: 0;
+  width: 32px; height: 32px; border-radius: 50%;
+  background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1);
+  color: #fff; font-size: 14px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.dBody { flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+.dBlock { padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,.05); }
+.dAdmin { border-bottom: none; }
+.dLabel { font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,.35); margin: 0 0 8px; }
+
+.dSelect {
+  width: 100%; height: 44px;
+  padding: 0 32px 0 10px; font-size: 14px; font-weight: 700;
+  border-radius: 11px; border: 1px solid rgba(255,255,255,.14);
+  color: #fff;
+  -webkit-appearance: none; appearance: none;
+  background: rgba(255,255,255,.07)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23fff' stroke-width='1.5' fill='none'/%3E%3C/svg%3E")
+    no-repeat right 10px center;
+}
+.dModes { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; }
+.dModeBtn {
+  display:flex; flex-direction:column; align-items:center; gap:4px;
+  padding: 12px 6px; border-radius: 12px;
+  background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1);
+  color: rgba(255,255,255,.45); font-size: 11px; font-weight: 800;
+  cursor: pointer; transition: all .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.dModeBtn span { font-size: 20px; line-height: 1; }
+.dModeBtn.active { background: rgba(255,79,79,.16); border-color: rgba(255,79,79,.4); color: #fff; }
+.dFull { width:100%; min-height:44px; font-size:14px; }
+
+/* Admin im Drawer */
+.dAdmin .adminDropdown { position:static; }
+.dAdmin .adminToggle   { width:100%; min-height:42px; font-size:13px; border-radius:11px; justify-content:flex-start; }
+.dAdmin .adminPanel    { position:static; width:100%; max-height:none; box-shadow:none; border-radius:12px; margin-top:8px; z-index:auto; padding:12px; }
+.dAdmin .adminGrid     { grid-template-columns:1fr; }
+.dAdmin .adminActions  { flex-direction:column; }
+.dAdmin .adminActions button { width:100%; min-height:44px; }
+
+/* ════════════════════════════════════════════
+   ZIPFEL (Mobile, rechts, vertikal zentriert)
+════════════════════════════════════════════ */
+.zipfel { display: none; }
+
+/* ════════════════════════════════════════════
+   BOTTOM NAV (nur Mobile)
+════════════════════════════════════════════ */
+.bnav { display: none; }
+
+/* ════════════════════════════════════════════
+   CHART
+════════════════════════════════════════════ */
+.chartWrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,.2);
+}
+#smartChart { display:block; min-width: 580px; height: 260px; }
+#chart      { display:block; min-width: 720px; height: 430px; }
+
+/* ════════════════════════════════════════════
+   SMART GRID
+════════════════════════════════════════════ */
+.smartGrid { display:grid; grid-template-columns:1fr; gap:14px; margin-top:14px; }
+.fullW     { grid-column: 1/-1; }
+.smartCard { padding: 20px; }
+#smartPreMarket:empty { display: none !important; }
+#smartPreMarket { padding: 18px; }
+
+/* ════════════════════════════════════════════
+   HERO CARD
+════════════════════════════════════════════ */
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 28px;
+  background:
+    radial-gradient(circle at 6% 0%, rgba(255,79,79,.12), transparent 35%),
+    linear-gradient(160deg, rgba(255,255,255,.055), rgba(255,255,255,.018));
+  border-radius: var(--radius-lg);
+  margin-bottom: 14px;
+}
+.heroText .badge { display:inline-flex; margin-bottom:14px; }
+.heroCard h1   { font-size: clamp(28px,5vw,52px); }
+.heroSub       { font-size: 16px; color: var(--soft); margin-top: 8px; }
+.priceGrid     { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+.smartMetric   { background:rgba(255,255,255,.05); border:1px solid var(--border); border-radius:var(--radius-sm); padding:14px; }
+.smartMetric span  { display:block; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); }
+.smartMetric b     { display:block; font-size:22px; font-weight:900; color:#fff; margin:6px 0 3px; }
+.smartMetric small { font-size:12px; color:var(--muted); }
+
+/* Premarket Card */
+.preMarketDetail { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:12px 0; }
+.pmStat { background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:var(--radius-sm); padding:12px; }
+.pmStat span { display:block; font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:4px; }
+.pmStat strong { display:block; font-size:18px; font-weight:900; color:#fff; }
+.pmNote { font-size:12px; color:#ffd8a0; background:var(--amber-dim); border:1px solid rgba(244,180,92,.25); border-radius:var(--radius-sm); padding:10px 12px; line-height:1.5; }
+
+/* ════════════════════════════════════════════
+   RESPONSIVE TABLETS ≥ 640px
+════════════════════════════════════════════ */
+@media (min-width: 640px) {
+  .appMain { padding-left: 20px; padding-right: 20px; }
+  .heroCard { flex-direction: row; align-items: center; }
+  .priceGrid { grid-template-columns:1fr; min-width:180px; flex-shrink:0; }
+  .smartGrid { grid-template-columns: 1fr 1fr; }
+  .calcForm, .calcResult { grid-template-columns: 1fr 1fr; }
+  .pipeline, .riskGrid { grid-template-columns: 1fr 1fr; }
+  .scoreGrid { grid-template-columns: repeat(3,1fr); }
+  .newsGrid, .triggerGrid { grid-template-columns: 1fr 1fr; }
+  .adminGrid { grid-template-columns: repeat(2,1fr); }
+  .cockpitGrid, .preMarketGrid { grid-template-columns: repeat(2,1fr); }
+  .preMarketDetail { grid-template-columns: repeat(4,1fr); }
+}
+
+/* ════════════════════════════════════════════
+   RESPONSIVE DESKTOP ≥ 960px
+════════════════════════════════════════════ */
+@media (min-width: 960px) {
+  .appMain { padding-left: 28px; padding-right: 28px; }
+  .grid2  { grid-template-columns: 1.4fr 1fr; }
+  .grid3  { grid-template-columns: repeat(3,1fr); }
+  .pipeline { grid-template-columns: repeat(4,1fr); }
+  .scoreGrid { grid-template-columns: repeat(4,1fr); }
+  .cockpitGrid { grid-template-columns: repeat(3,1fr); }
+  .adminGrid { grid-template-columns: repeat(3,1fr); }
+}
+@media (min-width: 1200px) {
+  .cockpitGrid { grid-template-columns: repeat(4,1fr); }
+}
+
+/* ════════════════════════════════════════════
+   MOBILE < 640px – ALLES
+════════════════════════════════════════════ */
 @media (max-width: 639px) {
-  .drawerTrigger {
-    display: flex;
+  :root { --header-h: 54px; }
+  --bnav-h: 65px;
+
+  /* Header */
+  .appHeader { height: var(--header-h); overflow: visible; }
+  .hInner    { padding: 0 14px; }
+  .hLogo     { width: 32px; height: 32px; border-radius: 8px; }
+  .hBrandText strong { font-size: 13px; }
+  .hBrandText span   { font-size: 10px; }
+  .hControls { display: none !important; }
+
+  /* Zipfel: fix rechts, vertikal mittig */
+  .zipfel {
+    display: flex !important;
     position: fixed;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1400;
-    /* Zipfel-Form: linke Seite abgerundet, rechts bündig */
     width: 44px;
-    height: 56px;
-    border-radius: 16px 0 0 16px;
-    background: rgba(13,17,23,.95);
-    border: 1px solid rgba(255,255,255,.18);
+    height: 58px;
+    border-radius: 18px 0 0 18px;
+    border: 1.5px solid rgba(255,255,255,.22);
     border-right: none;
-    box-shadow: -4px 0 20px rgba(0,0,0,.5);
+    background: rgba(10,14,22,.96);
+    box-shadow: -6px 0 24px rgba(0,0,0,.6);
+    padding: 7px 10px 7px 8px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    padding: 6px 8px 6px 6px;
     -webkit-tap-highlight-color: transparent;
     transition: background .15s, transform .15s;
   }
-
-  .drawerTrigger:active {
-    background: rgba(255,79,79,.25);
-    transform: translateY(-50%) translateX(-2px);
+  .zipfel img {
+    width: 26px; height: 26px;
+    border-radius: 7px; opacity: .9;
+    pointer-events: none; display: block;
+  }
+  .zipfel:active {
+    background: rgba(255,79,79,.3);
+    transform: translateY(-50%) translateX(-3px);
   }
 
-  .drawerTriggerLogo {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
-    border-radius: 8px;
-    opacity: .9;
+  /* appMain */
+  .appMain {
+    padding-top: calc(var(--header-h) + 12px) !important;
+    padding-bottom: 79px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
   }
+  body.has-alerts .appMain { padding-top: calc(var(--header-h) + 160px) !important; }
 
-  /* Header: nur Logo links, kein Trigger mehr im Header */
-  .headerInner {
-    justify-content: flex-start;
-    padding: 0 14px;
-  }
+  /* Alert Banner */
+  .alertBanner { top: var(--header-h) !important; z-index: 890 !important; padding: 5px 10px !important; }
 
-  .headerControls {
-    display: none !important;
+  /* Bottom Nav */
+  .bnav {
+    display: flex !important;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: 65px;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: rgba(7,9,14,.97);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border-top: 1px solid rgba(255,255,255,.09);
+    z-index: 1000;
   }
+  .bnBtn {
+    flex: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 3px;
+    background: transparent; border: none;
+    color: rgba(255,255,255,.36);
+    padding: 8px 4px;
+    cursor: pointer; touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    position: relative; min-height: 44px;
+    transition: color .12s;
+  }
+  .bnBtn.active { color: #fff; }
+  .bnBtn.active::after {
+    content: '';
+    position: absolute; top: 0;
+    left: 16%; right: 16%;
+    height: 3px; background: #ff4f4f;
+    border-radius: 0 0 4px 4px;
+  }
+  .bnBtn span  { font-size: 22px; line-height: 1; }
+  .bnBtn small { font-size: 10px; font-weight: 700; white-space: nowrap; }
+
+  /* Cards */
+  .heroCard  { padding: 16px; flex-direction: column; }
+  .heroCard h1 { font-size: 24px; }
+  .heroSub   { font-size: 13px; }
+  .priceGrid { grid-template-columns: 1fr 1fr; }
+  .smartCard { padding: 14px; }
+  .cardHead p { font-size: 12px; }
+  .mbs       { margin-bottom: 12px; }
+
+  /* Rechner */
+  .calcForm  { grid-template-columns: 1fr 1fr; }
+  .calcResult { grid-template-columns: 1fr 1fr; }
+  .calcForm input { min-height: 46px; font-size: 16px; }
+
+  /* Akkordeons */
+  .accordionSummary   { padding: 12px 14px; }
+  .accordionSummary h2 { font-size: 16px; }
+  .accordionBody      { padding: 0 12px 12px; }
+
+  /* Max */
+  .grid2, .grid3 { grid-template-columns: 1fr; }
+  .scoreGrid   { grid-template-columns: 1fr 1fr; }
+  .pipeline    { grid-template-columns: 1fr; }
+  .riskGrid    { grid-template-columns: 1fr; }
+  .maxHero     { padding: 16px; }
+  .maxHero h1  { font-size: 24px; }
+  .thesis      { font-size: 14px; }
+  #chart       { height: 280px; min-width: 680px; }
+
+  /* Cockpit */
+  .cockpitGrid   { grid-template-columns: 1fr; }
+  .preMarketGrid { grid-template-columns: 1fr 1fr; }
+  .cockpitCard   { padding: 14px; }
+  .preMarketDetail { grid-template-columns: 1fr 1fr; }
+  .pmStat strong { font-size: 16px; }
+
+  /* Admin */
+  .tickerInputRow { flex-direction: column; }
+  .tickerInputBig { font-size: 17px; width:100%; min-height:50px; }
+  #autoLookupBtn, #autoLookupBtnDesktop { width:100%; min-height:48px; }
 }
 
-/* ── Bottom Nav: Benachrichtigungen Badge ─────────── */
-#bottomNotifyBtn .bottomNavIcon {
-  position: relative;
-  display: inline-block;
+@media (max-width: 380px) {
+  .bnBtn small { font-size: 9px; }
+  .bnBtn span  { font-size: 20px; }
+  .heroCard h1 { font-size: 20px; }
 }
-
-/* ════════════════════════════════════════════════
-   MODE VISIBILITY – Smart / Cockpit / Max
-   ════════════════════════════════════════════════ */
-
-/* Standard: smart-mode aktiv */
-#maxView      { display: none; }
-.cockpitView  { display: none; }
-#smartHome    { display: block; }
-
-/* Smart */
-body.smart-mode #smartHome   { display: block !important; }
-body.smart-mode #maxView     { display: none  !important; }
-body.smart-mode .cockpitView { display: none  !important; }
-
-/* Cockpit */
-body.cockpit-mode .cockpitView { display: block !important; }
-body.cockpit-mode #smartHome   { display: none  !important; }
-body.cockpit-mode #maxView     { display: none  !important; }
-
-/* Max */
-body.max-mode #maxView      { display: block !important; }
-body.max-mode #smartHome    { display: none  !important; }
-body.max-mode .cockpitView  { display: none  !important; }
