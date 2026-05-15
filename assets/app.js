@@ -294,9 +294,8 @@ function renderAlertBanner() {
 
   const alerts = collectAlerts();
   const visible = alerts.filter(a => !dismissedAlerts.includes(a.id));
-  if (!visible.length) { banner.innerHTML = ""; banner.classList.remove("has-alerts"); return; }
-
-  banner.classList.add("has-alerts");
+  if (!visible.length) { banner.innerHTML=""; banner.classList.remove("has-alerts"); document.body.classList.remove("has-alerts"); return; }
+  banner.classList.add("has-alerts"); document.body.classList.add("has-alerts");
   banner.innerHTML = visible.slice(0, 3).map(a => `
     <div class="alertCard alertCard--${a.level}" role="alert">
       <div class="alertCardBody">
@@ -519,13 +518,10 @@ function renderSmartPreMarket() {
   const mState = marketStateLabel(price.marketState);
   const currency = price.currency === "EUR" ? "€" : "$";
 
+  if (!pre && !price.marketState) { el.innerHTML=""; el.style.display="none"; return; }
+  el.style.display="";
   if (!pre) {
-    el.innerHTML = `
-      <div class="cardHead">
-        <span class="kicker">📊 Börsenstatus</span>
-        <h2>${mState.icon} ${esc(mState.label)}</h2>
-        <p>Keine Vor- oder Nachbörsendaten verfügbar. Aktueller Kurs: <strong>${formatMoney(price.regularMarketPrice, currency)}</strong></p>
-      </div>`;
+    el.innerHTML = `<div class="cardHead"><span class="kicker">📊 Börsenstatus</span><h2>${mState.icon} ${esc(mState.label)}</h2><p>Letzter Kurs: <strong>${formatMoney(price.regularMarketPrice, currency)}</strong></p></div>`;
     return;
   }
 

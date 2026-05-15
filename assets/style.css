@@ -1993,3 +1993,28 @@ body.has-alerts .appMain { padding-top: calc(var(--header-h) + 120px); }
   #autoLookupBtn  { width: 100%; min-height: 52px; }
   .adminGridAdvanced { grid-template-columns: 1fr; }
 }
+
+
+/* MOBILE FIXES */
+body.has-alerts .appMain { padding-top: calc(var(--header-h) + 16px + 120px) !important; }
+@media (max-width: 639px) {
+  body.has-alerts .appMain { padding-top: calc(var(--header-h) + var(--ticker-h) + 16px + 200px) !important; }
+  .headerControls .modeSwitch  { display: none !important; }
+  .headerControls #notifyBtn   { display: none !important; }
+  .headerControls #refreshBtn  { display: none !important; }
+  .headerControls .tickerSelect{ display: none !important; }
+  .headerInner { display:flex; align-items:center; justify-content:space-between; padding:0 12px; }
+  .brand { flex:1; min-width:0; }
+  .adminToggle { gap:4px; padding:7px 12px !important; font-size:13px !important; min-height:38px !important; white-space:nowrap; }
+  .adminDropdown[open]::before { content:''; position:fixed; inset:0; background:rgba(0,0,0,.65); z-index:9998; pointer-events:none; }
+  .adminPanel { z-index:9999 !important; top: calc(var(--header-h) + var(--ticker-h) + 8px) !important; }
+  .alertBanner { top: calc(var(--header-h, 52px) + var(--ticker-h, 50px)) !important; padding:6px 10px !important; }
+  .appHeader { overflow: visible !important; }
+}
+#smartPreMarket:empty { display:none; }
+.mobileOnly  { display:none; }
+.desktopOnly { display:flex; }
+@media (max-width:639px) {
+  .mobileOnly  { display:flex !important; }
+  .desktopOnly { display:none !important; }
+}
