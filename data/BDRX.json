@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.31",
-      "note": "Auto-Update: -22.12% vs. vorheriger Schlusskurs",
+      "value": "$3.32",
+      "note": "Auto-Update: -21.88% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-15T15:34:09Z",
+    "last_update_utc": "2026-05-15T17:20:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.31,
+      "regularMarketPrice": 3.32,
       "previousClose": 4.25,
-      "change": -0.94,
-      "changePercent": -22.12,
-      "regularMarketTime": "2026-05-15T14:53:50Z",
+      "change": -0.93,
+      "changePercent": -21.88,
+      "regularMarketTime": "2026-05-15T17:03:15Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -304,7 +304,7 @@
       },
       {
         "t": "2026-05-15T13:30:00Z",
-        "price": 3.31
+        "price": 3.32
       }
     ],
     "price_history_1d": [
@@ -329,13 +329,30 @@
         "price": 3.31
       },
       {
-        "t": "2026-05-15T14:53:50Z",
-        "price": 3.31
+        "t": "2026-05-15T17:03:15Z",
+        "price": 3.32
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Biodexa schlägt auf Hauptversammlung Kapitalneuordnung vor - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTk9BOVZ3T1l3cVpmaUo4Mlo2S0ZSUkdkbVktdlp4cC02NzB5blhtdzVHeGZBMDk4OWdVRGVELUYwckJhN0dIY0tuSU8yRUFsRmFTLUlJMmtkc2hoODd5WllmRDVsbFNWekg1bjFmRnBKSkRHMW15cFZPUUtqS0hXeHQ5cE5sVUJoblZramFFbGxHZDVHOUJjdDQ1WmtCanJGdkJnQXc5a1VuYTUwbTJtMEttczI?oc=5",
+        "published_at": "2026-05-14T12:37:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      }
+    ],
     "sec_filings": [
       {
         "form": "SCHEDULE 13G/A",
