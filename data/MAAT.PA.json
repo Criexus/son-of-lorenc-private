@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.13",
-      "note": "Auto-Update: -0.97% vs. vorheriger Schlusskurs",
+      "value": "$7.16",
+      "note": "Auto-Update: -0.56% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,14 +131,27 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-15T11:34:04Z",
+    "last_update_utc": "2026-05-15T12:50:20Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 7.13,
+      "regularMarketPrice": 7.16,
       "previousClose": 7.2,
-      "change": -0.07,
-      "changePercent": -0.97
+      "change": -0.04,
+      "changePercent": -0.56,
+      "regularMarketTime": "2026-05-15T12:34:40Z",
+      "marketState": null,
+      "preMarketPrice": null,
+      "preMarketChange": null,
+      "preMarketChangePercent": null,
+      "preMarketTime": null,
+      "postMarketPrice": null,
+      "postMarketChange": null,
+      "postMarketChangePercent": null,
+      "postMarketTime": null,
+      "fiftyTwoWeekHigh": 8.62,
+      "fiftyTwoWeekLow": 3.55,
+      "fiftyTwoWeekRange": "3.55 – 8.62"
     },
     "price_history": [
       {
@@ -227,7 +240,7 @@
       },
       {
         "t": "2026-05-15T07:00:00Z",
-        "price": 7.13
+        "price": 7.16
       }
     ],
     "price_history_1d": [
@@ -393,11 +406,47 @@
       },
       {
         "t": "2026-05-15T11:15:00Z",
-        "price": 7.17
+        "price": 7.13
       },
       {
-        "t": "2026-05-15T11:17:02Z",
-        "price": 7.13
+        "t": "2026-05-15T11:25:00Z",
+        "price": 7.18
+      },
+      {
+        "t": "2026-05-15T11:40:00Z",
+        "price": 7.18
+      },
+      {
+        "t": "2026-05-15T11:45:00Z",
+        "price": 7.16
+      },
+      {
+        "t": "2026-05-15T12:00:00Z",
+        "price": 7.2
+      },
+      {
+        "t": "2026-05-15T12:05:00Z",
+        "price": 7.16
+      },
+      {
+        "t": "2026-05-15T12:10:00Z",
+        "price": 7.16
+      },
+      {
+        "t": "2026-05-15T12:15:00Z",
+        "price": 7.14
+      },
+      {
+        "t": "2026-05-15T12:25:00Z",
+        "price": 7.14
+      },
+      {
+        "t": "2026-05-15T12:30:00Z",
+        "price": 7.14
+      },
+      {
+        "t": "2026-05-15T12:34:40Z",
+        "price": 7.16
       }
     ],
     "price_history_range": "1mo",

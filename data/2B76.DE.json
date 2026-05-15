@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$17.01",
-      "note": "Auto-Update: -1.81% vs. vorheriger Schlusskurs",
+      "value": "$16.91",
+      "note": "Auto-Update: -2.39% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,14 +137,27 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-15T11:34:29Z",
+    "last_update_utc": "2026-05-15T12:50:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 17.006,
+      "regularMarketPrice": 16.906,
       "previousClose": 17.32,
-      "change": -0.314,
-      "changePercent": -1.81
+      "change": -0.414,
+      "changePercent": -2.39,
+      "regularMarketTime": "2026-05-15T12:34:55Z",
+      "marketState": null,
+      "preMarketPrice": null,
+      "preMarketChange": null,
+      "preMarketChangePercent": null,
+      "preMarketTime": null,
+      "postMarketPrice": null,
+      "postMarketChange": null,
+      "postMarketChangePercent": null,
+      "postMarketTime": null,
+      "fiftyTwoWeekHigh": 17.656,
+      "fiftyTwoWeekLow": 12.192,
+      "fiftyTwoWeekRange": "12.192 – 17.656"
     },
     "price_history": [
       {
@@ -233,7 +246,7 @@
       },
       {
         "t": "2026-05-15T07:00:00Z",
-        "price": 17.006
+        "price": 16.906
       }
     ],
     "price_history_1d": [
@@ -439,16 +452,92 @@
       },
       {
         "t": "2026-05-15T11:15:00Z",
-        "price": 16.998
+        "price": 17.006
       },
       {
-        "t": "2026-05-15T11:18:51Z",
-        "price": 17.006
+        "t": "2026-05-15T11:20:00Z",
+        "price": 16.99
+      },
+      {
+        "t": "2026-05-15T11:25:00Z",
+        "price": 16.994
+      },
+      {
+        "t": "2026-05-15T11:30:00Z",
+        "price": 16.978
+      },
+      {
+        "t": "2026-05-15T11:35:00Z",
+        "price": 16.978
+      },
+      {
+        "t": "2026-05-15T11:40:00Z",
+        "price": 16.982
+      },
+      {
+        "t": "2026-05-15T11:45:00Z",
+        "price": 16.99
+      },
+      {
+        "t": "2026-05-15T11:50:00Z",
+        "price": 16.996
+      },
+      {
+        "t": "2026-05-15T11:55:00Z",
+        "price": 16.978
+      },
+      {
+        "t": "2026-05-15T12:00:00Z",
+        "price": 16.954
+      },
+      {
+        "t": "2026-05-15T12:05:00Z",
+        "price": 16.946
+      },
+      {
+        "t": "2026-05-15T12:10:00Z",
+        "price": 16.92
+      },
+      {
+        "t": "2026-05-15T12:15:00Z",
+        "price": 16.932
+      },
+      {
+        "t": "2026-05-15T12:20:00Z",
+        "price": 16.934
+      },
+      {
+        "t": "2026-05-15T12:25:00Z",
+        "price": 16.914
+      },
+      {
+        "t": "2026-05-15T12:30:00Z",
+        "price": 16.912
+      },
+      {
+        "t": "2026-05-15T12:34:55Z",
+        "price": 16.906
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, Fonds, IE00BYZK4552 - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8waVZYTHhXTl9FeURGejhsLWx6T1l0NkVRS1BoVllMYzFxQUtxY1RrYWkxRmg1S3hHdzRVQlBkRWFpU19VV2UzY0t3YzE0TXhzUFc0TTUyeDhTMUE?oc=5",
+        "published_at": "2020-03-26T06:13:46Z",
+        "source": "Comdirect",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 47
+      },
       {
         "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",

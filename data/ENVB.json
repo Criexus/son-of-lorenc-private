@@ -165,14 +165,27 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-15T11:33:51Z",
+    "last_update_utc": "2026-05-15T12:50:07Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
       "regularMarketPrice": 2.29,
       "previousClose": 3.17,
       "change": -0.88,
-      "changePercent": -27.76
+      "changePercent": -27.76,
+      "regularMarketTime": "2026-05-14T20:00:01Z",
+      "marketState": null,
+      "preMarketPrice": null,
+      "preMarketChange": null,
+      "preMarketChangePercent": null,
+      "preMarketTime": null,
+      "postMarketPrice": null,
+      "postMarketChange": null,
+      "postMarketChangePercent": null,
+      "postMarketTime": null,
+      "fiftyTwoWeekHigh": 17.64,
+      "fiftyTwoWeekLow": 1.71,
+      "fiftyTwoWeekRange": "1.71 – 17.64"
     },
     "price_history": [
       {
@@ -520,6 +533,20 @@
     ],
     "sec_filings": [
       {
+        "form": "10-Q",
+        "filingDate": "2026-05-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226023353/form10-q.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-05-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226023345/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "D",
         "filingDate": "2026-05-04",
         "url": "https://www.sec.gov/Archives/edgar/data/890821/000089082126000002/xslFormDX01/primary_doc.xml",
@@ -644,32 +671,10 @@
         "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226005606/form8-k.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "424B5",
-        "filingDate": "2026-02-06",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226005591/form424b5.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G",
-        "filingDate": "2026-02-04",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000092963826000500/xslSCHEDULE_13G_X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
     "detected_triggers": [
-      {
-        "type": "SEC · Finanzierung/Verwässerung",
-        "level": "high",
-        "title": "424B5 · 2026-02-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-02-06"
-      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
@@ -743,12 +748,20 @@
         "date": "2026-04-30"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G · 2026-02-04",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-05-15",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-02-04"
+        "date": "2026-05-15"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-05-15",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-15"
       },
       {
         "type": "SEC Filing",
