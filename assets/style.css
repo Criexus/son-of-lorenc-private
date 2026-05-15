@@ -1682,43 +1682,56 @@ body.max-mode #smartHome { display: none; }
 
 /* ── Drawer Trigger (Zipfel oben rechts) ──────────── */
 .drawerTrigger {
-  display: none;   /* nur auf Mobile sichtbar */
-  width: 46px;
-  height: 46px;
-  border-radius: 14px;
-  background: rgba(255,255,255,.08);
-  border: 1px solid rgba(255,255,255,.15);
-  cursor: pointer;
-  padding: 5px;
-  flex-shrink: 0;
-  -webkit-tap-highlight-color: transparent;
-  transition: background .15s;
-  align-items: center;
-  justify-content: center;
-}
-.drawerTrigger:active { background: rgba(255,79,79,.2); }
-
-.drawerTriggerLogo {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 9px;
+  /* Standardmäßig im Header versteckt */
+  display: none;
 }
 
-/* ── Mobile: Drawer-Trigger zeigen ───────────────── */
+/* ── Rechter Zipfel: fixiert, vertikal zentriert ── */
 @media (max-width: 639px) {
   .drawerTrigger {
     display: flex;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1400;
+    /* Zipfel-Form: linke Seite abgerundet, rechts bündig */
+    width: 44px;
+    height: 56px;
+    border-radius: 16px 0 0 16px;
+    background: rgba(13,17,23,.95);
+    border: 1px solid rgba(255,255,255,.18);
+    border-right: none;
+    box-shadow: -4px 0 20px rgba(0,0,0,.5);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 6px 8px 6px 6px;
+    -webkit-tap-highlight-color: transparent;
+    transition: background .15s, transform .15s;
   }
 
-  /* Header minimieren: Logo links, Trigger rechts */
+  .drawerTrigger:active {
+    background: rgba(255,79,79,.25);
+    transform: translateY(-50%) translateX(-2px);
+  }
+
+  .drawerTriggerLogo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 8px;
+    opacity: .9;
+  }
+
+  /* Header: nur Logo links, kein Trigger mehr im Header */
   .headerInner {
-    justify-content: space-between;
-    padding: 0 12px;
+    justify-content: flex-start;
+    padding: 0 14px;
   }
 
   .headerControls {
-    display: none !important;  /* Alles in Drawer */
+    display: none !important;
   }
 }
 
