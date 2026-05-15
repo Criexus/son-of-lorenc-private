@@ -1727,3 +1727,27 @@ body.max-mode #smartHome { display: none; }
   position: relative;
   display: inline-block;
 }
+
+/* ════════════════════════════════════════════════
+   MODE VISIBILITY – Smart / Cockpit / Max
+   ════════════════════════════════════════════════ */
+
+/* Standard: smart-mode aktiv */
+#maxView      { display: none; }
+.cockpitView  { display: none; }
+#smartHome    { display: block; }
+
+/* Smart */
+body.smart-mode #smartHome   { display: block !important; }
+body.smart-mode #maxView     { display: none  !important; }
+body.smart-mode .cockpitView { display: none  !important; }
+
+/* Cockpit */
+body.cockpit-mode .cockpitView { display: block !important; }
+body.cockpit-mode #smartHome   { display: none  !important; }
+body.cockpit-mode #maxView     { display: none  !important; }
+
+/* Max */
+body.max-mode #maxView      { display: block !important; }
+body.max-mode #smartHome    { display: none  !important; }
+body.max-mode .cockpitView  { display: none  !important; }

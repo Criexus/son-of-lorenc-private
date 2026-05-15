@@ -5,6 +5,37 @@
 
 "use strict";
 
+// ════════════════════════════════════════════════
+// MODE SWITCH – einzige Quelle der Wahrheit
+// ════════════════════════════════════════════════
+function switchMode(mode) {
+  if (!mode) return;
+  viewMode = mode;
+  localStorage.setItem("solViewMode", mode);
+
+  // Body-Klassen setzen
+  document.body.classList.remove("smart-mode", "cockpit-mode", "max-mode");
+  document.body.classList.add(mode + "-mode");
+
+  // Alle Mode-Buttons: active entfernen, dann aktiven setzen
+  document.querySelectorAll("[data-mode]").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.mode === mode);
+  });
+
+  // Inhalt rendern
+  if (mode === "cockpit") { renderCockpit?.(); renderPreMarketOverview?.(); }
+  if (mode === "smart")   { renderSmart?.(); }
+
+  // Drawer schließen falls offen
+  document.getElementById("rightDrawer")?.classList.remove("open");
+  document.getElementById("drawerOverlay")?.classList.remove("open");
+  document.body.style.overflow = "";
+
+  // Nach oben scrollen
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+
 // ── State ─────────────────────────────────────────────────
 let data         = null;
 let allData      = {};          // { ticker: jsonData }
@@ -263,23 +294,8 @@ async function loadTicker(ticker) {
 
 // ── Mode Switching ────────────────────────────────────────
 function initViewMode() {
-  const setMode = mode => {
-    viewMode = mode;
-    localStorage.setItem("solViewMode", mode);
-    document.body.className = document.body.className
-      .replace(/\b(smart|cockpit|max)-mode\b/g, "").trim();
-    document.body.classList.add(`${mode}-mode`);
-    $("smartModeBtn")?.classList.toggle("active",   mode === "smart");
-    $("cockpitModeBtn")?.classList.toggle("active", mode === "cockpit");
-    $("maxModeBtn")?.classList.toggle("active",     mode === "max");
-    if (mode === "cockpit") { renderCockpit(); renderPreMarketOverview(); }
-    if (mode === "smart")   renderSmart();
-  };
-
-  $("smartModeBtn")?.addEventListener("click",   () => setMode("smart"));
-  $("cockpitModeBtn")?.addEventListener("click", () => setMode("cockpit"));
-  $("maxModeBtn")?.addEventListener("click",     () => setMode("max"));
-  setMode(viewMode);
+  // Initialen Mode setzen
+  switchMode(viewMode);
   initTradeCalculator();
 }
 
@@ -1477,94 +1493,42 @@ function initDeleteForm() {
 // MOBILE NAVIGATION
 // ══════════════════════════════════════════════════════════
 function initMobileNav() {
-  // ── Bottom Nav: direkt setMode() aufrufen ──────────────
-  function setBottomActive(mode) {
-    document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
-    const id = mode === "smart"   ? "bottomSmartBtn"
-             : mode === "cockpit" ? "bottomCockpitBtn"
-             : mode === "max"     ? "bottomMaxBtn"
-             : "bottomNotifyBtn";
-    $(id)?.classList.add("active");
-  }
+  // Alle Buttons mit data-mode → switchMode()
+  document.addEventListener("click", e => {
+    const btn = e.target.closest("[data-mode]");
+    if (btn) switchMode(btn.dataset.mode);
+  });
 
-  $("bottomSmartBtn")?.addEventListener("click", () => {
-    setModeGlobal("smart"); setBottomActive("smart");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  // Drawer öffnen/schließen
+  document.getElementById("drawerTrigger")?.addEventListener("click", () => {
+    document.getElementById("rightDrawer")?.classList.add("open");
+    document.getElementById("drawerOverlay")?.classList.add("open");
+    document.body.style.overflow = "hidden";
+    const du = document.getElementById("drawerUpdate");
+    const gu = document.getElementById("globalUpdate");
+    if (du && gu) du.textContent = gu.textContent;
   });
-  $("bottomCockpitBtn")?.addEventListener("click", () => {
-    setModeGlobal("cockpit"); setBottomActive("cockpit");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  const closeFn = () => {
+    document.getElementById("rightDrawer")?.classList.remove("open");
+    document.getElementById("drawerOverlay")?.classList.remove("open");
+    document.body.style.overflow = "";
+  };
+  document.getElementById("drawerClose")?.addEventListener("click",   closeFn);
+  document.getElementById("drawerOverlay")?.addEventListener("click", closeFn);
+
+  // Aktie aus Drawer wechseln
+  document.getElementById("tickerSelect")?.addEventListener("change", e => {
+    loadTicker(e.target.value).then(closeFn);
   });
-  $("bottomMaxBtn")?.addEventListener("click", () => {
-    setModeGlobal("max"); setBottomActive("max");
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-  $("bottomNotifyBtn")?.addEventListener("click", () => {
-    setModeGlobal("cockpit"); setBottomActive("cockpit");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+
+  // Mitteilungen → Cockpit + Notification Center
+  document.getElementById("bottomNotifyBtn")?.addEventListener("click", () => {
+    switchMode("cockpit");
     setTimeout(() => {
-      $("notificationCenter")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById("notificationCenter")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 300);
   });
-
-  // ── Drawer-Logik ────────────────────────────────────────
-  function openDrawer()  {
-    $("rightDrawer")?.classList.add("open");
-    $("drawerOverlay")?.classList.add("open");
-    document.body.style.overflow = "hidden";
-    if ($("drawerUpdate") && $("globalUpdate"))
-      $("drawerUpdate").textContent = $("globalUpdate").textContent;
-  }
-  function closeDrawer() {
-    $("rightDrawer")?.classList.remove("open");
-    $("drawerOverlay")?.classList.remove("open");
-    document.body.style.overflow = "";
-  }
-
-  $("drawerTrigger")?.addEventListener("click", openDrawer);
-  $("drawerClose")?.addEventListener("click",   closeDrawer);
-  $("drawerOverlay")?.addEventListener("click",  closeDrawer);
-
-  // Drawer Mode-Buttons
-  $("smartModeBtn")?.addEventListener("click", () => {
-    setModeGlobal("smart"); setBottomActive("smart"); closeDrawer();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-  $("cockpitModeBtn")?.addEventListener("click", () => {
-    setModeGlobal("cockpit"); setBottomActive("cockpit"); closeDrawer();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-  $("maxModeBtn")?.addEventListener("click", () => {
-    setModeGlobal("max"); setBottomActive("max"); closeDrawer();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-
-  // Aktie aus Drawer-Select wechseln
-  $("tickerSelect")?.addEventListener("change", e => {
-    loadTicker(e.target.value).then(closeDrawer);
-  });
-
-  // Initialen Bottom-Nav-State setzen
-  setBottomActive(viewMode);
-}
-
-// Globale setMode-Funktion (wird von Bottom Nav + Drawer genutzt)
-function setModeGlobal(mode) {
-  viewMode = mode;
-  localStorage.setItem("solViewMode", mode);
-  document.body.className = document.body.className
-    .replace(/\b(smart|cockpit|max)-mode\b/g, "").trim();
-  document.body.classList.add(`${mode}-mode`);
-
-  // Drawer Mode-Buttons aktiv markieren
-  document.querySelectorAll(".drawerModeBtn").forEach(b => b.classList.remove("active"));
-  const drawerBtn = mode === "smart"   ? $("smartModeBtn")
-                  : mode === "cockpit" ? $("cockpitModeBtn")
-                  : $("maxModeBtn");
-  drawerBtn?.classList.add("active");
-
-  if (mode === "cockpit") { renderCockpit(); renderPreMarketOverview(); }
-  if (mode === "smart")   renderSmart();
 }
 
 // ── Start ─────────────────────────────────────────────────

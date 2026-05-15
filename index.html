@@ -41,9 +41,9 @@
 
       <!-- Desktop: Mode-Switch hier -->
       <div class="modeSwitch desktopOnly" role="group" aria-label="Ansicht wählen">
-        <button id="smartModeBtn"   class="modeBtn active" type="button">⚡ Smart</button>
-        <button id="cockpitModeBtn" class="modeBtn"        type="button">🗂 Cockpit</button>
-        <button id="maxModeBtn"     class="modeBtn"        type="button">🔬 Max</button>
+        <button id="smartModeBtn"   data-mode="smart"   class="modeBtn active" type="button">⚡ Smart</button>
+        <button id="cockpitModeBtn" data-mode="cockpit" class="modeBtn"        type="button">🗂 Cockpit</button>
+        <button id="maxModeBtn"     data-mode="max"     class="modeBtn"        type="button">🔬 Max</button>
       </div>
 
       <button id="refreshBtn" class="btnPrimary" type="button">↻ Neu laden</button>
@@ -391,15 +391,15 @@
      MOBILE BOTTOM NAVIGATION
 ══════════════════════════════════════════ -->
 <nav class="bottomNav" aria-label="Ansicht wechseln">
-  <button class="bottomNavBtn active" id="bottomSmartBtn" type="button" aria-label="Smart-Ansicht">
+  <button class="bottomNavBtn active" id="bottomSmartBtn"   data-mode="smart" type="button" aria-label="Smart-Ansicht">
     <span class="bottomNavIcon">⚡</span>
     <span class="bottomNavLabel">Smart</span>
   </button>
-  <button class="bottomNavBtn" id="bottomCockpitBtn" type="button" aria-label="Cockpit">
+  <button class="bottomNavBtn" id="bottomCockpitBtn" data-mode="cockpit" type="button" aria-label="Cockpit">
     <span class="bottomNavIcon">🗂</span>
     <span class="bottomNavLabel">Cockpit</span>
   </button>
-  <button class="bottomNavBtn" id="bottomMaxBtn" type="button" aria-label="Max-Analyse">
+  <button class="bottomNavBtn" id="bottomMaxBtn"     data-mode="max" type="button" aria-label="Max-Analyse">
     <span class="bottomNavIcon">🔬</span>
     <span class="bottomNavLabel">Max</span>
   </button>
