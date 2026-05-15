@@ -1,327 +1,366 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="theme-color" content="#06080b" />
-<meta name="robots" content="noindex,nofollow,noarchive" />
-<title>Son of Lorenc – Phasenanalyse</title>
-<link rel="manifest" href="/manifest.webmanifest">
-<link rel="icon" type="image/png" href="/assets/logo.png">
-<link rel="apple-touch-icon" href="/assets/logo.png">
-<link rel="stylesheet" href="/assets/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#07090e" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Lorenc" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+  <link rel="apple-touch-icon" href="/assets/logo.png" />
+  <title>Son of Lorenc – Aktienanalyse</title>
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
-<div class="wrap">
-  <div class="stockSwitch card">
-    <div class="brandBlock">
-      <img src="/assets/logo.png" alt="Son of Lorenc Logo" class="brandLogo">
+
+<!-- ══════════════════════════════════════════
+     ALARM-BANNER (dynamisch, oben fixiert)
+══════════════════════════════════════════ -->
+<div id="alertBanner" class="alertBanner" aria-live="polite" aria-label="Wichtige Meldungen"></div>
+
+<!-- ══════════════════════════════════════════
+     HEADER
+══════════════════════════════════════════ -->
+<header class="appHeader">
+  <div class="headerInner">
+    <div class="brand">
+      <img src="/assets/logo.png" alt="Son of Lorenc" class="brandLogo" />
       <div class="brandText">
-        <b>Son of Lorenc</b>
-        <span>Private Phasenanalyse · Master-Dossier</span>
-        <small id="globalUpdate">Update wird geladen…</small>
+        <strong>Son of Lorenc</strong>
+        <span id="globalUpdate">Update wird geladen…</span>
       </div>
     </div>
-    <div class="topActions">
-      <select id="tickerSelect" aria-label="Ticker auswählen"></select>
-      <div class="modeSwitch" aria-label="Ansicht wählen">
-        <button id="smartModeBtn" class="modeBtn active" type="button">Smart</button>
-        <button id="maxModeBtn" class="modeBtn" type="button">Max</button>
+
+    <div class="headerControls">
+      <select id="tickerSelect" class="tickerSelect" aria-label="Aktie auswählen"></select>
+
+      <div class="modeSwitch" role="group" aria-label="Ansicht wählen">
+        <button id="smartModeBtn"   class="modeBtn active" type="button">⚡ Smart</button>
+        <button id="cockpitModeBtn" class="modeBtn"        type="button">🗂 Cockpit</button>
+        <button id="maxModeBtn"     class="modeBtn"        type="button">🔬 Max</button>
       </div>
-      <button id="refreshBtn" class="refreshBtn" type="button">Daten neu laden</button>
+
+      <button id="refreshBtn" class="btnPrimary" type="button">↻ Neu laden</button>
+      <button id="notifyBtn"  class="btnGhost"   type="button" title="Benachrichtigungen">🔔</button>
 
       <details class="adminDropdown">
-        <summary>Admin ▾</summary>
-        <div class="adminDropdownPanel">
-          <div class="miniAdminBlock">
-            <div class="miniAdminHead">
-              <h2>Aktie hinzufügen</h2>
-              <p>Neue Aktie dauerhaft speichern und automatisch analysieren lassen.</p>
-            </div>
-
-            <form id="addStockForm" class="adminForm compactAdminForm">
-              <div class="adminGrid compactGrid">
-                <label>
-                  <span>Ticker *</span>
-                  <input id="newTicker" name="ticker" placeholder="z. B. ENVB" autocomplete="off" required>
-                </label>
-                <label>
-                  <span>Name *</span>
-                  <input id="newName" name="name" placeholder="z. B. Enveric Biosciences" autocomplete="off" required>
-                </label>
-                <label>
-                  <span>Börse</span>
-                  <input id="newExchange" name="exchange" placeholder="NASDAQ" value="NASDAQ" autocomplete="off">
-                </label>
-                <label>
-                  <span>Thema</span>
-                  <input id="newTheme" name="theme" placeholder="Biotech / Pharma / ETF / ..." autocomplete="off">
-                </label>
-                <label class="wide">
-                  <span>News-Suchbegriff</span>
-                  <input id="newQuery" name="query" placeholder="z. B. Enveric Biosciences ENVB EB-003 stock news" autocomplete="off">
-                </label>
-                <label>
-                  <span>SEC-Ticker</span>
-                  <input id="newSecQuery" name="sec_query" placeholder="ENVB" autocomplete="off">
-                </label>
-                <label>
-                  <span>Admin-PIN optional</span>
-                  <input id="adminPin" name="adminPin" type="password" placeholder="nur falls gesetzt">
-                </label>
+        <summary class="adminToggle">⚙ Verwaltung</summary>
+        <div class="adminPanel">
+          <div class="adminBlock">
+            <h3>Aktie hinzufügen</h3>
+            <p class="adminHint">Ticker eingeben – Daten werden automatisch geladen und dauerhaft gespeichert.</p>
+            <form id="addStockForm" class="adminForm">
+              <div class="adminGrid">
+                <label><span>Ticker *</span><input id="newTicker" name="ticker" placeholder="z. B. AAPL" autocomplete="off" required /></label>
+                <label><span>Name *</span><input id="newName" name="name" placeholder="z. B. Apple Inc." autocomplete="off" required /></label>
+                <label><span>Börse</span><input id="newExchange" name="exchange" placeholder="NASDAQ" value="NASDAQ" autocomplete="off" /></label>
+                <label><span>Kategorie</span><input id="newTheme" name="theme" placeholder="z. B. Biotech / ETF" autocomplete="off" /></label>
+                <label class="spanFull"><span>News-Suchbegriff</span><input id="newQuery" name="query" placeholder="z. B. Apple AAPL earnings" autocomplete="off" /></label>
+                <label><span>SEC-Kürzel</span><input id="newSecQuery" name="sec_query" placeholder="AAPL" autocomplete="off" /></label>
+                <label><span>Admin-PIN</span><input id="adminPin" name="adminPin" type="password" placeholder="••••" /></label>
               </div>
               <div class="adminActions">
-                <button class="refreshBtn" type="submit">Aktie speichern</button>
-                <button class="ghostBtn" id="fillQueryBtn" type="button">Suchbegriff automatisch füllen</button>
+                <button class="btnPrimary" type="submit">Speichern</button>
+                <button class="btnGhost" id="fillQueryBtn" type="button">Auto-füllen</button>
               </div>
-              <p id="adminStatus" class="adminStatus">Neue Aktien werden dauerhaft im GitHub-Repository gespeichert.</p>
+              <p id="adminStatus" class="adminStatus">Wird dauerhaft im GitHub-Repository gespeichert.</p>
             </form>
           </div>
-
-          <div class="miniAdminBlock dangerMini">
-            <div class="miniAdminHead">
-              <h2>Aktie löschen</h2>
-              <p>Entfernt eine Aktie dauerhaft aus Watchlist und Daten-Dateien.</p>
-            </div>
-
-            <form id="deleteStockForm" class="adminForm compactAdminForm">
-              <div class="adminGrid compactDeleteGrid">
-                <label>
-                  <span>Aktie auswählen *</span>
-                  <select id="deleteTickerSelect" required></select>
-                </label>
-                <label>
-                  <span>Bestätigung *</span>
-                  <input id="deleteConfirm" placeholder='exakt "LÖSCHEN" eingeben' autocomplete="off" required>
-                </label>
-                <label>
-                  <span>Admin-PIN optional</span>
-                  <input id="deleteAdminPin" type="password" placeholder="nur falls gesetzt">
-                </label>
+          <div class="adminBlock adminBlockDanger">
+            <h3>Aktie entfernen</h3>
+            <p class="adminHint">Löscht die Aktie dauerhaft aus Watchlist und Daten.</p>
+            <form id="deleteStockForm" class="adminForm">
+              <div class="adminGrid adminGridDelete">
+                <label><span>Aktie *</span><select id="deleteTickerSelect" required></select></label>
+                <label><span>Bestätigung: „LÖSCHEN" eingeben *</span><input id="deleteConfirm" placeholder="LÖSCHEN" autocomplete="off" required /></label>
+                <label><span>Admin-PIN</span><input id="deleteAdminPin" type="password" placeholder="••••" /></label>
               </div>
               <div class="adminActions">
-                <button class="deleteBtn" type="submit">Aktie löschen</button>
+                <button class="btnDanger" type="submit">Dauerhaft entfernen</button>
               </div>
-              <p id="deleteStatus" class="adminStatus">Zum Schutz vor Versehen muss exakt <code>LÖSCHEN</code> eingegeben werden.</p>
+              <p id="deleteStatus" class="adminStatus">Sicherheitsabfrage: Exakt <code>LÖSCHEN</code> eingeben.</p>
             </form>
           </div>
         </div>
       </details>
-
     </div>
   </div>
+</header>
 
-  <section id="smartHome" class="smartHome">
-    <div class="card smartHero">
-      <div class="smartHeroText">
-        <span class="smartBadge">SMART VIEW · LETZTE 14 TAGE</span>
-        <h1 id="smartHeadline">Smart-Analyse wird geladen…</h1>
-        <p id="smartThesis">Aktuelle News, erste Einordnung und mögliche Kursbereiche – kompakt für den schnellen Blick.</p>
+<main class="appMain">
+
+  <!-- ══════════════════════════════════════════
+       COCKPIT-ANSICHT  (alle Ticker, Tagesübersicht)
+  ══════════════════════════════════════════ -->
+  <div id="cockpitView" class="cockpitView">
+
+    <!-- Heutiger Status – alle Ticker -->
+    <section class="cockpitHeader">
+      <h1>🗂 Tages-Cockpit</h1>
+      <p class="cockpitSub">Alle deine Aktien auf einen Blick – sortiert nach heutiger Wichtigkeit.</p>
+      <div id="cockpitUpdateNote" class="cockpitUpdateNote"></div>
+    </section>
+
+    <!-- Vorbörse / Nachbörse Übersicht -->
+    <section class="card panel section" id="preMarketSection">
+      <div class="sectionHead">
+        <div>
+          <h2>🌅 Vorbörse &amp; Nachbörse</h2>
+          <p class="sub">Kursbewegungen außerhalb der regulären Handelszeiten – Hinweis, keine Prognose.</p>
+        </div>
+        <button class="btnGhost btnSmall" id="preMarketInfoBtn" type="button">Was ist Vorbörse? ℹ</button>
       </div>
-      <div class="smartPriceGrid" id="smartPriceGrid"></div>
+      <div id="preMarketInfo" class="infoBox hidden">
+        <strong>Vorbörse einfach erklärt:</strong>
+        Vor der offiziellen Börseneröffnung können Aktien bereits gehandelt werden.
+        Die Liquidität ist aber gering – das bedeutet, wenige Käufer und Verkäufer treffen aufeinander.
+        Dadurch können die Kurse stark schwanken und sich zur regulären Eröffnung wieder deutlich verändern.
+        Vorbörse ist ein Hinweis, aber <strong>keine sichere Prognose</strong>.
+      </div>
+      <div id="preMarketGrid" class="preMarketGrid"></div>
+    </section>
+
+    <!-- Ticker-Karten Grid -->
+    <section class="section">
+      <h2>📋 Watchlist – Heutige Einordnung</h2>
+      <p class="sub">Klicke auf eine Karte für die Detailanalyse im Smart- oder Max-Modus.</p>
+      <div id="cockpitGrid" class="cockpitGrid"></div>
+    </section>
+
+    <!-- Benachrichtigungszentrale -->
+    <details class="card section accordion" id="notificationCenter">
+      <summary class="accordionSummary">
+        <div>
+          <h2>🔔 Meldungszentrale</h2>
+          <p class="sub">Alle erkannten Hinweise und Signale deiner Watchlist.</p>
+        </div>
+        <div class="accordionMeta">
+          <span class="badge" id="notifCount">0 Meldungen</span>
+          <span class="chevron">▾</span>
+        </div>
+      </summary>
+      <div class="accordionBody">
+        <div id="notifList" class="notifList"></div>
+      </div>
+    </details>
+
+  </div><!-- /cockpitView -->
+
+
+  <!-- ══════════════════════════════════════════
+       SMART-ANSICHT (einzelne Aktie, schnell)
+  ══════════════════════════════════════════ -->
+  <section id="smartHome" class="smartHome">
+
+    <div class="card heroCard">
+      <div class="heroCardText">
+        <span class="badge">⚡ SMART-ANSICHT</span>
+        <h1 id="smartHeadline">Aktie wird geladen…</h1>
+        <p id="smartThesis" class="heroThesis">News, Kurs und erste Einordnung auf einen Blick.</p>
+      </div>
+      <div class="priceGrid" id="smartPriceGrid"></div>
     </div>
 
-    <section class="smartGrid">
+    <!-- Vorbörse für aktive Aktie -->
+    <div id="smartPreMarket" class="card smartCard section"></div>
 
-      <div class="card smartCard smartChartCard">
-        <div class="smartCardHead">
-          <span class="smartKicker">Börsenchart</span>
-          <h2>Aktueller Kursverlauf</h2>
-          <p>Kein Live-Chart. Beim Update wird zuerst der aktuelle Tagesverlauf geladen, sonst der 1-Monats-Verlauf.</p>
-        </div>
-        <div class="smartChartWrap">
-          <svg id="smartChart" viewBox="0 0 720 260" role="img" aria-label="Gespeicherter Kursverlauf"></svg>
-        </div>
-        <p class="smartChartNote" id="smartChartNote">Chart wird nach den nächsten Updates gefüllt.</p>
-        <div class="smartChartTimeline" id="smartChartNewsTimeline"></div>
-      </div>
+    <div class="smartGrid">
 
-      <div class="card smartCard smartTrade">
-        <div class="smartCardHead">
-          <span class="smartKicker">Rechner</span>
-          <h2>Kurs-/Gewinn-Rechner</h2>
-          <p>Gib deinen Einstieg und Einsatz ein. Der Regler zeigt dir, was bei einem Verkaufskurs möglich wäre.</p>
+      <div class="card smartCard fullWidth">
+        <div class="cardHead">
+          <span class="kicker">📈 Kursverlauf</span>
+          <h2>Aktueller Kurs</h2>
+          <p>Gespeicherter Stand aus dem letzten automatischen Update (alle 30 Min.).</p>
         </div>
-        <div class="tradeForm tradeFormTopDown">
-          <label>
-            <span>1. Einstiegskurs</span>
-            <input id="calcBuyPrice" type="number" min="0" step="0.01" placeholder="z. B. 3.50">
-          </label>
-          <label>
-            <span>2. Einsatz in €/$</span>
-            <input id="calcInvest" type="number" min="0" step="10" value="500">
-          </label>
-          <label>
-            <span>3. Verkaufskurs</span>
-            <input id="calcSellPrice" type="number" min="0" step="0.01" placeholder="z. B. 5.00">
-          </label>
-          <label>
-            <span>4. Ziel in %</span>
-            <input id="calcTargetPct" type="number" step="1" value="20" placeholder="z. B. 20">
-          </label>
+        <div class="chartScrollWrap">
+          <svg id="smartChart" viewBox="0 0 720 260" role="img" aria-label="Kursverlauf"></svg>
         </div>
-        <div class="tradeResult" id="tradeResult">
-          Werte eingeben, dann wird der mögliche Gewinn berechnet.
-        </div>
-      </div>
-
-      <div class="card smartCard smartNewsCard">
-        <div class="smartCardHead">
-          <span class="smartKicker">Aktuell zuerst</span>
-          <h2>Aktuelle News</h2>
-          <p>Nur Meldungen der letzten 14 Tage. Neueste Meldungen stehen oben.</p>
-        </div>
-        <div class="smartNewsList" id="smartNews"></div>
+        <p class="chartNote" id="smartChartNote">Wird beim nächsten Update gefüllt.</p>
+        <div id="smartChartNewsTimeline"></div>
       </div>
 
       <div class="card smartCard">
-        <div class="smartCardHead">
-          <span class="smartKicker">Nächste Schritte</span>
-          <h2>Was wird als Nächstes wichtig?</h2>
-          <p>Studien, Finanzierung, Behördenmeldungen oder Quartalszahlen, die den Kurs bewegen könnten.</p>
+        <div class="cardHead">
+          <span class="kicker">📰 Aktuelle Meldungen</span>
+          <h2>Neueste News</h2>
+          <p>Automatisch gefundene Artikel – neueste zuerst.</p>
         </div>
-        <div class="smartUpcoming" id="smartUpcoming"></div>
+        <div id="smartNews"></div>
       </div>
 
       <div class="card smartCard">
-        <div class="smartCardHead">
-          <span class="smartKicker">Einfach erklärt</span>
-          <h2>Erste Einschätzung</h2>
+        <div class="cardHead">
+          <span class="kicker">📅 Ausblick</span>
+          <h2>Was kommt als Nächstes?</h2>
+          <p>Ereignisse mit möglichem Kurseinfluss.</p>
         </div>
-        <div class="smartAssessment" id="smartAssessment"></div>
+        <div id="smartUpcoming"></div>
       </div>
-    </section>
+
+      <div class="card smartCard">
+        <div class="cardHead">
+          <span class="kicker">💡 Einschätzung</span>
+          <h2>Was ist aktuell wichtig?</h2>
+        </div>
+        <div id="smartAssessment"></div>
+      </div>
+
+      <div class="card smartCard">
+        <div class="cardHead">
+          <span class="kicker">🧮 Rechner</span>
+          <h2>Kurs- &amp; Gewinnrechner</h2>
+          <p>Einstieg, Einsatz und Zielkurs eingeben.</p>
+        </div>
+        <div class="calcForm">
+          <label><span>Einstiegskurs</span><input id="calcBuyPrice" type="number" min="0" step="0.01" placeholder="z. B. 3.50" /></label>
+          <label><span>Einsatz in €/$</span><input id="calcInvest" type="number" min="0" step="10" value="500" /></label>
+          <label><span>Zielkurs</span><input id="calcSellPrice" type="number" min="0" step="0.01" placeholder="z. B. 5.00" /></label>
+          <label><span>Ziel in %</span><input id="calcTargetPct" type="number" step="1" value="20" placeholder="z. B. 20" /></label>
+        </div>
+        <div id="tradeResult" class="calcResult">Einstieg, Einsatz und Ziel eingeben.</div>
+      </div>
+
+    </div>
   </section>
 
+
+  <!-- ══════════════════════════════════════════
+       MAX-ANSICHT (Tiefenanalyse)
+  ══════════════════════════════════════════ -->
   <div id="maxView" class="maxView">
-<section class="hero">
-    <div class="card heroMain">
-      <div class="heroWatermark">
-        <img src="/assets/logo.png" alt="" aria-hidden="true">
-      </div>
-      <div class="eyebrow" id="eyebrow"></div>
+
+    <section class="card maxHero section">
+      <span class="eyebrow" id="eyebrow"></span>
       <h1 id="headline"></h1>
       <p class="thesis" id="thesis"></p>
-      <div class="status" id="status"></div>
-    </div>
-    <div class="card scoreBox">
-      <h2 style="margin-top:0">Markt- & Kennzahlen-Kacheln</h2>
+      <div class="statusRow" id="status"></div>
+    </section>
+
+    <section class="card panel section">
+      <h2>Kennzahlen</h2>
+      <p class="sub">Wichtige Marktdaten aus Yahoo Finance.</p>
       <div class="scoreGrid" id="scoreGrid"></div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section grid2">
-    <div class="card panel">
-      <h2>Zeitlinie: Kurs & Nachrichten</h2>
-      <p class="sub" id="chartSubtitle"></p>
-      <div class="chartWrap"><svg id="chart" viewBox="0 0 1100 430" role="img" aria-label="schematischer News-Kursverlauf"></svg></div>
-      <p class="timelineNote" id="chartNote"></p>
-    </div>
-    <div class="card panel">
-      <h2>Details zum ausgewählten Punkt</h2>
-      <div class="eventList" id="eventList"></div>
-      <div class="detail" id="detail"></div>
-    </div>
-  </section>
-
-  <section class="section card panel">
-    <h2>Woran arbeitet das Unternehmen?</h2>
-    <p class="sub" id="pipelineIntro"></p>
-    <div class="pipeline" id="pipeline"></div>
-  </section>
-
-  <section class="section grid2">
-    <div class="card panel">
-      <h2>Mögliche Kursbereiche & Einstiegsidee</h2>
-      <p class="sub">Keine Kaufempfehlung. Hier geht es nur darum, welche Kursbereiche eher interessant, riskant oder überhitzt wirken.</p>
-      <div class="zoneList" id="zones"></div>
-    </div>
-    <div class="card panel">
-      <h2>Nächste wichtige Termine / Auslöser</h2>
-      <div id="catalysts"></div>
-    </div>
-  </section>
-
-  <section class="section grid3">
-    <div class="scenario bear"><span class="tag">Bear Case</span><h3 id="bearTitle"></h3><p id="bearText"></p></div>
-    <div class="scenario base"><span class="tag">Base Case</span><h3 id="baseTitle"></h3><p id="baseText"></p></div>
-    <div class="scenario bull"><span class="tag">Bull Case</span><h3 id="bullTitle"></h3><p id="bullText"></p></div>
-  </section>
-
-  <section class="section card panel">
-    <h2>Geldlage, neue Aktien & Risiken</h2>
-    <div class="risk" id="risks"></div>
-  </section>
-
-  
-  <details class="section card panel livePanel collapseCard">
-    <summary class="collapseSummary">
-      <div>
-        <h2>Automatisch gefundene Live-News</h2>
-        <p class="sub">Aufklappen, um automatisch gefundene Artikel mit Einordnung und Quellenlink zu sehen.</p>
+    <section class="grid2 section">
+      <div class="card panel">
+        <h2>Zeitlinie: Kurs &amp; Nachrichten</h2>
+        <p class="sub" id="chartSubtitle">Klicke auf einen Punkt für Details.</p>
+        <div class="chartScrollWrap">
+          <svg id="chart" viewBox="0 0 1100 430" role="img" aria-label="News-Kursverlauf"></svg>
+        </div>
+        <p class="timelineNote" id="chartNote"></p>
       </div>
-      <div class="summaryRight">
-        <span class="liveBadge" id="liveNewsCount">0 Treffer</span>
-        <span class="chevron">▾</span>
+      <div class="card panel">
+        <h2>Details zum gewählten Ereignis</h2>
+        <div class="eventList" id="eventList"></div>
+        <div class="detail" id="detail"></div>
       </div>
-    </summary>
-    <div class="collapseBody">
-      <div class="liveNewsList" id="liveNews"></div>
+    </section>
+
+    <section class="card panel section">
+      <h2>Woran arbeitet das Unternehmen?</h2>
+      <p class="sub" id="pipelineIntro"></p>
+      <div class="pipeline" id="pipeline"></div>
+    </section>
+
+    <section class="grid2 section">
+      <div class="card panel">
+        <h2>Mögliche Kursbereiche</h2>
+        <p class="sub">Keine Kaufempfehlung – nur Einordnung interessanter Bereiche.</p>
+        <div id="zones"></div>
+      </div>
+      <div class="card panel">
+        <h2>Nächste wichtige Termine</h2>
+        <p class="sub">Ereignisse mit starkem Kurseinfluss.</p>
+        <div id="catalysts"></div>
+      </div>
+    </section>
+
+    <section class="grid3 section">
+      <div class="scenario scenario--bear">
+        <span class="scenarioTag">😨 Schlechtester Fall</span>
+        <h3 id="bearTitle"></h3><p id="bearText"></p>
+      </div>
+      <div class="scenario scenario--base">
+        <span class="scenarioTag">😐 Wahrscheinlichster Fall</span>
+        <h3 id="baseTitle"></h3><p id="baseText"></p>
+      </div>
+      <div class="scenario scenario--bull">
+        <span class="scenarioTag">🚀 Bester Fall</span>
+        <h3 id="bullTitle"></h3><p id="bullText"></p>
+      </div>
+    </section>
+
+    <section class="card panel section">
+      <h2>Geldlage &amp; Risiken</h2>
+      <p class="sub">Cash-Vorrat, Verwässerungsrisiko und weitere Risikofaktoren.</p>
+      <div class="riskGrid" id="risks"></div>
+    </section>
+
+    <details class="card section accordion">
+      <summary class="accordionSummary">
+        <div><h2>Automatisch gefundene News</h2><p class="sub">Alle Artikel mit Einordnung und Quellenlink.</p></div>
+        <div class="accordionMeta"><span class="badge" id="liveNewsCount">0 Artikel</span><span class="chevron">▾</span></div>
+      </summary>
+      <div class="accordionBody"><div class="newsGrid" id="liveNews"></div></div>
+    </details>
+
+    <details class="card section accordion">
+      <summary class="accordionSummary">
+        <div><h2>Erkannte Signale &amp; Hinweise</h2><p class="sub">FDA, Studien, Finanzierungen, Quartalszahlen.</p></div>
+        <div class="accordionMeta"><span class="badge" id="triggerCount">0 Signale</span><span class="chevron">▾</span></div>
+      </summary>
+      <div class="accordionBody"><div class="triggerGrid" id="detectedTriggers"></div></div>
+    </details>
+
+    <details class="card section accordion">
+      <summary class="accordionSummary">
+        <div><h2>Offizielle Börsenmeldungen (SEC)</h2><p class="sub">Pflichtmeldungen – relevant für Kapitalerhöhungen und Quartalsberichte.</p></div>
+        <div class="accordionMeta"><span class="badge" id="secCount">0 Meldungen</span><span class="chevron">▾</span></div>
+      </summary>
+      <div class="accordionBody"><div class="newsGrid" id="secFilings"></div></div>
+    </details>
+
+    <section class="card panel section">
+      <h2>Zusammenfassung in einfacher Sprache</h2>
+      <div id="clearView"></div>
+    </section>
+
+    <section class="card panel section sources">
+      <h2>Quellen &amp; Links</h2>
+      <ul id="sources"></ul>
+      <p class="disclaimer">Nur zu Informations- und Analysezwecken. Keine Anlageberatung, keine Kauf- oder Verkaufsempfehlung.</p>
+    </section>
+
+  </div><!-- /maxView -->
+
+</main>
+
+<!-- Push-Benachrichtigungs-Dialog -->
+<div id="pushDialog" class="pushDialog hidden" role="dialog" aria-label="Benachrichtigungen">
+  <div class="pushDialogCard">
+    <h3>🔔 Benachrichtigungen</h3>
+    <p>Lass dich informieren, wenn wichtige News oder starke Kursbewegungen erkannt werden.</p>
+    <div id="pushStatus" class="pushStatus"></div>
+    <div class="pushActions">
+      <button id="pushEnableBtn" class="btnPrimary" type="button">Benachrichtigungen aktivieren</button>
+      <button id="pushCloseBtn" class="btnGhost" type="button">Schließen</button>
     </div>
-  </details>
-
-
-
-  
-  <details class="section card panel livePanel collapseCard">
-    <summary class="collapseSummary">
-      <div>
-        <h2>Automatisch erkannte wichtige Hinweise</h2>
-        <p class="sub">Aufklappen, um wichtige Auslöser wie Studien, Finanzierung, Behördenmeldungen oder Quartalszahlen zu prüfen.</p>
-      </div>
-      <div class="summaryRight">
-        <span class="liveBadge" id="triggerCount">0 Trigger</span>
-        <span class="chevron">▾</span>
-      </div>
-    </summary>
-    <div class="collapseBody">
-      <div class="triggerGrid" id="detectedTriggers"></div>
-    </div>
-  </details>
-
-
-
-  
-  <details class="section card panel livePanel collapseCard">
-    <summary class="collapseSummary">
-      <div>
-        <h2>Offizielle Unternehmensmeldungen (SEC)</h2>
-        <p class="sub">Aufklappen, um offizielle US-Börsenmeldungen wie Quartalsberichte, Kapitalerhöhungen oder Unternehmensereignisse zu sehen.</p>
-      </div>
-      <div class="summaryRight">
-        <span class="liveBadge" id="secCount">0 Filings</span>
-        <span class="chevron">▾</span>
-      </div>
-    </summary>
-    <div class="collapseBody">
-      <div class="liveNewsList" id="secFilings"></div>
-    </div>
-  </details>
-
-
-  <section class="section card panel">
-    <h2>Einfache Zusammenfassung</h2>
-    <div id="clearView"></div>
-  </section>
-
-  <section class="section card panel footerSources">
-    <h2 style="color:#fff">Quellen & Links</h2>
-    <ul id="sources"></ul>
-    <p class="small">Nur Informations- und Analysezwecke. Keine Anlageberatung, keine Kauf- oder Verkaufsempfehlung.</p>
-  </section>
+    <p class="disclaimer">Du musst aktiv zustimmen. Benachrichtigungen werden nur lokal verarbeitet.</p>
   </div>
 </div>
+<div id="pushOverlay" class="pushOverlay hidden"></div>
+
 <script src="/config/admin.js"></script>
 <script src="/assets/app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => { navigator.serviceWorker.register('/sw.js'); });
+  }
+</script>
 </body>
 </html>

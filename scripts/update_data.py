@@ -66,19 +66,66 @@ def req_text(url: str, headers=None, timeout=20):
 def yahoo_price(ticker: str) -> dict[str, Any]:
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(ticker)}?range=5d&interval=1d"
     data = req_json(url)
-    out = {"source": "Yahoo Finance Chart Endpoint", "currency": "USD", "regularMarketPrice": None, "previousClose": None, "change": None, "changePercent": None}
+    out = {
+        "source": "Yahoo Finance Chart Endpoint",
+        "currency": "USD",
+        "regularMarketPrice": None,
+        "previousClose": None,
+        "change": None,
+        "changePercent": None,
+        "regularMarketTime": None,
+        "marketState": None,
+        "preMarketPrice": None,
+        "preMarketChange": None,
+        "preMarketChangePercent": None,
+        "preMarketTime": None,
+        "postMarketPrice": None,
+        "postMarketChange": None,
+        "postMarketChangePercent": None,
+        "postMarketTime": None,
+        "fiftyTwoWeekHigh": None,
+        "fiftyTwoWeekLow": None,
+        "fiftyTwoWeekRange": None,
+    }
     try:
         meta = data["chart"]["result"][0]["meta"]
         price = meta.get("regularMarketPrice")
         prev = meta.get("chartPreviousClose") or meta.get("previousClose")
         change = round(float(price) - float(prev), 4) if price is not None and prev else None
         pct = round((change / float(prev)) * 100, 2) if change is not None and prev else None
+
+        # 52-Wochen-Spanne
+        w52h = meta.get("fiftyTwoWeekHigh")
+        w52l = meta.get("fiftyTwoWeekLow")
+        w52range = f"{w52l} – {w52h}" if w52h and w52l else None
+
+        # Markt-Zeitstempel als ISO
+        def ts_to_iso(ts):
+            if not ts: return None
+            try:
+                return datetime.fromtimestamp(int(ts), timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+            except Exception:
+                return None
+
         out.update({
-            "currency": meta.get("currency", "USD"),
-            "regularMarketPrice": price,
-            "previousClose": prev,
-            "change": change,
-            "changePercent": pct,
+            "currency":                  meta.get("currency", "USD"),
+            "regularMarketPrice":        price,
+            "previousClose":             prev,
+            "change":                    change,
+            "changePercent":             pct,
+            "regularMarketTime":         ts_to_iso(meta.get("regularMarketTime")),
+            "marketState":               meta.get("marketState"),
+            "preMarketPrice":            meta.get("preMarketPrice"),
+            "preMarketChange":           meta.get("preMarketChange"),
+            "preMarketChangePercent":    meta.get("preMarketChangePercent"),
+            "preMarketTime":             ts_to_iso(meta.get("preMarketTime")),
+            "postMarketPrice":           meta.get("postMarketPrice"),
+            "postMarketChange":          meta.get("postMarketChange"),
+            "postMarketChangePercent":   meta.get("postMarketChangePercent"),
+            "postMarketTime":            ts_to_iso(meta.get("postMarketTime")),
+            "fiftyTwoWeekHigh":          w52h,
+            "fiftyTwoWeekLow":           w52l,
+            "fiftyTwoWeekRange":         w52range,
         })
     except Exception:
         pass

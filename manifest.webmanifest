@@ -1,16 +1,37 @@
 {
   "name": "Son of Lorenc",
-  "short_name": "Son of",
+  "short_name": "Lorenc",
+  "description": "Private Aktienanalyse – Phasenanalyse & Watchlist",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#06080b",
   "theme_color": "#06080b",
+  "categories": ["finance", "productivity"],
   "icons": [
     {
       "src": "/assets/logo.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
