@@ -1,142 +1,293 @@
 #!/usr/bin/env python3
+"""
+Son of Lorenc – Aktie/ETF auto-hinzufügen
+Nutzung: python3 scripts/add_stock.py TICKER
+         python3 scripts/add_stock.py AAPL
+         python3 scripts/add_stock.py 2B76.DE
+Holt automatisch: Name, Börse, Typ, Sektor, Industrie
+und generiert alle Suchbegriffe intelligent.
+"""
 from __future__ import annotations
-
-import argparse
-import json
-import re
-from datetime import datetime, timezone
+import json, sys, time, urllib.parse, re
 from pathlib import Path
+from typing import Any
+import requests
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT   = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config" / "watchlist.json"
-DATA = ROOT / "data"
+DATA   = ROOT / "data"
 
-def now_iso():
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+SESSION = requests.Session()
+SESSION.headers.update({
+    "User-Agent": "Mozilla/5.0 SonOfLorencDashboard/1.3",
+    "Accept": "application/json",
+})
 
-def read_json(path):
-    return json.loads(path.read_text(encoding="utf-8"))
 
-def write_json(path, data):
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+# ── Yahoo Finance Abruf ───────────────────────────────────
+def fetch_yahoo_info(ticker: str) -> dict[str, Any]:
+    """Holt Unternehmensinfos von Yahoo Finance."""
+    url = (
+        "https://query1.finance.yahoo.com/v8/finance/chart/"
+        + urllib.parse.quote(ticker)
+        + "?range=1d&interval=1d"
+    )
+    try:
+        r = SESSION.get(url, timeout=20)
+        if not r.ok:
+            # Fallback: query2
+            url2 = url.replace("query1", "query2")
+            r = SESSION.get(url2, timeout=20)
+        if not r.ok:
+            return {}
+        meta = r.json()["chart"]["result"][0]["meta"]
+        return meta
+    except Exception as e:
+        print(f"[WARN] Yahoo Finance fetch failed: {e}")
+        return {}
 
-def clean_ticker(ticker: str) -> str:
-    ticker = ticker.strip().upper()
-    if not re.match(r"^[A-Z0-9.\-]{1,15}$", ticker):
-        raise SystemExit("Ticker darf nur A-Z, 0-9, Punkt oder Bindestrich enthalten.")
-    return ticker
 
-def template_stock(ticker, name, exchange, theme, query, sec_query):
+def detect_type(meta: dict, ticker: str, name: str) -> str:
+    """Erkennt den Typ: ETF, Biotech, Pharma, Tech, Finance, oder Allgemein."""
+    instrument = str(meta.get("instrumentType", "")).upper()
+    name_l      = name.lower()
+    ticker_l    = ticker.lower()
+
+    if instrument == "ETF" or any(x in name_l for x in ["etf", "ucits", "index fund", "ishares", "vanguard", "invesco", "xtrackers", "amundi"]):
+        return "ETF"
+    if any(x in name_l for x in ["bioscience", "biotech", "therapeutics", "pharma", "biopharma", "genomic", "oncology", "clinical", "gene therapy"]):
+        return "Biotech / Pharma"
+    if any(x in name_l for x in ["semiconductor", "software", "systems", "technologies", "tech", "digital", "cyber", "cloud", "ai", "intelligence"]):
+        return "Tech"
+    if any(x in name_l for x in ["bank", "financial", "capital", "insurance", "asset", "investment"]):
+        return "Finance"
+    return "Allgemein"
+
+
+def detect_exchange(meta: dict, ticker: str) -> str:
+    """Erkennt die Börse."""
+    ex = meta.get("exchangeName") or meta.get("fullExchangeName") or ""
+    # Aus Ticker ableiten falls leer
+    if not ex:
+        t = ticker.upper()
+        if t.endswith(".DE"):  return "XETRA"
+        if t.endswith(".PA"):  return "Euronext Paris"
+        if t.endswith(".AS"):  return "Euronext Amsterdam"
+        if t.endswith(".L"):   return "London Stock Exchange"
+        if t.endswith(".TO"):  return "Toronto Stock Exchange"
+        if t.endswith(".HK"):  return "Hong Kong Stock Exchange"
+        return "NASDAQ"
+    # Yahoo-Namen vereinheitlichen
+    mapping = {
+        "NMS": "NASDAQ", "NGM": "NASDAQ", "NCM": "NASDAQ",
+        "NYQ": "NYSE", "ASE": "NYSE American",
+        "GER": "XETRA", "FRA": "Frankfurt",
+        "PAR": "Euronext Paris", "AMS": "Euronext Amsterdam",
+        "LSE": "London Stock Exchange",
+    }
+    return mapping.get(ex, ex)
+
+
+# ── Intelligente Query-Generierung ───────────────────────
+def build_smart_queries(ticker: str, name: str, stock_type: str, meta: dict) -> dict[str, Any]:
+    """
+    Generiert alle Suchbegriffe automatisch basierend auf Typ und Name.
+    """
+    t    = ticker.upper()
+    n    = name.strip()
+    nl   = n.lower()
+    base = f'"{n}" {t}'
+
+    queries      = []
+    clinical_q   = None
+    aliases      = [n.lower(), t.lower()]
+
+    # ── ETF ──────────────────────────────────────────────
+    if stock_type == "ETF":
+        short_name = re.sub(r'\s*(UCITS|ETF|USD|EUR|Acc|Dis|Hedged)\s*', ' ', n, flags=re.I).strip()
+        queries = [
+            f'"{short_name}" ETF',
+            f'"{t}" ETF performance',
+            f'"{short_name}" index fund',
+            f'{t} ETF news',
+        ]
+        # Keywords aus dem ETF-Namen extrahieren
+        words = [w for w in short_name.split() if len(w) > 3 and w.lower() not in
+                 ["with","from","the","and","for","etf","fund","ucits","ishares","vanguard"]]
+        if words:
+            queries.append(" ".join(words[:3]) + " ETF")
+        aliases += [w.lower() for w in words[:4]]
+
+    # ── Biotech / Pharma ─────────────────────────────────
+    elif stock_type == "Biotech / Pharma":
+        queries = [
+            f'"{n}" {t} stock news',
+            f'"{n}" FDA clinical trial',
+            f'{t} stock news',
+            f'"{n}" phase 3',
+            f'"{n}" phase 2',
+        ]
+        # Programmnamen aus dem Namen ableiten (z.B. COMP360, EB-003, BPL-003)
+        prog_candidates = re.findall(r'\b[A-Z]{2,}-\d{3,}\b|\b[A-Z]{2,}\d{3,}\b', n)
+        for p in prog_candidates:
+            queries.append(f'"{p}" {t}')
+            aliases.append(p.lower())
+        # Clinical Query für clinicaltrials.gov
+        clinical_terms = [f'"{n}"', t] + [f'"{p}"' for p in prog_candidates[:3]]
+        clinical_q = " OR ".join(clinical_terms)
+        queries.append(f'"{n}" offering reverse split')
+        queries.append(f'"{n}" earnings cash runway')
+
+    # ── Tech ─────────────────────────────────────────────
+    elif stock_type == "Tech":
+        queries = [
+            f'"{n}" {t} stock news',
+            f'"{n}" earnings revenue',
+            f'{t} stock news',
+            f'"{n}" product launch',
+            f'"{n}" AI revenue growth',
+        ]
+        aliases += [n.lower().split()[0]]  # Kurzname
+
+    # ── Finance ──────────────────────────────────────────
+    elif stock_type == "Finance":
+        queries = [
+            f'"{n}" {t} stock news',
+            f'"{n}" earnings dividend',
+            f'{t} stock news',
+        ]
+
+    # ── Allgemein ─────────────────────────────────────────
+    else:
+        queries = [
+            f'"{n}" {t} stock news',
+            f'{t} stock news',
+            f'"{n}" earnings quarterly',
+            f'"{n}" news',
+        ]
+
     return {
-        "ticker": ticker,
-        "exchange": exchange,
-        "name": name,
-        "eyebrow": f"Son of Lorenc · Phasenanalyse · {ticker}",
-        "headline": f"{name} – Phasenanalyse im Aufbau",
-        "thesis": f"Kurzthese: {ticker} wurde neu in das Son-of-Lorenc-System aufgenommen. Der Dossier-Aufbau ist vorbereitet; aktuelle News, Kursdaten und SEC-Filings werden über das Update-Skript geladen.",
-        "stand": now_iso()[:10],
-        "phase": "A/B · Beobachtung / Story-Aufbau",
-        "character": "Research-Wert · Risiko prüfen",
-        "metrics": [
-            {"label": "Aktueller Kurs", "value": "wird aktualisiert", "note": "aus automatischem Datenabruf", "key": "price"},
-            {"label": "52W-Spanne", "value": "offen", "note": "manuell/automatisch ergänzen", "key": "range52"},
-            {"label": "Cash & Wertpapiere", "value": "offen", "note": "letzten Bericht prüfen", "key": "cash"},
-            {"label": "Cash Runway", "value": "offen", "note": "Finanzierungsreichweite prüfen", "key": "runway"},
-            {"label": "Umsatz", "value": "offen", "note": "je nach Entwicklungsphase relevant", "key": "revenue"},
-            {"label": "Risikoklasse", "value": "offen", "note": "muss eingeordnet werden", "key": "risk"}
-        ],
-        "chart_subtitle": "Schematische Einordnung der wichtigsten Kurs- und Nachrichtenpunkte. Dieses Diagramm wird aus hinterlegten Ereignissen plus erwarteten Katalysatoren gezeichnet.",
-        "chart_note": "Hinweis: Das Diagramm ist kein exakter Börsenchart, sondern ein Analyse-Overlay zur News-/Katalysatorlogik.",
-        "events": [
-            {"d": "Start", "p": 1.0, "title": "Dossier angelegt", "phase": "Phase A – Aufbau", "reaction": "Der Wert wurde in die Watchlist aufgenommen.", "details": "Die tiefe Analyse kann nach Recherche ergänzt werden.", "source": "Son of Lorenc", "future": False},
-            {"d": "News", "p": 1.2, "title": "Automatische News folgen", "phase": "Phase B – Monitoring", "reaction": "Google-News-/SEC-Daten werden über das Skript geladen.", "details": "Kursrelevanz muss geprüft werden.", "source": "Automatisches Monitoring", "future": False},
-            {"d": "Katalysator", "p": 1.35, "title": "Nächsten harten Trigger definieren", "phase": "Nächster Katalysator", "reaction": "Hier sollte der wichtigste Termin eingetragen werden.", "details": "Zum Beispiel Studienreadout, Quartalszahlen, FDA/EMA, Finanzierung oder Partnerschaft.", "source": "manuelle Analyse", "future": True}
-        ],
-        "pipeline_intro": "Pipeline / Geschäftsmodell wird nach tiefer Recherche ergänzt.",
-        "pipeline": [
-            {"stage": "Lead Asset / Haupttreiber", "class": "phase3", "name": "Hauptprogramm", "text": "Hier das wichtigste Programm oder Geschäftsmodell eintragen.", "score": 70, "score_label": "hoch"},
-            {"stage": "Zweitprogramm / Option", "class": "phase2", "name": "Zweitprogramm", "text": "Zusätzlicher Werttreiber oder zweiter Katalysator.", "score": 50, "score_label": "mittel"},
-            {"stage": "Early Stage", "class": "early", "name": "Frühe Pipeline", "text": "Langfristiger Optionswert.", "score": 30, "score_label": "langfristig"}
-        ],
-        "zones": [
-            {"zone": "Pullback", "text": "Interessanter Bereich, wenn keine negative Unternehmensnews dahintersteht."},
-            {"zone": "Arbeitszone", "text": "Neutrale Zone für Beobachtung und Tranchendenken."},
-            {"zone": "Momentum", "text": "Hier steigt das Rückschlagrisiko, wenn keine harte News folgt."},
-            {"zone": "Warnzone", "text": "Prüfen, ob Cash, Daten oder Verwässerung negativ sind."}
-        ],
-        "catalysts": [
-            {"tag": "Kurzfristig", "title": "Nächste News / Quartalszahlen", "text": "Termin oder Katalysator ergänzen."},
-            {"tag": "Mittelfristig", "title": "Pipeline-/Projektupdate", "text": "Relevanten operativen Meilenstein ergänzen."},
-            {"tag": "Risiko", "title": "Cash / Verwässerung prüfen", "text": "Finanzierungslage und mögliche Kapitalmaßnahmen beobachten."}
-        ],
-        "scenarios": {
-            "bear": {"title": "Bear Case", "text": "Negative Daten, Kapitalmaßnahme oder schwacher Markt können den Kurs drücken."},
-            "base": {"title": "Base Case", "text": "Ohne neue harte Katalysatoren bleibt der Wert wahrscheinlich news- und stimmungsgetrieben."},
-            "bull": {"title": "Bull Case", "text": "Positive Daten, Finanzierungssicherheit oder Partnerschaften können eine Neubewertung auslösen."}
-        },
-        "risks": [
-            {"title": "Studiendaten-/Projekt-Risiko", "text": "Operative Fortschritte müssen bestätigt werden."},
-            {"title": "Verwässerungsrisiko", "text": "Kapitalmaßnahmen können Bestandsaktionäre verwässern."},
-            {"title": "Volatilität", "text": "Kleine und mittlere Werte reagieren stark auf News."},
-            {"title": "Hype-Risiko", "text": "Schnelle Peaks werden oft wieder abverkauft."}
-        ],
-        "clear_view": [
-            "Diese Analyse ist als Dossier-Vorlage vorbereitet. Für eine echte Einordnung müssen aktuelle News, Cash, Katalysatoren und Kurszonen ergänzt werden.",
-            "Keine Kaufempfehlung. Das Ziel ist eine klare Chancen-Risiko-Struktur statt impulsivem Einstieg."
-        ],
-        "sources": ["Son of Lorenc Mastertemplate", "Automatische Quellen werden nach Update ergänzt."],
-        "latest_auto": {"last_update_utc": now_iso(), "price": None, "news": [], "sec_filings": []}
+        "query":          queries[0],
+        "queries":        queries,
+        "clinical_query": clinical_q,
+        "aliases":        list(dict.fromkeys(aliases)),  # dedupliziert
+        "sec_query":      re.sub(r'\.[A-Z]+$', '', t),  # TICKER ohne .DE etc.
+        "rss_urls":       [],
+        "max_news":       30,
     }
 
-def main():
-    parser = argparse.ArgumentParser(description="Neue Aktie lokal zu Son of Lorenc hinzufügen")
-    parser.add_argument("ticker")
-    parser.add_argument("name")
-    parser.add_argument("--exchange", default="NASDAQ")
-    parser.add_argument("--theme", default="Research")
-    parser.add_argument("--query", default="")
-    parser.add_argument("--sec-query", default="")
-    args = parser.parse_args()
 
-    ticker = clean_ticker(args.ticker)
-    name = args.name.strip()
-    query = args.query.strip() or f"{name} {ticker} stock news"
-    sec_query = (args.sec_query.strip() or ticker).upper()
+def build_theme(stock_type: str, meta: dict, name: str) -> str:
+    """Erstellt ein lesbares Theme-Label."""
+    sector   = meta.get("sector",   "")
+    industry = meta.get("industry", "")
+    if stock_type == "ETF":
+        # Schlüsselwörter aus dem Name extrahieren
+        words = [w for w in name.split()
+                 if w.lower() not in {"etf","ucits","fund","the","of","and","acc","dis","usd","eur"}
+                 and len(w) > 2]
+        theme = " / ".join(words[:4]) if words else "ETF"
+        return theme
+    parts = [p for p in [sector, industry] if p]
+    if parts:
+        return " / ".join(parts)
+    return stock_type
 
-    watchlist = read_json(CONFIG)
-    if any(x["ticker"].upper() == ticker for x in watchlist):
-        raise SystemExit(f"{ticker} ist bereits in config/watchlist.json vorhanden.")
 
-    watchlist.append({
-        "ticker": ticker,
-        "name": name,
-        "exchange": args.exchange,
-        "theme": args.theme,
-        "query": query,
-        "sec_query": sec_query,
-        "queries": [query, f"{name} {ticker} stock news", f"{ticker} stock news"],
-        "clinical_query": f"{name} OR {ticker}",
-        "rss_urls": [],
-        "max_news": 30
-    })
-    write_json(CONFIG, watchlist)
+# ── Hauptfunktion ─────────────────────────────────────────
+def add_stock(ticker: str, name_override: str | None = None) -> None:
+    ticker = ticker.strip().upper()
+    print(f"\n🔍 Suche Informationen für: {ticker}")
 
-    stock_path = DATA / f"{ticker}.json"
-    if stock_path.exists():
-        raise SystemExit(f"{stock_path} existiert bereits.")
+    # Prüfen ob bereits vorhanden
+    config_list: list[dict] = json.loads(CONFIG.read_text(encoding="utf-8")) if CONFIG.exists() else []
+    if any(x["ticker"] == ticker for x in config_list):
+        print(f"⚠️  {ticker} ist bereits in der Watchlist.")
+        answer = input("   Trotzdem überschreiben? [j/N]: ").strip().lower()
+        if answer != "j":
+            print("Abgebrochen.")
+            return
+        config_list = [x for x in config_list if x["ticker"] != ticker]
 
-    write_json(stock_path, template_stock(ticker, name, args.exchange, args.theme, query, sec_query))
+    # Yahoo Finance abrufen
+    meta   = fetch_yahoo_info(ticker)
+    name   = name_override or meta.get("longName") or meta.get("shortName") or ticker
+    exchange = detect_exchange(meta, ticker)
+    stype  = detect_type(meta, ticker, name)
+    theme  = build_theme(stype, meta, name)
+    queries = build_smart_queries(ticker, name, stype, meta)
 
-    # data/watchlist.json für lokale Ansicht sofort ergänzen
-    display_path = DATA / "watchlist.json"
-    display = read_json(display_path) if display_path.exists() else []
-    display.append({"ticker": ticker, "name": name, "exchange": args.exchange, "theme": args.theme})
-    write_json(display_path, display)
+    # Vorschau anzeigen
+    print(f"\n{'─'*55}")
+    print(f"  Ticker:    {ticker}")
+    print(f"  Name:      {name}")
+    print(f"  Börse:     {exchange}")
+    print(f"  Typ:       {stype}")
+    print(f"  Thema:     {theme}")
+    print(f"  Suchbegriffe ({len(queries['queries'])}×):")
+    for q in queries["queries"]:
+        print(f"    · {q}")
+    if queries["clinical_query"]:
+        print(f"  Clinical:  {queries['clinical_query']}")
+    print(f"{'─'*55}")
 
-    print(f"[OK] {ticker} wurde lokal hinzugefügt.")
-    print("Jetzt ausführen:")
-    print("python3 scripts/update_data.py")
-    print("Dann Browser neu laden.")
+    answer = input("\n✅ Alles korrekt? [J/n]: ").strip().lower()
+    if answer == "n":
+        print("Abgebrochen. Starte erneut mit korrektem Ticker.")
+        return
+
+    # Eintrag zusammenbauen
+    entry: dict[str, Any] = {
+        "ticker":   ticker,
+        "name":     name,
+        "exchange": exchange,
+        "theme":    theme,
+        **queries,
+    }
+
+    # In config/watchlist.json speichern
+    config_list.append(entry)
+    CONFIG.write_text(json.dumps(config_list, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"\n✅ {ticker} – {name} gespeichert in config/watchlist.json")
+
+    # Leere JSON-Datei anlegen (damit der nächste Update-Lauf sofort läuft)
+    data_path = DATA / f"{ticker}.json"
+    if not data_path.exists():
+        data_path.write_text(json.dumps({
+            "ticker":   ticker,
+            "exchange": exchange,
+            "name":     name,
+            "theme":    theme,
+            "eyebrow":  f"Son of Lorenc · {ticker}",
+            "headline": name,
+            "thesis":   f"Wird beim nächsten Update automatisch befüllt.",
+            "stand":    "neu hinzugefügt",
+            "phase":    "–",
+            "character": "spekulativ",
+            "metrics":  [],
+            "events":   [],
+            "pipeline": [],
+            "zones":    [],
+            "catalysts":[],
+            "scenarios": {"bear":{},"base":{},"bull":{}},
+            "risks":    [],
+            "clear_view":[],
+            "sources":  [],
+            "latest_auto": {}
+        }, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"📄 Leere Datendatei angelegt: data/{ticker}.json")
+
+    print(f"\n🚀 Jetzt ausführen:")
+    print(f"   python3 scripts/update_data.py")
+    print(f"   git add data/ config/ && git commit -m 'Add {ticker}' && git push\n")
+
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) < 2:
+        print("Nutzung: python3 scripts/add_stock.py TICKER")
+        print("Beispiel: python3 scripts/add_stock.py AAPL")
+        print("          python3 scripts/add_stock.py 2B76.DE")
+        sys.exit(1)
+    ticker      = sys.argv[1]
+    name_override = sys.argv[2] if len(sys.argv) > 2 else None
+    add_stock(ticker, name_override)

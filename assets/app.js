@@ -214,6 +214,7 @@ async function boot() {
   initDeleteForm();
   initPushButton();
   initPreMarketInfo();
+  initMobileNav();
 
   // Alle Daten für Cockpit laden
   await loadAllData();
@@ -221,9 +222,11 @@ async function boot() {
 }
 
 function buildTickerSelect() {
-  $("tickerSelect").innerHTML = watchlist.map(x =>
+  const opts = watchlist.map(x =>
     `<option value="${esc(x.ticker)}">${esc(x.ticker)} · ${esc(x.name)}</option>`
   ).join("");
+  if ($("tickerSelect"))       $("tickerSelect").innerHTML       = opts;
+  if ($("tickerSelectMobile")) $("tickerSelectMobile").innerHTML = opts;
 }
 
 async function loadMeta() {
@@ -252,7 +255,8 @@ async function loadAllData() {
 
 async function loadTicker(ticker) {
   currentTicker = ticker;
-  $("tickerSelect").value = ticker;
+  if ($("tickerSelect"))       $("tickerSelect").value       = ticker;
+  if ($("tickerSelectMobile")) $("tickerSelectMobile").value = ticker;
   data = allData[ticker] || await getJson(`/data/${ticker}.json`);
   allData[ticker] = data;
   active = 0;
@@ -1241,13 +1245,166 @@ function populateDeleteDropdown(wl) {
   sel.innerHTML=(wl||[]).map(x=>`<option value="${esc(x.ticker)}">${esc(x.ticker)} · ${esc(x.name||"")}</option>`).join("");
 }
 
+// ── Auto-Lookup: Yahoo Finance aus dem Browser ────────────
+async function autoLookupTicker(ticker) {
+  const t = ticker.trim().toUpperCase();
+  if (!t) return null;
+
+  // Versuche Yahoo Finance direkt (funktioniert im Browser des Users)
+  const urls = [
+    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(t)}?range=1d&interval=1d`,
+    `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(t)}?range=1d&interval=1d`,
+  ];
+
+  for (const url of urls) {
+    try {
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) continue;
+      const d = await r.json();
+      const meta = d?.chart?.result?.[0]?.meta;
+      if (!meta) continue;
+
+      const name     = meta.longName || meta.shortName || t;
+      const exchange = meta.exchangeName || meta.fullExchangeName || detectExchangeFromTicker(t);
+      const type     = detectTypeFromMeta(meta, name);
+      const queries  = buildAutoQueries(t, name, type);
+      const secQuery = t.replace(/\.[A-Z]+$/i, ""); // ohne .DE etc.
+      const theme    = buildAutoTheme(type, name);
+
+      return { ticker: t, name, exchange, type, theme, queries, secQuery };
+    } catch { continue; }
+  }
+  return null;
+}
+
+function detectExchangeFromTicker(t) {
+  if (/\.DE$/i.test(t)) return "XETRA";
+  if (/\.PA$/i.test(t)) return "Euronext Paris";
+  if (/\.AS$/i.test(t)) return "Euronext Amsterdam";
+  if (/\.L$/i.test(t))  return "London Stock Exchange";
+  if (/\.TO$/i.test(t)) return "Toronto Stock Exchange";
+  return "NASDAQ";
+}
+
+function detectTypeFromMeta(meta, name) {
+  const inst = (meta.instrumentType || "").toUpperCase();
+  const nl   = name.toLowerCase();
+  if (inst === "ETF" || /etf|ucits|ishares|vanguard|invesco|xtrackers|amundi/.test(nl)) return "ETF";
+  if (/bioscience|biotech|therapeutics|pharma|biopharma|oncology|genomic|gene therapy/.test(nl)) return "Biotech / Pharma";
+  if (/semiconductor|software|systems|technologies|tech|digital|cyber|cloud|intelligence/.test(nl)) return "Tech";
+  if (/bank|financial|capital|insurance|asset management/.test(nl)) return "Finance";
+  return "Allgemein";
+}
+
+function buildAutoTheme(type, name) {
+  if (type === "ETF") {
+    const stop = new Set(["etf","ucits","fund","the","of","and","acc","dis","usd","eur","ishares","vanguard"]);
+    return name.split(/\s+/).filter(w => w.length > 2 && !stop.has(w.toLowerCase())).slice(0,4).join(" / ");
+  }
+  return type;
+}
+
+function buildAutoQueries(ticker, name, type) {
+  const n = name, t = ticker;
+  const base = [`"${n}" ${t} stock news`, `${t} stock news`];
+  if (type === "ETF") {
+    const short = name.replace(/\s*(UCITS|ETF|USD|EUR|Acc|Dis|Hedged)\s*/gi, " ").trim();
+    return [...base, `"${short}" ETF performance`, `${t} ETF`];
+  }
+  if (type === "Biotech / Pharma") {
+    return [...base, `"${n}" FDA clinical trial`, `"${n}" phase 3`, `"${n}" offering reverse split`];
+  }
+  if (type === "Tech") {
+    return [...base, `"${n}" earnings revenue`, `"${n}" product launch AI`];
+  }
+  return [...base, `"${n}" earnings quarterly`];
+}
+
+function renderStockPreview(info) {
+  const el = $("stockPreview");
+  if (!el) return;
+  const typeColors = {
+    "ETF": "#6aa8ff",
+    "Biotech / Pharma": "#9ff0c0",
+    "Tech": "#f4b45c",
+    "Finance": "#c8a2ff",
+    "Allgemein": "#c7d0dc",
+  };
+  const color = typeColors[info.type] || "#c7d0dc";
+  el.innerHTML = `
+    <div class="previewCard">
+      <div class="previewHeader">
+        <span class="tickerBadge">${esc(info.ticker)}</span>
+        <span class="previewType" style="color:${color}">${esc(info.type)}</span>
+      </div>
+      <h3 class="previewName">${esc(info.name)}</h3>
+      <div class="previewMeta">
+        <span>📍 ${esc(info.exchange)}</span>
+        <span>🏷 ${esc(info.theme)}</span>
+      </div>
+      <details class="previewQueries">
+        <summary>${info.queries.length} Suchbegriffe werden automatisch gesetzt</summary>
+        <ul>${info.queries.map(q => `<li>${esc(q)}</li>`).join("")}</ul>
+      </details>
+    </div>
+  `;
+}
+
 function initAdminForm() {
   const form=$("addStockForm"),status=$("adminStatus");
   if(!form)return;
-  $("fillQueryBtn")?.addEventListener("click",()=>{
-    const t=$("newTicker").value.trim().toUpperCase(),name=$("newName").value.trim();
-    if(!$("newSecQuery").value.trim())$("newSecQuery").value=t;
-    if(!$("newQuery").value.trim())$("newQuery").value=`${name||t} ${t} stock news`;
+
+  let lookupResult = null;
+
+  // Auto-Lookup Button
+  $("autoLookupBtn")?.addEventListener("click", async () => {
+    const ticker = $("newTicker")?.value?.trim().toUpperCase();
+    if (!ticker) {
+      const ls = $("lookupStatus");
+      if(ls){ls.className="adminStatus err";ls.textContent="Bitte zuerst einen Ticker eingeben.";}
+      return;
+    }
+    const ls = $("lookupStatus");
+    if(ls){ls.className="adminStatus";ls.textContent=`🔍 Suche Infos für ${ticker}…`;}
+
+    const info = await autoLookupTicker(ticker);
+
+    if (!info) {
+      if(ls){ls.className="adminStatus err";ls.textContent=`Ticker "${ticker}" nicht gefunden. Name manuell eingeben?`;}
+      // Trotzdem Schritt 2 zeigen mit leerem Formular
+      lookupResult = { ticker, name: ticker, exchange: detectExchangeFromTicker(ticker),
+                       type: "Allgemein", theme: "Research",
+                       queries: [`${ticker} stock news`], secQuery: ticker.replace(/\.[A-Z]+$/i,"") };
+    } else {
+      lookupResult = info;
+      if(ls){ls.className="adminStatus ok";ls.textContent=`✅ Gefunden: ${info.name} (${info.exchange})`;}
+    }
+
+    // Felder füllen
+    if($("newName"))     $("newName").value     = lookupResult.name;
+    if($("newExchange")) $("newExchange").value  = lookupResult.exchange;
+    if($("newTheme"))    $("newTheme").value     = lookupResult.theme;
+    if($("newQuery"))    $("newQuery").value     = lookupResult.queries[0] || "";
+    if($("newSecQuery")) $("newSecQuery").value  = lookupResult.secQuery;
+
+    // Vorschau rendern und Schritt 2 zeigen
+    renderStockPreview(lookupResult);
+    $("addStep1")?.classList.add("hidden");
+    $("addStep2")?.classList.remove("hidden");
+  });
+
+  // Enter-Taste im Ticker-Input = Auto-Lookup
+  $("newTicker")?.addEventListener("keydown", e => {
+    if (e.key === "Enter") { e.preventDefault(); $("autoLookupBtn")?.click(); }
+  });
+
+  // Zurück-Button
+  $("addResetBtn")?.addEventListener("click", () => {
+    $("addStep2")?.classList.add("hidden");
+    $("addStep1")?.classList.remove("hidden");
+    const ls = $("lookupStatus");
+    if(ls){ls.className="adminStatus";ls.textContent="";}
+    lookupResult = null;
   });
   form.addEventListener("submit",async e=>{
     e.preventDefault();
@@ -1300,6 +1457,72 @@ function initDeleteForm() {
       $("deleteConfirm").value="";
     }catch(err){status.className="adminStatus err";status.textContent=`Fehler: ${err.message}`;}
   });
+}
+
+
+// ══════════════════════════════════════════════════════════
+// MOBILE NAVIGATION
+// ══════════════════════════════════════════════════════════
+function initMobileNav() {
+  // Mobile Ticker-Select synchronisieren
+  $("tickerSelectMobile")?.addEventListener("change", e => {
+    loadTicker(e.target.value);
+  });
+
+  // Bottom Nav Buttons → gleiche Logik wie Desktop-Buttons
+  const map = {
+    "bottomSmartBtn":   "smart",
+    "bottomCockpitBtn": "cockpit",
+    "bottomMaxBtn":     "max",
+    "bottomNotifyBtn":  null,  // öffnet Benachrichtigungen
+  };
+
+  Object.entries(map).forEach(([id, mode]) => {
+    $(id)?.addEventListener("click", () => {
+      if (mode) {
+        // Mode wechseln
+        const modeBtn = mode === "smart"   ? $("smartModeBtn")
+                      : mode === "cockpit" ? $("cockpitModeBtn")
+                      : $("maxModeBtn");
+        modeBtn?.click();
+        // Bottom Nav aktiv markieren
+        document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
+        $(id)?.classList.add("active");
+        // Nach oben scrollen
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        // Benachrichtigungen: zum Cockpit + Notification Center
+        $("cockpitModeBtn")?.click();
+        document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
+        $("bottomCockpitBtn")?.classList.add("active");
+        setTimeout(() => {
+          $("notificationCenter")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 200);
+      }
+    });
+  });
+
+  // Desktop Mode-Buttons → Bottom Nav synchronisieren
+  ["smart","cockpit","max"].forEach(mode => {
+    const deskBtn = mode === "smart"   ? $("smartModeBtn")
+                  : mode === "cockpit" ? $("cockpitModeBtn")
+                  : $("maxModeBtn");
+    deskBtn?.addEventListener("click", () => {
+      document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
+      const bnId = mode === "smart"   ? "bottomSmartBtn"
+                 : mode === "cockpit" ? "bottomCockpitBtn"
+                 : "bottomMaxBtn";
+      $(bnId)?.classList.add("active");
+    });
+  });
+
+  // Initialen Mode in Bottom Nav markieren
+  const initialMode = localStorage.getItem("solViewMode") || "smart";
+  const initBnId = initialMode === "smart"   ? "bottomSmartBtn"
+                 : initialMode === "cockpit" ? "bottomCockpitBtn"
+                 : "bottomMaxBtn";
+  document.querySelectorAll(".bottomNavBtn").forEach(b => b.classList.remove("active"));
+  $(initBnId)?.classList.add("active");
 }
 
 // ── Start ─────────────────────────────────────────────────

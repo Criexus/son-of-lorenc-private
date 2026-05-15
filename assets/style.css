@@ -1128,51 +1128,229 @@ body.max-mode #smartHome { display: none; }
   .adminGrid { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* ── 15. Header Mobile (< 640px) ──────────────────────── */
-@media (max-width: 639px) {
-  .brand strong { display: none; }
-  .brandText span { font-size: 12px; }
+/* ══════════════════════════════════════════════════════════
+   MOBILE LAYOUT  (<640px)
+   Header: 2 Zeilen · Bottom Nav · Große Touch-Targets
+   ══════════════════════════════════════════════════════════ */
 
-  .headerControls {
-    gap: 6px;
+/* ── Bottom Navigation (nur Mobile) ──────────────────────── */
+.bottomNav { display: none; }
+
+@media (max-width: 639px) {
+
+  /* ── Variablen anpassen ─ */
+  :root {
+    --header-h:    52px;    /* nur Logo-Zeile */
+    --ticker-h:    50px;    /* Ticker-Zeile darunter */
+    --bottom-nav:  62px;    /* Bottom Nav Höhe */
   }
 
-  .tickerSelect { min-width: 0; flex: 1; font-size: 13px; }
+  /* ── Header: 2-Zeilen-Layout ──────────────────────────── */
+  .appHeader {
+    height: calc(var(--header-h) + var(--ticker-h));
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-  .modeBtn { padding: 6px 10px; font-size: 12px; }
+  .headerInner {
+    height: var(--header-h);
+    padding: 0 14px;
+    gap: 10px;
+  }
 
-  #refreshBtn { display: none; }
+  /* Logo + Name */
+  .brand { flex: 1; }
+  .brandLogo { width: 34px; height: 34px; border-radius: 9px; }
+  .brandText strong { font-size: 14px; }
+  .brandText span   { font-size: 10px; max-width: 180px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 
+  /* Header-Buttons rechts oben */
+  .headerControls {
+    flex: 0;
+    gap: 6px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+
+  /* Mode-Switch im Header verstecken – kommt in Bottom Nav */
+  .modeSwitch   { display: none; }
+  #refreshBtn   { display: none; }
+  #notifyBtn    { display: none; } /* Kommt in Bottom Nav */
+
+  .adminToggle {
+    padding: 7px 11px;
+    font-size: 13px;
+    min-height: 38px;
+    border-radius: 10px;
+  }
+
+  /* ── Ticker-Zeile (zweite Header-Zeile) ──────────────── */
+  .appHeader::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .tickerRow {
+    display: flex;
+    align-items: center;
+    height: var(--ticker-h);
+    padding: 0 14px;
+    gap: 8px;
+    background: rgba(7,9,14,.9);
+    border-bottom: 1px solid var(--border);
+    position: absolute;
+    top: var(--header-h);
+    left: 0; right: 0;
+  }
+
+  .tickerSelect {
+    flex: 1;
+    min-width: 0;
+    font-size: 15px;
+    font-weight: 700;
+    height: 38px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    color: #fff;
+    /* iOS fix */
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a8898' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+  }
+
+  /* ── appMain: Platz für Header + Bottom Nav ─────────── */
+  .appMain {
+    padding-top: calc(var(--header-h) + var(--ticker-h) + 16px) !important;
+    padding-bottom: calc(var(--bottom-nav) + 16px) !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* ── Bottom Navigation ───────────────────────────────── */
+  .bottomNav {
+    display: flex;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: var(--bottom-nav);
+    background: rgba(7,9,14,.96);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid var(--border);
+    z-index: 1000;
+    /* iPhone safe area */
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .bottomNavBtn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    padding: 8px 4px;
+    min-height: 44px;
+    cursor: pointer;
+    transition: color .15s;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+  }
+
+  .bottomNavBtn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 15%; right: 15%;
+    height: 2px;
+    background: var(--red);
+    border-radius: 0 0 3px 3px;
+    opacity: 0;
+    transition: opacity .15s;
+  }
+
+  .bottomNavBtn.active {
+    color: #fff;
+  }
+  .bottomNavBtn.active::before { opacity: 1; }
+
+  .bottomNavIcon  { font-size: 20px; line-height: 1; }
+  .bottomNavLabel { font-size: 10px; font-weight: 700; letter-spacing: .04em; white-space: nowrap; }
+
+  /* ── Alert Banner anpassen ───────────────────────────── */
+  .alertBanner {
+    top: calc(var(--header-h) + var(--ticker-h));
+    padding: 6px 10px;
+  }
+  .alertCard { padding: 10px 12px; }
+
+  /* ── Cockpit ─────────────────────────────────────────── */
+  .cockpitGrid { grid-template-columns: 1fr; }
+  .preMarketGrid { grid-template-columns: 1fr 1fr; }
+  .cockpitCard { padding: 14px; }
+  .cockpitPrice { font-size: 20px; }
+
+  /* ── Admin Panel ─────────────────────────────────────── */
   .adminPanel {
     position: fixed;
-    top: calc(var(--header-h) + 8px);
-    left: 8px;
-    right: 8px;
+    top: calc(var(--header-h) + var(--ticker-h) + 8px);
+    left: 8px; right: 8px;
     width: auto;
-    max-height: calc(100vh - var(--header-h) - 20px);
+    max-height: calc(100vh - var(--header-h) - var(--ticker-h) - var(--bottom-nav) - 20px);
   }
 
-  .adminGrid { grid-template-columns: 1fr; }
-  .adminGridDelete { grid-template-columns: 1fr; }
-  .spanFull { grid-column: auto; }
-  .adminActions { flex-direction: column; }
-  .adminActions button { width: 100%; }
+  .adminGrid        { grid-template-columns: 1fr; }
+  .adminGridDelete  { grid-template-columns: 1fr; }
+  .spanFull         { grid-column: auto; }
+  .adminActions     { flex-direction: column; }
+  .adminActions button { width: 100%; min-height: 48px; font-size: 16px; }
 
-  .priceGrid { grid-template-columns: 1fr 1fr; }
+  /* ── Content Cards ───────────────────────────────────── */
+  .heroCard     { padding: 16px; flex-direction: column; }
+  .heroCard h1  { font-size: 28px; }
+  .heroThesis   { font-size: 14px; }
+  .priceGrid    { grid-template-columns: 1fr 1fr; }
   .smartMetric b { font-size: 20px; }
+  .smartCard    { padding: 16px; }
 
-  .calcForm { grid-template-columns: 1fr; }
+  .calcForm   { grid-template-columns: 1fr; }
   .calcResult { grid-template-columns: 1fr; }
-
-  .heroCard { padding: 18px; }
-  .heroCard h1 { font-size: 32px; }
-  .heroThesis { font-size: 14px; }
-
-  .smartCard { padding: 16px; }
+  .calcForm input { min-height: 52px; font-size: 18px; }
 
   .accordionSummary { padding: 14px 16px; }
-  .accordionBody { padding: 0 16px 16px; }
   .accordionSummary h2 { font-size: 18px; }
+  .accordionBody { padding: 0 14px 14px; }
+
+  .preMarketDetail { grid-template-columns: 1fr 1fr; }
+
+  /* ── Cockpit Header ──────────────────────────────────── */
+  .cockpitHeader h1 { font-size: 24px; }
+
+  /* ── Max View Charts ─────────────────────────────────── */
+  #chart { height: 300px; min-width: 720px; }
+
+  /* ── Push Dialog ─────────────────────────────────────── */
+  .pushDialog { bottom: calc(var(--bottom-nav) + 8px); top: auto; transform: translateX(-50%); }
+
+  /* ── Scenarios ───────────────────────────────────────── */
+  .grid3 { grid-template-columns: 1fr; }
+}
+
+/* Sehr kleine Geräte */
+@media (max-width: 380px) {
+  .bottomNavLabel { display: none; }
+  .bottomNavIcon  { font-size: 22px; }
+  .bottomNavBtn   { padding: 10px 4px; }
+  .heroCard h1    { font-size: 24px; }
+  .priceGrid      { grid-template-columns: 1fr; }
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -1665,4 +1843,153 @@ body.has-alerts .appMain { padding-top: calc(var(--header-h) + 120px); }
   .preMarketDetail { grid-template-columns: 1fr 1fr; }
   .cockpitCardPrice .cockpitPrice { font-size: 19px; }
   .notifActions { flex-direction: row; }
+}
+
+/* ── Desktop/Mobile Visibility Helpers ───────────────────── */
+.mobileOnly  { display: none; }
+.desktopOnly { display: flex;  }
+
+@media (max-width: 639px) {
+  .mobileOnly  { display: flex; }
+  .desktopOnly { display: none !important; }
+}
+
+/* ── Ticker Row (Mobile, Zeile 2 im Header) ───────────────── */
+.tickerRow {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .tickerRow {
+    display: flex;
+    align-items: center;
+    height: var(--ticker-h, 50px);
+    padding: 0 12px;
+    gap: 8px;
+    background: rgba(7,9,14,.95);
+    border-bottom: 1px solid var(--border);
+    position: absolute;
+    top: var(--header-h, 52px);
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .tickerRow .tickerSelect {
+    flex: 1;
+    height: 38px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 10px;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237a8898' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-color: var(--surface2);
+    color: #fff;
+    border: 1px solid var(--border2);
+    padding-right: 30px;
+  }
+}
+
+/* ── Auto-Lookup Admin Form ───────────────────────────────── */
+.addStep.hidden { display: none; }
+
+.tickerInputRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.tickerInputBig {
+  flex: 1;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  border: 2px solid var(--border2);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: .05em;
+  outline: none;
+  transition: border-color .15s;
+  text-transform: uppercase;
+}
+.tickerInputBig:focus { border-color: rgba(255,79,79,.6); }
+.tickerInputBig::placeholder { text-transform: none; font-weight: 400; opacity: .5; }
+
+#autoLookupBtn { white-space: nowrap; min-height: 50px; font-size: 15px; }
+
+.adminAdvanced {
+  margin: 12px 0;
+}
+.adminAdvanced summary {
+  font-size: 13px;
+  color: var(--blue);
+  cursor: pointer;
+  padding: 6px 0;
+  list-style: none;
+  user-select: none;
+}
+.adminAdvanced summary::-webkit-details-marker { display: none; }
+.adminGridAdvanced { margin-top: 10px; grid-template-columns: repeat(2, 1fr); }
+
+/* Stock Preview Card */
+.previewCard {
+  background: rgba(255,255,255,.05);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  margin-bottom: 12px;
+}
+.previewHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.previewType {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.previewName {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 8px;
+}
+.previewMeta {
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.previewQueries {
+  font-size: 12px;
+  color: var(--muted);
+}
+.previewQueries summary {
+  cursor: pointer;
+  color: var(--blue);
+  padding: 4px 0;
+  list-style: none;
+}
+.previewQueries summary::-webkit-details-marker { display: none; }
+.previewQueries ul {
+  margin: 6px 0 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.previewQueries li { color: var(--soft); }
+
+@media (max-width: 639px) {
+  .tickerInputRow { flex-direction: column; }
+  .tickerInputBig { font-size: 20px; width: 100%; min-height: 56px; }
+  #autoLookupBtn  { width: 100%; min-height: 52px; }
+  .adminGridAdvanced { grid-template-columns: 1fr; }
 }

@@ -25,6 +25,7 @@
      HEADER
 ══════════════════════════════════════════ -->
 <header class="appHeader">
+  <!-- Zeile 1: Logo + Aktionen -->
   <div class="headerInner">
     <div class="brand">
       <img src="/assets/logo.png" alt="Son of Lorenc" class="brandLogo" />
@@ -35,39 +36,62 @@
     </div>
 
     <div class="headerControls">
-      <select id="tickerSelect" class="tickerSelect" aria-label="Aktie auswählen"></select>
+      <!-- Desktop: Ticker-Select hier -->
+      <select id="tickerSelect" class="tickerSelect desktopOnly" aria-label="Aktie auswählen"></select>
 
-      <div class="modeSwitch" role="group" aria-label="Ansicht wählen">
+      <!-- Desktop: Mode-Switch hier -->
+      <div class="modeSwitch desktopOnly" role="group" aria-label="Ansicht wählen">
         <button id="smartModeBtn"   class="modeBtn active" type="button">⚡ Smart</button>
         <button id="cockpitModeBtn" class="modeBtn"        type="button">🗂 Cockpit</button>
         <button id="maxModeBtn"     class="modeBtn"        type="button">🔬 Max</button>
       </div>
 
       <button id="refreshBtn" class="btnPrimary" type="button">↻ Neu laden</button>
-      <button id="notifyBtn"  class="btnGhost"   type="button" title="Benachrichtigungen">🔔</button>
+      <button id="notifyBtn"  class="btnGhost desktopOnly" type="button" title="Benachrichtigungen">🔔</button>
 
       <details class="adminDropdown">
         <summary class="adminToggle">⚙ Verwaltung</summary>
         <div class="adminPanel">
           <div class="adminBlock">
-            <h3>Aktie hinzufügen</h3>
-            <p class="adminHint">Ticker eingeben – Daten werden automatisch geladen und dauerhaft gespeichert.</p>
-            <form id="addStockForm" class="adminForm">
-              <div class="adminGrid">
-                <label><span>Ticker *</span><input id="newTicker" name="ticker" placeholder="z. B. AAPL" autocomplete="off" required /></label>
-                <label><span>Name *</span><input id="newName" name="name" placeholder="z. B. Apple Inc." autocomplete="off" required /></label>
-                <label><span>Börse</span><input id="newExchange" name="exchange" placeholder="NASDAQ" value="NASDAQ" autocomplete="off" /></label>
-                <label><span>Kategorie</span><input id="newTheme" name="theme" placeholder="z. B. Biotech / ETF" autocomplete="off" /></label>
-                <label class="spanFull"><span>News-Suchbegriff</span><input id="newQuery" name="query" placeholder="z. B. Apple AAPL earnings" autocomplete="off" /></label>
-                <label><span>SEC-Kürzel</span><input id="newSecQuery" name="sec_query" placeholder="AAPL" autocomplete="off" /></label>
-                <label><span>Admin-PIN</span><input id="adminPin" name="adminPin" type="password" placeholder="••••" /></label>
+            <h3>Aktie oder ETF hinzufügen</h3>
+            <p class="adminHint">Nur Ticker eingeben – Name, Börse und alle Suchbegriffe werden automatisch geladen.</p>
+
+            <!-- Schritt 1: Ticker eingeben -->
+            <div id="addStep1" class="addStep">
+              <div class="tickerInputRow">
+                <input id="newTicker" class="tickerInputBig" name="ticker"
+                       placeholder="Ticker eingeben, z. B. AAPL, 2B76.DE, NVDA …"
+                       autocomplete="off" spellcheck="false" required />
+                <button class="btnPrimary" id="autoLookupBtn" type="button">🔍 Automatisch laden</button>
               </div>
-              <div class="adminActions">
-                <button class="btnPrimary" type="submit">Speichern</button>
-                <button class="btnGhost" id="fillQueryBtn" type="button">Auto-füllen</button>
-              </div>
-              <p id="adminStatus" class="adminStatus">Wird dauerhaft im GitHub-Repository gespeichert.</p>
-            </form>
+              <p class="adminHint" style="margin-top:8px">
+                Funktioniert für NASDAQ, NYSE, XETRA, Euronext und die meisten anderen Börsen.
+              </p>
+              <div id="lookupStatus" class="adminStatus"></div>
+            </div>
+
+            <!-- Schritt 2: Vorschau & Bestätigung (wird nach Lookup eingeblendet) -->
+            <div id="addStep2" class="addStep hidden">
+              <div id="stockPreview" class="stockPreview"></div>
+              <details class="adminAdvanced">
+                <summary>Erweiterte Einstellungen (optional)</summary>
+                <div class="adminGrid adminGridAdvanced">
+                  <label><span>Name anpassen</span><input id="newName" name="name" autocomplete="off" /></label>
+                  <label><span>Börse anpassen</span><input id="newExchange" name="exchange" autocomplete="off" /></label>
+                  <label><span>Kategorie anpassen</span><input id="newTheme" name="theme" autocomplete="off" /></label>
+                  <label class="spanFull"><span>Haupt-Suchbegriff</span><input id="newQuery" name="query" autocomplete="off" /></label>
+                  <label><span>SEC-Kürzel</span><input id="newSecQuery" name="sec_query" autocomplete="off" /></label>
+                  <label><span>Admin-PIN</span><input id="adminPin" name="adminPin" type="password" placeholder="••••" /></label>
+                </div>
+              </details>
+              <form id="addStockForm">
+                <div class="adminActions">
+                  <button class="btnPrimary" type="submit" id="saveStockBtn">✅ Speichern</button>
+                  <button class="btnGhost" id="addResetBtn" type="button">← Zurück</button>
+                </div>
+                <p id="adminStatus" class="adminStatus">Wird dauerhaft im GitHub-Repository gespeichert.</p>
+              </form>
+            </div>
           </div>
           <div class="adminBlock adminBlockDanger">
             <h3>Aktie entfernen</h3>
@@ -87,6 +111,11 @@
         </div>
       </details>
     </div>
+  </div><!-- /headerInner -->
+
+  <!-- Zeile 2: Ticker-Auswahl (nur Mobile sichtbar) -->
+  <div class="tickerRow mobileOnly">
+    <select id="tickerSelectMobile" class="tickerSelect" aria-label="Aktie auswählen"></select>
   </div>
 </header>
 
@@ -362,5 +391,27 @@
     window.addEventListener('load', () => { navigator.serviceWorker.register('/sw.js'); });
   }
 </script>
+
+<!-- ══════════════════════════════════════════
+     MOBILE BOTTOM NAVIGATION
+══════════════════════════════════════════ -->
+<nav class="bottomNav" aria-label="Ansicht wechseln">
+  <button class="bottomNavBtn active" id="bottomSmartBtn" type="button" aria-label="Smart-Ansicht">
+    <span class="bottomNavIcon">⚡</span>
+    <span class="bottomNavLabel">Smart</span>
+  </button>
+  <button class="bottomNavBtn" id="bottomCockpitBtn" type="button" aria-label="Cockpit">
+    <span class="bottomNavIcon">🗂</span>
+    <span class="bottomNavLabel">Cockpit</span>
+  </button>
+  <button class="bottomNavBtn" id="bottomMaxBtn" type="button" aria-label="Max-Analyse">
+    <span class="bottomNavIcon">🔬</span>
+    <span class="bottomNavLabel">Max</span>
+  </button>
+  <button class="bottomNavBtn" id="bottomNotifyBtn" type="button" aria-label="Benachrichtigungen">
+    <span class="bottomNavIcon">🔔</span>
+    <span class="bottomNavLabel">Signale</span>
+  </button>
+</nav>
 </body>
 </html>
