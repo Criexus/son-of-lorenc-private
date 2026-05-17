@@ -225,7 +225,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-17T16:44:30Z",
+    "last_update_utc": "2026-05-17T17:47:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -679,7 +679,7 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdnc4TXRrV29pakNwdmdvVEJ2ZVZBZVR3ZVRmaU05b3RhS0I1S2NiNUVRU2IxYjFybS1nYXpzX0hrdTRyQUNVSDRSdTJacGV4NExlMVhLSXRfQ3NMY0liU1FQVk44VnZGUjF3NkxUZWdoaXJ0ajBwM3RSYlpkSnZ1NElZSTUwanpNbG1ITnQ0RXIwNWViQjRJNTlyazRkWEVDUnY3RWtoMmxKeGlhNjZLUWU1eEcybElwalpr?oc=5",
         "published_at": "2026-05-08T03:33:00Z",
         "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
+        "query": "\"Guardant360\" Reveal Guardant Health news",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
         "trigger_level": "medium",
@@ -689,6 +689,22 @@
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "Guardant Health erhält FDA-Zulassung für Begleitdiagnostikum zu VEPPANU - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXE5U0xpUVotSzRjSndSSEJvdnpVV3J1YkM4LU5tX1gyOHRBaUJsUDNrSkFFbkZRVXhUWnpCTHg5cmlDRndNNjlSaDItcU9XSkU1TXJSVDdianVDWWhtaGg5Q1ZzMFhwVEtmNm9RRWIzcTZUeWtHTjZZbW41cno2RWp4akkycG4zSlJLa2xsaWFRMG5NQ015V29wMGdzdVhlamRoZFdTQTcydGxHYTk5WE44a1ljZVJhckNYTlR3bFljaFp5?oc=5",
+        "published_at": "2026-05-04T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 13
       },
       {
         "title": "Guardant Health: Personalvorständin verkauft Aktien im Wert von 355.000 $ - Investing.com Deutsch",
@@ -915,6 +931,18 @@
     ],
     "clinical_trials": [],
     "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Guardant Health erhält FDA-Zulassung für Begleitdiagnostikum zu VEPPANU - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-05-04T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXE5U0xpUVotSzRjSndSSEJvdnpVV3J1YkM4LU5tX1gyOHRBaUJsUDNrSkFFbkZRVXhUWnpCTHg5cmlDRndNNjlSaDItcU9XSkU1TXJSVDdianVDWWhtaGg5Q1ZzMFhwVEtmNm9RRWIzcTZUeWtHTjZZbW41cno2RWp4akkycG4zSlJLa2xsaWFRMG5NQ015V29wMGdzdVhlamRoZFdTQTcydGxHYTk5WE44a1ljZVJhckNYTlR3bFljaFp5?oc=5"
+      },
       {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
