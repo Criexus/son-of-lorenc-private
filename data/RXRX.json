@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.90",
-      "note": "Auto-Update: -11.2% vs. vorheriger Schlusskurs",
+      "value": "$2.89",
+      "note": "Auto-Update: -11.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-18T19:12:00Z",
+    "last_update_utc": "2026-05-18T20:55:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.895,
+      "regularMarketPrice": 2.89,
       "previousClose": 3.26,
-      "change": -0.365,
-      "changePercent": -11.2,
-      "regularMarketTime": "2026-05-18T19:11:53Z",
+      "change": -0.37,
+      "changePercent": -11.35,
+      "regularMarketTime": "2026-05-18T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-05-18T13:30:00Z",
-        "price": 2.895
+        "price": 2.89
       }
     ],
     "price_history_1d": [
@@ -676,8 +676,44 @@
         "price": 2.895
       },
       {
-        "t": "2026-05-18T19:11:53Z",
+        "t": "2026-05-18T19:15:00Z",
+        "price": 2.89
+      },
+      {
+        "t": "2026-05-18T19:20:00Z",
         "price": 2.895
+      },
+      {
+        "t": "2026-05-18T19:25:00Z",
+        "price": 2.895
+      },
+      {
+        "t": "2026-05-18T19:30:00Z",
+        "price": 2.9111
+      },
+      {
+        "t": "2026-05-18T19:35:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-05-18T19:40:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-05-18T19:45:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-18T19:50:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-05-18T19:55:00Z",
+        "price": 2.895
+      },
+      {
+        "t": "2026-05-18T20:00:00Z",
+        "price": 2.89
       }
     ],
     "price_history_range": "1mo",
@@ -794,6 +830,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "RECURSION PHARMACEUTICALS, A AKTIE | Aktienkurs | US75629V1044 | RXRX | A3CM1C | News - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ib2htU1VTdU95d3VSVWpBY0FXUlBuYVBMQ0FPVERFa3lMZlRTbE50SHdXLUsxRGRhUVh0VlhIcEtEZzNvcnJvRDVqUk93ZWFDTGt6ODdNR29wQ3B2RnI3TUc3M0J5dTl1S2pia2JxWFp5N1Bm?oc=5",
+        "published_at": "2021-04-16T11:48:50Z",
+        "source": "Finanzen.net",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 25
       },
       {
         "title": "Recursion Pharmaceuticals, Inc. Finanzberichte – NASDAQ:RXRX - TradingView",
