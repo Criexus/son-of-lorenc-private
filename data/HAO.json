@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$0.02",
-      "note": "Auto-Update: -96.92% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -62.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-18T10:57:20Z",
+    "last_update_utc": "2026-05-18T14:27:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.0225,
-      "previousClose": 0.73,
-      "change": -0.7075,
-      "changePercent": -96.92,
-      "regularMarketTime": "2026-05-15T20:00:01Z",
+      "regularMarketPrice": 0.0169,
+      "previousClose": 0.045,
+      "change": -0.0281,
+      "changePercent": -62.44,
+      "regularMarketTime": "2026-05-18T14:25:58Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -211,18 +211,10 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 2.31,
-      "fiftyTwoWeekLow": 0.0206,
-      "fiftyTwoWeekRange": "0.0206 – 2.31"
+      "fiftyTwoWeekLow": 0.016,
+      "fiftyTwoWeekRange": "0.016 – 2.31"
     },
     "price_history": [
-      {
-        "t": "2026-04-16T13:30:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-04-17T13:30:00Z",
-        "price": 1.12
-      },
       {
         "t": "2026-04-20T13:30:00Z",
         "price": 1.1
@@ -302,324 +294,60 @@
       {
         "t": "2026-05-15T13:30:00Z",
         "price": 0.023
+      },
+      {
+        "t": "2026-05-18T13:30:00Z",
+        "price": 0.0169
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-05-15T13:30:00Z",
-        "price": 0.022
+        "t": "2026-05-18T13:30:00Z",
+        "price": 0.0174
       },
       {
-        "t": "2026-05-15T13:35:00Z",
-        "price": 0.0223
+        "t": "2026-05-18T13:35:00Z",
+        "price": 0.0163
       },
       {
-        "t": "2026-05-15T13:40:00Z",
-        "price": 0.0232
+        "t": "2026-05-18T13:40:00Z",
+        "price": 0.0166
       },
       {
-        "t": "2026-05-15T13:45:00Z",
-        "price": 0.0227
+        "t": "2026-05-18T13:45:00Z",
+        "price": 0.0162
       },
       {
-        "t": "2026-05-15T13:50:00Z",
-        "price": 0.0234
+        "t": "2026-05-18T13:50:00Z",
+        "price": 0.0164
       },
       {
-        "t": "2026-05-15T13:55:00Z",
-        "price": 0.0216
+        "t": "2026-05-18T13:55:00Z",
+        "price": 0.0168
       },
       {
-        "t": "2026-05-15T14:00:00Z",
-        "price": 0.0226
+        "t": "2026-05-18T14:00:00Z",
+        "price": 0.017
       },
       {
-        "t": "2026-05-15T14:05:00Z",
-        "price": 0.0228
+        "t": "2026-05-18T14:05:00Z",
+        "price": 0.0167
       },
       {
-        "t": "2026-05-15T14:10:00Z",
-        "price": 0.022
+        "t": "2026-05-18T14:10:00Z",
+        "price": 0.0164
       },
       {
-        "t": "2026-05-15T14:15:00Z",
-        "price": 0.0235
+        "t": "2026-05-18T14:15:00Z",
+        "price": 0.0167
       },
       {
-        "t": "2026-05-15T14:20:00Z",
-        "price": 0.0232
+        "t": "2026-05-18T14:20:00Z",
+        "price": 0.017
       },
       {
-        "t": "2026-05-15T14:25:00Z",
-        "price": 0.0231
-      },
-      {
-        "t": "2026-05-15T14:30:00Z",
-        "price": 0.0233
-      },
-      {
-        "t": "2026-05-15T14:35:00Z",
-        "price": 0.0234
-      },
-      {
-        "t": "2026-05-15T14:40:00Z",
-        "price": 0.0235
-      },
-      {
-        "t": "2026-05-15T14:45:00Z",
-        "price": 0.0233
-      },
-      {
-        "t": "2026-05-15T14:50:00Z",
-        "price": 0.0232
-      },
-      {
-        "t": "2026-05-15T14:55:00Z",
-        "price": 0.0233
-      },
-      {
-        "t": "2026-05-15T15:00:00Z",
-        "price": 0.0231
-      },
-      {
-        "t": "2026-05-15T15:05:00Z",
-        "price": 0.0223
-      },
-      {
-        "t": "2026-05-15T15:10:00Z",
-        "price": 0.0229
-      },
-      {
-        "t": "2026-05-15T15:15:00Z",
-        "price": 0.023
-      },
-      {
-        "t": "2026-05-15T15:20:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T15:25:00Z",
-        "price": 0.0228
-      },
-      {
-        "t": "2026-05-15T15:30:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T15:35:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T15:40:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T15:45:00Z",
-        "price": 0.0223
-      },
-      {
-        "t": "2026-05-15T15:50:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T15:55:00Z",
-        "price": 0.0218
-      },
-      {
-        "t": "2026-05-15T16:00:00Z",
-        "price": 0.0216
-      },
-      {
-        "t": "2026-05-15T16:05:00Z",
-        "price": 0.0215
-      },
-      {
-        "t": "2026-05-15T16:10:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T16:15:00Z",
-        "price": 0.022
-      },
-      {
-        "t": "2026-05-15T16:20:00Z",
-        "price": 0.0227
-      },
-      {
-        "t": "2026-05-15T16:25:00Z",
-        "price": 0.0217
-      },
-      {
-        "t": "2026-05-15T16:30:00Z",
-        "price": 0.0218
-      },
-      {
-        "t": "2026-05-15T16:35:00Z",
-        "price": 0.0219
-      },
-      {
-        "t": "2026-05-15T16:40:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T16:45:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T16:50:00Z",
-        "price": 0.0219
-      },
-      {
-        "t": "2026-05-15T16:55:00Z",
-        "price": 0.022
-      },
-      {
-        "t": "2026-05-15T17:00:00Z",
-        "price": 0.0222
-      },
-      {
-        "t": "2026-05-15T17:05:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T17:10:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T17:15:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T17:20:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T17:25:00Z",
-        "price": 0.0222
-      },
-      {
-        "t": "2026-05-15T17:30:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T17:35:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T17:40:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T17:45:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T17:50:00Z",
-        "price": 0.0223
-      },
-      {
-        "t": "2026-05-15T17:55:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T18:00:00Z",
-        "price": 0.0227
-      },
-      {
-        "t": "2026-05-15T18:05:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T18:10:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T18:15:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T18:20:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T18:25:00Z",
-        "price": 0.022
-      },
-      {
-        "t": "2026-05-15T18:30:00Z",
-        "price": 0.0221
-      },
-      {
-        "t": "2026-05-15T18:35:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T18:40:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T18:45:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T18:50:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T18:55:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T19:00:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:05:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:10:00Z",
-        "price": 0.0223
-      },
-      {
-        "t": "2026-05-15T19:15:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:20:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T19:25:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:30:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:35:00Z",
-        "price": 0.0224
-      },
-      {
-        "t": "2026-05-15T19:40:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:45:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:50:00Z",
-        "price": 0.0225
-      },
-      {
-        "t": "2026-05-15T19:55:00Z",
-        "price": 0.0226
-      },
-      {
-        "t": "2026-05-15T20:00:00Z",
-        "price": 0.0225
+        "t": "2026-05-18T14:25:58Z",
+        "price": 0.0169
       }
     ],
     "price_history_range": "1mo",
@@ -786,154 +514,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT01102517",
-        "title": "A Trial on Video-assisted Thoracoscopic Surgery and Axillary Thoracotomy for Resection of Early-stage Non-small Cell Lung Cancer",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Non-small Cell Lung Cancer",
-        "last_update": "",
-        "start_date": "2010-01",
-        "url": "https://clinicaltrials.gov/study/NCT01102517"
-      },
-      {
-        "nct_id": "NCT06924918",
-        "title": "Scalp Acupuncture Treatment for Chronic Tic Disorders in Children",
-        "status": "ENROLLING_BY_INVITATION",
-        "phase": "NA",
-        "conditions": "Tic Disorder",
-        "last_update": "",
-        "start_date": "2025-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT06924918"
-      },
-      {
-        "nct_id": "NCT06890598",
-        "title": "Study of Olomorasib (LY3537982) in Combination With Standard of Care in Participants With Resected or Unresectable KRAS G12C-mutant Non-Small Cell Lung Cancer",
-        "status": "RECRUITING",
+        "nct_id": "NCT00076544",
+        "title": "Ziconotide Effectiveness and Safety Trial in Patients With Chronic Severe Pain",
+        "status": "COMPLETED",
         "phase": "PHASE3",
-        "conditions": "Carcinoma, Non-Small-Cell Lung",
+        "conditions": "Pain",
         "last_update": "",
-        "start_date": "2025-03-27",
-        "url": "https://clinicaltrials.gov/study/NCT06890598"
+        "start_date": "2004-02",
+        "url": "https://clinicaltrials.gov/study/NCT00076544"
       },
       {
-        "nct_id": "NCT06974929",
-        "title": "A Clinical Study of HRS-6209 Combined With Other Treatment Regimens in Patients With Breast Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Breast Cancer",
-        "last_update": "",
-        "start_date": "2025-05-22",
-        "url": "https://clinicaltrials.gov/study/NCT06974929"
-      },
-      {
-        "nct_id": "NCT06245330",
-        "title": "A Phase I/II Study of AST-001 in Subjects With Advanced Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Solid Tumor, Pancreatic Cancer",
-        "last_update": "",
-        "start_date": "2022-07-07",
-        "url": "https://clinicaltrials.gov/study/NCT06245330"
-      },
-      {
-        "nct_id": "NCT06230445",
-        "title": "Effects of Digital Therapeutic in Whole Process Management of Lung Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Application of Digital Therapeutic in Lung Cancer Whole Process Management",
-        "last_update": "",
-        "start_date": "2023-06-01",
-        "url": "https://clinicaltrials.gov/study/NCT06230445"
-      },
-      {
-        "nct_id": "NCT04381754",
-        "title": "Use of Implanting the Biotronik Passeo-18 Lux Drug Coated Balloon to Treat Failing Haemodialysis Arteriovenous Fistulas and Grafts.",
+        "nct_id": "NCT03226288",
+        "title": "Customized Shoe-padding Orthotics for Plantar Fasciitis",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Arterio-venous Fistula, Dialysis Access Malfunction, Hemodialysis Access Failure, Arteriovenous Graft Stenosis",
+        "conditions": "Plantar Fasciitis of Both Feet",
         "last_update": "",
-        "start_date": "2020-06",
-        "url": "https://clinicaltrials.gov/study/NCT04381754"
+        "start_date": "2017-02-09",
+        "url": "https://clinicaltrials.gov/study/NCT03226288"
       },
       {
-        "nct_id": "NCT07114315",
-        "title": "A Study of AK130 in Combination With AK112 for the Treatment of Advanced Pancreatic Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Pancreatic Cancer",
-        "last_update": "",
-        "start_date": "2025-09-19",
-        "url": "https://clinicaltrials.gov/study/NCT07114315"
-      },
-      {
-        "nct_id": "NCT07402525",
-        "title": "Postoperative Radiotherapy for Early-stage Oral Tongue Squamous Cell Carcinoma Patients With Risk Factors: a Prospective, Multicenter, Randomized Controlled, Open-labelled Trial",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Oral Tongue Squamous Cell Carcinoma",
-        "last_update": "",
-        "start_date": "2026-01-26",
-        "url": "https://clinicaltrials.gov/study/NCT07402525"
-      },
-      {
-        "nct_id": "NCT06856993",
-        "title": "Early Evaluation of Exosome Multiomics and Clinical Prognosis in Patients With Sudden Death",
+        "nct_id": "NCT06583070",
+        "title": "SABR Combined With Targeted Therapy and Anti-PD-1 for Recurrent or Metastatic Renal Cancer",
         "status": "RECRUITING",
         "phase": "",
-        "conditions": "Sudden Cardiac Death, Exosome Multiomics, Clinical Prognosis",
+        "conditions": "Radiation Therapy, Metastatic Renal Cancer, Recurrent Renal Cell Cancer",
         "last_update": "",
-        "start_date": "2021-12-22",
-        "url": "https://clinicaltrials.gov/study/NCT06856993"
+        "start_date": "2024-02-02",
+        "url": "https://clinicaltrials.gov/study/NCT06583070"
       },
       {
-        "nct_id": "NCT04909255",
-        "title": "Beta-3 Agonist and Anti-muscarinic Agent for Sjogren's Syndrome With Overactive Bladder",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Sjogren's Syndrome, Overactive Bladder Syndrome",
+        "nct_id": "NCT02555280",
+        "title": "Coflex PS3 Actual Conditions for Use Study",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Spinal Stenosis Lumbar",
         "last_update": "",
-        "start_date": "2021-03-23",
-        "url": "https://clinicaltrials.gov/study/NCT04909255"
+        "start_date": "2019-09-09",
+        "url": "https://clinicaltrials.gov/study/NCT02555280"
       },
       {
-        "nct_id": "NCT06781944",
-        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
+        "nct_id": "NCT06708156",
+        "title": "The Effectiveness and Safety of Two Low-concentration Atropine Sulfate Eye Drops (0.01%/0.02%) for Delaying the Pediatric Myopia Progression",
         "status": "RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Primary Membranous Nephropathy",
+        "conditions": "Myopia, Myopia Progression",
         "last_update": "",
-        "start_date": "2024-10-23",
-        "url": "https://clinicaltrials.gov/study/NCT06781944"
+        "start_date": "2024-06-15",
+        "url": "https://clinicaltrials.gov/study/NCT06708156"
       },
       {
-        "nct_id": "NCT03932084",
-        "title": "Effects of Glucose Fluctuation Intervention on the Prognosis of Patients With Type 2 Diabetes and Cerebral Infarction",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Type 2 Diabetes and Cerebral Infarction",
-        "last_update": "",
-        "start_date": "2017-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT03932084"
-      },
-      {
-        "nct_id": "NCT05944198",
-        "title": "Clinical Study of 18F-FAPI-RGD PET/CT in Rheumatoid Arthritis",
+        "nct_id": "NCT02201264",
+        "title": "Cardiovascular Patient Outcomes and Research Team Primary PCI Registry",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Rheumatoid Arthritis",
+        "conditions": "ST Elevation Myocardial Infarction",
         "last_update": "",
-        "start_date": "2023-07-14",
-        "url": "https://clinicaltrials.gov/study/NCT05944198"
+        "start_date": "2006-04",
+        "url": "https://clinicaltrials.gov/study/NCT02201264"
       },
       {
-        "nct_id": "NCT02403544",
-        "title": "Phase I Study of Image-Guided Radiation Concurrent With Double-Agent Chemotherapy for Hepatocellular Carcinoma",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Carcinoma, Hepatocellular",
+        "nct_id": "NCT06093932",
+        "title": "Efficacy of Songling Xuemaikang Capsules on Grade 1 Hypertension: a Randomized Controlled Trial",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Hypertension,Essential",
         "last_update": "",
-        "start_date": "2013-09",
-        "url": "https://clinicaltrials.gov/study/NCT02403544"
+        "start_date": "2024-04-07",
+        "url": "https://clinicaltrials.gov/study/NCT06093932"
+      },
+      {
+        "nct_id": "NCT07005193",
+        "title": "Effects of LPG and Ventilation Interventions on Reducing HAP and Improving Cardiopulmonary Health",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Cardiopulmonary Function, Environmental Exposures",
+        "last_update": "",
+        "start_date": "2025-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT07005193"
+      },
+      {
+        "nct_id": "NCT00721773",
+        "title": "Renal Protective Effects of Renin Angiotensin System (RAS) Inhibitor in Peritoneal Dialysis Patients",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Renal Function Disorder",
+        "last_update": "",
+        "start_date": "2008-09",
+        "url": "https://clinicaltrials.gov/study/NCT00721773"
+      },
+      {
+        "nct_id": "NCT04215237",
+        "title": "How Atorvastatin Affects the Gut Flora and Metabolomics?",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Atherosclerotic Cardiovascular Disease",
+        "last_update": "",
+        "start_date": "2017-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT04215237"
+      },
+      {
+        "nct_id": "NCT05518851",
+        "title": "TreAtments and outComes in paTients With prImary CutAneous Lymphoma",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Primary Cutaneous Lymphoma",
+        "last_update": "",
+        "start_date": "2022-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05518851"
+      },
+      {
+        "nct_id": "NCT00625898",
+        "title": "BETH Study: Treatment of HER2 Positive Breast Cancer With Chemotherapy Plus Trastuzumab vs Chemotherapy Plus Trastuzumab Plus Bevacizumab",
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "conditions": "Breast Cancer",
+        "last_update": "",
+        "start_date": "2008-04",
+        "url": "https://clinicaltrials.gov/study/NCT00625898"
+      },
+      {
+        "nct_id": "NCT03391687",
+        "title": "Incidence of Pancreatic Fistula After Radical Gastrectomy",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Gastric Cancer, Pancreatic Fistula, Complication",
+        "last_update": "",
+        "start_date": "2017-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT03391687"
+      },
+      {
+        "nct_id": "NCT05236621",
+        "title": "A Study of the Efficacy and Safety of Pomalidomide Capsules Combined With Low-Dose Dexamethasone in Subjects With Relapsed and Refractory Multiple Myeloma",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "Multiple Myeloma, Recurrent or Refractory",
+        "last_update": "",
+        "start_date": "2021-01-04",
+        "url": "https://clinicaltrials.gov/study/NCT05236621"
+      },
+      {
+        "nct_id": "NCT02555332",
+        "title": "Maternal Thyroid Function in Early Pregnancy and Their Relationship With Gestational Diabetes Mellitus",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Pregnancy, Thyroid Function Tests, Gestational Diabetes Mellitus",
+        "last_update": "",
+        "start_date": "2012-12",
+        "url": "https://clinicaltrials.gov/study/NCT02555332"
       }
     ],
     "detected_triggers": [
@@ -956,90 +684,74 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Trial on Video-assisted Thoracoscopic Surgery and Axillary Thoracotomy for Resection of Early-stage Non-small Cell Lung Cancer",
+        "title": "Ziconotide Effectiveness and Safety Trial in Patients With Chronic Severe Pain",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00076544",
+        "date": "2004-02"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "BETH Study: Treatment of HER2 Positive Breast Cancer With Chemotherapy Plus Trastuzumab vs Chemotherapy Plus Trastuzumab Plus Bevacizumab",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE3",
+        "source": "NCT00625898",
+        "date": "2008-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Renal Protective Effects of Renin Angiotensin System (RAS) Inhibitor in Peritoneal Dialysis Patients",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT00721773",
+        "date": "2008-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "How Atorvastatin Affects the Gut Flora and Metabolomics?",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT01102517",
-        "date": "2010-01"
+        "source": "NCT04215237",
+        "date": "2017-11-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Phase I Study of Image-Guided Radiation Concurrent With Double-Agent Chemotherapy for Hepatocellular Carcinoma",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT02403544",
-        "date": "2013-09"
+        "title": "Coflex PS3 Actual Conditions for Use Study",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT02555280",
+        "date": "2019-09-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Effects of Glucose Fluctuation Intervention on the Prognosis of Patients With Type 2 Diabetes and Cerebral Infarction",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03932084",
-        "date": "2017-02-01"
+        "title": "A Study of the Efficacy and Safety of Pomalidomide Capsules Combined With Low-Dose Dexamethasone in Subjects With Relapsed and Refractory Multiple Myeloma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT05236621",
+        "date": "2021-01-04"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Beta-3 Agonist and Anti-muscarinic Agent for Sjogren's Syndrome With Overactive Bladder",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT04909255",
-        "date": "2021-03-23"
+        "title": "Efficacy of Songling Xuemaikang Capsules on Grade 1 Hypertension: a Randomized Controlled Trial",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
+        "source": "NCT06093932",
+        "date": "2024-04-07"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Phase I/II Study of AST-001 in Subjects With Advanced Solid Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06245330",
-        "date": "2022-07-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Effects of Digital Therapeutic in Whole Process Management of Lung Cancer",
+        "title": "The Effectiveness and Safety of Two Low-concentration Atropine Sulfate Eye Drops (0.01%/0.02%) for Delaying the Pediatric Myopia Progression",
         "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06230445",
-        "date": "2023-06-01"
+        "source": "NCT06708156",
+        "date": "2024-06-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06781944",
-        "date": "2024-10-23"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Study of Olomorasib (LY3537982) in Combination With Standard of Care in Participants With Resected or Unresectable KRAS G12C-mutant Non-Small Cell Lung Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06890598",
-        "date": "2025-03-27"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Study of HRS-6209 Combined With Other Treatment Regimens in Patients With Breast Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06974929",
-        "date": "2025-05-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Scalp Acupuncture Treatment for Chronic Tic Disorders in Children",
-        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION NA",
-        "source": "NCT06924918",
-        "date": "2025-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study of AK130 in Combination With AK112 for the Treatment of Advanced Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT07114315",
-        "date": "2025-09-19"
+        "title": "Effects of LPG and Ventilation Interventions on Reducing HAP and Improving Cardiopulmonary Health",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07005193",
+        "date": "2025-07-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1098,14 +810,6 @@
         "date": "2026-01-23"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Postoperative Radiotherapy for Early-stage Oral Tongue Squamous Cell Carcinoma Patients With Risk Factors: a Prospective, Multicenter, Randomized Controlled, Open-labelled Trial",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07402525",
-        "date": "2026-01-26"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-02-10",
@@ -1148,26 +852,50 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Use of Implanting the Biotronik Passeo-18 Lux Drug Coated Balloon to Treat Failing Haemodialysis Arteriovenous Fistulas and Grafts.",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT04381754",
-        "date": "2020-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Early Evaluation of Exosome Multiomics and Clinical Prognosis in Patients With Sudden Death",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06856993",
-        "date": "2021-12-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Clinical Study of 18F-FAPI-RGD PET/CT in Rheumatoid Arthritis",
+        "title": "Cardiovascular Patient Outcomes and Research Team Primary PCI Registry",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT05944198",
-        "date": "2023-07-14"
+        "source": "NCT02201264",
+        "date": "2006-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Maternal Thyroid Function in Early Pregnancy and Their Relationship With Gestational Diabetes Mellitus",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT02555332",
+        "date": "2012-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Customized Shoe-padding Orthotics for Plantar Fasciitis",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT03226288",
+        "date": "2017-02-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Incidence of Pancreatic Fistula After Radical Gastrectomy",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT03391687",
+        "date": "2017-12-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "TreAtments and outComes in paTients With prImary CutAneous Lymphoma",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT05518851",
+        "date": "2022-08-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "SABR Combined With Targeted Therapy and Anti-PD-1 for Recurrent or Metastatic Renal Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06583070",
+        "date": "2024-02-02"
       },
       {
         "type": "SEC Filing",

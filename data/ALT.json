@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.85",
-      "note": "Auto-Update: -7.77% vs. vorheriger Schlusskurs",
+      "value": "$2.83",
+      "note": "Auto-Update: -8.25% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-18T10:56:42Z",
+    "last_update_utc": "2026-05-18T14:26:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.85,
+      "regularMarketPrice": 2.835,
       "previousClose": 3.09,
-      "change": -0.24,
-      "changePercent": -7.77,
-      "regularMarketTime": "2026-05-15T20:00:01Z",
+      "change": -0.255,
+      "changePercent": -8.25,
+      "regularMarketTime": "2026-05-18T14:25:48Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,14 +331,6 @@
       "fiftyTwoWeekRange": "2.56 – 7.73"
     },
     "price_history": [
-      {
-        "t": "2026-04-16T13:30:00Z",
-        "price": 3.51
-      },
-      {
-        "t": "2026-04-17T13:30:00Z",
-        "price": 3.5
-      },
       {
         "t": "2026-04-20T13:30:00Z",
         "price": 3.56
@@ -418,324 +410,60 @@
       {
         "t": "2026-05-15T13:30:00Z",
         "price": 2.85
+      },
+      {
+        "t": "2026-05-18T13:30:00Z",
+        "price": 2.835
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-05-15T13:30:00Z",
-        "price": 2.925
-      },
-      {
-        "t": "2026-05-15T13:35:00Z",
-        "price": 2.905
-      },
-      {
-        "t": "2026-05-15T13:40:00Z",
-        "price": 2.8851
-      },
-      {
-        "t": "2026-05-15T13:45:00Z",
-        "price": 2.895
-      },
-      {
-        "t": "2026-05-15T13:50:00Z",
-        "price": 2.895
-      },
-      {
-        "t": "2026-05-15T13:55:00Z",
-        "price": 2.8901
-      },
-      {
-        "t": "2026-05-15T14:00:00Z",
-        "price": 2.9034
-      },
-      {
-        "t": "2026-05-15T14:05:00Z",
-        "price": 2.9227
-      },
-      {
-        "t": "2026-05-15T14:10:00Z",
-        "price": 2.935
-      },
-      {
-        "t": "2026-05-15T14:15:00Z",
-        "price": 2.915
-      },
-      {
-        "t": "2026-05-15T14:20:00Z",
-        "price": 2.915
-      },
-      {
-        "t": "2026-05-15T14:25:00Z",
-        "price": 2.905
-      },
-      {
-        "t": "2026-05-15T14:30:00Z",
-        "price": 2.9
-      },
-      {
-        "t": "2026-05-15T14:35:00Z",
-        "price": 2.905
-      },
-      {
-        "t": "2026-05-15T14:40:00Z",
-        "price": 2.91
-      },
-      {
-        "t": "2026-05-15T14:45:00Z",
-        "price": 2.89
-      },
-      {
-        "t": "2026-05-15T14:50:00Z",
-        "price": 2.885
-      },
-      {
-        "t": "2026-05-15T14:55:00Z",
-        "price": 2.8868
-      },
-      {
-        "t": "2026-05-15T15:00:00Z",
-        "price": 2.8899
-      },
-      {
-        "t": "2026-05-15T15:05:00Z",
-        "price": 2.88
-      },
-      {
-        "t": "2026-05-15T15:10:00Z",
-        "price": 2.8899
-      },
-      {
-        "t": "2026-05-15T15:15:00Z",
-        "price": 2.885
-      },
-      {
-        "t": "2026-05-15T15:20:00Z",
-        "price": 2.889
-      },
-      {
-        "t": "2026-05-15T15:25:00Z",
-        "price": 2.865
-      },
-      {
-        "t": "2026-05-15T15:30:00Z",
-        "price": 2.8761
-      },
-      {
-        "t": "2026-05-15T15:35:00Z",
-        "price": 2.885
-      },
-      {
-        "t": "2026-05-15T15:40:00Z",
-        "price": 2.885
-      },
-      {
-        "t": "2026-05-15T15:45:00Z",
-        "price": 2.87
-      },
-      {
-        "t": "2026-05-15T15:50:00Z",
-        "price": 2.865
-      },
-      {
-        "t": "2026-05-15T15:55:00Z",
-        "price": 2.875
-      },
-      {
-        "t": "2026-05-15T16:00:00Z",
-        "price": 2.865
-      },
-      {
-        "t": "2026-05-15T16:05:00Z",
-        "price": 2.866
-      },
-      {
-        "t": "2026-05-15T16:10:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-05-15T16:15:00Z",
-        "price": 2.856
-      },
-      {
-        "t": "2026-05-15T16:20:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T16:25:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-05-15T16:30:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-05-15T16:35:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-05-15T16:40:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T16:45:00Z",
+        "t": "2026-05-18T13:30:00Z",
         "price": 2.84
       },
       {
-        "t": "2026-05-15T16:50:00Z",
+        "t": "2026-05-18T13:35:00Z",
+        "price": 2.804
+      },
+      {
+        "t": "2026-05-18T13:40:00Z",
+        "price": 2.805
+      },
+      {
+        "t": "2026-05-18T13:45:00Z",
+        "price": 2.795
+      },
+      {
+        "t": "2026-05-18T13:50:00Z",
+        "price": 2.815
+      },
+      {
+        "t": "2026-05-18T13:55:00Z",
+        "price": 2.82
+      },
+      {
+        "t": "2026-05-18T14:00:00Z",
         "price": 2.84
       },
       {
-        "t": "2026-05-15T16:55:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T17:00:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T17:05:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T17:10:00Z",
-        "price": 2.8497
-      },
-      {
-        "t": "2026-05-15T17:15:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T17:20:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T17:25:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T17:30:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T17:35:00Z",
-        "price": 2.838
-      },
-      {
-        "t": "2026-05-15T17:40:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-05-15T17:45:00Z",
-        "price": 2.835
-      },
-      {
-        "t": "2026-05-15T17:50:00Z",
-        "price": 2.835
-      },
-      {
-        "t": "2026-05-15T17:55:00Z",
-        "price": 2.835
-      },
-      {
-        "t": "2026-05-15T18:00:00Z",
-        "price": 2.835
-      },
-      {
-        "t": "2026-05-15T18:05:00Z",
-        "price": 2.835
-      },
-      {
-        "t": "2026-05-15T18:10:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-05-15T18:15:00Z",
+        "t": "2026-05-18T14:05:00Z",
         "price": 2.825
       },
       {
-        "t": "2026-05-15T18:20:00Z",
-        "price": 2.81
+        "t": "2026-05-18T14:10:00Z",
+        "price": 2.825
       },
       {
-        "t": "2026-05-15T18:25:00Z",
-        "price": 2.815
-      },
-      {
-        "t": "2026-05-15T18:30:00Z",
-        "price": 2.815
-      },
-      {
-        "t": "2026-05-15T18:35:00Z",
-        "price": 2.832
-      },
-      {
-        "t": "2026-05-15T18:40:00Z",
+        "t": "2026-05-18T14:15:00Z",
         "price": 2.835
       },
       {
-        "t": "2026-05-15T18:45:00Z",
-        "price": 2.8329
-      },
-      {
-        "t": "2026-05-15T18:50:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-05-15T18:55:00Z",
-        "price": 2.836
-      },
-      {
-        "t": "2026-05-15T19:00:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-05-15T19:05:00Z",
+        "t": "2026-05-18T14:20:00Z",
         "price": 2.835
       },
       {
-        "t": "2026-05-15T19:10:00Z",
+        "t": "2026-05-18T14:25:48Z",
         "price": 2.835
-      },
-      {
-        "t": "2026-05-15T19:15:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-05-15T19:20:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T19:25:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T19:30:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T19:35:00Z",
-        "price": 2.86
-      },
-      {
-        "t": "2026-05-15T19:40:00Z",
-        "price": 2.8635
-      },
-      {
-        "t": "2026-05-15T19:45:00Z",
-        "price": 2.855
-      },
-      {
-        "t": "2026-05-15T19:50:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-05-15T19:55:00Z",
-        "price": 2.86
-      },
-      {
-        "t": "2026-05-15T20:00:00Z",
-        "price": 2.85
       }
     ],
     "price_history_range": "1mo",
@@ -756,6 +484,22 @@
         "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5",
+        "published_at": "2026-04-23T07:00:00Z",
+        "source": "Börse Global",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
@@ -870,6 +614,22 @@
         "relevance_score": 7
       },
       {
+        "title": "Altimmune-Aktie bricht nach Ankündigung einer 75-Millionen-Dollar-Direktplatzierung ein - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
+        "published_at": "2026-01-28T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
@@ -900,22 +660,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
-        "published_at": "2026-01-21T00:01:24Z",
-        "source": "Goldesel.de",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
       },
       {
         "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
@@ -970,7 +714,7 @@
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR0tYejZkWmVsVEJhZlNRa0hReGxyNXAxRUZPYTU1VTloWmZvbkduSS1xRzRxM3hmNzFyRlotRDZrTWRveV9kSVQtUVFPdUY3aFUwVlpiaUZZcVdYelJsdnUta2RVV2hfZEplT3l6UXZwa3NkbC02S055UDBRc09sU3dpY2tOblRlSTVzeEp0NXJxWlFJcVE0UDhfb3BhX0JWNFdranNpY0RIYjB0cHJqNndfaXhkdjVFYV82LVlZVQ?oc=5",
         "published_at": "2025-12-19T08:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -979,7 +723,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
+        "relevance_score": 6
       },
       {
         "title": "Altimmune Navigates Leadership Transition Amid Critical Clinical Milestones - AD HOC NEWS",
@@ -1270,6 +1014,86 @@
     ],
     "clinical_trials": [
       {
+        "nct_id": "NCT05134662",
+        "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Type 2 Diabetes",
+        "last_update": "",
+        "start_date": "2022-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT05134662"
+      },
+      {
+        "nct_id": "NCT04561245",
+        "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Obesity, Nonalcoholic Steatohepatitis",
+        "last_update": "",
+        "start_date": "2020-11-10",
+        "url": "https://clinicaltrials.gov/study/NCT04561245"
+      },
+      {
+        "nct_id": "NCT03232567",
+        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2017-09-18",
+        "url": "https://clinicaltrials.gov/study/NCT03232567"
+      },
+      {
+        "nct_id": "NCT04679909",
+        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Healthy Volunteers",
+        "last_update": "",
+        "start_date": "2021-02-25",
+        "url": "https://clinicaltrials.gov/study/NCT04679909"
+      },
+      {
+        "nct_id": "NCT04684914",
+        "title": "HepTcell Immunotherapy in Patients With Inactive Chronic Hepatitis B (CHB)",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Hepatitis B, Chronic",
+        "last_update": "",
+        "start_date": "2020-12-26",
+        "url": "https://clinicaltrials.gov/study/NCT04684914"
+      },
+      {
+        "nct_id": "NCT03163342",
+        "title": "Immune Response Following Seasonal Influenza Vaccination",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2017-05-08",
+        "url": "https://clinicaltrials.gov/study/NCT03163342"
+      },
+      {
+        "nct_id": "NCT05295875",
+        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Obesity/Overweight",
+        "last_update": "",
+        "start_date": "2022-03-31",
+        "url": "https://clinicaltrials.gov/study/NCT05295875"
+      },
+      {
+        "nct_id": "NCT05292911",
+        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
+        "last_update": "",
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT05292911"
+      },
+      {
         "nct_id": "NCT06987513",
         "title": "RECLAIM STUDY: A Phase 2 Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
         "status": "ACTIVE_NOT_RECRUITING",
@@ -1300,56 +1124,6 @@
         "url": "https://clinicaltrials.gov/study/NCT02496897"
       },
       {
-        "nct_id": "NCT04561245",
-        "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Obesity, Nonalcoholic Steatohepatitis",
-        "last_update": "",
-        "start_date": "2020-11-10",
-        "url": "https://clinicaltrials.gov/study/NCT04561245"
-      },
-      {
-        "nct_id": "NCT05295875",
-        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Obesity/Overweight",
-        "last_update": "",
-        "start_date": "2022-03-31",
-        "url": "https://clinicaltrials.gov/study/NCT05295875"
-      },
-      {
-        "nct_id": "NCT03163342",
-        "title": "Immune Response Following Seasonal Influenza Vaccination",
-        "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "Influenza",
-        "last_update": "",
-        "start_date": "2017-05-08",
-        "url": "https://clinicaltrials.gov/study/NCT03163342"
-      },
-      {
-        "nct_id": "NCT03760549",
-        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Influenza",
-        "last_update": "",
-        "start_date": "2019-01-21",
-        "url": "https://clinicaltrials.gov/study/NCT03760549"
-      },
-      {
-        "nct_id": "NCT05292911",
-        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Non-Alcoholic Fatty Liver Disease",
-        "last_update": "",
-        "start_date": "2022-03-09",
-        "url": "https://clinicaltrials.gov/study/NCT05292911"
-      },
-      {
         "nct_id": "NCT04415749",
         "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
         "status": "COMPLETED",
@@ -1360,14 +1134,14 @@
         "url": "https://clinicaltrials.gov/study/NCT04415749"
       },
       {
-        "nct_id": "NCT03232567",
-        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
-        "status": "COMPLETED",
+        "nct_id": "NCT04442230",
+        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
+        "status": "TERMINATED",
         "phase": "PHASE2",
-        "conditions": "Influenza",
+        "conditions": "Coronavirus Infection",
         "last_update": "",
-        "start_date": "2017-09-18",
-        "url": "https://clinicaltrials.gov/study/NCT03232567"
+        "start_date": "2020-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT04442230"
       },
       {
         "nct_id": "NCT00755703",
@@ -1380,44 +1154,14 @@
         "url": "https://clinicaltrials.gov/study/NCT00755703"
       },
       {
-        "nct_id": "NCT03352466",
-        "title": "NasoShield Study of Safety and Immunogenicity",
+        "nct_id": "NCT05006885",
+        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
         "status": "COMPLETED",
         "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
         "last_update": "",
-        "start_date": "2018-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT03352466"
-      },
-      {
-        "nct_id": "NCT04679909",
-        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
-        "last_update": "",
-        "start_date": "2021-02-25",
-        "url": "https://clinicaltrials.gov/study/NCT04679909"
-      },
-      {
-        "nct_id": "NCT05134662",
-        "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Type 2 Diabetes",
-        "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05134662"
-      },
-      {
-        "nct_id": "NCT04972396",
-        "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "NASH - Nonalcoholic Steatohepatitis",
-        "last_update": "",
-        "start_date": "2021-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT04972396"
+        "start_date": "2021-09-30",
+        "url": "https://clinicaltrials.gov/study/NCT05006885"
       }
     ],
     "detected_triggers": [
@@ -1532,18 +1276,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "NasoShield Study of Safety and Immunogenicity",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT03352466",
-        "date": "2018-01-18"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
         "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT04415749",
         "date": "2020-06-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE2",
+        "source": "NCT04442230",
+        "date": "2020-10-10"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1556,6 +1300,14 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
+        "title": "HepTcell Immunotherapy in Patients With Inactive Chronic Hepatitis B (CHB)",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE2",
+        "source": "NCT04684914",
+        "date": "2020-12-26"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
         "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT04679909",
@@ -1564,10 +1316,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
+        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT04972396",
-        "date": "2021-09-15"
+        "source": "NCT05006885",
+        "date": "2021-09-30"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1622,6 +1374,18 @@
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFFWUFdJcjdXbUdnaXJYQl9aV1VHTF9rZTJkOU1BdnhXX3NWQ0VfVFRNbzh0TUYzLUF5X3diM3V2RmxhNndKeTFHelBESGpxNU5KaHYxbDVORnlpWU1Oc1FMNktvc0hKNmE2Nkk2WGxGZUdEQlBVSnc3MWZsSXhpTkhLeEVLQ1FNVFJRRWhUbmhDZDBzT2g2Ni1WS3FYQ1Bvckdr?oc=5"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Börse Global",
+        "date": "2026-04-23T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5"
+      },
+      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-04-24",
@@ -1646,14 +1410,6 @@
         "date": "2026-05-13"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT03760549",
-        "date": "2019-01-21"
-      },
-      {
         "type": "Analysten / Kursziel",
         "level": "low",
         "title": "Analyst still sees potential in Altimmune obesity drug after shares plunged on dropout data - Fierce Biotech",
@@ -1672,14 +1428,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-30"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
       },
       {
         "type": "SEC Filing",
