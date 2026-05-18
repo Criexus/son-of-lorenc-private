@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.66",
-      "note": "Auto-Update: 2.52% vs. vorheriger Schlusskurs",
+      "value": "$3.75",
+      "note": "Auto-Update: 5.04% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-18T17:17:37Z",
+    "last_update_utc": "2026-05-18T19:12:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.66,
+      "regularMarketPrice": 3.75,
       "previousClose": 3.57,
-      "change": 0.09,
-      "changePercent": 2.52,
-      "regularMarketTime": "2026-05-18T16:52:56Z",
+      "change": 0.18,
+      "changePercent": 5.04,
+      "regularMarketTime": "2026-05-18T19:11:37Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -322,7 +322,7 @@
       },
       {
         "t": "2026-05-18T13:30:00Z",
-        "price": 3.66
+        "price": 3.7499
       }
     ],
     "price_history_1d": [
@@ -459,8 +459,60 @@
         "price": 3.66
       },
       {
-        "t": "2026-05-18T16:52:56Z",
+        "t": "2026-05-18T17:25:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-05-18T17:30:00Z",
+        "price": 3.665
+      },
+      {
+        "t": "2026-05-18T17:45:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-05-18T17:50:00Z",
+        "price": 3.665
+      },
+      {
+        "t": "2026-05-18T18:00:00Z",
         "price": 3.66
+      },
+      {
+        "t": "2026-05-18T18:25:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-05-18T18:30:00Z",
+        "price": 3.65
+      },
+      {
+        "t": "2026-05-18T18:35:00Z",
+        "price": 3.66
+      },
+      {
+        "t": "2026-05-18T18:50:00Z",
+        "price": 3.6401
+      },
+      {
+        "t": "2026-05-18T18:55:00Z",
+        "price": 3.67
+      },
+      {
+        "t": "2026-05-18T19:00:00Z",
+        "price": 3.7
+      },
+      {
+        "t": "2026-05-18T19:05:00Z",
+        "price": 3.705
+      },
+      {
+        "t": "2026-05-18T19:10:00Z",
+        "price": 3.715
+      },
+      {
+        "t": "2026-05-18T19:11:37Z",
+        "price": 3.7499
       }
     ],
     "price_history_range": "1mo",
@@ -503,7 +555,7 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjZDRkxhd203Q2FVMUVHb3RSNEdSdGNfWUVvakstNmctX1V0OVhESW9CMXRBQWFyLTN4elFMeDRpaXJfeXp5WTA5bkNrQ1J3UkRVX2hrdk9Ycm45NjZDc1lQb1p4NFh3SmQwa3V3UXVPMnhvbXZkc3RFZklPck04UjkwRkpaTjdnLVpZeWYzM3FGTmtPQ2tuRUhieDlVMmRGT1BMczB3N1Y3NUtJMm1henVKQnZFbFp1Z2xnMUoxUERydw?oc=5",
         "published_at": "2025-05-02T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "ALTI ALTI stock news",
+        "query": "AlTi Global, Inc. ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -512,7 +564,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
+        "relevance_score": 8
       }
     ],
     "sec_filings": [
