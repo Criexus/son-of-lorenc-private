@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-19T22:57:22Z",
+    "last_update_utc": "2026-05-19T23:57:03Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -626,6 +626,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5",
+        "published_at": "2026-05-19T12:41:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Haoxi Health Technology HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 23
+      },
+      {
         "title": "Haoxi Health Technology sichert sich 6,5 Millionen US-Dollar durch Direktplatzierung - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSFptemJJVTVjdEtYRjJfRmNNZkJCQXFWelZMeWw5d0IwMDNMRVNfbXVJRERmZFJXd3hIQ0FaUVZCSnFPVjFVVzdPdGFqRDlURGFKM25rY1RYVEVmUkU1cmtiQjZKQWpfelAxc3Z0Q2c2al92SUUwMkR5aG5BeEpKd0J5bVpjZVNjUWRicy1PYkRlZ1hhbGxmcENFbnlVeVBGQndLN1puY0d1MEw4eTV1Um5VZy1jMlkyenJvNDF1dHJMTWNsT1ExbnU5Z01DZzJfMk1JbQ?oc=5",
         "published_at": "2026-05-11T12:20:00Z",
@@ -954,6 +970,18 @@
         "date": "2026-05-12"
       },
       {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-05-19T12:41:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Comparison of the Bilateral Sequential and Simultaneous Cochlear Implantation in the Deaf Children",
@@ -1168,14 +1196,6 @@
         "reason": "Studienregister-Treffer: RECRUITING ",
         "source": "NCT07050576",
         "date": "2024-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-03-19",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-19"
       }
     ],
     "queries_used": [
