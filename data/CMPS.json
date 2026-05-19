@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.05",
-      "note": "Auto-Update: 7.26% vs. vorheriger Schlusskurs",
+      "value": "$10.07",
+      "note": "Auto-Update: 7.47% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-19T18:53:01Z",
+    "last_update_utc": "2026-05-19T20:23:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.05,
+      "regularMarketPrice": 10.07,
       "previousClose": 9.37,
-      "change": 0.68,
-      "changePercent": 7.26,
-      "regularMarketTime": "2026-05-19T18:52:40Z",
+      "change": 0.7,
+      "changePercent": 7.47,
+      "regularMarketTime": "2026-05-19T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-05-19T13:30:00Z",
-        "price": 10.05
+        "price": 10.07
       }
     ],
     "price_history_1d": [
@@ -679,11 +679,63 @@
       },
       {
         "t": "2026-05-19T18:50:00Z",
+        "price": 10.07
+      },
+      {
+        "t": "2026-05-19T18:55:00Z",
+        "price": 10.065
+      },
+      {
+        "t": "2026-05-19T19:00:00Z",
+        "price": 10.12
+      },
+      {
+        "t": "2026-05-19T19:05:00Z",
         "price": 10.08
       },
       {
-        "t": "2026-05-19T18:52:40Z",
-        "price": 10.05
+        "t": "2026-05-19T19:10:00Z",
+        "price": 10.12
+      },
+      {
+        "t": "2026-05-19T19:15:00Z",
+        "price": 10.095
+      },
+      {
+        "t": "2026-05-19T19:20:00Z",
+        "price": 10.035
+      },
+      {
+        "t": "2026-05-19T19:25:00Z",
+        "price": 10.11
+      },
+      {
+        "t": "2026-05-19T19:30:00Z",
+        "price": 10.09
+      },
+      {
+        "t": "2026-05-19T19:35:00Z",
+        "price": 10.08
+      },
+      {
+        "t": "2026-05-19T19:40:00Z",
+        "price": 10.085
+      },
+      {
+        "t": "2026-05-19T19:45:00Z",
+        "price": 10.11
+      },
+      {
+        "t": "2026-05-19T19:50:00Z",
+        "price": 10.055
+      },
+      {
+        "t": "2026-05-19T19:55:00Z",
+        "price": 10.075
+      },
+      {
+        "t": "2026-05-19T20:00:00Z",
+        "price": 10.07
       }
     ],
     "price_history_range": "1mo",
@@ -784,6 +836,22 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 21
+      },
+      {
+        "title": "BTIG bestätigt Kaufempfehlung für Compass Pathways angesichts Zulassungsaussichten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRFM1YXN5MkRiNGVfSFpJS0xHc0FjVE5pNkJhTDl6cjhzd09Vd1VwdUs5dnk0YTNCaU9ocHRfc0lOUTlZai1TdVF5TGp0TlA5ZVpmQVQ1SnNDMFdSNlU4UGZ5VVgtYzdqc0U0ZkFUMG0xT2JnakktWF9QeDkzZFIzYmxlaDNRZTNQdVAwQkVGQVNhdzZBMzZZZ2ZvcGcweG9Hd1BGQkpJRklHWjB2SXFEeC03YVB1SWpFNGhJYTZFTzVubkFaczdfMThYb2ZrX1BBem1nU09NZFg?oc=5",
+        "published_at": "2026-05-13T19:22:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
       },
       {
         "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - AD HOC NEWS",
@@ -979,7 +1047,7 @@
       },
       {
         "title": "Compass Pathways Aktie: Kurs auf Zulassung - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa3NKMlBMdnllcjVRb2I4Q3JJb2ktWG5uZEo0QU9rUEdTVzFoRkZxM1Rkcm9vU0dYdkNoVVlwXzNSYTZNRGNZWGxzTlNXSHVMQ2F4d3dXblI1MVhEQkpsYXMzTEU4cDIxQ0tfd1k0SGt0MXFra3VJUUcyVFdRVExsN1hBV0I4QXJYNEZsQ2xRNVlsNUdDNUJhb0JqTXRWNW1hWVE?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcEhNbUFkdC1xR0pFYW5xMkFsaGRhMVR1ZFF5VEcxN3VrUkVRdFRJWEFBODJpN0FXakZJcnlRZ2lQWjBjOFg2UGo1LVNzUmQ5UldWOTdZYmpJUm5PeFRGTlRoQzFHVlQ4U0h0bEV1TEw3cWRRdnk2V0FlQ1RDTnRrWVVhYmFJb1ViczlUOVR3YlJCSGVTT0tPUHRCamRYTFZUS0E?oc=5",
         "published_at": "2026-02-22T08:00:00Z",
         "source": "AD HOC NEWS",
         "query": "COMPASS Pathways COMP360 phase 3",
@@ -1423,7 +1491,7 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "source": "AD HOC NEWS",
         "date": "2026-02-22T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa3NKMlBMdnllcjVRb2I4Q3JJb2ktWG5uZEo0QU9rUEdTVzFoRkZxM1Rkcm9vU0dYdkNoVVlwXzNSYTZNRGNZWGxzTlNXSHVMQ2F4d3dXblI1MVhEQkpsYXMzTEU4cDIxQ0tfd1k0SGt0MXFra3VJUUcyVFdRVExsN1hBV0I4QXJYNEZsQ2xRNVlsNUdDNUJhb0JqTXRWNW1hWVE?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcEhNbUFkdC1xR0pFYW5xMkFsaGRhMVR1ZFF5VEcxN3VrUkVRdFRJWEFBODJpN0FXakZJcnlRZ2lQWjBjOFg2UGo1LVNzUmQ5UldWOTdZYmpJUm5PeFRGTlRoQzFHVlQ4U0h0bEV1TEw3cWRRdnk2V0FlQ1RDTnRrWVVhYmFJb1ViczlUOVR3YlJCSGVTT0tPUHRCamRYTFZUS0E?oc=5"
       },
       {
         "type": "Studienphase / Readout",
@@ -1484,6 +1552,18 @@
         "source": "AD HOC NEWS",
         "date": "2026-05-13T11:13:56Z",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzB2eEVoLXQ2VjNmXzJsZ19UTTZQMVgwZnBPdzFqMEdWUk90R0xqTEVJTXlLZGRDOHIwaDlOdWxlenZBOWtOTkUtdnBreGh5NHFKekU1LURnYS1qeG50TUI1MzZ4MjVVQ1hTeGdBM1VnVWJ6M2laV3J2d2FoYUdIc2loTmdrb2JQaUVzbW56UnU0T01VelpYdUJzLXFXSjN5WEJLX05ld1NjWDFxMVRsNElPcVB1T1U?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "BTIG bestätigt Kaufempfehlung für Compass Pathways angesichts Zulassungsaussichten - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-05-13T19:22:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRFM1YXN5MkRiNGVfSFpJS0xHc0FjVE5pNkJhTDl6cjhzd09Vd1VwdUs5dnk0YTNCaU9ocHRfc0lOUTlZai1TdVF5TGp0TlA5ZVpmQVQ1SnNDMFdSNlU4UGZ5VVgtYzdqc0U0ZkFUMG0xT2JnakktWF9QeDkzZFIzYmxlaDNRZTNQdVAwQkVGQVNhdzZBMzZZZ2ZvcGcweG9Hd1BGQkpJRklHWjB2SXFEeC03YVB1SWpFNGhJYTZFTzVubkFaczdfMThYb2ZrX1BBem1nU09NZFg?oc=5"
       },
       {
         "type": "FDA / Regulatorik",
@@ -1652,14 +1732,6 @@
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2, PHASE3",
         "source": "NCT07570654",
         "date": "2026-09"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "PIRe 2.0: A Stepped-Care Model for Involving Relatives Across Sectors",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07590726",
-        "date": "2026-10-01"
       }
     ],
     "queries_used": [
