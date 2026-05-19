@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.27",
-      "note": "Auto-Update: 9.55% vs. vorheriger Schlusskurs",
+      "value": "$10.15",
+      "note": "Auto-Update: 8.32% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-19T13:48:51Z",
+    "last_update_utc": "2026-05-19T16:44:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.265,
+      "regularMarketPrice": 10.15,
       "previousClose": 9.37,
-      "change": 0.895,
-      "changePercent": 9.55,
-      "regularMarketTime": "2026-05-19T13:48:36Z",
+      "change": 0.78,
+      "changePercent": 8.32,
+      "regularMarketTime": "2026-05-19T16:44:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-05-19T13:30:00Z",
-        "price": 10.265
+        "price": 10.15
       }
     ],
     "price_history_1d": [
@@ -435,11 +435,151 @@
       },
       {
         "t": "2026-05-19T13:45:00Z",
-        "price": 10.24
+        "price": 10.225
       },
       {
-        "t": "2026-05-19T13:48:36Z",
-        "price": 10.265
+        "t": "2026-05-19T13:50:00Z",
+        "price": 10.15
+      },
+      {
+        "t": "2026-05-19T13:55:00Z",
+        "price": 10.0286
+      },
+      {
+        "t": "2026-05-19T14:00:00Z",
+        "price": 9.9722
+      },
+      {
+        "t": "2026-05-19T14:05:00Z",
+        "price": 9.93
+      },
+      {
+        "t": "2026-05-19T14:10:00Z",
+        "price": 9.91
+      },
+      {
+        "t": "2026-05-19T14:15:00Z",
+        "price": 9.86
+      },
+      {
+        "t": "2026-05-19T14:20:00Z",
+        "price": 9.91
+      },
+      {
+        "t": "2026-05-19T14:25:00Z",
+        "price": 9.951
+      },
+      {
+        "t": "2026-05-19T14:30:00Z",
+        "price": 9.95
+      },
+      {
+        "t": "2026-05-19T14:35:00Z",
+        "price": 9.94
+      },
+      {
+        "t": "2026-05-19T14:40:00Z",
+        "price": 9.89
+      },
+      {
+        "t": "2026-05-19T14:45:00Z",
+        "price": 9.91
+      },
+      {
+        "t": "2026-05-19T14:50:00Z",
+        "price": 10.03
+      },
+      {
+        "t": "2026-05-19T14:55:00Z",
+        "price": 10.0659
+      },
+      {
+        "t": "2026-05-19T15:00:00Z",
+        "price": 10.0
+      },
+      {
+        "t": "2026-05-19T15:05:00Z",
+        "price": 9.93
+      },
+      {
+        "t": "2026-05-19T15:10:00Z",
+        "price": 10.06
+      },
+      {
+        "t": "2026-05-19T15:15:00Z",
+        "price": 9.9901
+      },
+      {
+        "t": "2026-05-19T15:20:00Z",
+        "price": 10.0401
+      },
+      {
+        "t": "2026-05-19T15:25:00Z",
+        "price": 10.0672
+      },
+      {
+        "t": "2026-05-19T15:30:00Z",
+        "price": 9.99
+      },
+      {
+        "t": "2026-05-19T15:35:00Z",
+        "price": 10.06
+      },
+      {
+        "t": "2026-05-19T15:40:00Z",
+        "price": 10.1
+      },
+      {
+        "t": "2026-05-19T15:45:00Z",
+        "price": 10.15
+      },
+      {
+        "t": "2026-05-19T15:50:00Z",
+        "price": 10.08
+      },
+      {
+        "t": "2026-05-19T15:55:00Z",
+        "price": 10.1
+      },
+      {
+        "t": "2026-05-19T16:00:00Z",
+        "price": 10.1099
+      },
+      {
+        "t": "2026-05-19T16:05:00Z",
+        "price": 10.05
+      },
+      {
+        "t": "2026-05-19T16:10:00Z",
+        "price": 10.09
+      },
+      {
+        "t": "2026-05-19T16:15:00Z",
+        "price": 10.1099
+      },
+      {
+        "t": "2026-05-19T16:20:00Z",
+        "price": 10.098
+      },
+      {
+        "t": "2026-05-19T16:25:00Z",
+        "price": 10.12
+      },
+      {
+        "t": "2026-05-19T16:30:00Z",
+        "price": 10.18
+      },
+      {
+        "t": "2026-05-19T16:35:00Z",
+        "price": 10.178
+      },
+      {
+        "t": "2026-05-19T16:40:00Z",
+        "price": 10.16
+      },
+      {
+        "t": "2026-05-19T16:44:00Z",
+        "price": 10.15
       }
     ],
     "price_history_range": "1mo",
@@ -587,6 +727,22 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: Osmind-Netzwerk mit 1.000 Kliniken - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM2kyRm5BTmh0T2pHcHlpSk50WXJxRUU4c0NJcU1UQ1NNazZMQU1LVVNFNlJLa3lwMGtiS25ZZmlsclNqRVJzNjl1ZWNSdzRfSERDSVpVbF82SnZWd3RjN1pONmJxR2VwRlNyaDdGMlcweTdEMS1ieWs5WndaWkZVZGVaZ1hvU2xsN19zV3FVOTJvSFpSR2lRTFM3RHRPN0dqNTZWSA?oc=5",
+        "published_at": "2026-04-23T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -828,22 +984,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 19
-      },
-      {
-        "title": "IPO geglückt: Aktie von Compass Pathways explodiert über 70% - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjNsX2xzM2xEVUlSTF9sWnREQzExWVJpeUU0NVJBUzVYMlBnYnpXbmM1SHF0dzJweERDb3pnaDJzZGh5cklTZUM1N1BRcTdNNjZ4MUZFV2ZmSW5yNWRHaUJjTnVMUnVEajJUOXpKVlVMenVHcEpURGZTZE80cExTRGpGWkswdDhZRkFUajhtMDN2Z1dtSVo5bDFIbllnZE8tbGF4ZmFjbDVoU3k3XzRMTnRTME8?oc=5",
-        "published_at": "2020-09-21T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
       }
     ],
     "sec_filings": [
