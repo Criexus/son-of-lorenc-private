@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$41.72",
-      "note": "Auto-Update: 1.22% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 1.21% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-19T07:36:57Z",
+    "last_update_utc": "2026-05-19T10:54:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 41.719,
+      "regularMarketPrice": 41.716,
       "previousClose": 41.218,
-      "change": 0.501,
-      "changePercent": 1.22,
-      "regularMarketTime": "2026-05-19T07:05:01Z",
+      "change": 0.498,
+      "changePercent": 1.21,
+      "regularMarketTime": "2026-05-19T10:38:18Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,30 +240,54 @@
       },
       {
         "t": "2026-05-19T07:00:00Z",
-        "price": 41.719
+        "price": 41.716
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-05-19T07:05:00Z",
+        "price": 41.719
+      },
+      {
+        "t": "2026-05-19T07:20:00Z",
+        "price": 41.777
+      },
+      {
+        "t": "2026-05-19T08:00:00Z",
+        "price": 41.842
+      },
+      {
+        "t": "2026-05-19T08:10:00Z",
+        "price": 41.787
+      },
+      {
+        "t": "2026-05-19T09:10:00Z",
+        "price": 41.789
+      },
+      {
+        "t": "2026-05-19T09:15:00Z",
+        "price": 41.733
+      },
+      {
+        "t": "2026-05-19T09:25:00Z",
+        "price": 41.739
+      },
+      {
+        "t": "2026-05-19T09:45:00Z",
+        "price": 41.678
+      },
+      {
+        "t": "2026-05-19T10:10:00Z",
+        "price": 41.7
+      },
+      {
+        "t": "2026-05-19T10:38:18Z",
+        "price": 41.716
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "DEKA MSCI WORLD ETF Kurs | ETFL50 | DE000ETFL508 - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YRUx2X2UtNDN5Unpwa1hhWl9QNzZfU08xWVBYVmswVWJxQUJBVjdKWVpSVVZCUVdvVDIzbWp4YjQ2MkVKWWVnWXFvRy1kci0yb0NSNnlPekQ3VmhYX0tralV2MGY3UGQyNDRNRXlR?oc=5",
-        "published_at": "2020-03-06T02:11:34Z",
-        "source": "Finanzen.net",
-        "query": "MSCI World ETF ELFW.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      }
-    ],
+    "news": [],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
