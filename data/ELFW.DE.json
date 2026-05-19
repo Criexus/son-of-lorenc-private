@@ -135,7 +135,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-19T00:01:27Z",
+    "last_update_utc": "2026-05-19T03:44:47Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
@@ -379,7 +379,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "DEKA MSCI WORLD ETF Kurs | ETFL50 | DE000ETFL508 - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YRUx2X2UtNDN5Unpwa1hhWl9QNzZfU08xWVBYVmswVWJxQUJBVjdKWVpSVVZCUVdvVDIzbWp4YjQ2MkVKWWVnWXFvRy1kci0yb0NSNnlPekQ3VmhYX0tralV2MGY3UGQyNDRNRXlR?oc=5",
+        "published_at": "2020-03-06T02:11:34Z",
+        "source": "Finanzen.net",
+        "query": "MSCI World ETF ELFW.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      }
+    ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
