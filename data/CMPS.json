@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.72",
-      "note": "Auto-Update: -2.19% vs. vorheriger Schlusskurs",
+      "value": "$10.87",
+      "note": "Auto-Update: -0.82% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-20T18:38:27Z",
+    "last_update_utc": "2026-05-20T20:57:15Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.72,
+      "regularMarketPrice": 10.87,
       "previousClose": 10.96,
-      "change": -0.24,
-      "changePercent": -2.19,
-      "regularMarketTime": "2026-05-20T18:37:54Z",
+      "change": -0.09,
+      "changePercent": -0.82,
+      "regularMarketTime": "2026-05-20T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "2.25 – 11.65"
     },
     "price_history": [
-      {
-        "t": "2026-04-20T13:30:00Z",
-        "price": 9.46
-      },
       {
         "t": "2026-04-21T13:30:00Z",
         "price": 9.25
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-05-20T13:30:00Z",
-        "price": 10.72
+        "price": 10.87
       }
     ],
     "price_history_1d": [
@@ -671,11 +667,75 @@
       },
       {
         "t": "2026-05-20T18:35:00Z",
-        "price": 10.7201
+        "price": 10.715
       },
       {
-        "t": "2026-05-20T18:37:54Z",
-        "price": 10.72
+        "t": "2026-05-20T18:40:00Z",
+        "price": 10.685
+      },
+      {
+        "t": "2026-05-20T18:45:00Z",
+        "price": 10.7095
+      },
+      {
+        "t": "2026-05-20T18:50:00Z",
+        "price": 10.67
+      },
+      {
+        "t": "2026-05-20T18:55:00Z",
+        "price": 10.685
+      },
+      {
+        "t": "2026-05-20T19:00:00Z",
+        "price": 10.745
+      },
+      {
+        "t": "2026-05-20T19:05:00Z",
+        "price": 10.725
+      },
+      {
+        "t": "2026-05-20T19:10:00Z",
+        "price": 10.7499
+      },
+      {
+        "t": "2026-05-20T19:15:00Z",
+        "price": 10.76
+      },
+      {
+        "t": "2026-05-20T19:20:00Z",
+        "price": 10.8
+      },
+      {
+        "t": "2026-05-20T19:25:00Z",
+        "price": 10.85
+      },
+      {
+        "t": "2026-05-20T19:30:00Z",
+        "price": 10.875
+      },
+      {
+        "t": "2026-05-20T19:35:00Z",
+        "price": 10.865
+      },
+      {
+        "t": "2026-05-20T19:40:00Z",
+        "price": 10.865
+      },
+      {
+        "t": "2026-05-20T19:45:00Z",
+        "price": 10.88
+      },
+      {
+        "t": "2026-05-20T19:50:00Z",
+        "price": 10.865
+      },
+      {
+        "t": "2026-05-20T19:55:00Z",
+        "price": 10.87
+      },
+      {
+        "t": "2026-05-20T20:00:00Z",
+        "price": 10.87
       }
     ],
     "price_history_range": "1mo",
@@ -814,7 +874,7 @@
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMFNEWU42SGdGeUpnYkJYbFpVV2o4R256dmwxZnVQUFZkYkJ0SHFabmRDYVVnRzV0UkNROU44S3EzdE9ELVRjaVZsUF80VzYwNnVPY25aR2E3WU9rU3hVaVI4V2JHd0dqMUxjQlc0ajQ0aTRvUTlkMzVuOHFHVTBGVnFXYUZqZ3hhZ0U3VmluM2Q3REcxSU45YjNFUnlZWG5jMWJ5YXVJRVV3RnRLZkRvVEItc3dpLTU1a2tJNmp5NHh3MzRGeXZJRndqcVZXRXhjOXoxeTgzX3J0MDZmRXA4RE4wWVhqaGUz?oc=5",
         "published_at": "2026-04-24T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "CMPS FDA COMP360",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -823,7 +883,7 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 17
+        "relevance_score": 16
       },
       {
         "title": "Compass Pathways-Aktie: Ein Federstrich, der alles verändert! - Finanztrends",
@@ -936,6 +996,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways startet Förderprogramm für Psilocybin-Schulungen - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSExsVWNIWEdyZmIwd3Y0OTJmdEJPaEtqa3VPQk8xYnVzNzNHdDJKNktJY2JMVmZhdTVzZXlBaDBXWVl0VWZDQm5LTmdMQmtQOVBZdkFWb1ZsNjJNXzVrT0xKdW42MVFNcDRVeXhUUXF0c0pMSWlRRnlDR0NvQmZ5aXFCMy0xeVUxNzRLZEdCNTllR1B0NWVQX3FOenFXN2RKZTB2eEpkRDNTckp0SjBtUW9FNTVLSTJkeEZ0cw?oc=5",
+        "published_at": "2026-04-14T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 18
       },
       {
         "title": "BTIG bekräftigt Kursziel für Compass Pathways nach positiven Studiendaten - Investing.com Deutsch",
