@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-21T20:31:00Z",
+    "last_update_utc": "2026-05-21T21:58:20Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -644,6 +644,13 @@
     ],
     "sec_filings": [
       {
+        "form": "6-K",
+        "filingDate": "2026-05-21",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026060088/ea0291734-01.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "4",
         "filingDate": "2026-05-20",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026059540/xslF345X06/ownership.xml",
@@ -773,13 +780,6 @@
         "form": "6-K",
         "filingDate": "2025-11-12",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025109213/ea0264150-6k_haoxi.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "6-K",
-        "filingDate": "2025-10-24",
-        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025102164/ea0262030-6k_haoxi.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1040,14 +1040,6 @@
       {
         "type": "SEC · Finanzbericht",
         "level": "medium",
-        "title": "6-K · 2025-10-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2025-10-24"
-      },
-      {
-        "type": "SEC · Finanzbericht",
-        "level": "medium",
         "title": "6-K · 2025-11-12",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1132,6 +1124,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-19"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-05-21",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-21"
       },
       {
         "type": "ClinicalTrials.gov",
