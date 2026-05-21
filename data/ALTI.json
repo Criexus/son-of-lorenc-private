@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.56",
-      "note": "Auto-Update: 2.01% vs. vorheriger Schlusskurs",
+      "value": "$3.46",
+      "note": "Auto-Update: -0.86% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-21T18:53:23Z",
+    "last_update_utc": "2026-05-21T20:31:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.56,
+      "regularMarketPrice": 3.46,
       "previousClose": 3.49,
-      "change": 0.07,
-      "changePercent": 2.01,
-      "regularMarketTime": "2026-05-21T18:52:22Z",
+      "change": -0.03,
+      "changePercent": -0.86,
+      "regularMarketTime": "2026-05-21T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,10 +240,6 @@
       "fiftyTwoWeekRange": "2.96 – 5.445"
     },
     "price_history": [
-      {
-        "t": "2026-04-21T13:30:00Z",
-        "price": 3.77
-      },
       {
         "t": "2026-04-22T13:30:00Z",
         "price": 3.79
@@ -330,7 +326,7 @@
       },
       {
         "t": "2026-05-21T13:30:00Z",
-        "price": 3.56
+        "price": 3.46
       }
     ],
     "price_history_1d": [
@@ -523,8 +519,60 @@
         "price": 3.57
       },
       {
-        "t": "2026-05-21T18:52:22Z",
+        "t": "2026-05-21T18:50:00Z",
+        "price": 3.54
+      },
+      {
+        "t": "2026-05-21T18:55:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-05-21T19:00:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-05-21T19:05:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-05-21T19:10:00Z",
         "price": 3.56
+      },
+      {
+        "t": "2026-05-21T19:15:00Z",
+        "price": 3.545
+      },
+      {
+        "t": "2026-05-21T19:20:00Z",
+        "price": 3.545
+      },
+      {
+        "t": "2026-05-21T19:25:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-05-21T19:30:00Z",
+        "price": 3.511
+      },
+      {
+        "t": "2026-05-21T19:40:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-05-21T19:45:00Z",
+        "price": 3.54
+      },
+      {
+        "t": "2026-05-21T19:50:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-05-21T19:55:00Z",
+        "price": 3.47
+      },
+      {
+        "t": "2026-05-21T20:00:00Z",
+        "price": 3.46
       }
     ],
     "price_history_range": "1mo",
