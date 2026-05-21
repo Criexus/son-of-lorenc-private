@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.94",
-      "note": "Auto-Update: -3.29% vs. vorheriger Schlusskurs",
+      "value": "$3.02",
+      "note": "Auto-Update: -0.49% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-21T13:45:49Z",
+    "last_update_utc": "2026-05-21T16:38:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.94,
+      "regularMarketPrice": 3.025,
       "previousClose": 3.04,
-      "change": -0.1,
-      "changePercent": -3.29,
-      "regularMarketTime": "2026-05-21T13:45:41Z",
+      "change": -0.015,
+      "changePercent": -0.49,
+      "regularMarketTime": "2026-05-21T16:37:43Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -403,7 +403,7 @@
       },
       {
         "t": "2026-05-21T13:30:00Z",
-        "price": 2.94
+        "price": 3.025
       }
     ],
     "price_history_1d": [
@@ -420,8 +420,148 @@
         "price": 2.945
       },
       {
-        "t": "2026-05-21T13:45:44Z",
-        "price": 2.9401
+        "t": "2026-05-21T13:45:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-05-21T13:50:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-05-21T13:55:00Z",
+        "price": 2.948
+      },
+      {
+        "t": "2026-05-21T14:00:00Z",
+        "price": 2.968
+      },
+      {
+        "t": "2026-05-21T14:05:00Z",
+        "price": 2.9796
+      },
+      {
+        "t": "2026-05-21T14:10:00Z",
+        "price": 2.975
+      },
+      {
+        "t": "2026-05-21T14:15:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-05-21T14:20:00Z",
+        "price": 2.945
+      },
+      {
+        "t": "2026-05-21T14:25:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-05-21T14:30:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-05-21T14:35:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-05-21T14:40:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-05-21T14:45:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-05-21T14:50:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-05-21T14:55:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-05-21T15:00:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-05-21T15:05:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-05-21T15:10:00Z",
+        "price": 3.0089
+      },
+      {
+        "t": "2026-05-21T15:15:00Z",
+        "price": 3.0165
+      },
+      {
+        "t": "2026-05-21T15:20:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-05-21T15:25:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-05-21T15:30:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-05-21T15:35:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-05-21T15:40:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-05-21T15:45:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-05-21T15:50:00Z",
+        "price": 3.0298
+      },
+      {
+        "t": "2026-05-21T15:55:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-05-21T16:00:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-05-21T16:05:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-05-21T16:10:00Z",
+        "price": 3.0151
+      },
+      {
+        "t": "2026-05-21T16:15:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-05-21T16:20:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-05-21T16:25:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-05-21T16:30:00Z",
+        "price": 3.0212
+      },
+      {
+        "t": "2026-05-21T16:35:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-05-21T16:37:43Z",
+        "price": 3.025
       }
     ],
     "price_history_range": "1mo",
@@ -544,22 +684,6 @@
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TOUYxNkxhZmozN1dmOHJyZ0xxVXdKdXpXTTdTdjhndzRFLU11Y2Zld3ptSlBmVTJNbEdfTG5aTlRQSjgzd0FmdlRWQWFLdDdhS1pOQ1dTNTJkQ1NzNkdPek1zcWVvZ1U?oc=5",
         "published_at": "2022-09-12T07:31:33Z",
         "source": "TradingView",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Recursion Pharmaceuticals, Inc. Finanzberichte – NASDAQ:RXRX - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByY3ZiYlZsSmZSWVJhaVJXSnlRSVlIVXN3eFIzd0o2dnhPUTdSQ3JxWmpmcXowUmI5c201Yk9fWVFta0lMeHRDaHh5bjRKMG5wbUY5V1hSZGY0V2oyejVRaFdLMUhraWdTT2lhVHJTaGZZZTBTS3c?oc=5",
-        "published_at": "2021-04-16T06:02:10Z",
-        "source": "TradingView",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -569,7 +693,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 25
+        "relevance_score": 7
       },
       {
         "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
