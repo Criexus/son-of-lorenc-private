@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-21T21:57:09Z",
+    "last_update_utc": "2026-05-21T22:59:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -737,27 +737,27 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Atai Beckley Aktie: 7,56 Prozent auf FDA-Hoffnung - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdFhDMUVBQXpfLW1mTHk5TGd4SHBvdlMyWUpNTW9MMGpHdjcyY1VLOWtHY3FjQzhTMnFRejV0V3U4X0tCQVVncmpiS1M5d2haNDRHcXZ0T1RqNTdyU3hmM3VubzlfMVdvNVdiRjRaUFhrOGgtd29pTXpOM29Sc09LdVJwYmx6VGNNa1Y0a1Q1OG9OQjZTUld3NENHUFRoV3FY?oc=5",
-        "published_at": "2026-05-21T16:15:05Z",
-        "source": "Börse Express",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 17
-      },
-      {
         "title": "Atai Beckley Aktie: 6 Prozent Sprung auf 3,60 Euro - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQODNnNFhhb2lLUkpfUzdHWTZpMjJCY2Z5bnM1NnExS0N4cW5JWkg1WVFMaVg5X0lLOTA2NE15ZWx0MjV3UUVIVGNCYUJ6aXhrdmp4TWROMFpVekdibXQzWUVhSFQxMDRTSnUzZkotVjR4VXgxUmxPS1RuXzl3dnNxWndQdENyUjlnTXg5VjItZWtlY3dyVkI3d2FwQ0J0d0U5NkRPYzlJR1AwcG1O?oc=5",
         "published_at": "2026-05-19T09:17:48Z",
         "source": "AD HOC NEWS",
         "query": "AtaiBeckley BPL-003 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Atai Beckley Aktie: 9 Prozent Sprung auf 3,72 Euro - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV1BNZzhHdmthMUprU2V0YktkWVktRmYzYjg0aVl5VFhtbXNxOVZiSDB3OTdNRjVQaWMxeGY1R1hudDNLUnlRMEtZOWZpVXFONHNzZ0pzYjVDckUtbU5kZWdrR1NYWU5LenZ1VTAzYjN2R2MtY0huSUw3Qmx6U2ozVHkxVlNPMjk3QmVSbGM2dTIzTzlhR2NPMjJTVVNXaW1HcXc?oc=5",
+        "published_at": "2026-05-18T14:30:05Z",
+        "source": "Börse Express",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1543,18 +1543,6 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVWpXVzBFcktNZ2pPU2ZkanFSZ2pCdDhXZlRQcjRwb2lRdWdrR0hBdXFkNDV5bnlMNWY2NWZpQkhfWVhnanU2b2tqYm1aOVkyNTVMOEN3eEppdThVZjNudG0yR3FZQjBya3R5MVhpQW92UmMwbzlablJ4WWY0Z2dSUTZrYThfTmV6YzRURnJJYmZlc1Q5TS1NUnFkNjQtSHU3cUNWZlBYOVFMZkVZV3U0aUJ3?oc=5"
       },
       {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "Atai Beckley Aktie: 7,56 Prozent auf FDA-Hoffnung - Börse Express",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Börse Express",
-        "date": "2026-05-21T16:15:05Z",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdFhDMUVBQXpfLW1mTHk5TGd4SHBvdlMyWUpNTW9MMGpHdjcyY1VLOWtHY3FjQzhTMnFRejV0V3U4X0tCQVVncmpiS1M5d2haNDRHcXZ0T1RqNTdyU3hmM3VubzlfMVdvNVdiRjRaUFhrOGgtd29pTXpOM29Sc09LdVJwYmx6VGNNa1Y0a1Q1OG9OQjZTUld3NENHUFRoV3FY?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Oral Morphine Versus Ketamine in Pain Management",
@@ -1741,6 +1729,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-02-17"
+      },
+      {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
+        "title": "AtaiBeckley Aktie: Fokus auf Investoren - Börse Global",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "Börse Global",
+        "date": "2026-02-18T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBcHVQc2JFckRIVFpHZTEtYW4yckxURk5FYl94Mlk5TFhoN3gxeEdoQ2JJV2VZTXM4aGJYQVhHNHR1bjRHa2hPY3JSUEdQOUJTa19FQnVsUEZjTEpsdlNDZ3dUUFdZQmMxVWdGZmpaNnpVSlI0dm5qaFBqWDhnYTA?oc=5"
       }
     ],
     "queries_used": [
