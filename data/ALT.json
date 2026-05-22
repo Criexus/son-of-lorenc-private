@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$2.92",
-      "note": "Auto-Update: 2.63% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 2.46% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-22T16:14:14Z",
+    "last_update_utc": "2026-05-22T18:12:23Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.925,
+      "regularMarketPrice": 2.92,
       "previousClose": 2.85,
-      "change": 0.075,
-      "changePercent": 2.63,
-      "regularMarketTime": "2026-05-22T16:12:42Z",
+      "change": 0.07,
+      "changePercent": 2.46,
+      "regularMarketTime": "2026-05-22T18:11:26Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-05-22T13:30:00Z",
-        "price": 2.925
+        "price": 2.92
       }
     ],
     "price_history_1d": [
@@ -555,11 +555,107 @@
       },
       {
         "t": "2026-05-22T16:10:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T16:15:00Z",
+        "price": 2.915
+      },
+      {
+        "t": "2026-05-22T16:20:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T16:25:00Z",
+        "price": 2.9356
+      },
+      {
+        "t": "2026-05-22T16:30:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-05-22T16:35:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-05-22T16:40:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-05-22T16:45:00Z",
+        "price": 2.9201
+      },
+      {
+        "t": "2026-05-22T16:50:00Z",
         "price": 2.92
       },
       {
-        "t": "2026-05-22T16:12:42Z",
+        "t": "2026-05-22T16:55:00Z",
         "price": 2.925
+      },
+      {
+        "t": "2026-05-22T17:00:00Z",
+        "price": 2.9232
+      },
+      {
+        "t": "2026-05-22T17:05:00Z",
+        "price": 2.9201
+      },
+      {
+        "t": "2026-05-22T17:10:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T17:15:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-05-22T17:20:00Z",
+        "price": 2.915
+      },
+      {
+        "t": "2026-05-22T17:25:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T17:30:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-05-22T17:35:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T17:40:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T17:45:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-05-22T17:50:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-05-22T17:55:00Z",
+        "price": 2.9274
+      },
+      {
+        "t": "2026-05-22T18:00:00Z",
+        "price": 2.917
+      },
+      {
+        "t": "2026-05-22T18:05:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-05-22T18:10:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-05-22T18:11:26Z",
+        "price": 2.92
       }
     ],
     "price_history_range": "1mo",
@@ -630,22 +726,6 @@
         "relevance_score": 6
       },
       {
-        "title": "Altimmune Aktie: Roadmap für 2026 - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcVl3Mm9uWldua0lSaXZwU29MZzhQMGp0ei1XZVJBMUlmc3poTGFFM2FHYW1zYjcyckdVcHMzSG9hOGNEUmlfSDJxSUh5dTgwbENQZS1yRzlTLTh3MGtSSmdQX0xEYkFiaVk2UHl4bnlpR2RCc0xydzRNWFpBSmRxREYzRXE2TUhNNk1hVXc3UmV5eEdVOUI4?oc=5",
-        "published_at": "2026-03-06T08:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
-      },
-      {
         "title": "Altimmune Aktie: Kapitalspritze für MASH-Studie - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEZha01BX2JpVzc3eUNCVGlEQkkxSDJPdjZhVlY5cU1Gb09QV19xN0JpN2xlZlNpQXBMVnZxOUhKLXY0TWpQejdOZDJKMDYyNjQ0OFhhbUpYbUxFcGJJZFhIT3N2MUEybHhycExSVFFOWkFldG9qMGMzTWItNUNrYzZocm5tdGREVzdrMQ?oc=5",
         "published_at": "2026-01-28T08:00:00Z",
@@ -660,22 +740,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Altimmune-Aktie bricht nach Ankündigung einer 75-Millionen-Dollar-Direktplatzierung ein - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
-        "published_at": "2026-01-28T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
       },
       {
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
