@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.50",
-      "note": "Auto-Update: 0.43% vs. vorheriger Schlusskurs",
+      "value": "$3.53",
+      "note": "Auto-Update: 1.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-22T13:42:24Z",
+    "last_update_utc": "2026-05-22T16:15:16Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.495,
+      "regularMarketPrice": 3.53,
       "previousClose": 3.48,
-      "change": 0.015,
-      "changePercent": 0.43,
-      "regularMarketTime": "2026-05-22T13:39:25Z",
+      "change": 0.05,
+      "changePercent": 1.44,
+      "regularMarketTime": "2026-05-22T16:11:48Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-05-22T13:30:00Z",
-        "price": 3.495
+        "price": 3.53
       }
     ],
     "price_history_1d": [
@@ -340,11 +340,75 @@
       },
       {
         "t": "2026-05-22T13:35:00Z",
-        "price": 3.42
+        "price": 3.495
       },
       {
-        "t": "2026-05-22T13:39:25Z",
-        "price": 3.495
+        "t": "2026-05-22T13:45:00Z",
+        "price": 3.51
+      },
+      {
+        "t": "2026-05-22T13:50:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-05-22T13:55:00Z",
+        "price": 3.51
+      },
+      {
+        "t": "2026-05-22T14:10:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-05-22T14:15:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-05-22T14:20:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-05-22T14:30:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-05-22T14:35:00Z",
+        "price": 3.455
+      },
+      {
+        "t": "2026-05-22T14:40:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-05-22T14:45:00Z",
+        "price": 3.53
+      },
+      {
+        "t": "2026-05-22T14:50:00Z",
+        "price": 3.54
+      },
+      {
+        "t": "2026-05-22T15:05:00Z",
+        "price": 3.53
+      },
+      {
+        "t": "2026-05-22T15:40:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-05-22T15:50:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-05-22T15:55:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-05-22T16:00:00Z",
+        "price": 3.5201
+      },
+      {
+        "t": "2026-05-22T16:11:48Z",
+        "price": 3.53
       }
     ],
     "price_history_range": "1mo",
@@ -511,116 +575,6 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT02112916",
-        "title": "Combination Chemotherapy With or Without Bortezomib in Treating Younger Patients With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia or Stage II-IV T-Cell Lymphoblastic Lymphoma",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Adult T Acute Lymphoblastic Leukemia, Ann Arbor Stage II Adult Lymphoblastic Lymphoma, Ann Arbor Stage II Childhood Lymphoblastic Lymphoma, Ann Arbor Stage III Adult Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2014-10-04",
-        "url": "https://clinicaltrials.gov/study/NCT02112916"
-      },
-      {
-        "nct_id": "NCT06639958",
-        "title": "A Study of Different Programs to Help ALL Patients With Taking Maintenance Medicine at Home",
-        "status": "SUSPENDED",
-        "phase": "NA",
-        "conditions": "Acute Lymphoblastic Leukemia, Childhood Acute Lymphoblastic Leukemia",
-        "last_update": "",
-        "start_date": "2024-12-04",
-        "url": "https://clinicaltrials.gov/study/NCT06639958"
-      },
-      {
-        "nct_id": "NCT00079378",
-        "title": "Decitabine and Valproic Acid in Treating Patients With Refractory or Relapsed Acute Myeloid Leukemia or Previously Treated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Adult Acute Myeloid Leukemia With 11q23 (MLL) Abnormalities, Adult Acute Myeloid Leukemia With Del(5q), Adult Acute Myeloid Leukemia With Inv(16)(p13;q22), Adult Acute Myeloid Leukemia With t(15;17)(q22;q12)",
-        "last_update": "",
-        "start_date": "2004-02",
-        "url": "https://clinicaltrials.gov/study/NCT00079378"
-      },
-      {
-        "nct_id": "NCT00103285",
-        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Acute Lymphoblastic Leukemia, Childhood B Acute Lymphoblastic Leukemia",
-        "last_update": "",
-        "start_date": "2005-04-11",
-        "url": "https://clinicaltrials.gov/study/NCT00103285"
-      },
-      {
-        "nct_id": "NCT00501826",
-        "title": "Combination Chemotherapy and Nelarabine in Treating Patients With T-cell Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "T Acute Lymphoblastic Leukemia, T Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2007-07-11",
-        "url": "https://clinicaltrials.gov/study/NCT00501826"
-      },
-      {
-        "nct_id": "NCT06124157",
-        "title": "A Study Testing the Combination of Dasatinib or Imatinib to Chemotherapy Treatment With Blinatumomab for Children, Adolescents, and Young Adults With Philadelphia Chromosome Positive (Ph+) or ABL-Class Philadelphia Chromosome-Like (Ph-Like) B-cell Acute Lymphoblastic Leukemia (B-ALL)",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "B Acute Lymphoblastic Leukemia",
-        "last_update": "",
-        "start_date": "2025-05-30",
-        "url": "https://clinicaltrials.gov/study/NCT06124157"
-      },
-      {
-        "nct_id": "NCT03275389",
-        "title": "A Study to Evaluate the Reactogenicity, Safety and Immunogenicity of GlaxoSmithKline (GSK) Biologicals' Investigational Supra-seasonal Universal Influenza Vaccines - Inactivated (SUIVs) (GSK3816302A) in Healthy Adults Aged 18 to 39 Years",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Influenza, Human",
-        "last_update": "",
-        "start_date": "2017-09-08",
-        "url": "https://clinicaltrials.gov/study/NCT03275389"
-      },
-      {
-        "nct_id": "NCT06918431",
-        "title": "Asparaginase Erwinia Chrysanthemi With Chemotherapy for the Treatment of High-Risk Adults With Newly Diagnosed Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative, Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2025-10-10",
-        "url": "https://clinicaltrials.gov/study/NCT06918431"
-      },
-      {
-        "nct_id": "NCT00720109",
-        "title": "Dasatinib and Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "status": "COMPLETED",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "Acute Lymphoblastic Leukemia, Adult B Acute Lymphoblastic Leukemia With t(9;22)(q34.1;q11.2); BCR-ABL1, Childhood B Acute Lymphoblastic Leukemia With t(9;22)(q34.1;q11.2); BCR-ABL1",
-        "last_update": "",
-        "start_date": "2008-07-14",
-        "url": "https://clinicaltrials.gov/study/NCT00720109"
-      },
-      {
-        "nct_id": "NCT04546399",
-        "title": "A Study to Compare Blinatumomab Alone to Blinatumomab With Nivolumab in Patients Diagnosed With First Relapse B-Cell Acute Lymphoblastic Leukemia (B-ALL)",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Down Syndrome, Recurrent B Acute Lymphoblastic Leukemia",
-        "last_update": "",
-        "start_date": "2020-12-17",
-        "url": "https://clinicaltrials.gov/study/NCT04546399"
-      },
-      {
-        "nct_id": "NCT04216524",
-        "title": "Venetoclax, SL-401, and Chemotherapy for the Treatment of Blastic Plasmacytoid Dendritic Cell Neoplasm",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Blastic Plasmacytoid Dendritic Cell Neoplasm",
-        "last_update": "",
-        "start_date": "2020-05-29",
-        "url": "https://clinicaltrials.gov/study/NCT04216524"
-      },
-      {
         "nct_id": "NCT02003222",
         "title": "Combination Chemotherapy With or Without Blinatumomab in Treating Patients With Newly Diagnosed BCR-ABL-Negative B Lineage Acute Lymphoblastic Leukemia",
         "status": "ACTIVE_NOT_RECRUITING",
@@ -629,6 +583,26 @@
         "last_update": "",
         "start_date": "2014-05-19",
         "url": "https://clinicaltrials.gov/study/NCT02003222"
+      },
+      {
+        "nct_id": "NCT00109824",
+        "title": "Decitabine With or Without Valproic Acid in Treating Patients With Relapsed or Refractory Non-Hodgkin's Lymphoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Adult Burkitt Lymphoma, Recurrent Adult Diffuse Large Cell Lymphoma, Recurrent Mantle Cell Lymphoma",
+        "last_update": "",
+        "start_date": "2006-03",
+        "url": "https://clinicaltrials.gov/study/NCT00109824"
+      },
+      {
+        "nct_id": "NCT03517254",
+        "title": "Use of Glutamine for Recovery Muscle Strength",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Anterior Cruciate Ligament Reconstruction",
+        "last_update": "",
+        "start_date": "2018-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT03517254"
       },
       {
         "nct_id": "NCT05032183",
@@ -641,50 +615,132 @@
         "url": "https://clinicaltrials.gov/study/NCT05032183"
       },
       {
-        "nct_id": "NCT00084981",
-        "title": "Decitabine and Valproic Acid in Treating Patients With Non-Small Cell Lung Cancer",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Recurrent Non-small Cell Lung Cancer, Stage IV Non-small Cell Lung Cancer",
+        "nct_id": "NCT02883049",
+        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed High-Risk B Acute Lymphoblastic Leukemia and Ph-Like TKI Sensitive Mutations",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "B Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia, BCR-ABL1-Like, Central Nervous System Leukemia, Testicular Leukemia",
         "last_update": "",
-        "start_date": "2004-04",
-        "url": "https://clinicaltrials.gov/study/NCT00084981"
+        "start_date": "2012-02-29",
+        "url": "https://clinicaltrials.gov/study/NCT02883049"
       },
       {
-        "nct_id": "NCT01503632",
-        "title": "Assessing Compliance With Mercaptopurine Treatment in Younger Patients With Acute Lymphoblastic Leukemia in First Remission",
+        "nct_id": "NCT06317662",
+        "title": "Testing the Addition of the Anti-cancer Drug Venetoclax and/or the Anti-cancer Immunotherapy Blinatumomab to the Usual Chemotherapy Treatment for Infants With Newly Diagnosed KMT2A-rearranged or KMT2A-non-rearranged Leukemia",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Acute Leukemia of Ambiguous Lineage, B Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2025-06-05",
+        "url": "https://clinicaltrials.gov/study/NCT06317662"
+      },
+      {
+        "nct_id": "NCT00866918",
+        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Promyelocytic Leukemia",
         "status": "COMPLETED",
         "phase": "PHASE3",
-        "conditions": "Acute Lymphoblastic Leukemia",
+        "conditions": "Childhood Acute Promyelocytic Leukemia With PML-RARA, Myeloid Neoplasm",
         "last_update": "",
-        "start_date": "2012-02-21",
-        "url": "https://clinicaltrials.gov/study/NCT01503632"
+        "start_date": "2009-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT00866918"
+      },
+      {
+        "nct_id": "NCT00671034",
+        "title": "Calaspargase Pegol or Pegaspargase and Combination Chemotherapy in Treating Younger Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia, Adult B Acute Lymphoblastic Leukemia, Childhood B Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2008-07-21",
+        "url": "https://clinicaltrials.gov/study/NCT00671034"
+      },
+      {
+        "nct_id": "NCT00501826",
+        "title": "Combination Chemotherapy and Nelarabine in Treating Patients With T-cell Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "T Acute Lymphoblastic Leukemia, T Lymphoblastic Lymphoma",
+        "last_update": "",
+        "start_date": "2007-07-11",
+        "url": "https://clinicaltrials.gov/study/NCT00501826"
+      },
+      {
+        "nct_id": "NCT03959085",
+        "title": "Inotuzumab Ozogamicin and Post-Induction Chemotherapy in Treating Patients With High-Risk B-ALL, Mixed Phenotype Acute Leukemia, and B-LLy",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "B Acute Lymphoblastic Leukemia, B Lymphoblastic Lymphoma, Central Nervous System Leukemia, Mixed Phenotype Acute Leukemia",
+        "last_update": "",
+        "start_date": "2019-10-31",
+        "url": "https://clinicaltrials.gov/study/NCT03959085"
+      },
+      {
+        "nct_id": "NCT04546399",
+        "title": "A Study to Compare Blinatumomab Alone to Blinatumomab With Nivolumab in Patients Diagnosed With First Relapse B-Cell Acute Lymphoblastic Leukemia (B-ALL)",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Down Syndrome, Recurrent B Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2020-12-17",
+        "url": "https://clinicaltrials.gov/study/NCT04546399"
+      },
+      {
+        "nct_id": "NCT01817751",
+        "title": "Sorafenib, Valproic Acid, and Sildenafil in Treating Patients With Recurrent High-Grade Glioma",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Glioblastoma, Recurrent Adult Brain Neoplasm, Malignant Glioma, WHO Grade III Glioma",
+        "last_update": "",
+        "start_date": "2013-04-11",
+        "url": "https://clinicaltrials.gov/study/NCT01817751"
+      },
+      {
+        "nct_id": "NCT02101853",
+        "title": "Blinatumomab in Treating Younger Patients With Relapsed B-cell Acute Lymphoblastic Leukemia",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Recurrent B Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2014-12-17",
+        "url": "https://clinicaltrials.gov/study/NCT02101853"
+      },
+      {
+        "nct_id": "NCT00075725",
+        "title": "Dexamethasone Compared With Prednisone During Induction Therapy and Methotrexate With or Without Leucovorin During Maintenance Therapy in Treating Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia, Adult B Acute Lymphoblastic Leukemia, Childhood B Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2003-12-29",
+        "url": "https://clinicaltrials.gov/study/NCT00075725"
+      },
+      {
+        "nct_id": "NCT02420717",
+        "title": "Ruxolitinib Phosphate or Dasatinib With Chemotherapy in Treating Patients With Relapsed or Refractory Philadelphia Chromosome-Like Acute Lymphoblastic Leukemia",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Recurrent B Acute Lymphoblastic Leukemia, Recurrent Ph-Like Acute Lymphoblastic Leukemia, Refractory B Acute Lymphoblastic Leukemia, Refractory Ph-Like Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2015-07-15",
+        "url": "https://clinicaltrials.gov/study/NCT02420717"
       }
     ],
     "detected_triggers": [
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Decitabine and Valproic Acid in Treating Patients With Refractory or Relapsed Acute Myeloid Leukemia or Previously Treated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT00079378",
-        "date": "2004-02"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Decitabine and Valproic Acid in Treating Patients With Non-Small Cell Lung Cancer",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT00084981",
-        "date": "2004-04"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
+        "title": "Dexamethasone Compared With Prednisone During Induction Therapy and Methotrexate With or Without Leucovorin During Maintenance Therapy in Treating Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia",
         "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT00103285",
-        "date": "2005-04-11"
+        "source": "NCT00075725",
+        "date": "2003-12-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Decitabine With or Without Valproic Acid in Treating Patients With Relapsed or Refractory Non-Hodgkin's Lymphoma",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT00109824",
+        "date": "2006-03"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -697,18 +753,34 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Dasatinib and Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2, PHASE3",
-        "source": "NCT00720109",
-        "date": "2008-07-14"
+        "title": "Calaspargase Pegol or Pegaspargase and Combination Chemotherapy in Treating Younger Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00671034",
+        "date": "2008-07-21"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Assessing Compliance With Mercaptopurine Treatment in Younger Patients With Acute Lymphoblastic Leukemia in First Remission",
+        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Promyelocytic Leukemia",
         "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT01503632",
-        "date": "2012-02-21"
+        "source": "NCT00866918",
+        "date": "2009-03-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed High-Risk B Acute Lymphoblastic Leukemia and Ph-Like TKI Sensitive Mutations",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE3",
+        "source": "NCT02883049",
+        "date": "2012-02-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Sorafenib, Valproic Acid, and Sildenafil in Treating Patients With Recurrent High-Grade Glioma",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT01817751",
+        "date": "2013-04-11"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -721,26 +793,34 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Combination Chemotherapy With or Without Bortezomib in Treating Younger Patients With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia or Stage II-IV T-Cell Lymphoblastic Lymphoma",
+        "title": "Blinatumomab in Treating Younger Patients With Relapsed B-cell Acute Lymphoblastic Leukemia",
         "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE3",
-        "source": "NCT02112916",
-        "date": "2014-10-04"
+        "source": "NCT02101853",
+        "date": "2014-12-17"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study to Evaluate the Reactogenicity, Safety and Immunogenicity of GlaxoSmithKline (GSK) Biologicals' Investigational Supra-seasonal Universal Influenza Vaccines - Inactivated (SUIVs) (GSK3816302A) in Healthy Adults Aged 18 to 39 Years",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT03275389",
-        "date": "2017-09-08"
+        "title": "Ruxolitinib Phosphate or Dasatinib With Chemotherapy in Treating Patients With Relapsed or Refractory Philadelphia Chromosome-Like Acute Lymphoblastic Leukemia",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE2",
+        "source": "NCT02420717",
+        "date": "2015-07-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Venetoclax, SL-401, and Chemotherapy for the Treatment of Blastic Plasmacytoid Dendritic Cell Neoplasm",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT04216524",
-        "date": "2020-05-29"
+        "title": "Use of Glutamine for Recovery Muscle Strength",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03517254",
+        "date": "2018-03-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Inotuzumab Ozogamicin and Post-Induction Chemotherapy in Treating Patients With High-Risk B-ALL, Mixed Phenotype Acute Leukemia, and B-LLy",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT03959085",
+        "date": "2019-10-31"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -761,26 +841,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study of Different Programs to Help ALL Patients With Taking Maintenance Medicine at Home",
-        "reason": "Studienregister-Treffer: SUSPENDED NA",
-        "source": "NCT06639958",
-        "date": "2024-12-04"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study Testing the Combination of Dasatinib or Imatinib to Chemotherapy Treatment With Blinatumomab for Children, Adolescents, and Young Adults With Philadelphia Chromosome Positive (Ph+) or ABL-Class Philadelphia Chromosome-Like (Ph-Like) B-cell Acute Lymphoblastic Leukemia (B-ALL)",
+        "title": "Testing the Addition of the Anti-cancer Drug Venetoclax and/or the Anti-cancer Immunotherapy Blinatumomab to the Usual Chemotherapy Treatment for Infants With Newly Diagnosed KMT2A-rearranged or KMT2A-non-rearranged Leukemia",
         "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06124157",
-        "date": "2025-05-30"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Asparaginase Erwinia Chrysanthemi With Chemotherapy for the Treatment of High-Risk Adults With Newly Diagnosed Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06918431",
-        "date": "2025-10-10"
+        "source": "NCT06317662",
+        "date": "2025-06-05"
       },
       {
         "type": "SEC · Finanzbericht",
