@@ -131,7 +131,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-25T02:13:18Z",
+    "last_update_utc": "2026-05-25T06:51:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
@@ -706,6 +706,22 @@
         "published_at": "2025-05-13T22:07:35Z",
         "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
+      {
+        "title": "MaaT Pharma Aktie (A3C7A5) - Kurs Euronext Paris - MarketScreener Schweiz",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KMlM0d2JmM0VDSEdHcF9jV1pCN0NBVUFUckplcU93QmU0UnBGUW5KczZrWWVwLVJSMlFZeExwbGJKaUZuNDdwb3h0dEJnOEdRaUwxcG5lVmZVVFlzdjVhdW1yZHdvU214TUtfV2pKWFI?oc=5",
+        "published_at": "2021-12-13T18:32:29Z",
+        "source": "MarketScreener Schweiz",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
