@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-25T21:39:03Z",
+    "last_update_utc": "2026-05-25T22:50:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -1046,6 +1046,22 @@
         "published_at": "2026-01-08T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 15
+      },
+      {
+        "title": "AtaiBeckley Inc - Ariva",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lYlFnQlJXOEJpdy1WU0RodkhVVktUSjllRWRnRWYwd1dGdXFjTWRmUG55MU5FN0ZNeWZicmsyNkN4WG1kczMyMXdJYzNMNzdtUmV3LTRsdG5TMVpMYXc?oc=5",
+        "published_at": "2026-01-06T22:47:20Z",
+        "source": "Ariva",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
