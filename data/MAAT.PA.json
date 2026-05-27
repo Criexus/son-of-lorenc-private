@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.85",
-      "note": "Auto-Update: -4.36% vs. vorheriger Schlusskurs",
+      "value": "$2.81",
+      "note": "Auto-Update: -5.87% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-27T14:18:05Z",
+    "last_update_utc": "2026-05-27T17:39:15Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.85,
+      "regularMarketPrice": 2.805,
       "previousClose": 2.98,
-      "change": -0.13,
-      "changePercent": -4.36,
-      "regularMarketTime": "2026-05-27T14:00:30Z",
+      "change": -0.175,
+      "changePercent": -5.87,
+      "regularMarketTime": "2026-05-27T15:35:10Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,7 +240,7 @@
       },
       {
         "t": "2026-05-27T07:00:00Z",
-        "price": 2.85
+        "price": 2.805
       }
     ],
     "price_history_1d": [
@@ -497,8 +497,80 @@
         "price": 2.855
       },
       {
-        "t": "2026-05-27T14:00:30Z",
+        "t": "2026-05-27T14:00:00Z",
         "price": 2.85
+      },
+      {
+        "t": "2026-05-27T14:05:00Z",
+        "price": 2.85
+      },
+      {
+        "t": "2026-05-27T14:10:00Z",
+        "price": 2.865
+      },
+      {
+        "t": "2026-05-27T14:15:00Z",
+        "price": 2.865
+      },
+      {
+        "t": "2026-05-27T14:20:00Z",
+        "price": 2.86
+      },
+      {
+        "t": "2026-05-27T14:25:00Z",
+        "price": 2.86
+      },
+      {
+        "t": "2026-05-27T14:30:00Z",
+        "price": 2.85
+      },
+      {
+        "t": "2026-05-27T14:35:00Z",
+        "price": 2.85
+      },
+      {
+        "t": "2026-05-27T14:40:00Z",
+        "price": 2.865
+      },
+      {
+        "t": "2026-05-27T14:45:00Z",
+        "price": 2.85
+      },
+      {
+        "t": "2026-05-27T14:50:00Z",
+        "price": 2.83
+      },
+      {
+        "t": "2026-05-27T14:55:00Z",
+        "price": 2.8
+      },
+      {
+        "t": "2026-05-27T15:00:00Z",
+        "price": 2.815
+      },
+      {
+        "t": "2026-05-27T15:05:00Z",
+        "price": 2.83
+      },
+      {
+        "t": "2026-05-27T15:10:00Z",
+        "price": 2.81
+      },
+      {
+        "t": "2026-05-27T15:15:00Z",
+        "price": 2.825
+      },
+      {
+        "t": "2026-05-27T15:20:00Z",
+        "price": 2.825
+      },
+      {
+        "t": "2026-05-27T15:25:00Z",
+        "price": 2.81
+      },
+      {
+        "t": "2026-05-27T15:30:00Z",
+        "price": 2.805
       }
     ],
     "price_history_range": "1mo",
@@ -574,22 +646,6 @@
         "published_at": "2021-12-13T20:49:01Z",
         "source": "MarketScreener Deutschland",
         "query": "\"MaaT013\" Xervyteg MaaT Pharma",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
-      {
-        "title": "MaaT Pharma Aktie (A3C7A5,MATPF,FR0012634822) - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBEY2Z6U2s4OUVJS0h0bGpkY1N4MVBSaWNGTG9WR0UtYnJOSmdIaUJabURzMmZfMmNZTVNoMVdzLXhSeVFUa2s2WGtOQlF5MnBHVmZKYUg2eUN5WWRGT3c?oc=5",
-        "published_at": "2021-10-18T06:32:02Z",
-        "source": "Finanzen.net",
-        "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
