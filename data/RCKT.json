@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.00",
-      "note": "Auto-Update: 2.74% vs. vorheriger Schlusskurs",
+      "value": "$2.99",
+      "note": "Auto-Update: 2.4% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-27T19:57:50Z",
+    "last_update_utc": "2026-05-27T21:50:36Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.0,
+      "regularMarketPrice": 2.99,
       "previousClose": 2.92,
-      "change": 0.08,
-      "changePercent": 2.74,
-      "regularMarketTime": "2026-05-27T19:57:37Z",
+      "change": 0.07,
+      "changePercent": 2.4,
+      "regularMarketTime": "2026-05-27T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -305,10 +305,6 @@
       "fiftyTwoWeekRange": "2.35 – 5.45"
     },
     "price_history": [
-      {
-        "t": "2026-04-27T13:30:00Z",
-        "price": 3.49
-      },
       {
         "t": "2026-04-28T13:30:00Z",
         "price": 3.43
@@ -391,7 +387,7 @@
       },
       {
         "t": "2026-05-27T13:30:00Z",
-        "price": 3.0
+        "price": 2.99
       }
     ],
     "price_history_1d": [
@@ -705,11 +701,11 @@
       },
       {
         "t": "2026-05-27T19:55:00Z",
-        "price": 2.995
+        "price": 3.0
       },
       {
-        "t": "2026-05-27T19:57:37Z",
-        "price": 3.0
+        "t": "2026-05-27T20:00:00Z",
+        "price": 2.99
       }
     ],
     "price_history_range": "1mo",
@@ -730,6 +726,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
+      },
+      {
+        "title": "Insider-Verkauf bei Rocket Pharmaceuticals: Finanz-VP veräußert Aktienpaket - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWHpyNkI4d3JiQTNOYXFsSEVFenZ3c190cjAtTmRqMVVKMVZIRzRUc2JVWTRUTXdQR2pUZk9iTS1LNG9EUTk0ODE0dUh6cF9JdzdVWWZ4NTJGczBUT1lhOGlGZ2JFZHF2Y0ZUSHdJRHA4cWhFeVlESHJ6T3ZFMllfNzRhX1VJWFhTbl9JWVdXVzBKTHhvT21aNE90WnlRTEJHVVdST2pZRW5IaVVMdDR4bmRKNEo2Q0UzMS1HWXloYzdrVGh1SWxpeDVqNF9ZbmF6ZlE?oc=5",
+        "published_at": "2026-05-14T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
       },
       {
         "title": "Rocket Pharmaceuticals-Aktie (US7731221062): Kursrückgang von 49 Prozent im Jahr - AD HOC NEWS",
@@ -842,22 +854,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
-      },
-      {
-        "title": "ROCKET PHARMACEUTICALS AKTIE | Aktienkurs | US77313F1066 | RCKT | A2JA9Q | News - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZUZNMS1KeFFRaFRWU2ZVbVlWMDV3dlVyUHVQSHNVTzhaNVBaakdlZXMwdDlPUG5kN0ZDb0M5N0szT3cwUjJFaVZiajhOdEFQMjM5NkQtdTRBWnFqTURSb0F4emVlOW54aHg5WQ?oc=5",
-        "published_at": "2018-02-19T15:53:56Z",
-        "source": "Finanzen.net",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 26
       },
       {
         "title": "Rocket Pharma Aktie | RCKT Kurs | Realtime - Investing.com Deutsch",
