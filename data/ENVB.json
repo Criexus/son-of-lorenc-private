@@ -165,7 +165,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-28T09:43:19Z",
+    "last_update_utc": "2026-05-28T13:01:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -468,6 +468,20 @@
         "description": "Offizielle SEC-Meldung"
       },
       {
+        "form": "CORRESP",
+        "filingDate": "2026-04-28",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226019272/filename1.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "UPLOAD",
+        "filingDate": "2026-04-27",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000000000026004265/filename1.pdf",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "S-3",
         "filingDate": "2026-04-23",
         "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226018724/forms-3.htm",
@@ -536,32 +550,10 @@
         "url": "https://www.sec.gov/Archives/edgar/data/890821/999999999526000616/xslEFFECTX01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "D",
-        "filingDate": "2026-02-11",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000089082126000001/xslFormDX01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "S-1",
-        "filingDate": "2026-02-10",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226005852/forms-1.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
     "detected_triggers": [
-      {
-        "type": "SEC · Finanzierung/Verwässerung",
-        "level": "high",
-        "title": "S-1 · 2026-02-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-02-10"
-      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
@@ -637,14 +629,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "D · 2026-02-11",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-02-11"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "EFFECT · 2026-02-17",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -681,6 +665,22 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "UPLOAD · 2026-04-27",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "CORRESP · 2026-04-28",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-28"
       },
       {
         "type": "SEC Filing",
