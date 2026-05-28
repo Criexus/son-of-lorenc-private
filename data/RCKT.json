@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.99",
-      "note": "Auto-Update: 2.4% vs. vorheriger Schlusskurs",
+      "value": "$3.04",
+      "note": "Auto-Update: 2.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-28T17:05:16Z",
+    "last_update_utc": "2026-05-28T19:52:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": null,
-      "previousClose": null,
-      "change": null,
-      "changePercent": null,
-      "regularMarketTime": null,
+      "regularMarketPrice": 3.045,
+      "previousClose": 2.97,
+      "change": 0.075,
+      "changePercent": 2.53,
+      "regularMarketTime": "2026-05-28T19:52:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -300,9 +300,9 @@
       "postMarketChange": null,
       "postMarketChangePercent": null,
       "postMarketTime": null,
-      "fiftyTwoWeekHigh": null,
-      "fiftyTwoWeekLow": null,
-      "fiftyTwoWeekRange": null
+      "fiftyTwoWeekHigh": 5.45,
+      "fiftyTwoWeekLow": 2.4,
+      "fiftyTwoWeekRange": "2.4 – 5.45"
     },
     "price_history": [
       {
@@ -391,7 +391,7 @@
       },
       {
         "t": "2026-05-28T13:30:00Z",
-        "price": 3.005
+        "price": 3.045
       }
     ],
     "price_history_1d": [
@@ -568,8 +568,144 @@
         "price": 3.005
       },
       {
-        "t": "2026-05-28T17:04:52Z",
+        "t": "2026-05-28T17:05:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-05-28T17:10:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-05-28T17:15:00Z",
+        "price": 3.0
+      },
+      {
+        "t": "2026-05-28T17:20:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-05-28T17:25:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-05-28T17:30:00Z",
         "price": 3.005
+      },
+      {
+        "t": "2026-05-28T17:35:00Z",
+        "price": 3.0
+      },
+      {
+        "t": "2026-05-28T17:40:00Z",
+        "price": 3.0
+      },
+      {
+        "t": "2026-05-28T17:45:00Z",
+        "price": 3.0112
+      },
+      {
+        "t": "2026-05-28T17:50:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-05-28T17:55:00Z",
+        "price": 3.0101
+      },
+      {
+        "t": "2026-05-28T18:00:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-05-28T18:05:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-05-28T18:10:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-05-28T18:15:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-05-28T18:20:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-05-28T18:25:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-05-28T18:30:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-05-28T18:35:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-05-28T18:40:00Z",
+        "price": 3.0301
+      },
+      {
+        "t": "2026-05-28T18:45:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-05-28T18:50:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-05-28T18:55:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-05-28T19:00:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-05-28T19:05:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-05-28T19:10:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-05-28T19:15:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-05-28T19:20:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-05-28T19:25:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-05-28T19:30:00Z",
+        "price": 3.05
+      },
+      {
+        "t": "2026-05-28T19:35:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-05-28T19:40:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-05-28T19:45:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-05-28T19:50:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-05-28T19:52:00Z",
+        "price": 3.045
       }
     ],
     "price_history_range": "1mo",
@@ -592,91 +728,11 @@
         "relevance_score": 5
       },
       {
-        "title": "Rocket Pharmaceuticals-Aktie (US7731221062): Kursrückgang von 49 Prozent im Jahr - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTBydVpiRUlWVFVzZmtLTGlDU2k4R2Y4Yzc3TXNkSkRzMlY2TlNoUE1XUGMwV184X2h4emU3TjdWUTQxejd0NXEwZGdNYkx2b2k4YUFiUVdaY253S01aay1fZkVJWnpUSU1maGF3SjdzTzRFdTh0eEJObnM2eWJleUhzam5DWEd6eVdmaW5PbC0tV1U0SjB1ZkpCbXJiRU9WdlEtbW1VaXRKWkh1b20yc19KM1h4UENIcFFXVWtqMV9OdVphbDBDSQ?oc=5",
-        "published_at": "2026-05-12T14:25:02Z",
-        "source": "AD HOC NEWS",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Rocket Pharmaceuticals Aktie (US7731221062): Gen-Therapie-Entwickler mit klinischen Meilensteinen im Fokus - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFBmZ3BNYzFRenRRc1FJVlFJd3gtbnB2TmwzLVVsc3MydUNsbzdpaXhSZzBRMW44bGhEOG1LOWdOdUpiRVBtQmxHNGVNQ0FCWXViNUhEbXZJd3NidzdaNXFXSVpQcDVySTQ4NFlIcGRrSlZhNE1MR2t6bWV6aHkyeDAyMy0yVndEX2JsTDVIa2U4WXFlcGFuQ05DNjFnTnJyNXhvTGRBTHN0cnZqeG9nWnlOUVhwVzRuU243Q1FCRHJySkJaRWlJ?oc=5",
-        "published_at": "2026-05-08T07:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5",
-        "published_at": "2026-03-27T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Scotiabank senkt Kursziel für Rocket Pharmaceuticals auf 19 US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbzJMTXd2SjFLaTBGcjQtRHhCMlR2TTNpdmpIVFBrMDBYY2U0S2tuVzZqSlNSejl1c1RYX3hfdDV2Q2VxRGRoSkpZanI2YWZVdE1UaGJGMHJqTENBMmFMWjdfclJuQVY0UmhTUGJCOGZJeWdLNEJ1M1dMa0JYZElJZ1FsRlNKT1hmYnlodmVwUzFEQjdkalQ5dElWWHRvYnNLajctM09XQms3VVpVWm9lUTh3RUM5aE1xZG9qZ1JZUWpUWk1wTnc?oc=5",
-        "published_at": "2025-05-28T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Scotiabank erhöht Kursziel für Rocket Pharmaceuticals auf 52 US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNnczZFdyWXZsaHVKQ2hpR2h1NGV1aGk0OEpSa3RfbXkxMEtiLW1zelZCa0F3NEhYTWhzNGpyWW4tdHlNNWJDQVZCbXdjU1NJdG1iRjlRUjd4WUk0dmg1bnh6NWlwVldBQWhwU0NHVS15VFk5LUlGZGhTSmJqT01nOW9MZUwxWFU1TWQxT2NGRENHZkxUdGdxSWhaRzh4MDdCRW5qMmp5emowWkItZzBUa2F1MDh5UWU5TnlObHY5OHFyY29MREJr?oc=5",
-        "published_at": "2025-03-03T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
         "title": "Rocket Pharma. Aktie (A2JA9Q, RCKT) - Kurs, Chart, News & Kennzahlen - Ariva",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9udDJTTjBEMFhXWjJRZ3V1bVhwMWJIcDVrSFNXQjV6ZlNlRjV6d0I2ZXZyaXF6ZU9GVDRJYWw4ODN4Ny1NbWUtUGEteWM4QVlhNGJMY2RPZlJ5MTFGX3hyancyaGxkc0RVTmJkbA?oc=5",
         "published_at": "2024-09-19T16:49:30Z",
         "source": "Ariva",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "query": "RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -685,30 +741,14 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
-      },
-      {
-        "title": "ROCKET PHARMACEUTICALS Aktie • A2JA9Q • US77313F1066 - Onvista",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNei1iZTR0MkRvVGQzbklWdXdlOUVfZTJnQk1vano5czgzb2NUVnVhcUFYQXd6NHhhQlEtRGY4VndUZUdUR3BBTnpaaXlsdnBOZkpDM080bHQ0OUZ2czduT0lhZExaRHRPS2RSU0VMbi1CblRRemF4MG40OGIwdHZiZA?oc=5",
-        "published_at": "2021-10-10T07:26:07Z",
-        "source": "Onvista",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
+        "relevance_score": 13
       },
       {
         "title": "ROCKET PHARMACEUTICALS AKTIE | Aktienkurs | US77313F1066 | RCKT | A2JA9Q | News - Finanzen.net",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZUZNMS1KeFFRaFRWU2ZVbVlWMDV3dlVyUHVQSHNVTzhaNVBaakdlZXMwdDlPUG5kN0ZDb0M5N0szT3cwUjJFaVZiajhOdEFQMjM5NkQtdTRBWnFqTURSb0F4emVlOW54aHg5WQ?oc=5",
         "published_at": "2018-02-19T15:53:56Z",
         "source": "Finanzen.net",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "query": "RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -717,7 +757,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 26
+        "relevance_score": 25
       },
       {
         "title": "Rocket Pharma Aktie | RCKT Kurs | Realtime - Investing.com Deutsch",
@@ -1032,18 +1072,6 @@
     ],
     "detected_triggers": [
       {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "Rocket Pharmaceuticals-Aktie legt nach FDA-Zulassung für Gentherapie zu - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-03-27T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbGRvVi1TQ3prbHlTNWV5Q0JJWk5kYTFRRVRsNG9TdDZLdGsxYTlYSmlxVFZ4RmJsRGdWS3JrZGctaTZTZ0VKanpsbnI0OTJlWDBQdFQ0Uk1wMG9SY2ljcGFKV2JmWmZfWlVndTZLb25ZUmUyS0hlYzZZQzNUVVVoT2dJMUIxNUJ4UU5RMnRmajRoS2NVM2NvUm1Tdjh6TlBlV25Zb09HRVg5blhac09ibUdIRUQtMHhtemNJSXppS2JWYnI4VGliX0p3?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
@@ -1258,6 +1286,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-05-19",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-19"
       },
       {
         "type": "SEC Filing",
