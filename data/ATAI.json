@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-29T05:50:17Z",
+    "last_update_utc": "2026-05-29T09:32:25Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -913,6 +913,22 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalRFMTdiZjFoYXdMLXdHTktvZDlBaUJkdVd1UV9MNTFjaVNDVlE1XzFobm01OUFla2Z0ZXJzRF83MG1RbHNpN0VIdm9YMzVIVXM3ODE2eUhZNmltTkJNZXB5RmFxVEJYZXVJVkFWdkpEX3Uyb1ZGZG1HV3FGWW82VENCN2FMVldReEhlVFQ4M2dTV1d0d2d1MWkyTlF5Mms?oc=5",
         "published_at": "2026-04-11T07:00:00Z",
         "source": "Börse Express",
+        "query": "ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Deutsche Bank stuft Atai Life Sciences mit \"Buy\" ein – Potenzial durch psychedelische Therapien - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQa1U4RHNoSmo0RVg2UVdSNE0wTE9JdFV6eF9Cdjg4ZmU0eFB3Zjh2TTM4eGxkdzZwbjhrVnROcG1wWU5zLUV4RkJFbGJ2cGc1ejBIaGZrT0gzd1R5a2RuNG1GRUVBd3J1SlFLaHVzNXljZ25iYmZtdUxDdE1FclNCdnpZbklRVWUxMnZfZDN3V091UVFTdzNJTGZyUkdGOW1pM3JQYTV5NzY1XzJ5dnVicDBNWFNnNmpCNHBCZlM5X2hXNE9YaW9lQ2pfck16S1FGZ3Q2bGZFTWpMTzhuTDRJSlhGc3ZiUQ?oc=5",
+        "published_at": "2026-03-27T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
