@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-05-31T15:51:33Z",
+    "last_update_utc": "2026-05-31T16:55:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -544,7 +544,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5",
+        "published_at": "2026-05-19T12:41:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Haoxi Health Technology HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 23
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
@@ -857,6 +874,18 @@
         "date": "2026-05-12"
       },
       {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-05-19T12:41:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Health-related Quality of Life of Patients With Esophageal Cancer After Surgery",
@@ -1071,14 +1100,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
       }
     ],
     "queries_used": [
