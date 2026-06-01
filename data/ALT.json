@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.05",
-      "note": "Auto-Update: 4.1% vs. vorheriger Schlusskurs",
+      "value": "$2.96",
+      "note": "Auto-Update: 2.24% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-01T08:23:57Z",
+    "last_update_utc": "2026-06-01T14:29:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.05,
-      "previousClose": 2.93,
-      "change": 0.12,
-      "changePercent": 4.1,
-      "regularMarketTime": "2026-05-29T20:00:01Z",
+      "regularMarketPrice": 2.965,
+      "previousClose": 2.9,
+      "change": 0.065,
+      "changePercent": 2.24,
+      "regularMarketTime": "2026-06-01T14:29:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "2.56 – 7.73"
     },
     "price_history": [
-      {
-        "t": "2026-04-30T13:30:00Z",
-        "price": 2.6
-      },
       {
         "t": "2026-05-01T13:30:00Z",
         "price": 2.82
@@ -414,324 +410,64 @@
       {
         "t": "2026-05-29T13:30:00Z",
         "price": 3.05
+      },
+      {
+        "t": "2026-06-01T13:30:00Z",
+        "price": 2.965
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-05-29T13:30:00Z",
-        "price": 3.055
+        "t": "2026-06-01T13:30:00Z",
+        "price": 2.95
       },
       {
-        "t": "2026-05-29T13:35:00Z",
-        "price": 3.06
+        "t": "2026-06-01T13:35:00Z",
+        "price": 2.98
       },
       {
-        "t": "2026-05-29T13:40:00Z",
-        "price": 3.06
+        "t": "2026-06-01T13:40:00Z",
+        "price": 2.995
       },
       {
-        "t": "2026-05-29T13:45:00Z",
-        "price": 3.075
+        "t": "2026-06-01T13:45:00Z",
+        "price": 2.9988
       },
       {
-        "t": "2026-05-29T13:50:00Z",
-        "price": 3.085
+        "t": "2026-06-01T13:50:00Z",
+        "price": 3.0
       },
       {
-        "t": "2026-05-29T13:55:00Z",
-        "price": 3.07
+        "t": "2026-06-01T13:55:00Z",
+        "price": 3.0
       },
       {
-        "t": "2026-05-29T14:00:00Z",
-        "price": 3.0799
+        "t": "2026-06-01T14:00:00Z",
+        "price": 2.96
       },
       {
-        "t": "2026-05-29T14:05:00Z",
-        "price": 3.075
+        "t": "2026-06-01T14:05:00Z",
+        "price": 2.985
       },
       {
-        "t": "2026-05-29T14:10:00Z",
-        "price": 3.055
+        "t": "2026-06-01T14:10:00Z",
+        "price": 2.975
       },
       {
-        "t": "2026-05-29T14:15:00Z",
-        "price": 3.05
+        "t": "2026-06-01T14:15:00Z",
+        "price": 2.985
       },
       {
-        "t": "2026-05-29T14:20:00Z",
-        "price": 3.045
+        "t": "2026-06-01T14:20:00Z",
+        "price": 2.9871
       },
       {
-        "t": "2026-05-29T14:25:00Z",
-        "price": 3.0413
+        "t": "2026-06-01T14:25:00Z",
+        "price": 2.9754
       },
       {
-        "t": "2026-05-29T14:30:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T14:35:00Z",
-        "price": 3.035
-      },
-      {
-        "t": "2026-05-29T14:40:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T14:45:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T14:50:00Z",
-        "price": 3.0662
-      },
-      {
-        "t": "2026-05-29T14:55:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T15:00:00Z",
-        "price": 3.0525
-      },
-      {
-        "t": "2026-05-29T15:05:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T15:10:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T15:15:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T15:20:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T15:25:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-05-29T15:30:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T15:35:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T15:40:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T15:45:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T15:50:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T15:55:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T16:00:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T16:05:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T16:10:00Z",
-        "price": 3.0699
-      },
-      {
-        "t": "2026-05-29T16:15:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T16:20:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T16:25:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T16:30:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T16:35:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T16:40:00Z",
-        "price": 3.0626
-      },
-      {
-        "t": "2026-05-29T16:45:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T16:50:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-05-29T16:55:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-05-29T17:00:00Z",
-        "price": 3.0799
-      },
-      {
-        "t": "2026-05-29T17:05:00Z",
-        "price": 3.085
-      },
-      {
-        "t": "2026-05-29T17:10:00Z",
-        "price": 3.085
-      },
-      {
-        "t": "2026-05-29T17:15:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-05-29T17:20:00Z",
-        "price": 3.075
-      },
-      {
-        "t": "2026-05-29T17:25:00Z",
-        "price": 3.0701
-      },
-      {
-        "t": "2026-05-29T17:30:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T17:35:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T17:40:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T17:45:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T17:50:00Z",
-        "price": 3.075
-      },
-      {
-        "t": "2026-05-29T17:55:00Z",
-        "price": 3.075
-      },
-      {
-        "t": "2026-05-29T18:00:00Z",
-        "price": 3.075
-      },
-      {
-        "t": "2026-05-29T18:05:00Z",
-        "price": 3.075
-      },
-      {
-        "t": "2026-05-29T18:10:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T18:15:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T18:20:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T18:25:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T18:30:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T18:35:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T18:40:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T18:45:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T18:50:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T18:55:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T19:00:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-05-29T19:05:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-05-29T19:10:00Z",
-        "price": 3.035
-      },
-      {
-        "t": "2026-05-29T19:15:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-05-29T19:20:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T19:25:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T19:30:00Z",
-        "price": 3.035
-      },
-      {
-        "t": "2026-05-29T19:35:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T19:40:00Z",
-        "price": 3.0599
-      },
-      {
-        "t": "2026-05-29T19:45:00Z",
-        "price": 3.065
-      },
-      {
-        "t": "2026-05-29T19:50:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T19:55:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T20:00:00Z",
-        "price": 3.05
+        "t": "2026-06-01T14:29:47Z",
+        "price": 2.965
       }
     ],
     "price_history_range": "1mo",
@@ -818,22 +554,6 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune-Aktie bricht nach Ankündigung einer 75-Millionen-Dollar-Direktplatzierung ein - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
-        "published_at": "2026-01-28T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
@@ -884,6 +604,22 @@
       {
         "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
+        "published_at": "2026-01-05T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Altimmune-Aktie haussiert nach FDA-Sonderstatus für Lebermedikament - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHBVRDdwamIxQjM4cjJCeURLaGJkSGg4dHd6WlRHTVFjbm1CTlFTQW5aMTR6U1FnRFJaenpadlRIQUZBbnJSOWYtRmxVSWhzbXd0OGRZMmVCN1NBcGgwZnV6c2FIUzdXSThLT3NBS1hrdVVxSW50RzF2V2pGUVJXRzF5OVFDeXQxeXJHV21OQTE3VzNvVVhWUk83aDlpRzNYdzh4NDlSakdxNC15Z0ViSkcwazdZa0Y1Ukx5X0Nqa2xBOWVT?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Altimmune ALT stock news",
@@ -1352,6 +1088,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Altimmune-Aktie haussiert nach FDA-Sonderstatus für Lebermedikament - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-01-05T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTHBVRDdwamIxQjM4cjJCeURLaGJkSGg4dHd6WlRHTVFjbm1CTlFTQW5aMTR6U1FnRFJaenpadlRIQUZBbnJSOWYtRmxVSWhzbXd0OGRZMmVCN1NBcGgwZnV6c2FIUzdXSThLT3NBS1hrdVVxSW50RzF2V2pGUVJXRzF5OVFDeXQxeXJHV21OQTE3VzNvVVhWUk83aDlpRzNYdzh4NDlSakdxNC15Z0ViSkcwazdZa0Y1Ukx5X0Nqa2xBOWVT?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1577,14 +1325,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"

@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.05",
-      "note": "Auto-Update: -31.82% vs. vorheriger Schlusskurs",
+      "value": "$1.08",
+      "note": "Auto-Update: -19.03% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-01T08:24:33Z",
+    "last_update_utc": "2026-06-01T14:30:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.05,
-      "previousClose": 1.54,
-      "change": -0.49,
-      "changePercent": -31.82,
-      "regularMarketTime": "2026-05-29T20:00:01Z",
+      "regularMarketPrice": 1.085,
+      "previousClose": 1.34,
+      "change": -0.255,
+      "changePercent": -19.03,
+      "regularMarketTime": "2026-06-01T14:23:44Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,10 +215,6 @@
       "fiftyTwoWeekRange": "0.78 – 285.44"
     },
     "price_history": [
-      {
-        "t": "2026-04-30T13:30:00Z",
-        "price": 92.8
-      },
       {
         "t": "2026-05-01T13:30:00Z",
         "price": 94.72
@@ -298,286 +294,61 @@
       {
         "t": "2026-05-29T13:30:00Z",
         "price": 1.05
+      },
+      {
+        "t": "2026-06-01T13:30:00Z",
+        "price": 1.085
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-05-29T13:30:00Z",
+        "t": "2026-06-01T13:30:00Z",
         "price": 1.02
       },
       {
-        "t": "2026-05-29T13:45:00Z",
-        "price": 1.02
+        "t": "2026-06-01T13:40:00Z",
+        "price": 1.075
       },
       {
-        "t": "2026-05-29T13:50:00Z",
-        "price": 1.0599
+        "t": "2026-06-01T13:45:00Z",
+        "price": 1.09
       },
       {
-        "t": "2026-05-29T13:55:00Z",
-        "price": 1.0299
+        "t": "2026-06-01T13:50:00Z",
+        "price": 1.06
       },
       {
-        "t": "2026-05-29T14:00:00Z",
-        "price": 1.03
+        "t": "2026-06-01T13:55:00Z",
+        "price": 1.075
       },
       {
-        "t": "2026-05-29T14:05:00Z",
-        "price": 0.98
+        "t": "2026-06-01T14:00:00Z",
+        "price": 1.075
       },
       {
-        "t": "2026-05-29T14:10:00Z",
-        "price": 1.005
+        "t": "2026-06-01T14:05:00Z",
+        "price": 1.1
       },
       {
-        "t": "2026-05-29T14:15:00Z",
-        "price": 1.03
+        "t": "2026-06-01T14:10:00Z",
+        "price": 1.0676
       },
       {
-        "t": "2026-05-29T14:20:00Z",
-        "price": 1.03
+        "t": "2026-06-01T14:15:00Z",
+        "price": 1.11
       },
       {
-        "t": "2026-05-29T14:30:00Z",
-        "price": 0.9901
+        "t": "2026-06-01T14:20:00Z",
+        "price": 1.08
       },
       {
-        "t": "2026-05-29T14:35:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-05-29T14:40:00Z",
-        "price": 0.9902
-      },
-      {
-        "t": "2026-05-29T14:45:00Z",
-        "price": 0.9901
-      },
-      {
-        "t": "2026-05-29T14:50:00Z",
-        "price": 0.9978
-      },
-      {
-        "t": "2026-05-29T14:55:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-05-29T15:15:00Z",
-        "price": 1.0063
-      },
-      {
-        "t": "2026-05-29T15:20:00Z",
-        "price": 1.0263
-      },
-      {
-        "t": "2026-05-29T15:25:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-05-29T15:35:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-05-29T15:40:00Z",
-        "price": 1.0599
-      },
-      {
-        "t": "2026-05-29T15:45:00Z",
-        "price": 1.0491
-      },
-      {
-        "t": "2026-05-29T15:50:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-05-29T15:55:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-05-29T16:00:00Z",
-        "price": 1.0101
-      },
-      {
-        "t": "2026-05-29T16:05:00Z",
-        "price": 0.9901
-      },
-      {
-        "t": "2026-05-29T16:10:00Z",
-        "price": 1.01
-      },
-      {
-        "t": "2026-05-29T16:15:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-05-29T16:25:00Z",
-        "price": 0.9933
-      },
-      {
-        "t": "2026-05-29T16:30:00Z",
-        "price": 0.9915
-      },
-      {
-        "t": "2026-05-29T16:35:00Z",
-        "price": 0.9921
-      },
-      {
-        "t": "2026-05-29T16:45:00Z",
-        "price": 1.045
-      },
-      {
-        "t": "2026-05-29T16:50:00Z",
-        "price": 0.9974
-      },
-      {
-        "t": "2026-05-29T17:00:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-05-29T17:10:00Z",
-        "price": 1.035
-      },
-      {
-        "t": "2026-05-29T17:15:00Z",
-        "price": 1.0201
-      },
-      {
-        "t": "2026-05-29T17:20:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-05-29T17:30:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-05-29T17:40:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-05-29T17:50:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-05-29T17:55:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-05-29T18:00:00Z",
-        "price": 1.014
-      },
-      {
-        "t": "2026-05-29T18:10:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-05-29T18:15:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-05-29T18:20:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-05-29T18:25:00Z",
-        "price": 1.015
-      },
-      {
-        "t": "2026-05-29T18:35:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-05-29T18:40:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-05-29T18:45:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-05-29T18:50:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-05-29T19:00:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-05-29T19:10:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-05-29T19:15:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-05-29T19:25:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-05-29T19:30:00Z",
-        "price": 1.0498
-      },
-      {
-        "t": "2026-05-29T19:35:00Z",
-        "price": 1.0301
-      },
-      {
-        "t": "2026-05-29T19:40:00Z",
-        "price": 1.01
-      },
-      {
-        "t": "2026-05-29T19:45:00Z",
-        "price": 1.05
-      },
-      {
-        "t": "2026-05-29T19:50:00Z",
-        "price": 1.01
-      },
-      {
-        "t": "2026-05-29T19:55:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-05-29T20:00:00Z",
-        "price": 1.05
+        "t": "2026-06-01T14:23:44Z",
+        "price": 1.085
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Haoxi Health Technologie beruft außerordentliche Hauptversammlung ein - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSmlkM3N4ME4xeFVtOGZGamJNNGlSYThZeTltMlVFa2tDbmc5WnRBT28zYWlKSHFvRWI1TG10VlM2b0dNR0cwaWpGTk5fVTRUc2ZkRko3WlBTX0U0emxXV3hkVm5uX0J6dFNkOWNfdEkzTGZKX0JVbmZjbUhQaEIxZ0hRNk5WZXdPd2lOY21jd3RlYjBjTW5XcG1LTjVGUWE3dzMxN3A5blhTbFJiU3IyTC1naklVTERkd0d0eDc3eWVTdw?oc=5",
-        "published_at": "2026-05-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Haoxi Health Technology HAO stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 11
-      },
-      {
-        "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5",
-        "published_at": "2026-05-19T12:41:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Haoxi Health Technology HAO stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Finanzierung / Verwässerung",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "relevance_score": 23
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "6-K",
@@ -890,18 +661,6 @@
         "date": "2026-05-12"
       },
       {
-        "type": "Finanzierung / Verwässerung",
-        "level": "high",
-        "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-05-19T12:41:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Health-related Quality of Life of Patients With Esophageal Cancer After Surgery",
@@ -1116,6 +875,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       }
     ],
     "queries_used": [

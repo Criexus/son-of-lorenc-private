@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.06",
-      "note": "Auto-Update: 12.68% vs. vorheriger Schlusskurs",
+      "value": "$13.83",
+      "note": "Auto-Update: 17.1% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-01T08:23:48Z",
+    "last_update_utc": "2026-06-01T14:29:47Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.06,
-      "previousClose": 11.59,
-      "change": 1.47,
-      "changePercent": 12.68,
-      "regularMarketTime": "2026-05-29T20:00:01Z",
+      "regularMarketPrice": 13.83,
+      "previousClose": 11.81,
+      "change": 2.02,
+      "changePercent": 17.1,
+      "regularMarketTime": "2026-06-01T14:29:28Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,15 +326,11 @@
       "postMarketChange": null,
       "postMarketChangePercent": null,
       "postMarketTime": null,
-      "fiftyTwoWeekHigh": 13.1,
+      "fiftyTwoWeekHigh": 13.91,
       "fiftyTwoWeekLow": 2.25,
-      "fiftyTwoWeekRange": "2.25 – 13.1"
+      "fiftyTwoWeekRange": "2.25 – 13.91"
     },
     "price_history": [
-      {
-        "t": "2026-04-30T13:30:00Z",
-        "price": 9.06
-      },
       {
         "t": "2026-05-01T13:30:00Z",
         "price": 9.01
@@ -414,324 +410,64 @@
       {
         "t": "2026-05-29T13:30:00Z",
         "price": 13.06
+      },
+      {
+        "t": "2026-06-01T13:30:00Z",
+        "price": 13.83
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-05-29T13:30:00Z",
-        "price": 11.92
+        "t": "2026-06-01T13:30:00Z",
+        "price": 13.19
       },
       {
-        "t": "2026-05-29T13:35:00Z",
-        "price": 12.28
+        "t": "2026-06-01T13:35:00Z",
+        "price": 13.3815
       },
       {
-        "t": "2026-05-29T13:40:00Z",
-        "price": 12.4
+        "t": "2026-06-01T13:40:00Z",
+        "price": 13.44
       },
       {
-        "t": "2026-05-29T13:45:00Z",
-        "price": 12.6472
+        "t": "2026-06-01T13:45:00Z",
+        "price": 13.31
       },
       {
-        "t": "2026-05-29T13:50:00Z",
-        "price": 12.4
+        "t": "2026-06-01T13:50:00Z",
+        "price": 13.5
       },
       {
-        "t": "2026-05-29T13:55:00Z",
-        "price": 12.47
+        "t": "2026-06-01T13:55:00Z",
+        "price": 13.6979
       },
       {
-        "t": "2026-05-29T14:00:00Z",
-        "price": 12.46
+        "t": "2026-06-01T14:00:00Z",
+        "price": 13.65
       },
       {
-        "t": "2026-05-29T14:05:00Z",
-        "price": 12.48
+        "t": "2026-06-01T14:05:00Z",
+        "price": 13.75
       },
       {
-        "t": "2026-05-29T14:10:00Z",
-        "price": 12.43
+        "t": "2026-06-01T14:10:00Z",
+        "price": 13.71
       },
       {
-        "t": "2026-05-29T14:15:00Z",
-        "price": 12.39
+        "t": "2026-06-01T14:15:00Z",
+        "price": 13.7696
       },
       {
-        "t": "2026-05-29T14:20:00Z",
-        "price": 12.405
+        "t": "2026-06-01T14:20:00Z",
+        "price": 13.895
       },
       {
-        "t": "2026-05-29T14:25:00Z",
-        "price": 12.38
+        "t": "2026-06-01T14:25:00Z",
+        "price": 13.77
       },
       {
-        "t": "2026-05-29T14:30:00Z",
-        "price": 12.5
-      },
-      {
-        "t": "2026-05-29T14:35:00Z",
-        "price": 12.51
-      },
-      {
-        "t": "2026-05-29T14:40:00Z",
-        "price": 12.49
-      },
-      {
-        "t": "2026-05-29T14:45:00Z",
-        "price": 12.47
-      },
-      {
-        "t": "2026-05-29T14:50:00Z",
-        "price": 12.6
-      },
-      {
-        "t": "2026-05-29T14:55:00Z",
-        "price": 12.585
-      },
-      {
-        "t": "2026-05-29T15:00:00Z",
-        "price": 12.52
-      },
-      {
-        "t": "2026-05-29T15:05:00Z",
-        "price": 12.565
-      },
-      {
-        "t": "2026-05-29T15:10:00Z",
-        "price": 12.58
-      },
-      {
-        "t": "2026-05-29T15:15:00Z",
-        "price": 12.635
-      },
-      {
-        "t": "2026-05-29T15:20:00Z",
-        "price": 12.63
-      },
-      {
-        "t": "2026-05-29T15:25:00Z",
-        "price": 12.64
-      },
-      {
-        "t": "2026-05-29T15:30:00Z",
-        "price": 12.595
-      },
-      {
-        "t": "2026-05-29T15:35:00Z",
-        "price": 12.63
-      },
-      {
-        "t": "2026-05-29T15:40:00Z",
-        "price": 12.7
-      },
-      {
-        "t": "2026-05-29T15:45:00Z",
-        "price": 12.69
-      },
-      {
-        "t": "2026-05-29T15:50:00Z",
-        "price": 12.73
-      },
-      {
-        "t": "2026-05-29T15:55:00Z",
-        "price": 12.79
-      },
-      {
-        "t": "2026-05-29T16:00:00Z",
-        "price": 12.77
-      },
-      {
-        "t": "2026-05-29T16:05:00Z",
-        "price": 12.81
-      },
-      {
-        "t": "2026-05-29T16:10:00Z",
-        "price": 12.87
-      },
-      {
-        "t": "2026-05-29T16:15:00Z",
-        "price": 12.97
-      },
-      {
-        "t": "2026-05-29T16:20:00Z",
-        "price": 13.03
-      },
-      {
-        "t": "2026-05-29T16:25:00Z",
-        "price": 13.08
-      },
-      {
-        "t": "2026-05-29T16:30:00Z",
-        "price": 12.99
-      },
-      {
-        "t": "2026-05-29T16:35:00Z",
-        "price": 12.92
-      },
-      {
-        "t": "2026-05-29T16:40:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-05-29T16:45:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-05-29T16:50:00Z",
-        "price": 12.981
-      },
-      {
-        "t": "2026-05-29T16:55:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-05-29T17:00:00Z",
-        "price": 13.025
-      },
-      {
-        "t": "2026-05-29T17:05:00Z",
-        "price": 13.068
-      },
-      {
-        "t": "2026-05-29T17:10:00Z",
-        "price": 13.06
-      },
-      {
-        "t": "2026-05-29T17:15:00Z",
-        "price": 13.08
-      },
-      {
-        "t": "2026-05-29T17:20:00Z",
-        "price": 13.01
-      },
-      {
-        "t": "2026-05-29T17:25:00Z",
-        "price": 13.01
-      },
-      {
-        "t": "2026-05-29T17:30:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-05-29T17:35:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-05-29T17:40:00Z",
-        "price": 12.97
-      },
-      {
-        "t": "2026-05-29T17:45:00Z",
-        "price": 12.96
-      },
-      {
-        "t": "2026-05-29T17:50:00Z",
-        "price": 12.91
-      },
-      {
-        "t": "2026-05-29T17:55:00Z",
-        "price": 12.835
-      },
-      {
-        "t": "2026-05-29T18:00:00Z",
-        "price": 12.88
-      },
-      {
-        "t": "2026-05-29T18:05:00Z",
-        "price": 12.89
-      },
-      {
-        "t": "2026-05-29T18:10:00Z",
-        "price": 12.8707
-      },
-      {
-        "t": "2026-05-29T18:15:00Z",
-        "price": 12.84
-      },
-      {
-        "t": "2026-05-29T18:20:00Z",
-        "price": 12.9
-      },
-      {
-        "t": "2026-05-29T18:25:00Z",
-        "price": 12.85
-      },
-      {
-        "t": "2026-05-29T18:30:00Z",
-        "price": 12.86
-      },
-      {
-        "t": "2026-05-29T18:35:00Z",
-        "price": 12.87
-      },
-      {
-        "t": "2026-05-29T18:40:00Z",
-        "price": 12.82
-      },
-      {
-        "t": "2026-05-29T18:45:00Z",
-        "price": 12.835
-      },
-      {
-        "t": "2026-05-29T18:50:00Z",
-        "price": 12.815
-      },
-      {
-        "t": "2026-05-29T18:55:00Z",
-        "price": 12.775
-      },
-      {
-        "t": "2026-05-29T19:00:00Z",
-        "price": 12.71
-      },
-      {
-        "t": "2026-05-29T19:05:00Z",
-        "price": 12.82
-      },
-      {
-        "t": "2026-05-29T19:10:00Z",
-        "price": 12.86
-      },
-      {
-        "t": "2026-05-29T19:15:00Z",
-        "price": 12.88
-      },
-      {
-        "t": "2026-05-29T19:20:00Z",
-        "price": 12.905
-      },
-      {
-        "t": "2026-05-29T19:25:00Z",
-        "price": 12.895
-      },
-      {
-        "t": "2026-05-29T19:30:00Z",
-        "price": 12.89
-      },
-      {
-        "t": "2026-05-29T19:35:00Z",
-        "price": 12.89
-      },
-      {
-        "t": "2026-05-29T19:40:00Z",
-        "price": 12.9094
-      },
-      {
-        "t": "2026-05-29T19:45:00Z",
-        "price": 12.945
-      },
-      {
-        "t": "2026-05-29T19:50:00Z",
-        "price": 13.05
-      },
-      {
-        "t": "2026-05-29T19:55:00Z",
-        "price": 13.075
-      },
-      {
-        "t": "2026-05-29T20:00:00Z",
-        "price": 13.06
+        "t": "2026-06-01T14:29:39Z",
+        "price": 13.8368
       }
     ],
     "price_history_range": "1mo",
@@ -1074,6 +810,22 @@
         "relevance_score": 17
       },
       {
+        "title": "FDA gibt grünes Licht für PTSD-Studie: Aktie von Compass Pathways legt zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc3dpT2RHcXdzZzhuY2ZCcC1WLWFwaTFJZ3EtLTlTYlZtd1k0WnRNNVByaEQ3bUctbXFzajVXXzBwQUdGalpmRHZXZmZZTXp2cXBUODc3cWhoNFlJUENheENmcHZZNGJKYXVTd1ZTbmNLRlRsNWlKMmFIT09LMWFVSFV6V3JSWFFBXzd2Z01TektsMTJLSDNpdERPSElLOUFBbV9QcTUxN0pnbDliZGc2bkVsWWtnQ1ZNZEZBdThaQjdGSlc0V3lZbnRWcjA?oc=5",
+        "published_at": "2026-01-07T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
+      },
+      {
         "title": "COMPASS Pathways Aktie • A2QCDR • US20451W1018 - Onvista",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45UnVId215bmR1TFZtazJWbk13N2dTVkVuZlJJLWV2eHVMUDNQNVF0QTUtSTlnajRlckFNeHk4ZlEzNjBxM2pGdUlnSjNrdnhkRUFMNFNrYS10MmVqcm9LcHR1UFpmaGZWUTZBRmp1amJfRWM?oc=5",
         "published_at": "2020-09-24T11:33:47Z",
@@ -1386,6 +1138,18 @@
     ],
     "detected_triggers": [
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "FDA gibt grünes Licht für PTSD-Studie: Aktie von Compass Pathways legt zu - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-01-07T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc3dpT2RHcXdzZzhuY2ZCcC1WLWFwaTFJZ3EtLTlTYlZtd1k0WnRNNVByaEQ3bUctbXFzajVXXzBwQUdGalpmRHZXZmZZTXp2cXBUODc3cWhoNFlJUENheENmcHZZNGJKYXVTd1ZTbmNLRlRsNWlKMmFIT09LMWFVSFV6V3JSWFFBXzd2Z01TektsMTJLSDNpdERPSElLOUFBbV9QcTUxN0pnbDliZGc2bkVsWWtnQ1ZNZEZBdThaQjdGSlc0V3lZbnRWcjA?oc=5"
+      },
+      {
         "type": "Studienphase / Readout",
         "level": "high",
         "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
@@ -1648,14 +1412,6 @@
         "reason": "Studienregister-Treffer: UNKNOWN ",
         "source": "NCT06222359",
         "date": "2024-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "S-8 · 2026-03-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-24"
       },
       {
         "type": "SEC Filing",

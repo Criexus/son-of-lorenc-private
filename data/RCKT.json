@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.07",
-      "note": "Auto-Update: -1.29% vs. vorheriger Schlusskurs",
+      "value": "$3.10",
+      "note": "Auto-Update: 4.73% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-01T08:23:40Z",
+    "last_update_utc": "2026-06-01T14:29:39Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.07,
-      "previousClose": 3.11,
-      "change": -0.04,
-      "changePercent": -1.29,
-      "regularMarketTime": "2026-05-29T20:00:00Z",
+      "regularMarketPrice": 3.1,
+      "previousClose": 2.96,
+      "change": 0.14,
+      "changePercent": 4.73,
+      "regularMarketTime": "2026-06-01T14:29:15Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -305,10 +305,6 @@
       "fiftyTwoWeekRange": "2.4 – 5.45"
     },
     "price_history": [
-      {
-        "t": "2026-04-30T13:30:00Z",
-        "price": 3.48
-      },
       {
         "t": "2026-05-01T13:30:00Z",
         "price": 3.56
@@ -388,324 +384,64 @@
       {
         "t": "2026-05-29T13:30:00Z",
         "price": 3.07
+      },
+      {
+        "t": "2026-06-01T13:30:00Z",
+        "price": 3.1
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-05-29T13:30:00Z",
+        "t": "2026-06-01T13:30:00Z",
         "price": 3.0
       },
       {
-        "t": "2026-05-29T13:35:00Z",
+        "t": "2026-06-01T13:35:00Z",
+        "price": 2.994
+      },
+      {
+        "t": "2026-06-01T13:40:00Z",
         "price": 3.03
       },
       {
-        "t": "2026-05-29T13:40:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-05-29T13:45:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T13:50:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T13:55:00Z",
-        "price": 3.02
-      },
-      {
-        "t": "2026-05-29T14:00:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T14:05:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T14:10:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T14:15:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-05-29T14:20:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-05-29T14:25:00Z",
-        "price": 2.985
-      },
-      {
-        "t": "2026-05-29T14:30:00Z",
-        "price": 3.0
-      },
-      {
-        "t": "2026-05-29T14:35:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-05-29T14:40:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-05-29T14:45:00Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-29T14:50:00Z",
-        "price": 3.015
-      },
-      {
-        "t": "2026-05-29T14:55:00Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-29T15:00:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-05-29T15:05:00Z",
-        "price": 3.0101
-      },
-      {
-        "t": "2026-05-29T15:10:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-05-29T15:15:00Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-29T15:20:00Z",
-        "price": 3.0
-      },
-      {
-        "t": "2026-05-29T15:25:00Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-29T15:30:00Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-29T15:35:00Z",
-        "price": 3.005
-      },
-      {
-        "t": "2026-05-29T15:40:00Z",
-        "price": 3.015
-      },
-      {
-        "t": "2026-05-29T15:45:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T15:50:00Z",
+        "t": "2026-06-01T13:45:00Z",
         "price": 3.04
       },
       {
-        "t": "2026-05-29T15:55:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T16:00:00Z",
-        "price": 3.035
-      },
-      {
-        "t": "2026-05-29T16:05:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T16:10:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T16:15:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T16:20:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T16:25:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T16:30:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T16:35:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T16:40:00Z",
-        "price": 3.0588
-      },
-      {
-        "t": "2026-05-29T16:45:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T16:50:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T16:55:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T17:00:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T17:05:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T17:10:00Z",
-        "price": 3.0597
-      },
-      {
-        "t": "2026-05-29T17:15:00Z",
-        "price": 3.06
-      },
-      {
-        "t": "2026-05-29T17:20:00Z",
+        "t": "2026-06-01T13:50:00Z",
         "price": 3.065
       },
       {
-        "t": "2026-05-29T17:25:00Z",
-        "price": 3.06
+        "t": "2026-06-01T13:55:00Z",
+        "price": 3.1
       },
       {
-        "t": "2026-05-29T17:30:00Z",
-        "price": 3.065
+        "t": "2026-06-01T14:00:00Z",
+        "price": 3.085
       },
       {
-        "t": "2026-05-29T17:35:00Z",
-        "price": 3.06
+        "t": "2026-06-01T14:05:00Z",
+        "price": 3.08
       },
       {
-        "t": "2026-05-29T17:40:00Z",
-        "price": 3.065
+        "t": "2026-06-01T14:10:00Z",
+        "price": 3.09
       },
       {
-        "t": "2026-05-29T17:45:00Z",
-        "price": 3.065
+        "t": "2026-06-01T14:15:00Z",
+        "price": 3.11
       },
       {
-        "t": "2026-05-29T17:50:00Z",
-        "price": 3.065
+        "t": "2026-06-01T14:20:00Z",
+        "price": 3.135
       },
       {
-        "t": "2026-05-29T17:55:00Z",
-        "price": 3.045
+        "t": "2026-06-01T14:25:00Z",
+        "price": 3.095
       },
       {
-        "t": "2026-05-29T18:00:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T18:05:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T18:10:00Z",
-        "price": 3.041
-      },
-      {
-        "t": "2026-05-29T18:15:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T18:20:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T18:25:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T18:30:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T18:35:00Z",
-        "price": 3.045
-      },
-      {
-        "t": "2026-05-29T18:40:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-05-29T18:45:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T18:50:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-05-29T18:55:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:00:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:05:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:10:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:15:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:20:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:25:00Z",
-        "price": 3.02
-      },
-      {
-        "t": "2026-05-29T19:30:00Z",
-        "price": 3.025
-      },
-      {
-        "t": "2026-05-29T19:35:00Z",
-        "price": 3.035
-      },
-      {
-        "t": "2026-05-29T19:40:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T19:45:00Z",
-        "price": 3.055
-      },
-      {
-        "t": "2026-05-29T19:50:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-05-29T19:55:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-05-29T20:00:00Z",
-        "price": 3.07
+        "t": "2026-06-01T14:29:15Z",
+        "price": 3.1
       }
     ],
     "price_history_range": "1mo",
@@ -744,22 +480,6 @@
         "relevance_score": 23
       },
       {
-        "title": "Insider-Verkauf bei Rocket Pharmaceuticals: Finanz-VP veräußert Aktienpaket - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWHpyNkI4d3JiQTNOYXFsSEVFenZ3c190cjAtTmRqMVVKMVZIRzRUc2JVWTRUTXdQR2pUZk9iTS1LNG9EUTk0ODE0dUh6cF9JdzdVWWZ4NTJGczBUT1lhOGlGZ2JFZHF2Y0ZUSHdJRHA4cWhFeVlESHJ6T3ZFMllfNzRhX1VJWFhTbl9JWVdXVzBKTHhvT21aNE90WnlRTEJHVVdST2pZRW5IaVVMdDR4bmRKNEo2Q0UzMS1HWXloYzdrVGh1SWxpeDVqNF9ZbmF6ZlE?oc=5",
-        "published_at": "2026-05-14T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
         "title": "Rocket Pharma: Justiziar Wilson veräußert Aktien im Wert von 12.119 $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWThRelNkOUtFUUU0V2VSbEVRRTNjTmxtaDVrZ21jeXhXdVhFOUNOOU85OVd1dzdEVjlnUGFpTGszTEhfTDVveHNYMXpnVHlqUnlwc01CVmlFUUhMMERCWlpWNkNpbklCTlZ6UjV2cVlLc3UyMzVYSGFqcmZyM1JOamdhTlg2RUkwaFI1VzBYZm5LQWlRbjc1dWNIc1FpYW94Qk5qakgtRmpMM3lQYVluMkhpNGJMc1AzREx0MFVqanZ5ejFNdkJoUS1B?oc=5",
         "published_at": "2026-05-14T07:00:00Z",
@@ -780,6 +500,22 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTBydVpiRUlWVFVzZmtLTGlDU2k4R2Y4Yzc3TXNkSkRzMlY2TlNoUE1XUGMwV184X2h4emU3TjdWUTQxejd0NXEwZGdNYkx2b2k4YUFiUVdaY253S01aay1fZkVJWnpUSU1maGF3SjdzTzRFdTh0eEJObnM2eWJleUhzam5DWEd6eVdmaW5PbC0tV1U0SjB1ZkpCbXJiRU9WdlEtbW1VaXRKWkh1b20yc19KM1h4UENIcFFXVWtqMV9OdVphbDBDSQ?oc=5",
         "published_at": "2026-05-12T14:25:02Z",
         "source": "AD HOC NEWS",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      },
+      {
+        "title": "Rocket Pharmaceuticals: CCO verkauft Aktien im Wert von 67.740 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOHRVcmdwM09SZmNJV05QRXR1bnUtTVZ3bEJCQ0MwZkdEQnJmQkdSTU5FbjVBN3V1MWRTazdVYlVGN1pfMzdKQmcxYU90S3Z6Ui02NjROX1A4d2xHbGp0NTVLOHk4eUx3MFV2SnlqMjY0UnE5aXIteUxZcUo5NGRQeTdQZHRZcHRRYnVFbEVWQWluZWl2N1g3T1N2ZmgyWFNyZjZXakl5NkpaVWJsZklpdTVtRFpTaTgzNElSWDM2YXl6R3pIYkZzOUlxYU1WUQ?oc=5",
+        "published_at": "2026-05-12T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
