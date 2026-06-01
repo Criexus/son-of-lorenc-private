@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.43",
-      "note": "Auto-Update: 4.57% vs. vorheriger Schlusskurs",
+      "value": "$3.32",
+      "note": "Auto-Update: 1.22% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-01T19:29:00Z",
+    "last_update_utc": "2026-06-01T22:20:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.43,
+      "regularMarketPrice": 3.32,
       "previousClose": 3.28,
-      "change": 0.15,
-      "changePercent": 4.57,
-      "regularMarketTime": "2026-06-01T19:13:01Z",
+      "change": 0.04,
+      "changePercent": 1.22,
+      "regularMarketTime": "2026-06-01T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,10 +214,6 @@
       "fiftyTwoWeekRange": "2.86 – 66.5"
     },
     "price_history": [
-      {
-        "t": "2026-05-01T13:30:00Z",
-        "price": 3.03
-      },
       {
         "t": "2026-05-04T13:30:00Z",
         "price": 3.12
@@ -296,7 +292,7 @@
       },
       {
         "t": "2026-06-01T13:30:00Z",
-        "price": 3.43
+        "price": 3.32
       }
     ],
     "price_history_1d": [
@@ -334,16 +330,44 @@
       },
       {
         "t": "2026-06-01T19:10:00Z",
-        "price": 3.37
+        "price": 3.43
       },
       {
-        "t": "2026-06-01T19:13:01Z",
-        "price": 3.43
+        "t": "2026-06-01T19:30:00Z",
+        "price": 3.31
+      },
+      {
+        "t": "2026-06-01T19:40:00Z",
+        "price": 3.32
+      },
+      {
+        "t": "2026-06-01T19:55:00Z",
+        "price": 3.32
+      },
+      {
+        "t": "2026-06-01T20:00:00Z",
+        "price": 3.32
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Biodexa schlägt auf Hauptversammlung Kapitalneuordnung vor - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTk9BOVZ3T1l3cVpmaUo4Mlo2S0ZSUkdkbVktdlp4cC02NzB5blhtdzVHeGZBMDk4OWdVRGVELUYwckJhN0dIY0tuSU8yRUFsRmFTLUlJMmtkc2hoODd5WllmRDVsbFNWekg1bjFmRnBKSkRHMW15cFZPUUtqS0hXeHQ5cE5sVUJoblZramFFbGxHZDVHOUJjdDQ1WmtCanJGdkJnQXc5a1VuYTUwbTJtMEttczI?oc=5",
+        "published_at": "2026-05-14T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      },
       {
         "title": "Biodexa Pharmaceuticals treibt FAP-Behandlungsstudie voran - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNQbnkwRVhwak9zQkVrRnJYckJxRVg0RWhGQ0x3cFRHN19LaHhuR3hfSmU5LVVMekVvX0I5RUNKVm15TXpqZ1VQdmk2UDhYdXpkMjcyZVpRamtaTUU2R1ViVXFkUVU1aTAtS2ZSWkJueGl4R0Q4cGl0RkpFNjJUd3NzQ1dLazU3MDdfMmVLaldtSDE4enNGTDh2RkxEMHpLTFFZejlPWFdJY1NCMGJfTWRJdw?oc=5",
