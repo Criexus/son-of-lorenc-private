@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$42.73",
-      "note": "Auto-Update: 0.03% vs. vorheriger Schlusskurs",
+      "value": "$42.81",
+      "note": "Auto-Update: 0.21% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-01T14:30:51Z",
+    "last_update_utc": "2026-06-01T19:30:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 42.734,
+      "regularMarketPrice": 42.81,
       "previousClose": 42.722,
-      "change": 0.012,
-      "changePercent": 0.03,
-      "regularMarketTime": "2026-06-01T14:11:59Z",
+      "change": 0.088,
+      "changePercent": 0.21,
+      "regularMarketTime": "2026-06-01T15:35:58Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,7 +240,7 @@
       },
       {
         "t": "2026-06-01T07:00:00Z",
-        "price": 42.734
+        "price": 42.81
       }
     ],
     "price_history_1d": [
@@ -333,8 +333,48 @@
         "price": 42.734
       },
       {
-        "t": "2026-06-01T14:11:59Z",
+        "t": "2026-06-01T14:10:00Z",
         "price": 42.734
+      },
+      {
+        "t": "2026-06-01T14:15:00Z",
+        "price": 42.755
+      },
+      {
+        "t": "2026-06-01T14:20:00Z",
+        "price": 42.743
+      },
+      {
+        "t": "2026-06-01T14:25:00Z",
+        "price": 42.746
+      },
+      {
+        "t": "2026-06-01T14:30:00Z",
+        "price": 42.717
+      },
+      {
+        "t": "2026-06-01T14:35:00Z",
+        "price": 42.721
+      },
+      {
+        "t": "2026-06-01T14:45:00Z",
+        "price": 42.723
+      },
+      {
+        "t": "2026-06-01T14:50:00Z",
+        "price": 42.732
+      },
+      {
+        "t": "2026-06-01T15:15:00Z",
+        "price": 42.739
+      },
+      {
+        "t": "2026-06-01T15:25:00Z",
+        "price": 42.755
+      },
+      {
+        "t": "2026-06-01T15:30:00Z",
+        "price": 42.81
       }
     ],
     "price_history_range": "1mo",
