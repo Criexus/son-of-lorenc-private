@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.04",
-      "note": "Auto-Update: 0.67% vs. vorheriger Schlusskurs",
+      "value": "$17.90",
+      "note": "Auto-Update: -0.13% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-02T07:16:57Z",
+    "last_update_utc": "2026-06-02T11:48:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.044,
+      "regularMarketPrice": 17.9,
       "previousClose": 17.924,
-      "change": 0.12,
-      "changePercent": 0.67,
-      "regularMarketTime": "2026-06-01T15:36:05Z",
+      "change": -0.024,
+      "changePercent": -0.13,
+      "regularMarketTime": "2026-06-02T11:33:40Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -243,16 +243,245 @@
       {
         "t": "2026-06-01T07:00:00Z",
         "price": 18.044
+      },
+      {
+        "t": "2026-06-02T07:00:00Z",
+        "price": 17.9
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-06-02T07:00:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T07:05:00Z",
+        "price": 17.894
+      },
+      {
+        "t": "2026-06-02T07:10:00Z",
+        "price": 17.88
+      },
+      {
+        "t": "2026-06-02T07:15:00Z",
+        "price": 17.884
+      },
+      {
+        "t": "2026-06-02T07:20:00Z",
+        "price": 17.882
+      },
+      {
+        "t": "2026-06-02T07:25:00Z",
+        "price": 17.874
+      },
+      {
+        "t": "2026-06-02T07:30:00Z",
+        "price": 17.876
+      },
+      {
+        "t": "2026-06-02T07:35:00Z",
+        "price": 17.874
+      },
+      {
+        "t": "2026-06-02T07:40:00Z",
+        "price": 17.878
+      },
+      {
+        "t": "2026-06-02T07:45:00Z",
+        "price": 17.874
+      },
+      {
+        "t": "2026-06-02T07:50:00Z",
+        "price": 17.868
+      },
+      {
+        "t": "2026-06-02T07:55:00Z",
+        "price": 17.886
+      },
+      {
+        "t": "2026-06-02T08:00:00Z",
+        "price": 17.906
+      },
+      {
+        "t": "2026-06-02T08:05:00Z",
+        "price": 17.888
+      },
+      {
+        "t": "2026-06-02T08:10:00Z",
+        "price": 17.896
+      },
+      {
+        "t": "2026-06-02T08:15:00Z",
+        "price": 17.892
+      },
+      {
+        "t": "2026-06-02T08:20:00Z",
+        "price": 17.886
+      },
+      {
+        "t": "2026-06-02T08:25:00Z",
+        "price": 17.894
+      },
+      {
+        "t": "2026-06-02T08:30:00Z",
+        "price": 17.906
+      },
+      {
+        "t": "2026-06-02T08:35:00Z",
+        "price": 17.906
+      },
+      {
+        "t": "2026-06-02T08:40:00Z",
+        "price": 17.908
+      },
+      {
+        "t": "2026-06-02T08:45:00Z",
+        "price": 17.904
+      },
+      {
+        "t": "2026-06-02T08:50:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T08:55:00Z",
+        "price": 17.902
+      },
+      {
+        "t": "2026-06-02T09:00:00Z",
+        "price": 17.88
+      },
+      {
+        "t": "2026-06-02T09:05:00Z",
+        "price": 17.888
+      },
+      {
+        "t": "2026-06-02T09:10:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T09:15:00Z",
+        "price": 17.882
+      },
+      {
+        "t": "2026-06-02T09:20:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T09:25:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T09:30:00Z",
+        "price": 17.898
+      },
+      {
+        "t": "2026-06-02T09:35:00Z",
+        "price": 17.894
+      },
+      {
+        "t": "2026-06-02T09:40:00Z",
+        "price": 17.936
+      },
+      {
+        "t": "2026-06-02T09:45:00Z",
+        "price": 17.948
+      },
+      {
+        "t": "2026-06-02T09:50:00Z",
+        "price": 17.946
+      },
+      {
+        "t": "2026-06-02T09:55:00Z",
+        "price": 17.944
+      },
+      {
+        "t": "2026-06-02T10:00:00Z",
+        "price": 17.918
+      },
+      {
+        "t": "2026-06-02T10:05:00Z",
+        "price": 17.908
+      },
+      {
+        "t": "2026-06-02T10:10:00Z",
+        "price": 17.906
+      },
+      {
+        "t": "2026-06-02T10:15:00Z",
+        "price": 17.914
+      },
+      {
+        "t": "2026-06-02T10:20:00Z",
+        "price": 17.916
+      },
+      {
+        "t": "2026-06-02T10:25:00Z",
+        "price": 17.904
+      },
+      {
+        "t": "2026-06-02T10:30:00Z",
+        "price": 17.886
+      },
+      {
+        "t": "2026-06-02T10:35:00Z",
+        "price": 17.882
+      },
+      {
+        "t": "2026-06-02T10:40:00Z",
+        "price": 17.888
+      },
+      {
+        "t": "2026-06-02T10:45:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T10:50:00Z",
+        "price": 17.896
+      },
+      {
+        "t": "2026-06-02T10:55:00Z",
+        "price": 17.902
+      },
+      {
+        "t": "2026-06-02T11:00:00Z",
+        "price": 17.872
+      },
+      {
+        "t": "2026-06-02T11:05:00Z",
+        "price": 17.88
+      },
+      {
+        "t": "2026-06-02T11:10:00Z",
+        "price": 17.882
+      },
+      {
+        "t": "2026-06-02T11:15:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T11:20:00Z",
+        "price": 17.872
+      },
+      {
+        "t": "2026-06-02T11:25:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T11:30:00Z",
+        "price": 17.89
+      },
+      {
+        "t": "2026-06-02T11:33:40Z",
+        "price": 17.9
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
         "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8waVZYTHhXTl9FeURGejhsLWx6T1l0NkVRS1BoVllMYzFxQUtxY1RrYWkxRmg1S3hHdzRVQlBkRWFpU19VV2UzY0t3YzE0TXhzUFc0TTUyeDhTMUE?oc=5",
-        "published_at": "2020-03-26T06:13:46Z",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
+        "published_at": "2019-01-08T08:47:34Z",
         "source": "Comdirect",
         "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
         "source_type": "google_news_rss",
