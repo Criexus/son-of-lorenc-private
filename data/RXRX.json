@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.79",
-      "note": "Auto-Update: 25.91% vs. vorheriger Schlusskurs",
+      "value": "$3.63",
+      "note": "Auto-Update: 22.39% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-02T11:48:53Z",
+    "last_update_utc": "2026-06-02T15:57:35Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.79,
-      "previousClose": 3.01,
-      "change": 0.78,
-      "changePercent": 25.91,
-      "regularMarketTime": "2026-06-01T20:00:00Z",
+      "regularMarketPrice": 3.635,
+      "previousClose": 2.97,
+      "change": 0.665,
+      "changePercent": 22.39,
+      "regularMarketTime": "2026-06-02T15:57:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -392,324 +392,136 @@
       {
         "t": "2026-06-01T13:30:00Z",
         "price": 3.79
+      },
+      {
+        "t": "2026-06-02T13:30:00Z",
+        "price": 3.635
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-01T13:30:00Z",
-        "price": 3.48
-      },
-      {
-        "t": "2026-06-01T13:35:00Z",
-        "price": 3.535
-      },
-      {
-        "t": "2026-06-01T13:40:00Z",
-        "price": 3.515
-      },
-      {
-        "t": "2026-06-01T13:45:00Z",
-        "price": 3.539
-      },
-      {
-        "t": "2026-06-01T13:50:00Z",
-        "price": 3.525
-      },
-      {
-        "t": "2026-06-01T13:55:00Z",
-        "price": 3.545
-      },
-      {
-        "t": "2026-06-01T14:00:00Z",
-        "price": 3.511
-      },
-      {
-        "t": "2026-06-01T14:05:00Z",
-        "price": 3.52
-      },
-      {
-        "t": "2026-06-01T14:10:00Z",
-        "price": 3.555
-      },
-      {
-        "t": "2026-06-01T14:15:00Z",
-        "price": 3.565
-      },
-      {
-        "t": "2026-06-01T14:20:00Z",
-        "price": 3.575
-      },
-      {
-        "t": "2026-06-01T14:25:00Z",
-        "price": 3.555
-      },
-      {
-        "t": "2026-06-01T14:30:00Z",
-        "price": 3.565
-      },
-      {
-        "t": "2026-06-01T14:35:00Z",
-        "price": 3.575
-      },
-      {
-        "t": "2026-06-01T14:40:00Z",
-        "price": 3.56
-      },
-      {
-        "t": "2026-06-01T14:45:00Z",
-        "price": 3.5476
-      },
-      {
-        "t": "2026-06-01T14:50:00Z",
-        "price": 3.54
-      },
-      {
-        "t": "2026-06-01T14:55:00Z",
-        "price": 3.5621
-      },
-      {
-        "t": "2026-06-01T15:00:00Z",
-        "price": 3.525
-      },
-      {
-        "t": "2026-06-01T15:05:00Z",
-        "price": 3.52
-      },
-      {
-        "t": "2026-06-01T15:10:00Z",
-        "price": 3.545
-      },
-      {
-        "t": "2026-06-01T15:15:00Z",
-        "price": 3.575
-      },
-      {
-        "t": "2026-06-01T15:20:00Z",
-        "price": 3.58
-      },
-      {
-        "t": "2026-06-01T15:25:00Z",
-        "price": 3.5835
-      },
-      {
-        "t": "2026-06-01T15:30:00Z",
-        "price": 3.615
-      },
-      {
-        "t": "2026-06-01T15:35:00Z",
-        "price": 3.62
-      },
-      {
-        "t": "2026-06-01T15:40:00Z",
-        "price": 3.605
-      },
-      {
-        "t": "2026-06-01T15:45:00Z",
-        "price": 3.595
-      },
-      {
-        "t": "2026-06-01T15:50:00Z",
-        "price": 3.655
-      },
-      {
-        "t": "2026-06-01T15:55:00Z",
-        "price": 3.628
-      },
-      {
-        "t": "2026-06-01T16:00:00Z",
-        "price": 3.6574
-      },
-      {
-        "t": "2026-06-01T16:05:00Z",
-        "price": 3.66
-      },
-      {
-        "t": "2026-06-01T16:10:00Z",
-        "price": 3.62
-      },
-      {
-        "t": "2026-06-01T16:15:00Z",
-        "price": 3.605
-      },
-      {
-        "t": "2026-06-01T16:20:00Z",
-        "price": 3.605
-      },
-      {
-        "t": "2026-06-01T16:25:00Z",
-        "price": 3.585
-      },
-      {
-        "t": "2026-06-01T16:30:00Z",
-        "price": 3.58
-      },
-      {
-        "t": "2026-06-01T16:35:00Z",
-        "price": 3.615
-      },
-      {
-        "t": "2026-06-01T16:40:00Z",
-        "price": 3.625
-      },
-      {
-        "t": "2026-06-01T16:45:00Z",
-        "price": 3.605
-      },
-      {
-        "t": "2026-06-01T16:50:00Z",
-        "price": 3.66
-      },
-      {
-        "t": "2026-06-01T16:55:00Z",
-        "price": 3.645
-      },
-      {
-        "t": "2026-06-01T17:00:00Z",
-        "price": 3.6479
-      },
-      {
-        "t": "2026-06-01T17:05:00Z",
+        "t": "2026-06-02T13:30:00Z",
         "price": 3.685
       },
       {
-        "t": "2026-06-01T17:10:00Z",
+        "t": "2026-06-02T13:35:00Z",
+        "price": 3.685
+      },
+      {
+        "t": "2026-06-02T13:40:00Z",
         "price": 3.695
       },
       {
-        "t": "2026-06-01T17:15:00Z",
-        "price": 3.7094
+        "t": "2026-06-02T13:45:00Z",
+        "price": 3.7397
       },
       {
-        "t": "2026-06-01T17:20:00Z",
-        "price": 3.7101
+        "t": "2026-06-02T13:50:00Z",
+        "price": 3.6996
       },
       {
-        "t": "2026-06-01T17:25:00Z",
-        "price": 3.725
+        "t": "2026-06-02T13:55:00Z",
+        "price": 3.7
       },
       {
-        "t": "2026-06-01T17:30:00Z",
-        "price": 3.69
+        "t": "2026-06-02T14:00:00Z",
+        "price": 3.6501
       },
       {
-        "t": "2026-06-01T17:35:00Z",
-        "price": 3.705
+        "t": "2026-06-02T14:05:00Z",
+        "price": 3.625
       },
       {
-        "t": "2026-06-01T17:40:00Z",
-        "price": 3.71
+        "t": "2026-06-02T14:10:00Z",
+        "price": 3.665
       },
       {
-        "t": "2026-06-01T17:45:00Z",
-        "price": 3.72
+        "t": "2026-06-02T14:15:00Z",
+        "price": 3.68
       },
       {
-        "t": "2026-06-01T17:50:00Z",
-        "price": 3.7207
+        "t": "2026-06-02T14:20:00Z",
+        "price": 3.62
       },
       {
-        "t": "2026-06-01T17:55:00Z",
-        "price": 3.715
+        "t": "2026-06-02T14:25:00Z",
+        "price": 3.635
       },
       {
-        "t": "2026-06-01T18:00:00Z",
-        "price": 3.74
+        "t": "2026-06-02T14:30:00Z",
+        "price": 3.645
       },
       {
-        "t": "2026-06-01T18:05:00Z",
-        "price": 3.745
+        "t": "2026-06-02T14:35:00Z",
+        "price": 3.63
       },
       {
-        "t": "2026-06-01T18:10:00Z",
-        "price": 3.725
+        "t": "2026-06-02T14:40:00Z",
+        "price": 3.66
       },
       {
-        "t": "2026-06-01T18:15:00Z",
-        "price": 3.745
+        "t": "2026-06-02T14:45:00Z",
+        "price": 3.675
       },
       {
-        "t": "2026-06-01T18:20:00Z",
-        "price": 3.765
+        "t": "2026-06-02T14:50:00Z",
+        "price": 3.665
       },
       {
-        "t": "2026-06-01T18:25:00Z",
-        "price": 3.765
+        "t": "2026-06-02T14:55:00Z",
+        "price": 3.65
       },
       {
-        "t": "2026-06-01T18:30:00Z",
-        "price": 3.765
+        "t": "2026-06-02T15:00:00Z",
+        "price": 3.6202
       },
       {
-        "t": "2026-06-01T18:35:00Z",
-        "price": 3.775
+        "t": "2026-06-02T15:05:00Z",
+        "price": 3.6314
       },
       {
-        "t": "2026-06-01T18:40:00Z",
-        "price": 3.785
+        "t": "2026-06-02T15:10:00Z",
+        "price": 3.6301
       },
       {
-        "t": "2026-06-01T18:45:00Z",
-        "price": 3.795
+        "t": "2026-06-02T15:15:00Z",
+        "price": 3.6098
       },
       {
-        "t": "2026-06-01T18:50:00Z",
-        "price": 3.835
+        "t": "2026-06-02T15:20:00Z",
+        "price": 3.63
       },
       {
-        "t": "2026-06-01T18:55:00Z",
-        "price": 3.82
+        "t": "2026-06-02T15:25:00Z",
+        "price": 3.625
       },
       {
-        "t": "2026-06-01T19:00:00Z",
-        "price": 3.8107
+        "t": "2026-06-02T15:30:00Z",
+        "price": 3.595
       },
       {
-        "t": "2026-06-01T19:05:00Z",
-        "price": 3.8
+        "t": "2026-06-02T15:35:00Z",
+        "price": 3.605
       },
       {
-        "t": "2026-06-01T19:10:00Z",
-        "price": 3.785
+        "t": "2026-06-02T15:40:00Z",
+        "price": 3.61
       },
       {
-        "t": "2026-06-01T19:15:00Z",
-        "price": 3.755
+        "t": "2026-06-02T15:45:00Z",
+        "price": 3.6301
       },
       {
-        "t": "2026-06-01T19:20:00Z",
-        "price": 3.765
+        "t": "2026-06-02T15:50:00Z",
+        "price": 3.635
       },
       {
-        "t": "2026-06-01T19:25:00Z",
-        "price": 3.76
+        "t": "2026-06-02T15:55:00Z",
+        "price": 3.6304
       },
       {
-        "t": "2026-06-01T19:30:00Z",
-        "price": 3.75
-      },
-      {
-        "t": "2026-06-01T19:35:00Z",
-        "price": 3.755
-      },
-      {
-        "t": "2026-06-01T19:40:00Z",
-        "price": 3.7698
-      },
-      {
-        "t": "2026-06-01T19:45:00Z",
-        "price": 3.79
-      },
-      {
-        "t": "2026-06-01T19:50:00Z",
-        "price": 3.755
-      },
-      {
-        "t": "2026-06-01T19:55:00Z",
-        "price": 3.795
-      },
-      {
-        "t": "2026-06-01T20:00:00Z",
-        "price": 3.79
+        "t": "2026-06-02T15:57:27Z",
+        "price": 3.635
       }
     ],
     "price_history_range": "1mo",
@@ -829,6 +641,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-06-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326004239/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-05-27",
@@ -961,76 +780,9 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000201238326001465/xslSCHEDULE_13G_X02/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-04-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326003029/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [
-      {
-        "nct_id": "NCT05552755",
-        "title": "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Familial Adenomatous Polyposis",
-        "last_update": "",
-        "start_date": "2023-07-10",
-        "url": "https://clinicaltrials.gov/study/NCT05552755"
-      },
-      {
-        "nct_id": "NCT07517198",
-        "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Solid Tumor, Small Cell Lung Cancer (SCLC), High Grade Neuroendocrine Cancer, Small Cell Carcinomas of Non-lung Origin",
-        "last_update": "",
-        "start_date": "2026-04",
-        "url": "https://clinicaltrials.gov/study/NCT07517198"
-      },
-      {
-        "nct_id": "NCT06678659",
-        "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Unresectable, Locally Advanced, Metastatic Cancers, Relapsed/Refractory Lymphomas",
-        "last_update": "",
-        "start_date": "2024-11-21",
-        "url": "https://clinicaltrials.gov/study/NCT06678659"
-      },
-      {
-        "nct_id": "NCT05130866",
-        "title": "Efficacy and Safety of REC-2282 in Patients With Progressive Neurofibromatosis Type 2 (NF2) Mutated Meningiomas",
-        "status": "TERMINATED",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "Neurofibromatosis Type 2",
-        "last_update": "",
-        "start_date": "2022-06-20",
-        "url": "https://clinicaltrials.gov/study/NCT05130866"
-      },
-      {
-        "nct_id": "NCT05085561",
-        "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Cerebral Cavernous Malformation",
-        "last_update": "",
-        "start_date": "2022-03-17",
-        "url": "https://clinicaltrials.gov/study/NCT05085561"
-      },
-      {
-        "nct_id": "NCT06005974",
-        "title": "A Study of REC-4881 in Participants With Cancers Which Have an AXIN1 or APC Mutation",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "AXIN1 Gene Mutation, APC Gene Mutation, Solid Tumor",
-        "last_update": "",
-        "start_date": "2024-01-15",
-        "url": "https://clinicaltrials.gov/study/NCT06005974"
-      },
       {
         "nct_id": "NCT06980116",
         "title": "Dose Determining Study of EXS73565 in Participants With Relapsed or Refractory B-Cell Malignancies",
@@ -1040,6 +792,16 @@
         "last_update": "",
         "start_date": "2025-03-31",
         "url": "https://clinicaltrials.gov/study/NCT06980116"
+      },
+      {
+        "nct_id": "NCT06536465",
+        "title": "The Clostridioides Difficile Trial of REC-3964",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Recurrent Clostridioides Difficile Infection",
+        "last_update": "",
+        "start_date": "2024-10-14",
+        "url": "https://clinicaltrials.gov/study/NCT06536465"
       },
       {
         "nct_id": "NCT05985655",
@@ -1052,14 +814,64 @@
         "url": "https://clinicaltrials.gov/study/NCT05985655"
       },
       {
-        "nct_id": "NCT06536465",
-        "title": "The Clostridioides Difficile Trial of REC-3964",
+        "nct_id": "NCT05552755",
+        "title": "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
+        "last_update": "",
+        "start_date": "2023-07-10",
+        "url": "https://clinicaltrials.gov/study/NCT05552755"
+      },
+      {
+        "nct_id": "NCT06678659",
+        "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Unresectable, Locally Advanced, Metastatic Cancers, Relapsed/Refractory Lymphomas",
+        "last_update": "",
+        "start_date": "2024-11-21",
+        "url": "https://clinicaltrials.gov/study/NCT06678659"
+      },
+      {
+        "nct_id": "NCT06005974",
+        "title": "A Study of REC-4881 in Participants With Cancers Which Have an AXIN1 or APC Mutation",
         "status": "TERMINATED",
         "phase": "PHASE2",
-        "conditions": "Recurrent Clostridioides Difficile Infection",
+        "conditions": "AXIN1 Gene Mutation, APC Gene Mutation, Solid Tumor",
         "last_update": "",
-        "start_date": "2024-10-14",
-        "url": "https://clinicaltrials.gov/study/NCT06536465"
+        "start_date": "2024-01-15",
+        "url": "https://clinicaltrials.gov/study/NCT06005974"
+      },
+      {
+        "nct_id": "NCT05085561",
+        "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Cerebral Cavernous Malformation",
+        "last_update": "",
+        "start_date": "2022-03-17",
+        "url": "https://clinicaltrials.gov/study/NCT05085561"
+      },
+      {
+        "nct_id": "NCT05130866",
+        "title": "Efficacy and Safety of REC-2282 in Patients With Progressive Neurofibromatosis Type 2 (NF2) Mutated Meningiomas",
+        "status": "TERMINATED",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Neurofibromatosis Type 2",
+        "last_update": "",
+        "start_date": "2022-06-20",
+        "url": "https://clinicaltrials.gov/study/NCT05130866"
+      },
+      {
+        "nct_id": "NCT07517198",
+        "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Solid Tumor, Small Cell Lung Cancer (SCLC), High Grade Neuroendocrine Cancer, Small Cell Carcinomas of Non-lung Origin",
+        "last_update": "",
+        "start_date": "2026-04",
+        "url": "https://clinicaltrials.gov/study/NCT07517198"
       }
     ],
     "detected_triggers": [
@@ -1158,14 +970,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-04-22",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-22"
       },
       {
         "type": "SEC Filing",
@@ -1294,6 +1098,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-06-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-02"
       }
     ],
     "queries_used": [
