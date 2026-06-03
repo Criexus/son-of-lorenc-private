@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.65",
-      "note": "Auto-Update: 11.28% vs. vorheriger Schlusskurs",
+      "value": "$3.52",
+      "note": "Auto-Update: 7.32% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-03T15:11:28Z",
+    "last_update_utc": "2026-06-03T19:03:47Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.65,
+      "regularMarketPrice": 3.52,
       "previousClose": 3.28,
-      "change": 0.37,
-      "changePercent": 11.28,
-      "regularMarketTime": "2026-06-03T15:11:17Z",
+      "change": 0.24,
+      "changePercent": 7.32,
+      "regularMarketTime": "2026-06-03T16:51:37Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -300,7 +300,7 @@
       },
       {
         "t": "2026-06-03T13:30:00Z",
-        "price": 3.6499
+        "price": 3.52
       }
     ],
     "price_history_1d": [
@@ -326,33 +326,52 @@
       },
       {
         "t": "2026-06-03T15:10:00Z",
-        "price": 3.59
+        "price": 3.69
       },
       {
-        "t": "2026-06-03T15:11:17Z",
-        "price": 3.6499
+        "t": "2026-06-03T15:15:00Z",
+        "price": 3.63
+      },
+      {
+        "t": "2026-06-03T15:20:00Z",
+        "price": 3.6601
+      },
+      {
+        "t": "2026-06-03T15:25:00Z",
+        "price": 3.7
+      },
+      {
+        "t": "2026-06-03T15:30:00Z",
+        "price": 3.695
+      },
+      {
+        "t": "2026-06-03T15:45:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-06-03T15:50:00Z",
+        "price": 3.695
+      },
+      {
+        "t": "2026-06-03T16:00:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-06-03T16:45:00Z",
+        "price": 3.575
+      },
+      {
+        "t": "2026-06-03T16:50:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-06-03T16:51:37Z",
+        "price": 3.52
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Biodexa Pharmaceuticals treibt FAP-Behandlungsstudie voran - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNQbnkwRVhwak9zQkVrRnJYckJxRVg0RWhGQ0x3cFRHN19LaHhuR3hfSmU5LVVMekVvX0I5RUNKVm15TXpqZ1VQdmk2UDhYdXpkMjcyZVpRamtaTUU2R1ViVXFkUVU1aTAtS2ZSWkJueGl4R0Q4cGl0RkpFNjJUd3NzQ1dLazU3MDdfMmVLaldtSDE4enNGTDh2RkxEMHpLTFFZejlPWFdJY1NCMGJfTWRJdw?oc=5",
-        "published_at": "2025-03-19T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Biodexa Pharmaceuticals FDA",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "SCHEDULE 13G/A",
