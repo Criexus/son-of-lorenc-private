@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.62",
-      "note": "Auto-Update: 7.06% vs. vorheriger Schlusskurs",
+      "value": "$4.53",
+      "note": "Auto-Update: 4.86% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-03T19:03:39Z",
+    "last_update_utc": "2026-06-03T22:08:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.625,
+      "regularMarketPrice": 4.53,
       "previousClose": 4.32,
-      "change": 0.305,
-      "changePercent": 7.06,
-      "regularMarketTime": "2026-06-03T19:03:26Z",
+      "change": 0.21,
+      "changePercent": 4.86,
+      "regularMarketTime": "2026-06-03T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -412,7 +412,7 @@
       },
       {
         "t": "2026-06-03T13:30:00Z",
-        "price": 4.625
+        "price": 4.53
       }
     ],
     "price_history_1d": [
@@ -682,16 +682,76 @@
       },
       {
         "t": "2026-06-03T19:00:00Z",
+        "price": 4.625
+      },
+      {
+        "t": "2026-06-03T19:05:00Z",
+        "price": 4.635
+      },
+      {
+        "t": "2026-06-03T19:10:00Z",
+        "price": 4.635
+      },
+      {
+        "t": "2026-06-03T19:15:00Z",
         "price": 4.63
       },
       {
-        "t": "2026-06-03T19:03:26Z",
-        "price": 4.625
+        "t": "2026-06-03T19:20:00Z",
+        "price": 4.585
+      },
+      {
+        "t": "2026-06-03T19:25:00Z",
+        "price": 4.595
+      },
+      {
+        "t": "2026-06-03T19:30:00Z",
+        "price": 4.6
+      },
+      {
+        "t": "2026-06-03T19:35:00Z",
+        "price": 4.585
+      },
+      {
+        "t": "2026-06-03T19:40:00Z",
+        "price": 4.585
+      },
+      {
+        "t": "2026-06-03T19:45:00Z",
+        "price": 4.555
+      },
+      {
+        "t": "2026-06-03T19:50:00Z",
+        "price": 4.545
+      },
+      {
+        "t": "2026-06-03T19:55:00Z",
+        "price": 4.53
+      },
+      {
+        "t": "2026-06-03T20:00:00Z",
+        "price": 4.53
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Nutzt AtaiBeckley (ATAI) die Phase-3-Einführung von BPL-003, um sein Risiko-Ertrags-Profil neu zu definieren? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeVIzbmdabzRxX3BBRTVkUjFMQzloSkl3SG1teTNINVViUGxBN3NSN0hIZ2N2Nm11WEwwcG5URExOVlc1aTJscmVsd1FZZ0t3R2dOeVg3OWZCaUs5WDZHQnJmYUtidjIxblQxTmpOOTF2b0N0TkQ3UjJ4UjJsQlo4M1RaUFIwV1B4UDRuT1lEcjFDTS05Q3ZKZUJBbkNMNllLMW9CMjhBQklUZDBIeFhrbm9RNWVjODUtRElOWXFGQTdWaXR4MVFydmRPRE9sZUdEemVPSHpFN2lPRFN4ekduZnRFM3cwYXfSAecBQVVfeXFMT3lSM25nWm80cV9wQUU1ZFIxTEM5aEpJd0htbXkzSDVVYlBsQTdzUjdISGdjdjZtdVhMMHBuVERMTlZXNWkybHJlbHdRWWdLd0dnTnlYNzlmQmlLOVg2R0JyZmFLYnYyMW5UMU5qTjkxdm9DdE5EN1IyeFIybEJaODNUWlBSMFdQeFA0bk9ZRHIxQ00tOUN2SmVCQW5DTDZZSzFvQjI4QUJJVGQwSHhYa25vUTVlYzg1LURJTllxRkE3Vml0eDFRcnZkT0RPbGVHRHplT0h6RTdpT0RTeHpHbmZ0RTN3MGF3?oc=5",
+        "published_at": "2026-06-03T20:41:36Z",
+        "source": "simplywall.st",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 22
+      },
       {
         "title": "Atai Beckley Aktie: 4,24 Euro neues 52-Wochen-Hoch - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdFp5R2J3V1FrTjNRb3dqLXNtTnJvM2xvRThfM1BndmNSZkswMm92aGRZLTJlVFI1ZEFpRXZCTUhYdEVvMG1Td1VzOW1XSTlSakxqQWZWZTNQQlZZel9PLVlLTDc2N2dXVGcwX1JkSU84TUZXMDVxV2hsRHJTUl9HX0FwRm5rbldsa25zMk8yUGtqR01pY1FBSmdIc3hGOXBjWnc?oc=5",
@@ -837,22 +897,6 @@
         "relevance_score": 18
       },
       {
-        "title": "AtaiBeckley: Guggenheim erhöht Kursziel nach gesicherter Finanzierung auf 16 US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNXRENXU2Q0ZXQ2xmNWM1WnQ2QTBVdUFEblNFcmhraGZfWGV1R2pNSV9lVGlvMDFUMENPRE05QWU3TzVCd2x0RnY5cnAzZzBuMF9GRDhWWk5reDBsZ1BoTERuVm5SaV9Ea1Q3aG5naDhneDhVRE9MSVRNVUp1ak51Skx6MHkzSzMwZ2ZweGttbDRVZklWQXhhNm9DNFd3cDhiRlJvMHpQVDVTQ2F6Wjh3Ny1TM1daMDRoUmJyMUFpRk56T3kwZFRrcTlOeW5LenZqM0ZnWGd0R1NscmM?oc=5",
-        "published_at": "2026-04-17T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 15
-      },
-      {
         "title": "Positive Phase-2a-TRD-Daten für BPL-003 könnten die Argumente für eine Investition in AtaiBeckley (ATAI) ändern - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeTdwckQzR2NfWkh6WkhkMy1IMmVtS0JKY1RhU1JEbF9WeHAzS0plbGwzZF91OGpKNjc1R2QzRVBuRXhjdHE2NjVWRC1jUmxTa2h5b3AyVTY3dHB1Ti04ekc3YUViYmJJTUEwVFN0TmFPMVpyc2w4WWs3ZmxQd0Jzc2NsclMxUndCSEdVeXp0UkdUQzBUMTlXTG5vUEYzUk5Ia2xpX1ZfMFpaRXBlR21xb3dENHgyUDgwOVpXMjItdjMwSnVlLW9oYWJCT0lIX2JkT2NNVlNyclh1aTdoVVE4UGVn0gHnAUFVX3lxTFBtV2pBVGhWZG5TUE5KUkQ5bkVRSTFpaFhSZGFCSkxpVnE1bzl3UkpyYjRxcWdsZnlQVFpkTDlHS2M3Sjg2TGJBenIzRjE4SjhETE1YZzR4bk1hV1dvMEdoSUpfaFowQWhEVnFXOUtxM1JabGRQeE1IRjlYdEVfUGh5dzJPOFVBMWpWWGRicGREVDlNM29XVHFna1JOZk10elFuUGRTdGplc2dRZEdUM0pnd294UzdRQktLZjEwcElod2JhSTduNEpsTmVEQ3FSTzVSUVV1bDNTSWpIc1BHc04zNFVCbGFBYw?oc=5",
         "published_at": "2026-04-14T07:00:00Z",
@@ -873,7 +917,7 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalRFMTdiZjFoYXdMLXdHTktvZDlBaUJkdVd1UV9MNTFjaVNDVlE1XzFobm01OUFla2Z0ZXJzRF83MG1RbHNpN0VIdm9YMzVIVXM3ODE2eUhZNmltTkJNZXB5RmFxVEJYZXVJVkFWdkpEX3Uyb1ZGZG1HV3FGWW82VENCN2FMVldReEhlVFQ4M2dTV1d0d2d1MWkyTlF5Mms?oc=5",
         "published_at": "2026-04-11T07:00:00Z",
         "source": "Börse Express",
-        "query": "ATAI stock news",
+        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -882,7 +926,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
+        "relevance_score": 8
       },
       {
         "title": "H.C. Wainwright bestätigt Kaufempfehlung für atai Life Sciences mit Kursziel von 25 US-Dollar - Investing.com Deutsch",
@@ -953,7 +997,7 @@
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQW1kVkxVdFZuLVRGTE1lejc2T2dXZTBmVmxMMHFXb3U1bFhETWZWR2RsRVdwVWhVZXlMYTNLUU8xbklxTEF6QlpGS3V4VnVoUzJSdW1FYngwS3NZOUxwVUFsUXBxRlJxLUZidF80eTkzbWxVeW8xV0NUX1lhNXJHV1dmaVRtVlZvQm5NVmt2VDlWVTlaTFF4TmJvNzB1d1BJR1lNSEZqRGR5My0tZFM2YnlGbDFuNGM?oc=5",
         "published_at": "2026-03-03T08:00:00Z",
         "source": "Goldesel.de",
-        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -994,22 +1038,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 15
-      },
-      {
-        "title": "AtaiBeckley Aktie: Fokus auf Investoren - Börse Global",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBcHVQc2JFckRIVFpHZTEtYW4yckxURk5FYl94Mlk5TFhoN3gxeEdoQ2JJV2VZTXM4aGJYQVhHNHR1bjRHa2hPY3JSUEdQOUJTa19FQnVsUEZjTEpsdlNDZ3dUUFdZQmMxVWdGZmpaNnpVSlI0dm5qaFBqWDhnYTA?oc=5",
-        "published_at": "2026-02-18T08:00:00Z",
-        "source": "Börse Global",
-        "query": "AtaiBeckley BPL-003 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "relevance_score": 15
       },
       {
@@ -1081,7 +1109,7 @@
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSlJuVUpWZmJycnZKT2c5SkZmSGZkbk9LQ3REOHlYdVhyN2FRNUhwdFhralpjZzgzMjB0cEVDT0V5Q29WY0k1aTgwTUVpUDRmdjRoYnRYOXh1OW04cDZjM3lNMkpSam9XTU16REd5UDE3TklOQkNqeVhIZE9vdWZrUWhPWk9GUTBpNnFVT1BhR3lWbkdubFdXTldaaXJvczRKaEJVVkZGbndOZXVnTWszNzZwejluMndZbnJnaXIwTzg?oc=5",
         "published_at": "2025-06-02T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "ATAI stock news",
+        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1090,7 +1118,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 11
+        "relevance_score": 12
       },
       {
         "title": "ATAI Prognose — Kursziel für 2027 - TradingView",
