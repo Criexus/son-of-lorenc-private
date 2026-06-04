@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.13",
-      "note": "Auto-Update: 10.78% vs. vorheriger Schlusskurs",
+      "value": "$1.20",
+      "note": "Auto-Update: 17.65% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-04T18:08:47Z",
+    "last_update_utc": "2026-06-04T20:30:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.13,
+      "regularMarketPrice": 1.2,
       "previousClose": 1.02,
-      "change": 0.11,
-      "changePercent": 10.78,
-      "regularMarketTime": "2026-06-04T18:00:49Z",
+      "change": 0.18,
+      "changePercent": 17.65,
+      "regularMarketTime": "2026-06-04T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,10 +215,6 @@
       "fiftyTwoWeekRange": "0.78 – 285.44"
     },
     "price_history": [
-      {
-        "t": "2026-05-04T13:30:00Z",
-        "price": 91.008
-      },
       {
         "t": "2026-05-05T13:30:00Z",
         "price": 86.656
@@ -305,7 +301,7 @@
       },
       {
         "t": "2026-06-04T13:30:00Z",
-        "price": 1.13
+        "price": 1.2
       }
     ],
     "price_history_1d": [
@@ -414,8 +410,40 @@
         "price": 1.13
       },
       {
-        "t": "2026-06-04T18:00:49Z",
+        "t": "2026-06-04T18:00:00Z",
         "price": 1.13
+      },
+      {
+        "t": "2026-06-04T18:10:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-06-04T18:15:00Z",
+        "price": 1.135
+      },
+      {
+        "t": "2026-06-04T19:10:00Z",
+        "price": 1.105
+      },
+      {
+        "t": "2026-06-04T19:20:00Z",
+        "price": 1.11
+      },
+      {
+        "t": "2026-06-04T19:25:00Z",
+        "price": 1.13
+      },
+      {
+        "t": "2026-06-04T19:40:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-06-04T19:55:00Z",
+        "price": 1.18
+      },
+      {
+        "t": "2026-06-04T20:00:00Z",
+        "price": 1.2
       }
     ],
     "price_history_range": "1mo",
@@ -424,7 +452,7 @@
       {
         "title": "Haoxi Health Technology führt Reverse Split im Verhältnis 1:128 durch - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5",
-        "published_at": "2026-05-19T12:41:00Z",
+        "published_at": "2026-05-19T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Haoxi Health Technology HAO stock news",
         "source_type": "google_news_rss",
@@ -439,6 +467,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "6-K",
+        "filingDate": "2026-06-04",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026065289/ea0293465-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "6-K",
         "filingDate": "2026-05-21",
@@ -569,13 +604,6 @@
         "form": "6-K",
         "filingDate": "2025-12-03",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025117887/ea0267522-6k_haoxi.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "6-K",
-        "filingDate": "2025-11-12",
-        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390025109213/ea0264150-6k_haoxi.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -758,7 +786,7 @@
         "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
         "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
         "source": "Investing.com Deutsch",
-        "date": "2026-05-19T12:41:00Z",
+        "date": "2026-05-19T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1taWUwblB0VlF6RTJwX3pENTJGbmotb1RURXdvNmJCVGtjZm5GNzNoRUZUQlEzOFlOdE5Ub25mN0JEdTA5VU5QV2VTSGpjbThldXdOMzgzRTZYMDFJM0NiNzNkNFR5cXFfNElXWm1pR1M5X3A5VFNuUlV5QW4ycDdzc1BnMmVqRXluQmFkN1U0bVU4M2dBV2dUUzZ5YUxCUVc0cTBCeTJPa0dwblpmRzlMeXRwSF81NEJneHBaMWl4UQ?oc=5"
       },
       {
@@ -832,14 +860,6 @@
         "reason": "Studienregister-Treffer: COMPLETED NA",
         "source": "NCT07345104",
         "date": "2025-06-20"
-      },
-      {
-        "type": "SEC · Finanzbericht",
-        "level": "medium",
-        "title": "6-K · 2025-11-12",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2025-11-12"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -936,6 +956,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-21"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-06-04",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-04"
       },
       {
         "type": "ClinicalTrials.gov",

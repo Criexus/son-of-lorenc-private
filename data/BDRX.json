@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.62",
-      "note": "Auto-Update: 7.74% vs. vorheriger Schlusskurs",
+      "value": "$3.43",
+      "note": "Auto-Update: 2.08% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-04T18:07:42Z",
+    "last_update_utc": "2026-06-04T20:29:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.62,
+      "regularMarketPrice": 3.43,
       "previousClose": 3.36,
-      "change": 0.26,
-      "changePercent": 7.74,
-      "regularMarketTime": "2026-06-04T18:04:30Z",
+      "change": 0.07,
+      "changePercent": 2.08,
+      "regularMarketTime": "2026-06-04T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,10 +214,6 @@
       "fiftyTwoWeekRange": "2.86 – 66.5"
     },
     "price_history": [
-      {
-        "t": "2026-05-04T13:30:00Z",
-        "price": 3.12
-      },
       {
         "t": "2026-05-05T13:30:00Z",
         "price": 4.48
@@ -304,7 +300,7 @@
       },
       {
         "t": "2026-06-04T13:30:00Z",
-        "price": 3.62
+        "price": 3.43
       }
     ],
     "price_history_1d": [
@@ -365,8 +361,32 @@
         "price": 3.62
       },
       {
-        "t": "2026-06-04T18:04:30Z",
-        "price": 3.62
+        "t": "2026-06-04T18:50:00Z",
+        "price": 3.4601
+      },
+      {
+        "t": "2026-06-04T18:55:00Z",
+        "price": 3.44
+      },
+      {
+        "t": "2026-06-04T19:00:00Z",
+        "price": 3.4
+      },
+      {
+        "t": "2026-06-04T19:05:00Z",
+        "price": 3.46
+      },
+      {
+        "t": "2026-06-04T19:10:00Z",
+        "price": 3.59
+      },
+      {
+        "t": "2026-06-04T19:55:00Z",
+        "price": 3.43
+      },
+      {
+        "t": "2026-06-04T20:00:00Z",
+        "price": 3.43
       }
     ],
     "price_history_range": "1mo",
