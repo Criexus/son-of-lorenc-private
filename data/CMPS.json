@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-04T00:10:57Z",
+    "last_update_utc": "2026-06-04T05:17:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -742,22 +742,6 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "TD Cowen bestätigt Kaufempfehlung für Compass Pathways - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUYwcW9QQ0dySDVVWjNvMWg2cldxLU5xVE44b2FoRTlyNlhzcENHNEJmUzZQb0FOakdKQnAyR0MwbjlES1RZUnYwUkhZT01QVVhaaVFuUDBKSU1WYTZ6YnVZcjhMMVJyV3JVOXlhR1pCdjFOVmtlOW9VTTNZbFJHQTZKRHVEQXl6U2EyMEI1Z1hxRVRVdDJMTkl4TW9wRUw0bU9sUENId0JuT1NmSnZlYXdmOA?oc=5",
-        "published_at": "2026-06-01T18:33:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "COMPASS Pathways stock (GB00BKLLQZ68): short interest drops as Nasdaq-listed shares trade in double - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQelBTV21lMWZlVDhBNGhCb08yVTJnMXAwWHk3bVJIb1B0UVBtU2hwRE5pNERmM0JPcTIzMm1ZVUFLamtuY2lFYklZZE9XSVJSU3RqUUtmdldxb3Fpek5yZTgzQkFEQy1ZMW5NdkUwbHZESlhzZmZ6QWVjbW1rNm90WjQzN0ItaXZIUFg4cE5aRXhOUnhHYlk1c1BiSE9VWm5EZm5rUDVyVjhvUGFfMVFmZzJqUFhPV0RSQnc?oc=5",
         "published_at": "2026-06-01T02:25:49Z",
@@ -964,6 +948,22 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 21
+      },
+      {
+        "title": "Compass Pathways: Starke Quartalszahlen und Zulassungsfortschritt treiben Aktie an - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOblRqNklkazJxZGlvYzYzZVBmbFY5M3QxOE9RdDIxaWk5VGVWVVI5OEVMejVVLURhVW1JaFBwdkxVY2tiTzRkODZkR1BTUVBTSUhlTWE5SlpBTHp1TkZ2Y1BNYmhoNVdoTXlNc21lemgycFpmWTBIYUc3S0N0RjdBdGtIYUF6VnA0M1hUbHkyTjAxd09JczRfdk81N0t1VVJMRWFmRjhMeEV5cV9zTW1wSUd6eXU0aGlvcl92OTBuQkpJd1lFd3VtNUh2R0pCaUZnRklBbk5FcDhiUQ?oc=5",
+        "published_at": "2026-05-13T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
       },
       {
         "title": "Compass Pathways: 1–2 Monate FDA-Prüfung für COMP360 - kapitalmarktexperten.de",
@@ -1516,6 +1516,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Compass Pathways: Starke Quartalszahlen und Zulassungsfortschritt treiben Aktie an - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-05-13T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOblRqNklkazJxZGlvYzYzZVBmbFY5M3QxOE9RdDIxaWk5VGVWVVI5OEVMejVVLURhVW1JaFBwdkxVY2tiTzRkODZkR1BTUVBTSUhlTWE5SlpBTHp1TkZ2Y1BNYmhoNVdoTXlNc21lemgycFpmWTBIYUc3S0N0RjdBdGtIYUF6VnA0M1hUbHkyTjAxd09JczRfdk81N0t1VVJMRWFmRjhMeEV5cV9zTW1wSUd6eXU0aGlvcl92OTBuQkpJd1lFd3VtNUh2R0pCaUZnRklBbk5FcDhiUQ?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - AD HOC NEWS",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1728,14 +1740,6 @@
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2, PHASE3",
         "source": "NCT07570654",
         "date": "2026-09"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "S-8 · 2026-03-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-24"
       }
     ],
     "queries_used": [
