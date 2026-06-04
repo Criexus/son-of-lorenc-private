@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$12.69",
-      "note": "Auto-Update: 7.09% vs. vorheriger Schlusskurs",
+      "value": "$13.27",
+      "note": "Auto-Update: 11.28% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-04T12:25:19Z",
+    "last_update_utc": "2026-06-04T15:53:18Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 12.69,
-      "previousClose": 11.85,
-      "change": 0.84,
-      "changePercent": 7.09,
-      "regularMarketTime": "2026-06-03T20:00:01Z",
+      "regularMarketPrice": 13.265,
+      "previousClose": 11.92,
+      "change": 1.345,
+      "changePercent": 11.28,
+      "regularMarketTime": "2026-06-04T15:52:59Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -418,329 +418,153 @@
       {
         "t": "2026-06-03T13:30:00Z",
         "price": 12.69
+      },
+      {
+        "t": "2026-06-04T13:30:00Z",
+        "price": 13.265
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-03T13:30:00Z",
-        "price": 12.845
-      },
-      {
-        "t": "2026-06-03T13:35:00Z",
-        "price": 12.735
-      },
-      {
-        "t": "2026-06-03T13:40:00Z",
-        "price": 12.66
-      },
-      {
-        "t": "2026-06-03T13:45:00Z",
-        "price": 12.58
-      },
-      {
-        "t": "2026-06-03T13:50:00Z",
-        "price": 12.58
-      },
-      {
-        "t": "2026-06-03T13:55:00Z",
-        "price": 12.795
-      },
-      {
-        "t": "2026-06-03T14:00:00Z",
-        "price": 12.84
-      },
-      {
-        "t": "2026-06-03T14:05:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-06-03T14:10:00Z",
-        "price": 13.065
-      },
-      {
-        "t": "2026-06-03T14:15:00Z",
-        "price": 13.04
-      },
-      {
-        "t": "2026-06-03T14:20:00Z",
-        "price": 12.96
-      },
-      {
-        "t": "2026-06-03T14:25:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-06-03T14:30:00Z",
-        "price": 13.02
-      },
-      {
-        "t": "2026-06-03T14:35:00Z",
-        "price": 12.99
-      },
-      {
-        "t": "2026-06-03T14:40:00Z",
-        "price": 12.963
-      },
-      {
-        "t": "2026-06-03T14:45:00Z",
-        "price": 12.975
-      },
-      {
-        "t": "2026-06-03T14:50:00Z",
-        "price": 12.99
-      },
-      {
-        "t": "2026-06-03T14:55:00Z",
-        "price": 13.0099
-      },
-      {
-        "t": "2026-06-03T15:00:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-06-03T15:05:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-06-03T15:10:00Z",
-        "price": 12.935
-      },
-      {
-        "t": "2026-06-03T15:15:00Z",
-        "price": 12.965
-      },
-      {
-        "t": "2026-06-03T15:20:00Z",
-        "price": 12.94
-      },
-      {
-        "t": "2026-06-03T15:25:00Z",
-        "price": 13.01
-      },
-      {
-        "t": "2026-06-03T15:30:00Z",
-        "price": 13.02
-      },
-      {
-        "t": "2026-06-03T15:35:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-06-03T15:40:00Z",
-        "price": 12.96
-      },
-      {
-        "t": "2026-06-03T15:45:00Z",
-        "price": 12.9201
-      },
-      {
-        "t": "2026-06-03T15:50:00Z",
-        "price": 12.93
-      },
-      {
-        "t": "2026-06-03T15:55:00Z",
-        "price": 12.92
-      },
-      {
-        "t": "2026-06-03T16:00:00Z",
-        "price": 12.86
-      },
-      {
-        "t": "2026-06-03T16:05:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-06-03T16:10:00Z",
-        "price": 12.925
-      },
-      {
-        "t": "2026-06-03T16:15:00Z",
-        "price": 12.93
-      },
-      {
-        "t": "2026-06-03T16:20:00Z",
-        "price": 12.96
-      },
-      {
-        "t": "2026-06-03T16:25:00Z",
-        "price": 12.945
-      },
-      {
-        "t": "2026-06-03T16:30:00Z",
-        "price": 12.9793
-      },
-      {
-        "t": "2026-06-03T16:35:00Z",
-        "price": 12.9397
-      },
-      {
-        "t": "2026-06-03T16:40:00Z",
-        "price": 12.9103
-      },
-      {
-        "t": "2026-06-03T16:45:00Z",
-        "price": 12.935
-      },
-      {
-        "t": "2026-06-03T16:50:00Z",
-        "price": 12.97
-      },
-      {
-        "t": "2026-06-03T16:55:00Z",
-        "price": 13.0
-      },
-      {
-        "t": "2026-06-03T17:00:00Z",
-        "price": 12.96
-      },
-      {
-        "t": "2026-06-03T17:05:00Z",
-        "price": 12.955
-      },
-      {
-        "t": "2026-06-03T17:10:00Z",
-        "price": 12.93
-      },
-      {
-        "t": "2026-06-03T17:15:00Z",
-        "price": 12.868
-      },
-      {
-        "t": "2026-06-03T17:20:00Z",
-        "price": 12.848
-      },
-      {
-        "t": "2026-06-03T17:25:00Z",
-        "price": 12.8611
-      },
-      {
-        "t": "2026-06-03T17:30:00Z",
-        "price": 12.9
-      },
-      {
-        "t": "2026-06-03T17:35:00Z",
-        "price": 12.9
-      },
-      {
-        "t": "2026-06-03T17:40:00Z",
-        "price": 12.94
-      },
-      {
-        "t": "2026-06-03T17:45:00Z",
-        "price": 12.925
-      },
-      {
-        "t": "2026-06-03T17:50:00Z",
-        "price": 12.9471
-      },
-      {
-        "t": "2026-06-03T17:55:00Z",
-        "price": 12.9101
-      },
-      {
-        "t": "2026-06-03T18:00:00Z",
-        "price": 12.9215
-      },
-      {
-        "t": "2026-06-03T18:05:00Z",
-        "price": 12.97
-      },
-      {
-        "t": "2026-06-03T18:10:00Z",
-        "price": 12.955
-      },
-      {
-        "t": "2026-06-03T18:15:00Z",
-        "price": 12.96
-      },
-      {
-        "t": "2026-06-03T18:20:00Z",
-        "price": 12.98
-      },
-      {
-        "t": "2026-06-03T18:25:00Z",
-        "price": 13.005
-      },
-      {
-        "t": "2026-06-03T18:30:00Z",
-        "price": 13.008
-      },
-      {
-        "t": "2026-06-03T18:35:00Z",
-        "price": 12.97
-      },
-      {
-        "t": "2026-06-03T18:40:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-06-03T18:45:00Z",
-        "price": 12.95
-      },
-      {
-        "t": "2026-06-03T18:50:00Z",
-        "price": 12.85
-      },
-      {
-        "t": "2026-06-03T18:55:00Z",
-        "price": 12.87
-      },
-      {
-        "t": "2026-06-03T19:00:00Z",
-        "price": 12.9
-      },
-      {
-        "t": "2026-06-03T19:05:00Z",
-        "price": 12.91
-      },
-      {
-        "t": "2026-06-03T19:10:00Z",
-        "price": 12.885
-      },
-      {
-        "t": "2026-06-03T19:15:00Z",
-        "price": 12.88
-      },
-      {
-        "t": "2026-06-03T19:20:00Z",
-        "price": 12.8
-      },
-      {
-        "t": "2026-06-03T19:25:00Z",
-        "price": 12.83
-      },
-      {
-        "t": "2026-06-03T19:30:00Z",
-        "price": 12.8
-      },
-      {
-        "t": "2026-06-03T19:35:00Z",
-        "price": 12.81
-      },
-      {
-        "t": "2026-06-03T19:40:00Z",
-        "price": 12.825
-      },
-      {
-        "t": "2026-06-03T19:45:00Z",
-        "price": 12.805
-      },
-      {
-        "t": "2026-06-03T19:50:00Z",
+        "t": "2026-06-04T13:30:00Z",
         "price": 12.77
       },
       {
-        "t": "2026-06-03T19:55:00Z",
-        "price": 12.69
+        "t": "2026-06-04T13:35:00Z",
+        "price": 13.025
       },
       {
-        "t": "2026-06-03T20:00:00Z",
-        "price": 12.69
+        "t": "2026-06-04T13:40:00Z",
+        "price": 13.05
+      },
+      {
+        "t": "2026-06-04T13:45:00Z",
+        "price": 13.14
+      },
+      {
+        "t": "2026-06-04T13:50:00Z",
+        "price": 13.387
+      },
+      {
+        "t": "2026-06-04T13:55:00Z",
+        "price": 13.495
+      },
+      {
+        "t": "2026-06-04T14:00:00Z",
+        "price": 13.41
+      },
+      {
+        "t": "2026-06-04T14:05:00Z",
+        "price": 13.39
+      },
+      {
+        "t": "2026-06-04T14:10:00Z",
+        "price": 13.5332
+      },
+      {
+        "t": "2026-06-04T14:15:00Z",
+        "price": 13.71
+      },
+      {
+        "t": "2026-06-04T14:20:00Z",
+        "price": 13.75
+      },
+      {
+        "t": "2026-06-04T14:25:00Z",
+        "price": 13.79
+      },
+      {
+        "t": "2026-06-04T14:30:00Z",
+        "price": 13.735
+      },
+      {
+        "t": "2026-06-04T14:35:00Z",
+        "price": 13.64
+      },
+      {
+        "t": "2026-06-04T14:40:00Z",
+        "price": 13.615
+      },
+      {
+        "t": "2026-06-04T14:45:00Z",
+        "price": 13.585
+      },
+      {
+        "t": "2026-06-04T14:50:00Z",
+        "price": 13.625
+      },
+      {
+        "t": "2026-06-04T14:55:00Z",
+        "price": 13.61
+      },
+      {
+        "t": "2026-06-04T15:00:00Z",
+        "price": 13.625
+      },
+      {
+        "t": "2026-06-04T15:05:00Z",
+        "price": 13.525
+      },
+      {
+        "t": "2026-06-04T15:10:00Z",
+        "price": 13.46
+      },
+      {
+        "t": "2026-06-04T15:15:00Z",
+        "price": 13.53
+      },
+      {
+        "t": "2026-06-04T15:20:00Z",
+        "price": 13.5167
+      },
+      {
+        "t": "2026-06-04T15:25:00Z",
+        "price": 13.51
+      },
+      {
+        "t": "2026-06-04T15:30:00Z",
+        "price": 13.47
+      },
+      {
+        "t": "2026-06-04T15:35:00Z",
+        "price": 13.44
+      },
+      {
+        "t": "2026-06-04T15:40:00Z",
+        "price": 13.43
+      },
+      {
+        "t": "2026-06-04T15:45:00Z",
+        "price": 13.35
+      },
+      {
+        "t": "2026-06-04T15:50:00Z",
+        "price": 13.24
+      },
+      {
+        "t": "2026-06-04T15:52:59Z",
+        "price": 13.265
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "TD Cowen bestätigt Kaufempfehlung für Compass Pathways - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUYwcW9QQ0dySDVVWjNvMWg2cldxLU5xVE44b2FoRTlyNlhzcENHNEJmUzZQb0FOakdKQnAyR0MwbjlES1RZUnYwUkhZT01QVVhaaVFuUDBKSU1WYTZ6YnVZcjhMMVJyV3JVOXlhR1pCdjFOVmtlOW9VTTNZbFJHQTZKRHVEQXl6U2EyMEI1Z1hxRVRVdDJMTkl4TW9wRUw0bU9sUENId0JuT1NmSnZlYXdmOA?oc=5",
+        "published_at": "2026-06-01T18:33:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
       {
         "title": "COMPASS Pathways stock (GB00BKLLQZ68): short interest drops as Nasdaq-listed shares trade in double - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQelBTV21lMWZlVDhBNGhCb08yVTJnMXAwWHk3bVJIb1B0UVBtU2hwRE5pNERmM0JPcTIzMm1ZVUFLamtuY2lFYklZZE9XSVJSU3RqUUtmdldxb3Fpek5yZTgzQkFEQy1ZMW5NdkUwbHZESlhzZmZ6QWVjbW1rNm90WjQzN0ItaXZIUFg4cE5aRXhOUnhHYlk1c1BiSE9VWm5EZm5rUDVyVjhvUGFfMVFmZzJqUFhPV0RSQnc?oc=5",
@@ -996,6 +820,38 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 16
+      },
+      {
+        "title": "Compass Pathways-Aktie: Ein Federstrich, der alles verändert! - Finanztrends",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSS03VE9oVmlBa0ZYZFNVbWtlMmxvUzdXaF9LN0dEWFJoU1ZkamVBMk12S0xNNUNCYkpObWNiRUFTMTZ0WGMwVzU3cEtJcDQ3U1Zham5uVVpZZDJpNDZqb3pWQm1odHlCRExOMlV0aHZwMEFJYlpYdGY3NkVJak1Pb1paMThSQW5KZWh6dWp3?oc=5",
+        "published_at": "2026-04-21T07:00:00Z",
+        "source": "Finanztrends",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5",
+        "published_at": "2026-04-21T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
       },
       {
         "title": "Compass Pathways Aktie: Entscheidende Phase! - kapitalmarktexperten.de",
@@ -1464,6 +1320,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Börse Express",
+        "date": "2026-04-21T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Compass Pathways: FDA gewährt beschleunigtes Prüfverfahren für Depressionsmedikament – Aktie steigt - Investing.com Deutsch",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1712,14 +1580,6 @@
         "reason": "Studienregister-Treffer: COMPLETED ",
         "source": "NCT04519957",
         "date": "2020-07-20"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "S-8 · 2026-03-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-24"
       }
     ],
     "queries_used": [
