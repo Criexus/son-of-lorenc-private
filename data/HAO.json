@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.20",
-      "note": "Auto-Update: 17.65% vs. vorheriger Schlusskurs",
+      "value": "$1.07",
+      "note": "Auto-Update: 1.9% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-05T10:41:00Z",
+    "last_update_utc": "2026-06-05T13:47:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.2,
-      "previousClose": 1.02,
-      "change": 0.18,
-      "changePercent": 17.65,
-      "regularMarketTime": "2026-06-04T20:00:01Z",
+      "regularMarketPrice": 1.07,
+      "previousClose": 1.05,
+      "change": 0.02,
+      "changePercent": 1.9,
+      "regularMarketTime": "2026-06-05T13:45:53Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -298,148 +298,32 @@
       {
         "t": "2026-06-03T13:30:00Z",
         "price": 1.09
+      },
+      {
+        "t": "2026-06-04T13:30:00Z",
+        "price": 1.2
+      },
+      {
+        "t": "2026-06-05T13:30:00Z",
+        "price": 1.07
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-04T13:30:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-06-04T13:35:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-04T13:40:00Z",
-        "price": 1.075
-      },
-      {
-        "t": "2026-06-04T13:45:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-04T13:50:00Z",
-        "price": 1.11
-      },
-      {
-        "t": "2026-06-04T13:55:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-04T14:00:00Z",
+        "t": "2026-06-05T13:30:00Z",
         "price": 1.1
       },
       {
-        "t": "2026-06-04T14:05:00Z",
+        "t": "2026-06-05T13:35:00Z",
+        "price": 1.0601
+      },
+      {
+        "t": "2026-06-05T13:40:00Z",
+        "price": 1.075
+      },
+      {
+        "t": "2026-06-05T13:45:53Z",
         "price": 1.07
-      },
-      {
-        "t": "2026-06-04T14:10:00Z",
-        "price": 1.0705
-      },
-      {
-        "t": "2026-06-04T14:15:00Z",
-        "price": 1.08
-      },
-      {
-        "t": "2026-06-04T14:20:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-04T14:30:00Z",
-        "price": 1.0797
-      },
-      {
-        "t": "2026-06-04T14:40:00Z",
-        "price": 1.0701
-      },
-      {
-        "t": "2026-06-04T14:50:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-06-04T15:00:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-06-04T15:10:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-04T15:20:00Z",
-        "price": 1.11
-      },
-      {
-        "t": "2026-06-04T15:35:00Z",
-        "price": 1.135
-      },
-      {
-        "t": "2026-06-04T15:40:00Z",
-        "price": 1.16
-      },
-      {
-        "t": "2026-06-04T15:50:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-04T16:10:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-04T16:15:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-04T16:45:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-04T16:50:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-04T17:30:00Z",
-        "price": 1.1202
-      },
-      {
-        "t": "2026-06-04T17:55:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-04T18:00:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-04T18:10:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-04T18:15:00Z",
-        "price": 1.135
-      },
-      {
-        "t": "2026-06-04T19:10:00Z",
-        "price": 1.105
-      },
-      {
-        "t": "2026-06-04T19:20:00Z",
-        "price": 1.11
-      },
-      {
-        "t": "2026-06-04T19:25:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-04T19:40:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-04T19:55:00Z",
-        "price": 1.18
-      },
-      {
-        "t": "2026-06-04T20:00:00Z",
-        "price": 1.2
       }
     ],
     "price_history_range": "1mo",
@@ -606,154 +490,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07277452",
-        "title": "Nimotuzumab Combined With Nab-paclitaxel/Gemcitabine in the Perioperative Treatment of High-risk Resectable/Borderline Resectable Pancreatic Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Pancreatic Cancer, Adult",
-        "last_update": "",
-        "start_date": "2025-12-10",
-        "url": "https://clinicaltrials.gov/study/NCT07277452"
-      },
-      {
-        "nct_id": "NCT05034549",
-        "title": "Noninvasive Ventilation for Chronic Heart Failure",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Chronic Stable Heart Failure",
-        "last_update": "",
-        "start_date": "2019-08-05",
-        "url": "https://clinicaltrials.gov/study/NCT05034549"
-      },
-      {
-        "nct_id": "NCT06405685",
-        "title": "Nimotuzumab Plus AG in Pancreatic Cancer With Liver Metastasis",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Pancreatic Cancer",
-        "last_update": "",
-        "start_date": "2023-04-27",
-        "url": "https://clinicaltrials.gov/study/NCT06405685"
-      },
-      {
-        "nct_id": "NCT07345104",
-        "title": "Accuracy of Digital Mandibular Repositioning in Occlusal Reconstruction for Patients With Disc Displacement",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Temporomandibular Joint Disc Displacement",
-        "last_update": "",
-        "start_date": "2025-06-20",
-        "url": "https://clinicaltrials.gov/study/NCT07345104"
-      },
-      {
-        "nct_id": "NCT02066038",
-        "title": "Intermittent and Maintenance of Erlotinib in Combination With Pemetrexed/Carboplatin in Ⅲb/IV Non Small Cell Lung Cancer With Epidermal Growth Factor Receptor (EGFR) Mutation",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Lung, Carcinoma",
-        "last_update": "",
-        "start_date": "2014-01",
-        "url": "https://clinicaltrials.gov/study/NCT02066038"
-      },
-      {
-        "nct_id": "NCT03879915",
-        "title": "Dental Implants in Patients With X-linked Hypophosphatemia",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "X-linked Hypophosphatemia",
-        "last_update": "",
-        "start_date": "2019-09-27",
-        "url": "https://clinicaltrials.gov/study/NCT03879915"
-      },
-      {
-        "nct_id": "NCT05431517",
-        "title": "Incidence, Risk Factors and Endoscopic Retrieval of Proximally Migrated Pancreatic Stents",
+        "nct_id": "NCT01846546",
+        "title": "Cerebrospinal Fluid Endostatin/Collagen XVIII Concentrations in Patients With Severe Traumatic Brain Injury",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Pancreatic Stenting, Pancreatic Stent Displacement",
+        "conditions": "Traumatic Brain Injury",
         "last_update": "",
-        "start_date": "2022-06-30",
-        "url": "https://clinicaltrials.gov/study/NCT05431517"
+        "start_date": "2006-10",
+        "url": "https://clinicaltrials.gov/study/NCT01846546"
       },
       {
-        "nct_id": "NCT05926726",
-        "title": "GPC3-directed CAR-T in the Treatment Amongst Subjects With Advanced Hepatocellular Carcinoma",
+        "nct_id": "NCT07165951",
+        "title": "Clinical Trial Comparing TQB2868 Injection Combined With Anlotinib Hydrochloride Capsules With Placebo Combined With Chemotherapy as First-line Treatment for Metastatic Pancreatic Ductal Adenocarcinoma (mPDAC)",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Hepatocellular Carcinoma",
+        "phase": "PHASE3",
+        "conditions": "Metastatic Pancreatic Ductal Adenocarcinoma",
         "last_update": "",
-        "start_date": "2023-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT05926726"
+        "start_date": "2025-12-02",
+        "url": "https://clinicaltrials.gov/study/NCT07165951"
       },
       {
-        "nct_id": "NCT05237817",
-        "title": "Association Between Stroke and Adrenal Incidentalomas",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Stroke, Adrenal Incidentaloma",
-        "last_update": "",
-        "start_date": "2021-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT05237817"
-      },
-      {
-        "nct_id": "NCT06499974",
-        "title": "POASAC Study (Preoperative Anemia Severity and Classification Study)",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Anemia",
-        "last_update": "",
-        "start_date": "2024-08-02",
-        "url": "https://clinicaltrials.gov/study/NCT06499974"
-      },
-      {
-        "nct_id": "NCT04461652",
-        "title": "The Effect of a Combined Drainage Strategy in Uniportal Upper Lung Lobectomy",
+        "nct_id": "NCT04215237",
+        "title": "How Atorvastatin Affects the Gut Flora and Metabolomics?",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Carcinoma, Non-Small-Cell Lung",
+        "conditions": "Atherosclerotic Cardiovascular Disease",
         "last_update": "",
-        "start_date": "2020-01-05",
-        "url": "https://clinicaltrials.gov/study/NCT04461652"
+        "start_date": "2017-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT04215237"
       },
       {
-        "nct_id": "NCT06475781",
-        "title": "Study to Evaluate Safety and Efficacy of Mirivadelgat in PH-ILD",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Group 3 Pulmonary Hypertension",
-        "last_update": "",
-        "start_date": "2025-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT06475781"
-      },
-      {
-        "nct_id": "NCT07482592",
-        "title": "Clinical Trial of TQB3205 Capsule in Subjects With Advanced Malignant Tumors",
+        "nct_id": "NCT05800873",
+        "title": "Evaluate The Efficacy, Safety, Pharmacokinetics And Pharmacodynamics Of EVER001",
         "status": "RECRUITING",
         "phase": "PHASE1",
-        "conditions": "Advanced Malignant Cancer",
+        "conditions": "Primary Membranous Nephropathy",
         "last_update": "",
-        "start_date": "2026-04-15",
-        "url": "https://clinicaltrials.gov/study/NCT07482592"
+        "start_date": "2023-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT05800873"
       },
       {
-        "nct_id": "NCT05707338",
-        "title": "Short-term Outcomes of Laparoscopic Versus Open Gastrectomy With Lymph Node Dissection for Early Gastric Cancer :a Randomized Controlled Study",
-        "status": "UNKNOWN",
+        "nct_id": "NCT05738694",
+        "title": "Neoadjuvant of Axitinib Plus PD-1 to Improve Disease Free Survival of Patients With Renal Cell Carcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Renal Cell Carcinoma, Neoadjuvant",
+        "last_update": "",
+        "start_date": "2023-04-19",
+        "url": "https://clinicaltrials.gov/study/NCT05738694"
+      },
+      {
+        "nct_id": "NCT05873075",
+        "title": "Intravascular Laser Irradiation of Blood Use in Poor Ovarian Responders",
+        "status": "ACTIVE_NOT_RECRUITING",
         "phase": "NA",
-        "conditions": "Early Gastric Cancer",
+        "conditions": "Unrecognized Condition",
         "last_update": "",
-        "start_date": "2023-02",
-        "url": "https://clinicaltrials.gov/study/NCT05707338"
+        "start_date": "2023-04-27",
+        "url": "https://clinicaltrials.gov/study/NCT05873075"
       },
       {
-        "nct_id": "NCT05512442",
-        "title": "Comparison of the Centric Relation Recorded by Two Methods Using Cone Beam Computed Tomography",
+        "nct_id": "NCT06073054",
+        "title": "A Pharmacist Intervention to Improve Mother and Child Health",
         "status": "COMPLETED",
         "phase": "NA",
-        "conditions": "Tooth Loss",
+        "conditions": "Hypertension",
         "last_update": "",
-        "start_date": "2020-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT05512442"
+        "start_date": "2024-01-30",
+        "url": "https://clinicaltrials.gov/study/NCT06073054"
+      },
+      {
+        "nct_id": "NCT07053605",
+        "title": "Clinical Study on Laparoscopic Resection of Splenic Artery Aneurysm With Preservation of Spleen",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Splenic Artery Aneurysm, Immune Function, Hemodynamics",
+        "last_update": "",
+        "start_date": "2025-06-23",
+        "url": "https://clinicaltrials.gov/study/NCT07053605"
+      },
+      {
+        "nct_id": "NCT05736978",
+        "title": "Adaptive Treatment for Acute Myeloid Leukemia Based on D14 MRD Results",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "AML, MRD",
+        "last_update": "",
+        "start_date": "2023-03-31",
+        "url": "https://clinicaltrials.gov/study/NCT05736978"
+      },
+      {
+        "nct_id": "NCT06751199",
+        "title": "UCMSCs Combined With Allogeneic Islet Transplantation for the Treatment of Diabetes",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Diabetes",
+        "last_update": "",
+        "start_date": "2024-12-30",
+        "url": "https://clinicaltrials.gov/study/NCT06751199"
+      },
+      {
+        "nct_id": "NCT07284199",
+        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "CABG, Aortic Dissection, Valvular Heart Diseases",
+        "last_update": "",
+        "start_date": "2025-12-15",
+        "url": "https://clinicaltrials.gov/study/NCT07284199"
+      },
+      {
+        "nct_id": "NCT05347901",
+        "title": "Clinical Precise Diagnosis and Treatment in the Kawasaki Disease",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Kawasaki Disease",
+        "last_update": "",
+        "start_date": "2021-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05347901"
+      },
+      {
+        "nct_id": "NCT06583070",
+        "title": "SABR Combined With Targeted Therapy and Anti-PD-1 for Recurrent or Metastatic Renal Cancer",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Radiation Therapy, Metastatic Renal Cancer, Recurrent Renal Cell Cancer",
+        "last_update": "",
+        "start_date": "2024-02-02",
+        "url": "https://clinicaltrials.gov/study/NCT06583070"
+      },
+      {
+        "nct_id": "NCT07552558",
+        "title": "Ficerafusp Alfa, Pembrolizumab, and Stereotactic Body Radiotherapy (SBRT) for Head and Neck Squamous Cell Carcinoma (HNSCC)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Head and Neck Squamous Cell Carcinoma, HPV-Negative Squamous Cell Carcinoma",
+        "last_update": "",
+        "start_date": "2026-06-30",
+        "url": "https://clinicaltrials.gov/study/NCT07552558"
+      },
+      {
+        "nct_id": "NCT03091634",
+        "title": "The Efficacy and Safety of the Xue-Fu-Zhu-Yu Capsule in Treatment of Qi Stagnation and Blood Stasis Syndrome.",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Qi Stagnation and Blood Stasis Syndrome",
+        "last_update": "",
+        "start_date": "2017-05-06",
+        "url": "https://clinicaltrials.gov/study/NCT03091634"
       }
     ],
     "detected_triggers": [
@@ -788,74 +672,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Intermittent and Maintenance of Erlotinib in Combination With Pemetrexed/Carboplatin in Ⅲb/IV Non Small Cell Lung Cancer With Epidermal Growth Factor Receptor (EGFR) Mutation",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT02066038",
-        "date": "2014-01"
+        "title": "The Efficacy and Safety of the Xue-Fu-Zhu-Yu Capsule in Treatment of Qi Stagnation and Blood Stasis Syndrome.",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT03091634",
+        "date": "2017-05-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Noninvasive Ventilation for Chronic Heart Failure",
+        "title": "How Atorvastatin Affects the Gut Flora and Metabolomics?",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05034549",
-        "date": "2019-08-05"
+        "source": "NCT04215237",
+        "date": "2017-11-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Comparison of the Centric Relation Recorded by Two Methods Using Cone Beam Computed Tomography",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05512442",
-        "date": "2020-01-01"
+        "title": "Adaptive Treatment for Acute Myeloid Leukemia Based on D14 MRD Results",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT05736978",
+        "date": "2023-03-31"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effect of a Combined Drainage Strategy in Uniportal Upper Lung Lobectomy",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT04461652",
-        "date": "2020-01-05"
+        "title": "Neoadjuvant of Axitinib Plus PD-1 to Improve Disease Free Survival of Patients With Renal Cell Carcinoma",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT05738694",
+        "date": "2023-04-19"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "GPC3-directed CAR-T in the Treatment Amongst Subjects With Advanced Hepatocellular Carcinoma",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT05926726",
-        "date": "2023-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Short-term Outcomes of Laparoscopic Versus Open Gastrectomy With Lymph Node Dissection for Early Gastric Cancer :a Randomized Controlled Study",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05707338",
-        "date": "2023-02"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Nimotuzumab Plus AG in Pancreatic Cancer With Liver Metastasis",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT06405685",
+        "title": "Intravascular Laser Irradiation of Blood Use in Poor Ovarian Responders",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING NA",
+        "source": "NCT05873075",
         "date": "2023-04-27"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Study to Evaluate Safety and Efficacy of Mirivadelgat in PH-ILD",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06475781",
-        "date": "2025-03-01"
+        "title": "Evaluate The Efficacy, Safety, Pharmacokinetics And Pharmacodynamics Of EVER001",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT05800873",
+        "date": "2023-05-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Accuracy of Digital Mandibular Repositioning in Occlusal Reconstruction for Patients With Disc Displacement",
+        "title": "A Pharmacist Intervention to Improve Mother and Child Health",
         "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT07345104",
-        "date": "2025-06-20"
+        "source": "NCT06073054",
+        "date": "2024-01-30"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "UCMSCs Combined With Allogeneic Islet Transplantation for the Treatment of Diabetes",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06751199",
+        "date": "2024-12-30"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Study on Laparoscopic Resection of Splenic Artery Aneurysm With Preservation of Spleen",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07053605",
+        "date": "2025-06-23"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Trial Comparing TQB2868 Injection Combined With Anlotinib Hydrochloride Capsules With Placebo Combined With Chemotherapy as First-line Treatment for Metastatic Pancreatic Ductal Adenocarcinoma (mPDAC)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07165951",
+        "date": "2025-12-02"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -876,10 +768,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Nimotuzumab Combined With Nab-paclitaxel/Gemcitabine in the Perioperative Treatment of High-risk Resectable/Borderline Resectable Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07277452",
-        "date": "2025-12-10"
+        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07284199",
+        "date": "2025-12-15"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -912,14 +804,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Clinical Trial of TQB3205 Capsule in Subjects With Advanced Malignant Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT07482592",
-        "date": "2026-04-15"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -963,35 +847,35 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Dental Implants in Patients With X-linked Hypophosphatemia",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT03879915",
-        "date": "2019-09-27"
+        "level": "medium",
+        "title": "Ficerafusp Alfa, Pembrolizumab, and Stereotactic Body Radiotherapy (SBRT) for Head and Neck Squamous Cell Carcinoma (HNSCC)",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1, PHASE2",
+        "source": "NCT07552558",
+        "date": "2026-06-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Association Between Stroke and Adrenal Incidentalomas",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05237817",
-        "date": "2021-04-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Incidence, Risk Factors and Endoscopic Retrieval of Proximally Migrated Pancreatic Stents",
+        "title": "Cerebrospinal Fluid Endostatin/Collagen XVIII Concentrations in Patients With Severe Traumatic Brain Injury",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT05431517",
-        "date": "2022-06-30"
+        "source": "NCT01846546",
+        "date": "2006-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "POASAC Study (Preoperative Anemia Severity and Classification Study)",
+        "title": "Clinical Precise Diagnosis and Treatment in the Kawasaki Disease",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05347901",
+        "date": "2021-08-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "SABR Combined With Targeted Therapy and Anti-PD-1 for Recurrent or Metastatic Renal Cancer",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06499974",
-        "date": "2024-08-02"
+        "source": "NCT06583070",
+        "date": "2024-02-02"
       },
       {
         "type": "SEC Filing",
