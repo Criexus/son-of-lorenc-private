@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.30",
-      "note": "Auto-Update: -12.7% vs. vorheriger Schlusskurs",
+      "value": "$3.25",
+      "note": "Auto-Update: -13.94% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -166,15 +166,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-05T16:25:32Z",
+    "last_update_utc": "2026-06-05T18:20:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.3,
+      "regularMarketPrice": 3.253,
       "previousClose": 3.78,
-      "change": -0.48,
-      "changePercent": -12.7,
-      "regularMarketTime": "2026-06-05T16:25:26Z",
+      "change": -0.527,
+      "changePercent": -13.94,
+      "regularMarketTime": "2026-06-05T18:19:11Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -279,7 +279,7 @@
       },
       {
         "t": "2026-06-05T13:30:00Z",
-        "price": 3.3
+        "price": 3.2529
       }
     ],
     "price_history_1d": [
@@ -424,14 +424,113 @@
         "price": 3.3
       },
       {
-        "t": "2026-06-05T16:25:26Z",
-        "price": 3.3
+        "t": "2026-06-05T16:25:00Z",
+        "price": 3.295
+      },
+      {
+        "t": "2026-06-05T16:30:00Z",
+        "price": 3.31
+      },
+      {
+        "t": "2026-06-05T16:35:00Z",
+        "price": 3.275
+      },
+      {
+        "t": "2026-06-05T16:40:00Z",
+        "price": 3.27
+      },
+      {
+        "t": "2026-06-05T16:45:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-06-05T16:50:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-06-05T16:55:00Z",
+        "price": 3.275
+      },
+      {
+        "t": "2026-06-05T17:00:00Z",
+        "price": 3.26
+      },
+      {
+        "t": "2026-06-05T17:05:00Z",
+        "price": 3.245
+      },
+      {
+        "t": "2026-06-05T17:10:00Z",
+        "price": 3.245
+      },
+      {
+        "t": "2026-06-05T17:15:00Z",
+        "price": 3.24
+      },
+      {
+        "t": "2026-06-05T17:20:00Z",
+        "price": 3.25
+      },
+      {
+        "t": "2026-06-05T17:25:00Z",
+        "price": 3.245
+      },
+      {
+        "t": "2026-06-05T17:30:00Z",
+        "price": 3.25
+      },
+      {
+        "t": "2026-06-05T17:35:00Z",
+        "price": 3.25
+      },
+      {
+        "t": "2026-06-05T17:40:00Z",
+        "price": 3.25
+      },
+      {
+        "t": "2026-06-05T17:45:00Z",
+        "price": 3.26
+      },
+      {
+        "t": "2026-06-05T17:50:00Z",
+        "price": 3.28
+      },
+      {
+        "t": "2026-06-05T17:55:00Z",
+        "price": 3.27
+      },
+      {
+        "t": "2026-06-05T18:00:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-06-05T18:05:00Z",
+        "price": 3.26
+      },
+      {
+        "t": "2026-06-05T18:10:00Z",
+        "price": 3.255
+      },
+      {
+        "t": "2026-06-05T18:15:00Z",
+        "price": 3.2601
+      },
+      {
+        "t": "2026-06-05T18:19:11Z",
+        "price": 3.2529
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [],
     "sec_filings": [
+      {
+        "form": "SCHEDULE 13G/A",
+        "filingDate": "2026-06-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000113777426000127/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "SCHEDULE 13G/A",
         "filingDate": "2026-06-04",
@@ -564,13 +663,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526086145/xslF345X05/ownership.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-03-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526086143/xslF345X05/ownership.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -666,14 +758,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-03-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "S-8 · 2026-03-23",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -734,6 +818,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-04"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-06-05",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-05"
       }
     ],
     "queries_used": [
