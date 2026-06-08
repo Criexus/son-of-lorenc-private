@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.36",
-      "note": "Auto-Update: -3.17% vs. vorheriger Schlusskurs",
+      "value": "$3.51",
+      "note": "Auto-Update: 5.72% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-08T09:59:16Z",
+    "last_update_utc": "2026-06-08T14:06:30Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.36,
-      "previousClose": 3.47,
-      "change": -0.11,
-      "changePercent": -3.17,
-      "regularMarketTime": "2026-06-05T20:00:00Z",
+      "regularMarketPrice": 3.51,
+      "previousClose": 3.32,
+      "change": 0.19,
+      "changePercent": 5.72,
+      "regularMarketTime": "2026-06-08T13:44:30Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,14 +214,6 @@
       "fiftyTwoWeekRange": "2.86 – 66.5"
     },
     "price_history": [
-      {
-        "t": "2026-05-06T13:30:00Z",
-        "price": 4.42
-      },
-      {
-        "t": "2026-05-07T13:30:00Z",
-        "price": 4.86
-      },
       {
         "t": "2026-05-08T13:30:00Z",
         "price": 4.25
@@ -301,116 +293,16 @@
       {
         "t": "2026-06-05T13:30:00Z",
         "price": 3.36
+      },
+      {
+        "t": "2026-06-08T13:30:00Z",
+        "price": 3.51
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-05T13:30:00Z",
-        "price": 3.32
-      },
-      {
-        "t": "2026-06-05T13:45:00Z",
-        "price": 3.45
-      },
-      {
-        "t": "2026-06-05T13:55:00Z",
-        "price": 3.4701
-      },
-      {
-        "t": "2026-06-05T14:15:00Z",
-        "price": 3.425
-      },
-      {
-        "t": "2026-06-05T14:40:00Z",
-        "price": 3.37
-      },
-      {
-        "t": "2026-06-05T14:45:00Z",
-        "price": 3.3601
-      },
-      {
-        "t": "2026-06-05T15:05:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T15:30:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T15:55:00Z",
-        "price": 3.3999
-      },
-      {
-        "t": "2026-06-05T16:00:00Z",
-        "price": 3.4697
-      },
-      {
-        "t": "2026-06-05T16:25:00Z",
-        "price": 3.42
-      },
-      {
-        "t": "2026-06-05T16:30:00Z",
-        "price": 3.4
-      },
-      {
-        "t": "2026-06-05T16:35:00Z",
-        "price": 3.435
-      },
-      {
-        "t": "2026-06-05T17:05:00Z",
-        "price": 3.37
-      },
-      {
-        "t": "2026-06-05T17:35:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T17:50:00Z",
-        "price": 3.395
-      },
-      {
-        "t": "2026-06-05T18:15:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T18:20:00Z",
-        "price": 3.39
-      },
-      {
-        "t": "2026-06-05T18:25:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T18:35:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T19:00:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T19:15:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T19:25:00Z",
-        "price": 3.3602
-      },
-      {
-        "t": "2026-06-05T19:30:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T19:45:00Z",
-        "price": 3.36
-      },
-      {
-        "t": "2026-06-05T19:50:00Z",
-        "price": 3.3695
-      },
-      {
-        "t": "2026-06-05T20:00:00Z",
-        "price": 3.36
+        "t": "2026-06-08T13:44:30Z",
+        "price": 3.51
       }
     ],
     "price_history_range": "1mo",
@@ -577,14 +469,14 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04230499",
-        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Familial Adenomatous Polyposis",
+        "nct_id": "NCT05324501",
+        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Glioblastoma",
         "last_update": "",
-        "start_date": "2021-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT04230499"
+        "start_date": "2022-10-19",
+        "url": "https://clinicaltrials.gov/study/NCT05324501"
       },
       {
         "nct_id": "NCT06950385",
@@ -597,14 +489,14 @@
         "url": "https://clinicaltrials.gov/study/NCT06950385"
       },
       {
-        "nct_id": "NCT05324501",
-        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
-        "status": "TERMINATED",
-        "phase": "PHASE1",
-        "conditions": "Recurrent Glioblastoma",
+        "nct_id": "NCT04230499",
+        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
         "last_update": "",
-        "start_date": "2022-10-19",
-        "url": "https://clinicaltrials.gov/study/NCT05324501"
+        "start_date": "2021-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT04230499"
       }
     ],
     "detected_triggers": [
