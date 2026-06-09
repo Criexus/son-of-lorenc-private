@@ -165,7 +165,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-09T08:58:22Z",
+    "last_update_utc": "2026-06-09T11:57:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -469,6 +469,13 @@
     ],
     "sec_filings": [
       {
+        "form": "8-K",
+        "filingDate": "2026-06-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226027781/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "4",
         "filingDate": "2026-06-03",
         "url": "https://www.sec.gov/Archives/edgar/data/890821/000196705626000003/xslF345X06/ownership.xml",
@@ -600,13 +607,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226019272/filename1.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "UPLOAD",
-        "filingDate": "2026-04-27",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000000000026004265/filename1.pdf",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -652,12 +652,12 @@
         "date": "2026-05-29"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "UPLOAD · 2026-04-27",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-06-09",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-27"
+        "date": "2026-06-09"
       },
       {
         "type": "SEC Filing",
