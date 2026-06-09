@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.67",
-      "note": "Auto-Update: -25.0% vs. vorheriger Schlusskurs",
+      "value": "$1.60",
+      "note": "Auto-Update: -27.93% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -165,15 +165,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-09T19:33:09Z",
+    "last_update_utc": "2026-06-09T21:29:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.665,
+      "regularMarketPrice": 1.6,
       "previousClose": 2.22,
-      "change": -0.555,
-      "changePercent": -25.0,
-      "regularMarketTime": "2026-06-09T19:15:51Z",
+      "change": -0.62,
+      "changePercent": -27.93,
+      "regularMarketTime": "2026-06-09T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -184,8 +184,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 17.64,
-      "fiftyTwoWeekLow": 1.65,
-      "fiftyTwoWeekRange": "1.65 – 17.64"
+      "fiftyTwoWeekLow": 1.6,
+      "fiftyTwoWeekRange": "1.6 – 17.64"
     },
     "price_history": [
       {
@@ -270,7 +270,7 @@
       },
       {
         "t": "2026-06-09T13:30:00Z",
-        "price": 1.665
+        "price": 1.6
       }
     ],
     "price_history_1d": [
@@ -463,8 +463,28 @@
         "price": 1.675
       },
       {
-        "t": "2026-06-09T19:15:51Z",
+        "t": "2026-06-09T19:15:00Z",
         "price": 1.665
+      },
+      {
+        "t": "2026-06-09T19:40:00Z",
+        "price": 1.65
+      },
+      {
+        "t": "2026-06-09T19:45:00Z",
+        "price": 1.63
+      },
+      {
+        "t": "2026-06-09T19:50:00Z",
+        "price": 1.61
+      },
+      {
+        "t": "2026-06-09T19:55:00Z",
+        "price": 1.62
+      },
+      {
+        "t": "2026-06-09T20:00:00Z",
+        "price": 1.6
       }
     ],
     "price_history_range": "1mo",
@@ -504,6 +524,20 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-06-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226027976/form8-k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B5",
+        "filingDate": "2026-06-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226027975/form424b5.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "8-K",
         "filingDate": "2026-06-09",
@@ -629,20 +663,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/890821/999999999526001390/xslEFFECTX01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "424B3",
-        "filingDate": "2026-04-29",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226019676/form424b3.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "CORRESP",
-        "filingDate": "2026-04-28",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226019272/filename1.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -650,10 +670,10 @@
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
-        "title": "424B3 · 2026-04-29",
+        "title": "424B5 · 2026-06-09",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-29"
+        "date": "2026-06-09"
       },
       {
         "type": "SEC · Unternehmensereignis",
@@ -696,12 +716,12 @@
         "date": "2026-06-09"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "CORRESP · 2026-04-28",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-06-09",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-28"
+        "date": "2026-06-09"
       },
       {
         "type": "SEC Filing",
