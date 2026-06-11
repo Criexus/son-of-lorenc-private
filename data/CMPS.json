@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.26",
-      "note": "Auto-Update: -13.75% vs. vorheriger Schlusskurs",
+      "value": "$11.41",
+      "note": "Auto-Update: -12.57% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-11T18:29:48Z",
+    "last_update_utc": "2026-06-11T20:43:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.255,
+      "regularMarketPrice": 11.41,
       "previousClose": 13.05,
-      "change": -1.795,
-      "changePercent": -13.75,
-      "regularMarketTime": "2026-06-11T18:29:25Z",
+      "change": -1.64,
+      "changePercent": -12.57,
+      "regularMarketTime": "2026-06-11T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "2.25 – 14.76"
     },
     "price_history": [
-      {
-        "t": "2026-05-11T13:30:00Z",
-        "price": 9.65
-      },
       {
         "t": "2026-05-12T13:30:00Z",
         "price": 9.37
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-06-11T13:30:00Z",
-        "price": 11.255
+        "price": 11.41
       }
     ],
     "price_history_1d": [
@@ -663,11 +659,83 @@
       },
       {
         "t": "2026-06-11T18:25:00Z",
-        "price": 11.2501
+        "price": 11.25
       },
       {
-        "t": "2026-06-11T18:29:25Z",
+        "t": "2026-06-11T18:30:00Z",
+        "price": 11.23
+      },
+      {
+        "t": "2026-06-11T18:35:00Z",
+        "price": 11.25
+      },
+      {
+        "t": "2026-06-11T18:40:00Z",
+        "price": 11.2907
+      },
+      {
+        "t": "2026-06-11T18:45:00Z",
+        "price": 11.3
+      },
+      {
+        "t": "2026-06-11T18:50:00Z",
+        "price": 11.32
+      },
+      {
+        "t": "2026-06-11T18:55:00Z",
+        "price": 11.32
+      },
+      {
+        "t": "2026-06-11T19:00:00Z",
+        "price": 11.34
+      },
+      {
+        "t": "2026-06-11T19:05:00Z",
+        "price": 11.33
+      },
+      {
+        "t": "2026-06-11T19:10:00Z",
+        "price": 11.3501
+      },
+      {
+        "t": "2026-06-11T19:15:00Z",
+        "price": 11.32
+      },
+      {
+        "t": "2026-06-11T19:20:00Z",
         "price": 11.255
+      },
+      {
+        "t": "2026-06-11T19:25:00Z",
+        "price": 11.31
+      },
+      {
+        "t": "2026-06-11T19:30:00Z",
+        "price": 11.38
+      },
+      {
+        "t": "2026-06-11T19:35:00Z",
+        "price": 11.33
+      },
+      {
+        "t": "2026-06-11T19:40:00Z",
+        "price": 11.318
+      },
+      {
+        "t": "2026-06-11T19:45:00Z",
+        "price": 11.35
+      },
+      {
+        "t": "2026-06-11T19:50:00Z",
+        "price": 11.43
+      },
+      {
+        "t": "2026-06-11T19:55:00Z",
+        "price": 11.41
+      },
+      {
+        "t": "2026-06-11T20:00:00Z",
+        "price": 11.41
       }
     ],
     "price_history_range": "1mo",
@@ -770,22 +838,6 @@
         "relevance_score": 17
       },
       {
-        "title": "COMPASS Pathways-Aktie (GB00BKLLQZ68): FDA beschleunigt COMP360-Zulassung nach Q1-Zahlen - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMEI1WFVPcnhEVUU1NFN6Y0tuOTlsVU5kZXowZW5pWk40QXNyWFQwRC1US3hNZlFDQUg3eGZMWXVsM2JsYmx3eEZPcndhTUZmSHZvNDFZZktsTlhzY2xoMk9oRWZ5eUpNU1o5ZER2TDJpV0FuNWJla3BUcHFqczMwYTRsdmpmRmRLZlNURk10aU9aa1RaWHpuM0dJODRHSTFUUm1LM3A4RGxrRVlLSGVrZ2lUbFdvUFVQcDVoYWxDMEE4LVd1WU5CdQ?oc=5",
-        "published_at": "2026-05-14T07:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 21
-      },
-      {
         "title": "Compass Pathways Aktie erreicht Zwei-Jahres-Hoch nach Kapitalaufstockung - aktien.news",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeTQ2Wl9rc0tPWk9wREZ0SU1lRE5sN3RXc0djenBBbFlRR1hFcUlJQXVhOHNZdlVPWjFMckZEbDN0VXQ4MjNVUW5FZlpsOW5VUHFfdTZLWG1qOWNuTEwyMURfYmhScXppWjlzQTlaNl9ycnREX3RQSVVFX1piZFI2UVZab19fbHJ4YzFCLTVNdm8xRlBqaUV0MndEQ1E?oc=5",
         "published_at": "2026-05-14T07:00:00Z",
@@ -834,6 +886,22 @@
         "relevance_score": 21
       },
       {
+        "title": "Compass Pathways: FDA wählt COMP360 für Priority Voucher - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQnFubFA0NjdpU3BQMVh0UDNlLVNtQXdvZkpFaWhQWV9YTjk1SUxxa1FQQkhaTldqc1JYaTRVNC1ZNWZSX1BqaTc3UlNRXzNSbV90LVl0N1FZT0MzTWhsaUlZU3ZNV2FQczVKa0dKTkZHbWZ3bFFObTA1em5xb0QyY04xV2lCUHNTVmtwVXNFRjhLNzFSMmlpWlZiUVdSM1l6UFZ4YmtRQTRnUkZRajdTWUhYcE1pdzA?oc=5",
+        "published_at": "2026-04-28T07:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 21
+      },
+      {
         "title": "Compass Pathways: FDA gewährt beschleunigtes Prüfverfahren für Depressionsmedikament – Aktie steigt - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMFNEWU42SGdGeUpnYkJYbFpVV2o4R256dmwxZnVQUFZkYkJ0SHFabmRDYVVnRzV0UkNROU44S3EzdE9ELVRjaVZsUF80VzYwNnVPY25aR2E3WU9rU3hVaVI4V2JHd0dqMUxjQlc0ajQ0aTRvUTlkMzVuOHFHVTBGVnFXYUZqZ3hhZ0U3VmluM2Q3REcxSU45YjNFUnlZWG5jMWJ5YXVJRVV3RnRLZkRvVEItc3dpLTU1a2tJNmp5NHh3MzRGeXZJRndqcVZXRXhjOXoxeTgzX3J0MDZmRXA4RE4wWVhqaGUz?oc=5",
         "published_at": "2026-04-24T07:00:00Z",
@@ -847,22 +915,6 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways-Aktie: Ein Federstrich, der alles verändert! - Finanztrends",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSS03VE9oVmlBa0ZYZFNVbWtlMmxvUzdXaF9LN0dEWFJoU1ZkamVBMk12S0xNNUNCYkpObWNiRUFTMTZ0WGMwVzU3cEtJcDQ3U1Zham5uVVpZZDJpNDZqb3pWQm1odHlCRExOMlV0aHZwMEFJYlpYdGY3NkVJak1Pb1paMThSQW5KZWh6dWp3?oc=5",
-        "published_at": "2026-04-21T07:00:00Z",
-        "source": "Finanztrends",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -1388,6 +1440,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Compass Pathways: FDA wählt COMP360 für Priority Voucher - AD HOC NEWS",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "AD HOC NEWS",
+        "date": "2026-04-28T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQnFubFA0NjdpU3BQMVh0UDNlLVNtQXdvZkpFaWhQWV9YTjk1SUxxa1FQQkhaTldqc1JYaTRVNC1ZNWZSX1BqaTc3UlNRXzNSbV90LVl0N1FZT0MzTWhsaUlZU3ZNV2FQczVKa0dKTkZHbWZ3bFFObTA1em5xb0QyY04xV2lCUHNTVmtwVXNFRjhLNzFSMmlpWlZiUVdSM1l6UFZ4YmtRQTRnUkZRajdTWUhYcE1pdzA?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Compass Pathways: 1–2 Monate FDA-Prüfung für COMP360 - kapitalmarktexperten.de",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1408,18 +1472,6 @@
         "source": "Investing.com Deutsch",
         "date": "2026-05-13T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOblRqNklkazJxZGlvYzYzZVBmbFY5M3QxOE9RdDIxaWk5VGVWVVI5OEVMejVVLURhVW1JaFBwdkxVY2tiTzRkODZkR1BTUVBTSUhlTWE5SlpBTHp1TkZ2Y1BNYmhoNVdoTXlNc21lemgycFpmWTBIYUc3S0N0RjdBdGtIYUF6VnA0M1hUbHkyTjAxd09JczRfdk81N0t1VVJMRWFmRjhMeEV5cV9zTW1wSUd6eXU0aGlvcl92OTBuQkpJd1lFd3VtNUh2R0pCaUZnRklBbk5FcDhiUQ?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "COMPASS Pathways-Aktie (GB00BKLLQZ68): FDA beschleunigt COMP360-Zulassung nach Q1-Zahlen - AD HOC NEWS",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "AD HOC NEWS",
-        "date": "2026-05-14T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMEI1WFVPcnhEVUU1NFN6Y0tuOTlsVU5kZXowZW5pWk40QXNyWFQwRC1US3hNZlFDQUg3eGZMWXVsM2JsYmx3eEZPcndhTUZmSHZvNDFZZktsTlhzY2xoMk9oRWZ5eUpNU1o5ZER2TDJpV0FuNWJla3BUcHFqczMwYTRsdmpmRmRLZlNURk10aU9aa1RaWHpuM0dJODRHSTFUUm1LM3A4RGxrRVlLSGVrZ2lUbFdvUFVQcDVoYWxDMEE4LVd1WU5CdQ?oc=5"
       },
       {
         "type": "FDA / Regulatorik",
