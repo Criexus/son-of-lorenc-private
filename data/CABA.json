@@ -166,7 +166,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-10T23:03:56Z",
+    "last_update_utc": "2026-06-11T01:45:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -603,6 +603,13 @@
       {
         "form": "4",
         "filingDate": "2026-06-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526266239/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-10",
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526266232/xslF345X06/ownership.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
@@ -732,13 +739,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000016/caba-20260420.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "PRE 14A",
-        "filingDate": "2026-04-17",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526160326/d922609dpre14a.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -810,14 +810,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "PRE 14A · 2026-04-17",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-17"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "ARS · 2026-04-28",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -870,6 +862,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-05"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-10"
       },
       {
         "type": "SEC Filing",
