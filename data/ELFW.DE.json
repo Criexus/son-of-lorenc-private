@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$41.78",
-      "note": "Auto-Update: -2.49% vs. vorheriger Schlusskurs",
+      "value": "$41.64",
+      "note": "Auto-Update: -2.82% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-11T15:02:21Z",
+    "last_update_utc": "2026-06-11T18:30:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 41.779,
+      "regularMarketPrice": 41.638,
       "previousClose": 42.847,
-      "change": -1.068,
-      "changePercent": -2.49,
-      "regularMarketTime": "2026-06-11T14:09:04Z",
+      "change": -1.209,
+      "changePercent": -2.82,
+      "regularMarketTime": "2026-06-11T15:35:59Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -252,7 +252,7 @@
       },
       {
         "t": "2026-06-11T07:00:00Z",
-        "price": 41.779
+        "price": 41.638
       }
     ],
     "price_history_1d": [
@@ -377,30 +377,25 @@
         "price": 41.779
       },
       {
-        "t": "2026-06-11T14:09:04Z",
-        "price": 41.779
+        "t": "2026-06-11T15:05:00Z",
+        "price": 41.54
+      },
+      {
+        "t": "2026-06-11T15:10:00Z",
+        "price": 41.669
+      },
+      {
+        "t": "2026-06-11T15:20:00Z",
+        "price": 41.642
+      },
+      {
+        "t": "2026-06-11T15:30:00Z",
+        "price": 41.638
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Deka MSCI World ETF: Es zeigen sich erste Warnsignale! - Finanztrends",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWkJ6SWZjMWgxY0pYVW40TFdtUk0tQnlNdFIxM2dQV0dETjFVSy0wUGpmc0IxcEYzdm1tRmZ2STU0anJPV2ZuWUxxVzZHSzMzUmxVT1pzQkpDTXU3czYtYXozTnEwVnY5ZkZBUlltUGNKN09iV1JpdEdhREtpclU5Zkh6SEFUT1lVcU5V?oc=5",
-        "published_at": "2026-03-18T07:00:00Z",
-        "source": "Finanztrends",
-        "query": "MSCI World ETF ELFW.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      }
-    ],
+    "news": [],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
