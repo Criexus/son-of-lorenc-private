@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.13",
-      "note": "Auto-Update: 3.67% vs. vorheriger Schlusskurs",
+      "value": "$1.09",
+      "note": "Auto-Update: -9.17% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-11T11:17:58Z",
+    "last_update_utc": "2026-06-11T15:02:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.13,
-      "previousClose": 1.09,
-      "change": 0.04,
-      "changePercent": 3.67,
-      "regularMarketTime": "2026-06-10T20:00:01Z",
+      "regularMarketPrice": 1.09,
+      "previousClose": 1.2,
+      "change": -0.11,
+      "changePercent": -9.17,
+      "regularMarketTime": "2026-06-11T14:52:24Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -302,320 +302,80 @@
       {
         "t": "2026-06-10T13:30:00Z",
         "price": 1.13
+      },
+      {
+        "t": "2026-06-11T13:30:00Z",
+        "price": 1.09
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-10T13:30:00Z",
-        "price": 0.9701
+        "t": "2026-06-11T13:30:00Z",
+        "price": 1.08
       },
       {
-        "t": "2026-06-10T13:35:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-06-10T13:40:00Z",
-        "price": 1.0301
-      },
-      {
-        "t": "2026-06-10T13:45:00Z",
-        "price": 1.0231
-      },
-      {
-        "t": "2026-06-10T13:50:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-06-10T13:55:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-10T14:00:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-10T14:05:00Z",
+        "t": "2026-06-11T13:35:00Z",
         "price": 1.09
       },
       {
-        "t": "2026-06-10T14:10:00Z",
-        "price": 1.14
+        "t": "2026-06-11T13:40:00Z",
+        "price": 1.09
       },
       {
-        "t": "2026-06-10T14:15:00Z",
-        "price": 1.085
+        "t": "2026-06-11T13:45:00Z",
+        "price": 1.08
       },
       {
-        "t": "2026-06-10T14:20:00Z",
-        "price": 1.085
+        "t": "2026-06-11T13:50:00Z",
+        "price": 1.0801
       },
       {
-        "t": "2026-06-10T14:25:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-06-10T14:30:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-10T14:35:00Z",
-        "price": 1.0599
-      },
-      {
-        "t": "2026-06-10T14:40:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-06-10T14:45:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-06-10T14:50:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-06-10T14:55:00Z",
-        "price": 1.025
-      },
-      {
-        "t": "2026-06-10T15:00:00Z",
-        "price": 1.035
-      },
-      {
-        "t": "2026-06-10T15:05:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-06-10T15:10:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-06-10T15:15:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-06-10T15:20:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-06-10T15:25:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-10T15:30:00Z",
-        "price": 1.0878
-      },
-      {
-        "t": "2026-06-10T15:35:00Z",
-        "price": 1.16
-      },
-      {
-        "t": "2026-06-10T15:40:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-10T15:45:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-06-10T15:50:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-06-10T15:55:00Z",
-        "price": 1.16
-      },
-      {
-        "t": "2026-06-10T16:00:00Z",
-        "price": 1.125
-      },
-      {
-        "t": "2026-06-10T16:05:00Z",
+        "t": "2026-06-11T13:55:00Z",
         "price": 1.075
       },
       {
-        "t": "2026-06-10T16:10:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-10T16:15:00Z",
-        "price": 1.06
-      },
-      {
-        "t": "2026-06-10T16:20:00Z",
+        "t": "2026-06-11T14:00:00Z",
         "price": 1.05
       },
       {
-        "t": "2026-06-10T16:25:00Z",
-        "price": 1.04
+        "t": "2026-06-11T14:05:00Z",
+        "price": 1.0338
       },
       {
-        "t": "2026-06-10T16:30:00Z",
-        "price": 1.05
+        "t": "2026-06-11T14:10:00Z",
+        "price": 1.0501
       },
       {
-        "t": "2026-06-10T16:35:00Z",
+        "t": "2026-06-11T14:15:00Z",
         "price": 1.07
       },
       {
-        "t": "2026-06-10T16:45:00Z",
-        "price": 1.11
-      },
-      {
-        "t": "2026-06-10T16:50:00Z",
-        "price": 1.0764
-      },
-      {
-        "t": "2026-06-10T16:55:00Z",
-        "price": 1.115
-      },
-      {
-        "t": "2026-06-10T17:00:00Z",
-        "price": 1.1341
-      },
-      {
-        "t": "2026-06-10T17:05:00Z",
-        "price": 1.11
-      },
-      {
-        "t": "2026-06-10T17:10:00Z",
-        "price": 1.095
-      },
-      {
-        "t": "2026-06-10T17:15:00Z",
-        "price": 1.085
-      },
-      {
-        "t": "2026-06-10T17:20:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-06-10T17:25:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-10T17:30:00Z",
-        "price": 1.1001
-      },
-      {
-        "t": "2026-06-10T17:35:00Z",
-        "price": 1.115
-      },
-      {
-        "t": "2026-06-10T17:40:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-10T17:45:00Z",
-        "price": 1.18
-      },
-      {
-        "t": "2026-06-10T17:50:00Z",
-        "price": 1.12
-      },
-      {
-        "t": "2026-06-10T17:55:00Z",
-        "price": 1.1152
-      },
-      {
-        "t": "2026-06-10T18:00:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-06-10T18:05:00Z",
-        "price": 1.105
-      },
-      {
-        "t": "2026-06-10T18:10:00Z",
-        "price": 1.1193
-      },
-      {
-        "t": "2026-06-10T18:15:00Z",
-        "price": 1.1175
-      },
-      {
-        "t": "2026-06-10T18:20:00Z",
-        "price": 1.13
-      },
-      {
-        "t": "2026-06-10T18:25:00Z",
-        "price": 1.16
-      },
-      {
-        "t": "2026-06-10T18:30:00Z",
-        "price": 1.14
-      },
-      {
-        "t": "2026-06-10T18:35:00Z",
-        "price": 1.15
-      },
-      {
-        "t": "2026-06-10T18:40:00Z",
-        "price": 1.15
-      },
-      {
-        "t": "2026-06-10T18:45:00Z",
-        "price": 1.14
-      },
-      {
-        "t": "2026-06-10T18:50:00Z",
-        "price": 1.16
-      },
-      {
-        "t": "2026-06-10T18:55:00Z",
-        "price": 1.145
-      },
-      {
-        "t": "2026-06-10T19:00:00Z",
-        "price": 1.135
-      },
-      {
-        "t": "2026-06-10T19:05:00Z",
-        "price": 1.135
-      },
-      {
-        "t": "2026-06-10T19:10:00Z",
-        "price": 1.111
-      },
-      {
-        "t": "2026-06-10T19:15:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-06-10T19:20:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-06-10T19:25:00Z",
+        "t": "2026-06-11T14:20:00Z",
         "price": 1.06
       },
       {
-        "t": "2026-06-10T19:30:00Z",
-        "price": 1.1183
-      },
-      {
-        "t": "2026-06-10T19:35:00Z",
+        "t": "2026-06-11T14:25:00Z",
         "price": 1.12
       },
       {
-        "t": "2026-06-10T19:40:00Z",
-        "price": 1.115
+        "t": "2026-06-11T14:30:00Z",
+        "price": 1.14
       },
       {
-        "t": "2026-06-10T19:45:00Z",
-        "price": 1.13
+        "t": "2026-06-11T14:35:00Z",
+        "price": 1.14
       },
       {
-        "t": "2026-06-10T19:50:00Z",
-        "price": 1.07
-      },
-      {
-        "t": "2026-06-10T19:55:00Z",
+        "t": "2026-06-11T14:40:00Z",
         "price": 1.12
       },
       {
-        "t": "2026-06-10T20:00:00Z",
-        "price": 1.13
+        "t": "2026-06-11T14:45:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-06-11T14:52:24Z",
+        "price": 1.09
       }
     ],
     "price_history_range": "1mo",
@@ -765,84 +525,124 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04909255",
-        "title": "Beta-3 Agonist and Anti-muscarinic Agent for Sjogren's Syndrome With Overactive Bladder",
+        "nct_id": "NCT04481464",
+        "title": "Evaluation of the Efficacy of Chinese Herbal Medicine in Patients With Obesity",
         "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Sjogren's Syndrome, Overactive Bladder Syndrome",
+        "phase": "",
+        "conditions": "Obesity",
         "last_update": "",
-        "start_date": "2021-03-23",
-        "url": "https://clinicaltrials.gov/study/NCT04909255"
+        "start_date": "2020-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT04481464"
       },
       {
-        "nct_id": "NCT02537418",
-        "title": "Durvalumab With or Without Tremelimumab in Advanced Incurable Solid Malignancies Given With or Without Standard Chemotherapy Regimens",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Solid Malignancies",
+        "nct_id": "NCT04892498",
+        "title": "Hypofractionated Radiotherapy Combined With PD-1 Inhibitor Sequential GM-CSF and IL-2 for the Treatment of Advanced Refractory Solid Tumors (PRaG2.0)",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Advanced Refractory Solid Tumors",
         "last_update": "",
-        "start_date": "2015-10-16",
-        "url": "https://clinicaltrials.gov/study/NCT02537418"
+        "start_date": "2021-05-30",
+        "url": "https://clinicaltrials.gov/study/NCT04892498"
       },
       {
-        "nct_id": "NCT07010588",
-        "title": "Comparison of ultraSound, Abbreviated MRI witH and Without HBP aS mOdalities for HCC suRveillance in patienTs With High Risk",
+        "nct_id": "NCT01696682",
+        "title": "The Optimal Width of Gastric Conduit for Minimally Invasive Esophagectomy: Wide or Narrow?",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Anastomotic Leakage",
+        "last_update": "",
+        "start_date": "2012-09",
+        "url": "https://clinicaltrials.gov/study/NCT01696682"
+      },
+      {
+        "nct_id": "NCT07119190",
+        "title": "A Perioperative Comprehensive Diagnosis and Treatment System for Lung Cancer in the Era of Neoadjuvant Immunotherapy",
         "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Hepatocellular Carcinoma (HCC), Magnetic Resonance Imaging (MRI), Randomized Controlled Trial",
+        "phase": "",
+        "conditions": "Non-Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2025-06",
-        "url": "https://clinicaltrials.gov/study/NCT07010588"
+        "start_date": "2025-08-06",
+        "url": "https://clinicaltrials.gov/study/NCT07119190"
       },
       {
-        "nct_id": "NCT05944146",
-        "title": "Consistency of Carotid Doppler Blood Flow and Thermodilution Technique",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Cardiac Surgery",
-        "last_update": "",
-        "start_date": "2023-05-31",
-        "url": "https://clinicaltrials.gov/study/NCT05944146"
-      },
-      {
-        "nct_id": "NCT07144423",
-        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Chronic Subdural Hematoma",
-        "last_update": "",
-        "start_date": "2025-11-19",
-        "url": "https://clinicaltrials.gov/study/NCT07144423"
-      },
-      {
-        "nct_id": "NCT05295043",
-        "title": "Advanced Breast Cancer Study of CDK4/6 Inhibitor Combined With Endocrine Therapy Endocrine Therapy in HR+/HER2- Advanced Breast Cancer",
+        "nct_id": "NCT02806661",
+        "title": "Comparison of Vagus Nerve-preserving RADG and Conventional RADG for AGC",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Advanced HR+ HER2 Negative Breast Carcinoma",
+        "conditions": "Gastric Cancer",
         "last_update": "",
-        "start_date": "2022-12-10",
-        "url": "https://clinicaltrials.gov/study/NCT05295043"
+        "start_date": "2016-07",
+        "url": "https://clinicaltrials.gov/study/NCT02806661"
       },
       {
-        "nct_id": "NCT07003074",
-        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
+        "nct_id": "NCT06995170",
+        "title": "Investigation of the Correlation Between Polyamine Levels and Their Key Enzymatic Activities in Association With Inflammatory Bowel Disease Progression",
         "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Inflammatory Bowel Diseases, Colitis, Ulcerative, Crohn Disease, Polyamines",
+        "last_update": "",
+        "start_date": "2025-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06995170"
+      },
+      {
+        "nct_id": "NCT02923830",
+        "title": "Maintaining Patency in BioFlo Implanted Port Catheters With Saline Only Flushes",
+        "status": "TERMINATED",
+        "phase": "PHASE4",
+        "conditions": "Obstruction; Catheter, Infusion Catheter (Vascular), Catheter; Complications (Indwelling Catheter)",
+        "last_update": "",
+        "start_date": "2016-04",
+        "url": "https://clinicaltrials.gov/study/NCT02923830"
+      },
+      {
+        "nct_id": "NCT03403712",
+        "title": "A Study to Assess the Safety and the Efficacy of IV Fosnetupitant/Palonosetron (260 mg/0.25 mg) Combination Compared to Oral Netupitant/Palonosetron (300 mg/0.5 mg) Combination for the Prevention of CINV in AC Chemotherapy in Women With Breast Cancer",
+        "status": "COMPLETED",
         "phase": "PHASE3",
-        "conditions": "Breast Cancer",
+        "conditions": "Chemotherapy-induced Nausea and Vomiting",
         "last_update": "",
-        "start_date": "2025-06-23",
-        "url": "https://clinicaltrials.gov/study/NCT07003074"
+        "start_date": "2018-03-16",
+        "url": "https://clinicaltrials.gov/study/NCT03403712"
       },
       {
-        "nct_id": "NCT06149260",
-        "title": "Subcutaneous Semaglutide in Systemic Scleroderma",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Scleroderma, Systemic, Fibrosis, Semaglutide",
+        "nct_id": "NCT06662630",
+        "title": "Physiological Effects and Safety of Continuous High-frequency Oscillatory Ventilation in Mechanical Ventilation Patients",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Atelectasis, Acute Respiratory Distress Syndrome, VAP - Ventilator Associated Pneumonia",
         "last_update": "",
-        "start_date": "2024-02-29",
-        "url": "https://clinicaltrials.gov/study/NCT06149260"
+        "start_date": "2024-11-19",
+        "url": "https://clinicaltrials.gov/study/NCT06662630"
+      },
+      {
+        "nct_id": "NCT04974957",
+        "title": "Study of SHR-1701 Plus BP102 in Subjects With Selected Solid Tumors",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Advanced or Metastatic Non-squamous Non-small Cell Lung Cancer",
+        "last_update": "",
+        "start_date": "2021-08-30",
+        "url": "https://clinicaltrials.gov/study/NCT04974957"
+      },
+      {
+        "nct_id": "NCT05039034",
+        "title": "Screening and Management of High-risk Populations of Stroke in Dehui City",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Cerebrovascular Accident, Stroke, Hypertension, Diabetes Mellitus",
+        "last_update": "",
+        "start_date": "2016-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05039034"
+      },
+      {
+        "nct_id": "NCT02772133",
+        "title": "Circulating PRCP in STEMI Patients Undergoing Primary PCI",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Myocardial Infarction, Percutaneous Coronary Intervention, PRCP",
+        "last_update": "",
+        "start_date": "2016-05",
+        "url": "https://clinicaltrials.gov/study/NCT02772133"
       },
       {
         "nct_id": "NCT05034549",
@@ -855,64 +655,24 @@
         "url": "https://clinicaltrials.gov/study/NCT05034549"
       },
       {
-        "nct_id": "NCT06431490",
-        "title": "A Study of TQB2102 for Injection in the Treatment of HER2-positive Biliary Tract Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Biliary Tract Cancer",
-        "last_update": "",
-        "start_date": "2024-07-22",
-        "url": "https://clinicaltrials.gov/study/NCT06431490"
-      },
-      {
-        "nct_id": "NCT05372120",
-        "title": "A Clinical Trial of ICP-192 in Treated Patients With Advanced Solid Tumors With FGF/FGFR Gene Alterations",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Advanced Solid Tumor",
-        "last_update": "",
-        "start_date": "2021-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT05372120"
-      },
-      {
-        "nct_id": "NCT05533060",
-        "title": "Clinical and Molecular Biological Data Collection and Analysis in Patients With TBI",
+        "nct_id": "NCT05685706",
+        "title": "Knee-Hip-Spine Harmony: The Relationship Between Sagittal Spinal Alignment in Total Hip/Knee Arthroplasty",
         "status": "RECRUITING",
         "phase": "",
-        "conditions": "Traumatic Brain Injury",
+        "conditions": "Cases Who Received TKA/THA",
         "last_update": "",
-        "start_date": "2022-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT05533060"
+        "start_date": "2021-07-07",
+        "url": "https://clinicaltrials.gov/study/NCT05685706"
       },
       {
-        "nct_id": "NCT06974929",
-        "title": "A Clinical Study of HRS-6209 Combined With Other Treatment Regimens in Patients With Breast Cancer",
+        "nct_id": "NCT06794047",
+        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
         "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Breast Cancer",
+        "phase": "NA",
+        "conditions": "Diminished Ovarian Reserve, IVF Outcomes",
         "last_update": "",
-        "start_date": "2025-05-22",
-        "url": "https://clinicaltrials.gov/study/NCT06974929"
-      },
-      {
-        "nct_id": "NCT03958045",
-        "title": "Combination Rucaparib With Nivolumab in Small Cell Lung Carcinoma",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Small Cell Lung Cancer",
-        "last_update": "",
-        "start_date": "2019-09-04",
-        "url": "https://clinicaltrials.gov/study/NCT03958045"
-      },
-      {
-        "nct_id": "NCT07357831",
-        "title": "A Phase III Trial To Evaluate The Efficacy And Safety Of MC2-01 Cream Compared To CAL/BDP Gel and Vehicle In Plaque Psoriasis Subjects",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Plaque Psoriasis",
-        "last_update": "",
-        "start_date": "2025-12-26",
-        "url": "https://clinicaltrials.gov/study/NCT07357831"
+        "start_date": "2025-03-17",
+        "url": "https://clinicaltrials.gov/study/NCT06794047"
       }
     ],
     "detected_triggers": [
@@ -935,10 +695,34 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Durvalumab With or Without Tremelimumab in Advanced Incurable Solid Malignancies Given With or Without Standard Chemotherapy Regimens",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1",
-        "source": "NCT02537418",
-        "date": "2015-10-16"
+        "title": "The Optimal Width of Gastric Conduit for Minimally Invasive Esophagectomy: Wide or Narrow?",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT01696682",
+        "date": "2012-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Maintaining Patency in BioFlo Implanted Port Catheters With Saline Only Flushes",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE4",
+        "source": "NCT02923830",
+        "date": "2016-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Comparison of Vagus Nerve-preserving RADG and Conventional RADG for AGC",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT02806661",
+        "date": "2016-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Assess the Safety and the Efficacy of IV Fosnetupitant/Palonosetron (260 mg/0.25 mg) Combination Compared to Oral Netupitant/Palonosetron (300 mg/0.5 mg) Combination for the Prevention of CINV in AC Chemotherapy in Women With Breast Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT03403712",
+        "date": "2018-03-16"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -951,90 +735,34 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Combination Rucaparib With Nivolumab in Small Cell Lung Carcinoma",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT03958045",
-        "date": "2019-09-04"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Beta-3 Agonist and Anti-muscarinic Agent for Sjogren's Syndrome With Overactive Bladder",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT04909255",
-        "date": "2021-03-23"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Trial of ICP-192 in Treated Patients With Advanced Solid Tumors With FGF/FGFR Gene Alterations",
+        "title": "Hypofractionated Radiotherapy Combined With PD-1 Inhibitor Sequential GM-CSF and IL-2 for the Treatment of Advanced Refractory Solid Tumors (PRaG2.0)",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT05372120",
-        "date": "2021-12-15"
+        "source": "NCT04892498",
+        "date": "2021-05-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Advanced Breast Cancer Study of CDK4/6 Inhibitor Combined With Endocrine Therapy Endocrine Therapy in HR+/HER2- Advanced Breast Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05295043",
-        "date": "2022-12-10"
+        "title": "Study of SHR-1701 Plus BP102 in Subjects With Selected Solid Tumors",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT04974957",
+        "date": "2021-08-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Consistency of Carotid Doppler Blood Flow and Thermodilution Technique",
+        "title": "Physiological Effects and Safety of Continuous High-frequency Oscillatory Ventilation in Mechanical Ventilation Patients",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT05944146",
-        "date": "2023-05-31"
+        "source": "NCT06662630",
+        "date": "2024-11-19"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Subcutaneous Semaglutide in Systemic Scleroderma",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT06149260",
-        "date": "2024-02-29"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study of TQB2102 for Injection in the Treatment of HER2-positive Biliary Tract Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06431490",
-        "date": "2024-07-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Study of HRS-6209 Combined With Other Treatment Regimens in Patients With Breast Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06974929",
-        "date": "2025-05-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Comparison of ultraSound, Abbreviated MRI witH and Without HBP aS mOdalities for HCC suRveillance in patienTs With High Risk",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07010588",
-        "date": "2025-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07003074",
-        "date": "2025-06-23"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
+        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07144423",
-        "date": "2025-11-19"
+        "source": "NCT06794047",
+        "date": "2025-03-17"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1051,14 +779,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2025-12-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Phase III Trial To Evaluate The Efficacy And Safety Of MC2-01 Cream Compared To CAL/BDP Gel and Vehicle In Plaque Psoriasis Subjects",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07357831",
-        "date": "2025-12-26"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1135,10 +855,50 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Clinical and Molecular Biological Data Collection and Analysis in Patients With TBI",
+        "title": "Screening and Management of High-risk Populations of Stroke in Dehui City",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05039034",
+        "date": "2016-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Circulating PRCP in STEMI Patients Undergoing Primary PCI",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT02772133",
+        "date": "2016-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Evaluation of the Efficacy of Chinese Herbal Medicine in Patients With Obesity",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT04481464",
+        "date": "2020-11-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Knee-Hip-Spine Harmony: The Relationship Between Sagittal Spinal Alignment in Total Hip/Knee Arthroplasty",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05533060",
-        "date": "2022-09-01"
+        "source": "NCT05685706",
+        "date": "2021-07-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Investigation of the Correlation Between Polyamine Levels and Their Key Enzymatic Activities in Association With Inflammatory Bowel Disease Progression",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06995170",
+        "date": "2025-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Perioperative Comprehensive Diagnosis and Treatment System for Lung Cancer in the Era of Neoadjuvant Immunotherapy",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
+        "source": "NCT07119190",
+        "date": "2025-08-06"
       },
       {
         "type": "SEC Filing",
