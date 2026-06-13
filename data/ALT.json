@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-12T23:58:29Z",
+    "last_update_utc": "2026-06-13T03:23:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -742,20 +742,20 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
-        "published_at": "2026-05-31T07:00:00Z",
-        "source": "Börse Global",
+        "title": "Altimmune Aktie: RECLAIM-Daten im Q3 2026 - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkttSjZRUVRYNm5qU1paOGdlSDdmdTZNeS1fYjhGczF3V3BRTDRfTklUQ25jb0ZtbHRiQ0duQzJqUmg5R0tjak9DU01jd09QTlZMZnJ5TUhheUlTU3Z0UDNqTy1ic0pYc3Jpd1JHNkdCendyQnN3X05PUVdzVUszaDNzZDNVY3k1TjNiQlJiX3JDVF8yc1E5MFFUdm5aWjZl?oc=5",
+        "published_at": "2026-05-24T07:00:00Z",
+        "source": "AD HOC NEWS",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
@@ -874,7 +874,7 @@
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
         "published_at": "2026-01-21T00:01:24Z",
         "source": "Goldesel.de",
-        "query": "Altimmune ALT pemvidutide stock news",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -906,6 +906,22 @@
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HOXg4V2NROUNVM0EtUkZROG85czNiTThRbEV5RWY1MXhzY0JITHRsNzZpNzRTZVpQZGhtcGh2bFhwZGVOYmlSZ210eGNOMFR0U29nVUdmQlBUbjJoVl9kbFBSVVJJTXQ3QUJwNndRTDFzUQ?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
         "source": "kapitalmarktexperten.de",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
+        "title": "Altimmune Aktie: Führungswechsel vor dem Sturm! - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0M1SFlHcVhpYko0SG9hMm02bVBUd0RpU3FSelVTTVF4Sk02VVQ0dy1iS0Fodm5XMWV2V0d3dHloR21PRFNVczdDX0VaQXJVUjNQZEF2ZTVqRjVwVmsxZGZxeFM5QzlGREVPcElHX3c0eW1ZbmtwZUJpMEtMYnVPOFE2cmFoeFJqSEQyY3BqdDEtVlRXYkc4VGVyTmNreFJhVE5WWTdoWGs?oc=5",
+        "published_at": "2025-12-02T08:00:00Z",
+        "source": "AD HOC NEWS",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1470,6 +1486,18 @@
         "date": "2026-05-13"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Altimmune Aktie: RECLAIM-Daten im Q3 2026 - AD HOC NEWS",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "AD HOC NEWS",
+        "date": "2026-05-24T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkttSjZRUVRYNm5qU1paOGdlSDdmdTZNeS1fYjhGczF3V3BRTDRfTklUQ25jb0ZtbHRiQ0duQzJqUmg5R0tjak9DU01jd09QTlZMZnJ5TUhheUlTU3Z0UDNqTy1ic0pYc3Jpd1JHNkdCendyQnN3X05PUVdzVUszaDNzZDNVY3k1TjNiQlJiX3JDVF8yc1E5MFFUdm5aWjZl?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
@@ -1497,14 +1525,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
