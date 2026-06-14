@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-14T18:07:25Z",
+    "last_update_utc": "2026-06-14T20:03:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -742,6 +742,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
+        "published_at": "2026-05-31T07:00:00Z",
+        "source": "Börse Global",
+        "query": "Altimmune ALT pemvidutide stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
         "title": "Altimmune: RECLAIM-Daten rücken näher – warum die Aktie 2026 unter Druck bleibt - it boltwise",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMlRfR3RPOExPS1FRTnpid2UwdUNDOUZoTmxUOC1iVndDZ0RxNFFucUFBR0RRN0l6UTQwdmlHalYtNnpxbTAzSm5xc1VrYWplMVdDb2VidktDeHpmWExUWUgweHkzeFdmRDJrMWpyRXpDZ2lxVzJreFd6bFZycGxvRy1lMXVROENtRlVWQ1dMNDBhUEM4OVA3STVuanBjMlpmWG9kYVZSLS1sc29BOEMw?oc=5",
         "published_at": "2026-05-25T07:00:00Z",
@@ -772,22 +788,6 @@
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "Altimmune Aktie: Kapitalbasis vor Ausbau - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYmhmQmpWQ1RRQ2ZIOV9sNDM3LU9fSml2TmZBREhJX0VZQjNDWExLMVB5Q3RDd3gwcUpOWFFmal9Wd2JHU2pkZldRM2JVTFBZSWhNVThBOHVfbnVlSDNmUnptOURfX0NvOFBrdS0yM0tXZUFwU1RxYko2UktZZm16R0RtY0ZIN3VBaU5uNGQ1ZGs3S0tCbDB3N1UtYTR5amM?oc=5",
-        "published_at": "2026-04-15T07:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
       },
       {
         "title": "Weight-Loss Drug Sector Pressures Altimmune Shares - AD HOC NEWS",
@@ -826,7 +826,7 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
         "source": "AD HOC NEWS",
-        "query": "ALT pemvidutide phase 2 phase 3",
+        "query": "Altimmune ALT pemvidutide stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -835,7 +835,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
+        "relevance_score": 7
       },
       {
         "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
