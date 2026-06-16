@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.03",
-      "note": "Auto-Update: 7.81% vs. vorheriger Schlusskurs",
+      "value": "$1.04",
+      "note": "Auto-Update: 6.34% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-16T10:52:37Z",
+    "last_update_utc": "2026-06-16T15:48:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.035,
-      "previousClose": 0.96,
-      "change": 0.075,
-      "changePercent": 7.81,
-      "regularMarketTime": "2026-06-15T20:00:00Z",
+      "regularMarketPrice": 1.04,
+      "previousClose": 0.978,
+      "change": 0.062,
+      "changePercent": 6.34,
+      "regularMarketTime": "2026-06-16T15:41:57Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -290,216 +290,92 @@
       {
         "t": "2026-06-12T13:30:00Z",
         "price": 0.95
+      },
+      {
+        "t": "2026-06-16T13:30:00Z",
+        "price": 1.04
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-15T13:30:00Z",
-        "price": 0.9459
-      },
-      {
-        "t": "2026-06-15T13:35:00Z",
-        "price": 0.95
-      },
-      {
-        "t": "2026-06-15T13:40:00Z",
-        "price": 0.9538
-      },
-      {
-        "t": "2026-06-15T13:45:00Z",
-        "price": 0.9309
-      },
-      {
-        "t": "2026-06-15T13:50:00Z",
-        "price": 0.931
-      },
-      {
-        "t": "2026-06-15T13:55:00Z",
-        "price": 0.9802
-      },
-      {
-        "t": "2026-06-15T14:00:00Z",
-        "price": 0.9803
-      },
-      {
-        "t": "2026-06-15T14:10:00Z",
-        "price": 0.98
-      },
-      {
-        "t": "2026-06-15T14:15:00Z",
+        "t": "2026-06-16T13:30:00Z",
         "price": 1.01
       },
       {
-        "t": "2026-06-15T14:25:00Z",
-        "price": 0.98
+        "t": "2026-06-16T13:35:00Z",
+        "price": 0.9937
       },
       {
-        "t": "2026-06-15T14:30:00Z",
-        "price": 0.9994
-      },
-      {
-        "t": "2026-06-15T14:35:00Z",
-        "price": 0.95
-      },
-      {
-        "t": "2026-06-15T14:40:00Z",
-        "price": 0.9999
-      },
-      {
-        "t": "2026-06-15T14:45:00Z",
-        "price": 0.9889
-      },
-      {
-        "t": "2026-06-15T15:00:00Z",
-        "price": 0.95
-      },
-      {
-        "t": "2026-06-15T15:05:00Z",
-        "price": 0.95
-      },
-      {
-        "t": "2026-06-15T15:10:00Z",
-        "price": 0.9504
-      },
-      {
-        "t": "2026-06-15T15:15:00Z",
-        "price": 0.955
-      },
-      {
-        "t": "2026-06-15T15:20:00Z",
-        "price": 0.9669
-      },
-      {
-        "t": "2026-06-15T15:25:00Z",
-        "price": 0.9668
-      },
-      {
-        "t": "2026-06-15T15:30:00Z",
-        "price": 0.9786
-      },
-      {
-        "t": "2026-06-15T15:35:00Z",
-        "price": 0.9668
-      },
-      {
-        "t": "2026-06-15T15:45:00Z",
-        "price": 0.9767
-      },
-      {
-        "t": "2026-06-15T15:55:00Z",
-        "price": 0.9767
-      },
-      {
-        "t": "2026-06-15T16:00:00Z",
-        "price": 0.9859
-      },
-      {
-        "t": "2026-06-15T16:10:00Z",
-        "price": 0.9763
-      },
-      {
-        "t": "2026-06-15T16:15:00Z",
-        "price": 0.9764
-      },
-      {
-        "t": "2026-06-15T16:30:00Z",
-        "price": 0.9668
-      },
-      {
-        "t": "2026-06-15T16:35:00Z",
-        "price": 0.9859
-      },
-      {
-        "t": "2026-06-15T16:40:00Z",
-        "price": 0.9669
-      },
-      {
-        "t": "2026-06-15T16:45:00Z",
-        "price": 0.9815
-      },
-      {
-        "t": "2026-06-15T16:50:00Z",
-        "price": 0.9812
-      },
-      {
-        "t": "2026-06-15T17:05:00Z",
-        "price": 0.967
-      },
-      {
-        "t": "2026-06-15T17:10:00Z",
-        "price": 0.99
-      },
-      {
-        "t": "2026-06-15T17:15:00Z",
-        "price": 0.9915
-      },
-      {
-        "t": "2026-06-15T17:20:00Z",
-        "price": 0.9932
-      },
-      {
-        "t": "2026-06-15T17:25:00Z",
-        "price": 0.9801
-      },
-      {
-        "t": "2026-06-15T17:30:00Z",
-        "price": 0.967
-      },
-      {
-        "t": "2026-06-15T17:35:00Z",
-        "price": 0.967
-      },
-      {
-        "t": "2026-06-15T17:50:00Z",
-        "price": 0.9801
-      },
-      {
-        "t": "2026-06-15T18:05:00Z",
-        "price": 0.9669
-      },
-      {
-        "t": "2026-06-15T18:30:00Z",
-        "price": 0.99
-      },
-      {
-        "t": "2026-06-15T18:50:00Z",
+        "t": "2026-06-16T13:40:00Z",
         "price": 1.01
       },
       {
-        "t": "2026-06-15T19:00:00Z",
-        "price": 1.005
-      },
-      {
-        "t": "2026-06-15T19:05:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-06-15T19:15:00Z",
+        "t": "2026-06-16T13:45:00Z",
         "price": 1.01
       },
       {
-        "t": "2026-06-15T19:25:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-06-15T19:35:00Z",
-        "price": 1.0099
-      },
-      {
-        "t": "2026-06-15T19:40:00Z",
-        "price": 1.04
-      },
-      {
-        "t": "2026-06-15T19:45:00Z",
+        "t": "2026-06-16T13:50:00Z",
         "price": 1.03
       },
       {
-        "t": "2026-06-15T19:55:00Z",
+        "t": "2026-06-16T13:55:00Z",
+        "price": 1.03
+      },
+      {
+        "t": "2026-06-16T14:00:00Z",
+        "price": 1.01
+      },
+      {
+        "t": "2026-06-16T14:15:00Z",
+        "price": 1.02
+      },
+      {
+        "t": "2026-06-16T14:20:00Z",
+        "price": 1.0651
+      },
+      {
+        "t": "2026-06-16T14:25:00Z",
         "price": 1.04
       },
       {
-        "t": "2026-06-15T20:00:00Z",
-        "price": 1.035
+        "t": "2026-06-16T14:30:00Z",
+        "price": 1.0496
+      },
+      {
+        "t": "2026-06-16T14:35:00Z",
+        "price": 1.03
+      },
+      {
+        "t": "2026-06-16T14:40:00Z",
+        "price": 1.02
+      },
+      {
+        "t": "2026-06-16T14:50:00Z",
+        "price": 1.03
+      },
+      {
+        "t": "2026-06-16T14:55:00Z",
+        "price": 1.019
+      },
+      {
+        "t": "2026-06-16T15:00:00Z",
+        "price": 1.02
+      },
+      {
+        "t": "2026-06-16T15:10:00Z",
+        "price": 1.012
+      },
+      {
+        "t": "2026-06-16T15:15:00Z",
+        "price": 1.02
+      },
+      {
+        "t": "2026-06-16T15:25:00Z",
+        "price": 1.04
+      },
+      {
+        "t": "2026-06-16T15:41:57Z",
+        "price": 1.04
       }
     ],
     "price_history_range": "1mo",
@@ -649,154 +525,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05953415",
-        "title": "pBFS-guided iTBS Over the Left DLPFC for Chronic PSCI",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Chronic Stroke, Cognitive Impairment",
-        "last_update": "",
-        "start_date": "2023-08-18",
-        "url": "https://clinicaltrials.gov/study/NCT05953415"
-      },
-      {
-        "nct_id": "NCT07097428",
-        "title": "An Application Provides Temperature-related Health Risk Warnings and Protective Recommendations on Stroke",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Acute Ischemic Stroke",
-        "last_update": "",
-        "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07097428"
-      },
-      {
-        "nct_id": "NCT06887699",
-        "title": "The Impact of Artificial Intelligence Electrocardiography on Occlusion Myocardial Infarction Management Under the Value-Based Payment System",
+        "nct_id": "NCT05944146",
+        "title": "Consistency of Carotid Doppler Blood Flow and Thermodilution Technique",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "OMI - Occlusion Myocardial Infarction, Artificial Intelligence (AI), Electrocardiogram, Cost-effectiveness Analysis",
+        "conditions": "Cardiac Surgery",
         "last_update": "",
-        "start_date": "2025-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT06887699"
+        "start_date": "2023-05-31",
+        "url": "https://clinicaltrials.gov/study/NCT05944146"
       },
       {
-        "nct_id": "NCT02928081",
-        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Carcinoma, Pancreatic Ductal",
-        "last_update": "",
-        "start_date": "2016-01",
-        "url": "https://clinicaltrials.gov/study/NCT02928081"
-      },
-      {
-        "nct_id": "NCT02971475",
-        "title": "ESWL Versus ESWL and Endoscopic Treatment",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Pancreatitis",
-        "last_update": "",
-        "start_date": "2016-11",
-        "url": "https://clinicaltrials.gov/study/NCT02971475"
-      },
-      {
-        "nct_id": "NCT06772194",
-        "title": "Taiwan Post-Stroke Disability Study",
+        "nct_id": "NCT02961413",
+        "title": "A Prospective Cohort Study on Drug-induced Liver Injury in China（DILI-P）",
         "status": "RECRUITING",
         "phase": "",
-        "conditions": "Stroke, Dementia, Epilepsy, Depression",
-        "last_update": "",
-        "start_date": "2024-10-21",
-        "url": "https://clinicaltrials.gov/study/NCT06772194"
-      },
-      {
-        "nct_id": "NCT06454773",
-        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Intervention",
-        "last_update": "",
-        "start_date": "2024-06-01",
-        "url": "https://clinicaltrials.gov/study/NCT06454773"
-      },
-      {
-        "nct_id": "NCT07139470",
-        "title": "Sacituzumab Tirumotecan Plus Anlotinib for Metastatic Triple Negative Breast Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Triple Negative Breast Cancer",
-        "last_update": "",
-        "start_date": "2025-08-15",
-        "url": "https://clinicaltrials.gov/study/NCT07139470"
-      },
-      {
-        "nct_id": "NCT01367379",
-        "title": "The Effect of the Duty Loading on the Stress Response of Physician",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Physiological Stress, Psychological Stress",
-        "last_update": "",
-        "start_date": "2011-06",
-        "url": "https://clinicaltrials.gov/study/NCT01367379"
-      },
-      {
-        "nct_id": "NCT07045844",
-        "title": "Effects of Enteral Feeding Regimens on NEC, Mortality, and Neurodevelopment in Very Preterm Infants",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Very Preterm Infant, Necrotizing Enterocolitis (NEC)",
-        "last_update": "",
-        "start_date": "2026-03-02",
-        "url": "https://clinicaltrials.gov/study/NCT07045844"
-      },
-      {
-        "nct_id": "NCT02111577",
-        "title": "Phase III Study of DCVAC/PCa Added to Standard Chemotherapy for Men With Metastatic Castration Resistant Prostate Cancer",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Metastatic Castration-resistant Prostate Cancer",
-        "last_update": "",
-        "start_date": "2014-05-26",
-        "url": "https://clinicaltrials.gov/study/NCT02111577"
-      },
-      {
-        "nct_id": "NCT06208436",
-        "title": "The Survival Outcome of Adjuvant Chemotherapy for Stage I Pancreatic Cancer",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Pancreas Cancer, Chemotherapy",
-        "last_update": "",
-        "start_date": "2023-10-07",
-        "url": "https://clinicaltrials.gov/study/NCT06208436"
-      },
-      {
-        "nct_id": "NCT06958406",
-        "title": "Neural Mechanism of Cerebrocardiac Syndrome Following Traumatic Brain Injury",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Traumatic Brain Injury, Cerebrocardiac Syndrome",
-        "last_update": "",
-        "start_date": "2025-08-10",
-        "url": "https://clinicaltrials.gov/study/NCT06958406"
-      },
-      {
-        "nct_id": "NCT02878668",
-        "title": "The Value of Infectious Biomarkers for Prediction of Complication After Hepatopancreatobiliary Surgery",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Post-operative Complication",
+        "conditions": "Drug-induced Liver Injury",
         "last_update": "",
         "start_date": "2016-04",
-        "url": "https://clinicaltrials.gov/study/NCT02878668"
+        "url": "https://clinicaltrials.gov/study/NCT02961413"
       },
       {
-        "nct_id": "NCT06186349",
-        "title": "The Effect and Mechanism of Gene Variation on Neonatal Hyperbilirubinemia",
+        "nct_id": "NCT06771479",
+        "title": "A Study Evaluating the Safety and Immunogenicity of MVA Strain Monkeypox Attenuated Live Vaccine",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Monkeypox",
+        "last_update": "",
+        "start_date": "2025-01-22",
+        "url": "https://clinicaltrials.gov/study/NCT06771479"
+      },
+      {
+        "nct_id": "NCT07023510",
+        "title": "The VALVE-AI Trial",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Valvular Heart Disease Patients",
+        "last_update": "",
+        "start_date": "2025-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT07023510"
+      },
+      {
+        "nct_id": "NCT07168720",
+        "title": "The Study is Being Conducted to Evaluate the Efficacy and Safety of Dexmedetomidine Hydrochloride Microneedles for Preoperative Sedation in Children",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Preoperative Sedation",
+        "last_update": "",
+        "start_date": "2025-08-29",
+        "url": "https://clinicaltrials.gov/study/NCT07168720"
+      },
+      {
+        "nct_id": "NCT05594927",
+        "title": "Icaritin Soft Capsule Versus Huachansu Tablet in the First-line Treatment of Unresectable Hepatocellular Carcinoma With Poor Conditions and Biomarker Enrichment (Biomarker Enrichment Study of Poor Prognosis HCC Patients, BESTPOP)",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Hepatocellular Carcinoma",
+        "last_update": "",
+        "start_date": "2022-12-12",
+        "url": "https://clinicaltrials.gov/study/NCT05594927"
+      },
+      {
+        "nct_id": "NCT03072927",
+        "title": "MILD® Percutaneous Image-Guided Lumbar Decompression: A Medicare Claims Study",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Lumbar Spinal Stenosis",
+        "last_update": "",
+        "start_date": "2017-03-10",
+        "url": "https://clinicaltrials.gov/study/NCT03072927"
+      },
+      {
+        "nct_id": "NCT07602569",
+        "title": "A Prospective Study on the Diagnosis of Malignant Tumors With 18F-FGIn PET/CT",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Cancer (With or Without Metastasis)",
+        "last_update": "",
+        "start_date": "2025-10-20",
+        "url": "https://clinicaltrials.gov/study/NCT07602569"
+      },
+      {
+        "nct_id": "NCT01561586",
+        "title": "Tri-weekly Cisplatin Based Chemoradiation in Locally Advanced Cervical Cancer",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "Cervical Cancer",
+        "last_update": "",
+        "start_date": "2012-03",
+        "url": "https://clinicaltrials.gov/study/NCT01561586"
+      },
+      {
+        "nct_id": "NCT06196996",
+        "title": "Allogeneic Regenerative Islet Transplantation for the Treatment of Brittle Type 1 Diabetes Mellitus",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Brittle Type 1 Diabetes Mellitus",
+        "last_update": "",
+        "start_date": "2021-09-14",
+        "url": "https://clinicaltrials.gov/study/NCT06196996"
+      },
+      {
+        "nct_id": "NCT07477626",
+        "title": "Radiotherapy After Prostatectomy for Node Positive Prostate Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Prostate Cancer (Post Prostatectomy), Radiotherapy; Image-Guided, Prostate Cancer Non-Metastatic, Androgen Deprivation Therapy",
+        "last_update": "",
+        "start_date": "2026-03-20",
+        "url": "https://clinicaltrials.gov/study/NCT07477626"
+      },
+      {
+        "nct_id": "NCT06372756",
+        "title": "Deep Learning Reconstruction Algorithms in Dual Low-dose CTA",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Neonatal Hyperbilirubinemia",
+        "conditions": "Deep Learning",
         "last_update": "",
-        "start_date": "2023-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT06186349"
+        "start_date": "2023-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT06372756"
+      },
+      {
+        "nct_id": "NCT05625022",
+        "title": "Lianhua Qingke for the Rehabilitation of Patient With Omicron Infection",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Coronavirus, Traditional Chinese Medicine",
+        "last_update": "",
+        "start_date": "2022-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT05625022"
+      },
+      {
+        "nct_id": "NCT02026739",
+        "title": "The Optimal Intraoperative Supplemental Oxygen Administration During Minimally Invasive Esophagectomy",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Oxygenation Index",
+        "last_update": "",
+        "start_date": "2013-09",
+        "url": "https://clinicaltrials.gov/study/NCT02026739"
+      },
+      {
+        "nct_id": "NCT02367781",
+        "title": "A Study of Atezolizumab in Combination With Carboplatin Plus (+) Nab-Paclitaxel Compared With Carboplatin+Nab-Paclitaxel in Participants With Stage IV Non-Squamous Non-Small Cell Lung Cancer (NSCLC)",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Carcinoma, Non-Squamous Non-Small Cell Lung",
+        "last_update": "",
+        "start_date": "2015-04-16",
+        "url": "https://clinicaltrials.gov/study/NCT02367781"
       }
     ],
     "detected_triggers": [
@@ -819,66 +695,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Phase III Study of DCVAC/PCa Added to Standard Chemotherapy for Men With Metastatic Castration Resistant Prostate Cancer",
+        "title": "Tri-weekly Cisplatin Based Chemoradiation in Locally Advanced Cervical Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT01561586",
+        "date": "2012-03"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The Optimal Intraoperative Supplemental Oxygen Administration During Minimally Invasive Esophagectomy",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT02026739",
+        "date": "2013-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of Atezolizumab in Combination With Carboplatin Plus (+) Nab-Paclitaxel Compared With Carboplatin+Nab-Paclitaxel in Participants With Stage IV Non-Squamous Non-Small Cell Lung Cancer (NSCLC)",
         "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT02111577",
-        "date": "2014-05-26"
+        "source": "NCT02367781",
+        "date": "2015-04-16"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02928081",
-        "date": "2016-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "ESWL Versus ESWL and Endoscopic Treatment",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02971475",
-        "date": "2016-11"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "pBFS-guided iTBS Over the Left DLPFC for Chronic PSCI",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05953415",
-        "date": "2023-08-18"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06454773",
-        "date": "2024-06-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Impact of Artificial Intelligence Electrocardiography on Occlusion Myocardial Infarction Management Under the Value-Based Payment System",
+        "title": "Allogeneic Regenerative Islet Transplantation for the Treatment of Brittle Type 1 Diabetes Mellitus",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06887699",
-        "date": "2025-08-01"
+        "source": "NCT06196996",
+        "date": "2021-09-14"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Sacituzumab Tirumotecan Plus Anlotinib for Metastatic Triple Negative Breast Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1, PHASE2",
-        "source": "NCT07139470",
-        "date": "2025-08-15"
+        "title": "Lianhua Qingke for the Rehabilitation of Patient With Omicron Infection",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT05625022",
+        "date": "2022-11-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "An Application Provides Temperature-related Health Risk Warnings and Protective Recommendations on Stroke",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07097428",
-        "date": "2025-09-01"
+        "title": "Icaritin Soft Capsule Versus Huachansu Tablet in the First-line Treatment of Unresectable Hepatocellular Carcinoma With Poor Conditions and Biomarker Enrichment (Biomarker Enrichment Study of Poor Prognosis HCC Patients, BESTPOP)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT05594927",
+        "date": "2022-12-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Consistency of Carotid Doppler Blood Flow and Thermodilution Technique",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT05944146",
+        "date": "2023-05-31"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study Evaluating the Safety and Immunogenicity of MVA Strain Monkeypox Attenuated Live Vaccine",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT06771479",
+        "date": "2025-01-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The VALVE-AI Trial",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07023510",
+        "date": "2025-07-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The Study is Being Conducted to Evaluate the Efficacy and Safety of Dexmedetomidine Hydrochloride Microneedles for Preoperative Sedation in Children",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07168720",
+        "date": "2025-08-29"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -913,20 +805,20 @@
         "date": "2026-02-10"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Effects of Enteral Feeding Regimens on NEC, Mortality, and Neurodevelopment in Very Preterm Infants",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07045844",
-        "date": "2026-03-02"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-03-06",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Radiotherapy After Prostatectomy for Node Positive Prostate Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07477626",
+        "date": "2026-03-20"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -979,50 +871,34 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "The Effect of the Duty Loading on the Stress Response of Physician",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT01367379",
-        "date": "2011-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "The Value of Infectious Biomarkers for Prediction of Complication After Hepatopancreatobiliary Surgery",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT02878668",
+        "title": "A Prospective Cohort Study on Drug-induced Liver Injury in China（DILI-P）",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT02961413",
         "date": "2016-04"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "The Effect and Mechanism of Gene Variation on Neonatal Hyperbilirubinemia",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06186349",
-        "date": "2023-09-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "The Survival Outcome of Adjuvant Chemotherapy for Stage I Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06208436",
-        "date": "2023-10-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Taiwan Post-Stroke Disability Study",
+        "title": "MILD® Percutaneous Image-Guided Lumbar Decompression: A Medicare Claims Study",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06772194",
-        "date": "2024-10-21"
+        "source": "NCT03072927",
+        "date": "2017-03-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Neural Mechanism of Cerebrocardiac Syndrome Following Traumatic Brain Injury",
+        "title": "Deep Learning Reconstruction Algorithms in Dual Low-dose CTA",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT06372756",
+        "date": "2023-06-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Prospective Study on the Diagnosis of Malignant Tumors With 18F-FGIn PET/CT",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06958406",
-        "date": "2025-08-10"
+        "source": "NCT07602569",
+        "date": "2025-10-20"
       },
       {
         "type": "SEC Filing",
