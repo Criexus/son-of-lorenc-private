@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.98",
-      "note": "Auto-Update: -3.87% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: -3.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-16T15:47:57Z",
+    "last_update_utc": "2026-06-16T19:26:37Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.98,
+      "regularMarketPrice": 3.002,
       "previousClose": 3.1,
-      "change": -0.12,
-      "changePercent": -3.87,
-      "regularMarketTime": "2026-06-16T14:44:15Z",
+      "change": -0.098,
+      "changePercent": -3.16,
+      "regularMarketTime": "2026-06-16T18:39:37Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -296,7 +296,7 @@
       },
       {
         "t": "2026-06-16T13:30:00Z",
-        "price": 2.98
+        "price": 3.0018
       }
     ],
     "price_history_1d": [
@@ -313,13 +313,46 @@
         "price": 2.98
       },
       {
-        "t": "2026-06-16T14:44:15Z",
-        "price": 2.98
+        "t": "2026-06-16T16:00:00Z",
+        "price": 2.9608
+      },
+      {
+        "t": "2026-06-16T17:10:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-06-16T18:15:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-06-16T18:35:00Z",
+        "price": 3.0018
+      },
+      {
+        "t": "2026-06-16T18:39:37Z",
+        "price": 3.0018
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Biodexa Pharmaceuticals treibt FAP-Behandlungsstudie voran - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNQbnkwRVhwak9zQkVrRnJYckJxRVg0RWhGQ0x3cFRHN19LaHhuR3hfSmU5LVVMekVvX0I5RUNKVm15TXpqZ1VQdmk2UDhYdXpkMjcyZVpRamtaTUU2R1ViVXFkUVU1aTAtS2ZSWkJueGl4R0Q4cGl0RkpFNjJUd3NzQ1dLazU3MDdfMmVLaldtSDE4enNGTDh2RkxEMHpLTFFZejlPWFdJY1NCMGJfTWRJdw?oc=5",
+        "published_at": "2025-03-19T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      }
+    ],
     "sec_filings": [
       {
         "form": "SCHEDULE 13G/A",
