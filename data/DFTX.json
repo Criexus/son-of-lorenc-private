@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$24.03",
-      "note": "Auto-Update: 4.71% vs. vorheriger Schlusskurs",
+      "value": "$24.16",
+      "note": "Auto-Update: 5.27% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-16T19:27:32Z",
+    "last_update_utc": "2026-06-16T21:59:37Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 24.03,
+      "regularMarketPrice": 24.16,
       "previousClose": 22.95,
-      "change": 1.08,
-      "changePercent": 4.71,
-      "regularMarketTime": "2026-06-16T19:27:23Z",
+      "change": 1.21,
+      "changePercent": 5.27,
+      "regularMarketTime": "2026-06-16T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-06-16T13:30:00Z",
-        "price": 24.03
+        "price": 24.16
       }
     ],
     "price_history_1d": [
@@ -624,17 +624,48 @@
       },
       {
         "t": "2026-06-16T19:25:00Z",
-        "price": 24.03
+        "price": 24.04
       },
       {
-        "t": "2026-06-16T19:27:23Z",
-        "price": 24.03
+        "t": "2026-06-16T19:30:00Z",
+        "price": 24.005
+      },
+      {
+        "t": "2026-06-16T19:35:00Z",
+        "price": 24.02
+      },
+      {
+        "t": "2026-06-16T19:40:00Z",
+        "price": 24.06
+      },
+      {
+        "t": "2026-06-16T19:45:00Z",
+        "price": 24.16
+      },
+      {
+        "t": "2026-06-16T19:50:00Z",
+        "price": 24.13
+      },
+      {
+        "t": "2026-06-16T19:55:00Z",
+        "price": 24.15
+      },
+      {
+        "t": "2026-06-16T20:00:00Z",
+        "price": 24.16
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [],
     "sec_filings": [
+      {
+        "form": "S-8",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926074569/tm2617893d1_s8.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-06-15",
@@ -767,13 +798,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1813814/000195004726003007/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-03-25",
-        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000195004726003006/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -825,14 +849,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-12"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-03-25",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-25"
       },
       {
         "type": "SEC Filing",
@@ -937,6 +953,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "S-8 · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
       }
     ],
     "queries_used": [

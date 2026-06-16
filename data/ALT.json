@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.63",
-      "note": "Auto-Update: -0.94% vs. vorheriger Schlusskurs",
+      "value": "$2.62",
+      "note": "Auto-Update: -1.5% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-16T19:27:01Z",
+    "last_update_utc": "2026-06-16T21:59:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.635,
+      "regularMarketPrice": 2.62,
       "previousClose": 2.66,
-      "change": -0.025,
-      "changePercent": -0.94,
-      "regularMarketTime": "2026-06-16T19:26:46Z",
+      "change": -0.04,
+      "changePercent": -1.5,
+      "regularMarketTime": "2026-06-16T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-06-16T13:30:00Z",
-        "price": 2.635
+        "price": 2.62
       }
     ],
     "price_history_1d": [
@@ -706,8 +706,32 @@
         "price": 2.635
       },
       {
-        "t": "2026-06-16T19:26:46Z",
-        "price": 2.635
+        "t": "2026-06-16T19:30:00Z",
+        "price": 2.63
+      },
+      {
+        "t": "2026-06-16T19:35:00Z",
+        "price": 2.6201
+      },
+      {
+        "t": "2026-06-16T19:40:00Z",
+        "price": 2.6133
+      },
+      {
+        "t": "2026-06-16T19:45:00Z",
+        "price": 2.61
+      },
+      {
+        "t": "2026-06-16T19:50:00Z",
+        "price": 2.625
+      },
+      {
+        "t": "2026-06-16T19:55:00Z",
+        "price": 2.62
+      },
+      {
+        "t": "2026-06-16T20:00:00Z",
+        "price": 2.62
       }
     ],
     "price_history_range": "1mo",
@@ -744,22 +768,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 6
-      },
-      {
-        "title": "Altimmune übertrifft Verlustprognosen – Aktie steigt vorbörslich um über 3 % - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONzVGYkZYLXh0UUdycTI3SUFEMElhOUc5V1JyS05TelN3MmZuaFRJbklOMUUzeVVSall4M0FmR05vdFJOT2Z1NUFLOWp5QzA0clRCZDY1YzBwM0tORlhWNXVHVW51OGtjSTlZb3A1TUc0R1FDelQxQk9YZDhZeTFTTnk1UGhNb3Z0Q3NkcWsxbS01a21nYzFFcnpONy1BUXVaaWVGN2ZTN0poWnlydlVpT3k0NGNyZ2dOb1BHbVRqYnJWc0RP?oc=5",
-        "published_at": "2026-05-13T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
@@ -810,8 +818,24 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune sichert sich 75 Millionen US-Dollar für MASH-Therapieentwicklung - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWjJTYXNZXzYxSEdmM2VtZmZlTFQyZUFiYU1Tb1BGX2V4bzQ2ekMxRGtTS05JRm5CbjlRLVZjQ1R1bC00dUVQVlI2aFBVN0JaV0lIQ1ItSmhYWnJKRXlsZTZwSVpSQ2pWUktRSE9hTjNsc0JiTG9GS2hueXNtTmZ4d1FxM2FIbFBFZzVLRGI2NVN6SjdjY2hudXdTcnlvTTc5cHZYQmNfekZ3T2RUR183aVFUY0pmUHpkcy1lV05jcHU0TXJTdTlB?oc=5",
+        "title": "Altimmune Aktie: Kapitalspritze für MASH-Studie - kapitalmarktexperten.de",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdEZha01BX2JpVzc3eUNCVGlEQkkxSDJPdjZhVlY5cU1Gb09QV19xN0JpN2xlZlNpQXBMVnZxOUhKLXY0TWpQejdOZDJKMDYyNjQ0OFhhbUpYbUxFcGJJZFhIT3N2MUEybHhycExSVFFOWkFldG9qMGMzTWItNUNrYzZocm5tdGREVzdrMQ?oc=5",
+        "published_at": "2026-01-28T08:00:00Z",
+        "source": "kapitalmarktexperten.de",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Altimmune-Aktie bricht nach Ankündigung einer 75-Millionen-Dollar-Direktplatzierung ein - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVU1icUZGLUZiRVA1aHFiWkFRSVFXaldINUkxN1RCM2hHOGVBS3lRVndtTnNkS2lQb0Q5dm83MGZ3dFVhS0FYOEVfRmFrZnBrTHF5NEtKd3A4ZmxyLXcwN0JGSnhOUGZXTE45TzBuSGZacWM3akFPdFBOb1hvUmg5aWZlX1JkS29PVnZDZmJXMVZYa2ZyaFRVb3FjcUN4UlJZTWJfNUw5X1hNN2VUcUlfSUxCalgtUGN5OHc4cElGb1pzSHBCLTJ3bklsR0FYMl9kTU1iNVBGUHJIRmpP?oc=5",
         "published_at": "2026-01-28T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Altimmune ALT stock news",
@@ -842,6 +866,22 @@
         "relevance_score": 8
       },
       {
+        "title": "Altimmune Shares Surge on Clinical Milestones and Market Dynamics - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
+        "published_at": "2026-01-25T08:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
         "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
         "published_at": "2026-01-21T00:01:24Z",
@@ -858,25 +898,25 @@
         "relevance_score": 7
       },
       {
+        "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
+        "published_at": "2026-01-05T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 7
+      },
+      {
         "title": "Altimmune Aktie: BTD erteilt - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HOXg4V2NROUNVM0EtUkZROG85czNiTThRbEV5RWY1MXhzY0JITHRsNzZpNzRTZVpQZGhtcGh2bFhwZGVOYmlSZ210eGNOMFR0U29nVUdmQlBUbjJoVl9kbFBSVVJJTXQ3QUJwNndRTDFzUQ?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
-        "source": "kapitalmarktexperten.de",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
-      },
-      {
-        "title": "Altimmune Aktie: Führungswechsel & Daten - kapitalmarktexperten.de",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQelo4WkVEaFg4T0licUhUSFloOGNNZnpjcnlWVE5Hem1SZXJPWEVXaDBpZXlmR0JKNDNXV3dxS1Vhd1VLa1Q0cjlTSHFTd1l6ano3QTFMRXJlTHJEd3BpTlNHclBxZ0VEWlZjYzZ0dUNualBPWVVJNHJ6MGw3VjRfZQ?oc=5",
-        "published_at": "2025-12-18T08:00:00Z",
         "source": "kapitalmarktexperten.de",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
@@ -938,22 +978,6 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune Aktie: Aktienkurs & Charts - Comdirect",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtZTNsUVZTdGdNRExreUl2UnVuckpqNFNSUjhFVlkyV0FxcXBxWDZuTDdLbWduUUo5enRld3ZkTVgtNGNjSXllX1hTZ1JKTzZPdlZHbDg0a3lCX2NN?oc=5",
-        "published_at": "2019-05-14T14:49:52Z",
-        "source": "Comdirect",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
         "title": "Altimmune Aktie • A2N5Z6 • US02155H2004 - Onvista",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDQnR1UWhucXlwZ2NuZGs0STJ4WDR5ekh1T3ZHRFRYQU81dEdtRTBTUkZ0MUltcGU3Z2VIUGhJUHkzUDJ1RTF4SEc5azhiZ3RnaEhzWDl2Q2tuU2lBTWJnSEN5RWstZ1o5d2tCZUdHQQ?oc=5",
         "published_at": "2018-09-20T15:42:43Z",
@@ -971,6 +995,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000110465926074575/tm2618087d1_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "SCHEDULE 13G/A",
         "filingDate": "2026-05-15",
@@ -1101,13 +1132,6 @@
         "form": "424B5",
         "filingDate": "2026-04-24",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000110465926047979/alt-20260423x424b5.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "S-3MEF",
-        "filingDate": "2026-04-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000110465926047053/tm2612458d1_s3mef.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1268,6 +1292,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-01-05T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1276,14 +1312,6 @@
         "source": "simplywall.st",
         "date": "2026-01-25T08:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5"
-      },
-      {
-        "type": "SEC · Finanzierung/Verwässerung",
-        "level": "high",
-        "title": "S-3MEF · 2026-04-22",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-22"
       },
       {
         "type": "SEC · Finanzierung/Verwässerung",
@@ -1442,6 +1470,14 @@
         "date": "2026-05-13"
       },
       {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
@@ -1469,14 +1505,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"

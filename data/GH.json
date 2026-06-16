@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$127.74",
-      "note": "Auto-Update: -1.83% vs. vorheriger Schlusskurs",
+      "value": "$127.34",
+      "note": "Auto-Update: -2.14% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-16T19:27:19Z",
+    "last_update_utc": "2026-06-16T21:59:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 127.74,
+      "regularMarketPrice": 127.34,
       "previousClose": 130.12,
-      "change": -2.38,
-      "changePercent": -1.83,
-      "regularMarketTime": "2026-06-16T19:27:02Z",
+      "change": -2.78,
+      "changePercent": -2.14,
+      "regularMarketTime": "2026-06-16T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-06-16T13:30:00Z",
-        "price": 127.74
+        "price": 127.34
       }
     ],
     "price_history_1d": [
@@ -620,16 +620,56 @@
       },
       {
         "t": "2026-06-16T19:25:00Z",
-        "price": 127.53
+        "price": 128.18
       },
       {
-        "t": "2026-06-16T19:27:02Z",
-        "price": 127.74
+        "t": "2026-06-16T19:30:00Z",
+        "price": 128.35
+      },
+      {
+        "t": "2026-06-16T19:35:00Z",
+        "price": 128.05
+      },
+      {
+        "t": "2026-06-16T19:40:00Z",
+        "price": 127.93
+      },
+      {
+        "t": "2026-06-16T19:45:00Z",
+        "price": 127.44
+      },
+      {
+        "t": "2026-06-16T19:50:00Z",
+        "price": 127.5
+      },
+      {
+        "t": "2026-06-16T19:55:00Z",
+        "price": 127.31
+      },
+      {
+        "t": "2026-06-16T20:00:00Z",
+        "price": 127.34
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Guardant Health: Direktor Tariq Musa verkauft Aktien im Wert von 15.102 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMUtPUFVtbnVlXzFlR2dZZGVXd0xhQmZoTFM2WGxVNjg0MkVsMEhVZmNwNUlUdWhoWDhtb3BsdDFfTGNWNFRvVHFON3loVk5SNmRFV01vcDFHRk1UQ1J5ejdMTFhDSXZLd2tTYjROMEdMallvdmI3dXhGTldOa2twcGtLa3RuR01YVEFRbTJMYWxZUWZnX3A0eTNUbW5XV2ZGclB5S1luQjk2bjBEcGUyQUo2OEFzUzMxb3VmOWw4TGtpZm1hMEVjbEQzVXlqa29LS2prcVI3QWo3dw?oc=5",
+        "published_at": "2026-06-16T20:45:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Guardant Health: CIO Kalia verkauft Aktien im Wert von 445.000 $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMmJMM2dFT204MkNfRHdjZ196MVJoN20zZ2VUUGxkWTJZM3hZT0lrYmhpTjV1SUhsMnlzaFNWenFYQTFGV2ZWQW9TeFp0TkQ2V25GV1VfVS1vZGw1T3FTU3RyQS1PS3RtNGwtU2FtNjVVSExEcUctNFVQNUpaaTZnYXlIa0NUWmxvVUpYV1FHOTlxalpjYnJPdzgtVHlIS2JwTThlNWVtQ3Q5Y216LTBpMWhfMF9DTTFkUXlnVG9kdGNSbVk?oc=5",
@@ -660,22 +700,6 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health: Co-CEO Helmy Eltoukhy veräußert Aktien im Wert von 12,6 Mio. US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRWpBNEZld1hUQWxMczdzSThfTmVENVQxcjAxaTFpa0d6NWZScnIwVjJPWmZNdnFXZzdrSHFvVVFuQXo1c29BQmxoY193MVZBa21OZUVTSTFXT3dfNVJhTHZZV2dfR1lkOFhfSGd1Q0ZKWlpiSGk5WmxWd2xQMXRvNWpSVVFnZGQzay1HcWlzOHRrNmlCRm5nU1NMaUVOZGtZb2VxVTZzc3dTeTc4WW54RnVybV9pTldYbl9QdzEwQUdzeTNBbWtyRFdoTUJWSlZFem5wNnVLZERhYVYyNGlz?oc=5",
-        "published_at": "2026-06-08T22:36:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
       },
       {
@@ -842,6 +866,41 @@
     "sec_filings": [
       {
         "form": "4",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000196828126000014/xslF345X06/wk-form4_1781642269.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000173784026000016/xslF345X06/wk-form4_1781642245.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000187161526000012/xslF345X06/wk-form4_1781642225.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000170282426000012/xslF345X06/wk-form4_1781642205.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-06-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000655/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
         "filingDate": "2026-06-15",
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192783126000014/xslF345X06/wk-form4_1781561340.xml",
         "source": "SEC EDGAR",
@@ -944,41 +1003,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000166623626000013/xslF345X06/wk-form4_1780349455.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-29",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000186552526000018/xslF345X06/wk-form4_1780090235.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-28",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000173784026000014/xslF345X06/wk-form4_1780007559.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-05-28",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000563/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-26",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000187161526000010/xslF345X06/wk-form4_1779831478.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-05-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000542/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -1006,46 +1030,6 @@
         "source": "Investing.com Deutsch",
         "date": "2026-05-20T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd0VMWVdJOURTNHY5Ykx2WUFwV3ZwQXZaVGhsS2ZCeTVBNzNWRzlyYVpkbmdEOVJKM2Q1OGRrNm1CLWloSVFaenkzZHFNX08weUhtSHpEQjl1M1dlUnVQVVRwNzhJRENNcGE3U3lyWVM3UWdiZTdaUzFQYTZfRU5iazRmb190N2RQOUpVWnhqMWJRdWFXbjJEZWluVGhiWjBQaWh0NDV4T2VqZDRtci1wZ2ZZdlBRNmQzU3FZSDAzNzloWmhmSGhoZlNHYUFDN19ubEYwQl9abw?oc=5"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-05-22",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-22"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-26",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-26"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-28",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-28"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-05-28",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-28"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-29",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-29"
       },
       {
         "type": "SEC Filing",
@@ -1178,6 +1162,46 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-06-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-16"
       }
     ],
     "queries_used": [
