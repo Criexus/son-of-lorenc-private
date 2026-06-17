@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.98",
-      "note": "Auto-Update: -1.0% vs. vorheriger Schlusskurs",
+      "value": "$3.03",
+      "note": "Auto-Update: 0.66% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-17T15:36:43Z",
+    "last_update_utc": "2026-06-17T18:08:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.98,
+      "regularMarketPrice": 3.03,
       "previousClose": 3.01,
-      "change": -0.03,
-      "changePercent": -1.0,
-      "regularMarketTime": "2026-06-17T15:33:48Z",
+      "change": 0.02,
+      "changePercent": 0.66,
+      "regularMarketTime": "2026-06-17T17:32:06Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -295,8 +295,12 @@
         "price": 3.07
       },
       {
-        "t": "2026-06-17T13:30:00Z",
+        "t": "2026-06-16T13:30:00Z",
         "price": 2.98
+      },
+      {
+        "t": "2026-06-17T13:30:00Z",
+        "price": 3.03
       }
     ],
     "price_history_1d": [
@@ -326,11 +330,35 @@
       },
       {
         "t": "2026-06-17T15:30:00Z",
-        "price": 2.981
+        "price": 2.98
       },
       {
-        "t": "2026-06-17T15:33:48Z",
+        "t": "2026-06-17T16:35:00Z",
         "price": 2.98
+      },
+      {
+        "t": "2026-06-17T17:00:00Z",
+        "price": 3.0399
+      },
+      {
+        "t": "2026-06-17T17:05:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-06-17T17:15:00Z",
+        "price": 3.0399
+      },
+      {
+        "t": "2026-06-17T17:25:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-06-17T17:30:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-06-17T17:32:06Z",
+        "price": 3.03
       }
     ],
     "price_history_range": "1mo",
