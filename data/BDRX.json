@@ -191,7 +191,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-17T20:33:46Z",
+    "last_update_utc": "2026-06-17T22:28:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -387,6 +387,13 @@
     ],
     "sec_filings": [
       {
+        "form": "6-K",
+        "filingDate": "2026-06-17",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926007536/w6172616k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "SCHEDULE 13G/A",
         "filingDate": "2026-05-15",
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000117266126002131/xslSCHEDULE_13G_X02/primary_doc.xml",
@@ -518,13 +525,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003932/bioposama3_333278040.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "POS AM",
-        "filingDate": "2026-03-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003931/bioposama3_333272693.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [
@@ -641,12 +641,12 @@
         "date": "2026-05-14"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "EFFECT · 2026-03-30",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-06-17",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-03-30"
+        "date": "2026-06-17"
       },
       {
         "type": "SEC Filing",
@@ -691,7 +691,7 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "POS AM · 2026-03-30",
+        "title": "EFFECT · 2026-03-30",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-30"
