@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$42.86",
-      "note": "Auto-Update: 2.93% vs. vorheriger Schlusskurs",
+      "value": "$42.93",
+      "note": "Auto-Update: 3.1% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-18T07:26:50Z",
+    "last_update_utc": "2026-06-18T11:35:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 42.86,
+      "regularMarketPrice": 42.93,
       "previousClose": 41.638,
-      "change": 1.222,
-      "changePercent": 2.93,
-      "regularMarketTime": "2026-06-18T07:05:13Z",
+      "change": 1.292,
+      "changePercent": 3.1,
+      "regularMarketTime": "2026-06-18T11:12:50Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -252,10 +252,55 @@
       },
       {
         "t": "2026-06-18T07:00:00Z",
-        "price": 42.86
+        "price": 42.93
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-06-18T07:05:00Z",
+        "price": 42.86
+      },
+      {
+        "t": "2026-06-18T08:05:00Z",
+        "price": 42.939
+      },
+      {
+        "t": "2026-06-18T09:00:00Z",
+        "price": 42.892
+      },
+      {
+        "t": "2026-06-18T09:05:00Z",
+        "price": 42.901
+      },
+      {
+        "t": "2026-06-18T09:10:00Z",
+        "price": 42.938
+      },
+      {
+        "t": "2026-06-18T09:25:00Z",
+        "price": 42.949
+      },
+      {
+        "t": "2026-06-18T09:30:00Z",
+        "price": 42.943
+      },
+      {
+        "t": "2026-06-18T09:55:00Z",
+        "price": 43.0
+      },
+      {
+        "t": "2026-06-18T10:00:00Z",
+        "price": 43.006
+      },
+      {
+        "t": "2026-06-18T11:05:00Z",
+        "price": 42.946
+      },
+      {
+        "t": "2026-06-18T11:12:50Z",
+        "price": 42.93
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [],
