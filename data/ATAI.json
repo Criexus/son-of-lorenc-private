@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-17T23:56:11Z",
+    "last_update_utc": "2026-06-18T02:44:47Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -737,22 +737,6 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Atai Beckley Aktie: Umsatzprognose um 104 Prozent erhöht - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMl8zYWM5YnBhblZ4V3c4eTVPOXhxZDhNS1dqOEQ2MDd2ZmtYNE1YbEZmTXBkU2ZBTGtFWVRsMkNnNU9NSTc5aEdwSWdfcFZhMmtfRUJLYzVMcUk5eUdGT3dSRUIzT01naFJoaHF0ekwyMGZ6VmVwSTNiOE1Eall6VGZqUHNzaTk4bkVkWGlUQ3BUdWVGYnJsX1Q1REhFMWRPZFdaVndsLTJpZGxl?oc=5",
-        "published_at": "2026-06-16T18:54:06Z",
-        "source": "Börse Express",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Atai Beckley Aktie: BPL-003 startet Phase-3-Programm ReConnection - Börse Global",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPem9NNFNBTDVoVUczYjVKdEpza3p6Zl85b2FSdFhTVnY0SUw2WV9IaC1YMFFfRTJYZUVNY2xNcW1HZGhmMEVWMnlvc0RwUGVOaGF0U1d0aXc0cjN5N2I3Z294V2I3czcwUUZ3WlVGb2tmSUNTVk5XVWktVkV0aVU2UFg1OEhFX0tBYTMyeklvanI5UURwZkx4M1lwWnZtMHhSNXc?oc=5",
         "published_at": "2026-06-16T04:59:21Z",
@@ -975,6 +959,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "Atai Beckley Aktie: Phase-3-Start im Q2 2026 - Trading-Treff",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa2VDV3NIN3ExZUxva0hFbWdBaGl6QllXTEU5UVZFOVk1aWt1V2kweXl2NDZxZ0UtNVNqTzI4aTVidV93YkdhcHJSS1Y1ODluT0dWZzlGOXJOektNQ3R4NHQ0bER5cFk4U2RNeWN1TGMtYS1jY01RQWNsZXBTZzQ4U0VB?oc=5",
+        "published_at": "2026-05-10T07:00:00Z",
+        "source": "Trading-Treff",
+        "query": "AtaiBeckley BPL-003 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 18
       },
       {
         "title": "Ist es an der Zeit, AtaiBeckley (NasdaqGM:ATAI) nach seinem einjährigen Anstieg um 188,7% neu zu bewerten? - simplywall.st",
@@ -1571,6 +1571,18 @@
         "date": "2025-04-15"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Atai Beckley Aktie: Phase-3-Start im Q2 2026 - Trading-Treff",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Trading-Treff",
+        "date": "2026-05-10T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa2VDV3NIN3ExZUxva0hFbWdBaGl6QllXTEU5UVZFOVk1aWt1V2kweXl2NDZxZ0UtNVNqTzI4aTVidV93YkdhcHJSS1Y1ODluT0dWZzlGOXJOektNQ3R4NHQ0bER5cFk4U2RNeWN1TGMtYS1jY01RQWNsZXBTZzQ4U0VB?oc=5"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "10-Q · 2026-05-12",
@@ -1701,14 +1713,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-20"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-04-22",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-22"
       }
     ],
     "queries_used": [
