@@ -225,7 +225,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-19T00:09:14Z",
+    "last_update_utc": "2026-06-19T05:32:08Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -331,10 +331,6 @@
       {
         "t": "2026-06-17T13:30:00Z",
         "price": 129.11
-      },
-      {
-        "t": "2026-06-18T13:30:00Z",
-        "price": 131.78
       }
     ],
     "price_history_1d": [
@@ -787,20 +783,20 @@
         "relevance_score": 13
       },
       {
-        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | GH | A2N5RY | News - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CUF80a0FIN2RudkxWbmhFRm1FWHZHMERfX2dYZmpXLXdqeUs3dHVtVHFKWEc5a3NDWHljNFk1bmE4bGR4WEN1STd1dXVNRldnVkU3cDdRUEJsa29lN2JaaFMwZw?oc=5",
-        "published_at": "2019-06-14T11:29:16Z",
-        "source": "Finanzen.net",
+        "title": "Krebstest von Guardant Health erhält FDA-Durchbruchstatus - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTjREejRkeHBzTWxHX2pUc2NKZlNJczdrd3FYWGtUUWkzUHd6MVJDQVBPX0Vfc21ja0xqdlJaQWl5dk1ySDc1LXhjRy1Rak0xT2VieU5QbFZUNm9DdC1yMU0tZ1lCWFVPaGhtZjdnd3hJUHNPUUc0T3lpN183MU1fVUJWLXBBdGUzTU5XNE1tS3BfTUFtckZRTHFBbndFUHV2V1BDdDhVdnpDTENpYklzdG1B?oc=5",
+        "published_at": "2025-06-03T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 13
       }
     ],
     "sec_filings": [
@@ -947,6 +943,18 @@
     ],
     "clinical_trials": [],
     "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Krebstest von Guardant Health erhält FDA-Durchbruchstatus - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2025-06-03T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTjREejRkeHBzTWxHX2pUc2NKZlNJczdrd3FYWGtUUWkzUHd6MVJDQVBPX0Vfc21ja0xqdlJaQWl5dk1ySDc1LXhjRy1Rak0xT2VieU5QbFZUNm9DdC1yMU0tZ1lCWFVPaGhtZjdnd3hJUHNPUUc0T3lpN183MU1fVUJWLXBBdGUzTU5XNE1tS3BfTUFtckZRTHFBbndFUHV2V1BDdDhVdnpDTENpYklzdG1B?oc=5"
+      },
       {
         "type": "FDA / Regulatorik",
         "level": "high",
