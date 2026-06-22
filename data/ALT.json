@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.92",
-      "note": "Auto-Update: 11.69% vs. vorheriger Schlusskurs",
+      "value": "$2.93",
+      "note": "Auto-Update: 12.26% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-22T19:53:04Z",
+    "last_update_utc": "2026-06-22T21:55:09Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.915,
+      "regularMarketPrice": 2.93,
       "previousClose": 2.61,
-      "change": 0.305,
-      "changePercent": 11.69,
-      "regularMarketTime": "2026-06-22T19:52:51Z",
+      "change": 0.32,
+      "changePercent": 12.26,
+      "regularMarketTime": "2026-06-22T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "2.56 – 7.73"
     },
     "price_history": [
-      {
-        "t": "2026-05-22T13:30:00Z",
-        "price": 2.9
-      },
       {
         "t": "2026-05-26T13:30:00Z",
         "price": 2.93
@@ -409,7 +405,7 @@
       },
       {
         "t": "2026-06-22T13:30:00Z",
-        "price": 2.915
+        "price": 2.93
       }
     ],
     "price_history_1d": [
@@ -719,11 +715,15 @@
       },
       {
         "t": "2026-06-22T19:50:00Z",
-        "price": 2.915
+        "price": 2.935
       },
       {
-        "t": "2026-06-22T19:52:51Z",
-        "price": 2.915
+        "t": "2026-06-22T19:55:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-06-22T20:00:00Z",
+        "price": 2.93
       }
     ],
     "price_history_range": "1mo",
@@ -826,22 +826,6 @@
         "relevance_score": 8
       },
       {
-        "title": "Altimmune Shares Surge on Clinical Milestones and Market Dynamics - AD HOC NEWS",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOekJ4YXltMkN6X2NwZTlWUGxiWHVsZjBDa080V3kxODNmYzFhRGFPYW43T18xakdIUmxBdS1mb29jakFKZUJkYVRjaUpmV1VZc2ZzelUweHAydzVRR0lhNy1UOEFEYkZEdGQyMVVXT2ZWdFBlOWp6VzZ4OXlPQ0xVRTlReXY4UkFYVndlWVRyeFFEbDE0UnFua09POEFiekMyOGRyTFpLSWRicW00TGVJR1JETmVLRGRmT1NwLURNVDdsQQ?oc=5",
-        "published_at": "2026-01-25T08:00:00Z",
-        "source": "AD HOC NEWS",
-        "query": "Altimmune ALT pemvidutide stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
         "title": "Altimmune-Aktie steigt nach FDA-Sonderstatus für Lebermedikament stark an - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMjZ2Q0hQMTBsb0ZHajBWZFA3Q2FUdkw3dnhNRkxLdnJxSFlvbl9uUXJfYmQwc09nanlTNktXbURFMzkwVjk2dlRDYVY4MEo2MDhIZGxNSWdaSHQ3eTREZXQ0Z2NNR3UzNkFQRkk1dWhUMGpEbXhUTmJsRUZ4MVVTSjl5MmF0enV5V0hqS0pfQmNPbDEzZ3c0QXN2UjhMS2M1V2xLWTFzdDgtMmhUOS1NMzdHY2dzX1VyQk82OV9ILTN4bk1KZF9KY0VuQXM?oc=5",
         "published_at": "2026-01-05T08:00:00Z",
@@ -919,22 +903,6 @@
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Altimmune-Aktie fällt nach Ergebnissen der MASH-Behandlungsstudie - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYVpuaExvcVVsRllmYnBqUnZlbmktS2NUblNmcl9jVGZwVGtyOWdDUXcwX1lObURUY0hoRldwYW94dTZOcFNXVmFWa3FJLTE4QXhWVW14X0JJQmQzVjFFYzI4OG4wNzVNQWozakdEYU1mMmh0ZklJbW9xWlNuRnRPZF9KWEhfcDM4dWYtZ19rMGJnQkp1RGxveUU5WHpoTG9kTzFsUVNYbjZWRzAzd1c2Um9mQ1lWbUJhNFBST2duVy1udw?oc=5",
-        "published_at": "2025-06-26T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT pemvidutide stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
       },
       {

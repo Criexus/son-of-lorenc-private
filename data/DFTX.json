@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$36.66",
-      "note": "Auto-Update: 48.1% vs. vorheriger Schlusskurs",
+      "value": "$36.67",
+      "note": "Auto-Update: 48.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-22T19:53:36Z",
+    "last_update_utc": "2026-06-22T21:55:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 36.655,
+      "regularMarketPrice": 36.67,
       "previousClose": 24.75,
-      "change": 11.905,
-      "changePercent": 48.1,
-      "regularMarketTime": "2026-06-22T19:53:29Z",
+      "change": 11.92,
+      "changePercent": 48.16,
+      "regularMarketTime": "2026-06-22T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -252,10 +252,6 @@
       "fiftyTwoWeekRange": "6.345 – 39.16"
     },
     "price_history": [
-      {
-        "t": "2026-05-22T13:30:00Z",
-        "price": 22.5
-      },
       {
         "t": "2026-05-26T13:30:00Z",
         "price": 22.88
@@ -330,7 +326,7 @@
       },
       {
         "t": "2026-06-22T13:30:00Z",
-        "price": 36.655
+        "price": 36.67
       }
     ],
     "price_history_1d": [
@@ -640,16 +636,52 @@
       },
       {
         "t": "2026-06-22T19:50:00Z",
-        "price": 36.685
+        "price": 36.67
       },
       {
-        "t": "2026-06-22T19:53:29Z",
-        "price": 36.655
+        "t": "2026-06-22T19:55:00Z",
+        "price": 36.68
+      },
+      {
+        "t": "2026-06-22T20:00:00Z",
+        "price": 36.67
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Definium Therapeutics: Oppenheimer erhöht Kursziel nach überzeugenden Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
+        "published_at": "2026-06-22T16:22:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Starke Studiendaten: Leerink hebt Kursziel für Definium Therapeutics deutlich an - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbzU4X3RHODk0Z2ZROUpsT2FJUTl2OFRHTDhjSndORmZYWU9UcGFCOXltNHQ3c2hLc1dHQmdqSlV0c1dfWkduNFh2UVV3VVM2MTNGZmdXTnRoTGIwNnI2QzkzTDRRYmxZWWc0YjljcUw2X28wLVNXRjlXWHpBY0FwR2UzZ2xIUGFPVVFyelc3dVg5UVI5T3pXTlYtc2RzeVhuUmQ3dnRyWVFzNkl6eXVyOVhUdWVKRWhlZzRGanZiU2dzRHZ3RTVaVnhIYUxVM2V2M0thcg?oc=5",
+        "published_at": "2026-06-22T15:12:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Transcript : Definium Therapeutics, Inc. - Shareholder/Analyst Call - MarketScreener Deutschland",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeHVDbjJLalJlLVBPOVh3OWs0UDJJVWpuc1BWNXZaTWI0NTNBeXppRHFnM3Zjbm9mMDRYMnB2YjlVSVJGN1M0WVNzbUpuRXN1OXJUZ1NvZXJCN2FobjdIeEFNU0JQdmhIWUlKXzBaUmRvdEFYNDc1aG5JdGZUekhjNVJyRnRlb19Ob0lHRUVBamhMeGNUY1E1QWh4SDFsdmhqcjlkZ0htRERVY2M1Sm1XcFhOX3BMOVg4RlFFeVJWUkhaVnc0WWZQVHR1SGxpem1wTnV2c1NzM1hJUGl4X0w5VTE0N2w5UjVR?oc=5",
@@ -751,14 +783,14 @@
       {
         "form": "4",
         "filingDate": "2026-06-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276882/xslF345X06/ownership.xml",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276881/xslF345X06/ownership.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
       {
         "form": "4",
         "filingDate": "2026-06-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276881/xslF345X06/ownership.xml",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276882/xslF345X06/ownership.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
@@ -780,6 +812,13 @@
         "form": "4",
         "filingDate": "2026-06-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276878/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B5",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926076393/tm2618395-1_424b5.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
@@ -880,17 +919,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526211929/dftx-20260507.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "DEFA14A",
-        "filingDate": "2026-04-27",
-        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526182066/defa14a_2026_proxy_notic.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
     "detected_triggers": [
+      {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B5 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
       {
         "type": "SEC · Finanzbericht",
         "level": "medium",
@@ -938,14 +978,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-22"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "DEFA14A · 2026-04-27",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-27"
       },
       {
         "type": "SEC Filing",

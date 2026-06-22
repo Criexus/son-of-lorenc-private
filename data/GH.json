@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$128.32",
-      "note": "Auto-Update: -2.51% vs. vorheriger Schlusskurs",
+      "value": "$128.83",
+      "note": "Auto-Update: -2.12% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-22T19:53:23Z",
+    "last_update_utc": "2026-06-22T21:55:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 128.32,
+      "regularMarketPrice": 128.83,
       "previousClose": 131.62,
-      "change": -3.3,
-      "changePercent": -2.51,
-      "regularMarketTime": "2026-06-22T19:53:14Z",
+      "change": -2.79,
+      "changePercent": -2.12,
+      "regularMarketTime": "2026-06-22T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,10 +248,6 @@
       "fiftyTwoWeekRange": "40.35 – 135.0"
     },
     "price_history": [
-      {
-        "t": "2026-05-22T13:30:00Z",
-        "price": 118.95
-      },
       {
         "t": "2026-05-26T13:30:00Z",
         "price": 119.85
@@ -326,7 +322,7 @@
       },
       {
         "t": "2026-06-22T13:30:00Z",
-        "price": 128.32
+        "price": 128.83
       }
     ],
     "price_history_1d": [
@@ -636,22 +632,106 @@
       },
       {
         "t": "2026-06-22T19:50:00Z",
-        "price": 128.22
+        "price": 128.33
       },
       {
-        "t": "2026-06-22T19:53:14Z",
-        "price": 128.32
+        "t": "2026-06-22T19:55:00Z",
+        "price": 128.77
+      },
+      {
+        "t": "2026-06-22T20:00:00Z",
+        "price": 128.83
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Was die Zulassung des neuen Begleitdiagnostikums von Guardant Health (GH) für HER2-positives nicht-kleinzelliges Lungenkarzinom (NSCLC) für die Aktionäre bedeutet - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNVMway1wMVhhQWJVTmpzVlVpMVBGT0hYSWFVQUZ2SXpINUxmZFF6bWZqSC02UlZBNGsyVVptdkVnX1hhTFVRbUp0dmdrZWxQdm5uZ3E4UVFaa0xJdDlDUmlyQmpuQWNfYTQ4WnBrcDcyTl9GVl9OWlJHenhSRmpMb2tHZDV5SG5NbGZjaE5KS1U2Vk92eHB0eXJFVjQ3TXVjNWtQVF9oSTVUSXhBOTZtVzE1cHk2U2JKOXhGZXdOdmtWejc2ZFhEVndXNGZzX1BZS2Nn0gHYAUFVX3lxTE44T3VVNkNYWjcxX0FOcldUMFN6bDIzdVd2aWNLb01mWE91N0pKWGlIQncxMWUxcG1yTzBUem9TWGo5S0NvaW9jcjZVQ3lUT1J1NUlGVFpfcVhrMTNvUE9uY3FZcnk4dlFJZDJNdEUtVEplWl9GUGVLV2JNX20xVUR5NGh6QkpVRDllLVpKWk5pdUVkQlhxcFZESEtHSWxmUHFhZEM5U2JXcVFLaUY5eDFXVFlkVlE5NmVsTXV0YV9yaF93TXJFZ09fdWc0NlVxTEplYWtWeHZfYQ?oc=5",
+        "published_at": "2026-06-17T22:26:56Z",
+        "source": "simplywall.st",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 14
+      },
+      {
+        "title": "Guardant Health: Direktor Tariq Musa verkauft Aktien im Wert von 15.102 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMUtPUFVtbnVlXzFlR2dZZGVXd0xhQmZoTFM2WGxVNjg0MkVsMEhVZmNwNUlUdWhoWDhtb3BsdDFfTGNWNFRvVHFON3loVk5SNmRFV01vcDFHRk1UQ1J5ejdMTFhDSXZLd2tTYjROMEdMallvdmI3dXhGTldOa2twcGtLa3RuR01YVEFRbTJMYWxZUWZnX3A0eTNUbW5XV2ZGclB5S1luQjk2bjBEcGUyQUo2OEFzUzMxb3VmOWw4TGtpZm1hMEVjbEQzVXlqa29LS2prcVI3QWo3dw?oc=5",
+        "published_at": "2026-06-16T20:45:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Guardant Health: CIO Kalia verkauft Aktien im Wert von 652.030 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUzQxZjFxOVBOT2U3Q0d4aWpzdmQwRV8zTVlic0tPS3JDaHpFMVJKOXZnVVZNSXE0UUpxOGk4S0lzVlBKWFI3Z2lRNlhtZEZzUFRLQlIwLU1TMlNMcFQ3eWgtNklqQ3U2VVVpRXZ4eFFGS3NWNGlNcW5wVTBVMVJlNUtMWEJfSUV4RS1SenNoNUJSVzNtZE1pUng3UVA1M3RQR2xFRGhtN3hYSmgxLUFDZ0EyN054V2xHaDBqUzFERUtMTFZkcGhlR3FPS0x1dw?oc=5",
+        "published_at": "2026-06-12T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "RBC Capital startet Coverage für Guardant Health mit \"Outperform\"-Rating - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMXp4aTlhYXBCTldnS2lVVHJ0QmFsUEpCTlN6S280dmhBbVlOQkg2OVAwUk13WF9MNVFPaGhVcXhZMExacEw4VnJaNGdTQ1l1ZFRUS3pqZDFsTUdqaGVhbmtGYjJvdk4ybDYzTUpQNHRmellxaktHSWw1RmNLY3A3YVNDSl9sZXFUOW9lWnJKWFdTalJfYndwWmZIdk1HS2JDN2lkenF6TFdnd0pTdTBfeU5JaW93czVXOHp1a1dGUVh6X3NzQVp3?oc=5",
+        "published_at": "2026-06-11T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 13
+      },
+      {
         "title": "Der Bullen-Fall für Guardant Health (GH) könnte sich nach der ACS-Bestätigung des Shield-Bluttests ändern - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcC1ZUGN0RlUzSmlSN0xGT3ZCVzBZRm52Rk5zSm83X0VHbmxaNnZsN1FDd2Y2ODlYQi1aQldSNWVBWFdWRzl4dkFsVVh3MlVDcXpFUXY4YUtEYWNocUEtcFNzc2J1R21LWFZ6Q1NXZUhyaVBiaGE5eFY1VUxrcDVoVEVDUmQ5X0dSZE8tVVJCNDRDeG53Mlg4ZENXZUJET3ptTHExckxKOVBDVFhaZG1FSDNmamlYLWJzVW9XSjQxNU54TXVZeUoyNEx1bkMxRlE2M2tr0gHYAUFVX3lxTE1JcWZCS09EV3BZbENGOWFmQzFMdHhGRTlBazZtamRRMHN5eWJ5U3I3REJMMWt5bWllOU5idHQ3NEM2ZGg2VDF5S3BtNlllY1ZiV1FZZHJqM0JVN0NBZ29pN3JsNEJhcWs1UEpSN3NZdVg3NEc2dGVrNWhNVnl1VGlTNjdyaDZsaFNEaUU0NkJMbUV6M3YxMkFwOTRKNlhKdFNaT1Y4YjJYYXRRQmpWbWdOS3dFdnowa1BQU3ZLZV9UR0ZLdUVzTTQtNW03VFRuX2N2ZUFGUnhrNw?oc=5",
         "published_at": "2026-06-07T07:00:00Z",
         "source": "simplywall.st",
-        "query": "\"Guardant Health\" Shield blood test news",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 18
+      },
+      {
+        "title": "Warum Guardant Health (GH) um 9,0% gestiegen ist, nachdem ACS den Shield-Test in die Screening-Richtlinien aufgenommen hat - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSzYxR2c1eHVBcnBWQ19VdU1FcXpJemY0b0ZaSTdlZDdSRFF4VVJ3cXkzLUxGTm1FSEZKR2c5SzRoVkE0Z1FLOWZrVkxTNnd6TEdEeEdTdDBZOUNvLUVhdDdwZjVoeHlCaFo1R280dlA2eDhMN0xrY29qS21nVEgzS0RzeVFGYUlCdE1lcDJNbzlKRzJJQjZQZ2FGeW4tWnoxajQ1eUVNeS12QVYxUHMzMTZNY1FhcmlOMEpObDdGbXBZUC1RNW14VEdHWjBIMHN6MFHSAdcBQVVfeXFMUDVXSkk3UkM3cHBIMXN4ekhndzRkSzQ0Qk1YSXVFWGNqVWpWcVNMUmZheURyVjdwbUhhcWEyelBhYUNPSkVXMDFrcXBrSi1DN0xDeTJ3T05yaUpwWTEzQVJwUUd6bUxFRklNMXdXcTYxckFVVmJpdWI4U0JqZzFzRHNJZTVMakUwZmIxdnRvX19YbXNXS19xTHJkQ2VEdVAtMUdFY0NLV1Jxc1NOTjRxQ2thUmk4SlhUUENSdlcyZFRrbW5QRjd3TnRWdFdSQ1VGQ0tXZlBIcTQ?oc=5",
+        "published_at": "2026-05-31T07:00:00Z",
+        "source": "simplywall.st",
+        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -667,7 +747,55 @@
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdU1FOHkyUEp6dEtxdEZ5RXRqNloxNXdIUjlTVHBUODdoQWMwaldfdlBOUk5uajhHNjdBaURjbG5DangwQ2I0TDVfcWNiQW9pVXZoaVR6TXl4Z0M5ZVo5bFQ1OHlEVWZMN3pBNFpMeVBiRzVDYWtacDk2VkNTckpPdnVyaUY3X3ltRkVmQ3h4dTRGZzdWUzIyZnBPMFRQZ25SSC1rbG5oTnhLVzBfbng5R25UbVJEUmwwWnhiVlBhSnplM1htdnFJSEZ4U1lDejdFQndJ0gHYAUFVX3lxTE0wZ05ZMm1WM01TeTRXb2pnWFh0NlNjWmt6ZzNuVjZWQ2o1NlpNWS1GSEhlckxnY1Z5ZkFVQ0l2Q2VrTldKekFvZzV3dUprMHlLVXV3OFNoeTFQMkdRUU9hZ2xRcWJpUVVtWE9WbjBGNk9ydzlGcHM1Szdtc1pwNFpxY3puVGIzelhlT05Qb1JBVjlSR0lwRU42NUZvemlKWEFCWFlsWkt0MVNRbFZZUTdRTVlxeVp5WDRfMnhWaHVKMGI0aGZNMHR1QnI2RGVOYU5ibkM3ejhWLQ?oc=5",
         "published_at": "2026-05-29T07:00:00Z",
         "source": "simplywall.st",
-        "query": "\"Guardant360\" Reveal Guardant Health news",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 14
+      },
+      {
+        "title": "Alignment Healthcare, Hims & Hers Health, Surgery Partners, Guardant Health, and Pediatrix Medical Group Stocks Trade Up, What You Need To Know - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMzZGNS1PVVVZQzFyM1ZoZ0Mtdms1eHBQUG02YktEUlQ3bi1XVkVKbnZPTjBwUHR3R3BIdkFMY0pHRkp1ZUdaY2pLZkJVTTh2SWkyMkxEWkFpZGV3a1AtWXRxWVVFOHYzS1kxYXBZanJvY3NmeXNaYXVoLUtYOEo2aEZIZkNqZG5oYzg0?oc=5",
+        "published_at": "2025-11-24T08:00:00Z",
+        "source": "Yahoo Finance",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Morgan Stanley erhöht Kursziel für Guardant Health auf 52 US-Dollar, behält Übergewichtung bei - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeVdxbU43NG53MEpDamJIQWJPcDBRTXhOWjE5WDJrX0w2M0t5cGxpSG1hMmV0dV9Ka3EwMWxKR2VRUVVZUHE2X0thUHFveEVJVHNhck51RVJOOEdTME0wN2NXQU8xdElDZGZpRnRqZ0VFOE5GNzQ3UV95UDhPSXdiWEt5cDM2U3FQZG9XM0hEMkxoOVpWN1d1WTNJZENPQlFMWVpoaHBObllnRkpqNUV2LWtLYklfUlZERGtBbHZBdW1TUmZEYm1RMlFhMWI1eEZQU3daSWd0WXNjbXZ0TDNUZ2VwbXVqQQ?oc=5",
+        "published_at": "2025-03-05T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | GH | A2N5RY | News - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CUF80a0FIN2RudkxWbmhFRm1FWHZHMERfX2dYZmpXLXdqeUs3dHVtVHFKWEc5a3NDWHljNFk1bmE4bGR4WEN1STd1dXVNRldnVkU3cDdRUEJsa29lN2JaaFMwZw?oc=5",
+        "published_at": "2019-06-14T11:29:16Z",
+        "source": "Finanzen.net",
+        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -680,6 +808,83 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000125839426000010/xslF345X06/wk-form4_1782165246.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000166623626000020/xslF345X06/wk-form4_1782165212.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000177074926000005/xslF345X06/wk-form4_1782165177.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000186552526000020/xslF345X06/wk-form4_1782165138.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000159085126000002/xslF345X06/wk-form4_1782165106.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000133650426000004/xslF345X06/wk-form4_1782165071.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000140225626000002/xslF345X06/wk-form4_1782165027.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000676/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000675/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000674/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000121413026000002/xslF345X06/wk-form4_1782165285.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "8-K",
         "filingDate": "2026-06-18",
@@ -742,87 +947,22 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000157628026000029/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144/A",
-        "filingDate": "2026-06-15",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000195917326004663/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-06-15",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000195917326004652/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-12",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192783126000012/xslF345X06/wk-form4_1781296019.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-06-10",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000628/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-08",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000175296826000010/xslF345X06/wk-form4_1780957766.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-08",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000170282426000010/xslF345X06/wk-form4_1780957729.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-05",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000166623626000018/xslF345X06/wk-form4_1780703425.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-06-05",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000197248126000182/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-06-05",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000607/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-04",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000177074926000003/xslF345X06/wk-form4_1780610835.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-06-04",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000601/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
     "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Was die Zulassung des neuen Begleitdiagnostikums von Guardant Health (GH) für HER2-positives nicht-kleinzelliges Lungenkarzinom (NSCLC) für die Aktionäre bedeutet - simplywall.st",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "simplywall.st",
+        "date": "2026-06-17T22:26:56Z",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNVMway1wMVhhQWJVTmpzVlVpMVBGT0hYSWFVQUZ2SXpINUxmZFF6bWZqSC02UlZBNGsyVVptdkVnX1hhTFVRbUp0dmdrZWxQdm5uZ3E4UVFaa0xJdDlDUmlyQmpuQWNfYTQ4WnBrcDcyTl9GVl9OWlJHenhSRmpMb2tHZDV5SG5NbGZjaE5KS1U2Vk92eHB0eXJFVjQ3TXVjNWtQVF9oSTVUSXhBOTZtVzE1cHk2U2JKOXhGZXdOdmtWejc2ZFhEVndXNGZzX1BZS2Nn0gHYAUFVX3lxTE44T3VVNkNYWjcxX0FOcldUMFN6bDIzdVd2aWNLb01mWE91N0pKWGlIQncxMWUxcG1yTzBUem9TWGo5S0NvaW9jcjZVQ3lUT1J1NUlGVFpfcVhrMTNvUE9uY3FZcnk4dlFJZDJNdEUtVEplWl9GUGVLV2JNX20xVUR5NGh6QkpVRDllLVpKWk5pdUVkQlhxcFZESEtHSWxmUHFhZEM5U2JXcVFLaUY5eDFXVFlkVlE5NmVsTXV0YV9yaF93TXJFZ09fdWc0NlVxTEplYWtWeHZfYQ?oc=5"
+      },
       {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
@@ -832,97 +972,21 @@
         "date": "2026-06-18"
       },
       {
-        "type": "SEC Filing",
+        "type": "Analysten / Kursziel",
         "level": "low",
-        "title": "4 · 2026-06-04",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-04"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-06-04",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-04"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-05"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-06-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-05"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-06-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-05"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-08",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-08"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-08",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-08"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-06-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-10"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-12",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-12"
+        "title": "RBC Capital startet Coverage für Guardant Health mit \"Outperform\"-Rating - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-06-11T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMXp4aTlhYXBCTldnS2lVVHJ0QmFsUEpCTlN6S280dmhBbVlOQkg2OVAwUk13WF9MNVFPaGhVcXhZMExacEw4VnJaNGdTQ1l1ZFRUS3pqZDFsTUdqaGVhbmtGYjJvdk4ybDYzTUpQNHRmellxaktHSWw1RmNLY3A3YVNDSl9sZXFUOW9lWnJKWFdTalJfYndwWmZIdk1HS2JDN2lkenF6TFdnd0pTdTBfeU5JaW93czVXOHp1a1dGUVh6X3NzQVp3?oc=5"
       },
       {
         "type": "SEC Filing",
         "level": "low",
         "title": "4 · 2026-06-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-15"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-06-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-15"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144/A · 2026-06-15",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-15"
@@ -982,6 +1046,94 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-22",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-22"
       }
     ],
     "queries_used": [
