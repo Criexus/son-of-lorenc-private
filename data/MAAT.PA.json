@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.75",
-      "note": "Auto-Update: -2.48% vs. vorheriger Schlusskurs",
+      "value": "$2.77",
+      "note": "Auto-Update: -1.77% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-22T11:32:32Z",
+    "last_update_utc": "2026-06-22T16:26:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.75,
+      "regularMarketPrice": 2.77,
       "previousClose": 2.82,
-      "change": -0.07,
-      "changePercent": -2.48,
-      "regularMarketTime": "2026-06-22T11:07:31Z",
+      "change": -0.05,
+      "changePercent": -1.77,
+      "regularMarketTime": "2026-06-22T15:35:04Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,7 +240,7 @@
       },
       {
         "t": "2026-06-22T07:00:00Z",
-        "price": 2.75
+        "price": 2.77
       }
     ],
     "price_history_1d": [
@@ -349,29 +349,109 @@
         "price": 2.75
       },
       {
-        "t": "2026-06-22T11:07:31Z",
+        "t": "2026-06-22T11:05:00Z",
         "price": 2.75
+      },
+      {
+        "t": "2026-06-22T11:30:00Z",
+        "price": 2.77
+      },
+      {
+        "t": "2026-06-22T11:35:00Z",
+        "price": 2.77
+      },
+      {
+        "t": "2026-06-22T12:00:00Z",
+        "price": 2.75
+      },
+      {
+        "t": "2026-06-22T12:10:00Z",
+        "price": 2.77
+      },
+      {
+        "t": "2026-06-22T12:15:00Z",
+        "price": 2.77
+      },
+      {
+        "t": "2026-06-22T12:25:00Z",
+        "price": 2.77
+      },
+      {
+        "t": "2026-06-22T12:30:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-06-22T12:45:00Z",
+        "price": 2.755
+      },
+      {
+        "t": "2026-06-22T13:15:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-06-22T13:25:00Z",
+        "price": 2.75
+      },
+      {
+        "t": "2026-06-22T13:30:00Z",
+        "price": 2.75
+      },
+      {
+        "t": "2026-06-22T13:35:00Z",
+        "price": 2.755
+      },
+      {
+        "t": "2026-06-22T13:40:00Z",
+        "price": 2.745
+      },
+      {
+        "t": "2026-06-22T13:45:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-06-22T13:50:00Z",
+        "price": 2.75
+      },
+      {
+        "t": "2026-06-22T13:55:00Z",
+        "price": 2.73
+      },
+      {
+        "t": "2026-06-22T14:25:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-06-22T14:45:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-06-22T15:00:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-06-22T15:05:00Z",
+        "price": 2.73
+      },
+      {
+        "t": "2026-06-22T15:15:00Z",
+        "price": 2.765
+      },
+      {
+        "t": "2026-06-22T15:20:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-06-22T15:25:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-06-22T15:30:00Z",
+        "price": 2.77
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "MAAT PHARMA AKTIE | Aktienkurs & News | A3C7A5 – boerse.de - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aR0kxZUI0eFdzZ0Utb1BuWkxIc1F3Vmp6RkFRWm1Nc1BGQzJlREVaLTBtZWNuZ0hsam9EWkE1WVQ3X2tJelFwTzFJd0lFRFhzc1hDcXo2OU9YQTdoYmpaOUpGZThreEVQNzNB?oc=5",
-        "published_at": "2026-06-19T07:00:00Z",
-        "source": "boerse.de",
-        "query": "\"MaaT Pharma\" stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
       {
         "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - T-Online",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDhBY2YzUExFeWR0eW83b2ZnYWFtRHloOW9yQTVxQ2FabnF3MnlVSTRsenlTV0tZSmx3blNvSi1mX29uWlFweW1RRl9FWEFnSHU4RWdCVDNJNjFySUpHV2t5WmtRc1JEZjlSSEZNNFR1QUtRYUJ6MldyNzdSYjdDOHJlWkNtQnE2WG1EQzFiRm9TY3J4aFh4MUlDUzdGY0tuY21neTdlRkxwc2ZwZFpTM0V2bVpVQmVnM0U3NDRPS1dhZUhEQjNac29PcTBUX2VqVzdtcA?oc=5",
@@ -425,6 +505,22 @@
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR2F6bVpabURhMHZpbkw2M1hWU1Zwb1BXR2xBXzVzYUNlMkpmbG9saDZXZlhrMnN5VmFZZnF3Vm50Tmk2YWszS0JQRFhYODEzcW9tNDlzR3pIbFFLVHFQVk5SRldyYjVweFd5ZTBpNmlLaG50ODlaN1ZnbDJXMWFVMURrNVdJeFlReUM3QWxJWkxaajJNeDRhaURyNW40OWI0U1kzTjhaTElXQVY0ZHlsYTdDMkFxU3QxOTR0RWZxQlQ0eUE2ZUhTQQ?oc=5",
         "published_at": "2025-12-10T08:00:00Z",
         "source": "TradingView",
+        "query": "\"MaaT Pharma\" stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
+      {
+        "title": "MAAT PHARMA AKTIE | Aktienkurs & News | A3C7A5 – boerse.de - boerse.de",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aR0kxZUI0eFdzZ0Utb1BuWkxIc1F3Vmp6RkFRWm1Nc1BGQzJlREVaLTBtZWNuZ0hsam9EWkE1WVQ3X2tJelFwTzFJd0lFRFhzc1hDcXo2OU9YQTdoYmpaOUpGZThreEVQNzNB?oc=5",
+        "published_at": "2025-05-13T22:07:35Z",
+        "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
