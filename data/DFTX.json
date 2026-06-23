@@ -229,7 +229,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-23T01:28:37Z",
+    "last_update_utc": "2026-06-23T05:38:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -248,8 +248,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 39.16,
-      "fiftyTwoWeekLow": 6.345,
-      "fiftyTwoWeekRange": "6.345 – 39.16"
+      "fiftyTwoWeekLow": 6.4,
+      "fiftyTwoWeekRange": "6.4 – 39.16"
     },
     "price_history": [
       {
@@ -651,6 +651,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Definium Therapeutics: Aktie fällt nach Ankündigung einer Kapitalerhöhung über 500 Mio. $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa25IT2hUYXljajhRaUkzSERtNXFfTTRrUFJJNGVTZGlscjNhSDkyMll0VU0zOFVaVTEzZ0RCYXlCZ3ZqV3Npb0ExVVBOOFNEZGQ5UkNjVVJnUGhiVTFaaTl2VllDTWtNZEg3RGFIaU9aSUF6VE1nd0JfbnVSOG9MdkFRb0xIMlNSRXlGSk5yVVljOWpyMnRCZmdBdVZDTUwtTl9vZDFTZkcySWZxZ0JHOHRfTzEzYW9pcVFsZk1HSlVxbGliVEg1eVBIMk5YV3VHUHBWT0pJX29aemtIeFo4ZA?oc=5",
+        "published_at": "2026-06-22T20:24:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 13
+      },
+      {
         "title": "Definium Therapeutics: Oppenheimer erhöht Kursziel nach überzeugenden Studiendaten - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
         "published_at": "2026-06-22T16:22:00Z",
@@ -781,6 +797,13 @@
     ],
     "sec_filings": [
       {
+        "form": "424B5",
+        "filingDate": "2026-06-22",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926076393/tm2618395-1_424b5.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "4",
         "filingDate": "2026-06-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276881/xslF345X06/ownership.xml",
@@ -812,13 +835,6 @@
         "form": "4",
         "filingDate": "2026-06-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276878/xslF345X06/ownership.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "424B5",
-        "filingDate": "2026-06-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926076393/tm2618395-1_424b5.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
@@ -930,6 +946,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-22"
+      },
+      {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Definium Therapeutics: Aktie fällt nach Ankündigung einer Kapitalerhöhung über 500 Mio. $ - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-06-22T20:24:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa25IT2hUYXljajhRaUkzSERtNXFfTTRrUFJJNGVTZGlscjNhSDkyMll0VU0zOFVaVTEzZ0RCYXlCZ3ZqV3Npb0ExVVBOOFNEZGQ5UkNjVVJnUGhiVTFaaTl2VllDTWtNZEg3RGFIaU9aSUF6VE1nd0JfbnVSOG9MdkFRb0xIMlNSRXlGSk5yVVljOWpyMnRCZmdBdVZDTUwtTl9vZDFTZkcySWZxZ0JHOHRfTzEzYW9pcVFsZk1HSlVxbGliVEg1eVBIMk5YV3VHUHBWT0pJX29aemtIeFo4ZA?oc=5"
       },
       {
         "type": "SEC · Finanzbericht",
