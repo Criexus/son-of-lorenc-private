@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$132.51",
-      "note": "Auto-Update: 2.07% vs. vorheriger Schlusskurs",
+      "value": "$130.83",
+      "note": "Auto-Update: 0.78% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-23T19:01:50Z",
+    "last_update_utc": "2026-06-23T21:11:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 132.51,
+      "regularMarketPrice": 130.83,
       "previousClose": 129.82,
-      "change": 2.69,
-      "changePercent": 2.07,
-      "regularMarketTime": "2026-06-23T19:01:36Z",
+      "change": 1.01,
+      "changePercent": 0.78,
+      "regularMarketTime": "2026-06-23T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-06-23T13:30:00Z",
-        "price": 132.51
+        "price": 130.83
       }
     ],
     "price_history_1d": [
@@ -596,11 +596,55 @@
       },
       {
         "t": "2026-06-23T19:00:00Z",
-        "price": 132.29
+        "price": 132.495
       },
       {
-        "t": "2026-06-23T19:01:36Z",
-        "price": 132.51
+        "t": "2026-06-23T19:05:00Z",
+        "price": 132.33
+      },
+      {
+        "t": "2026-06-23T19:10:00Z",
+        "price": 132.54
+      },
+      {
+        "t": "2026-06-23T19:15:00Z",
+        "price": 131.99
+      },
+      {
+        "t": "2026-06-23T19:20:00Z",
+        "price": 132.125
+      },
+      {
+        "t": "2026-06-23T19:25:00Z",
+        "price": 132.17
+      },
+      {
+        "t": "2026-06-23T19:30:00Z",
+        "price": 132.2496
+      },
+      {
+        "t": "2026-06-23T19:35:00Z",
+        "price": 131.995
+      },
+      {
+        "t": "2026-06-23T19:40:00Z",
+        "price": 131.51
+      },
+      {
+        "t": "2026-06-23T19:45:00Z",
+        "price": 131.4
+      },
+      {
+        "t": "2026-06-23T19:50:00Z",
+        "price": 131.735
+      },
+      {
+        "t": "2026-06-23T19:55:00Z",
+        "price": 130.81
+      },
+      {
+        "t": "2026-06-23T20:00:00Z",
+        "price": 130.83
       }
     ],
     "price_history_range": "1mo",
@@ -701,22 +745,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 18
-      },
-      {
-        "title": "Ist es zu spät, Guardant Health (GH) nach einem 246%igen Anstieg innerhalb eines Jahres zu berücksichtigen? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdU1FOHkyUEp6dEtxdEZ5RXRqNloxNXdIUjlTVHBUODdoQWMwaldfdlBOUk5uajhHNjdBaURjbG5DangwQ2I0TDVfcWNiQW9pVXZoaVR6TXl4Z0M5ZVo5bFQ1OHlEVWZMN3pBNFpMeVBiRzVDYWtacDk2VkNTckpPdnVyaUY3X3ltRkVmQ3h4dTRGZzdWUzIyZnBPMFRQZ25SSC1rbG5oTnhLVzBfbng5R25UbVJEUmwwWnhiVlBhSnplM1htdnFJSEZ4U1lDejdFQndJ0gHYAUFVX3lxTE0wZ05ZMm1WM01TeTRXb2pnWFh0NlNjWmt6ZzNuVjZWQ2o1NlpNWS1GSEhlckxnY1Z5ZkFVQ0l2Q2VrTldKekFvZzV3dUprMHlLVXV3OFNoeTFQMkdRUU9hZ2xRcWJpUVVtWE9WbjBGNk9ydzlGcHM1Szdtc1pwNFpxY3puVGIzelhlT05Qb1JBVjlSR0lwRU42NUZvemlKWEFCWFlsWkt0MVNRbFZZUTdRTVlxeVp5WDRfMnhWaHVKMGI0aGZNMHR1QnI2RGVOYU5ibkM3ejhWLQ?oc=5",
-        "published_at": "2026-05-29T07:00:00Z",
-        "source": "simplywall.st",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
       },
       {
         "title": "Alignment Healthcare, Hims & Hers Health, Surgery Partners, Guardant Health, and Pediatrix Medical Group Stocks Trade Up, What You Need To Know - Yahoo Finance",

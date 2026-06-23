@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$36.98",
-      "note": "Auto-Update: 55.55% vs. vorheriger Schlusskurs",
+      "value": "$36.18",
+      "note": "Auto-Update: 52.21% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-23T19:02:03Z",
+    "last_update_utc": "2026-06-23T21:11:30Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 36.975,
+      "regularMarketPrice": 36.18,
       "previousClose": 23.77,
-      "change": 13.205,
-      "changePercent": 55.55,
-      "regularMarketTime": "2026-06-23T19:01:46Z",
+      "change": 12.41,
+      "changePercent": 52.21,
+      "regularMarketTime": "2026-06-23T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-06-23T13:30:00Z",
-        "price": 36.975
+        "price": 36.18
       }
     ],
     "price_history_1d": [
@@ -600,11 +600,55 @@
       },
       {
         "t": "2026-06-23T19:00:00Z",
-        "price": 36.88
+        "price": 36.905
       },
       {
-        "t": "2026-06-23T19:01:46Z",
-        "price": 36.975
+        "t": "2026-06-23T19:05:00Z",
+        "price": 36.81
+      },
+      {
+        "t": "2026-06-23T19:10:00Z",
+        "price": 36.79
+      },
+      {
+        "t": "2026-06-23T19:15:00Z",
+        "price": 36.545
+      },
+      {
+        "t": "2026-06-23T19:20:00Z",
+        "price": 36.6401
+      },
+      {
+        "t": "2026-06-23T19:25:00Z",
+        "price": 36.765
+      },
+      {
+        "t": "2026-06-23T19:30:00Z",
+        "price": 36.63
+      },
+      {
+        "t": "2026-06-23T19:35:00Z",
+        "price": 36.8
+      },
+      {
+        "t": "2026-06-23T19:40:00Z",
+        "price": 36.695
+      },
+      {
+        "t": "2026-06-23T19:45:00Z",
+        "price": 36.3951
+      },
+      {
+        "t": "2026-06-23T19:50:00Z",
+        "price": 36.19
+      },
+      {
+        "t": "2026-06-23T19:55:00Z",
+        "price": 36.18
+      },
+      {
+        "t": "2026-06-23T20:00:00Z",
+        "price": 36.18
       }
     ],
     "price_history_range": "1mo",
@@ -689,6 +733,22 @@
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "relevance_score": 13
+      },
+      {
+        "title": "Definium Therapeutics meldet positive Phase-3-Daten zu DT120 ODT bei schwerer depressiver Störung - MarketScreener Schweiz",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNcTl4NFVqUG8yMy1MYTNQN18zam5DVzRaa1R1WVBvQ3loZ3BFX1VLd1R2bjY2QXNkMEp1Y0ZMUVQ1Z2EyUTdMRVNKZ2xqZ1h5RW52QjhfbjVPd3FZcmlURnV4WlUtOWNrTkh5TXZYalg0dENHMUV4ZTFlaXVVZWJUUVY5ZUpPaEN5VUZUTWtOOE5za3Y3SGRTVXJCeFRPbWd0OV9WWmJEWVY1M1VmTW5KbGE0Z3NwMjd0VnNtWkQ4ZlJUQzdhSjhLQlVVMW5RcDJOSk1nVzl0Q3JNOW9GX3l2Q1hyWk5xNHBwR3NaeEc5bVZYYjBFRzRN?oc=5",
+        "published_at": "2026-06-22T12:08:23Z",
+        "source": "MarketScreener Schweiz",
+        "query": "\"Definium Therapeutics\" DT120 topline",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
       },
       {
         "title": "Definium Therapeutics Aktie schießt nach positiven Studiendaten um fast 40 % in die Höhe - Investing.com Deutsch",
