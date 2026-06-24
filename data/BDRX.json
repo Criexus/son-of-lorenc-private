@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.66",
-      "note": "Auto-Update: -13.36% vs. vorheriger Schlusskurs",
+      "value": "$2.77",
+      "note": "Auto-Update: -7.05% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-24T12:15:08Z",
+    "last_update_utc": "2026-06-24T15:15:39Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.66,
-      "previousClose": 3.07,
-      "change": -0.41,
-      "changePercent": -13.36,
-      "regularMarketTime": "2026-06-23T20:00:01Z",
+      "regularMarketPrice": 2.77,
+      "previousClose": 2.98,
+      "change": -0.21,
+      "changePercent": -7.05,
+      "regularMarketTime": "2026-06-24T13:59:13Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -293,81 +293,50 @@
       {
         "t": "2026-06-23T13:30:00Z",
         "price": 2.66
+      },
+      {
+        "t": "2026-06-24T13:30:00Z",
+        "price": 2.77
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-06-23T13:35:00Z",
-        "price": 2.72
+        "t": "2026-06-24T13:30:00Z",
+        "price": 2.63
       },
       {
-        "t": "2026-06-23T13:40:00Z",
-        "price": 2.67
+        "t": "2026-06-24T13:50:00Z",
+        "price": 2.732
       },
       {
-        "t": "2026-06-23T13:45:00Z",
-        "price": 2.4501
+        "t": "2026-06-24T13:55:00Z",
+        "price": 2.77
       },
       {
-        "t": "2026-06-23T13:50:00Z",
-        "price": 2.8624
-      },
-      {
-        "t": "2026-06-23T14:00:00Z",
-        "price": 2.7895
-      },
-      {
-        "t": "2026-06-23T14:05:00Z",
-        "price": 2.8
-      },
-      {
-        "t": "2026-06-23T14:15:00Z",
-        "price": 2.74
-      },
-      {
-        "t": "2026-06-23T14:20:00Z",
-        "price": 2.71
-      },
-      {
-        "t": "2026-06-23T14:35:00Z",
-        "price": 2.75
-      },
-      {
-        "t": "2026-06-23T14:55:00Z",
-        "price": 2.75
-      },
-      {
-        "t": "2026-06-23T15:25:00Z",
-        "price": 2.745
-      },
-      {
-        "t": "2026-06-23T16:05:00Z",
-        "price": 2.7
-      },
-      {
-        "t": "2026-06-23T16:10:00Z",
-        "price": 2.69
-      },
-      {
-        "t": "2026-06-23T16:20:00Z",
-        "price": 2.7898
-      },
-      {
-        "t": "2026-06-23T17:30:00Z",
-        "price": 2.78
-      },
-      {
-        "t": "2026-06-23T18:30:00Z",
-        "price": 2.805
-      },
-      {
-        "t": "2026-06-23T20:00:00Z",
-        "price": 2.66
+        "t": "2026-06-24T13:59:13Z",
+        "price": 2.77
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Biodexa Pharmaceuticals treibt FAP-Behandlungsstudie voran - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNQbnkwRVhwak9zQkVrRnJYckJxRVg0RWhGQ0x3cFRHN19LaHhuR3hfSmU5LVVMekVvX0I5RUNKVm15TXpqZ1VQdmk2UDhYdXpkMjcyZVpRamtaTUU2R1ViVXFkUVU1aTAtS2ZSWkJueGl4R0Q4cGl0RkpFNjJUd3NzQ1dLazU3MDdfMmVLaldtSDE4enNGTDh2RkxEMHpLTFFZejlPWFdJY1NCMGJfTWRJdw?oc=5",
+        "published_at": "2025-03-19T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
