@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$42.57",
-      "note": "Auto-Update: 76.2% vs. vorheriger Schlusskurs",
+      "value": "$42.13",
+      "note": "Auto-Update: 74.38% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-24T19:08:37Z",
+    "last_update_utc": "2026-06-24T21:08:09Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 42.57,
+      "regularMarketPrice": 42.13,
       "previousClose": 24.16,
-      "change": 18.41,
-      "changePercent": 76.2,
-      "regularMarketTime": "2026-06-24T19:08:24Z",
+      "change": 17.97,
+      "changePercent": 74.38,
+      "regularMarketTime": "2026-06-24T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-06-24T13:30:00Z",
-        "price": 42.57
+        "price": 42.13
       }
     ],
     "price_history_1d": [
@@ -608,11 +608,51 @@
       },
       {
         "t": "2026-06-24T19:05:00Z",
+        "price": 42.66
+      },
+      {
+        "t": "2026-06-24T19:10:00Z",
         "price": 42.615
       },
       {
-        "t": "2026-06-24T19:08:24Z",
-        "price": 42.57
+        "t": "2026-06-24T19:15:00Z",
+        "price": 42.48
+      },
+      {
+        "t": "2026-06-24T19:20:00Z",
+        "price": 42.46
+      },
+      {
+        "t": "2026-06-24T19:25:00Z",
+        "price": 42.375
+      },
+      {
+        "t": "2026-06-24T19:30:00Z",
+        "price": 42.24
+      },
+      {
+        "t": "2026-06-24T19:35:00Z",
+        "price": 42.1
+      },
+      {
+        "t": "2026-06-24T19:40:00Z",
+        "price": 42.26
+      },
+      {
+        "t": "2026-06-24T19:45:00Z",
+        "price": 42.38
+      },
+      {
+        "t": "2026-06-24T19:50:00Z",
+        "price": 42.18
+      },
+      {
+        "t": "2026-06-24T19:55:00Z",
+        "price": 42.12
+      },
+      {
+        "t": "2026-06-24T20:00:00Z",
+        "price": 42.13
       }
     ],
     "price_history_range": "1mo",
@@ -680,38 +720,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Starke Studiendaten: Leerink hebt Kursziel für Definium Therapeutics deutlich an - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbzU4X3RHODk0Z2ZROUpsT2FJUTl2OFRHTDhjSndORmZYWU9UcGFCOXltNHQ3c2hLc1dHQmdqSlV0c1dfWkduNFh2UVV3VVM2MTNGZmdXTnRoTGIwNnI2QzkzTDRRYmxZWWc0YjljcUw2X28wLVNXRjlXWHpBY0FwR2UzZ2xIUGFPVVFyelc3dVg5UVI5T3pXTlYtc2RzeVhuUmQ3dnRyWVFzNkl6eXVyOVhUdWVKRWhlZzRGanZiU2dzRHZ3RTVaVnhIYUxVM2V2M0thcg?oc=5",
-        "published_at": "2026-06-22T15:12:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Transcript : Definium Therapeutics, Inc. - Shareholder/Analyst Call - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeHVDbjJLalJlLVBPOVh3OWs0UDJJVWpuc1BWNXZaTWI0NTNBeXppRHFnM3Zjbm9mMDRYMnB2YjlVSVJGN1M0WVNzbUpuRXN1OXJUZ1NvZXJCN2FobjdIeEFNU0JQdmhIWUlKXzBaUmRvdEFYNDc1aG5JdGZUekhjNVJyRnRlb19Ob0lHRUVBamhMeGNUY1E1QWh4SDFsdmhqcjlkZ0htRERVY2M1Sm1XcFhOX3BMOVg4RlFFeVJWUkhaVnc0WWZQVHR1SGxpem1wTnV2c1NzM1hJUGl4X0w5VTE0N2w5UjVR?oc=5",
-        "published_at": "2026-06-22T13:35:14Z",
-        "source": "MarketScreener Deutschland",
-        "query": "\"Definium Therapeutics\" DT120 topline",
-        "source_type": "google_news_rss",
-        "trigger_type": "Analysten / Kursziel",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "relevance_score": 13
       },
       {
@@ -1094,18 +1102,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-22"
-      },
-      {
-        "type": "Analysten / Kursziel",
-        "level": "low",
-        "title": "Transcript : Definium Therapeutics, Inc. - Shareholder/Analyst Call - MarketScreener Deutschland",
-        "reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "source": "MarketScreener Deutschland",
-        "date": "2026-06-22T13:35:14Z",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeHVDbjJLalJlLVBPOVh3OWs0UDJJVWpuc1BWNXZaTWI0NTNBeXppRHFnM3Zjbm9mMDRYMnB2YjlVSVJGN1M0WVNzbUpuRXN1OXJUZ1NvZXJCN2FobjdIeEFNU0JQdmhIWUlKXzBaUmRvdEFYNDc1aG5JdGZUekhjNVJyRnRlb19Ob0lHRUVBamhMeGNUY1E1QWh4SDFsdmhqcjlkZ0htRERVY2M1Sm1XcFhOX3BMOVg4RlFFeVJWUkhaVnc0WWZQVHR1SGxpem1wTnV2c1NzM1hJUGl4X0w5VTE0N2w5UjVR?oc=5"
       }
     ],
     "queries_used": [

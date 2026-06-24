@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.21",
-      "note": "Auto-Update: 1.1% vs. vorheriger Schlusskurs",
+      "value": "$3.23",
+      "note": "Auto-Update: 1.57% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-24T19:08:49Z",
+    "last_update_utc": "2026-06-24T21:08:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.215,
+      "regularMarketPrice": 3.23,
       "previousClose": 3.18,
-      "change": 0.035,
-      "changePercent": 1.1,
-      "regularMarketTime": "2026-06-24T19:08:40Z",
+      "change": 0.05,
+      "changePercent": 1.57,
+      "regularMarketTime": "2026-06-24T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-06-24T13:30:00Z",
-        "price": 3.215
+        "price": 3.23
       }
     ],
     "price_history_1d": [
@@ -669,11 +669,51 @@
       },
       {
         "t": "2026-06-24T19:05:00Z",
+        "price": 3.2201
+      },
+      {
+        "t": "2026-06-24T19:10:00Z",
+        "price": 3.2179
+      },
+      {
+        "t": "2026-06-24T19:15:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-24T19:20:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-06-24T19:25:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-24T19:30:00Z",
         "price": 3.215
       },
       {
-        "t": "2026-06-24T19:08:40Z",
+        "t": "2026-06-24T19:35:00Z",
+        "price": 3.2045
+      },
+      {
+        "t": "2026-06-24T19:40:00Z",
         "price": 3.215
+      },
+      {
+        "t": "2026-06-24T19:45:00Z",
+        "price": 3.235
+      },
+      {
+        "t": "2026-06-24T19:50:00Z",
+        "price": 3.235
+      },
+      {
+        "t": "2026-06-24T19:55:00Z",
+        "price": 3.245
+      },
+      {
+        "t": "2026-06-24T20:00:00Z",
+        "price": 3.23
       }
     ],
     "price_history_range": "1mo",
@@ -744,6 +784,22 @@
         "relevance_score": 25
       },
       {
+        "title": "Recursion startet Phase-1-Studie für Lymphom-Behandlung - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUQ1Z0dhbl9SLWV1N0pXUFVHUFI0MmFQOFJuemdPcFJtWVpkWnZ0WHVDNnVIZGlFNUhRb3RIemkzbjhiRXZNMXZ3OFM3aVJWY1lYTW9uREF4UjV4MmpmX0xBOEg5b0hjSFdEMzIzZUtuTGZIcGdsS0FRMktfNXFPc3gyX0FvdnNlaXJoRXRkUkp5alVCVDN0b0IyLV82TExlN1NCTWxCTG9uYVJY?oc=5",
+        "published_at": "2025-04-08T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
         "title": "Recursion Pharma Aktie (A3CM1C, RXRX) - Kurs, Chart, News & Kennzahlen - Ariva",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fT2RZc0c0QjlRZms3YmlKcFNwR001OVJYNjRRdklneXpqc0ZxMEtXNTAyMjVYckhFY1dHR3ptSDZNYi1iMHhQZTFjZktITGxhZlZCbkh5OE00Sm9HOU52dnF2OWdzdTdwSVJDT1p0aU4?oc=5",
         "published_at": "2024-12-21T01:26:50Z",
@@ -780,7 +836,7 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-16T06:05:44Z",
         "source": "TradingView",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -790,6 +846,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "Recursion Pharmaceuticals, Inc. Finanzberichte – NASDAQ:RXRX - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByY3ZiYlZsSmZSWVJhaVJXSnlRSVlIVXN3eFIzd0o2dnhPUTdSQ3JxWmpmcXowUmI5c201Yk9fWVFta0lMeHRDaHh5bjRKMG5wbUY5V1hSZGY0V2oyejVRaFdLMUhraWdTT2lhVHJTaGZZZTBTS3c?oc=5",
+        "published_at": "2021-04-16T06:02:10Z",
+        "source": "TradingView",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 25
       }
     ],
     "sec_filings": [
