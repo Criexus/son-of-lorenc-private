@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.22",
-      "note": "Auto-Update: 7.33% vs. vorheriger Schlusskurs",
+      "value": "$3.25",
+      "note": "Auto-Update: 8.17% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-25T18:02:44Z",
+    "last_update_utc": "2026-06-25T20:28:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.22,
+      "regularMarketPrice": 3.245,
       "previousClose": 3.0,
-      "change": 0.22,
-      "changePercent": 7.33,
-      "regularMarketTime": "2026-06-25T17:58:42Z",
+      "change": 0.245,
+      "changePercent": 8.17,
+      "regularMarketTime": "2026-06-25T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-06-25T13:30:00Z",
-        "price": 3.22
+        "price": 3.245
       }
     ],
     "price_history_1d": [
@@ -483,8 +483,84 @@
         "price": 3.205
       },
       {
-        "t": "2026-06-25T17:58:42Z",
+        "t": "2026-06-25T17:55:00Z",
         "price": 3.22
+      },
+      {
+        "t": "2026-06-25T18:05:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-06-25T18:15:00Z",
+        "price": 3.235
+      },
+      {
+        "t": "2026-06-25T18:20:00Z",
+        "price": 3.24
+      },
+      {
+        "t": "2026-06-25T18:25:00Z",
+        "price": 3.235
+      },
+      {
+        "t": "2026-06-25T18:40:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-25T18:45:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-25T18:50:00Z",
+        "price": 3.18
+      },
+      {
+        "t": "2026-06-25T18:55:00Z",
+        "price": 3.18
+      },
+      {
+        "t": "2026-06-25T19:00:00Z",
+        "price": 3.18
+      },
+      {
+        "t": "2026-06-25T19:15:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-25T19:20:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-25T19:25:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-06-25T19:30:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-06-25T19:35:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-06-25T19:40:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-25T19:45:00Z",
+        "price": 3.16
+      },
+      {
+        "t": "2026-06-25T19:50:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-06-25T19:55:00Z",
+        "price": 3.245
+      },
+      {
+        "t": "2026-06-25T20:00:00Z",
+        "price": 3.245
       }
     ],
     "price_history_range": "1mo",
@@ -524,6 +600,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-06-25",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026045487/alti-20260623.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-06-18",
@@ -654,13 +737,6 @@
         "form": "4",
         "filingDate": "2026-04-02",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126013066/xslF345X06/form4.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-04-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126013064/xslF345X06/form4.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -963,12 +1039,12 @@
         "date": "2026-06-18"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-04-02",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-06-25",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-02"
+        "date": "2026-06-25"
       },
       {
         "type": "SEC Filing",
