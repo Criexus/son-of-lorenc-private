@@ -229,7 +229,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-25T06:39:58Z",
+    "last_update_utc": "2026-06-25T10:11:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -659,22 +659,6 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Definium Therapeutics platziert Aktienemission im Wert von 700 Millionen US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQblZzYUlWZHpycEh4UVJRc2JQYnJQclNUVzE3Ykk1SW5nV3ZULUlGdl9zSWM2SW1NMExhRFdhbXFBMXQtbEV0ejd3M1o4SzNGMU1ybWl6M0J2bmVyRG1fZERqb2YzTnZtcTBIdnZWWjc3R1dfUnpmNS1sdGl3b04wTEFzVWxoYWFqWkJ0VnNHMnMxNllWc1pVUU1xU0ZDNFBNM3lreTI5NGRfYnB1VDF1bXJyVTNsMmF2bWFGQjlxV2FVTV9OdzNJOE9JZ0lVYXlWRDdR?oc=5",
-        "published_at": "2026-06-24T02:06:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
         "title": "Definium Therapeutics: Needham hebt Kursziel nach MDD-Daten deutlich an - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZUNXaHpMNVNqTElFSWJCS1I0ampoY0dXaTRhVGZYMEFEdk5iZVpiMTRha29hanJUUXBqTjR5SE1mcHYzSmpadzJhMUpQVmdiTTQ1V1VPUnlKUVdhYUxaRXljalJLUVpwd2h1Ul9saWE5U28zVVZfaEtpcDZwa0ZNSTVZdF9GODNfdzg5akFaWG44N0dDeXhqSXB2VnQ4M2JjSk5KTGVzcFFRc0VzeV9pc25sUGNJT3BlbHUwNFllbF9BM19KcjRF?oc=5",
         "published_at": "2026-06-23T12:29:00Z",
@@ -688,6 +672,22 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Definium Therapeutics: Aktie fällt nach Ankündigung einer Kapitalerhöhung über 500 Mio. $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa25IT2hUYXljajhRaUkzSERtNXFfTTRrUFJJNGVTZGlscjNhSDkyMll0VU0zOFVaVTEzZ0RCYXlCZ3ZqV3Npb0ExVVBOOFNEZGQ5UkNjVVJnUGhiVTFaaTl2VllDTWtNZEg3RGFIaU9aSUF6VE1nd0JfbnVSOG9MdkFRb0xIMlNSRXlGSk5yVVljOWpyMnRCZmdBdVZDTUwtTl9vZDFTZkcySWZxZ0JHOHRfTzEzYW9pcVFsZk1HSlVxbGliVEg1eVBIMk5YV3VHUHBWT0pJX29aemtIeFo4ZA?oc=5",
+        "published_at": "2026-06-22T20:24:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
         "relevance_score": 13
       },
       {
@@ -711,7 +711,7 @@
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeHVDbjJLalJlLVBPOVh3OWs0UDJJVWpuc1BWNXZaTWI0NTNBeXppRHFnM3Zjbm9mMDRYMnB2YjlVSVJGN1M0WVNzbUpuRXN1OXJUZ1NvZXJCN2FobjdIeEFNU0JQdmhIWUlKXzBaUmRvdEFYNDc1aG5JdGZUekhjNVJyRnRlb19Ob0lHRUVBamhMeGNUY1E1QWh4SDFsdmhqcjlkZ0htRERVY2M1Sm1XcFhOX3BMOVg4RlFFeVJWUkhaVnc0WWZQVHR1SGxpem1wTnV2c1NzM1hJUGl4X0w5VTE0N2w5UjVR?oc=5",
         "published_at": "2026-06-22T13:35:14Z",
         "source": "MarketScreener Deutschland",
-        "query": "\"Definium Therapeutics\" DT120 topline",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Analysten / Kursziel",
         "trigger_level": "low",
@@ -723,11 +723,11 @@
         "relevance_score": 13
       },
       {
-        "title": "Definium Therapeutics meldet positive Phase-3-Daten zu DT120 ODT bei schwerer depressiver Störung - MarketScreener Schweiz",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNcTl4NFVqUG8yMy1MYTNQN18zam5DVzRaa1R1WVBvQ3loZ3BFX1VLd1R2bjY2QXNkMEp1Y0ZMUVQ1Z2EyUTdMRVNKZ2xqZ1h5RW52QjhfbjVPd3FZcmlURnV4WlUtOWNrTkh5TXZYalg0dENHMUV4ZTFlaXVVZWJUUVY5ZUpPaEN5VUZUTWtOOE5za3Y3SGRTVXJCeFRPbWd0OV9WWmJEWVY1M1VmTW5KbGE0Z3NwMjd0VnNtWkQ4ZlJUQzdhSjhLQlVVMW5RcDJOSk1nVzl0Q3JNOW9GX3l2Q1hyWk5xNHBwR3NaeEc5bVZYYjBFRzRN?oc=5",
+        "title": "Definium Therapeutics meldet positive Phase-3-Daten zu DT120 ODT bei schwerer depressiver Störung - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSExkMG11TkxTWncyTXdsYTRycGpGWmxSb25rdzU1bDg2YXBaLTEyNW9KVWlOUzRPb08zTmdvRi1ZaEJ3T08zcVEwblI3QWxZd1hUYzU3VWlBejlJSkJ3QjNjU0R1YXY2RGlQUHVzR2JxX2EzNG9jQ1lybGUta3g2RTMyeGZ3OFQzSlU1TDF0MWR0blN0b0JlcDl5UUh4RnZFNnBkVG4xOGV1dU1GeVVBbFVYQ0ZmZGtsbWFCUmRvUkVIYnlIeGxBdFVpc1RGbkU3dzBHV1pCRmxYZDFacE1IS3FCNlozN0tGTVkzNEp3QzNEQ0pmbjU4?oc=5",
         "published_at": "2026-06-22T12:08:23Z",
-        "source": "MarketScreener Schweiz",
-        "query": "\"Definium Therapeutics\" DT120 topline",
+        "source": "MarketScreener Deutschland",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -769,22 +769,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "Definium meldet positive Phase-3-Studienergebnisse für Depressionsmedikament - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRTI1dWNNQWtTV2Q4VVc0RkFORUlubURuV3pqclV4QnZ3ZXZsNVl5eGtaUEh0MlVrVlJOOEZZeWw5TUhqbDBxLU9xMk5heVp0WklOWHlmTlNXb0JGU2ZTOEdDRFRTVEVPV0taNlMtaTB1STA3MFlJbUZUZFlOb2E3QXg1QWdZTzRjNTRkX2E5b0pFOFZYcVZSYkNzZkNCZ1FrWVBrSXd5MjNkME1CRDEzaTBQM3g0LUlyd2UteExobHBQV3dmUXpDdmlB?oc=5",
-        "published_at": "2026-06-22T11:09:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Depressionsstudie: Definium legt am Montag Phase-3-Ergebnisse vor - Investing.com Deutsch",
@@ -954,6 +938,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-22"
+      },
+      {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Definium Therapeutics: Aktie fällt nach Ankündigung einer Kapitalerhöhung über 500 Mio. $ - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-06-22T20:24:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa25IT2hUYXljajhRaUkzSERtNXFfTTRrUFJJNGVTZGlscjNhSDkyMll0VU0zOFVaVTEzZ0RCYXlCZ3ZqV3Npb0ExVVBOOFNEZGQ5UkNjVVJnUGhiVTFaaTl2VllDTWtNZEg3RGFIaU9aSUF6VE1nd0JfbnVSOG9MdkFRb0xIMlNSRXlGSk5yVVljOWpyMnRCZmdBdVZDTUwtTl9vZDFTZkcySWZxZ0JHOHRfTzEzYW9pcVFsZk1HSlVxbGliVEg1eVBIMk5YV3VHUHBWT0pJX29aemtIeFo4ZA?oc=5"
       },
       {
         "type": "SEC · Finanzierung/Verwässerung",
