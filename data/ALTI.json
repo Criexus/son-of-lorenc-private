@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.41",
-      "note": "Auto-Update: 17.99% vs. vorheriger Schlusskurs",
+      "value": "$3.36",
+      "note": "Auto-Update: 16.26% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-26T16:32:33Z",
+    "last_update_utc": "2026-06-26T18:22:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.41,
+      "regularMarketPrice": 3.36,
       "previousClose": 2.89,
-      "change": 0.52,
-      "changePercent": 17.99,
-      "regularMarketTime": "2026-06-26T16:31:10Z",
+      "change": 0.47,
+      "changePercent": 16.26,
+      "regularMarketTime": "2026-06-26T18:16:34Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-06-26T13:30:00Z",
-        "price": 3.41
+        "price": 3.36
       }
     ],
     "price_history_1d": [
@@ -444,11 +444,79 @@
       },
       {
         "t": "2026-06-26T16:30:00Z",
-        "price": 3.41
+        "price": 3.39
       },
       {
-        "t": "2026-06-26T16:31:10Z",
-        "price": 3.41
+        "t": "2026-06-26T16:35:00Z",
+        "price": 3.3974
+      },
+      {
+        "t": "2026-06-26T16:40:00Z",
+        "price": 3.39
+      },
+      {
+        "t": "2026-06-26T16:45:00Z",
+        "price": 3.38
+      },
+      {
+        "t": "2026-06-26T16:55:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-06-26T17:00:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-06-26T17:05:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-06-26T17:10:00Z",
+        "price": 3.36
+      },
+      {
+        "t": "2026-06-26T17:20:00Z",
+        "price": 3.35
+      },
+      {
+        "t": "2026-06-26T17:25:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-06-26T17:30:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-06-26T17:35:00Z",
+        "price": 3.32
+      },
+      {
+        "t": "2026-06-26T17:40:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-06-26T17:45:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-06-26T17:50:00Z",
+        "price": 3.355
+      },
+      {
+        "t": "2026-06-26T18:00:00Z",
+        "price": 3.35
+      },
+      {
+        "t": "2026-06-26T18:05:00Z",
+        "price": 3.3401
+      },
+      {
+        "t": "2026-06-26T18:15:00Z",
+        "price": 3.34
+      },
+      {
+        "t": "2026-06-26T18:16:34Z",
+        "price": 3.36
       }
     ],
     "price_history_range": "1mo",
@@ -459,7 +527,7 @@
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcVdLS09mb2F5TG0zUUt5UmMxNE81NUpENHJzajU4SUs1MmxSbVV3aU5EcUlkdGZrckN6VzlPTXBCRlVfT3VmbFlTVFQzby1FMzhwWnR3bkVfeWk4MjFVSkl1cDVRcjhPU0F3ZWhTLWFqUW1Qd1VNOEVzUnpYNnBRU2gteWg5ZVV4RHNpa2lqRnlkVVkySWRkZzRkTlR1ZkVPU1ZpZ005MlpEdFlXVF9HT1kyUlN1clZiYzVKUUdwWG5fMEo3WVRweUcxM0tNa3lEMVVZdDF3QmJGU0ZMd1ZwMExQMFFtQQ?oc=5",
         "published_at": "2026-06-18T12:05:00Z",
         "source": "Investing.com Deutsch",
-        "query": "AlTi Global, Inc. ALTI stock news",
+        "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -468,7 +536,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
+        "relevance_score": 7
       },
       {
         "title": "AlTi Global, Inc reports results for the quarter ended March 31 - Earnings Summary - TradingView",
