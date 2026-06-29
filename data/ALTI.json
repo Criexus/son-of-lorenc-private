@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.38",
-      "note": "Auto-Update: 14.58% vs. vorheriger Schlusskurs",
+      "value": "$3.56",
+      "note": "Auto-Update: 20.51% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-29T16:35:10Z",
+    "last_update_utc": "2026-06-29T18:58:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.38,
+      "regularMarketPrice": 3.555,
       "previousClose": 2.95,
-      "change": 0.43,
-      "changePercent": 14.58,
-      "regularMarketTime": "2026-06-29T16:32:10Z",
+      "change": 0.605,
+      "changePercent": 20.51,
+      "regularMarketTime": "2026-06-29T18:55:51Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -322,7 +322,7 @@
       },
       {
         "t": "2026-06-29T13:30:00Z",
-        "price": 3.38
+        "price": 3.555
       }
     ],
     "price_history_1d": [
@@ -452,11 +452,103 @@
       },
       {
         "t": "2026-06-29T16:30:00Z",
+        "price": 3.38
+      },
+      {
+        "t": "2026-06-29T16:35:00Z",
         "price": 3.375
       },
       {
-        "t": "2026-06-29T16:32:10Z",
-        "price": 3.38
+        "t": "2026-06-29T16:40:00Z",
+        "price": 3.395
+      },
+      {
+        "t": "2026-06-29T16:45:00Z",
+        "price": 3.425
+      },
+      {
+        "t": "2026-06-29T16:50:00Z",
+        "price": 3.425
+      },
+      {
+        "t": "2026-06-29T17:05:00Z",
+        "price": 3.45
+      },
+      {
+        "t": "2026-06-29T17:10:00Z",
+        "price": 3.455
+      },
+      {
+        "t": "2026-06-29T17:15:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-06-29T17:20:00Z",
+        "price": 3.47
+      },
+      {
+        "t": "2026-06-29T17:25:00Z",
+        "price": 3.465
+      },
+      {
+        "t": "2026-06-29T17:30:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-06-29T17:40:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-06-29T17:50:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-06-29T18:00:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-06-29T18:05:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-06-29T18:10:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-06-29T18:15:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-06-29T18:20:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-06-29T18:25:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-06-29T18:30:00Z",
+        "price": 3.535
+      },
+      {
+        "t": "2026-06-29T18:35:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-06-29T18:40:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-06-29T18:45:00Z",
+        "price": 3.535
+      },
+      {
+        "t": "2026-06-29T18:50:00Z",
+        "price": 3.54
+      },
+      {
+        "t": "2026-06-29T18:55:51Z",
+        "price": 3.555
       }
     ],
     "price_history_range": "1mo",
@@ -466,22 +558,6 @@
         "title": "Führungswechsel bei AlTi Global: Patrick Keenan wird neuer Finanzvorstand - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWDVCcTVLWHY4R0g0aXJBakJ1eG50aFNQYzdFdW9YVmZmbjJuNk1SZjZrZXQyaW40OFFRMFNDQTc1dnduaENaZFFRSVQtNTh6ZWtZM1cxUjZQOEhpUk5abS04NDRhZnFwdGxSX3U2YkExTmlxRE80aHBDM29OVW1Dd2pfT3QyLVFEdnBGTzFZYlB5Ry1pYXlYc0g2ZlRUYXdjbXM4T0stNlE1MHJLZUU0cnBrSGlxeGc5STdrNzhIam90bHBHOGsw?oc=5",
         "published_at": "2026-06-25T12:06:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ALTI ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "AlTi Global: Aktionäre bestätigen Verwaltungsrat und Wirtschaftsprüfer auf Jahreshauptversammlung - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcVdLS09mb2F5TG0zUUt5UmMxNE81NUpENHJzajU4SUs1MmxSbVV3aU5EcUlkdGZrckN6VzlPTXBCRlVfT3VmbFlTVFQzby1FMzhwWnR3bkVfeWk4MjFVSkl1cDVRcjhPU0F3ZWhTLWFqUW1Qd1VNOEVzUnpYNnBRU2gteWg5ZVV4RHNpa2lqRnlkVVkySWRkZzRkTlR1ZkVPU1ZpZ005MlpEdFlXVF9HT1kyUlN1clZiYzVKUUdwWG5fMEo3WVRweUcxM0tNa3lEMVVZdDF3QmJGU0ZMd1ZwMExQMFFtQQ?oc=5",
-        "published_at": "2026-06-18T12:05:00Z",
         "source": "Investing.com Deutsch",
         "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
