@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.82",
-      "note": "Auto-Update: 6.02% vs. vorheriger Schlusskurs",
+      "value": "$2.91",
+      "note": "Auto-Update: 9.4% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-06-30T19:13:56Z",
+    "last_update_utc": "2026-06-30T21:11:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.82,
+      "regularMarketPrice": 2.91,
       "previousClose": 2.66,
-      "change": 0.16,
-      "changePercent": 6.02,
-      "regularMarketTime": "2026-06-30T19:08:23Z",
+      "change": 0.25,
+      "changePercent": 9.4,
+      "regularMarketTime": "2026-06-30T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -296,7 +296,7 @@
       },
       {
         "t": "2026-06-30T13:30:00Z",
-        "price": 2.82
+        "price": 2.91
       }
     ],
     "price_history_1d": [
@@ -421,8 +421,20 @@
         "price": 2.8
       },
       {
-        "t": "2026-06-30T19:08:23Z",
+        "t": "2026-06-30T19:05:00Z",
         "price": 2.82
+      },
+      {
+        "t": "2026-06-30T19:45:00Z",
+        "price": 2.82
+      },
+      {
+        "t": "2026-06-30T19:55:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-06-30T20:00:00Z",
+        "price": 2.91
       }
     ],
     "price_history_range": "1mo",
@@ -433,6 +445,13 @@
         "form": "6-K",
         "filingDate": "2026-06-30",
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926007903/i6292636k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K",
+        "filingDate": "2026-06-30",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000117184326004399/f6k_063026.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
@@ -559,13 +578,6 @@
         "form": "POS AM",
         "filingDate": "2026-03-30",
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003934/bioposama2_333281489.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "POS AM",
-        "filingDate": "2026-03-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003933/bioposama2_333279994.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -700,12 +712,12 @@
         "date": "2026-06-30"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "EFFECT · 2026-03-30",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-06-30",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-03-30"
+        "date": "2026-06-30"
       },
       {
         "type": "SEC Filing",
@@ -750,7 +762,7 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "POS AM · 2026-03-30",
+        "title": "EFFECT · 2026-03-30",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-30"
