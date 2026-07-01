@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.66",
-      "note": "Auto-Update: 13.34% vs. vorheriger Schlusskurs",
+      "value": "$3.71",
+      "note": "Auto-Update: 14.71% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-01T13:31:39Z",
+    "last_update_utc": "2026-07-01T16:15:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.661,
+      "regularMarketPrice": 3.705,
       "previousClose": 3.23,
-      "change": 0.431,
-      "changePercent": 13.34,
-      "regularMarketTime": "2026-07-01T13:31:31Z",
+      "change": 0.475,
+      "changePercent": 14.71,
+      "regularMarketTime": "2026-07-01T16:15:41Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -399,17 +399,145 @@
       },
       {
         "t": "2026-07-01T13:30:00Z",
-        "price": 3.661
+        "price": 3.705
       }
     ],
     "price_history_1d": [
       {
         "t": "2026-07-01T13:30:00Z",
+        "price": 3.665
+      },
+      {
+        "t": "2026-07-01T13:35:00Z",
+        "price": 3.61
+      },
+      {
+        "t": "2026-07-01T13:40:00Z",
+        "price": 3.6407
+      },
+      {
+        "t": "2026-07-01T13:45:00Z",
+        "price": 3.705
+      },
+      {
+        "t": "2026-07-01T13:50:00Z",
+        "price": 3.795
+      },
+      {
+        "t": "2026-07-01T13:55:00Z",
+        "price": 3.85
+      },
+      {
+        "t": "2026-07-01T14:00:00Z",
+        "price": 3.965
+      },
+      {
+        "t": "2026-07-01T14:05:00Z",
+        "price": 3.985
+      },
+      {
+        "t": "2026-07-01T14:10:00Z",
+        "price": 3.985
+      },
+      {
+        "t": "2026-07-01T14:15:00Z",
+        "price": 3.905
+      },
+      {
+        "t": "2026-07-01T14:20:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-07-01T14:25:00Z",
+        "price": 3.875
+      },
+      {
+        "t": "2026-07-01T14:30:00Z",
+        "price": 3.87
+      },
+      {
+        "t": "2026-07-01T14:35:00Z",
+        "price": 3.87
+      },
+      {
+        "t": "2026-07-01T14:40:00Z",
+        "price": 3.8002
+      },
+      {
+        "t": "2026-07-01T14:45:00Z",
+        "price": 3.75
+      },
+      {
+        "t": "2026-07-01T14:50:00Z",
+        "price": 3.725
+      },
+      {
+        "t": "2026-07-01T14:55:00Z",
+        "price": 3.775
+      },
+      {
+        "t": "2026-07-01T15:00:00Z",
+        "price": 3.79
+      },
+      {
+        "t": "2026-07-01T15:05:00Z",
+        "price": 3.75
+      },
+      {
+        "t": "2026-07-01T15:10:00Z",
+        "price": 3.7499
+      },
+      {
+        "t": "2026-07-01T15:15:00Z",
+        "price": 3.75
+      },
+      {
+        "t": "2026-07-01T15:20:00Z",
+        "price": 3.775
+      },
+      {
+        "t": "2026-07-01T15:25:00Z",
+        "price": 3.7499
+      },
+      {
+        "t": "2026-07-01T15:30:00Z",
+        "price": 3.711
+      },
+      {
+        "t": "2026-07-01T15:35:00Z",
+        "price": 3.7219
+      },
+      {
+        "t": "2026-07-01T15:40:00Z",
+        "price": 3.735
+      },
+      {
+        "t": "2026-07-01T15:45:00Z",
         "price": 3.66
       },
       {
-        "t": "2026-07-01T13:31:34Z",
+        "t": "2026-07-01T15:50:00Z",
         "price": 3.67
+      },
+      {
+        "t": "2026-07-01T15:55:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-07-01T16:00:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-07-01T16:05:00Z",
+        "price": 3.7073
+      },
+      {
+        "t": "2026-07-01T16:10:00Z",
+        "price": 3.7098
+      },
+      {
+        "t": "2026-07-01T16:15:41Z",
+        "price": 3.705
       }
     ],
     "price_history_range": "1mo",
@@ -464,22 +592,6 @@
         "relevance_score": 25
       },
       {
-        "title": "Recursion startet Phase-1-Studie für Lymphom-Behandlung - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUQ1Z0dhbl9SLWV1N0pXUFVHUFI0MmFQOFJuemdPcFJtWVpkWnZ0WHVDNnVIZGlFNUhRb3RIemkzbjhiRXZNMXZ3OFM3aVJWY1lYTW9uREF4UjV4MmpmX0xBOEg5b0hjSFdEMzIzZUtuTGZIcGdsS0FRMktfNXFPc3gyX0FvdnNlaXJoRXRkUkp5alVCVDN0b0IyLV82TExlN1NCTWxCTG9uYVJY?oc=5",
-        "published_at": "2025-04-08T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
         "title": "Recursion Pharma Aktie (A3CM1C, RXRX) - Kurs, Chart, News & Kennzahlen - Ariva",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fT2RZc0c0QjlRZms3YmlKcFNwR001OVJYNjRRdklneXpqc0ZxMEtXNTAyMjVYckhFY1dHR3ptSDZNYi1iMHhQZTFjZktITGxhZlZCbkh5OE00Sm9HOU52dnF2OWdzdTdwSVJDT1p0aU4?oc=5",
         "published_at": "2024-12-21T01:26:50Z",
@@ -526,6 +638,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "RECURSION PHARMACEUTICALS, A AKTIE | Aktienkurs | US75629V1044 | RXRX | A3CM1C | News - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ib2htU1VTdU95d3VSVWpBY0FXUlBuYVBMQ0FPVERFa3lMZlRTbE50SHdXLUsxRGRhUVh0VlhIcEtEZzNvcnJvRDVqUk93ZWFDTGt6ODdNR29wQ3B2RnI3TUc3M0J5dTl1S2pia2JxWFp5N1Bm?oc=5",
+        "published_at": "2021-04-16T11:48:50Z",
+        "source": "Finanzen.net",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 26
       },
       {
         "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
