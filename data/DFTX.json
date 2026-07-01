@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$44.07",
-      "note": "Auto-Update: 4.6% vs. vorheriger Schlusskurs",
+      "value": "$43.40",
+      "note": "Auto-Update: 3.01% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-01T18:22:17Z",
+    "last_update_utc": "2026-07-01T20:21:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 44.07,
+      "regularMarketPrice": 43.4,
       "previousClose": 42.13,
-      "change": 1.94,
-      "changePercent": 4.6,
-      "regularMarketTime": "2026-07-01T18:21:11Z",
+      "change": 1.27,
+      "changePercent": 3.01,
+      "regularMarketTime": "2026-07-01T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -252,10 +252,6 @@
       "fiftyTwoWeekRange": "6.66 – 49.2"
     },
     "price_history": [
-      {
-        "t": "2026-06-01T13:30:00Z",
-        "price": 24.06
-      },
       {
         "t": "2026-06-02T13:30:00Z",
         "price": 22.86
@@ -338,7 +334,7 @@
       },
       {
         "t": "2026-07-01T13:30:00Z",
-        "price": 44.07
+        "price": 43.4
       }
     ],
     "price_history_1d": [
@@ -576,11 +572,87 @@
       },
       {
         "t": "2026-07-01T18:20:00Z",
-        "price": 44.12
+        "price": 44.145
       },
       {
-        "t": "2026-07-01T18:21:11Z",
-        "price": 44.07
+        "t": "2026-07-01T18:25:00Z",
+        "price": 43.88
+      },
+      {
+        "t": "2026-07-01T18:30:00Z",
+        "price": 43.815
+      },
+      {
+        "t": "2026-07-01T18:35:00Z",
+        "price": 43.84
+      },
+      {
+        "t": "2026-07-01T18:40:00Z",
+        "price": 43.74
+      },
+      {
+        "t": "2026-07-01T18:45:00Z",
+        "price": 43.77
+      },
+      {
+        "t": "2026-07-01T18:50:00Z",
+        "price": 43.695
+      },
+      {
+        "t": "2026-07-01T18:55:00Z",
+        "price": 43.79
+      },
+      {
+        "t": "2026-07-01T19:00:00Z",
+        "price": 43.745
+      },
+      {
+        "t": "2026-07-01T19:05:00Z",
+        "price": 43.78
+      },
+      {
+        "t": "2026-07-01T19:10:00Z",
+        "price": 43.82
+      },
+      {
+        "t": "2026-07-01T19:15:00Z",
+        "price": 43.7999
+      },
+      {
+        "t": "2026-07-01T19:20:00Z",
+        "price": 43.88
+      },
+      {
+        "t": "2026-07-01T19:25:00Z",
+        "price": 43.85
+      },
+      {
+        "t": "2026-07-01T19:30:00Z",
+        "price": 43.68
+      },
+      {
+        "t": "2026-07-01T19:35:00Z",
+        "price": 43.57
+      },
+      {
+        "t": "2026-07-01T19:40:00Z",
+        "price": 43.79
+      },
+      {
+        "t": "2026-07-01T19:45:00Z",
+        "price": 43.69
+      },
+      {
+        "t": "2026-07-01T19:50:00Z",
+        "price": 43.43
+      },
+      {
+        "t": "2026-07-01T19:55:00Z",
+        "price": 43.43
+      },
+      {
+        "t": "2026-07-01T20:00:00Z",
+        "price": 43.4
       }
     ],
     "price_history_range": "1mo",
@@ -590,6 +662,22 @@
         "title": "Definium Therapeutics: Canaccord senkt Kursziel nach Kapitalerhöhung - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWkdEcjNLb1hTUEhwZGlsZl9OQ1lWYk9WR1R6QTdqMVRWTzhjSC1lSDVvUVE5dTBvckdmYmZjRUN4ZnJWZE9XcEw3RGlVb0ZPeWhkbnVCcklEZ2dJOENsZDJBMGMxRVFNY283T2Y5bVdvaWVIY1p1ZWpoOGlmZWhocDlOWS12R1pQYnh1VnNVQ0I5cXh4cXY2OXpWY2l1eWp4MWhlSGZpUUxmeUlfNERxNDBWX2lSY1htWWFxS0hxdmU5WHZM?oc=5",
         "published_at": "2026-06-30T11:39:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Definium Therapeutics schließt Kapitalerhöhung über 805 Millionen Dollar ab - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdDkxQ1NjQjQ5ZFBCQjNkUEJibXI4WTRpNXlSbWdidjBtMldfOXczLTZGaWFrREUtRERYTEtfSjZ6TjVTRkpPRGYwMnBBSXJjUDdSSzZiSlR4OWZ5b1Etdl9jbWJDakt2ZDFYRV9DWUhWcmstM29QSWNtWlBIR1R2aDAyX3NiSllrR1NpMzczZzhpUXlLMlRKb0ZBQVBzelJqVlN1b21yeWxfbDJaSWVoWTNfR2tBQWJUczVxenVaNDFnbGgxXzY2TGlhcw?oc=5",
+        "published_at": "2026-06-25T20:22:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
@@ -655,23 +743,7 @@
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
         "published_at": "2026-06-22T16:22:00Z",
         "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics Aktie schießt nach positiven Studiendaten um fast 40 % in die Höhe - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQlhrbkt4WElQcjA1dVMyV2VIUG4tb25Wa3dYNFUwMUFteG4yRTlwemgzMXRTbzdMY292YWFTeGc5V25MbWFlNFIyZDdQenVSek9oLThmeTJqMldGNC1aSkxucWp3VzNnSHVQQWJxbjBVUGVKbFMybU0tbGhuY3pLem9HVXJqODdrTDhZTnZRcjAtRGNsSmFjd204TTlubk0xb0tMY2J4Rm9MQ0xYUGJ4T1JIeVV2Y2puck14dnVIb203eWtiazMzR255WG5CTlhZSUJjb0dQMTl3d18tcmdqenZn?oc=5",
-        "published_at": "2026-06-22T12:01:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "query": "\"Definium Therapeutics\" DT120 topline",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -918,6 +990,18 @@
         "source": "TradingView",
         "date": "2026-06-24T21:23:01Z",
         "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS182RHcxcGJPbFRDcGJ2MzZJN1JXZ0NuV2RVTkdqTU1IVVVlcEVUQXFTbE1PeHQ0Q05YMlE4RUlxX3UwZ3lzMEN2YS1qRzMxZ0F1ZVBCYVAzQU5tcjk2eHVhRVZjLVAzV1pCUU9wc0R3d3ZMS3lqLTJZaXNMcFFJWVZGSWN5M3pHRUdjVHBGYjU0VjI2LTZJenZZTWw3UEZsUDZFOWdNNEwyNGlwU3JzUHdvZWM2akFFUXpDUmJBQy1ySlUtVXpTZ1o5Z2tWcnRFOWp0d2ZHakh3Skw0Y3A0TFNLM2Qwdw?oc=5"
+      },
+      {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Definium Therapeutics schließt Kapitalerhöhung über 805 Millionen Dollar ab - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-06-25T20:22:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdDkxQ1NjQjQ5ZFBCQjNkUEJibXI4WTRpNXlSbWdidjBtMldfOXczLTZGaWFrREUtRERYTEtfSjZ6TjVTRkpPRGYwMnBBSXJjUDdSSzZiSlR4OWZ5b1Etdl9jbWJDakt2ZDFYRV9DWUhWcmstM29QSWNtWlBIR1R2aDAyX3NiSllrR1NpMzczZzhpUXlLMlRKb0ZBQVBzelJqVlN1b21yeWxfbDJaSWVoWTNfR2tBQWJUczVxenVaNDFnbGgxXzY2TGlhcw?oc=5"
       },
       {
         "type": "Finanzierung / Verwässerung",

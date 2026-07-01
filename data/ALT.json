@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.23",
-      "note": "Auto-Update: 9.66% vs. vorheriger Schlusskurs",
+      "value": "$3.15",
+      "note": "Auto-Update: 6.78% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-01T18:21:44Z",
+    "last_update_utc": "2026-07-01T20:20:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.235,
+      "regularMarketPrice": 3.15,
       "previousClose": 2.95,
-      "change": 0.285,
-      "changePercent": 9.66,
-      "regularMarketTime": "2026-07-01T18:21:08Z",
+      "change": 0.2,
+      "changePercent": 6.78,
+      "regularMarketTime": "2026-07-01T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "2.56 – 6.44"
     },
     "price_history": [
-      {
-        "t": "2026-06-01T13:30:00Z",
-        "price": 3.01
-      },
       {
         "t": "2026-06-02T13:30:00Z",
         "price": 2.9
@@ -417,7 +413,7 @@
       },
       {
         "t": "2026-07-01T13:30:00Z",
-        "price": 3.235
+        "price": 3.15
       }
     ],
     "price_history_1d": [
@@ -658,8 +654,84 @@
         "price": 3.235
       },
       {
-        "t": "2026-07-01T18:21:08Z",
+        "t": "2026-07-01T18:25:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-07-01T18:30:00Z",
         "price": 3.235
+      },
+      {
+        "t": "2026-07-01T18:35:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-07-01T18:40:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-07-01T18:45:00Z",
+        "price": 3.2168
+      },
+      {
+        "t": "2026-07-01T18:50:00Z",
+        "price": 3.2109
+      },
+      {
+        "t": "2026-07-01T18:55:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-07-01T19:00:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-07-01T19:05:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-07-01T19:10:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-07-01T19:15:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-07-01T19:20:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-07-01T19:25:00Z",
+        "price": 3.2197
+      },
+      {
+        "t": "2026-07-01T19:30:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-07-01T19:35:00Z",
+        "price": 3.2053
+      },
+      {
+        "t": "2026-07-01T19:40:00Z",
+        "price": 3.2
+      },
+      {
+        "t": "2026-07-01T19:45:00Z",
+        "price": 3.185
+      },
+      {
+        "t": "2026-07-01T19:50:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-07-01T19:55:00Z",
+        "price": 3.14
+      },
+      {
+        "t": "2026-07-01T20:00:00Z",
+        "price": 3.15
       }
     ],
     "price_history_range": "1mo",
@@ -680,22 +752,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "Leerink startet Coverage für Altimmune mit Kaufempfehlung wegen Daten zu Lebermedikament - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPanFqV2F2S3Z5b2x3OFhnUUxUbkVEaHRwV3NjT1RBcjJYaE8yZzJkSGxYclh0UmhpZUFfcEFMSzZTS0dRbk5OOEVPMVJhdHhZVFBzcExuSi03V3M5VUpBakJUOEFuZjl1Y3dYNmZ5S1FDekVRUkEyQUpjRlhhd0pJQlR4SzRxSlhoeE1mR2w1WHV0eXZEQ2NETHl5YVVXLWo5UUlBcmoxazVhMXREcGhPY2JTcjV3YzhjeGl6WFNNRlRxUS1hNGxIMmZqSDVhdHZzWXZCWWlvRW92RnlJWk1wSA?oc=5",
-        "published_at": "2026-06-22T11:27:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Altimmune meldet positive Studiendaten für MASH-Wirkstoff Pemvidutid - Investing.com Deutsch",
