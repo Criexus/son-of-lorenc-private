@@ -191,7 +191,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-01T07:02:44Z",
+    "last_update_utc": "2026-07-01T10:52:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -439,8 +439,39 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Biodexa startet mit Tanner Pharma Early-Access-Programm für FAP-Medikament - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVDQ5UUNiU29yY0l2SDVBUE4waDNQanh0Vm5UTDhPUEhwUGM3SFZzTFJzUmp0NE8wNkUwUlBiMFZLTFRfQkd0dU5MeUw5S1pYdEw4dVhhakZDWEZaZ0h3MGtYOHV5SzJ3MG9NOXNtcThnY3R1U3BlQWs2YTd1T2dzUGg3X1hhZkRYcmhyM3I1NDdrYmdEVDMzSGIzb3BOb3VjbEY5NUNLMVZzUk8zbHJzX1JWOVRjcHhUTnh2cXNqT2F2QXJzTGc?oc=5",
+        "published_at": "2026-03-23T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      }
+    ],
     "sec_filings": [
+      {
+        "form": "424B5",
+        "filingDate": "2026-07-01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926007998/g630263424b5.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "6-K/A",
+        "filingDate": "2026-07-01",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926007967/p6302626ka1.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "6-K",
         "filingDate": "2026-06-30",
@@ -566,20 +597,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003935/bioposama2_333284350.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "POS AM",
-        "filingDate": "2026-03-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003936/bioposama1_333291598.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "POS AM",
-        "filingDate": "2026-03-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926003934/bioposama2_333281489.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [
@@ -664,6 +681,14 @@
         "date": "2026-04-02"
       },
       {
+        "type": "SEC · Finanzierung/Verwässerung",
+        "level": "high",
+        "title": "424B5 · 2026-07-01",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-01"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
@@ -720,12 +745,12 @@
         "date": "2026-06-30"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "EFFECT · 2026-03-30",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K/A · 2026-07-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-03-30"
+        "date": "2026-07-01"
       },
       {
         "type": "SEC Filing",
@@ -770,15 +795,7 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "POS AM · 2026-03-30",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-30"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "POS AM · 2026-03-30",
+        "title": "EFFECT · 2026-03-30",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-30"
