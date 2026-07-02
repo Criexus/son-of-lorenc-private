@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.73",
-      "note": "Auto-Update: 15.1% vs. vorheriger Schlusskurs",
+      "value": "$3.75",
+      "note": "Auto-Update: 15.72% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-02T17:26:14Z",
+    "last_update_utc": "2026-07-02T18:55:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.735,
+      "regularMarketPrice": 3.755,
       "previousClose": 3.245,
-      "change": 0.49,
-      "changePercent": 15.1,
-      "regularMarketTime": "2026-07-02T17:23:14Z",
+      "change": 0.51,
+      "changePercent": 15.72,
+      "regularMarketTime": "2026-07-02T18:40:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-07-02T13:30:00Z",
-        "price": 3.735
+        "price": 3.755
       }
     ],
     "price_history_1d": [
@@ -447,8 +447,44 @@
         "price": 3.735
       },
       {
-        "t": "2026-07-02T17:23:14Z",
+        "t": "2026-07-02T17:25:00Z",
         "price": 3.735
+      },
+      {
+        "t": "2026-07-02T17:30:00Z",
+        "price": 3.74
+      },
+      {
+        "t": "2026-07-02T17:40:00Z",
+        "price": 3.72
+      },
+      {
+        "t": "2026-07-02T17:45:00Z",
+        "price": 3.78
+      },
+      {
+        "t": "2026-07-02T17:50:00Z",
+        "price": 3.76
+      },
+      {
+        "t": "2026-07-02T17:55:00Z",
+        "price": 3.745
+      },
+      {
+        "t": "2026-07-02T18:05:00Z",
+        "price": 3.76
+      },
+      {
+        "t": "2026-07-02T18:15:00Z",
+        "price": 3.73
+      },
+      {
+        "t": "2026-07-02T18:35:00Z",
+        "price": 3.76
+      },
+      {
+        "t": "2026-07-02T18:40:00Z",
+        "price": 3.755
       }
     ],
     "price_history_range": "1mo",
@@ -517,22 +553,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "AlTi Global Executive Sells Shares - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa1lFSmJjWjQzMmcxVEV6YkUxZndSLVpDLU9YTkl2N1ZUWGNRRW03c0lEYVhUQnVQd1lXemRsMnRteVRSaFl6UXNvZTNBZ3dVLVNFMWp2MEQwVDlmMTIyc09RX3VES0JYa3dkaXZuSXNXOFk2NDdvczRTbGZaVkFaYnF1R0k0Ymg2TVFCc09vVVB1UkhnTzJSQzN4TQ?oc=5",
-        "published_at": "2024-05-31T07:00:00Z",
-        "source": "TradingView",
-        "query": "AlTi Global, Inc. ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
       }
     ],
     "sec_filings": [
