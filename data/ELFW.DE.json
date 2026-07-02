@@ -135,7 +135,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-02T21:48:06Z",
+    "last_update_utc": "2026-07-02T22:57:00Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
@@ -245,10 +245,6 @@
       {
         "t": "2026-07-01T07:00:00Z",
         "price": 43.348
-      },
-      {
-        "t": "2026-07-02T07:00:00Z",
-        "price": 43.164
       }
     ],
     "price_history_1d": [
@@ -447,7 +443,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "ELFW Aktienkurs - Deka MSCI World UCITS ETF - Traders Union",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9pN2ktU2ZmSVNCSFoxX3pMUzV2N3lwaTMwNnZvYUZJNXZhSkNhUUNvV0xWTWF0czdtcWVtVENuQTZFRnlKWEVLV09mTDh3Qk80UlQ5amNNbw?oc=5",
+        "published_at": "2026-07-01T01:33:15Z",
+        "source": "Traders Union",
+        "query": "MSCI World ETF ELFW.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 15
+      }
+    ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
