@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$12.97",
-      "note": "Auto-Update: -12.45% vs. vorheriger Schlusskurs",
+      "value": "$12.84",
+      "note": "Auto-Update: -13.36% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-06T19:39:27Z",
+    "last_update_utc": "2026-07-06T21:19:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 12.975,
+      "regularMarketPrice": 12.84,
       "previousClose": 14.82,
-      "change": -1.845,
-      "changePercent": -12.45,
-      "regularMarketTime": "2026-07-06T19:39:14Z",
+      "change": -1.98,
+      "changePercent": -13.36,
+      "regularMarketTime": "2026-07-06T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -405,7 +405,7 @@
       },
       {
         "t": "2026-07-06T13:30:00Z",
-        "price": 12.975
+        "price": 12.84
       }
     ],
     "price_history_1d": [
@@ -703,11 +703,27 @@
       },
       {
         "t": "2026-07-06T19:35:00Z",
-        "price": 12.97
+        "price": 12.975
       },
       {
-        "t": "2026-07-06T19:39:14Z",
-        "price": 12.975
+        "t": "2026-07-06T19:40:00Z",
+        "price": 12.94
+      },
+      {
+        "t": "2026-07-06T19:45:00Z",
+        "price": 12.955
+      },
+      {
+        "t": "2026-07-06T19:50:00Z",
+        "price": 12.935
+      },
+      {
+        "t": "2026-07-06T19:55:00Z",
+        "price": 12.83
+      },
+      {
+        "t": "2026-07-06T20:00:00Z",
+        "price": 12.84
       }
     ],
     "price_history_range": "1mo",
@@ -791,6 +807,22 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: FDA bewilligt Rolling Review - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY3pQTnV3Sm1zd2NXWDk5alZseHo2RzlYd3VvQnZhbWNZa1kxUk16RThDbEI1Z3ctVGlyVkQ3VjZjTlBxNUgzT3JOVmoyeHRZdzRWVUFoeEFNN25pZnZIRnE4SHg4X25pa0ZUZ08yRzBnT0taSFl0WWFnS1VMS3JhRVVqSXZ3Nk1ONWoyeEZsNXRpN2NjRkNVRzFuWU1iYzNzVWwybU1tdw?oc=5",
+        "published_at": "2026-06-12T07:00:00Z",
+        "source": "AD HOC NEWS",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 17
       },
       {
@@ -999,22 +1031,6 @@
         "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
         "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways erreicht Primärendpunkt in Phase-3 COMP006 – Anleger verfolgen Zulassungs-Termine - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWhDeks3cnByQzdFS21BWjRvRklsVjg4REN6ZGJLTjF3WTNyU0JxUVVmUlpXZWYxTUJBNHh1N1R4QS1wSWY3eUY0MUNrUkVVUm5Eb2YyLTMydVRuS1JHTkVrcHU5RlgzNzVGakRJWDY5NGU3eHFlWXAtZndmTGNON0JxNWFjUHc5ek0yb3N5eEJGT2VTTzhxVXJDMTRwX1RpV0cwSTRQYlZvaWJpV2E5QTJIWllXaElwU1I5cF9kZ1M5SFZRZWVZ?oc=5",
-        "published_at": "2026-02-17T08:00:00Z",
-        "source": "Goldesel.de",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 17
       },
       {
@@ -1378,18 +1394,6 @@
     ],
     "detected_triggers": [
       {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "Compass Pathways erreicht Primärendpunkt in Phase-3 COMP006 – Anleger verfolgen Zulassungs-Termine - Goldesel.de",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Goldesel.de",
-        "date": "2026-02-17T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLWhDeks3cnByQzdFS21BWjRvRklsVjg4REN6ZGJLTjF3WTNyU0JxUVVmUlpXZWYxTUJBNHh1N1R4QS1wSWY3eUY0MUNrUkVVUm5Eb2YyLTMydVRuS1JHTkVrcHU5RlgzNzVGakRJWDY5NGU3eHFlWXAtZndmTGNON0JxNWFjUHc5ek0yb3N5eEJGT2VTTzhxVXJDMTRwX1RpV0cwSTRQYlZvaWJpV2E5QTJIWllXaElwU1I5cF9kZ1M5SFZRZWVZ?oc=5"
-      },
-      {
         "type": "Studienphase / Readout",
         "level": "high",
         "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
@@ -1436,6 +1440,18 @@
         "source": "kapitalmarktexperten.de",
         "date": "2026-05-02T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNEFLRmM1YnFoN2RjcFJVSGNEZllFQmlBc3BxZExGWUgxYmU4cGI2bHNjNTRrZ29pN2VuMlQzQVBKUUxjSE93MGEzRmhoUHFtcUdPX3BTN2ZTSFkycEM2QkQ1Nk1nTS0xTVlKQWVLdTgwYmJsTWZjQW9icVpneEFsbUVlbEtsQnBMMk53dXIxYjhhck5C?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Compass Pathways: FDA bewilligt Rolling Review - AD HOC NEWS",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "AD HOC NEWS",
+        "date": "2026-06-12T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY3pQTnV3Sm1zd2NXWDk5alZseHo2RzlYd3VvQnZhbWNZa1kxUk16RThDbEI1Z3ctVGlyVkQ3VjZjTlBxNUgzT3JOVmoyeHRZdzRWVUFoeEFNN25pZnZIRnE4SHg4X25pa0ZUZ08yRzBnT0taSFl0WWFnS1VMS3JhRVVqSXZ3Nk1ONWoyeEZsNXRpN2NjRkNVRzFuWU1iYzNzVWwybU1tdw?oc=5"
       },
       {
         "type": "ClinicalTrials.gov",
