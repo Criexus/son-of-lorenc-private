@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.64",
-      "note": "Auto-Update: 2.54% vs. vorheriger Schlusskurs",
+      "value": "$3.68",
+      "note": "Auto-Update: 3.66% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-06T14:42:18Z",
+    "last_update_utc": "2026-07-06T17:35:08Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.64,
+      "regularMarketPrice": 3.68,
       "previousClose": 3.55,
-      "change": 0.09,
-      "changePercent": 2.54,
-      "regularMarketTime": "2026-07-06T14:38:00Z",
+      "change": 0.13,
+      "changePercent": 3.66,
+      "regularMarketTime": "2026-07-06T17:18:16Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -314,7 +314,7 @@
       },
       {
         "t": "2026-07-06T13:30:00Z",
-        "price": 3.64
+        "price": 3.68
       }
     ],
     "price_history_1d": [
@@ -343,8 +343,60 @@
         "price": 3.64
       },
       {
-        "t": "2026-07-06T14:38:00Z",
+        "t": "2026-07-06T14:40:00Z",
+        "price": 3.61
+      },
+      {
+        "t": "2026-07-06T14:45:00Z",
+        "price": 3.61
+      },
+      {
+        "t": "2026-07-06T14:50:00Z",
+        "price": 3.61
+      },
+      {
+        "t": "2026-07-06T15:10:00Z",
+        "price": 3.63
+      },
+      {
+        "t": "2026-07-06T15:15:00Z",
         "price": 3.64
+      },
+      {
+        "t": "2026-07-06T15:25:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-07-06T15:40:00Z",
+        "price": 3.65
+      },
+      {
+        "t": "2026-07-06T16:05:00Z",
+        "price": 3.66
+      },
+      {
+        "t": "2026-07-06T16:25:00Z",
+        "price": 3.66
+      },
+      {
+        "t": "2026-07-06T16:30:00Z",
+        "price": 3.66
+      },
+      {
+        "t": "2026-07-06T16:45:00Z",
+        "price": 3.66
+      },
+      {
+        "t": "2026-07-06T16:55:00Z",
+        "price": 3.65
+      },
+      {
+        "t": "2026-07-06T17:10:00Z",
+        "price": 3.67
+      },
+      {
+        "t": "2026-07-06T17:18:16Z",
+        "price": 3.68
       }
     ],
     "price_history_range": "1mo",
@@ -355,22 +407,6 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWDVCcTVLWHY4R0g0aXJBakJ1eG50aFNQYzdFdW9YVmZmbjJuNk1SZjZrZXQyaW40OFFRMFNDQTc1dnduaENaZFFRSVQtNTh6ZWtZM1cxUjZQOEhpUk5abS04NDRhZnFwdGxSX3U2YkExTmlxRE80aHBDM29OVW1Dd2pfT3QyLVFEdnBGTzFZYlB5Ry1pYXlYc0g2ZlRUYXdjbXM4T0stNlE1MHJLZUU0cnBrSGlxeGc5STdrNzhIam90bHBHOGsw?oc=5",
         "published_at": "2026-06-25T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "ALTI ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "AlTi Global Officer Sells Shares - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMkhEMW8wYW40ZWtFcDlGZGRUSFVfc29MZFlYcGhCZVhmSFowQ19LMkFUQmxpTWdQcllQdXBkakhRNW10bkZKN3M4aGVTejZJZ2pOeGZOSnlsWWh1dTUyeTRwRVRrX3p6X2JPOGdkTnNOb2w4WGt6enNic1dERFUta2lSTXh2dXh2emhDclZGUXFSMy0wN09wTw?oc=5",
-        "published_at": "2024-10-21T07:00:00Z",
-        "source": "TradingView",
         "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
