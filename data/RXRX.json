@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.80",
-      "note": "Auto-Update: 13.77% vs. vorheriger Schlusskurs",
+      "value": "$3.71",
+      "note": "Auto-Update: 5.54% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-06T11:22:11Z",
+    "last_update_utc": "2026-07-06T14:42:00Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.8,
-      "previousClose": 3.34,
-      "change": 0.46,
-      "changePercent": 13.77,
-      "regularMarketTime": "2026-07-02T20:00:00Z",
+      "regularMarketPrice": 3.715,
+      "previousClose": 3.52,
+      "change": 0.195,
+      "changePercent": 5.54,
+      "regularMarketTime": "2026-07-06T14:41:35Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,18 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 7.18"
     },
     "price_history": [
-      {
-        "t": "2026-06-03T13:30:00Z",
-        "price": 3.47
-      },
-      {
-        "t": "2026-06-04T13:30:00Z",
-        "price": 3.8
-      },
-      {
-        "t": "2026-06-05T13:30:00Z",
-        "price": 3.315
-      },
       {
         "t": "2026-06-08T13:30:00Z",
         "price": 3.32
@@ -396,329 +384,97 @@
       {
         "t": "2026-07-02T13:30:00Z",
         "price": 3.8
+      },
+      {
+        "t": "2026-07-06T13:30:00Z",
+        "price": 3.715
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-02T13:30:00Z",
+        "t": "2026-07-06T13:30:00Z",
+        "price": 3.715
+      },
+      {
+        "t": "2026-07-06T13:35:00Z",
+        "price": 3.69
+      },
+      {
+        "t": "2026-07-06T13:40:00Z",
+        "price": 3.7002
+      },
+      {
+        "t": "2026-07-06T13:45:00Z",
+        "price": 3.705
+      },
+      {
+        "t": "2026-07-06T13:50:00Z",
         "price": 3.725
       },
       {
-        "t": "2026-07-02T13:35:00Z",
+        "t": "2026-07-06T13:55:00Z",
+        "price": 3.715
+      },
+      {
+        "t": "2026-07-06T14:00:00Z",
+        "price": 3.702
+      },
+      {
+        "t": "2026-07-06T14:05:00Z",
+        "price": 3.69
+      },
+      {
+        "t": "2026-07-06T14:10:00Z",
+        "price": 3.695
+      },
+      {
+        "t": "2026-07-06T14:15:00Z",
+        "price": 3.6718
+      },
+      {
+        "t": "2026-07-06T14:20:00Z",
+        "price": 3.675
+      },
+      {
+        "t": "2026-07-06T14:25:00Z",
+        "price": 3.705
+      },
+      {
+        "t": "2026-07-06T14:30:00Z",
+        "price": 3.725
+      },
+      {
+        "t": "2026-07-06T14:35:00Z",
         "price": 3.73
       },
       {
-        "t": "2026-07-02T13:40:00Z",
-        "price": 3.755
+        "t": "2026-07-06T14:40:00Z",
+        "price": 3.73
       },
       {
-        "t": "2026-07-02T13:45:00Z",
-        "price": 3.75
-      },
-      {
-        "t": "2026-07-02T13:50:00Z",
-        "price": 3.77
-      },
-      {
-        "t": "2026-07-02T13:55:00Z",
-        "price": 3.895
-      },
-      {
-        "t": "2026-07-02T14:00:00Z",
-        "price": 3.8818
-      },
-      {
-        "t": "2026-07-02T14:05:00Z",
-        "price": 3.8624
-      },
-      {
-        "t": "2026-07-02T14:10:00Z",
-        "price": 3.8632
-      },
-      {
-        "t": "2026-07-02T14:15:00Z",
-        "price": 3.851
-      },
-      {
-        "t": "2026-07-02T14:20:00Z",
-        "price": 3.8205
-      },
-      {
-        "t": "2026-07-02T14:25:00Z",
-        "price": 3.795
-      },
-      {
-        "t": "2026-07-02T14:30:00Z",
-        "price": 3.785
-      },
-      {
-        "t": "2026-07-02T14:35:00Z",
-        "price": 3.775
-      },
-      {
-        "t": "2026-07-02T14:40:00Z",
-        "price": 3.765
-      },
-      {
-        "t": "2026-07-02T14:45:00Z",
-        "price": 3.765
-      },
-      {
-        "t": "2026-07-02T14:50:00Z",
-        "price": 3.755
-      },
-      {
-        "t": "2026-07-02T14:55:00Z",
-        "price": 3.795
-      },
-      {
-        "t": "2026-07-02T15:00:00Z",
-        "price": 3.775
-      },
-      {
-        "t": "2026-07-02T15:05:00Z",
-        "price": 3.765
-      },
-      {
-        "t": "2026-07-02T15:10:00Z",
-        "price": 3.795
-      },
-      {
-        "t": "2026-07-02T15:15:00Z",
-        "price": 3.75
-      },
-      {
-        "t": "2026-07-02T15:20:00Z",
-        "price": 3.795
-      },
-      {
-        "t": "2026-07-02T15:25:00Z",
-        "price": 3.795
-      },
-      {
-        "t": "2026-07-02T15:30:00Z",
-        "price": 3.8381
-      },
-      {
-        "t": "2026-07-02T15:35:00Z",
-        "price": 3.863
-      },
-      {
-        "t": "2026-07-02T15:40:00Z",
-        "price": 3.84
-      },
-      {
-        "t": "2026-07-02T15:45:00Z",
-        "price": 3.81
-      },
-      {
-        "t": "2026-07-02T15:50:00Z",
-        "price": 3.815
-      },
-      {
-        "t": "2026-07-02T15:55:00Z",
-        "price": 3.8201
-      },
-      {
-        "t": "2026-07-02T16:00:00Z",
-        "price": 3.785
-      },
-      {
-        "t": "2026-07-02T16:05:00Z",
-        "price": 3.79
-      },
-      {
-        "t": "2026-07-02T16:10:00Z",
-        "price": 3.85
-      },
-      {
-        "t": "2026-07-02T16:15:00Z",
-        "price": 3.8098
-      },
-      {
-        "t": "2026-07-02T16:20:00Z",
-        "price": 3.8101
-      },
-      {
-        "t": "2026-07-02T16:25:00Z",
-        "price": 3.79
-      },
-      {
-        "t": "2026-07-02T16:30:00Z",
-        "price": 3.775
-      },
-      {
-        "t": "2026-07-02T16:35:00Z",
-        "price": 3.7697
-      },
-      {
-        "t": "2026-07-02T16:40:00Z",
-        "price": 3.7899
-      },
-      {
-        "t": "2026-07-02T16:45:00Z",
-        "price": 3.78
-      },
-      {
-        "t": "2026-07-02T16:50:00Z",
-        "price": 3.7814
-      },
-      {
-        "t": "2026-07-02T16:55:00Z",
-        "price": 3.78
-      },
-      {
-        "t": "2026-07-02T17:00:00Z",
-        "price": 3.755
-      },
-      {
-        "t": "2026-07-02T17:05:00Z",
-        "price": 3.7401
-      },
-      {
-        "t": "2026-07-02T17:10:00Z",
-        "price": 3.7399
-      },
-      {
-        "t": "2026-07-02T17:15:00Z",
-        "price": 3.74
-      },
-      {
-        "t": "2026-07-02T17:20:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-07-02T17:25:00Z",
-        "price": 3.7368
-      },
-      {
-        "t": "2026-07-02T17:30:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-07-02T17:35:00Z",
+        "t": "2026-07-06T14:41:35Z",
         "price": 3.715
-      },
-      {
-        "t": "2026-07-02T17:40:00Z",
-        "price": 3.715
-      },
-      {
-        "t": "2026-07-02T17:45:00Z",
-        "price": 3.713
-      },
-      {
-        "t": "2026-07-02T17:50:00Z",
-        "price": 3.745
-      },
-      {
-        "t": "2026-07-02T17:55:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-07-02T18:00:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-07-02T18:05:00Z",
-        "price": 3.77
-      },
-      {
-        "t": "2026-07-02T18:10:00Z",
-        "price": 3.755
-      },
-      {
-        "t": "2026-07-02T18:15:00Z",
-        "price": 3.7516
-      },
-      {
-        "t": "2026-07-02T18:20:00Z",
-        "price": 3.755
-      },
-      {
-        "t": "2026-07-02T18:25:00Z",
-        "price": 3.775
-      },
-      {
-        "t": "2026-07-02T18:30:00Z",
-        "price": 3.765
-      },
-      {
-        "t": "2026-07-02T18:35:00Z",
-        "price": 3.78
-      },
-      {
-        "t": "2026-07-02T18:40:00Z",
-        "price": 3.7701
-      },
-      {
-        "t": "2026-07-02T18:45:00Z",
-        "price": 3.78
-      },
-      {
-        "t": "2026-07-02T18:50:00Z",
-        "price": 3.845
-      },
-      {
-        "t": "2026-07-02T18:55:00Z",
-        "price": 3.825
-      },
-      {
-        "t": "2026-07-02T19:00:00Z",
-        "price": 3.8199
-      },
-      {
-        "t": "2026-07-02T19:05:00Z",
-        "price": 3.825
-      },
-      {
-        "t": "2026-07-02T19:10:00Z",
-        "price": 3.825
-      },
-      {
-        "t": "2026-07-02T19:15:00Z",
-        "price": 3.8201
-      },
-      {
-        "t": "2026-07-02T19:20:00Z",
-        "price": 3.815
-      },
-      {
-        "t": "2026-07-02T19:25:00Z",
-        "price": 3.8099
-      },
-      {
-        "t": "2026-07-02T19:30:00Z",
-        "price": 3.785
-      },
-      {
-        "t": "2026-07-02T19:35:00Z",
-        "price": 3.78
-      },
-      {
-        "t": "2026-07-02T19:40:00Z",
-        "price": 3.775
-      },
-      {
-        "t": "2026-07-02T19:45:00Z",
-        "price": 3.785
-      },
-      {
-        "t": "2026-07-02T19:50:00Z",
-        "price": 3.77
-      },
-      {
-        "t": "2026-07-02T19:55:00Z",
-        "price": 3.815
-      },
-      {
-        "t": "2026-07-02T20:00:00Z",
-        "price": 3.8
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Dyne Therapeutics vs. Recursion Pharmaceuticals: Which Development Stage Pharma Stock Is a Better Buy in 2026? - sharewise.com",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSENWRFVmZGFpVG9iRXB4S3JSc1h4LWQ3VmZ0Ql9BQWFUY1V5NmJoeWtZLTZCM2pyR0YwOTZUcXhBQjIyRVp2MHBnZUdqMGlYcmpFUEx5VDFJM3E0QTdPTTM0TFlsRVJtRXM3MDVxS0lmUllzQkdZZHJXOU1PUERUNlg2LXcyd0ROT3ZCa1FEN1Y4cWhEYVFzZFJTTjVaSFF5QVNldWpCRXVLYnllWWxGNVZ0eXhoRkFocWh4cDQ2dmwzSWZyZXN2SWNMMW40emo4Nm5xMXFpTXloa3ZkMXE5dlNjaUdiNzl4YlB5M2pYbmlWRV8xcGloaFNqQXdxNEE?oc=5",
+        "published_at": "2026-07-04T16:28:20Z",
+        "source": "sharewise.com",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
       {
         "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
@@ -734,22 +490,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Hauptversammlung von Recursion Pharmaceuticals: Aktionäre stimmen allen Vorschlägen zu - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRlNqMWFpUnBnWGhvWnQ0TUJhRDgxdFAyY1lWdnB1NXRZY2R5ZU03QkgtYTFVZDI0VnR3MDh6TE5tTTZJNHV3VWY0ZTltMEdCdmdCOWFvdlZtRFhZT1VncUp2SWVaQzVGWEllY0R0YU80SXY0dXlMUEtEcFFfNkpmUEFhTVRNczFOWTRsa3FycjF0b2pwTmRSRl92YjF1SGRlaHdybU1HT2dKWEthUkk4elBueXFOU2liamE5U215aHBQeDRPYm96YnE4bGU3QW9UUHNTc0F3QQ?oc=5",
-        "published_at": "2026-06-18T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 19
       },
       {
         "title": "Recursion Pharmaceuticals Inc expected to post a loss of 27 cents a share - Earnings Preview - TradingView",
@@ -804,22 +544,6 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUWpRRlBXcUdMdk5NM19rN0hOWUlDTllSVHA5X1kyYmNLZ29xNGVTQ0FZQTNkcVEtS0NRTzFqM0Q3T3VDNlFXTzctOE00VnQ1aDExbXFqM3d2WXF1cExiZl9hRFl3YU1CNU1nY0ZNX25zRU5yR0JVd3VKam5uV3RiLXgwdmRvTnltSTFac3hFLUE4MGlBeTM2b01sSVN0Ymg0el9QVGlhdGZRRGczcU4tZUdSVldtZHMxYmVoZA?oc=5",
         "published_at": "2023-07-12T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
-        "published_at": "2021-04-16T06:05:44Z",
-        "source": "TradingView",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -976,54 +700,14 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07517198",
-        "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Solid Tumor, Small Cell Lung Cancer (SCLC), High Grade Neuroendocrine Cancer, Small Cell Carcinomas of Non-lung Origin",
-        "last_update": "",
-        "start_date": "2026-04-13",
-        "url": "https://clinicaltrials.gov/study/NCT07517198"
-      },
-      {
-        "nct_id": "NCT06536465",
-        "title": "The Clostridioides Difficile Trial of REC-3964",
+        "nct_id": "NCT06005974",
+        "title": "A Study of REC-4881 in Participants With Cancers Which Have an AXIN1 or APC Mutation",
         "status": "TERMINATED",
         "phase": "PHASE2",
-        "conditions": "Recurrent Clostridioides Difficile Infection",
+        "conditions": "AXIN1 Gene Mutation, APC Gene Mutation, Solid Tumor",
         "last_update": "",
-        "start_date": "2024-10-14",
-        "url": "https://clinicaltrials.gov/study/NCT06536465"
-      },
-      {
-        "nct_id": "NCT05130866",
-        "title": "Efficacy and Safety of REC-2282 in Patients With Progressive Neurofibromatosis Type 2 (NF2) Mutated Meningiomas",
-        "status": "TERMINATED",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "Neurofibromatosis Type 2",
-        "last_update": "",
-        "start_date": "2022-06-20",
-        "url": "https://clinicaltrials.gov/study/NCT05130866"
-      },
-      {
-        "nct_id": "NCT05552755",
-        "title": "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Familial Adenomatous Polyposis",
-        "last_update": "",
-        "start_date": "2023-07-10",
-        "url": "https://clinicaltrials.gov/study/NCT05552755"
-      },
-      {
-        "nct_id": "NCT06678659",
-        "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Unresectable, Locally Advanced, Metastatic Cancers, Relapsed/Refractory Lymphomas",
-        "last_update": "",
-        "start_date": "2024-11-21",
-        "url": "https://clinicaltrials.gov/study/NCT06678659"
+        "start_date": "2024-01-15",
+        "url": "https://clinicaltrials.gov/study/NCT06005974"
       },
       {
         "nct_id": "NCT05985655",
@@ -1036,14 +720,24 @@
         "url": "https://clinicaltrials.gov/study/NCT05985655"
       },
       {
-        "nct_id": "NCT06005974",
-        "title": "A Study of REC-4881 in Participants With Cancers Which Have an AXIN1 or APC Mutation",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "AXIN1 Gene Mutation, APC Gene Mutation, Solid Tumor",
+        "nct_id": "NCT07517198",
+        "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Solid Tumor, Small Cell Lung Cancer (SCLC), High Grade Neuroendocrine Cancer, Small Cell Carcinomas of Non-lung Origin",
         "last_update": "",
-        "start_date": "2024-01-15",
-        "url": "https://clinicaltrials.gov/study/NCT06005974"
+        "start_date": "2026-04-13",
+        "url": "https://clinicaltrials.gov/study/NCT07517198"
+      },
+      {
+        "nct_id": "NCT05130866",
+        "title": "Efficacy and Safety of REC-2282 in Patients With Progressive Neurofibromatosis Type 2 (NF2) Mutated Meningiomas",
+        "status": "TERMINATED",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Neurofibromatosis Type 2",
+        "last_update": "",
+        "start_date": "2022-06-20",
+        "url": "https://clinicaltrials.gov/study/NCT05130866"
       },
       {
         "nct_id": "NCT05085561",
@@ -1064,6 +758,36 @@
         "last_update": "",
         "start_date": "2025-03-31",
         "url": "https://clinicaltrials.gov/study/NCT06980116"
+      },
+      {
+        "nct_id": "NCT06536465",
+        "title": "The Clostridioides Difficile Trial of REC-3964",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Recurrent Clostridioides Difficile Infection",
+        "last_update": "",
+        "start_date": "2024-10-14",
+        "url": "https://clinicaltrials.gov/study/NCT06536465"
+      },
+      {
+        "nct_id": "NCT05552755",
+        "title": "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
+        "last_update": "",
+        "start_date": "2023-07-10",
+        "url": "https://clinicaltrials.gov/study/NCT05552755"
+      },
+      {
+        "nct_id": "NCT06678659",
+        "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Unresectable, Locally Advanced, Metastatic Cancers, Relapsed/Refractory Lymphomas",
+        "last_update": "",
+        "start_date": "2024-11-21",
+        "url": "https://clinicaltrials.gov/study/NCT06678659"
       }
     ],
     "detected_triggers": [

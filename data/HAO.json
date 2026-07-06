@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.05",
-      "note": "Auto-Update: -1.87% vs. vorheriger Schlusskurs",
+      "value": "$1.02",
+      "note": "Auto-Update: -1.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-06T11:22:05Z",
+    "last_update_utc": "2026-07-06T14:41:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.05,
-      "previousClose": 1.07,
-      "change": -0.02,
-      "changePercent": -1.87,
-      "regularMarketTime": "2026-07-02T20:00:01Z",
+      "regularMarketPrice": 1.025,
+      "previousClose": 1.04,
+      "change": -0.015,
+      "changePercent": -1.44,
+      "regularMarketTime": "2026-07-06T14:24:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,18 +215,6 @@
       "fiftyTwoWeekRange": "0.78 – 285.44"
     },
     "price_history": [
-      {
-        "t": "2026-06-03T13:30:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-06-04T13:30:00Z",
-        "price": 1.2
-      },
-      {
-        "t": "2026-06-05T13:30:00Z",
-        "price": 0.885
-      },
       {
         "t": "2026-06-08T13:30:00Z",
         "price": 0.96
@@ -298,160 +286,52 @@
       {
         "t": "2026-07-02T13:30:00Z",
         "price": 1.05
+      },
+      {
+        "t": "2026-07-06T13:30:00Z",
+        "price": 1.025
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-02T13:30:00Z",
+        "t": "2026-07-06T13:30:00Z",
+        "price": 0.9838
+      },
+      {
+        "t": "2026-07-06T13:35:00Z",
+        "price": 0.9841
+      },
+      {
+        "t": "2026-07-06T13:40:00Z",
+        "price": 0.9841
+      },
+      {
+        "t": "2026-07-06T13:45:00Z",
         "price": 1.0
       },
       {
-        "t": "2026-07-02T13:35:00Z",
-        "price": 0.9825
-      },
-      {
-        "t": "2026-07-02T13:40:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T13:50:00Z",
-        "price": 0.9954
-      },
-      {
-        "t": "2026-07-02T14:05:00Z",
+        "t": "2026-07-06T13:50:00Z",
         "price": 1.01
       },
       {
-        "t": "2026-07-02T14:15:00Z",
+        "t": "2026-07-06T13:55:00Z",
+        "price": 0.9942
+      },
+      {
+        "t": "2026-07-06T14:00:00Z",
         "price": 1.03
       },
       {
-        "t": "2026-07-02T14:25:00Z",
-        "price": 1.0087
+        "t": "2026-07-06T14:10:00Z",
+        "price": 1.015
       },
       {
-        "t": "2026-07-02T14:30:00Z",
-        "price": 1.0
+        "t": "2026-07-06T14:15:00Z",
+        "price": 1.025
       },
       {
-        "t": "2026-07-02T14:35:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T14:50:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-07-02T15:00:00Z",
-        "price": 1.0025
-      },
-      {
-        "t": "2026-07-02T15:05:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T15:10:00Z",
-        "price": 0.9901
-      },
-      {
-        "t": "2026-07-02T15:15:00Z",
-        "price": 0.99
-      },
-      {
-        "t": "2026-07-02T15:25:00Z",
-        "price": 1.0101
-      },
-      {
-        "t": "2026-07-02T15:40:00Z",
-        "price": 1.02
-      },
-      {
-        "t": "2026-07-02T15:45:00Z",
-        "price": 1.01
-      },
-      {
-        "t": "2026-07-02T15:50:00Z",
-        "price": 1.0001
-      },
-      {
-        "t": "2026-07-02T16:00:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T16:05:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T16:10:00Z",
-        "price": 1.01
-      },
-      {
-        "t": "2026-07-02T17:00:00Z",
-        "price": 0.99
-      },
-      {
-        "t": "2026-07-02T17:05:00Z",
-        "price": 0.9999
-      },
-      {
-        "t": "2026-07-02T17:10:00Z",
-        "price": 0.995
-      },
-      {
-        "t": "2026-07-02T17:15:00Z",
-        "price": 0.998
-      },
-      {
-        "t": "2026-07-02T17:25:00Z",
-        "price": 1.0099
-      },
-      {
-        "t": "2026-07-02T17:30:00Z",
-        "price": 0.9951
-      },
-      {
-        "t": "2026-07-02T18:00:00Z",
-        "price": 0.995
-      },
-      {
-        "t": "2026-07-02T18:10:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T18:15:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T18:50:00Z",
-        "price": 0.9861
-      },
-      {
-        "t": "2026-07-02T19:00:00Z",
-        "price": 0.9964
-      },
-      {
-        "t": "2026-07-02T19:15:00Z",
-        "price": 0.9801
-      },
-      {
-        "t": "2026-07-02T19:20:00Z",
-        "price": 0.99
-      },
-      {
-        "t": "2026-07-02T19:30:00Z",
-        "price": 1.0
-      },
-      {
-        "t": "2026-07-02T19:45:00Z",
-        "price": 1.0074
-      },
-      {
-        "t": "2026-07-02T19:55:00Z",
-        "price": 1.03
-      },
-      {
-        "t": "2026-07-02T20:00:00Z",
-        "price": 1.05
+        "t": "2026-07-06T14:24:01Z",
+        "price": 1.025
       }
     ],
     "price_history_range": "1mo",
@@ -601,154 +481,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07619183",
-        "title": "A Study to Evaluate the Multiple Dose Ascending of PG-033 in Healthy Adult Participants.",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Lichen Simplex Chronicus",
-        "last_update": "",
-        "start_date": "2026-06-04",
-        "url": "https://clinicaltrials.gov/study/NCT07619183"
-      },
-      {
-        "nct_id": "NCT04946929",
-        "title": "Ticagrelor in Post-transplant Patients With Pediatric Hepatic Artery Thrombosis (HAT)",
-        "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Hepatic Artery Thrombosis, Liver Transplant; Complications, Pediatric Disease",
-        "last_update": "",
-        "start_date": "2021-07-31",
-        "url": "https://clinicaltrials.gov/study/NCT04946929"
-      },
-      {
-        "nct_id": "NCT06454773",
-        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
-        "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Intervention",
-        "last_update": "",
-        "start_date": "2024-06-01",
-        "url": "https://clinicaltrials.gov/study/NCT06454773"
-      },
-      {
-        "nct_id": "NCT03023436",
-        "title": "Cytoreductive Surgery Combined With HIPEC and Chemotherapy for Gastric Cancer With Peritoneal Metastasis",
-        "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Stomach Neoplasm",
-        "last_update": "",
-        "start_date": "2016-01",
-        "url": "https://clinicaltrials.gov/study/NCT03023436"
-      },
-      {
-        "nct_id": "NCT06155084",
-        "title": "A Study to Assess the Safety, Pharmacokinetics, and Anti-Tumor Activity of Oral HP518 in mCRPC Patients",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Metastatic Castration-resistant Prostate Cancer",
-        "last_update": "",
-        "start_date": "2023-12-26",
-        "url": "https://clinicaltrials.gov/study/NCT06155084"
-      },
-      {
-        "nct_id": "NCT05008965",
-        "title": "Evaluate the Efficacy and Safety of FB825 in Adult With Allergic Asthma",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Allergic Asthma",
-        "last_update": "",
-        "start_date": "2021-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT05008965"
-      },
-      {
-        "nct_id": "NCT06314334",
-        "title": "Screening Study of Combined Sequential Chemotherapy and Radiation Therapy for Early-stage NK/T-cell Lymphoma",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Natural Killer/T-Cell Lymphoma, Nasal and Nasal-Type",
-        "last_update": "",
-        "start_date": "2024-03-04",
-        "url": "https://clinicaltrials.gov/study/NCT06314334"
-      },
-      {
-        "nct_id": "NCT03932084",
-        "title": "Effects of Glucose Fluctuation Intervention on the Prognosis of Patients With Type 2 Diabetes and Cerebral Infarction",
+        "nct_id": "NCT05167643",
+        "title": "H (Trastuzumab or Biosimilar) Combined With CDK4/6 Inhibitor + AI±OFS in the Treatment of HR+HER2+ Advanced Breast Cancer Efficacy and Safety: a Chinese Multi-center Real World Study",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Type 2 Diabetes and Cerebral Infarction",
+        "conditions": "Advanced HR+ HER2 Negative Breast Carcinoma",
         "last_update": "",
-        "start_date": "2017-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT03932084"
+        "start_date": "2022-01-23",
+        "url": "https://clinicaltrials.gov/study/NCT05167643"
       },
       {
-        "nct_id": "NCT05037058",
-        "title": "China Diabetes Cardiovascular Initiative",
+        "nct_id": "NCT05274789",
+        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Robot-assisted Pancreaticoduodenectomy: a Randomized Controlled Study",
         "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Acute Coronary Syndrome, Diabetes Mellitus",
+        "phase": "NA",
+        "conditions": "Delirium in Old Age",
         "last_update": "",
-        "start_date": "2021-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT05037058"
+        "start_date": "2022-04-15",
+        "url": "https://clinicaltrials.gov/study/NCT05274789"
       },
       {
-        "nct_id": "NCT05347901",
-        "title": "Clinical Precise Diagnosis and Treatment in the Kawasaki Disease",
+        "nct_id": "NCT04928625",
+        "title": "A Trial of SHR-A1904 in Patients With Advanced Pancreatic Cancer",
         "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Kawasaki Disease",
+        "phase": "PHASE1",
+        "conditions": "Advanced Pancreatic Cancer",
         "last_update": "",
-        "start_date": "2021-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05347901"
+        "start_date": "2021-08-06",
+        "url": "https://clinicaltrials.gov/study/NCT04928625"
       },
       {
-        "nct_id": "NCT06475781",
-        "title": "Study to Evaluate Safety and Efficacy of Mirivadelgat in PH-ILD",
+        "nct_id": "NCT06485609",
+        "title": "Clinical Study of Radical Right Hemicolectomy Versus Radical Right Hemicolectomy Combined with Indocyanine Green Fluorescence Imaging Lymphatic Tracer Dissection for the Treatment of Right Colon Cancer",
         "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Group 3 Pulmonary Hypertension",
+        "phase": "NA",
+        "conditions": "Colon Cancer",
         "last_update": "",
-        "start_date": "2025-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT06475781"
+        "start_date": "2024-08-10",
+        "url": "https://clinicaltrials.gov/study/NCT06485609"
       },
       {
-        "nct_id": "NCT07575672",
-        "title": "Finerenone in Patients Undergoing Transcatheter Aortic Valve Implantation With Heart Failure",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "HFpEF - Heart Failure With Preserved Ejection Fraction, TAVI(Transcatheter Aortic Valve Implantation), Finerenone",
-        "last_update": "",
-        "start_date": "2026-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT07575672"
-      },
-      {
-        "nct_id": "NCT07389200",
-        "title": "Application of Multimodal MRI-based Radiomics in Histological Grading and Prognostic Assessment of Breast Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Breast Cancer, Breast Cancer With Low to Intermediate HER2 Expression",
-        "last_update": "",
-        "start_date": "2028-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT07389200"
-      },
-      {
-        "nct_id": "NCT02724709",
-        "title": "Semi-automatic assessMent of Aortic Roots by Three-dimensional transoEsophageal echocaRdiography (SMARTER)",
+        "nct_id": "NCT01764659",
+        "title": "4D-CT for Pancreatic Adenocarcinoma in Radiotherapy Simulation",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Aortic Valve Disease",
+        "conditions": "Pancreatic Adenocarcinoma",
         "last_update": "",
-        "start_date": "2016-03",
-        "url": "https://clinicaltrials.gov/study/NCT02724709"
+        "start_date": "2013-07",
+        "url": "https://clinicaltrials.gov/study/NCT01764659"
       },
       {
-        "nct_id": "NCT03337711",
-        "title": "Explore Intra-tumor Heterogeneity and Prognostic Value of Postoperative Blood ctDNA of ⅡA - ⅢA Stage Non-squamous NSCLC Based on the Capture-based Sequencing and UMI Technology of Burning Rock",
-        "status": "UNKNOWN",
+        "nct_id": "NCT07625462",
+        "title": "Hearing and Brain Development Cohort in Children and Adolescents",
+        "status": "RECRUITING",
         "phase": "",
-        "conditions": "Non-small Cell Lung Cancer",
+        "conditions": "Hearing Loss",
         "last_update": "",
-        "start_date": "2017-05-24",
-        "url": "https://clinicaltrials.gov/study/NCT03337711"
+        "start_date": "2026-05-20",
+        "url": "https://clinicaltrials.gov/study/NCT07625462"
+      },
+      {
+        "nct_id": "NCT02304562",
+        "title": "Umbilical Cord Blood-derived Mesenchymal Stem Cells in Regeneration of Sweat Glands and Body Repair",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Sweat Gland Diseases",
+        "last_update": "",
+        "start_date": "2013-01",
+        "url": "https://clinicaltrials.gov/study/NCT02304562"
+      },
+      {
+        "nct_id": "NCT06407297",
+        "title": "UCMSCs Combined With Standard Therapy for the Treatment of Newly Diagnosed Type 1 Diabetes",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Newly Diagnosed Type 1 Diabetes Mellitus",
+        "last_update": "",
+        "start_date": "2024-05-23",
+        "url": "https://clinicaltrials.gov/study/NCT06407297"
+      },
+      {
+        "nct_id": "NCT07144423",
+        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Chronic Subdural Hematoma",
+        "last_update": "",
+        "start_date": "2025-11-19",
+        "url": "https://clinicaltrials.gov/study/NCT07144423"
+      },
+      {
+        "nct_id": "NCT06599346",
+        "title": "Effects of Mesenchymal Stem Cell Supernatant on Prevention and Treatment of Skin/Mucosal Injury in Hematology Patients",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Mucositis, Hematopoietic Stem Cell Transplantation, Chemotherapy-Induced Mucositis, Radiation-Induced Mucositis",
+        "last_update": "",
+        "start_date": "2020-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT06599346"
+      },
+      {
+        "nct_id": "NCT07586124",
+        "title": "Pucotenlimab Plus Becotatug Vedotin in Perioperative Treatment of Locally Advanced Resectable Head and Neck Squamous Cell Carcinoma",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Head and Neck Squamous Cell Carcinoma",
+        "last_update": "",
+        "start_date": "2026-05",
+        "url": "https://clinicaltrials.gov/study/NCT07586124"
+      },
+      {
+        "nct_id": "NCT05593146",
+        "title": "A Randomized Controlled Study Evaluating Modified Cup Anteversion Placement in Prevention of Postoperative Dislocation in Patients Undergoing Acetabular Tumor Resection and Reconstruction",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Periacetabular Tumor",
+        "last_update": "",
+        "start_date": "2023-04-13",
+        "url": "https://clinicaltrials.gov/study/NCT05593146"
+      },
+      {
+        "nct_id": "NCT06339996",
+        "title": "Male Supplements for Sperm Quality and Aging",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Unrecognized Condition",
+        "last_update": "",
+        "start_date": "2024-03-26",
+        "url": "https://clinicaltrials.gov/study/NCT06339996"
+      },
+      {
+        "nct_id": "NCT02636985",
+        "title": "Application of Ultrasonic Elastography in Lung Lesions",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Elastography",
+        "last_update": "",
+        "start_date": "2011-12",
+        "url": "https://clinicaltrials.gov/study/NCT02636985"
+      },
+      {
+        "nct_id": "NCT01849796",
+        "title": "Transcranial Stimulation (tDCS) For the Treatment of Neuropathic Facial Pain",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Facial Pain",
+        "last_update": "",
+        "start_date": "2010-10",
+        "url": "https://clinicaltrials.gov/study/NCT01849796"
       }
     ],
     "detected_triggers": [
@@ -771,66 +651,90 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Cytoreductive Surgery Combined With HIPEC and Chemotherapy for Gastric Cancer With Peritoneal Metastasis",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT03023436",
-        "date": "2016-01"
+        "title": "Transcranial Stimulation (tDCS) For the Treatment of Neuropathic Facial Pain",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE2",
+        "source": "NCT01849796",
+        "date": "2010-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Effects of Glucose Fluctuation Intervention on the Prognosis of Patients With Type 2 Diabetes and Cerebral Infarction",
+        "title": "Umbilical Cord Blood-derived Mesenchymal Stem Cells in Regeneration of Sweat Glands and Body Repair",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT02304562",
+        "date": "2013-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Effects of Mesenchymal Stem Cell Supernatant on Prevention and Treatment of Skin/Mucosal Injury in Hematology Patients",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06599346",
+        "date": "2020-10-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Trial of SHR-A1904 in Patients With Advanced Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT04928625",
+        "date": "2021-08-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "H (Trastuzumab or Biosimilar) Combined With CDK4/6 Inhibitor + AI±OFS in the Treatment of HR+HER2+ Advanced Breast Cancer Efficacy and Safety: a Chinese Multi-center Real World Study",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03932084",
-        "date": "2017-02-01"
+        "source": "NCT05167643",
+        "date": "2022-01-23"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Evaluate the Efficacy and Safety of FB825 in Adult With Allergic Asthma",
+        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Robot-assisted Pancreaticoduodenectomy: a Randomized Controlled Study",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05274789",
+        "date": "2022-04-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Randomized Controlled Study Evaluating Modified Cup Anteversion Placement in Prevention of Postoperative Dislocation in Patients Undergoing Acetabular Tumor Resection and Reconstruction",
         "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT05008965",
-        "date": "2021-07-27"
+        "source": "NCT05593146",
+        "date": "2023-04-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Ticagrelor in Post-transplant Patients With Pediatric Hepatic Artery Thrombosis (HAT)",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT04946929",
-        "date": "2021-07-31"
+        "title": "Male Supplements for Sperm Quality and Aging",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06339996",
+        "date": "2024-03-26"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study to Assess the Safety, Pharmacokinetics, and Anti-Tumor Activity of Oral HP518 in mCRPC Patients",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06155084",
-        "date": "2023-12-26"
+        "title": "UCMSCs Combined With Standard Therapy for the Treatment of Newly Diagnosed Type 1 Diabetes",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT06407297",
+        "date": "2024-05-23"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Screening Study of Combined Sequential Chemotherapy and Radiation Therapy for Early-stage NK/T-cell Lymphoma",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06314334",
-        "date": "2024-03-04"
+        "title": "Clinical Study of Radical Right Hemicolectomy Versus Radical Right Hemicolectomy Combined with Indocyanine Green Fluorescence Imaging Lymphatic Tracer Dissection for the Treatment of Right Colon Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06485609",
+        "date": "2024-08-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT06454773",
-        "date": "2024-06-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Study to Evaluate Safety and Efficacy of Mirivadelgat in PH-ILD",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06475781",
-        "date": "2025-03-01"
+        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07144423",
+        "date": "2025-11-19"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -881,6 +785,14 @@
         "date": "2026-04-22"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Pucotenlimab Plus Becotatug Vedotin in Perioperative Treatment of Locally Advanced Resectable Head and Neck Squamous Cell Carcinoma",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT07586124",
+        "date": "2026-05"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-05-13",
@@ -913,14 +825,6 @@
         "date": "2026-06-04"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study to Evaluate the Multiple Dose Ascending of PG-033 in Healthy Adult Participants.",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1",
-        "source": "NCT07619183",
-        "date": "2026-06-04"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-06-24",
@@ -930,43 +834,19 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Finerenone in Patients Undergoing Transcatheter Aortic Valve Implantation With Heart Failure",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
-        "source": "NCT07575672",
-        "date": "2026-07-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Semi-automatic assessMent of Aortic Roots by Three-dimensional transoEsophageal echocaRdiography (SMARTER)",
+        "title": "Application of Ultrasonic Elastography in Lung Lesions",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT02724709",
-        "date": "2016-03"
+        "source": "NCT02636985",
+        "date": "2011-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Explore Intra-tumor Heterogeneity and Prognostic Value of Postoperative Blood ctDNA of ⅡA - ⅢA Stage Non-squamous NSCLC Based on the Capture-based Sequencing and UMI Technology of Burning Rock",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT03337711",
-        "date": "2017-05-24"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Clinical Precise Diagnosis and Treatment in the Kawasaki Disease",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05347901",
-        "date": "2021-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "China Diabetes Cardiovascular Initiative",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05037058",
-        "date": "2021-09-01"
+        "title": "4D-CT for Pancreatic Adenocarcinoma in Radiotherapy Simulation",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT01764659",
+        "date": "2013-07"
       },
       {
         "type": "SEC Filing",
