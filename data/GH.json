@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$166.94",
-      "note": "Auto-Update: 8.59% vs. vorheriger Schlusskurs",
+      "value": "$164.41",
+      "note": "Auto-Update: 6.94% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-07T17:50:58Z",
+    "last_update_utc": "2026-07-07T19:39:14Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 166.94,
+      "regularMarketPrice": 164.415,
       "previousClose": 153.74,
-      "change": 13.2,
-      "changePercent": 8.59,
-      "regularMarketTime": "2026-07-07T17:50:39Z",
+      "change": 10.675,
+      "changePercent": 6.94,
+      "regularMarketTime": "2026-07-07T19:39:04Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-07-07T13:30:00Z",
-        "price": 166.94
+        "price": 164.415
       }
     ],
     "price_history_1d": [
@@ -539,13 +539,117 @@
         "price": 166.94
       },
       {
-        "t": "2026-07-07T17:50:39Z",
-        "price": 166.94
+        "t": "2026-07-07T17:50:00Z",
+        "price": 167.0
+      },
+      {
+        "t": "2026-07-07T17:55:00Z",
+        "price": 166.69
+      },
+      {
+        "t": "2026-07-07T18:00:00Z",
+        "price": 166.51
+      },
+      {
+        "t": "2026-07-07T18:05:00Z",
+        "price": 166.76
+      },
+      {
+        "t": "2026-07-07T18:10:00Z",
+        "price": 166.7
+      },
+      {
+        "t": "2026-07-07T18:15:00Z",
+        "price": 166.835
+      },
+      {
+        "t": "2026-07-07T18:20:00Z",
+        "price": 167.13
+      },
+      {
+        "t": "2026-07-07T18:25:00Z",
+        "price": 166.75
+      },
+      {
+        "t": "2026-07-07T18:30:00Z",
+        "price": 166.55
+      },
+      {
+        "t": "2026-07-07T18:35:00Z",
+        "price": 165.75
+      },
+      {
+        "t": "2026-07-07T18:40:00Z",
+        "price": 165.51
+      },
+      {
+        "t": "2026-07-07T18:45:00Z",
+        "price": 165.16
+      },
+      {
+        "t": "2026-07-07T18:50:00Z",
+        "price": 164.95
+      },
+      {
+        "t": "2026-07-07T18:55:00Z",
+        "price": 164.52
+      },
+      {
+        "t": "2026-07-07T19:00:00Z",
+        "price": 164.28
+      },
+      {
+        "t": "2026-07-07T19:05:00Z",
+        "price": 164.51
+      },
+      {
+        "t": "2026-07-07T19:10:00Z",
+        "price": 164.155
+      },
+      {
+        "t": "2026-07-07T19:15:00Z",
+        "price": 163.97
+      },
+      {
+        "t": "2026-07-07T19:20:00Z",
+        "price": 164.09
+      },
+      {
+        "t": "2026-07-07T19:25:00Z",
+        "price": 163.88
+      },
+      {
+        "t": "2026-07-07T19:30:00Z",
+        "price": 163.98
+      },
+      {
+        "t": "2026-07-07T19:35:00Z",
+        "price": 164.415
+      },
+      {
+        "t": "2026-07-07T19:39:04Z",
+        "price": 164.415
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Guardant Health Aktie erreicht neues 52-Wochen-Hoch bei 172,67 $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcC1kc2k0WmJrS2dUNW14M2RSUERKbjJsUkZnQVJ1MkR5OFJuV1MtbnNfdUQ0a3BabWk0eHQtNHVBd041X19tRFlZWmJkaFE3cEN2RC1fTVdrcFJuTjFkb2gwRFNGeElVSUU1RHM5RlBtUWFFM0JTWjgwUkpWNlFjVXBTaWZ5V0ViMHF2MmJ4aEgxQXl0ajh0d0ZUYlJRVzF4bTRUd0hxNjM4RHk4dTNpSXdOOXhlLWc?oc=5",
+        "published_at": "2026-07-06T15:49:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Guardant Health (GH) legt nach Vertragsabschluss mit India Shield über einen Krebstest und der Ausweitung der Versicherungsleistungen durch UnitedHealth um 12,6 % zu - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeF9xX0NqT1ZVTENiWUZMWmFwbTlscUNZbURnQTMwZWt1NWxvRWFYbDBWNVE1NjVKcVdaY29sOHNoVXBmRndXbUFBQTRTMS14aDVjdmRsVGpMazZJNTFxZkdsb1FvS1R1THpuN1E0NXlVaVRyY0JfLTJqaXRNeG1vUXkxU0xKOUNYOE91N3VfdERlTGJyQ1BES0toOGlwWTcyZ3VLUXBSaFItenQySFpYUGZRQmFxUGpQU1dHWmx0aGRudWhLTE52bjRqQXZlbGM2cFFqS1ZXRFfSAdgBQVVfeXFMUHhfcV9Dak9WVUxDYllGTFphcG05bHFDWW1EZ0EzMGVrdTVsb0VhWGwwVjVRNTY1SnFXWmNvbDhzaFVwZkZ3V21BQUE0UzEteGg1Y3ZkbFRqTGs2STUxcWZHbG9Rb0tUdUx6bjdRNDV5VWlUcmNCXy0yaml0TXhtb1F5MVNMSjlDWDhPdTd1X3REZUxickNQREtLaDhpcFk3Mmd1S1FwUmhSLXp0MkhaWFBmUUJhcVBqUFNXR1psdGhkbnVoS0xOdm40akF2ZWxjNnBRaktWV0RX?oc=5",
@@ -565,7 +669,7 @@
       {
         "title": "Die Guardant Health (GH)-Aktie nach einem Jahresgewinn von 193 % – Ist der Aufschwung am Ende? - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ0xjUExKejcwMVA1Q2pPSUo2RmlKX1I2cWNnNEV1UjYwNUtUWVBJU2JVTGZkYnNaX2ZOQmIzcWlCR1JRYnlJc205cFIwVDhFV2VwWkMtN0U5WEYwZ3BIR2RidXN0SVdPY1ZITHhnUkctVGhHaVRRaXV1OTJNZlRab0dSOXJBcWtRSFlPUzRFc2ZhZWtCXzNlT212MzgzdC1TQUNGSXhFTUl2TFZRdXUxZ2FjelJCMTZIRnVjLUlpZnRoTXRsZFYxMWlQdXBjaUtDODJN0gHYAUFVX3lxTE1SSmVQSWJxRm5yWUZpdVFpdHZYNEl6MjB6MU5lc3pmQ3VPaEhMS0xiM25tYXJveDhldlBsWjl1ejZTS2J6MngyQmVLakN6YmdCT3lIX0VBOExkYmtoY1NGS3Z5dzI0UEdNZXlKeE9fQURUbng1SUdRRmdyLXB4dGxvSmg3Mm1RRDBPeTY3SFc5Vnl0VFM1bDIteEc1QnVYQmxrWjJtZzlUZWoyQUtBSkVvcmZjNHVXMFRSNDZWaHNrRzVybEFlNWtrMzdmbHk0cWVHY0s1eWFwZQ?oc=5",
-        "published_at": "2026-06-28T22:34:43Z",
+        "published_at": "2026-06-28T07:00:00Z",
         "source": "simplywall.st",
         "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
@@ -705,22 +809,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 19
-      },
-      {
-        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | GH | A2N5RY | News - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CUF80a0FIN2RudkxWbmhFRm1FWHZHMERfX2dYZmpXLXdqeUs3dHVtVHFKWEc5a3NDWHljNFk1bmE4bGR4WEN1STd1dXVNRldnVkU3cDdRUEJsa29lN2JaaFMwZw?oc=5",
-        "published_at": "2019-06-14T11:29:16Z",
-        "source": "Finanzen.net",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
       }
     ],
     "sec_filings": [

@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.01",
-      "note": "Auto-Update: 19.14% vs. vorheriger Schlusskurs",
+      "value": "$3.98",
+      "note": "Auto-Update: 18.25% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-07T17:50:22Z",
+    "last_update_utc": "2026-07-07T19:38:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.015,
+      "regularMarketPrice": 3.985,
       "previousClose": 3.37,
-      "change": 0.645,
-      "changePercent": 19.14,
-      "regularMarketTime": "2026-07-07T17:50:12Z",
+      "change": 0.615,
+      "changePercent": 18.25,
+      "regularMarketTime": "2026-07-07T19:38:14Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -383,7 +383,7 @@
       },
       {
         "t": "2026-07-07T13:30:00Z",
-        "price": 4.015
+        "price": 3.985
       }
     ],
     "price_history_1d": [
@@ -596,8 +596,96 @@
         "price": 4.0101
       },
       {
-        "t": "2026-07-07T17:50:12Z",
-        "price": 4.015
+        "t": "2026-07-07T17:50:00Z",
+        "price": 4.025
+      },
+      {
+        "t": "2026-07-07T17:55:00Z",
+        "price": 4.025
+      },
+      {
+        "t": "2026-07-07T18:00:00Z",
+        "price": 4.025
+      },
+      {
+        "t": "2026-07-07T18:05:00Z",
+        "price": 4.025
+      },
+      {
+        "t": "2026-07-07T18:10:00Z",
+        "price": 4.05
+      },
+      {
+        "t": "2026-07-07T18:15:00Z",
+        "price": 4.06
+      },
+      {
+        "t": "2026-07-07T18:20:00Z",
+        "price": 4.07
+      },
+      {
+        "t": "2026-07-07T18:25:00Z",
+        "price": 4.075
+      },
+      {
+        "t": "2026-07-07T18:30:00Z",
+        "price": 4.0698
+      },
+      {
+        "t": "2026-07-07T18:35:00Z",
+        "price": 4.07
+      },
+      {
+        "t": "2026-07-07T18:40:00Z",
+        "price": 4.05
+      },
+      {
+        "t": "2026-07-07T18:45:00Z",
+        "price": 4.025
+      },
+      {
+        "t": "2026-07-07T18:50:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-07-07T18:55:00Z",
+        "price": 3.985
+      },
+      {
+        "t": "2026-07-07T19:00:00Z",
+        "price": 3.975
+      },
+      {
+        "t": "2026-07-07T19:05:00Z",
+        "price": 3.965
+      },
+      {
+        "t": "2026-07-07T19:10:00Z",
+        "price": 3.9702
+      },
+      {
+        "t": "2026-07-07T19:15:00Z",
+        "price": 3.962
+      },
+      {
+        "t": "2026-07-07T19:20:00Z",
+        "price": 3.9999
+      },
+      {
+        "t": "2026-07-07T19:25:00Z",
+        "price": 3.995
+      },
+      {
+        "t": "2026-07-07T19:30:00Z",
+        "price": 4.01
+      },
+      {
+        "t": "2026-07-07T19:35:00Z",
+        "price": 4.01
+      },
+      {
+        "t": "2026-07-07T19:38:14Z",
+        "price": 3.985
       }
     ],
     "price_history_range": "1mo",
@@ -685,6 +773,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-07-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326005144/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-07-06",
@@ -815,13 +910,6 @@
         "form": "144",
         "filingDate": "2026-05-19",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003766/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-14",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126021321/xslF345X06/form4.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1150,14 +1238,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-05-14",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-14"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "144 · 2026-05-19",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1223,6 +1303,14 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SC TO-I/A · 2026-05-28",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-28"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-28",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-28"
