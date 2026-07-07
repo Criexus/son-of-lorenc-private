@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.87",
-      "note": "Auto-Update: -1.71% vs. vorheriger Schlusskurs",
+      "value": "$2.80",
+      "note": "Auto-Update: -1.75% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-07T12:40:30Z",
+    "last_update_utc": "2026-07-07T15:38:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.87,
-      "previousClose": 2.92,
+      "regularMarketPrice": 2.8,
+      "previousClose": 2.85,
       "change": -0.05,
-      "changePercent": -1.71,
-      "regularMarketTime": "2026-07-06T20:00:01Z",
+      "changePercent": -1.75,
+      "regularMarketTime": "2026-07-07T15:24:10Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -289,52 +289,24 @@
       {
         "t": "2026-07-06T13:30:00Z",
         "price": 2.87
+      },
+      {
+        "t": "2026-07-07T13:30:00Z",
+        "price": 2.8
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-06T13:30:00Z",
-        "price": 2.94
+        "t": "2026-07-07T13:55:00Z",
+        "price": 2.8673
       },
       {
-        "t": "2026-07-06T13:35:00Z",
-        "price": 2.95
+        "t": "2026-07-07T14:00:00Z",
+        "price": 2.86
       },
       {
-        "t": "2026-07-06T14:00:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-07-06T14:35:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-07-06T15:25:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-07-06T16:35:00Z",
-        "price": 2.9158
-      },
-      {
-        "t": "2026-07-06T17:30:00Z",
-        "price": 2.92
-      },
-      {
-        "t": "2026-07-06T18:00:00Z",
-        "price": 2.88
-      },
-      {
-        "t": "2026-07-06T19:05:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-07-06T19:55:00Z",
-        "price": 2.81
-      },
-      {
-        "t": "2026-07-06T20:00:00Z",
-        "price": 2.87
+        "t": "2026-07-07T15:24:10Z",
+        "price": 2.8
       }
     ],
     "price_history_range": "1mo",
@@ -354,6 +326,22 @@
         "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
         "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
         "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 5
+      },
+      {
+        "title": "Biodexa weitet Phase-3-Studie für Serenta auf Kanada aus - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSE1teWdCU1VrTVlzMkZpdDNjRnVWNVctdW16V2k1NnhIQ0YxWFUzWjNzbXV3TXRBMC00c1p5U1gxb2JsQkhieFMzel9YN1pZRm1nWnFFZVlmcngtUzVTWXZGSENPNkhWWkZ6dllETTh1QTk2NnJ4UjhmemZwN2NTdkNGM3MyVXROLS1RT0lROXo5WUpQUDNaUWNkaHppMVdFd3JyNzJfZ19TUUtFMWQ0?oc=5",
+        "published_at": "2026-06-29T12:46:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
       }
     ],
