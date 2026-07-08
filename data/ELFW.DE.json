@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.02",
-      "note": "Auto-Update: -0.75% vs. vorheriger Schlusskurs",
+      "value": "$42.80",
+      "note": "Auto-Update: -1.26% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-08T13:28:19Z",
+    "last_update_utc": "2026-07-08T15:47:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 43.021,
+      "regularMarketPrice": 42.8,
       "previousClose": 43.348,
-      "change": -0.327,
-      "changePercent": -0.75,
-      "regularMarketTime": "2026-07-08T13:07:02Z",
+      "change": -0.548,
+      "changePercent": -1.26,
+      "regularMarketTime": "2026-07-08T15:26:28Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,7 +248,7 @@
       },
       {
         "t": "2026-07-08T07:00:00Z",
-        "price": 43.021
+        "price": 42.8
       }
     ],
     "price_history_1d": [
@@ -341,30 +341,57 @@
         "price": 43.025
       },
       {
-        "t": "2026-07-08T13:07:02Z",
+        "t": "2026-07-08T13:05:00Z",
         "price": 43.021
+      },
+      {
+        "t": "2026-07-08T13:20:00Z",
+        "price": 43.022
+      },
+      {
+        "t": "2026-07-08T13:25:00Z",
+        "price": 43.014
+      },
+      {
+        "t": "2026-07-08T13:30:00Z",
+        "price": 43.011
+      },
+      {
+        "t": "2026-07-08T13:35:00Z",
+        "price": 43.013
+      },
+      {
+        "t": "2026-07-08T13:40:00Z",
+        "price": 43.03
+      },
+      {
+        "t": "2026-07-08T14:00:00Z",
+        "price": 43.04
+      },
+      {
+        "t": "2026-07-08T14:15:00Z",
+        "price": 42.977
+      },
+      {
+        "t": "2026-07-08T14:25:00Z",
+        "price": 42.99
+      },
+      {
+        "t": "2026-07-08T15:00:00Z",
+        "price": 42.882
+      },
+      {
+        "t": "2026-07-08T15:05:00Z",
+        "price": 42.877
+      },
+      {
+        "t": "2026-07-08T15:15:00Z",
+        "price": 42.847
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "ELFW Aktienkurs - Deka MSCI World UCITS ETF - Traders Union",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9pN2ktU2ZmSVNCSFoxX3pMUzV2N3lwaTMwNnZvYUZJNXZhSkNhUUNvV0xWTWF0czdtcWVtVENuQTZFRnlKWEVLV09mTDh3Qk80UlQ5amNNbw?oc=5",
-        "published_at": "2026-07-01T01:33:15Z",
-        "source": "Traders Union",
-        "query": "MSCI World ETF ELFW.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 15
-      }
-    ],
+    "news": [],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
