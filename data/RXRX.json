@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.65",
-      "note": "Auto-Update: -0.41% vs. vorheriger Schlusskurs",
+      "value": "$3.67",
+      "note": "Auto-Update: 0.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-08T15:46:33Z",
+    "last_update_utc": "2026-07-08T17:18:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.655,
+      "regularMarketPrice": 3.67,
       "previousClose": 3.67,
-      "change": -0.015,
-      "changePercent": -0.41,
-      "regularMarketTime": "2026-07-08T15:46:05Z",
+      "change": 0.0,
+      "changePercent": 0.0,
+      "regularMarketTime": "2026-07-08T17:18:21Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-07-08T13:30:00Z",
-        "price": 3.655
+        "price": 3.67
       }
     ],
     "price_history_1d": [
@@ -512,13 +512,198 @@
         "price": 3.655
       },
       {
-        "t": "2026-07-08T15:46:06Z",
-        "price": 3.655
+        "t": "2026-07-08T15:50:00Z",
+        "price": 3.64
+      },
+      {
+        "t": "2026-07-08T15:55:00Z",
+        "price": 3.6479
+      },
+      {
+        "t": "2026-07-08T16:00:00Z",
+        "price": 3.6686
+      },
+      {
+        "t": "2026-07-08T16:05:00Z",
+        "price": 3.685
+      },
+      {
+        "t": "2026-07-08T16:10:00Z",
+        "price": 3.675
+      },
+      {
+        "t": "2026-07-08T16:15:00Z",
+        "price": 3.665
+      },
+      {
+        "t": "2026-07-08T16:20:00Z",
+        "price": 3.665
+      },
+      {
+        "t": "2026-07-08T16:25:00Z",
+        "price": 3.69
+      },
+      {
+        "t": "2026-07-08T16:30:00Z",
+        "price": 3.675
+      },
+      {
+        "t": "2026-07-08T16:35:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-07-08T16:40:00Z",
+        "price": 3.6775
+      },
+      {
+        "t": "2026-07-08T16:45:00Z",
+        "price": 3.68
+      },
+      {
+        "t": "2026-07-08T16:50:00Z",
+        "price": 3.685
+      },
+      {
+        "t": "2026-07-08T16:55:00Z",
+        "price": 3.69
+      },
+      {
+        "t": "2026-07-08T17:00:00Z",
+        "price": 3.675
+      },
+      {
+        "t": "2026-07-08T17:05:00Z",
+        "price": 3.675
+      },
+      {
+        "t": "2026-07-08T17:10:00Z",
+        "price": 3.66
+      },
+      {
+        "t": "2026-07-08T17:15:00Z",
+        "price": 3.665
+      },
+      {
+        "t": "2026-07-08T17:18:21Z",
+        "price": 3.67
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
+        "published_at": "2026-06-25T12:31:22Z",
+        "source": "TradingView",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Hauptversammlung von Recursion Pharmaceuticals: Aktionäre stimmen allen Vorschlägen zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRlNqMWFpUnBnWGhvWnQ0TUJhRDgxdFAyY1lWdnB1NXRZY2R5ZU03QkgtYTFVZDI0VnR3MDh6TE5tTTZJNHV3VWY0ZTltMEdCdmdCOWFvdlZtRFhZT1VncUp2SWVaQzVGWEllY0R0YU80SXY0dXlMUEtEcFFfNkpmUEFhTVRNczFOWTRsa3FycjF0b2pwTmRSRl92YjF1SGRlaHdybU1HT2dKWEthUkk4elBueXFOU2liamE5U215aHBQeDRPYm96YnE4bGU3QW9UUHNTc0F3QQ?oc=5",
+        "published_at": "2026-06-18T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
+      {
+        "title": "Recursion Pharmaceuticals Inc expected to post a loss of 27 cents a share - Earnings Preview - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM3R3c0k2LW04ZFV2WV93MEVtVWhCV2RCbXB0WUJGTTAxcDdfNjlsX1pmS2IycjJCUlRDOUZlaHJYaHRzX05nd1I4aFZfSEFIOFFFbXllQkR0Nnh1QXVCSnc5dnVJajI1dXVOcGg3emxFMm90cDd6WXhsRHJUV2p2a2xvU25kQm5YZ19qeUl3TmZvSDFkSS1UeG03eHc0ZkNYdjlrQmFReG1ua1dYZFV2TXJpOERENlBoVjVGUVk3aHh6dllXeDBVTTFkeFhidEx2UlhMUm1vcEVsT180dTdmbDVLQXBaMVF5b2J0Q0JYUEE?oc=5",
+        "published_at": "2026-05-04T07:00:00Z",
+        "source": "TradingView",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 19
+      },
+      {
+        "title": "Recursion Pharmaceuticals: Aktie stürzt nach komplettem NVIDIA-Ausstieg ab - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhnRXFrLUZibWFIYkkwV04yYklOQkt3dTVHTkRrV2tDZnJIMW1BMk83cWg1YURQc3Z2YVVaQl9FWTlLeUtSdDVjQ3plcm5oOWxoSVlQWEFlNlpaQ1lQT0ZwaDlJb1FqUnlTVjdRT1R0bFcxdXRQbTZHaWJObGJZZU1GRmJYaTA1b0FFbjZqeG00T3JnQ01VZ215a0xjWXoxOWV4YTlsUEpMa0tfUUxEQUdKbG1Qd1k4VXNfZWw1MFZGazBRNzZ2V1hMczZRZw?oc=5",
+        "published_at": "2026-02-18T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
+      {
+        "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXhpaXh2Tngya3pMeWFpcUNBcmpOOEpGMXNLMlNVNHlFU18xRk12TjhfS21IeGVEd09UaTJYUFRER3lYWVE4aHFHcHRuRGRMczBlVU1OR1J4Wm1abU90aUZocGEtaUdDUWU3VThUd2VwQ1VEdTFrRjB6dkF6dDZLVEEyWlcwdEdVU1dtZ0dPX2dnTDl5ZVk4YV83ZWVaSU1KbHVjYjZwdTNwQkJGdk1RbHp5amFQcHc?oc=5",
+        "published_at": "2025-09-18T07:00:00Z",
+        "source": "TIKR.com",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 25
+      },
+      {
+        "title": "Warum ist die Recursion Pharma-Aktie heute um 100% gestiegen? - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUWpRRlBXcUdMdk5NM19rN0hOWUlDTllSVHA5X1kyYmNLZ29xNGVTQ0FZQTNkcVEtS0NRTzFqM0Q3T3VDNlFXTzctOE00VnQ1aDExbXFqM3d2WXF1cExiZl9hRFl3YU1CNU1nY0ZNX25zRU5yR0JVd3VKam5uV3RiLXgwdmRvTnltSTFac3hFLUE4MGlBeTM2b01sSVN0Ymg0el9QVGlhdGZRRGczcU4tZUdSVldtZHMxYmVoZA?oc=5",
+        "published_at": "2023-07-12T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
+        "published_at": "2021-04-16T06:05:44Z",
+        "source": "TradingView",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      }
+    ],
     "sec_filings": [
       {
         "form": "144",
@@ -825,6 +1010,18 @@
         "reason": "Studienregister-Treffer: RECRUITING PHASE1",
         "source": "NCT07517198",
         "date": "2026-04-13"
+      },
+      {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Recursion Pharmaceuticals Inc expected to post a loss of 27 cents a share - Earnings Preview - TradingView",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "TradingView",
+        "date": "2026-05-04T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM3R3c0k2LW04ZFV2WV93MEVtVWhCV2RCbXB0WUJGTTAxcDdfNjlsX1pmS2IycjJCUlRDOUZlaHJYaHRzX05nd1I4aFZfSEFIOFFFbXllQkR0Nnh1QXVCSnc5dnVJajI1dXVOcGg3emxFMm90cDd6WXhsRHJUV2p2a2xvU25kQm5YZ19qeUl3TmZvSDFkSS1UeG03eHc0ZkNYdjlrQmFReG1ua1dYZFV2TXJpOERENlBoVjVGUVk3aHh6dllXeDBVTTFkeFhidEx2UlhMUm1vcEVsT180dTdmbDVLQXBaMVF5b2J0Q0JYUEE?oc=5"
       },
       {
         "type": "SEC · Unternehmensereignis",
