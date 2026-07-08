@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$5.27",
-      "note": "Auto-Update: 0.0% vs. vorheriger Schlusskurs",
+      "value": "$5.17",
+      "note": "Auto-Update: -1.9% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-08T18:52:13Z",
+    "last_update_utc": "2026-07-08T20:15:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 5.27,
+      "regularMarketPrice": 5.17,
       "previousClose": 5.27,
-      "change": 0.0,
-      "changePercent": 0.0,
-      "regularMarketTime": "2026-07-08T18:52:03Z",
+      "change": -0.1,
+      "changePercent": -1.9,
+      "regularMarketTime": "2026-07-08T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,10 +326,6 @@
       "fiftyTwoWeekRange": "2.53 – 6.75"
     },
     "price_history": [
-      {
-        "t": "2026-06-08T13:30:00Z",
-        "price": 3.81
-      },
       {
         "t": "2026-06-09T13:30:00Z",
         "price": 3.89
@@ -408,7 +404,7 @@
       },
       {
         "t": "2026-07-08T13:30:00Z",
-        "price": 5.27
+        "price": 5.17
       }
     ],
     "price_history_1d": [
@@ -670,11 +666,63 @@
       },
       {
         "t": "2026-07-08T18:50:00Z",
-        "price": 5.265
+        "price": 5.275
       },
       {
-        "t": "2026-07-08T18:52:03Z",
-        "price": 5.27
+        "t": "2026-07-08T18:55:00Z",
+        "price": 5.295
+      },
+      {
+        "t": "2026-07-08T19:00:00Z",
+        "price": 5.2501
+      },
+      {
+        "t": "2026-07-08T19:05:00Z",
+        "price": 5.2686
+      },
+      {
+        "t": "2026-07-08T19:10:00Z",
+        "price": 5.285
+      },
+      {
+        "t": "2026-07-08T19:15:00Z",
+        "price": 5.335
+      },
+      {
+        "t": "2026-07-08T19:20:00Z",
+        "price": 5.325
+      },
+      {
+        "t": "2026-07-08T19:25:00Z",
+        "price": 5.315
+      },
+      {
+        "t": "2026-07-08T19:30:00Z",
+        "price": 5.325
+      },
+      {
+        "t": "2026-07-08T19:35:00Z",
+        "price": 5.305
+      },
+      {
+        "t": "2026-07-08T19:40:00Z",
+        "price": 5.295
+      },
+      {
+        "t": "2026-07-08T19:45:00Z",
+        "price": 5.305
+      },
+      {
+        "t": "2026-07-08T19:50:00Z",
+        "price": 5.29
+      },
+      {
+        "t": "2026-07-08T19:55:00Z",
+        "price": 5.17
+      },
+      {
+        "t": "2026-07-08T20:00:00Z",
+        "price": 5.17
       }
     ],
     "price_history_range": "1mo",
@@ -727,6 +775,38 @@
         "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "relevance_score": 22
+      },
+      {
+        "title": "Atai Beckley Aktie: BPL-003 vor FDA-Phase Q4 2026 - stock-world.de",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSFhqeHRxcFV1TXY5ZmdRQ0tqT2tFS1VPaUF4U2xLai1wQVE4Szlvc0dDNjI3WXdxVEJxNlRpWlJDUUJSYWYxY2xrZHRMUzJUQ3pjb0phZmZSUFREUThOamRuTkM2Wnd1X1FCYk11WXVpLUN1YmRManBZekJuR2RMdmx3?oc=5",
+        "published_at": "2026-07-01T10:38:04Z",
+        "source": "stock-world.de",
+        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 22
+      },
+      {
+        "title": "Führt die Aufnahme von AtaiBeckley (ATAI) in den Russell-Index dazu, dass die Pipeline des Unternehmens im Bereich psychische Gesundheit nun als zentrale Benchmark-Geschichte betrachtet wird? - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVHF0bnY1aXZQWGc3dG01QUNmMW1Ra0l0WXpDaGxxWV9EZGFKYXJDN1VXS2NYNTh5Tl9nZl9ZSUdBVFd1X0RvemhHekdySGpPd05IX2dVLVRvSjR3SlBQQmw3MWVjSExnSDlPcUhrZG9PWG5OdDBoT2s5UkdrODdTNmdLZ2dyaUJKR2t5b3h1RWwwOVhnWDNBcUVVaUtvOG5UN3R5eTVfWHQ2M1hoSFppTjllaHNXYkwycmEza1psZHlmblFmd05pLUZnNmtna3VlcjNWQ21MVm9oUmc0RGxhc3Nn0gHnAUFVX3lxTE1wQlBZaEpteHk2UFN2TEVhaTRBSGo2ZVBrc0pVSmViaDdocTBnR2NSM3pLV3dubVBKY05MQmpRUDBMUzg0VFB1UTNGc2xiemZXM3JTcWdzUXFLczBNME85TkxOb1BtdXYtYkN0U1UtVDVJUUQ1T1R1enBhTzB5Mkh2RWI1SVZvZjdjTHBSRG0ydlJCRkhOcUZFQ1BoUENjNWthQ3BVRlZaUnBVclJWQ281UDZhcU0tZTljM2V3ejJsMGtlWVptV0gyTzh2X19vZFpwekpQSk1iRGVxNG44ZmxGWGN2ZXdtOA?oc=5",
+        "published_at": "2026-06-27T06:59:29Z",
+        "source": "simplywall.st",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 18
       },
       {
         "title": "ATAI Prognose — Kursziel für 2027 - TradingView",
@@ -1001,22 +1081,6 @@
         "relevance_score": 8
       },
       {
-        "title": "ATAIBECKLEY AKTIE | Aktienkurs | US04650F1012 | ATAI | A41WEP | News - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWV2NXWFI4ZWVrWks3MU9nSkF5eWtjSGhBdGZzc1NsY2xOVGw1R09TdEYxUmt6RWl6RU1HRHlmMklZMW1ZVEwyYkVRUkF0Uk1HQ3NkdWF1NFVOczVWTlE?oc=5",
-        "published_at": "2026-01-06T06:23:56Z",
-        "source": "Finanzen.net",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 18
-      },
-      {
         "title": "AtaiBeckley Inc.: Konsensus der Analysten und Kursziel | A41WEP | US04650F1012 - MarketScreener Deutschland",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRWJZOHFTRmJ1UW9HWUdTMVRMVlJ5cy1xSlp0RVJMZnFaTFl3bmVoTl9sTXhCZzdWTkRzZFZYSTdXdUdxT1Y0YnBSaTJnY19vRm9jRlF5ZHNnT21pbFR1ekI4b0ExOTZ0VkFocEQzLUZtMTB4T2xMVjhwOW1PVDM1VFgydjFQS0FPdXY3Wi0zdWtGdw?oc=5",
         "published_at": "2026-01-04T13:13:31Z",
@@ -1031,6 +1095,22 @@
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "relevance_score": 15
+      },
+      {
+        "title": "atai Life Sciences platziert öffentliches Angebot über 130 Millionen US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYkF4cGJ6eVJNZDQ0OURqRmZtbkM0UElCOHpZbWVtR0o4UFNHMTJnRi1YQWF4UEU1cEoyQkZoel8wZmRDMl9PdUcwZkMyZERQMjU3bHdaV0FWU3NWUnVMQTBrRmF6c3RGa0ZyNThTN1RERGxXQmdkcGVWTlBzNVlaVFF4R1FLdTFlOVQzSDJmMzh5ZkVCbVlBbUtWRU5KUFE1b3RZbnZoa1ZyQmgyWVhWM3ZYb0Q5MEtlMGtTNmVrXzNzMmhHVVJzV1dUb0J0dw?oc=5",
+        "published_at": "2025-10-17T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ATAI EMP-01 VLS-01 FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "ETFs investiert in AtaiBeckley Inc.-Aktien - TradingView",
@@ -1403,6 +1483,18 @@
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNemdGQVZJR1pnN0Q5dDZvaWp5SWtwTmVjZ1NOYTZjLUc2MGMzUVJQSXNra0d3TlhBU09laHdBQUdRS1NReUNDVkJPUk1leWdiOW1lN19TemFNd0FUazZFVkhyZ1QxcWFyLU5KQlJkQmpRTlViQ0JvVXE4a1ZTb2MtdGdSUi03ZTNOOVdIUC1rYnhkekQ1OVVWUE1hMWNLSzJ2LWZKcmFhYUhldw?oc=5"
       },
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Atai Beckley Aktie: BPL-003 vor FDA-Phase Q4 2026 - stock-world.de",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "stock-world.de",
+        "date": "2026-07-01T10:38:04Z",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSFhqeHRxcFV1TXY5ZmdRQ0tqT2tFS1VPaUF4U2xLai1wQVE4Szlvc0dDNjI3WXdxVEJxNlRpWlJDUUJSYWYxY2xrZHRMUzJUQ3pjb0phZmZSUFREUThOamRuTkM2Wnd1X1FCYk11WXVpLUN1YmRManBZekJuR2RMdmx3?oc=5"
+      },
+      {
         "type": "Studienphase / Readout",
         "level": "high",
         "title": "Atai Beckley Aktie: BPL-003 startet Phase III im Q2 2026 - AD HOC NEWS",
@@ -1597,14 +1689,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-22"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-08",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-08"
       },
       {
         "type": "SEC Filing",
