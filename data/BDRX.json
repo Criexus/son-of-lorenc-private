@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.60",
-      "note": "Auto-Update: -10.65% vs. vorheriger Schlusskurs",
+      "value": "$2.55",
+      "note": "Auto-Update: -15.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-09T10:17:40Z",
+    "last_update_utc": "2026-07-09T15:50:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.6,
-      "previousClose": 2.91,
-      "change": -0.31,
-      "changePercent": -10.65,
-      "regularMarketTime": "2026-07-08T20:00:00Z",
+      "regularMarketPrice": 2.55,
+      "previousClose": 3.0,
+      "change": -0.45,
+      "changePercent": -15.0,
+      "regularMarketTime": "2026-07-09T15:03:16Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -293,36 +293,20 @@
       {
         "t": "2026-07-08T13:30:00Z",
         "price": 2.6
+      },
+      {
+        "t": "2026-07-09T13:30:00Z",
+        "price": 2.55
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-08T13:30:00Z",
-        "price": 2.65
+        "t": "2026-07-09T14:40:00Z",
+        "price": 2.56
       },
       {
-        "t": "2026-07-08T14:10:00Z",
-        "price": 2.6499
-      },
-      {
-        "t": "2026-07-08T14:15:00Z",
-        "price": 2.6315
-      },
-      {
-        "t": "2026-07-08T19:00:00Z",
-        "price": 2.65
-      },
-      {
-        "t": "2026-07-08T19:20:00Z",
-        "price": 2.5
-      },
-      {
-        "t": "2026-07-08T19:55:00Z",
-        "price": 2.61
-      },
-      {
-        "t": "2026-07-08T20:00:00Z",
-        "price": 2.6
+        "t": "2026-07-09T15:03:16Z",
+        "price": 2.55
       }
     ],
     "price_history_range": "1mo",
@@ -505,16 +489,6 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04230499",
-        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Familial Adenomatous Polyposis",
-        "last_update": "",
-        "start_date": "2021-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT04230499"
-      },
-      {
         "nct_id": "NCT07689942",
         "title": "Expanded Access to 0.5 mg eRapa for Familial Adenomatous Polyposis",
         "status": "AVAILABLE",
@@ -523,6 +497,16 @@
         "last_update": "",
         "start_date": "",
         "url": "https://clinicaltrials.gov/study/NCT07689942"
+      },
+      {
+        "nct_id": "NCT05324501",
+        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Glioblastoma",
+        "last_update": "",
+        "start_date": "2022-10-19",
+        "url": "https://clinicaltrials.gov/study/NCT05324501"
       },
       {
         "nct_id": "NCT06950385",
@@ -535,14 +519,14 @@
         "url": "https://clinicaltrials.gov/study/NCT06950385"
       },
       {
-        "nct_id": "NCT05324501",
-        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
-        "status": "TERMINATED",
-        "phase": "PHASE1",
-        "conditions": "Recurrent Glioblastoma",
+        "nct_id": "NCT04230499",
+        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
         "last_update": "",
-        "start_date": "2022-10-19",
-        "url": "https://clinicaltrials.gov/study/NCT05324501"
+        "start_date": "2021-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT04230499"
       }
     ],
     "detected_triggers": [
