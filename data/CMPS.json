@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.64",
-      "note": "Auto-Update: 2.63% vs. vorheriger Schlusskurs",
+      "value": "$13.71",
+      "note": "Auto-Update: 3.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-09T15:51:10Z",
+    "last_update_utc": "2026-07-09T17:46:03Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.64,
+      "regularMarketPrice": 13.71,
       "previousClose": 13.29,
-      "change": 0.35,
-      "changePercent": 2.63,
-      "regularMarketTime": "2026-07-09T15:50:47Z",
+      "change": 0.42,
+      "changePercent": 3.16,
+      "regularMarketTime": "2026-07-09T17:45:03Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-09T13:30:00Z",
-        "price": 13.64
+        "price": 13.71
       }
     ],
     "price_history_1d": [
@@ -530,8 +530,100 @@
         "price": 13.645
       },
       {
-        "t": "2026-07-09T15:50:47Z",
+        "t": "2026-07-09T15:50:00Z",
+        "price": 13.54
+      },
+      {
+        "t": "2026-07-09T15:55:00Z",
         "price": 13.64
+      },
+      {
+        "t": "2026-07-09T16:00:00Z",
+        "price": 13.71
+      },
+      {
+        "t": "2026-07-09T16:05:00Z",
+        "price": 13.745
+      },
+      {
+        "t": "2026-07-09T16:10:00Z",
+        "price": 13.74
+      },
+      {
+        "t": "2026-07-09T16:15:00Z",
+        "price": 13.75
+      },
+      {
+        "t": "2026-07-09T16:20:00Z",
+        "price": 13.665
+      },
+      {
+        "t": "2026-07-09T16:25:00Z",
+        "price": 13.665
+      },
+      {
+        "t": "2026-07-09T16:30:00Z",
+        "price": 13.74
+      },
+      {
+        "t": "2026-07-09T16:35:00Z",
+        "price": 13.76
+      },
+      {
+        "t": "2026-07-09T16:40:00Z",
+        "price": 13.83
+      },
+      {
+        "t": "2026-07-09T16:45:00Z",
+        "price": 13.84
+      },
+      {
+        "t": "2026-07-09T16:50:00Z",
+        "price": 13.84
+      },
+      {
+        "t": "2026-07-09T16:55:00Z",
+        "price": 13.83
+      },
+      {
+        "t": "2026-07-09T17:00:00Z",
+        "price": 13.83
+      },
+      {
+        "t": "2026-07-09T17:05:00Z",
+        "price": 13.82
+      },
+      {
+        "t": "2026-07-09T17:10:00Z",
+        "price": 13.7832
+      },
+      {
+        "t": "2026-07-09T17:15:00Z",
+        "price": 13.75
+      },
+      {
+        "t": "2026-07-09T17:20:00Z",
+        "price": 13.74
+      },
+      {
+        "t": "2026-07-09T17:25:00Z",
+        "price": 13.73
+      },
+      {
+        "t": "2026-07-09T17:30:00Z",
+        "price": 13.73
+      },
+      {
+        "t": "2026-07-09T17:35:00Z",
+        "price": 13.69
+      },
+      {
+        "t": "2026-07-09T17:40:00Z",
+        "price": 13.7
+      },
+      {
+        "t": "2026-07-09T17:45:03Z",
+        "price": 13.71
       }
     ],
     "price_history_range": "1mo",
@@ -616,22 +708,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 18
-      },
-      {
-        "title": "Compass Pathways: COMP006 mit 3,8-Punkte-Vorteil - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEtDck4xMFpaeG1hMFRSYkRZaGtaN0szS0VSbmZSbHdsT21vaWR1UUlsVVQ0WnhJeFBLUWVJb2tPLUM4WHV1NU5tNWdUOV9jTUtUdzRFTXRlMkhIRmpFNV94Z0JEcktwbF9EdjRDbHFuVkNjck9QblNGdnVOSExoeXBjLWQ5RWtyNmZCQkI1el96YXFKbzktbmkyS3I1Yjg?oc=5",
-        "published_at": "2026-06-29T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
       },
       {
         "title": "COMPASS Pathways mit Psilocybin-Fokus, Studie und Termine rücken Aktie in den Marktvergleich - Ad-hoc-news.de",
@@ -794,6 +870,22 @@
         "relevance_score": 17
       },
       {
+        "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - Ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzB2eEVoLXQ2VjNmXzJsZ19UTTZQMVgwZnBPdzFqMEdWUk90R0xqTEVJTXlLZGRDOHIwaDlOdWxlenZBOWtOTkUtdnBreGh5NHFKekU1LURnYS1qeG50TUI1MzZ4MjVVQ1hTeGdBM1VnVWJ6M2laV3J2d2FoYUdIc2loTmdrb2JQaUVzbW56UnU0T01VelpYdUJzLXFXSjN5WEJLX05ld1NjWDFxMVRsNElPcVB1T1U?oc=5",
+        "published_at": "2026-05-13T07:00:00Z",
+        "source": "Ad-hoc-news.de",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 21
+      },
+      {
         "title": "Compass Pathways: 1–2 Monate FDA-Prüfung für COMP360 - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNEFLRmM1YnFoN2RjcFJVSGNEZllFQmlBc3BxZExGWUgxYmU4cGI2bHNjNTRrZ29pN2VuMlQzQVBKUUxjSE93MGEzRmhoUHFtcUdPX3BTN2ZTSFkycEM2QkQ1Nk1nTS0xTVlKQWVLdTgwYmJsTWZjQW9icVpneEFsbUVlbEtsQnBMMk53dXIxYjhhck5C?oc=5",
         "published_at": "2026-05-02T07:00:00Z",
@@ -903,6 +995,22 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways PLC reports results for the quarter ended June 30 - Earnings Summary - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYlNBSVdqVTNwNDlLaEFBdW0xckd5ZGpIRXg5SkliZGsxREhHOVBtSnl1N2RtMVpzV04tNGRTYzhkdUZkd0hWN2txVFI2cVcxdTlEbWZkcjRKeUoyTzZzc1N2YjZQVkN0RFVsQWd2TkxBZE4yaG5sN0JWLTBjdXg3SVpJSGw2Q3VBU3p4VkZ1aHc4dzRXdzJQZlBLSlBtM3NmWExMM2gwLWNBUzlCWWc0VlNMY0xiSVpQcy01TGxXaUE1QjVFd0RvQ3dBemwwLVh0eWcxaVRJV2QwOVZQYmdtd2RhdTFLZTA?oc=5",
+        "published_at": "2025-07-31T07:00:00Z",
+        "source": "TradingView",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 17
       },
       {
@@ -1296,6 +1404,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - Ad-hoc-news.de",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Ad-hoc-news.de",
+        "date": "2026-05-13T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzB2eEVoLXQ2VjNmXzJsZ19UTTZQMVgwZnBPdzFqMEdWUk90R0xqTEVJTXlLZGRDOHIwaDlOdWxlenZBOWtOTkUtdnBreGh5NHFKekU1LURnYS1qeG50TUI1MzZ4MjVVQ1hTeGdBM1VnVWJ6M2laV3J2d2FoYUdIc2loTmdrb2JQaUVzbW56UnU0T01VelpYdUJzLXFXSjN5WEJLX05ld1NjWDFxMVRsNElPcVB1T1U?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "COMP360-Daten von Compass Pathways stützen laut RBC die Chancen auf eine FDA-Zulassung - MarketScreener Deutschland",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1394,6 +1514,18 @@
         "date": "2025-07-10"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Compass Pathways PLC reports results for the quarter ended June 30 - Earnings Summary - TradingView",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "TradingView",
+        "date": "2025-07-31T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYlNBSVdqVTNwNDlLaEFBdW0xckd5ZGpIRXg5SkliZGsxREhHOVBtSnl1N2RtMVpzV04tNGRTYzhkdUZkd0hWN2txVFI2cVcxdTlEbWZkcjRKeUoyTzZzc1N2YjZQVkN0RFVsQWd2TkxBZE4yaG5sN0JWLTBjdXg3SVpJSGw2Q3VBU3p4VkZ1aHc4dzRXdzJQZlBLSlBtM3NmWExMM2gwLWNBUzlCWWc0VlNMY0xiSVpQcy01TGxXaUE1QjVFd0RvQ3dBemwwLVh0eWcxaVRJV2QwOVZQYmdtd2RhdTFLZTA?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
@@ -1480,22 +1612,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-27"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-03-27",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-27"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "ARS · 2026-04-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-15"
       }
     ],
     "queries_used": [
