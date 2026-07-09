@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.70",
-      "note": "Auto-Update: 3.09% vs. vorheriger Schlusskurs",
+      "value": "$13.60",
+      "note": "Auto-Update: 2.33% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-09T19:19:55Z",
+    "last_update_utc": "2026-07-09T20:59:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.7,
+      "regularMarketPrice": 13.6,
       "previousClose": 13.29,
-      "change": 0.41,
-      "changePercent": 3.09,
-      "regularMarketTime": "2026-07-09T19:19:25Z",
+      "change": 0.31,
+      "changePercent": 2.33,
+      "regularMarketTime": "2026-07-09T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "3.45 – 15.4"
     },
     "price_history": [
-      {
-        "t": "2026-06-09T13:30:00Z",
-        "price": 11.26
-      },
       {
         "t": "2026-06-10T13:30:00Z",
         "price": 11.03
@@ -413,7 +409,7 @@
       },
       {
         "t": "2026-07-09T13:30:00Z",
-        "price": 13.7
+        "price": 13.6
       }
     ],
     "price_history_1d": [
@@ -695,16 +691,64 @@
       },
       {
         "t": "2026-07-09T19:15:00Z",
-        "price": 13.695
+        "price": 13.7
       },
       {
-        "t": "2026-07-09T19:19:25Z",
+        "t": "2026-07-09T19:20:00Z",
         "price": 13.7
+      },
+      {
+        "t": "2026-07-09T19:25:00Z",
+        "price": 13.71
+      },
+      {
+        "t": "2026-07-09T19:30:00Z",
+        "price": 13.72
+      },
+      {
+        "t": "2026-07-09T19:35:00Z",
+        "price": 13.745
+      },
+      {
+        "t": "2026-07-09T19:40:00Z",
+        "price": 13.7
+      },
+      {
+        "t": "2026-07-09T19:45:00Z",
+        "price": 13.63
+      },
+      {
+        "t": "2026-07-09T19:50:00Z",
+        "price": 13.48
+      },
+      {
+        "t": "2026-07-09T19:55:00Z",
+        "price": 13.61
+      },
+      {
+        "t": "2026-07-09T20:00:00Z",
+        "price": 13.6
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
+        "published_at": "2026-07-09T11:38:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
       {
         "title": "COMP360-Daten von Compass Pathways stützen laut RBC die Chancen auf eine FDA-Zulassung - MarketScreener Deutschland",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTjRtalZqYlJhcE5GS2dpRXBYSTNydDkzazBScldLejlHUzBKZFI5SnZ0UnlTX05adXNUX1V4dmgzOEhMNUlBWms0NjZLNkFLbEhCZm8wY083d1h2WjlOd181cGR3ZVJTaTRMOUdiSkFsRmxCYjVPd1RCZUszS2R4Tl9lajlHSGZ1YUJ5bnp1T2VhR2s0MmkxczFxUS1QVDVWTDF0Yi15TWJGbjZoSEVYMHlUZDFCanNDQlNTQ3JIT3ZVTmtzOGg0akdpdmRBQldwYVlaQVE5YjN4M2FvaEozaUY4a1loWGV2?oc=5",
@@ -722,19 +766,19 @@
         "relevance_score": 21
       },
       {
-        "title": "Oppenheimer bestätigt Rating für Compass Pathways nach Langzeitdaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUHBuRXlXakd1MnUyUElYUWtxYjhlTWFmdFVBNDlCT1RKckFNTG1FcUFKLW1teG51VGt6NHBwZmVzT3hxQndpek1GRXRWaFR5ajlBb0VLeWF1TFRvUWJCMklER20yVjZ6cEJxSklNNExSSUYzZ0ZJQ2VpRi1INHpJMzlMV1NGWTUwaVpwb1RPbnhZcEpxS1Y0UlNCUjhFSEF2OVEwdldublhLcVVManpzcHNOendGcHNZXzBKMEpFR3pXRE1VWkE?oc=5",
-        "published_at": "2026-07-07T17:03:00Z",
+        "title": "Canaccord bestätigt Einstufung für Compass Pathways nach Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHoyQnhsRkkxem1vMkpyVERNZ1QyZWVLclYzN1JLdXM2MTExZzA2MEdQV1lpMlJjc0MyRm94eWpUN0RVZkk2a2tJZ19SVXh5WVVoYmdzNlh3emRRbTlUNWN1WWp2MzhMb3UwOTZSUjd1dXJsT1Atclg4MExRWjJqMXpyRUktS04yNENHUVlqYXpyQ1o2bHN4THFwOVg1X2h0RXRhN0dMR3hzemV1aXdWTm93WDRidTVuQzFLM0JpOXh4WmVTODZB?oc=5",
+        "published_at": "2026-07-08T11:39:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Analysten / Kursziel",
+        "trigger_type": "Allgemeine News",
         "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -774,7 +818,7 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRHpWRTdqbWVIU3Bfd09lMV9yZ0dyTm1VcGJzd3NjeVJZQVM3cGpvSnNLNGhVbU1wYVRwdmc0UkJRWnlNVndMSHJnN0QtNjZ5UkN0RldlMVJqOXducXNtcXdCdnNvU3BGZVRNblFwaDNRVTlsck94LTBRakNBSHVBU3dQc3V6ZVRiUkJONTUtZDBTVkp2QWRXY0dmblNDSkpxMENjLUNmQ3RqV0QxLVhqRGxXRXN3VC12SHBBSmpvMDZ1Vi1WVk0tRFluMXQ?oc=5",
         "published_at": "2026-06-27T04:31:25Z",
         "source": "Ad-hoc-news.de",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

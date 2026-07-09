@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.48",
-      "note": "Auto-Update: -17.33% vs. vorheriger Schlusskurs",
+      "value": "$2.59",
+      "note": "Auto-Update: -13.67% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-09T19:19:38Z",
+    "last_update_utc": "2026-07-09T20:59:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.48,
+      "regularMarketPrice": 2.59,
       "previousClose": 3.0,
-      "change": -0.52,
-      "changePercent": -17.33,
-      "regularMarketTime": "2026-07-09T19:13:07Z",
+      "change": -0.41,
+      "changePercent": -13.67,
+      "regularMarketTime": "2026-07-09T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,10 +214,6 @@
       "fiftyTwoWeekRange": "2.45 – 66.5"
     },
     "price_history": [
-      {
-        "t": "2026-06-09T13:30:00Z",
-        "price": 3.1
-      },
       {
         "t": "2026-06-10T13:30:00Z",
         "price": 3.01
@@ -296,7 +292,7 @@
       },
       {
         "t": "2026-07-09T13:30:00Z",
-        "price": 2.48
+        "price": 2.59
       }
     ],
     "price_history_1d": [
@@ -337,8 +333,20 @@
         "price": 2.56
       },
       {
-        "t": "2026-07-09T19:13:07Z",
+        "t": "2026-07-09T19:10:00Z",
         "price": 2.48
+      },
+      {
+        "t": "2026-07-09T19:20:00Z",
+        "price": 2.5
+      },
+      {
+        "t": "2026-07-09T19:55:00Z",
+        "price": 2.6
+      },
+      {
+        "t": "2026-07-09T20:00:00Z",
+        "price": 2.59
       }
     ],
     "price_history_range": "1mo",
@@ -378,6 +386,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "6-K",
+        "filingDate": "2026-07-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926008398/w792616k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "424B3",
         "filingDate": "2026-07-01",
@@ -508,13 +523,6 @@
         "form": "424B3",
         "filingDate": "2026-04-02",
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004253/bio424b3_333272693.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "EFFECT",
-        "filingDate": "2026-03-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526000982/xslEFFECTX01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -743,20 +751,20 @@
         "date": "2026-07-01"
       },
       {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-07-09",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-09"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Expanded Access to 0.5 mg eRapa for Familial Adenomatous Polyposis",
         "reason": "Studienregister-Treffer: AVAILABLE ",
         "source": "NCT07689942",
         "date": ""
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "EFFECT · 2026-03-30",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-03-30"
       },
       {
         "type": "SEC Filing",
