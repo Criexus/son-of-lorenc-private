@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.52",
-      "note": "Auto-Update: -0.77% vs. vorheriger Schlusskurs",
+      "value": "$13.78",
+      "note": "Auto-Update: 1.14% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-10T16:13:28Z",
+    "last_update_utc": "2026-07-10T18:06:35Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.515,
+      "regularMarketPrice": 13.775,
       "previousClose": 13.62,
-      "change": -0.105,
-      "changePercent": -0.77,
-      "regularMarketTime": "2026-07-10T16:12:50Z",
+      "change": 0.155,
+      "changePercent": 1.14,
+      "regularMarketTime": "2026-07-10T18:06:19Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-10T13:30:00Z",
-        "price": 13.515
+        "price": 13.775
       }
     ],
     "price_history_1d": [
@@ -547,11 +547,103 @@
       },
       {
         "t": "2026-07-10T16:10:00Z",
-        "price": 13.48
+        "price": 13.52
       },
       {
-        "t": "2026-07-10T16:12:50Z",
-        "price": 13.515
+        "t": "2026-07-10T16:15:00Z",
+        "price": 13.55
+      },
+      {
+        "t": "2026-07-10T16:20:00Z",
+        "price": 13.51
+      },
+      {
+        "t": "2026-07-10T16:25:00Z",
+        "price": 13.5228
+      },
+      {
+        "t": "2026-07-10T16:30:00Z",
+        "price": 13.55
+      },
+      {
+        "t": "2026-07-10T16:35:00Z",
+        "price": 13.57
+      },
+      {
+        "t": "2026-07-10T16:40:00Z",
+        "price": 13.75
+      },
+      {
+        "t": "2026-07-10T16:45:00Z",
+        "price": 13.77
+      },
+      {
+        "t": "2026-07-10T16:50:00Z",
+        "price": 13.855
+      },
+      {
+        "t": "2026-07-10T16:55:00Z",
+        "price": 13.935
+      },
+      {
+        "t": "2026-07-10T17:00:00Z",
+        "price": 13.94
+      },
+      {
+        "t": "2026-07-10T17:05:00Z",
+        "price": 13.8
+      },
+      {
+        "t": "2026-07-10T17:10:00Z",
+        "price": 13.715
+      },
+      {
+        "t": "2026-07-10T17:15:00Z",
+        "price": 13.68
+      },
+      {
+        "t": "2026-07-10T17:20:00Z",
+        "price": 13.7
+      },
+      {
+        "t": "2026-07-10T17:25:00Z",
+        "price": 13.76
+      },
+      {
+        "t": "2026-07-10T17:30:00Z",
+        "price": 13.795
+      },
+      {
+        "t": "2026-07-10T17:35:00Z",
+        "price": 13.715
+      },
+      {
+        "t": "2026-07-10T17:40:00Z",
+        "price": 13.77
+      },
+      {
+        "t": "2026-07-10T17:45:00Z",
+        "price": 13.84
+      },
+      {
+        "t": "2026-07-10T17:50:00Z",
+        "price": 13.83
+      },
+      {
+        "t": "2026-07-10T17:55:00Z",
+        "price": 13.775
+      },
+      {
+        "t": "2026-07-10T18:00:00Z",
+        "price": 13.79
+      },
+      {
+        "t": "2026-07-10T18:05:00Z",
+        "price": 13.78
+      },
+      {
+        "t": "2026-07-10T18:06:19Z",
+        "price": 13.775
       }
     ],
     "price_history_range": "1mo",
@@ -561,22 +653,6 @@
         "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
         "published_at": "2026-07-09T11:38:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Canaccord bestätigt Einstufung für Compass Pathways nach Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHoyQnhsRkkxem1vMkpyVERNZ1QyZWVLclYzN1JLdXM2MTExZzA2MEdQV1lpMlJjc0MyRm94eWpUN0RVZkk2a2tJZ19SVXh5WVVoYmdzNlh3emRRbTlUNWN1WWp2MzhMb3UwOTZSUjd1dXJsT1Atclg4MExRWjJqMXpyRUktS04yNENHUVlqYXpyQ1o2bHN4THFwOVg1X2h0RXRhN0dMR3hzemV1aXdWTm93WDRidTVuQzFLM0JpOXh4WmVTODZB?oc=5",
-        "published_at": "2026-07-08T11:39:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
@@ -638,10 +714,10 @@
         "relevance_score": 18
       },
       {
-        "title": "COMPASS Pathways mit Psilocybin-Fokus, Studie und Termine rücken Aktie in den Marktvergleich - AD HOC NEWS",
+        "title": "COMPASS Pathways mit Psilocybin-Fokus, Studie und Termine rücken Aktie in den Marktvergleich - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRHpWRTdqbWVIU3Bfd09lMV9yZ0dyTm1VcGJzd3NjeVJZQVM3cGpvSnNLNGhVbU1wYVRwdmc0UkJRWnlNVndMSHJnN0QtNjZ5UkN0RldlMVJqOXducXNtcXdCdnNvU3BGZVRNblFwaDNRVTlsck94LTBRakNBSHVBU3dQc3V6ZVRiUkJONTUtZDBTVkp2QWRXY0dmblNDSkpxMENjLUNmQ3RqV0QxLVhqRGxXRXN3VC12SHBBSmpvMDZ1Vi1WVk0tRFluMXQ?oc=5",
         "published_at": "2026-06-27T04:31:25Z",
-        "source": "AD HOC NEWS",
+        "source": "ad-hoc-news.de",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -654,10 +730,10 @@
         "relevance_score": 18
       },
       {
-        "title": "COMPASS Pathways Q1-Ausblick, Psychedelika-Biotech mit NASDAQ-Aktie - AD HOC NEWS",
+        "title": "COMPASS Pathways Q1-Ausblick, Psychedelika-Biotech mit NASDAQ-Aktie - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR0NRSFpKSW5WbFpzYTVoYnNUMWZmQ0tyYVpxT0xVS2tDSF84WURITFR4ZmZwclRRaURBWkxHYTNGRFNMandpTDJldW55cVFzSjRIYmZVZ1BDSy0zWW9Fb19uUWIyMXB5QmRLeUg4NlVqTjBfTG5ycXRyZFFOQzhaY0lBNVVYV3V4UF9VZjBRRlM2TEdzdjl4YlRHOTF1NmtBaGVSSkZMSDhmMDd1WURvc2ttanF2ZVNGME81S2M2b09jYm8?oc=5",
         "published_at": "2026-06-26T07:40:57Z",
-        "source": "AD HOC NEWS",
+        "source": "ad-hoc-news.de",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -686,10 +762,10 @@
         "relevance_score": 17
       },
       {
-        "title": "COMPASS Pathways Aktie - Analystenblick und Strategie am Dienstag - AD HOC NEWS",
+        "title": "COMPASS Pathways Aktie - Analystenblick und Strategie am Dienstag - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONEF5WS0zaE9VM2ttSTdnS3Q3dGNTdHc3Wk1va00wbElPT0ZYS29YbDZGenRsc3ZNeEozTXJRaHlYUTF2cExaNFBSREV5QlpuelNHZE13b2NDRS1vWVBVVTBFTHhHRDNWcTNNc1ZwQ1U0a2lkNjhsWGZmeVNCVlNnSnM5d2pWSHpKZHVESFJTMFJIclBERE52bmowZ1J0UlVPVl9xMjZvSS1MYTV5MDF3eGdHTEpEcHNqT0JoQlF4Yw?oc=5",
         "published_at": "2026-06-22T06:40:17Z",
-        "source": "AD HOC NEWS",
+        "source": "ad-hoc-news.de",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Analysten / Kursziel",
@@ -770,7 +846,7 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTng5eVE3bE53WG1rMk1MTFdvUnlNWW1aQkx1eUlRNXFweFBSOXAyaTFFV2haMnJnM0owcHVBeFItWlN5N25KX2FBdUctcmNqdXN2VC0zaXRnLWtSTEtac1BmTmQzSkNpdzBobTNRR0tOUEdyMEJfX2FDb1JHNEl0THJlazByeVUwbkQyTTNPT01ObjJYLW1tS3VYWF9PZHBRSU12SnVIa1U1WHp3aFNuNXY4QnZTODZMdTFn?oc=5",
         "published_at": "2026-05-18T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "CMPS stock news",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -779,7 +855,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 16
+        "relevance_score": 17
       },
       {
         "title": "Compass Pathways Aktie erreicht Zwei-Jahres-Hoch nach Kapitalaufstockung - aktien.news",
@@ -798,10 +874,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - AD HOC NEWS",
+        "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzB2eEVoLXQ2VjNmXzJsZ19UTTZQMVgwZnBPdzFqMEdWUk90R0xqTEVJTXlLZGRDOHIwaDlOdWxlenZBOWtOTkUtdnBreGh5NHFKekU1LURnYS1qeG50TUI1MzZ4MjVVQ1hTeGdBM1VnVWJ6M2laV3J2d2FoYUdIc2loTmdrb2JQaUVzbW56UnU0T01VelpYdUJzLXFXSjN5WEJLX05ld1NjWDFxMVRsNElPcVB1T1U?oc=5",
         "published_at": "2026-05-13T07:00:00Z",
-        "source": "AD HOC NEWS",
+        "source": "ad-hoc-news.de",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
@@ -828,22 +904,6 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 21
-      },
-      {
-        "title": "Compass Pathways: FDA gewährt beschleunigtes Prüfverfahren für Depressionsmedikament – Aktie steigt - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMFNEWU42SGdGeUpnYkJYbFpVV2o4R256dmwxZnVQUFZkYkJ0SHFabmRDYVVnRzV0UkNROU44S3EzdE9ELVRjaVZsUF80VzYwNnVPY25aR2E3WU9rU3hVaVI4V2JHd0dqMUxjQlc0ajQ0aTRvUTlkMzVuOHFHVTBGVnFXYUZqZ3hhZ0U3VmluM2Q3REcxSU45YjNFUnlZWG5jMWJ5YXVJRVV3RnRLZkRvVEItc3dpLTU1a2tJNmp5NHh3MzRGeXZJRndqcVZXRXhjOXoxeTgzX3J0MDZmRXA4RE4wWVhqaGUz?oc=5",
-        "published_at": "2026-04-24T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "CMPS FDA COMP360",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 16
       },
       {
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
@@ -1308,18 +1368,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Compass Pathways: FDA gewährt beschleunigtes Prüfverfahren für Depressionsmedikament – Aktie steigt - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-04-24T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMFNEWU42SGdGeUpnYkJYbFpVV2o4R256dmwxZnVQUFZkYkJ0SHFabmRDYVVnRzV0UkNROU44S3EzdE9ELVRjaVZsUF80VzYwNnVPY25aR2E3WU9rU3hVaVI4V2JHd0dqMUxjQlc0ajQ0aTRvUTlkMzVuOHFHVTBGVnFXYUZqZ3hhZ0U3VmluM2Q3REcxSU45YjNFUnlZWG5jMWJ5YXVJRVV3RnRLZkRvVEItc3dpLTU1a2tJNmp5NHh3MzRGeXZJRndqcVZXRXhjOXoxeTgzX3J0MDZmRXA4RE4wWVhqaGUz?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Compass Pathways: 1–2 Monate FDA-Prüfung für COMP360 - kapitalmarktexperten.de",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1332,12 +1380,12 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - AD HOC NEWS",
+        "title": "Compass Pathways: COMP360 mit rollierender FDA-Einreichung - ad-hoc-news.de",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "AD HOC NEWS",
+        "source": "ad-hoc-news.de",
         "date": "2026-05-13T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzB2eEVoLXQ2VjNmXzJsZ19UTTZQMVgwZnBPdzFqMEdWUk90R0xqTEVJTXlLZGRDOHIwaDlOdWxlenZBOWtOTkUtdnBreGh5NHFKekU1LURnYS1qeG50TUI1MzZ4MjVVQ1hTeGdBM1VnVWJ6M2laV3J2d2FoYUdIc2loTmdrb2JQaUVzbW56UnU0T01VelpYdUJzLXFXSjN5WEJLX05ld1NjWDFxMVRsNElPcVB1T1U?oc=5"
       },
@@ -1472,12 +1520,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "COMPASS Pathways Q1-Ausblick, Psychedelika-Biotech mit NASDAQ-Aktie - AD HOC NEWS",
+        "title": "COMPASS Pathways Q1-Ausblick, Psychedelika-Biotech mit NASDAQ-Aktie - ad-hoc-news.de",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "AD HOC NEWS",
+        "source": "ad-hoc-news.de",
         "date": "2026-06-26T07:40:57Z",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR0NRSFpKSW5WbFpzYTVoYnNUMWZmQ0tyYVpxT0xVS2tDSF84WURITFR4ZmZwclRRaURBWkxHYTNGRFNMandpTDJldW55cVFzSjRIYmZVZ1BDSy0zWW9Fb19uUWIyMXB5QmRLeUg4NlVqTjBfTG5ycXRyZFFOQzhaY0lBNVVYV3V4UF9VZjBRRlM2TEdzdjl4YlRHOTF1NmtBaGVSSkZMSDhmMDd1WURvc2ttanF2ZVNGME81S2M2b09jYm8?oc=5"
       },
@@ -1536,6 +1584,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-27"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "ARS · 2026-04-15",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-15"
       }
     ],
     "queries_used": [
