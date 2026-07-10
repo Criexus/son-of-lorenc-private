@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.78",
-      "note": "Auto-Update: 1.14% vs. vorheriger Schlusskurs",
+      "value": "$13.70",
+      "note": "Auto-Update: 0.55% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-10T18:06:35Z",
+    "last_update_utc": "2026-07-10T19:57:12Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.775,
+      "regularMarketPrice": 13.695,
       "previousClose": 13.62,
-      "change": 0.155,
-      "changePercent": 1.14,
-      "regularMarketTime": "2026-07-10T18:06:19Z",
+      "change": 0.075,
+      "changePercent": 0.55,
+      "regularMarketTime": "2026-07-10T19:57:03Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-10T13:30:00Z",
-        "price": 13.775
+        "price": 13.695
       }
     ],
     "price_history_1d": [
@@ -639,16 +639,120 @@
       },
       {
         "t": "2026-07-10T18:05:00Z",
-        "price": 13.78
+        "price": 13.775
       },
       {
-        "t": "2026-07-10T18:06:19Z",
-        "price": 13.775
+        "t": "2026-07-10T18:10:00Z",
+        "price": 13.81
+      },
+      {
+        "t": "2026-07-10T18:15:00Z",
+        "price": 13.735
+      },
+      {
+        "t": "2026-07-10T18:20:00Z",
+        "price": 13.732
+      },
+      {
+        "t": "2026-07-10T18:25:00Z",
+        "price": 13.71
+      },
+      {
+        "t": "2026-07-10T18:30:00Z",
+        "price": 13.67
+      },
+      {
+        "t": "2026-07-10T18:35:00Z",
+        "price": 13.62
+      },
+      {
+        "t": "2026-07-10T18:40:00Z",
+        "price": 13.66
+      },
+      {
+        "t": "2026-07-10T18:45:00Z",
+        "price": 13.63
+      },
+      {
+        "t": "2026-07-10T18:50:00Z",
+        "price": 13.63
+      },
+      {
+        "t": "2026-07-10T18:55:00Z",
+        "price": 13.625
+      },
+      {
+        "t": "2026-07-10T19:00:00Z",
+        "price": 13.65
+      },
+      {
+        "t": "2026-07-10T19:05:00Z",
+        "price": 13.58
+      },
+      {
+        "t": "2026-07-10T19:10:00Z",
+        "price": 13.51
+      },
+      {
+        "t": "2026-07-10T19:15:00Z",
+        "price": 13.505
+      },
+      {
+        "t": "2026-07-10T19:20:00Z",
+        "price": 13.505
+      },
+      {
+        "t": "2026-07-10T19:25:00Z",
+        "price": 13.52
+      },
+      {
+        "t": "2026-07-10T19:30:00Z",
+        "price": 13.57
+      },
+      {
+        "t": "2026-07-10T19:35:00Z",
+        "price": 13.545
+      },
+      {
+        "t": "2026-07-10T19:40:00Z",
+        "price": 13.68
+      },
+      {
+        "t": "2026-07-10T19:45:00Z",
+        "price": 13.63
+      },
+      {
+        "t": "2026-07-10T19:50:00Z",
+        "price": 13.662
+      },
+      {
+        "t": "2026-07-10T19:55:00Z",
+        "price": 13.69
+      },
+      {
+        "t": "2026-07-10T19:57:04Z",
+        "price": 13.695
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "CHCT stock holds steady as Compass paths stay in view - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMHA0OXhFNWtybDZENkZ3b0VUUkZaYVhaWF96a1R3RGo1ODcwT3Y2Mzkta0xWdmo2WVE0c0g4aXBhc1dWdWRoWi1oSzRVRVNwMHJveWV5VUlLT0FBVE5BMkcxaTNlVmZDVzBaZDFLa1h2YmFQNTdjV1diUnY5MloxT1JsczhQQTEtczJvUFZycllHaDFxX3k5ckFpeTJfejk0SUxwLWkzODBuVWJVejFTVURn?oc=5",
+        "published_at": "2026-07-10T19:09:07Z",
+        "source": "ad-hoc-news.de",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      },
       {
         "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
@@ -842,22 +946,6 @@
         "relevance_score": 21
       },
       {
-        "title": "Compass Pathways: Mehrere Katalysatoren beflügeln die Aktie - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTng5eVE3bE53WG1rMk1MTFdvUnlNWW1aQkx1eUlRNXFweFBSOXAyaTFFV2haMnJnM0owcHVBeFItWlN5N25KX2FBdUctcmNqdXN2VC0zaXRnLWtSTEtac1BmTmQzSkNpdzBobTNRR0tOUEdyMEJfX2FDb1JHNEl0THJlazByeVUwbkQyTTNPT01ObjJYLW1tS3VYWF9PZHBRSU12SnVIa1U1WHp3aFNuNXY4QnZTODZMdTFn?oc=5",
-        "published_at": "2026-05-18T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways Aktie erreicht Zwei-Jahres-Hoch nach Kapitalaufstockung - aktien.news",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeTQ2Wl9rc0tPWk9wREZ0SU1lRE5sN3RXc0djenBBbFlRR1hFcUlJQXVhOHNZdlVPWjFMckZEbDN0VXQ4MjNVUW5FZlpsOW5VUHFfdTZLWG1qOWNuTEwyMURfYmhScXppWjlzQTlaNl9ycnREX3RQSVVFX1piZFI2UVZab19fbHJ4YzFCLTVNdm8xRlBqaUV0MndEQ1E?oc=5",
         "published_at": "2026-05-14T07:00:00Z",
@@ -1018,10 +1106,10 @@
         "relevance_score": 19
       },
       {
-        "title": "COMPASS Pathways Aktie • A2QCDR • US20451W1018 - Onvista",
+        "title": "COMPASS Pathways Aktie • A2QCDR • US20451W1018 - OnVista",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45UnVId215bmR1TFZtazJWbk13N2dTVkVuZlJJLWV2eHVMUDNQNVF0QTUtSTlnajRlckFNeHk4ZlEzNjBxM2pGdUlnSjNrdnhkRUFMNFNrYS10MmVqcm9LcHR1UFpmaGZWUTZBRmp1amJfRWM?oc=5",
         "published_at": "2020-09-24T11:33:47Z",
-        "source": "Onvista",
+        "source": "OnVista",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
