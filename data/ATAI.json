@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-11T17:27:32Z",
+    "last_update_utc": "2026-07-11T18:14:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -1049,19 +1049,19 @@
         "relevance_score": 18
       },
       {
-        "title": "ATAI Life Sciences: Phase 3 startet - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUZmbWhnS3RZam9ISzB3X0NXUzBqU0VacE1ZejU1QldUek83RHdyNVFIanExeTl5Q3FpejVjMFZpdzlPdG5MazZUV3RfYzZxNllHdExoQXRBOURNX05mc0o2bmZzZDgxWXJqTUVyM1F1ekhaNGUxZHdBblhMcmxuRUNJanQxSXlIdXgwUjV5TQ?oc=5",
-        "published_at": "2026-03-15T07:00:00Z",
+        "title": "ATAI Life Sciences Aktie: Durchbruch bestätigt - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalRFMTdiZjFoYXdMLXdHTktvZDlBaUJkdVd1UV9MNTFjaVNDVlE1XzFobm01OUFla2Z0ZXJzRF83MG1RbHNpN0VIdm9YMzVIVXM3ODE2eUhZNmltTkJNZXB5RmFxVEJYZXVJVkFWdkpEX3Uyb1ZGZG1HV3FGWW82VENCN2FMVldReEhlVFQ4M2dTV1d0d2d1MWkyTlF5Mms?oc=5",
+        "published_at": "2026-04-11T07:00:00Z",
         "source": "Börse Express",
         "query": "ATAI stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Studienphase / Readout",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
       },
       {
@@ -1435,18 +1435,6 @@
       {
         "type": "Studienphase / Readout",
         "level": "high",
-        "title": "ATAI Life Sciences: Phase 3 startet - Börse Express",
-        "reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "source": "Börse Express",
-        "date": "2026-03-15T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSUZmbWhnS3RZam9ISzB3X0NXUzBqU0VacE1ZejU1QldUek83RHdyNVFIanExeTl5Q3FpejVjMFZpdzlPdG5MazZUV3RfYzZxNllHdExoQXRBOURNX05mc0o2bmZzZDgxWXJqTUVyM1F1ekhaNGUxZHdBblhMcmxuRUNJanQxSXlIdXgwUjV5TQ?oc=5"
-      },
-      {
-        "type": "Studienphase / Readout",
-        "level": "high",
         "title": "Atai Beckley Aktie: BPL-003-Phase 3 startet Q2 2026 - ad-hoc-news.de",
         "reason": "Trigger erkannt: Studienphase / Readout.",
         "impact": "potenziell hoher klinischer Trigger",
@@ -1711,6 +1699,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-08",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-08"
       },
       {
         "type": "SEC Filing",
