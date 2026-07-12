@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-12T21:38:10Z",
+    "last_update_utc": "2026-07-12T22:36:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -707,6 +707,38 @@
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Die Rocket-Pharmaceuticals-Aktie bleibt vom Entwicklungsportfolio gestützt - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcEREd0E2R3hxeVVHdVpSR3ZtRWJ1eXY4MjloeVlmU1dKeEVTWU1zZndOMW1ON1NBQkxGc1NYNGJuOFZNWkN6dDhOSm5XandnZlpoTHZuRTViNUc2VWpNWW53X0NZQi1TVW9leDVnZHRycFp4SGxxZi0xdkNXMWdhcG1TYW1PTkdGaWVrTy1rR2ZnUFMzQjFjY200My0wTnRWTWFRU3JsaVVDdmtUYWNqb0VfQk9aV3REb2tNTVNSaE4wdw?oc=5",
+        "published_at": "2026-07-11T08:40:49Z",
+        "source": "ad-hoc-news.de",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 11
+      },
+      {
+        "title": "Rocket Pharmaceuticals Aktie - Hintergrund und Analystenblick am Donnerstag - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb2I2eVBaMmJKTWYwcnE1MXp1cWVFUml0Yks1ekVYYjJxc094VGJVMkk2QWRpVEE0QWUxUzMxV05pTTZveklhaFhOT0E2YXpSNDFUdTdsUnlRYndxWnB3dE9DNzE5elIyTzJPR1dzSmNpTk5xVmU3aGxPeUxsRWhrVWFMTDJsUDQ0aDZUbWFMVTdxUW1rMld1allxVGFIdXRYazA1OTRDV1pERTZqOUJHXzFxazRkMVhqRUlzaGNB?oc=5",
+        "published_at": "2026-06-18T07:00:00Z",
+        "source": "ad-hoc-news.de",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 23
+      },
       {
         "title": "Rocket Pharmaceuticals erhält RMAT-Status der FDA für RP-A601 Gentherapie bei PKP2-Arrhythmogener Kardiomyopathie - MarketScreener Deutschland",
         "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcmhYb19POE5fMXh3WG4tazBlNGZmX2VxdkJCVFgxNkxzMFE1QVdWVEtLcUpHVURHbk9UUlhnOHVLMHhtVWJGTlVJbFpDdVdHQks4cXJwVUJkNGY5VEdXUTFpU1lxY1lydFF3WFJsdy1wbTFRTWtWTl9hR2tmUjE1dDY1NTBsZER6UU1Kb0lJRHBxeV92RVdXOXJmVS1oR0QzMTFtNGs2SFUyQV9rWVhWbkk5aGlieXRkREpSRTFRVGdoME9TaVd1bmNvanNkYVpDcU1QeGVJTHZDSmQtRGtlaGJYdXZCWThtbjBuMjlJcUlhOWtUR0NEZWREemg?oc=5",
@@ -1264,12 +1296,16 @@
         "date": "2026-05-28"
       },
       {
-        "type": "SEC Filing",
+        "type": "Analysten / Kursziel",
         "level": "low",
-        "title": "4 · 2026-07-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-06"
+        "title": "Rocket Pharmaceuticals Aktie - Hintergrund und Analystenblick am Donnerstag - ad-hoc-news.de",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "ad-hoc-news.de",
+        "date": "2026-06-18T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb2I2eVBaMmJKTWYwcnE1MXp1cWVFUml0Yks1ekVYYjJxc094VGJVMkk2QWRpVEE0QWUxUzMxV05pTTZveklhaFhOT0E2YXpSNDFUdTdsUnlRYndxWnB3dE9DNzE5elIyTzJPR1dzSmNpTk5xVmU3aGxPeUxsRWhrVWFMTDJsUDQ0aDZUbWFMVTdxUW1rMld1allxVGFIdXRYazA1OTRDV1pERTZqOUJHXzFxazRkMVhqRUlzaGNB?oc=5"
       },
       {
         "type": "SEC Filing",
