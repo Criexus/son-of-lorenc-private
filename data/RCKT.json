@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.91",
-      "note": "Auto-Update: 1.82% vs. vorheriger Schlusskurs",
+      "value": "$3.79",
+      "note": "Auto-Update: -4.89% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-13T11:34:57Z",
+    "last_update_utc": "2026-07-13T14:00:44Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.91,
-      "previousClose": 3.84,
-      "change": 0.07,
-      "changePercent": 1.82,
-      "regularMarketTime": "2026-07-10T20:00:00Z",
+      "regularMarketPrice": 3.795,
+      "previousClose": 3.99,
+      "change": -0.195,
+      "changePercent": -4.89,
+      "regularMarketTime": "2026-07-13T14:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -305,14 +305,6 @@
       "fiftyTwoWeekRange": "2.53 – 5.45"
     },
     "price_history": [
-      {
-        "t": "2026-06-11T13:30:00Z",
-        "price": 2.66
-      },
-      {
-        "t": "2026-06-12T13:30:00Z",
-        "price": 2.75
-      },
       {
         "t": "2026-06-15T13:30:00Z",
         "price": 2.86
@@ -384,324 +376,40 @@
       {
         "t": "2026-07-10T13:30:00Z",
         "price": 3.91
+      },
+      {
+        "t": "2026-07-13T13:30:00Z",
+        "price": 3.795
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-10T13:30:00Z",
-        "price": 4.03
+        "t": "2026-07-13T13:30:00Z",
+        "price": 3.76
       },
       {
-        "t": "2026-07-10T13:35:00Z",
-        "price": 3.958
+        "t": "2026-07-13T13:35:00Z",
+        "price": 3.761
       },
       {
-        "t": "2026-07-10T13:40:00Z",
-        "price": 3.9
+        "t": "2026-07-13T13:40:00Z",
+        "price": 3.7694
       },
       {
-        "t": "2026-07-10T13:45:00Z",
-        "price": 3.945
+        "t": "2026-07-13T13:45:00Z",
+        "price": 3.78
       },
       {
-        "t": "2026-07-10T13:50:00Z",
-        "price": 3.93
+        "t": "2026-07-13T13:50:00Z",
+        "price": 3.775
       },
       {
-        "t": "2026-07-10T13:55:00Z",
-        "price": 3.939
+        "t": "2026-07-13T13:55:00Z",
+        "price": 3.795
       },
       {
-        "t": "2026-07-10T14:00:00Z",
-        "price": 3.925
-      },
-      {
-        "t": "2026-07-10T14:05:00Z",
-        "price": 3.905
-      },
-      {
-        "t": "2026-07-10T14:10:00Z",
-        "price": 3.89
-      },
-      {
-        "t": "2026-07-10T14:15:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-07-10T14:20:00Z",
-        "price": 3.8699
-      },
-      {
-        "t": "2026-07-10T14:25:00Z",
-        "price": 3.88
-      },
-      {
-        "t": "2026-07-10T14:30:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T14:35:00Z",
-        "price": 3.8551
-      },
-      {
-        "t": "2026-07-10T14:40:00Z",
-        "price": 3.8499
-      },
-      {
-        "t": "2026-07-10T14:45:00Z",
-        "price": 3.845
-      },
-      {
-        "t": "2026-07-10T14:50:00Z",
-        "price": 3.805
-      },
-      {
-        "t": "2026-07-10T14:55:00Z",
-        "price": 3.785
-      },
-      {
-        "t": "2026-07-10T15:00:00Z",
-        "price": 3.8201
-      },
-      {
-        "t": "2026-07-10T15:05:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T15:10:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-07-10T15:15:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T15:20:00Z",
-        "price": 3.88
-      },
-      {
-        "t": "2026-07-10T15:25:00Z",
-        "price": 3.89
-      },
-      {
-        "t": "2026-07-10T15:30:00Z",
-        "price": 3.8986
-      },
-      {
-        "t": "2026-07-10T15:35:00Z",
-        "price": 3.8701
-      },
-      {
-        "t": "2026-07-10T15:40:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T15:45:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T15:50:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T15:55:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T16:00:00Z",
-        "price": 3.8598
-      },
-      {
-        "t": "2026-07-10T16:05:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-07-10T16:10:00Z",
-        "price": 3.88
-      },
-      {
-        "t": "2026-07-10T16:15:00Z",
-        "price": 3.895
-      },
-      {
-        "t": "2026-07-10T16:20:00Z",
-        "price": 3.895
-      },
-      {
-        "t": "2026-07-10T16:25:00Z",
-        "price": 3.9186
-      },
-      {
-        "t": "2026-07-10T16:30:00Z",
-        "price": 3.9186
-      },
-      {
-        "t": "2026-07-10T16:35:00Z",
-        "price": 3.925
-      },
-      {
-        "t": "2026-07-10T16:40:00Z",
-        "price": 3.935
-      },
-      {
-        "t": "2026-07-10T16:45:00Z",
-        "price": 3.935
-      },
-      {
-        "t": "2026-07-10T16:50:00Z",
-        "price": 3.95
-      },
-      {
-        "t": "2026-07-10T16:55:00Z",
-        "price": 3.96
-      },
-      {
-        "t": "2026-07-10T17:00:00Z",
-        "price": 3.96
-      },
-      {
-        "t": "2026-07-10T17:05:00Z",
-        "price": 3.985
-      },
-      {
-        "t": "2026-07-10T17:10:00Z",
-        "price": 4.0
-      },
-      {
-        "t": "2026-07-10T17:15:00Z",
-        "price": 4.01
-      },
-      {
-        "t": "2026-07-10T17:20:00Z",
-        "price": 4.035
-      },
-      {
-        "t": "2026-07-10T17:25:00Z",
-        "price": 4.03
-      },
-      {
-        "t": "2026-07-10T17:30:00Z",
-        "price": 4.04
-      },
-      {
-        "t": "2026-07-10T17:35:00Z",
-        "price": 4.035
-      },
-      {
-        "t": "2026-07-10T17:40:00Z",
-        "price": 4.035
-      },
-      {
-        "t": "2026-07-10T17:45:00Z",
-        "price": 4.05
-      },
-      {
-        "t": "2026-07-10T17:50:00Z",
-        "price": 4.05
-      },
-      {
-        "t": "2026-07-10T17:55:00Z",
-        "price": 4.0009
-      },
-      {
-        "t": "2026-07-10T18:00:00Z",
-        "price": 3.985
-      },
-      {
-        "t": "2026-07-10T18:05:00Z",
-        "price": 3.975
-      },
-      {
-        "t": "2026-07-10T18:10:00Z",
-        "price": 3.975
-      },
-      {
-        "t": "2026-07-10T18:15:00Z",
-        "price": 3.965
-      },
-      {
-        "t": "2026-07-10T18:20:00Z",
-        "price": 3.9505
-      },
-      {
-        "t": "2026-07-10T18:25:00Z",
-        "price": 3.955
-      },
-      {
-        "t": "2026-07-10T18:30:00Z",
-        "price": 3.955
-      },
-      {
-        "t": "2026-07-10T18:35:00Z",
-        "price": 3.94
-      },
-      {
-        "t": "2026-07-10T18:40:00Z",
-        "price": 3.935
-      },
-      {
-        "t": "2026-07-10T18:45:00Z",
-        "price": 3.935
-      },
-      {
-        "t": "2026-07-10T18:50:00Z",
-        "price": 3.935
-      },
-      {
-        "t": "2026-07-10T18:55:00Z",
-        "price": 3.935
-      },
-      {
-        "t": "2026-07-10T19:00:00Z",
-        "price": 3.965
-      },
-      {
-        "t": "2026-07-10T19:05:00Z",
-        "price": 3.975
-      },
-      {
-        "t": "2026-07-10T19:10:00Z",
-        "price": 3.965
-      },
-      {
-        "t": "2026-07-10T19:15:00Z",
-        "price": 3.9523
-      },
-      {
-        "t": "2026-07-10T19:20:00Z",
-        "price": 3.955
-      },
-      {
-        "t": "2026-07-10T19:25:00Z",
-        "price": 3.965
-      },
-      {
-        "t": "2026-07-10T19:30:00Z",
-        "price": 3.965
-      },
-      {
-        "t": "2026-07-10T19:35:00Z",
-        "price": 3.94
-      },
-      {
-        "t": "2026-07-10T19:40:00Z",
-        "price": 3.9425
-      },
-      {
-        "t": "2026-07-10T19:45:00Z",
-        "price": 3.945
-      },
-      {
-        "t": "2026-07-10T19:50:00Z",
-        "price": 3.925
-      },
-      {
-        "t": "2026-07-10T19:55:00Z",
-        "price": 3.9
-      },
-      {
-        "t": "2026-07-10T20:00:00Z",
-        "price": 3.91
+        "t": "2026-07-13T14:00:00Z",
+        "price": 3.795
       }
     ],
     "price_history_range": "1mo",
@@ -772,10 +480,10 @@
         "relevance_score": 23
       },
       {
-        "title": "BofA senkt Kursziel für Rocket Pharmaceuticals auf 32 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMng1b3lKUjVVYW9iR0hydElLQzNFbFktYng1OFkzVnZQaG5jVnRUQ0p0M0NObm5vSnVrcG9TeTlfVENZZGg4SXVONFBxNVNobWxUc3E4aFlTTW9EU1pqVVA4R2h6VGwwUG9jcXI3U1ZhbWtHb09lQlZzUl9fMFNwNWZ0aXdmZjJ4NGR6dDdFc0JxVXNWcmNUZWpXeS1qNEw4Rk4tcE1lNWoxazF1UWZWeHVqOTVJZ0NTbDVVUkFmdnduNGF6d2V2Y3JRWFFPUFptcGkxTWk0LVppdXpsRlJzNA?oc=5",
-        "published_at": "2025-05-27T07:00:00Z",
-        "source": "Investing.com Deutsch",
+        "title": "ROCKET PHARMACEUTICALS AKTIE | Aktienkurs | US77313F1066 | RCKT | A2JA9Q | News - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZUZNMS1KeFFRaFRWU2ZVbVlWMDV3dlVyUHVQSHNVTzhaNVBaakdlZXMwdDlPUG5kN0ZDb0M5N0szT3cwUjJFaVZiajhOdEFQMjM5NkQtdTRBWnFqTURSb0F4emVlOW54aHg5WQ?oc=5",
+        "published_at": "2018-02-19T15:53:56Z",
+        "source": "Finanzen.net",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -785,7 +493,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
+        "relevance_score": 26
       },
       {
         "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - Fierce Biotech",
@@ -948,54 +656,14 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05659901",
-        "title": "Rocket Study: A Study to Characterize Biomarkers and Disease Progression in Participants With Pelizaeus-Merzbacher Disease",
+        "nct_id": "NCT05408715",
+        "title": "A Natural History Study in Children With a Type II Collagen Disorder With Short Stature",
         "status": "RECRUITING",
         "phase": "",
-        "conditions": "Pelizaeus-Merzbacher Disease",
+        "conditions": "SEDC, Hypochondrogenesis, Semd, Strudwick Type, Kniest Dysplasia",
         "last_update": "",
-        "start_date": "2022-10-03",
-        "url": "https://clinicaltrials.gov/study/NCT05659901"
-      },
-      {
-        "nct_id": "NCT03812263",
-        "title": "A Clinical Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
-        "status": "COMPLETED",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Leukocyte Adhesion Defect - Type I",
-        "last_update": "",
-        "start_date": "2019-08-30",
-        "url": "https://clinicaltrials.gov/study/NCT03812263"
-      },
-      {
-        "nct_id": "NCT03825783",
-        "title": "A Gene Therapy Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
-        "status": "WITHDRAWN",
-        "phase": "PHASE1",
-        "conditions": "Leukocyte Adhesion Defect - Type I",
-        "last_update": "",
-        "start_date": "2019-04-15",
-        "url": "https://clinicaltrials.gov/study/NCT03825783"
-      },
-      {
-        "nct_id": "NCT03490994",
-        "title": "Rivaroxaban Once Daily Versus Dose-adjusted Vitamin K Antagonist on the Biomarkers in Acute Decompensated Heart Failure and Atrial Fibrillation (ROAD HF-AF)",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Acute Heart Failure",
-        "last_update": "",
-        "start_date": "2018-04-10",
-        "url": "https://clinicaltrials.gov/study/NCT03490994"
-      },
-      {
-        "nct_id": "NCT07527975",
-        "title": "Long-Term Follow-up: Phase I/II Clinical Study to Evaluate the Safety and Efficacy of the Infusion of RP-L102",
-        "status": "ENROLLING_BY_INVITATION",
-        "phase": "",
-        "conditions": "Fanconi Anemia",
-        "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT07527975"
+        "start_date": "2022-06-29",
+        "url": "https://clinicaltrials.gov/study/NCT05408715"
       },
       {
         "nct_id": "NCT06224192",
@@ -1008,34 +676,14 @@
         "url": "https://clinicaltrials.gov/study/NCT06224192"
       },
       {
-        "nct_id": "NCT03882437",
-        "title": "Gene Therapy for Male Patients With Danon Disease (DD) Using RP-A501; AAV9.LAMP2B",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Danon Disease",
+        "nct_id": "NCT06644742",
+        "title": "PKP2-ACM Natural History Study",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Cardiomyopathies, Heart Diseases, Cardiovascular Diseases, Genetic Diseases",
         "last_update": "",
-        "start_date": "2019-04-17",
-        "url": "https://clinicaltrials.gov/study/NCT03882437"
-      },
-      {
-        "nct_id": "NCT02096354",
-        "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Colorectal Neoplasms",
-        "last_update": "",
-        "start_date": "2014-05",
-        "url": "https://clinicaltrials.gov/study/NCT02096354"
-      },
-      {
-        "nct_id": "NCT07667894",
-        "title": "Mindfulness Intervention for Emotional Distress (MIED) in Patients With GERD",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Gastroesophageal Reflux Disease, Emotional Distress",
-        "last_update": "",
-        "start_date": "2026-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT07667894"
+        "start_date": "2026-03",
+        "url": "https://clinicaltrials.gov/study/NCT06644742"
       },
       {
         "nct_id": "NCT02937974",
@@ -1048,34 +696,84 @@
         "url": "https://clinicaltrials.gov/study/NCT02937974"
       },
       {
-        "nct_id": "NCT07333053",
-        "title": "Clinical Efficacy of Transarterial Infusion Chemotherapy for Unresectable Colorectal Cancer",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Unresectable Colorectal Cancer",
+        "nct_id": "NCT06422351",
+        "title": "Clinical Trial to Evaluate the Efficacy of Gene Therapy for Pyruvate Kinase Deficiency",
+        "status": "SUSPENDED",
+        "phase": "PHASE2",
+        "conditions": "Pyruvate Kinase Deficiency",
         "last_update": "",
-        "start_date": "2026-03-31",
-        "url": "https://clinicaltrials.gov/study/NCT07333053"
+        "start_date": "2026-04",
+        "url": "https://clinicaltrials.gov/study/NCT06422351"
       },
       {
-        "nct_id": "NCT06282432",
-        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
-        "status": "ACTIVE_NOT_RECRUITING",
+        "nct_id": "NCT02642419",
+        "title": "Atrial Fibrillation and Ischemic Events With Rivaroxaban in Patients With Stable Coronary Artery Disease Study",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Atrial Fibrillation",
+        "last_update": "",
+        "start_date": "2015-01",
+        "url": "https://clinicaltrials.gov/study/NCT02642419"
+      },
+      {
+        "nct_id": "NCT04588259",
+        "title": "Research Study to Compare a New Medicine \"Fast-acting Insulin Aspart\" to Another Medicine \"Insulin Aspart\" in Chinese People With Diabetes",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Diabetes Mellitus, Type 1, Diabetes Mellitus, Type 2",
+        "last_update": "",
+        "start_date": "2020-10-09",
+        "url": "https://clinicaltrials.gov/study/NCT04588259"
+      },
+      {
+        "nct_id": "NCT02096354",
+        "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Colorectal Neoplasms",
+        "last_update": "",
+        "start_date": "2014-05",
+        "url": "https://clinicaltrials.gov/study/NCT02096354"
+      },
+      {
+        "nct_id": "NCT04069533",
+        "title": "Lentiviral-mediated Gene Therapy for Pediatric Patients With Fanconi Anemia Subtype A",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Fanconi Anemia Complementation Group A",
+        "last_update": "",
+        "start_date": "2019-11-28",
+        "url": "https://clinicaltrials.gov/study/NCT04069533"
+      },
+      {
+        "nct_id": "NCT05548855",
+        "title": "Natural History of Danon Disease",
+        "status": "COMPLETED",
         "phase": "",
-        "conditions": "Leukocyte Adhesion Deficiency",
+        "conditions": "Danon Disease",
         "last_update": "",
-        "start_date": "2022-03-09",
-        "url": "https://clinicaltrials.gov/study/NCT06282432"
+        "start_date": "2022-09-26",
+        "url": "https://clinicaltrials.gov/study/NCT05548855"
       },
       {
-        "nct_id": "NCT07486752",
-        "title": "BAG3-DCM Natural History Study",
+        "nct_id": "NCT06779825",
+        "title": "Impact of Stimulants and In-Scanner Motion on Attentive Task Performance in ADHD (ADHD_NFB)",
         "status": "NOT_YET_RECRUITING",
         "phase": "",
-        "conditions": "Dilated Cardiomyopathy (DCM), Cardiovascular Diseases, Heart Diseases, Genetic Diseases",
+        "conditions": "ADHD",
         "last_update": "",
-        "start_date": "2026-05",
-        "url": "https://clinicaltrials.gov/study/NCT07486752"
+        "start_date": "2025-02",
+        "url": "https://clinicaltrials.gov/study/NCT06779825"
+      },
+      {
+        "nct_id": "NCT02987062",
+        "title": "MultiCenter expeRience in AFib Patients Treated With OAC (CRAFT)",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Atrial Fibrillation",
+        "last_update": "",
+        "start_date": "2016-11",
+        "url": "https://clinicaltrials.gov/study/NCT02987062"
       },
       {
         "nct_id": "NCT05487040",
@@ -1088,14 +786,24 @@
         "url": "https://clinicaltrials.gov/study/NCT05487040"
       },
       {
-        "nct_id": "NCT06779825",
-        "title": "Impact of Stimulants and In-Scanner Motion on Attentive Task Performance in ADHD (ADHD_NFB)",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "ADHD",
+        "nct_id": "NCT03403855",
+        "title": "Rocket® Pleural Catheters: QOL, Feasibility and Satisfaction in Recurrent MPE Patients",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Malignant Pleural Effusion",
         "last_update": "",
-        "start_date": "2025-02",
-        "url": "https://clinicaltrials.gov/study/NCT06779825"
+        "start_date": "2018-03-07",
+        "url": "https://clinicaltrials.gov/study/NCT03403855"
+      },
+      {
+        "nct_id": "NCT00403767",
+        "title": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Atrial Fibrillation, Stroke, Embolism",
+        "last_update": "",
+        "start_date": "2006-12",
+        "url": "https://clinicaltrials.gov/study/NCT00403767"
       }
     ],
     "detected_triggers": [
@@ -1126,10 +834,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
+        "title": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00403767",
+        "date": "2006-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
         "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
         "source": "NCT02096354",
         "date": "2014-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Atrial Fibrillation and Ischemic Events With Rivaroxaban in Patients With Stable Coronary Artery Disease Study",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT02642419",
+        "date": "2015-01"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1142,34 +866,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Rivaroxaban Once Daily Versus Dose-adjusted Vitamin K Antagonist on the Biomarkers in Acute Decompensated Heart Failure and Atrial Fibrillation (ROAD HF-AF)",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT03490994",
-        "date": "2018-04-10"
+        "title": "Rocket® Pleural Catheters: QOL, Feasibility and Satisfaction in Recurrent MPE Patients",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03403855",
+        "date": "2018-03-07"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Gene Therapy Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
-        "reason": "Studienregister-Treffer: WITHDRAWN PHASE1",
-        "source": "NCT03825783",
-        "date": "2019-04-15"
+        "title": "Lentiviral-mediated Gene Therapy for Pediatric Patients With Fanconi Anemia Subtype A",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT04069533",
+        "date": "2019-11-28"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Gene Therapy for Male Patients With Danon Disease (DD) Using RP-A501; AAV9.LAMP2B",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT03882437",
-        "date": "2019-04-17"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1, PHASE2",
-        "source": "NCT03812263",
-        "date": "2019-08-30"
+        "title": "Research Study to Compare a New Medicine \"Fast-acting Insulin Aspart\" to Another Medicine \"Insulin Aspart\" in Chinese People With Diabetes",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT04588259",
+        "date": "2020-10-09"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1190,10 +906,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Clinical Efficacy of Transarterial Infusion Chemotherapy for Unresectable Colorectal Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07333053",
-        "date": "2026-03-31"
+        "title": "Clinical Trial to Evaluate the Efficacy of Gene Therapy for Pyruvate Kinase Deficiency",
+        "reason": "Studienregister-Treffer: SUSPENDED PHASE2",
+        "source": "NCT06422351",
+        "date": "2026-04"
       },
       {
         "type": "SEC · Unternehmensereignis",
@@ -1221,35 +937,27 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Mindfulness Intervention for Emotional Distress (MIED) in Patients With GERD",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07667894",
-        "date": "2026-07-01"
+        "level": "low",
+        "title": "MultiCenter expeRience in AFib Patients Treated With OAC (CRAFT)",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT02987062",
+        "date": "2016-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Long-Term Follow-up: Phase I/II Clinical Study to Evaluate the Safety and Efficacy of the Infusion of RP-L102",
-        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION ",
-        "source": "NCT07527975",
-        "date": "2022-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
-        "source": "NCT06282432",
-        "date": "2022-03-09"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Rocket Study: A Study to Characterize Biomarkers and Disease Progression in Participants With Pelizaeus-Merzbacher Disease",
+        "title": "A Natural History Study in Children With a Type II Collagen Disorder With Short Stature",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05659901",
-        "date": "2022-10-03"
+        "source": "NCT05408715",
+        "date": "2022-06-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Natural History of Danon Disease",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05548855",
+        "date": "2022-09-26"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1262,10 +970,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "BAG3-DCM Natural History Study",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
-        "source": "NCT07486752",
-        "date": "2026-05"
+        "title": "PKP2-ACM Natural History Study",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06644742",
+        "date": "2026-03"
       },
       {
         "type": "SEC Filing",

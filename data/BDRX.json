@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.49",
-      "note": "Auto-Update: -15.31% vs. vorheriger Schlusskurs",
+      "value": "$2.44",
+      "note": "Auto-Update: -14.81% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-13T11:34:48Z",
+    "last_update_utc": "2026-07-13T14:00:36Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.49,
-      "previousClose": 2.94,
-      "change": -0.45,
-      "changePercent": -15.31,
-      "regularMarketTime": "2026-07-10T20:00:01Z",
+      "regularMarketPrice": 2.445,
+      "previousClose": 2.87,
+      "change": -0.425,
+      "changePercent": -14.81,
+      "regularMarketTime": "2026-07-13T13:58:12Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,14 +214,6 @@
       "fiftyTwoWeekRange": "2.4 – 66.5"
     },
     "price_history": [
-      {
-        "t": "2026-06-11T13:30:00Z",
-        "price": 3.082
-      },
-      {
-        "t": "2026-06-12T13:30:00Z",
-        "price": 3.03
-      },
       {
         "t": "2026-06-15T13:30:00Z",
         "price": 3.07
@@ -293,52 +285,24 @@
       {
         "t": "2026-07-10T13:30:00Z",
         "price": 2.49
+      },
+      {
+        "t": "2026-07-13T13:30:00Z",
+        "price": 2.445
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-10T14:55:00Z",
+        "t": "2026-07-13T13:30:00Z",
+        "price": 2.49
+      },
+      {
+        "t": "2026-07-13T13:40:00Z",
         "price": 2.445
       },
       {
-        "t": "2026-07-10T15:05:00Z",
-        "price": 2.44
-      },
-      {
-        "t": "2026-07-10T15:35:00Z",
-        "price": 2.465
-      },
-      {
-        "t": "2026-07-10T15:40:00Z",
-        "price": 2.49
-      },
-      {
-        "t": "2026-07-10T17:25:00Z",
-        "price": 2.45
-      },
-      {
-        "t": "2026-07-10T18:05:00Z",
-        "price": 2.45
-      },
-      {
-        "t": "2026-07-10T19:20:00Z",
-        "price": 2.45
-      },
-      {
-        "t": "2026-07-10T19:25:00Z",
-        "price": 2.45
-      },
-      {
-        "t": "2026-07-10T19:50:00Z",
-        "price": 2.4
-      },
-      {
-        "t": "2026-07-10T19:55:00Z",
-        "price": 2.45
-      },
-      {
-        "t": "2026-07-10T20:00:00Z",
-        "price": 2.49
+        "t": "2026-07-13T13:58:12Z",
+        "price": 2.445
       }
     ],
     "price_history_range": "1mo",
@@ -358,6 +322,22 @@
         "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
         "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
         "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 5
+      },
+      {
+        "title": "Biodexa sichert sich Finanzierung über 3,5 Millionen US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSWFpMEIxcDV4S2tPLUlUMGIzSHZNdXBDOGJvM0dCNDRsVUUyNFJ2TmlIM3BWTnJFVFV3U1g0V0NNR0NzMENhaEtRRGlRZFVtalVTX2owLVVsUVhVc3VaQlpGekxoeVJtQ05UeGJKWUxBZDl0Uzc3YzRKWVJfQmtDc19DNVY4TlZUcFN0Wm5oQVdQZTFiWTdETlRIR2JHdjhDOElSOWZ2ZWVNQUtSdUZoZmpaVXdzWUE?oc=5",
+        "published_at": "2026-06-30T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
       },
       {
@@ -521,14 +501,14 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04230499",
-        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Familial Adenomatous Polyposis",
+        "nct_id": "NCT06950385",
+        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Familial Adenomatous Polyposis (FAP)",
         "last_update": "",
-        "start_date": "2021-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT04230499"
+        "start_date": "2025-07-18",
+        "url": "https://clinicaltrials.gov/study/NCT06950385"
       },
       {
         "nct_id": "NCT07689942",
@@ -551,14 +531,14 @@
         "url": "https://clinicaltrials.gov/study/NCT05324501"
       },
       {
-        "nct_id": "NCT06950385",
-        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Familial Adenomatous Polyposis (FAP)",
+        "nct_id": "NCT04230499",
+        "title": "Trial of ERapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Familial Adenomatous Polyposis",
         "last_update": "",
-        "start_date": "2025-07-18",
-        "url": "https://clinicaltrials.gov/study/NCT06950385"
+        "start_date": "2021-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT04230499"
       }
     ],
     "detected_triggers": [
