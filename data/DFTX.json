@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$45.76",
-      "note": "Auto-Update: 3.23% vs. vorheriger Schlusskurs",
+      "value": "$44.14",
+      "note": "Auto-Update: -0.43% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-13T14:01:32Z",
+    "last_update_utc": "2026-07-13T16:44:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 45.76,
+      "regularMarketPrice": 44.14,
       "previousClose": 44.33,
-      "change": 1.43,
-      "changePercent": 3.23,
-      "regularMarketTime": "2026-07-13T14:00:20Z",
+      "change": -0.19,
+      "changePercent": -0.43,
+      "regularMarketTime": "2026-07-13T16:44:39Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-07-13T13:30:00Z",
-        "price": 45.76
+        "price": 44.14
       }
     ],
     "price_history_1d": [
@@ -355,8 +355,140 @@
         "price": 45.9
       },
       {
-        "t": "2026-07-13T14:00:20Z",
-        "price": 45.76
+        "t": "2026-07-13T14:00:00Z",
+        "price": 45.105
+      },
+      {
+        "t": "2026-07-13T14:05:00Z",
+        "price": 45.075
+      },
+      {
+        "t": "2026-07-13T14:10:00Z",
+        "price": 45.17
+      },
+      {
+        "t": "2026-07-13T14:15:00Z",
+        "price": 44.425
+      },
+      {
+        "t": "2026-07-13T14:20:00Z",
+        "price": 44.65
+      },
+      {
+        "t": "2026-07-13T14:25:00Z",
+        "price": 44.67
+      },
+      {
+        "t": "2026-07-13T14:30:00Z",
+        "price": 44.495
+      },
+      {
+        "t": "2026-07-13T14:35:00Z",
+        "price": 44.16
+      },
+      {
+        "t": "2026-07-13T14:40:00Z",
+        "price": 44.24
+      },
+      {
+        "t": "2026-07-13T14:45:00Z",
+        "price": 44.56
+      },
+      {
+        "t": "2026-07-13T14:50:00Z",
+        "price": 44.41
+      },
+      {
+        "t": "2026-07-13T14:55:00Z",
+        "price": 44.54
+      },
+      {
+        "t": "2026-07-13T15:00:00Z",
+        "price": 44.47
+      },
+      {
+        "t": "2026-07-13T15:05:00Z",
+        "price": 44.3
+      },
+      {
+        "t": "2026-07-13T15:10:00Z",
+        "price": 44.195
+      },
+      {
+        "t": "2026-07-13T15:15:00Z",
+        "price": 44.31
+      },
+      {
+        "t": "2026-07-13T15:20:00Z",
+        "price": 44.35
+      },
+      {
+        "t": "2026-07-13T15:25:00Z",
+        "price": 44.385
+      },
+      {
+        "t": "2026-07-13T15:30:00Z",
+        "price": 44.23
+      },
+      {
+        "t": "2026-07-13T15:35:00Z",
+        "price": 44.29
+      },
+      {
+        "t": "2026-07-13T15:40:00Z",
+        "price": 44.1494
+      },
+      {
+        "t": "2026-07-13T15:45:00Z",
+        "price": 44.12
+      },
+      {
+        "t": "2026-07-13T15:50:00Z",
+        "price": 43.82
+      },
+      {
+        "t": "2026-07-13T15:55:00Z",
+        "price": 43.835
+      },
+      {
+        "t": "2026-07-13T16:00:00Z",
+        "price": 43.715
+      },
+      {
+        "t": "2026-07-13T16:05:00Z",
+        "price": 44.0
+      },
+      {
+        "t": "2026-07-13T16:10:00Z",
+        "price": 44.01
+      },
+      {
+        "t": "2026-07-13T16:15:00Z",
+        "price": 44.0
+      },
+      {
+        "t": "2026-07-13T16:20:00Z",
+        "price": 43.67
+      },
+      {
+        "t": "2026-07-13T16:25:00Z",
+        "price": 44.03
+      },
+      {
+        "t": "2026-07-13T16:30:00Z",
+        "price": 43.895
+      },
+      {
+        "t": "2026-07-13T16:35:00Z",
+        "price": 44.0
+      },
+      {
+        "t": "2026-07-13T16:40:00Z",
+        "price": 44.165
+      },
+      {
+        "t": "2026-07-13T16:44:39Z",
+        "price": 44.14
       }
     ],
     "price_history_range": "1mo",
@@ -424,6 +556,22 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Positive Phase-3-Studienergebnisse beflügeln Aktie von Definium Therapeutics - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRmZfckhXa1VtSzNYZl9zUXBxS25Fcl9KV3Z4c2JTQ1Y5VGsxNzhtNExXY2R0cnI0R2VqWldpUkhBeWpzMGJKY2ptX1ZTNDhEc3BfaUl0U2VUWjNLbkxPQi1GVjhPTkFiTzgwNjhfaFFsR3RHR3lFcmEwRmhlWmhJajVETF9oMmhjME40bUsxSFRhSUdpeF9sdzc5MHhLRWlJTEJlSVR0Z0FmSWtlTUpQSEtUTHVyZ1pEQlpnaFNKTFVwZ2RhMkUtbmpUUHlvaFdi?oc=5",
+        "published_at": "2026-06-22T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
       },
       {
