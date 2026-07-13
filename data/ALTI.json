@@ -217,7 +217,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-13T08:19:18Z",
+    "last_update_utc": "2026-07-13T11:36:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -457,6 +457,13 @@
     ],
     "sec_filings": [
       {
+        "form": "EFFECT",
+        "filingDate": "2026-07-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838615/999999999526002256/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "4",
         "filingDate": "2026-07-02",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000119312526294991/xslF345X06/ownership.xml",
@@ -586,13 +593,6 @@
         "form": "DEFA14A",
         "filingDate": "2026-04-30",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126018298/ny20066517x2_defa14a.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "DEF 14A",
-        "filingDate": "2026-04-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126018294/ny20066517x1_def14a.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -937,14 +937,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "DEF 14A · 2026-04-30",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-30"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "DEFA14A · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -965,6 +957,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-29"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-18",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-18"
       },
       {
         "type": "SEC Filing",
