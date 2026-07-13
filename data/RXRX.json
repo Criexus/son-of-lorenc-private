@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.29",
-      "note": "Auto-Update: -17.05% vs. vorheriger Schlusskurs",
+      "value": "$3.30",
+      "note": "Auto-Update: -16.67% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-13T19:56:52Z",
+    "last_update_utc": "2026-07-13T20:49:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.285,
+      "regularMarketPrice": 3.3,
       "previousClose": 3.96,
-      "change": -0.675,
-      "changePercent": -17.05,
-      "regularMarketTime": "2026-07-13T19:56:44Z",
+      "change": -0.66,
+      "changePercent": -16.67,
+      "regularMarketTime": "2026-07-13T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -387,7 +387,7 @@
       },
       {
         "t": "2026-07-13T13:30:00Z",
-        "price": 3.285
+        "price": 3.3
       }
     ],
     "price_history_1d": [
@@ -701,11 +701,11 @@
       },
       {
         "t": "2026-07-13T19:55:00Z",
-        "price": 3.3
+        "price": 3.2954
       },
       {
-        "t": "2026-07-13T19:56:44Z",
-        "price": 3.285
+        "t": "2026-07-13T20:00:00Z",
+        "price": 3.3
       }
     ],
     "price_history_range": "1mo",
@@ -843,6 +843,13 @@
     "sec_filings": [
       {
         "form": "144",
+        "filingDate": "2026-07-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005213/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
         "filingDate": "2026-07-10",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005195/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
@@ -971,13 +978,6 @@
         "form": "8-K",
         "filingDate": "2026-06-18",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000080/rxrx-20260617.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-06-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326004782/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1158,14 +1158,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "144 · 2026-06-18",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-18"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "4 · 2026-06-22",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1306,6 +1298,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-10"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-07-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-13"
       }
     ],
     "queries_used": [

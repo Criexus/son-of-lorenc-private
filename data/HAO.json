@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$0.27",
-      "note": "Auto-Update: -75.83% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -75.86% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-13T19:56:46Z",
+    "last_update_utc": "2026-07-13T20:49:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.2659,
+      "regularMarketPrice": 0.2655,
       "previousClose": 1.1,
-      "change": -0.8341,
-      "changePercent": -75.83,
-      "regularMarketTime": "2026-07-13T19:56:28Z",
+      "change": -0.8345,
+      "changePercent": -75.86,
+      "regularMarketTime": "2026-07-13T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -289,7 +289,7 @@
       },
       {
         "t": "2026-07-13T13:30:00Z",
-        "price": 0.2659
+        "price": 0.2655
       }
     ],
     "price_history_1d": [
@@ -603,11 +603,11 @@
       },
       {
         "t": "2026-07-13T19:55:00Z",
-        "price": 0.2653
+        "price": 0.2655
       },
       {
-        "t": "2026-07-13T19:56:40Z",
-        "price": 0.2658
+        "t": "2026-07-13T20:00:00Z",
+        "price": 0.2655
       }
     ],
     "price_history_range": "1mo",
@@ -631,6 +631,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "6-K",
+        "filingDate": "2026-07-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026077575/ea0297750-6k_haoxi.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "424B5",
         "filingDate": "2026-07-13",
@@ -761,13 +768,6 @@
         "form": "6-K",
         "filingDate": "2026-02-10",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026014275/ea0276359-6k_haoxi.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "6-K",
-        "filingDate": "2026-01-23",
-        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026007329/ea0273826-6k_haoxi.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1040,14 +1040,6 @@
       {
         "type": "SEC · Finanzbericht",
         "level": "medium",
-        "title": "6-K · 2026-01-23",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-01-23"
-      },
-      {
-        "type": "SEC · Finanzbericht",
-        "level": "medium",
         "title": "6-K · 2026-02-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1124,6 +1116,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-06"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "6-K · 2026-07-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-13"
       },
       {
         "type": "ClinicalTrials.gov",
