@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.30",
-      "note": "Auto-Update: 2.42% vs. vorheriger Schlusskurs",
+      "value": "$13.38",
+      "note": "Auto-Update: 2.96% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-14T15:53:45Z",
+    "last_update_utc": "2026-07-14T17:01:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.305,
+      "regularMarketPrice": 13.375,
       "previousClose": 12.99,
-      "change": 0.315,
-      "changePercent": 2.42,
-      "regularMarketTime": "2026-07-14T15:52:46Z",
+      "change": 0.385,
+      "changePercent": 2.96,
+      "regularMarketTime": "2026-07-14T17:00:59Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -409,7 +409,7 @@
       },
       {
         "t": "2026-07-14T13:30:00Z",
-        "price": 13.305
+        "price": 13.375
       }
     ],
     "price_history_1d": [
@@ -527,11 +527,63 @@
       },
       {
         "t": "2026-07-14T15:50:00Z",
+        "price": 13.31
+      },
+      {
+        "t": "2026-07-14T15:55:00Z",
         "price": 13.3
       },
       {
-        "t": "2026-07-14T15:52:46Z",
-        "price": 13.305
+        "t": "2026-07-14T16:00:00Z",
+        "price": 13.32
+      },
+      {
+        "t": "2026-07-14T16:05:00Z",
+        "price": 13.35
+      },
+      {
+        "t": "2026-07-14T16:10:00Z",
+        "price": 13.33
+      },
+      {
+        "t": "2026-07-14T16:15:00Z",
+        "price": 13.3501
+      },
+      {
+        "t": "2026-07-14T16:20:00Z",
+        "price": 13.35
+      },
+      {
+        "t": "2026-07-14T16:25:00Z",
+        "price": 13.405
+      },
+      {
+        "t": "2026-07-14T16:30:00Z",
+        "price": 13.47
+      },
+      {
+        "t": "2026-07-14T16:35:00Z",
+        "price": 13.42
+      },
+      {
+        "t": "2026-07-14T16:40:00Z",
+        "price": 13.42
+      },
+      {
+        "t": "2026-07-14T16:45:00Z",
+        "price": 13.42
+      },
+      {
+        "t": "2026-07-14T16:50:00Z",
+        "price": 13.39
+      },
+      {
+        "t": "2026-07-14T16:55:00Z",
+        "price": 13.364
+      },
+      {
+        "t": "2026-07-14T17:00:59Z",
+        "price": 13.375
       }
     ],
     "price_history_range": "1mo",
@@ -591,6 +643,22 @@
         "published_at": "2026-07-07T13:24:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways Aktie: Zweite Studie bestätigt - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2ZuNW50NlZiam1IWlNOTTJ0ekZpREdqVXd2YWxtSTJzX19IRHd2aWZ1anFwbjZVY0x1RXIzd2VhYXBUMnoyZW1PNHp1NmxhUG9fV3VCTEdJUlJQbW5VMWxISFI2RE1wVFZiVW9mTjF5SG9wTWNUaFIwOGh4Tkp4Wk5GVVRkbGpOMThoVTRiMkh3MnJBUGlnOGx5RjFsWTA0?oc=5",
+        "published_at": "2026-07-07T11:02:04Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
