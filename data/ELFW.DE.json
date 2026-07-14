@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.30",
-      "note": "Auto-Update: 0.29% vs. vorheriger Schlusskurs",
+      "value": "$43.32",
+      "note": "Auto-Update: 0.33% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-14T10:43:17Z",
+    "last_update_utc": "2026-07-14T12:05:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 43.305,
+      "regularMarketPrice": 43.32,
       "previousClose": 43.178,
-      "change": 0.127,
-      "changePercent": 0.29,
-      "regularMarketTime": "2026-07-14T08:36:29Z",
+      "change": 0.142,
+      "changePercent": 0.33,
+      "regularMarketTime": "2026-07-14T11:24:45Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -244,7 +244,7 @@
       },
       {
         "t": "2026-07-14T07:00:00Z",
-        "price": 43.305
+        "price": 43.32
       }
     ],
     "price_history_1d": [
@@ -273,8 +273,16 @@
         "price": 43.305
       },
       {
-        "t": "2026-07-14T08:36:29Z",
-        "price": 43.305
+        "t": "2026-07-14T11:10:00Z",
+        "price": 43.254
+      },
+      {
+        "t": "2026-07-14T11:20:00Z",
+        "price": 43.32
+      },
+      {
+        "t": "2026-07-14T11:24:45Z",
+        "price": 43.32
       }
     ],
     "price_history_range": "1mo",
