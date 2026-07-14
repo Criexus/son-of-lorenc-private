@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-14T01:19:28Z",
+    "last_update_utc": "2026-07-14T04:21:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -411,7 +411,7 @@
     "price_history_1d": [
       {
         "t": "2026-07-13T13:30:00Z",
-        "price": 2.985
+        "price": 2.9899
       },
       {
         "t": "2026-07-13T13:35:00Z",
@@ -814,6 +814,22 @@
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
         "published_at": "2026-01-21T00:01:24Z",
         "source": "Goldesel.de",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
+        "title": "Altimmune Aktie: Führungswechsel & Daten - kapitalmarktexperten.de",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQelo4WkVEaFg4T0licUhUSFloOGNNZnpjcnlWVE5Hem1SZXJPWEVXaDBpZXlmR0JKNDNXV3dxS1Vhd1VLa1Q0cjlTSHFTd1l6ano3QTFMRXJlTHJEd3BpTlNHclBxZ0VEWlZjYzZ0dUNualBPWVVJNHJ6MGw3VjRfZQ?oc=5",
+        "published_at": "2025-12-18T08:00:00Z",
+        "source": "kapitalmarktexperten.de",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
