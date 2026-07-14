@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.17",
-      "note": "Auto-Update: -19.03% vs. vorheriger Schlusskurs",
+      "value": "$2.27",
+      "note": "Auto-Update: -15.3% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-14T18:34:42Z",
+    "last_update_utc": "2026-07-14T20:03:55Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.17,
+      "regularMarketPrice": 2.27,
       "previousClose": 2.68,
-      "change": -0.51,
-      "changePercent": -19.03,
-      "regularMarketTime": "2026-07-14T16:21:49Z",
+      "change": -0.41,
+      "changePercent": -15.3,
+      "regularMarketTime": "2026-07-14T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -292,7 +292,7 @@
       },
       {
         "t": "2026-07-14T13:30:00Z",
-        "price": 2.17
+        "price": 2.27
       }
     ],
     "price_history_1d": [
@@ -337,8 +337,12 @@
         "price": 2.17
       },
       {
-        "t": "2026-07-14T16:21:49Z",
-        "price": 2.17
+        "t": "2026-07-14T19:50:00Z",
+        "price": 2.18
+      },
+      {
+        "t": "2026-07-14T20:00:00Z",
+        "price": 2.27
       }
     ],
     "price_history_range": "1mo",
@@ -364,22 +368,6 @@
         "title": "Biodexa sichert sich Finanzierung über 3,5 Millionen US-Dollar - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSWFpMEIxcDV4S2tPLUlUMGIzSHZNdXBDOGJvM0dCNDRsVUUyNFJ2TmlIM3BWTnJFVFV3U1g0V0NNR0NzMENhaEtRRGlRZFVtalVTX2owLVVsUVhVc3VaQlpGekxoeVJtQ05UeGJKWUxBZDl0Uzc3YzRKWVJfQmtDc19DNVY4TlZUcFN0Wm5oQVdQZTFiWTdETlRIR2JHdjhDOElSOWZ2ZWVNQUtSdUZoZmpaVXdzWUE?oc=5",
         "published_at": "2026-06-30T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Biodexa Pharmaceuticals BDRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      },
-      {
-        "title": "Biodexa weitet Phase-3-Studie für Serenta auf Kanada aus - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSE1teWdCU1VrTVlzMkZpdDNjRnVWNVctdW16V2k1NnhIQ0YxWFUzWjNzbXV3TXRBMC00c1p5U1gxb2JsQkhieFMzel9YN1pZRm1nWnFFZVlmcngtUzVTWXZGSENPNkhWWkZ6dllETTh1QTk2NnJ4UjhmemZwN2NTdkNGM3MyVXROLS1RT0lROXo5WUpQUDNaUWNkaHppMVdFd3JyNzJfZ19TUUtFMWQ0?oc=5",
-        "published_at": "2026-06-29T12:46:00Z",
         "source": "Investing.com Deutsch",
         "query": "Biodexa Pharmaceuticals BDRX stock news",
         "source_type": "google_news_rss",

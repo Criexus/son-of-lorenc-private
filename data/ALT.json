@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.97",
-      "note": "Auto-Update: -1.66% vs. vorheriger Schlusskurs",
+      "value": "$2.93",
+      "note": "Auto-Update: -2.98% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-14T18:35:08Z",
+    "last_update_utc": "2026-07-14T20:04:21Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.97,
+      "regularMarketPrice": 2.93,
       "previousClose": 3.02,
-      "change": -0.05,
-      "changePercent": -1.66,
-      "regularMarketTime": "2026-07-14T18:34:51Z",
+      "change": -0.09,
+      "changePercent": -2.98,
+      "regularMarketTime": "2026-07-14T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -409,7 +409,7 @@
       },
       {
         "t": "2026-07-14T13:30:00Z",
-        "price": 2.9701
+        "price": 2.93
       }
     ],
     "price_history_1d": [
@@ -659,28 +659,80 @@
       },
       {
         "t": "2026-07-14T18:35:00Z",
+        "price": 2.975
+      },
+      {
+        "t": "2026-07-14T18:40:00Z",
         "price": 2.97
+      },
+      {
+        "t": "2026-07-14T18:45:00Z",
+        "price": 2.97
+      },
+      {
+        "t": "2026-07-14T18:50:00Z",
+        "price": 2.9695
+      },
+      {
+        "t": "2026-07-14T18:55:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-07-14T19:00:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-07-14T19:05:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-07-14T19:10:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-14T19:15:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-07-14T19:20:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-14T19:25:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-14T19:30:00Z",
+        "price": 2.9599
+      },
+      {
+        "t": "2026-07-14T19:35:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-07-14T19:40:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-07-14T19:45:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-07-14T19:50:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-07-14T19:55:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-07-14T20:00:00Z",
+        "price": 2.93
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeGNQOUpNWVBHWFV2YUs5N1lZcXhSVk53WThtMHZQOG1OejIzcU5id3BRRVJPTGhaamZMTEZCYXlwX2xRQjI4dHdNSUlLcDlPbVlEQl8wRDZOVHJuYm13RVNpRnh1ektZc2x1SG16eFBoRXFadUJYQlpzeHVjNUxJZFQ0eFRWbmpFRmlVam9VN1BaWUZvaG9STHhibUFsY2cxRkRCazB3?oc=5",
-        "published_at": "2026-06-30T16:19:04Z",
-        "source": "Börse Express",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
       {
         "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5",
@@ -696,22 +748,6 @@
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
-        "published_at": "2026-04-23T07:00:00Z",
-        "source": "Börse Express",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Studienphase / Readout",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Jefferies bestätigt Kaufempfehlung für Altimmune und Kursziel von 28 US-Dollar - Investing.com Deutsch",
@@ -810,10 +846,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune Aktie • A2N5Z6 • US02155H2004 - Onvista",
+        "title": "Altimmune Aktie • A2N5Z6 • US02155H2004 - OnVista",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDQnR1UWhucXlwZ2NuZGs0STJ4WDR5ekh1T3ZHRFRYQU81dEdtRTBTUkZ0MUltcGU3Z2VIUGhJUHkzUDJ1RTF4SEc5azhiZ3RnaEhzWDl2Q2tuU2lBTWJnSEN5RWstZ1o5d2tCZUdHQQ?oc=5",
         "published_at": "2018-09-20T15:42:43Z",
-        "source": "Onvista",
+        "source": "OnVista",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1150,18 +1186,6 @@
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5"
       },
       {
-        "type": "Studienphase / Readout",
-        "level": "high",
-        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
-        "reason": "Trigger erkannt: Studienphase / Readout.",
-        "impact": "potenziell hoher klinischer Trigger",
-        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
-        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "source": "Börse Express",
-        "date": "2026-04-23T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5"
-      },
-      {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
         "title": "424B5 · 2026-04-24",
@@ -1353,6 +1377,14 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-01"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
