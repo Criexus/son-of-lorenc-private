@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.29",
-      "note": "Auto-Update: -4.87% vs. vorheriger Schlusskurs",
+      "value": "$13.31",
+      "note": "Auto-Update: -4.69% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-15T18:35:47Z",
+    "last_update_utc": "2026-07-15T20:01:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.285,
+      "regularMarketPrice": 13.31,
       "previousClose": 13.965,
-      "change": -0.68,
-      "changePercent": -4.87,
-      "regularMarketTime": "2026-07-15T18:35:29Z",
+      "change": -0.655,
+      "changePercent": -4.69,
+      "regularMarketTime": "2026-07-15T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "3.5 – 15.4"
     },
     "price_history": [
-      {
-        "t": "2026-06-15T13:30:00Z",
-        "price": 11.79
-      },
       {
         "t": "2026-06-16T13:30:00Z",
         "price": 11.49
@@ -413,7 +409,7 @@
       },
       {
         "t": "2026-07-15T13:30:00Z",
-        "price": 13.285
+        "price": 13.31
       }
     ],
     "price_history_1d": [
@@ -662,8 +658,76 @@
         "price": 13.295
       },
       {
-        "t": "2026-07-15T18:35:29Z",
-        "price": 13.285
+        "t": "2026-07-15T18:35:00Z",
+        "price": 13.31
+      },
+      {
+        "t": "2026-07-15T18:40:00Z",
+        "price": 13.36
+      },
+      {
+        "t": "2026-07-15T18:45:00Z",
+        "price": 13.335
+      },
+      {
+        "t": "2026-07-15T18:50:00Z",
+        "price": 13.335
+      },
+      {
+        "t": "2026-07-15T18:55:00Z",
+        "price": 13.3401
+      },
+      {
+        "t": "2026-07-15T19:00:00Z",
+        "price": 13.36
+      },
+      {
+        "t": "2026-07-15T19:05:00Z",
+        "price": 13.3369
+      },
+      {
+        "t": "2026-07-15T19:10:00Z",
+        "price": 13.29
+      },
+      {
+        "t": "2026-07-15T19:15:00Z",
+        "price": 13.275
+      },
+      {
+        "t": "2026-07-15T19:20:00Z",
+        "price": 13.28
+      },
+      {
+        "t": "2026-07-15T19:25:00Z",
+        "price": 13.24
+      },
+      {
+        "t": "2026-07-15T19:30:00Z",
+        "price": 13.215
+      },
+      {
+        "t": "2026-07-15T19:35:00Z",
+        "price": 13.1999
+      },
+      {
+        "t": "2026-07-15T19:40:00Z",
+        "price": 13.23
+      },
+      {
+        "t": "2026-07-15T19:45:00Z",
+        "price": 13.24
+      },
+      {
+        "t": "2026-07-15T19:50:00Z",
+        "price": 13.25
+      },
+      {
+        "t": "2026-07-15T19:55:00Z",
+        "price": 13.305
+      },
+      {
+        "t": "2026-07-15T20:00:00Z",
+        "price": 13.31
       }
     ],
     "price_history_range": "1mo",
@@ -707,6 +771,22 @@
         "published_at": "2026-07-07T13:24:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways Aktie: Zweite Studie bestätigt - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2ZuNW50NlZiam1IWlNOTTJ0ekZpREdqVXd2YWxtSTJzX19IRHd2aWZ1anFwbjZVY0x1RXIzd2VhYXBUMnoyZW1PNHp1NmxhUG9fV3VCTEdJUlJQbW5VMWxISFI2RE1wVFZiVW9mTjF5SG9wTWNUaFIwOGh4Tkp4Wk5GVVRkbGpOMThoVTRiMkh3MnJBUGlnOGx5RjFsWTA0?oc=5",
+        "published_at": "2026-07-07T11:02:04Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -931,22 +1011,6 @@
         "published_at": "2026-04-24T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5",
-        "published_at": "2026-04-21T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -1352,18 +1416,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Börse Express",
-        "date": "2026-04-21T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Compass Pathways: FDA gewährt beschleunigtes Prüfverfahren für Depressionsmedikament – Aktie steigt - Investing.com Deutsch",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1604,6 +1656,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-29"
       }
     ],
     "queries_used": [

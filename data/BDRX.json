@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.19",
-      "note": "Auto-Update: -15.77% vs. vorheriger Schlusskurs",
+      "value": "$2.24",
+      "note": "Auto-Update: -13.85% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-15T18:35:30Z",
+    "last_update_utc": "2026-07-15T20:00:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.19,
+      "regularMarketPrice": 2.24,
       "previousClose": 2.6,
-      "change": -0.41,
-      "changePercent": -15.77,
-      "regularMarketTime": "2026-07-15T18:09:13Z",
+      "change": -0.36,
+      "changePercent": -13.85,
+      "regularMarketTime": "2026-07-15T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,10 +214,6 @@
       "fiftyTwoWeekRange": "2.1 – 59.4"
     },
     "price_history": [
-      {
-        "t": "2026-06-15T13:30:00Z",
-        "price": 3.07
-      },
       {
         "t": "2026-06-16T13:30:00Z",
         "price": 2.98
@@ -296,7 +292,7 @@
       },
       {
         "t": "2026-07-15T13:30:00Z",
-        "price": 2.19
+        "price": 2.24
       }
     ],
     "price_history_1d": [
@@ -317,8 +313,16 @@
         "price": 2.1101
       },
       {
-        "t": "2026-07-15T18:09:13Z",
+        "t": "2026-07-15T18:05:00Z",
         "price": 2.19
+      },
+      {
+        "t": "2026-07-15T19:35:00Z",
+        "price": 2.2
+      },
+      {
+        "t": "2026-07-15T20:00:00Z",
+        "price": 2.24
       }
     ],
     "price_history_range": "1mo",
@@ -338,22 +342,6 @@
         "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
         "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
         "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "relevance_score": 5
-      },
-      {
-        "title": "Biodexa sichert sich Finanzierung über 3,5 Millionen US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSWFpMEIxcDV4S2tPLUlUMGIzSHZNdXBDOGJvM0dCNDRsVUUyNFJ2TmlIM3BWTnJFVFV3U1g0V0NNR0NzMENhaEtRRGlRZFVtalVTX2owLVVsUVhVc3VaQlpGekxoeVJtQ05UeGJKWUxBZDl0Uzc3YzRKWVJfQmtDc19DNVY4TlZUcFN0Wm5oQVdQZTFiWTdETlRIR2JHdjhDOElSOWZ2ZWVNQUtSdUZoZmpaVXdzWUE?oc=5",
-        "published_at": "2026-06-30T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Biodexa Pharmaceuticals BDRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
       }
     ],
