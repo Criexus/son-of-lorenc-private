@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.38",
-      "note": "Auto-Update: -9.01% vs. vorheriger Schlusskurs",
+      "value": "$3.33",
+      "note": "Auto-Update: -10.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-15T15:59:10Z",
+    "last_update_utc": "2026-07-15T17:14:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.385,
+      "regularMarketPrice": 3.335,
       "previousClose": 3.72,
-      "change": -0.335,
-      "changePercent": -9.01,
-      "regularMarketTime": "2026-07-15T15:58:57Z",
+      "change": -0.385,
+      "changePercent": -10.35,
+      "regularMarketTime": "2026-07-15T17:14:22Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-07-15T13:30:00Z",
-        "price": 3.385
+        "price": 3.335
       }
     ],
     "price_history_1d": [
@@ -517,11 +517,71 @@
       },
       {
         "t": "2026-07-15T15:55:00Z",
-        "price": 3.395
+        "price": 3.38
       },
       {
-        "t": "2026-07-15T15:58:57Z",
-        "price": 3.385
+        "t": "2026-07-15T16:00:00Z",
+        "price": 3.3619
+      },
+      {
+        "t": "2026-07-15T16:05:00Z",
+        "price": 3.35
+      },
+      {
+        "t": "2026-07-15T16:10:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-07-15T16:15:00Z",
+        "price": 3.34
+      },
+      {
+        "t": "2026-07-15T16:20:00Z",
+        "price": 3.335
+      },
+      {
+        "t": "2026-07-15T16:25:00Z",
+        "price": 3.3201
+      },
+      {
+        "t": "2026-07-15T16:30:00Z",
+        "price": 3.305
+      },
+      {
+        "t": "2026-07-15T16:35:00Z",
+        "price": 3.305
+      },
+      {
+        "t": "2026-07-15T16:40:00Z",
+        "price": 3.3201
+      },
+      {
+        "t": "2026-07-15T16:45:00Z",
+        "price": 3.335
+      },
+      {
+        "t": "2026-07-15T16:50:00Z",
+        "price": 3.335
+      },
+      {
+        "t": "2026-07-15T16:55:00Z",
+        "price": 3.345
+      },
+      {
+        "t": "2026-07-15T17:00:00Z",
+        "price": 3.345
+      },
+      {
+        "t": "2026-07-15T17:05:00Z",
+        "price": 3.345
+      },
+      {
+        "t": "2026-07-15T17:10:00Z",
+        "price": 3.3402
+      },
+      {
+        "t": "2026-07-15T17:14:22Z",
+        "price": 3.335
       }
     ],
     "price_history_range": "1mo",
@@ -622,22 +682,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 14
-      },
-      {
-        "title": "Recursion Pharma Aktie: Fundamentale Kennzahlen (2024) - Ariva",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fT2RZc0c0QjlRZms3YmlKcFNwR001OVJYNjRRdklneXpqc0ZxMEtXNTAyMjVYckhFY1dHR3ptSDZNYi1iMHhQZTFjZktITGxhZlZCbkh5OE00Sm9HOU52dnF2OWdzdTdwSVJDT1p0aU4?oc=5",
-        "published_at": "2024-12-21T01:26:50Z",
-        "source": "Ariva",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
       },
       {
         "title": "Warum ist die Recursion Pharma-Aktie heute um 100% gestiegen? - Investing.com Deutsch",
