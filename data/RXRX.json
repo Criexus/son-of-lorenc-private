@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-15T20:02:08Z",
+    "last_update_utc": "2026-07-15T21:28:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -780,7 +780,7 @@
         "relevance_score": 25
       },
       {
-        "title": "Recursion Pharma Aktie (A3CM1C, RXRX) - Kurs, Chart, News & Kennzahlen - Ariva",
+        "title": "Recursion Pharma Aktie: Fundamentale Kennzahlen (2024) - Ariva",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fT2RZc0c0QjlRZms3YmlKcFNwR001OVJYNjRRdklneXpqc0ZxMEtXNTAyMjVYckhFY1dHR3ptSDZNYi1iMHhQZTFjZktITGxhZlZCbkh5OE00Sm9HOU52dnF2OWdzdTdwSVJDT1p0aU4?oc=5",
         "published_at": "2024-12-21T01:26:50Z",
         "source": "Ariva",
@@ -793,7 +793,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
+        "relevance_score": 7
       },
       {
         "title": "Warum ist die Recursion Pharma-Aktie heute um 100% gestiegen? - Investing.com Deutsch",
@@ -829,6 +829,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-07-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005236/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "144",
         "filingDate": "2026-07-14",
@@ -959,13 +966,6 @@
         "form": "4",
         "filingDate": "2026-06-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000083/xslF345X06/wk-form4_1782160325.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000082/xslF345X06/wk-form4_1782160319.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1186,14 +1186,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-06-22",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-22"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "144 · 2026-07-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1294,6 +1286,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-07-15",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-15"
       }
     ],
     "queries_used": [
