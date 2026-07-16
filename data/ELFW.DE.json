@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.46",
-      "note": "Auto-Update: 1.39% vs. vorheriger Schlusskurs",
+      "value": "$43.29",
+      "note": "Auto-Update: 0.01% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-16T06:10:21Z",
+    "last_update_utc": "2026-07-16T08:39:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 43.459,
-      "previousClose": 42.865,
-      "change": 0.594,
-      "changePercent": 1.39,
-      "regularMarketTime": "2026-07-15T15:35:56Z",
+      "regularMarketPrice": 43.289,
+      "previousClose": 43.285,
+      "change": 0.004,
+      "changePercent": 0.01,
+      "regularMarketTime": "2026-07-16T08:18:23Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -153,15 +153,11 @@
       "postMarketChange": null,
       "postMarketChangePercent": null,
       "postMarketTime": null,
-      "fiftyTwoWeekHigh": 43.558,
+      "fiftyTwoWeekHigh": 43.506,
       "fiftyTwoWeekLow": 35.028,
-      "fiftyTwoWeekRange": "35.028 – 43.558"
+      "fiftyTwoWeekRange": "35.028 – 43.506"
     },
     "price_history": [
-      {
-        "t": "2026-06-15T07:00:00Z",
-        "price": 42.794
-      },
       {
         "t": "2026-06-16T07:00:00Z",
         "price": 42.751
@@ -249,56 +245,48 @@
       {
         "t": "2026-07-15T07:00:00Z",
         "price": 43.459
+      },
+      {
+        "t": "2026-07-16T07:00:00Z",
+        "price": 43.289
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-07-15T07:05:00Z",
-        "price": 43.533
+        "t": "2026-07-16T07:05:00Z",
+        "price": 43.405
       },
       {
-        "t": "2026-07-15T07:30:00Z",
-        "price": 43.455
+        "t": "2026-07-16T07:10:00Z",
+        "price": 43.382
       },
       {
-        "t": "2026-07-15T07:55:00Z",
-        "price": 43.494
+        "t": "2026-07-16T07:20:00Z",
+        "price": 43.377
       },
       {
-        "t": "2026-07-15T08:10:00Z",
-        "price": 43.499
+        "t": "2026-07-16T07:45:00Z",
+        "price": 43.295
       },
       {
-        "t": "2026-07-15T10:00:00Z",
-        "price": 43.536
+        "t": "2026-07-16T08:00:00Z",
+        "price": 43.296
       },
       {
-        "t": "2026-07-15T11:10:00Z",
-        "price": 43.487
+        "t": "2026-07-16T08:05:00Z",
+        "price": 43.302
       },
       {
-        "t": "2026-07-15T13:40:00Z",
-        "price": 43.558
+        "t": "2026-07-16T08:10:00Z",
+        "price": 43.275
       },
       {
-        "t": "2026-07-15T13:50:00Z",
-        "price": 43.473
+        "t": "2026-07-16T08:15:00Z",
+        "price": 43.266
       },
       {
-        "t": "2026-07-15T14:20:00Z",
-        "price": 43.502
-      },
-      {
-        "t": "2026-07-15T14:30:00Z",
-        "price": 43.53
-      },
-      {
-        "t": "2026-07-15T15:20:00Z",
-        "price": 43.429
-      },
-      {
-        "t": "2026-07-15T15:30:00Z",
-        "price": 43.459
+        "t": "2026-07-16T08:18:23Z",
+        "price": 43.289
       }
     ],
     "price_history_range": "1mo",
