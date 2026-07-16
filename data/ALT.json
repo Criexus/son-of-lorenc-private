@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.89",
-      "note": "Auto-Update: -7.44% vs. vorheriger Schlusskurs",
+      "value": "$2.83",
+      "note": "Auto-Update: -9.46% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-16T15:56:13Z",
+    "last_update_utc": "2026-07-16T17:02:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.888,
+      "regularMarketPrice": 2.825,
       "previousClose": 3.12,
-      "change": -0.232,
-      "changePercent": -7.44,
-      "regularMarketTime": "2026-07-16T15:56:03Z",
+      "change": -0.295,
+      "changePercent": -9.46,
+      "regularMarketTime": "2026-07-16T17:02:36Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-16T13:30:00Z",
-        "price": 2.888
+        "price": 2.825
       }
     ],
     "price_history_1d": [
@@ -535,11 +535,63 @@
       },
       {
         "t": "2026-07-16T15:55:00Z",
-        "price": 2.885
+        "price": 2.89
       },
       {
-        "t": "2026-07-16T15:56:03Z",
-        "price": 2.888
+        "t": "2026-07-16T16:00:00Z",
+        "price": 2.87
+      },
+      {
+        "t": "2026-07-16T16:05:00Z",
+        "price": 2.87
+      },
+      {
+        "t": "2026-07-16T16:10:00Z",
+        "price": 2.85
+      },
+      {
+        "t": "2026-07-16T16:15:00Z",
+        "price": 2.8599
+      },
+      {
+        "t": "2026-07-16T16:20:00Z",
+        "price": 2.8495
+      },
+      {
+        "t": "2026-07-16T16:25:00Z",
+        "price": 2.845
+      },
+      {
+        "t": "2026-07-16T16:30:00Z",
+        "price": 2.845
+      },
+      {
+        "t": "2026-07-16T16:35:00Z",
+        "price": 2.8487
+      },
+      {
+        "t": "2026-07-16T16:40:00Z",
+        "price": 2.83
+      },
+      {
+        "t": "2026-07-16T16:45:00Z",
+        "price": 2.825
+      },
+      {
+        "t": "2026-07-16T16:50:00Z",
+        "price": 2.82
+      },
+      {
+        "t": "2026-07-16T16:55:00Z",
+        "price": 2.825
+      },
+      {
+        "t": "2026-07-16T17:00:00Z",
+        "price": 2.82
+      },
+      {
+        "t": "2026-07-16T17:02:36Z",
+        "price": 2.825
       }
     ],
     "price_history_range": "1mo",
@@ -560,6 +612,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
+        "published_at": "2026-05-31T07:00:00Z",
+        "source": "Börse Global",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
