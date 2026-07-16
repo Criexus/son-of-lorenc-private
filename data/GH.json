@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$163.51",
-      "note": "Auto-Update: -0.34% vs. vorheriger Schlusskurs",
+      "value": "$159.97",
+      "note": "Auto-Update: -2.5% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-16T14:30:11Z",
+    "last_update_utc": "2026-07-16T15:56:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 163.515,
+      "regularMarketPrice": 159.97,
       "previousClose": 164.08,
-      "change": -0.565,
-      "changePercent": -0.34,
-      "regularMarketTime": "2026-07-16T14:30:00Z",
+      "change": -4.11,
+      "changePercent": -2.5,
+      "regularMarketTime": "2026-07-16T15:56:06Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-07-16T13:30:00Z",
-        "price": 163.515
+        "price": 159.97
       }
     ],
     "price_history_1d": [
@@ -384,7 +384,75 @@
       },
       {
         "t": "2026-07-16T14:30:00Z",
-        "price": 163.515
+        "price": 163.13
+      },
+      {
+        "t": "2026-07-16T14:35:00Z",
+        "price": 161.855
+      },
+      {
+        "t": "2026-07-16T14:40:00Z",
+        "price": 163.0
+      },
+      {
+        "t": "2026-07-16T14:45:00Z",
+        "price": 162.505
+      },
+      {
+        "t": "2026-07-16T14:50:00Z",
+        "price": 161.47
+      },
+      {
+        "t": "2026-07-16T14:55:00Z",
+        "price": 161.02
+      },
+      {
+        "t": "2026-07-16T15:00:00Z",
+        "price": 160.28
+      },
+      {
+        "t": "2026-07-16T15:05:00Z",
+        "price": 160.78
+      },
+      {
+        "t": "2026-07-16T15:10:00Z",
+        "price": 159.78
+      },
+      {
+        "t": "2026-07-16T15:15:00Z",
+        "price": 159.775
+      },
+      {
+        "t": "2026-07-16T15:20:00Z",
+        "price": 159.78
+      },
+      {
+        "t": "2026-07-16T15:25:00Z",
+        "price": 159.7975
+      },
+      {
+        "t": "2026-07-16T15:30:00Z",
+        "price": 159.65
+      },
+      {
+        "t": "2026-07-16T15:35:00Z",
+        "price": 160.03
+      },
+      {
+        "t": "2026-07-16T15:40:00Z",
+        "price": 158.97
+      },
+      {
+        "t": "2026-07-16T15:45:00Z",
+        "price": 160.035
+      },
+      {
+        "t": "2026-07-16T15:50:00Z",
+        "price": 160.035
+      },
+      {
+        "t": "2026-07-16T15:56:06Z",
+        "price": 159.97
       }
     ],
     "price_history_range": "1mo",
@@ -516,22 +584,6 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | News | A2N5RY - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CUF80a0FIN2RudkxWbmhFRm1FWHZHMERfX2dYZmpXLXdqeUs3dHVtVHFKWEc5a3NDWHljNFk1bmE4bGR4WEN1STd1dXVNRldnVkU3cDdRUEJsa29lN2JaaFMwZw?oc=5",
-        "published_at": "2019-06-14T11:29:16Z",
-        "source": "Finanzen.net",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
       }
     ],
