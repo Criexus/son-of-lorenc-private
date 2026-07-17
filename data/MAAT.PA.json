@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.69",
-      "note": "Auto-Update: 0.56% vs. vorheriger Schlusskurs",
+      "value": "$2.68",
+      "note": "Auto-Update: 0.19% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T14:24:34Z",
+    "last_update_utc": "2026-07-17T15:52:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.69,
+      "regularMarketPrice": 2.68,
       "previousClose": 2.675,
-      "change": 0.015,
-      "changePercent": 0.56,
-      "regularMarketTime": "2026-07-17T13:03:07Z",
+      "change": 0.005,
+      "changePercent": 0.19,
+      "regularMarketTime": "2026-07-17T15:35:21Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -244,7 +244,7 @@
       },
       {
         "t": "2026-07-17T07:00:00Z",
-        "price": 2.69
+        "price": 2.68
       }
     ],
     "price_history_1d": [
@@ -337,8 +337,32 @@
         "price": 2.69
       },
       {
-        "t": "2026-07-17T13:03:07Z",
-        "price": 2.69
+        "t": "2026-07-17T14:15:00Z",
+        "price": 2.715
+      },
+      {
+        "t": "2026-07-17T14:25:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-07-17T14:35:00Z",
+        "price": 2.73
+      },
+      {
+        "t": "2026-07-17T15:00:00Z",
+        "price": 2.735
+      },
+      {
+        "t": "2026-07-17T15:10:00Z",
+        "price": 2.735
+      },
+      {
+        "t": "2026-07-17T15:25:00Z",
+        "price": 2.7
+      },
+      {
+        "t": "2026-07-17T15:30:00Z",
+        "price": 2.68
       }
     ],
     "price_history_range": "1mo",
@@ -409,10 +433,42 @@
         "relevance_score": 10
       },
       {
+        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Under review - boerse.de - boerse.de",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbGFRUHlOQ0wzdlZMZlpNOTNzR2ducUcyM25WejlZQVpGZU1ZblQ1TzRadFdhN1I1REZ5Z3I2MU1UbWxXWEVZODNhZEFaN0Zycl9XdVBVam11YkpMQjA1bFF0M3Y3VUdhaUN5N0RFOWFDa0d2cExuRnBUeW93ZldtN05hMGtJVnJRTXVScFVUZWc3V2FiSUkzbVlxejB2dUtQSlZjWkFqbUtnc2I4SzNjNUhWN2o5TktYMHNMTHItWU9DWGl0dXdn0gHMAUFVX3lxTE1tc2NWN0liM09ySVV2VXgxcjZNNzhvUG5IN1p6QzY0bVQwXzl5VGozVm9JVkljTXpZaWloOE1oaG5ZTnI5V0FKVkVpQ0FRNUFsa0tka1ZUS19TM1FJSGdCT2Y3UmdKNV93c2lRMTNzbS1BdlJabU42NGRlOWZDUTNiUzZyRjlBRllsVHVuSkc2QUZ5RW1uWFNXNllFQnZ4TU9ncTk3LUQ4dHpBLURfT0VReEZKeVlybXVSb3NtTnIwekVfeHhvVk9ZTEJjOQ?oc=5",
+        "published_at": "2026-06-11T07:00:00Z",
+        "source": "boerse.de",
+        "query": "\"MaaT Pharma\" stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
+      {
         "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Buy - T-Online",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQklremxLd0V3eThkY0RmazZIMU56U2FoZWF5ZUh0N1dRZTFVc2pzN012Skl2QnBoX2ZuVVhPN1pqRHJhN2pNQXB3ajNmVzdscjBFY0pxVExzLVcyR0hnTE8yZV8wTTgtMFk0TUp1R0xaTllZS240ZThTcExQX2dWY2xLRTRIOXhpYzNtdDl3ZXVCX2dXMUdkeTNnbThQMVZBbkVZOWZfVnpKT0NQMnJNWEpkVWdHUHZUcE5LYzZVM0VPdFh4TkFzRHo5M0dkcVN5R0hNYjJuQ08?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
         "source": "T-Online",
+        "query": "\"MaaT Pharma\" stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
+      {
+        "title": "MAAT PHARMA S.A. EO-,1 Aktie: Aktienkurs & Charts - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PRWRJN2xaUi0wN3p1SlpFT3lpeXZ3ZnRuNGRubHVHcVpRXzdxZkpiOVJ5UVh6bVlfa1RYNnAyT3hnVDU0R0J4REFWbDF4X1FHYU1SNlU0dnAyLWJi?oc=5",
+        "published_at": "2022-02-01T21:36:42Z",
+        "source": "Comdirect",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
