@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.18",
-      "note": "Auto-Update: 38.88% vs. vorheriger Schlusskurs",
+      "value": "$7.22",
+      "note": "Auto-Update: 39.65% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T19:12:59Z",
+    "last_update_utc": "2026-07-17T20:25:35Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.18,
+      "regularMarketPrice": 7.22,
       "previousClose": 5.17,
-      "change": 2.01,
-      "changePercent": 38.88,
-      "regularMarketTime": "2026-07-17T19:12:48Z",
+      "change": 2.05,
+      "changePercent": 39.65,
+      "regularMarketTime": "2026-07-17T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,10 +326,6 @@
       "fiftyTwoWeekRange": "2.81 – 7.22"
     },
     "price_history": [
-      {
-        "t": "2026-06-17T13:30:00Z",
-        "price": 4.07
-      },
       {
         "t": "2026-06-18T13:30:00Z",
         "price": 4.06
@@ -408,7 +404,7 @@
       },
       {
         "t": "2026-07-17T13:30:00Z",
-        "price": 7.18
+        "price": 7.22
       }
     ],
     "price_history_1d": [
@@ -686,11 +682,47 @@
       },
       {
         "t": "2026-07-17T19:10:00Z",
-        "price": 7.175
+        "price": 7.165
       },
       {
-        "t": "2026-07-17T19:12:51Z",
-        "price": 7.175
+        "t": "2026-07-17T19:15:00Z",
+        "price": 7.17
+      },
+      {
+        "t": "2026-07-17T19:20:00Z",
+        "price": 7.165
+      },
+      {
+        "t": "2026-07-17T19:25:00Z",
+        "price": 7.165
+      },
+      {
+        "t": "2026-07-17T19:30:00Z",
+        "price": 7.153
+      },
+      {
+        "t": "2026-07-17T19:35:00Z",
+        "price": 7.16
+      },
+      {
+        "t": "2026-07-17T19:40:00Z",
+        "price": 7.145
+      },
+      {
+        "t": "2026-07-17T19:45:00Z",
+        "price": 7.155
+      },
+      {
+        "t": "2026-07-17T19:50:00Z",
+        "price": 7.19
+      },
+      {
+        "t": "2026-07-17T19:55:00Z",
+        "price": 7.21
+      },
+      {
+        "t": "2026-07-17T20:00:00Z",
+        "price": 7.22
       }
     ],
     "price_history_range": "1mo",
@@ -893,7 +925,7 @@
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVHF0bnY1aXZQWGc3dG01QUNmMW1Ra0l0WXpDaGxxWV9EZGFKYXJDN1VXS2NYNTh5Tl9nZl9ZSUdBVFd1X0RvemhHekdySGpPd05IX2dVLVRvSjR3SlBQQmw3MWVjSExnSDlPcUhrZG9PWG5OdDBoT2s5UkdrODdTNmdLZ2dyaUJKR2t5b3h1RWwwOVhnWDNBcUVVaUtvOG5UN3R5eTVfWHQ2M1hoSFppTjllaHNXYkwycmEza1psZHlmblFmd05pLUZnNmtna3VlcjNWQ21MVm9oUmc0RGxhc3Nn0gHnAUFVX3lxTE1wQlBZaEpteHk2UFN2TEVhaTRBSGo2ZVBrc0pVSmViaDdocTBnR2NSM3pLV3dubVBKY05MQmpRUDBMUzg0VFB1UTNGc2xiemZXM3JTcWdzUXFLczBNME85TkxOb1BtdXYtYkN0U1UtVDVJUUQ1T1R1enBhTzB5Mkh2RWI1SVZvZjdjTHBSRG0ydlJCRkhOcUZFQ1BoUENjNWthQ3BVRlZaUnBVclJWQ281UDZhcU0tZTljM2V3ejJsMGtlWVptV0gyTzh2X19vZFpwekpQSk1iRGVxNG44ZmxGWGN2ZXdtOA?oc=5",
         "published_at": "2026-06-27T07:00:00Z",
         "source": "simplywall.st",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "query": "ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -902,7 +934,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 18
+        "relevance_score": 17
       },
       {
         "title": "ATAI Prognose — Kursziel für 2027 - TradingView",
@@ -1117,7 +1149,7 @@
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbDRrT2VCMDBMNW80MzQxendlNmhDa2pVLWN0LVRIaEZaamg4NHBka2I4U29DVnI5R0hFemYtZ0EyR0RjXzdOQnZ1MjhPRXFCcUtNLVBHMkVlXzV1STNIZnpGamUwS3BSUmFQdG9RV29GdFZzRTVheS1xVG40WE9mME5vQkVhalRaUW5mRzdvOEYtS3l2NG9ielBaMnFBWTI5QjFVNnNFSG0xenlocHlOM0FCYTBiWnlBWVIyWUlPYzB6VUlGU2ZOSmowX0VLTmVYa2dpZmw2QU9aUlcySXJ2VkUySHNScjV5Zjd4V1FtVGpkRXBUN2c?oc=5",
         "published_at": "2026-04-20T07:00:00Z",
         "source": "Finanzen.net",
-        "query": "ATAI stock news",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1126,7 +1158,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
+        "relevance_score": 15
       },
       {
         "title": "ATAI Life Sciences Aktie: Durchbruch bestätigt - Börse Express",
