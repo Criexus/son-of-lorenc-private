@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.98",
-      "note": "Auto-Update: -16.43% vs. vorheriger Schlusskurs",
+      "value": "$2.95",
+      "note": "Auto-Update: -17.13% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T18:01:35Z",
+    "last_update_utc": "2026-07-17T19:14:15Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.975,
+      "regularMarketPrice": 2.95,
       "previousClose": 3.56,
-      "change": -0.585,
-      "changePercent": -16.43,
-      "regularMarketTime": "2026-07-17T18:01:22Z",
+      "change": -0.61,
+      "changePercent": -17.13,
+      "regularMarketTime": "2026-07-17T19:14:03Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-07-17T13:30:00Z",
-        "price": 2.975
+        "price": 2.9496
       }
     ],
     "price_history_1d": [
@@ -617,11 +617,67 @@
       },
       {
         "t": "2026-07-17T18:00:00Z",
-        "price": 2.97
+        "price": 2.9702
       },
       {
-        "t": "2026-07-17T18:01:30Z",
-        "price": 2.975
+        "t": "2026-07-17T18:05:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-17T18:10:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-17T18:15:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-07-17T18:20:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-07-17T18:25:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-07-17T18:30:00Z",
+        "price": 2.9401
+      },
+      {
+        "t": "2026-07-17T18:35:00Z",
+        "price": 2.945
+      },
+      {
+        "t": "2026-07-17T18:40:00Z",
+        "price": 2.945
+      },
+      {
+        "t": "2026-07-17T18:45:00Z",
+        "price": 2.9501
+      },
+      {
+        "t": "2026-07-17T18:50:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-07-17T18:55:00Z",
+        "price": 2.945
+      },
+      {
+        "t": "2026-07-17T19:00:00Z",
+        "price": 2.9499
+      },
+      {
+        "t": "2026-07-17T19:05:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-07-17T19:10:00Z",
+        "price": 2.9499
+      },
+      {
+        "t": "2026-07-17T19:14:03Z",
+        "price": 2.9496
       }
     ],
     "price_history_range": "1mo",
@@ -647,6 +703,22 @@
         "title": "Hauptversammlung von Recursion Pharmaceuticals: Aktionäre stimmen allen Vorschlägen zu - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRlNqMWFpUnBnWGhvWnQ0TUJhRDgxdFAyY1lWdnB1NXRZY2R5ZU03QkgtYTFVZDI0VnR3MDh6TE5tTTZJNHV3VWY0ZTltMEdCdmdCOWFvdlZtRFhZT1VncUp2SWVaQzVGWEllY0R0YU80SXY0dXlMUEtEcFFfNkpmUEFhTVRNczFOWTRsa3FycjF0b2pwTmRSRl92YjF1SGRlaHdybU1HT2dKWEthUkk4elBueXFOU2liamE5U215aHBQeDRPYm96YnE4bGU3QW9UUHNTc0F3QQ?oc=5",
         "published_at": "2026-06-18T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
+      {
+        "title": "Recursion Pharmaceuticals: Aktie stürzt nach komplettem NVIDIA-Ausstieg ab - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhnRXFrLUZibWFIYkkwV04yYklOQkt3dTVHTkRrV2tDZnJIMW1BMk83cWg1YURQc3Z2YVVaQl9FWTlLeUtSdDVjQ3plcm5oOWxoSVlQWEFlNlpaQ1lQT0ZwaDlJb1FqUnlTVjdRT1R0bFcxdXRQbTZHaWJObGJZZU1GRmJYaTA1b0FFbjZqeG00T3JnQ01VZ215a0xjWXoxOWV4YTlsUEpMa0tfUUxEQUdKbG1Qd1k4VXNfZWw1MFZGazBRNzZ2V1hMczZRZw?oc=5",
+        "published_at": "2026-02-18T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
@@ -692,7 +764,7 @@
         "relevance_score": 25
       },
       {
-        "title": "Recursion Pharma Aktie (A3CM1C, RXRX) - Kurs, Chart, News & Kennzahlen - Ariva",
+        "title": "Recursion Pharma Aktie: Fundamentale Kennzahlen (2024) - Ariva",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fT2RZc0c0QjlRZms3YmlKcFNwR001OVJYNjRRdklneXpqc0ZxMEtXNTAyMjVYckhFY1dHR3ptSDZNYi1iMHhQZTFjZktITGxhZlZCbkh5OE00Sm9HOU52dnF2OWdzdTdwSVJDT1p0aU4?oc=5",
         "published_at": "2024-12-21T01:26:50Z",
         "source": "Ariva",
@@ -705,23 +777,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
-      },
-      {
-        "title": "Recursion Pharma Aktie: Fundamentale Kennzahlen (2024) - Ariva",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fT2RZc0c0QjlRZms3YmlKcFNwR001OVJYNjRRdklneXpqc0ZxMEtXNTAyMjVYckhFY1dHR3ptSDZNYi1iMHhQZTFjZktITGxhZlZCbkh5OE00Sm9HOU52dnF2OWdzdTdwSVJDT1p0aU4?oc=5",
-        "published_at": "2024-12-21T01:26:50Z",
-        "source": "Ariva",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
+        "relevance_score": 7
       },
       {
         "title": "Warum ist die Recursion Pharma-Aktie heute um 100% gestiegen? - Investing.com Deutsch",
