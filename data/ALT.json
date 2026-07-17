@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.90",
-      "note": "Auto-Update: -4.75% vs. vorheriger Schlusskurs",
+      "value": "$2.92",
+      "note": "Auto-Update: -4.26% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T15:52:25Z",
+    "last_update_utc": "2026-07-17T16:58:02Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.905,
+      "regularMarketPrice": 2.92,
       "previousClose": 3.05,
-      "change": -0.145,
-      "changePercent": -4.75,
-      "regularMarketTime": "2026-07-17T15:52:09Z",
+      "change": -0.13,
+      "changePercent": -4.26,
+      "regularMarketTime": "2026-07-17T16:57:48Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-17T13:30:00Z",
-        "price": 2.905
+        "price": 2.92
       }
     ],
     "price_history_1d": [
@@ -531,11 +531,63 @@
       },
       {
         "t": "2026-07-17T15:50:00Z",
-        "price": 2.9
+        "price": 2.91
       },
       {
-        "t": "2026-07-17T15:52:09Z",
+        "t": "2026-07-17T15:55:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-07-17T16:00:00Z",
+        "price": 2.915
+      },
+      {
+        "t": "2026-07-17T16:05:00Z",
+        "price": 2.915
+      },
+      {
+        "t": "2026-07-17T16:10:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-07-17T16:15:00Z",
+        "price": 2.9196
+      },
+      {
+        "t": "2026-07-17T16:20:00Z",
         "price": 2.905
+      },
+      {
+        "t": "2026-07-17T16:25:00Z",
+        "price": 2.9199
+      },
+      {
+        "t": "2026-07-17T16:30:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-07-17T16:35:00Z",
+        "price": 2.915
+      },
+      {
+        "t": "2026-07-17T16:40:00Z",
+        "price": 2.9197
+      },
+      {
+        "t": "2026-07-17T16:45:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-07-17T16:50:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-07-17T16:55:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-07-17T16:57:48Z",
+        "price": 2.92
       }
     ],
     "price_history_range": "1mo",
@@ -626,7 +678,7 @@
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
         "source": "simplywall.st",
-        "query": "Altimmune ALT stock news",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -635,7 +687,7 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 8
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",

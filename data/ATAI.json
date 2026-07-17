@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.16",
-      "note": "Auto-Update: 38.39% vs. vorheriger Schlusskurs",
+      "value": "$7.17",
+      "note": "Auto-Update: 38.78% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T15:51:52Z",
+    "last_update_utc": "2026-07-17T16:57:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.155,
+      "regularMarketPrice": 7.175,
       "previousClose": 5.17,
-      "change": 1.985,
-      "changePercent": 38.39,
-      "regularMarketTime": "2026-07-17T15:51:42Z",
+      "change": 2.005,
+      "changePercent": 38.78,
+      "regularMarketTime": "2026-07-17T16:57:17Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -408,7 +408,7 @@
       },
       {
         "t": "2026-07-17T13:30:00Z",
-        "price": 7.155
+        "price": 7.175
       }
     ],
     "price_history_1d": [
@@ -526,11 +526,63 @@
       },
       {
         "t": "2026-07-17T15:50:00Z",
-        "price": 7.15
+        "price": 7.1501
       },
       {
-        "t": "2026-07-17T15:51:44Z",
+        "t": "2026-07-17T15:55:00Z",
         "price": 7.155
+      },
+      {
+        "t": "2026-07-17T16:00:00Z",
+        "price": 7.16
+      },
+      {
+        "t": "2026-07-17T16:05:00Z",
+        "price": 7.165
+      },
+      {
+        "t": "2026-07-17T16:10:00Z",
+        "price": 7.175
+      },
+      {
+        "t": "2026-07-17T16:15:00Z",
+        "price": 7.175
+      },
+      {
+        "t": "2026-07-17T16:20:00Z",
+        "price": 7.165
+      },
+      {
+        "t": "2026-07-17T16:25:00Z",
+        "price": 7.165
+      },
+      {
+        "t": "2026-07-17T16:30:00Z",
+        "price": 7.165
+      },
+      {
+        "t": "2026-07-17T16:35:00Z",
+        "price": 7.17
+      },
+      {
+        "t": "2026-07-17T16:40:00Z",
+        "price": 7.175
+      },
+      {
+        "t": "2026-07-17T16:45:00Z",
+        "price": 7.185
+      },
+      {
+        "t": "2026-07-17T16:50:00Z",
+        "price": 7.175
+      },
+      {
+        "t": "2026-07-17T16:55:00Z",
+        "price": 7.18
+      },
+      {
+        "t": "2026-07-17T16:57:17Z",
+        "price": 7.175
       }
     ],
     "price_history_range": "1mo",
@@ -567,6 +619,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "Why AtaiBeckley Stock Soared Today - sharewise.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOG15Y2RIRkwtc0NSeVBCaC1BcTg3a3g2NEdoUll1NzVIN3hXclVZeEdJWHlIaFhKZWdpMDdnYkZhNnZHNUdSLUhoWGxQYUlRY0JOb2dsaUt6b1BOSUtKNUI5aG9yQm1qVnpsNkR6NXpfYzJHOGZjNGNOdHN3RkN0MGFqM3JqRGpXRGRpYzBPdDNOcm9XU2l6TWxvUDI0YzdCRkoxZml0WTQ?oc=5",
+        "published_at": "2026-07-17T06:32:05Z",
+        "source": "sharewise.com",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 15
       },
       {
         "title": "Übernahmegerüchte von Eli Lilly beflügeln Atai Beckley Aktie - Investing.com Deutsch",
@@ -988,22 +1056,6 @@
         "title": "Nach Beckley-Psytech-Übernahme: AtaiBeckley legt pro-forma Finanzdaten vor - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaEl3Zkh5RVVJNER3MlU4a3VhWi02d3l2UGlxV3BnSWwtaUZfOExCUzVpTjhxLWxJU05TdkN1b3NBWUpOVWNMUEx2UE9SMy1HNjZkdTcxS0ctX05hUlhzNHpKSklBeTc5MDcyWk0zckRRNXdLUXh1dEtOZmhkRDVmSFJWeW8wc3VvOWRfUm01VFpPNUFzYmEzSktFLUhnT1ltWGZ1TmNfcm5Dc19oRkVaYUFNOXY5QWhjZGFsYXpqbU1UWU0?oc=5",
         "published_at": "2026-03-06T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 15
-      },
-      {
-        "title": "AtaiBeckley gibt Ausblick auf klinische Meilensteine für 2026 - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWFFzdWJLRmx6TU9UbkUtNlNZeEJDZDAtWnFVc1dlWVZWXzdnb0JzUVljSnZRZlNzZ0kwUEJfMmdMNk5wMGUxTmJoeXJEN3VXOW5ncmY1LWVtb1o3QkdEcU8tbktONEF6NzFuTDNJbFNZaDNrOHpVMzZnbVNuUlFvbzNXTW05Z0xYQ1FNa0o1bFRQenFic0tSbTJBVDFwQURLeTlZU0M3bDFzQjlFX3FyME1UdFpPTkZ2?oc=5",
-        "published_at": "2026-01-08T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
