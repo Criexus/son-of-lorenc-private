@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T09:25:25Z",
+    "last_update_utc": "2026-07-17T11:02:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -1059,6 +1059,22 @@
         "published_at": "2026-03-24T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Evercore ISI stuft Compass Pathways aufgrund von Bedenken zur Wirksamkeit herab - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTE1Fb3lPY1hJX0RZVVptUE9TbTlxWVpLemUwUGd0dU1XMGI5bGRXa2lfU3YtbUllOFhaRF9rMnMxeDlfRUU2VkpRcGgxaXZmTTdwRWJmVWd6ZDAyQWFNRHh2NzhOLTlvdUhETnlRRUh0VS1xNFlaa2F6dHJvQlVKaG9qTGQtMWdZZ3g2VWJLZ25KT2VUS1lCaGRLMk15V0VSVlFSODVPWGZydzRYcWJLS05DUVo0VmJZMm9uTGZHX05vUWNJY0ZKcG9mMUF1eE43RUdLUA?oc=5",
+        "published_at": "2025-06-23T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
