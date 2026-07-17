@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.75",
-      "note": "Auto-Update: 2.99% vs. vorheriger Schlusskurs",
+      "value": "$2.69",
+      "note": "Auto-Update: 0.37% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-17T07:09:53Z",
+    "last_update_utc": "2026-07-17T09:25:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.755,
+      "regularMarketPrice": 2.685,
       "previousClose": 2.675,
-      "change": 0.08,
-      "changePercent": 2.99,
-      "regularMarketTime": "2026-07-16T15:35:08Z",
+      "change": 0.01,
+      "changePercent": 0.37,
+      "regularMarketTime": "2026-07-17T08:56:08Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -237,9 +237,66 @@
       {
         "t": "2026-07-15T07:00:00Z",
         "price": 2.76
+      },
+      {
+        "t": "2026-07-16T07:00:00Z",
+        "price": 2.755
+      },
+      {
+        "t": "2026-07-17T07:00:00Z",
+        "price": 2.685
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-07-17T07:00:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-07-17T07:15:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-07-17T07:25:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-07-17T07:30:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-07-17T07:35:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-07-17T07:55:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-07-17T08:05:00Z",
+        "price": 2.71
+      },
+      {
+        "t": "2026-07-17T08:10:00Z",
+        "price": 2.7175
+      },
+      {
+        "t": "2026-07-17T08:15:00Z",
+        "price": 2.69
+      },
+      {
+        "t": "2026-07-17T08:30:00Z",
+        "price": 2.65
+      },
+      {
+        "t": "2026-07-17T08:55:00Z",
+        "price": 2.685
+      },
+      {
+        "t": "2026-07-17T08:56:08Z",
+        "price": 2.685
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
