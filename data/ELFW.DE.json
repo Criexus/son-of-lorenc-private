@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.12",
-      "note": "Auto-Update: -0.83% vs. vorheriger Schlusskurs",
+      "value": "$43.04",
+      "note": "Auto-Update: -1.01% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-20T13:23:27Z",
+    "last_update_utc": "2026-07-20T15:26:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 43.124,
+      "regularMarketPrice": 43.042,
       "previousClose": 43.483,
-      "change": -0.359,
-      "changePercent": -0.83,
-      "regularMarketTime": "2026-07-20T12:45:02Z",
+      "change": -0.441,
+      "changePercent": -1.01,
+      "regularMarketTime": "2026-07-20T14:59:38Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,7 +240,7 @@
       },
       {
         "t": "2026-07-20T07:00:00Z",
-        "price": 43.124
+        "price": 43.042
       }
     ],
     "price_history_1d": [
@@ -325,8 +325,40 @@
         "price": 43.124
       },
       {
-        "t": "2026-07-20T12:45:02Z",
-        "price": 43.124
+        "t": "2026-07-20T13:25:00Z",
+        "price": 43.157
+      },
+      {
+        "t": "2026-07-20T13:35:00Z",
+        "price": 43.206
+      },
+      {
+        "t": "2026-07-20T13:40:00Z",
+        "price": 43.221
+      },
+      {
+        "t": "2026-07-20T13:55:00Z",
+        "price": 43.101
+      },
+      {
+        "t": "2026-07-20T14:25:00Z",
+        "price": 43.078
+      },
+      {
+        "t": "2026-07-20T14:45:00Z",
+        "price": 43.082
+      },
+      {
+        "t": "2026-07-20T14:50:00Z",
+        "price": 43.067
+      },
+      {
+        "t": "2026-07-20T14:55:00Z",
+        "price": 43.047
+      },
+      {
+        "t": "2026-07-20T14:59:38Z",
+        "price": 43.042
       }
     ],
     "price_history_range": "1mo",
