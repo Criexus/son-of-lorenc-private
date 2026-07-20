@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$44.30",
-      "note": "Auto-Update: 1.49% vs. vorheriger Schlusskurs",
+      "value": "$42.80",
+      "note": "Auto-Update: -1.95% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-20T18:48:29Z",
+    "last_update_utc": "2026-07-20T20:16:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 44.3,
+      "regularMarketPrice": 42.8,
       "previousClose": 43.65,
-      "change": 0.65,
-      "changePercent": 1.49,
-      "regularMarketTime": "2026-07-20T18:47:59Z",
+      "change": -0.85,
+      "changePercent": -1.95,
+      "regularMarketTime": "2026-07-20T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-07-20T13:30:00Z",
-        "price": 44.3
+        "price": 42.8
       }
     ],
     "price_history_1d": [
@@ -588,11 +588,67 @@
       },
       {
         "t": "2026-07-20T18:45:00Z",
-        "price": 44.22
+        "price": 44.29
       },
       {
-        "t": "2026-07-20T18:47:59Z",
-        "price": 44.3
+        "t": "2026-07-20T18:50:00Z",
+        "price": 44.21
+      },
+      {
+        "t": "2026-07-20T18:55:00Z",
+        "price": 44.07
+      },
+      {
+        "t": "2026-07-20T19:00:00Z",
+        "price": 43.98
+      },
+      {
+        "t": "2026-07-20T19:05:00Z",
+        "price": 43.99
+      },
+      {
+        "t": "2026-07-20T19:10:00Z",
+        "price": 43.685
+      },
+      {
+        "t": "2026-07-20T19:15:00Z",
+        "price": 43.6
+      },
+      {
+        "t": "2026-07-20T19:20:00Z",
+        "price": 43.53
+      },
+      {
+        "t": "2026-07-20T19:25:00Z",
+        "price": 43.35
+      },
+      {
+        "t": "2026-07-20T19:30:00Z",
+        "price": 43.3821
+      },
+      {
+        "t": "2026-07-20T19:35:00Z",
+        "price": 43.26
+      },
+      {
+        "t": "2026-07-20T19:40:00Z",
+        "price": 43.29
+      },
+      {
+        "t": "2026-07-20T19:45:00Z",
+        "price": 43.185
+      },
+      {
+        "t": "2026-07-20T19:50:00Z",
+        "price": 42.96
+      },
+      {
+        "t": "2026-07-20T19:55:00Z",
+        "price": 42.8
+      },
+      {
+        "t": "2026-07-20T20:00:00Z",
+        "price": 42.8
       }
     ],
     "price_history_range": "1mo",
@@ -677,6 +733,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
+      },
+      {
+        "title": "Depressionsstudie: Definium legt am Montag Phase-3-Ergebnisse vor - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdjRSbG5pbkJHZERPZTM4QW0wN1RteUxvTmRHLU5tSVlIM0plZkRFR3pXbllXa2xPcGhaWG84ZmFjQW92TlhVcEl3QURqcTNzSG1zeW5HUmoyanpLYkNnTXlNbTVzN0QxLXNfRUFRcXMtV3RvRnRZUVVFUWhzeUF6M2pHYlB5eU43eGVHZldxZmV3QnQxOTBQQWo5R1BTNzVMWTZRTFo3NWltTWlMUjhmNWlQU0s0clJUZ1E?oc=5",
+        "published_at": "2026-06-21T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       },
       {
         "title": "Jefferies nimmt Definium Therapeutics mit Kaufempfehlung in die Bewertung auf - Investing.com Deutsch",

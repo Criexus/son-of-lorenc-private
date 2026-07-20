@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$149.98",
-      "note": "Auto-Update: -5.32% vs. vorheriger Schlusskurs",
+      "value": "$148.07",
+      "note": "Auto-Update: -6.52% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-20T18:48:16Z",
+    "last_update_utc": "2026-07-20T20:16:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 149.98,
+      "regularMarketPrice": 148.07,
       "previousClose": 158.4,
-      "change": -8.42,
-      "changePercent": -5.32,
-      "regularMarketTime": "2026-07-20T18:48:04Z",
+      "change": -10.33,
+      "changePercent": -6.52,
+      "regularMarketTime": "2026-07-20T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-07-20T13:30:00Z",
-        "price": 149.98
+        "price": 148.07
       }
     ],
     "price_history_1d": [
@@ -584,11 +584,67 @@
       },
       {
         "t": "2026-07-20T18:45:00Z",
-        "price": 149.99
+        "price": 150.07
       },
       {
-        "t": "2026-07-20T18:48:04Z",
-        "price": 149.98
+        "t": "2026-07-20T18:50:00Z",
+        "price": 149.71
+      },
+      {
+        "t": "2026-07-20T18:55:00Z",
+        "price": 149.63
+      },
+      {
+        "t": "2026-07-20T19:00:00Z",
+        "price": 149.2
+      },
+      {
+        "t": "2026-07-20T19:05:00Z",
+        "price": 149.36
+      },
+      {
+        "t": "2026-07-20T19:10:00Z",
+        "price": 149.015
+      },
+      {
+        "t": "2026-07-20T19:15:00Z",
+        "price": 148.415
+      },
+      {
+        "t": "2026-07-20T19:20:00Z",
+        "price": 148.62
+      },
+      {
+        "t": "2026-07-20T19:25:00Z",
+        "price": 148.819
+      },
+      {
+        "t": "2026-07-20T19:30:00Z",
+        "price": 149.35
+      },
+      {
+        "t": "2026-07-20T19:35:00Z",
+        "price": 149.32
+      },
+      {
+        "t": "2026-07-20T19:40:00Z",
+        "price": 149.145
+      },
+      {
+        "t": "2026-07-20T19:45:00Z",
+        "price": 149.405
+      },
+      {
+        "t": "2026-07-20T19:50:00Z",
+        "price": 148.615
+      },
+      {
+        "t": "2026-07-20T19:55:00Z",
+        "price": 148.19
+      },
+      {
+        "t": "2026-07-20T20:00:00Z",
+        "price": 148.07
       }
     ],
     "price_history_range": "1mo",
@@ -640,6 +696,22 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Guardant Health: BofA erhöht Kursziel nach FDA-Erfolgen - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVUlSM1UwNG9KbTI0WE5ld01kMU85SWo4aHZRTjF3YzlYcER2cnVfcG54a3JKMlY3THRTX3ZHWFFhMThxZXFGT3o3SkdaOTF2R1VMUFRYQUUtYkFiYjBnSXdJcmtXc0dxR3hWT09WeWZBZXF0dG5kdFdwMmx6ekJFSnhtcGtKMGVWalhFNTdBdnRhdmk3bENvQXI1eTgxV2hBU1pXemw5OWN4R3BsZUZMZERB?oc=5",
+        "published_at": "2026-07-06T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 13
       },
       {
@@ -846,6 +918,18 @@
         "source": "simplywall.st",
         "date": "2026-06-17T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNVMway1wMVhhQWJVTmpzVlVpMVBGT0hYSWFVQUZ2SXpINUxmZFF6bWZqSC02UlZBNGsyVVptdkVnX1hhTFVRbUp0dmdrZWxQdm5uZ3E4UVFaa0xJdDlDUmlyQmpuQWNfYTQ4WnBrcDcyTl9GVl9OWlJHenhSRmpMb2tHZDV5SG5NbGZjaE5KS1U2Vk92eHB0eXJFVjQ3TXVjNWtQVF9oSTVUSXhBOTZtVzE1cHk2U2JKOXhGZXdOdmtWejc2ZFhEVndXNGZzX1BZS2Nn0gHYAUFVX3lxTE44T3VVNkNYWjcxX0FOcldUMFN6bDIzdVd2aWNLb01mWE91N0pKWGlIQncxMWUxcG1yTzBUem9TWGo5S0NvaW9jcjZVQ3lUT1J1NUlGVFpfcVhrMTNvUE9uY3FZcnk4dlFJZDJNdEUtVEplWl9GUGVLV2JNX20xVUR5NGh6QkpVRDllLVpKWk5pdUVkQlhxcFZESEtHSWxmUHFhZEM5U2JXcVFLaUY5eDFXVFlkVlE5NmVsTXV0YV9yaF93TXJFZ09fdWc0NlVxTEplYWtWeHZfYQ?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Guardant Health: BofA erhöht Kursziel nach FDA-Erfolgen - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-07-06T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVUlSM1UwNG9KbTI0WE5ld01kMU85SWo4aHZRTjF3YzlYcER2cnVfcG54a3JKMlY3THRTX3ZHWFFhMThxZXFGT3o3SkdaOTF2R1VMUFRYQUUtYkFiYjBnSXdJcmtXc0dxR3hWT09WeWZBZXF0dG5kdFdwMmx6ekJFSnhtcGtKMGVWalhFNTdBdnRhdmk3bENvQXI1eTgxV2hBU1pXemw5OWN4R3BsZUZMZERB?oc=5"
       },
       {
         "type": "FDA / Regulatorik",

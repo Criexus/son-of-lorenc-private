@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.92",
-      "note": "Auto-Update: -11.36% vs. vorheriger Schlusskurs",
+      "value": "$2.89",
+      "note": "Auto-Update: -12.42% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-20T18:48:41Z",
+    "last_update_utc": "2026-07-20T20:16:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.925,
+      "regularMarketPrice": 2.89,
       "previousClose": 3.3,
-      "change": -0.375,
-      "changePercent": -11.36,
-      "regularMarketTime": "2026-07-20T18:48:34Z",
+      "change": -0.41,
+      "changePercent": -12.42,
+      "regularMarketTime": "2026-07-20T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -391,7 +391,7 @@
       },
       {
         "t": "2026-07-20T13:30:00Z",
-        "price": 2.925
+        "price": 2.89
       }
     ],
     "price_history_1d": [
@@ -649,11 +649,67 @@
       },
       {
         "t": "2026-07-20T18:45:00Z",
-        "price": 2.9201
+        "price": 2.92
       },
       {
-        "t": "2026-07-20T18:48:34Z",
-        "price": 2.925
+        "t": "2026-07-20T18:50:00Z",
+        "price": 2.915
+      },
+      {
+        "t": "2026-07-20T18:55:00Z",
+        "price": 2.9126
+      },
+      {
+        "t": "2026-07-20T19:00:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-07-20T19:05:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-07-20T19:10:00Z",
+        "price": 2.8901
+      },
+      {
+        "t": "2026-07-20T19:15:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-07-20T19:20:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-07-20T19:25:00Z",
+        "price": 2.8901
+      },
+      {
+        "t": "2026-07-20T19:30:00Z",
+        "price": 2.91
+      },
+      {
+        "t": "2026-07-20T19:35:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-07-20T19:40:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-07-20T19:45:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-07-20T19:50:00Z",
+        "price": 2.89
+      },
+      {
+        "t": "2026-07-20T19:55:00Z",
+        "price": 2.885
+      },
+      {
+        "t": "2026-07-20T20:00:00Z",
+        "price": 2.89
       }
     ],
     "price_history_range": "1mo",
@@ -744,7 +800,7 @@
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ib2htU1VTdU95d3VSVWpBY0FXUlBuYVBMQ0FPVERFa3lMZlRTbE50SHdXLUsxRGRhUVh0VlhIcEtEZzNvcnJvRDVqUk93ZWFDTGt6ODdNR29wQ3B2RnI3TUc3M0J5dTl1S2pia2JxWFp5N1Bm?oc=5",
         "published_at": "2021-04-16T11:48:50Z",
         "source": "Finanzen.net",
-        "query": "RXRX stock news",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -753,7 +809,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 18
+        "relevance_score": 19
       },
       {
         "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
@@ -773,6 +829,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-07-20",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005291/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "144",
         "filingDate": "2026-07-17",
@@ -903,13 +966,6 @@
         "form": "4",
         "filingDate": "2026-06-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000086/xslF345X06/wk-form4_1782160342.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-22",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000085/xslF345X06/wk-form4_1782160336.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1106,14 +1162,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-06-22",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-22"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "144 · 2026-07-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1238,6 +1286,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-17"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-07-20",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-20"
       }
     ],
     "queries_used": [
