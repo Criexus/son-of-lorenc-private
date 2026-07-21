@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$12.23",
-      "note": "Auto-Update: -8.63% vs. vorheriger Schlusskurs",
+      "value": "$12.18",
+      "note": "Auto-Update: -9.04% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-21T19:58:24Z",
+    "last_update_utc": "2026-07-21T21:03:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 12.235,
+      "regularMarketPrice": 12.18,
       "previousClose": 13.39,
-      "change": -1.155,
-      "changePercent": -8.63,
-      "regularMarketTime": "2026-07-21T19:58:10Z",
+      "change": -1.21,
+      "changePercent": -9.04,
+      "regularMarketTime": "2026-07-21T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-21T13:30:00Z",
-        "price": 12.235
+        "price": 12.18
       }
     ],
     "price_history_1d": [
@@ -727,11 +727,11 @@
       },
       {
         "t": "2026-07-21T19:55:00Z",
-        "price": 12.235
+        "price": 12.19
       },
       {
-        "t": "2026-07-21T19:58:10Z",
-        "price": 12.235
+        "t": "2026-07-21T20:00:00Z",
+        "price": 12.18
       }
     ],
     "price_history_range": "1mo",
@@ -774,22 +774,6 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMHA0OXhFNWtybDZENkZ3b0VUUkZaYVhaWF96a1R3RGo1ODcwT3Y2Mzkta0xWdmo2WVE0c0g4aXBhc1dWdWRoWi1oSzRVRVNwMHJveWV5VUlLT0FBVE5BMkcxaTNlVmZDVzBaZDFLa1h2YmFQNTdjV1diUnY5MloxT1JsczhQQTEtczJvUFZycllHaDFxX3k5ckFpeTJfejk0SUxwLWkzODBuVWJVejFTVURn?oc=5",
         "published_at": "2026-07-10T19:09:07Z",
         "source": "Ad-hoc-news.de",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      },
-      {
-        "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
-        "published_at": "2026-07-09T11:38:00Z",
-        "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -799,7 +783,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
+        "relevance_score": 5
       },
       {
         "title": "Studiendaten zu COMP360: Jefferies bestätigt Kaufempfehlung für Compass Pathways Aktie - Investing.com Deutsch",
