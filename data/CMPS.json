@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.95",
-      "note": "Auto-Update: -10.79% vs. vorheriger Schlusskurs",
+      "value": "$12.01",
+      "note": "Auto-Update: -10.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-21T15:20:44Z",
+    "last_update_utc": "2026-07-21T16:52:12Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.945,
+      "regularMarketPrice": 12.01,
       "previousClose": 13.39,
-      "change": -1.445,
-      "changePercent": -10.79,
-      "regularMarketTime": "2026-07-21T15:20:08Z",
+      "change": -1.38,
+      "changePercent": -10.31,
+      "regularMarketTime": "2026-07-21T16:51:41Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-21T13:30:00Z",
-        "price": 11.945
+        "price": 12.01
       }
     ],
     "price_history_1d": [
@@ -506,8 +506,84 @@
         "price": 11.95
       },
       {
-        "t": "2026-07-21T15:20:08Z",
+        "t": "2026-07-21T15:20:00Z",
         "price": 11.945
+      },
+      {
+        "t": "2026-07-21T15:25:00Z",
+        "price": 11.97
+      },
+      {
+        "t": "2026-07-21T15:30:00Z",
+        "price": 11.98
+      },
+      {
+        "t": "2026-07-21T15:35:00Z",
+        "price": 12.0272
+      },
+      {
+        "t": "2026-07-21T15:40:00Z",
+        "price": 11.9878
+      },
+      {
+        "t": "2026-07-21T15:45:00Z",
+        "price": 11.978
+      },
+      {
+        "t": "2026-07-21T15:50:00Z",
+        "price": 11.97
+      },
+      {
+        "t": "2026-07-21T15:55:00Z",
+        "price": 11.975
+      },
+      {
+        "t": "2026-07-21T16:00:00Z",
+        "price": 11.98
+      },
+      {
+        "t": "2026-07-21T16:05:00Z",
+        "price": 11.995
+      },
+      {
+        "t": "2026-07-21T16:10:00Z",
+        "price": 12.01
+      },
+      {
+        "t": "2026-07-21T16:15:00Z",
+        "price": 12.0
+      },
+      {
+        "t": "2026-07-21T16:20:00Z",
+        "price": 12.0299
+      },
+      {
+        "t": "2026-07-21T16:25:00Z",
+        "price": 11.97
+      },
+      {
+        "t": "2026-07-21T16:30:00Z",
+        "price": 11.95
+      },
+      {
+        "t": "2026-07-21T16:35:00Z",
+        "price": 11.96
+      },
+      {
+        "t": "2026-07-21T16:40:00Z",
+        "price": 11.95
+      },
+      {
+        "t": "2026-07-21T16:45:00Z",
+        "price": 11.99
+      },
+      {
+        "t": "2026-07-21T16:50:00Z",
+        "price": 11.998
+      },
+      {
+        "t": "2026-07-21T16:51:41Z",
+        "price": 12.01
       }
     ],
     "price_history_range": "1mo",
@@ -550,7 +626,7 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMHA0OXhFNWtybDZENkZ3b0VUUkZaYVhaWF96a1R3RGo1ODcwT3Y2Mzkta0xWdmo2WVE0c0g4aXBhc1dWdWRoWi1oSzRVRVNwMHJveWV5VUlLT0FBVE5BMkcxaTNlVmZDVzBaZDFLa1h2YmFQNTdjV1diUnY5MloxT1JsczhQQTEtczJvUFZycllHaDFxX3k5ckFpeTJfejk0SUxwLWkzODBuVWJVejFTVURn?oc=5",
         "published_at": "2026-07-10T19:09:07Z",
         "source": "Ad-hoc-news.de",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "COMPASS Pathways clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -560,6 +636,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
+      },
+      {
+        "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
+        "published_at": "2026-07-09T11:38:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
       },
       {
         "title": "Studiendaten zu COMP360: Jefferies bestätigt Kaufempfehlung für Compass Pathways Aktie - Investing.com Deutsch",
@@ -583,22 +675,6 @@
         "published_at": "2026-07-07T13:24:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways Aktie: Zweite Studie bestätigt - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2ZuNW50NlZiam1IWlNOTTJ0ekZpREdqVXd2YWxtSTJzX19IRHd2aWZ1anFwbjZVY0x1RXIzd2VhYXBUMnoyZW1PNHp1NmxhUG9fV3VCTEdJUlJQbW5VMWxISFI2RE1wVFZiVW9mTjF5SG9wTWNUaFIwOGh4Tkp4Wk5GVVRkbGpOMThoVTRiMkh3MnJBUGlnOGx5RjFsWTA0?oc=5",
-        "published_at": "2026-07-07T11:02:04Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -639,6 +715,22 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways Aktie: Zweite Studie bestätigt - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2ZuNW50NlZiam1IWlNOTTJ0ekZpREdqVXd2YWxtSTJzX19IRHd2aWZ1anFwbjZVY0x1RXIzd2VhYXBUMnoyZW1PNHp1NmxhUG9fV3VCTEdJUlJQbW5VMWxISFI2RE1wVFZiVW9mTjF5SG9wTWNUaFIwOGh4Tkp4Wk5GVVRkbGpOMThoVTRiMkh3MnJBUGlnOGx5RjFsWTA0?oc=5",
+        "published_at": "2026-07-07T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -710,6 +802,22 @@
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTS13dHJjSjEyclc3TzFHTnBZYVZiNzJvUmpzR1AzNDBjVVY4MTRUR1lUSk9TWjRuY3lWakgxbENVTDdrTzlPeTRCNm00V3FpZUJOckhhQjlWWEc0V3RoM3lSeTVTcTN2SERFaVhMU3FWeDg1RmpFY0g1YjFYS182b0tVdFp5c01IZlQ2NnctZjh3aUhPRXM0WFBJN3Z0MXF4YmhnajZNaDBUMGtOaUdWZXhscUJkNlpWdnMydmg1MA?oc=5",
         "published_at": "2026-05-23T07:00:00Z",
         "source": "Ad-hoc-news.de",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: Aktie markiert neues 52-Wochen-Hoch bei 11,65 USD - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaklvWHJXU2o2NDJwa3NpRDNfMWNOSEpqMDhmQzJzWWMxN0hlazlHMEh5cGNwODRranl4UWM0ZDZtLXczUWZYYVE2aDNJV2RfYU11LUdkMjZQWTRmNjFSaER1RWRqZkM3eFFzTGRENk1aaklVSkFOeDBwVm94Zi1vMmJLZDJSdnZadkQ0cEp4T0dnZnJxQzZLQ3NlQjRTTnhZbVVXdkFRTEsyeUliUFpLRC14ekJjTXV2QWJJ?oc=5",
+        "published_at": "2026-05-21T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -800,38 +908,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 16
-      },
-      {
-        "title": "Compass Pathways Aktie: Strategische Offensive - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0Q2MkZrazFRZnl0dktXWFBSS0ZqT0hQa1g4M2ZIal9KTjl2TmJuU0lubTlKN09EMkEtcVY2TWcyaF9BSVRDalBfNkpoeXdHTTFESjJaYUtqaEZybEwzaDdfcUVhcVVPOFBnbmVKemhPTWNQSC1YQ3JmMG1TTWRYMkZzYXJKNW13QzlSQ3RTa0dXeC1feDVjR3NlUUZMUQ?oc=5",
-        "published_at": "2026-04-16T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Morgan Stanley senkt Kursziel für Compass Pathways trotz Fortschritten bei Depressionsbehandlung - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYjZGWWRxdk1FMTZDdHJDbWotRGo3cEhPM1E5RTZiUXJrUFZ6ZlVEcS1VcXJTbmE5ejlodF9seWpNc2lZck5ScDJOSmo2NTJ1WEdmbWRHdmdtM0NiRzZNdTVzSC1keEFybjVNb1Z1anpJVXEzYXhlTEFtV2ZXQ2NudTBoVXhEQU82b1ZpdFhuLUd1S1RlQW1DUG1LOHVidlg1MGdXV0lkSGM1MUxsNHNra0lpcHMtOFJwNUxJUXhDX0hTb3hURmFLaTNrc0lVekVTYzNoRmlxMHpwQThYcndhS1BSc0JHSUFZRXdv?oc=5",
-        "published_at": "2026-03-24T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
       },
       {
         "title": "Evercore ISI stuft Compass Pathways aufgrund von Bedenken zur Wirksamkeit herab - Investing.com Deutsch",
