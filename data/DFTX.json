@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$44.15",
-      "note": "Auto-Update: -3.98% vs. vorheriger Schlusskurs",
+      "value": "$45.08",
+      "note": "Auto-Update: -1.96% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-21T18:08:40Z",
+    "last_update_utc": "2026-07-21T19:59:07Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 44.15,
+      "regularMarketPrice": 45.08,
       "previousClose": 45.98,
-      "change": -1.83,
-      "changePercent": -3.98,
-      "regularMarketTime": "2026-07-21T18:07:05Z",
+      "change": -0.9,
+      "changePercent": -1.96,
+      "regularMarketTime": "2026-07-21T19:59:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-07-21T13:30:00Z",
-        "price": 44.15
+        "price": 45.07
       }
     ],
     "price_history_1d": [
@@ -560,11 +560,99 @@
       },
       {
         "t": "2026-07-21T18:05:00Z",
-        "price": 44.1213
+        "price": 44.2
       },
       {
-        "t": "2026-07-21T18:07:05Z",
-        "price": 44.15
+        "t": "2026-07-21T18:10:00Z",
+        "price": 44.18
+      },
+      {
+        "t": "2026-07-21T18:15:00Z",
+        "price": 44.26
+      },
+      {
+        "t": "2026-07-21T18:20:00Z",
+        "price": 44.14
+      },
+      {
+        "t": "2026-07-21T18:25:00Z",
+        "price": 44.13
+      },
+      {
+        "t": "2026-07-21T18:30:00Z",
+        "price": 44.115
+      },
+      {
+        "t": "2026-07-21T18:35:00Z",
+        "price": 44.19
+      },
+      {
+        "t": "2026-07-21T18:40:00Z",
+        "price": 44.27
+      },
+      {
+        "t": "2026-07-21T18:45:00Z",
+        "price": 44.26
+      },
+      {
+        "t": "2026-07-21T18:50:00Z",
+        "price": 44.27
+      },
+      {
+        "t": "2026-07-21T18:55:00Z",
+        "price": 44.42
+      },
+      {
+        "t": "2026-07-21T19:00:00Z",
+        "price": 44.405
+      },
+      {
+        "t": "2026-07-21T19:05:00Z",
+        "price": 44.37
+      },
+      {
+        "t": "2026-07-21T19:10:00Z",
+        "price": 44.37
+      },
+      {
+        "t": "2026-07-21T19:15:00Z",
+        "price": 44.4156
+      },
+      {
+        "t": "2026-07-21T19:20:00Z",
+        "price": 44.4
+      },
+      {
+        "t": "2026-07-21T19:25:00Z",
+        "price": 44.425
+      },
+      {
+        "t": "2026-07-21T19:30:00Z",
+        "price": 44.57
+      },
+      {
+        "t": "2026-07-21T19:35:00Z",
+        "price": 44.64
+      },
+      {
+        "t": "2026-07-21T19:40:00Z",
+        "price": 44.69
+      },
+      {
+        "t": "2026-07-21T19:45:00Z",
+        "price": 44.97
+      },
+      {
+        "t": "2026-07-21T19:50:00Z",
+        "price": 45.01
+      },
+      {
+        "t": "2026-07-21T19:55:00Z",
+        "price": 45.06
+      },
+      {
+        "t": "2026-07-21T19:59:00Z",
+        "price": 45.07
       }
     ],
     "price_history_range": "1mo",
@@ -656,6 +744,22 @@
         "published_at": "2026-06-22T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Definium Therapeutics: Oppenheimer erhöht Kursziel nach überzeugenden Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
+        "published_at": "2026-06-22T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DT120 topline",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
