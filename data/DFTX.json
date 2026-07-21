@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.89",
-      "note": "Auto-Update: -4.55% vs. vorheriger Schlusskurs",
+      "value": "$44.15",
+      "note": "Auto-Update: -3.98% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-21T16:52:53Z",
+    "last_update_utc": "2026-07-21T18:08:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 43.89,
+      "regularMarketPrice": 44.15,
       "previousClose": 45.98,
-      "change": -2.09,
-      "changePercent": -4.55,
-      "regularMarketTime": "2026-07-21T16:52:46Z",
+      "change": -1.83,
+      "changePercent": -3.98,
+      "regularMarketTime": "2026-07-21T18:07:05Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-07-21T13:30:00Z",
-        "price": 43.89
+        "price": 44.15
       }
     ],
     "price_history_1d": [
@@ -500,11 +500,71 @@
       },
       {
         "t": "2026-07-21T16:50:00Z",
-        "price": 43.97
+        "price": 43.98
       },
       {
-        "t": "2026-07-21T16:52:46Z",
-        "price": 43.89
+        "t": "2026-07-21T16:55:00Z",
+        "price": 43.93
+      },
+      {
+        "t": "2026-07-21T17:00:00Z",
+        "price": 44.075
+      },
+      {
+        "t": "2026-07-21T17:05:00Z",
+        "price": 44.105
+      },
+      {
+        "t": "2026-07-21T17:10:00Z",
+        "price": 44.07
+      },
+      {
+        "t": "2026-07-21T17:15:00Z",
+        "price": 44.08
+      },
+      {
+        "t": "2026-07-21T17:20:00Z",
+        "price": 44.045
+      },
+      {
+        "t": "2026-07-21T17:25:00Z",
+        "price": 43.94
+      },
+      {
+        "t": "2026-07-21T17:30:00Z",
+        "price": 44.08
+      },
+      {
+        "t": "2026-07-21T17:35:00Z",
+        "price": 44.02
+      },
+      {
+        "t": "2026-07-21T17:40:00Z",
+        "price": 44.0
+      },
+      {
+        "t": "2026-07-21T17:45:00Z",
+        "price": 44.08
+      },
+      {
+        "t": "2026-07-21T17:50:00Z",
+        "price": 44.07
+      },
+      {
+        "t": "2026-07-21T17:55:00Z",
+        "price": 44.15
+      },
+      {
+        "t": "2026-07-21T18:00:00Z",
+        "price": 44.16
+      },
+      {
+        "t": "2026-07-21T18:05:00Z",
+        "price": 44.1213
+      },
+      {
+        "t": "2026-07-21T18:07:05Z",
+        "price": 44.15
       }
     ],
     "price_history_range": "1mo",
@@ -596,22 +656,6 @@
         "published_at": "2026-06-22T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics: Oppenheimer erhöht Kursziel nach überzeugenden Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DT120 topline",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
