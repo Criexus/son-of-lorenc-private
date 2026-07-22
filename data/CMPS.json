@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.87",
-      "note": "Auto-Update: -10.82% vs. vorheriger Schlusskurs",
+      "value": "$12.15",
+      "note": "Auto-Update: -8.72% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-22T14:54:18Z",
+    "last_update_utc": "2026-07-22T16:13:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.87,
+      "regularMarketPrice": 12.15,
       "previousClose": 13.31,
-      "change": -1.44,
-      "changePercent": -10.82,
-      "regularMarketTime": "2026-07-22T14:54:04Z",
+      "change": -1.16,
+      "changePercent": -8.72,
+      "regularMarketTime": "2026-07-22T16:13:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-07-22T13:30:00Z",
-        "price": 11.87
+        "price": 12.15
       }
     ],
     "price_history_1d": [
@@ -487,16 +487,96 @@
       },
       {
         "t": "2026-07-22T14:50:00Z",
-        "price": 11.87
+        "price": 11.85
       },
       {
-        "t": "2026-07-22T14:54:04Z",
-        "price": 11.87
+        "t": "2026-07-22T14:55:00Z",
+        "price": 11.88
+      },
+      {
+        "t": "2026-07-22T15:00:00Z",
+        "price": 11.94
+      },
+      {
+        "t": "2026-07-22T15:05:00Z",
+        "price": 11.95
+      },
+      {
+        "t": "2026-07-22T15:10:00Z",
+        "price": 11.92
+      },
+      {
+        "t": "2026-07-22T15:15:00Z",
+        "price": 12.0295
+      },
+      {
+        "t": "2026-07-22T15:20:00Z",
+        "price": 12.0468
+      },
+      {
+        "t": "2026-07-22T15:25:00Z",
+        "price": 12.12
+      },
+      {
+        "t": "2026-07-22T15:30:00Z",
+        "price": 12.1
+      },
+      {
+        "t": "2026-07-22T15:35:00Z",
+        "price": 12.08
+      },
+      {
+        "t": "2026-07-22T15:40:00Z",
+        "price": 12.0603
+      },
+      {
+        "t": "2026-07-22T15:45:00Z",
+        "price": 12.075
+      },
+      {
+        "t": "2026-07-22T15:50:00Z",
+        "price": 12.06
+      },
+      {
+        "t": "2026-07-22T15:55:00Z",
+        "price": 12.09
+      },
+      {
+        "t": "2026-07-22T16:00:00Z",
+        "price": 12.085
+      },
+      {
+        "t": "2026-07-22T16:05:00Z",
+        "price": 12.155
+      },
+      {
+        "t": "2026-07-22T16:10:00Z",
+        "price": 12.15
+      },
+      {
+        "t": "2026-07-22T16:13:01Z",
+        "price": 12.15
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Die Compass-Pathways-Aktie reagiert auf jüngste Studiendaten und zeigt hohe Volatilität - Ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTHJZLU5XbjBkUWlaVUJVdEpTWUFTVll6elpqbXJJekc1cEVVREQ3VWVtTXlraGV2b05CblhKVjVlbjNuenNnQ3VaUzNUaDIzd2NmZTJfbFU3REo3NHlOZW9xRzROLXViUUJEUDFobnVuU2xQSXFkaUg2cDc5QkRvOURReGZ5ZWsxdk5tRmVwRVowR2l6ZW40cHh3X2t0RDBWQVJtei0zZGZiemNaY0ZJb21aUGxzSlE3WEhWd21BbWlWWTBRUXBKNldn?oc=5",
+        "published_at": "2026-07-22T16:02:11Z",
+        "source": "Ad-hoc-news.de",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 11
+      },
       {
         "title": "CMPS stock trades steadily as Compass Pathways expands psilocybin depression program - Ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa3pocEdHRlM3R2szQ3VOMUZuaUdqTUg1S19RdG1meU5mdDE2OVhOdGZoamxoMzBiMGlDdHlvM0VTVzhmMWcySzJiR3FmbzhzSGRqSWdHS281a3IxWENLZGx5X2JFZ19TSmRqWlZwdjR3eG1WbURjMDhjTzdicEdXa3MxRTRLSkxWbHNNUGdOSTlGSE0wLTZiUm80REV6bFN5RjJ0bTg1WTFhT195c1ZLWVFoVWtPa1hlcW1iT0NFWTcxZw?oc=5",
@@ -591,22 +671,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Oppenheimer bestätigt Rating für Compass Pathways nach Langzeitdaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUHBuRXlXakd1MnUyUElYUWtxYjhlTWFmdFVBNDlCT1RKckFNTG1FcUFKLW1teG51VGt6NHBwZmVzT3hxQndpek1GRXRWaFR5ajlBb0VLeWF1TFRvUWJCMklER20yVjZ6cEJxSklNNExSSUYzZ0ZJQ2VpRi1INHpJMzlMV1NGWTUwaVpwb1RPbnhZcEpxS1Y0UlNCUjhFSEF2OVEwdldublhLcVVManpzcHNOendGcHNZXzBKMEpFR3pXRE1VWkE?oc=5",
-        "published_at": "2026-07-07T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Analysten / Kursziel",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "relevance_score": 17
       },
       {
