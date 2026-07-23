@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.72",
-      "note": "Auto-Update: -0.86% vs. vorheriger Schlusskurs",
+      "value": "$43.19",
+      "note": "Auto-Update: -2.06% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-23T17:53:47Z",
+    "last_update_utc": "2026-07-23T18:57:31Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 43.72,
+      "regularMarketPrice": 43.19,
       "previousClose": 44.1,
-      "change": -0.38,
-      "changePercent": -0.86,
-      "regularMarketTime": "2026-07-23T17:53:06Z",
+      "change": -0.91,
+      "changePercent": -2.06,
+      "regularMarketTime": "2026-07-23T18:56:34Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -338,7 +338,7 @@
       },
       {
         "t": "2026-07-23T13:30:00Z",
-        "price": 43.72
+        "price": 43.19
       }
     ],
     "price_history_1d": [
@@ -552,11 +552,63 @@
       },
       {
         "t": "2026-07-23T17:50:00Z",
-        "price": 43.72
+        "price": 43.6545
       },
       {
-        "t": "2026-07-23T17:53:06Z",
-        "price": 43.72
+        "t": "2026-07-23T17:55:00Z",
+        "price": 43.625
+      },
+      {
+        "t": "2026-07-23T18:00:00Z",
+        "price": 43.53
+      },
+      {
+        "t": "2026-07-23T18:05:00Z",
+        "price": 43.44
+      },
+      {
+        "t": "2026-07-23T18:10:00Z",
+        "price": 43.3
+      },
+      {
+        "t": "2026-07-23T18:15:00Z",
+        "price": 43.22
+      },
+      {
+        "t": "2026-07-23T18:20:00Z",
+        "price": 43.21
+      },
+      {
+        "t": "2026-07-23T18:25:00Z",
+        "price": 43.26
+      },
+      {
+        "t": "2026-07-23T18:30:00Z",
+        "price": 43.27
+      },
+      {
+        "t": "2026-07-23T18:35:00Z",
+        "price": 43.29
+      },
+      {
+        "t": "2026-07-23T18:40:00Z",
+        "price": 43.27
+      },
+      {
+        "t": "2026-07-23T18:45:00Z",
+        "price": 43.25
+      },
+      {
+        "t": "2026-07-23T18:50:00Z",
+        "price": 43.22
+      },
+      {
+        "t": "2026-07-23T18:55:00Z",
+        "price": 43.19
+      },
+      {
+        "t": "2026-07-23T18:56:34Z",
+        "price": 43.19
       }
     ],
     "price_history_range": "1mo",
@@ -663,7 +715,7 @@
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
         "published_at": "2026-06-22T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DT120 topline",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -694,22 +746,6 @@
         "title": "Definium Therapeutics Aktie • A420P3 • CA24477V1058 - Onvista",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfSW13Z1hoRndCbFQ3R1MtZG8tTk5QZlpIZjNKd0pkY21RaV9UcVBXc2ZoWFZrR0huTUVJVXN1WUZmQmpvcnJ0QlVFM2Y4dll1UUxFUkxBanBTRVlqWjBhOUhaMUVHczlSdzAtY0dJZ2xkcWNnbU1IekNB?oc=5",
         "published_at": "2026-01-17T10:59:03Z",
-        "source": "Onvista",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "DEFINIUM THERAPEUTICS - Onvista",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNelpwZGoybjkyRDA1Q2thNU04Y2FCWVQyY2RzSVhCSl81aW5DbmZMakVaTHNGY1hWa3dkOWtfdUJYYmV5cXFrcjZiOTI0cGE2V3F5Yy1HY3FLZExMeTFIamNfUlhZTnR2UDBEYWN6NmZ3UEtmdG1TLXladnNuNlFHZUw4bjc4OGJmbzNBRFBPam1FLTg?oc=5",
-        "published_at": "2026-01-17T08:12:39Z",
         "source": "Onvista",
         "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
