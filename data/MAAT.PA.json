@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.69",
-      "note": "Auto-Update: 0.37% vs. vorheriger Schlusskurs",
+      "value": "$2.74",
+      "note": "Auto-Update: 2.24% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-23T07:54:50Z",
+    "last_update_utc": "2026-07-23T10:10:44Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.69,
+      "regularMarketPrice": 2.74,
       "previousClose": 2.68,
-      "change": 0.01,
-      "changePercent": 0.37,
-      "regularMarketTime": "2026-07-23T07:36:14Z",
+      "change": 0.06,
+      "changePercent": 2.24,
+      "regularMarketTime": "2026-07-23T09:52:25Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -239,8 +239,12 @@
         "price": 2.765
       },
       {
+        "t": "2026-07-22T07:00:00Z",
+        "price": 2.73
+      },
+      {
         "t": "2026-07-23T07:00:00Z",
-        "price": 2.69
+        "price": 2.74
       }
     ],
     "price_history_1d": [
@@ -257,8 +261,52 @@
         "price": 2.685
       },
       {
-        "t": "2026-07-23T07:36:14Z",
+        "t": "2026-07-23T07:35:00Z",
         "price": 2.69
+      },
+      {
+        "t": "2026-07-23T07:50:00Z",
+        "price": 2.69
+      },
+      {
+        "t": "2026-07-23T07:55:00Z",
+        "price": 2.69
+      },
+      {
+        "t": "2026-07-23T08:05:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-07-23T08:15:00Z",
+        "price": 2.695
+      },
+      {
+        "t": "2026-07-23T08:25:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-07-23T08:35:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-07-23T08:45:00Z",
+        "price": 2.705
+      },
+      {
+        "t": "2026-07-23T09:05:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-07-23T09:25:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-07-23T09:30:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-07-23T09:52:25Z",
+        "price": 2.74
       }
     ],
     "price_history_range": "1mo",
@@ -301,22 +349,6 @@
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CV1VncE9yU0dTUy1NQjJPMHBnOEdLbDk3YUVETzFPcURmMGt0X1hoaG50MGp6WVlPXzJ6TVV1RC1Yd25JMVlFYVdKWE1xX0Z3Um1ZbWZ0MldsMHpZaWdF?oc=5",
         "published_at": "2026-06-21T19:55:54Z",
         "source": "extraETF",
-        "query": "\"MaaT Pharma\" stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
-      {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Buy - T-Online",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQklremxLd0V3eThkY0RmazZIMU56U2FoZWF5ZUh0N1dRZTFVc2pzN012Skl2QnBoX2ZuVVhPN1pqRHJhN2pNQXB3ajNmVzdscjBFY0pxVExzLVcyR0hnTE8yZV8wTTgtMFk0TUp1R0xaTllZS240ZThTcExQX2dWY2xLRTRIOXhpYzNtdDl3ZXVCX2dXMUdkeTNnbThQMVZBbkVZOWZfVnpKT0NQMnJNWEpkVWdHUHZUcE5LYzZVM0VPdFh4TkFzRHo5M0dkcVN5R0hNYjJuQ08?oc=5",
-        "published_at": "2026-04-21T07:00:00Z",
-        "source": "T-Online",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
