@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.93",
-      "note": "Auto-Update: -4.06% vs. vorheriger Schlusskurs",
+      "value": "$11.78",
+      "note": "Auto-Update: -5.23% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-23T14:38:44Z",
+    "last_update_utc": "2026-07-23T16:18:39Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.925,
+      "regularMarketPrice": 11.78,
       "previousClose": 12.43,
-      "change": -0.505,
-      "changePercent": -4.06,
-      "regularMarketTime": "2026-07-23T14:38:33Z",
+      "change": -0.65,
+      "changePercent": -5.23,
+      "regularMarketTime": "2026-07-23T16:18:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-07-23T13:30:00Z",
-        "price": 11.925
+        "price": 11.8
       }
     ],
     "price_history_1d": [
@@ -475,11 +475,91 @@
       },
       {
         "t": "2026-07-23T14:35:00Z",
-        "price": 11.92
+        "price": 11.875
       },
       {
-        "t": "2026-07-23T14:38:36Z",
-        "price": 11.925
+        "t": "2026-07-23T14:40:00Z",
+        "price": 11.85
+      },
+      {
+        "t": "2026-07-23T14:45:00Z",
+        "price": 11.875
+      },
+      {
+        "t": "2026-07-23T14:50:00Z",
+        "price": 11.86
+      },
+      {
+        "t": "2026-07-23T14:55:00Z",
+        "price": 11.89
+      },
+      {
+        "t": "2026-07-23T15:00:00Z",
+        "price": 11.8
+      },
+      {
+        "t": "2026-07-23T15:05:00Z",
+        "price": 11.8201
+      },
+      {
+        "t": "2026-07-23T15:10:00Z",
+        "price": 11.7585
+      },
+      {
+        "t": "2026-07-23T15:15:00Z",
+        "price": 11.715
+      },
+      {
+        "t": "2026-07-23T15:20:00Z",
+        "price": 11.7
+      },
+      {
+        "t": "2026-07-23T15:25:00Z",
+        "price": 11.71
+      },
+      {
+        "t": "2026-07-23T15:30:00Z",
+        "price": 11.715
+      },
+      {
+        "t": "2026-07-23T15:35:00Z",
+        "price": 11.7301
+      },
+      {
+        "t": "2026-07-23T15:40:00Z",
+        "price": 11.72
+      },
+      {
+        "t": "2026-07-23T15:45:00Z",
+        "price": 11.72
+      },
+      {
+        "t": "2026-07-23T15:50:00Z",
+        "price": 11.735
+      },
+      {
+        "t": "2026-07-23T15:55:00Z",
+        "price": 11.74
+      },
+      {
+        "t": "2026-07-23T16:00:00Z",
+        "price": 11.745
+      },
+      {
+        "t": "2026-07-23T16:05:00Z",
+        "price": 11.7202
+      },
+      {
+        "t": "2026-07-23T16:10:00Z",
+        "price": 11.7899
+      },
+      {
+        "t": "2026-07-23T16:15:00Z",
+        "price": 11.79
+      },
+      {
+        "t": "2026-07-23T16:18:31Z",
+        "price": 11.8
       }
     ],
     "price_history_range": "1mo",
@@ -822,10 +902,10 @@
         "relevance_score": 19
       },
       {
-        "title": "COMPASS Pathways Aktie • A2QCDR • US20451W1018 - OnVista",
+        "title": "COMPASS Pathways Aktie • A2QCDR • US20451W1018 - Onvista",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45UnVId215bmR1TFZtazJWbk13N2dTVkVuZlJJLWV2eHVMUDNQNVF0QTUtSTlnajRlckFNeHk4ZlEzNjBxM2pGdUlnSjNrdnhkRUFMNFNrYS10MmVqcm9LcHR1UFpmaGZWUTZBRmp1amJfRWM?oc=5",
         "published_at": "2020-09-24T11:33:47Z",
-        "source": "OnVista",
+        "source": "Onvista",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -998,44 +1078,24 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04433858",
-        "title": "An Open Label Study of the Safety and Efficacy of Psilocybin in Participants With Treatment-Resistant Depression (P-TRD)",
-        "status": "ACTIVE_NOT_RECRUITING",
+        "nct_id": "NCT05330299",
+        "title": "Acceptability of Identifying and Managing Psychological Distress in Inflammatory Bowel Disease: the COMPASS-IBD Study",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "IBD, Psychological Distress, Treatment of Illness-related Distress in IBD",
+        "last_update": "",
+        "start_date": "2022-12-02",
+        "url": "https://clinicaltrials.gov/study/NCT05330299"
+      },
+      {
+        "nct_id": "NCT03775200",
+        "title": "The Safety and Efficacy of Psilocybin in Participants With Treatment Resistant Depression",
+        "status": "COMPLETED",
         "phase": "PHASE2",
         "conditions": "Treatment Resistant Depression",
         "last_update": "",
-        "start_date": "2021-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT04433858"
-      },
-      {
-        "nct_id": "NCT05733546",
-        "title": "A Phase II, Multicentre, Randomised, Double-blind, Controlled Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Efficacy of COMP360 in Participants With Recurrent Major Depressive Disorder",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Major Depressive Disorder",
-        "last_update": "",
-        "start_date": "2023-01-30",
-        "url": "https://clinicaltrials.gov/study/NCT05733546"
-      },
-      {
-        "nct_id": "NCT07226232",
-        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Major Depression",
-        "last_update": "",
-        "start_date": "2026-07-30",
-        "url": "https://clinicaltrials.gov/study/NCT07226232"
-      },
-      {
-        "nct_id": "NCT06896695",
-        "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Head and Neck Carcinoma",
-        "last_update": "",
-        "start_date": "2025-09-23",
-        "url": "https://clinicaltrials.gov/study/NCT06896695"
+        "start_date": "2019-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT03775200"
       },
       {
         "nct_id": "NCT05312151",
@@ -1046,36 +1106,6 @@
         "last_update": "",
         "start_date": "2022-06-10",
         "url": "https://clinicaltrials.gov/study/NCT05312151"
-      },
-      {
-        "nct_id": "NCT06258031",
-        "title": "PsilOCD: A Pharmacological-Challenge Feasibility Study",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Obsessive-Compulsive Disorder",
-        "last_update": "",
-        "start_date": "2022-10-28",
-        "url": "https://clinicaltrials.gov/study/NCT06258031"
-      },
-      {
-        "nct_id": "NCT07570654",
-        "title": "Redefine Study: A Study Evaluating the Efficacy, Safety, and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "PTSD - Post Traumatic Stress Disorder, PTSD, PTSD Symptoms, PTSD, Post Traumatic Stress Disorder",
-        "last_update": "",
-        "start_date": "2026-09",
-        "url": "https://clinicaltrials.gov/study/NCT07570654"
-      },
-      {
-        "nct_id": "NCT04739865",
-        "title": "The Safety and Efficacy Of Psilocybin as an Adjunctive Therapy in Participants With Treatment Resistant Depression",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2020-08-10",
-        "url": "https://clinicaltrials.gov/study/NCT04739865"
       },
       {
         "nct_id": "NCT07613879",
@@ -1098,46 +1128,6 @@
         "url": "https://clinicaltrials.gov/study/NCT04656301"
       },
       {
-        "nct_id": "NCT04241796",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Cancer",
-        "last_update": "",
-        "start_date": "2019-12-12",
-        "url": "https://clinicaltrials.gov/study/NCT04241796"
-      },
-      {
-        "nct_id": "NCT05711940",
-        "title": "Efficacy, Safety, and Tolerability of Two Administrations of COMP360 in Participants With TRD",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2023-02-14",
-        "url": "https://clinicaltrials.gov/study/NCT05711940"
-      },
-      {
-        "nct_id": "NCT02242929",
-        "title": "Surgery Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma",
-        "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Nodular Basal Cell Carcinoma",
-        "last_update": "",
-        "start_date": "2016-01",
-        "url": "https://clinicaltrials.gov/study/NCT02242929"
-      },
-      {
-        "nct_id": "NCT04015258",
-        "title": "Blueberry Study Aimed at Improving Cognition and Peripheral Blood Flow",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Vascular Stiffness, Cognitive Change, Blood Pressure",
-        "last_update": "",
-        "start_date": "2019-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT04015258"
-      },
-      {
         "nct_id": "NCT06515106",
         "title": "Antibody-mediated LGI1 Encephalitis: Symptoms, Biomarkers, and Mechanisms of the Chronic Phase of the Disease",
         "status": "RECRUITING",
@@ -1146,32 +1136,122 @@
         "last_update": "",
         "start_date": "2023-12-18",
         "url": "https://clinicaltrials.gov/study/NCT06515106"
+      },
+      {
+        "nct_id": "NCT04739865",
+        "title": "The Safety and Efficacy Of Psilocybin as an Adjunctive Therapy in Participants With Treatment Resistant Depression",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Treatment Resistant Depression",
+        "last_update": "",
+        "start_date": "2020-08-10",
+        "url": "https://clinicaltrials.gov/study/NCT04739865"
+      },
+      {
+        "nct_id": "NCT06896695",
+        "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Head and Neck Carcinoma",
+        "last_update": "",
+        "start_date": "2025-09-23",
+        "url": "https://clinicaltrials.gov/study/NCT06896695"
+      },
+      {
+        "nct_id": "NCT01833169",
+        "title": "BKM120 for Patients With PI3K-activated Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "PI3K Pathway Activated Tumors",
+        "last_update": "",
+        "start_date": "2013-03-29",
+        "url": "https://clinicaltrials.gov/study/NCT01833169"
+      },
+      {
+        "nct_id": "NCT07348588",
+        "title": "Intravitreal Adalimumab in Inherited and Degenerative Retinal Diseases",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Retinitis Pigmentosa (RP), Extensive Macular Atrophy With Pseudodrusen (EMAP)",
+        "last_update": "",
+        "start_date": "2025-07-10",
+        "url": "https://clinicaltrials.gov/study/NCT07348588"
+      },
+      {
+        "nct_id": "NCT05220410",
+        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Treatment Resistant Depression, Suicidal Ideation",
+        "last_update": "",
+        "start_date": "2022-03-28",
+        "url": "https://clinicaltrials.gov/study/NCT05220410"
+      },
+      {
+        "nct_id": "NCT00847288",
+        "title": "OptiVol® Care Pathway",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Heart Failure",
+        "last_update": "",
+        "start_date": "2009-03",
+        "url": "https://clinicaltrials.gov/study/NCT00847288"
+      },
+      {
+        "nct_id": "NCT06132178",
+        "title": "Psilocybin rTMS for Treatment Resistant Depression",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Treatment Resistant Depression, MDD, Major Depressive Disorder, Recurrent Depression",
+        "last_update": "",
+        "start_date": "2025-01-10",
+        "url": "https://clinicaltrials.gov/study/NCT06132178"
+      },
+      {
+        "nct_id": "NCT05624268",
+        "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Treatment Resistant Depression",
+        "last_update": "",
+        "start_date": "2023-01-19",
+        "url": "https://clinicaltrials.gov/study/NCT05624268"
+      },
+      {
+        "nct_id": "NCT04519957",
+        "title": "Long Term Follow Up Study to COMP 001 And COMP 003 Trials (P-TRD LTFU)",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Treatment Resistant Depression",
+        "last_update": "",
+        "start_date": "2020-07-20",
+        "url": "https://clinicaltrials.gov/study/NCT04519957"
       }
     ],
     "detected_triggers": [
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Surgery Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT02242929",
-        "date": "2016-01"
+        "title": "OptiVol® Care Pathway",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT00847288",
+        "date": "2009-03"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Blueberry Study Aimed at Improving Cognition and Peripheral Blood Flow",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04015258",
-        "date": "2019-01-01"
+        "title": "BKM120 for Patients With PI3K-activated Tumors",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT01833169",
+        "date": "2013-03-29"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04241796",
-        "date": "2019-12-12"
+        "title": "The Safety and Efficacy of Psilocybin in Participants With Treatment Resistant Depression",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT03775200",
+        "date": "2019-03-01"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1192,10 +1272,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "An Open Label Study of the Safety and Efficacy of Psilocybin in Participants With Treatment-Resistant Depression (P-TRD)",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
-        "source": "NCT04433858",
-        "date": "2021-03-01"
+        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT05220410",
+        "date": "2022-03-28"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1208,26 +1288,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "PsilOCD: A Pharmacological-Challenge Feasibility Study",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT06258031",
-        "date": "2022-10-28"
+        "title": "Acceptability of Identifying and Managing Psychological Distress in Inflammatory Bowel Disease: the COMPASS-IBD Study",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05330299",
+        "date": "2022-12-02"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Phase II, Multicentre, Randomised, Double-blind, Controlled Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Efficacy of COMP360 in Participants With Recurrent Major Depressive Disorder",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
-        "source": "NCT05733546",
-        "date": "2023-01-30"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Efficacy, Safety, and Tolerability of Two Administrations of COMP360 in Participants With TRD",
+        "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD",
         "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE3",
-        "source": "NCT05711940",
-        "date": "2023-02-14"
+        "source": "NCT05624268",
+        "date": "2023-01-19"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1236,6 +1308,22 @@
         "reason": "Studienregister-Treffer: RECRUITING NA",
         "source": "NCT06515106",
         "date": "2023-12-18"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Psilocybin rTMS for Treatment Resistant Depression",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06132178",
+        "date": "2025-01-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Intravitreal Adalimumab in Inherited and Degenerative Retinal Diseases",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1, PHASE2",
+        "source": "NCT07348588",
+        "date": "2025-07-10"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1299,19 +1387,11 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
-        "source": "NCT07226232",
-        "date": "2026-07-30"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Redefine Study: A Study Evaluating the Efficacy, Safety, and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2, PHASE3",
-        "source": "NCT07570654",
-        "date": "2026-09"
+        "level": "low",
+        "title": "Long Term Follow Up Study to COMP 001 And COMP 003 Trials (P-TRD LTFU)",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT04519957",
+        "date": "2020-07-20"
       },
       {
         "type": "SEC Filing",
