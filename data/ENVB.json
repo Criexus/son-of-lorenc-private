@@ -165,7 +165,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-28T04:35:49Z",
+    "last_update_utc": "2026-07-28T07:31:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -417,7 +417,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "ENVB|Enveric Biosciences Inc|Kurs:1.340|Änderung %:+0.050 - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtRHJlV1FaTmVFcE9jRTY1TVE5MFF6RTNtemx2Z0JFTVdsNUNibDBqZUpMYlZNeHVEVkVXbHg2THNOTGZhSXdxbTJyYkRGa1FYNlVwTVhxXzlsRWNsY2FqdldweDVUOWZJeEs0NFJFNjlkUQ?oc=5",
+        "published_at": "2026-07-27T11:51:52Z",
+        "source": "TradingKey",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      }
+    ],
     "sec_filings": [
       {
         "form": "8-K",
