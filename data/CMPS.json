@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.78",
-      "note": "Auto-Update: -11.49% vs. vorheriger Schlusskurs",
+      "value": "$10.82",
+      "note": "Auto-Update: -11.12% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-28T17:50:54Z",
+    "last_update_utc": "2026-07-28T19:04:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.78,
+      "regularMarketPrice": 10.825,
       "previousClose": 12.18,
-      "change": -1.4,
-      "changePercent": -11.49,
-      "regularMarketTime": "2026-07-28T17:50:06Z",
+      "change": -1.355,
+      "changePercent": -11.12,
+      "regularMarketTime": "2026-07-28T19:03:57Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-28T13:30:00Z",
-        "price": 10.78
+        "price": 10.825
       }
     ],
     "price_history_1d": [
@@ -626,8 +626,68 @@
         "price": 10.78
       },
       {
-        "t": "2026-07-28T17:50:06Z",
-        "price": 10.78
+        "t": "2026-07-28T17:50:00Z",
+        "price": 10.7558
+      },
+      {
+        "t": "2026-07-28T17:55:00Z",
+        "price": 10.745
+      },
+      {
+        "t": "2026-07-28T18:00:00Z",
+        "price": 10.75
+      },
+      {
+        "t": "2026-07-28T18:05:00Z",
+        "price": 10.76
+      },
+      {
+        "t": "2026-07-28T18:10:00Z",
+        "price": 10.77
+      },
+      {
+        "t": "2026-07-28T18:15:00Z",
+        "price": 10.75
+      },
+      {
+        "t": "2026-07-28T18:20:00Z",
+        "price": 10.74
+      },
+      {
+        "t": "2026-07-28T18:25:00Z",
+        "price": 10.765
+      },
+      {
+        "t": "2026-07-28T18:30:00Z",
+        "price": 10.79
+      },
+      {
+        "t": "2026-07-28T18:35:00Z",
+        "price": 10.79
+      },
+      {
+        "t": "2026-07-28T18:40:00Z",
+        "price": 10.7801
+      },
+      {
+        "t": "2026-07-28T18:45:00Z",
+        "price": 10.82
+      },
+      {
+        "t": "2026-07-28T18:50:00Z",
+        "price": 10.8
+      },
+      {
+        "t": "2026-07-28T18:55:00Z",
+        "price": 10.79
+      },
+      {
+        "t": "2026-07-28T19:00:00Z",
+        "price": 10.81
+      },
+      {
+        "t": "2026-07-28T19:03:57Z",
+        "price": 10.825
       }
     ],
     "price_history_range": "1mo",
@@ -775,22 +835,6 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: Aktie markiert neues 52-Wochen-Hoch bei 11,65 USD - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaklvWHJXU2o2NDJwa3NpRDNfMWNOSEpqMDhmQzJzWWMxN0hlazlHMEh5cGNwODRranl4UWM0ZDZtLXczUWZYYVE2aDNJV2RfYU11LUdkMjZQWTRmNjFSaER1RWRqZkM3eFFzTGRENk1aaklVSkFOeDBwVm94Zi1vMmJLZDJSdnZadkQ0cEp4T0dnZnJxQzZLQ3NlQjRTTnhZbVVXdkFRTEsyeUliUFpLRC14ekJjTXV2QWJJ?oc=5",
-        "published_at": "2026-05-21T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -958,6 +1002,22 @@
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45UnVId215bmR1TFZtazJWbk13N2dTVkVuZlJJLWV2eHVMUDNQNVF0QTUtSTlnajRlckFNeHk4ZlEzNjBxM2pGdUlnSjNrdnhkRUFMNFNrYS10MmVqcm9LcHR1UFpmaGZWUTZBRmp1amJfRWM?oc=5",
         "published_at": "2020-09-24T11:33:47Z",
         "source": "OnVista",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "COMPASS PATHWAYS AKTIE | Aktienkurs | US20451W1018 | News | A2QCDR - Finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0OUtuenN6Q29SS092dGdlU29sWGV1RFlBRHBkdTdhMjkxLUdIVGw2cmJkWWJ4UjFZd1BSMEg1TTFSWjdSTVlyWHlNTzcyWjBEVzIxUURqUTB1MDMwblpiN0kyeW4?oc=5",
+        "published_at": "2020-09-22T04:43:43Z",
+        "source": "Finanzen.net",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
