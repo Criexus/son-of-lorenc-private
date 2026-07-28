@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.96",
-      "note": "Auto-Update: 4.79% vs. vorheriger Schlusskurs",
+      "value": "$2.99",
+      "note": "Auto-Update: 6.03% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-28T19:04:35Z",
+    "last_update_utc": "2026-07-28T20:39:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.955,
+      "regularMarketPrice": 2.99,
       "previousClose": 2.82,
-      "change": 0.135,
-      "changePercent": 4.79,
-      "regularMarketTime": "2026-07-28T19:04:18Z",
+      "change": 0.17,
+      "changePercent": 6.03,
+      "regularMarketTime": "2026-07-28T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-07-28T13:30:00Z",
-        "price": 2.955
+        "price": 2.99
       }
     ],
     "price_history_1d": [
@@ -683,11 +683,55 @@
       },
       {
         "t": "2026-07-28T19:00:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-28T19:05:00Z",
+        "price": 2.975
+      },
+      {
+        "t": "2026-07-28T19:10:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-28T19:15:00Z",
+        "price": 2.975
+      },
+      {
+        "t": "2026-07-28T19:20:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-07-28T19:25:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-07-28T19:30:00Z",
         "price": 2.955
       },
       {
-        "t": "2026-07-28T19:04:18Z",
+        "t": "2026-07-28T19:35:00Z",
         "price": 2.955
+      },
+      {
+        "t": "2026-07-28T19:40:00Z",
+        "price": 2.9599
+      },
+      {
+        "t": "2026-07-28T19:45:00Z",
+        "price": 2.945
+      },
+      {
+        "t": "2026-07-28T19:50:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-07-28T19:55:00Z",
+        "price": 3.0
+      },
+      {
+        "t": "2026-07-28T20:00:00Z",
+        "price": 2.99
       }
     ],
     "price_history_range": "1mo",
@@ -826,22 +870,6 @@
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtZTNsUVZTdGdNRExreUl2UnVuckpqNFNSUjhFVlkyV0FxcXBxWDZuTDdLbWduUUo5enRld3ZkTVgtNGNjSXllX1hTZ1JKTzZPdlZHbDg0a3lCX2NN?oc=5",
         "published_at": "2019-05-14T14:49:52Z",
         "source": "Comdirect",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Altimmune Aktie • A2N5Z6 • US02155H2004 - OnVista",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDQnR1UWhucXlwZ2NuZGs0STJ4WDR5ekh1T3ZHRFRYQU81dEdtRTBTUkZ0MUltcGU3Z2VIUGhJUHkzUDJ1RTF4SEc5azhiZ3RnaEhzWDl2Q2tuU2lBTWJnSEN5RWstZ1o5d2tCZUdHQQ?oc=5",
-        "published_at": "2018-09-20T15:42:43Z",
-        "source": "OnVista",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
