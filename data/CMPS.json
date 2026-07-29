@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.95",
-      "note": "Auto-Update: -8.21% vs. vorheriger Schlusskurs",
+      "value": "$11.14",
+      "note": "Auto-Update: -6.62% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-29T17:44:58Z",
+    "last_update_utc": "2026-07-29T18:53:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.95,
+      "regularMarketPrice": 11.14,
       "previousClose": 11.93,
-      "change": -0.98,
-      "changePercent": -8.21,
-      "regularMarketTime": "2026-07-29T17:44:25Z",
+      "change": -0.79,
+      "changePercent": -6.62,
+      "regularMarketTime": "2026-07-29T18:53:35Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-07-29T13:30:00Z",
-        "price": 10.95
+        "price": 11.14
       }
     ],
     "price_history_1d": [
@@ -623,11 +623,67 @@
       },
       {
         "t": "2026-07-29T17:40:00Z",
-        "price": 10.973
+        "price": 10.95
       },
       {
-        "t": "2026-07-29T17:44:25Z",
-        "price": 10.95
+        "t": "2026-07-29T17:45:00Z",
+        "price": 10.99
+      },
+      {
+        "t": "2026-07-29T17:50:00Z",
+        "price": 10.9658
+      },
+      {
+        "t": "2026-07-29T17:55:00Z",
+        "price": 10.9001
+      },
+      {
+        "t": "2026-07-29T18:00:00Z",
+        "price": 11.07
+      },
+      {
+        "t": "2026-07-29T18:05:00Z",
+        "price": 11.0725
+      },
+      {
+        "t": "2026-07-29T18:10:00Z",
+        "price": 11.07
+      },
+      {
+        "t": "2026-07-29T18:15:00Z",
+        "price": 10.995
+      },
+      {
+        "t": "2026-07-29T18:20:00Z",
+        "price": 10.98
+      },
+      {
+        "t": "2026-07-29T18:25:00Z",
+        "price": 10.98
+      },
+      {
+        "t": "2026-07-29T18:30:00Z",
+        "price": 11.005
+      },
+      {
+        "t": "2026-07-29T18:35:00Z",
+        "price": 11.03
+      },
+      {
+        "t": "2026-07-29T18:40:00Z",
+        "price": 11.11
+      },
+      {
+        "t": "2026-07-29T18:45:00Z",
+        "price": 11.155
+      },
+      {
+        "t": "2026-07-29T18:50:00Z",
+        "price": 11.14
+      },
+      {
+        "t": "2026-07-29T18:53:35Z",
+        "price": 11.14
       }
     ],
     "price_history_range": "1mo",
@@ -791,22 +847,6 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: 91,2 Millionen Gewinn durch Warrant-Effekt - Börse Global",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaWVPcmIzamZ3eEhqRW9MMmxja24yY2dCUFB5ckdHb0VzbjVhWThQNmJkWlNvQWxjMXExelhmNkxXTU5Yc1Zjdng1Qm9VX0FzcWxBeGdTRHVvR1B0VERLVEZoUC1xbWhjbGptS1QtaVlpS1o4MmMyZjNrQl9XQnYyT3RlN0E1MGhSU2tYY1lKalo1LVg0VUFtamlB?oc=5",
-        "published_at": "2026-05-24T07:00:00Z",
-        "source": "Börse Global",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
