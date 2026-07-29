@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-29T20:08:08Z",
+    "last_update_utc": "2026-07-29T21:25:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -842,6 +842,13 @@
       },
       {
         "form": "144",
+        "filingDate": "2026-07-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005445/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
         "filingDate": "2026-07-27",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005384/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
@@ -963,13 +970,6 @@
         "form": "144",
         "filingDate": "2026-07-02",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005052/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-07-01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005037/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1142,14 +1142,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "144 · 2026-07-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "4 · 2026-07-02",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1295,6 +1287,14 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G/A · 2026-07-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-29"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-07-29",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-29"
