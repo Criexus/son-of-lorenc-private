@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.75",
-      "note": "Auto-Update: -9.92% vs. vorheriger Schlusskurs",
+      "value": "$10.95",
+      "note": "Auto-Update: -8.21% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-29T16:15:04Z",
+    "last_update_utc": "2026-07-29T17:44:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.747,
+      "regularMarketPrice": 10.95,
       "previousClose": 11.93,
-      "change": -1.183,
-      "changePercent": -9.92,
-      "regularMarketTime": "2026-07-29T16:14:49Z",
+      "change": -0.98,
+      "changePercent": -8.21,
+      "regularMarketTime": "2026-07-29T17:44:25Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-07-29T13:30:00Z",
-        "price": 10.7466
+        "price": 10.95
       }
     ],
     "price_history_1d": [
@@ -551,16 +551,104 @@
       },
       {
         "t": "2026-07-29T16:10:00Z",
+        "price": 10.7466
+      },
+      {
+        "t": "2026-07-29T16:15:00Z",
+        "price": 10.73
+      },
+      {
+        "t": "2026-07-29T16:20:00Z",
         "price": 10.75
       },
       {
-        "t": "2026-07-29T16:14:49Z",
-        "price": 10.7466
+        "t": "2026-07-29T16:25:00Z",
+        "price": 10.77
+      },
+      {
+        "t": "2026-07-29T16:30:00Z",
+        "price": 10.78
+      },
+      {
+        "t": "2026-07-29T16:35:00Z",
+        "price": 10.8
+      },
+      {
+        "t": "2026-07-29T16:40:00Z",
+        "price": 10.7882
+      },
+      {
+        "t": "2026-07-29T16:45:00Z",
+        "price": 10.8
+      },
+      {
+        "t": "2026-07-29T16:50:00Z",
+        "price": 10.83
+      },
+      {
+        "t": "2026-07-29T16:55:00Z",
+        "price": 10.9
+      },
+      {
+        "t": "2026-07-29T17:00:00Z",
+        "price": 10.97
+      },
+      {
+        "t": "2026-07-29T17:05:00Z",
+        "price": 10.9214
+      },
+      {
+        "t": "2026-07-29T17:10:00Z",
+        "price": 10.955
+      },
+      {
+        "t": "2026-07-29T17:15:00Z",
+        "price": 10.99
+      },
+      {
+        "t": "2026-07-29T17:20:00Z",
+        "price": 10.92
+      },
+      {
+        "t": "2026-07-29T17:25:00Z",
+        "price": 10.89
+      },
+      {
+        "t": "2026-07-29T17:30:00Z",
+        "price": 10.86
+      },
+      {
+        "t": "2026-07-29T17:35:00Z",
+        "price": 10.92
+      },
+      {
+        "t": "2026-07-29T17:40:00Z",
+        "price": 10.973
+      },
+      {
+        "t": "2026-07-29T17:44:25Z",
+        "price": 10.95
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Compass Pathways gibt am 5. August 2026 die Finanzergebnisse für das zweite Quartal und das erste Halbjahr 2026 bekannt - Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IaHZUYTdKRGtqYl81OUd0SHhnRzctdWd5MDdyVmhUWXl4NDVacHhEclRscGxSOEJjd0tXd3R0SHowQ2hwNmhBNkxLOG9fU0c5azFTT3p2a0s5V0dEajMzSTJ6Q2VNODg?oc=5",
+        "published_at": "2026-07-29T17:02:52Z",
+        "source": "Business Wire",
+        "query": "COMPASS Pathways clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
       {
         "title": "Compass Pathways PLC (CMPS) Aktionärsstruktur: Hauptaktionäre & institutionelle Bestände - TradingKey",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XcVhuOV9YM2pCa1JsS2wzVjhZVlR2ZmRuR25HVGFpVENPNlRNMU12X1ZkN1Rqaks5YkdHMDdkYXBlOEpfZl9relZCY2pQaFl5NkFmTzNjWHNod1l5ZWpFNTFxclk3UVBKNjE4?oc=5",
@@ -848,22 +936,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
-      },
-      {
-        "title": "COMPASS Pathways Plc - American Depository Shares Finanzberichte – NASDAQ:CMPS - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SRW8xb2RNRGNqc0UzZmdFc1pjZlpHaUVhckIzRkVfZGpOMFg2eVNqN3VyTVBpYWFMMklULXE2RDcyNkFXeWZ6T3RZSHBsbElQU0lkQ091UFdEYlgwa3B2bGU3MXZ0aGZaMHZjVFNLa1h4OXpQMFE?oc=5",
-        "published_at": "2021-03-27T06:08:54Z",
-        "source": "TradingView",
-        "query": "CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 19
       },
       {
         "title": "Technische Analyse von COMPASS Pathways Plc - American Depository Shares (NASDAQ: CMPS) - TradingView",
