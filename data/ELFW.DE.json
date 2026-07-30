@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$42.60",
-      "note": "Auto-Update: -0.56% vs. vorheriger Schlusskurs",
+      "value": "$42.57",
+      "note": "Auto-Update: -0.63% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-30T13:02:37Z",
+    "last_update_utc": "2026-07-30T15:30:08Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 42.602,
+      "regularMarketPrice": 42.574,
       "previousClose": 42.843,
-      "change": -0.241,
-      "changePercent": -0.56,
-      "regularMarketTime": "2026-07-30T12:27:02Z",
+      "change": -0.269,
+      "changePercent": -0.63,
+      "regularMarketTime": "2026-07-30T14:57:23Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,7 +248,7 @@
       },
       {
         "t": "2026-07-30T07:00:00Z",
-        "price": 42.602
+        "price": 42.574
       }
     ],
     "price_history_1d": [
@@ -341,8 +341,40 @@
         "price": 42.602
       },
       {
-        "t": "2026-07-30T12:27:02Z",
-        "price": 42.602
+        "t": "2026-07-30T13:30:00Z",
+        "price": 42.604
+      },
+      {
+        "t": "2026-07-30T13:35:00Z",
+        "price": 42.564
+      },
+      {
+        "t": "2026-07-30T13:40:00Z",
+        "price": 42.613
+      },
+      {
+        "t": "2026-07-30T13:50:00Z",
+        "price": 42.665
+      },
+      {
+        "t": "2026-07-30T14:00:00Z",
+        "price": 42.634
+      },
+      {
+        "t": "2026-07-30T14:10:00Z",
+        "price": 42.614
+      },
+      {
+        "t": "2026-07-30T14:15:00Z",
+        "price": 42.633
+      },
+      {
+        "t": "2026-07-30T14:35:00Z",
+        "price": 42.69
+      },
+      {
+        "t": "2026-07-30T14:55:00Z",
+        "price": 42.574
       }
     ],
     "price_history_range": "1mo",
