@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$17.15",
-      "note": "Auto-Update: -1.06% vs. vorheriger Schlusskurs",
+      "value": "$17.19",
+      "note": "Auto-Update: -0.83% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-30T11:33:36Z",
+    "last_update_utc": "2026-07-30T13:02:31Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 17.146,
+      "regularMarketPrice": 17.186,
       "previousClose": 17.33,
-      "change": -0.184,
-      "changePercent": -1.06,
-      "regularMarketTime": "2026-07-30T11:16:35Z",
+      "change": -0.144,
+      "changePercent": -0.83,
+      "regularMarketTime": "2026-07-30T12:43:50Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -250,7 +250,7 @@
       },
       {
         "t": "2026-07-30T07:00:00Z",
-        "price": 17.146
+        "price": 17.186
       }
     ],
     "price_history_1d": [
@@ -452,16 +452,129 @@
       },
       {
         "t": "2026-07-30T11:15:00Z",
-        "price": 17.14
+        "price": 17.146
       },
       {
-        "t": "2026-07-30T11:16:35Z",
-        "price": 17.146
+        "t": "2026-07-30T11:20:00Z",
+        "price": 17.128
+      },
+      {
+        "t": "2026-07-30T11:25:00Z",
+        "price": 17.156
+      },
+      {
+        "t": "2026-07-30T11:30:00Z",
+        "price": 17.166
+      },
+      {
+        "t": "2026-07-30T11:35:00Z",
+        "price": 17.158
+      },
+      {
+        "t": "2026-07-30T11:40:00Z",
+        "price": 17.156
+      },
+      {
+        "t": "2026-07-30T11:45:00Z",
+        "price": 17.156
+      },
+      {
+        "t": "2026-07-30T11:50:00Z",
+        "price": 17.148
+      },
+      {
+        "t": "2026-07-30T11:55:00Z",
+        "price": 17.132
+      },
+      {
+        "t": "2026-07-30T12:05:00Z",
+        "price": 17.174
+      },
+      {
+        "t": "2026-07-30T12:10:00Z",
+        "price": 17.174
+      },
+      {
+        "t": "2026-07-30T12:15:00Z",
+        "price": 17.164
+      },
+      {
+        "t": "2026-07-30T12:20:00Z",
+        "price": 17.16
+      },
+      {
+        "t": "2026-07-30T12:25:00Z",
+        "price": 17.182
+      },
+      {
+        "t": "2026-07-30T12:30:00Z",
+        "price": 17.19
+      },
+      {
+        "t": "2026-07-30T12:35:00Z",
+        "price": 17.206
+      },
+      {
+        "t": "2026-07-30T12:40:00Z",
+        "price": 17.192
+      },
+      {
+        "t": "2026-07-30T12:43:50Z",
+        "price": 17.186
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "L&G Hydrogen Economy UCITS ETF (HTMW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nSFNOaml3Vm5LQWx3V3NmSzRJTHRjUUQtX1hWdG9vcWtTVUVnbXY0NjNyeGZLV19PM1ZQS2xtdVdPc0FaYkotTmlaWGttREpERl9wUjl3?oc=5",
+        "published_at": "2021-07-23T01:50:44Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      },
+      {
+        "title": "iShares MSCI China UCITS ETF USD Acc (ICGA.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LMG1iemtwbF9PRWM5Vm00MU9KdlVVVnNqeWtuSHQyY2ZWazZqSjNBTzZFTGk1N1FHYXRtRVhRV0M4T3ZmOHljSXhOSHRVWldSalQ4RzNR?oc=5",
+        "published_at": "2019-10-12T05:47:33Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 9
+      },
+      {
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
+        "published_at": "2019-01-08T08:47:34Z",
+        "source": "Comdirect",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 47
+      }
+    ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],

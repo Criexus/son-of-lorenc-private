@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-30T11:32:37Z",
+    "last_update_utc": "2026-07-30T13:02:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -592,7 +592,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "HAO|Haoxi Health Technology Ltd|Kurs:0.169|Änderung %:-0.005 - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZWHZ1Y3RzQ3FkMWZjeTBEOTRMQ1J0ZjlNQU05SlFGMjc2YWpUbFd2Ym1MTlppY0FqcVpicnJjamFnaEdsblQ2c1VRSi1qMEx4a1h2NFh6VDB4RkVfTy1qUGZ3RVluX2tTYkhUdEJKZVg?oc=5",
+        "published_at": "2026-07-25T07:13:17Z",
+        "source": "TradingKey",
+        "query": "HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
@@ -737,154 +754,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07280559",
-        "title": "Evaluation of AI-assisted LDCT Screening in Lung Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Lung Cancer",
-        "last_update": "",
-        "start_date": "2025-12-11",
-        "url": "https://clinicaltrials.gov/study/NCT07280559"
-      },
-      {
-        "nct_id": "NCT06138210",
-        "title": "The Effect of GD-iExo-003 in Acute Ischemic Stroke",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Acute Ischemic Stroke",
-        "last_update": "",
-        "start_date": "2024-06-05",
-        "url": "https://clinicaltrials.gov/study/NCT06138210"
-      },
-      {
-        "nct_id": "NCT02961413",
-        "title": "A Prospective Cohort Study on Drug-induced Liver Injury in China（DILI-P）",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Drug-induced Liver Injury",
-        "last_update": "",
-        "start_date": "2016-04",
-        "url": "https://clinicaltrials.gov/study/NCT02961413"
-      },
-      {
-        "nct_id": "NCT06792097",
-        "title": "Ga-68 Dolacga PET Scan in HCC Under RFA",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Hepatocellular Carcinoma (HCC), Radiofrequency Ablation, PET Scan, Computed Tomography",
-        "last_update": "",
-        "start_date": "2025-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT06792097"
-      },
-      {
-        "nct_id": "NCT07495202",
-        "title": "A Clinical Trial Evaluating the Monkeypox Recombinant Protein Vaccine",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Health Volunteer",
-        "last_update": "",
-        "start_date": "2026-05-18",
-        "url": "https://clinicaltrials.gov/study/NCT07495202"
-      },
-      {
-        "nct_id": "NCT05036031",
-        "title": "Transplantation for EASL-CLIF and APASL ACLF Patients: a Retrospective Cohort Study",
+        "nct_id": "NCT05149027",
+        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
         "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Acute-On-Chronic Liver Failure, Liver Cirrhosis, Liver Transplant; Complications",
+        "phase": "PHASE1",
+        "conditions": "Solid Tumors",
         "last_update": "",
-        "start_date": "2021-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT05036031"
+        "start_date": "2021-12-20",
+        "url": "https://clinicaltrials.gov/study/NCT05149027"
       },
       {
-        "nct_id": "NCT07389200",
-        "title": "Application of Multimodal MRI-based Radiomics in Histological Grading and Prognostic Assessment of Breast Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Breast Cancer, Breast Cancer With Low to Intermediate HER2 Expression",
+        "nct_id": "NCT04856696",
+        "title": "Clinical Application of Non-invasive PGT-A",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Genetic Testing",
         "last_update": "",
-        "start_date": "2028-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT07389200"
+        "start_date": "2021-03-24",
+        "url": "https://clinicaltrials.gov/study/NCT04856696"
       },
       {
-        "nct_id": "NCT06475781",
-        "title": "Study to Evaluate Safety and Efficacy of Mirivadelgat in PH-ILD (Windward)",
-        "status": "RECRUITING",
+        "nct_id": "NCT05156450",
+        "title": "TQB3616 Capsules Combined With Abiraterone Acetate Plus Prednisone in Metastatic Castration-Resistant Prostate Cancer",
+        "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Group 3 Pulmonary Hypertension",
+        "conditions": "Prostatic Neoplasms, Castration-Resistant, Drug Therapy, Combination",
         "last_update": "",
-        "start_date": "2025-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT06475781"
+        "start_date": "2022-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05156450"
       },
       {
-        "nct_id": "NCT07574450",
-        "title": "Taiwan ED Airway Quality Surveillance Registry (TEAR)",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Airway Management, Tracheal Intubation, Emergency Department, Peri-intubation Adverse Events",
+        "nct_id": "NCT03426150",
+        "title": "Casein Phosphopeptide--amorphous Calcium Phosphate on Human Enamel Subjected to in Vivo Acid Attacks",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Dental Erosion",
         "last_update": "",
-        "start_date": "2026-08",
-        "url": "https://clinicaltrials.gov/study/NCT07574450"
+        "start_date": "2015-12-25",
+        "url": "https://clinicaltrials.gov/study/NCT03426150"
       },
       {
-        "nct_id": "NCT06861426",
-        "title": "Effectiveness of Ginkgo Diterpene Lactone Meglumine in Acute Ischemic Stroke",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Acute Ischemic Stroke",
-        "last_update": "",
-        "start_date": "2025-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT06861426"
-      },
-      {
-        "nct_id": "NCT02467790",
-        "title": "Polyethylene Glycol Loxenatide Pharmacokinetics Study in Subjects With Normal and Insufficiency Renal Function",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Type 2 Diabetes Mellitus",
-        "last_update": "",
-        "start_date": "2015-02",
-        "url": "https://clinicaltrials.gov/study/NCT02467790"
-      },
-      {
-        "nct_id": "NCT06120413",
-        "title": "18F-LN1 PET/CT in Urothelial Carcinomas",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Urothelial Carcinoma",
-        "last_update": "",
-        "start_date": "2023-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT06120413"
-      },
-      {
-        "nct_id": "NCT07202559",
-        "title": "Indometacin With or Without Aggressive Intravenous Hydration to Prevent Pancreatitis After Pancreatic Extracorporeal Shock Wave Lithotripsy",
+        "nct_id": "NCT06794047",
+        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Pancreatitis, Chronic, Pancreatitis, Acute, Pancreatic Duct Stones",
+        "conditions": "Diminished Ovarian Reserve, IVF Outcomes",
         "last_update": "",
-        "start_date": "2025-10-13",
-        "url": "https://clinicaltrials.gov/study/NCT07202559"
+        "start_date": "2025-03-17",
+        "url": "https://clinicaltrials.gov/study/NCT06794047"
       },
       {
-        "nct_id": "NCT03830879",
-        "title": "Shenzhen Birth Cohort Study",
-        "status": "RECRUITING",
+        "nct_id": "NCT06966765",
+        "title": "Accelerated vs Standard Approach to Continuous Veno-venous Hemodiafiltration Post-hemoperfusion (ASAP) in Severe Acute Diquat Poisoning",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Diquat Poisoning",
+        "last_update": "",
+        "start_date": "2027-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06966765"
+      },
+      {
+        "nct_id": "NCT02137980",
+        "title": "Registry of Non-primary Angioplasty at Hospitals Without Surgery On-site",
+        "status": "COMPLETED",
         "phase": "",
-        "conditions": "Pregnancy Complications, Gestational Diabetes, Obstetric Labor Complications, Neurodevelopmental Disorders",
+        "conditions": "Coronary Artery Disease, Heart Attack, Angina",
         "last_update": "",
-        "start_date": "2018-03-06",
-        "url": "https://clinicaltrials.gov/study/NCT03830879"
+        "start_date": "2011-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT02137980"
       },
       {
-        "nct_id": "NCT05613270",
-        "title": "Characterizing Breast Cancer With 18F-FES PET/CT",
+        "nct_id": "NCT01367379",
+        "title": "The Effect of the Duty Loading on the Stress Response of Physician",
         "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Breast Cancer",
+        "phase": "",
+        "conditions": "Physiological Stress, Psychological Stress",
         "last_update": "",
-        "start_date": "2021-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT05613270"
+        "start_date": "2011-06",
+        "url": "https://clinicaltrials.gov/study/NCT01367379"
+      },
+      {
+        "nct_id": "NCT03151161",
+        "title": "Intermittent and Maintenance of Icotinib in Combination With Pemetrexed/Carboplatin Compared With Icotinib Single Drug in Ⅲb/IV Non Small Cell Lung Cancer With Epidermal Growth Factor Receptor (EGFR) Mutation",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Lung, Carcinoma",
+        "last_update": "",
+        "start_date": "2015-12",
+        "url": "https://clinicaltrials.gov/study/NCT03151161"
+      },
+      {
+        "nct_id": "NCT06409351",
+        "title": "Multi-modal Training Program to Promote Physical Activity After Stroke",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Stroke, Physical Inactivity",
+        "last_update": "",
+        "start_date": "2024-06-11",
+        "url": "https://clinicaltrials.gov/study/NCT06409351"
+      },
+      {
+        "nct_id": "NCT05861830",
+        "title": "Dalpiciclib With Endocrine Therapy for Advanced Breast Cancer After CDK4/6 Inhibitor Failure (DAWNA-FES)",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "Advanced Breast Cancer",
+        "last_update": "",
+        "start_date": "2023-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT05861830"
+      },
+      {
+        "nct_id": "NCT05244837",
+        "title": "Predictive Biomarker for Efficacy and Safety of Combination of Chemotherapy and Tislelizumab in NSCLC",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Tislelizumab, Safety, Biomarker, Chemotherapy",
+        "last_update": "",
+        "start_date": "2020-12-22",
+        "url": "https://clinicaltrials.gov/study/NCT05244837"
+      },
+      {
+        "nct_id": "NCT04004572",
+        "title": "Sintilimab, Pegaspargase and Anlotinib for Stage IV Natural Killer /T-cell Lymphoma",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Natural Killer/T-Cell Lymphoma, Nasal and Nasal-Type",
+        "last_update": "",
+        "start_date": "2019-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT04004572"
+      },
+      {
+        "nct_id": "NCT07187687",
+        "title": "TrIal of Early Minimally Invasive Catheter Evacuation With Thrombolysis in IntraCerebral Hemorrhage",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Intracerebral Hemorrhage",
+        "last_update": "",
+        "start_date": "2025-10-24",
+        "url": "https://clinicaltrials.gov/study/NCT07187687"
+      },
+      {
+        "nct_id": "NCT05086536",
+        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Hepatitis B, Decompensated Cirrhosis",
+        "last_update": "",
+        "start_date": "2021-10-15",
+        "url": "https://clinicaltrials.gov/study/NCT05086536"
       }
     ],
     "detected_triggers": [
@@ -907,50 +924,90 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Polyethylene Glycol Loxenatide Pharmacokinetics Study in Subjects With Normal and Insufficiency Renal Function",
+        "title": "Intermittent and Maintenance of Icotinib in Combination With Pemetrexed/Carboplatin Compared With Icotinib Single Drug in Ⅲb/IV Non Small Cell Lung Cancer With Epidermal Growth Factor Receptor (EGFR) Mutation",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT03151161",
+        "date": "2015-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Casein Phosphopeptide--amorphous Calcium Phosphate on Human Enamel Subjected to in Vivo Acid Attacks",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT03426150",
+        "date": "2015-12-25"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Sintilimab, Pegaspargase and Anlotinib for Stage IV Natural Killer /T-cell Lymphoma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT04004572",
+        "date": "2019-07-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Predictive Biomarker for Efficacy and Safety of Combination of Chemotherapy and Tislelizumab in NSCLC",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT05244837",
+        "date": "2020-12-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Application of Non-invasive PGT-A",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT04856696",
+        "date": "2021-03-24"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT02467790",
-        "date": "2015-02"
+        "source": "NCT05149027",
+        "date": "2021-12-20"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Characterizing Breast Cancer With 18F-FES PET/CT",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05613270",
-        "date": "2021-05-01"
+        "title": "TQB3616 Capsules Combined With Abiraterone Acetate Plus Prednisone in Metastatic Castration-Resistant Prostate Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT05156450",
+        "date": "2022-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effect of GD-iExo-003 in Acute Ischemic Stroke",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06138210",
-        "date": "2024-06-05"
+        "title": "Dalpiciclib With Endocrine Therapy for Advanced Breast Cancer After CDK4/6 Inhibitor Failure (DAWNA-FES)",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT05861830",
+        "date": "2023-05-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Study to Evaluate Safety and Efficacy of Mirivadelgat in PH-ILD (Windward)",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06475781",
-        "date": "2025-03-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Indometacin With or Without Aggressive Intravenous Hydration to Prevent Pancreatitis After Pancreatic Extracorporeal Shock Wave Lithotripsy",
+        "title": "Multi-modal Training Program to Promote Physical Activity After Stroke",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07202559",
-        "date": "2025-10-13"
+        "source": "NCT06409351",
+        "date": "2024-06-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Evaluation of AI-assisted LDCT Screening in Lung Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07280559",
-        "date": "2025-12-11"
+        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06794047",
+        "date": "2025-03-17"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "TrIal of Early Minimally Invasive Catheter Evacuation With Thrombolysis in IntraCerebral Hemorrhage",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07187687",
+        "date": "2025-10-24"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -991,14 +1048,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-13"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Trial Evaluating the Monkeypox Recombinant Protein Vaccine",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT07495202",
-        "date": "2026-05-18"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1050,51 +1099,35 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "A Prospective Cohort Study on Drug-induced Liver Injury in China（DILI-P）",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT02961413",
-        "date": "2016-04"
+        "level": "medium",
+        "title": "Accelerated vs Standard Approach to Continuous Veno-venous Hemodiafiltration Post-hemoperfusion (ASAP) in Severe Acute Diquat Poisoning",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
+        "source": "NCT06966765",
+        "date": "2027-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Shenzhen Birth Cohort Study",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT03830879",
-        "date": "2018-03-06"
+        "title": "Registry of Non-primary Angioplasty at Hospitals Without Surgery On-site",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT02137980",
+        "date": "2011-04-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Transplantation for EASL-CLIF and APASL ACLF Patients: a Retrospective Cohort Study",
+        "title": "The Effect of the Duty Loading on the Stress Response of Physician",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05036031",
-        "date": "2021-09-01"
+        "source": "NCT01367379",
+        "date": "2011-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "18F-LN1 PET/CT in Urothelial Carcinomas",
+        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06120413",
-        "date": "2023-11-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Ga-68 Dolacga PET Scan in HCC Under RFA",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
-        "source": "NCT06792097",
-        "date": "2025-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Effectiveness of Ginkgo Diterpene Lactone Meglumine in Acute Ischemic Stroke",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
-        "source": "NCT06861426",
-        "date": "2025-03-01"
+        "source": "NCT05086536",
+        "date": "2021-10-15"
       },
       {
         "type": "SEC Filing",
@@ -1103,22 +1136,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
