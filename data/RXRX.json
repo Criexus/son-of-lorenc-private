@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.99",
-      "note": "Auto-Update: 1.01% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: 1.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-07-31T18:50:32Z",
+    "last_update_utc": "2026-07-31T20:14:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.99,
+      "regularMarketPrice": 3.0,
       "previousClose": 2.96,
-      "change": 0.03,
-      "changePercent": 1.01,
-      "regularMarketTime": "2026-07-31T18:50:22Z",
+      "change": 0.04,
+      "changePercent": 1.35,
+      "regularMarketTime": "2026-07-31T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 7.18"
     },
     "price_history": [
-      {
-        "t": "2026-06-30T13:30:00Z",
-        "price": 3.67
-      },
       {
         "t": "2026-07-01T13:30:00Z",
         "price": 3.67
@@ -403,7 +399,7 @@
       },
       {
         "t": "2026-07-31T13:30:00Z",
-        "price": 2.99
+        "price": 3.0
       }
     ],
     "price_history_1d": [
@@ -664,8 +660,64 @@
         "price": 2.985
       },
       {
-        "t": "2026-07-31T18:50:25Z",
+        "t": "2026-07-31T18:50:00Z",
         "price": 2.985
+      },
+      {
+        "t": "2026-07-31T18:55:00Z",
+        "price": 2.975
+      },
+      {
+        "t": "2026-07-31T19:00:00Z",
+        "price": 2.985
+      },
+      {
+        "t": "2026-07-31T19:05:00Z",
+        "price": 2.985
+      },
+      {
+        "t": "2026-07-31T19:10:00Z",
+        "price": 2.98
+      },
+      {
+        "t": "2026-07-31T19:15:00Z",
+        "price": 2.9803
+      },
+      {
+        "t": "2026-07-31T19:20:00Z",
+        "price": 2.985
+      },
+      {
+        "t": "2026-07-31T19:25:00Z",
+        "price": 2.985
+      },
+      {
+        "t": "2026-07-31T19:30:00Z",
+        "price": 2.98
+      },
+      {
+        "t": "2026-07-31T19:35:00Z",
+        "price": 2.985
+      },
+      {
+        "t": "2026-07-31T19:40:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-07-31T19:45:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-07-31T19:50:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-07-31T19:55:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-07-31T20:00:00Z",
+        "price": 3.0
       }
     ],
     "price_history_range": "1mo",
@@ -704,10 +756,10 @@
         "relevance_score": 25
       },
       {
-        "title": "RXRX Prognose — Kursziel für 2027 - de.tradingview.com",
+        "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
         "published_at": "2026-06-25T12:31:22Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -752,10 +804,10 @@
         "relevance_score": 25
       },
       {
-        "title": "Recursion Pharmaceuticals Director Sells Shares - de.tradingview.com",
+        "title": "Recursion Pharmaceuticals Director Sells Shares - TradingView",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEpQRV94eThQa1pnUUc0UEZfYkpqRzdRMFQ0RHlkMjJ1bUxIR1dMWGFfQzJlQzdHUXFPN3hVZmsweV8xa3ktaDNNbGc3R09KMENqTjlEWF81OVBMRWI2a2M0eHU4VHFwb3YxQ21rMUZoZlI4MC15OHhhRHZKT3BQYjcwcEZkRl9NTEJnYzlETmxjUlJ2OHkxLW1Pd1l3Vm1SeFY4bjE1VGd3Nldn?oc=5",
         "published_at": "2024-08-08T07:00:00Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -784,10 +836,10 @@
         "relevance_score": 19
       },
       {
-        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - de.tradingview.com",
+        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-16T06:05:44Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
