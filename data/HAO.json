@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-02T10:59:18Z",
+    "last_update_utc": "2026-08-02T12:00:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -616,7 +616,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "HAO|Haoxi Health Technology Ltd|Kurs:0.151|Änderung %:+0.001 - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZWHZ1Y3RzQ3FkMWZjeTBEOTRMQ1J0ZjlNQU05SlFGMjc2YWpUbFd2Ym1MTlppY0FqcVpicnJjamFnaEdsblQ2c1VRSi1qMEx4a1h2NFh6VDB4RkVfTy1qUGZ3RVluX2tTYkhUdEJKZVg?oc=5",
+        "published_at": "2026-07-25T07:13:17Z",
+        "source": "TradingKey",
+        "query": "HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
