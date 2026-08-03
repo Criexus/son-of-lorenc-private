@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.17",
-      "note": "Auto-Update: 5.32% vs. vorheriger Schlusskurs",
+      "value": "$3.18",
+      "note": "Auto-Update: 5.65% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-03T18:43:20Z",
+    "last_update_utc": "2026-08-03T20:20:44Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.17,
+      "regularMarketPrice": 3.18,
       "previousClose": 3.01,
-      "change": 0.16,
-      "changePercent": 5.32,
-      "regularMarketTime": "2026-08-03T18:43:13Z",
+      "change": 0.17,
+      "changePercent": 5.65,
+      "regularMarketTime": "2026-08-03T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-08-03T13:30:00Z",
-        "price": 3.17
+        "price": 3.18
       }
     ],
     "price_history_1d": [
@@ -649,21 +649,81 @@
       },
       {
         "t": "2026-08-03T18:40:00Z",
+        "price": 3.17
+      },
+      {
+        "t": "2026-08-03T18:45:00Z",
+        "price": 3.17
+      },
+      {
+        "t": "2026-08-03T18:50:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T18:55:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T19:00:00Z",
         "price": 3.16
       },
       {
-        "t": "2026-08-03T18:43:13Z",
+        "t": "2026-08-03T19:05:00Z",
+        "price": 3.1503
+      },
+      {
+        "t": "2026-08-03T19:10:00Z",
+        "price": 3.16
+      },
+      {
+        "t": "2026-08-03T19:15:00Z",
+        "price": 3.16
+      },
+      {
+        "t": "2026-08-03T19:20:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T19:25:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T19:30:00Z",
+        "price": 3.175
+      },
+      {
+        "t": "2026-08-03T19:35:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T19:40:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T19:45:00Z",
         "price": 3.17
+      },
+      {
+        "t": "2026-08-03T19:50:00Z",
+        "price": 3.165
+      },
+      {
+        "t": "2026-08-03T19:55:00Z",
+        "price": 3.1841
+      },
+      {
+        "t": "2026-08-03T20:00:00Z",
+        "price": 3.18
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "RXRX|Recursion Pharmaceuticals Inc|Kurs:3.040|Änderung %:+0.070 - TradingKey",
+        "title": "RXRX|Recursion Pharmaceuticals Inc|Kurs:3.040|Änderung %:+0.070 - tradingkey.com",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4WFU5RW5qMU9BMzVZZ21IVmFSYUYwTEZpRzhJX2pteU5kN0JydV94ZTF1ZG9zUERqU0tkS1Znb2hSQmFFcGI0N0ZSbjZ4Nlpka3FxQVZkNWNpbEQ0V05Qc0M5anRzbnctemxHSWU0TVZwZw?oc=5",
         "published_at": "2026-07-24T12:17:27Z",
-        "source": "TradingKey",
+        "source": "tradingkey.com",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -692,10 +752,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
+        "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - tikr.com",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXhpaXh2Tngya3pMeWFpcUNBcmpOOEpGMXNLMlNVNHlFU18xRk12TjhfS21IeGVEd09UaTJYUFRER3lYWVE4aHFHcHRuRGRMczBlVU1OR1J4Wm1abU90aUZocGEtaUdDUWU3VThUd2VwQ1VEdTFrRjB6dkF6dDZLVEEyWlcwdEdVU1dtZ0dPX2dnTDl5ZVk4YV83ZWVaSU1KbHVjYjZwdTNwQkJGdk1RbHp5amFQcHc?oc=5",
         "published_at": "2025-09-18T07:00:00Z",
-        "source": "TIKR.com",
+        "source": "tikr.com",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -740,10 +800,10 @@
         "relevance_score": 19
       },
       {
-        "title": "RECURSION PHARMACEUTICALS, A AKTIE | Aktienkurs | US75629V1044 | News | A3CM1C - Finanzen.net",
+        "title": "RECURSION PHARMACEUTICALS, A AKTIE | Aktienkurs | US75629V1044 | News | A3CM1C - finanzen.net",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ib2htU1VTdU95d3VSVWpBY0FXUlBuYVBMQ0FPVERFa3lMZlRTbE50SHdXLUsxRGRhUVh0VlhIcEtEZzNvcnJvRDVqUk93ZWFDTGt6ODdNR29wQ3B2RnI3TUc3M0J5dTl1S2pia2JxWFp5N1Bm?oc=5",
         "published_at": "2021-04-16T11:48:50Z",
-        "source": "Finanzen.net",
+        "source": "finanzen.net",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.95",
-      "note": "Auto-Update: -0.34% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: 1.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-03T18:42:38Z",
+    "last_update_utc": "2026-08-03T20:19:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.95,
+      "regularMarketPrice": 3.0,
       "previousClose": 2.96,
-      "change": -0.01,
-      "changePercent": -0.34,
-      "regularMarketTime": "2026-08-03T18:42:02Z",
+      "change": 0.04,
+      "changePercent": 1.35,
+      "regularMarketTime": "2026-08-03T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-08-03T13:30:00Z",
-        "price": 2.95
+        "price": 3.0
       }
     ],
     "price_history_1d": [
@@ -667,11 +667,71 @@
       },
       {
         "t": "2026-08-03T18:40:00Z",
-        "price": 2.945
+        "price": 2.93
       },
       {
-        "t": "2026-08-03T18:42:02Z",
+        "t": "2026-08-03T18:45:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-08-03T18:50:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-08-03T18:55:00Z",
+        "price": 2.925
+      },
+      {
+        "t": "2026-08-03T19:00:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-08-03T19:05:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-08-03T19:10:00Z",
+        "price": 2.97
+      },
+      {
+        "t": "2026-08-03T19:15:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-08-03T19:20:00Z",
+        "price": 2.97
+      },
+      {
+        "t": "2026-08-03T19:25:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-08-03T19:30:00Z",
+        "price": 2.97
+      },
+      {
+        "t": "2026-08-03T19:35:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-08-03T19:40:00Z",
         "price": 2.95
+      },
+      {
+        "t": "2026-08-03T19:45:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-08-03T19:50:00Z",
+        "price": 2.98
+      },
+      {
+        "t": "2026-08-03T19:55:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-08-03T20:00:00Z",
+        "price": 3.0
       }
     ],
     "price_history_range": "1mo",
@@ -682,7 +742,7 @@
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEdzAwRUlULTEyYTZsYWZLMEV4Sy1YbVRtcG9BRm5oZk1Cd2YtUk9nb1RPWWVHYkd2YjdvWkwxOFVLa3pvVWsxMjVqTGhYdW1iU0VmUm1LemRWeFMxbzNndUx3QUxrUWYzU2c?oc=5",
         "published_at": "2026-07-30T01:52:01Z",
         "source": "Goldesel.de",
-        "query": "Altimmune ALT pemvidutide stock news",
+        "query": "ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -691,7 +751,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
+        "relevance_score": 6
       },
       {
         "title": "Altimmune: Positive Studiendaten lassen Aktie zweistellig steigen - Investing.com Deutsch",
@@ -726,10 +786,10 @@
         "relevance_score": 7
       },
       {
-        "title": "ALT|Altimmune Inc|Kurs:2.925|Änderung %:-0.065 - TradingKey",
+        "title": "ALT|Altimmune Inc|Kurs:2.925|Änderung %:-0.065 - tradingkey.com",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xUV9SNzdXUExlVE9MWjZPZzRhRTBiV1ZSbV9xR1ZJaFk4X1BJbTdHM0Y0OFpUUmNPYmhsN0tZTjFOLXB4TDNRVmVic1VjNzJpTk1HcmRyaWZOYkk5?oc=5",
         "published_at": "2026-07-27T03:39:57Z",
-        "source": "TradingKey",
+        "source": "tradingkey.com",
         "query": "Altimmune pemvidutide obesity",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -742,10 +802,10 @@
         "relevance_score": 8
       },
       {
-        "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - boerse-express.com",
+        "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeGNQOUpNWVBHWFV2YUs5N1lZcXhSVk53WThtMHZQOG1OejIzcU5id3BRRVJPTGhaamZMTEZCYXlwX2xRQjI4dHdNSUlLcDlPbVlEQl8wRDZOVHJuYm13RVNpRnh1ektZc2x1SG16eFBoRXFadUJYQlpzeHVjNUxJZFQ0eFRWbmpFRmlVam9VN1BaWUZvaG9STHhibUFsY2cxRkRCazB3?oc=5",
         "published_at": "2026-06-30T07:00:00Z",
-        "source": "boerse-express.com",
+        "source": "Börse Express",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -790,10 +850,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune: 225 Millionen für Phase 3 - boerse-express.com",
+        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
         "published_at": "2026-04-23T07:00:00Z",
-        "source": "boerse-express.com",
+        "source": "Börse Express",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Studienphase / Readout",
@@ -820,6 +880,22 @@
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 13
+      },
+      {
+        "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5",
+        "published_at": "2026-01-25T08:00:00Z",
+        "source": "simplywall.st",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 8
       },
       {
         "title": "Altimmune Aktie (A2N5Z6, ALT) - Kurs, Chart, News & Kennzahlen - Ariva",
@@ -887,6 +963,20 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-08-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000170590526000010/xslF345X06/form4-08032026_040815.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-08-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000125177926000009/xslF345X06/form4-08032026_040813.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "8-K",
         "filingDate": "2026-07-28",
@@ -1010,20 +1100,6 @@
         "form": "4",
         "filingDate": "2026-05-01",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000120119626000002/xslF345X06/form4-05012026_080555.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G",
-        "filingDate": "2026-04-30",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000117266126001579/xslSCHEDULE_13G_X02/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-04-24",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000110465926048552/tm2612493d2_8k.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1182,14 +1258,26 @@
     ],
     "detected_triggers": [
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "simplywall.st",
+        "date": "2026-01-25T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5"
+      },
+      {
         "type": "Studienphase / Readout",
         "level": "high",
-        "title": "Altimmune: 225 Millionen für Phase 3 - boerse-express.com",
+        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
         "reason": "Trigger erkannt: Studienphase / Readout.",
         "impact": "potenziell hoher klinischer Trigger",
         "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
         "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
-        "source": "boerse-express.com",
+        "source": "Börse Express",
         "date": "2026-04-23T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5"
       },
@@ -1342,14 +1430,6 @@
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5"
       },
       {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
-        "title": "8-K · 2026-04-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-24"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "10-Q · 2026-05-13",
@@ -1392,10 +1472,10 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "SCHEDULE 13G · 2026-04-30",
+        "title": "SCHEDULE 13G · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-30"
+        "date": "2026-05-01"
       },
       {
         "type": "SEC Filing",
@@ -1408,7 +1488,7 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "SCHEDULE 13G · 2026-05-01",
+        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
