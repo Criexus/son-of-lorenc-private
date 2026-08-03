@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-03T08:20:29Z",
+    "last_update_utc": "2026-08-03T11:52:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -742,11 +742,27 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - goldesel.de",
+        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEdzAwRUlULTEyYTZsYWZLMEV4Sy1YbVRtcG9BRm5oZk1Cd2YtUk9nb1RPWWVHYkd2YjdvWkwxOFVLa3pvVWsxMjVqTGhYdW1iU0VmUm1LemRWeFMxbzNndUx3QUxrUWYzU2c?oc=5",
         "published_at": "2026-07-30T01:52:01Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "Altimmune ALT pemvidutide stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Altimmune: Positive Studiendaten lassen Aktie zweistellig steigen - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSS1JalhSc0ZMSEhjY0ljSlQyRzJ5V2hNblNGOFhMVUd1UkFLWDYxdzZsNFhyQ3cwaFZ6NEVVQ0lWcHRCZzM5TzdkRHFaZDhTY1Q5cENHTW1jLWFRQjlNcjROY1hOc3JrLVpkVi1aNjBzaURlSm8tMjJ4UHlqdXdkdHAyNWVPWkhZMmdOem1pMG5TcGlUQTVxNWpoblpmZGhKOFRjVThsdXg5bnA1RjhNNmtXeG84YXNLZHM0VERrbENYSVE?oc=5",
+        "published_at": "2026-07-28T12:01:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -854,10 +870,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - goldesel.de",
+        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFFWUFdJcjdXbUdnaXJYQl9aV1VHTF9rZTJkOU1BdnhXX3NWQ0VfVFRNbzh0TUYzLUF5X3diM3V2RmxhNndKeTFHelBESGpxNU5KaHYxbDVORnlpWU1Oc1FMNktvc0hKNmE2Nkk2WGxGZUdEQlBVSnc3MWZsSXhpTkhLeEVLQ1FNVFJRRWhUbmhDZDBzT2g2Ni1WS3FYQ1Bvckdr?oc=5",
         "published_at": "2026-03-05T08:00:00Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "Altimmune ALT pemvidutide stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -902,10 +918,10 @@
         "relevance_score": 8
       },
       {
-        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56bnFjalZEbTE5eFlYc1ZGbTVrN0FlQXVvMlhQT3paYkhyRWh5MDBVV29yYU1IS0dmOHYydXM5QXVZMW94UWJCTGZ1TUJhekxrY0xBWFdmSnRET3NzZ0pN?oc=5",
-        "published_at": "2023-05-08T20:47:10Z",
-        "source": "extraETF",
+        "title": "Altimmune AKTIE | Aktienkurs & News | A2N5Z6 – boerse.de - boerse.de",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lclVNRlQ3UEE2Skd3a2paNDNDa0lMRlRjc05Cc2VLdFd1YlNHYWstTTJiTVBBRDVHMUIyRlozTURFYnJCN3lNUXdmQXV1eHpBd0pfR096bWtSRXVkMjhkYWJkNFY2c0t3?oc=5",
+        "published_at": "2022-10-05T02:00:48Z",
+        "source": "boerse.de",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -921,22 +937,6 @@
         "title": "Xetra Orderbuch zur Altimmune Aktie - Onvista",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zbk1INzQtY05MblFxMS0tdDBrWDFUbGZLekdxVTJ6SjFPWmVuNnJfajRtV1ZyZE80WjZwNEtyc2gzTGxISFM3dW9vLWUyOV9DeWNjeVFwMDZFRnBCOV9HUHdFanJCR1BuTmh2U1pfNnNFYjZlUl9hcWZvN1Q?oc=5",
         "published_at": "2021-10-13T13:59:28Z",
-        "source": "Onvista",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "ALTIMMUNE Aktie • A2N5Z6 • US02155H2004 - Onvista",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDQnR1UWhucXlwZ2NuZGs0STJ4WDR5ekh1T3ZHRFRYQU81dEdtRTBTUkZ0MUltcGU3Z2VIUGhJUHkzUDJ1RTF4SEc5azhiZ3RnaEhzWDl2Q2tuU2lBTWJnSEN5RWstZ1o5d2tCZUdHQQ?oc=5",
-        "published_at": "2018-09-20T15:42:43Z",
         "source": "Onvista",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
@@ -1384,12 +1384,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - goldesel.de",
+        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - Goldesel.de",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "date": "2026-03-05T08:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFFWUFdJcjdXbUdnaXJYQl9aV1VHTF9rZTJkOU1BdnhXX3NWQ0VfVFRNbzh0TUYzLUF5X3diM3V2RmxhNndKeTFHelBESGpxNU5KaHYxbDVORnlpWU1Oc1FMNktvc0hKNmE2Nkk2WGxGZUdEQlBVSnc3MWZsSXhpTkhLeEVLQ1FNVFJRRWhUbmhDZDBzT2g2Ni1WS3FYQ1Bvckdr?oc=5"
       },

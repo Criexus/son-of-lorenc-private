@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-03T08:20:12Z",
+    "last_update_utc": "2026-08-03T11:52:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -794,6 +794,13 @@
     ],
     "sec_filings": [
       {
+        "form": "8-K",
+        "filingDate": "2026-08-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126030568/ef20079241_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "SCHEDULE 13G",
         "filingDate": "2026-07-31",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000210012126001008/xslSCHEDULE_13G_X02/primary_doc.xml",
@@ -923,13 +930,6 @@
         "form": "144",
         "filingDate": "2026-05-21",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326003871/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-05-21",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126022311/ef20074449_8k.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1164,14 +1164,6 @@
         "date": "2024-04-02"
       },
       {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
-        "title": "8-K · 2026-05-21",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-21"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "A Phase 1 AAV Gene Therapy Trial Evaluating Safety and Preliminary Efficacy of RP-A701 in Subjects With BAG3 Dilated Cardiomyopathy",
@@ -1194,6 +1186,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-30"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-08-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-03"
       },
       {
         "type": "ClinicalTrials.gov",
