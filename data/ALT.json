@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-04T02:14:27Z",
+    "last_update_utc": "2026-08-04T05:28:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -410,10 +410,6 @@
       {
         "t": "2026-07-31T13:30:00Z",
         "price": 2.84
-      },
-      {
-        "t": "2026-08-03T13:30:00Z",
-        "price": 3.0
       }
     ],
     "price_history_1d": [
@@ -738,22 +734,6 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEdzAwRUlULTEyYTZsYWZLMEV4Sy1YbVRtcG9BRm5oZk1Cd2YtUk9nb1RPWWVHYkd2YjdvWkwxOFVLa3pvVWsxMjVqTGhYdW1iU0VmUm1LemRWeFMxbzNndUx3QUxrUWYzU2c?oc=5",
-        "published_at": "2026-07-30T01:52:01Z",
-        "source": "Goldesel.de",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
         "title": "Altimmune: Positive Studiendaten lassen Aktie zweistellig steigen - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSS1JalhSc0ZMSEhjY0ljSlQyRzJ5V2hNblNGOFhMVUd1UkFLWDYxdzZsNFhyQ3cwaFZ6NEVVQ0lWcHRCZzM5TzdkRHFaZDhTY1Q5cENHTW1jLWFRQjlNcjROY1hOc3JrLVpkVi1aNjBzaURlSm8tMjJ4UHlqdXdkdHAyNWVPWkhZMmdOem1pMG5TcGlUQTVxNWpoblpmZGhKOFRjVThsdXg5bnA1RjhNNmtXeG84YXNLZHM0VERrbENYSVE?oc=5",
         "published_at": "2026-07-28T12:01:00Z",
@@ -882,6 +862,22 @@
         "relevance_score": 13
       },
       {
+        "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5",
+        "published_at": "2026-01-25T08:00:00Z",
+        "source": "simplywall.st",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 8
+      },
+      {
         "title": "Altimmune Aktie (A2N5Z6, ALT) - Kurs, Chart, News & Kennzahlen - Ariva",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1VEhhLXlYc3IzcmloTzlVd0JSNXk2Y0NzVDhZTUozaDF0dUJnbVIzdDZLTVptWE9tY0FlbVlvTUYtWkcxanM0V0QxWlVXTkRxbmpiUFpzUXNOVTQ?oc=5",
         "published_at": "2024-11-04T14:47:23Z",
@@ -930,10 +926,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Xetra Orderbuch zur Altimmune Aktie - OnVista",
+        "title": "Xetra Orderbuch zur Altimmune Aktie - Onvista",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zbk1INzQtY05MblFxMS0tdDBrWDFUbGZLekdxVTJ6SjFPWmVuNnJfajRtV1ZyZE80WjZwNEtyc2gzTGxISFM3dW9vLWUyOV9DeWNjeVFwMDZFRnBCOV9HUHdFanJCR1BuTmh2U1pfNnNFYjZlUl9hcWZvN1Q?oc=5",
         "published_at": "2021-10-13T13:59:28Z",
-        "source": "OnVista",
+        "source": "Onvista",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -950,14 +946,14 @@
       {
         "form": "4",
         "filingDate": "2026-08-03",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000170590526000010/xslF345X06/form4-08032026_040815.xml",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000125177926000009/xslF345X06/form4-08032026_040813.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
       {
         "form": "4",
         "filingDate": "2026-08-03",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000125177926000009/xslF345X06/form4-08032026_040813.xml",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000170590526000010/xslF345X06/form4-08032026_040815.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
@@ -1242,6 +1238,18 @@
     ],
     "detected_triggers": [
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "simplywall.st",
+        "date": "2026-01-25T08:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5"
+      },
+      {
         "type": "Studienphase / Readout",
         "level": "high",
         "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
@@ -1453,14 +1461,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
