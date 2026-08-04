@@ -191,7 +191,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-04T07:59:48Z",
+    "last_update_utc": "2026-08-04T10:39:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -366,6 +366,13 @@
     "news": [],
     "sec_filings": [
       {
+        "form": "EFFECT",
+        "filingDate": "2026-08-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/999999999526002525/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "F-1/A",
         "filingDate": "2026-07-30",
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926009176/b724260f1a1.htm",
@@ -497,13 +504,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004255/bio424b3_333279994.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "424B3",
-        "filingDate": "2026-04-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926004256/bio424b3_333281489.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [
@@ -549,14 +549,6 @@
       }
     ],
     "detected_triggers": [
-      {
-        "type": "SEC · Finanzierung/Verwässerung",
-        "level": "high",
-        "title": "424B3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
-      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
@@ -740,6 +732,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "EFFECT · 2026-08-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-03"
       }
     ],
     "queries_used": [
