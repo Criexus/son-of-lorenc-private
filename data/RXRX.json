@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-05T09:16:55Z",
+    "last_update_utc": "2026-08-05T11:35:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -838,6 +838,20 @@
     ],
     "sec_filings": [
       {
+        "form": "10-Q",
+        "filingDate": "2026-08-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/rxrx-20260630.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-08-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000097/rxrx-20260805.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "144",
         "filingDate": "2026-08-04",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005593/xsl144X01/primary_doc.xml",
@@ -960,20 +974,6 @@
         "form": "144",
         "filingDate": "2026-07-09",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005183/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-07-08",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005163/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-07-07",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005141/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1144,20 +1144,20 @@
         "date": "2026-04-13"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-07-07",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-08-05",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-07-07"
+        "date": "2026-08-05"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-07-08",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-08-05",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-07-08"
+        "date": "2026-08-05"
       },
       {
         "type": "SEC Filing",
