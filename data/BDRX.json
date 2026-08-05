@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.44",
-      "note": "Auto-Update: -0.35% vs. vorheriger Schlusskurs",
+      "value": "$1.51",
+      "note": "Auto-Update: 4.5% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-05T15:52:43Z",
+    "last_update_utc": "2026-08-05T17:17:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.44,
+      "regularMarketPrice": 1.51,
       "previousClose": 1.445,
-      "change": -0.005,
-      "changePercent": -0.35,
-      "regularMarketTime": "2026-08-05T15:37:55Z",
+      "change": 0.065,
+      "changePercent": 4.5,
+      "regularMarketTime": "2026-08-05T17:16:36Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -304,7 +304,7 @@
       },
       {
         "t": "2026-08-05T13:30:00Z",
-        "price": 1.4401
+        "price": 1.51
       }
     ],
     "price_history_1d": [
@@ -381,21 +381,26 @@
         "price": 1.51
       },
       {
-        "t": "2026-08-05T15:37:55Z",
+        "t": "2026-08-05T15:35:00Z",
         "price": 1.4401
+      },
+      {
+        "t": "2026-08-05T16:35:00Z",
+        "price": 1.475
+      },
+      {
+        "t": "2026-08-05T16:55:00Z",
+        "price": 1.43
+      },
+      {
+        "t": "2026-08-05T17:16:36Z",
+        "price": 1.51
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [],
     "sec_filings": [
-      {
-        "form": "424B3",
-        "filingDate": "2026-08-05",
-        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926009579/bio424b3_333284350.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
       {
         "form": "424B3",
         "filingDate": "2026-08-05",
@@ -414,6 +419,13 @@
         "form": "424B3",
         "filingDate": "2026-08-05",
         "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926009580/bio424b3_333291598.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "424B3",
+        "filingDate": "2026-08-05",
+        "url": "https://www.sec.gov/Archives/edgar/data/1643918/000121465926009579/bio424b3_333284350.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       },
