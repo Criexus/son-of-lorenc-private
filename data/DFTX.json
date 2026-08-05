@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$43.62",
-      "note": "Auto-Update: 3.45% vs. vorheriger Schlusskurs",
+      "value": "$44.39",
+      "note": "Auto-Update: 5.29% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-05T18:59:43Z",
+    "last_update_utc": "2026-08-05T20:25:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 43.615,
+      "regularMarketPrice": 44.39,
       "previousClose": 42.16,
-      "change": 1.455,
-      "changePercent": 3.45,
-      "regularMarketTime": "2026-08-05T18:58:32Z",
+      "change": 2.23,
+      "changePercent": 5.29,
+      "regularMarketTime": "2026-08-05T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -342,7 +342,7 @@
       },
       {
         "t": "2026-08-05T13:30:00Z",
-        "price": 43.615
+        "price": 44.39
       }
     ],
     "price_history_1d": [
@@ -608,32 +608,64 @@
       },
       {
         "t": "2026-08-05T18:55:00Z",
-        "price": 43.52
+        "price": 43.615
       },
       {
-        "t": "2026-08-05T18:58:32Z",
-        "price": 43.615
+        "t": "2026-08-05T19:00:00Z",
+        "price": 43.795
+      },
+      {
+        "t": "2026-08-05T19:05:00Z",
+        "price": 43.93
+      },
+      {
+        "t": "2026-08-05T19:10:00Z",
+        "price": 43.945
+      },
+      {
+        "t": "2026-08-05T19:15:00Z",
+        "price": 44.05
+      },
+      {
+        "t": "2026-08-05T19:20:00Z",
+        "price": 44.1
+      },
+      {
+        "t": "2026-08-05T19:25:00Z",
+        "price": 44.22
+      },
+      {
+        "t": "2026-08-05T19:30:00Z",
+        "price": 44.38
+      },
+      {
+        "t": "2026-08-05T19:35:00Z",
+        "price": 44.4849
+      },
+      {
+        "t": "2026-08-05T19:40:00Z",
+        "price": 44.09
+      },
+      {
+        "t": "2026-08-05T19:45:00Z",
+        "price": 43.905
+      },
+      {
+        "t": "2026-08-05T19:50:00Z",
+        "price": 44.39
+      },
+      {
+        "t": "2026-08-05T19:55:00Z",
+        "price": 44.36
+      },
+      {
+        "t": "2026-08-05T20:00:00Z",
+        "price": 44.39
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Definium: Piper Sandler erhöht Kursziel aufgrund positiver Aussichten für DT120 - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVjNtT1J6amthbmlyNE1saFlrSlRsM2Y3WEQ4OUJPd0dFN0dkd2dVZEpaQWlDcU1LTHhkd1Vta01GNEZZbjFRQTJmRktMUFlHV0RXOXhzbnAzalltYXpvWjRhRlYtNUltaFBOVmJCckFZN1AzNDNQR3hPLUR0QVd6bmMwNWFjNzNEOEp3LWVkVmhOTVV6Zkc3QldzcTFOb3ZjQXlFUDVnbjctNUxjU0xMaUp1S1NPTmRDX1JsNEtqYkxPOTBESk1hTzlXc3Z0UGpJUlpV?oc=5",
-        "published_at": "2026-07-24T12:42:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 11
-      },
       {
         "title": "Definium Therapeutics Aktie schießt nach positiven Studiendaten um fast 40 % in die Höhe - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQlhrbkt4WElQcjA1dVMyV2VIUG4tb25Wa3dYNFUwMUFteG4yRTlwemgzMXRTbzdMY292YWFTeGc5V25MbWFlNFIyZDdQenVSek9oLThmeTJqMldGNC1aSkxucWp3VzNnSHVQQWJxbjBVUGVKbFMybU0tbGhuY3pLem9HVXJqODdrTDhZTnZRcjAtRGNsSmFjd204TTlubk0xb0tMY2J4Rm9MQ0xYUGJ4T1JIeVV2Y2puck14dnVIb203eWtiazMzR255WG5CTlhZSUJjb0dQMTl3d18tcmdqenZn?oc=5",
