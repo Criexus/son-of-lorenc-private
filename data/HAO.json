@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$0.16",
-      "note": "Auto-Update: -1.23% vs. vorheriger Schlusskurs",
+      "value": "$0.15",
+      "note": "Auto-Update: 3.33% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-05T11:35:20Z",
+    "last_update_utc": "2026-08-05T13:40:25Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.16,
-      "previousClose": 0.162,
-      "change": -0.002,
-      "changePercent": -1.23,
-      "regularMarketTime": "2026-08-04T20:00:01Z",
+      "regularMarketPrice": 0.155,
+      "previousClose": 0.15,
+      "change": 0.005,
+      "changePercent": 3.33,
+      "regularMarketTime": "2026-08-05T13:37:18Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -302,312 +302,24 @@
       {
         "t": "2026-08-04T13:30:00Z",
         "price": 0.16
+      },
+      {
+        "t": "2026-08-05T13:30:00Z",
+        "price": 0.1552
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-08-04T13:30:00Z",
+        "t": "2026-08-05T13:30:00Z",
         "price": 0.1541
       },
       {
-        "t": "2026-08-04T13:35:00Z",
-        "price": 0.154
+        "t": "2026-08-05T13:35:00Z",
+        "price": 0.1541
       },
       {
-        "t": "2026-08-04T13:40:00Z",
-        "price": 0.1531
-      },
-      {
-        "t": "2026-08-04T13:45:00Z",
-        "price": 0.1531
-      },
-      {
-        "t": "2026-08-04T13:50:00Z",
-        "price": 0.1546
-      },
-      {
-        "t": "2026-08-04T13:55:00Z",
-        "price": 0.1547
-      },
-      {
-        "t": "2026-08-04T14:00:00Z",
-        "price": 0.1535
-      },
-      {
-        "t": "2026-08-04T14:05:00Z",
-        "price": 0.162
-      },
-      {
-        "t": "2026-08-04T14:10:00Z",
-        "price": 0.1601
-      },
-      {
-        "t": "2026-08-04T14:15:00Z",
-        "price": 0.1567
-      },
-      {
-        "t": "2026-08-04T14:20:00Z",
-        "price": 0.1551
-      },
-      {
-        "t": "2026-08-04T14:25:00Z",
-        "price": 0.1558
-      },
-      {
-        "t": "2026-08-04T14:30:00Z",
-        "price": 0.1543
-      },
-      {
-        "t": "2026-08-04T14:35:00Z",
-        "price": 0.1546
-      },
-      {
-        "t": "2026-08-04T14:40:00Z",
-        "price": 0.1555
-      },
-      {
-        "t": "2026-08-04T14:45:00Z",
-        "price": 0.155
-      },
-      {
-        "t": "2026-08-04T14:50:00Z",
-        "price": 0.1551
-      },
-      {
-        "t": "2026-08-04T14:55:00Z",
-        "price": 0.1544
-      },
-      {
-        "t": "2026-08-04T15:00:00Z",
-        "price": 0.1544
-      },
-      {
-        "t": "2026-08-04T15:10:00Z",
-        "price": 0.16
-      },
-      {
-        "t": "2026-08-04T15:15:00Z",
-        "price": 0.1574
-      },
-      {
-        "t": "2026-08-04T15:20:00Z",
-        "price": 0.1551
-      },
-      {
-        "t": "2026-08-04T15:25:00Z",
-        "price": 0.1563
-      },
-      {
-        "t": "2026-08-04T15:30:00Z",
-        "price": 0.1563
-      },
-      {
-        "t": "2026-08-04T15:35:00Z",
-        "price": 0.1569
-      },
-      {
-        "t": "2026-08-04T15:40:00Z",
-        "price": 0.156
-      },
-      {
-        "t": "2026-08-04T15:45:00Z",
-        "price": 0.16
-      },
-      {
-        "t": "2026-08-04T15:50:00Z",
-        "price": 0.1563
-      },
-      {
-        "t": "2026-08-04T15:55:00Z",
-        "price": 0.1576
-      },
-      {
-        "t": "2026-08-04T16:00:00Z",
-        "price": 0.1576
-      },
-      {
-        "t": "2026-08-04T16:05:00Z",
-        "price": 0.1564
-      },
-      {
-        "t": "2026-08-04T16:10:00Z",
-        "price": 0.1564
-      },
-      {
-        "t": "2026-08-04T16:15:00Z",
-        "price": 0.1564
-      },
-      {
-        "t": "2026-08-04T16:20:00Z",
-        "price": 0.1588
-      },
-      {
-        "t": "2026-08-04T16:25:00Z",
-        "price": 0.1569
-      },
-      {
-        "t": "2026-08-04T16:30:00Z",
-        "price": 0.1588
-      },
-      {
-        "t": "2026-08-04T16:35:00Z",
-        "price": 0.1587
-      },
-      {
-        "t": "2026-08-04T16:40:00Z",
-        "price": 0.1567
-      },
-      {
-        "t": "2026-08-04T16:45:00Z",
-        "price": 0.1578
-      },
-      {
-        "t": "2026-08-04T16:50:00Z",
-        "price": 0.1578
-      },
-      {
-        "t": "2026-08-04T16:55:00Z",
-        "price": 0.1579
-      },
-      {
-        "t": "2026-08-04T17:00:00Z",
-        "price": 0.1572
-      },
-      {
-        "t": "2026-08-04T17:05:00Z",
-        "price": 0.1588
-      },
-      {
-        "t": "2026-08-04T17:10:00Z",
-        "price": 0.1598
-      },
-      {
-        "t": "2026-08-04T17:15:00Z",
-        "price": 0.1596
-      },
-      {
-        "t": "2026-08-04T17:20:00Z",
-        "price": 0.159
-      },
-      {
-        "t": "2026-08-04T17:25:00Z",
-        "price": 0.1593
-      },
-      {
-        "t": "2026-08-04T17:30:00Z",
-        "price": 0.16
-      },
-      {
-        "t": "2026-08-04T17:35:00Z",
-        "price": 0.1579
-      },
-      {
-        "t": "2026-08-04T17:40:00Z",
-        "price": 0.159
-      },
-      {
-        "t": "2026-08-04T17:45:00Z",
-        "price": 0.1595
-      },
-      {
-        "t": "2026-08-04T17:50:00Z",
-        "price": 0.1595
-      },
-      {
-        "t": "2026-08-04T17:55:00Z",
-        "price": 0.159
-      },
-      {
-        "t": "2026-08-04T18:00:00Z",
-        "price": 0.1575
-      },
-      {
-        "t": "2026-08-04T18:05:00Z",
-        "price": 0.158
-      },
-      {
-        "t": "2026-08-04T18:10:00Z",
-        "price": 0.1573
-      },
-      {
-        "t": "2026-08-04T18:15:00Z",
-        "price": 0.1568
-      },
-      {
-        "t": "2026-08-04T18:25:00Z",
-        "price": 0.1585
-      },
-      {
-        "t": "2026-08-04T18:30:00Z",
-        "price": 0.1581
-      },
-      {
-        "t": "2026-08-04T18:35:00Z",
-        "price": 0.1578
-      },
-      {
-        "t": "2026-08-04T18:40:00Z",
-        "price": 0.1581
-      },
-      {
-        "t": "2026-08-04T18:45:00Z",
-        "price": 0.1566
-      },
-      {
-        "t": "2026-08-04T18:50:00Z",
-        "price": 0.1566
-      },
-      {
-        "t": "2026-08-04T19:00:00Z",
-        "price": 0.1575
-      },
-      {
-        "t": "2026-08-04T19:05:00Z",
-        "price": 0.157
-      },
-      {
-        "t": "2026-08-04T19:10:00Z",
-        "price": 0.1568
-      },
-      {
-        "t": "2026-08-04T19:15:00Z",
-        "price": 0.1571
-      },
-      {
-        "t": "2026-08-04T19:20:00Z",
-        "price": 0.158
-      },
-      {
-        "t": "2026-08-04T19:25:00Z",
-        "price": 0.1576
-      },
-      {
-        "t": "2026-08-04T19:30:00Z",
-        "price": 0.158
-      },
-      {
-        "t": "2026-08-04T19:35:00Z",
-        "price": 0.1571
-      },
-      {
-        "t": "2026-08-04T19:40:00Z",
-        "price": 0.1573
-      },
-      {
-        "t": "2026-08-04T19:45:00Z",
-        "price": 0.1578
-      },
-      {
-        "t": "2026-08-04T19:50:00Z",
-        "price": 0.1599
-      },
-      {
-        "t": "2026-08-04T19:55:00Z",
-        "price": 0.1584
-      },
-      {
-        "t": "2026-08-04T20:00:00Z",
-        "price": 0.16
+        "t": "2026-08-05T13:37:18Z",
+        "price": 0.1552
       }
     ],
     "price_history_range": "1mo",
@@ -757,154 +469,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06829784",
-        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Asthma",
-        "last_update": "",
-        "start_date": "2025-03-21",
-        "url": "https://clinicaltrials.gov/study/NCT06829784"
-      },
-      {
-        "nct_id": "NCT04481464",
-        "title": "Evaluation of the Efficacy of Chinese Herbal Medicine in Patients With Obesity",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Obesity",
-        "last_update": "",
-        "start_date": "2020-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT04481464"
-      },
-      {
-        "nct_id": "NCT07048236",
-        "title": "Specimen and Clinical Data Collection Plan for LDCT Screening Participants",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Lung Cancer, Smoking, Family Relations",
-        "last_update": "",
-        "start_date": "2025-07-17",
-        "url": "https://clinicaltrials.gov/study/NCT07048236"
-      },
-      {
-        "nct_id": "NCT03091634",
-        "title": "The Efficacy and Safety of the Xue-Fu-Zhu-Yu Capsule in Treatment of Qi Stagnation and Blood Stasis Syndrome.",
+        "nct_id": "NCT03829852",
+        "title": "Regorafenib in Taiwan Metastatic Colorectal Cancer (mCRC) Patients",
         "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Qi Stagnation and Blood Stasis Syndrome",
+        "phase": "",
+        "conditions": "Metastatic Colorectal Cancer",
         "last_update": "",
-        "start_date": "2017-05-06",
-        "url": "https://clinicaltrials.gov/study/NCT03091634"
+        "start_date": "2019-02-11",
+        "url": "https://clinicaltrials.gov/study/NCT03829852"
       },
       {
-        "nct_id": "NCT05938530",
-        "title": "Sirolimus Drug-coated Balloon Versus Stent Graft",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Arteriovenous Shunt Thrombosis, Blood Vessel Prosthesis",
+        "nct_id": "NCT03478358",
+        "title": "Treatment Using 177Lu-DOTA-EB-TATE in Patients With Advanced Neuroendocrine Tumors",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Neuroendocrine Tumors",
         "last_update": "",
-        "start_date": "2023-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT05938530"
+        "start_date": "2017-04-30",
+        "url": "https://clinicaltrials.gov/study/NCT03478358"
       },
       {
-        "nct_id": "NCT07665099",
-        "title": "The Effect of Esketamine on Postoperative Cognitive Function in Elderly Patients Undergoing Oral and Maxillofacial Surgery",
+        "nct_id": "NCT07581574",
+        "title": "Neoadjuvant SHR-A1811 and SHR-A1701 for Potentially Immunotherapy-Sensitive GC or GEJ Adenocarcinoma",
         "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Perioperative Neurocognitive Disorders",
+        "phase": "PHASE1",
+        "conditions": "Gastric or Gastroesophageal Junction Adenocarcinoma",
         "last_update": "",
-        "start_date": "2026-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT07665099"
+        "start_date": "2026-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT07581574"
       },
       {
-        "nct_id": "NCT06726421",
-        "title": "Systemic Therapy Alone or With Stereotactic Body Radiotherapy for Oligometastatic Kidney Cancer (STROKER Study)",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Renal Cell Carcinoma (Kidney Cancer), Kidney Cancer Metastatic, Renal Cell Carcinoma Metastatic",
+        "nct_id": "NCT04633785",
+        "title": "Validation of Wrist Type Oscillometric Blood Pressure Monitorings",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Blood Pressure",
         "last_update": "",
-        "start_date": "2024-09-18",
-        "url": "https://clinicaltrials.gov/study/NCT06726421"
+        "start_date": "2020-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT04633785"
       },
       {
-        "nct_id": "NCT03932084",
-        "title": "Effects of Glucose Fluctuation Intervention on the Prognosis of Patients With Type 2 Diabetes and Cerebral Infarction",
+        "nct_id": "NCT05442125",
+        "title": "First Live Birth Rate With eSET After Preimplantation Methylome Screening (PIMS) Versus Conventional In-vitro Fertilization",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Type 2 Diabetes and Cerebral Infarction",
+        "conditions": "Reproductive Techniques, Assisted, DNA Methylation",
         "last_update": "",
-        "start_date": "2017-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT03932084"
+        "start_date": "2022-09-16",
+        "url": "https://clinicaltrials.gov/study/NCT05442125"
       },
       {
-        "nct_id": "NCT01910285",
-        "title": "Remifentanil Versus Sufentanil for Intubation Condition Without Myorelaxant",
-        "status": "COMPLETED",
+        "nct_id": "NCT07481656",
+        "title": "Effects of Recombinant Human Growth Hormone in Elderly Patients With Moderate to Severe Acute Brain Injury (GH-ABI-RCT)",
+        "status": "NOT_YET_RECRUITING",
         "phase": "PHASE4",
-        "conditions": "Anaesthetic Induction",
+        "conditions": "Acute Brain Injuries, Moderate to Severe Traumatic Brain Injury",
         "last_update": "",
-        "start_date": "2013-06",
-        "url": "https://clinicaltrials.gov/study/NCT01910285"
+        "start_date": "2026-04-10",
+        "url": "https://clinicaltrials.gov/study/NCT07481656"
       },
       {
-        "nct_id": "NCT07060625",
-        "title": "The Effect of Semi-recumbent Position on Hypoxemia After Lung Segment/Lobe Surgery",
-        "status": "ENROLLING_BY_INVITATION",
-        "phase": "",
-        "conditions": "Lung Cancer (Diagnosis), Hypoxemia",
-        "last_update": "",
-        "start_date": "2024-12-23",
-        "url": "https://clinicaltrials.gov/study/NCT07060625"
-      },
-      {
-        "nct_id": "NCT04331613",
-        "title": "Safety and Efficacy of CAStem for Severe COVID-19 Associated With/Without ARDS",
-        "status": "UNKNOWN",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "COVID-19, Acute Respiratory Distress Syndrome, Virus; Pneumonia, Acute Lung Injury",
-        "last_update": "",
-        "start_date": "2020-01-27",
-        "url": "https://clinicaltrials.gov/study/NCT04331613"
-      },
-      {
-        "nct_id": "NCT06650046",
-        "title": "Study on Topping-off Technique for Treating LDD",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Lumbar Degenerative Disease",
-        "last_update": "",
-        "start_date": "2024-10-18",
-        "url": "https://clinicaltrials.gov/study/NCT06650046"
-      },
-      {
-        "nct_id": "NCT06031142",
-        "title": "A Home Telemonitoring System for Wearable Fetal-ECG and EHG Acquisition During Pregnancy",
+        "nct_id": "NCT03733912",
+        "title": "Plasticizers and in Vitro Fertilization Outcomes",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Uterine Contractions; Prolonged, Fetal Heart Rate or Rhythm Abnormality Affecting Fetus, Pregnancy Related, Home Range",
+        "conditions": "Fertilization in Vitro",
         "last_update": "",
-        "start_date": "2023-05-29",
-        "url": "https://clinicaltrials.gov/study/NCT06031142"
+        "start_date": "2018-07-11",
+        "url": "https://clinicaltrials.gov/study/NCT03733912"
       },
       {
-        "nct_id": "NCT01264068",
-        "title": "The Influence of Chinese Medicine on Metabolomics in Menopausal or Postpartum Women",
+        "nct_id": "NCT05786872",
+        "title": "Efficacy and Safety of Dual-target DBS for Treatment-resistant Alcohol Use Disorder",
         "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Menopausal Women",
+        "phase": "NA",
+        "conditions": "Alcohol Use Disorder, Deep Brain Stimulation",
         "last_update": "",
-        "start_date": "2008-08",
-        "url": "https://clinicaltrials.gov/study/NCT01264068"
+        "start_date": "2023-07-05",
+        "url": "https://clinicaltrials.gov/study/NCT05786872"
       },
       {
-        "nct_id": "NCT07515079",
-        "title": "Efficacy Evaluation Study of BAT5906 and Lucentis® in Patients With Diabetic Macular Edema",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Diabetic Macular Edema (DME)",
+        "nct_id": "NCT03984136",
+        "title": "HIV Results Exchange Mechanism on Promoting HIV Testing Among MSM",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "HIV/AIDS",
         "last_update": "",
-        "start_date": "2024-10-09",
-        "url": "https://clinicaltrials.gov/study/NCT07515079"
+        "start_date": "2019-09-27",
+        "url": "https://clinicaltrials.gov/study/NCT03984136"
+      },
+      {
+        "nct_id": "NCT05979545",
+        "title": "EaRly impAct theraPy With Ceftazidime-avibactam Via rapID Diagnostics",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Blood Stream Infections, Ventilator Associated Pneumonia, Healthcare Associated Infection, Carbapenem-Resistant Enterobacteriaceae Infection",
+        "last_update": "",
+        "start_date": "2023-12-12",
+        "url": "https://clinicaltrials.gov/study/NCT05979545"
+      },
+      {
+        "nct_id": "NCT06287775",
+        "title": "Testing the Combination of an Anti-cancer Drug, Iadademstat, With Other Anti-cancer Drugs (Atezolizumab or Durvalumab) at Improving Outcomes for Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Extensive Stage Lung Small Cell Carcinoma, Stage IV Lung Cancer AJCC v8",
+        "last_update": "",
+        "start_date": "2025-04-08",
+        "url": "https://clinicaltrials.gov/study/NCT06287775"
+      },
+      {
+        "nct_id": "NCT02161172",
+        "title": "Cognitive and Psychosocial Outcome After Mild Traumatic Brain Injury",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Mild Traumatic Brain Injury",
+        "last_update": "",
+        "start_date": "2012-04",
+        "url": "https://clinicaltrials.gov/study/NCT02161172"
+      },
+      {
+        "nct_id": "NCT07589569",
+        "title": "An Open-label, Multicenter, Phase II Clinical Study to Evaluate HRS-7058 in Patients With Pancreatic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Pancreatic Cancer",
+        "last_update": "",
+        "start_date": "2026-06-04",
+        "url": "https://clinicaltrials.gov/study/NCT07589569"
+      },
+      {
+        "nct_id": "NCT05042531",
+        "title": "Clinical Research for Azacitidine Combined With Low-dose Dasatinib in Maintenance Therapy of Acute Myeloid Leukemia",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Acute Myeloid Leukemia",
+        "last_update": "",
+        "start_date": "2021-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT05042531"
+      },
+      {
+        "nct_id": "NCT06597201",
+        "title": "Evaluate the Efficacy and Safety of Amino Acid (15) Peritoneal Dialysis Solution in Peritoneal Dialysis Patients with Malnutrition.",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "End Stage Renal Disease (ESRD)",
+        "last_update": "",
+        "start_date": "2024-08-09",
+        "url": "https://clinicaltrials.gov/study/NCT06597201"
       }
     ],
     "detected_triggers": [
@@ -927,82 +639,66 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Influence of Chinese Medicine on Metabolomics in Menopausal or Postpartum Women",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT01264068",
-        "date": "2008-08"
+        "title": "Treatment Using 177Lu-DOTA-EB-TATE in Patients With Advanced Neuroendocrine Tumors",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT03478358",
+        "date": "2017-04-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Remifentanil Versus Sufentanil for Intubation Condition Without Myorelaxant",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
-        "source": "NCT01910285",
-        "date": "2013-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Effects of Glucose Fluctuation Intervention on the Prognosis of Patients With Type 2 Diabetes and Cerebral Infarction",
+        "title": "HIV Results Exchange Mechanism on Promoting HIV Testing Among MSM",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03932084",
-        "date": "2017-02-01"
+        "source": "NCT03984136",
+        "date": "2019-09-27"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Efficacy and Safety of the Xue-Fu-Zhu-Yu Capsule in Treatment of Qi Stagnation and Blood Stasis Syndrome.",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT03091634",
-        "date": "2017-05-06"
+        "title": "Clinical Research for Azacitidine Combined With Low-dose Dasatinib in Maintenance Therapy of Acute Myeloid Leukemia",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05042531",
+        "date": "2021-11-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Safety and Efficacy of CAStem for Severe COVID-19 Associated With/Without ARDS",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1, PHASE2",
-        "source": "NCT04331613",
-        "date": "2020-01-27"
+        "title": "First Live Birth Rate With eSET After Preimplantation Methylome Screening (PIMS) Versus Conventional In-vitro Fertilization",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05442125",
+        "date": "2022-09-16"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Sirolimus Drug-coated Balloon Versus Stent Graft",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT05938530",
-        "date": "2023-11-01"
+        "title": "Efficacy and Safety of Dual-target DBS for Treatment-resistant Alcohol Use Disorder",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05786872",
+        "date": "2023-07-05"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Systemic Therapy Alone or With Stereotactic Body Radiotherapy for Oligometastatic Kidney Cancer (STROKER Study)",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06726421",
-        "date": "2024-09-18"
+        "title": "EaRly impAct theraPy With Ceftazidime-avibactam Via rapID Diagnostics",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
+        "source": "NCT05979545",
+        "date": "2023-12-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy Evaluation Study of BAT5906 and Lucentis® in Patients With Diabetic Macular Edema",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07515079",
-        "date": "2024-10-09"
+        "title": "Evaluate the Efficacy and Safety of Amino Acid (15) Peritoneal Dialysis Solution in Peritoneal Dialysis Patients with Malnutrition.",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
+        "source": "NCT06597201",
+        "date": "2024-08-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Study on Topping-off Technique for Treating LDD",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06650046",
-        "date": "2024-10-18"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06829784",
-        "date": "2025-03-21"
+        "title": "Testing the Combination of an Anti-cancer Drug, Iadademstat, With Other Anti-cancer Drugs (Atezolizumab or Durvalumab) at Improving Outcomes for Small Cell Lung Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
+        "source": "NCT06287775",
+        "date": "2025-04-08"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1029,12 +725,28 @@
         "date": "2026-04-06"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Effects of Recombinant Human Growth Hormone in Elderly Patients With Moderate to Severe Acute Brain Injury (GH-ABI-RCT)",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
+        "source": "NCT07481656",
+        "date": "2026-04-10"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-04-22",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Neoadjuvant SHR-A1811 and SHR-A1701 for Potentially Immunotherapy-Sensitive GC or GEJ Adenocarcinoma",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1",
+        "source": "NCT07581574",
+        "date": "2026-05-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1069,20 +781,20 @@
         "date": "2026-06-04"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "An Open-label, Multicenter, Phase II Clinical Study to Evaluate HRS-7058 in Patients With Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07589569",
+        "date": "2026-06-04"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-06-24",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-24"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Effect of Esketamine on Postoperative Cognitive Function in Elderly Patients Undergoing Oral and Maxillofacial Surgery",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07665099",
-        "date": "2026-07-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -1103,34 +815,34 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Evaluation of the Efficacy of Chinese Herbal Medicine in Patients With Obesity",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT04481464",
-        "date": "2020-11-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "A Home Telemonitoring System for Wearable Fetal-ECG and EHG Acquisition During Pregnancy",
+        "title": "Cognitive and Psychosocial Outcome After Mild Traumatic Brain Injury",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06031142",
-        "date": "2023-05-29"
+        "source": "NCT02161172",
+        "date": "2012-04"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "The Effect of Semi-recumbent Position on Hypoxemia After Lung Segment/Lobe Surgery",
-        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION ",
-        "source": "NCT07060625",
-        "date": "2024-12-23"
+        "title": "Plasticizers and in Vitro Fertilization Outcomes",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT03733912",
+        "date": "2018-07-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Specimen and Clinical Data Collection Plan for LDCT Screening Participants",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT07048236",
-        "date": "2025-07-17"
+        "title": "Regorafenib in Taiwan Metastatic Colorectal Cancer (mCRC) Patients",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT03829852",
+        "date": "2019-02-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Validation of Wrist Type Oscillometric Blood Pressure Monitorings",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT04633785",
+        "date": "2020-12-01"
       },
       {
         "type": "SEC Filing",
