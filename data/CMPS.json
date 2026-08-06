@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-06T04:37:14Z",
+    "last_update_utc": "2026-08-06T07:31:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -414,6 +414,14 @@
       {
         "t": "2026-08-03T13:30:00Z",
         "price": 11.25
+      },
+      {
+        "t": "2026-08-04T13:30:00Z",
+        "price": 11.8
+      },
+      {
+        "t": "2026-08-05T13:30:00Z",
+        "price": 13.58
       }
     ],
     "price_history_1d": [
@@ -738,6 +746,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Compass Pathways Aktie: Kassenpolster bis 2028 - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVhIVFpKUkk4TFlDNWxYSVFzVlozX0xfX3RBRWM5ZEFBUUZGNlFHSWNHSnhMTTl0dHpzWElmV2dKSE4zYmNyWWdDZzlXdnlrdkdaV2FpbEtHbVpkRXladDdOTXlnVTMxYm9Wc21vMGpEUVBNbV9aUGJBV0VpQlNNYUg1V3dQRUl1aDhESXIxMkVvem82a1Y4LWJ6ZExRYWtDUXZXWURhNXhDSHF1Zk9pdmxUYjZIMmo2?oc=5",
+        "published_at": "2026-08-06T00:39:33Z",
+        "source": "ad-hoc-news.de",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
         "title": "Compass Pathfinder Limited: Compass Pathways Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4) - FinanzNachrichten.de",
         "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOUm9rdzVyR0g2LXdxaC0yLVh5QVhXcFhMR0ptT0MxSFdoakd3WEVmaWlWbDM5OGVNS0NVNGUxNTYxclUwTl9fR015WUNUVHRub0JzNi04Qk1qNUtiVWxHV01oQmtmTWRfclhxc3lILWZ0YWtqTWV0d3dQUm56NDNLVm0xR24ya3pUUDgzb0JEcmdneHN3U1JDQmlSR1ZjZVI2eURKbkVTTzgxVTFRLVJ0bXFxdmdkTk9ubnhFU0JJdGlILWU0bm9YRnhFTU1KQWVVZkt0UUF5RE9VNzA4dlpveUFtbU9QdXJkcGtkM0RmUFNEY3lDVlJFQ0tsMEl5TW5VZGhuaDVaMXQtQVRfelRXbE0zeGRtUTdq?oc=5",
         "published_at": "2026-08-05T20:36:00Z",
@@ -818,26 +842,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways PLC (CMPS) Aktionärsstruktur: Hauptaktionäre & institutionelle Bestände - TradingKey",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XcVhuOV9YM2pCa1JsS2wzVjhZVlR2ZmRuR25HVGFpVENPNlRNMU12X1ZkN1Rqaks5YkdHMDdkYXBlOEpfZl9relZCY2pQaFl5NkFmTzNjWHNod1l5ZWpFNTFxclk3UVBKNjE4?oc=5",
-        "published_at": "2026-07-27T14:17:48Z",
-        "source": "TradingKey",
-        "query": "COMPASS Pathways clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 20
-      },
-      {
-        "title": "Compass Pathways: Studien-Update zu COMP360 stärkt die KI für Anleger - it-boltwise.de",
+        "title": "Compass Pathways: Studien-Update zu COMP360 stärkt die KI für Anleger - it boltwise",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMDlwbU45akYweFp6aUFRY1E0bDFGd3VwRU1Za3p4MWpTN2UwbDdfTVhBcFNmVEVxS3BSbWxTWnhlTlZKRDlfSElTeTUzVS1ybTNabFJGMzE1bFVuOGVmNDAxWGlDWFdIWnJ4TGhYXzBMa0k2UTNRRVl0cEVFTHZLamxPZUNtUkZONHQzaTduSnNEQUJQbkJBNThZcVBNRzE5Uk9YRw?oc=5",
         "published_at": "2026-07-19T04:59:29Z",
-        "source": "it-boltwise.de",
+        "source": "it boltwise",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1014,22 +1022,6 @@
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeHBwclZidkk3QTc2WkstcXdwMEVncXVxSXM1SEcxdU9McExwdXJuLTlsQTlma2dqUVhMUEZGVF9jaEItQlJqbXpFWEFTYTZldGxQNzE2QTV0b21YSFphNnZkRFVXdkloVVN3VXVoQnNVMkVsYXM5enNJSlRsZ0Mwcm1SSG1Zdw?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
         "source": "kapitalmarktexperten.de",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways Aktie: Strategische Offensive - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0Q2MkZrazFRZnl0dktXWFBSS0ZqT0hQa1g4M2ZIal9KTjl2TmJuU0lubTlKN09EMkEtcVY2TWcyaF9BSVRDalBfNkpoeXdHTTFESjJaYUtqaEZybEwzaDdfcUVhcVVPOFBnbmVKemhPTWNQSC1YQ3JmMG1TTWRYMkZzYXJKNW13QzlSQ3RTa0dXeC1feDVjR3NlUUZMUQ?oc=5",
-        "published_at": "2026-04-16T07:00:00Z",
-        "source": "Börse Express",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
