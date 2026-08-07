@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.23",
-      "note": "Auto-Update: 7.67% vs. vorheriger Schlusskurs",
+      "value": "$3.22",
+      "note": "Auto-Update: 7.33% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T14:45:08Z",
+    "last_update_utc": "2026-08-07T15:43:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.23,
+      "regularMarketPrice": 3.22,
       "previousClose": 3.0,
-      "change": 0.23,
-      "changePercent": 7.67,
-      "regularMarketTime": "2026-08-07T14:44:37Z",
+      "change": 0.22,
+      "changePercent": 7.33,
+      "regularMarketTime": "2026-08-07T15:43:34Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -407,7 +407,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 3.2298
+        "price": 3.2201
       }
     ],
     "price_history_1d": [
@@ -469,11 +469,59 @@
       },
       {
         "t": "2026-08-07T14:40:00Z",
-        "price": 3.24
+        "price": 3.2298
       },
       {
-        "t": "2026-08-07T14:44:37Z",
-        "price": 3.2298
+        "t": "2026-08-07T14:45:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T14:50:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T14:55:00Z",
+        "price": 3.245
+      },
+      {
+        "t": "2026-08-07T15:00:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T15:05:00Z",
+        "price": 3.235
+      },
+      {
+        "t": "2026-08-07T15:10:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T15:15:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T15:20:00Z",
+        "price": 3.2201
+      },
+      {
+        "t": "2026-08-07T15:25:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T15:30:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T15:35:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T15:40:00Z",
+        "price": 3.23
+      },
+      {
+        "t": "2026-08-07T15:43:34Z",
+        "price": 3.2201
       }
     ],
     "price_history_range": "1mo",
@@ -576,10 +624,10 @@
         "relevance_score": 19
       },
       {
-        "title": "Recursion Pharmaceuticals, Inc. (RXRX) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "title": "Recursion Pharmaceuticals, Inc. (RXRX) Aktienkurs, Nachrichten, Kurs und Verlauf - de.finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JNkoyaU9xa2s3ZVQtU01uRFltUTdjZkNHVDN2T1huVGw5TWtIYnppSGZzS1F5MkhTUU9wR1ZTZjFaWUxuZWFFc01TLVRMLXY0MWc?oc=5",
         "published_at": "2021-04-20T02:06:47Z",
-        "source": "Yahoo Finanzen Deutschland",
+        "source": "de.finance.yahoo.com",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -625,6 +673,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-08-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000009375126000530/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-08-06",
@@ -755,13 +810,6 @@
         "form": "144",
         "filingDate": "2026-07-10",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005195/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-07-09",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000185609426000011/xslF345X06/wk-form4_1783634656.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -950,14 +998,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-07-09",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-09"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "144 · 2026-07-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1090,6 +1130,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-08-07",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-07"
       }
     ],
     "queries_used": [

@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.44",
-      "note": "Auto-Update: 18.41% vs. vorheriger Schlusskurs",
+      "value": "$13.49",
+      "note": "Auto-Update: 18.85% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T14:44:15Z",
+    "last_update_utc": "2026-08-07T15:42:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.44,
+      "regularMarketPrice": 13.49,
       "previousClose": 11.35,
-      "change": 2.09,
-      "changePercent": 18.41,
-      "regularMarketTime": "2026-08-07T14:44:04Z",
+      "change": 2.14,
+      "changePercent": 18.85,
+      "regularMarketTime": "2026-08-07T15:42:49Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -425,7 +425,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 13.44
+        "price": 13.49
       }
     ],
     "price_history_1d": [
@@ -487,11 +487,59 @@
       },
       {
         "t": "2026-08-07T14:40:00Z",
-        "price": 13.42
+        "price": 13.41
       },
       {
-        "t": "2026-08-07T14:44:04Z",
+        "t": "2026-08-07T14:45:00Z",
         "price": 13.44
+      },
+      {
+        "t": "2026-08-07T14:50:00Z",
+        "price": 13.39
+      },
+      {
+        "t": "2026-08-07T14:55:00Z",
+        "price": 13.375
+      },
+      {
+        "t": "2026-08-07T15:00:00Z",
+        "price": 13.3591
+      },
+      {
+        "t": "2026-08-07T15:05:00Z",
+        "price": 13.32
+      },
+      {
+        "t": "2026-08-07T15:10:00Z",
+        "price": 13.36
+      },
+      {
+        "t": "2026-08-07T15:15:00Z",
+        "price": 13.39
+      },
+      {
+        "t": "2026-08-07T15:20:00Z",
+        "price": 13.37
+      },
+      {
+        "t": "2026-08-07T15:25:00Z",
+        "price": 13.39
+      },
+      {
+        "t": "2026-08-07T15:30:00Z",
+        "price": 13.475
+      },
+      {
+        "t": "2026-08-07T15:35:00Z",
+        "price": 13.49
+      },
+      {
+        "t": "2026-08-07T15:40:00Z",
+        "price": 13.4816
+      },
+      {
+        "t": "2026-08-07T15:42:49Z",
+        "price": 13.49
       }
     ],
     "price_history_range": "1mo",
@@ -850,10 +898,10 @@
         "relevance_score": 19
       },
       {
-        "title": "COMPASS Pathways plc (CMPS) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "title": "COMPASS Pathways plc (CMPS) Aktienkurs, Nachrichten, Kurs und Verlauf - de.finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2cEs0R2l0LWJkYkI5SXRoRy1oUVAyUC1ISm5wNGdLbXlJS2ZfQUlWaXdlZVN3YlZBNTFKbjV6OW1ZVlRMMWhMb1JXWjVLYml2b0E?oc=5",
         "published_at": "2020-12-23T18:38:23Z",
-        "source": "Yahoo Finanzen Deutschland",
+        "source": "de.finance.yahoo.com",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -915,6 +963,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-08-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1816590/000195917326005736/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-08-05",
@@ -1045,13 +1100,6 @@
         "form": "ARS",
         "filingDate": "2026-04-15",
         "url": "https://www.sec.gov/Archives/edgar/data/1816590/000119312526157141/d58331dars.pdf",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "DEF 14A",
-        "filingDate": "2026-04-15",
-        "url": "https://www.sec.gov/Archives/edgar/data/1816590/000119312526157123/d87237ddef14a.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1456,18 +1504,18 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "DEF 14A · 2026-04-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-15"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "SCHEDULE 13G/A · 2026-05-15",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-29"
       }
     ],
     "queries_used": [
