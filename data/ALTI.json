@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.25",
-      "note": "Auto-Update: 18.19% vs. vorheriger Schlusskurs",
+      "value": "$4.28",
+      "note": "Auto-Update: 18.89% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T13:46:34Z",
+    "last_update_utc": "2026-08-07T14:45:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.255,
+      "regularMarketPrice": 4.28,
       "previousClose": 3.6,
-      "change": 0.655,
-      "changePercent": 18.19,
-      "regularMarketTime": "2026-08-07T13:40:58Z",
+      "change": 0.68,
+      "changePercent": 18.89,
+      "regularMarketTime": "2026-08-07T14:40:33Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 4.255
+        "price": 4.28
       }
     ],
     "price_history_1d": [
@@ -347,8 +347,44 @@
         "price": 4.27
       },
       {
-        "t": "2026-08-07T13:40:58Z",
+        "t": "2026-08-07T13:40:00Z",
         "price": 4.255
+      },
+      {
+        "t": "2026-08-07T13:45:00Z",
+        "price": 4.25
+      },
+      {
+        "t": "2026-08-07T13:50:00Z",
+        "price": 4.22
+      },
+      {
+        "t": "2026-08-07T13:55:00Z",
+        "price": 4.24
+      },
+      {
+        "t": "2026-08-07T14:05:00Z",
+        "price": 4.2896
+      },
+      {
+        "t": "2026-08-07T14:10:00Z",
+        "price": 4.2999
+      },
+      {
+        "t": "2026-08-07T14:15:00Z",
+        "price": 4.295
+      },
+      {
+        "t": "2026-08-07T14:20:00Z",
+        "price": 4.3
+      },
+      {
+        "t": "2026-08-07T14:25:00Z",
+        "price": 4.29
+      },
+      {
+        "t": "2026-08-07T14:40:33Z",
+        "price": 4.28
       }
     ],
     "price_history_range": "1mo",
@@ -359,6 +395,22 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeUFpTVVxeHE1Y1JSXzNKNWdwczRNQUo3WThIaS02RnllT0Q0SGhEVXN5UTg2NFRPT21kWGtBUS1WTWdVelBRVk9BdE1YRFk3OFVzZXhEWkVKZElWM1hxOUVqTnRCeDdFeVo1cEx4aXppX1VnWUo0NV92ZFdqejJyNnplS3FENEVHdzN0MmJoNmE3dlBBdW00cnEtSnV0UnlvaGhabEZEVUxXMHgxalJKZEVSTGNNN1lfZHI4?oc=5",
         "published_at": "2026-07-20T07:00:00Z",
         "source": "Investing.com Deutsch",
+        "query": "ALTI ALTI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "AlTi Global Executive Timothy F Keaney Acquires 84,210 Shares - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUk8wM3dQdTBacDg0WEVESDlGQjlwYzExUmJpX1ZfQXNaTXJRMlFrV3ozZ3kzbzd4OHh3VjAtS3RkaDdsd2Q1UVZDOTdBT0tyeF8tVFk0aEs2SVJ6clo1ZU05OFVVd3VySzl4Q2dLaklzNzFtMWtwUFZteDBnbGJlcUFHdlNoVDg0NFl4bTdBWUVoMlBtUzY2YU9vQnFCbVVhbVFuUFRmNUxFRGRfUmFkb3JPNVNoUGNuY1E0WUdvOA?oc=5",
+        "published_at": "2024-05-16T07:00:00Z",
+        "source": "TradingView",
         "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
