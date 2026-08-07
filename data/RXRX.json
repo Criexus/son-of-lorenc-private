@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$3.21",
-      "note": "Auto-Update: 7.0% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 7.17% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T17:40:04Z",
+    "last_update_utc": "2026-08-07T18:38:41Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.21,
+      "regularMarketPrice": 3.215,
       "previousClose": 3.0,
-      "change": 0.21,
-      "changePercent": 7.0,
-      "regularMarketTime": "2026-08-07T17:39:40Z",
+      "change": 0.215,
+      "changePercent": 7.17,
+      "regularMarketTime": "2026-08-07T18:38:28Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -407,7 +407,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 3.21
+        "price": 3.215
       }
     ],
     "price_history_1d": [
@@ -609,32 +609,64 @@
       },
       {
         "t": "2026-08-07T17:35:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-08-07T17:40:00Z",
         "price": 3.205
       },
       {
-        "t": "2026-08-07T17:39:40Z",
+        "t": "2026-08-07T17:45:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-08-07T17:50:00Z",
         "price": 3.21
+      },
+      {
+        "t": "2026-08-07T17:55:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T18:00:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-07T18:05:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-08-07T18:10:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T18:15:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T18:20:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-08-07T18:25:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T18:30:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T18:35:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T18:38:28Z",
+        "price": 3.215
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Recursion Pharmaceuticals: Director Blake Borgeson verkauft Aktien im Wert von 97.500 $ - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWDNvUTFWV1ptcDBqbTc3REFJZVhoUk90ZmxPOUt1MUlIQ0ZxTE9zcnNjX0E0OFZ4SDBza1ZiaUEyeHlNVkY5RWpXeml6OE1qVXhyallCb1VfOWdmTUR4eTFCa3EtZXJIemg0eEhGU3FlT2xaNi02enpwVTlqcDRmeV9HYWY4MjFMM1dvMTZ4QktqVFg4QlJsa2NmOGJJUG8wT1V4cW9rNTYzVlJTQlZFWnpUQzVHalhiM2o4RkMta3dsV1pUNUdOby02YmZxc0w1alNKdVczNDU5UkJCVVczMl9n?oc=5",
-        "published_at": "2026-08-07T12:17:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 19
-      },
       {
         "title": "Recursion Pharmaceuticals vs. Summit Therapeutics: Which Healthcare Stock Is a Better Buy in 2026? - sharewise.com",
         "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQb05HZFJSN0hacnZnQ1JxeW1NVmV0UDBGdHFZdEtEbzdNc3RvQUNVRm9WU0FoMW1sXzlkeFFsUmRtVFd5S3ZhYUZxQzA2cFRDT1F3bmF4eWo5R1pxSWIyeG16d3pYQjhqd2N3b2ZiQXFPbDFNUmhCa0phVFB1dzh3Y0ZsSlpPSmhySTNvU2llbmJyZXNSODYwSzhibkRhdmk4LXZDMDYxay1OdDkyM3hjb1lVN3FsdFYtdm42bmFOY2NuQ1FzeDkzWHJOcFJEWmZRTnBhc1FyM0pXT0pVb21wbmVEaDZfR2ZwV1VUakp0QXhjU0hHTC1pQjVB?oc=5",
@@ -656,7 +688,7 @@
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
         "published_at": "2026-06-25T12:31:22Z",
         "source": "TradingView",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -672,7 +704,7 @@
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUGdvWDJ3TnBEY1JIekk5V2tscmZEVjdkT1dlbkg3QS1lS09lM0d2b2ZJSVJ5YXNvMU11VkNTLVJCYlliRUNZYkROcExVNmdWQjhQR29lZk42Y3F3Mk0xcWxDNkhjWUE1ZlN4TmoxT1Z2NTA1RGZXdGt2LU53NEEydDloM01xTURJME1nRDNSYjFGeDV6TDJOTS1QU3U5TUtBcGVvaS1kUkhkdTh1bTBkSm16R213QkJJazFZRTdLUGt2VGs?oc=5",
         "published_at": "2025-10-20T07:00:00Z",
         "source": "sharewise.com",
-        "query": "RXRX stock news",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -681,7 +713,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 25
+        "relevance_score": 26
       },
       {
         "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
@@ -736,7 +768,7 @@
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JNkoyaU9xa2s3ZVQtU01uRFltUTdjZkNHVDN2T1huVGw5TWtIYnppSGZzS1F5MkhTUU9wR1ZTZjFaWUxuZWFFc01TLVRMLXY0MWc?oc=5",
         "published_at": "2021-04-20T02:06:47Z",
         "source": "Yahoo Finanzen Deutschland",
-        "query": "RXRX stock news",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -745,7 +777,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 25
+        "relevance_score": 26
       },
       {
         "title": "RECURSION PHARMACEUTICALS, A AKTIE | Aktienkurs | US75629V1044 | News | A3CM1C - Finanzen.net",
