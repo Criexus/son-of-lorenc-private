@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$3.21",
-      "note": "Auto-Update: 6.83% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 7.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T16:41:40Z",
+    "last_update_utc": "2026-08-07T17:40:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.205,
+      "regularMarketPrice": 3.21,
       "previousClose": 3.0,
-      "change": 0.205,
-      "changePercent": 6.83,
-      "regularMarketTime": "2026-08-07T16:41:28Z",
+      "change": 0.21,
+      "changePercent": 7.0,
+      "regularMarketTime": "2026-08-07T17:39:40Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -407,7 +407,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 3.205
+        "price": 3.21
       }
     ],
     "price_history_1d": [
@@ -568,8 +568,52 @@
         "price": 3.205
       },
       {
-        "t": "2026-08-07T16:41:28Z",
+        "t": "2026-08-07T16:45:00Z",
         "price": 3.205
+      },
+      {
+        "t": "2026-08-07T16:50:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-08-07T16:55:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-08-07T17:00:00Z",
+        "price": 3.185
+      },
+      {
+        "t": "2026-08-07T17:05:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-08-07T17:10:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-08-07T17:15:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-08-07T17:20:00Z",
+        "price": 3.2061
+      },
+      {
+        "t": "2026-08-07T17:25:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-07T17:30:00Z",
+        "price": 3.2073
+      },
+      {
+        "t": "2026-08-07T17:35:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-08-07T17:39:40Z",
+        "price": 3.21
       }
     ],
     "price_history_range": "1mo",
@@ -738,6 +782,13 @@
     ],
     "sec_filings": [
       {
+        "form": "144",
+        "filingDate": "2026-08-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005744/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "SCHEDULE 13G",
         "filingDate": "2026-08-07",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000009375126000530/xslSCHEDULE_13G_X02/primary_doc.xml",
@@ -867,13 +918,6 @@
         "form": "144",
         "filingDate": "2026-07-13",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005213/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-07-10",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000195917326005195/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1062,14 +1106,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "144 · 2026-07-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-10"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "144 · 2026-07-13",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1194,6 +1230,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-06"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-08-07",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-07"
       },
       {
         "type": "SEC Filing",

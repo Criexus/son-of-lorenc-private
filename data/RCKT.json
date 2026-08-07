@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.47",
-      "note": "Auto-Update: 11.58% vs. vorheriger Schlusskurs",
+      "value": "$3.50",
+      "note": "Auto-Update: 12.54% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T16:40:38Z",
+    "last_update_utc": "2026-08-07T17:39:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.47,
+      "regularMarketPrice": 3.5,
       "previousClose": 3.11,
-      "change": 0.36,
-      "changePercent": 11.58,
-      "regularMarketTime": "2026-08-07T16:31:52Z",
+      "change": 0.39,
+      "changePercent": 12.54,
+      "regularMarketTime": "2026-08-07T17:33:14Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -399,7 +399,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 3.47
+        "price": 3.5
       }
     ],
     "price_history_1d": [
@@ -548,8 +548,56 @@
         "price": 3.475
       },
       {
-        "t": "2026-08-07T16:31:52Z",
+        "t": "2026-08-07T16:30:00Z",
         "price": 3.47
+      },
+      {
+        "t": "2026-08-07T16:40:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-08-07T16:45:00Z",
+        "price": 3.47
+      },
+      {
+        "t": "2026-08-07T16:50:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-08-07T16:55:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-08-07T17:00:00Z",
+        "price": 3.465
+      },
+      {
+        "t": "2026-08-07T17:05:00Z",
+        "price": 3.47
+      },
+      {
+        "t": "2026-08-07T17:10:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-08-07T17:15:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-08-07T17:20:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-08-07T17:25:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-08-07T17:30:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-08-07T17:33:14Z",
+        "price": 3.5
       }
     ],
     "price_history_range": "1mo",
@@ -620,10 +668,10 @@
         "relevance_score": 23
       },
       {
-        "title": "ROCKET PHARMACEUTICALS AKTIE | Aktienkurs | US77313F1066 | News | A2JA9Q - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZUZNMS1KeFFRaFRWU2ZVbVlWMDV3dlVyUHVQSHNVTzhaNVBaakdlZXMwdDlPUG5kN0ZDb0M5N0szT3cwUjJFaVZiajhOdEFQMjM5NkQtdTRBWnFqTURSb0F4emVlOW54aHg5WQ?oc=5",
-        "published_at": "2018-02-19T15:53:56Z",
-        "source": "Finanzen.net",
+        "title": "Rocket Pharmaceuticals, Inc. (RCKT) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vdnViNXR5QU9keEVYdkI4RHZMdnpxUXVzWUJvMkVRdG9mdTZVdEdNNEJ2SHRtbVZTai0yLUlKcTZPeVRHaVRBWlREc2JGd2ZKU0E?oc=5",
+        "published_at": "2018-07-05T04:06:34Z",
+        "source": "Yahoo Finanzen Deutschland",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -633,7 +681,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
+        "relevance_score": 26
       },
       {
         "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - fiercebiotech.com",
@@ -794,8 +842,223 @@
         "description": "Offizielle SEC-Meldung"
       }
     ],
-    "clinical_trials": [],
+    "clinical_trials": [
+      {
+        "nct_id": "NCT07137338",
+        "title": "A Phase 1 AAV Gene Therapy Trial Evaluating Safety and Preliminary Efficacy of RP-A701 in Subjects With BAG3 Dilated Cardiomyopathy",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Dilated Cardiomyopathy (DCM)",
+        "last_update": "",
+        "start_date": "2026-06",
+        "url": "https://clinicaltrials.gov/study/NCT07137338"
+      },
+      {
+        "nct_id": "NCT06779825",
+        "title": "Impact of Stimulants and In-Scanner Motion on Attentive Task Performance in ADHD (ADHD_NFB)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "ADHD",
+        "last_update": "",
+        "start_date": "2025-02",
+        "url": "https://clinicaltrials.gov/study/NCT06779825"
+      },
+      {
+        "nct_id": "NCT04437771",
+        "title": "Long-Term Follow-up of Subjects With Fanconi Anaemia Subtype A Treated With ex Vivo Gene Therapy",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Fanconi Anemia Complementation Group A, Fanconi Anemia",
+        "last_update": "",
+        "start_date": "2020-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT04437771"
+      },
+      {
+        "nct_id": "NCT02987062",
+        "title": "MultiCenter expeRience in AFib Patients Treated With OAC (CRAFT)",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Atrial Fibrillation",
+        "last_update": "",
+        "start_date": "2016-11",
+        "url": "https://clinicaltrials.gov/study/NCT02987062"
+      },
+      {
+        "nct_id": "NCT03812263",
+        "title": "A Clinical Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Leukocyte Adhesion Defect - Type I",
+        "last_update": "",
+        "start_date": "2019-08-30",
+        "url": "https://clinicaltrials.gov/study/NCT03812263"
+      },
+      {
+        "nct_id": "NCT06092034",
+        "title": "A Gene Therapy Study of RP-A501 in Male Patients With Danon Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Danon Disease",
+        "last_update": "",
+        "start_date": "2023-09-05",
+        "url": "https://clinicaltrials.gov/study/NCT06092034"
+      },
+      {
+        "nct_id": "NCT05487040",
+        "title": "A Study to Measure the Amount of Study Medicine in Blood in Adult Participants With COVID-19 and Severe Kidney Disease",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "conditions": "COVID-19",
+        "last_update": "",
+        "start_date": "2022-09-07",
+        "url": "https://clinicaltrials.gov/study/NCT05487040"
+      },
+      {
+        "nct_id": "NCT07486752",
+        "title": "BAG3-DCM Natural History Study",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Dilated Cardiomyopathy (DCM), Cardiovascular Diseases, Heart Diseases, Genetic Diseases",
+        "last_update": "",
+        "start_date": "2026-05",
+        "url": "https://clinicaltrials.gov/study/NCT07486752"
+      },
+      {
+        "nct_id": "NCT07333053",
+        "title": "Clinical Efficacy of Transarterial Infusion Chemotherapy for Unresectable Colorectal Cancer",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Unresectable Colorectal Cancer",
+        "last_update": "",
+        "start_date": "2026-03-31",
+        "url": "https://clinicaltrials.gov/study/NCT07333053"
+      },
+      {
+        "nct_id": "NCT05548855",
+        "title": "Natural History of Danon Disease",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Danon Disease",
+        "last_update": "",
+        "start_date": "2022-09-26",
+        "url": "https://clinicaltrials.gov/study/NCT05548855"
+      },
+      {
+        "nct_id": "NCT03825783",
+        "title": "A Gene Therapy Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
+        "status": "WITHDRAWN",
+        "phase": "PHASE1",
+        "conditions": "Leukocyte Adhesion Defect - Type I",
+        "last_update": "",
+        "start_date": "2019-04-15",
+        "url": "https://clinicaltrials.gov/study/NCT03825783"
+      },
+      {
+        "nct_id": "NCT00615810",
+        "title": "ROCKET I - Randomized Open Label Switch for Cholesterol Elevation on Kivexa Evaluation Trial",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "HIV Infections",
+        "last_update": "",
+        "start_date": "2008-03",
+        "url": "https://clinicaltrials.gov/study/NCT00615810"
+      },
+      {
+        "nct_id": "NCT05408715",
+        "title": "A Natural History Study in Children With a Type II Collagen Disorder With Short Stature",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "SEDC, Hypochondrogenesis, Semd, Strudwick Type, Kniest Dysplasia",
+        "last_update": "",
+        "start_date": "2022-06-29",
+        "url": "https://clinicaltrials.gov/study/NCT05408715"
+      },
+      {
+        "nct_id": "NCT06282432",
+        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Leukocyte Adhesion Deficiency",
+        "last_update": "",
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT06282432"
+      },
+      {
+        "nct_id": "NCT05885412",
+        "title": "A Phase 1, Dose Escalation Trial of RP-A601 in Subjects With PKP2 Variant-Mediated Arrhythmogenic Cardiomyopathy (PKP2-ACM)",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "PKP2 Arrhythmogenic Cardiomyopathy (PKP2-ACM)",
+        "last_update": "",
+        "start_date": "2023-08-29",
+        "url": "https://clinicaltrials.gov/study/NCT05885412"
+      }
+    ],
     "detected_triggers": [
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "ROCKET I - Randomized Open Label Switch for Cholesterol Elevation on Kivexa Evaluation Trial",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT00615810",
+        "date": "2008-03"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Gene Therapy Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
+        "reason": "Studienregister-Treffer: WITHDRAWN PHASE1",
+        "source": "NCT03825783",
+        "date": "2019-04-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Trial to Evaluate the Safety and Efficacy of RP-L201 in Subjects With Leukocyte Adhesion Deficiency-I",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1, PHASE2",
+        "source": "NCT03812263",
+        "date": "2019-08-30"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Measure the Amount of Study Medicine in Blood in Adult Participants With COVID-19 and Severe Kidney Disease",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE1",
+        "source": "NCT05487040",
+        "date": "2022-09-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase 1, Dose Escalation Trial of RP-A601 in Subjects With PKP2 Variant-Mediated Arrhythmogenic Cardiomyopathy (PKP2-ACM)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT05885412",
+        "date": "2023-08-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Gene Therapy Study of RP-A501 in Male Patients With Danon Disease",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06092034",
+        "date": "2023-09-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Efficacy of Transarterial Infusion Chemotherapy for Unresectable Colorectal Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07333053",
+        "date": "2026-03-31"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase 1 AAV Gene Therapy Trial Evaluating Safety and Preliminary Efficacy of RP-A701 in Subjects With BAG3 Dilated Cardiomyopathy",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT07137338",
+        "date": "2026-06"
+      },
       {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
@@ -819,6 +1082,62 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-03"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "MultiCenter expeRience in AFib Patients Treated With OAC (CRAFT)",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT02987062",
+        "date": "2016-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Long-Term Follow-up of Subjects With Fanconi Anaemia Subtype A Treated With ex Vivo Gene Therapy",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT04437771",
+        "date": "2020-06-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT06282432",
+        "date": "2022-03-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Natural History Study in Children With a Type II Collagen Disorder With Short Stature",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT05408715",
+        "date": "2022-06-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Natural History of Danon Disease",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05548855",
+        "date": "2022-09-26"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Impact of Stimulants and In-Scanner Motion on Attentive Task Performance in ADHD (ADHD_NFB)",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
+        "source": "NCT06779825",
+        "date": "2025-02"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "BAG3-DCM Natural History Study",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
+        "source": "NCT07486752",
+        "date": "2026-05"
       },
       {
         "type": "SEC Filing",
@@ -915,58 +1234,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-07"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-07-08",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-08"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "S-8 · 2026-07-14",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-14"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G · 2026-07-31",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-31"
-      },
-      {
-        "type": "Analysten / Kursziel",
-        "level": "low",
-        "title": "TD Cowen bestätigt \"Hold\"-Rating für Rocket Pharmaceuticals Aktie - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-08-03T13:56:00Z",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFp2UzVaZEs1SEhpYUFSWlBBWnZXRjJyY2FaZGktYWxWUjN1SEN5MGpKTEVaTWh1bVY3b0pZNHhUWW00ZV9pcFVyRFNhNWVWMTd0N1JSWnBXT0gwSFpwSVRCYkphcWxNc2JhbVY5eWwwWGNjbUhkdU1rU2ZDZWQyZWF1T0Q1SGF6NFVJVFVyMEJWUnREcGpZRWRjeTRWRnBaU1ZuV1VoaExnLU5BQThoZEVsUlZuMTlPNTJwb01n?oc=5"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-05"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-05"
       }
     ],
     "queries_used": [
