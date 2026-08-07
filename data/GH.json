@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$168.65",
-      "note": "Auto-Update: 4.11% vs. vorheriger Schlusskurs",
+      "value": "$168.48",
+      "note": "Auto-Update: 4.01% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T19:43:30Z",
+    "last_update_utc": "2026-08-07T20:28:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 168.65,
+      "regularMarketPrice": 168.48,
       "previousClose": 161.99,
-      "change": 6.66,
-      "changePercent": 4.11,
-      "regularMarketTime": "2026-08-07T19:43:19Z",
+      "change": 6.49,
+      "changePercent": 4.01,
+      "regularMarketTime": "2026-08-07T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,10 +248,6 @@
       "fiftyTwoWeekRange": "51.44 – 176.58"
     },
     "price_history": [
-      {
-        "t": "2026-07-07T13:30:00Z",
-        "price": 162.92
-      },
       {
         "t": "2026-07-08T13:30:00Z",
         "price": 156.17
@@ -342,7 +338,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 168.65
+        "price": 168.48
       }
     ],
     "price_history_1d": [
@@ -644,16 +640,44 @@
       },
       {
         "t": "2026-08-07T19:40:00Z",
-        "price": 168.715
+        "price": 168.865
       },
       {
-        "t": "2026-08-07T19:43:19Z",
-        "price": 168.65
+        "t": "2026-08-07T19:45:00Z",
+        "price": 169.09
+      },
+      {
+        "t": "2026-08-07T19:50:00Z",
+        "price": 168.96
+      },
+      {
+        "t": "2026-08-07T19:55:00Z",
+        "price": 168.57
+      },
+      {
+        "t": "2026-08-07T20:00:00Z",
+        "price": 168.48
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Guardant Health: Direktor verkauft Aktien im Wert von 279.000 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ2lyb25YTTE5eE1ZZmRkYVF3QlUycVcyQkZ6VklXellJZmJYX0VtWVp1N3VkWG9CRnNMaElVMDM4NGsxbUtEUlhwOFpUMy1iQml6VEU3TVNURkJ3Y3dOV3BnWFRMMlVKV1Ryc2pZZTNOOUZrbmVLLXMtUzZZV3ZCVUp1MDR0c3I0dkFkWmk5dGg5a2ozQUNlZy1lVGtYekpjOTNsMzdnM1dJTTh3MThsbEZzVFFCNkRtbFV6YmpiMGJBN0RDVDljOVNCM20?oc=5",
+        "published_at": "2026-08-06T21:32:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Die Aktie von Guardant Health (GH) könnte nach der Anhebung der Prognose unter ihrem fairen Wert liegen - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMUk2YXdEVnNwTHJQQ0F6Ull2N2szTFdEZnF3Z19jM1JHMmVfT0NrNldqTTd2X1hrUEN1RndVOWdoUkp1U3hHYUlkSGhCMTdzWUg1SjdSREExODd2NGZXZ2tzLVFVVjh1bXBGVEFzTnl6eWdCbWpyeHhKbVlFOEc5WjgtdEZpa2Zhd2JzcHdGS29sME5ORTR4b3ZoNGtmbGlPRUJ0TjUtMk9yMGNTYkRpanBtNm1ZT1FXdUNJc0Rmb3A4RmtfNWQzVlhTRDdjZ2FmbHVvNzN4UTHSAdgBQVVfeXFMTzFJNmF3RFZzcExyUENBelJZdjdrM0xXRGZxd2dfYzNSRzJlX09DazZXak03dl9Ya1BDdUZ3VTlnaFJKdVN4R2FJZEhoQjE3c1lINUo3UkRBMTg3djRmV2drcy1RVVY4dW1wRlRBc055enlnQm1qcnh4Sm1ZRThHOVo4LXRGaWtmYXdic3B3RktvbDBOTkU0eG92aDRrZmxpT0VCdE41LTJPcjBjU2JEaWpwbTZtWU9RV3VDSXNEZm9wOEZrXzVkM1ZYU0Q3Y2dhZmx1bzczeFEx?oc=5",
@@ -717,22 +741,6 @@
         "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
         "relevance_score": 18
-      },
-      {
-        "title": "Guardant Health Aktie: Umsatzsprung und Prognoseanhebung lösen Kurssprung aus - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR1RPT3pxQTRGQ2U2VE1adWUwcHBKdTRLZWhiNTU4UVF5ZVlsbmRHakEwWnU4TFdyTUNJektzSTVDa0k3Tk9ERWF1eFQyY2RlRHdiaGNsTjRRWS1vYVlBbnVqVFZoSWI5aVRETFp5aFNPRmpsZGxaVVlLQjJLQ2taWUNndHEyNkVHZEpZOXdoSVYtN1lGaFVyWmxMOGJfaWZydmNuZkEzVTR5STROeFhzY3ozWXpQWDVSZS1fRmxCcXVWUzJUNkhuVVFsTHd3MjYxMDZz?oc=5",
-        "published_at": "2026-07-30T22:07:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
       },
       {
         "title": "Guardant Health: EPS übertrifft Schätzungen um 0,33 $ - Umsatz besser als erwartet - Investing.com Deutsch",
@@ -799,10 +807,10 @@
         "relevance_score": 19
       },
       {
-        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | News | A2N5RY - Finanzen.net",
+        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | News | A2N5RY - finanzen.net",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CUF80a0FIN2RudkxWbmhFRm1FWHZHMERfX2dYZmpXLXdqeUs3dHVtVHFKWEc5a3NDWHljNFk1bmE4bGR4WEN1STd1dXVNRldnVkU3cDdRUEJsa29lN2JaaFMwZw?oc=5",
         "published_at": "2019-06-14T11:29:16Z",
-        "source": "Finanzen.net",
+        "source": "finanzen.net",
         "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
