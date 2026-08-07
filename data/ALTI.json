@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.26",
-      "note": "Auto-Update: 18.33% vs. vorheriger Schlusskurs",
+      "value": "$4.30",
+      "note": "Auto-Update: 19.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-07T15:44:08Z",
+    "last_update_utc": "2026-08-07T16:42:00Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.26,
+      "regularMarketPrice": 4.3,
       "previousClose": 3.6,
-      "change": 0.66,
-      "changePercent": 18.33,
-      "regularMarketTime": "2026-08-07T15:43:47Z",
+      "change": 0.7,
+      "changePercent": 19.44,
+      "regularMarketTime": "2026-08-07T16:32:37Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-07T13:30:00Z",
-        "price": 4.26
+        "price": 4.3
       }
     ],
     "price_history_1d": [
@@ -408,11 +408,35 @@
       },
       {
         "t": "2026-08-07T15:40:00Z",
-        "price": 4.235
+        "price": 4.26
       },
       {
-        "t": "2026-08-07T15:43:47Z",
+        "t": "2026-08-07T15:50:00Z",
+        "price": 4.3
+      },
+      {
+        "t": "2026-08-07T15:55:00Z",
+        "price": 4.3
+      },
+      {
+        "t": "2026-08-07T16:00:00Z",
+        "price": 4.28
+      },
+      {
+        "t": "2026-08-07T16:05:00Z",
         "price": 4.26
+      },
+      {
+        "t": "2026-08-07T16:25:00Z",
+        "price": 4.2676
+      },
+      {
+        "t": "2026-08-07T16:30:00Z",
+        "price": 4.26
+      },
+      {
+        "t": "2026-08-07T16:32:37Z",
+        "price": 4.3
       }
     ],
     "price_history_range": "1mo",
@@ -439,7 +463,7 @@
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUk8wM3dQdTBacDg0WEVESDlGQjlwYzExUmJpX1ZfQXNaTXJRMlFrV3ozZ3kzbzd4OHh3VjAtS3RkaDdsd2Q1UVZDOTdBT0tyeF8tVFk0aEs2SVJ6clo1ZU05OFVVd3VySzl4Q2dLaklzNzFtMWtwUFZteDBnbGJlcUFHdlNoVDg0NFl4bTdBWUVoMlBtUzY2YU9vQnFCbVVhbVFuUFRmNUxFRGRfUmFkb3JPNVNoUGNuY1E0WUdvOA?oc=5",
         "published_at": "2024-05-16T07:00:00Z",
         "source": "TradingView",
-        "query": "AlTi Global, Inc. ALTI stock news",
+        "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -448,7 +472,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
+        "relevance_score": 7
       }
     ],
     "sec_filings": [
