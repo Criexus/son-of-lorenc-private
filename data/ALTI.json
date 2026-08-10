@@ -217,7 +217,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-10T20:08:14Z",
+    "last_update_utc": "2026-08-10T21:09:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -568,6 +568,13 @@
     "news": [],
     "sec_filings": [
       {
+        "form": "10-Q",
+        "filingDate": "2026-08-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026055274/alti-20260630.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "8-K",
         "filingDate": "2026-08-10",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026055192/alti-20260810.htm",
@@ -697,13 +704,6 @@
         "form": "13F-HR",
         "filingDate": "2026-05-07",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000183861526000003/xslForm13F_X02/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "DEFA14A",
-        "filingDate": "2026-05-01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126018409/ny20066517x4_defa14a.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1030,20 +1030,20 @@
         "date": "2026-07-02"
       },
       {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-08-10",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-10"
+      },
+      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-08-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-10"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "DEFA14A · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
       },
       {
         "type": "SEC Filing",
