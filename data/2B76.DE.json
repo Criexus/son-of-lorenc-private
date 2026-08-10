@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.73",
-      "note": "Auto-Update: 4.51% vs. vorheriger Schlusskurs",
+      "value": "$18.70",
+      "note": "Auto-Update: 4.36% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-10T14:12:42Z",
+    "last_update_utc": "2026-08-10T15:29:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.726,
+      "regularMarketPrice": 18.7,
       "previousClose": 17.918,
-      "change": 0.808,
-      "changePercent": 4.51,
-      "regularMarketTime": "2026-08-10T13:54:04Z",
+      "change": 0.782,
+      "changePercent": 4.36,
+      "regularMarketTime": "2026-08-10T15:09:44Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -246,7 +246,7 @@
       },
       {
         "t": "2026-08-10T07:00:00Z",
-        "price": 18.726
+        "price": 18.7
       }
     ],
     "price_history_1d": [
@@ -548,32 +548,68 @@
       },
       {
         "t": "2026-08-10T13:50:00Z",
-        "price": 18.766
+        "price": 18.726
       },
       {
-        "t": "2026-08-10T13:54:04Z",
-        "price": 18.726
+        "t": "2026-08-10T14:00:00Z",
+        "price": 18.732
+      },
+      {
+        "t": "2026-08-10T14:05:00Z",
+        "price": 18.772
+      },
+      {
+        "t": "2026-08-10T14:10:00Z",
+        "price": 18.794
+      },
+      {
+        "t": "2026-08-10T14:20:00Z",
+        "price": 18.722
+      },
+      {
+        "t": "2026-08-10T14:25:00Z",
+        "price": 18.742
+      },
+      {
+        "t": "2026-08-10T14:30:00Z",
+        "price": 18.738
+      },
+      {
+        "t": "2026-08-10T14:35:00Z",
+        "price": 18.752
+      },
+      {
+        "t": "2026-08-10T14:40:00Z",
+        "price": 18.748
+      },
+      {
+        "t": "2026-08-10T14:45:00Z",
+        "price": 18.736
+      },
+      {
+        "t": "2026-08-10T14:50:00Z",
+        "price": 18.704
+      },
+      {
+        "t": "2026-08-10T14:55:00Z",
+        "price": 18.69
+      },
+      {
+        "t": "2026-08-10T15:00:00Z",
+        "price": 18.706
+      },
+      {
+        "t": "2026-08-10T15:05:00Z",
+        "price": 18.706
+      },
+      {
+        "t": "2026-08-10T15:09:44Z",
+        "price": 18.7
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "L&G Hydrogen Economy UCITS ETF (HTMW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nSFNOaml3Vm5LQWx3V3NmSzRJTHRjUUQtX1hWdG9vcWtTVUVnbXY0NjNyeGZLV19PM1ZQS2xtdVdPc0FaYkotTmlaWGttREpERl9wUjl3?oc=5",
-        "published_at": "2021-07-23T01:50:44Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      },
       {
         "title": "iShares MSCI India UCITS ETF USD Acc (QDV5.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LOXgyZnpaVzBHamRWZzhrVU9rdHRmSjZQRDRZRm9vdFBHWV9oQVhKTW1FRTNhNFhZR2xTVUZyZF93WHh4MXNPSUpKenBQTEZIa2VrOG9R?oc=5",
