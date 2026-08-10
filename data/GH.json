@@ -225,7 +225,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-10T11:41:58Z",
+    "last_update_utc": "2026-08-10T12:41:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -711,19 +711,19 @@
         "relevance_score": 13
       },
       {
-        "title": "Guardant Health Aktie markiert neues 52-Wochen-Hoch bei 174,29 USD - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSnRLTUxqU0pSQnNRRnZmUEVNRU1iVWpUWm9ZR1I0QWlzVDdQQ2x2Sks2WHV3R1ZfVjNvTnI0cFVoZGkwaUktel9ZeF9hVTNYbWpMcTJIM3ROMzA4THVkeUFQZU9fbDJnVzFKS3l1UE1mNWFKbjBzN09hNzlwVmxySGlZc1ZTaVBhX2lNZ0RPTWhJYV9xMGp6ZEZGSDV3RjdIRG5YMzdKQnQyczR1M0ZTWFlzYjRhaWVXV1Nn?oc=5",
-        "published_at": "2026-07-31T13:37:00Z",
+        "title": "Guardant Health: Stifel hebt Kursziel nach starken Q2-Zahlen an - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWNBTG8tNUNVbldZeDJLVzdneU9qOGItZmtBOG03QzdseTRIdjZRNWV0X25jS1dNRzZMU1k5M1gyMzRoSF9LazMwYXRpTHROZWwwS2g4akhxdGpiWU1ZTmFlMVFCM3hVcU9SWkg1QWtqaFhBU0h4NTNadUVCY1FEaUpxQ002Q29uOWVXT1RyWTJZNzR6LXFzM2ktbTBCNVZuSHF4OGtsXy0yNGYtR3Q1YVpPNlNJWmVqMEFFQw?oc=5",
+        "published_at": "2026-07-31T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 13
       },
       {
@@ -1022,6 +1022,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-30"
+      },
+      {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Guardant Health: Stifel hebt Kursziel nach starken Q2-Zahlen an - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-07-31T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWNBTG8tNUNVbldZeDJLVzdneU9qOGItZmtBOG03QzdseTRIdjZRNWV0X25jS1dNRzZMU1k5M1gyMzRoSF9LazMwYXRpTHROZWwwS2g4akhxdGpiWU1ZTmFlMVFCM3hVcU9SWkg1QWtqaFhBU0h4NTNadUVCY1FEaUpxQ002Q29uOWVXT1RyWTJZNzR6LXFzM2ktbTBCNVZuSHF4OGtsXy0yNGYtR3Q1YVpPNlNJWmVqMEFFQw?oc=5"
       },
       {
         "type": "Analysten / Kursziel",
