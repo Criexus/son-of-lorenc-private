@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.06",
-      "note": "Auto-Update: 1.83% vs. vorheriger Schlusskurs",
+      "value": "$3.05",
+      "note": "Auto-Update: 1.67% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-10T18:10:39Z",
+    "last_update_utc": "2026-08-10T19:27:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.055,
+      "regularMarketPrice": 3.05,
       "previousClose": 3.0,
-      "change": 0.055,
-      "changePercent": 1.83,
-      "regularMarketTime": "2026-08-10T18:10:25Z",
+      "change": 0.05,
+      "changePercent": 1.67,
+      "regularMarketTime": "2026-08-10T19:27:17Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-10T13:30:00Z",
-        "price": 3.055
+        "price": 3.05
       }
     ],
     "price_history_1d": [
@@ -646,8 +646,72 @@
         "price": 3.055
       },
       {
-        "t": "2026-08-10T18:10:25Z",
+        "t": "2026-08-10T18:10:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-08-10T18:15:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-08-10T18:20:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-08-10T18:25:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-08-10T18:30:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-08-10T18:35:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-08-10T18:40:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-08-10T18:45:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-08-10T18:50:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-08-10T18:55:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-08-10T19:00:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-08-10T19:05:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-08-10T19:10:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-08-10T19:15:00Z",
+        "price": 3.0175
+      },
+      {
+        "t": "2026-08-10T19:20:00Z",
         "price": 3.055
+      },
+      {
+        "t": "2026-08-10T19:25:00Z",
+        "price": 3.05
+      },
+      {
+        "t": "2026-08-10T19:27:17Z",
+        "price": 3.05
       }
     ],
     "price_history_range": "1mo",
@@ -686,10 +750,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - boerse-express.com",
+        "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeGNQOUpNWVBHWFV2YUs5N1lZcXhSVk53WThtMHZQOG1OejIzcU5id3BRRVJPTGhaamZMTEZCYXlwX2xRQjI4dHdNSUlLcDlPbVlEQl8wRDZOVHJuYm13RVNpRnh1ektZc2x1SG16eFBoRXFadUJYQlpzeHVjNUxJZFQ0eFRWbmpFRmlVam9VN1BaWUZvaG9STHhibUFsY2cxRkRCazB3?oc=5",
         "published_at": "2026-06-30T07:00:00Z",
-        "source": "boerse-express.com",
+        "source": "Börse Express",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -786,6 +850,22 @@
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lclVNRlQ3UEE2Skd3a2paNDNDa0lMRlRjc05Cc2VLdFd1YlNHYWstTTJiTVBBRDVHMUIyRlozTURFYnJCN3lNUXdmQXV1eHpBd0pfR096bWtSRXVkMjhkYWJkNFY2c0t3?oc=5",
         "published_at": "2022-10-05T02:00:48Z",
         "source": "boerse.de",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Xetra Orderbuch zur Altimmune Aktie - OnVista",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1zbk1INzQtY05MblFxMS0tdDBrWDFUbGZLekdxVTJ6SjFPWmVuNnJfajRtV1ZyZE80WjZwNEtyc2gzTGxISFM3dW9vLWUyOV9DeWNjeVFwMDZFRnBCOV9HUHdFanJCR1BuTmh2U1pfNnNFYjZlUl9hcWZvN1Q?oc=5",
+        "published_at": "2021-10-13T13:59:28Z",
+        "source": "OnVista",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -958,56 +1038,6 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04972396",
-        "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "NASH - Nonalcoholic Steatohepatitis",
-        "last_update": "",
-        "start_date": "2021-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT04972396"
-      },
-      {
-        "nct_id": "NCT03352466",
-        "title": "NasoShield Study of Safety and Immunogenicity",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
-        "last_update": "",
-        "start_date": "2018-01-18",
-        "url": "https://clinicaltrials.gov/study/NCT03352466"
-      },
-      {
-        "nct_id": "NCT06987513",
-        "title": "RECLAIM STUDY: Phase 2 Study of the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Alcohol Use Disorder (AUD)",
-        "last_update": "",
-        "start_date": "2025-05-15",
-        "url": "https://clinicaltrials.gov/study/NCT06987513"
-      },
-      {
-        "nct_id": "NCT05006885",
-        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Non-Alcoholic Fatty Liver Disease",
-        "last_update": "",
-        "start_date": "2021-09-30",
-        "url": "https://clinicaltrials.gov/study/NCT05006885"
-      },
-      {
-        "nct_id": "NCT07009860",
-        "title": "RESTORE TRIAL: A Phase 2 Study Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol-Associated Liver Disease (ALD)",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Alcohol Liver Disease",
-        "last_update": "",
-        "start_date": "2025-06-16",
-        "url": "https://clinicaltrials.gov/study/NCT07009860"
-      },
-      {
         "nct_id": "NCT05134662",
         "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
         "status": "COMPLETED",
@@ -1028,6 +1058,16 @@
         "url": "https://clinicaltrials.gov/study/NCT02496897"
       },
       {
+        "nct_id": "NCT04442230",
+        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Coronavirus Infection",
+        "last_update": "",
+        "start_date": "2020-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT04442230"
+      },
+      {
         "nct_id": "NCT04415749",
         "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
         "status": "COMPLETED",
@@ -1038,44 +1078,14 @@
         "url": "https://clinicaltrials.gov/study/NCT04415749"
       },
       {
-        "nct_id": "NCT05295875",
-        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
-        "status": "COMPLETED",
+        "nct_id": "NCT07009860",
+        "title": "RESTORE TRIAL: A Phase 2 Study Evaluating the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol-Associated Liver Disease (ALD)",
+        "status": "RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Obesity/Overweight",
+        "conditions": "Alcohol Liver Disease",
         "last_update": "",
-        "start_date": "2022-03-31",
-        "url": "https://clinicaltrials.gov/study/NCT05295875"
-      },
-      {
-        "nct_id": "NCT04561245",
-        "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Obesity, Nonalcoholic Steatohepatitis",
-        "last_update": "",
-        "start_date": "2020-11-10",
-        "url": "https://clinicaltrials.gov/study/NCT04561245"
-      },
-      {
-        "nct_id": "NCT03760549",
-        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Influenza",
-        "last_update": "",
-        "start_date": "2019-01-21",
-        "url": "https://clinicaltrials.gov/study/NCT03760549"
-      },
-      {
-        "nct_id": "NCT05989711",
-        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Non-Alcoholic Steatohepatitis (NASH)",
-        "last_update": "",
-        "start_date": "2023-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT05989711"
+        "start_date": "2025-06-16",
+        "url": "https://clinicaltrials.gov/study/NCT07009860"
       },
       {
         "nct_id": "NCT04684914",
@@ -1088,24 +1098,94 @@
         "url": "https://clinicaltrials.gov/study/NCT04684914"
       },
       {
-        "nct_id": "NCT04442230",
-        "title": "NasoVAX in Patients With Early Coronavirus Infectious Disease 2019 (COVID-19)",
-        "status": "TERMINATED",
+        "nct_id": "NCT06987513",
+        "title": "RECLAIM STUDY: Phase 2 Study of the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol Use Disorder (AUD) in Subjects With Obesity or Overweight",
+        "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "Coronavirus Infection",
+        "conditions": "Alcohol Use Disorder (AUD)",
         "last_update": "",
-        "start_date": "2020-10-10",
-        "url": "https://clinicaltrials.gov/study/NCT04442230"
+        "start_date": "2025-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT06987513"
       },
       {
-        "nct_id": "NCT00755703",
-        "title": "Safety and Immunogenicity Study of Adenovirus-vectored, Intranasal Pandemic Influenza Vaccine.",
+        "nct_id": "NCT04679909",
+        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
         "status": "COMPLETED",
         "phase": "PHASE1",
-        "conditions": "Influenza A Subtype H5N1 Infection",
+        "conditions": "Healthy Volunteers",
         "last_update": "",
-        "start_date": "2008-10",
-        "url": "https://clinicaltrials.gov/study/NCT00755703"
+        "start_date": "2021-02-25",
+        "url": "https://clinicaltrials.gov/study/NCT04679909"
+      },
+      {
+        "nct_id": "NCT03352466",
+        "title": "NasoShield Study of Safety and Immunogenicity",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Healthy Volunteers",
+        "last_update": "",
+        "start_date": "2018-01-18",
+        "url": "https://clinicaltrials.gov/study/NCT03352466"
+      },
+      {
+        "nct_id": "NCT04561245",
+        "title": "ALT-801 (Pemvidutide) in Healthy Overweight and Obese Volunteers to Study Safety and Tolerability",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Obesity, Nonalcoholic Steatohepatitis",
+        "last_update": "",
+        "start_date": "2020-11-10",
+        "url": "https://clinicaltrials.gov/study/NCT04561245"
+      },
+      {
+        "nct_id": "NCT05006885",
+        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
+        "last_update": "",
+        "start_date": "2021-09-30",
+        "url": "https://clinicaltrials.gov/study/NCT05006885"
+      },
+      {
+        "nct_id": "NCT04972396",
+        "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "NASH - Nonalcoholic Steatohepatitis",
+        "last_update": "",
+        "start_date": "2021-09-15",
+        "url": "https://clinicaltrials.gov/study/NCT04972396"
+      },
+      {
+        "nct_id": "NCT03760549",
+        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2019-01-21",
+        "url": "https://clinicaltrials.gov/study/NCT03760549"
+      },
+      {
+        "nct_id": "NCT03232567",
+        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2017-09-18",
+        "url": "https://clinicaltrials.gov/study/NCT03232567"
+      },
+      {
+        "nct_id": "NCT05292911",
+        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
+        "last_update": "",
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT05292911"
       }
     ],
     "detected_triggers": [
@@ -1124,18 +1204,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Safety and Immunogenicity Study of Adenovirus-vectored, Intranasal Pandemic Influenza Vaccine.",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT00755703",
-        "date": "2008-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
         "title": "Phase I Safety and Immunogenicity of FP-02.2 in Chronic Hepatitis B",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT02496897",
         "date": "2015-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT03232567",
+        "date": "2017-09-18"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1180,6 +1260,14 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
+        "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT04679909",
+        "date": "2021-02-25"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
         "title": "Pemvidutide (ALT-801) DDI Study in Healthy Volunteers",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT04972396",
@@ -1204,18 +1292,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05295875",
-        "date": "2022-03-31"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05989711",
-        "date": "2023-07-27"
+        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT05292911",
+        "date": "2022-03-09"
       },
       {
         "type": "ClinicalTrials.gov",
