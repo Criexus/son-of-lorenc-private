@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$169.15",
-      "note": "Auto-Update: 6.5% vs. vorheriger Schlusskurs",
+      "value": "$169.72",
+      "note": "Auto-Update: 6.86% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-10T16:23:02Z",
+    "last_update_utc": "2026-08-10T17:15:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 169.15,
+      "regularMarketPrice": 169.72,
       "previousClose": 158.83,
-      "change": 10.32,
-      "changePercent": 6.5,
-      "regularMarketTime": "2026-08-10T16:22:26Z",
+      "change": 10.89,
+      "changePercent": 6.86,
+      "regularMarketTime": "2026-08-10T17:15:38Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-10T13:30:00Z",
-        "price": 169.15
+        "price": 169.72
       }
     ],
     "price_history_1d": [
@@ -476,11 +476,51 @@
       },
       {
         "t": "2026-08-10T16:20:00Z",
-        "price": 169.175
+        "price": 169.21
       },
       {
-        "t": "2026-08-10T16:22:26Z",
-        "price": 169.15
+        "t": "2026-08-10T16:25:00Z",
+        "price": 169.555
+      },
+      {
+        "t": "2026-08-10T16:30:00Z",
+        "price": 169.42
+      },
+      {
+        "t": "2026-08-10T16:35:00Z",
+        "price": 169.5
+      },
+      {
+        "t": "2026-08-10T16:40:00Z",
+        "price": 169.77
+      },
+      {
+        "t": "2026-08-10T16:45:00Z",
+        "price": 169.67
+      },
+      {
+        "t": "2026-08-10T16:50:00Z",
+        "price": 169.32
+      },
+      {
+        "t": "2026-08-10T16:55:00Z",
+        "price": 169.61
+      },
+      {
+        "t": "2026-08-10T17:00:00Z",
+        "price": 169.6
+      },
+      {
+        "t": "2026-08-10T17:05:00Z",
+        "price": 169.505
+      },
+      {
+        "t": "2026-08-10T17:10:00Z",
+        "price": 169.56
+      },
+      {
+        "t": "2026-08-10T17:15:38Z",
+        "price": 169.72
       }
     ],
     "price_history_range": "1mo",
@@ -491,7 +531,7 @@
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObG9oWUpyYXYxaURycFBOc1JNZVZIelVHTXlaSmZ4Z2NKRGJGUG01VjV1VWpPbnN2dXNvamNmNlh1US01alI4dE1kTWdZdTVtUWNNUmpSeVVlU2dtdUp4TlJMaURBNEFaNFRQU3lIQndVdnhudDZLTzlRRHhzTEdHOUpXS2RaYlloNXp0cUJjUjk1cktibTVRQXJRb04wa0FyU3dibk5iak9rWUpEVmUwc0taLTg5MWZqQlZNY1NGblk0ZjAxUHdUWTF0aXJTdk1DM2FKcVBDZG3SAdgBQVVfeXFMTmxvaFlKcmF2MWlEcnBQTnNSTWVWSHpVR015WkpmeGdjSkRiRlBtNVY1dVVqT25zdnVzb2pjZjZYdVEtNWpSOHRNZE1nWXU1bVFjTVJqUnlVZVNnbXVKeE5STGlEQTRBWjRUUFN5SEJ3VXZ4bnQ2S085UUR4c0xHRzlKV0tkWmJZaDV6dHFCY1I5NXJLYm01UUFyUW9OMGtBclN3Ym5OYmpPa1lKRFZlMHNLWi04OTFmakJWTWNTRm5ZNGYwMVB3VFkxdGlyU3ZNQzNhSnFQQ2Rt?oc=5",
         "published_at": "2026-08-10T13:39:54Z",
         "source": "simplywall.st",
-        "query": "\"Guardant Health\" Shield blood test news",
+        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -540,38 +580,6 @@
         "published_at": "2026-08-03T15:07:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Guardant360\" Reveal Guardant Health news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health: Stifel hebt Kursziel nach starken Q2-Zahlen an - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWNBTG8tNUNVbldZeDJLVzdneU9qOGItZmtBOG03QzdseTRIdjZRNWV0X25jS1dNRzZMU1k5M1gyMzRoSF9LazMwYXRpTHROZWwwS2g4akhxdGpiWU1ZTmFlMVFCM3hVcU9SWkg1QWtqaFhBU0h4NTNadUVCY1FEaUpxQ002Q29uOWVXT1RyWTJZNzR6LXFzM2ktbTBCNVZuSHF4OGtsXy0yNGYtR3Q1YVpPNlNJWmVqMEFFQw?oc=5",
-        "published_at": "2026-07-31T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "TD Cowen erhöht Kursziel für Guardant Health Aktie nach starkem Volumenwachstum - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNU0g1V3RnMjhubkU3ZGlIOXB6TnJReTkzeXp2RlFuWmxUN2Jod21hc2lZR3VSUGhkVXJHQnFKYUM4bzR1cE01RGxlb2RfcV9uVENLUjdnSG1BZHA5UG1jMjlodk9tcFlJZjZzZUJEekVMVUROYWxFbTNQQ1I5RTViV21NQnhnRU4xbUFvaUtjekROLWdNYkZScGZDLS1nWUNTYWVxcXFnRG45MXA1V0ZCb242czNzT2thaVRLLVVEbDhTQzJ3TEhSWEFnZk50OUVBLU8wdg?oc=5",
-        "published_at": "2026-07-31T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -679,10 +687,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Guardant Health Aktie • A2N5RY • US40131M1099 - Onvista",
+        "title": "Guardant Health Aktie • A2N5RY • US40131M1099 - OnVista",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52blo5TXZ0b0dfdHk1YmdHRUlWeUlHeDM0V0xDQmxIdVpGYkkyNWtZNmZ1eG5XMG1HRTNWWHRJRmxXaTItZEM2STBhSXFkTkptYkZic2pCQjh5YjgwSFZhdUtBdHdxV0NiRHpubjJzZmFmQWhnR3dr?oc=5",
         "published_at": "2018-12-06T06:07:46Z",
-        "source": "Onvista",
+        "source": "OnVista",
         "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -862,18 +870,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-30"
-      },
-      {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Guardant Health: Stifel hebt Kursziel nach starken Q2-Zahlen an - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-07-31T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLWNBTG8tNUNVbldZeDJLVzdneU9qOGItZmtBOG03QzdseTRIdjZRNWV0X25jS1dNRzZMU1k5M1gyMzRoSF9LazMwYXRpTHROZWwwS2g4akhxdGpiWU1ZTmFlMVFCM3hVcU9SWkg1QWtqaFhBU0h4NTNadUVCY1FEaUpxQ002Q29uOWVXT1RyWTJZNzR6LXFzM2ktbTBCNVZuSHF4OGtsXy0yNGYtR3Q1YVpPNlNJWmVqMEFFQw?oc=5"
       },
       {
         "type": "Analysten / Kursziel",
