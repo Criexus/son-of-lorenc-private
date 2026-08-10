@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.79",
-      "note": "Auto-Update: 4.87% vs. vorheriger Schlusskurs",
+      "value": "$18.73",
+      "note": "Auto-Update: 4.51% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-10T12:42:23Z",
+    "last_update_utc": "2026-08-10T14:12:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.79,
+      "regularMarketPrice": 18.726,
       "previousClose": 17.918,
-      "change": 0.872,
-      "changePercent": 4.87,
-      "regularMarketTime": "2026-08-10T12:26:12Z",
+      "change": 0.808,
+      "changePercent": 4.51,
+      "regularMarketTime": "2026-08-10T13:54:04Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -246,7 +246,7 @@
       },
       {
         "t": "2026-08-10T07:00:00Z",
-        "price": 18.79
+        "price": 18.726
       }
     ],
     "price_history_1d": [
@@ -495,13 +495,85 @@
         "price": 18.79
       },
       {
-        "t": "2026-08-10T12:26:12Z",
+        "t": "2026-08-10T12:30:00Z",
+        "price": 18.778
+      },
+      {
+        "t": "2026-08-10T12:35:00Z",
+        "price": 18.77
+      },
+      {
+        "t": "2026-08-10T12:40:00Z",
+        "price": 18.782
+      },
+      {
+        "t": "2026-08-10T12:45:00Z",
+        "price": 18.778
+      },
+      {
+        "t": "2026-08-10T12:50:00Z",
+        "price": 18.744
+      },
+      {
+        "t": "2026-08-10T13:00:00Z",
+        "price": 18.76
+      },
+      {
+        "t": "2026-08-10T13:05:00Z",
+        "price": 18.782
+      },
+      {
+        "t": "2026-08-10T13:10:00Z",
+        "price": 18.792
+      },
+      {
+        "t": "2026-08-10T13:15:00Z",
         "price": 18.79
+      },
+      {
+        "t": "2026-08-10T13:25:00Z",
+        "price": 18.792
+      },
+      {
+        "t": "2026-08-10T13:30:00Z",
+        "price": 18.728
+      },
+      {
+        "t": "2026-08-10T13:35:00Z",
+        "price": 18.71
+      },
+      {
+        "t": "2026-08-10T13:40:00Z",
+        "price": 18.73
+      },
+      {
+        "t": "2026-08-10T13:50:00Z",
+        "price": 18.766
+      },
+      {
+        "t": "2026-08-10T13:54:04Z",
+        "price": 18.726
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "L&G Hydrogen Economy UCITS ETF (HTMW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nSFNOaml3Vm5LQWx3V3NmSzRJTHRjUUQtX1hWdG9vcWtTVUVnbXY0NjNyeGZLV19PM1ZQS2xtdVdPc0FaYkotTmlaWGttREpERl9wUjl3?oc=5",
+        "published_at": "2021-07-23T01:50:44Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      },
       {
         "title": "iShares MSCI India UCITS ETF USD Acc (QDV5.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LOXgyZnpaVzBHamRWZzhrVU9rdHRmSjZQRDRZRm9vdFBHWV9oQVhKTW1FRTNhNFhZR2xTVUZyZF93WHh4MXNPSUpKenBQTEZIa2VrOG9R?oc=5",
@@ -549,6 +621,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 47
+      },
+      {
+        "title": "iShares Gold Producers UCITS ETF USD (Acc) (IS0E.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONHBYX0JJMkpyaXNvVmZDM3ZXNGFrVVNGdURpbUtnb0dtcUNnZ1FsRkVlTUlyVlVKS2ROb2l4X2M1NWIxWXotTGtrTERmNXJQUUk5WVpn?oc=5",
+        "published_at": "2017-05-20T08:20:42Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 9
       },
       {
         "title": "iShares Global Water UCITS ETF USD (Dist) (IQQQ.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
