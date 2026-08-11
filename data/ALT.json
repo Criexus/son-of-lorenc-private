@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.01",
-      "note": "Auto-Update: -1.95% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: -2.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-11T17:47:26Z",
+    "last_update_utc": "2026-08-11T18:44:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.01,
+      "regularMarketPrice": 2.995,
       "previousClose": 3.07,
-      "change": -0.06,
-      "changePercent": -1.95,
-      "regularMarketTime": "2026-08-11T17:47:04Z",
+      "change": -0.075,
+      "changePercent": -2.44,
+      "regularMarketTime": "2026-08-11T18:44:28Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-11T13:30:00Z",
-        "price": 3.01
+        "price": 2.995
       }
     ],
     "price_history_1d": [
@@ -627,11 +627,55 @@
       },
       {
         "t": "2026-08-11T17:45:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-08-11T17:50:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-08-11T17:55:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-08-11T18:00:00Z",
+        "price": 3.01
+      },
+      {
+        "t": "2026-08-11T18:05:00Z",
         "price": 3.015
       },
       {
-        "t": "2026-08-11T17:47:04Z",
-        "price": 3.01
+        "t": "2026-08-11T18:10:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-08-11T18:15:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-08-11T18:20:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-08-11T18:25:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-08-11T18:30:00Z",
+        "price": 2.991
+      },
+      {
+        "t": "2026-08-11T18:35:00Z",
+        "price": 3.0
+      },
+      {
+        "t": "2026-08-11T18:40:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-08-11T18:44:28Z",
+        "price": 2.995
       }
     ],
     "price_history_range": "1mo",
@@ -670,10 +714,26 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - boerse-global.de",
+        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
+        "published_at": "2026-05-31T07:00:00Z",
+        "source": "Börse Global",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5",
         "published_at": "2026-04-23T07:00:00Z",
-        "source": "boerse-global.de",
+        "source": "Börse Global",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -1264,12 +1324,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - boerse-global.de",
+        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "boerse-global.de",
+        "source": "Börse Global",
         "date": "2026-04-23T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5"
       },
