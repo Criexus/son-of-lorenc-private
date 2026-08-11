@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.52",
-      "note": "Auto-Update: 2.18% vs. vorheriger Schlusskurs",
+      "value": "$3.48",
+      "note": "Auto-Update: 1.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-11T16:44:53Z",
+    "last_update_utc": "2026-08-11T17:47:09Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.515,
+      "regularMarketPrice": 3.485,
       "previousClose": 3.44,
-      "change": 0.075,
-      "changePercent": 2.18,
-      "regularMarketTime": "2026-08-11T16:44:36Z",
+      "change": 0.045,
+      "changePercent": 1.31,
+      "regularMarketTime": "2026-08-11T17:46:30Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -391,7 +391,7 @@
       },
       {
         "t": "2026-08-11T13:30:00Z",
-        "price": 3.515
+        "price": 3.485
       }
     ],
     "price_history_1d": [
@@ -552,8 +552,56 @@
         "price": 3.515
       },
       {
-        "t": "2026-08-11T16:44:36Z",
-        "price": 3.515
+        "t": "2026-08-11T16:45:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-08-11T16:50:00Z",
+        "price": 3.51
+      },
+      {
+        "t": "2026-08-11T16:55:00Z",
+        "price": 3.51
+      },
+      {
+        "t": "2026-08-11T17:00:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-08-11T17:05:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-08-11T17:10:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-08-11T17:15:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-08-11T17:20:00Z",
+        "price": 3.505
+      },
+      {
+        "t": "2026-08-11T17:25:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-08-11T17:30:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-08-11T17:35:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-08-11T17:40:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-08-11T17:46:30Z",
+        "price": 3.485
       }
     ],
     "price_history_range": "1mo",
