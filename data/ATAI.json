@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.25",
-      "note": "Auto-Update: 0.91% vs. vorheriger Schlusskurs",
+      "value": "$7.24",
+      "note": "Auto-Update: 0.84% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-11T18:44:10Z",
+    "last_update_utc": "2026-08-11T19:53:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.245,
+      "regularMarketPrice": 7.24,
       "previousClose": 7.18,
-      "change": 0.065,
-      "changePercent": 0.91,
-      "regularMarketTime": "2026-08-11T18:43:55Z",
+      "change": 0.06,
+      "changePercent": 0.84,
+      "regularMarketTime": "2026-08-11T19:52:54Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -412,7 +412,7 @@
       },
       {
         "t": "2026-08-11T13:30:00Z",
-        "price": 7.245
+        "price": 7.24
       }
     ],
     "price_history_1d": [
@@ -669,19 +669,91 @@
         "price": 7.245
       },
       {
-        "t": "2026-08-11T18:43:55Z",
+        "t": "2026-08-11T18:45:00Z",
         "price": 7.245
+      },
+      {
+        "t": "2026-08-11T18:50:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T18:55:00Z",
+        "price": 7.25
+      },
+      {
+        "t": "2026-08-11T19:00:00Z",
+        "price": 7.24
+      },
+      {
+        "t": "2026-08-11T19:05:00Z",
+        "price": 7.25
+      },
+      {
+        "t": "2026-08-11T19:10:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:15:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:20:00Z",
+        "price": 7.25
+      },
+      {
+        "t": "2026-08-11T19:25:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:30:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:35:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:40:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:45:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-11T19:50:00Z",
+        "price": 7.2402
+      },
+      {
+        "t": "2026-08-11T19:52:56Z",
+        "price": 7.2401
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "ATAI Beckley vor Quartalszahlen: Fokus liegt auf Übernahme durch Eli Lilly - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbmJuV2xWcWVqOGl5T3lybXRib1Z6Zlp4R2txMTJFRklrMEMweVhZdUwxWWlqc191WVQwVVlwZGdfZVh2QmZ0V3loVlRKdWhEcnRJMHpjN09zYWViOGtrLXRMRTNicm5zX3hCd1hWSUhZNXJhZ3VvSkctWkR1WE9ZZlF5RGFFQjV1ZTJ3QWl4VWtuelNROFBxNXdEZEhmcXMxSVB6bmlYT1FRbXdPOEZoeGRjSGhzYkFZZEhHUXZXSzVhRFE?oc=5",
+        "published_at": "2026-08-11T14:15:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
         "title": "Atai Life Sciences AKTIE | Aktienkurs & News | A41WEP – boerse.de - boerse.de",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WVS1QVk9TdWRjT2NDc2JrUzRxU19sLXpQUXpmRXZyckE2ZTJKYk1Wd1h6NnZvNmw3bUVTNDBhQXFvMHRpOG9LVlk5Vnc5S3pPRDRuVUNMTDhXV2FWSzNBX05OeVlpQWN2OEpscjF5QlRGQl95?oc=5",
         "published_at": "2026-08-11T06:45:41Z",
         "source": "boerse.de",
-        "query": "ATAI stock news",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -722,6 +794,22 @@
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Atai Beckley Aktie markiert 52-Wochen-Hoch bei 7,22 USD - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPajB5ejhTakJYZjQtMldJcU1ncFViWjctMGgwM1RLNm5UUnlxcnNVX2ZWelAwVlQxRWNZTndFb3R0aEh5bnNPMUxOd3JtZDh2VnRNY3J3MVRlNHdsVlFudklKak1aamxhajFkU0pRWGsybWlCQ1RrYWV2Nll2bExaQ1Q4M0xsTjlrMmlmSnVVeXkwLS0wX2Q0czQ4WEYzV1NDMFI2Q3BLbWxJaE94?oc=5",
+        "published_at": "2026-08-05T19:50:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -825,7 +913,7 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbFNRVlN3dGRfWHJxaU53ZkxfZzBDU1g3Q1VEV0hhMlcwOUpJZ2hPb3NQV09XZkx6UGN3V2xRTGJGNVZnc01TYm8yMmVXNjdlUFZfWVhpdlNyLWZMdXhNZmxONUNWWDNwYW5hUjNCdFA5UU53Zm91cldtTXNUX0pyQmFGY2hoOFMxbG10UnhUcUhBOHAyUllQcjJFZ2J1STZrRWx1cDN0c1dVdmJpNThzR2J5bU8ta2o5NnBKMzFaekpjY29DY3BJ?oc=5",
         "published_at": "2026-07-13T07:00:00Z",
         "source": "Goldesel.de",
-        "query": "atai Beckley clinical trial",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -889,7 +977,7 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa09rY2t5dXBPZWE2bGRXLURpYTZxN0VMeVZKX1I5ZG1OM3o1WnVtR2tfYmlCb2p2UUotRldramo5cjFqS2JkdVNSeWV3ZHV0Y3FXcW5xbDZyaDl1Q0JKRlh2X3ZnSWtKRncxNGhjaDJZVlMzV3U4TDVYbXp1SkJHdzFhRGpjenNDaUFXQ3V0anRzWjFVQVBpNW42Yw?oc=5",
         "published_at": "2026-06-25T07:00:00Z",
         "source": "kapitalmarktexperten.de",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -915,22 +1003,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
-      },
-      {
-        "title": "Atai Beckley Aktie: BPL-003 erhält FDA Breakthrough-Status - stock-world.de",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR2VVekJMbVRhaVBGbExSZ0YwZ1Q1cmRuaHpOa0lGbTI5RmZGeGtjVlRoNTZScURJN3VDOHNDZV9kYjBfVzJZNFFjX1M1QXpfMVA0WXNuTlZvakNmTVNzejBkbVVHdUh3YnJjREp1YmtGMnloZGUzMVg1Zmw4SXZST3llRmdod1dKenlBSEZfaw?oc=5",
-        "published_at": "2026-06-20T07:00:00Z",
-        "source": "stock-world.de",
-        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 22
       },
       {
         "title": "Atai Beckley Aktie: BPL-003 startet Phase-3-Programm ReConnection - Börse Global",
@@ -1125,11 +1197,11 @@
         "relevance_score": 15
       },
       {
-        "title": "ATAI Life Sciences-Aktie steigt nach Fusion mit Beckley Psytech - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSlJuVUpWZmJycnZKT2c5SkZmSGZkbk9LQ3REOHlYdVhyN2FRNUhwdFhralpjZzgzMjB0cEVDT0V5Q29WY0k1aTgwTUVpUDRmdjRoYnRYOXh1OW04cDZjM3lNMkpSam9XTU16REd5UDE3TklOQkNqeVhIZE9vdWZrUWhPWk9GUTBpNnFVT1BhR3lWbkdubFdXTldaaXJvczRKaEJVVkZGbndOZXVnTWszNzZwejluMndZbnJnaXIwTzg?oc=5",
-        "published_at": "2025-06-02T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "title": "Atai Beckley Aktie: Aktienkurs & Charts - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsMEFsRlJYcUNEeld3NER6MVpUMTFwMlRQQ3lkVVl4d0E5M1lBUVpDT2Itd1hLSklyUzgxeDZFZFdNV3pIVEVyMXVsNFJkbWNld2NRd2wteC1QcVBE?oc=5",
+        "published_at": "2026-01-02T09:54:20Z",
+        "source": "Comdirect",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1138,23 +1210,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 12
-      },
-      {
-        "title": "ATAI Life Sciences: Direktor Angermayer kauft Aktien im Wert von 2,52 Millionen US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMnVLRUo4ak94eHhkdWhGQWNYdmlkeFpXWmNnWlRVX0NibHdrM01LdEJZMDZ1c0tqSU9tWUh2dVZtQ1UwNWtScDRSVnlCWFAxWW9FeE1NcFNPUVFmUUdOZW5xVU9xRFhYMjVjemtlWTZwaU12TklEdUlGWm54U2RUb2xhX2JOQ0NSTEZ0SXY1OEo0RFZ0QnZCa2dPLUt6MG1lSk1sUlUwWm1fQ1NSRHQ2RnZCLUE2bGZmM3JCd1NDZXlTYllzVmM3NUJCSHMzNVZSQzNhMkVYLWZmYjJRLTFjelI0MHQ?oc=5",
-        "published_at": "2025-03-24T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
+        "relevance_score": 17
       }
     ],
     "sec_filings": [
@@ -1459,18 +1515,6 @@
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZTZFbU1oNlJyaERPTU5tVEEtbkpqeGZfNGxkbzQxczNnSHZMM3k3ZkE3dGNjQ3V2MVQ4MGxuWGJzbzhFWC1BWTZEcmtFc1c2bUFLV1ZhU21ZUjFMY3NCVlNBZG9BaHZ2eXNRbHNPb1NZb3htMFFyLU81cUxpWFBhWFhjTWEzRnNXU2tVY01Bb2YzZy1seG5XeHRpaw?oc=5"
       },
       {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "Atai Beckley Aktie: BPL-003 erhält FDA Breakthrough-Status - stock-world.de",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "stock-world.de",
-        "date": "2026-06-20T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR2VVekJMbVRhaVBGbExSZ0YwZ1Q1cmRuaHpOa0lGbTI5RmZGeGtjVlRoNTZScURJN3VDOHNDZV9kYjBfVzJZNFFjX1M1QXpfMVA0WXNuTlZvakNmTVNzejBkbVVHdUh3YnJjREp1YmtGMnloZGUzMVg1Zmw4SXZST3llRmdod1dKenlBSEZfaw?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Efficacy of 5% Chitosan Nanoparticle Paste in the Treatment of Recurrent Aphthous Stomatitis",
@@ -1685,6 +1729,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-09"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-07-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-16"
       },
       {
         "type": "SEC Filing",
