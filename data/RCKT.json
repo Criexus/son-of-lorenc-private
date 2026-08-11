@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$3.50",
-      "note": "Auto-Update: 1.89% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 1.74% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-11T19:53:21Z",
+    "last_update_utc": "2026-08-11T20:32:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.505,
+      "regularMarketPrice": 3.5,
       "previousClose": 3.44,
-      "change": 0.065,
-      "changePercent": 1.89,
-      "regularMarketTime": "2026-08-11T19:53:11Z",
+      "change": 0.06,
+      "changePercent": 1.74,
+      "regularMarketTime": "2026-08-11T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -391,7 +391,7 @@
       },
       {
         "t": "2026-08-11T13:30:00Z",
-        "price": 3.505
+        "price": 3.5
       }
     ],
     "price_history_1d": [
@@ -701,11 +701,15 @@
       },
       {
         "t": "2026-08-11T19:50:00Z",
-        "price": 3.5
+        "price": 3.51
       },
       {
-        "t": "2026-08-11T19:53:14Z",
-        "price": 3.51
+        "t": "2026-08-11T19:55:00Z",
+        "price": 3.495
+      },
+      {
+        "t": "2026-08-11T20:00:00Z",
+        "price": 3.5
       }
     ],
     "price_history_range": "1mo",
@@ -760,10 +764,26 @@
         "relevance_score": 23
       },
       {
-        "title": "Rocket Pharmaceuticals, Inc. (RCKT) Aktienkurs, Nachrichten, Kurs und Verlauf - de.finance.yahoo.com",
+        "title": "BofA senkt Kursziel für Rocket Pharmaceuticals auf 32 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMng1b3lKUjVVYW9iR0hydElLQzNFbFktYng1OFkzVnZQaG5jVnRUQ0p0M0NObm5vSnVrcG9TeTlfVENZZGg4SXVONFBxNVNobWxUc3E4aFlTTW9EU1pqVVA4R2h6VGwwUG9jcXI3U1ZhbWtHb09lQlZzUl9fMFNwNWZ0aXdmZjJ4NGR6dDdFc0JxVXNWcmNUZWpXeS1qNEw4Rk4tcE1lNWoxazF1UWZWeHVqOTVJZ0NTbDVVUkFmdnduNGF6d2V2Y3JRWFFPUFptcGkxTWk0LVppdXpsRlJzNA?oc=5",
+        "published_at": "2025-05-27T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT gene therapy FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      },
+      {
+        "title": "Rocket Pharmaceuticals, Inc. (RCKT) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vdnViNXR5QU9keEVYdkI4RHZMdnpxUXVzWUJvMkVRdG9mdTZVdEdNNEJ2SHRtbVZTai0yLUlKcTZPeVRHaVRBWlREc2JGd2ZKU0E?oc=5",
         "published_at": "2018-07-05T04:06:34Z",
-        "source": "de.finance.yahoo.com",
+        "source": "Yahoo Finanzen Deutschland",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
