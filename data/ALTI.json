@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.05",
-      "note": "Auto-Update: 8.87% vs. vorheriger Schlusskurs",
+      "value": "$4.08",
+      "note": "Auto-Update: 9.68% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-11T13:50:46Z",
+    "last_update_utc": "2026-08-11T14:50:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.05,
+      "regularMarketPrice": 4.08,
       "previousClose": 3.72,
-      "change": 0.33,
-      "changePercent": 8.87,
-      "regularMarketTime": "2026-08-11T13:48:18Z",
+      "change": 0.36,
+      "changePercent": 9.68,
+      "regularMarketTime": "2026-08-11T14:45:39Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-08-11T13:30:00Z",
-        "price": 4.05
+        "price": 4.08
       }
     ],
     "price_history_1d": [
@@ -339,13 +339,66 @@
         "price": 4.05
       },
       {
-        "t": "2026-08-11T13:48:18Z",
+        "t": "2026-08-11T13:45:00Z",
         "price": 4.05
+      },
+      {
+        "t": "2026-08-11T13:50:00Z",
+        "price": 3.9757
+      },
+      {
+        "t": "2026-08-11T14:00:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-11T14:05:00Z",
+        "price": 4.01
+      },
+      {
+        "t": "2026-08-11T14:10:00Z",
+        "price": 4.145
+      },
+      {
+        "t": "2026-08-11T14:15:00Z",
+        "price": 4.15
+      },
+      {
+        "t": "2026-08-11T14:20:00Z",
+        "price": 4.085
+      },
+      {
+        "t": "2026-08-11T14:25:00Z",
+        "price": 4.095
+      },
+      {
+        "t": "2026-08-11T14:30:00Z",
+        "price": 4.04
+      },
+      {
+        "t": "2026-08-11T14:45:39Z",
+        "price": 4.08
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Earnings Call: AlTi Global verfehlt Q2-Prognosen – Aktie gibt nach - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTWRtZUxQd1dKUTRiLVBpbXZSLVRXeG40YldSLUJjbW0zZkRVZ2F5enplZ3dNM2FiLU80d2RMWGRDNVdRZGc3VzdNckhkNXExWUt6OVV5UkVVbmpVZkg0NGJEbjRsNUMyWFFnM3ZCaHl6OGs2X2NoR1d5dXVKNk41NUZYWGVMQ0xReXdGQmlFTkVVcF9zNXBpMjd6S2ZsZUdEdTR3TU12XzhFZzBHSi1Yb3plQ1RWdU1xa0E?oc=5",
+        "published_at": "2026-08-10T21:48:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALTI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 7
+      }
+    ],
     "sec_filings": [
       {
         "form": "10-Q",
@@ -810,6 +863,18 @@
         "date": "2026-08-10"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Earnings Call: AlTi Global verfehlt Q2-Prognosen – Aktie gibt nach - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-08-10T21:48:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTWRtZUxQd1dKUTRiLVBpbXZSLVRXeG40YldSLUJjbW0zZkRVZ2F5enplZ3dNM2FiLU80d2RMWGRDNVdRZGc3VzdNckhkNXExWUt6OVV5UkVVbmpVZkg0NGJEbjRsNUMyWFFnM3ZCaHl6OGs2X2NoR1d5dXVKNk41NUZYWGVMQ0xReXdGQmlFTkVVcF9zNXBpMjd6S2ZsZUdEdTR3TU12XzhFZzBHSi1Yb3plQ1RWdU1xa0E?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Mercaptopurine for the Treatment of Hereditary Leiomyomatosis and Renal Cell Carcinoma (HLRCC), Uterine/Cutaneous Leiomyomas, and Kidney Cancer",
@@ -840,14 +905,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-29"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-18",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-06-18"
       },
       {
         "type": "SEC Filing",
