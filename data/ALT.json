@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.08",
-      "note": "Auto-Update: 1.49% vs. vorheriger Schlusskurs",
+      "value": "$2.96",
+      "note": "Auto-Update: -2.15% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-12T18:13:21Z",
+    "last_update_utc": "2026-08-12T19:33:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.075,
+      "regularMarketPrice": 2.965,
       "previousClose": 3.03,
-      "change": 0.045,
-      "changePercent": 1.49,
-      "regularMarketTime": "2026-08-12T18:13:07Z",
+      "change": -0.065,
+      "changePercent": -2.15,
+      "regularMarketTime": "2026-08-12T19:33:05Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-08-12T13:30:00Z",
-        "price": 3.075
+        "price": 2.965
       }
     ],
     "price_history_1d": [
@@ -651,11 +651,75 @@
       },
       {
         "t": "2026-08-12T18:10:00Z",
+        "price": 3.0768
+      },
+      {
+        "t": "2026-08-12T18:15:00Z",
         "price": 3.075
       },
       {
-        "t": "2026-08-12T18:13:07Z",
-        "price": 3.075
+        "t": "2026-08-12T18:20:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-08-12T18:25:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-08-12T18:30:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-08-12T18:35:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-08-12T18:40:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-08-12T18:45:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-08-12T18:50:00Z",
+        "price": 3.035
+      },
+      {
+        "t": "2026-08-12T18:55:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-08-12T19:00:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-08-12T19:05:00Z",
+        "price": 3.025
+      },
+      {
+        "t": "2026-08-12T19:10:00Z",
+        "price": 3.015
+      },
+      {
+        "t": "2026-08-12T19:15:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-08-12T19:20:00Z",
+        "price": 2.97
+      },
+      {
+        "t": "2026-08-12T19:25:00Z",
+        "price": 2.9699
+      },
+      {
+        "t": "2026-08-12T19:30:00Z",
+        "price": 2.9637
+      },
+      {
+        "t": "2026-08-12T19:33:05Z",
+        "price": 2.965
       }
     ],
     "price_history_range": "1mo",
@@ -676,22 +740,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "H.C. Wainwright bekräftigt Kaufempfehlung für Altimmune Aktie nach Studienerfolg - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNlRnZG01Y2RxTXVPREY0cUR2WWZsTVpZT3E2UXR6TnE5WlVmSnlhZFQwSnJXT0JpRThwa0RWNHRHalFWNDdlbWJuY3FKOVVxaEJ3X1Jnb1Qxa05JV3FuLVNzb3JTQXpaOW5kV3pqa1FYVjBWTExucjF3cnRlQml4WTZQeUxwX05GSHM4OTROclVIYzRfQTFJVV9GZVZBUV9KVHpQTXZrcl9TV2FzUE5aWjB5V0E5V3M5NjFZbG1BRWs4TFBFT01BUE5pNTFuUE9YS3ZN?oc=5",
-        "published_at": "2026-07-29T11:41:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - Börse Express",
@@ -742,10 +790,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - goldesel.de",
+        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFFWUFdJcjdXbUdnaXJYQl9aV1VHTF9rZTJkOU1BdnhXX3NWQ0VfVFRNbzh0TUYzLUF5X3diM3V2RmxhNndKeTFHelBESGpxNU5KaHYxbDVORnlpWU1Oc1FMNktvc0hKNmE2Nkk2WGxGZUdEQlBVSnc3MWZsSXhpTkhLeEVLQ1FNVFJRRWhUbmhDZDBzT2g2Ni1WS3FYQ1Bvckdr?oc=5",
         "published_at": "2026-03-05T08:00:00Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "Altimmune ALT pemvidutide stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -758,10 +806,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - goldesel.de",
+        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
         "published_at": "2026-01-21T00:01:24Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -854,10 +902,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Technische Analyse von Altimmune, Inc. (NASDAQ: ALT) - de.tradingview.com",
+        "title": "Technische Analyse von Altimmune, Inc. (NASDAQ: ALT) - TradingView",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xb1o2d2EwUWFqMHBDX29zRnRjaW1IaUxsWllSRkhneXJvcGpaSnI4TEFkMHZxWjFrTThNeWNTRlVKemxzUG9QNHUxckhrZFVJWVZsRnQ5UmZ1MVM4WkcyV2Ffb2NlWk9U?oc=5",
         "published_at": "2018-05-19T08:56:00Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1288,12 +1336,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - goldesel.de",
+        "title": "Altimmune meldet Q4-2025 EPS 0,27 USD; Pemvidutide-Phase-3 in MASH naht - Goldesel.de",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "date": "2026-03-05T08:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFFWUFdJcjdXbUdnaXJYQl9aV1VHTF9rZTJkOU1BdnhXX3NWQ0VfVFRNbzh0TUYzLUF5X3diM3V2RmxhNndKeTFHelBESGpxNU5KaHYxbDVORnlpWU1Oc1FMNktvc0hKNmE2Nkk2WGxGZUdEQlBVSnc3MWZsSXhpTkhLeEVLQ1FNVFJRRWhUbmhDZDBzT2g2Ni1WS3FYQ1Bvckdr?oc=5"
       },

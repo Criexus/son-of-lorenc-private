@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.93",
-      "note": "Auto-Update: 2.58% vs. vorheriger Schlusskurs",
+      "value": "$14.13",
+      "note": "Auto-Update: 4.09% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-12T18:13:13Z",
+    "last_update_utc": "2026-08-12T19:33:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.93,
+      "regularMarketPrice": 14.135,
       "previousClose": 13.58,
-      "change": 0.35,
-      "changePercent": 2.58,
-      "regularMarketTime": "2026-08-12T18:12:43Z",
+      "change": 0.555,
+      "changePercent": 4.09,
+      "regularMarketTime": "2026-08-12T19:32:30Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-08-12T13:30:00Z",
-        "price": 13.93
+        "price": 14.135
       }
     ],
     "price_history_1d": [
@@ -651,21 +651,101 @@
       },
       {
         "t": "2026-08-12T18:10:00Z",
-        "price": 13.935
+        "price": 13.9523
       },
       {
-        "t": "2026-08-12T18:12:43Z",
-        "price": 13.93
+        "t": "2026-08-12T18:15:00Z",
+        "price": 13.9866
+      },
+      {
+        "t": "2026-08-12T18:20:00Z",
+        "price": 14.04
+      },
+      {
+        "t": "2026-08-12T18:25:00Z",
+        "price": 14.0593
+      },
+      {
+        "t": "2026-08-12T18:30:00Z",
+        "price": 14.03
+      },
+      {
+        "t": "2026-08-12T18:35:00Z",
+        "price": 14.11
+      },
+      {
+        "t": "2026-08-12T18:40:00Z",
+        "price": 14.165
+      },
+      {
+        "t": "2026-08-12T18:45:00Z",
+        "price": 14.1799
+      },
+      {
+        "t": "2026-08-12T18:50:00Z",
+        "price": 14.185
+      },
+      {
+        "t": "2026-08-12T18:55:00Z",
+        "price": 14.19
+      },
+      {
+        "t": "2026-08-12T19:00:00Z",
+        "price": 14.195
+      },
+      {
+        "t": "2026-08-12T19:05:00Z",
+        "price": 14.195
+      },
+      {
+        "t": "2026-08-12T19:10:00Z",
+        "price": 14.23
+      },
+      {
+        "t": "2026-08-12T19:15:00Z",
+        "price": 14.25
+      },
+      {
+        "t": "2026-08-12T19:20:00Z",
+        "price": 14.17
+      },
+      {
+        "t": "2026-08-12T19:25:00Z",
+        "price": 14.14
+      },
+      {
+        "t": "2026-08-12T19:30:00Z",
+        "price": 14.135
+      },
+      {
+        "t": "2026-08-12T19:32:30Z",
+        "price": 14.135
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Compass Pathfinder Limited: Compass Pathways Working with U.S. Department of Veterans Affairs for Investigational Study of Psilocybin - FinanzNachrichten.de",
+        "title": "COMPASS Pathways auf Konferenz von Canaccord Genuity: Markteinführung von COMP360 im Fokus - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX2tVVmR6WXlJX2t3WVJKaG9uNXR4MmlOc0M2XzFvckxRVDcxVlJyeHgtRFJJSk9tM0VidTlZWmZDcDNoNmVWRjZzZDkxdXBoSGxoM0NDSV9wUU9DRjRhbHJ5X2xTbjFiaXMwT0k5d2JzYmlMTFR4cjJHZ1NiRXR0SnFZdWRxdUduX2ZnUUpvZkNBWlZIU1ROTndWdzJMdHV4WlN6cmhtQjJuVDdnazBvQWxXYWZkTXpXTnV6YUdyVWpUWlRsdUoxU1RWWFI3OVFxUDJySTNKREgydEM3?oc=5",
+        "published_at": "2026-08-12T13:25:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 21
+      },
+      {
+        "title": "Compass Pathfinder Limited: Compass Pathways Working with U.S. Department of Veterans Affairs for Investigational Study of Psilocybin - finanznachrichten.de",
         "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOUXVCVHFRU0ZadHVLMFlZQjBFZU5lYmlrV2s0S05iSW5uZWhmWkstVU9CWlo1SHgxZnQwdFdoeFhsR1RUNmdOVXdGWEU4M2NXRjd6STZ3TGhtSERWd1hQSlNuYzRraUltVnozbDNzMF9KZWNXVEd5a28tdXFaRmdSYWI4VFFaU0VUNWp0eHVSbWQzUkl2ZERhdTZiWjg5ZW00OUptS1g2OS0xckRsWWE1elpWdWo4YVlkYlg2dUJHTllMeVZQVE9zXzV1V1FNWDRBLTZ2Y256cEdYbGlOMXVxYzkzeDBiRmtlZ2NIOV9FbEdHUW1mX3dUWmY2eUdyUUwwcGRaX05icm5SNHdnT0dUZUxxdEpNcXliRjhqYWNyNEF1SjdfMy10SQ?oc=5",
         "published_at": "2026-08-06T10:36:00Z",
-        "source": "FinanzNachrichten.de",
+        "source": "finanznachrichten.de",
         "query": "COMPASS Pathways clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -710,10 +790,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways Q2 GJ 2026: Warrant-Neubewertung weitet Verlust aus - tradingkey.com",
+        "title": "Compass Pathways Q2 GJ 2026: Warrant-Neubewertung weitet Verlust aus - TradingKey",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YY1pVWUlESVkweGlQamFDaVFhV3BjN0xDR0lkejNldmVvZGw5UnFjRTVMbVUtcVRhZzNnazRKY0ZIMkh6eEJ1Vllmd05oWlprOWtEYVdRRlkwbVVBbkxCYWgyMm1aNEJnUlczcERtb01KQQ?oc=5",
         "published_at": "2026-08-05T10:51:06Z",
-        "source": "tradingkey.com",
+        "source": "TradingKey",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -726,10 +806,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathfinder Limited: Compass Pathways to Announce Second Quarter and First Half 2026 Financial Results on August 5, 2026 - FinanzNachrichten.de",
+        "title": "Compass Pathfinder Limited: Compass Pathways to Announce Second Quarter and First Half 2026 Financial Results on August 5, 2026 - finanznachrichten.de",
         "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOTk1YV3BXaWx1dnQtY0tOOUdLVXgxVUV2ZGdsSVcwS1RwXzZNc0xKQlFUazJzQ1llaFFoN3NzQURmZmNVZnhDR0ZJSi1XeHYyYTE3V09MNlFpZDFQYS0yYXFJTXBrMHBsYXNSTzVHclFId1hCYVp4c2VfSFJ5eGxDd3poZlBiY21SbWU3QWcxWlNDQVRNeHBaSTdGZDZXSV9oYzZzQ1JTbkZfaTRXX3puSGhTVlZzOWhmbFpnR3F3Z2xER0FLandVUnhYVFo0TDRMbFBtYWF5MkhTc1ByckdickpjeGp5bm0zdVN2YTZwS0RaQVZndkcxOHpqekJYYVkwYXlQS2xkWHVsN0lhcW5CNG9sLUN3SDlqYk5yNGZMNTA?oc=5",
         "published_at": "2026-07-29T10:36:00Z",
-        "source": "FinanzNachrichten.de",
+        "source": "finanznachrichten.de",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -742,10 +822,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways gibt am 5. August 2026 die Finanzergebnisse für das zweite Quartal und das erste Halbjahr 2026 bekannt - Business Wire",
+        "title": "Compass Pathways gibt am 5. August 2026 die Finanzergebnisse für das zweite Quartal und das erste Halbjahr 2026 bekannt - businesswire.com",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IaHZUYTdKRGtqYl81OUd0SHhnRzctdWd5MDdyVmhUWXl4NDVacHhEclRscGxSOEJjd0tXd3R0SHowQ2hwNmhBNkxLOG9fU0c5azFTT3p2a0s5V0dEajMzSTJ6Q2VNODg?oc=5",
         "published_at": "2026-07-29T07:00:00Z",
-        "source": "Business Wire",
+        "source": "businesswire.com",
         "query": "COMPASS Pathways clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -774,10 +854,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways: Evercore stuft nach COMP006-Daten auf Outperform – Z - goldesel.de",
+        "title": "Compass Pathways: Evercore stuft nach COMP006-Daten auf Outperform – Z - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY1QwbExtakZqUDcyTzY5MGMtUUlPSjhKYlFFbWwxc0tJbDF1ODBmZmN4bEotZUhXc1llV1dxaUJNVVZSU01ZRVpzM0UtTXZ5bDdsZDNvZ2RrYUMtQ0syNjlSZDdiMUlrRUJnTWxySUJXYnBmcUl6MXB0dlZySnBLaDlIZzZ2U2owaWJ3eHNtTUFIOEl6dERnMmMwOHRERFlWcE0za3ZXV2Y0V3Z5VU9CTkloUTRJUWNtLXI4Nm1qUGI3Zw?oc=5",
         "published_at": "2026-07-08T07:00:00Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -795,22 +875,6 @@
         "published_at": "2026-07-07T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: Aktie fällt trotz positiver Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMklpWkdyQVdFaDZKUjU5V2p4V2RiVldBUlZJa0ZOS1Jpa0p2cWxzT2w5OVl3ZDZuc1Q4b1VyNGtGMDkxNERzVmprcjJUcFk3MTlZc21XZVZmSm5XZlpNYmlfS09XX2V0TnhnTDdWdjhmWlBzX21SY29KRFNjbDlMOWVhTnQxbDREZjZEb2tIQXd5N2J6bUMxaVFqRmJBRTVDNmdVV3E0TExIUzJmQTdUTnFXNC1RalIzV2c?oc=5",
-        "published_at": "2026-07-07T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -998,10 +1062,26 @@
         "relevance_score": 16
       },
       {
-        "title": "Technische Analyse von COMPASS Pathways Plc - American Depository Shares (NASDAQ: CMPS) - de.tradingview.com",
+        "title": "Compass Pathways Aktie: Strategische Offensive - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0Q2MkZrazFRZnl0dktXWFBSS0ZqT0hQa1g4M2ZIal9KTjl2TmJuU0lubTlKN09EMkEtcVY2TWcyaF9BSVRDalBfNkpoeXdHTTFESjJaYUtqaEZybEwzaDdfcUVhcVVPOFBnbmVKemhPTWNQSC1YQ3JmMG1TTWRYMkZzYXJKNW13QzlSQ3RTa0dXeC1feDVjR3NlUUZMUQ?oc=5",
+        "published_at": "2026-04-16T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Technische Analyse von COMPASS Pathways Plc - American Depository Shares (NASDAQ: CMPS) - TradingView",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nTzFySFhqNXROa0czRkRDSW9Cc3JIR3dmcDdYTG9zNjQwOGxNblZZU1lsTW9ld1hFeHRtdEM4U2FoYkdkTVAtNWR0aUNtM0xBV1NUVHJxTzFJWElJdXFMVUhhbUwxRXY4Q0E?oc=5",
         "published_at": "2020-10-11T02:11:17Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1516,12 +1596,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Compass Pathfinder Limited: Compass Pathways to Announce Second Quarter and First Half 2026 Financial Results on August 5, 2026 - FinanzNachrichten.de",
+        "title": "Compass Pathfinder Limited: Compass Pathways to Announce Second Quarter and First Half 2026 Financial Results on August 5, 2026 - finanznachrichten.de",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "FinanzNachrichten.de",
+        "source": "finanznachrichten.de",
         "date": "2026-07-29T10:36:00Z",
         "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOTk1YV3BXaWx1dnQtY0tOOUdLVXgxVUV2ZGdsSVcwS1RwXzZNc0xKQlFUazJzQ1llaFFoN3NzQURmZmNVZnhDR0ZJSi1XeHYyYTE3V09MNlFpZDFQYS0yYXFJTXBrMHBsYXNSTzVHclFId1hCYVp4c2VfSFJ5eGxDd3poZlBiY21SbWU3QWcxWlNDQVRNeHBaSTdGZDZXSV9oYzZzQ1JTbkZfaTRXX3puSGhTVlZzOWhmbFpnR3F3Z2xER0FLandVUnhYVFo0TDRMbFBtYWF5MkhTc1ByckdickpjeGp5bm0zdVN2YTZwS0RaQVZndkcxOHpqekJYYVkwYXlQS2xkWHVsN0lhcW5CNG9sLUN3SDlqYk5yNGZMNTA?oc=5"
       },
@@ -1544,12 +1624,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Compass Pathways Q2 GJ 2026: Warrant-Neubewertung weitet Verlust aus - tradingkey.com",
+        "title": "Compass Pathways Q2 GJ 2026: Warrant-Neubewertung weitet Verlust aus - TradingKey",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "tradingkey.com",
+        "source": "TradingKey",
         "date": "2026-08-05T10:51:06Z",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YY1pVWUlESVkweGlQamFDaVFhV3BjN0xDR0lkejNldmVvZGw5UnFjRTVMbVUtcVRhZzNnazRKY0ZIMkh6eEJ1Vllmd05oWlprOWtEYVdRRlkwbVVBbkxCYWgyMm1aNEJnUlczcERtb01KQQ?oc=5"
       },
