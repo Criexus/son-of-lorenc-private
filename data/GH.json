@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$163.34",
-      "note": "Auto-Update: 0.1% vs. vorheriger Schlusskurs",
+      "value": "$165.11",
+      "note": "Auto-Update: 1.18% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-12T19:33:39Z",
+    "last_update_utc": "2026-08-12T20:31:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 163.34,
+      "regularMarketPrice": 165.11,
       "previousClose": 163.18,
-      "change": 0.16,
-      "changePercent": 0.1,
-      "regularMarketTime": "2026-08-12T19:32:52Z",
+      "change": 1.93,
+      "changePercent": 1.18,
+      "regularMarketTime": "2026-08-12T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -338,7 +338,7 @@
       },
       {
         "t": "2026-08-12T13:30:00Z",
-        "price": 163.34
+        "price": 165.11
       }
     ],
     "price_history_1d": [
@@ -632,11 +632,31 @@
       },
       {
         "t": "2026-08-12T19:30:00Z",
-        "price": 163.16
+        "price": 163.345
       },
       {
-        "t": "2026-08-12T19:32:52Z",
-        "price": 163.34
+        "t": "2026-08-12T19:35:00Z",
+        "price": 163.24
+      },
+      {
+        "t": "2026-08-12T19:40:00Z",
+        "price": 164.17
+      },
+      {
+        "t": "2026-08-12T19:45:00Z",
+        "price": 164.865
+      },
+      {
+        "t": "2026-08-12T19:50:00Z",
+        "price": 165.09
+      },
+      {
+        "t": "2026-08-12T19:55:00Z",
+        "price": 165.02
+      },
+      {
+        "t": "2026-08-12T20:00:00Z",
+        "price": 165.11
       }
     ],
     "price_history_range": "1mo",
@@ -677,7 +697,7 @@
       {
         "title": "BTIG kürt Guardant Health zum Top-Favoriten im Gesundheitssektor - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSmhfM1czWU13bmFoc3NmRmZWMGpGQS1ZR2JRNmNpcVZpbFdVOWs0UnhncW9vVEtSUWNFcF81cGJnY3JTZEwxUlVuZ1VKbUhiZzZhRVVVWFNtNEN5YkxRd1J2SXZoQno5UUFMR3ZZOVppNVFORmdidm9vM0RaMkNJYlpfNjhFOWlxR0xpSXIwUUx6TTFvdVAtWWkxeGlJVHhVbXJtQnRJS0RTd194U3l4aFBkNVEzTjF4TUN5bXVtdldMZw?oc=5",
-        "published_at": "2026-08-03T15:07:00Z",
+        "published_at": "2026-08-03T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Guardant360\" Reveal Guardant Health news",
         "source_type": "google_news_rss",
@@ -804,6 +824,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-08-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000839/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-08-11",
@@ -936,13 +963,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000187161526000014/xslF345X06/wk-form4_1783030282.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-07-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000197717926000014/xslF345X06/wk-form4_1783030248.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -982,14 +1002,6 @@
         "source": "Investing.com",
         "date": "2026-06-11T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYmpxMVFWMkhRY0thVFVfR0VQT0FBTHJBazRGQ0dQZlZJMFZnSzg3c1RpZDI3eG9zc3NGNk54dC1DcWxfVWl1N0lXcDJSX3F2dkM4bl9VdUFaRHFteG5BT1ZsV2l5aS03c2VZVXJIRUM3VzB5UHctYWxhbEdMQzdoM0h2NWFrZXB2YThYUTZKc0ctdUFjRmVwSkR5RmllLW5TM0NjWXV1XzBsX082MGNzekxGSU1pN251cFI1bzRBMDJpX0tMUFU2ckxReC1vNlJF?oc=5"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-07-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-02"
       },
       {
         "type": "SEC Filing",
@@ -1118,6 +1130,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-11"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-08-12",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-12"
       }
     ],
     "queries_used": [
