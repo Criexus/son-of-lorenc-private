@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.28",
-      "note": "Auto-Update: 3.5% vs. vorheriger Schlusskurs",
+      "value": "$3.30",
+      "note": "Auto-Update: 4.1% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-12T17:25:52Z",
+    "last_update_utc": "2026-08-12T18:14:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.281,
+      "regularMarketPrice": 3.3,
       "previousClose": 3.17,
-      "change": 0.111,
-      "changePercent": 3.5,
-      "regularMarketTime": "2026-08-12T17:25:38Z",
+      "change": 0.13,
+      "changePercent": 4.1,
+      "regularMarketTime": "2026-08-12T18:13:43Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -403,7 +403,7 @@
       },
       {
         "t": "2026-08-12T13:30:00Z",
-        "price": 3.285
+        "price": 3.3
       }
     ],
     "price_history_1d": [
@@ -596,18 +596,74 @@
         "price": 3.285
       },
       {
-        "t": "2026-08-12T17:25:47Z",
-        "price": 3.285
+        "t": "2026-08-12T17:25:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-08-12T17:30:00Z",
+        "price": 3.2901
+      },
+      {
+        "t": "2026-08-12T17:35:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-08-12T17:40:00Z",
+        "price": 3.295
+      },
+      {
+        "t": "2026-08-12T17:45:00Z",
+        "price": 3.2901
+      },
+      {
+        "t": "2026-08-12T17:50:00Z",
+        "price": 3.295
+      },
+      {
+        "t": "2026-08-12T17:55:00Z",
+        "price": 3.295
+      },
+      {
+        "t": "2026-08-12T18:00:00Z",
+        "price": 3.2999
+      },
+      {
+        "t": "2026-08-12T18:05:00Z",
+        "price": 3.295
+      },
+      {
+        "t": "2026-08-12T18:10:00Z",
+        "price": 3.2941
+      },
+      {
+        "t": "2026-08-12T18:13:43Z",
+        "price": 3.3
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "RXRX|Recursion Pharmaceuticals Inc|Kurs:3.350|Änderung %:+0.060 - TradingKey",
+        "title": "Recursion auf der Bank of America SMID Cap Virtual Conference: Wetten auf KI - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcS05UC1kLVJaZFZzeEUtSTBSSGdITUNsQTFsaXhUcjk1VW5xTlFyRFdaZS1tVlktRU5UM254Snl1SzNNTWF6aU1yQVVudGRObERVd1hlRzFDLXZ5UUxMeUdrOHhYTXlpd0dQRWdPdGE4UmkyalV3RWFzel9MQUlGOWpGQjFxQVVTa0ZfU05qS3BpemtueTZUb0Y3YlRSX1VaTzhHYXpENHBYQlh1a21qQWZ5c0xzejhzOWI4QWVfTDNCX3ZYNGJYRkN3?oc=5",
+        "published_at": "2026-08-11T16:23:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "relevance_score": 7
+      },
+      {
+        "title": "RXRX|Recursion Pharmaceuticals Inc|Kurs:3.350|Änderung %:+0.060 - tradingkey.com",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4WFU5RW5qMU9BMzVZZ21IVmFSYUYwTEZpRzhJX2pteU5kN0JydV94ZTF1ZG9zUERqU0tkS1Znb2hSQmFFcGI0N0ZSbjZ4Nlpka3FxQVZkNWNpbEQ0V05Qc0M5anRzbnctemxHSWU0TVZwZw?oc=5",
         "published_at": "2026-07-24T12:17:27Z",
-        "source": "TradingKey",
+        "source": "tradingkey.com",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -636,10 +692,10 @@
         "relevance_score": 19
       },
       {
-        "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
+        "title": "RXRX Prognose — Kursziel für 2027 - de.tradingview.com",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
         "published_at": "2026-06-25T12:31:22Z",
-        "source": "TradingView",
+        "source": "de.tradingview.com",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -716,10 +772,10 @@
         "relevance_score": 19
       },
       {
-        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
+        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - de.tradingview.com",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-16T06:05:44Z",
-        "source": "TradingView",
+        "source": "de.tradingview.com",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1190,6 +1246,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-10"
+      },
+      {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
+        "title": "Recursion auf der Bank of America SMID Cap Virtual Conference: Wetten auf KI - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-08-11T16:23:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcS05UC1kLVJaZFZzeEUtSTBSSGdITUNsQTFsaXhUcjk1VW5xTlFyRFdaZS1tVlktRU5UM254Snl1SzNNTWF6aU1yQVVudGRObERVd1hlRzFDLXZ5UUxMeUdrOHhYTXlpd0dQRWdPdGE4UmkyalV3RWFzel9MQUlGOWpGQjFxQVVTa0ZfU05qS3BpemtueTZUb0Y3YlRSX1VaTzhHYXpENHBYQlh1a21qQWZ5c0xzejhzOWI4QWVfTDNCX3ZYNGJYRkN3?oc=5"
       },
       {
         "type": "SEC Filing",
