@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$7.22",
-      "note": "Auto-Update: 0.04% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 0.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-12T15:26:04Z",
+    "last_update_utc": "2026-08-12T16:23:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.223,
+      "regularMarketPrice": 7.22,
       "previousClose": 7.22,
-      "change": 0.003,
-      "changePercent": 0.04,
-      "regularMarketTime": "2026-08-12T15:25:45Z",
+      "change": 0.0,
+      "changePercent": 0.0,
+      "regularMarketTime": "2026-08-12T16:22:55Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -416,7 +416,7 @@
       },
       {
         "t": "2026-08-12T13:30:00Z",
-        "price": 7.2231
+        "price": 7.22
       }
     ],
     "price_history_1d": [
@@ -513,8 +513,56 @@
         "price": 7.2241
       },
       {
-        "t": "2026-08-12T15:25:45Z",
-        "price": 7.2231
+        "t": "2026-08-12T15:25:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T15:30:00Z",
+        "price": 7.225
+      },
+      {
+        "t": "2026-08-12T15:35:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T15:40:00Z",
+        "price": 7.225
+      },
+      {
+        "t": "2026-08-12T15:45:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T15:50:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T15:55:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T16:00:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T16:05:00Z",
+        "price": 7.2201
+      },
+      {
+        "t": "2026-08-12T16:10:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T16:15:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T16:20:00Z",
+        "price": 7.22
+      },
+      {
+        "t": "2026-08-12T16:22:55Z",
+        "price": 7.22
       }
     ],
     "price_history_range": "1mo",
@@ -525,7 +573,7 @@
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WVS1QVk9TdWRjT2NDc2JrUzRxU19sLXpQUXpmRXZyckE2ZTJKYk1Wd1h6NnZvNmw3bUVTNDBhQXFvMHRpOG9LVlk5Vnc5S3pPRDRuVUNMTDhXV2FWSzNBX05OeVlpQWN2OEpscjF5QlRGQl95?oc=5",
         "published_at": "2026-08-12T00:29:07Z",
         "source": "boerse.de",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "query": "ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -745,26 +793,10 @@
         "relevance_score": 15
       },
       {
-        "title": "Lillys Psychedelika-Wette: Eli Lilly greift nach AtaiBeckley - Aktie explodiert um 66 Prozent - FinanzNachrichten.de",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdkViZDZkbkZ5UjhXSFR6ejNHMXZXc3ZXeDF3SnlNYzBjQU5ycnpBNXRGMUUtWHdpbW5DZDRoMlhjVE1mQmxfRHMxSU5qczhYeXNValcwbDN5UUdIcGFkSG9fOWp1NjZIWFh6UzNBM25TSDNORnNqOXRWQk54WUhfSTlqbVJ0bm5zMnhHbU94RlpQYXNWVXJoYkhFU2w0RjNHUVAxSHJtSHdxZTJpZ2xZa3IxMTMtQ1RaZjBnQ0pGamh6V1N2SWZORGpUVi1VTDlvMkt0VnFicFk5dFZ4OU9vYk9jWmF3VUhtRFNQNmRVZzBndw?oc=5",
-        "published_at": "2026-07-16T07:00:00Z",
-        "source": "FinanzNachrichten.de",
-        "query": "ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
-      },
-      {
-        "title": "VA-HHS stärkt Psychedelika-Studien: AtaiBeckley rutscht nach News ins Minus – Anleger müssen prüfen - goldesel.de",
+        "title": "VA-HHS stärkt Psychedelika-Studien: AtaiBeckley rutscht nach News ins Minus – Anleger müssen prüfen - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbFNRVlN3dGRfWHJxaU53ZkxfZzBDU1g3Q1VEV0hhMlcwOUpJZ2hPb3NQV09XZkx6UGN3V2xRTGJGNVZnc01TYm8yMmVXNjdlUFZfWVhpdlNyLWZMdXhNZmxONUNWWDNwYW5hUjNCdFA5UU53Zm91cldtTXNUX0pyQmFGY2hoOFMxbG10UnhUcUhBOHAyUllQcjJFZ2J1STZrRWx1cDN0c1dVdmJpNThzR2J5bU8ta2o5NnBKMzFaekpjY29DY3BJ?oc=5",
         "published_at": "2026-07-13T07:00:00Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -985,10 +1017,10 @@
         "relevance_score": 14
       },
       {
-        "title": "Atai Beckley N.V. Aktie Kurs & Chart A41WEP - goldesel.de",
+        "title": "Atai Beckley N.V. Aktie Kurs & Chart A41WEP - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fajBrWnJwWmJmamU5aVFHd2RzbHlUTGFpYmRhOWFwUXpXREppcFhOSWs1TmFXc0VCUlVvVHctRVBfYWFUalN4dFpOUXUzRnJtbUdz?oc=5",
         "published_at": "2026-03-27T06:13:52Z",
-        "source": "goldesel.de",
+        "source": "Goldesel.de",
         "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -999,6 +1031,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "AtaiBeckley treibt BPL-003 in Phase 3 voran nach FDA-Treffen – Cash-Ru - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX2FMRUxOWUlXUHlRTkRXY0xPZ01Va2VQeTU5OUlQeUFWcncwaGkydG1fT2J1ODk5WW1NWV9QOTRQZURqU3Z5OU9nSjB1SUZvekRKelB4cmJLcmFKd1lYUHUtM0trbWoyUzdIdWc4OFRBWVJlb1FVcWs4MEdlUGFJd3EzYlprRHcyVXlRTUJxMkFNbFFXMnZJcV9iTmlsSkxWaXBXbndTN3hNUGdCN0NWOGRLaw?oc=5",
+        "published_at": "2026-03-10T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 19
       }
     ],
     "sec_filings": [
@@ -1267,6 +1315,18 @@
     ],
     "detected_triggers": [
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "AtaiBeckley treibt BPL-003 in Phase 3 voran nach FDA-Treffen – Cash-Ru - Goldesel.de",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Goldesel.de",
+        "date": "2026-03-10T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX2FMRUxOWUlXUHlRTkRXY0xPZ01Va2VQeTU5OUlQeUFWcncwaGkydG1fT2J1ODk5WW1NWV9QOTRQZURqU3Z5OU9nSjB1SUZvekRKelB4cmJLcmFKd1lYUHUtM0trbWoyUzdIdWc4OFRBWVJlb1FVcWs4MEdlUGFJd3EzYlprRHcyVXlRTUJxMkFNbFFXMnZJcV9iTmlsSkxWaXBXbndTN3hNUGdCN0NWOGRLaw?oc=5"
+      },
+      {
         "type": "Studienphase / Readout",
         "level": "high",
         "title": "AtaiBeckley: BPL-003 Phase 3 im Q2 2026 - Börse Express",
@@ -1517,14 +1577,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-09"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "DEFA14A · 2026-07-16",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-16"
       },
       {
         "type": "SEC Filing",
