@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.30",
-      "note": "Auto-Update: 4.1% vs. vorheriger Schlusskurs",
+      "value": "$3.29",
+      "note": "Auto-Update: 3.63% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-12T14:12:46Z",
+    "last_update_utc": "2026-08-12T15:27:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.3,
+      "regularMarketPrice": 3.285,
       "previousClose": 3.17,
-      "change": 0.13,
-      "changePercent": 4.1,
-      "regularMarketTime": "2026-08-12T14:12:35Z",
+      "change": 0.115,
+      "changePercent": 3.63,
+      "regularMarketTime": "2026-08-12T15:27:06Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -403,7 +403,7 @@
       },
       {
         "t": "2026-08-12T13:30:00Z",
-        "price": 3.3
+        "price": 3.285
       }
     ],
     "price_history_1d": [
@@ -441,21 +441,97 @@
       },
       {
         "t": "2026-08-12T14:10:00Z",
-        "price": 3.305
+        "price": 3.3
       },
       {
-        "t": "2026-08-12T14:12:35Z",
+        "t": "2026-08-12T14:15:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-08-12T14:20:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-08-12T14:25:00Z",
+        "price": 3.275
+      },
+      {
+        "t": "2026-08-12T14:30:00Z",
+        "price": 3.275
+      },
+      {
+        "t": "2026-08-12T14:35:00Z",
+        "price": 3.2801
+      },
+      {
+        "t": "2026-08-12T14:40:00Z",
+        "price": 3.285
+      },
+      {
+        "t": "2026-08-12T14:45:00Z",
         "price": 3.3
+      },
+      {
+        "t": "2026-08-12T14:50:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-08-12T14:55:00Z",
+        "price": 3.3
+      },
+      {
+        "t": "2026-08-12T15:00:00Z",
+        "price": 3.3
+      },
+      {
+        "t": "2026-08-12T15:05:00Z",
+        "price": 3.3099
+      },
+      {
+        "t": "2026-08-12T15:10:00Z",
+        "price": 3.3
+      },
+      {
+        "t": "2026-08-12T15:15:00Z",
+        "price": 3.295
+      },
+      {
+        "t": "2026-08-12T15:20:00Z",
+        "price": 3.2901
+      },
+      {
+        "t": "2026-08-12T15:25:00Z",
+        "price": 3.285
+      },
+      {
+        "t": "2026-08-12T15:27:06Z",
+        "price": 3.285
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "RXRX|Recursion Pharmaceuticals Inc|Kurs:3.350|Änderung %:+0.060 - tradingkey.com",
+        "title": "Recursion auf der Bank of America SMID Cap Virtual Conference: Wetten auf KI - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcS05UC1kLVJaZFZzeEUtSTBSSGdITUNsQTFsaXhUcjk1VW5xTlFyRFdaZS1tVlktRU5UM254Snl1SzNNTWF6aU1yQVVudGRObERVd1hlRzFDLXZ5UUxMeUdrOHhYTXlpd0dQRWdPdGE4UmkyalV3RWFzel9MQUlGOWpGQjFxQVVTa0ZfU05qS3BpemtueTZUb0Y3YlRSX1VaTzhHYXpENHBYQlh1a21qQWZ5c0xzejhzOWI4QWVfTDNCX3ZYNGJYRkN3?oc=5",
+        "published_at": "2026-08-11T16:23:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "relevance_score": 7
+      },
+      {
+        "title": "RXRX|Recursion Pharmaceuticals Inc|Kurs:3.350|Änderung %:+0.060 - TradingKey",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4WFU5RW5qMU9BMzVZZ21IVmFSYUYwTEZpRzhJX2pteU5kN0JydV94ZTF1ZG9zUERqU0tkS1Znb2hSQmFFcGI0N0ZSbjZ4Nlpka3FxQVZkNWNpbEQ0V05Qc0M5anRzbnctemxHSWU0TVZwZw?oc=5",
         "published_at": "2026-07-24T12:17:27Z",
-        "source": "tradingkey.com",
+        "source": "TradingKey",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1046,6 +1122,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-10"
+      },
+      {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
+        "title": "Recursion auf der Bank of America SMID Cap Virtual Conference: Wetten auf KI - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-08-11T16:23:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcS05UC1kLVJaZFZzeEUtSTBSSGdITUNsQTFsaXhUcjk1VW5xTlFyRFdaZS1tVlktRU5UM254Snl1SzNNTWF6aU1yQVVudGRObERVd1hlRzFDLXZ5UUxMeUdrOHhYTXlpd0dQRWdPdGE4UmkyalV3RWFzel9MQUlGOWpGQjFxQVVTa0ZfU05qS3BpemtueTZUb0Y3YlRSX1VaTzhHYXpENHBYQlh1a21qQWZ5c0xzejhzOWI4QWVfTDNCX3ZYNGJYRkN3?oc=5"
       }
     ],
     "queries_used": [
