@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.34",
-      "note": "Auto-Update: -5.65% vs. vorheriger Schlusskurs",
+      "value": "$3.35",
+      "note": "Auto-Update: -5.23% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-13T18:13:56Z",
+    "last_update_utc": "2026-08-13T19:33:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.34,
+      "regularMarketPrice": 3.355,
       "previousClose": 3.54,
-      "change": -0.2,
-      "changePercent": -5.65,
-      "regularMarketTime": "2026-08-13T18:12:55Z",
+      "change": -0.185,
+      "changePercent": -5.23,
+      "regularMarketTime": "2026-08-13T19:32:55Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -328,6 +328,10 @@
       {
         "t": "2026-07-20T13:30:00Z",
         "price": 3.43
+      },
+      {
+        "t": "2026-07-21T13:30:00Z",
+        "price": 3.4
       },
       {
         "t": "2026-07-22T13:30:00Z",
@@ -395,7 +399,7 @@
       },
       {
         "t": "2026-08-13T13:30:00Z",
-        "price": 3.34
+        "price": 3.355
       }
     ],
     "price_history_1d": [
@@ -625,97 +629,72 @@
       },
       {
         "t": "2026-08-13T18:10:00Z",
+        "price": 3.34
+      },
+      {
+        "t": "2026-08-13T18:15:00Z",
+        "price": 3.34
+      },
+      {
+        "t": "2026-08-13T18:20:00Z",
+        "price": 3.34
+      },
+      {
+        "t": "2026-08-13T18:25:00Z",
         "price": 3.345
       },
       {
-        "t": "2026-08-13T18:12:55Z",
-        "price": 3.34
+        "t": "2026-08-13T18:30:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-08-13T18:35:00Z",
+        "price": 3.33
+      },
+      {
+        "t": "2026-08-13T18:40:00Z",
+        "price": 3.3602
+      },
+      {
+        "t": "2026-08-13T18:45:00Z",
+        "price": 3.365
+      },
+      {
+        "t": "2026-08-13T18:50:00Z",
+        "price": 3.365
+      },
+      {
+        "t": "2026-08-13T19:00:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-08-13T19:05:00Z",
+        "price": 3.36
+      },
+      {
+        "t": "2026-08-13T19:10:00Z",
+        "price": 3.355
+      },
+      {
+        "t": "2026-08-13T19:15:00Z",
+        "price": 3.365
+      },
+      {
+        "t": "2026-08-13T19:20:00Z",
+        "price": 3.35
+      },
+      {
+        "t": "2026-08-13T19:25:00Z",
+        "price": 3.355
+      },
+      {
+        "t": "2026-08-13T19:32:55Z",
+        "price": 3.355
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "TD Cowen bestätigt \"Hold\"-Rating für Rocket Pharmaceuticals Aktie - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFp2UzVaZEs1SEhpYUFSWlBBWnZXRjJyY2FaZGktYWxWUjN1SEN5MGpKTEVaTWh1bVY3b0pZNHhUWW00ZV9pcFVyRFNhNWVWMTd0N1JSWnBXT0gwSFpwSVRCYkphcWxNc2JhbVY5eWwwWGNjbUhkdU1rU2ZDZWQyZWF1T0Q1SGF6NFVJVFVyMEJWUnREcGpZRWRjeTRWRnBaU1ZuV1VoaExnLU5BQThoZEVsUlZuMTlPNTJwb01n?oc=5",
-        "published_at": "2026-08-03T13:56:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Analysten / Kursziel",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Rocket Pharmaceuticals: Positive Sicherheitsdaten stützen Aktie nach Studien-Neustart - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPOGQ1eUppb0ZXeXJjVE0wb2dNM1BKNFpOMEo2Q0YxWXJuOTBDdm5vdjNPQVRJcnJvVFFHZUFmUnRiQnB6ZVVCZFZMTWRiRXBZbXhmVTlrcjBRRERGUkRRbzZfVFJycTRYWmRMQUxfeVcxNUlrbjRPM0M2eVlLSVV1aThKXzNSQVVqY1VaWHp1V1phZVdoZ2JVRzJJS1BXTFVDVlYzdFprYnBaVUVlNHhmSFBBRk5BUW9JUnFHWE9mRFFPckt0bFRwTW1GWE0xdXA4ckRmT295YUpjZXh5?oc=5",
-        "published_at": "2026-08-03T13:07:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "BofA senkt Kursziel für Rocket Pharmaceuticals auf 32 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMng1b3lKUjVVYW9iR0hydElLQzNFbFktYng1OFkzVnZQaG5jVnRUQ0p0M0NObm5vSnVrcG9TeTlfVENZZGg4SXVONFBxNVNobWxUc3E4aFlTTW9EU1pqVVA4R2h6VGwwUG9jcXI3U1ZhbWtHb09lQlZzUl9fMFNwNWZ0aXdmZjJ4NGR6dDdFc0JxVXNWcmNUZWpXeS1qNEw4Rk4tcE1lNWoxazF1UWZWeHVqOTVJZ0NTbDVVUkFmdnduNGF6d2V2Y3JRWFFPUFptcGkxTWk0LVppdXpsRlJzNA?oc=5",
-        "published_at": "2025-05-27T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT gene therapy FDA",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Rocket Pharmaceuticals, Inc. (RCKT) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vdnViNXR5QU9keEVYdkI4RHZMdnpxUXVzWUJvMkVRdG9mdTZVdEdNNEJ2SHRtbVZTai0yLUlKcTZPeVRHaVRBWlREc2JGd2ZKU0E?oc=5",
-        "published_at": "2018-07-05T04:06:34Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 26
-      },
-      {
-        "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUlybU4xWllPYU9iVnNwWkxwUmNOdjhYajBwVWhGZE5EY25YN3JvRUVMRXBnVVV6MDFvWXZWQzNzZ3ItR0xoOTFJS19Ddm43ZVVoWmhjb3JXNG44ZUthSlU4eUM0aFN0WmxkVU9BU3VncE9yZkN6bnkwckVhQzJkSEp1T2tKT1VaWnM1YmxHVWdITXZ6anBJeVZlR3dteTgzd1VqbzEtc3FsX3NX?oc=5",
-        "published_at": "2017-09-13T07:00:00Z",
-        "source": "Fierce Biotech",
-        "query": "Rocket Pharmaceuticals clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "144",

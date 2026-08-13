@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$44.85",
-      "note": "Auto-Update: -2.8% vs. vorheriger Schlusskurs",
+      "value": "$44.29",
+      "note": "Auto-Update: -4.01% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-13T18:14:44Z",
+    "last_update_utc": "2026-08-13T19:37:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 44.85,
+      "regularMarketPrice": 44.29,
       "previousClose": 46.14,
-      "change": -1.29,
-      "changePercent": -2.8,
-      "regularMarketTime": "2026-08-13T18:14:23Z",
+      "change": -1.85,
+      "changePercent": -4.01,
+      "regularMarketTime": "2026-08-13T19:37:02Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -309,6 +309,10 @@
         "price": 44.49
       },
       {
+        "t": "2026-07-31T13:30:00Z",
+        "price": 43.52
+      },
+      {
         "t": "2026-08-03T13:30:00Z",
         "price": 41.79
       },
@@ -342,7 +346,7 @@
       },
       {
         "t": "2026-08-13T13:30:00Z",
-        "price": 44.8499
+        "price": 44.29
       }
     ],
     "price_history_1d": [
@@ -572,161 +576,84 @@
       },
       {
         "t": "2026-08-13T18:10:00Z",
-        "price": 44.84
+        "price": 44.92
       },
       {
-        "t": "2026-08-13T18:14:23Z",
-        "price": 44.8499
+        "t": "2026-08-13T18:15:00Z",
+        "price": 44.83
+      },
+      {
+        "t": "2026-08-13T18:20:00Z",
+        "price": 44.88
+      },
+      {
+        "t": "2026-08-13T18:25:00Z",
+        "price": 44.83
+      },
+      {
+        "t": "2026-08-13T18:30:00Z",
+        "price": 44.91
+      },
+      {
+        "t": "2026-08-13T18:35:00Z",
+        "price": 44.89
+      },
+      {
+        "t": "2026-08-13T18:40:00Z",
+        "price": 44.85
+      },
+      {
+        "t": "2026-08-13T18:45:00Z",
+        "price": 44.815
+      },
+      {
+        "t": "2026-08-13T18:50:00Z",
+        "price": 44.8471
+      },
+      {
+        "t": "2026-08-13T18:55:00Z",
+        "price": 44.79
+      },
+      {
+        "t": "2026-08-13T19:00:00Z",
+        "price": 44.765
+      },
+      {
+        "t": "2026-08-13T19:05:00Z",
+        "price": 44.88
+      },
+      {
+        "t": "2026-08-13T19:10:00Z",
+        "price": 44.77
+      },
+      {
+        "t": "2026-08-13T19:15:00Z",
+        "price": 44.585
+      },
+      {
+        "t": "2026-08-13T19:20:00Z",
+        "price": 44.38
+      },
+      {
+        "t": "2026-08-13T19:25:00Z",
+        "price": 44.19
+      },
+      {
+        "t": "2026-08-13T19:30:00Z",
+        "price": 44.325
+      },
+      {
+        "t": "2026-08-13T19:35:00Z",
+        "price": 44.29
+      },
+      {
+        "t": "2026-08-13T19:37:02Z",
+        "price": 44.29
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Definium Therapeutics mit starkem Studien-Coup - Aktie springt hoch - finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQS16Umw4cFJKeERBMnFDVjNrc05SbWZiZld3X29WaEZKSTFUblF3QXFBSXZQZlQ2dnEyY29zZ1h5eVBPdVNWNWo0emFxTU9ZVFktX0d1X3pRLWpNVTNDNlFhdGhYdlN6SGhVeDBTRVhNNTRHVk1sdnRoSDV1TFEtc0lXeVNaOTVUV3lOTzd3bFVCWU9fWWRESHZqZllpa2tuYXhkLS1EbUJtdEpocjhTcUc0QnFiaEU3VTc2QTVjY1VDUk00S1l6ZW5GYkdGSzMxNmRyVENVNHFvQ05Nb0VXT0F2aw?oc=5",
-        "published_at": "2026-08-12T15:07:00Z",
-        "source": "finanzen.net",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics: Aktie springt nach positiven Phase-3-Studienergebnissen um 20 % - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR1JKQUtVNjBzT1ZmV0hDSnNVdGdQYmFGZE11SFMzVFNfbW1NUWhkdjc3YVo4MTdwTFg3dzZMcHRjcHN2SF9XcTc5TmQ5UUEzTzlmSzBrM1luZkl3UXdReVdaaFNpWHk2ZnFEUU5YeXJRdy1Ec09kSXpkMVNzbmpaUlVnU0ljZW9Vb0kzX1dGMzRTNUtzSXh6N0tNRHdtM0lzMXVvMVViNUtac05QSGRndTdsSVhpMUx2eV9LVTRjNEdndDl5UHZRYXR4Z2RaTV9NaDdXaWtTb0RVTTA?oc=5",
-        "published_at": "2026-08-12T11:39:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics: Needham hebt Kursziel nach MDD-Daten deutlich an - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZUNXaHpMNVNqTElFSWJCS1I0ampoY0dXaTRhVGZYMEFEdk5iZVpiMTRha29hanJUUXBqTjR5SE1mcHYzSmpadzJhMUpQVmdiTTQ1V1VPUnlKUVdhYUxaRXljalJLUVpwd2h1Ul9saWE5U28zVVZfaEtpcDZwa0ZNSTVZdF9GODNfdzg5akFaWG44N0dDeXhqSXB2VnQ4M2JjSk5KTGVzcFFRc0VzeV9pc25sUGNJT3BlbHUwNFllbF9BM19KcjRF?oc=5",
-        "published_at": "2026-06-23T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics Aktie schießt nach positiven Studiendaten um fast 40 % in die Höhe - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQlhrbkt4WElQcjA1dVMyV2VIUG4tb25Wa3dYNFUwMUFteG4yRTlwemgzMXRTbzdMY292YWFTeGc5V25MbWFlNFIyZDdQenVSek9oLThmeTJqMldGNC1aSkxucWp3VzNnSHVQQWJxbjBVUGVKbFMybU0tbGhuY3pLem9HVXJqODdrTDhZTnZRcjAtRGNsSmFjd204TTlubk0xb0tMY2J4Rm9MQ0xYUGJ4T1JIeVV2Y2puck14dnVIb203eWtiazMzR255WG5CTlhZSUJjb0dQMTl3d18tcmdqenZn?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics: Aktie fällt nach Ankündigung einer Kapitalerhöhung über 500 Mio. $ - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa25IT2hUYXljajhRaUkzSERtNXFfTTRrUFJJNGVTZGlscjNhSDkyMll0VU0zOFVaVTEzZ0RCYXlCZ3ZqV3Npb0ExVVBOOFNEZGQ5UkNjVVJnUGhiVTFaaTl2VllDTWtNZEg3RGFIaU9aSUF6VE1nd0JfbnVSOG9MdkFRb0xIMlNSRXlGSk5yVVljOWpyMnRCZmdBdVZDTUwtTl9vZDFTZkcySWZxZ0JHOHRfTzEzYW9pcVFsZk1HSlVxbGliVEg1eVBIMk5YV3VHUHBWT0pJX29aemtIeFo4ZA?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Finanzierung / Verwässerung",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Positive Phase-3-Studienergebnisse beflügeln Aktie von Definium Therapeutics - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRmZfckhXa1VtSzNYZl9zUXBxS25Fcl9KV3Z4c2JTQ1Y5VGsxNzhtNExXY2R0cnI0R2VqWldpUkhBeWpzMGJKY2ptX1ZTNDhEc3BfaUl0U2VUWjNLbkxPQi1GVjhPTkFiTzgwNjhfaFFsR3RHR3lFcmEwRmhlWmhJajVETF9oMmhjME40bUsxSFRhSUdpeF9sdzc5MHhLRWlJTEJlSVR0Z0FmSWtlTUpQSEtUTHVyZ1pEQlpnaFNKTFVwZ2RhMkUtbmpUUHlvaFdi?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics: Oppenheimer erhöht Kursziel nach überzeugenden Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DT120 topline",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics Aktie • A420P3 • CA24477V1058 - Onvista",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfSW13Z1hoRndCbFQ3R1MtZG8tTk5QZlpIZjNKd0pkY21RaV9UcVBXc2ZoWFZrR0huTUVJVXN1WUZmQmpvcnJ0QlVFM2Y4dll1UUxFUkxBanBTRVlqWjBhOUhaMUVHczlSdzAtY0dJZ2xkcWNnbU1IekNB?oc=5",
-        "published_at": "2026-01-17T10:59:03Z",
-        "source": "Onvista",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "DEFINIUM THERAPEUTICS AKTIE | Aktienkurs | CA24477V1058 | News | A420P3 - finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kT0RTMXlPb01BNmdvYzBQcWkwWk12dVJieUFYYVgwSEVudmNFbWQzcW5QLUpYajB1R0pUdFRPeUlVMndmLXNIaW04aklYcWxCYkFxTGRjTDQ0RTBLY0xQenZiTUNNLU9pSUNZ?oc=5",
-        "published_at": "2026-01-17T05:43:45Z",
-        "source": "finanzen.net",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "4",
@@ -871,18 +798,6 @@
     ],
     "clinical_trials": [],
     "detected_triggers": [
-      {
-        "type": "Finanzierung / Verwässerung",
-        "level": "high",
-        "title": "Definium Therapeutics: Aktie fällt nach Ankündigung einer Kapitalerhöhung über 500 Mio. $ - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
-        "impact": "hohes Risiko für Kursdruck",
-        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
-        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-06-22T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa25IT2hUYXljajhRaUkzSERtNXFfTTRrUFJJNGVTZGlscjNhSDkyMll0VU0zOFVaVTEzZ0RCYXlCZ3ZqV3Npb0ExVVBOOFNEZGQ5UkNjVVJnUGhiVTFaaTl2VllDTWtNZEg3RGFIaU9aSUF6VE1nd0JfbnVSOG9MdkFRb0xIMlNSRXlGSk5yVVljOWpyMnRCZmdBdVZDTUwtTl9vZDFTZkcySWZxZ0JHOHRfTzEzYW9pcVFsZk1HSlVxbGliVEg1eVBIMk5YV3VHUHBWT0pJX29aemtIeFo4ZA?oc=5"
-      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
