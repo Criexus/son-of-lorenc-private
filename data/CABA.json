@@ -166,7 +166,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-13T10:51:38Z",
+    "last_update_utc": "2026-08-13T11:38:17Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -605,6 +605,20 @@
     "news": [],
     "sec_filings": [
       {
+        "form": "10-Q",
+        "filingDate": "2026-08-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000039/caba-20260630.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-08-13",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000038/caba-20260813.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "SCHEDULE 13G/A",
         "filingDate": "2026-08-12",
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000091957426004972/xslSCHEDULE_13G_X02/primary_doc.xml",
@@ -729,44 +743,14 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000025/caba-20260514.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-05-14",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000175913826000024/caba-20260514.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-05-04",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312526202446/d145767d8k.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
     "detected_triggers": [
       {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
-        "title": "8-K · 2026-05-04",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-04"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "10-Q · 2026-05-14",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-14"
-      },
-      {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
-        "title": "8-K · 2026-05-14",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-14"
@@ -794,6 +778,22 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-11"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-08-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-13"
+      },
+      {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-08-13",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-13"
       },
       {
         "type": "SEC Filing",
