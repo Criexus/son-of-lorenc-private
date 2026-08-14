@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$19.26",
-      "note": "Auto-Update: 2.66% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 2.65% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-14T10:48:13Z",
+    "last_update_utc": "2026-08-14T11:42:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 19.264,
+      "regularMarketPrice": 19.262,
       "previousClose": 18.764,
-      "change": 0.5,
-      "changePercent": 2.66,
-      "regularMarketTime": "2026-08-14T10:29:18Z",
+      "change": 0.498,
+      "changePercent": 2.65,
+      "regularMarketTime": "2026-08-14T11:26:28Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -250,7 +250,7 @@
       },
       {
         "t": "2026-08-14T07:00:00Z",
-        "price": 19.264
+        "price": 19.262
       }
     ],
     "price_history_1d": [
@@ -408,49 +408,60 @@
       },
       {
         "t": "2026-08-14T10:25:00Z",
-        "price": 19.25
+        "price": 19.264
       },
       {
-        "t": "2026-08-14T10:29:18Z",
+        "t": "2026-08-14T10:30:00Z",
+        "price": 19.268
+      },
+      {
+        "t": "2026-08-14T10:35:00Z",
+        "price": 19.26
+      },
+      {
+        "t": "2026-08-14T10:40:00Z",
+        "price": 19.26
+      },
+      {
+        "t": "2026-08-14T10:45:00Z",
+        "price": 19.266
+      },
+      {
+        "t": "2026-08-14T10:50:00Z",
+        "price": 19.268
+      },
+      {
+        "t": "2026-08-14T11:00:00Z",
+        "price": 19.27
+      },
+      {
+        "t": "2026-08-14T11:05:00Z",
+        "price": 19.266
+      },
+      {
+        "t": "2026-08-14T11:10:00Z",
         "price": 19.264
+      },
+      {
+        "t": "2026-08-14T11:15:00Z",
+        "price": 19.254
+      },
+      {
+        "t": "2026-08-14T11:20:00Z",
+        "price": 19.262
+      },
+      {
+        "t": "2026-08-14T11:25:00Z",
+        "price": 19.264
+      },
+      {
+        "t": "2026-08-14T11:26:28Z",
+        "price": 19.262
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "L&G Hydrogen Economy UCITS ETF (HTMW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nSFNOaml3Vm5LQWx3V3NmSzRJTHRjUUQtX1hWdG9vcWtTVUVnbXY0NjNyeGZLV19PM1ZQS2xtdVdPc0FaYkotTmlaWGttREpERl9wUjl3?oc=5",
-        "published_at": "2021-07-23T01:50:44Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      },
-      {
-        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
-        "published_at": "2019-01-08T08:47:34Z",
-        "source": "Comdirect",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 47
-      }
-    ],
+    "news": [],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
