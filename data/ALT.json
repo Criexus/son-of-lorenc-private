@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-15T02:07:33Z",
+    "last_update_utc": "2026-08-15T03:09:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -745,22 +745,6 @@
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Altimmune-Aktie steigt nach übertroffenen Gewinnprognosen für Q2 - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS3M3UmkzM2QwaXBCRk1FQTZRZHhGZ0VTaFh0dzRtSVY2b2k4ejZzczFKMzcxeEE1YUZFWXhfZl9GS2NYeG56bGdaeU9WdDMzcjhNd2tIVC1oY0NVell1M3dfUTAwUmtzZG5sZWhYWHp4dXJZa3Q5eFgzd1R6TFNOR2hzX0RsSUw1ejZtTkUwVE53ZnRFMFF2aHpEelg0Nk5GXzZlX0FwcFFjMUJQeHRxZW84bjFRaHVBN3c?oc=5",
-        "published_at": "2026-08-12T13:54:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 7
-      },
       {
         "title": "MASH-Therapie: Altimmune startet entscheidende Phase-3-Studie mit Pemvidutid - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNE01M28zN2pfbmZHX1M3NDVGZ3RvcVlMNlV0VUt0b3dYT2JFSFlxTnJFNDFYYXFncEhtN2ZqblczWUFxNl9IZGNuaEVPUjV2VU9uUTNjTUNfYWpma0lLbVhidk1ZWW9JeG5ZeXh3SzRrTUJ3YUJZSnc3RnowcmhUaUljS3hRMmVxR1FEdFJ6QkJsOHMzUzd5UGFIZ3BLQVRDa2xPT2xSWkxCQmhLc3QyQUlXdTR3TTVFZXA3RThJZ3czeU9HUW9Z?oc=5",
@@ -1458,18 +1442,6 @@
         "date": "2026-08-12"
       },
       {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Altimmune-Aktie steigt nach übertroffenen Gewinnprognosen für Q2 - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-08-12T13:54:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS3M3UmkzM2QwaXBCRk1FQTZRZHhGZ0VTaFh0dzRtSVY2b2k4ejZzczFKMzcxeEE1YUZFWXhfZl9GS2NYeG56bGdaeU9WdDMzcjhNd2tIVC1oY0NVell1M3dfUTAwUmtzZG5sZWhYWHp4dXJZa3Q5eFgzd1R6TFNOR2hzX0RsSUw1ejZtTkUwVE53ZnRFMFF2aHpEelg0Nk5GXzZlX0FwcFFjMUJQeHRxZW84bjFRaHVBN3c?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
@@ -1489,6 +1461,14 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-01"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
