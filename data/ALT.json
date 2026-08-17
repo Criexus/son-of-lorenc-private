@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.97",
-      "note": "Auto-Update: -2.66% vs. vorheriger Schlusskurs",
+      "value": "$2.98",
+      "note": "Auto-Update: -2.46% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T13:58:41Z",
+    "last_update_utc": "2026-08-17T14:23:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.969,
+      "regularMarketPrice": 2.975,
       "previousClose": 3.05,
-      "change": -0.081,
-      "changePercent": -2.66,
-      "regularMarketTime": "2026-08-17T13:58:26Z",
+      "change": -0.075,
+      "changePercent": -2.46,
+      "regularMarketTime": "2026-08-17T14:23:05Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-17T13:30:00Z",
-        "price": 2.969
+        "price": 2.975
       }
     ],
     "price_history_1d": [
@@ -443,11 +443,31 @@
       },
       {
         "t": "2026-08-17T13:55:00Z",
-        "price": 2.965
+        "price": 2.99
       },
       {
-        "t": "2026-08-17T13:58:26Z",
-        "price": 2.969
+        "t": "2026-08-17T14:00:00Z",
+        "price": 2.9838
+      },
+      {
+        "t": "2026-08-17T14:05:00Z",
+        "price": 2.995
+      },
+      {
+        "t": "2026-08-17T14:10:00Z",
+        "price": 2.975
+      },
+      {
+        "t": "2026-08-17T14:15:00Z",
+        "price": 2.985
+      },
+      {
+        "t": "2026-08-17T14:20:00Z",
+        "price": 2.98
+      },
+      {
+        "t": "2026-08-17T14:23:05Z",
+        "price": 2.975
       }
     ],
     "price_history_range": "1mo",
@@ -628,22 +648,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Technische Analyse von Altimmune, Inc. (NASDAQ: ALT) - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xb1o2d2EwUWFqMHBDX29zRnRjaW1IaUxsWllSRkhneXJvcGpaSnI4TEFkMHZxWjFrTThNeWNTRlVKemxzUG9QNHUxckhrZFVJWVZsRnQ5UmZ1MVM4WkcyV2Ffb2NlWk9U?oc=5",
-        "published_at": "2018-05-19T08:56:00Z",
-        "source": "TradingView",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
       }
     ],
     "sec_filings": [
