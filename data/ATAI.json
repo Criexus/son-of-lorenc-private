@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.24",
-      "note": "Auto-Update: -0.14% vs. vorheriger Schlusskurs",
+      "value": "$7.25",
+      "note": "Auto-Update: -0.07% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T14:22:59Z",
+    "last_update_utc": "2026-08-17T14:50:11Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.24,
+      "regularMarketPrice": 7.245,
       "previousClose": 7.25,
-      "change": -0.01,
-      "changePercent": -0.14,
-      "regularMarketTime": "2026-08-17T14:22:44Z",
+      "change": -0.005,
+      "changePercent": -0.07,
+      "regularMarketTime": "2026-08-17T14:49:02Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -412,7 +412,7 @@
       },
       {
         "t": "2026-08-17T13:30:00Z",
-        "price": 7.24
+        "price": 7.245
       }
     ],
     "price_history_1d": [
@@ -458,11 +458,31 @@
       },
       {
         "t": "2026-08-17T14:20:00Z",
-        "price": 7.24
+        "price": 7.2401
       },
       {
-        "t": "2026-08-17T14:22:44Z",
-        "price": 7.24
+        "t": "2026-08-17T14:25:00Z",
+        "price": 7.25
+      },
+      {
+        "t": "2026-08-17T14:30:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-17T14:35:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-17T14:40:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-17T14:45:00Z",
+        "price": 7.245
+      },
+      {
+        "t": "2026-08-17T14:49:02Z",
+        "price": 7.245
       }
     ],
     "price_history_range": "1mo",
@@ -474,6 +494,22 @@
         "published_at": "2026-08-11T19:34:08Z",
         "source": "Börse Express",
         "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "ATAI Beckley vor Quartalszahlen: Fokus liegt auf Übernahme durch Eli Lilly - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbmJuV2xWcWVqOGl5T3lybXRib1Z6Zlp4R2txMTJFRklrMEMweVhZdUwxWWlqc191WVQwVVlwZGdfZVh2QmZ0V3loVlRKdWhEcnRJMHpjN09zYWViOGtrLXRMRTNicm5zX3hCd1hWSUhZNXJhZ3VvSkctWkR1WE9ZZlF5RGFFQjV1ZTJ3QWl4VWtuelNROFBxNXdEZEhmcXMxSVB6bmlYT1FRbXdPOEZoeGRjSGhzYkFZZEhHUXZXSzVhRFE?oc=5",
+        "published_at": "2026-08-11T14:15:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -517,10 +553,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Atai Beckley Aktie: Lilly zahlt 2,8 Milliarden - Börse Global",
+        "title": "Atai Beckley Aktie: Lilly zahlt 2,8 Milliarden - boerse-global.de",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX3dkdGRyeDlaa3FwdnZ4bDVSNTFYUVJGcGtudDZLZWh6SHNUWXotRWVhNDdjMkJpM0FoYnNISU9sRUt1MG5sTU5kRm4wM3NaSjVYb1RuaWFkazFNM0VJX2I0U19fODFhYlZRN0RnYWtWUUJpWENfYTF4TkplWkR6cXVTNFZDYlE?oc=5",
         "published_at": "2026-07-27T07:00:00Z",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -549,10 +585,10 @@
         "relevance_score": 22
       },
       {
-        "title": "Atai Beckley Aktie: Eli Lilly-Deal bis 3,8 Milliarden - kapitalmarktexperten.de",
+        "title": "Atai Beckley Aktie: Eli Lilly-Deal bis 3,8 Milliarden - Kapitalmarktexperten",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEU0YWJPaW1lOTZPVFQ1NUlOcmFQMTdXV0ZmNy1SczFXc3F3elNKRUI4VFdIc2NhTXU1Y3ZFZEtZVUliNkpkT2VlX3hXc1RubmZydjFpclM2VzE3d1lJdnJEdzRSSTBaLUo4QUxkcUVZSWtKd0FnMmxoQmdaQWFxdDFsRjcxWDlqQ0tVQjJSLTFxUQ?oc=5",
         "published_at": "2026-07-20T07:00:00Z",
-        "source": "kapitalmarktexperten.de",
+        "source": "Kapitalmarktexperten",
         "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Partnerschaft / Deal",
@@ -565,10 +601,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Atai Beckley Aktie: Eli Lilly zahlt bis 3,8 Milliarden - Börse Global",
+        "title": "Atai Beckley Aktie: Eli Lilly zahlt bis 3,8 Milliarden - boerse-global.de",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSXVfZ0dCeFN4bDdEWjBGdHd4eUxxTVhHMHhQNXBBYmNEVU1qa1pVa0pkdDVQVVpzSmc1XzdRS3JVdmM5SEdqbXVLX1Fnc3BxVWp0SkJhRk84X0diT2I2Y1NJVk9zZUpFYy01aFdJZ0JwRDJmMTVjbFJFS3B4bHg0S0Q1ZWx2dVNWTG52LU5yV2FzUQ?oc=5",
         "published_at": "2026-07-20T07:00:00Z",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -581,10 +617,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Atai Beckley Aktie: Eli Lilly zahlt 6,75 Dollar - kapitalmarktexperten.de",
+        "title": "Atai Beckley Aktie: Eli Lilly zahlt 6,75 Dollar - Kapitalmarktexperten",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUUNDMU1LcHJTdVMxMDJzZGdIaG95TDZGdHpMVUJSQjRwSjV1a2JFdXJYQUx2WUROMkpucEwwbFhtZmE1NXY3bnpKMURONk9NY1ZYTGpINS0xVEU3cUY3eHBqb1Jib3J3dlZwaXcwQ0VyODk5ZE9XaTc0WFZKOEZTbnoxTjU2ZmRaMHc?oc=5",
         "published_at": "2026-07-19T19:28:04Z",
-        "source": "kapitalmarktexperten.de",
+        "source": "Kapitalmarktexperten",
         "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -773,10 +809,10 @@
         "relevance_score": 7
       },
       {
-        "title": "Atai Beckley Aktie: 13 Prozent Sprung nach Russell-Aufnahme - kapitalmarktexperten.de",
+        "title": "Atai Beckley Aktie: 13 Prozent Sprung nach Russell-Aufnahme - Kapitalmarktexperten",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa09rY2t5dXBPZWE2bGRXLURpYTZxN0VMeVZKX1I5ZG1OM3o1WnVtR2tfYmlCb2p2UUotRldramo5cjFqS2JkdVNSeWV3ZHV0Y3FXcW5xbDZyaDl1Q0JKRlh2X3ZnSWtKRncxNGhjaDJZVlMzV3U4TDVYbXp1SkJHdzFhRGpjenNDaUFXQ3V0anRzWjFVQVBpNW42Yw?oc=5",
         "published_at": "2026-06-25T07:00:00Z",
-        "source": "kapitalmarktexperten.de",
+        "source": "Kapitalmarktexperten",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -821,10 +857,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Atai Beckley Aktie: BPL-003 startet Phase-3-Programm ReConnection - Börse Global",
+        "title": "Atai Beckley Aktie: BPL-003 startet Phase-3-Programm ReConnection - boerse-global.de",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPem9NNFNBTDVoVUczYjVKdEpza3p6Zl85b2FSdFhTVnY0SUw2WV9IaC1YMFFfRTJYZUVNY2xNcW1HZGhmMEVWMnlvc0RwUGVOaGF0U1d0aXc0cjN5N2I3Z294V2I3czcwUUZ3WlVGb2tmSUNTVk5XVWktVkV0aVU2UFg1OEhFX0tBYTMyeklvanI5UURwZkx4M1lwWnZtMHhSNXc?oc=5",
         "published_at": "2026-06-16T07:00:00Z",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -869,10 +905,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - kapitalmarktexperten.de",
+        "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - Kapitalmarktexperten",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSU9iQTc5OS1NYzEwSE1SR1dpM1JwVlpCSGljRjl3Q3FSZ3AtTnAyUkRVanJwX0xsVGN3NTN6cGNSOEJxcThVdmlyWUhya05hWmZPQW9NZjhIbl91VUpMZlJjYTloSXZWRVB5ZzVkT3U1aVhiY3lyMW0wSVh6aTNCaE8wOE5OOGQ1VTJFTGN0em5MazhR?oc=5",
         "published_at": "2026-05-24T07:00:00Z",
-        "source": "kapitalmarktexperten.de",
+        "source": "Kapitalmarktexperten",
         "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -931,22 +967,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Atai Beckley meldet Phase-2a-Ergebnisse zu BPL-003 bei TRD; Phase-3-Start Q2/2026 - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlFEOVdSWEJoY3NmblFJcWxoZEFpM2djeldVRUlUTzJ5UTFwZjY3LVJ3VkNWNDc0VWFpb3RSWmQwMnJXc1hjQkptLWJCTzJfMXpLcFlndzVmc1hyeU92ZXBndmxVaVhfa21HRFZ1M1F1NENaTVhOYVVmTmI1NFEyd2JqWV81TnNrT2t5LUJ0YlZ0QU54UXdEX0RXaXFqMFdUQTc5MEdRMGNFUXBNTlNCRw?oc=5",
-        "published_at": "2026-03-17T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "AtaiBeckley BPL-003 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 22
       }
     ],
     "sec_filings": [
@@ -1361,24 +1381,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Atai Beckley meldet Phase-2a-Ergebnisse zu BPL-003 bei TRD; Phase-3-Start Q2/2026 - Goldesel.de",
+        "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - Kapitalmarktexperten",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Goldesel.de",
-        "date": "2026-03-17T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlFEOVdSWEJoY3NmblFJcWxoZEFpM2djeldVRUlUTzJ5UTFwZjY3LVJ3VkNWNDc0VWFpb3RSWmQwMnJXc1hjQkptLWJCTzJfMXpLcFlndzVmc1hyeU92ZXBndmxVaVhfa21HRFZ1M1F1NENaTVhOYVVmTmI1NFEyd2JqWV81TnNrT2t5LUJ0YlZ0QU54UXdEX0RXaXFqMFdUQTc5MEdRMGNFUXBNTlNCRw?oc=5"
-      },
-      {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - kapitalmarktexperten.de",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "kapitalmarktexperten.de",
+        "source": "Kapitalmarktexperten",
         "date": "2026-05-24T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSU9iQTc5OS1NYzEwSE1SR1dpM1JwVlpCSGljRjl3Q3FSZ3AtTnAyUkRVanJwX0xsVGN3NTN6cGNSOEJxcThVdmlyWUhya05hWmZPQW9NZjhIbl91VUpMZlJjYTloSXZWRVB5ZzVkT3U1aVhiY3lyMW0wSVh6aTNCaE8wOE5OOGQ1VTJFTGN0em5MazhR?oc=5"
       },
@@ -1417,12 +1425,12 @@
       {
         "type": "Partnerschaft / Deal",
         "level": "medium",
-        "title": "Atai Beckley Aktie: Eli Lilly-Deal bis 3,8 Milliarden - kapitalmarktexperten.de",
+        "title": "Atai Beckley Aktie: Eli Lilly-Deal bis 3,8 Milliarden - Kapitalmarktexperten",
         "reason": "Trigger erkannt: Partnerschaft / Deal.",
         "impact": "möglicher Validierungs-Trigger",
         "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
         "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "source": "kapitalmarktexperten.de",
+        "source": "Kapitalmarktexperten",
         "date": "2026-07-20T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEU0YWJPaW1lOTZPVFQ1NUlOcmFQMTdXV0ZmNy1SczFXc3F3elNKRUI4VFdIc2NhTXU1Y3ZFZEtZVUliNkpkT2VlX3hXc1RubmZydjFpclM2VzE3d1lJdnJEdzRSSTBaLUo4QUxkcUVZSWtKd0FnMmxoQmdaQWFxdDFsRjcxWDlqQ0tVQjJSLTFxUQ?oc=5"
       },
@@ -1477,6 +1485,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-09"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-07-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-16"
       },
       {
         "type": "SEC Filing",

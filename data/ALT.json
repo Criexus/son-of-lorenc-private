@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.98",
-      "note": "Auto-Update: -2.46% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: -1.77% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T14:23:32Z",
+    "last_update_utc": "2026-08-17T14:50:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.975,
+      "regularMarketPrice": 2.996,
       "previousClose": 3.05,
-      "change": -0.075,
-      "changePercent": -2.46,
-      "regularMarketTime": "2026-08-17T14:23:05Z",
+      "change": -0.054,
+      "changePercent": -1.77,
+      "regularMarketTime": "2026-08-17T14:50:10Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-17T13:30:00Z",
-        "price": 2.975
+        "price": 2.9963
       }
     ],
     "price_history_1d": [
@@ -466,8 +466,28 @@
         "price": 2.98
       },
       {
-        "t": "2026-08-17T14:23:05Z",
-        "price": 2.975
+        "t": "2026-08-17T14:25:00Z",
+        "price": 3.0
+      },
+      {
+        "t": "2026-08-17T14:30:00Z",
+        "price": 3.005
+      },
+      {
+        "t": "2026-08-17T14:35:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-08-17T14:40:00Z",
+        "price": 2.99
+      },
+      {
+        "t": "2026-08-17T14:45:00Z",
+        "price": 2.9999
+      },
+      {
+        "t": "2026-08-17T14:50:10Z",
+        "price": 2.9963
       }
     ],
     "price_history_range": "1mo",
@@ -478,7 +498,7 @@
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAydmN6RE55ejhVczRyWkNZUG1xemlucHJXUlVWQUNGeTNON2t0NVZtbmR5YjRUVEoyREpEZDZMTndLSV9aRlJnSGZpSzB4LXJoYkE0M0NEWDcyRFZ5?oc=5",
         "published_at": "2026-08-01T12:36:33Z",
         "source": "Goldesel.de",
-        "query": "Altimmune ALT pemvidutide stock news",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -506,10 +526,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
+        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - boerse-global.de",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
         "published_at": "2026-05-31T07:00:00Z",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -522,10 +542,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
+        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - boerse-global.de",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5",
         "published_at": "2026-04-23T07:00:00Z",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
@@ -602,6 +622,22 @@
         "relevance_score": 6
       },
       {
+        "title": "Altimmune Aktie: Kampf gegen die Klagewelle - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTN5NGNjQnFNRXJxOWZhdVpORGRRRngwWFFKWU4yUUdRbTMyUWJCRWRmTlNMdkZUMFZPY0FEQzZlV0pBSlhSbmFleEd4S2phS2NRNmE0ajg5TjlNTFVJVEJBMnl0ZVhPQ1pEQWlpelk4SDNXTkxKbFg1Nk1OQ2hSVVM5eGZOV1FBcVNJcHA3ZmdtN1E2UDhSRGtB?oc=5",
+        "published_at": "2025-09-20T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
         "title": "Altimmune Aktie (A2N5Z6, ALT) - Kurs, Chart, News & Kennzahlen - Ariva",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1VEhhLXlYc3IzcmloTzlVd0JSNXk2Y0NzVDhZTUozaDF0dUJnbVIzdDZLTVptWE9tY0FlbVlvTUYtWkcxanM0V0QxWlVXTkRxbmpiUFpzUXNOVTQ?oc=5",
         "published_at": "2024-11-04T14:47:23Z",
@@ -618,10 +654,10 @@
         "relevance_score": 8
       },
       {
-        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
+        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraetf.com",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56bnFjalZEbTE5eFlYc1ZGbTVrN0FlQXVvMlhQT3paYkhyRWh5MDBVV29yYU1IS0dmOHYydXM5QXVZMW94UWJCTGZ1TUJhekxrY0xBWFdmSnRET3NzZ0pN?oc=5",
         "published_at": "2023-05-08T20:47:10Z",
-        "source": "extraETF",
+        "source": "extraetf.com",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1104,12 +1140,12 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - Börse Global",
+        "title": "Altimmune: Q3-Daten zu pemvidutide erwartet - boerse-global.de",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
         "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "date": "2026-04-23T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ0M3bTFLR3B4MTBaSmNpb3pCWW4tRjAxTHhOUXZuT2txYmxDaTQzVE54cmZCcmpKYnFjUk9MQm1GajFNRk5aUVVINDBiaDdUckZ2aFpHcEJRNnQyem51cC1GWG5vNG4zN00tU1htNnV0cGhOTW41akJfLXNOeWEzdDBiOF8?oc=5"
       },
