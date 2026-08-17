@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.11",
-      "note": "Auto-Update: -5.41% vs. vorheriger Schlusskurs",
+      "value": "$3.12",
+      "note": "Auto-Update: -5.32% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T18:21:50Z",
+    "last_update_utc": "2026-08-17T19:05:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.112,
+      "regularMarketPrice": 3.115,
       "previousClose": 3.29,
-      "change": -0.178,
-      "changePercent": -5.41,
-      "regularMarketTime": "2026-08-17T18:21:36Z",
+      "change": -0.175,
+      "changePercent": -5.32,
+      "regularMarketTime": "2026-08-17T19:05:44Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -399,7 +399,7 @@
       },
       {
         "t": "2026-08-17T13:30:00Z",
-        "price": 3.1125
+        "price": 3.115
       }
     ],
     "price_history_1d": [
@@ -637,11 +637,43 @@
       },
       {
         "t": "2026-08-17T18:20:00Z",
-        "price": 3.1167
+        "price": 3.115
       },
       {
-        "t": "2026-08-17T18:21:36Z",
-        "price": 3.1125
+        "t": "2026-08-17T18:25:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-17T18:30:00Z",
+        "price": 3.1122
+      },
+      {
+        "t": "2026-08-17T18:35:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-17T18:40:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-17T18:45:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-17T18:50:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-17T18:55:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-17T19:00:00Z",
+        "price": 3.12
+      },
+      {
+        "t": "2026-08-17T19:05:46Z",
+        "price": 3.12
       }
     ],
     "price_history_range": "1mo",
@@ -664,10 +696,26 @@
         "relevance_score": 7
       },
       {
-        "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
+        "title": "RXRX: All proposals passed, including board elections and auditor ratification, with no stockholder questions - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPWXZjUE9RMnhPbEJDejRGZXlUczJKUUg4ZGNTcGdkcXF1YThPRUs2UEhlLXhZdDdpMndBZHZHZ1pRcnpDaUxoSzdkMDVVc0h2VmhCMGZzTVhZZEIxN0poeXJnb2liWnh3b0p0MlVIc1hGU21KYlBjNlpFWnM2OFZvU1ZxczY4aF95Z2pyNVVKQmdlZWh0VUpjbl9DR2lGUkpKaVpvLXlBMUdoSW1RVUVraWIyUWRnaEMwaEtlaXNhejFMNmxXM0lxV0dSdXMtNVowZDF3elJBQUtTa2VkTjJwZzFhRjNBVEJEWFkyWHVMTGJTc21nQjJWWks4Z3o2ZXR6R3JPQUEtdV9yOHMzbldkNHFQdUZzU1pYWUtEX0NB?oc=5",
+        "published_at": "2026-06-17T07:00:00Z",
+        "source": "TradingView",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - tikr.com",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXhpaXh2Tngya3pMeWFpcUNBcmpOOEpGMXNLMlNVNHlFU18xRk12TjhfS21IeGVEd09UaTJYUFRER3lYWVE4aHFHcHRuRGRMczBlVU1OR1J4Wm1abU90aUZocGEtaUdDUWU3VThUd2VwQ1VEdTFrRjB6dkF6dDZLVEEyWlcwdEdVU1dtZ0dPX2dnTDl5ZVk4YV83ZWVaSU1KbHVjYjZwdTNwQkJGdk1RbHp5amFQcHc?oc=5",
         "published_at": "2025-09-18T07:00:00Z",
-        "source": "TIKR.com",
+        "source": "tikr.com",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

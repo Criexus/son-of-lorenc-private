@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$4.03",
-      "note": "Auto-Update: -6.28% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -6.4% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T18:22:09Z",
+    "last_update_utc": "2026-08-17T19:06:11Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.03,
+      "regularMarketPrice": 4.025,
       "previousClose": 4.3,
-      "change": -0.27,
-      "changePercent": -6.28,
-      "regularMarketTime": "2026-08-17T18:09:08Z",
+      "change": -0.275,
+      "changePercent": -6.4,
+      "regularMarketTime": "2026-08-17T18:53:49Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -309,6 +309,10 @@
         "price": 4.3
       },
       {
+        "t": "2026-08-11T13:30:00Z",
+        "price": 4.07
+      },
+      {
         "t": "2026-08-12T13:30:00Z",
         "price": 4.13
       },
@@ -322,7 +326,7 @@
       },
       {
         "t": "2026-08-17T13:30:00Z",
-        "price": 4.03
+        "price": 4.025
       }
     ],
     "price_history_1d": [
@@ -431,18 +435,42 @@
         "price": 4.03
       },
       {
-        "t": "2026-08-17T18:09:08Z",
+        "t": "2026-08-17T18:05:00Z",
         "price": 4.03
+      },
+      {
+        "t": "2026-08-17T18:20:00Z",
+        "price": 4.035
+      },
+      {
+        "t": "2026-08-17T18:25:00Z",
+        "price": 4.05
+      },
+      {
+        "t": "2026-08-17T18:40:00Z",
+        "price": 4.04
+      },
+      {
+        "t": "2026-08-17T18:45:00Z",
+        "price": 4.06
+      },
+      {
+        "t": "2026-08-17T18:50:00Z",
+        "price": 4.025
+      },
+      {
+        "t": "2026-08-17T18:53:49Z",
+        "price": 4.025
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "AlTi Global, Inc.: Aktionäre Vorstände Geschäftsführer und Unternehmensprofil | ALTI | US02157E1064 - de.marketscreener.com",
+        "title": "AlTi Global, Inc.: Aktionäre Vorstände Geschäftsführer und Unternehmensprofil | ALTI | US02157E1064 - MarketScreener Deutschland",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOTJKT3o0NGdBeGVBUHRvdXN0bGI3ZVdEcVU2WVB2QzBweEV5b1c4VHR6VmFOdkNUNlVtZ0ZWckdvb3RLcEdzWjQxN2pQT0pjZmZfOFNwZDVTYVNsNFpWUlNRTDI0X2Y0Wm1ZQnQydUt3ZzNXdUl6NUFhc1EwQ2hZbGUzMzY5dw?oc=5",
         "published_at": "2023-07-12T08:29:15Z",
-        "source": "de.marketscreener.com",
+        "source": "MarketScreener Deutschland",
         "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
