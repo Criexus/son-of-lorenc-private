@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.76",
-      "note": "Auto-Update: 4.4% vs. vorheriger Schlusskurs",
+      "value": "$13.73",
+      "note": "Auto-Update: 4.17% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T16:14:07Z",
+    "last_update_utc": "2026-08-17T16:51:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.76,
+      "regularMarketPrice": 13.73,
       "previousClose": 13.18,
-      "change": 0.58,
-      "changePercent": 4.4,
-      "regularMarketTime": "2026-08-17T16:11:36Z",
+      "change": 0.55,
+      "changePercent": 4.17,
+      "regularMarketTime": "2026-08-17T16:50:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-17T13:30:00Z",
-        "price": 13.76
+        "price": 13.73
       }
     ],
     "price_history_1d": [
@@ -550,8 +550,40 @@
         "price": 13.7953
       },
       {
-        "t": "2026-08-17T16:11:36Z",
+        "t": "2026-08-17T16:10:00Z",
         "price": 13.76
+      },
+      {
+        "t": "2026-08-17T16:15:00Z",
+        "price": 13.705
+      },
+      {
+        "t": "2026-08-17T16:20:00Z",
+        "price": 13.69
+      },
+      {
+        "t": "2026-08-17T16:25:00Z",
+        "price": 13.775
+      },
+      {
+        "t": "2026-08-17T16:30:00Z",
+        "price": 13.7603
+      },
+      {
+        "t": "2026-08-17T16:35:00Z",
+        "price": 13.7973
+      },
+      {
+        "t": "2026-08-17T16:40:00Z",
+        "price": 13.76
+      },
+      {
+        "t": "2026-08-17T16:45:00Z",
+        "price": 13.74
+      },
+      {
+        "t": "2026-08-17T16:50:27Z",
+        "price": 13.73
       }
     ],
     "price_history_range": "1mo",
@@ -574,10 +606,10 @@
         "relevance_score": 21
       },
       {
-        "title": "Compass Pathways Aktie: Kassenpolster bis 2028 - ad-hoc-news.de",
+        "title": "Compass Pathways Aktie: Kassenpolster bis 2028 - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdVhIVFpKUkk4TFlDNWxYSVFzVlozX0xfX3RBRWM5ZEFBUUZGNlFHSWNHSnhMTTl0dHpzWElmV2dKSE4zYmNyWWdDZzlXdnlrdkdaV2FpbEtHbVpkRXladDdOTXlnVTMxYm9Wc21vMGpEUVBNbV9aUGJBV0VpQlNNYUg1V3dQRUl1aDhESXIxMkVvem82a1Y4LWJ6ZExRYWtDUXZXWURhNXhDSHF1Zk9pdmxUYjZIMmo2?oc=5",
         "published_at": "2026-08-06T00:39:33Z",
-        "source": "ad-hoc-news.de",
+        "source": "AD HOC NEWS",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -611,6 +643,22 @@
         "published_at": "2026-07-29T07:00:00Z",
         "source": "Business Wire",
         "query": "COMPASS Pathways clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
+        "published_at": "2026-07-09T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
