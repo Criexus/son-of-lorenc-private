@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.94",
-      "note": "Auto-Update: 2.8% vs. vorheriger Schlusskurs",
+      "value": "$2.89",
+      "note": "Auto-Update: 1.05% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-17T09:09:51Z",
+    "last_update_utc": "2026-08-17T10:03:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.94,
+      "regularMarketPrice": 2.89,
       "previousClose": 2.86,
-      "change": 0.08,
-      "changePercent": 2.8,
-      "regularMarketTime": "2026-08-17T08:45:03Z",
+      "change": 0.03,
+      "changePercent": 1.05,
+      "regularMarketTime": "2026-08-17T09:37:17Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -157,10 +157,6 @@
       {
         "t": "2026-07-17T07:00:00Z",
         "price": 2.68
-      },
-      {
-        "t": "2026-07-20T07:00:00Z",
-        "price": 2.62
       },
       {
         "t": "2026-07-21T07:00:00Z",
@@ -193,10 +189,6 @@
       {
         "t": "2026-07-30T07:00:00Z",
         "price": 2.795
-      },
-      {
-        "t": "2026-07-31T07:00:00Z",
-        "price": 2.78
       },
       {
         "t": "2026-08-03T07:00:00Z",
@@ -240,7 +232,7 @@
       },
       {
         "t": "2026-08-17T07:00:00Z",
-        "price": 2.94
+        "price": 2.89
       }
     ],
     "price_history_1d": [
@@ -273,8 +265,16 @@
         "price": 2.92
       },
       {
-        "t": "2026-08-17T08:45:03Z",
+        "t": "2026-08-17T08:45:00Z",
         "price": 2.94
+      },
+      {
+        "t": "2026-08-17T08:55:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-08-17T09:37:17Z",
+        "price": 2.89
       }
     ],
     "price_history_range": "1mo",
