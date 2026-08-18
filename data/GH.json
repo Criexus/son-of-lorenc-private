@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$161.48",
-      "note": "Auto-Update: -2.19% vs. vorheriger Schlusskurs",
+      "value": "$161.06",
+      "note": "Auto-Update: -2.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-18T16:55:02Z",
+    "last_update_utc": "2026-08-18T17:18:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 161.48,
+      "regularMarketPrice": 161.055,
       "previousClose": 165.09,
-      "change": -3.61,
-      "changePercent": -2.19,
-      "regularMarketTime": "2026-08-18T16:54:03Z",
+      "change": -4.035,
+      "changePercent": -2.44,
+      "regularMarketTime": "2026-08-18T17:17:22Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-18T13:30:00Z",
-        "price": 161.48
+        "price": 161.055
       }
     ],
     "price_history_1d": [
@@ -500,32 +500,36 @@
       },
       {
         "t": "2026-08-18T16:50:00Z",
-        "price": 161.37
+        "price": 161.48
       },
       {
-        "t": "2026-08-18T16:54:03Z",
-        "price": 161.48
+        "t": "2026-08-18T16:55:00Z",
+        "price": 161.265
+      },
+      {
+        "t": "2026-08-18T17:00:00Z",
+        "price": 160.995
+      },
+      {
+        "t": "2026-08-18T17:05:00Z",
+        "price": 161.06
+      },
+      {
+        "t": "2026-08-18T17:10:00Z",
+        "price": 161.04
+      },
+      {
+        "t": "2026-08-18T17:15:00Z",
+        "price": 161.11
+      },
+      {
+        "t": "2026-08-18T17:17:22Z",
+        "price": 161.055
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Guardant Health: Personalvorständin Monroe veräußert Aktien im Wert von 7,6 Mio. US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSExCemZFMEZ3QmRHSWVKLTRyMW92aWdhNkdSZ2ZiWV85eFk3dkJyTFhfZThCSnJHbFMteW9VNlA5UVdhNTRRSEtsOThCcFVfb0V4WlVGcDFlUm1mQzNXc01xSnBEb3BLOXUwalhBZ0gwTWpta01fTnJhaVpHN1lSOUwzcmU4WXdEclcyMDNqRGNLSm1yRWlXZW9aMEE3bVJDRDlod19mWThGS0FncGlXWmJnSlhPaXcwcWwwVXZqRkl6MzBVc0hKaWR4WXVqN2FoMGNpNXpGRmZLSXpkOV9WUGpUN3A?oc=5",
-        "published_at": "2026-08-13T23:47:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
       {
         "title": "Guardant Health auf Wachstumskonferenz: Shield-Test treibt Expansion voran - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWTBxRWo2X0lhRnhJY1lJeUZHYm16MGhUcGd4Y05SQ1lydkJlcVN2aG9aRmVuWUVYVkh5QjNPUjVITzdLazBHRFZuN0E0TE5WN29oQTdqM0JidFJwS2xrNkt3NkJ2WG9qZGs4XzE0YnE0dllYY3BTRklVTVJxS2NrVGREeWUtRkV5aGlVSjNUZS15S29vTG1sRmptNWZOV3BBSUg0S1M2clV3TDVZSE56RDQ5UzVvOUZLNmIxWXl4Rk9IeG02aGc?oc=5",
