@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.79",
-      "note": "Auto-Update: 0.03% vs. vorheriger Schlusskurs",
+      "value": "$18.76",
+      "note": "Auto-Update: -0.09% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-18T12:22:12Z",
+    "last_update_utc": "2026-08-18T13:16:57Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.786,
+      "regularMarketPrice": 18.764,
       "previousClose": 18.78,
-      "change": 0.006,
-      "changePercent": 0.03,
-      "regularMarketTime": "2026-08-18T12:06:48Z",
+      "change": -0.016,
+      "changePercent": -0.09,
+      "regularMarketTime": "2026-08-18T13:01:05Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -242,7 +242,7 @@
       },
       {
         "t": "2026-08-18T07:00:00Z",
-        "price": 18.786
+        "price": 18.764
       }
     ],
     "price_history_1d": [
@@ -464,21 +464,49 @@
       },
       {
         "t": "2026-08-18T12:05:00Z",
-        "price": 18.788
+        "price": 18.786
       },
       {
-        "t": "2026-08-18T12:06:48Z",
-        "price": 18.786
+        "t": "2026-08-18T12:10:00Z",
+        "price": 18.782
+      },
+      {
+        "t": "2026-08-18T12:15:00Z",
+        "price": 18.776
+      },
+      {
+        "t": "2026-08-18T12:20:00Z",
+        "price": 18.792
+      },
+      {
+        "t": "2026-08-18T12:30:00Z",
+        "price": 18.76
+      },
+      {
+        "t": "2026-08-18T12:35:00Z",
+        "price": 18.75
+      },
+      {
+        "t": "2026-08-18T12:40:00Z",
+        "price": 18.752
+      },
+      {
+        "t": "2026-08-18T12:50:00Z",
+        "price": 18.752
+      },
+      {
+        "t": "2026-08-18T13:01:05Z",
+        "price": 18.764
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - comdirect.de",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
         "published_at": "2019-01-08T08:47:34Z",
-        "source": "Comdirect",
+        "source": "comdirect.de",
         "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
