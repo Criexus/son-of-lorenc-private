@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.46",
-      "note": "Auto-Update: 2602.42% vs. vorheriger Schlusskurs",
+      "value": "$4.35",
+      "note": "Auto-Update: 2536.36% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-18T15:28:14Z",
+    "last_update_utc": "2026-08-18T15:56:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.459,
+      "regularMarketPrice": 4.35,
       "previousClose": 0.165,
-      "change": 4.294,
-      "changePercent": 2602.42,
-      "regularMarketTime": "2026-08-18T15:27:11Z",
+      "change": 4.185,
+      "changePercent": 2536.36,
+      "regularMarketTime": "2026-08-18T15:56:11Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -296,8 +296,12 @@
         "price": 3.98
       },
       {
+        "t": "2026-08-17T13:30:00Z",
+        "price": 4.08
+      },
+      {
         "t": "2026-08-18T13:30:00Z",
-        "price": 4.459
+        "price": 4.35
       }
     ],
     "price_history_1d": [
@@ -395,11 +399,35 @@
       },
       {
         "t": "2026-08-18T15:25:00Z",
-        "price": 4.4498
+        "price": 4.459
       },
       {
-        "t": "2026-08-18T15:27:11Z",
-        "price": 4.459
+        "t": "2026-08-18T15:30:00Z",
+        "price": 4.3287
+      },
+      {
+        "t": "2026-08-18T15:35:00Z",
+        "price": 4.37
+      },
+      {
+        "t": "2026-08-18T15:40:00Z",
+        "price": 4.33
+      },
+      {
+        "t": "2026-08-18T15:45:00Z",
+        "price": 4.42
+      },
+      {
+        "t": "2026-08-18T15:50:00Z",
+        "price": 4.32
+      },
+      {
+        "t": "2026-08-18T15:55:00Z",
+        "price": 4.33
+      },
+      {
+        "t": "2026-08-18T15:56:11Z",
+        "price": 4.35
       }
     ],
     "price_history_range": "1mo",
@@ -549,154 +577,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04937283",
-        "title": "Segmentectomy Versus Lobectomy for Lung Adenocarcinoma ≤ 2cm",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Lung Adenocarcinoma",
-        "last_update": "",
-        "start_date": "2019-10-01",
-        "url": "https://clinicaltrials.gov/study/NCT04937283"
-      },
-      {
-        "nct_id": "NCT02407366",
-        "title": "Icotinib With Concurrent Radiotherapy vs. Chemoradiotherapy in Non-small Cell Lung Cancer",
-        "status": "UNKNOWN",
+        "nct_id": "NCT05981924",
+        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
+        "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "Non-small Cell Lung Cancer",
+        "conditions": "Analgesia, Lung Cancer",
         "last_update": "",
-        "start_date": "2014-12",
-        "url": "https://clinicaltrials.gov/study/NCT02407366"
+        "start_date": "2023-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05981924"
       },
       {
-        "nct_id": "NCT02726685",
-        "title": "Effects of Respiratory Training on Respiratory and Functional Performance in Patients With Stroke",
-        "status": "UNKNOWN",
-        "phase": "NA",
+        "nct_id": "NCT07020468",
+        "title": "Neoadjuvant Therapy （NALIRIFOX） for Locally Advanced Colon and Upper Rectal Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Colorectal Cancer (CRC)",
+        "last_update": "",
+        "start_date": "2025-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT07020468"
+      },
+      {
+        "nct_id": "NCT07741669",
+        "title": "Study on the Incremental Predictive Value of Early Resting-State EEG Phenotypes for Functional Prognosis and Risk Stratification in Acute Ischemic Stroke",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
         "conditions": "Stroke",
         "last_update": "",
-        "start_date": "2018-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT02726685"
+        "start_date": "2026-07-15",
+        "url": "https://clinicaltrials.gov/study/NCT07741669"
       },
       {
-        "nct_id": "NCT07144423",
-        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Chronic Subdural Hematoma",
-        "last_update": "",
-        "start_date": "2025-11-19",
-        "url": "https://clinicaltrials.gov/study/NCT07144423"
-      },
-      {
-        "nct_id": "NCT06697366",
-        "title": "Liposomal Irinotecan Combined with Sintilimab for Second-line Treatment of Progressive Gastric Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Gastric Cancer",
-        "last_update": "",
-        "start_date": "2024-11-20",
-        "url": "https://clinicaltrials.gov/study/NCT06697366"
-      },
-      {
-        "nct_id": "NCT05787535",
-        "title": "HRYZ-T101 TCR-T Cell for HPV-18 Positive Advanced Solid Tumor",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Cervical Cancer, Head and Neck Squamous Cell Carcinoma, Oropharyngeal Cancer, Vagina Tumor",
-        "last_update": "",
-        "start_date": "2023-03-21",
-        "url": "https://clinicaltrials.gov/study/NCT05787535"
-      },
-      {
-        "nct_id": "NCT00808808",
-        "title": "Assessing Choice in the Employer Setting (ACES) Study",
+        "nct_id": "NCT06623435",
+        "title": "Real World and Genomic Data Based Asthma Insight Through Network Analysis",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Healthy",
+        "conditions": "Asthma",
         "last_update": "",
-        "start_date": "2008-09",
-        "url": "https://clinicaltrials.gov/study/NCT00808808"
+        "start_date": "2019-11-07",
+        "url": "https://clinicaltrials.gov/study/NCT06623435"
       },
       {
-        "nct_id": "NCT04704427",
-        "title": "Rehabilitative BCI in Acute Ischemic Stroke",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Stroke, Acute",
-        "last_update": "",
-        "start_date": "2021-01-16",
-        "url": "https://clinicaltrials.gov/study/NCT04704427"
-      },
-      {
-        "nct_id": "NCT05625022",
-        "title": "Lianhua Qingke for the Rehabilitation of Patient With Omicron Infection",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Coronavirus, Traditional Chinese Medicine",
-        "last_update": "",
-        "start_date": "2022-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT05625022"
-      },
-      {
-        "nct_id": "NCT07076966",
-        "title": "Comparison of Adenoma Detection Rate in 3D vs. 2D Surveillance Colonoscopy",
+        "nct_id": "NCT07359040",
+        "title": "Mechanism of Enhanced Efficacy of Ivonescimab in Neoadjuvant Therapy for Non-Small Cell Lung Cancer",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Colonoscopy, Adenoma Detection Rate, Three Dimensional, Colon Polyps and Adenomas",
-        "last_update": "",
-        "start_date": "2024-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT07076966"
-      },
-      {
-        "nct_id": "NCT01910285",
-        "title": "Remifentanil Versus Sufentanil for Intubation Condition Without Myorelaxant",
-        "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "Anaesthetic Induction",
-        "last_update": "",
-        "start_date": "2013-06",
-        "url": "https://clinicaltrials.gov/study/NCT01910285"
-      },
-      {
-        "nct_id": "NCT06963827",
-        "title": "A Study of Mezagitamab in Adults With Kidney Condition Called IgA Nephropathy",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Kidney Disease",
-        "last_update": "",
-        "start_date": "2025-07-15",
-        "url": "https://clinicaltrials.gov/study/NCT06963827"
-      },
-      {
-        "nct_id": "NCT07051070",
-        "title": "Efficacy and Safety of Rituximab in the Treatment of Anti-Vimentin Antibody-associated Diseases",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Anti-Vimentin Antibody-associated Diseases, Meningoencephalomyelitis Associated With Vimentin IgG Autoantibodies",
+        "phase": "",
+        "conditions": "Non-Small Cell Lung Cancer, Neoadjuvant Therapy, PD-1 Inhibitors, Immunotherapy",
         "last_update": "",
         "start_date": "2025-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT07051070"
+        "url": "https://clinicaltrials.gov/study/NCT07359040"
       },
       {
-        "nct_id": "NCT06199505",
-        "title": "A Trial Comparing Efficacy and Safety of GZR101 and IDegAsp in Insulin Naïve or Insulin Treated Subjects with T2DM",
-        "status": "COMPLETED",
+        "nct_id": "NCT07090772",
+        "title": "The Effectiveness of Different Therapeutic Jaw Position Determining Methods in Repositioning Splint Therapy for Temporomandibular Joint Disk Displacement Without Reduction：A Randomized Controlled Clinical Trial",
+        "status": "ENROLLING_BY_INVITATION",
+        "phase": "NA",
+        "conditions": "Temporomandibular Disorder (TMD)",
+        "last_update": "",
+        "start_date": "2025-07-20",
+        "url": "https://clinicaltrials.gov/study/NCT07090772"
+      },
+      {
+        "nct_id": "NCT06564298",
+        "title": "A Study on the Combination of Sintilimab, Ramucirumab and Chemotherapy for First-line Treatment of Gastric Cancer With Liver Metastasis",
+        "status": "NOT_YET_RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Type 2 Diabetes",
+        "conditions": "Stomach Neoplasms",
         "last_update": "",
-        "start_date": "2023-11-21",
-        "url": "https://clinicaltrials.gov/study/NCT06199505"
+        "start_date": "2024-08",
+        "url": "https://clinicaltrials.gov/study/NCT06564298"
       },
       {
-        "nct_id": "NCT06184542",
-        "title": "Phase I Clinical Trial of Diphtheria-Tetanus-acellular Pertussis Component Combined Vaccine",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Diphtheria, Tetanus, Pertussis",
+        "nct_id": "NCT06966765",
+        "title": "Accelerated vs Standard Approach to Continuous Veno-venous Hemodiafiltration Post-hemoperfusion (ASAP) in Severe Acute Diquat Poisoning",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Diquat Poisoning",
         "last_update": "",
-        "start_date": "2023-12-23",
-        "url": "https://clinicaltrials.gov/study/NCT06184542"
+        "start_date": "2027-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06966765"
+      },
+      {
+        "nct_id": "NCT03265145",
+        "title": "Assessment In a Real World Setting of the Effect of Inhaled Steroid-based Triple Therapy Versus the Combination of Tiotropium and Olodaterol on Reducing Chronic Obstructive Pulmonary Disease (COPD) Exacerbations [AIRWISE]",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Pulmonary Disease, Chronic Obstructive",
+        "last_update": "",
+        "start_date": "2017-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT03265145"
+      },
+      {
+        "nct_id": "NCT07253181",
+        "title": "Tenecteplase Before Interhospital Transfer for EVT in Acute Anterior Circulation LVO at 4.5-24 Hours",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Acute Ischemic Stroke, Large Vessel Occlusion, Transportation of Patients",
+        "last_update": "",
+        "start_date": "2026-01-06",
+        "url": "https://clinicaltrials.gov/study/NCT07253181"
+      },
+      {
+        "nct_id": "NCT07079228",
+        "title": "A Study to Compare QLS31905 and Chemotherapy With Placebo and Chemotherapy in Participants With Pancreatic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Pancreatic Cancer",
+        "last_update": "",
+        "start_date": "2025-09-08",
+        "url": "https://clinicaltrials.gov/study/NCT07079228"
+      },
+      {
+        "nct_id": "NCT03356444",
+        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Prostate Cancer, Castration-resistant Prostate Cancer, Drug",
+        "last_update": "",
+        "start_date": "2017-11",
+        "url": "https://clinicaltrials.gov/study/NCT03356444"
+      },
+      {
+        "nct_id": "NCT07242599",
+        "title": "Ongericimab Injection Reducing Recurrence of Ischemic Stroke",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Ischemic Cerebral Infarction",
+        "last_update": "",
+        "start_date": "2026-04-22",
+        "url": "https://clinicaltrials.gov/study/NCT07242599"
+      },
+      {
+        "nct_id": "NCT06781944",
+        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Primary Membranous Nephropathy",
+        "last_update": "",
+        "start_date": "2024-10-23",
+        "url": "https://clinicaltrials.gov/study/NCT06781944"
+      },
+      {
+        "nct_id": "NCT06341257",
+        "title": "Efficacy and Toxicity of SCART",
+        "status": "WITHDRAWN",
+        "phase": "NA",
+        "conditions": "Tumor Size Greater Than or Equal to 5 cm",
+        "last_update": "",
+        "start_date": "2024-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06341257"
       }
     ],
     "detected_triggers": [
@@ -719,114 +747,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Remifentanil Versus Sufentanil for Intubation Condition Without Myorelaxant",
+        "title": "Assessment In a Real World Setting of the Effect of Inhaled Steroid-based Triple Therapy Versus the Combination of Tiotropium and Olodaterol on Reducing Chronic Obstructive Pulmonary Disease (COPD) Exacerbations [AIRWISE]",
         "reason": "Studienregister-Treffer: COMPLETED PHASE4",
-        "source": "NCT01910285",
-        "date": "2013-06"
+        "source": "NCT03265145",
+        "date": "2017-09-20"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Icotinib With Concurrent Radiotherapy vs. Chemoradiotherapy in Non-small Cell Lung Cancer",
+        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT02407366",
-        "date": "2014-12"
+        "source": "NCT03356444",
+        "date": "2017-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Effects of Respiratory Training on Respiratory and Functional Performance in Patients With Stroke",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02726685",
-        "date": "2018-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Segmentectomy Versus Lobectomy for Lung Adenocarcinoma ≤ 2cm",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT04937283",
-        "date": "2019-10-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Rehabilitative BCI in Acute Ischemic Stroke",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT04704427",
-        "date": "2021-01-16"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Lianhua Qingke for the Rehabilitation of Patient With Omicron Infection",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05625022",
-        "date": "2022-11-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "HRYZ-T101 TCR-T Cell for HPV-18 Positive Advanced Solid Tumor",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT05787535",
-        "date": "2023-03-21"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Trial Comparing Efficacy and Safety of GZR101 and IDegAsp in Insulin Naïve or Insulin Treated Subjects with T2DM",
+        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT06199505",
-        "date": "2023-11-21"
+        "source": "NCT05981924",
+        "date": "2023-08-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Phase I Clinical Trial of Diphtheria-Tetanus-acellular Pertussis Component Combined Vaccine",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT06184542",
-        "date": "2023-12-23"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Comparison of Adenoma Detection Rate in 3D vs. 2D Surveillance Colonoscopy",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07076966",
+        "title": "Efficacy and Toxicity of SCART",
+        "reason": "Studienregister-Treffer: WITHDRAWN NA",
+        "source": "NCT06341257",
         "date": "2024-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Liposomal Irinotecan Combined with Sintilimab for Second-line Treatment of Progressive Gastric Cancer",
+        "title": "A Study on the Combination of Sintilimab, Ramucirumab and Chemotherapy for First-line Treatment of Gastric Cancer With Liver Metastasis",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT06697366",
-        "date": "2024-11-20"
+        "source": "NCT06564298",
+        "date": "2024-08"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of Rituximab in the Treatment of Anti-Vimentin Antibody-associated Diseases",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
-        "source": "NCT07051070",
-        "date": "2025-07-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study of Mezagitamab in Adults With Kidney Condition Called IgA Nephropathy",
+        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
         "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06963827",
-        "date": "2025-07-15"
+        "source": "NCT06781944",
+        "date": "2024-10-23"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07144423",
-        "date": "2025-11-19"
+        "title": "Neoadjuvant Therapy （NALIRIFOX） for Locally Advanced Colon and Upper Rectal Cancer",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE4",
+        "source": "NCT07020468",
+        "date": "2025-05-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The Effectiveness of Different Therapeutic Jaw Position Determining Methods in Repositioning Splint Therapy for Temporomandibular Joint Disk Displacement Without Reduction：A Randomized Controlled Clinical Trial",
+        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION NA",
+        "source": "NCT07090772",
+        "date": "2025-07-20"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Compare QLS31905 and Chemotherapy With Placebo and Chemotherapy in Participants With Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07079228",
+        "date": "2025-09-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Tenecteplase Before Interhospital Transfer for EVT in Acute Anterior Circulation LVO at 4.5-24 Hours",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07253181",
+        "date": "2026-01-06"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -858,6 +854,14 @@
         "title": "6-K · 2026-04-22",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
+        "date": "2026-04-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Ongericimab Injection Reducing Recurrence of Ischemic Stroke",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
+        "source": "NCT07242599",
         "date": "2026-04-22"
       },
       {
@@ -918,11 +922,27 @@
       },
       {
         "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Accelerated vs Standard Approach to Continuous Veno-venous Hemodiafiltration Post-hemoperfusion (ASAP) in Severe Acute Diquat Poisoning",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
+        "source": "NCT06966765",
+        "date": "2027-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Assessing Choice in the Employer Setting (ACES) Study",
+        "title": "Real World and Genomic Data Based Asthma Insight Through Network Analysis",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT00808808",
-        "date": "2008-09"
+        "source": "NCT06623435",
+        "date": "2019-11-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Mechanism of Enhanced Efficacy of Ivonescimab in Neoadjuvant Therapy for Non-Small Cell Lung Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT07359040",
+        "date": "2025-07-01"
       },
       {
         "type": "SEC Filing",
@@ -931,6 +951,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
