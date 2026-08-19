@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.48",
-      "note": "Auto-Update: -2.78% vs. vorheriger Schlusskurs",
+      "value": "$18.40",
+      "note": "Auto-Update: -3.22% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T07:13:58Z",
+    "last_update_utc": "2026-08-19T08:00:11Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.484,
+      "regularMarketPrice": 18.4,
       "previousClose": 19.012,
-      "change": -0.528,
-      "changePercent": -2.78,
-      "regularMarketTime": "2026-08-18T15:36:03Z",
+      "change": -0.612,
+      "changePercent": -3.22,
+      "regularMarketTime": "2026-08-19T07:43:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -243,9 +243,50 @@
       {
         "t": "2026-08-17T07:00:00Z",
         "price": 19.244
+      },
+      {
+        "t": "2026-08-19T07:00:00Z",
+        "price": 18.4
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-08-19T07:00:00Z",
+        "price": 18.358
+      },
+      {
+        "t": "2026-08-19T07:10:00Z",
+        "price": 18.4
+      },
+      {
+        "t": "2026-08-19T07:15:00Z",
+        "price": 18.398
+      },
+      {
+        "t": "2026-08-19T07:20:00Z",
+        "price": 18.422
+      },
+      {
+        "t": "2026-08-19T07:25:00Z",
+        "price": 18.408
+      },
+      {
+        "t": "2026-08-19T07:30:00Z",
+        "price": 18.436
+      },
+      {
+        "t": "2026-08-19T07:35:00Z",
+        "price": 18.428
+      },
+      {
+        "t": "2026-08-19T07:40:00Z",
+        "price": 18.414
+      },
+      {
+        "t": "2026-08-19T07:43:27Z",
+        "price": 18.4
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
