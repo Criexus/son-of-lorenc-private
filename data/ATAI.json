@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$7.33",
-      "note": "Auto-Update: 1.38% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 1.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T17:16:41Z",
+    "last_update_utc": "2026-08-19T17:46:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.33,
+      "regularMarketPrice": 7.325,
       "previousClose": 7.23,
-      "change": 0.1,
-      "changePercent": 1.38,
-      "regularMarketTime": "2026-08-19T17:16:23Z",
+      "change": 0.095,
+      "changePercent": 1.31,
+      "regularMarketTime": "2026-08-19T17:46:08Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -416,7 +416,7 @@
       },
       {
         "t": "2026-08-19T13:30:00Z",
-        "price": 7.33
+        "price": 7.325
       }
     ],
     "price_history_1d": [
@@ -602,11 +602,35 @@
       },
       {
         "t": "2026-08-19T17:15:00Z",
+        "price": 7.33
+      },
+      {
+        "t": "2026-08-19T17:20:00Z",
         "price": 7.325
       },
       {
-        "t": "2026-08-19T17:16:23Z",
+        "t": "2026-08-19T17:25:00Z",
+        "price": 7.325
+      },
+      {
+        "t": "2026-08-19T17:30:00Z",
         "price": 7.33
+      },
+      {
+        "t": "2026-08-19T17:35:00Z",
+        "price": 7.325
+      },
+      {
+        "t": "2026-08-19T17:40:00Z",
+        "price": 7.33
+      },
+      {
+        "t": "2026-08-19T17:45:00Z",
+        "price": 7.33
+      },
+      {
+        "t": "2026-08-19T17:46:08Z",
+        "price": 7.325
       }
     ],
     "price_history_range": "1mo",
@@ -616,6 +640,22 @@
         "title": "Atai-Aktie erreicht 52-Wochen-Hoch von 7,26 $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYUlRVUprNjFkZWJVdFBndU5jMHlGZXhwSnZBWFRiazlmT0EtM0RuNFhrbWtCVHBSMnBiZmlVcDRHdkNtVDF3dm1NZHg5aWNkaDJHQUFtY3FROVo4UXJfcEhPQnlaNzlUbFl6ZFpJb1NHYWN2c3hJcmdDZWRDM2ViaFlzSjZXU2dxMEZ1MGJKVS1xcDZUOFZkT2hyWmk?oc=5",
         "published_at": "2026-08-14T14:34:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Deutsche Bank stuft Atai-Aktie aufgrund der Lilly-Übernahmekonditionen herab - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaWxFQkZ1VWVNVFQ4RU9lZWNYeEpBNy1XeTh4Uy1Dc0kzSWtjYWdfYm9xZXBwWnZjS1lZWm5aZFhoNEpka0NEQlB0QUdoUWFOUGR3WFR4UFBnTXJEZ0UtbUpOOVd1YnZZcXZwVFRzWUlkUUNnMTJOakFYWDQybW5OcWxXYWo1TEs1Y0tBTlVkY3NONmlJSGdXSlhfUkRLRVRNSFpQUk1NMHNIZG9GdHRxWk1lMVlWZ05YZDJCT3Z0LU5aRTk1US1EcEpXeW5JQQ?oc=5",
+        "published_at": "2026-08-12T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
@@ -709,22 +749,6 @@
         "relevance_score": 17
       },
       {
-        "title": "AtaiBeckley nach Lilly-Deal: H.C. Wainwright, Berenberg & Co senken Ra - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcU03RFVIN19WNGdrSkg2NjIxUFVCSG1ZcXo4NFFNWk5nYTBZSVh1dGZIUTd1SjFDQmdlQno5dXViZVl4TkpWenU3VUxqWFdKc3RwRDZxTkg5NmYyenlLM3drbF9LVUp6eGFza2dwWmxMampoVHFvMU9lSGVlb0RXNXJ5N0ZadlJwYkl0SzI0WnVLSzBVczRSa0cxOVJBRi1WUGJJUC1PVjNxeFo0elp1S0JqZ2JQdWMzenlGajNpbw?oc=5",
-        "published_at": "2026-07-20T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Partnerschaft / Deal",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Partnerschaft / Deal.",
-        "impact": "möglicher Validierungs-Trigger",
-        "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
-        "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "summary": "Trigger erkannt: Partnerschaft / Deal. Einordnung: Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen. Beobachten: Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "relevance_score": 15
-      },
-      {
         "title": "Atai Beckley Aktie: Eli Lilly zahlt 6,75 Dollar - Kapitalmarktexperten",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUUNDMU1LcHJTdVMxMDJzZGdIaG95TDZGdHpMVUJSQjRwSjV1a2JFdXJYQUx2WUROMkpucEwwbFhtZmE1NXY3bnpKMURONk9NY1ZYTGpINS0xVEU3cUY3eHBqb1Jib3J3dlZwaXcwQ0VyODk5ZE9XaTc0WFZKOEZTbnoxTjU2ZmRaMHc?oc=5",
         "published_at": "2026-07-19T19:28:04Z",
@@ -757,10 +781,10 @@
         "relevance_score": 18
       },
       {
-        "title": "Dicke Hot-Stock-Überraschung: All for one Group und AtaiBeckley feiern Aktien-Deals – 400 Prozent! - deraktionaer.de",
+        "title": "Dicke Hot-Stock-Überraschung: All for one Group und AtaiBeckley feiern Aktien-Deals – 400 Prozent! - Der Aktionär",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZUhKd0Q2ODhhTnN1OTI4RkFVZklxcFhLQjVCTUF5Zm9HVHk0OHZCWXBSYWk0RjdCSVdPNmx4cDU0RHpUTWUxZlRHVE9sQ1NPb2Zua0pkNnZSQzVxZjhRVkVuSFh2NTVWQWtvdlJIZG05Z1R4YVh1anQ3ZlFxd1lZSTB1SEFaMlRzSkhhQlUxc1B0SnYyaGxxdTZSZDdzLTVhMXlEeVpVb29PZ3V4c1hfdzZZRE1jME9lQ2RNaGJ0Skg3eExDLWZiZEo5akxtY19mSzh2TXJfTjVkTG9tcTh1bDdYRndqb1U?oc=5",
         "published_at": "2026-07-17T07:00:00Z",
-        "source": "deraktionaer.de",
+        "source": "Der Aktionär",
         "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Partnerschaft / Deal",
@@ -821,10 +845,10 @@
         "relevance_score": 17
       },
       {
-        "title": "AtaiBeckley: Eli Lilly kauft Psychedelika-Entwickler von Christian Angermayer - Manager Magazin",
+        "title": "AtaiBeckley: Eli Lilly kauft Psychedelika-Entwickler von Christian Angermayer - manager-magazin.de",
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR1lTLWptLWZ5QWxnUEE4cm9vX3ozc0E1ekJwbjRqMGlrcnhHNGE4VUJLMkJxTHBtTnZCTjh1YjNLcUMxSlV4Z0tNZVdQQklzcUlNU3ZieGVTWjE1T0Q2YXpyLUZWSjJYbExFZWwwWEd5MWI2S1habTJJbUF5OEhYaU9rMDhGaldTR0VmSmlkeXFGc3dnMG1wc1lyOUtmZ3RlbXJYVHFkTlNmNmFWd2diVXZzT1BKMWpzaGJaN1c3WHQzdWtEcTJXZmFvVVAyb3BEMEVaSWNyZThVWktSaFpmTHRkZ1ZYMjY4YVhzNnlva1QtQXFxd3RiaA?oc=5",
         "published_at": "2026-07-16T07:00:00Z",
-        "source": "Manager Magazin",
+        "source": "manager-magazin.de",
         "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1065,7 +1089,7 @@
         "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMFlqRDl0UUt4bThtM0kzQm1XbVoyZFFKaVJaVy1MYXdzd2JyNWxkWnVCSExNVVdiOUhrNnZaMmR6NHpPeXkydGlTMnY1Vm5NQUN4YVJRWTZfTGNjVm5NaWFncnhIYXk5Z0FNQUNPcTF2VHQ0a1BfV3RtVG1CNWZodWxtZXBuTWlhNGs2TU1pSkw1VnNqVF9LaDNRQ0lXcHhOaThEbDVCZ0lEYWJRdEh4NjZZaEt0VzZmazdVQUpkRFFzUjh3VFQ4ckp4MzUtZDBVdVRkR1JCUjQ5U29HQ2RSSlVqN2hHZjZldUgwUQ?oc=5",
         "published_at": "2026-05-13T07:00:00Z",
         "source": "FinanzNachrichten.de",
-        "query": "ATAI stock news",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1074,7 +1098,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
+        "relevance_score": 15
       },
       {
         "title": "AtaiBeckley: BPL-003 Phase 3 im Q2 2026 - Börse Express",
@@ -1549,12 +1573,12 @@
       {
         "type": "Partnerschaft / Deal",
         "level": "medium",
-        "title": "Dicke Hot-Stock-Überraschung: All for one Group und AtaiBeckley feiern Aktien-Deals – 400 Prozent! - deraktionaer.de",
+        "title": "Dicke Hot-Stock-Überraschung: All for one Group und AtaiBeckley feiern Aktien-Deals – 400 Prozent! - Der Aktionär",
         "reason": "Trigger erkannt: Partnerschaft / Deal.",
         "impact": "möglicher Validierungs-Trigger",
         "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
         "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "source": "deraktionaer.de",
+        "source": "Der Aktionär",
         "date": "2026-07-17T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZUhKd0Q2ODhhTnN1OTI4RkFVZklxcFhLQjVCTUF5Zm9HVHk0OHZCWXBSYWk0RjdCSVdPNmx4cDU0RHpUTWUxZlRHVE9sQ1NPb2Zua0pkNnZSQzVxZjhRVkVuSFh2NTVWQWtvdlJIZG05Z1R4YVh1anQ3ZlFxd1lZSTB1SEFaMlRzSkhhQlUxc1B0SnYyaGxxdTZSZDdzLTVhMXlEeVpVb29PZ3V4c1hfdzZZRE1jME9lQ2RNaGJ0Skg3eExDLWZiZEo5akxtY19mSzh2TXJfTjVkTG9tcTh1bDdYRndqb1U?oc=5"
       },
@@ -1569,18 +1593,6 @@
         "source": "Kapitalmarktexperten",
         "date": "2026-07-20T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEU0YWJPaW1lOTZPVFQ1NUlOcmFQMTdXV0ZmNy1SczFXc3F3elNKRUI4VFdIc2NhTXU1Y3ZFZEtZVUliNkpkT2VlX3hXc1RubmZydjFpclM2VzE3d1lJdnJEdzRSSTBaLUo4QUxkcUVZSWtKd0FnMmxoQmdaQWFxdDFsRjcxWDlqQ0tVQjJSLTFxUQ?oc=5"
-      },
-      {
-        "type": "Partnerschaft / Deal",
-        "level": "medium",
-        "title": "AtaiBeckley nach Lilly-Deal: H.C. Wainwright, Berenberg & Co senken Ra - Goldesel.de",
-        "reason": "Trigger erkannt: Partnerschaft / Deal.",
-        "impact": "möglicher Validierungs-Trigger",
-        "assessment": "Partnerschaften, Lizenzdeals oder strategische Kombinationen können die Pipeline validieren. Entscheidend ist, ob echtes Kapital, Meilensteinzahlungen oder nur eine unverbindliche Kooperation dahinterstehen.",
-        "watch": "Upfront-Zahlungen, Meilensteine, Exklusivität, Rechteverteilung und betroffene Programme prüfen.",
-        "source": "Goldesel.de",
-        "date": "2026-07-20T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcU03RFVIN19WNGdrSkg2NjIxUFVCSG1ZcXo4NFFNWk5nYTBZSVh1dGZIUTd1SjFDQmdlQno5dXViZVl4TkpWenU3VUxqWFdKc3RwRDZxTkg5NmYyenlLM3drbF9LVUp6eGFza2dwWmxMampoVHFvMU9lSGVlb0RXNXJ5N0ZadlJwYkl0SzI0WnVLSzBVczRSa0cxOVJBRi1WUGJJUC1PVjNxeFo0elp1S0JqZ2JQdWMzenlGajNpbw?oc=5"
       },
       {
         "type": "Partnerschaft / Deal",
@@ -1633,6 +1645,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-09"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-07-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-16"
       },
       {
         "type": "SEC Filing",
