@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.04",
-      "note": "Auto-Update: -2.3% vs. vorheriger Schlusskurs",
+      "value": "$4.03",
+      "note": "Auto-Update: -2.42% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T17:47:57Z",
+    "last_update_utc": "2026-08-19T18:18:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.035,
+      "regularMarketPrice": 4.03,
       "previousClose": 4.13,
-      "change": -0.095,
-      "changePercent": -2.3,
-      "regularMarketTime": "2026-08-19T17:46:23Z",
+      "change": -0.1,
+      "changePercent": -2.42,
+      "regularMarketTime": "2026-08-19T18:13:02Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -243,6 +243,14 @@
       {
         "t": "2026-07-20T13:30:00Z",
         "price": 3.56
+      },
+      {
+        "t": "2026-07-21T13:30:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-07-22T13:30:00Z",
+        "price": 3.34
       },
       {
         "t": "2026-07-23T13:30:00Z",
@@ -266,6 +274,10 @@
       },
       {
         "t": "2026-07-30T13:30:00Z",
+        "price": 3.6
+      },
+      {
+        "t": "2026-07-31T13:30:00Z",
         "price": 3.6
       },
       {
@@ -318,7 +330,7 @@
       },
       {
         "t": "2026-08-19T13:30:00Z",
-        "price": 4.035
+        "price": 4.03
       }
     ],
     "price_history_1d": [
@@ -383,8 +395,28 @@
         "price": 4.035
       },
       {
-        "t": "2026-08-19T17:46:23Z",
+        "t": "2026-08-19T17:45:00Z",
         "price": 4.035
+      },
+      {
+        "t": "2026-08-19T17:50:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-19T18:00:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-19T18:05:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-19T18:10:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-19T18:13:02Z",
+        "price": 4.03
       }
     ],
     "price_history_range": "1mo",
