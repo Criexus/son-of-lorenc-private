@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.99",
-      "note": "Auto-Update: -1.58% vs. vorheriger Schlusskurs",
+      "value": "$13.97",
+      "note": "Auto-Update: -1.76% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T19:23:58Z",
+    "last_update_utc": "2026-08-19T19:46:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.995,
+      "regularMarketPrice": 13.97,
       "previousClose": 14.22,
-      "change": -0.225,
-      "changePercent": -1.58,
-      "regularMarketTime": "2026-08-19T19:23:43Z",
+      "change": -0.25,
+      "changePercent": -1.76,
+      "regularMarketTime": "2026-08-19T19:46:39Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-08-19T13:30:00Z",
-        "price": 13.995
+        "price": 13.97
       }
     ],
     "price_history_1d": [
@@ -707,11 +707,31 @@
       },
       {
         "t": "2026-08-19T19:20:00Z",
-        "price": 13.975
+        "price": 13.995
       },
       {
-        "t": "2026-08-19T19:23:43Z",
-        "price": 13.995
+        "t": "2026-08-19T19:25:00Z",
+        "price": 14.095
+      },
+      {
+        "t": "2026-08-19T19:30:00Z",
+        "price": 14.08
+      },
+      {
+        "t": "2026-08-19T19:35:00Z",
+        "price": 14.05
+      },
+      {
+        "t": "2026-08-19T19:40:00Z",
+        "price": 13.97
+      },
+      {
+        "t": "2026-08-19T19:45:00Z",
+        "price": 13.96
+      },
+      {
+        "t": "2026-08-19T19:46:39Z",
+        "price": 13.97
       }
     ],
     "price_history_range": "1mo",
@@ -882,7 +902,7 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTUYwcW9QQ0dySDVVWjNvMWg2cldxLU5xVE44b2FoRTlyNlhzcENHNEJmUzZQb0FOakdKQnAyR0MwbjlES1RZUnYwUkhZT01QVVhaaVFuUDBKSU1WYTZ6YnVZcjhMMVJyV3JVOXlhR1pCdjFOVmtlOW9VTTNZbFJHQTZKRHVEQXl6U2EyMEI1Z1hxRVRVdDJMTkl4TW9wRUw0bU9sUENId0JuT1NmSnZlYXdmOA?oc=5",
         "published_at": "2026-06-01T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
