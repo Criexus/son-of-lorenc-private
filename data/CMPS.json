@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.87",
-      "note": "Auto-Update: -2.5% vs. vorheriger Schlusskurs",
+      "value": "$13.80",
+      "note": "Auto-Update: -2.95% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T14:59:05Z",
+    "last_update_utc": "2026-08-19T15:28:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.865,
+      "regularMarketPrice": 13.8,
       "previousClose": 14.22,
-      "change": -0.355,
-      "changePercent": -2.5,
-      "regularMarketTime": "2026-08-19T14:58:14Z",
+      "change": -0.42,
+      "changePercent": -2.95,
+      "regularMarketTime": "2026-08-19T15:28:11Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-08-19T13:30:00Z",
-        "price": 13.865
+        "price": 13.8
       }
     ],
     "price_history_1d": [
@@ -495,11 +495,35 @@
       },
       {
         "t": "2026-08-19T14:55:00Z",
-        "price": 13.83
+        "price": 13.84
       },
       {
-        "t": "2026-08-19T14:58:14Z",
-        "price": 13.865
+        "t": "2026-08-19T15:00:00Z",
+        "price": 13.86
+      },
+      {
+        "t": "2026-08-19T15:05:00Z",
+        "price": 13.88
+      },
+      {
+        "t": "2026-08-19T15:10:00Z",
+        "price": 13.87
+      },
+      {
+        "t": "2026-08-19T15:15:00Z",
+        "price": 13.88
+      },
+      {
+        "t": "2026-08-19T15:20:00Z",
+        "price": 13.8698
+      },
+      {
+        "t": "2026-08-19T15:25:00Z",
+        "price": 13.81
+      },
+      {
+        "t": "2026-08-19T15:28:11Z",
+        "price": 13.8
       }
     ],
     "price_history_range": "1mo",
@@ -682,6 +706,22 @@
         "relevance_score": 17
       },
       {
+        "title": "Compass Pathways: Aktie markiert neues 52-Wochen-Hoch bei 11,65 USD - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaklvWHJXU2o2NDJwa3NpRDNfMWNOSEpqMDhmQzJzWWMxN0hlazlHMEh5cGNwODRranl4UWM0ZDZtLXczUWZYYVE2aDNJV2RfYU11LUdkMjZQWTRmNjFSaER1RWRqZkM3eFFzTGRENk1aaklVSkFOeDBwVm94Zi1vMmJLZDJSdnZadkQ0cEp4T0dnZnJxQzZLQ3NlQjRTTnhZbVVXdkFRTEsyeUliUFpLRC14ekJjTXV2QWJJ?oc=5",
+        "published_at": "2026-05-21T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
         "title": "Compass Pathways: Rolling Review für COMP360 - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQmtQM3BKT2tXdXlYdWs0X1NVWWhUTkIzRmx6SUFFS215bjNYOG1yU041N1F3Q3BFUlJ4NlZHQ2JPdXdmS3ZJMHZMRlRPaWdQRkxPcU9lQ1dZYjNCb0VmNW4wM3hyREFLZk1CX1cwN3pHcXJqYWFieWtyQzBaWUJSVG12YmlMVUxuZHEtaFVDQ2p3LWZMejBoelQ2Yzg?oc=5",
         "published_at": "2026-05-19T07:00:00Z",
@@ -728,22 +768,6 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: Priority Voucher für COMP360 - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOejRSOXBOb29JN3d6d0ZTdW9jS1p6Mm84aGNLRnhtMXV1Z2tCWGVXTGNhX3dhRnRGOEdFa1Nxam8yc19Wck40TzNjUC1VNWlBT3VRekJta1hEOV9BOHl0cFF6Q25NTFlzdWNfdGdrYy12RHQ4ZW1fLXVTdXBod3pGZjZ5SUJEd3ViNmI3aHc1ZDIyNnZJMi1GOG9EclZta1E?oc=5",
-        "published_at": "2026-04-25T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 21
       },
       {
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
@@ -823,6 +847,22 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVVFUGZGZXRfa1BfQ3JrRDBPeWdEdExBRUJKNHRHUXpqQm5zUEJKdUhnUERVb1BKUWU1MU1zNjY1ekJhTHZTVVdEelFJZDE4YUlYalhBMUI5MnpFSHBYRkZXZ1hPeHZNOUtINjVkOUJGRHg4T0I2Y0ZUTWFSVjBDS3lQcGhlWHFiZ1V3X3pzQmRKWGpnU0xZT3poeUVidWM?oc=5",
+        "published_at": "2026-03-09T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
         "relevance_score": 17
       },
       {
@@ -1170,6 +1210,18 @@
     ],
     "detected_triggers": [
       {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "Compass Pathways Aktie: Fortschritte in Phase 3 - Börse Express",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "Börse Express",
+        "date": "2026-03-09T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVVFUGZGZXRfa1BfQ3JrRDBPeWdEdExBRUJKNHRHUXpqQm5zUEJKdUhnUERVb1BKUWU1MU1zNjY1ekJhTHZTVVdEelFJZDE4YUlYalhBMUI5MnpFSHBYRkZXZ1hPeHZNOUtINjVkOUJGRHg4T0I2Y0ZUTWFSVjBDS3lQcGhlWHFiZ1V3X3pzQmRKWGpnU0xZT3poeUVidWM?oc=5"
+      },
+      {
         "type": "FDA / Regulatorik",
         "level": "high",
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
@@ -1376,14 +1428,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-15"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-29",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-29"
       },
       {
         "type": "SEC Filing",
