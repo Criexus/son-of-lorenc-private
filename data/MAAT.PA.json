@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.31",
-      "note": "Auto-Update: 12.2% vs. vorheriger Schlusskurs",
+      "value": "$3.27",
+      "note": "Auto-Update: 10.85% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T09:55:48Z",
+    "last_update_utc": "2026-08-19T10:18:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 3.31,
+      "regularMarketPrice": 3.27,
       "previousClose": 2.95,
-      "change": 0.36,
-      "changePercent": 12.2,
-      "regularMarketTime": "2026-08-19T09:39:17Z",
+      "change": 0.32,
+      "changePercent": 10.85,
+      "regularMarketTime": "2026-08-19T10:00:03Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -191,6 +191,10 @@
         "price": 2.795
       },
       {
+        "t": "2026-07-31T07:00:00Z",
+        "price": 2.78
+      },
+      {
         "t": "2026-08-03T07:00:00Z",
         "price": 2.79
       },
@@ -240,7 +244,7 @@
       },
       {
         "t": "2026-08-19T07:00:00Z",
-        "price": 3.31
+        "price": 3.27
       }
     ],
     "price_history_1d": [
@@ -294,21 +298,37 @@
       },
       {
         "t": "2026-08-19T09:35:00Z",
-        "price": 3.33
+        "price": 3.31
       },
       {
-        "t": "2026-08-19T09:39:17Z",
-        "price": 3.31
+        "t": "2026-08-19T09:40:00Z",
+        "price": 3.28
+      },
+      {
+        "t": "2026-08-19T09:45:00Z",
+        "price": 3.29
+      },
+      {
+        "t": "2026-08-19T09:50:00Z",
+        "price": 3.32
+      },
+      {
+        "t": "2026-08-19T09:55:00Z",
+        "price": 3.285
+      },
+      {
+        "t": "2026-08-19T10:00:03Z",
+        "price": 3.27
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - t-online.de",
+        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - T-Online",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDhBY2YzUExFeWR0eW83b2ZnYWFtRHloOW9yQTVxQ2FabnF3MnlVSTRsenlTV0tZSmx3blNvSi1mX29uWlFweW1RRl9FWEFnSHU4RWdCVDNJNjFySUpHV2t5WmtRc1JEZjlSSEZNNFR1QUtRYUJ6MldyNzdSYjdDOHJlWkNtQnE2WG1EQzFiRm9TY3J4aFh4MUlDUzdGY0tuY21neTdlRkxwc2ZwZFpTM0V2bVpVQmVnM0U3NDRPS1dhZUhEQjNac29PcTBUX2VqVzdtcA?oc=5",
         "published_at": "2026-06-11T07:00:00Z",
-        "source": "t-online.de",
+        "source": "T-Online",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
