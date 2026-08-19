@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.39",
-      "note": "Auto-Update: -12.03% vs. vorheriger Schlusskurs",
+      "value": "$1.52",
+      "note": "Auto-Update: 1.33% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T13:22:19Z",
+    "last_update_utc": "2026-08-19T14:03:14Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.39,
-      "previousClose": 1.58,
-      "change": -0.19,
-      "changePercent": -12.03,
-      "regularMarketTime": "2026-08-18T20:00:01Z",
+      "regularMarketPrice": 1.52,
+      "previousClose": 1.5,
+      "change": 0.02,
+      "changePercent": 1.33,
+      "regularMarketTime": "2026-08-19T14:02:34Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -301,48 +301,44 @@
       {
         "t": "2026-08-18T13:30:00Z",
         "price": 1.39
+      },
+      {
+        "t": "2026-08-19T13:30:00Z",
+        "price": 1.5199
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-08-18T13:30:00Z",
+        "t": "2026-08-19T13:30:00Z",
+        "price": 1.34
+      },
+      {
+        "t": "2026-08-19T13:35:00Z",
+        "price": 1.301
+      },
+      {
+        "t": "2026-08-19T13:40:00Z",
+        "price": 1.35
+      },
+      {
+        "t": "2026-08-19T13:45:00Z",
+        "price": 1.37
+      },
+      {
+        "t": "2026-08-19T13:50:00Z",
+        "price": 1.4299
+      },
+      {
+        "t": "2026-08-19T13:55:00Z",
         "price": 1.43
       },
       {
-        "t": "2026-08-18T13:50:00Z",
-        "price": 1.5178
+        "t": "2026-08-19T14:00:00Z",
+        "price": 1.48
       },
       {
-        "t": "2026-08-18T14:25:00Z",
-        "price": 1.42
-      },
-      {
-        "t": "2026-08-18T14:45:00Z",
-        "price": 1.44
-      },
-      {
-        "t": "2026-08-18T15:25:00Z",
-        "price": 1.36
-      },
-      {
-        "t": "2026-08-18T16:55:00Z",
-        "price": 1.4001
-      },
-      {
-        "t": "2026-08-18T19:00:00Z",
-        "price": 1.3572
-      },
-      {
-        "t": "2026-08-18T19:25:00Z",
-        "price": 1.4
-      },
-      {
-        "t": "2026-08-18T19:55:00Z",
-        "price": 1.36
-      },
-      {
-        "t": "2026-08-18T20:00:00Z",
-        "price": 1.39
+        "t": "2026-08-19T14:02:34Z",
+        "price": 1.5199
       }
     ],
     "price_history_range": "1mo",
