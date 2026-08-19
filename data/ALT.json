@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.04",
-      "note": "Auto-Update: 3.58% vs. vorheriger Schlusskurs",
+      "value": "$3.08",
+      "note": "Auto-Update: 5.29% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-19T14:03:39Z",
+    "last_update_utc": "2026-08-19T14:59:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.035,
+      "regularMarketPrice": 3.085,
       "previousClose": 2.93,
-      "change": 0.105,
-      "changePercent": 3.58,
-      "regularMarketTime": "2026-08-19T14:03:27Z",
+      "change": 0.155,
+      "changePercent": 5.29,
+      "regularMarketTime": "2026-08-19T14:58:58Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-08-19T13:30:00Z",
-        "price": 3.035
+        "price": 3.0851
       }
     ],
     "price_history_1d": [
@@ -451,11 +451,55 @@
       },
       {
         "t": "2026-08-19T14:00:00Z",
+        "price": 3.02
+      },
+      {
+        "t": "2026-08-19T14:05:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-08-19T14:10:00Z",
+        "price": 3.0205
+      },
+      {
+        "t": "2026-08-19T14:15:00Z",
         "price": 3.035
       },
       {
-        "t": "2026-08-19T14:03:27Z",
-        "price": 3.035
+        "t": "2026-08-19T14:20:00Z",
+        "price": 3.04
+      },
+      {
+        "t": "2026-08-19T14:25:00Z",
+        "price": 3.055
+      },
+      {
+        "t": "2026-08-19T14:30:00Z",
+        "price": 3.045
+      },
+      {
+        "t": "2026-08-19T14:35:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-08-19T14:40:00Z",
+        "price": 3.05
+      },
+      {
+        "t": "2026-08-19T14:45:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-08-19T14:50:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-08-19T14:55:00Z",
+        "price": 3.0851
+      },
+      {
+        "t": "2026-08-19T14:59:05Z",
+        "price": 3.085
       }
     ],
     "price_history_range": "1mo",
@@ -494,10 +538,10 @@
         "relevance_score": 13
       },
       {
-        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
+        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - boerse-global.de",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
         "published_at": "2026-05-31T07:00:00Z",
-        "source": "Börse Global",
+        "source": "boerse-global.de",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
