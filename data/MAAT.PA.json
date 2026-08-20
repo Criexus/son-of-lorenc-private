@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.14",
-      "note": "Auto-Update: 8.65% vs. vorheriger Schlusskurs",
+      "value": "$3.15",
+      "note": "Auto-Update: 9.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-20T09:03:31Z",
+    "last_update_utc": "2026-08-20T09:57:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 3.14,
+      "regularMarketPrice": 3.15,
       "previousClose": 2.89,
-      "change": 0.25,
-      "changePercent": 8.65,
-      "regularMarketTime": "2026-08-20T08:41:07Z",
+      "change": 0.26,
+      "changePercent": 9.0,
+      "regularMarketTime": "2026-08-20T09:41:47Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -154,6 +154,10 @@
       "fiftyTwoWeekRange": "2.32 – 8.62"
     },
     "price_history": [
+      {
+        "t": "2026-07-20T07:00:00Z",
+        "price": 2.62
+      },
       {
         "t": "2026-07-21T07:00:00Z",
         "price": 2.765
@@ -240,7 +244,7 @@
       },
       {
         "t": "2026-08-20T07:00:00Z",
-        "price": 3.14
+        "price": 3.15
       }
     ],
     "price_history_1d": [
@@ -309,8 +313,36 @@
         "price": 3.19
       },
       {
-        "t": "2026-08-20T08:41:07Z",
+        "t": "2026-08-20T08:40:00Z",
         "price": 3.14
+      },
+      {
+        "t": "2026-08-20T08:50:00Z",
+        "price": 3.16
+      },
+      {
+        "t": "2026-08-20T09:05:00Z",
+        "price": 3.15
+      },
+      {
+        "t": "2026-08-20T09:15:00Z",
+        "price": 3.14
+      },
+      {
+        "t": "2026-08-20T09:20:00Z",
+        "price": 3.13
+      },
+      {
+        "t": "2026-08-20T09:25:00Z",
+        "price": 3.14
+      },
+      {
+        "t": "2026-08-20T09:30:00Z",
+        "price": 3.14
+      },
+      {
+        "t": "2026-08-20T09:41:47Z",
+        "price": 3.15
       }
     ],
     "price_history_range": "1mo",
