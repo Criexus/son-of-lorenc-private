@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-20T20:16:15Z",
+    "last_update_utc": "2026-08-20T20:52:41Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -305,10 +305,6 @@
       "fiftyTwoWeekRange": "2.53 – 5.45"
     },
     "price_history": [
-      {
-        "t": "2026-07-21T13:30:00Z",
-        "price": 3.4
-      },
       {
         "t": "2026-07-22T13:30:00Z",
         "price": 3.3
@@ -762,6 +758,22 @@
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "relevance_score": 23
+      },
+      {
+        "title": "Investor Alert: Securities Class Action Filed Against Rocket Pharmaceuticals (RCKT) - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMG1IZzl0QW1peGl3a0JZN0Z6UGlGbU0ybGtES255MG5nNEdUc19pZUZVQmxVVDhrY09tbWtkVWJHQk9aS002akpPRkhMaFFrU21COGtvanhZSmVVTzFLajBqU1l1UEZNTWZ6TkFsZmswVEdNWjNFV2gyLWU0REl2Qzhrd2hFcHN3Y2ZRcnZFVVAtMWFoRTMxUTVEN1VYbXJ6VlhaYVpjR3NhUElmZE4tLS1MYUZvMk1wS2d4UnRjSEZDQVhyLVFxMFY5QUdjSzRraXcxc1lZSDhKSFFlTVlYQVBGZ0kydnZjVWc?oc=5",
+        "published_at": "2025-07-23T07:00:00Z",
+        "source": "TradingView",
+        "query": "RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "relevance_score": 25
       },
       {
         "title": "BofA senkt Kursziel für Rocket Pharmaceuticals auf 32 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
@@ -1244,6 +1256,18 @@
         "date": "2022-10-03"
       },
       {
+        "type": "Konferenz / Präsentation",
+        "level": "low",
+        "title": "Investor Alert: Securities Class Action Filed Against Rocket Pharmaceuticals (RCKT) - TradingView",
+        "reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "source": "TradingView",
+        "date": "2025-07-23T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMG1IZzl0QW1peGl3a0JZN0Z6UGlGbU0ybGtES255MG5nNEdUc19pZUZVQmxVVDhrY09tbWtkVWJHQk9aS002akpPRkhMaFFrU21COGtvanhZSmVVTzFLajBqU1l1UEZNTWZ6TkFsZmswVEdNWjNFV2gyLWU0REl2Qzhrd2hFcHN3Y2ZRcnZFVVAtMWFoRTMxUTVEN1VYbXJ6VlhaYVpjR3NhUElmZE4tLS1MYUZvMk1wS2d4UnRjSEZDQVhyLVFxMFY5QUdjSzRraXcxc1lZSDhKSFFlTVlYQVBGZ0kydnZjVWc?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "BAG3-DCM Natural History Study",
@@ -1339,14 +1363,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "4 · 2026-08-13",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-13"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-08-13",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-13"
