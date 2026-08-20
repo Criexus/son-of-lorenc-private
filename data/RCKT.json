@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-20T11:49:25Z",
+    "last_update_utc": "2026-08-20T12:22:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -308,6 +308,10 @@
       {
         "t": "2026-07-20T13:30:00Z",
         "price": 3.43
+      },
+      {
+        "t": "2026-07-21T13:30:00Z",
+        "price": 3.4
       },
       {
         "t": "2026-07-22T13:30:00Z",
@@ -760,9 +764,9 @@
         "relevance_score": 23
       },
       {
-        "title": "JPMorgan stuft Rocket Pharmaceuticals auf neutral herab - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWdQb3pWSFJiQm1KQm1kQWNGMmZoM3ZrR3JUU0hub0x2ZFpCSzgwNHFpdV9sQTE5ZHJORy1ObkMwcjhBUFQxay1UdVhzOUtBS3V5NEZpOTdZTW1mWFY0NTRWaTNtbTNvMTAtRGFhSG9ISVBrODh2UWNRcFRxRUxDRVBFT3Q3ZEV0YUVUeEtfRzlKVVNIZFhwTDVLRzNJNGNHQXpMbHhvMURUQTU1QjYtNU1xZUY?oc=5",
-        "published_at": "2025-05-28T07:00:00Z",
+        "title": "BofA senkt Kursziel für Rocket Pharmaceuticals auf 32 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMng1b3lKUjVVYW9iR0hydElLQzNFbFktYng1OFkzVnZQaG5jVnRUQ0p0M0NObm5vSnVrcG9TeTlfVENZZGg4SXVONFBxNVNobWxUc3E4aFlTTW9EU1pqVVA4R2h6VGwwUG9jcXI3U1ZhbWtHb09lQlZzUl9fMFNwNWZ0aXdmZjJ4NGR6dDdFc0JxVXNWcmNUZWpXeS1qNEw4Rk4tcE1lNWoxazF1UWZWeHVqOTVJZ0NTbDVVUkFmdnduNGF6d2V2Y3JRWFFPUFptcGkxTWk0LVppdXpsRlJzNA?oc=5",
+        "published_at": "2025-05-27T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
@@ -781,22 +785,6 @@
         "published_at": "2025-05-27T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "BofA senkt Kursziel für Rocket Pharmaceuticals auf 32 US-Dollar, behält Kaufempfehlung bei - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMng1b3lKUjVVYW9iR0hydElLQzNFbFktYng1OFkzVnZQaG5jVnRUQ0p0M0NObm5vSnVrcG9TeTlfVENZZGg4SXVONFBxNVNobWxUc3E4aFlTTW9EU1pqVVA4R2h6VGwwUG9jcXI3U1ZhbWtHb09lQlZzUl9fMFNwNWZ0aXdmZjJ4NGR6dDdFc0JxVXNWcmNUZWpXeS1qNEw4Rk4tcE1lNWoxazF1UWZWeHVqOTVJZ0NTbDVVUkFmdnduNGF6d2V2Y3JRWFFPUFptcGkxTWk0LVppdXpsRlJzNA?oc=5",
-        "published_at": "2025-05-27T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT gene therapy FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -968,84 +956,24 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT02042534",
-        "title": "Rivaroxaban Versus Warfarin in Acute Ischemic Stroke With Atrial Fibrillation",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Ischemic Stroke, Transient Ischemic Attack",
-        "last_update": "",
-        "start_date": "2014-01",
-        "url": "https://clinicaltrials.gov/study/NCT02042534"
-      },
-      {
-        "nct_id": "NCT07667894",
-        "title": "Mindfulness Intervention for Emotional Distress (MIED) in Patients With GERD",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Gastroesophageal Reflux Disease, Emotional Distress",
-        "last_update": "",
-        "start_date": "2026-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT07667894"
-      },
-      {
-        "nct_id": "NCT01869504",
-        "title": "A Feasibility and Safety Study of the Use of a Dedicated Ballooned Intercostal Drain",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Pleural Effusion",
-        "last_update": "",
-        "start_date": "2014-02",
-        "url": "https://clinicaltrials.gov/study/NCT01869504"
-      },
-      {
-        "nct_id": "NCT07333053",
-        "title": "Clinical Efficacy of Transarterial Infusion Chemotherapy for Unresectable Colorectal Cancer",
+        "nct_id": "NCT05659901",
+        "title": "Rocket Study: A Study to Characterize Biomarkers and Disease Progression in Participants With Pelizaeus-Merzbacher Disease",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Unresectable Colorectal Cancer",
-        "last_update": "",
-        "start_date": "2026-03-20",
-        "url": "https://clinicaltrials.gov/study/NCT07333053"
-      },
-      {
-        "nct_id": "NCT03550690",
-        "title": "Quality of Life of Patients Who Have Rocket Indwelling Pleural Catheter Drainage or Repeated Large Volume Paracentesis",
-        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Ascites, Malignant",
+        "conditions": "Pelizaeus-Merzbacher Disease",
         "last_update": "",
-        "start_date": "2018-09",
-        "url": "https://clinicaltrials.gov/study/NCT03550690"
+        "start_date": "2022-10-03",
+        "url": "https://clinicaltrials.gov/study/NCT05659901"
       },
       {
-        "nct_id": "NCT04069533",
-        "title": "Lentiviral-mediated Gene Therapy for Pediatric Patients With Fanconi Anemia Subtype A",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Fanconi Anemia Complementation Group A",
-        "last_update": "",
-        "start_date": "2019-11-28",
-        "url": "https://clinicaltrials.gov/study/NCT04069533"
-      },
-      {
-        "nct_id": "NCT02096354",
-        "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
+        "nct_id": "NCT04105166",
+        "title": "Gene Therapy for Pyruvate Kinase Deficiency (PKD)",
         "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Colorectal Neoplasms",
+        "phase": "PHASE1",
+        "conditions": "Pyruvate Kinase Deficiency",
         "last_update": "",
-        "start_date": "2014-05",
-        "url": "https://clinicaltrials.gov/study/NCT02096354"
-      },
-      {
-        "nct_id": "NCT07097987",
-        "title": "Evaluation of the Efficacy of the Composite WM Formula in Promoting GLP-1 Secretion",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Obesity",
-        "last_update": "",
-        "start_date": "2026-04-15",
-        "url": "https://clinicaltrials.gov/study/NCT07097987"
+        "start_date": "2020-07-06",
+        "url": "https://clinicaltrials.gov/study/NCT04105166"
       },
       {
         "nct_id": "NCT05548855",
@@ -1058,54 +986,94 @@
         "url": "https://clinicaltrials.gov/study/NCT05548855"
       },
       {
-        "nct_id": "NCT05374785",
-        "title": "Efficacy and Safety Study Comparing CPL409116 to Placebo in Participants With Active Rheumatoid Arthritis",
+        "nct_id": "NCT07527975",
+        "title": "Long-Term Follow-up: Phase I/II Clinical Study to Evaluate the Safety and Efficacy of the Infusion of RP-L102",
+        "status": "ENROLLING_BY_INVITATION",
+        "phase": "",
+        "conditions": "Fanconi Anemia",
+        "last_update": "",
+        "start_date": "2022-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT07527975"
+      },
+      {
+        "nct_id": "NCT05885412",
+        "title": "A Phase 1, Dose Escalation Trial of RP-A601 in Subjects With PKP2 Variant-Mediated Arrhythmogenic Cardiomyopathy (PKP2-ACM)",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "PKP2 Arrhythmogenic Cardiomyopathy (PKP2-ACM)",
+        "last_update": "",
+        "start_date": "2023-08-29",
+        "url": "https://clinicaltrials.gov/study/NCT05885412"
+      },
+      {
+        "nct_id": "NCT07333053",
+        "title": "Clinical Efficacy of Transarterial Infusion Chemotherapy for Unresectable Colorectal Cancer",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Unresectable Colorectal Cancer",
+        "last_update": "",
+        "start_date": "2026-03-20",
+        "url": "https://clinicaltrials.gov/study/NCT07333053"
+      },
+      {
+        "nct_id": "NCT06224192",
+        "title": "A Study With Self-administered Rocatinlimab in Adolescent and Adult Participants With Moderate-to-severe Atopic Dermatitis",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Atopic Dermatitis",
+        "last_update": "",
+        "start_date": "2024-04-02",
+        "url": "https://clinicaltrials.gov/study/NCT06224192"
+      },
+      {
+        "nct_id": "NCT02096354",
+        "title": "A Phase 2 Randomized, Open-Label Study of RRx-001 vs Regorafenib in Subjects With Metastatic Colorectal Cancer",
         "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "Rheumatoid Arthritis",
+        "conditions": "Colorectal Neoplasms",
         "last_update": "",
-        "start_date": "2022-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT05374785"
+        "start_date": "2014-05",
+        "url": "https://clinicaltrials.gov/study/NCT02096354"
       },
       {
-        "nct_id": "NCT04525352",
-        "title": "A Trial to Evaluate Safety and Efficacy of RP-L401-0120 in Subjects With Infantile Malignant Osteopetrosis",
-        "status": "TERMINATED",
-        "phase": "PHASE1",
-        "conditions": "Infantile Malignant Osteopetrosis",
-        "last_update": "",
-        "start_date": "2020-11-19",
-        "url": "https://clinicaltrials.gov/study/NCT04525352"
-      },
-      {
-        "nct_id": "NCT03490994",
-        "title": "Rivaroxaban Once Daily Versus Dose-adjusted Vitamin K Antagonist on the Biomarkers in Acute Decompensated Heart Failure and Atrial Fibrillation (ROAD HF-AF)",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Acute Heart Failure",
-        "last_update": "",
-        "start_date": "2018-04-10",
-        "url": "https://clinicaltrials.gov/study/NCT03490994"
-      },
-      {
-        "nct_id": "NCT00772902",
-        "title": "ROCKET II - Randomized Open Label Switch for Cholesterol Elevation on Kivexa + Kaletra Evaluation Trial",
+        "nct_id": "NCT01869504",
+        "title": "A Feasibility and Safety Study of the Use of a Dedicated Ballooned Intercostal Drain",
         "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "HIV-1",
+        "phase": "NA",
+        "conditions": "Pleural Effusion",
         "last_update": "",
-        "start_date": "2008-10",
-        "url": "https://clinicaltrials.gov/study/NCT00772902"
+        "start_date": "2014-02",
+        "url": "https://clinicaltrials.gov/study/NCT01869504"
       },
       {
-        "nct_id": "NCT03766386",
-        "title": "The Natural History of Danon Disease",
+        "nct_id": "NCT02937974",
+        "title": "Evaluate the Efficacy of Xuebijing Injection in Acute Exacerbations of COPD",
         "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Danon Disease",
+        "phase": "PHASE4",
+        "conditions": "Pulmonary Disease, Chronic Obstructive",
         "last_update": "",
-        "start_date": "2018-11-30",
-        "url": "https://clinicaltrials.gov/study/NCT03766386"
+        "start_date": "2016-10",
+        "url": "https://clinicaltrials.gov/study/NCT02937974"
+      },
+      {
+        "nct_id": "NCT06282432",
+        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Leukocyte Adhesion Deficiency",
+        "last_update": "",
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT06282432"
+      },
+      {
+        "nct_id": "NCT03191305",
+        "title": "Comparison of the Efficacy of Rivroxaban to Coumadin( Warfarin ) in Cerebral Venous Thrombosis",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Cerebral Venous Thrombosis",
+        "last_update": "",
+        "start_date": "2017-08",
+        "url": "https://clinicaltrials.gov/study/NCT03191305"
       },
       {
         "nct_id": "NCT07486752",
@@ -1116,24 +1084,36 @@
         "last_update": "",
         "start_date": "2026-05",
         "url": "https://clinicaltrials.gov/study/NCT07486752"
+      },
+      {
+        "nct_id": "NCT00403767",
+        "title": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Atrial Fibrillation, Stroke, Embolism",
+        "last_update": "",
+        "start_date": "2006-12",
+        "url": "https://clinicaltrials.gov/study/NCT00403767"
+      },
+      {
+        "nct_id": "NCT07097987",
+        "title": "Evaluation of the Efficacy of the Composite WM Formula in Promoting GLP-1 Secretion",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Obesity",
+        "last_update": "",
+        "start_date": "2026-04-15",
+        "url": "https://clinicaltrials.gov/study/NCT07097987"
       }
     ],
     "detected_triggers": [
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "ROCKET II - Randomized Open Label Switch for Cholesterol Elevation on Kivexa + Kaletra Evaluation Trial",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
-        "source": "NCT00772902",
-        "date": "2008-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Rivaroxaban Versus Warfarin in Acute Ischemic Stroke With Atrial Fibrillation",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT02042534",
-        "date": "2014-01"
+        "title": "An Efficacy and Safety Study of Rivaroxaban With Warfarin for the Prevention of Stroke and Non-Central Nervous System Systemic Embolism in Patients With Non-Valvular Atrial Fibrillation",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00403767",
+        "date": "2006-12"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1154,34 +1134,42 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Rivaroxaban Once Daily Versus Dose-adjusted Vitamin K Antagonist on the Biomarkers in Acute Decompensated Heart Failure and Atrial Fibrillation (ROAD HF-AF)",
+        "title": "Evaluate the Efficacy of Xuebijing Injection in Acute Exacerbations of COPD",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT03490994",
-        "date": "2018-04-10"
+        "source": "NCT02937974",
+        "date": "2016-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Lentiviral-mediated Gene Therapy for Pediatric Patients With Fanconi Anemia Subtype A",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT04069533",
-        "date": "2019-11-28"
+        "title": "Comparison of the Efficacy of Rivroxaban to Coumadin( Warfarin ) in Cerebral Venous Thrombosis",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03191305",
+        "date": "2017-08"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Trial to Evaluate Safety and Efficacy of RP-L401-0120 in Subjects With Infantile Malignant Osteopetrosis",
-        "reason": "Studienregister-Treffer: TERMINATED PHASE1",
-        "source": "NCT04525352",
-        "date": "2020-11-19"
+        "title": "Gene Therapy for Pyruvate Kinase Deficiency (PKD)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT04105166",
+        "date": "2020-07-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety Study Comparing CPL409116 to Placebo in Participants With Active Rheumatoid Arthritis",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05374785",
-        "date": "2022-05-01"
+        "title": "A Phase 1, Dose Escalation Trial of RP-A601 in Subjects With PKP2 Variant-Mediated Arrhythmogenic Cardiomyopathy (PKP2-ACM)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT05885412",
+        "date": "2023-08-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study With Self-administered Rocatinlimab in Adolescent and Adult Participants With Moderate-to-severe Atopic Dermatitis",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT06224192",
+        "date": "2024-04-02"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1198,14 +1186,6 @@
         "reason": "Studienregister-Treffer: COMPLETED NA",
         "source": "NCT07097987",
         "date": "2026-04-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Mindfulness Intervention for Emotional Distress (MIED) in Patients With GERD",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07667894",
-        "date": "2026-07-01"
       },
       {
         "type": "SEC · Unternehmensereignis",
@@ -1234,18 +1214,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Quality of Life of Patients Who Have Rocket Indwelling Pleural Catheter Drainage or Repeated Large Volume Paracentesis",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT03550690",
-        "date": "2018-09"
+        "title": "Long-Term Follow-up: Phase I/II Clinical Study to Evaluate the Safety and Efficacy of the Infusion of RP-L102",
+        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION ",
+        "source": "NCT07527975",
+        "date": "2022-02-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "The Natural History of Danon Disease",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT03766386",
-        "date": "2018-11-30"
+        "title": "Long-Term Follow-Up (LTFU) for Gene Therapy of Leukocyte Adhesion Deficiency-I (LAD-I)",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT06282432",
+        "date": "2022-03-09"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1254,6 +1234,14 @@
         "reason": "Studienregister-Treffer: COMPLETED ",
         "source": "NCT05548855",
         "date": "2022-09-26"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Rocket Study: A Study to Characterize Biomarkers and Disease Progression in Participants With Pelizaeus-Merzbacher Disease",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT05659901",
+        "date": "2022-10-03"
       },
       {
         "type": "ClinicalTrials.gov",
