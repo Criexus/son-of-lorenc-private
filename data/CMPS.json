@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.90",
-      "note": "Auto-Update: 4.59% vs. vorheriger Schlusskurs",
+      "value": "$13.89",
+      "note": "Auto-Update: 4.51% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-20T14:06:11Z",
+    "last_update_utc": "2026-08-20T15:01:23Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.9,
+      "regularMarketPrice": 13.89,
       "previousClose": 13.29,
-      "change": 0.61,
-      "changePercent": 4.59,
-      "regularMarketTime": "2026-08-20T14:05:47Z",
+      "change": 0.6,
+      "changePercent": 4.51,
+      "regularMarketTime": "2026-08-20T15:01:06Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -425,7 +425,7 @@
       },
       {
         "t": "2026-08-20T13:30:00Z",
-        "price": 13.9
+        "price": 13.89
       }
     ],
     "price_history_1d": [
@@ -458,8 +458,56 @@
         "price": 13.9325
       },
       {
-        "t": "2026-08-20T14:05:47Z",
-        "price": 13.9
+        "t": "2026-08-20T14:05:00Z",
+        "price": 13.9169
+      },
+      {
+        "t": "2026-08-20T14:10:00Z",
+        "price": 14.0267
+      },
+      {
+        "t": "2026-08-20T14:15:00Z",
+        "price": 14.04
+      },
+      {
+        "t": "2026-08-20T14:20:00Z",
+        "price": 14.16
+      },
+      {
+        "t": "2026-08-20T14:25:00Z",
+        "price": 14.135
+      },
+      {
+        "t": "2026-08-20T14:30:00Z",
+        "price": 14.0549
+      },
+      {
+        "t": "2026-08-20T14:35:00Z",
+        "price": 14.0
+      },
+      {
+        "t": "2026-08-20T14:40:00Z",
+        "price": 13.94
+      },
+      {
+        "t": "2026-08-20T14:45:00Z",
+        "price": 13.908
+      },
+      {
+        "t": "2026-08-20T14:50:00Z",
+        "price": 13.87
+      },
+      {
+        "t": "2026-08-20T14:55:00Z",
+        "price": 13.9064
+      },
+      {
+        "t": "2026-08-20T15:00:00Z",
+        "price": 13.8963
+      },
+      {
+        "t": "2026-08-20T15:01:06Z",
+        "price": 13.89
       }
     ],
     "price_history_range": "1mo",
@@ -671,22 +719,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Starke Zahlen und FDA-Rückenwind: Aktie von Compass Pathways legt 8 % zu - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNXZfUFZETWxpbmhtcFVBdFNPbUJVNUlxWTNXejgyTkljSzJoRDZld3VtNjZoM1A4cmV2dXdMZHRiTVctREY0SXhkaFBsMFdueU9Sd0FMSVdRNC0zSGlSdzJYaDQwY25DTkhraFBJTkYzdVMzajRub0Z4UENHRkV1anN1OXI0Y2dITlhSSlF5UDVLUXpuckJWMDgtY1BaRXphR05ERUFuYXFoM29ya05NSlhpaTZRazQ0QzFHRFpB?oc=5",
-        "published_at": "2026-05-13T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 17
       },
       {
@@ -1154,18 +1186,6 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5"
       },
       {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "Starke Zahlen und FDA-Rückenwind: Aktie von Compass Pathways legt 8 % zu - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-05-13T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNXZfUFZETWxpbmhtcFVBdFNPbUJVNUlxWTNXejgyTkljSzJoRDZld3VtNjZoM1A4cmV2dXdMZHRiTVctREY0SXhkaFBsMFdueU9Sd0FMSVdRNC0zSGlSdzJYaDQwY25DTkhraFBJTkYzdVMzajRub0Z4UENHRkV1anN1OXI0Y2dITlhSSlF5UDVLUXpuckJWMDgtY1BaRXphR05ERUFuYXFoM29ya05NSlhpaTZRazQ0QzFHRFpB?oc=5"
-      },
-      {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
         "title": "S-3ASR · 2026-08-05",
@@ -1360,6 +1380,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-29"
       },
       {
         "type": "SEC Filing",
