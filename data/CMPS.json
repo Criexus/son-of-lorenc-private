@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.81",
-      "note": "Auto-Update: 3.91% vs. vorheriger Schlusskurs",
+      "value": "$13.98",
+      "note": "Auto-Update: 5.23% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-20T17:53:10Z",
+    "last_update_utc": "2026-08-20T18:21:30Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.81,
+      "regularMarketPrice": 13.985,
       "previousClose": 13.29,
-      "change": 0.52,
-      "changePercent": 3.91,
-      "regularMarketTime": "2026-08-20T17:52:52Z",
+      "change": 0.695,
+      "changePercent": 5.23,
+      "regularMarketTime": "2026-08-20T18:21:12Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -425,7 +425,7 @@
       },
       {
         "t": "2026-08-20T13:30:00Z",
-        "price": 13.81
+        "price": 13.985
       }
     ],
     "price_history_1d": [
@@ -639,32 +639,36 @@
       },
       {
         "t": "2026-08-20T17:50:00Z",
-        "price": 13.8337
+        "price": 13.7998
       },
       {
-        "t": "2026-08-20T17:52:52Z",
-        "price": 13.81
+        "t": "2026-08-20T17:55:00Z",
+        "price": 13.8201
+      },
+      {
+        "t": "2026-08-20T18:00:00Z",
+        "price": 13.86
+      },
+      {
+        "t": "2026-08-20T18:05:00Z",
+        "price": 13.8799
+      },
+      {
+        "t": "2026-08-20T18:10:00Z",
+        "price": 13.97
+      },
+      {
+        "t": "2026-08-20T18:15:00Z",
+        "price": 13.995
+      },
+      {
+        "t": "2026-08-20T18:21:12Z",
+        "price": 13.985
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "COMPASS Pathways auf Konferenz von Canaccord Genuity: Markteinführung von COMP360 im Fokus - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX2tVVmR6WXlJX2t3WVJKaG9uNXR4MmlOc0M2XzFvckxRVDcxVlJyeHgtRFJJSk9tM0VidTlZWmZDcDNoNmVWRjZzZDkxdXBoSGxoM0NDSV9wUU9DRjRhbHJ5X2xTbjFiaXMwT0k5d2JzYmlMTFR4cjJHZ1NiRXR0SnFZdWRxdUduX2ZnUUpvZkNBWlZIU1ROTndWdzJMdHV4WlN6cmhtQjJuVDdnazBvQWxXYWZkTXpXTnV6YUdyVWpUWlRsdUoxU1RWWFI3OVFxUDJySTNKREgydEM3?oc=5",
-        "published_at": "2026-08-12T13:25:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 21
-      },
       {
         "title": "Compass Pathways: 433 Mio. Dollar Kassenbestand sichern Finanzierung bis 2028 - it boltwise",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2Jhemw3cnpzejVhdWtBYmNtUGpWcnN4NEpORDR2SmRlQ2tabHBvcGJOZ1RSOXg3SVFsTlhFMkNtV0FLSXhSRHczQnZISE1vWHF5ZjgtMHVQZlFVbjdFRjNvOENoN3VIenlkUHVQbDVERldmcG5HRGpPVGd5UWM4VnJzeGNZOC1GZm5DazZIUHZaOUxDNUEyd1pPSkFTdHB0Z1VzNkw0dG9rVGc?oc=5",
