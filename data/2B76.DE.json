@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.47",
-      "note": "Auto-Update: -2.84% vs. vorheriger Schlusskurs",
+      "value": "$18.49",
+      "note": "Auto-Update: -2.75% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T10:04:32Z",
+    "last_update_utc": "2026-08-21T10:24:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.468,
+      "regularMarketPrice": 18.486,
       "previousClose": 19.008,
-      "change": -0.54,
-      "changePercent": -2.84,
-      "regularMarketTime": "2026-08-21T09:48:05Z",
+      "change": -0.522,
+      "changePercent": -2.75,
+      "regularMarketTime": "2026-08-21T10:04:08Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -250,7 +250,7 @@
       },
       {
         "t": "2026-08-21T07:00:00Z",
-        "price": 18.468
+        "price": 18.486
       }
     ],
     "price_history_1d": [
@@ -364,16 +364,37 @@
       },
       {
         "t": "2026-08-21T09:45:00Z",
-        "price": 18.454
+        "price": 18.468
       },
       {
-        "t": "2026-08-21T09:48:05Z",
+        "t": "2026-08-21T09:50:00Z",
         "price": 18.468
+      },
+      {
+        "t": "2026-08-21T10:04:08Z",
+        "price": 18.486
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
+        "published_at": "2019-01-08T08:47:34Z",
+        "source": "Comdirect",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 47
+      }
+    ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
