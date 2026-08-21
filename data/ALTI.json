@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.09",
-      "note": "Auto-Update: 2.0% vs. vorheriger Schlusskurs",
+      "value": "$4.07",
+      "note": "Auto-Update: 1.5% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T14:05:24Z",
+    "last_update_utc": "2026-08-21T15:01:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.09,
+      "regularMarketPrice": 4.07,
       "previousClose": 4.01,
-      "change": 0.08,
-      "changePercent": 2.0,
-      "regularMarketTime": "2026-08-21T13:59:14Z",
+      "change": 0.06,
+      "changePercent": 1.5,
+      "regularMarketTime": "2026-08-21T14:50:20Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-21T13:30:00Z",
-        "price": 4.09
+        "price": 4.07
       }
     ],
     "price_history_1d": [
@@ -347,8 +347,40 @@
         "price": 3.99
       },
       {
-        "t": "2026-08-21T13:59:14Z",
+        "t": "2026-08-21T13:55:00Z",
         "price": 4.09
+      },
+      {
+        "t": "2026-08-21T14:05:00Z",
+        "price": 4.105
+      },
+      {
+        "t": "2026-08-21T14:10:00Z",
+        "price": 4.07
+      },
+      {
+        "t": "2026-08-21T14:15:00Z",
+        "price": 4.08
+      },
+      {
+        "t": "2026-08-21T14:25:00Z",
+        "price": 4.075
+      },
+      {
+        "t": "2026-08-21T14:30:00Z",
+        "price": 4.075
+      },
+      {
+        "t": "2026-08-21T14:40:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-21T14:45:00Z",
+        "price": 4.07
+      },
+      {
+        "t": "2026-08-21T14:50:20Z",
+        "price": 4.07
       }
     ],
     "price_history_range": "1mo",
@@ -359,7 +391,7 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWttMjc5YV9wQ3FpSFU1dmdZVEh6VHoybHhzX1ZjYTBaVkJEOW5FUWN5dGJ4UWxsaGFvb2F2TGNoa1c1WjdBRG5hT1FPQ2JXM3VsNUdhaEdtZFFkLUJsbjk0OE5USUx0SURwMWdTcS13LVNjc2VtRzdRczQ2V3Q4SXBZa3ZVcGhOWFRfQ0VFUi1HV3B0dTNsMQ?oc=5",
         "published_at": "2024-07-25T07:00:00Z",
         "source": "TradingView",
-        "query": "ALTI stock news",
+        "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
