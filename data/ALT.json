@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.21",
-      "note": "Auto-Update: 9.18% vs. vorheriger Schlusskurs",
+      "value": "$3.19",
+      "note": "Auto-Update: 8.33% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T15:33:56Z",
+    "last_update_utc": "2026-08-21T16:19:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.21,
+      "regularMarketPrice": 3.185,
       "previousClose": 2.94,
-      "change": 0.27,
-      "changePercent": 9.18,
-      "regularMarketTime": "2026-08-21T15:33:46Z",
+      "change": 0.245,
+      "changePercent": 8.33,
+      "regularMarketTime": "2026-08-21T16:18:43Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -425,7 +425,7 @@
       },
       {
         "t": "2026-08-21T13:30:00Z",
-        "price": 3.21
+        "price": 3.185
       }
     ],
     "price_history_1d": [
@@ -527,16 +527,68 @@
       },
       {
         "t": "2026-08-21T15:30:00Z",
-        "price": 3.21
+        "price": 3.2
       },
       {
-        "t": "2026-08-21T15:33:46Z",
-        "price": 3.21
+        "t": "2026-08-21T15:35:00Z",
+        "price": 3.2201
+      },
+      {
+        "t": "2026-08-21T15:40:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-08-21T15:45:00Z",
+        "price": 3.2109
+      },
+      {
+        "t": "2026-08-21T15:50:00Z",
+        "price": 3.2192
+      },
+      {
+        "t": "2026-08-21T15:55:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-08-21T16:00:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-08-21T16:05:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-08-21T16:10:00Z",
+        "price": 3.1901
+      },
+      {
+        "t": "2026-08-21T16:15:00Z",
+        "price": 3.1991
+      },
+      {
+        "t": "2026-08-21T16:18:43Z",
+        "price": 3.185
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Altimmune Q2 übertrifft Erwartungen: Verlust je Aktie -0,12 USD, Phase-3-Start für MASH - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWE2QWpKREJObUFKTHlZalc0OVhUanF4ajgxTl9MWFlGSFo1bll5MmNveUxwX1R0MnVHWVowdHE5ZFowODBWbThZVnJCOHBFR2laeGdNUDVTYmFibXU4aDJwcmdxb0JVOG5xX1d0S1ViMTM2MUdFOG84V2FrSVl1RkVmOW45bGRBOExISmF0WmRCN0ZBT09BU1FTV2w0aHZzMG8xblhoUGNvNGtBMEtDYXNfZFB2QQ?oc=5",
+        "published_at": "2026-08-12T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "Altimmune ALT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 7
+      },
       {
         "title": "Altimmune Inc. Aktie News & Newsfeed - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAydmN6RE55ejhVczRyWkNZUG1xemlucHJXUlVWQUNGeTNON2t0NVZtbmR5YjRUVEoyREpEZDZMTndLSV9aRlJnSGZpSzB4LXJoYkE0M0NEWDcyRFZ5?oc=5",
@@ -683,8 +735,8 @@
       },
       {
         "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56bnFjalZEbTE5eFlYc1ZGbTVrN0FlQXVvMlhQT3paYkhyRWh5MDBVV29yYU1IS0dmOHYydXM5QXVZMW94UWJCTGZ1TUJhekxrY0xBWFdmSnRET3NzZ0pN?oc=5",
-        "published_at": "2023-05-08T20:47:10Z",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDUGkycWNKUG4yS3pjSW5oNlJQaDZfaUFaUzE3bUMxVmVZa3ZOVG9TQWs1MTBnSHdDRDdHOXE0bnV0bEpBQUtiTVR1dENVSDZ5UDJYcmpTV2ptaGJOYmhZ?oc=5",
+        "published_at": "2023-09-25T09:29:08Z",
         "source": "extraETF",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
@@ -1222,6 +1274,18 @@
         "date": "2026-08-12"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Altimmune Q2 übertrifft Erwartungen: Verlust je Aktie -0,12 USD, Phase-3-Start für MASH - Goldesel.de",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Goldesel.de",
+        "date": "2026-08-12T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWE2QWpKREJObUFKTHlZalc0OVhUanF4ajgxTl9MWFlGSFo1bll5MmNveUxwX1R0MnVHWVowdHE5ZFowODBWbThZVnJCOHBFR2laeGdNUDVTYmFibXU4aDJwcmdxb0JVOG5xX1d0S1ViMTM2MUdFOG84V2FrSVl1RkVmOW45bGRBOExISmF0WmRCN0ZBT09BU1FTV2w0aHZzMG8xblhoUGNvNGtBMEtDYXNfZFB2QQ?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
@@ -1241,14 +1305,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"

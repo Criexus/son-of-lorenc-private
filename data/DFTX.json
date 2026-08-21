@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$45.48",
-      "note": "Auto-Update: 6.69% vs. vorheriger Schlusskurs",
+      "value": "$45.44",
+      "note": "Auto-Update: 6.59% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T15:34:27Z",
+    "last_update_utc": "2026-08-21T16:19:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 45.48,
+      "regularMarketPrice": 45.44,
       "previousClose": 42.63,
-      "change": 2.85,
-      "changePercent": 6.69,
-      "regularMarketTime": "2026-08-21T15:33:20Z",
+      "change": 2.81,
+      "changePercent": 6.59,
+      "regularMarketTime": "2026-08-21T16:19:02Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -346,7 +346,7 @@
       },
       {
         "t": "2026-08-21T13:30:00Z",
-        "price": 45.48
+        "price": 45.44
       }
     ],
     "price_history_1d": [
@@ -448,11 +448,47 @@
       },
       {
         "t": "2026-08-21T15:30:00Z",
+        "price": 45.49
+      },
+      {
+        "t": "2026-08-21T15:35:00Z",
+        "price": 45.56
+      },
+      {
+        "t": "2026-08-21T15:40:00Z",
+        "price": 45.42
+      },
+      {
+        "t": "2026-08-21T15:45:00Z",
+        "price": 45.43
+      },
+      {
+        "t": "2026-08-21T15:50:00Z",
+        "price": 45.505
+      },
+      {
+        "t": "2026-08-21T15:55:00Z",
+        "price": 45.505
+      },
+      {
+        "t": "2026-08-21T16:00:00Z",
+        "price": 45.485
+      },
+      {
+        "t": "2026-08-21T16:05:00Z",
+        "price": 45.39
+      },
+      {
+        "t": "2026-08-21T16:10:00Z",
+        "price": 45.36
+      },
+      {
+        "t": "2026-08-21T16:15:00Z",
         "price": 45.44
       },
       {
-        "t": "2026-08-21T15:33:20Z",
-        "price": 45.48
+        "t": "2026-08-21T16:19:02Z",
+        "price": 45.44
       }
     ],
     "price_history_range": "1mo",
@@ -624,22 +660,6 @@
         "published_at": "2026-06-22T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DFTX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics: Oppenheimer erhöht Kursziel nach überzeugenden Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDViQm5BT1lUSWFSSWI5RHFiUzNaeXJQTHc0R2ZMMkZmQUdDRlJRTFJLNll3Y2o4MkFhUXpqSmNzRzhlcDVaaWlKMHBTM3ZvaDFHOUxITWhQZ1dsWFRkbW9nRnZBY2RFU2g2bS1xS2ZHSE14by04ZmlUOVVaS3dRdUdhUTRlU0dnQVVFRzlXUDBqVXEzS3hCN1BCQm1BT1BHZDVZdHVVcVBRZHk3d20wSk9ibTZCYk9vOXRLMzlNUDlOdWQ3TFBzQ3JtZUtpSkFLY0l4NWhYRQ?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DT120 topline",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
