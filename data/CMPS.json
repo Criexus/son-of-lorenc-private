@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.37",
-      "note": "Auto-Update: -0.63% vs. vorheriger Schlusskurs",
+      "value": "$13.48",
+      "note": "Auto-Update: 0.22% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T19:04:11Z",
+    "last_update_utc": "2026-08-21T19:44:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.365,
+      "regularMarketPrice": 13.48,
       "previousClose": 13.45,
-      "change": -0.085,
-      "changePercent": -0.63,
-      "regularMarketTime": "2026-08-21T19:03:56Z",
+      "change": 0.03,
+      "changePercent": 0.22,
+      "regularMarketTime": "2026-08-21T19:44:14Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -425,7 +425,7 @@
       },
       {
         "t": "2026-08-21T13:30:00Z",
-        "price": 13.365
+        "price": 13.48
       }
     ],
     "price_history_1d": [
@@ -698,8 +698,40 @@
         "price": 13.38
       },
       {
-        "t": "2026-08-21T19:03:56Z",
-        "price": 13.365
+        "t": "2026-08-21T19:05:00Z",
+        "price": 13.37
+      },
+      {
+        "t": "2026-08-21T19:10:00Z",
+        "price": 13.385
+      },
+      {
+        "t": "2026-08-21T19:15:00Z",
+        "price": 13.385
+      },
+      {
+        "t": "2026-08-21T19:20:00Z",
+        "price": 13.4536
+      },
+      {
+        "t": "2026-08-21T19:25:00Z",
+        "price": 13.445
+      },
+      {
+        "t": "2026-08-21T19:30:00Z",
+        "price": 13.475
+      },
+      {
+        "t": "2026-08-21T19:35:00Z",
+        "price": 13.45
+      },
+      {
+        "t": "2026-08-21T19:40:00Z",
+        "price": 13.48
+      },
+      {
+        "t": "2026-08-21T19:44:14Z",
+        "price": 13.48
       }
     ],
     "price_history_range": "1mo",
@@ -992,6 +1024,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "COMPASS PATHWAYS AKTIE | Aktienkurs | US20451W1018 | News | A2QCDR - finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0OUtuenN6Q29SS092dGdlU29sWGV1RFlBRHBkdTdhMjkxLUdIVGw2cmJkWWJ4UjFZd1BSMEg1TTFSWjdSTVlyWHlNTzcyWjBEVzIxUURqUTB1MDMwblpiN0kyeW4?oc=5",
+        "published_at": "2020-09-22T04:43:43Z",
+        "source": "finanzen.net",
+        "query": "CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 16
       }
     ],
     "sec_filings": [
