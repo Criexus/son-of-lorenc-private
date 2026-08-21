@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.12",
-      "note": "Auto-Update: 6.12% vs. vorheriger Schlusskurs",
+      "value": "$3.14",
+      "note": "Auto-Update: 6.84% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T17:53:07Z",
+    "last_update_utc": "2026-08-21T18:20:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.12,
+      "regularMarketPrice": 3.141,
       "previousClose": 2.94,
-      "change": 0.18,
-      "changePercent": 6.12,
-      "regularMarketTime": "2026-08-21T17:52:52Z",
+      "change": 0.201,
+      "changePercent": 6.84,
+      "regularMarketTime": "2026-08-21T18:20:29Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -425,7 +425,7 @@
       },
       {
         "t": "2026-08-21T13:30:00Z",
-        "price": 3.12
+        "price": 3.141
       }
     ],
     "price_history_1d": [
@@ -642,8 +642,28 @@
         "price": 3.12
       },
       {
-        "t": "2026-08-21T17:52:52Z",
+        "t": "2026-08-21T17:55:00Z",
         "price": 3.12
+      },
+      {
+        "t": "2026-08-21T18:00:00Z",
+        "price": 3.125
+      },
+      {
+        "t": "2026-08-21T18:05:00Z",
+        "price": 3.155
+      },
+      {
+        "t": "2026-08-21T18:10:00Z",
+        "price": 3.15
+      },
+      {
+        "t": "2026-08-21T18:15:00Z",
+        "price": 3.145
+      },
+      {
+        "t": "2026-08-21T18:20:29Z",
+        "price": 3.141
       }
     ],
     "price_history_range": "1mo",
@@ -686,22 +706,6 @@
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeGNQOUpNWVBHWFV2YUs5N1lZcXhSVk53WThtMHZQOG1OejIzcU5id3BRRVJPTGhaamZMTEZCYXlwX2xRQjI4dHdNSUlLcDlPbVlEQl8wRDZOVHJuYm13RVNpRnh1ektZc2x1SG16eFBoRXFadUJYQlpzeHVjNUxJZFQ0eFRWbmpFRmlVam9VN1BaWUZvaG9STHhibUFsY2cxRkRCazB3?oc=5",
         "published_at": "2026-06-30T07:00:00Z",
         "source": "Börse Express",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Altimmune Aktie: Phase-2b-Daten zu Pemvidutide vorgestellt - Börse Global",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT05SWkFmR3FRZ20zMFNONjl1VGxGMHZvWmxUQ1VmZzBHT3NvTy1xT0JnZnlORjhyZWhaLTR3LTctOTBfdXNrMkl6cEZsRHExQm5Xd202MmV5RG9sWUlSc1hUdTBFMHNFWk5NWEJVV3R6cGcyRUJDSWQyQ3BXT2pRcDJZcWJLN1R3R0Qxb2VPRmgzdGhtWWdQQw?oc=5",
-        "published_at": "2026-05-31T07:00:00Z",
-        "source": "Börse Global",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

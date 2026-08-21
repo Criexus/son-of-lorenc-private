@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.43",
-      "note": "Auto-Update: 2.41% vs. vorheriger Schlusskurs",
+      "value": "$7.42",
+      "note": "Auto-Update: 2.13% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T17:52:35Z",
+    "last_update_utc": "2026-08-21T18:20:12Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.435,
+      "regularMarketPrice": 7.415,
       "previousClose": 7.26,
-      "change": 0.175,
-      "changePercent": 2.41,
-      "regularMarketTime": "2026-08-21T17:52:07Z",
+      "change": 0.155,
+      "changePercent": 2.13,
+      "regularMarketTime": "2026-08-21T18:19:44Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -420,7 +420,7 @@
       },
       {
         "t": "2026-08-21T13:30:00Z",
-        "price": 7.435
+        "price": 7.415
       }
     ],
     "price_history_1d": [
@@ -637,8 +637,28 @@
         "price": 7.435
       },
       {
-        "t": "2026-08-21T17:52:07Z",
+        "t": "2026-08-21T17:55:00Z",
         "price": 7.435
+      },
+      {
+        "t": "2026-08-21T18:00:00Z",
+        "price": 7.415
+      },
+      {
+        "t": "2026-08-21T18:05:00Z",
+        "price": 7.41
+      },
+      {
+        "t": "2026-08-21T18:10:00Z",
+        "price": 7.415
+      },
+      {
+        "t": "2026-08-21T18:15:00Z",
+        "price": 7.415
+      },
+      {
+        "t": "2026-08-21T18:19:44Z",
+        "price": 7.415
       }
     ],
     "price_history_range": "1mo",
@@ -777,6 +797,22 @@
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUUNDMU1LcHJTdVMxMDJzZGdIaG95TDZGdHpMVUJSQjRwSjV1a2JFdXJYQUx2WUROMkpucEwwbFhtZmE1NXY3bnpKMURONk9NY1ZYTGpINS0xVEU3cUY3eHBqb1Jib3J3dlZwaXcwQ0VyODk5ZE9XaTc0WFZKOEZTbnoxTjU2ZmRaMHc?oc=5",
         "published_at": "2026-07-19T07:00:00Z",
         "source": "Kapitalmarktexperten",
+        "query": "ATAI EMP-01 VLS-01 FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Atai Beckley Aktie: Eli Lilly bietet 2,8 Milliarden - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaXJPNENkdHhJdUlnT2ZuTU02dmFUamxJcEhQczVMSGNEQjZJX25jV01RcUxvUTVXaDlMbXpCNXQwbEhHcHdENmZQNHRuUDdyNnVTY1luNW43bm9pbmtoYWg5eEdrUGVTbXVkRWNsY3RYMkZQTXVBaFVOTVZUMEVSVUlsRl9wcFgzWWZjXzJmMnptazE0MGJMQkF2dU01d0M5UWxj?oc=5",
+        "published_at": "2026-07-18T07:00:00Z",
+        "source": "Börse Express",
         "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1107,22 +1143,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 14
-      },
-      {
-        "title": "ATAI Life Sciences Aktie: Durchbruch bestätigt - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQalRFMTdiZjFoYXdMLXdHTktvZDlBaUJkdVd1UV9MNTFjaVNDVlE1XzFobm01OUFla2Z0ZXJzRF83MG1RbHNpN0VIdm9YMzVIVXM3ODE2eUhZNmltTkJNZXB5RmFxVEJYZXVJVkFWdkpEX3Uyb1ZGZG1HV3FGWW82VENCN2FMVldReEhlVFQ4M2dTV1d0d2d1MWkyTlF5Mms?oc=5",
-        "published_at": "2026-04-11T07:00:00Z",
-        "source": "Börse Express",
-        "query": "AtaiBeckley BPL-003 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       }
     ],
     "sec_filings": [
