@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.35",
-      "note": "Auto-Update: -3.47% vs. vorheriger Schlusskurs",
+      "value": "$18.45",
+      "note": "Auto-Update: -2.95% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-21T07:16:22Z",
+    "last_update_utc": "2026-08-21T08:03:36Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.348,
+      "regularMarketPrice": 18.448,
       "previousClose": 19.008,
-      "change": -0.66,
-      "changePercent": -3.47,
-      "regularMarketTime": "2026-08-20T15:35:54Z",
+      "change": -0.56,
+      "changePercent": -2.95,
+      "regularMarketTime": "2026-08-21T07:47:17Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -247,9 +247,54 @@
       {
         "t": "2026-08-19T07:00:00Z",
         "price": 18.466
+      },
+      {
+        "t": "2026-08-21T07:00:00Z",
+        "price": 18.448
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-08-21T07:05:00Z",
+        "price": 18.386
+      },
+      {
+        "t": "2026-08-21T07:10:00Z",
+        "price": 18.4
+      },
+      {
+        "t": "2026-08-21T07:15:00Z",
+        "price": 18.418
+      },
+      {
+        "t": "2026-08-21T07:20:00Z",
+        "price": 18.43
+      },
+      {
+        "t": "2026-08-21T07:25:00Z",
+        "price": 18.424
+      },
+      {
+        "t": "2026-08-21T07:30:00Z",
+        "price": 18.438
+      },
+      {
+        "t": "2026-08-21T07:35:00Z",
+        "price": 18.442
+      },
+      {
+        "t": "2026-08-21T07:40:00Z",
+        "price": 18.454
+      },
+      {
+        "t": "2026-08-21T07:45:00Z",
+        "price": 18.43
+      },
+      {
+        "t": "2026-08-21T07:47:17Z",
+        "price": 18.448
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
