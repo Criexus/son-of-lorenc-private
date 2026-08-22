@@ -191,7 +191,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-22T11:41:33Z",
+    "last_update_utc": "2026-08-22T12:15:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -415,6 +415,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
+      },
+      {
+        "title": "Biodexa Pharmaceuticals: Biodexa Hits Key Milestone For Its Type 1 Diabetes Candidate Tolimidone, Enrolls First Patient In Phase 2a Study - FinanzNachrichten.de",
+        "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOTXpiMFRsX1UwQXVmbU5PWEJ1cS15dG1Iem43a05Yd1hNclF5TWFMamdVb2VwSmxHNXZySjQ2UVFSZDdyVVU3THNnSzN5Z2ZlcndvQm1sTG5HYlp1TVgza1pxWTlUaW90VG4wUzFZTHdaNGd2Vmp1NFNXajdzYk41cWttQjZqakRPSW5SRF9ZbUVPRGJ1UUlwcmZvc2VydV9aSHBqZzNjWUxVY2pmUlRqS0x0Z3c5LVRMdm5MdlFJSktiYVo3LWh5OE8weWtjdXRxU0RNVEF3dG9KT09nQVBOMTYyWEROT1pyaldfY24xN1FMcEI4X1N4SnZIdjdQeEdvREtjYl9NbFg2R1ZGXzlGMERfd3lnRXF5blVXNTJiSGRVV2N4RjdTa1pWVFZPZw?oc=5",
+        "published_at": "2025-06-18T07:00:00Z",
+        "source": "FinanzNachrichten.de",
+        "query": "Biodexa Pharmaceuticals FDA",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 17
       }
     ],
     "sec_filings": [
@@ -602,6 +618,18 @@
       }
     ],
     "detected_triggers": [
+      {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "Biodexa Pharmaceuticals: Biodexa Hits Key Milestone For Its Type 1 Diabetes Candidate Tolimidone, Enrolls First Patient In Phase 2a Study - FinanzNachrichten.de",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "FinanzNachrichten.de",
+        "date": "2025-06-18T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOTXpiMFRsX1UwQXVmbU5PWEJ1cS15dG1Iem43a05Yd1hNclF5TWFMamdVb2VwSmxHNXZySjQ2UVFSZDdyVVU3THNnSzN5Z2ZlcndvQm1sTG5HYlp1TVgza1pxWTlUaW90VG4wUzFZTHdaNGd2Vmp1NFNXajdzYk41cWttQjZqakRPSW5SRF9ZbUVPRGJ1UUlwcmZvc2VydV9aSHBqZzNjWUxVY2pmUlRqS0x0Z3c5LVRMdm5MdlFJSktiYVo3LWh5OE8weWtjdXRxU0RNVEF3dG9KT09nQVBOMTYyWEROT1pyaldfY24xN1FMcEI4X1N4SnZIdjdQeEdvREtjYl9NbFg2R1ZGXzlGMERfd3lnRXF5blVXNTJiSGRVV2N4RjdTa1pWVFZPZw?oc=5"
+      },
       {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
