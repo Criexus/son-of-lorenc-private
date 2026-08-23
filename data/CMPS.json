@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-23T10:46:51Z",
+    "last_update_utc": "2026-08-23T11:11:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -751,6 +751,22 @@
         "published_at": "2026-07-29T07:00:00Z",
         "source": "Business Wire",
         "query": "COMPASS Pathways clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: Evercore stuft nach COMP006-Daten auf Outperform – Z - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY1QwbExtakZqUDcyTzY5MGMtUUlPSjhKYlFFbWwxc0tJbDF1ODBmZmN4bEotZUhXc1llV1dxaUJNVVZSU01ZRVpzM0UtTXZ5bDdsZDNvZ2RrYUMtQ0syNjlSZDdiMUlrRUJnTWxySUJXYnBmcUl6MXB0dlZySnBLaDlIZzZ2U2owaWJ3eHNtTUFIOEl6dERnMmMwOHRERFlWcE0za3ZXV2Y0V3Z5VU9CTkloUTRJUWNtLXI4Nm1qUGI3Zw?oc=5",
+        "published_at": "2026-07-08T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
