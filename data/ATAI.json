@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-23T04:07:22Z",
+    "last_update_utc": "2026-08-23T04:58:15Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -809,7 +809,7 @@
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtZVVVOUZhNnNpVTc5Q1gtMWVkMFRlYUxzb1BPM19hdldULXZ3eGJONThXMm5RTnFLVEVrRWlGbHBEZ2RNZUpYWndCSF83NXNZMVh4ZjdiMmxjUFJHV25N?oc=5",
         "published_at": "2026-07-30T05:30:59Z",
         "source": "Goldesel.de",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "query": "ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1145,7 +1145,7 @@
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR2VVekJMbVRhaVBGbExSZ0YwZ1Q1cmRuaHpOa0lGbTI5RmZGeGtjVlRoNTZScURJN3VDOHNDZV9kYjBfVzJZNFFjX1M1QXpfMVA0WXNuTlZvakNmTVNzejBkbVVHdUh3YnJjREp1YmtGMnloZGUzMVg1Zmw4SXZST3llRmdod1dKenlBSEZfaw?oc=5",
         "published_at": "2026-06-20T07:00:00Z",
         "source": "stock-world.de",
-        "query": "ATAI stock news",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -1205,19 +1205,19 @@
         "relevance_score": 19
       },
       {
-        "title": "Atai Beckley Aktie: 210 Millionen Dollar bis 2029 - stock-world.de",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWXFZZk9ZRkwzNUM2czFFMXM4eEJjbFlBNUE1azNyNWxPM29SWG94b0dKamJoRDhNLWtSNmxoUWNoRkFIbm9wTDlSc3Nlb0VyOGZISy1meHhTdi1YcUhJZTU1akczMTNYcG5NNjNObndHWVNHVUZjbmU2djg3RGZ6UlRB?oc=5",
-        "published_at": "2026-06-02T07:00:00Z",
-        "source": "stock-world.de",
-        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - Kapitalmarktexperten",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSU9iQTc5OS1NYzEwSE1SR1dpM1JwVlpCSGljRjl3Q3FSZ3AtTnAyUkRVanJwX0xsVGN3NTN6cGNSOEJxcThVdmlyWUhya05hWmZPQW9NZjhIbl91VUpMZlJjYTloSXZWRVB5ZzVkT3U1aVhiY3lyMW0wSVh6aTNCaE8wOE5OOGQ1VTJFTGN0em5MazhR?oc=5",
+        "published_at": "2026-05-24T07:00:00Z",
+        "source": "Kapitalmarktexperten",
+        "query": "AtaiBeckley BPL-003 phase 3",
         "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 17
       }
     ],
@@ -1633,6 +1633,18 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
+        "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - Kapitalmarktexperten",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Kapitalmarktexperten",
+        "date": "2026-05-24T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSU9iQTc5OS1NYzEwSE1SR1dpM1JwVlpCSGljRjl3Q3FSZ3AtTnAyUkRVanJwX0xsVGN3NTN6cGNSOEJxcThVdmlyWUhya05hWmZPQW9NZjhIbl91VUpMZlJjYTloSXZWRVB5ZzVkT3U1aVhiY3lyMW0wSVh6aTNCaE8wOE5OOGQ1VTJFTGN0em5MazhR?oc=5"
+      },
+      {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
         "title": "Atai Beckley Aktie: BPL-003 und VLS-01 Daten im Q4 2026 - stock-world.de",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
@@ -1737,14 +1749,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-09"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "DEFA14A · 2026-07-16",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-16"
       },
       {
         "type": "SEC Filing",
