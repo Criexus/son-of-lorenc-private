@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.45",
-      "note": "Auto-Update: -2.0% vs. vorheriger Schlusskurs",
+      "value": "$13.69",
+      "note": "Auto-Update: -0.22% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T15:07:00Z",
+    "last_update_utc": "2026-08-24T16:01:35Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.445,
+      "regularMarketPrice": 13.69,
       "previousClose": 13.72,
-      "change": -0.275,
-      "changePercent": -2.0,
-      "regularMarketTime": "2026-08-24T15:06:45Z",
+      "change": -0.03,
+      "changePercent": -0.22,
+      "regularMarketTime": "2026-08-24T16:00:10Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 13.445
+        "price": 13.69
       }
     ],
     "price_history_1d": [
@@ -499,11 +499,51 @@
       },
       {
         "t": "2026-08-24T15:05:00Z",
-        "price": 13.45
+        "price": 13.445
       },
       {
-        "t": "2026-08-24T15:06:45Z",
-        "price": 13.445
+        "t": "2026-08-24T15:10:00Z",
+        "price": 13.54
+      },
+      {
+        "t": "2026-08-24T15:15:00Z",
+        "price": 13.51
+      },
+      {
+        "t": "2026-08-24T15:20:00Z",
+        "price": 13.51
+      },
+      {
+        "t": "2026-08-24T15:25:00Z",
+        "price": 13.51
+      },
+      {
+        "t": "2026-08-24T15:30:00Z",
+        "price": 13.5282
+      },
+      {
+        "t": "2026-08-24T15:35:00Z",
+        "price": 13.595
+      },
+      {
+        "t": "2026-08-24T15:40:00Z",
+        "price": 13.59
+      },
+      {
+        "t": "2026-08-24T15:45:00Z",
+        "price": 13.64
+      },
+      {
+        "t": "2026-08-24T15:50:00Z",
+        "price": 13.57
+      },
+      {
+        "t": "2026-08-24T15:55:00Z",
+        "price": 13.6958
+      },
+      {
+        "t": "2026-08-24T16:00:10Z",
+        "price": 13.69
       }
     ],
     "price_history_range": "1mo",
@@ -530,7 +570,7 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMklpWkdyQVdFaDZKUjU5V2p4V2RiVldBUlZJa0ZOS1Jpa0p2cWxzT2w5OVl3ZDZuc1Q4b1VyNGtGMDkxNERzVmprcjJUcFk3MTlZc21XZVZmSm5XZlpNYmlfS09XX2V0TnhnTDdWdjhmWlBzX21SY29KRFNjbDlMOWVhTnQxbDREZjZEb2tIQXd5N2J6bUMxaVFqRmJBRTVDNmdVV3E0TExIUzJmQTdUTnFXNC1RalIzV2c?oc=5",
         "published_at": "2026-07-07T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -670,22 +710,6 @@
         "relevance_score": 17
       },
       {
-        "title": "Psychedelika vor Durchbruch: Kurssprung bei Compass Pathways und ein starkes Signal für TEQ Capital - FinanzNachrichten.de",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSElzbFFMM0RtVjN0VEFlaFVFc1hlYWlQdmJVbE1fUzhtdThEQml3bC1vemw4Vk1vOWtteHI0TDJ0SDFvQ1FCY3k3Um9wNmM4TTc0dzlSV05lTF9WeWtobHZvVk04czJjZF9HWnpOb3FlMHdtR3lUVkYyZHhNWFYxSDkyVDFubnhhYWJzZFBucGF3QTJmTlctTkhtVWtzQVI1ZnFhbU93Y3BuTEpfdlpLNFh3cnhhck9RTGRQeFhsc0NacVpPeTlHVm1XZkc0Rk9mM0FTbXFTQ29jZXRXbjFFTWJRdFhZb1EyTmZHaUZvT3VHYmFzNGNoYlJUazYwZw?oc=5",
-        "published_at": "2026-04-21T07:00:00Z",
-        "source": "FinanzNachrichten.de",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
@@ -802,6 +826,22 @@
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45UnVId215bmR1TFZtazJWbk13N2dTVkVuZlJJLWV2eHVMUDNQNVF0QTUtSTlnajRlckFNeHk4ZlEzNjBxM2pGdUlnSjNrdnhkRUFMNFNrYS10MmVqcm9LcHR1UFpmaGZWUTZBRmp1amJfRWM?oc=5",
         "published_at": "2020-09-24T11:33:47Z",
         "source": "Onvista",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "COMPASS PATHWAYS AKTIE | Aktienkurs | US20451W1018 | News | A2QCDR - finanzen.net",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0OUtuenN6Q29SS092dGdlU29sWGV1RFlBRHBkdTdhMjkxLUdIVGw2cmJkWWJ4UjFZd1BSMEg1TTFSWjdSTVlyWHlNTzcyWjBEVzIxUURqUTB1MDMwblpiN0kyeW4?oc=5",
+        "published_at": "2020-09-22T04:43:43Z",
+        "source": "finanzen.net",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

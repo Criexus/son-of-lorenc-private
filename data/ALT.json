@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.10",
-      "note": "Auto-Update: 3.5% vs. vorheriger Schlusskurs",
+      "value": "$3.11",
+      "note": "Auto-Update: 3.67% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T15:07:09Z",
+    "last_update_utc": "2026-08-24T16:01:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.105,
+      "regularMarketPrice": 3.11,
       "previousClose": 3.0,
-      "change": 0.105,
-      "changePercent": 3.5,
-      "regularMarketTime": "2026-08-24T15:06:20Z",
+      "change": 0.11,
+      "changePercent": 3.67,
+      "regularMarketTime": "2026-08-24T16:01:33Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 3.105
+        "price": 3.11
       }
     ],
     "price_history_1d": [
@@ -502,8 +502,52 @@
         "price": 3.105
       },
       {
-        "t": "2026-08-24T15:06:20Z",
+        "t": "2026-08-24T15:10:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T15:15:00Z",
+        "price": 3.1199
+      },
+      {
+        "t": "2026-08-24T15:20:00Z",
+        "price": 3.12
+      },
+      {
+        "t": "2026-08-24T15:25:00Z",
         "price": 3.105
+      },
+      {
+        "t": "2026-08-24T15:30:00Z",
+        "price": 3.1
+      },
+      {
+        "t": "2026-08-24T15:35:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-24T15:40:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T15:45:00Z",
+        "price": 3.125
+      },
+      {
+        "t": "2026-08-24T15:50:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-24T15:55:00Z",
+        "price": 3.105
+      },
+      {
+        "t": "2026-08-24T16:00:00Z",
+        "price": 3.105
+      },
+      {
+        "t": "2026-08-24T16:01:33Z",
+        "price": 3.11
       }
     ],
     "price_history_range": "1mo",
@@ -638,10 +682,26 @@
         "relevance_score": 6
       },
       {
-        "title": "Altimmune AKTIE | Aktienkurs & News | A2N5Z6 – boerse.de - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lclVNRlQ3UEE2Skd3a2paNDNDa0lMRlRjc05Cc2VLdFd1YlNHYWstTTJiTVBBRDVHMUIyRlozTURFYnJCN3lNUXdmQXV1eHpBd0pfR096bWtSRXVkMjhkYWJkNFY2c0t3?oc=5",
-        "published_at": "2022-10-05T02:00:48Z",
-        "source": "boerse.de",
+        "title": "Altimmune Aktie: Kampf gegen die Klagewelle - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTN5NGNjQnFNRXJxOWZhdVpORGRRRngwWFFKWU4yUUdRbTMyUWJCRWRmTlNMdkZUMFZPY0FEQzZlV0pBSlhSbmFleEd4S2phS2NRNmE0ajg5TjlNTFVJVEJBMnl0ZVhPQ1pEQWlpelk4SDNXTkxKbFg1Nk1OQ2hSVVM5eGZOV1FBcVNJcHA3ZmdtN1E2UDhSRGtB?oc=5",
+        "published_at": "2025-09-20T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
+        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDUGkycWNKUG4yS3pjSW5oNlJQaDZfaUFaUzE3bUMxVmVZa3ZOVG9TQWs1MTBnSHdDRDdHOXE0bnV0bEpBQUtiTVR1dENVSDZ5UDJYcmpTV2ptaGJOYmhZ?oc=5",
+        "published_at": "2023-09-25T09:29:08Z",
+        "source": "extraETF",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
