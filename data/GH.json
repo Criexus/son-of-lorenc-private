@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$165.50",
-      "note": "Auto-Update: 2.37% vs. vorheriger Schlusskurs",
+      "value": "$166.01",
+      "note": "Auto-Update: 2.69% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T16:02:02Z",
+    "last_update_utc": "2026-08-24T17:07:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 165.5,
+      "regularMarketPrice": 166.015,
       "previousClose": 161.67,
-      "change": 3.83,
-      "changePercent": 2.37,
-      "regularMarketTime": "2026-08-24T16:01:42Z",
+      "change": 4.345,
+      "changePercent": 2.69,
+      "regularMarketTime": "2026-08-24T17:06:31Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 165.5
+        "price": 166.015
       }
     ],
     "price_history_1d": [
@@ -460,113 +460,64 @@
       },
       {
         "t": "2026-08-24T16:00:00Z",
-        "price": 165.26
+        "price": 165.89
       },
       {
-        "t": "2026-08-24T16:01:42Z",
-        "price": 165.5
+        "t": "2026-08-24T16:05:00Z",
+        "price": 166.42
+      },
+      {
+        "t": "2026-08-24T16:10:00Z",
+        "price": 166.4
+      },
+      {
+        "t": "2026-08-24T16:15:00Z",
+        "price": 167.01
+      },
+      {
+        "t": "2026-08-24T16:20:00Z",
+        "price": 166.93
+      },
+      {
+        "t": "2026-08-24T16:25:00Z",
+        "price": 166.995
+      },
+      {
+        "t": "2026-08-24T16:30:00Z",
+        "price": 167.1121
+      },
+      {
+        "t": "2026-08-24T16:35:00Z",
+        "price": 167.0
+      },
+      {
+        "t": "2026-08-24T16:40:00Z",
+        "price": 166.77
+      },
+      {
+        "t": "2026-08-24T16:45:00Z",
+        "price": 166.2
+      },
+      {
+        "t": "2026-08-24T16:50:00Z",
+        "price": 166.09
+      },
+      {
+        "t": "2026-08-24T16:55:00Z",
+        "price": 166.2
+      },
+      {
+        "t": "2026-08-24T17:00:00Z",
+        "price": 165.86
+      },
+      {
+        "t": "2026-08-24T17:06:31Z",
+        "price": 166.015
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Guardant Health auf Wachstumskonferenz: Shield-Test treibt Expansion voran - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWTBxRWo2X0lhRnhJY1lJeUZHYm16MGhUcGd4Y05SQ1lydkJlcVN2aG9aRmVuWUVYVkh5QjNPUjVITzdLazBHRFZuN0E0TE5WN29oQTdqM0JidFJwS2xrNkt3NkJ2WG9qZGs4XzE0YnE0dllYY3BTRklVTVJxS2NrVGREeWUtRkV5aGlVSjNUZS15S29vTG1sRmptNWZOV3BBSUg0S1M2clV3TDVZSE56RDQ5UzVvOUZLNmIxWXl4Rk9IeG02aGc?oc=5",
-        "published_at": "2026-08-12T19:41:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant360\" Reveal Guardant Health news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Guardant Health (GH) legt um 6,1 % zu, nachdem das Unternehmen seine Umsatzprognose für 2026 angehoben und einen Rahmenantrag eingereicht hat – Hat sich das bullische Szenario geändert? - simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQmhQYjRHTl91RmhrVjBXdHdhcG1NeGZiLTI3TTFJZjJvR0VNMTJEMGMtSTg4ckZoeEpkWWdKcGhXSTNVVFJFazkyeXFHTzZscTM2QkhPeVl6MWVFQV9tSTRpQnE5cXl4MFZLZVdoak9XajJXb0hmLXRaNnJvSm9VNmdPS3lEVlpoVlFBSVE5c0xxbnVVYmFEZ2JoMk4wT1RyZUhMRlpONkJRQkRYcDNJV1Fjc3JFWC1NQ3hCRllOdllMZ0xBNXpIT2IwZzBsMUJfdWJB0gHYAUFVX3lxTE5sb2hZSnJhdjFpRHJwUE5zUk1lVkh6VUdNeVpKZnhnY0pEYkZQbTVWNXVVak9uc3Z1c29qY2Y2WHVRLTVqUjh0TWRNZ1l1NW1RY01SalJ5VWVTZ211SnhOUkxpREE0QVo0VFBTeUhCd1V2eG50NktPOVFEeHNMR0c5SldLZFpiWWg1enRxQmNSOTVyS2JtNVFBclFvTjBrQXJTd2JuTmJqT2tZSkRWZTBzS1otODkxZmpCVk1jU0ZuWTRmMDFQd1RZMXRpclN2TUMzYUpxUENkbQ?oc=5",
-        "published_at": "2026-08-10T07:00:00Z",
-        "source": "simplywall.st",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
-      },
-      {
-        "title": "Guardant Health Aktie: Umsatzsprung und Prognoseanhebung lösen Kurssprung aus - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR1RPT3pxQTRGQ2U2VE1adWUwcHBKdTRLZWhiNTU4UVF5ZVlsbmRHakEwWnU4TFdyTUNJektzSTVDa0k3Tk9ERWF1eFQyY2RlRHdiaGNsTjRRWS1vYVlBbnVqVFZoSWI5aVRETFp5aFNPRmpsZGxaVVlLQjJLQ2taWUNndHEyNkVHZEpZOXdoSVYtN1lGaFVyWmxMOGJfaWZydmNuZkEzVTR5STROeFhzY3ozWXpQWDVSZS1fRmxCcXVWUzJUNkhuVVFsTHd3MjYxMDZz?oc=5",
-        "published_at": "2026-07-31T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health klettert auf Fünfjahreshoch dank Konkurrent Freenome - aktien.news",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHVNV3F3dUJHRnFTYWtWLWJ4MjFXYXAzMDk4cG9nYlN4T3lWVVlBcm96TVVUalBrdy1CUVFkZDc5dXhVU0VuczgwSDAySmwyNDJ5eHFQQ3BYamZScGZNNUd4LTNtVmd0N3VYbUVZRnZzU0lCTUN4eGtjTVJuOFpXUE9vVmFOc21KU1FfSEJTSkRqNGtjYXow?oc=5",
-        "published_at": "2026-07-10T07:00:00Z",
-        "source": "aktien.news",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health: UnitedHealth übernimmt Shield-Bluttest für Darmkrebs - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeFpmcDdRa2JRTTFvOVZUNDlCd01waWlhTkE3dGxMVjlYcXd2TFFCSnptblZpSmUyU2xia01VN1ZfN2p5S0hxNVI2bWZIajlzeW4zLVVUUUVjNGJOZ2NNclRGN3lOYkhmMVNWcTY0ZFYyZ19udnBfUUtfWXE1Y0FyWndiRFdmMk4zTnhyb3pNcG1Fa1k0QWNWQy1kRlZpVFI1a1M4UUplZ3c0ajRvRFVFVVJZQ21hZ3oyY21tNzRNQ0k?oc=5",
-        "published_at": "2026-07-01T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "\"Guardant Health\" Shield blood test news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "RBC Capital initiates Guardant Health stock coverage with outperform rating - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYmpxMVFWMkhRY0thVFVfR0VQT0FBTHJBazRGQ0dQZlZJMFZnSzg3c1RpZDI3eG9zc3NGNk54dC1DcWxfVWl1N0lXcDJSX3F2dkM4bl9VdUFaRHFteG5BT1ZsV2l5aS03c2VZVXJIRUM3VzB5UHctYWxhbEdMQzdoM0h2NWFrZXB2YThYUTZKc0ctdUFjRmVwSkR5RmllLW5TM0NjWXV1XzBsX082MGNzekxGSU1pN251cFI1bzRBMDJpX0tMUFU2ckxReC1vNlJF?oc=5",
-        "published_at": "2026-06-11T07:00:00Z",
-        "source": "Investing.com",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Analysten / Kursziel",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 13
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "144",
@@ -734,18 +685,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-30"
-      },
-      {
-        "type": "Analysten / Kursziel",
-        "level": "low",
-        "title": "RBC Capital initiates Guardant Health stock coverage with outperform rating - Investing.com",
-        "reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "source": "Investing.com",
-        "date": "2026-06-11T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYmpxMVFWMkhRY0thVFVfR0VQT0FBTHJBazRGQ0dQZlZJMFZnSzg3c1RpZDI3eG9zc3NGNk54dC1DcWxfVWl1N0lXcDJSX3F2dkM4bl9VdUFaRHFteG5BT1ZsV2l5aS03c2VZVXJIRUM3VzB5UHctYWxhbEdMQzdoM0h2NWFrZXB2YThYUTZKc0ctdUFjRmVwSkR5RmllLW5TM0NjWXV1XzBsX082MGNzekxGSU1pN251cFI1bzRBMDJpX0tMUFU2ckxReC1vNlJF?oc=5"
       },
       {
         "type": "SEC Filing",

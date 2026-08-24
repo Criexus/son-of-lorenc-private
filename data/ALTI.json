@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.10",
-      "note": "Auto-Update: 2.76% vs. vorheriger Schlusskurs",
+      "value": "$4.03",
+      "note": "Auto-Update: 1.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T16:02:47Z",
+    "last_update_utc": "2026-08-24T17:10:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.1,
+      "regularMarketPrice": 4.03,
       "previousClose": 3.99,
-      "change": 0.11,
-      "changePercent": 2.76,
-      "regularMarketTime": "2026-08-24T15:14:15Z",
+      "change": 0.04,
+      "changePercent": 1.0,
+      "regularMarketTime": "2026-08-24T16:57:09Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 4.1
+        "price": 4.03
       }
     ],
     "price_history_1d": [
@@ -363,46 +363,33 @@
         "price": 4.0944
       },
       {
-        "t": "2026-08-24T15:14:15Z",
+        "t": "2026-08-24T15:10:00Z",
         "price": 4.1
+      },
+      {
+        "t": "2026-08-24T16:30:00Z",
+        "price": 4.105
+      },
+      {
+        "t": "2026-08-24T16:35:00Z",
+        "price": 4.08
+      },
+      {
+        "t": "2026-08-24T16:40:00Z",
+        "price": 4.06
+      },
+      {
+        "t": "2026-08-24T16:55:00Z",
+        "price": 4.03
+      },
+      {
+        "t": "2026-08-24T16:57:09Z",
+        "price": 4.03
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "ASML: AlTi Global reduziert um 76,3 Prozent - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN2VpUmRuREc5N0NINjRNcThHcEV5ZEpodVR1OUhsNnZ0MXpaOTFBQllfOE9UNzR4bUZtNTJtUVhwR25tVGZEOFdzZDM4NDdzMzVxZE1wVE1SdWhZcjBHeXU3VXZ2UTJ6RDNpWFhoajR0ZXQ1dm92eHVMMmNkcXlBV0liUjZBTDJQZk0xd0lEMDhFdUl3TFMySw?oc=5",
-        "published_at": "2026-08-24T01:45:15Z",
-        "source": "Börse Express",
-        "query": "ALTI ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "AlTi Global Officer Sells Shares - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYWttMjc5YV9wQ3FpSFU1dmdZVEh6VHoybHhzX1ZjYTBaVkJEOW5FUWN5dGJ4UWxsaGFvb2F2TGNoa1c1WjdBRG5hT1FPQ2JXM3VsNUdhaEdtZFFkLUJsbjk0OE5USUx0SURwMWdTcS13LVNjc2VtRzdRczQ2V3Q4SXBZa3ZVcGhOWFRfQ0VFUi1HV3B0dTNsMQ?oc=5",
-        "published_at": "2024-07-25T07:00:00Z",
-        "source": "TradingView",
-        "query": "ALTI ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "N-PX",

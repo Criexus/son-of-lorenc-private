@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$3.48",
-      "note": "Auto-Update: 2.5% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 2.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T16:01:25Z",
+    "last_update_utc": "2026-08-24T17:04:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.485,
+      "regularMarketPrice": 3.48,
       "previousClose": 3.4,
-      "change": 0.085,
-      "changePercent": 2.5,
-      "regularMarketTime": "2026-08-24T16:01:12Z",
+      "change": 0.08,
+      "changePercent": 2.35,
+      "regularMarketTime": "2026-08-24T17:01:23Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -391,7 +391,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 3.485
+        "price": 3.48
       }
     ],
     "price_history_1d": [
@@ -517,81 +517,60 @@
       },
       {
         "t": "2026-08-24T16:00:00Z",
-        "price": 3.4899
+        "price": 3.4853
       },
       {
-        "t": "2026-08-24T16:01:12Z",
+        "t": "2026-08-24T16:05:00Z",
         "price": 3.485
+      },
+      {
+        "t": "2026-08-24T16:10:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-08-24T16:15:00Z",
+        "price": 3.495
+      },
+      {
+        "t": "2026-08-24T16:20:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-08-24T16:25:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-08-24T16:30:00Z",
+        "price": 3.481
+      },
+      {
+        "t": "2026-08-24T16:35:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-08-24T16:40:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-08-24T16:45:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-08-24T16:50:00Z",
+        "price": 3.48
+      },
+      {
+        "t": "2026-08-24T16:55:00Z",
+        "price": 3.479
+      },
+      {
+        "t": "2026-08-24T17:01:23Z",
+        "price": 3.48
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Insider-Verkauf bei Rocket Pharmaceuticals: General Counsel veräußert Aktienpaket - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdUVZRkdCeWdONXNFUkNEdW1Qb1BaSnI1NC01eDMzYUlHWWtzRzBwRmJEVEI2T1ZEOG9mQTZSQXpzai1yTlp1TG43VWVDRVpKa3pvcjVtYjZfM3NnWHFkcUhLYU9PTGRRcVkycXZSbmxwcHlma3VVYWh3MFNoM1JScVhzM3ZKOENMdjNPZko2c3hwaDhTUkc2dFQ0MzF3WVg2SVZhTFB1MFRHdnFUQjBSTUtfSlhPbVZGMU5JNFRndFJUc09JU09vVXNacmdac2Fud2tmbVh1WjVMdDA?oc=5",
-        "published_at": "2026-08-20T22:02:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Insider-Verkauf bei Rocket Pharmaceuticals: General Counsel veräußert Aktien im Wert von 11.809 - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbnZCNmx5XzFrRHhLZ3BPTk83N3dwaXk4OTk4c3N3Z2JNS2lDdVhfMUVhNGY3X1RMWlFGcFpWTEstSFZVV2tEbXdOYU5semQzQ3BEaGxvQmlCRWxkZUh5c1VXUFh0aGEyR0ZhLTMzUFQtV1ZscEk0ZWI5eGZ2ZnRJSDJWeDlldVk1NlR4ejBwQmZ4SzVULWVOSEhObUVJc3kzUzVKV2haTDZWODhoX3huSF9DQjlrS3ItYzJheXRabllhblJsOGFxTEJaT0xwaGtLdnoxbGpMNGRrZWtJN2s2QXpNaUlyaktfNDNmMHdn?oc=5",
-        "published_at": "2026-08-18T10:02:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
-        "title": "Investor Alert: Securities Class Action Filed Against Rocket Pharmaceuticals (RCKT) - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMG1IZzl0QW1peGl3a0JZN0Z6UGlGbU0ybGtES255MG5nNEdUc19pZUZVQmxVVDhrY09tbWtkVWJHQk9aS002akpPRkhMaFFrU21COGtvanhZSmVVTzFLajBqU1l1UEZNTWZ6TkFsZmswVEdNWjNFV2gyLWU0REl2Qzhrd2hFcHN3Y2ZRcnZFVVAtMWFoRTMxUTVEN1VYbXJ6VlhaYVpjR3NhUElmZE4tLS1MYUZvMk1wS2d4UnRjSEZDQVhyLVFxMFY5QUdjSzRraXcxc1lZSDhKSFFlTVlYQVBGZ0kydnZjVWc?oc=5",
-        "published_at": "2025-07-23T07:00:00Z",
-        "source": "TradingView",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Konferenz / Präsentation",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "relevance_score": 26
-      },
-      {
-        "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUlybU4xWllPYU9iVnNwWkxwUmNOdjhYajBwVWhGZE5EY25YN3JvRUVMRXBnVVV6MDFvWXZWQzNzZ3ItR0xoOTFJS19Ddm43ZVVoWmhjb3JXNG44ZUthSlU4eUM0aFN0WmxkVU9BU3VncE9yZkN6bnkwckVhQzJkSEp1T2tKT1VaWnM1YmxHVWdITXZ6anBJeVZlR3dteTgzd1VqbzEtc3FsX3NX?oc=5",
-        "published_at": "2017-09-13T07:00:00Z",
-        "source": "Fierce Biotech",
-        "query": "Rocket Pharmaceuticals clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "4",
@@ -1024,18 +1003,6 @@
         "date": "2022-09-26"
       },
       {
-        "type": "Konferenz / Präsentation",
-        "level": "low",
-        "title": "Investor Alert: Securities Class Action Filed Against Rocket Pharmaceuticals (RCKT) - TradingView",
-        "reason": "Trigger erkannt: Konferenz / Präsentation.",
-        "impact": "meist niedriger bis mittlerer Trigger",
-        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
-        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
-        "source": "TradingView",
-        "date": "2025-07-23T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMG1IZzl0QW1peGl3a0JZN0Z6UGlGbU0ybGtES255MG5nNEdUc19pZUZVQmxVVDhrY09tbWtkVWJHQk9aS002akpPRkhMaFFrU21COGtvanhZSmVVTzFLajBqU1l1UEZNTWZ6TkFsZmswVEdNWjNFV2gyLWU0REl2Qzhrd2hFcHN3Y2ZRcnZFVVAtMWFoRTMxUTVEN1VYbXJ6VlhaYVpjR3NhUElmZE4tLS1MYUZvMk1wS2d4UnRjSEZDQVhyLVFxMFY5QUdjSzRraXcxc1lZSDhKSFFlTVlYQVBGZ0kydnZjVWc?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "BAG3-DCM Natural History Study",
@@ -1122,6 +1089,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-13"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-08-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-08-17"
       },
       {
         "type": "SEC Filing",
