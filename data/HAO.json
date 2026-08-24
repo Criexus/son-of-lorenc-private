@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.27",
-      "note": "Auto-Update: -17.84% vs. vorheriger Schlusskurs",
+      "value": "$3.25",
+      "note": "Auto-Update: -20.34% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T13:28:56Z",
+    "last_update_utc": "2026-08-24T14:10:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.27,
-      "previousClose": 3.98,
-      "change": -0.71,
-      "changePercent": -17.84,
-      "regularMarketTime": "2026-08-21T20:00:01Z",
+      "regularMarketPrice": 3.25,
+      "previousClose": 4.08,
+      "change": -0.83,
+      "changePercent": -20.34,
+      "regularMarketTime": "2026-08-24T14:10:17Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,14 +215,6 @@
       "fiftyTwoWeekRange": "2.7 – 5708.8"
     },
     "price_history": [
-      {
-        "t": "2026-07-22T13:30:00Z",
-        "price": 3.74
-      },
-      {
-        "t": "2026-07-23T13:30:00Z",
-        "price": 0.174
-      },
       {
         "t": "2026-07-24T13:30:00Z",
         "price": 0.169
@@ -306,152 +298,44 @@
       {
         "t": "2026-08-21T13:30:00Z",
         "price": 3.27
+      },
+      {
+        "t": "2026-08-24T13:30:00Z",
+        "price": 3.2501
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-08-21T13:30:00Z",
-        "price": 3.61
+        "t": "2026-08-24T13:30:00Z",
+        "price": 3.25
       },
       {
-        "t": "2026-08-21T13:40:00Z",
-        "price": 3.4201
+        "t": "2026-08-24T13:35:00Z",
+        "price": 3.24
       },
       {
-        "t": "2026-08-21T13:45:00Z",
-        "price": 3.56
+        "t": "2026-08-24T13:40:00Z",
+        "price": 3.2695
       },
       {
-        "t": "2026-08-21T13:55:00Z",
-        "price": 3.59
+        "t": "2026-08-24T13:45:00Z",
+        "price": 3.22
       },
       {
-        "t": "2026-08-21T14:00:00Z",
-        "price": 3.61
+        "t": "2026-08-24T13:50:00Z",
+        "price": 3.17
       },
       {
-        "t": "2026-08-21T14:05:00Z",
-        "price": 3.5101
+        "t": "2026-08-24T13:55:00Z",
+        "price": 3.22
       },
       {
-        "t": "2026-08-21T14:10:00Z",
-        "price": 3.51
+        "t": "2026-08-24T14:05:00Z",
+        "price": 3.25
       },
       {
-        "t": "2026-08-21T14:20:00Z",
-        "price": 3.54
-      },
-      {
-        "t": "2026-08-21T14:45:00Z",
-        "price": 3.55
-      },
-      {
-        "t": "2026-08-21T14:55:00Z",
-        "price": 3.615
-      },
-      {
-        "t": "2026-08-21T15:15:00Z",
-        "price": 3.56
-      },
-      {
-        "t": "2026-08-21T15:20:00Z",
-        "price": 3.55
-      },
-      {
-        "t": "2026-08-21T15:25:00Z",
-        "price": 3.6
-      },
-      {
-        "t": "2026-08-21T15:35:00Z",
-        "price": 3.65
-      },
-      {
-        "t": "2026-08-21T16:30:00Z",
-        "price": 3.66
-      },
-      {
-        "t": "2026-08-21T16:45:00Z",
-        "price": 3.6
-      },
-      {
-        "t": "2026-08-21T17:25:00Z",
-        "price": 3.5401
-      },
-      {
-        "t": "2026-08-21T17:30:00Z",
-        "price": 3.55
-      },
-      {
-        "t": "2026-08-21T17:35:00Z",
-        "price": 3.55
-      },
-      {
-        "t": "2026-08-21T17:50:00Z",
-        "price": 3.4733
-      },
-      {
-        "t": "2026-08-21T17:55:00Z",
-        "price": 3.53
-      },
-      {
-        "t": "2026-08-21T18:10:00Z",
-        "price": 3.4601
-      },
-      {
-        "t": "2026-08-21T18:15:00Z",
-        "price": 3.46
-      },
-      {
-        "t": "2026-08-21T18:25:00Z",
-        "price": 3.56
-      },
-      {
-        "t": "2026-08-21T18:30:00Z",
-        "price": 3.48
-      },
-      {
-        "t": "2026-08-21T18:35:00Z",
-        "price": 3.5005
-      },
-      {
-        "t": "2026-08-21T18:40:00Z",
-        "price": 3.5001
-      },
-      {
-        "t": "2026-08-21T19:00:00Z",
-        "price": 3.49
-      },
-      {
-        "t": "2026-08-21T19:20:00Z",
-        "price": 3.42
-      },
-      {
-        "t": "2026-08-21T19:25:00Z",
-        "price": 3.33
-      },
-      {
-        "t": "2026-08-21T19:30:00Z",
-        "price": 3.33
-      },
-      {
-        "t": "2026-08-21T19:35:00Z",
-        "price": 3.362
-      },
-      {
-        "t": "2026-08-21T19:40:00Z",
-        "price": 3.4
-      },
-      {
-        "t": "2026-08-21T19:50:00Z",
-        "price": 3.434
-      },
-      {
-        "t": "2026-08-21T19:55:00Z",
-        "price": 3.26
-      },
-      {
-        "t": "2026-08-21T20:00:00Z",
-        "price": 3.27
+        "t": "2026-08-24T14:10:17Z",
+        "price": 3.2501
       }
     ],
     "price_history_range": "1mo",
@@ -601,154 +485,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05572944",
-        "title": "Formatting the Risk Prediction Models for Never-Smoking Lung Cancer",
-        "status": "RECRUITING",
+        "nct_id": "NCT02292030",
+        "title": "Cardioversion of Atrial Fibrillation Accompanied by Chronic Heart Faliure",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Lung Cancer",
+        "conditions": "Chronic Heart Failure",
         "last_update": "",
-        "start_date": "2022-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT05572944"
+        "start_date": "2014-11",
+        "url": "https://clinicaltrials.gov/study/NCT02292030"
       },
       {
-        "nct_id": "NCT03403712",
-        "title": "A Study to Assess the Safety and the Efficacy of IV Fosnetupitant/Palonosetron (260 mg/0.25 mg) Combination Compared to Oral Netupitant/Palonosetron (300 mg/0.5 mg) Combination for the Prevention of CINV in AC Chemotherapy in Women With Breast Cancer",
+        "nct_id": "NCT06443086",
+        "title": "Long-term Outcomes of Duodenal Adenocarcinoma From a Large Cohort",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Gastrointestinal Disease",
+        "last_update": "",
+        "start_date": "2024-06-15",
+        "url": "https://clinicaltrials.gov/study/NCT06443086"
+      },
+      {
+        "nct_id": "NCT00887536",
+        "title": "A Clinical Trial Comparing the Combination of TC Plus Bevacizumab to TC Alone and to TAC for Women With Node-Positive or High-Risk Node-Negative, HER2-Negative Breast Cancer",
         "status": "COMPLETED",
         "phase": "PHASE3",
-        "conditions": "Chemotherapy-induced Nausea and Vomiting",
+        "conditions": "Breast Cancer",
         "last_update": "",
-        "start_date": "2018-03-16",
-        "url": "https://clinicaltrials.gov/study/NCT03403712"
+        "start_date": "2009-05",
+        "url": "https://clinicaltrials.gov/study/NCT00887536"
       },
       {
-        "nct_id": "NCT06040814",
-        "title": "Microbiota, Sarcopenia, and Hepatic Encephalopathy Change in Cirrhotic Patients Before and After Rehabilitation",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Hepatic Encephalopathy",
-        "last_update": "",
-        "start_date": "2022-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT06040814"
-      },
-      {
-        "nct_id": "NCT07402525",
-        "title": "Postoperative Radiotherapy for Early-stage Oral Tongue Squamous Cell Carcinoma Patients With Risk Factors: a Prospective, Multicenter, Randomized Controlled, Open-labelled Trial",
+        "nct_id": "NCT06781944",
+        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Oral Tongue Squamous Cell Carcinoma",
+        "phase": "PHASE3",
+        "conditions": "Primary Membranous Nephropathy",
         "last_update": "",
-        "start_date": "2026-01-26",
-        "url": "https://clinicaltrials.gov/study/NCT07402525"
+        "start_date": "2024-10-23",
+        "url": "https://clinicaltrials.gov/study/NCT06781944"
       },
       {
-        "nct_id": "NCT06186349",
-        "title": "The Effect and Mechanism of Gene Variation on Neonatal Hyperbilirubinemia",
+        "nct_id": "NCT03704233",
+        "title": "The Diagnostic Yield and Safety of Transbronchial Cryobiopsy in Diffuse Parenchymal Lung Diseases",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Neonatal Hyperbilirubinemia",
+        "conditions": "Diffuse Parenchymal Lung Diseases",
         "last_update": "",
-        "start_date": "2023-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT06186349"
+        "start_date": "2018-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT03704233"
       },
       {
-        "nct_id": "NCT05442125",
-        "title": "First Live Birth Rate With eSET After Preimplantation Methylome Screening (PIMS) Versus Conventional In-vitro Fertilization",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Reproductive Techniques, Assisted, DNA Methylation",
-        "last_update": "",
-        "start_date": "2022-09-16",
-        "url": "https://clinicaltrials.gov/study/NCT05442125"
-      },
-      {
-        "nct_id": "NCT05671185",
-        "title": "rTMS for Depressive, Positive and Negative Symptoms, and Physiological Indices of Schizophrenia Patients",
+        "nct_id": "NCT07694648",
+        "title": "Clinical Multimodal Surveillance of Respiratory Syndrome Pathogens",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Schizophrenia and Related Disorders",
-        "last_update": "",
-        "start_date": "2022-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT05671185"
-      },
-      {
-        "nct_id": "NCT06029764",
-        "title": "Extended One-level Interbody Fusion for Adjacent Vacuum Phenomenon in Lumbar Degenerative Disc Disease",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Adjacent Segment Degeneration",
-        "last_update": "",
-        "start_date": "2023-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT06029764"
-      },
-      {
-        "nct_id": "NCT07157163",
-        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Influenza Vaccine, Healthcare Workers",
+        "phase": "",
+        "conditions": "Respiratory Tract Infections (RTI), Respiratory Syndrome, Acute, Severe, Acute Respiratory Infections (ARIs)",
         "last_update": "",
         "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07157163"
+        "url": "https://clinicaltrials.gov/study/NCT07694648"
       },
       {
-        "nct_id": "NCT03123406",
-        "title": "Efficacy and Safety of Cinacalcet in Ca, P and iPTH Levels in Patients With Mild, Moderate and Severe SHPT",
-        "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "Hyperparathyroidism; Secondary, Renal",
+        "nct_id": "NCT06496490",
+        "title": "A Clinical Trial of TQB2102 for Injection in Non-small Cell Lung Cancer With HER2 Gene Abnormality",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Non-Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2017-04-19",
-        "url": "https://clinicaltrials.gov/study/NCT03123406"
+        "start_date": "2024-08-06",
+        "url": "https://clinicaltrials.gov/study/NCT06496490"
       },
       {
-        "nct_id": "NCT02907606",
-        "title": "Urinary Circulating Tumor DNA Detection in Non-small Cell Lung Cancer: a Prospective Study",
+        "nct_id": "NCT06727890",
+        "title": "Compound Danshen Dripping Pill for Diabetic Microvascular Angina",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Diabetic Microvascular Angina",
+        "last_update": "",
+        "start_date": "2025-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06727890"
+      },
+      {
+        "nct_id": "NCT06726421",
+        "title": "Systemic Therapy Alone or With Stereotactic Body Radiotherapy for Oligometastatic Kidney Cancer (STROKER Study)",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Renal Cell Carcinoma (Kidney Cancer), Kidney Cancer Metastatic, Renal Cell Carcinoma Metastatic",
+        "last_update": "",
+        "start_date": "2024-09-18",
+        "url": "https://clinicaltrials.gov/study/NCT06726421"
+      },
+      {
+        "nct_id": "NCT05854043",
+        "title": "Modified Enhanced Recovery After Oblique Lateral Interbody Fusion Surgery",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Lumbar Spondylosis, Lumbar Spinal Stenosis, Lumbar Disc Herniation",
+        "last_update": "",
+        "start_date": "2023-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT05854043"
+      },
+      {
+        "nct_id": "NCT03614559",
+        "title": "Contemporary Clinical Treatment and Long-term Outcomes in Patient With Coronary Chronic Total Occlusion",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Carcinoma, Non-small-cell Lung Cancer, Lung Neoplasms",
+        "conditions": "Percutaneous Coronary Intervention",
         "last_update": "",
-        "start_date": "2016-09",
-        "url": "https://clinicaltrials.gov/study/NCT02907606"
+        "start_date": "2018-05-06",
+        "url": "https://clinicaltrials.gov/study/NCT03614559"
       },
       {
-        "nct_id": "NCT07498933",
-        "title": "FAP-targeted PET/NIR in Lung Malignant Tumors",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Non-Small Cell Lung Cancer, PET/CT, Neoadjuvant Therapy",
-        "last_update": "",
-        "start_date": "2025-06-03",
-        "url": "https://clinicaltrials.gov/study/NCT07498933"
-      },
-      {
-        "nct_id": "NCT00674076",
-        "title": "Clinical Application of Ultrasound in Obstructive Sleep Apnea",
+        "nct_id": "NCT04895579",
+        "title": "Lung Cancer With Copanlisib and Durvalumab",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Obstructive Sleep Apnea",
+        "phase": "PHASE1",
+        "conditions": "Non Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2008-03",
-        "url": "https://clinicaltrials.gov/study/NCT00674076"
+        "start_date": "2021-05-12",
+        "url": "https://clinicaltrials.gov/study/NCT04895579"
       },
       {
-        "nct_id": "NCT05652920",
-        "title": "Ori-C101Chimeric Antigen Receptor (CAR) Modified T Cells for the Treatment of HCC",
+        "nct_id": "NCT06120413",
+        "title": "18F-LN1 PET/CT in Urothelial Carcinomas",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Urothelial Carcinoma",
+        "last_update": "",
+        "start_date": "2023-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT06120413"
+      },
+      {
+        "nct_id": "NCT07145060",
+        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Primary Sjögren's Syndrome (pSS)",
+        "last_update": "",
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT07145060"
+      },
+      {
+        "nct_id": "NCT07103980",
+        "title": "Inhaled Mesenchymal Stem Cell-Derived Exosomes in the Treatment of Post-Infectious Cough: A Single-Center Randomized Controlled Clinical Trial",
         "status": "RECRUITING",
         "phase": "PHASE1, PHASE2",
-        "conditions": "Hepatocellular Carcinoma",
+        "conditions": "Post-Infectious Cough",
         "last_update": "",
-        "start_date": "2022-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT05652920"
-      },
-      {
-        "nct_id": "NCT05018923",
-        "title": "Tetracycline Versus Doxycycline for HP Rescue Therapy",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Helicobacter Pylori Infection",
-        "last_update": "",
-        "start_date": "2021-08-24",
-        "url": "https://clinicaltrials.gov/study/NCT05018923"
+        "start_date": "2024-07-16",
+        "url": "https://clinicaltrials.gov/study/NCT07103980"
       }
     ],
     "detected_triggers": [
@@ -771,82 +655,74 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of Cinacalcet in Ca, P and iPTH Levels in Patients With Mild, Moderate and Severe SHPT",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
-        "source": "NCT03123406",
-        "date": "2017-04-19"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study to Assess the Safety and the Efficacy of IV Fosnetupitant/Palonosetron (260 mg/0.25 mg) Combination Compared to Oral Netupitant/Palonosetron (300 mg/0.5 mg) Combination for the Prevention of CINV in AC Chemotherapy in Women With Breast Cancer",
+        "title": "A Clinical Trial Comparing the Combination of TC Plus Bevacizumab to TC Alone and to TAC for Women With Node-Positive or High-Risk Node-Negative, HER2-Negative Breast Cancer",
         "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT03403712",
-        "date": "2018-03-16"
+        "source": "NCT00887536",
+        "date": "2009-05"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Tetracycline Versus Doxycycline for HP Rescue Therapy",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05018923",
-        "date": "2021-08-24"
+        "title": "Lung Cancer With Copanlisib and Durvalumab",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT04895579",
+        "date": "2021-05-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "First Live Birth Rate With eSET After Preimplantation Methylome Screening (PIMS) Versus Conventional In-vitro Fertilization",
+        "title": "Modified Enhanced Recovery After Oblique Lateral Interbody Fusion Surgery",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05442125",
-        "date": "2022-09-16"
+        "source": "NCT05854043",
+        "date": "2023-04-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Microbiota, Sarcopenia, and Hepatic Encephalopathy Change in Cirrhotic Patients Before and After Rehabilitation",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT06040814",
-        "date": "2022-12-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "rTMS for Depressive, Positive and Negative Symptoms, and Physiological Indices of Schizophrenia Patients",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT05671185",
-        "date": "2022-12-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Ori-C101Chimeric Antigen Receptor (CAR) Modified T Cells for the Treatment of HCC",
+        "title": "Inhaled Mesenchymal Stem Cell-Derived Exosomes in the Treatment of Post-Infectious Cough: A Single-Center Randomized Controlled Clinical Trial",
         "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT05652920",
-        "date": "2022-12-15"
+        "source": "NCT07103980",
+        "date": "2024-07-16"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Extended One-level Interbody Fusion for Adjacent Vacuum Phenomenon in Lumbar Degenerative Disc Disease",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06029764",
-        "date": "2023-02-01"
+        "title": "A Clinical Trial of TQB2102 for Injection in Non-small Cell Lung Cancer With HER2 Gene Abnormality",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06496490",
+        "date": "2024-08-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
+        "title": "Systemic Therapy Alone or With Stereotactic Body Radiotherapy for Oligometastatic Kidney Cancer (STROKER Study)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT06726421",
+        "date": "2024-09-18"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT06781944",
+        "date": "2024-10-23"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Compound Danshen Dripping Pill for Diabetic Microvascular Angina",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
+        "source": "NCT06727890",
+        "date": "2025-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07157163",
+        "source": "NCT07145060",
         "date": "2025-09-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Postoperative Radiotherapy for Early-stage Oral Tongue Squamous Cell Carcinoma Patients With Risk Factors: a Prospective, Multicenter, Randomized Controlled, Open-labelled Trial",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07402525",
-        "date": "2026-01-26"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -939,42 +815,50 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Clinical Application of Ultrasound in Obstructive Sleep Apnea",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT00674076",
-        "date": "2008-03"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Urinary Circulating Tumor DNA Detection in Non-small Cell Lung Cancer: a Prospective Study",
+        "title": "Cardioversion of Atrial Fibrillation Accompanied by Chronic Heart Faliure",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT02907606",
-        "date": "2016-09"
+        "source": "NCT02292030",
+        "date": "2014-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Formatting the Risk Prediction Models for Never-Smoking Lung Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05572944",
-        "date": "2022-12-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "The Effect and Mechanism of Gene Variation on Neonatal Hyperbilirubinemia",
+        "title": "Contemporary Clinical Treatment and Long-term Outcomes in Patient With Coronary Chronic Total Occlusion",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06186349",
-        "date": "2023-09-01"
+        "source": "NCT03614559",
+        "date": "2018-05-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "FAP-targeted PET/NIR in Lung Malignant Tumors",
+        "title": "The Diagnostic Yield and Safety of Transbronchial Cryobiopsy in Diffuse Parenchymal Lung Diseases",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT03704233",
+        "date": "2018-11-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "18F-LN1 PET/CT in Urothelial Carcinomas",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT06120413",
+        "date": "2023-11-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Long-term Outcomes of Duodenal Adenocarcinoma From a Large Cohort",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT06443086",
+        "date": "2024-06-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Clinical Multimodal Surveillance of Respiratory Syndrome Pathogens",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT07498933",
-        "date": "2025-06-03"
+        "source": "NCT07694648",
+        "date": "2025-09-01"
       },
       {
         "type": "SEC Filing",
