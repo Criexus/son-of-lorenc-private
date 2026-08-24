@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$42.39",
-      "note": "Auto-Update: -6.34% vs. vorheriger Schlusskurs",
+      "value": "$43.19",
+      "note": "Auto-Update: -4.58% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T14:10:21Z",
+    "last_update_utc": "2026-08-24T15:07:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 42.39,
+      "regularMarketPrice": 43.185,
       "previousClose": 45.26,
-      "change": -2.87,
-      "changePercent": -6.34,
-      "regularMarketTime": "2026-08-24T14:09:56Z",
+      "change": -2.075,
+      "changePercent": -4.58,
+      "regularMarketTime": "2026-08-24T15:07:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -338,7 +338,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 42.39
+        "price": 43.185
       }
     ],
     "price_history_1d": [
@@ -372,16 +372,80 @@
       },
       {
         "t": "2026-08-24T14:05:00Z",
-        "price": 42.45
+        "price": 42.39
       },
       {
-        "t": "2026-08-24T14:09:56Z",
-        "price": 42.39
+        "t": "2026-08-24T14:10:00Z",
+        "price": 42.4238
+      },
+      {
+        "t": "2026-08-24T14:15:00Z",
+        "price": 42.525
+      },
+      {
+        "t": "2026-08-24T14:20:00Z",
+        "price": 42.2
+      },
+      {
+        "t": "2026-08-24T14:25:00Z",
+        "price": 42.28
+      },
+      {
+        "t": "2026-08-24T14:30:00Z",
+        "price": 42.34
+      },
+      {
+        "t": "2026-08-24T14:35:00Z",
+        "price": 42.315
+      },
+      {
+        "t": "2026-08-24T14:40:00Z",
+        "price": 42.505
+      },
+      {
+        "t": "2026-08-24T14:45:00Z",
+        "price": 42.66
+      },
+      {
+        "t": "2026-08-24T14:50:00Z",
+        "price": 42.85
+      },
+      {
+        "t": "2026-08-24T14:55:00Z",
+        "price": 42.85
+      },
+      {
+        "t": "2026-08-24T15:00:00Z",
+        "price": 43.085
+      },
+      {
+        "t": "2026-08-24T15:05:00Z",
+        "price": 43.12
+      },
+      {
+        "t": "2026-08-24T15:07:27Z",
+        "price": 43.185
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Definium Therapeutics: Canaccord hebt Kursziel nach positiven Studiendaten an - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWjVCVnI0VjI3bE1aT3QzWXJJOXN6bEtQZHFPdDdHRTZTUllGQ2NqT1FrNzNiakFRcHdUZkdxcHVzSUQ5QXZWUURWQ05FeU15LVVZUk5qWU1vakRodkl0TWJYU29raTA0WU90YlR2RVpvSTlvdl9iTmxvNFVEVEY3YWJmRm9hWnhHWnFtVmQ5bmRpMWVkVTAtdVQ3Y25EQ0Y1WnZ3U2MwcjdtQ2l5N0dTQU12UnpQSWFELTVHeTNtQ2R0U0RUaUZneUsxb3JzanQ4?oc=5",
+        "published_at": "2026-08-13T11:41:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Definium Therapeutics\" DT120 topline",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Definium gelingt in Phase 3 erneut ein Erfolg gegen Angststörung mit DT120 - it boltwise",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUR3Ump5ZkwzUUp6Ry03UFBHd21nekk4U2gzdllxXzdxWVAxdUZ2VE5jeklWUk1BSDBaZnlIR3VjYkpjdEdpNVpFSnVoX2ZNWGdmRFdzdDNWSU1BYjlydS1WcENKUWpLMzBKSEQ2b2ZOT0lPazZEYnRTSTU0ZzdfYlFjNmNLY0c2empJX29PMUp4MTFiSlJZT3dtZEttN3hPOFI5NFVzQmFSXzA?oc=5",
