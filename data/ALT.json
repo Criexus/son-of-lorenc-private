@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.11",
-      "note": "Auto-Update: 3.67% vs. vorheriger Schlusskurs",
+      "value": "$3.12",
+      "note": "Auto-Update: 3.83% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-24T18:22:54Z",
+    "last_update_utc": "2026-08-24T19:08:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.11,
+      "regularMarketPrice": 3.115,
       "previousClose": 3.0,
-      "change": 0.11,
-      "changePercent": 3.67,
-      "regularMarketTime": "2026-08-24T18:21:57Z",
+      "change": 0.115,
+      "changePercent": 3.83,
+      "regularMarketTime": "2026-08-24T19:07:39Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-24T13:30:00Z",
-        "price": 3.11
+        "price": 3.115
       }
     ],
     "price_history_1d": [
@@ -655,11 +655,47 @@
       },
       {
         "t": "2026-08-24T18:20:00Z",
-        "price": 3.105
+        "price": 3.11
       },
       {
-        "t": "2026-08-24T18:21:57Z",
+        "t": "2026-08-24T18:25:00Z",
         "price": 3.11
+      },
+      {
+        "t": "2026-08-24T18:30:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T18:35:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T18:40:00Z",
+        "price": 3.12
+      },
+      {
+        "t": "2026-08-24T18:45:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-24T18:50:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T18:55:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T19:00:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T19:05:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-24T19:07:39Z",
+        "price": 3.115
       }
     ],
     "price_history_range": "1mo",
@@ -776,6 +812,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 6
+      },
+      {
+        "title": "Altimmune Aktie (A2N5Z6, ALT) - Kurs, Chart, News & Kennzahlen - Ariva",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1VEhhLXlYc3IzcmloTzlVd0JSNXk2Y0NzVDhZTUozaDF0dUJnbVIzdDZLTVptWE9tY0FlbVlvTUYtWkcxanM0V0QxWlVXTkRxbmpiUFpzUXNOVTQ?oc=5",
+        "published_at": "2024-11-04T14:47:23Z",
+        "source": "Ariva",
+        "query": "Altimmune ALT pemvidutide stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 8
       },
       {
         "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
