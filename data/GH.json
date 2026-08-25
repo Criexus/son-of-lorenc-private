@@ -225,7 +225,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-25T00:36:07Z",
+    "last_update_utc": "2026-08-25T02:12:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -660,6 +660,22 @@
         "published_at": "2026-08-24T19:08:53Z",
         "source": "Ad-hoc-news.de",
         "query": "\"Guardant360\" Reveal Guardant Health news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Guardant Health verliert Patentverletzungsprozess über 245,2 Mio. USD - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSW5Jcl92N0V4bk5EeEkzbG1Qc3R0ZTRaSlVSWENfTi0ySTFlTmFobEN4NkFtTkkzaHRoNGIzV2hMNGZRbWJibGJEeXpxcjdMZWlPbU1LeUJZcGxsRzVrTUdwY3U5TnVKNE8wM3JQRkdrY3dNdjJlVDVaSFdQUmNrekxhbVZadno2bTV3dzdzZ3FDZFR6T0FFd3lMdllsUmV1UWZrajdHMEtXdHVfRGxsU0prWElOWWNRTHRFQUlwdmJFOERXNUZFTklVU0FuMGRB?oc=5",
+        "published_at": "2026-08-24T11:52:31Z",
+        "source": "MarketScreener Deutschland",
+        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
