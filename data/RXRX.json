@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.56",
-      "note": "Auto-Update: 15.21% vs. vorheriger Schlusskurs",
+      "value": "$3.54",
+      "note": "Auto-Update: 14.72% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-25T17:53:04Z",
+    "last_update_utc": "2026-08-25T18:22:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.56,
+      "regularMarketPrice": 3.545,
       "previousClose": 3.09,
-      "change": 0.47,
-      "changePercent": 15.21,
-      "regularMarketTime": "2026-08-25T17:52:56Z",
+      "change": 0.455,
+      "changePercent": 14.72,
+      "regularMarketTime": "2026-08-25T18:22:31Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -399,7 +399,7 @@
       },
       {
         "t": "2026-08-25T13:30:00Z",
-        "price": 3.56
+        "price": 3.545
       }
     ],
     "price_history_1d": [
@@ -613,11 +613,35 @@
       },
       {
         "t": "2026-08-25T17:50:00Z",
-        "price": 3.54
+        "price": 3.57
       },
       {
-        "t": "2026-08-25T17:52:58Z",
-        "price": 3.5598
+        "t": "2026-08-25T17:55:00Z",
+        "price": 3.5676
+      },
+      {
+        "t": "2026-08-25T18:00:00Z",
+        "price": 3.565
+      },
+      {
+        "t": "2026-08-25T18:05:00Z",
+        "price": 3.575
+      },
+      {
+        "t": "2026-08-25T18:10:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-08-25T18:15:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-08-25T18:20:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-08-25T18:22:31Z",
+        "price": 3.545
       }
     ],
     "price_history_range": "1mo",
@@ -670,6 +694,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "Recursion Pharmaceuticals: Aktie stürzt nach komplettem NVIDIA-Ausstieg ab - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhnRXFrLUZibWFIYkkwV04yYklOQkt3dTVHTkRrV2tDZnJIMW1BMk83cWg1YURQc3Z2YVVaQl9FWTlLeUtSdDVjQ3plcm5oOWxoSVlQWEFlNlpaQ1lQT0ZwaDlJb1FqUnlTVjdRT1R0bFcxdXRQbTZHaWJObGJZZU1GRmJYaTA1b0FFbjZqeG00T3JnQ01VZ215a0xjWXoxOWV4YTlsUEpMa0tfUUxEQUdKbG1Qd1k4VXNfZWw1MFZGazBRNzZ2V1hMczZRZw?oc=5",
+        "published_at": "2026-02-18T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 18
       },
       {
         "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
