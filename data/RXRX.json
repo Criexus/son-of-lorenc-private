@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.52",
-      "note": "Auto-Update: 13.75% vs. vorheriger Schlusskurs",
+      "value": "$3.56",
+      "note": "Auto-Update: 15.21% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-25T17:03:48Z",
+    "last_update_utc": "2026-08-25T17:53:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.515,
+      "regularMarketPrice": 3.56,
       "previousClose": 3.09,
-      "change": 0.425,
-      "changePercent": 13.75,
-      "regularMarketTime": "2026-08-25T17:03:39Z",
+      "change": 0.47,
+      "changePercent": 15.21,
+      "regularMarketTime": "2026-08-25T17:52:56Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -399,7 +399,7 @@
       },
       {
         "t": "2026-08-25T13:30:00Z",
-        "price": 3.515
+        "price": 3.56
       }
     ],
     "price_history_1d": [
@@ -576,8 +576,48 @@
         "price": 3.515
       },
       {
-        "t": "2026-08-25T17:03:39Z",
+        "t": "2026-08-25T17:05:00Z",
+        "price": 3.5
+      },
+      {
+        "t": "2026-08-25T17:10:00Z",
         "price": 3.515
+      },
+      {
+        "t": "2026-08-25T17:15:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-08-25T17:20:00Z",
+        "price": 3.5201
+      },
+      {
+        "t": "2026-08-25T17:25:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-08-25T17:30:00Z",
+        "price": 3.535
+      },
+      {
+        "t": "2026-08-25T17:35:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-08-25T17:40:00Z",
+        "price": 3.535
+      },
+      {
+        "t": "2026-08-25T17:45:00Z",
+        "price": 3.545
+      },
+      {
+        "t": "2026-08-25T17:50:00Z",
+        "price": 3.54
+      },
+      {
+        "t": "2026-08-25T17:52:58Z",
+        "price": 3.5598
       }
     ],
     "price_history_range": "1mo",
@@ -630,22 +670,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Recursion Pharmaceuticals: Aktie stürzt nach komplettem NVIDIA-Ausstieg ab - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhnRXFrLUZibWFIYkkwV04yYklOQkt3dTVHTkRrV2tDZnJIMW1BMk83cWg1YURQc3Z2YVVaQl9FWTlLeUtSdDVjQ3plcm5oOWxoSVlQWEFlNlpaQ1lQT0ZwaDlJb1FqUnlTVjdRT1R0bFcxdXRQbTZHaWJObGJZZU1GRmJYaTA1b0FFbjZqeG00T3JnQ01VZ215a0xjWXoxOWV4YTlsUEpMa0tfUUxEQUdKbG1Qd1k4VXNfZWw1MFZGazBRNzZ2V1hMczZRZw?oc=5",
-        "published_at": "2026-02-18T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 18
       },
       {
         "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
