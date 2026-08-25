@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$164.21",
-      "note": "Auto-Update: 2.55% vs. vorheriger Schlusskurs",
+      "value": "$164.92",
+      "note": "Auto-Update: 3.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-25T19:52:34Z",
+    "last_update_utc": "2026-08-25T20:16:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 164.21,
+      "regularMarketPrice": 164.92,
       "previousClose": 160.12,
-      "change": 4.09,
-      "changePercent": 2.55,
-      "regularMarketTime": "2026-08-25T19:52:07Z",
+      "change": 4.8,
+      "changePercent": 3.0,
+      "regularMarketTime": "2026-08-25T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-08-25T13:30:00Z",
-        "price": 164.21
+        "price": 164.92
       }
     ],
     "price_history_1d": [
@@ -644,11 +644,15 @@
       },
       {
         "t": "2026-08-25T19:50:00Z",
-        "price": 164.235
+        "price": 164.19
       },
       {
-        "t": "2026-08-25T19:52:07Z",
-        "price": 164.21
+        "t": "2026-08-25T19:55:00Z",
+        "price": 164.91
+      },
+      {
+        "t": "2026-08-25T20:00:00Z",
+        "price": 164.92
       }
     ],
     "price_history_range": "1mo",
@@ -765,6 +769,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "RBC Capital initiates Guardant Health stock coverage with outperform rating - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYmpxMVFWMkhRY0thVFVfR0VQT0FBTHJBazRGQ0dQZlZJMFZnSzg3c1RpZDI3eG9zc3NGNk54dC1DcWxfVWl1N0lXcDJSX3F2dkM4bl9VdUFaRHFteG5BT1ZsV2l5aS03c2VZVXJIRUM3VzB5UHctYWxhbEdMQzdoM0h2NWFrZXB2YThYUTZKc0ctdUFjRmVwSkR5RmllLW5TM0NjWXV1XzBsX082MGNzekxGSU1pN251cFI1bzRBMDJpX0tMUFU2ckxReC1vNlJF?oc=5",
+        "published_at": "2026-06-11T07:00:00Z",
+        "source": "Investing.com",
+        "query": "\"Guardant Health\" Shield blood test news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 13
       },
       {
         "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | News | A2N5RY - finanzen.net",
@@ -934,6 +954,18 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-30"
+      },
+      {
+        "type": "Analysten / Kursziel",
+        "level": "low",
+        "title": "RBC Capital initiates Guardant Health stock coverage with outperform rating - Investing.com",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "Investing.com",
+        "date": "2026-06-11T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYmpxMVFWMkhRY0thVFVfR0VQT0FBTHJBazRGQ0dQZlZJMFZnSzg3c1RpZDI3eG9zc3NGNk54dC1DcWxfVWl1N0lXcDJSX3F2dkM4bl9VdUFaRHFteG5BT1ZsV2l5aS03c2VZVXJIRUM3VzB5UHctYWxhbEdMQzdoM0h2NWFrZXB2YThYUTZKc0ctdUFjRmVwSkR5RmllLW5TM0NjWXV1XzBsX082MGNzekxGSU1pN251cFI1bzRBMDJpX0tMUFU2ckxReC1vNlJF?oc=5"
       },
       {
         "type": "SEC Filing",

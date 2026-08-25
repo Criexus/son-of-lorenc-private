@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$7.42",
-      "note": "Auto-Update: 1.85% vs. vorheriger Schlusskurs",
+      "value": "$7.44",
+      "note": "Auto-Update: 2.06% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -303,15 +303,15 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-25T19:51:44Z",
+    "last_update_utc": "2026-08-25T20:15:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 7.425,
+      "regularMarketPrice": 7.44,
       "previousClose": 7.29,
-      "change": 0.135,
-      "changePercent": 1.85,
-      "regularMarketTime": "2026-08-25T19:51:28Z",
+      "change": 0.15,
+      "changePercent": 2.06,
+      "regularMarketTime": "2026-08-25T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -412,7 +412,7 @@
       },
       {
         "t": "2026-08-25T13:30:00Z",
-        "price": 7.425
+        "price": 7.44
       }
     ],
     "price_history_1d": [
@@ -722,11 +722,15 @@
       },
       {
         "t": "2026-08-25T19:50:00Z",
-        "price": 7.43
+        "price": 7.425
       },
       {
-        "t": "2026-08-25T19:51:28Z",
-        "price": 7.425
+        "t": "2026-08-25T19:55:00Z",
+        "price": 7.44
+      },
+      {
+        "t": "2026-08-25T20:00:00Z",
+        "price": 7.44
       }
     ],
     "price_history_range": "1mo",
@@ -1101,6 +1105,22 @@
         "relevance_score": 7
       },
       {
+        "title": "Atai Beckley Aktie: 13 Prozent Sprung nach Russell-Aufnahme - Kapitalmarktexperten",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa09rY2t5dXBPZWE2bGRXLURpYTZxN0VMeVZKX1I5ZG1OM3o1WnVtR2tfYmlCb2p2UUotRldramo5cjFqS2JkdVNSeWV3ZHV0Y3FXcW5xbDZyaDl1Q0JKRlh2X3ZnSWtKRncxNGhjaDJZVlMzV3U4TDVYbXp1SkJHdzFhRGpjenNDaUFXQ3V0anRzWjFVQVBpNW42Yw?oc=5",
+        "published_at": "2026-06-25T07:00:00Z",
+        "source": "Kapitalmarktexperten",
+        "query": "ATAI / AtaiBeckley ATAI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
         "title": "Atai Beckley Aktie: S&P-Index-Aufnahme seit 21. Juni - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNakt2WEdXOWNyQTNmaHFLNkhYSHlwM3ZXdE5KMEZ4MjFwMkI3TjUwbVhuSmwxTGJGX2RRVkdLVWFzNkdKTkhzdm95Qk5xRk9NejRsOU1tcl9VT29lSmJzZVZINlBTWW1OZGxMZkk5djVWQ3k3c2FPRS1zSVA4YWpkbGNNSi1FNk90dUhBSENHNk0wLUwtUGRrcXNPRUdJSzhDdWY0?oc=5",
         "published_at": "2026-06-22T07:00:00Z",
@@ -1131,6 +1151,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 22
+      },
+      {
+        "title": "Atai Beckley Aktie: Jahreshoch bei 4,20 Euro erreicht - Trading-Treff",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVlFXTUNKeXNZcFVmQ0tfYzVERFgyd21TZ0x6Z2xvYU16eWJ5MFdmdlQ4WkU1T05EQjZHZjB5d2c5N0lpUVRHY1E0NDhNMi01aW1tUkxqOU90TDFSakhmZmdRalg3a2VFMjZJZmlQVHJIWU5NdkF6UUJyMmUxdl9vMnByMGRwNllqTzBIWQ?oc=5",
+        "published_at": "2026-06-01T07:00:00Z",
+        "source": "Trading-Treff",
+        "query": "AtaiBeckley BPL-003 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
       },
       {
         "title": "Atai Beckley Aktie: Q1-Umsatz zehnfach über Erwartung - Kapitalmarktexperten",
@@ -1179,38 +1215,6 @@
         "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 18
-      },
-      {
-        "title": "Atai Beckley meldet Phase-2a-Ergebnisse zu BPL-003 bei TRD; Phase-3-Start Q2/2026 - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlFEOVdSWEJoY3NmblFJcWxoZEFpM2djeldVRUlUTzJ5UTFwZjY3LVJ3VkNWNDc0VWFpb3RSWmQwMnJXc1hjQkptLWJCTzJfMXpLcFlndzVmc1hyeU92ZXBndmxVaVhfa21HRFZ1M1F1NENaTVhOYVVmTmI1NFEyd2JqWV81TnNrT2t5LUJ0YlZ0QU54UXdEX0RXaXFqMFdUQTc5MEdRMGNFUXBNTlNCRw?oc=5",
-        "published_at": "2026-03-17T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "AtaiBeckley BPL-003 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 22
-      },
-      {
-        "title": "ATAI Life Sciences Aktie: Strategische Neuausrichtung - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLUI1cnZLMU5FMXE4NVJ1RnV3V0laa2VXa0I3YmtsYnNreUxqc3NDQVZOTjRkYTFROTBkZkVHMWoyeXlieTJVd1pJaDd4YzdMZ2tJR0FqZ0NiN1hJeE1SMHY0Vnk5X0FLZ0N1Sjc1SFRBNEhtaFd4WkhpS05yWHpOX2ZraC1QLWtPSzlHV3R3c2VtNGJtdEdaZU1Xb2JqUkwtY0xfMVVJWQ?oc=5",
-        "published_at": "2026-03-08T08:00:00Z",
-        "source": "Börse Express",
-        "query": "ATAI EMP-01 VLS-01 FDA",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       }
     ],
     "sec_filings": [
@@ -1589,18 +1593,6 @@
       {
         "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "Atai Beckley meldet Phase-2a-Ergebnisse zu BPL-003 bei TRD; Phase-3-Start Q2/2026 - Goldesel.de",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Goldesel.de",
-        "date": "2026-03-17T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlFEOVdSWEJoY3NmblFJcWxoZEFpM2djeldVRUlUTzJ5UTFwZjY3LVJ3VkNWNDc0VWFpb3RSWmQwMnJXc1hjQkptLWJCTzJfMXpLcFlndzVmc1hyeU92ZXBndmxVaVhfa21HRFZ1M1F1NENaTVhOYVVmTmI1NFEyd2JqWV81TnNrT2t5LUJ0YlZ0QU54UXdEX0RXaXFqMFdUQTc5MEdRMGNFUXBNTlNCRw?oc=5"
-      },
-      {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
         "title": "Atai Beckley Aktie: Phase-3-Start im Q2 2026 - Trading-Treff",
         "reason": "Trigger erkannt: Quartalszahlen / Cash.",
         "impact": "fundamentaler Risiko-Trigger",
@@ -1717,6 +1709,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-09"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "DEFA14A · 2026-07-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-07-16"
       },
       {
         "type": "SEC Filing",

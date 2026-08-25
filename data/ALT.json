@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.19",
-      "note": "Auto-Update: 7.24% vs. vorheriger Schlusskurs",
+      "value": "$3.20",
+      "note": "Auto-Update: 7.74% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-25T19:52:16Z",
+    "last_update_utc": "2026-08-25T20:16:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.185,
+      "regularMarketPrice": 3.2,
       "previousClose": 2.97,
-      "change": 0.215,
-      "changePercent": 7.24,
-      "regularMarketTime": "2026-08-25T19:52:03Z",
+      "change": 0.23,
+      "changePercent": 7.74,
+      "regularMarketTime": "2026-08-25T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-08-25T13:30:00Z",
-        "price": 3.185
+        "price": 3.2
       }
     ],
     "price_history_1d": [
@@ -727,11 +727,15 @@
       },
       {
         "t": "2026-08-25T19:50:00Z",
-        "price": 3.185
+        "price": 3.18
       },
       {
-        "t": "2026-08-25T19:52:03Z",
-        "price": 3.185
+        "t": "2026-08-25T19:55:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-08-25T20:00:00Z",
+        "price": 3.2
       }
     ],
     "price_history_range": "1mo",
@@ -866,11 +870,11 @@
         "relevance_score": 6
       },
       {
-        "title": "Altimmune Aktie (A2N5Z6, ALT) - Kurs, Chart, News & Kennzahlen - Ariva",
+        "title": "Altimmune Inc - Ariva",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1VEhhLXlYc3IzcmloTzlVd0JSNXk2Y0NzVDhZTUozaDF0dUJnbVIzdDZLTVptWE9tY0FlbVlvTUYtWkcxanM0V0QxWlVXTkRxbmpiUFpzUXNOVTQ?oc=5",
         "published_at": "2024-11-04T14:47:23Z",
         "source": "Ariva",
-        "query": "Altimmune ALT stock news",
+        "query": "Altimmune ALT pemvidutide stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -879,7 +883,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
+        "relevance_score": 7
       },
       {
         "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
