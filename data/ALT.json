@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-26T13:32:17Z",
+    "last_update_utc": "2026-08-26T14:33:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -316,7 +316,7 @@
       "previousClose": 3.12,
       "change": 0.005,
       "changePercent": 0.16,
-      "regularMarketTime": "2026-08-26T13:32:04Z",
+      "regularMarketTime": "2026-08-26T14:33:15Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -427,11 +427,59 @@
     "price_history_1d": [
       {
         "t": "2026-08-26T13:30:00Z",
+        "price": 3.105
+      },
+      {
+        "t": "2026-08-26T13:35:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-26T13:40:00Z",
+        "price": 3.1
+      },
+      {
+        "t": "2026-08-26T13:45:00Z",
+        "price": 3.1097
+      },
+      {
+        "t": "2026-08-26T13:50:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-26T13:55:00Z",
+        "price": 3.12
+      },
+      {
+        "t": "2026-08-26T14:00:00Z",
+        "price": 3.11
+      },
+      {
+        "t": "2026-08-26T14:05:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-26T14:10:00Z",
+        "price": 3.115
+      },
+      {
+        "t": "2026-08-26T14:15:00Z",
+        "price": 3.12
+      },
+      {
+        "t": "2026-08-26T14:20:00Z",
         "price": 3.125
       },
       {
-        "t": "2026-08-26T13:32:09Z",
-        "price": 3.1263
+        "t": "2026-08-26T14:25:00Z",
+        "price": 3.13
+      },
+      {
+        "t": "2026-08-26T14:30:00Z",
+        "price": 3.125
+      },
+      {
+        "t": "2026-08-26T14:33:15Z",
+        "price": 3.125
       }
     ],
     "price_history_range": "1mo",
@@ -454,19 +502,19 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune Q2 übertrifft Erwartungen: Verlust je Aktie -0,12 USD, Phase-3-Start für MASH - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWE2QWpKREJObUFKTHlZalc0OVhUanF4ajgxTl9MWFlGSFo1bll5MmNveUxwX1R0MnVHWVowdHE5ZFowODBWbThZVnJCOHBFR2laeGdNUDVTYmFibXU4aDJwcmdxb0JVOG5xX1d0S1ViMTM2MUdFOG84V2FrSVl1RkVmOW45bGRBOExISmF0WmRCN0ZBT09BU1FTV2w0aHZzMG8xblhoUGNvNGtBMEtDYXNfZFB2QQ?oc=5",
-        "published_at": "2026-08-12T07:00:00Z",
-        "source": "Goldesel.de",
+        "title": "Altimmune-Aktie über 100-Tage-Linie - boerse.de",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVU9yc1EyYUhENXVjaFlnSkF5TWNhdTlZZ0hUN1pDMjdWUi1SOWk0S1NZel9uQkNvb3phNEhJYk9BNHctelJicVFGVmRUU0NuUk5YWEdQVmtQcGdlbjdZczJtQ3ZpRmJHeWxKZkNpMmpwcjIzTEk5MzRpODR6WlBPZUYtanY1dw?oc=5",
+        "published_at": "2026-08-25T03:59:00Z",
+        "source": "boerse.de",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
       },
       {
@@ -490,7 +538,7 @@
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDhZeWU1QzBPRks0RGNEY25uYWRVbEpYa1lRcVFEUnk0VDRJMGppeWJPd3NwQklSXzlQVE5ILU9EUjdlSDNZWmx5OWJERVU0Mk9RakZ2cEUyb3lWaFdUMnEzZEdMdlBpUmRMemsySi0yOFF2TTF0MlBfdWYyWWRScFV6UW11RU1SLWdJN1AwRXVOT2FYVEtEaHRYOV84aXBPVE50bzRheHNvdElkUExNellTWHZKcUhFR0hWXzkyeURXbDhNc2d5ZUtn?oc=5",
         "published_at": "2026-07-28T07:00:00Z",
         "source": "Goldesel.de",
-        "query": "Altimmune ALT stock news",
+        "query": "Altimmune ALT pemvidutide stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1154,18 +1202,6 @@
         "date": "2026-08-12"
       },
       {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Altimmune Q2 übertrifft Erwartungen: Verlust je Aktie -0,12 USD, Phase-3-Start für MASH - Goldesel.de",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Goldesel.de",
-        "date": "2026-08-12T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWE2QWpKREJObUFKTHlZalc0OVhUanF4ajgxTl9MWFlGSFo1bll5MmNveUxwX1R0MnVHWVowdHE5ZFowODBWbThZVnJCOHBFR2laeGdNUDVTYmFibXU4aDJwcmdxb0JVOG5xX1d0S1ViMTM2MUdFOG84V2FrSVl1RkVmOW45bGRBOExISmF0WmRCN0ZBT09BU1FTV2w0aHZzMG8xblhoUGNvNGtBMEtDYXNfZFB2QQ?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
@@ -1185,6 +1221,14 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-01"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
