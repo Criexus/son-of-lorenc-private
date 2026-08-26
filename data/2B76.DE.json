@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.30",
-      "note": "Auto-Update: -0.88% vs. vorheriger Schlusskurs",
+      "value": "$18.24",
+      "note": "Auto-Update: -1.22% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-26T12:27:51Z",
+    "last_update_utc": "2026-08-26T13:33:08Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.304,
+      "regularMarketPrice": 18.24,
       "previousClose": 18.466,
-      "change": -0.162,
-      "changePercent": -0.88,
-      "regularMarketTime": "2026-08-26T12:06:46Z",
+      "change": -0.226,
+      "changePercent": -1.22,
+      "regularMarketTime": "2026-08-26T13:06:56Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -246,7 +246,7 @@
       },
       {
         "t": "2026-08-26T07:00:00Z",
-        "price": 18.304
+        "price": 18.24
       }
     ],
     "price_history_1d": [
@@ -472,11 +472,39 @@
       },
       {
         "t": "2026-08-26T12:05:00Z",
-        "price": 18.32
+        "price": 18.304
       },
       {
-        "t": "2026-08-26T12:06:46Z",
-        "price": 18.304
+        "t": "2026-08-26T12:10:00Z",
+        "price": 18.308
+      },
+      {
+        "t": "2026-08-26T12:15:00Z",
+        "price": 18.298
+      },
+      {
+        "t": "2026-08-26T12:25:00Z",
+        "price": 18.326
+      },
+      {
+        "t": "2026-08-26T12:30:00Z",
+        "price": 18.29
+      },
+      {
+        "t": "2026-08-26T12:35:00Z",
+        "price": 18.28
+      },
+      {
+        "t": "2026-08-26T12:45:00Z",
+        "price": 18.252
+      },
+      {
+        "t": "2026-08-26T12:50:00Z",
+        "price": 18.25
+      },
+      {
+        "t": "2026-08-26T13:06:56Z",
+        "price": 18.24
       }
     ],
     "price_history_range": "1mo",
