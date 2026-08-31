@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.07",
-      "note": "Auto-Update: -6.12% vs. vorheriger Schlusskurs",
+      "value": "$3.12",
+      "note": "Auto-Update: 3.65% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-08-31T06:39:04Z",
+    "last_update_utc": "2026-08-31T14:33:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.07,
-      "previousClose": 3.27,
-      "change": -0.2,
-      "changePercent": -6.12,
-      "regularMarketTime": "2026-08-28T20:00:01Z",
+      "regularMarketPrice": 3.12,
+      "previousClose": 3.01,
+      "change": 0.11,
+      "changePercent": 3.65,
+      "regularMarketTime": "2026-08-31T14:04:31Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,14 +215,6 @@
       "fiftyTwoWeekRange": "2.7 – 5708.8"
     },
     "price_history": [
-      {
-        "t": "2026-07-29T13:30:00Z",
-        "price": 0.15
-      },
-      {
-        "t": "2026-07-30T13:30:00Z",
-        "price": 0.15
-      },
       {
         "t": "2026-07-31T13:30:00Z",
         "price": 2.96
@@ -306,172 +298,24 @@
       {
         "t": "2026-08-28T13:30:00Z",
         "price": 3.07
+      },
+      {
+        "t": "2026-08-31T13:30:00Z",
+        "price": 3.12
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-08-28T13:30:00Z",
-        "price": 3.2005
+        "t": "2026-08-31T13:30:00Z",
+        "price": 3.0505
       },
       {
-        "t": "2026-08-28T13:50:00Z",
-        "price": 3.11
-      },
-      {
-        "t": "2026-08-28T14:00:00Z",
-        "price": 3.16
-      },
-      {
-        "t": "2026-08-28T14:15:00Z",
-        "price": 3.1208
-      },
-      {
-        "t": "2026-08-28T14:20:00Z",
-        "price": 3.1101
-      },
-      {
-        "t": "2026-08-28T14:25:00Z",
-        "price": 3.145
-      },
-      {
-        "t": "2026-08-28T14:30:00Z",
-        "price": 3.2
-      },
-      {
-        "t": "2026-08-28T14:35:00Z",
-        "price": 3.13
-      },
-      {
-        "t": "2026-08-28T14:45:00Z",
-        "price": 3.13
-      },
-      {
-        "t": "2026-08-28T14:50:00Z",
-        "price": 3.155
-      },
-      {
-        "t": "2026-08-28T14:55:00Z",
-        "price": 3.13
-      },
-      {
-        "t": "2026-08-28T15:00:00Z",
+        "t": "2026-08-31T13:40:00Z",
         "price": 3.12
       },
       {
-        "t": "2026-08-28T15:25:00Z",
-        "price": 3.072
-      },
-      {
-        "t": "2026-08-28T15:30:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-08-28T15:35:00Z",
-        "price": 3.09
-      },
-      {
-        "t": "2026-08-28T15:50:00Z",
+        "t": "2026-08-31T14:04:31Z",
         "price": 3.12
-      },
-      {
-        "t": "2026-08-28T16:00:00Z",
-        "price": 3.1
-      },
-      {
-        "t": "2026-08-28T16:10:00Z",
-        "price": 3.0877
-      },
-      {
-        "t": "2026-08-28T16:15:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-08-28T16:20:00Z",
-        "price": 3.105
-      },
-      {
-        "t": "2026-08-28T16:45:00Z",
-        "price": 2.96
-      },
-      {
-        "t": "2026-08-28T16:50:00Z",
-        "price": 2.93
-      },
-      {
-        "t": "2026-08-28T16:55:00Z",
-        "price": 3.02
-      },
-      {
-        "t": "2026-08-28T17:05:00Z",
-        "price": 3.1
-      },
-      {
-        "t": "2026-08-28T17:10:00Z",
-        "price": 3.05
-      },
-      {
-        "t": "2026-08-28T17:15:00Z",
-        "price": 3.0301
-      },
-      {
-        "t": "2026-08-28T17:20:00Z",
-        "price": 3.04
-      },
-      {
-        "t": "2026-08-28T17:50:00Z",
-        "price": 3.02
-      },
-      {
-        "t": "2026-08-28T18:10:00Z",
-        "price": 3.0011
-      },
-      {
-        "t": "2026-08-28T18:15:00Z",
-        "price": 2.97
-      },
-      {
-        "t": "2026-08-28T18:20:00Z",
-        "price": 2.945
-      },
-      {
-        "t": "2026-08-28T18:25:00Z",
-        "price": 2.99
-      },
-      {
-        "t": "2026-08-28T18:30:00Z",
-        "price": 2.9406
-      },
-      {
-        "t": "2026-08-28T18:55:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-08-28T19:10:00Z",
-        "price": 3.0898
-      },
-      {
-        "t": "2026-08-28T19:20:00Z",
-        "price": 3.03
-      },
-      {
-        "t": "2026-08-28T19:35:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-08-28T19:40:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-08-28T19:45:00Z",
-        "price": 3.001
-      },
-      {
-        "t": "2026-08-28T19:55:00Z",
-        "price": 3.08
-      },
-      {
-        "t": "2026-08-28T20:00:00Z",
-        "price": 3.07
       }
     ],
     "price_history_range": "1mo",
@@ -621,154 +465,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT01875484",
-        "title": "Circulating miR-126 as a Novel Biomarker for Post Myocardial Infarction Remodeling",
+        "nct_id": "NCT06014476",
+        "title": "Psychological Symptoms and Burden in Caregivers of Patients With Disorders of Consciousness",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Myocardial Infarction, Left Ventricular Remodeling, miR-126",
+        "conditions": "Psychological Distress, Anxiety Depression, Burden, Caregiver, Disorders of Consciousness",
         "last_update": "",
-        "start_date": "2012-02",
-        "url": "https://clinicaltrials.gov/study/NCT01875484"
+        "start_date": "2021-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT06014476"
       },
       {
-        "nct_id": "NCT06794047",
-        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
-        "status": "RECRUITING",
+        "nct_id": "NCT05997147",
+        "title": "A Preoperative Model to Predict the Lymphovascular Invasion in Pancreatic Ductal Adenocarcinoma",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Predictive Cancer Model, Pancreas Cancer",
+        "last_update": "",
+        "start_date": "2023-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT05997147"
+      },
+      {
+        "nct_id": "NCT04026282",
+        "title": "To Investigate the Cumulative Live Birth Rates Using GnRH Antagonist or Agonist Protocol for COS in ART Treatment",
+        "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Diminished Ovarian Reserve, IVF Outcomes",
+        "conditions": "Sterility",
         "last_update": "",
-        "start_date": "2025-03-17",
-        "url": "https://clinicaltrials.gov/study/NCT06794047"
+        "start_date": "2018-12-27",
+        "url": "https://clinicaltrials.gov/study/NCT04026282"
       },
       {
-        "nct_id": "NCT06895447",
-        "title": "Robotic Gastrectomy for Locally Advanced Gastric Cancer After Neoadjuvant Therapy",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Gastric Cancers",
-        "last_update": "",
-        "start_date": "2024-11-14",
-        "url": "https://clinicaltrials.gov/study/NCT06895447"
-      },
-      {
-        "nct_id": "NCT06001099",
-        "title": "PERformance of Multi-Cancer Early-detectIon Based on Various Biomarkers in fEmale Cancers, PERCEIVE-II",
+        "nct_id": "NCT04768582",
+        "title": "Platelet Reactivity After an Eastern Asian Loading Dose of Prasugrel in Taiwanese ACS Patients",
         "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Gynecologic Cancer",
-        "last_update": "",
-        "start_date": "2023-02-22",
-        "url": "https://clinicaltrials.gov/study/NCT06001099"
-      },
-      {
-        "nct_id": "NCT05237817",
-        "title": "Association Between Stroke and Adrenal Incidentalomas",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Stroke, Adrenal Incidentaloma",
-        "last_update": "",
-        "start_date": "2021-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT05237817"
-      },
-      {
-        "nct_id": "NCT06754891",
-        "title": "Clinical Trial of TQH3906 Capsules for the Treatment of Adult Patients With Moderately to Severely Active Ulcerative Colitis or Crohn's Disease",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Inflammatory Bowel Diseases",
-        "last_update": "",
-        "start_date": "2025-01-28",
-        "url": "https://clinicaltrials.gov/study/NCT06754891"
-      },
-      {
-        "nct_id": "NCT05362825",
-        "title": "Surgery Outcome Treated by Neo-adjuvant Combination of Oxaliplatin, Irinotecan, Folinic Acid and Fluorouracil (FOLFOXIRI) Regimen in Synchronous Liver Limited Metastasis Colorectal Cancer",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Liver Metastasis Colon Cancer, Synchronous Neoplasm",
-        "last_update": "",
-        "start_date": "2022-02-18",
-        "url": "https://clinicaltrials.gov/study/NCT05362825"
-      },
-      {
-        "nct_id": "NCT06339996",
-        "title": "Male Supplements for Sperm Quality and Aging",
-        "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Unrecognized Condition",
+        "conditions": "Acute Coronary Syndrome, Hemorrhage, Treatment Side Effects",
         "last_update": "",
-        "start_date": "2024-03-26",
-        "url": "https://clinicaltrials.gov/study/NCT06339996"
+        "start_date": "2020-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT04768582"
       },
       {
-        "nct_id": "NCT06821503",
-        "title": "Clinical Study Evaluating the Safety, Tolerability, and Preliminary Efficacy of LM-108 ± Penpulimab+Chemotherapy in Advanced Solid Tumors - Cohort C",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Advanced Pancreatic Cancer",
-        "last_update": "",
-        "start_date": "2025-04-11",
-        "url": "https://clinicaltrials.gov/study/NCT06821503"
-      },
-      {
-        "nct_id": "NCT05028218",
-        "title": "A Clinical Study of TQB3824 in Subjects With Advanced Cancer",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Advanced Cancer",
-        "last_update": "",
-        "start_date": "2021-08-31",
-        "url": "https://clinicaltrials.gov/study/NCT05028218"
-      },
-      {
-        "nct_id": "NCT06385873",
-        "title": "RC48 Combined With Adebrelimab, Apatinib and S-1 as Neoadjuvant Therapy in Locally Advanced Gastric Cancer",
+        "nct_id": "NCT07647692",
+        "title": "Deep Learning Time-Series Prediction of Long-Term Growth Patterns of Pulmonary Ground-Glass Nodules Using Serial CT",
         "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Gastric Cancer/Gastroesophageal Junction Adenocarcinoma",
+        "phase": "",
+        "conditions": "Pulmonary Nodules, Lung Neoplasms, Adenocarcinoma of Lung",
         "last_update": "",
-        "start_date": "2024-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT06385873"
+        "start_date": "2026-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT07647692"
       },
       {
-        "nct_id": "NCT04486833",
-        "title": "Quaratusugene Ozeplasmid (Reqorsa) and Osimertinib in Patients With Advanced Lung Cancer Who Progressed on Osimertinib",
-        "status": "RECRUITING",
+        "nct_id": "NCT01577992",
+        "title": "Evaluation of the Subjective and Objective Painful Threshold in Multiple System Atrophy Pain and Multiple System Atrophy",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Pain Threshold, Multiple System Atrophy",
+        "last_update": "",
+        "start_date": "2011-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT01577992"
+      },
+      {
+        "nct_id": "NCT06218771",
+        "title": "A Study of TQB3454 Tablets in Patients With Blood Tumors",
+        "status": "UNKNOWN",
         "phase": "PHASE1, PHASE2",
-        "conditions": "Carcinoma, Non-Small Cell Lung",
+        "conditions": "Acute Myeloid Leukemia, Myelodysplastic Syndromes",
         "last_update": "",
-        "start_date": "2021-09-03",
-        "url": "https://clinicaltrials.gov/study/NCT04486833"
+        "start_date": "2023-07-10",
+        "url": "https://clinicaltrials.gov/study/NCT06218771"
       },
       {
-        "nct_id": "NCT06992648",
-        "title": "Trifluridine/Tipiracil Plus Regorafenib vs Trifluridine/Tipiracil Plus Bevacizumab for Refractory Metastatic Colorectal Cancer",
+        "nct_id": "NCT02342392",
+        "title": "Intralesional Ranibizumab on Pterygium Vascularity, Size and Recurrence Rate: a Pilot Study",
+        "status": "COMPLETED",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Pterygium",
+        "last_update": "",
+        "start_date": "2012-09",
+        "url": "https://clinicaltrials.gov/study/NCT02342392"
+      },
+      {
+        "nct_id": "NCT06496958",
+        "title": "Water Exchange and CO2 Insufflation With Abdominal Compression Device to Reduce Manual Assistance",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Manual Pressure, Repositioning, Colonoscopy, Colon Polyp",
+        "last_update": "",
+        "start_date": "2024-09-02",
+        "url": "https://clinicaltrials.gov/study/NCT06496958"
+      },
+      {
+        "nct_id": "NCT03829852",
+        "title": "Regorafenib in Taiwan Metastatic Colorectal Cancer (mCRC) Patients",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Metastatic Colorectal Cancer",
+        "last_update": "",
+        "start_date": "2019-02-11",
+        "url": "https://clinicaltrials.gov/study/NCT03829852"
+      },
+      {
+        "nct_id": "NCT07349693",
+        "title": "Comparison of Cerebraca Wafer Plus Temozolomide Versus Temozolomide Alone in Recurrent Glioblastoma",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Recurrent Glioblastoma, IDH-Wildtype",
+        "last_update": "",
+        "start_date": "2026-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT07349693"
+      },
+      {
+        "nct_id": "NCT05842304",
+        "title": "Individualized Precision rTMS for Language Recovery in Patients After Ischemic Stroke: a Multi-center RCT",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Stroke, Ischemic, Aphasia",
+        "last_update": "",
+        "start_date": "2023-06-05",
+        "url": "https://clinicaltrials.gov/study/NCT05842304"
+      },
+      {
+        "nct_id": "NCT02928081",
+        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Carcinoma, Pancreatic Ductal",
+        "last_update": "",
+        "start_date": "2016-01",
+        "url": "https://clinicaltrials.gov/study/NCT02928081"
+      },
+      {
+        "nct_id": "NCT06836999",
+        "title": "Deep Sedation in Catheter Ablation of Atrial Fibrillation",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Atrial Fibrillation, Atrial Fibrillation, Paroxysmal or Persistent, Deep Sedations, Conscious Sedation",
+        "last_update": "",
+        "start_date": "2025-03-03",
+        "url": "https://clinicaltrials.gov/study/NCT06836999"
+      },
+      {
+        "nct_id": "NCT07184827",
+        "title": "Evaluate the Efficacy and Safety of U101 Oral Capsules in the Prevention of Uncomplicated rUTIs in Women",
         "status": "RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Colorectal Cancer Metastatic, Colorectal Cancer Recurrent",
+        "conditions": "Recurrent Urinary Tract Infections in Women",
         "last_update": "",
-        "start_date": "2025-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT06992648"
-      },
-      {
-        "nct_id": "NCT05214235",
-        "title": "A Clinical Study on the Effect of Hypoglycemic Drugs on the Prognosis of Spinal Surgery in Diabetic Patients",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Diabetes Mellitus, Spinal Diseases",
-        "last_update": "",
-        "start_date": "2022-02-07",
-        "url": "https://clinicaltrials.gov/study/NCT05214235"
-      },
-      {
-        "nct_id": "NCT06558240",
-        "title": "To Explore the Effectiveness and Feasibility of HERADERM Hydrogel Wound Dressing on Caesarean Section Surgical Site",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Cesarean Section, Surgical Wound, Surgical Wound Infection, Wounds and Injuries",
-        "last_update": "",
-        "start_date": "2024-07-29",
-        "url": "https://clinicaltrials.gov/study/NCT06558240"
+        "start_date": "2020-10-14",
+        "url": "https://clinicaltrials.gov/study/NCT07184827"
       }
     ],
     "detected_triggers": [
@@ -791,74 +635,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Clinical Study of TQB3824 in Subjects With Advanced Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT05028218",
-        "date": "2021-08-31"
+        "title": "Evaluation of the Subjective and Objective Painful Threshold in Multiple System Atrophy Pain and Multiple System Atrophy",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT01577992",
+        "date": "2011-12-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Quaratusugene Ozeplasmid (Reqorsa) and Osimertinib in Patients With Advanced Lung Cancer Who Progressed on Osimertinib",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT04486833",
-        "date": "2021-09-03"
+        "title": "Intralesional Ranibizumab on Pterygium Vascularity, Size and Recurrence Rate: a Pilot Study",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2, PHASE3",
+        "source": "NCT02342392",
+        "date": "2012-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Male Supplements for Sperm Quality and Aging",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06339996",
-        "date": "2024-03-26"
+        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT02928081",
+        "date": "2016-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "RC48 Combined With Adebrelimab, Apatinib and S-1 as Neoadjuvant Therapy in Locally Advanced Gastric Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT06385873",
-        "date": "2024-05-01"
+        "title": "To Investigate the Cumulative Live Birth Rates Using GnRH Antagonist or Agonist Protocol for COS in ART Treatment",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT04026282",
+        "date": "2018-12-27"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Robotic Gastrectomy for Locally Advanced Gastric Cancer After Neoadjuvant Therapy",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06895447",
-        "date": "2024-11-14"
+        "title": "Platelet Reactivity After an Eastern Asian Loading Dose of Prasugrel in Taiwanese ACS Patients",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT04768582",
+        "date": "2020-05-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Clinical Trial of TQH3906 Capsules for the Treatment of Adult Patients With Moderately to Severely Active Ulcerative Colitis or Crohn's Disease",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT06754891",
-        "date": "2025-01-28"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06794047",
-        "date": "2025-03-17"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Trifluridine/Tipiracil Plus Regorafenib vs Trifluridine/Tipiracil Plus Bevacizumab for Refractory Metastatic Colorectal Cancer",
+        "title": "Evaluate the Efficacy and Safety of U101 Oral Capsules in the Prevention of Uncomplicated rUTIs in Women",
         "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06992648",
-        "date": "2025-04-01"
+        "source": "NCT07184827",
+        "date": "2020-10-14"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Clinical Study Evaluating the Safety, Tolerability, and Preliminary Efficacy of LM-108 ± Penpulimab+Chemotherapy in Advanced Solid Tumors - Cohort C",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06821503",
-        "date": "2025-04-11"
+        "title": "Individualized Precision rTMS for Language Recovery in Patients After Ischemic Stroke: a Multi-center RCT",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05842304",
+        "date": "2023-06-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of TQB3454 Tablets in Patients With Blood Tumors",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1, PHASE2",
+        "source": "NCT06218771",
+        "date": "2023-07-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Water Exchange and CO2 Insufflation With Abdominal Compression Device to Reduce Manual Assistance",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06496958",
+        "date": "2024-09-02"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Deep Sedation in Catheter Ablation of Atrial Fibrillation",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT06836999",
+        "date": "2025-03-03"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -950,51 +802,35 @@
       },
       {
         "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Comparison of Cerebraca Wafer Plus Temozolomide Versus Temozolomide Alone in Recurrent Glioblastoma",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2, PHASE3",
+        "source": "NCT07349693",
+        "date": "2026-11-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Circulating miR-126 as a Novel Biomarker for Post Myocardial Infarction Remodeling",
+        "title": "Regorafenib in Taiwan Metastatic Colorectal Cancer (mCRC) Patients",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT01875484",
-        "date": "2012-02"
+        "source": "NCT03829852",
+        "date": "2019-02-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Association Between Stroke and Adrenal Incidentalomas",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05237817",
-        "date": "2021-04-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "A Clinical Study on the Effect of Hypoglycemic Drugs on the Prognosis of Spinal Surgery in Diabetic Patients",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05214235",
-        "date": "2022-02-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Surgery Outcome Treated by Neo-adjuvant Combination of Oxaliplatin, Irinotecan, Folinic Acid and Fluorouracil (FOLFOXIRI) Regimen in Synchronous Liver Limited Metastasis Colorectal Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05362825",
-        "date": "2022-02-18"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "PERformance of Multi-Cancer Early-detectIon Based on Various Biomarkers in fEmale Cancers, PERCEIVE-II",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06001099",
-        "date": "2023-02-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "To Explore the Effectiveness and Feasibility of HERADERM Hydrogel Wound Dressing on Caesarean Section Surgical Site",
+        "title": "Psychological Symptoms and Burden in Caregivers of Patients With Disorders of Consciousness",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06558240",
-        "date": "2024-07-29"
+        "source": "NCT06014476",
+        "date": "2021-08-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Preoperative Model to Predict the Lymphovascular Invasion in Pancreatic Ductal Adenocarcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05997147",
+        "date": "2023-05-01"
       },
       {
         "type": "SEC Filing",
@@ -1003,6 +839,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
