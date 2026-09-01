@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$164.05",
-      "note": "Auto-Update: -0.53% vs. vorheriger Schlusskurs",
+      "value": "$164.41",
+      "note": "Auto-Update: -0.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-01T17:30:37Z",
+    "last_update_utc": "2026-09-01T20:04:21Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 164.05,
+      "regularMarketPrice": 164.41,
       "previousClose": 164.92,
-      "change": -0.87,
-      "changePercent": -0.53,
-      "regularMarketTime": "2026-09-01T17:29:47Z",
+      "change": -0.51,
+      "changePercent": -0.31,
+      "regularMarketTime": "2026-09-01T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -325,12 +325,16 @@
         "price": 168.52
       },
       {
+        "t": "2026-08-28T13:30:00Z",
+        "price": 161.5
+      },
+      {
         "t": "2026-08-31T13:30:00Z",
         "price": 159.02
       },
       {
         "t": "2026-09-01T13:30:00Z",
-        "price": 164.05
+        "price": 164.41
       }
     ],
     "price_history_1d": [
@@ -527,8 +531,128 @@
         "price": 164.05
       },
       {
-        "t": "2026-09-01T17:29:47Z",
-        "price": 164.05
+        "t": "2026-09-01T17:30:00Z",
+        "price": 164.54
+      },
+      {
+        "t": "2026-09-01T17:35:00Z",
+        "price": 163.86
+      },
+      {
+        "t": "2026-09-01T17:40:00Z",
+        "price": 164.93
+      },
+      {
+        "t": "2026-09-01T17:45:00Z",
+        "price": 164.67
+      },
+      {
+        "t": "2026-09-01T17:50:00Z",
+        "price": 164.85
+      },
+      {
+        "t": "2026-09-01T17:55:00Z",
+        "price": 164.37
+      },
+      {
+        "t": "2026-09-01T18:00:00Z",
+        "price": 163.98
+      },
+      {
+        "t": "2026-09-01T18:05:00Z",
+        "price": 164.075
+      },
+      {
+        "t": "2026-09-01T18:10:00Z",
+        "price": 163.94
+      },
+      {
+        "t": "2026-09-01T18:15:00Z",
+        "price": 163.455
+      },
+      {
+        "t": "2026-09-01T18:20:00Z",
+        "price": 163.51
+      },
+      {
+        "t": "2026-09-01T18:25:00Z",
+        "price": 163.03
+      },
+      {
+        "t": "2026-09-01T18:30:00Z",
+        "price": 162.82
+      },
+      {
+        "t": "2026-09-01T18:35:00Z",
+        "price": 162.94
+      },
+      {
+        "t": "2026-09-01T18:40:00Z",
+        "price": 163.045
+      },
+      {
+        "t": "2026-09-01T18:45:00Z",
+        "price": 162.89
+      },
+      {
+        "t": "2026-09-01T18:50:00Z",
+        "price": 163.32
+      },
+      {
+        "t": "2026-09-01T18:55:00Z",
+        "price": 164.37
+      },
+      {
+        "t": "2026-09-01T19:00:00Z",
+        "price": 163.85
+      },
+      {
+        "t": "2026-09-01T19:05:00Z",
+        "price": 164.37
+      },
+      {
+        "t": "2026-09-01T19:10:00Z",
+        "price": 165.24
+      },
+      {
+        "t": "2026-09-01T19:15:00Z",
+        "price": 164.91
+      },
+      {
+        "t": "2026-09-01T19:20:00Z",
+        "price": 164.93
+      },
+      {
+        "t": "2026-09-01T19:25:00Z",
+        "price": 165.425
+      },
+      {
+        "t": "2026-09-01T19:30:00Z",
+        "price": 164.755
+      },
+      {
+        "t": "2026-09-01T19:35:00Z",
+        "price": 164.88
+      },
+      {
+        "t": "2026-09-01T19:40:00Z",
+        "price": 164.76
+      },
+      {
+        "t": "2026-09-01T19:45:00Z",
+        "price": 164.7
+      },
+      {
+        "t": "2026-09-01T19:50:00Z",
+        "price": 164.415
+      },
+      {
+        "t": "2026-09-01T19:55:00Z",
+        "price": 164.42
+      },
+      {
+        "t": "2026-09-01T20:00:00Z",
+        "price": 164.41
       }
     ],
     "price_history_range": "1mo",
@@ -677,22 +801,6 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 23
-      },
-      {
-        "title": "GUARDANT HEALTH AKTIE | Aktienkurs | US40131M1099 | News | A2N5RY - Finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CUF80a0FIN2RudkxWbmhFRm1FWHZHMERfX2dYZmpXLXdqeUs3dHVtVHFKWEc5a3NDWHljNFk1bmE4bGR4WEN1STd1dXVNRldnVkU3cDdRUEJsa29lN2JaaFMwZw?oc=5",
-        "published_at": "2019-06-14T11:29:16Z",
-        "source": "Finanzen.net",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
       }
     ],
     "sec_filings": [

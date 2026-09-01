@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.08",
-      "note": "Auto-Update: -3.91% vs. vorheriger Schlusskurs",
+      "value": "$3.09",
+      "note": "Auto-Update: -3.44% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-01T17:30:19Z",
+    "last_update_utc": "2026-09-01T20:04:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.075,
+      "regularMarketPrice": 3.09,
       "previousClose": 3.2,
-      "change": -0.125,
-      "changePercent": -3.91,
-      "regularMarketTime": "2026-09-01T17:30:08Z",
+      "change": -0.11,
+      "changePercent": -3.44,
+      "regularMarketTime": "2026-09-01T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -408,12 +408,16 @@
         "price": 3.24
       },
       {
+        "t": "2026-08-28T13:30:00Z",
+        "price": 3.11
+      },
+      {
         "t": "2026-08-31T13:30:00Z",
         "price": 3.11
       },
       {
         "t": "2026-09-01T13:30:00Z",
-        "price": 3.075
+        "price": 3.09
       }
     ],
     "price_history_1d": [
@@ -610,8 +614,128 @@
         "price": 3.08
       },
       {
-        "t": "2026-09-01T17:30:08Z",
+        "t": "2026-09-01T17:30:00Z",
         "price": 3.075
+      },
+      {
+        "t": "2026-09-01T17:35:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T17:40:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-09-01T17:45:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T17:50:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T17:55:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T18:00:00Z",
+        "price": 3.071
+      },
+      {
+        "t": "2026-09-01T18:05:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-09-01T18:10:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-09-01T18:15:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-09-01T18:20:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-09-01T18:25:00Z",
+        "price": 3.06
+      },
+      {
+        "t": "2026-09-01T18:30:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-09-01T18:35:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-09-01T18:40:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-09-01T18:45:00Z",
+        "price": 3.065
+      },
+      {
+        "t": "2026-09-01T18:50:00Z",
+        "price": 3.07
+      },
+      {
+        "t": "2026-09-01T18:55:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-09-01T19:00:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-09-01T19:05:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T19:10:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T19:15:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-09-01T19:20:00Z",
+        "price": 3.09
+      },
+      {
+        "t": "2026-09-01T19:25:00Z",
+        "price": 3.085
+      },
+      {
+        "t": "2026-09-01T19:30:00Z",
+        "price": 3.09
+      },
+      {
+        "t": "2026-09-01T19:35:00Z",
+        "price": 3.075
+      },
+      {
+        "t": "2026-09-01T19:40:00Z",
+        "price": 3.085
+      },
+      {
+        "t": "2026-09-01T19:45:00Z",
+        "price": 3.08
+      },
+      {
+        "t": "2026-09-01T19:50:00Z",
+        "price": 3.0795
+      },
+      {
+        "t": "2026-09-01T19:55:00Z",
+        "price": 3.085
+      },
+      {
+        "t": "2026-09-01T20:00:00Z",
+        "price": 3.09
       }
     ],
     "price_history_range": "1mo",
@@ -712,22 +836,6 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 8
-      },
-      {
-        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
-        "published_at": "2026-01-21T00:01:24Z",
-        "source": "Goldesel.de",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
       },
       {
         "title": "H.C. Wainwright bestätigt Kaufempfehlung für Altimmune-Aktie mit Kursziel von 12 US-Dollar - Investing.com Deutsch",
