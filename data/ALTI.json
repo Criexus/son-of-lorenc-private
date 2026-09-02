@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.90",
-      "note": "Auto-Update: -2.38% vs. vorheriger Schlusskurs",
+      "value": "$3.89",
+      "note": "Auto-Update: -2.51% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-02T17:32:44Z",
+    "last_update_utc": "2026-09-02T20:15:30Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.895,
+      "regularMarketPrice": 3.89,
       "previousClose": 3.99,
-      "change": -0.095,
-      "changePercent": -2.38,
-      "regularMarketTime": "2026-09-02T17:22:08Z",
+      "change": -0.1,
+      "changePercent": -2.51,
+      "regularMarketTime": "2026-09-02T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-09-02T13:30:00Z",
-        "price": 3.895
+        "price": 3.89
       }
     ],
     "price_history_1d": [
@@ -443,30 +443,73 @@
         "price": 3.895
       },
       {
-        "t": "2026-09-02T17:22:08Z",
+        "t": "2026-09-02T17:45:00Z",
         "price": 3.895
+      },
+      {
+        "t": "2026-09-02T17:50:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T18:15:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T19:00:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-09-02T19:05:00Z",
+        "price": 3.93
+      },
+      {
+        "t": "2026-09-02T19:10:00Z",
+        "price": 3.935
+      },
+      {
+        "t": "2026-09-02T19:15:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-09-02T19:20:00Z",
+        "price": 3.915
+      },
+      {
+        "t": "2026-09-02T19:25:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T19:30:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-09-02T19:35:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-09-02T19:40:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-09-02T19:45:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-09-02T19:50:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-09-02T19:55:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-09-02T20:00:00Z",
+        "price": 3.89
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "ASML: AlTi Global reduziert um 76,3 Prozent - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN2VpUmRuREc5N0NINjRNcThHcEV5ZEpodVR1OUhsNnZ0MXpaOTFBQllfOE9UNzR4bUZtNTJtUVhwR25tVGZEOFdzZDM4NDdzMzVxZE1wVE1SdWhZcjBHeXU3VXZ2UTJ6RDNpWFhoajR0ZXQ1dm92eHVMMmNkcXlBV0liUjZBTDJQZk0xd0lEMDhFdUl3TFMySw?oc=5",
-        "published_at": "2026-08-24T01:45:15Z",
-        "source": "Börse Express",
-        "query": "ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "N-PX",
