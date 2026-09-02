@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.05",
-      "note": "Auto-Update: -12.61% vs. vorheriger Schlusskurs",
+      "value": "$3.00",
+      "note": "Auto-Update: -16.2% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-02T09:46:34Z",
+    "last_update_utc": "2026-09-02T13:57:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.05,
-      "previousClose": 3.49,
-      "change": -0.44,
-      "changePercent": -12.61,
-      "regularMarketTime": "2026-09-01T20:00:01Z",
+      "regularMarketPrice": 3.0,
+      "previousClose": 3.58,
+      "change": -0.58,
+      "changePercent": -16.2,
+      "regularMarketTime": "2026-09-02T13:52:37Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -292,82 +292,38 @@
         "price": 3.17
       },
       {
-        "t": "2026-08-28T13:30:00Z",
-        "price": 3.07
-      },
-      {
         "t": "2026-08-31T13:30:00Z",
         "price": 3.08
       },
       {
         "t": "2026-09-01T13:30:00Z",
         "price": 3.05
+      },
+      {
+        "t": "2026-09-02T13:30:00Z",
+        "price": 3.0
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-01T13:30:00Z",
-        "price": 2.89
+        "t": "2026-09-02T13:30:00Z",
+        "price": 3.0398
       },
       {
-        "t": "2026-09-01T13:35:00Z",
-        "price": 2.9189
-      },
-      {
-        "t": "2026-09-01T13:40:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-09-01T13:50:00Z",
-        "price": 2.8701
-      },
-      {
-        "t": "2026-09-01T13:55:00Z",
-        "price": 2.97
-      },
-      {
-        "t": "2026-09-01T14:10:00Z",
-        "price": 2.92
-      },
-      {
-        "t": "2026-09-01T14:15:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-09-01T14:35:00Z",
-        "price": 3.02
-      },
-      {
-        "t": "2026-09-01T14:50:00Z",
-        "price": 2.9567
-      },
-      {
-        "t": "2026-09-01T15:40:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-09-01T16:30:00Z",
-        "price": 3.01
-      },
-      {
-        "t": "2026-09-01T17:55:00Z",
-        "price": 2.9963
-      },
-      {
-        "t": "2026-09-01T18:00:00Z",
-        "price": 3.0
-      },
-      {
-        "t": "2026-09-01T19:00:00Z",
-        "price": 2.933
-      },
-      {
-        "t": "2026-09-01T19:35:00Z",
+        "t": "2026-09-02T13:35:00Z",
         "price": 2.98
       },
       {
-        "t": "2026-09-01T20:00:00Z",
-        "price": 3.05
+        "t": "2026-09-02T13:40:00Z",
+        "price": 2.9413
+      },
+      {
+        "t": "2026-09-02T13:45:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-09-02T13:52:37Z",
+        "price": 3.0
       }
     ],
     "price_history_range": "1mo",
@@ -517,154 +473,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07791550",
-        "title": "Baduanjin for Quality of Life in Pancreatic Cancer Chemotherapy",
+        "nct_id": "NCT07483047",
+        "title": "Prediction Model for Postoperative Cognitive Dysfunction in Elderly Cardiac Patients: A Special Disease Cohort Study",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Postoperative Cognitive Dysfunction (POCD), Cardiac Diseases Requiring Surgery",
+        "last_update": "",
+        "start_date": "2026-03-03",
+        "url": "https://clinicaltrials.gov/study/NCT07483047"
+      },
+      {
+        "nct_id": "NCT04014478",
+        "title": "A Clinical Trial to Evaluate Safety and Efficacy of Endovascualr Denervation in Treatment of Cancer Pain",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Liver Cancer, Pancreas Cancer, Stomach Cancer, Bile Duct Cancer",
+        "last_update": "",
+        "start_date": "2019-07-15",
+        "url": "https://clinicaltrials.gov/study/NCT04014478"
+      },
+      {
+        "nct_id": "NCT04995159",
+        "title": "Optimized Antiplatelet Therapy in Patients With CHD After Implantation of NeoVas™ BRS System",
         "status": "NOT_YET_RECRUITING",
         "phase": "NA",
-        "conditions": "Pancreatic Neoplasms, Pancreatic Cancer, Drug-Related Side Effects and Adverse Reactions (MeSH Term)",
+        "conditions": "Coronary Heart Disease",
         "last_update": "",
-        "start_date": "2026-08-28",
-        "url": "https://clinicaltrials.gov/study/NCT07791550"
+        "start_date": "2021-09",
+        "url": "https://clinicaltrials.gov/study/NCT04995159"
       },
       {
-        "nct_id": "NCT06754891",
-        "title": "Clinical Trial of TQH3906 Capsules for the Treatment of Adult Patients With Moderately to Severely Active Ulcerative Colitis or Crohn's Disease",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Inflammatory Bowel Diseases",
-        "last_update": "",
-        "start_date": "2025-01-28",
-        "url": "https://clinicaltrials.gov/study/NCT06754891"
-      },
-      {
-        "nct_id": "NCT04398823",
-        "title": "A Multicenter Prospective Clinical Study of Endoscopic Foam Sclerotherapy for Internal Hemorrhoids",
+        "nct_id": "NCT05035797",
+        "title": "CaRe-ECMO Program on ECMO Weaning",
         "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Grade/Stage I Hemorrhoids, Prolapsed Grade II Internal Haemorrhoid, Prolapsed Grade III Internal Haemorrhoid",
+        "phase": "NA",
+        "conditions": "Critical Illness",
         "last_update": "",
-        "start_date": "2020-05-15",
-        "url": "https://clinicaltrials.gov/study/NCT04398823"
+        "start_date": "2021-10-15",
+        "url": "https://clinicaltrials.gov/study/NCT05035797"
       },
       {
-        "nct_id": "NCT05262608",
-        "title": "The Study of Olaparib in Newly Diagnosed mCRPC Patients With HRR Gene Mutation",
+        "nct_id": "NCT05997147",
+        "title": "A Preoperative Model to Predict the Lymphovascular Invasion in Pancreatic Ductal Adenocarcinoma",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Predictive Cancer Model, Pancreas Cancer",
+        "last_update": "",
+        "start_date": "2023-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT05997147"
+      },
+      {
+        "nct_id": "NCT00973310",
+        "title": "Erlotinib Concurrent With Radiation Therapy in Non-small-cell Lung Cancer",
         "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Prostate Cancer, Prostate Carcinoma, Metastatic Castration-resistant Prostate Cancer",
+        "conditions": "Carcinoma, Non-Small Cell Lung",
         "last_update": "",
-        "start_date": "2021-12-07",
-        "url": "https://clinicaltrials.gov/study/NCT05262608"
+        "start_date": "2009-10",
+        "url": "https://clinicaltrials.gov/study/NCT00973310"
       },
       {
-        "nct_id": "NCT07043725",
-        "title": "A Clinical Study of Neoadjuvant Treatment With TQB2102 for Injection for Human Epidermal Growth Factor Receptor 2 (HER2) Positive Breast Cancer",
-        "status": "RECRUITING",
+        "nct_id": "NCT04370925",
+        "title": "Efficacy of HIPEC in Patients With Colorectal Cancer at High Risk of Peritoneal Carcinomatosis",
+        "status": "UNKNOWN",
         "phase": "PHASE3",
-        "conditions": "HER2-positive Breast Cancer",
+        "conditions": "Colorectal Cancer",
         "last_update": "",
-        "start_date": "2025-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT07043725"
+        "start_date": "2020-06-04",
+        "url": "https://clinicaltrials.gov/study/NCT04370925"
       },
       {
-        "nct_id": "NCT03674710",
-        "title": "A Multi-center, Prospective, Single-blind, Controlled Trial Comparing Diagnostic Value of Different EUS-FNA Techniques",
+        "nct_id": "NCT05028218",
+        "title": "A Clinical Study of TQB3824 in Subjects With Advanced Cancer",
         "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Neoplasms, Infection, Inflammation, Lymphoma",
+        "phase": "PHASE1",
+        "conditions": "Advanced Cancer",
         "last_update": "",
-        "start_date": "2017-12-18",
-        "url": "https://clinicaltrials.gov/study/NCT03674710"
+        "start_date": "2021-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT05028218"
       },
       {
-        "nct_id": "NCT06623435",
-        "title": "Real World and Genomic Data Based Asthma Insight Through Network Analysis",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Asthma",
+        "nct_id": "NCT02978313",
+        "title": "Cetuximab Monotherapy Maintenance Treatment in mCRC",
+        "status": "UNKNOWN",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Colorectal Cancer",
         "last_update": "",
-        "start_date": "2019-11-07",
-        "url": "https://clinicaltrials.gov/study/NCT06623435"
+        "start_date": "2016-11",
+        "url": "https://clinicaltrials.gov/study/NCT02978313"
       },
       {
-        "nct_id": "NCT07503496",
-        "title": "Evaluation of the Efficacy of Biobran (Rice Bran Arabinoxylan) in Supporting Breast Cancer Chemotherapy",
+        "nct_id": "NCT04181489",
+        "title": "Sintilimab in Combination With R-CHOP in Patients With Treatment-naive EBV-positive DLBCL, NOS",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "EBV-Positive DLBCL, Nos",
+        "last_update": "",
+        "start_date": "2019-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT04181489"
+      },
+      {
+        "nct_id": "NCT05237817",
+        "title": "Association Between Stroke and Adrenal Incidentalomas",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Breast Cancer Stages I, Breast Cancer Stages II, Breast Cancer Stage III",
-        "last_update": "",
-        "start_date": "2025-04-07",
-        "url": "https://clinicaltrials.gov/study/NCT07503496"
-      },
-      {
-        "nct_id": "NCT06931353",
-        "title": "Effect of the Anticholinergic Drug Burden on Postoperative Delirium in Elderly Chinese Patients: A Nested Case-Control Study",
-        "status": "COMPLETED",
         "phase": "",
-        "conditions": "Delirium - Postoperative",
+        "conditions": "Stroke, Adrenal Incidentaloma",
         "last_update": "",
-        "start_date": "2020-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT06931353"
+        "start_date": "2021-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT05237817"
       },
       {
-        "nct_id": "NCT03403712",
-        "title": "A Study to Assess the Safety and the Efficacy of IV Fosnetupitant/Palonosetron (260 mg/0.25 mg) Combination Compared to Oral Netupitant/Palonosetron (300 mg/0.5 mg) Combination for the Prevention of CINV in AC Chemotherapy in Women With Breast Cancer",
+        "nct_id": "NCT02391493",
+        "title": "Neural Correlates of Language Control in Bilinguals. Functional MRI and Stimulation Mapping Data in Awake Surgery.",
         "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Chemotherapy-induced Nausea and Vomiting",
+        "phase": "NA",
+        "conditions": "Bilingualism",
         "last_update": "",
-        "start_date": "2018-03-16",
-        "url": "https://clinicaltrials.gov/study/NCT03403712"
+        "start_date": "2014-11",
+        "url": "https://clinicaltrials.gov/study/NCT02391493"
       },
       {
-        "nct_id": "NCT07402239",
-        "title": "HARMONY Trial : To Evaluate a Therapeutic and Monitoring Device(NOVAtria System) for Heart Failure Management",
+        "nct_id": "NCT04948814",
+        "title": "Application of Fecal Microbiota Transplantation in Children With ASD",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Autism Spectrum Disorder",
+        "last_update": "",
+        "start_date": "2022-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT04948814"
+      },
+      {
+        "nct_id": "NCT06009900",
+        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Pain, Chronic",
+        "last_update": "",
+        "start_date": "2023-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT06009900"
+      },
+      {
+        "nct_id": "NCT06257693",
+        "title": "Enzalutamide Implants (Enolen) in Patients With Prostate Cancer",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Heart Failure",
+        "phase": "PHASE1",
+        "conditions": "Prostate Adenocarcinoma",
         "last_update": "",
-        "start_date": "2026-03-16",
-        "url": "https://clinicaltrials.gov/study/NCT07402239"
-      },
-      {
-        "nct_id": "NCT03104569",
-        "title": "Effect of 37℃ Non-ionic Contrast Agent During ERCP Procedure in Hilar Cholangiocarcinoma",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Cholangitis",
-        "last_update": "",
-        "start_date": "2026-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT03104569"
-      },
-      {
-        "nct_id": "NCT05290454",
-        "title": "mNGS -Guided Antimicrobial Treatment in Early Severe Community-Acquired Pneumonia Among Immunocompromised Patients",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Severe Acute Respiratory Infection, Community-acquired Pneumonia, Respiratory Tract Infections, Pneumonia",
-        "last_update": "",
-        "start_date": "2022-08-19",
-        "url": "https://clinicaltrials.gov/study/NCT05290454"
-      },
-      {
-        "nct_id": "NCT02974829",
-        "title": "REALM China Extension Study",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Hepatitis B, Chronic",
-        "last_update": "",
-        "start_date": "2016-05",
-        "url": "https://clinicaltrials.gov/study/NCT02974829"
-      },
-      {
-        "nct_id": "NCT05693012",
-        "title": "Assessment of Early Detection and Prognosis Based on cfDNA Methylation in Multiple Myeloma",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Multiple Myeloma",
-        "last_update": "",
-        "start_date": "2022-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05693012"
+        "start_date": "2024-06-21",
+        "url": "https://clinicaltrials.gov/study/NCT06257693"
       }
     ],
     "detected_triggers": [
@@ -687,66 +643,98 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Multi-center, Prospective, Single-blind, Controlled Trial Comparing Diagnostic Value of Different EUS-FNA Techniques",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03674710",
-        "date": "2017-12-18"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study to Assess the Safety and the Efficacy of IV Fosnetupitant/Palonosetron (260 mg/0.25 mg) Combination Compared to Oral Netupitant/Palonosetron (300 mg/0.5 mg) Combination for the Prevention of CINV in AC Chemotherapy in Women With Breast Cancer",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT03403712",
-        "date": "2018-03-16"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Multicenter Prospective Clinical Study of Endoscopic Foam Sclerotherapy for Internal Hemorrhoids",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT04398823",
-        "date": "2020-05-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Study of Olaparib in Newly Diagnosed mCRPC Patients With HRR Gene Mutation",
+        "title": "Erlotinib Concurrent With Radiation Therapy in Non-small-cell Lung Cancer",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT05262608",
-        "date": "2021-12-07"
+        "source": "NCT00973310",
+        "date": "2009-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "mNGS -Guided Antimicrobial Treatment in Early Severe Community-Acquired Pneumonia Among Immunocompromised Patients",
+        "title": "Neural Correlates of Language Control in Bilinguals. Functional MRI and Stimulation Mapping Data in Awake Surgery.",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT02391493",
+        "date": "2014-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Cetuximab Monotherapy Maintenance Treatment in mCRC",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2, PHASE3",
+        "source": "NCT02978313",
+        "date": "2016-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Sintilimab in Combination With R-CHOP in Patients With Treatment-naive EBV-positive DLBCL, NOS",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT04181489",
+        "date": "2019-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Trial to Evaluate Safety and Efficacy of Endovascualr Denervation in Treatment of Cancer Pain",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05290454",
-        "date": "2022-08-19"
+        "source": "NCT04014478",
+        "date": "2019-07-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Clinical Trial of TQH3906 Capsules for the Treatment of Adult Patients With Moderately to Severely Active Ulcerative Colitis or Crohn's Disease",
+        "title": "Efficacy of HIPEC in Patients With Colorectal Cancer at High Risk of Peritoneal Carcinomatosis",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT04370925",
+        "date": "2020-06-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Study of TQB3824 in Subjects With Advanced Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT05028218",
+        "date": "2021-08-31"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Optimized Antiplatelet Therapy in Patients With CHD After Implantation of NeoVas™ BRS System",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT04995159",
+        "date": "2021-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "CaRe-ECMO Program on ECMO Weaning",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05035797",
+        "date": "2021-10-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Application of Fecal Microbiota Transplantation in Children With ASD",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT04948814",
+        "date": "2022-06-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT06009900",
+        "date": "2023-09-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Enzalutamide Implants (Enolen) in Patients With Prostate Cancer",
         "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT06754891",
-        "date": "2025-01-28"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Evaluation of the Efficacy of Biobran (Rice Bran Arabinoxylan) in Supporting Breast Cancer Chemotherapy",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07503496",
-        "date": "2025-04-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Study of Neoadjuvant Treatment With TQB2102 for Injection for Human Epidermal Growth Factor Receptor 2 (HER2) Positive Breast Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07043725",
-        "date": "2025-09-15"
+        "source": "NCT06257693",
+        "date": "2024-06-21"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -763,22 +751,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "HARMONY Trial : To Evaluate a Therapeutic and Monitoring Device(NOVAtria System) for Heart Failure Management",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07402239",
-        "date": "2026-03-16"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Effect of 37℃ Non-ionic Contrast Agent During ERCP Procedure in Hilar Cholangiocarcinoma",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT03104569",
-        "date": "2026-04-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -854,43 +826,27 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Baduanjin for Quality of Life in Pancreatic Cancer Chemotherapy",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07791550",
-        "date": "2026-08-28"
+        "level": "low",
+        "title": "Association Between Stroke and Adrenal Incidentalomas",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT05237817",
+        "date": "2021-04-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "REALM China Extension Study",
+        "title": "A Preoperative Model to Predict the Lymphovascular Invasion in Pancreatic Ductal Adenocarcinoma",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT02974829",
-        "date": "2016-05"
+        "source": "NCT05997147",
+        "date": "2023-05-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Real World and Genomic Data Based Asthma Insight Through Network Analysis",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06623435",
-        "date": "2019-11-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Effect of the Anticholinergic Drug Burden on Postoperative Delirium in Elderly Chinese Patients: A Nested Case-Control Study",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06931353",
-        "date": "2020-04-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Assessment of Early Detection and Prognosis Based on cfDNA Methylation in Multiple Myeloma",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05693012",
-        "date": "2022-08-01"
+        "title": "Prediction Model for Postoperative Cognitive Dysfunction in Elderly Cardiac Patients: A Special Disease Cohort Study",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT07483047",
+        "date": "2026-03-03"
       },
       {
         "type": "SEC Filing",
