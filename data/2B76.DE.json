@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$17.95",
-      "note": "Auto-Update: -2.15% vs. vorheriger Schlusskurs",
+      "value": "$17.98",
+      "note": "Auto-Update: -2.01% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-02T13:57:41Z",
+    "last_update_utc": "2026-09-02T17:32:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 17.95,
+      "regularMarketPrice": 17.976,
       "previousClose": 18.344,
-      "change": -0.394,
-      "changePercent": -2.15,
-      "regularMarketTime": "2026-09-02T13:41:28Z",
+      "change": -0.368,
+      "changePercent": -2.01,
+      "regularMarketTime": "2026-09-02T15:35:53Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -246,7 +246,7 @@
       },
       {
         "t": "2026-09-02T07:00:00Z",
-        "price": 17.95
+        "price": 17.976
       }
     ],
     "price_history_1d": [
@@ -531,18 +531,102 @@
         "price": 17.912
       },
       {
-        "t": "2026-09-02T13:41:28Z",
+        "t": "2026-09-02T13:40:00Z",
         "price": 17.95
+      },
+      {
+        "t": "2026-09-02T13:45:00Z",
+        "price": 17.898
+      },
+      {
+        "t": "2026-09-02T13:50:00Z",
+        "price": 17.896
+      },
+      {
+        "t": "2026-09-02T13:55:00Z",
+        "price": 17.906
+      },
+      {
+        "t": "2026-09-02T14:00:00Z",
+        "price": 17.918
+      },
+      {
+        "t": "2026-09-02T14:05:00Z",
+        "price": 17.938
+      },
+      {
+        "t": "2026-09-02T14:10:00Z",
+        "price": 17.952
+      },
+      {
+        "t": "2026-09-02T14:15:00Z",
+        "price": 17.952
+      },
+      {
+        "t": "2026-09-02T14:20:00Z",
+        "price": 18.0
+      },
+      {
+        "t": "2026-09-02T14:25:00Z",
+        "price": 18.004
+      },
+      {
+        "t": "2026-09-02T14:35:00Z",
+        "price": 18.008
+      },
+      {
+        "t": "2026-09-02T14:40:00Z",
+        "price": 18.008
+      },
+      {
+        "t": "2026-09-02T14:45:00Z",
+        "price": 17.996
+      },
+      {
+        "t": "2026-09-02T14:50:00Z",
+        "price": 17.976
+      },
+      {
+        "t": "2026-09-02T14:55:00Z",
+        "price": 17.976
+      },
+      {
+        "t": "2026-09-02T15:00:00Z",
+        "price": 17.948
+      },
+      {
+        "t": "2026-09-02T15:05:00Z",
+        "price": 17.94
+      },
+      {
+        "t": "2026-09-02T15:10:00Z",
+        "price": 17.968
+      },
+      {
+        "t": "2026-09-02T15:15:00Z",
+        "price": 17.962
+      },
+      {
+        "t": "2026-09-02T15:20:00Z",
+        "price": 17.966
+      },
+      {
+        "t": "2026-09-02T15:25:00Z",
+        "price": 17.974
+      },
+      {
+        "t": "2026-09-02T15:30:00Z",
+        "price": 17.976
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - comdirect.de",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8waVZYTHhXTl9FeURGejhsLWx6T1l0NkVRS1BoVllMYzFxQUtxY1RrYWkxRmg1S3hHdzRVQlBkRWFpU19VV2UzY0t3YzE0TXhzUFc0TTUyeDhTMUE?oc=5",
-        "published_at": "2020-03-26T06:13:46Z",
-        "source": "comdirect.de",
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
+        "published_at": "2019-01-08T08:47:34Z",
+        "source": "Comdirect",
         "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

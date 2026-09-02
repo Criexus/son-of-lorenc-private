@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.92",
-      "note": "Auto-Update: -1.63% vs. vorheriger Schlusskurs",
+      "value": "$3.90",
+      "note": "Auto-Update: -2.38% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-02T13:57:55Z",
+    "last_update_utc": "2026-09-02T17:32:44Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.925,
+      "regularMarketPrice": 3.895,
       "previousClose": 3.99,
-      "change": -0.065,
-      "changePercent": -1.63,
-      "regularMarketTime": "2026-09-02T13:57:06Z",
+      "change": -0.095,
+      "changePercent": -2.38,
+      "regularMarketTime": "2026-09-02T17:22:08Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -317,6 +317,10 @@
         "price": 3.96
       },
       {
+        "t": "2026-08-28T13:30:00Z",
+        "price": 4.01
+      },
+      {
         "t": "2026-08-31T13:30:00Z",
         "price": 3.9
       },
@@ -326,7 +330,7 @@
       },
       {
         "t": "2026-09-02T13:30:00Z",
-        "price": 3.925
+        "price": 3.895
       }
     ],
     "price_history_1d": [
@@ -351,8 +355,96 @@
         "price": 3.925
       },
       {
-        "t": "2026-09-02T13:57:06Z",
-        "price": 3.925
+        "t": "2026-09-02T14:00:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-09-02T14:05:00Z",
+        "price": 3.93
+      },
+      {
+        "t": "2026-09-02T14:10:00Z",
+        "price": 3.915
+      },
+      {
+        "t": "2026-09-02T14:15:00Z",
+        "price": 3.915
+      },
+      {
+        "t": "2026-09-02T14:20:00Z",
+        "price": 3.915
+      },
+      {
+        "t": "2026-09-02T14:25:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T14:50:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-09-02T14:55:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T15:00:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-09-02T15:05:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T15:10:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T15:20:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-09-02T15:25:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-09-02T15:30:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-09-02T15:40:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-09-02T16:00:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-09-02T16:05:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-09-02T16:30:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-09-02T16:35:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-09-02T16:50:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-09-02T17:00:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-09-02T17:20:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-09-02T17:22:08Z",
+        "price": 3.895
       }
     ],
     "price_history_range": "1mo",
@@ -363,7 +455,7 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN2VpUmRuREc5N0NINjRNcThHcEV5ZEpodVR1OUhsNnZ0MXpaOTFBQllfOE9UNzR4bUZtNTJtUVhwR25tVGZEOFdzZDM4NDdzMzVxZE1wVE1SdWhZcjBHeXU3VXZ2UTJ6RDNpWFhoajR0ZXQ1dm92eHVMMmNkcXlBV0liUjZBTDJQZk0xd0lEMDhFdUl3TFMySw?oc=5",
         "published_at": "2026-08-24T01:45:15Z",
         "source": "Börse Express",
-        "query": "ALTI ALTI stock news",
+        "query": "ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
