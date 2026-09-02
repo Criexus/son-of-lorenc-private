@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-02T20:15:11Z",
+    "last_update_utc": "2026-09-02T22:44:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -728,6 +728,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Recursion Pharmaceuticals: Director Blake Borgeson verkauft Aktien im Wert von 100.200 $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOUFUdWNMTGxhY3VxN3plZHNKMWRaZjRQM0pjRWxNZHBOR003TVh2TEZEREd0X2NkakcyeFVPSFhFdmJOTmRWMnBNeTBGWVdqZ3RoRTVBbGxWUE5HRHJOSVNfWnQ2S0JlQzVUbmNlQUpMbTROU0U1ZEdwZGtFM1JBM0FvWHVtZExsV2tNS21jTmh2bmJBb2RjWWlwdGhMaGkwbnhkanVoYmZQcmlNT1FaUTJEaGthREpQelVIUlgyeXhucGswRVA2elFYUzVYTTVJd25fejV5aUxuRG5PQmg1ZktJWQ?oc=5",
+        "published_at": "2026-09-02T22:32:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
+      {
         "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
         "published_at": "2026-06-25T12:31:22Z",
@@ -841,6 +857,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-09-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000103/xslF345X06/wk-form4_1788386512.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "144",
         "filingDate": "2026-09-01",
@@ -971,13 +994,6 @@
         "form": "SCHEDULE 13G",
         "filingDate": "2026-07-31",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000210012126000994/xslSCHEDULE_13G_X02/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G",
-        "filingDate": "2026-07-31",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000210011926001441/xslSCHEDULE_13G_X02/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1174,14 +1190,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "SCHEDULE 13G · 2026-07-31",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-31"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "144 · 2026-08-04",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1306,6 +1314,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-09-01"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-09-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-09-02"
       }
     ],
     "queries_used": [
