@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.96",
-      "note": "Auto-Update: -1.99% vs. vorheriger Schlusskurs",
+      "value": "$2.95",
+      "note": "Auto-Update: -2.48% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-03T05:18:37Z",
+    "last_update_utc": "2026-09-03T09:58:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.96,
-      "previousClose": 3.02,
-      "change": -0.06,
-      "changePercent": -1.99,
-      "regularMarketTime": "2026-09-02T15:35:16Z",
+      "regularMarketPrice": 2.95,
+      "previousClose": 3.025,
+      "change": -0.075,
+      "changePercent": -2.48,
+      "regularMarketTime": "2026-09-03T09:30:44Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -241,101 +241,65 @@
       {
         "t": "2026-09-01T07:00:00Z",
         "price": 3.005
+      },
+      {
+        "t": "2026-09-02T07:00:00Z",
+        "price": 2.96
+      },
+      {
+        "t": "2026-09-03T07:00:00Z",
+        "price": 2.95
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-02T07:00:00Z",
-        "price": 2.97
-      },
-      {
-        "t": "2026-09-02T07:05:00Z",
-        "price": 3.0
-      },
-      {
-        "t": "2026-09-02T07:25:00Z",
-        "price": 2.98
-      },
-      {
-        "t": "2026-09-02T07:30:00Z",
-        "price": 3.0
-      },
-      {
-        "t": "2026-09-02T07:35:00Z",
-        "price": 2.98
-      },
-      {
-        "t": "2026-09-02T07:50:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-09-02T07:55:00Z",
-        "price": 2.98
-      },
-      {
-        "t": "2026-09-02T08:05:00Z",
-        "price": 2.965
-      },
-      {
-        "t": "2026-09-02T08:10:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-09-02T08:35:00Z",
-        "price": 2.98
-      },
-      {
-        "t": "2026-09-02T09:10:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-09-02T11:40:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-09-02T12:35:00Z",
-        "price": 2.995
-      },
-      {
-        "t": "2026-09-02T13:25:00Z",
-        "price": 2.98
-      },
-      {
-        "t": "2026-09-02T14:55:00Z",
-        "price": 2.99
-      },
-      {
-        "t": "2026-09-02T15:10:00Z",
-        "price": 2.965
-      },
-      {
-        "t": "2026-09-02T15:15:00Z",
-        "price": 2.965
-      },
-      {
-        "t": "2026-09-02T15:30:00Z",
+        "t": "2026-09-03T07:00:00Z",
         "price": 2.96
+      },
+      {
+        "t": "2026-09-03T07:15:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-09-03T07:30:00Z",
+        "price": 2.955
+      },
+      {
+        "t": "2026-09-03T07:35:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-09-03T07:50:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-09-03T08:00:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-09-03T08:10:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-09-03T08:30:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-09-03T08:40:00Z",
+        "price": 2.965
+      },
+      {
+        "t": "2026-09-03T09:20:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-09-03T09:30:44Z",
+        "price": 2.95
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "MAAT PHARMA-Aktie unter 20-Tage-Linie - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSlA1ai1PeXFEcndFV1VMRl9ETFNkdjJRRk1IbExrMzgxSWlacElPMlhnMmdnMmFtak5DenU1Xzd2RDJxQnZhWC1GUEdUMEN6MGJwaVA1Vk1ocDQySGYydlRwNlFBbXZLdWlBdnZvampXbTh4R2VuX3BNNVN0N00tSEZKZVcxcWs?oc=5",
-        "published_at": "2026-09-01T02:06:00Z",
-        "source": "boerse.de",
-        "query": "\"MaaT Pharma\" stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
       {
         "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - T-Online",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDhBY2YzUExFeWR0eW83b2ZnYWFtRHloOW9yQTVxQ2FabnF3MnlVSTRsenlTV0tZSmx3blNvSi1mX29uWlFweW1RRl9FWEFnSHU4RWdCVDNJNjFySUpHV2t5WmtRc1JEZjlSSEZNNFR1QUtRYUJ6MldyNzdSYjdDOHJlWkNtQnE2WG1EQzFiRm9TY3J4aFh4MUlDUzdGY0tuY21neTdlRkxwc2ZwZFpTM0V2bVpVQmVnM0U3NDRPS1dhZUhEQjNac29PcTBUX2VqVzdtcA?oc=5",
