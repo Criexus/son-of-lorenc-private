@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.21",
-      "note": "Auto-Update: -3.06% vs. vorheriger Schlusskurs",
+      "value": "$18.30",
+      "note": "Auto-Update: -2.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-03T14:05:55Z",
+    "last_update_utc": "2026-09-03T17:56:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.206,
+      "regularMarketPrice": 18.304,
       "previousClose": 18.78,
-      "change": -0.574,
-      "changePercent": -3.06,
-      "regularMarketTime": "2026-09-03T13:47:19Z",
+      "change": -0.476,
+      "changePercent": -2.53,
+      "regularMarketTime": "2026-09-03T15:35:50Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -250,7 +250,7 @@
       },
       {
         "t": "2026-09-03T07:00:00Z",
-        "price": 18.206
+        "price": 18.304
       }
     ],
     "price_history_1d": [
@@ -524,33 +524,84 @@
       },
       {
         "t": "2026-09-03T13:45:00Z",
-        "price": 18.196
+        "price": 18.206
       },
       {
-        "t": "2026-09-03T13:47:19Z",
-        "price": 18.206
+        "t": "2026-09-03T13:55:00Z",
+        "price": 18.174
+      },
+      {
+        "t": "2026-09-03T14:00:00Z",
+        "price": 18.156
+      },
+      {
+        "t": "2026-09-03T14:05:00Z",
+        "price": 18.14
+      },
+      {
+        "t": "2026-09-03T14:10:00Z",
+        "price": 18.168
+      },
+      {
+        "t": "2026-09-03T14:15:00Z",
+        "price": 18.18
+      },
+      {
+        "t": "2026-09-03T14:20:00Z",
+        "price": 18.188
+      },
+      {
+        "t": "2026-09-03T14:25:00Z",
+        "price": 18.172
+      },
+      {
+        "t": "2026-09-03T14:30:00Z",
+        "price": 18.154
+      },
+      {
+        "t": "2026-09-03T14:40:00Z",
+        "price": 18.16
+      },
+      {
+        "t": "2026-09-03T14:45:00Z",
+        "price": 18.154
+      },
+      {
+        "t": "2026-09-03T14:50:00Z",
+        "price": 18.162
+      },
+      {
+        "t": "2026-09-03T14:55:00Z",
+        "price": 18.2
+      },
+      {
+        "t": "2026-09-03T15:05:00Z",
+        "price": 18.254
+      },
+      {
+        "t": "2026-09-03T15:10:00Z",
+        "price": 18.226
+      },
+      {
+        "t": "2026-09-03T15:15:00Z",
+        "price": 18.232
+      },
+      {
+        "t": "2026-09-03T15:20:00Z",
+        "price": 18.244
+      },
+      {
+        "t": "2026-09-03T15:25:00Z",
+        "price": 18.3
+      },
+      {
+        "t": "2026-09-03T15:30:00Z",
+        "price": 18.304
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8waVZYTHhXTl9FeURGejhsLWx6T1l0NkVRS1BoVllMYzFxQUtxY1RrYWkxRmg1S3hHdzRVQlBkRWFpU19VV2UzY0t3YzE0TXhzUFc0TTUyeDhTMUE?oc=5",
-        "published_at": "2020-03-26T06:13:46Z",
-        "source": "Comdirect",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 47
-      }
-    ],
+    "news": [],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],

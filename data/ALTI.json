@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.91",
-      "note": "Auto-Update: -1.26% vs. vorheriger Schlusskurs",
+      "value": "$3.85",
+      "note": "Auto-Update: -2.78% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-03T14:06:07Z",
+    "last_update_utc": "2026-09-03T17:56:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.91,
+      "regularMarketPrice": 3.85,
       "previousClose": 3.96,
-      "change": -0.05,
-      "changePercent": -1.26,
-      "regularMarketTime": "2026-09-03T14:02:57Z",
+      "change": -0.11,
+      "changePercent": -2.78,
+      "regularMarketTime": "2026-09-03T17:47:13Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -334,7 +334,7 @@
       },
       {
         "t": "2026-09-03T13:30:00Z",
-        "price": 3.9101
+        "price": 3.85
       }
     ],
     "price_history_1d": [
@@ -352,16 +352,105 @@
       },
       {
         "t": "2026-09-03T14:00:00Z",
-        "price": 3.935
+        "price": 3.9101
       },
       {
-        "t": "2026-09-03T14:02:57Z",
-        "price": 3.9101
+        "t": "2026-09-03T14:05:00Z",
+        "price": 3.88
+      },
+      {
+        "t": "2026-09-03T14:15:00Z",
+        "price": 3.905
+      },
+      {
+        "t": "2026-09-03T14:40:00Z",
+        "price": 3.87
+      },
+      {
+        "t": "2026-09-03T14:45:00Z",
+        "price": 3.87
+      },
+      {
+        "t": "2026-09-03T14:55:00Z",
+        "price": 3.87
+      },
+      {
+        "t": "2026-09-03T15:20:00Z",
+        "price": 3.87
+      },
+      {
+        "t": "2026-09-03T15:25:00Z",
+        "price": 3.86
+      },
+      {
+        "t": "2026-09-03T15:40:00Z",
+        "price": 3.855
+      },
+      {
+        "t": "2026-09-03T16:00:00Z",
+        "price": 3.865
+      },
+      {
+        "t": "2026-09-03T16:05:00Z",
+        "price": 3.8537
+      },
+      {
+        "t": "2026-09-03T16:20:00Z",
+        "price": 3.865
+      },
+      {
+        "t": "2026-09-03T16:30:00Z",
+        "price": 3.865
+      },
+      {
+        "t": "2026-09-03T16:35:00Z",
+        "price": 3.865
+      },
+      {
+        "t": "2026-09-03T16:40:00Z",
+        "price": 3.8507
+      },
+      {
+        "t": "2026-09-03T16:45:00Z",
+        "price": 3.865
+      },
+      {
+        "t": "2026-09-03T17:15:00Z",
+        "price": 3.865
+      },
+      {
+        "t": "2026-09-03T17:20:00Z",
+        "price": 3.8639
+      },
+      {
+        "t": "2026-09-03T17:35:00Z",
+        "price": 3.855
+      },
+      {
+        "t": "2026-09-03T17:47:13Z",
+        "price": 3.85
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "ASML: AlTi Global reduziert um 76,3 Prozent - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN2VpUmRuREc5N0NINjRNcThHcEV5ZEpodVR1OUhsNnZ0MXpaOTFBQllfOE9UNzR4bUZtNTJtUVhwR25tVGZEOFdzZDM4NDdzMzVxZE1wVE1SdWhZcjBHeXU3VXZ2UTJ6RDNpWFhoajR0ZXQ1dm92eHVMMmNkcXlBV0liUjZBTDJQZk0xd0lEMDhFdUl3TFMySw?oc=5",
+        "published_at": "2026-08-24T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALTI ALTI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      }
+    ],
     "sec_filings": [
       {
         "form": "N-PX",

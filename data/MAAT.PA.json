@@ -131,7 +131,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-03T14:05:29Z",
+    "last_update_utc": "2026-09-03T17:55:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
@@ -139,7 +139,7 @@
       "previousClose": 3.025,
       "change": -0.09,
       "changePercent": -2.98,
-      "regularMarketTime": "2026-09-03T13:21:23Z",
+      "regularMarketTime": "2026-09-03T15:35:27Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -349,7 +349,27 @@
         "price": 2.935
       },
       {
-        "t": "2026-09-03T13:21:23Z",
+        "t": "2026-09-03T14:00:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T14:15:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T15:00:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T15:10:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T15:25:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-09-03T15:30:00Z",
         "price": 2.935
       }
     ],
@@ -362,6 +382,22 @@
         "published_at": "2026-06-11T07:00:00Z",
         "source": "T-Online",
         "query": "\"MaaT Pharma\" stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
+      {
+        "title": "MaaT Pharma Aktie (A3C7A5) - Kurs Euronext Paris - MarketScreener Schweiz",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KMlM0d2JmM0VDSEdHcF9jV1pCN0NBVUFUckplcU93QmU0UnBGUW5KczZrWWVwLVJSMlFZeExwbGJKaUZuNDdwb3h0dEJnOEdRaUwxcG5lVmZVVFlzdjVhdW1yZHdvU214TUtfV2pKWFI?oc=5",
+        "published_at": "2021-12-13T18:32:29Z",
+        "source": "MarketScreener Schweiz",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
