@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.95",
-      "note": "Auto-Update: -2.48% vs. vorheriger Schlusskurs",
+      "value": "$2.94",
+      "note": "Auto-Update: -2.98% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-03T09:58:48Z",
+    "last_update_utc": "2026-09-03T14:05:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.95,
+      "regularMarketPrice": 2.935,
       "previousClose": 3.025,
-      "change": -0.075,
-      "changePercent": -2.48,
-      "regularMarketTime": "2026-09-03T09:30:44Z",
+      "change": -0.09,
+      "changePercent": -2.98,
+      "regularMarketTime": "2026-09-03T13:21:23Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,7 +248,7 @@
       },
       {
         "t": "2026-09-03T07:00:00Z",
-        "price": 2.95
+        "price": 2.935
       }
     ],
     "price_history_1d": [
@@ -293,8 +293,64 @@
         "price": 2.95
       },
       {
-        "t": "2026-09-03T09:30:44Z",
+        "t": "2026-09-03T09:30:00Z",
         "price": 2.95
+      },
+      {
+        "t": "2026-09-03T09:45:00Z",
+        "price": 2.95
+      },
+      {
+        "t": "2026-09-03T10:00:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-09-03T10:05:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-09-03T11:00:00Z",
+        "price": 2.94
+      },
+      {
+        "t": "2026-09-03T11:10:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T11:20:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T11:55:00Z",
+        "price": 2.9325
+      },
+      {
+        "t": "2026-09-03T12:00:00Z",
+        "price": 2.93
+      },
+      {
+        "t": "2026-09-03T12:05:00Z",
+        "price": 2.92
+      },
+      {
+        "t": "2026-09-03T12:15:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T12:40:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T13:00:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T13:20:00Z",
+        "price": 2.935
+      },
+      {
+        "t": "2026-09-03T13:21:23Z",
+        "price": 2.935
       }
     ],
     "price_history_range": "1mo",
@@ -306,22 +362,6 @@
         "published_at": "2026-06-11T07:00:00Z",
         "source": "T-Online",
         "query": "\"MaaT Pharma\" stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
-      {
-        "title": "MaaT Pharma Aktie (A3C7A5) - Kurs Euronext Paris - MarketScreener Schweiz",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KMlM0d2JmM0VDSEdHcF9jV1pCN0NBVUFUckplcU93QmU0UnBGUW5KczZrWWVwLVJSMlFZeExwbGJKaUZuNDdwb3h0dEJnOEdRaUwxcG5lVmZVVFlzdjVhdW1yZHdvU214TUtfV2pKWFI?oc=5",
-        "published_at": "2021-12-13T18:32:29Z",
-        "source": "MarketScreener Schweiz",
-        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
