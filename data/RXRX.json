@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-04T21:56:16Z",
+    "last_update_utc": "2026-09-04T23:32:25Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -806,6 +806,38 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
+      },
+      {
+        "title": "RXRX Stock Earnings: Recursion Pharmaceuticals Meets EPS, Beats Revenue for Q2 2024 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa3hiR05NamVtZTJrcWZzbVhsdlRDN2hJU3VobGp3VnJ1UlhlWTV3UFM2dDBKcFJ2a1Y0TmU5ZG5CZ1VwWi02ZUFqVTJzclg1eTZXanRkZ0hJWGpEOXVmWTBrT3pkcU13V3NHYjExY2VkVktXTjhfd1lmSERyU19vaDJuVXFRekVjSXZpMlljOERHU1VicUJlcVFORlotYTBZamllTmFoc3pmVkV1WTVqbjZjbGZ1Nm9uQ1FKcHhhZGVZb3FQbHZwUVdFY1Nrcm11N09hM01neVlzY01t?oc=5",
+        "published_at": "2024-08-08T07:00:00Z",
+        "source": "TradingView",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 25
+      },
+      {
+        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
+        "published_at": "2021-04-16T06:05:44Z",
+        "source": "TradingView",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
       }
     ],
     "sec_filings": [
@@ -1082,6 +1114,18 @@
         "reason": "Studienregister-Treffer: TERMINATED PHASE2",
         "source": "NCT06005974",
         "date": "2024-01-15"
+      },
+      {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "RXRX Stock Earnings: Recursion Pharmaceuticals Meets EPS, Beats Revenue for Q2 2024 - TradingView",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "TradingView",
+        "date": "2024-08-08T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa3hiR05NamVtZTJrcWZzbVhsdlRDN2hJU3VobGp3VnJ1UlhlWTV3UFM2dDBKcFJ2a1Y0TmU5ZG5CZ1VwWi02ZUFqVTJzclg1eTZXanRkZ0hJWGpEOXVmWTBrT3pkcU13V3NHYjExY2VkVktXTjhfd1lmSERyU19vaDJuVXFRekVjSXZpMlljOERHU1VicUJlcVFORlotYTBZamllTmFoc3pmVkV1WTVqbjZjbGZ1Nm9uQ1FKcHhhZGVZb3FQbHZwUVdFY1Nrcm11N09hM01neVlzY01t?oc=5"
       },
       {
         "type": "ClinicalTrials.gov",

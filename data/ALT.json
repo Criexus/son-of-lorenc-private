@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-04T21:55:31Z",
+    "last_update_utc": "2026-09-04T23:31:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -746,6 +746,38 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Altimmune Aktie: Pemvidutide profitiert von Medicare - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeGNQOUpNWVBHWFV2YUs5N1lZcXhSVk53WThtMHZQOG1OejIzcU5id3BRRVJPTGhaamZMTEZCYXlwX2xRQjI4dHdNSUlLcDlPbVlEQl8wRDZOVHJuYm13RVNpRnh1ektZc2x1SG16eFBoRXFadUJYQlpzeHVjNUxJZFQ0eFRWbmpFRmlVam9VN1BaWUZvaG9STHhibUFsY2cxRkRCazB3?oc=5",
+        "published_at": "2026-06-30T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5",
+        "published_at": "2026-04-23T07:00:00Z",
+        "source": "Börse Express",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 7
+      },
+      {
         "title": "Altimmune (ALT) steigt um 29,7% nach FDA-Durchbruchskennzeichnung für Pemvidutid in MASH-Studie - simplywall.st",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5",
         "published_at": "2026-01-25T08:00:00Z",
@@ -762,10 +794,42 @@
         "relevance_score": 8
       },
       {
-        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
+        "title": "Altimmune Inc. Aktie Kurs & Chart A2N5Z6 - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
+        "published_at": "2026-01-21T00:01:24Z",
+        "source": "Goldesel.de",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
+        "title": "H.C. Wainwright bestätigt Kaufempfehlung für Altimmune-Aktie mit Kursziel von 12 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMnpTTXlNT3RpdzZJMmFWWFRrY25jbG9CMGlCM1pZMU9YcnViM01vS3pIdDlrZVhnQ0FyeHV5U2pYeldORURYV3c3THlZRFhhdmJ0VERvWTVsanNRb2kxQXcxQUN3MWd5TGliOUw2eUFjWmlYY3ExVUtjMk9Bbk5NRFFpbnlZd1pDQ1hXYWszZW9xRmlmN1dLZU1KejJUNUR2c0QwYVBaaHR6UGxCRWxNdFMybFBpMHhZUU56WXh1c3dHRW1ZR3c2THNTeWZ1aS1LNUliTy1NLUZOblJ3cWc?oc=5",
+        "published_at": "2025-03-04T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
+        "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraetf.com",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDUGkycWNKUG4yS3pjSW5oNlJQaDZfaUFaUzE3bUMxVmVZa3ZOVG9TQWs1MTBnSHdDRDdHOXE0bnV0bEpBQUtiTVR1dENVSDZ5UDJYcmpTV2ptaGJOYmhZ?oc=5",
         "published_at": "2023-09-25T09:29:08Z",
-        "source": "extraETF",
+        "source": "extraetf.com",
         "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1118,6 +1182,18 @@
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPelpGczMxSUtfTjQ4SXN1Vmdzb2VkRG83ZTRCdGIzZm8tRVpxRFpVeHp0WmRWa3dFOHoyUzQ3ZGhReGtZMVVRazJQQldPTWd3NUFQS1RKSzJHNTFybUV4Qkh0bm4yTzBEWGU4MHFnLXVlUnFJZWJoUnQ1U3hZSGhSSDBwdG5OOHRFdVdnSUszdFloYWlLQzIwWHlReElpVzgwM0ZDTE4wNk5YSEF1RjlNaFlBeHZfemhhTUhaOTA5MlIxUjFqNzhzcDV6SzdOUHItOWZxT1EySjZQRVVGMEHSAeMBQVVfeXFMTjFkZXF4b2VWVXFCZTBPd3hueUtsYm0wNVpGeXhYcVFxTk5QMXVtTk5nM1k3SXltOS1UcTlNSXRMUk9aV1JQR085MnBFcWpGX1RVZy1wNDhGNXUzRjNCTUxPTUhOWGlFMzBwVy1QekRic1doeG9ILVp3TGtRMkhpdG5jbGNvUHdXODhCdjZtU3Zidzg0elNGZ2pwTUVDUlBDaENiXzRTZXc1SndiMkw4WGQ3TXpWdzN4em1jblpVUXpVd0JoYmtIajZjVWhYbEhqZmg0SjdNT3FlVnRRWWtKOFJEcnM?oc=5"
       },
       {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "Altimmune: 225 Millionen für Phase 3 - Börse Express",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "Börse Express",
+        "date": "2026-04-23T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWp5c2dIOGdjZjVDV0ZDQWhvSFhhYzJJdlZEVFU4ZVg0NDVNZ2FXdDhoWlZieEFyYTdaZ1VENlkySFVtQlVpel9aeTdIZWxsaU81VVFEYk5BckFtMDVwTTRPenZxU0hJb1A4SXZpMk54VWtnYzNuSm1KTXY3Z19XMTN4VmN6WE9wUHhTQ0xEN2I5dw?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Phase I Safety and Immunogenicity of FP-02.2 in Chronic Hepatitis B",
@@ -1297,14 +1373,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"
