@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.75",
-      "note": "Auto-Update: 0.67% vs. vorheriger Schlusskurs",
+      "value": "$3.71",
+      "note": "Auto-Update: -0.27% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-08T19:06:10Z",
+    "last_update_utc": "2026-09-08T21:56:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.745,
+      "regularMarketPrice": 3.71,
       "previousClose": 3.72,
-      "change": 0.025,
-      "changePercent": 0.67,
-      "regularMarketTime": "2026-09-08T19:03:04Z",
+      "change": -0.01,
+      "changePercent": -0.27,
+      "regularMarketTime": "2026-09-08T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -387,7 +387,7 @@
       },
       {
         "t": "2026-09-08T13:30:00Z",
-        "price": 3.745
+        "price": 3.71
       }
     ],
     "price_history_1d": [
@@ -657,11 +657,55 @@
       },
       {
         "t": "2026-09-08T19:00:00Z",
-        "price": 3.74
+        "price": 3.745
       },
       {
-        "t": "2026-09-08T19:03:04Z",
+        "t": "2026-09-08T19:05:00Z",
+        "price": 3.7499
+      },
+      {
+        "t": "2026-09-08T19:10:00Z",
         "price": 3.745
+      },
+      {
+        "t": "2026-09-08T19:15:00Z",
+        "price": 3.745
+      },
+      {
+        "t": "2026-09-08T19:20:00Z",
+        "price": 3.745
+      },
+      {
+        "t": "2026-09-08T19:25:00Z",
+        "price": 3.745
+      },
+      {
+        "t": "2026-09-08T19:30:00Z",
+        "price": 3.745
+      },
+      {
+        "t": "2026-09-08T19:35:00Z",
+        "price": 3.73
+      },
+      {
+        "t": "2026-09-08T19:40:00Z",
+        "price": 3.725
+      },
+      {
+        "t": "2026-09-08T19:45:00Z",
+        "price": 3.705
+      },
+      {
+        "t": "2026-09-08T19:50:00Z",
+        "price": 3.71
+      },
+      {
+        "t": "2026-09-08T19:55:00Z",
+        "price": 3.715
+      },
+      {
+        "t": "2026-09-08T20:00:00Z",
+        "price": 3.71
       }
     ],
     "price_history_range": "1mo",
@@ -698,6 +742,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
+      },
+      {
+        "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUlybU4xWllPYU9iVnNwWkxwUmNOdjhYajBwVWhGZE5EY25YN3JvRUVMRXBnVVV6MDFvWXZWQzNzZ3ItR0xoOTFJS19Ddm43ZVVoWmhjb3JXNG44ZUthSlU4eUM0aFN0WmxkVU9BU3VncE9yZkN6bnkwckVhQzJkSEp1T2tKT1VaWnM1YmxHVWdITXZ6anBJeVZlR3dteTgzd1VqbzEtc3FsX3NX?oc=5",
+        "published_at": "2017-09-13T07:00:00Z",
+        "source": "Fierce Biotech",
+        "query": "Rocket Pharmaceuticals clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
       }
     ],
     "sec_filings": [
