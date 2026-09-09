@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-09T07:02:11Z",
+    "last_update_utc": "2026-09-09T12:25:03Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -428,7 +428,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Haoxi Health Technology Limited Registered (A) (Old) Aktie (HAO) | Aktienkurs » KYG4290F1265 - Wallstreet Online",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1Baa1NCMWtpMTAyQV9UUTdiNEFPQ2ppWUVNTlAwNUFJdWR6c3RjbzdYc3RxN19ibUhqVVdEZlFqdzY1Y2dpWEtuakhGRFM5eEdhbkdaNXRiMEg1cldIWEpxOTVQc3N3NmpzNmlNdnZOM3hVT1QwUU0xbkN6ZDVPVUFnTGZoaEtPbDBOOTVVeFRvWndoUThNbk9B?oc=5",
+        "published_at": "2026-08-15T01:32:15Z",
+        "source": "Wallstreet Online",
+        "query": "Haoxi Health Technology HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 24
+      }
+    ],
     "sec_filings": [
       {
         "form": "6-K",
@@ -573,154 +590,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07474727",
-        "title": "A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer",
+        "nct_id": "NCT07263386",
+        "title": "A Phase II, Multicenter, Randomized, Controlled Clinical Study Comparing the Efficacy and Safety of Sintilimab Plus SOX Versus SOX Alone as Adjuvant Therapy for PD-L1-Positive, Stage pN3 Gastric Cancer",
         "status": "RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Colorectal Cancer",
+        "conditions": "Gastric Adenocarcinoma",
         "last_update": "",
-        "start_date": "2026-04-29",
-        "url": "https://clinicaltrials.gov/study/NCT07474727"
+        "start_date": "2025-10-23",
+        "url": "https://clinicaltrials.gov/study/NCT07263386"
       },
       {
-        "nct_id": "NCT04748068",
-        "title": "Use of Glidesheath Slender to Reduce Radial Artery Occlusion Following 7 French Transradial Coronary Intervention",
+        "nct_id": "NCT05531669",
+        "title": "Effect of PLAY Project Intervention Program on Children With ASD",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Radial Artery Occlusion, Coronary Artery Disease",
+        "conditions": "Autism Spectrum Disorder",
         "last_update": "",
-        "start_date": "2021-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT04748068"
+        "start_date": "2022-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05531669"
       },
       {
-        "nct_id": "NCT02139579",
-        "title": "Efficacy and Safety Study of Bevacizumab Plus Chemotherapy in EGFR-TKI Resistant Non-Squamous Non-Small Cell Lung Cancer",
+        "nct_id": "NCT05896787",
+        "title": "Candonilimab (AK104) Plus Preoperative Chemotherapy for Locally Advanced Esophageal Squamous Cell Carcinoma (ESCC)",
         "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Lung, Carcinoma",
+        "conditions": "Esophageal Squamous Cell Carcinoma",
         "last_update": "",
-        "start_date": "2014-05",
-        "url": "https://clinicaltrials.gov/study/NCT02139579"
+        "start_date": "2023-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05896787"
       },
       {
-        "nct_id": "NCT06470191",
-        "title": "A Clinical Study of B007 in the Treatment of Primary Membranous Nephropathy.",
-        "status": "RECRUITING",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "Primary Membranous Nephropathy",
-        "last_update": "",
-        "start_date": "2024-07-30",
-        "url": "https://clinicaltrials.gov/study/NCT06470191"
-      },
-      {
-        "nct_id": "NCT02526368",
-        "title": "Pilot Study of (MR) Imaging With Pyruvate (13C) to Detect High Grade Prostate Cancer",
-        "status": "RECRUITING",
-        "phase": "EARLY_PHASE1",
-        "conditions": "Prostate Cancer, Localized Prostate Carcinoma",
-        "last_update": "",
-        "start_date": "2016-03-22",
-        "url": "https://clinicaltrials.gov/study/NCT02526368"
-      },
-      {
-        "nct_id": "NCT04964310",
-        "title": "Screening of Susceptibility Genes for APAP Induced Drug Induced LIver Injury in ChiNese Population: a Case-control Study",
-        "status": "RECRUITING",
+        "nct_id": "NCT07069114",
+        "title": "Prognostic Factors for ACDF With BAK/C in Cervical Disc Disease",
+        "status": "COMPLETED",
         "phase": "",
-        "conditions": "Acetaminophen, Drug-Induced Liver Injury, Pharmacogenetics, China",
+        "conditions": "Cervical Spondylosis",
         "last_update": "",
-        "start_date": "2020-08-31",
-        "url": "https://clinicaltrials.gov/study/NCT04964310"
+        "start_date": "2020-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT07069114"
       },
       {
-        "nct_id": "NCT07481656",
-        "title": "Effects of Recombinant Human Growth Hormone in Elderly Patients With Moderate to Severe Acute Brain Injury (GH-ABI-RCT)",
+        "nct_id": "NCT04831333",
+        "title": "Deep Learning-based System and AIDS-related Cytomegalovirus Retinitis",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Cytomegalovirus Retinitis",
+        "last_update": "",
+        "start_date": "2021-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT04831333"
+      },
+      {
+        "nct_id": "NCT06931106",
+        "title": "Behavioral Intervention for PrEP Service Utilization Among Chinese MSM: A HAPA and CEI Integrated Model",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "HIV, PrEP, MSM, Behavior Changes",
+        "last_update": "",
+        "start_date": "2025-07",
+        "url": "https://clinicaltrials.gov/study/NCT06931106"
+      },
+      {
+        "nct_id": "NCT07175870",
+        "title": "Preoperative vs Postoperative Revascularization in Coronary Heart Disease Patients Undergoing Time-Sensitive Non-Cardiac Surgery (CHRONOS-PCI)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Coronary Artery Disease, Noncardiac Surgery",
+        "last_update": "",
+        "start_date": "2025-10",
+        "url": "https://clinicaltrials.gov/study/NCT07175870"
+      },
+      {
+        "nct_id": "NCT04540770",
+        "title": "A Phase 1 Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Immunogenicity of HuL001",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Idiopathic Pulmonary Fibrosis",
+        "last_update": "",
+        "start_date": "2021-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT04540770"
+      },
+      {
+        "nct_id": "NCT03921645",
+        "title": "Use of Aaerosol Combined With Intravenous Antibiotics for the Treatment of Multidrug Resistant GNB Pneumonia",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Ventilator Associated Pneumonia, Multi-antibiotic Resistance",
+        "last_update": "",
+        "start_date": "2018-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT03921645"
+      },
+      {
+        "nct_id": "NCT07746219",
+        "title": "The Clinical Research of Traditional Chinese Medicine Formula",
         "status": "NOT_YET_RECRUITING",
         "phase": "PHASE4",
-        "conditions": "Acute Brain Injuries, Moderate to Severe Traumatic Brain Injury",
+        "conditions": "Urologic Injuries, Kidney Disease",
         "last_update": "",
-        "start_date": "2026-04-10",
-        "url": "https://clinicaltrials.gov/study/NCT07481656"
+        "start_date": "2026-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT07746219"
       },
       {
-        "nct_id": "NCT07641088",
-        "title": "Zishen Yutai Pill for Patients With Recurrent Implantation Failure",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Recurrent Implantation Failure",
-        "last_update": "",
-        "start_date": "2026-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT07641088"
-      },
-      {
-        "nct_id": "NCT06819241",
-        "title": "Self-Management of Blood Pressure in Resistant Hypertension",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Resistant Hypertension",
-        "last_update": "",
-        "start_date": "2025-02-16",
-        "url": "https://clinicaltrials.gov/study/NCT06819241"
-      },
-      {
-        "nct_id": "NCT07504731",
-        "title": "Trunk Inclination, Positive End-expiratory Pressure, and Lung Recruitability",
+        "nct_id": "NCT06756451",
+        "title": "This Study is a FIH Study Which is Required to Understand the PK Characteristics, MTD, RP2D and Safety Profile.",
         "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Acute Respiratory Distress Syndrome (ARDS)",
-        "last_update": "",
-        "start_date": "2026-03-20",
-        "url": "https://clinicaltrials.gov/study/NCT07504731"
-      },
-      {
-        "nct_id": "NCT03089944",
-        "title": "A Study of Glecaprevir (GLE)/Pibrentasvir (PIB) in Treatment-Naive Adults With Chronic Hepatitis C Virus (HCV) Genotype 1-6 Infection and Compensated Cirrhosis",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Hepatitis C Virus (HCV)",
-        "last_update": "",
-        "start_date": "2017-04-28",
-        "url": "https://clinicaltrials.gov/study/NCT03089944"
-      },
-      {
-        "nct_id": "NCT07234383",
-        "title": "Accelerated HEmodiafiltration in Severe Acute Diquat (AHEAD) Poisoning",
-        "status": "NOT_YET_RECRUITING",
         "phase": "PHASE1",
-        "conditions": "Diquat Poisoning",
+        "conditions": "Hematologic Malignancies",
         "last_update": "",
-        "start_date": "2027-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT07234383"
+        "start_date": "2025-03-25",
+        "url": "https://clinicaltrials.gov/study/NCT06756451"
       },
       {
-        "nct_id": "NCT07284199",
-        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "CABG, Aortic Dissection, Valvular Heart Diseases",
+        "nct_id": "NCT06574945",
+        "title": "Anesthesia for Loop Electrosurgical Excision Procedure (LEEP).",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Esketamine, Loop Electrosurgical Excision, Propofol",
         "last_update": "",
-        "start_date": "2025-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT07284199"
+        "start_date": "2022-01-07",
+        "url": "https://clinicaltrials.gov/study/NCT06574945"
       },
       {
-        "nct_id": "NCT06385873",
-        "title": "RC48 Combined With Adebrelimab, Apatinib and S-1 as Neoadjuvant Therapy in Locally Advanced Gastric Cancer",
-        "status": "NOT_YET_RECRUITING",
+        "nct_id": "NCT06262581",
+        "title": "Neoadjuvant Tisleizumab(BGB-A317) for dMMR/MSI-H Non-late Stage CRC Patients Before Surgery",
+        "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Gastric Cancer/Gastroesophageal Junction Adenocarcinoma",
+        "conditions": "DMMR Colorectal Cancer, Anti PD-1, Immunotherapy",
         "last_update": "",
-        "start_date": "2024-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT06385873"
+        "start_date": "2023-09-23",
+        "url": "https://clinicaltrials.gov/study/NCT06262581"
       },
       {
-        "nct_id": "NCT07625462",
-        "title": "Hearing and Brain Development Cohort in Children and Adolescents",
-        "status": "RECRUITING",
+        "nct_id": "NCT04952207",
+        "title": "Effectiveness and Safety of Direct-Acting Antiviral Agents for the Treatment of Chronic Hepatitis C",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Hearing Loss",
+        "conditions": "Hepatitis C, Chronic",
         "last_update": "",
-        "start_date": "2026-05-20",
-        "url": "https://clinicaltrials.gov/study/NCT07625462"
+        "start_date": "2019-03-06",
+        "url": "https://clinicaltrials.gov/study/NCT04952207"
+      },
+      {
+        "nct_id": "NCT06798142",
+        "title": "Risk Stratification and Heterogeneity for Organ Damage in Acute Diquat Poisoning",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Toxic Encephalopathy, Diquat Poisoning",
+        "last_update": "",
+        "start_date": "2022-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT06798142"
       }
     ],
     "detected_triggers": [
@@ -743,66 +760,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety Study of Bevacizumab Plus Chemotherapy in EGFR-TKI Resistant Non-Squamous Non-Small Cell Lung Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT02139579",
-        "date": "2014-05"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Pilot Study of (MR) Imaging With Pyruvate (13C) to Detect High Grade Prostate Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING EARLY_PHASE1",
-        "source": "NCT02526368",
-        "date": "2016-03-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study of Glecaprevir (GLE)/Pibrentasvir (PIB) in Treatment-Naive Adults With Chronic Hepatitis C Virus (HCV) Genotype 1-6 Infection and Compensated Cirrhosis",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT03089944",
-        "date": "2017-04-28"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Use of Glidesheath Slender to Reduce Radial Artery Occlusion Following 7 French Transradial Coronary Intervention",
+        "title": "Use of Aaerosol Combined With Intravenous Antibiotics for the Treatment of Multidrug Resistant GNB Pneumonia",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT04748068",
-        "date": "2021-02-01"
+        "source": "NCT03921645",
+        "date": "2018-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "RC48 Combined With Adebrelimab, Apatinib and S-1 as Neoadjuvant Therapy in Locally Advanced Gastric Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT06385873",
-        "date": "2024-05-01"
+        "title": "A Phase 1 Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Immunogenicity of HuL001",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT04540770",
+        "date": "2021-08-31"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Clinical Study of B007 in the Treatment of Primary Membranous Nephropathy.",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2, PHASE3",
-        "source": "NCT06470191",
-        "date": "2024-07-30"
+        "title": "Anesthesia for Loop Electrosurgical Excision Procedure (LEEP).",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT06574945",
+        "date": "2022-01-07"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Self-Management of Blood Pressure in Resistant Hypertension",
+        "title": "Effect of PLAY Project Intervention Program on Children With ASD",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05531669",
+        "date": "2022-08-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Candonilimab (AK104) Plus Preoperative Chemotherapy for Locally Advanced Esophageal Squamous Cell Carcinoma (ESCC)",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT05896787",
+        "date": "2023-08-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Neoadjuvant Tisleizumab(BGB-A317) for dMMR/MSI-H Non-late Stage CRC Patients Before Surgery",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT06262581",
+        "date": "2023-09-23"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "This Study is a FIH Study Which is Required to Understand the PK Characteristics, MTD, RP2D and Safety Profile.",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT06756451",
+        "date": "2025-03-25"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Behavioral Intervention for PrEP Service Utilization Among Chinese MSM: A HAPA and CEI Integrated Model",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT06819241",
-        "date": "2025-02-16"
+        "source": "NCT06931106",
+        "date": "2025-07"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
+        "title": "Preoperative vs Postoperative Revascularization in Coronary Heart Disease Patients Undergoing Time-Sensitive Non-Cardiac Surgery (CHRONOS-PCI)",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07284199",
-        "date": "2025-12-15"
+        "source": "NCT07175870",
+        "date": "2025-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase II, Multicenter, Randomized, Controlled Clinical Study Comparing the Efficacy and Safety of Sintilimab Plus SOX Versus SOX Alone as Adjuvant Therapy for PD-L1-Positive, Stage pN3 Gastric Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07263386",
+        "date": "2025-10-23"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -829,28 +862,12 @@
         "date": "2026-04-06"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Effects of Recombinant Human Growth Hormone in Elderly Patients With Moderate to Severe Acute Brain Injury (GH-ABI-RCT)",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
-        "source": "NCT07481656",
-        "date": "2026-04-10"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-04-22",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT07474727",
-        "date": "2026-04-29"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -893,14 +910,6 @@
         "date": "2026-06-24"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Zishen Yutai Pill for Patients With Recurrent Implantation Failure",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07641088",
-        "date": "2026-07-01"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-07-06",
@@ -919,18 +928,42 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Accelerated HEmodiafiltration in Severe Acute Diquat (AHEAD) Poisoning",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1",
-        "source": "NCT07234383",
-        "date": "2027-01-01"
+        "title": "The Clinical Research of Traditional Chinese Medicine Formula",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
+        "source": "NCT07746219",
+        "date": "2026-08-31"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Screening of Susceptibility Genes for APAP Induced Drug Induced LIver Injury in ChiNese Population: a Case-control Study",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT04964310",
-        "date": "2020-08-31"
+        "title": "Effectiveness and Safety of Direct-Acting Antiviral Agents for the Treatment of Chronic Hepatitis C",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT04952207",
+        "date": "2019-03-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Prognostic Factors for ACDF With BAK/C in Cervical Disc Disease",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT07069114",
+        "date": "2020-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Deep Learning-based System and AIDS-related Cytomegalovirus Retinitis",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT04831333",
+        "date": "2021-04-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Risk Stratification and Heterogeneity for Organ Damage in Acute Diquat Poisoning",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT06798142",
+        "date": "2022-02-01"
       },
       {
         "type": "SEC Filing",
@@ -939,22 +972,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Trunk Inclination, Positive End-expiratory Pressure, and Lung Recruitability",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT07504731",
-        "date": "2026-03-20"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
