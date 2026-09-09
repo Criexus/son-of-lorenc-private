@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.24",
-      "note": "Auto-Update: -2.73% vs. vorheriger Schlusskurs",
+      "value": "$3.21",
+      "note": "Auto-Update: -3.45% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-09T19:34:11Z",
+    "last_update_utc": "2026-09-09T22:05:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.239,
+      "regularMarketPrice": 3.215,
       "previousClose": 3.33,
-      "change": -0.091,
-      "changePercent": -2.73,
-      "regularMarketTime": "2026-09-09T19:33:50Z",
+      "change": -0.115,
+      "changePercent": -3.45,
+      "regularMarketTime": "2026-09-09T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -399,7 +399,7 @@
       },
       {
         "t": "2026-09-09T13:30:00Z",
-        "price": 3.2391
+        "price": 3.215
       }
     ],
     "price_history_1d": [
@@ -693,11 +693,31 @@
       },
       {
         "t": "2026-09-09T19:30:00Z",
+        "price": 3.24
+      },
+      {
+        "t": "2026-09-09T19:35:00Z",
         "price": 3.235
       },
       {
-        "t": "2026-09-09T19:33:50Z",
-        "price": 3.2391
+        "t": "2026-09-09T19:40:00Z",
+        "price": 3.235
+      },
+      {
+        "t": "2026-09-09T19:45:00Z",
+        "price": 3.2176
+      },
+      {
+        "t": "2026-09-09T19:50:00Z",
+        "price": 3.225
+      },
+      {
+        "t": "2026-09-09T19:55:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-09-09T20:00:00Z",
+        "price": 3.215
       }
     ],
     "price_history_range": "1mo",
@@ -736,10 +756,10 @@
         "relevance_score": 19
       },
       {
-        "title": "RXRX Prognose — Kursziel für 2027 - de.tradingview.com",
+        "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
         "published_at": "2026-06-25T12:31:22Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -755,22 +775,6 @@
         "title": "Hauptversammlung von Recursion Pharmaceuticals: Aktionäre stimmen allen Vorschlägen zu - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRlNqMWFpUnBnWGhvWnQ0TUJhRDgxdFAyY1lWdnB1NXRZY2R5ZU03QkgtYTFVZDI0VnR3MDh6TE5tTTZJNHV3VWY0ZTltMEdCdmdCOWFvdlZtRFhZT1VncUp2SWVaQzVGWEllY0R0YU80SXY0dXlMUEtEcFFfNkpmUEFhTVRNczFOWTRsa3FycjF0b2pwTmRSRl92YjF1SGRlaHdybU1HT2dKWEthUkk4elBueXFOU2liamE5U215aHBQeDRPYm96YnE4bGU3QW9UUHNTc0F3QQ?oc=5",
         "published_at": "2026-06-18T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 19
-      },
-      {
-        "title": "Recursion Pharmaceuticals: Aktie stürzt nach komplettem NVIDIA-Ausstieg ab - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRnhnRXFrLUZibWFIYkkwV04yYklOQkt3dTVHTkRrV2tDZnJIMW1BMk83cWg1YURQc3Z2YVVaQl9FWTlLeUtSdDVjQ3plcm5oOWxoSVlQWEFlNlpaQ1lQT0ZwaDlJb1FqUnlTVjdRT1R0bFcxdXRQbTZHaWJObGJZZU1GRmJYaTA1b0FFbjZqeG00T3JnQ01VZ215a0xjWXoxOWV4YTlsUEpMa0tfUUxEQUdKbG1Qd1k4VXNfZWw1MFZGazBRNzZ2V1hMczZRZw?oc=5",
-        "published_at": "2026-02-18T08:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
@@ -832,10 +836,10 @@
         "relevance_score": 19
       },
       {
-        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - de.tradingview.com",
+        "title": "RXRX Aktienkurs und Chart — NASDAQ:RXRX - TradingView",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-16T06:05:44Z",
-        "source": "de.tradingview.com",
+        "source": "TradingView",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
