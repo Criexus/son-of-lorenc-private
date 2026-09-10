@@ -217,7 +217,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-09T22:06:18Z",
+    "last_update_utc": "2026-09-10T00:23:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -323,10 +323,6 @@
       {
         "t": "2026-09-08T13:30:00Z",
         "price": 3.42
-      },
-      {
-        "t": "2026-09-09T13:30:00Z",
-        "price": 3.24
       }
     ],
     "price_history_1d": [
@@ -641,6 +637,13 @@
     ],
     "sec_filings": [
       {
+        "form": "4",
+        "filingDate": "2026-09-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000091957426006217/xslF345X06/ownership.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "N-PX",
         "filingDate": "2026-08-13",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000108514626000603/xslN-PX_X01/primary_doc.xml",
@@ -770,13 +773,6 @@
         "form": "10-Q",
         "filingDate": "2026-05-11",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026033621/alti-20260331.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "8-K",
-        "filingDate": "2026-05-11",
-        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026033448/alti-20260511.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1065,14 +1061,6 @@
       {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
-        "title": "8-K · 2026-05-11",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-11"
-      },
-      {
-        "type": "SEC · Unternehmensereignis",
-        "level": "medium",
         "title": "8-K · 2026-06-18",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1125,6 +1113,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-29"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-18",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-18"
       },
       {
         "type": "SEC Filing",
