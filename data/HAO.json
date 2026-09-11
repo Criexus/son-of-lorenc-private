@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.88",
-      "note": "Auto-Update: -8.29% vs. vorheriger Schlusskurs",
+      "value": "$2.89",
+      "note": "Auto-Update: -14.24% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-11T09:15:38Z",
+    "last_update_utc": "2026-09-11T13:41:57Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.875,
-      "previousClose": 3.135,
-      "change": -0.26,
-      "changePercent": -8.29,
-      "regularMarketTime": "2026-09-10T20:00:00Z",
+      "regularMarketPrice": 2.89,
+      "previousClose": 3.37,
+      "change": -0.48,
+      "changePercent": -14.24,
+      "regularMarketTime": "2026-09-11T13:41:13Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -302,124 +302,20 @@
       {
         "t": "2026-09-10T13:30:00Z",
         "price": 2.875
+      },
+      {
+        "t": "2026-09-11T13:30:00Z",
+        "price": 2.89
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-10T13:30:00Z",
-        "price": 2.845
-      },
-      {
-        "t": "2026-09-10T13:35:00Z",
+        "t": "2026-09-11T13:30:00Z",
         "price": 2.89
       },
       {
-        "t": "2026-09-10T13:40:00Z",
-        "price": 2.86
-      },
-      {
-        "t": "2026-09-10T13:45:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-09-10T13:50:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-09-10T13:55:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-09-10T14:10:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-09-10T14:20:00Z",
-        "price": 2.93
-      },
-      {
-        "t": "2026-09-10T14:25:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-09-10T14:30:00Z",
-        "price": 2.8477
-      },
-      {
-        "t": "2026-09-10T14:55:00Z",
+        "t": "2026-09-11T13:41:13Z",
         "price": 2.89
-      },
-      {
-        "t": "2026-09-10T15:05:00Z",
-        "price": 2.8901
-      },
-      {
-        "t": "2026-09-10T15:15:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-10T15:30:00Z",
-        "price": 2.8501
-      },
-      {
-        "t": "2026-09-10T15:35:00Z",
-        "price": 2.8501
-      },
-      {
-        "t": "2026-09-10T15:40:00Z",
-        "price": 2.8501
-      },
-      {
-        "t": "2026-09-10T15:45:00Z",
-        "price": 2.8879
-      },
-      {
-        "t": "2026-09-10T15:55:00Z",
-        "price": 2.87
-      },
-      {
-        "t": "2026-09-10T16:05:00Z",
-        "price": 2.8722
-      },
-      {
-        "t": "2026-09-10T16:50:00Z",
-        "price": 2.86
-      },
-      {
-        "t": "2026-09-10T17:10:00Z",
-        "price": 2.9
-      },
-      {
-        "t": "2026-09-10T17:20:00Z",
-        "price": 2.87
-      },
-      {
-        "t": "2026-09-10T17:35:00Z",
-        "price": 2.87
-      },
-      {
-        "t": "2026-09-10T17:45:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-09-10T18:10:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-10T19:00:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-10T19:05:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-10T19:40:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-09-10T20:00:00Z",
-        "price": 2.875
       }
     ],
     "price_history_range": "1mo",
@@ -569,154 +465,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05449184",
-        "title": "A Prospective, Randomized, Controlled Clinical Study of BET Combined With Tympanostomy Tube Insertion in the Treatment of Intractable OME After Radiotherapy for NPC",
+        "nct_id": "NCT01102517",
+        "title": "A Trial on Video-assisted Thoracoscopic Surgery and Axillary Thoracotomy for Resection of Early-stage Non-small Cell Lung Cancer",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Otitis Media With Effusion After Nasopharyngeal Carcinoma",
+        "conditions": "Non-small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2022-06-14",
-        "url": "https://clinicaltrials.gov/study/NCT05449184"
+        "start_date": "2010-01",
+        "url": "https://clinicaltrials.gov/study/NCT01102517"
       },
       {
-        "nct_id": "NCT06777758",
-        "title": "Comparison of Remimazolam and Propofol in Endoscopic Examinations and Treatments",
-        "status": "RECRUITING",
+        "nct_id": "NCT03265145",
+        "title": "Assessment In a Real World Setting of the Effect of Inhaled Steroid-based Triple Therapy Versus the Combination of Tiotropium and Olodaterol on Reducing Chronic Obstructive Pulmonary Disease (COPD) Exacerbations [AIRWISE]",
+        "status": "COMPLETED",
         "phase": "PHASE4",
-        "conditions": "Postoperative Complications, Respiratory Depression, Postoperative Nausea, Vomiting",
+        "conditions": "Pulmonary Disease, Chronic Obstructive",
         "last_update": "",
-        "start_date": "2025-02-12",
-        "url": "https://clinicaltrials.gov/study/NCT06777758"
+        "start_date": "2017-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT03265145"
       },
       {
-        "nct_id": "NCT05113043",
-        "title": "Correlation Between Intestinal Microecology Imbalance and Stroke in Young Adults",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Ischemic Stroke, Hemorrhagic Stroke",
-        "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05113043"
-      },
-      {
-        "nct_id": "NCT06941948",
-        "title": "Sleep Disorders and Tumor Immune Microenvironment",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Impact of Sleep Disorders on Tumor Immune Microenvironment and Clinical Outcomes in Lung Cancer",
-        "last_update": "",
-        "start_date": "2025-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT06941948"
-      },
-      {
-        "nct_id": "NCT06717204",
-        "title": "Vericiguat for Heart Failure With Reduced Ejection Fraction After Myocardial Infarction",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "HFrEF - Heart Failure With Reduced Ejection Fraction, Myocardial Infarction (MI)",
-        "last_update": "",
-        "start_date": "2025-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06717204"
-      },
-      {
-        "nct_id": "NCT06292052",
-        "title": "Relation Between Tumor-draining Lymph Nodes Metastasis Pattern and Non-small Cell Lung Cancer Neoadjuvant Immunotherapy Effectiveness",
+        "nct_id": "NCT06888739",
+        "title": "Development and Validation of Interpretable Machine Learning Models Incorporating Paraspinal Muscle Quality for to Predict Cage Subsidence Risk Followingposterior Lumbar Interbody Fusion",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Lung Cancer",
+        "conditions": "Degenerative Lumbar Diseases, Cage, Machine Learning",
         "last_update": "",
-        "start_date": "2017-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06292052"
+        "start_date": "2025-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT06888739"
       },
       {
-        "nct_id": "NCT03880617",
-        "title": "Distress, Medication Adherence and Care Needs in Patients With CML and GIST Receiving Oral Targeted Therapy",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "CML, GIST",
-        "last_update": "",
-        "start_date": "2015-03-25",
-        "url": "https://clinicaltrials.gov/study/NCT03880617"
-      },
-      {
-        "nct_id": "NCT07242599",
-        "title": "Ongericimab Injection Reducing Recurrence of Ischemic Stroke",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Ischemic Cerebral Infarction",
-        "last_update": "",
-        "start_date": "2026-04-22",
-        "url": "https://clinicaltrials.gov/study/NCT07242599"
-      },
-      {
-        "nct_id": "NCT05376098",
-        "title": "An fNIRS Study of Motor Cortical Activation in Stoke Patients",
+        "nct_id": "NCT06413017",
+        "title": "Nimotuzumab Combined With ICIs for the Treatment of Advanced Liver Cancer After First Line Treatment Failure",
         "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Acute Ischemic Stroke",
+        "phase": "PHASE2",
+        "conditions": "HCC",
         "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05376098"
+        "start_date": "2023-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT06413017"
       },
       {
-        "nct_id": "NCT01875484",
-        "title": "Circulating miR-126 as a Novel Biomarker for Post Myocardial Infarction Remodeling",
+        "nct_id": "NCT01910285",
+        "title": "Remifentanil Versus Sufentanil for Intubation Condition Without Myorelaxant",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Myocardial Infarction, Left Ventricular Remodeling, miR-126",
+        "phase": "PHASE4",
+        "conditions": "Anaesthetic Induction",
         "last_update": "",
-        "start_date": "2012-02",
-        "url": "https://clinicaltrials.gov/study/NCT01875484"
+        "start_date": "2013-06",
+        "url": "https://clinicaltrials.gov/study/NCT01910285"
       },
       {
-        "nct_id": "NCT02304588",
-        "title": "Stem Cell Therapy for Patients With Vascular Occlusive Diseases Such as Diabetic Foot",
+        "nct_id": "NCT05274789",
+        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Robot-assisted Pancreaticoduodenectomy: a Randomized Controlled Study",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Delirium in Old Age",
+        "last_update": "",
+        "start_date": "2022-04-15",
+        "url": "https://clinicaltrials.gov/study/NCT05274789"
+      },
+      {
+        "nct_id": "NCT05047991",
+        "title": "Study of Irinotecan Liposome Injection-containing Regimens Versus Nab-paclitaxel Plus Gemcitabine in Patients With Previously Untreated, Metastatic Pancreatic Adenocarcinoma",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Pancreatic Cancer Non-resectable, Pancreatic Cancer Metastatic",
+        "last_update": "",
+        "start_date": "2021-10",
+        "url": "https://clinicaltrials.gov/study/NCT05047991"
+      },
+      {
+        "nct_id": "NCT02111577",
+        "title": "Phase III Study of DCVAC/PCa Added to Standard Chemotherapy for Men With Metastatic Castration Resistant Prostate Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Metastatic Castration-resistant Prostate Cancer",
+        "last_update": "",
+        "start_date": "2014-05-26",
+        "url": "https://clinicaltrials.gov/study/NCT02111577"
+      },
+      {
+        "nct_id": "NCT03084809",
+        "title": "Chemotherapy Combined With CIK Treating Colon Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Colorectal Cancer, Cytokine-induced Killer Cells, Postoperative Complications, Survival",
+        "last_update": "",
+        "start_date": "2012-05-06",
+        "url": "https://clinicaltrials.gov/study/NCT03084809"
+      },
+      {
+        "nct_id": "NCT05024565",
+        "title": "Prolonged Intravenous Infusion of β-lactam Antibiotics in Early Septic Patients",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Sepsis",
+        "last_update": "",
+        "start_date": "2021-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT05024565"
+      },
+      {
+        "nct_id": "NCT07586124",
+        "title": "Pucotenlimab Plus Becotatug Vedotin in Perioperative Treatment of Locally Advanced Resectable Head and Neck Squamous Cell Carcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Head and Neck Squamous Cell Carcinoma",
+        "last_update": "",
+        "start_date": "2026-07-06",
+        "url": "https://clinicaltrials.gov/study/NCT07586124"
+      },
+      {
+        "nct_id": "NCT05149027",
+        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
         "status": "UNKNOWN",
         "phase": "PHASE1",
-        "conditions": "Diabetic Foot, Lower Limb Ischemia",
+        "conditions": "Solid Tumors",
         "last_update": "",
-        "start_date": "2013-01",
-        "url": "https://clinicaltrials.gov/study/NCT02304588"
+        "start_date": "2021-12-20",
+        "url": "https://clinicaltrials.gov/study/NCT05149027"
       },
       {
-        "nct_id": "NCT02080156",
-        "title": "Impact of Continuous Positive Airway Pressure (CPAP) Therapy on Outcomes in Patients Undergoing Coronary Revascularization",
+        "nct_id": "NCT04323332",
+        "title": "Traditional Chinese Medicine for Severe COVID-19",
         "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "COVID-19",
+        "last_update": "",
+        "start_date": "2020-03",
+        "url": "https://clinicaltrials.gov/study/NCT04323332"
+      },
+      {
+        "nct_id": "NCT07157163",
+        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
+        "status": "NOT_YET_RECRUITING",
         "phase": "NA",
-        "conditions": "Obstructive Sleep Apnea, Ischaemic Heart Desease",
+        "conditions": "Influenza Vaccine, Healthcare Workers",
         "last_update": "",
-        "start_date": "2015-01",
-        "url": "https://clinicaltrials.gov/study/NCT02080156"
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT07157163"
       },
       {
-        "nct_id": "NCT05518851",
-        "title": "TreAtments and outComes in paTients With prImary CutAneous Lymphoma",
-        "status": "RECRUITING",
+        "nct_id": "NCT06443333",
+        "title": "National, Multicentric Registry Study on Neuroimmunological Diseases in China",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Primary Cutaneous Lymphoma",
+        "conditions": "Multiple Sclerosis, NMO Spectrum Disorder, Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease, Myasthenia Gravis",
         "last_update": "",
-        "start_date": "2022-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05518851"
-      },
-      {
-        "nct_id": "NCT06628583",
-        "title": "Multivariate Analysis and Risk Factors Were Used to Predict the Short-term Postoperative Pain of Degenerative Lumbar Spine",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Lumbar Disc Herniation, Lumbar Degenerative Disease, Sarcopenia",
-        "last_update": "",
-        "start_date": "2024-09-20",
-        "url": "https://clinicaltrials.gov/study/NCT06628583"
-      },
-      {
-        "nct_id": "NCT07602569",
-        "title": "A Prospective Study on the Diagnosis of Malignant Tumors With 18F-FGIn PET/CT",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Cancer (With or Without Metastasis)",
-        "last_update": "",
-        "start_date": "2025-10-20",
-        "url": "https://clinicaltrials.gov/study/NCT07602569"
+        "start_date": "2020-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT06443333"
       }
     ],
     "detected_triggers": [
@@ -739,34 +635,98 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Stem Cell Therapy for Patients With Vascular Occlusive Diseases Such as Diabetic Foot",
+        "title": "A Trial on Video-assisted Thoracoscopic Surgery and Axillary Thoracotomy for Resection of Early-stage Non-small Cell Lung Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT01102517",
+        "date": "2010-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Chemotherapy Combined With CIK Treating Colon Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT03084809",
+        "date": "2012-05-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Remifentanil Versus Sufentanil for Intubation Condition Without Myorelaxant",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT01910285",
+        "date": "2013-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Phase III Study of DCVAC/PCa Added to Standard Chemotherapy for Men With Metastatic Castration Resistant Prostate Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT02111577",
+        "date": "2014-05-26"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Assessment In a Real World Setting of the Effect of Inhaled Steroid-based Triple Therapy Versus the Combination of Tiotropium and Olodaterol on Reducing Chronic Obstructive Pulmonary Disease (COPD) Exacerbations [AIRWISE]",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT03265145",
+        "date": "2017-09-20"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Traditional Chinese Medicine for Severe COVID-19",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT04323332",
+        "date": "2020-03"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Prolonged Intravenous Infusion of β-lactam Antibiotics in Early Septic Patients",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05024565",
+        "date": "2021-09-20"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Study of Irinotecan Liposome Injection-containing Regimens Versus Nab-paclitaxel Plus Gemcitabine in Patients With Previously Untreated, Metastatic Pancreatic Adenocarcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT05047991",
+        "date": "2021-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT02304588",
-        "date": "2013-01"
+        "source": "NCT05149027",
+        "date": "2021-12-20"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Impact of Continuous Positive Airway Pressure (CPAP) Therapy on Outcomes in Patients Undergoing Coronary Revascularization",
+        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Robot-assisted Pancreaticoduodenectomy: a Randomized Controlled Study",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02080156",
-        "date": "2015-01"
+        "source": "NCT05274789",
+        "date": "2022-04-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Prospective, Randomized, Controlled Clinical Study of BET Combined With Tympanostomy Tube Insertion in the Treatment of Intractable OME After Radiotherapy for NPC",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05449184",
-        "date": "2022-06-14"
+        "title": "Nimotuzumab Combined With ICIs for the Treatment of Advanced Liver Cancer After First Line Treatment Failure",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT06413017",
+        "date": "2023-08-31"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Comparison of Remimazolam and Propofol in Endoscopic Examinations and Treatments",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT06777758",
-        "date": "2025-02-12"
+        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07157163",
+        "date": "2025-09-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -798,14 +758,6 @@
         "title": "6-K · 2026-04-22",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Ongericimab Injection Reducing Recurrence of Ischemic Stroke",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
-        "source": "NCT07242599",
         "date": "2026-04-22"
       },
       {
@@ -857,6 +809,14 @@
         "date": "2026-07-06"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Pucotenlimab Plus Becotatug Vedotin in Perioperative Treatment of Locally Advanced Resectable Head and Neck Squamous Cell Carcinoma",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07586124",
+        "date": "2026-07-06"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-07-13",
@@ -867,82 +827,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Circulating miR-126 as a Novel Biomarker for Post Myocardial Infarction Remodeling",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT01875484",
-        "date": "2012-02"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Distress, Medication Adherence and Care Needs in Patients With CML and GIST Receiving Oral Targeted Therapy",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT03880617",
-        "date": "2015-03-25"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Relation Between Tumor-draining Lymph Nodes Metastasis Pattern and Non-small Cell Lung Cancer Neoadjuvant Immunotherapy Effectiveness",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06292052",
-        "date": "2017-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Correlation Between Intestinal Microecology Imbalance and Stroke in Young Adults",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05113043",
-        "date": "2022-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "An fNIRS Study of Motor Cortical Activation in Stoke Patients",
+        "title": "National, Multicentric Registry Study on Neuroimmunological Diseases in China",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05376098",
-        "date": "2022-02-01"
+        "source": "NCT06443333",
+        "date": "2020-12-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "TreAtments and outComes in paTients With prImary CutAneous Lymphoma",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05518851",
-        "date": "2022-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Multivariate Analysis and Risk Factors Were Used to Predict the Short-term Postoperative Pain of Degenerative Lumbar Spine",
+        "title": "Development and Validation of Interpretable Machine Learning Models Incorporating Paraspinal Muscle Quality for to Predict Cage Subsidence Risk Followingposterior Lumbar Interbody Fusion",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06628583",
-        "date": "2024-09-20"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Vericiguat for Heart Failure With Reduced Ejection Fraction After Myocardial Infarction",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
-        "source": "NCT06717204",
-        "date": "2025-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Sleep Disorders and Tumor Immune Microenvironment",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06941948",
-        "date": "2025-05-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "A Prospective Study on the Diagnosis of Malignant Tumors With 18F-FGIn PET/CT",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT07602569",
-        "date": "2025-10-20"
+        "source": "NCT06888739",
+        "date": "2025-03-01"
       },
       {
         "type": "SEC Filing",
