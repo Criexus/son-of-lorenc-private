@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$14.31",
-      "note": "Auto-Update: 7.67% vs. vorheriger Schlusskurs",
+      "value": "$14.35",
+      "note": "Auto-Update: 7.98% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-11T19:53:21Z",
+    "last_update_utc": "2026-09-11T22:05:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 14.309,
+      "regularMarketPrice": 14.35,
       "previousClose": 13.29,
-      "change": 1.019,
-      "changePercent": 7.67,
-      "regularMarketTime": "2026-09-11T19:52:54Z",
+      "change": 1.06,
+      "changePercent": 7.98,
+      "regularMarketTime": "2026-09-11T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "4.82 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-08-11T13:30:00Z",
-        "price": 13.38
-      },
       {
         "t": "2026-08-12T13:30:00Z",
         "price": 14.22
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-09-11T13:30:00Z",
-        "price": 14.3086
+        "price": 14.35
       }
     ],
     "price_history_1d": [
@@ -734,13 +730,33 @@
         "price": 14.32
       },
       {
-        "t": "2026-09-11T19:52:54Z",
-        "price": 14.3086
+        "t": "2026-09-11T19:55:00Z",
+        "price": 14.36
+      },
+      {
+        "t": "2026-09-11T20:00:00Z",
+        "price": 14.35
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "COMPASS Pathways auf der Cantor Healthcare Conference: Weg zur Markteinführung wird konkreter - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOemltUDc1X1RnUTYyYXZuQThiNkFQTTk5VzlVRkxfNUgtUU4wQXRHNmF2aFpfNEF1TDR6TENvLXJrUHVxUUZVUkhhNGIzV1hmOWJZTUY5YV9Lc3hUZEZib2NLeXlXRUZFUWtZQzI5OEVJWlJpa19iaDk0ZERGY055TnJZR1V4cVdoZ0NMNk90QWJGT1FBRjA4a3pacnM1MGJZZ1V0UHoyWExoeDdkZ2dkOFJUNGQ4R25iekdKbUxGWGY1WU5iSmFKbnpDNjJ1MjgtaGo1RUtjVXN1NHV0N2xweg?oc=5",
+        "published_at": "2026-09-10T21:36:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Konferenz / Präsentation",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Konferenz / Präsentation.",
+        "impact": "meist niedriger bis mittlerer Trigger",
+        "assessment": "Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen.",
+        "watch": "Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "summary": "Trigger erkannt: Konferenz / Präsentation. Einordnung: Konferenz- oder Präsentationsmeldungen sind oft eher Sichtbarkeits-Events als harte Kurstreiber. Kursrelevant wird es erst, wenn dort neue Daten, Guidance oder strategische Aussagen kommen. Beobachten: Ob neue Daten angekündigt werden oder nur eine Standard-Präsentation stattfindet.",
+        "relevance_score": 17
+      },
       {
         "title": "Compass Pathways beauftragt Fluence mit Entwicklung eines Schulungsprogramms für Psilocybin-Therapie - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZUdPam1udkV5NkNOVWt6TVZuVzZDQVFEUHJ6QUNxVTFPLURRa0IxQ0pNMGdqUVNCVHFuMG1NSmt2MklQby1GNnRqa25Nb3dTMjhwU3c0VVdCLU9aVmRSS3RyOEF3Z2FYbW1GaWlzWFc2cnFTcTZvZFZORVJQQmNlN3NobWk3SlBFUFJEY2lzVG1NS0QzQUNtbXRzcHB5QmF6b2FZdHVqS2F0TVFlQ2lzY2pUbjhNV1F0TjRocDRlc3p0NHQ4QUdyTS1LNVBMbjFIM1FINGhWY1JQOVBjMFZodFpKRnhYbGs4eENn?oc=5",
@@ -774,6 +790,22 @@
         "relevance_score": 21
       },
       {
+        "title": "Compass Pathways meldet neue 52-Wochen-Topline-Daten aus dem offenen Teil der Phase-3-Studie COMP005, die einen zusätzlichen Nutzen durch eine weitere COMP360-Dosis in Teil C zeigen und die Wirksamkeitsdauer auf bis zu 1 Jahr verlängern - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVnRGNTBBdHJNSFljT0RyNkp6allzVEhHMFl2OV9PbmdTN0RtWTRqaG9vOWk1MjB5TmxMQnhWVDIxWXVwbk9ySVZHYWtVd3lnVU4xQ3ZZTXhxTUtVR3NCMm05Wmk5T3FMSFhnTkxyY0xnQkFrWTdpN3pjUGVXai1VRGMxV2YzWnJ3RXlOWDJOSjRhYnVsVTR4cE1HME9tTE40aURpY1VnbWtIRDBGLVU4SkpSX2NpRUZWN0RYWDZnZ1pOTkVpWXlxdzVEVHp4aGgycDFNNXI2bGcxaDkxLVozbkpYd3F3QkJlbGlvdHB6dXYteTRHbHAtUTNB?oc=5",
+        "published_at": "2026-09-09T12:10:42Z",
+        "source": "MarketScreener Deutschland",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 21
+      },
+      {
         "title": "Compass Pathways: H.C. Wainwright bestätigt Kaufempfehlung nach Studiendaten - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGdFbTB5UDRnUklSTkwyOWJTY0t2ZlBiTFpuVHVnc2dxazE3ekN1WHR2UWxIS2ZzOFFmeWVkWTJuTVljOGlTdnpscFF0aEdWQkpBTERseC1iZTBMeGV1OXFhaDc5eV9JY1NENTdqeHc2U3lRYU95TUZEcW5XLXZIVFRwMTdGMDU2SEpaWU9yVEdGUkFkbmhBcTlZRWRpR2Z2aFRoOHcwQTBJRlBRRHRTVHBTSExRLWJCTmUzLW5Fd3I4eU9UeVc0RW1nNkQ?oc=5",
         "published_at": "2026-09-02T08:20:02Z",
@@ -795,22 +827,6 @@
         "published_at": "2026-08-27T07:00:00Z",
         "source": "FinanzNachrichten.de",
         "query": "COMPASS Pathways clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: 433 Mio. Dollar Kassenbestand sichern Finanzierung bis 2028 - it boltwise",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2Jhemw3cnpzejVhdWtBYmNtUGpWcnN4NEpORDR2SmRlQ2tabHBvcGJOZ1RSOXg3SVFsTlhFMkNtV0FLSXhSRHczQnZISE1vWHF5ZjgtMHVQZlFVbjdFRjNvOENoN3VIenlkUHVQbDVERldmcG5HRGpPVGd5UWM4VnJzeGNZOC1GZm5DazZIUHZaOUxDNUEyd1pPSkFTdHB0Z1VzNkw0dG9rVGc?oc=5",
-        "published_at": "2026-08-06T07:00:00Z",
-        "source": "it boltwise",
-        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -858,7 +874,7 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMklpWkdyQVdFaDZKUjU5V2p4V2RiVldBUlZJa0ZOS1Jpa0p2cWxzT2w5OVl3ZDZuc1Q4b1VyNGtGMDkxNERzVmprcjJUcFk3MTlZc21XZVZmSm5XZlpNYmlfS09XX2V0TnhnTDdWdjhmWlBzX21SY29KRFNjbDlMOWVhTnQxbDREZjZEb2tIQXd5N2J6bUMxaVFqRmJBRTVDNmdVV3E0TExIUzJmQTdUTnFXNC1RalIzV2c?oc=5",
         "published_at": "2026-07-07T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -891,22 +907,6 @@
         "published_at": "2026-07-06T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: COMP006 mit 3,8-Punkte-Vorteil - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEtDck4xMFpaeG1hMFRSYkRZaGtaN0szS0VSbmZSbHdsT21vaWR1UUlsVVQ0WnhJeFBLUWVJb2tPLUM4WHV1NU5tNWdUOV9jTUtUdzRFTXRlMkhIRmpFNV94Z0JEcktwbF9EdjRDbHFuVkNjck9QblNGdnVOSExoeXBjLWQ5RWtyNmZCQkI1el96YXFKbzktbmkyS3I1Yjg?oc=5",
-        "published_at": "2026-06-29T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -1014,6 +1014,22 @@
         "relevance_score": 17
       },
       {
+        "title": "Compass Pathways kooperiert mit Osmind: COMP360-Umsetzung in Kliniken nach FDA-Zulassung rückt näher - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjREaXpuSVBNUzNUZTNUV3ZMSFNxYWJUUUgtclVuMTNxTTlrNEFNai1GZDVndzRwUmhtTUtBNVJjUjhTZWFZb0dGUFBzWDdtdGdVRVlod2tZUVlVUllCQ2NscURQa2tCUS14TE1DWmZfcWZhUHZMb2pRbkhrSzdwZzByTFlDZEhZWFNhUnV3bFY4R2F0SGtDVFR0LVBBTENEbnJaY2sydUh5VHBDZUl2NGZHa0ZFMlhFTEkzbnlnM3RKV3B3cm1zZjQ0TQ?oc=5",
+        "published_at": "2026-04-21T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 21
+      },
+      {
         "title": "Compass Pathways-Aktie: Ein Federstrich, der alles verändert! - Finanztrends",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSS03VE9oVmlBa0ZYZFNVbWtlMmxvUzdXaF9LN0dEWFJoU1ZkamVBMk12S0xNNUNCYkpObWNiRUFTMTZ0WGMwVzU3cEtJcDQ3U1Zham5uVVpZZDJpNDZqb3pWQm1odHlCRExOMlV0aHZwMEFJYlpYdGY3NkVJak1Pb1paMThSQW5KZWh6dWp3?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
@@ -1030,10 +1046,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways Aktie: Entscheidende Phase! - Kapitalmarktexperten",
+        "title": "Compass Pathways Aktie: Entscheidende Phase! - kapitalmarktexperten.de",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeHBwclZidkk3QTc2WkstcXdwMEVncXVxSXM1SEcxdU9McExwdXJuLTlsQTlma2dqUVhMUEZGVF9jaEItQlJqbXpFWEFTYTZldGxQNzE2QTV0b21YSFphNnZkRFVXdkloVVN3VXVoQnNVMkVsYXM5enNJSlRsZ0Mwcm1SSG1Zdw?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
-        "source": "Kapitalmarktexperten",
+        "source": "kapitalmarktexperten.de",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1046,10 +1062,10 @@
         "relevance_score": 17
       },
       {
-        "title": "COMPASS Pathways Stock Rallies 50% Following Trump Executive Order on Psychedelic Research - TIKR.com",
+        "title": "COMPASS Pathways Stock Rallies 50% Following Trump Executive Order on Psychedelic Research - tikr.com",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcXh4eFlwNDRseFQwLXpuZXhBeEYycmQxRHlPMEZpV0VTdHk4SmlDRHdmVGkzM2hwSVhqY1BKcmszMnFxcWpuWlhrcFVQaFRuNnRuQUlQMUJ5U2J3ajlXazdzMWtpR1gzX1U3dWVYQVV2Qmtidm1veTdkc3BNdmpsbFFvTW5oaGpwUURld3RneW5mUGdCTTAxV0pHVnZsMDNxazdmX24wNUZXV3lPOEFZSjRXWEJfMk56SkE?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
-        "source": "TIKR.com",
+        "source": "tikr.com",
         "query": "CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1434,12 +1450,36 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVVFUGZGZXRfa1BfQ3JrRDBPeWdEdExBRUJKNHRHUXpqQm5zUEJKdUhnUERVb1BKUWU1MU1zNjY1ekJhTHZTVVdEelFJZDE4YUlYalhBMUI5MnpFSHBYRkZXZ1hPeHZNOUtINjVkOUJGRHg4T0I2Y0ZUTWFSVjBDS3lQcGhlWHFiZ1V3X3pzQmRKWGpnU0xZT3poeUVidWM?oc=5"
       },
       {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Compass Pathways kooperiert mit Osmind: COMP360-Umsetzung in Kliniken nach FDA-Zulassung rückt näher - Goldesel.de",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Goldesel.de",
+        "date": "2026-04-21T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjREaXpuSVBNUzNUZTNUV3ZMSFNxYWJUUUgtclVuMTNxTTlrNEFNai1GZDVndzRwUmhtTUtBNVJjUjhTZWFZb0dGUFBzWDdtdGdVRVlod2tZUVlVUllCQ2NscURQa2tCUS14TE1DWmZfcWZhUHZMb2pRbkhrSzdwZzByTFlDZEhZWFNhUnV3bFY4R2F0SGtDVFR0LVBBTENEbnJaY2sydUh5VHBDZUl2NGZHa0ZFMlhFTEkzbnlnM3RKV3B3cm1zZjQ0TQ?oc=5"
+      },
+      {
         "type": "SEC · Finanzierung/Verwässerung",
         "level": "high",
         "title": "S-3ASR · 2026-08-05",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-05"
+      },
+      {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "Compass Pathways meldet neue 52-Wochen-Topline-Daten aus dem offenen Teil der Phase-3-Studie COMP005, die einen zusätzlichen Nutzen durch eine weitere COMP360-Dosis in Teil C zeigen und die Wirksamkeitsdauer auf bis zu 1 Jahr verlängern - MarketScreener Deutschland",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "MarketScreener Deutschland",
+        "date": "2026-09-09T12:10:42Z",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVnRGNTBBdHJNSFljT0RyNkp6allzVEhHMFl2OV9PbmdTN0RtWTRqaG9vOWk1MjB5TmxMQnhWVDIxWXVwbk9ySVZHYWtVd3lnVU4xQ3ZZTXhxTUtVR3NCMm05Wmk5T3FMSFhnTkxyY0xnQkFrWTdpN3pjUGVXai1VRGMxV2YzWnJ3RXlOWDJOSjRhYnVsVTR4cE1HME9tTE40aURpY1VnbWtIRDBGLVU4SkpSX2NpRUZWN0RYWDZnZ1pOTkVpWXlxdzVEVHp4aGgycDFNNXI2bGcxaDkxLVozbkpYd3F3QkJlbGlvdHB6dXYteTRHbHAtUTNB?oc=5"
       },
       {
         "type": "Studienphase / Readout",
@@ -1640,22 +1680,6 @@
         "source": "Investing.com Deutsch",
         "date": "2026-05-18T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeEtEbWRsRWRaRmtFWUdNWVRqY1B2MTYyaDFJZFplYUxkUU5IZ090czhnQ25saHlUR2NESEdxNi1zdDV6SDk4WG13ZTNrTUxyVjZIMFBENTF4dFdrV0puZ3hyaGJrUjIzTGpBZlFzTlIwY2ZfaXFaQ3MxYnprSmlvNGZvQXZ2THhJR29DLV9BbnlGbGdmcVVmUW4zdE1iUExNYk0yUk83SjVrakV0RzFFNjhMV1VVZ19JV1hfeWZBODZNN0F5SVdkU0dseFpaUWFxeGJlXw?oc=5"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-29",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-29"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-29",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-29"
       },
       {
         "type": "SEC Filing",
