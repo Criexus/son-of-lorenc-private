@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.52",
-      "note": "Auto-Update: -5.27% vs. vorheriger Schlusskurs",
+      "value": "$1.08",
+      "note": "Auto-Update: -59.32% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-15T12:58:17Z",
+    "last_update_utc": "2026-09-15T17:27:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 2.515,
+      "regularMarketPrice": 1.08,
       "previousClose": 2.655,
-      "change": -0.14,
-      "changePercent": -5.27,
-      "regularMarketTime": "2026-09-14T15:35:04Z",
+      "change": -1.575,
+      "changePercent": -59.32,
+      "regularMarketTime": "2026-09-15T15:39:14Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -150,8 +150,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 8.62,
-      "fiftyTwoWeekLow": 2.32,
-      "fiftyTwoWeekRange": "2.32 – 8.62"
+      "fiftyTwoWeekLow": 1.0,
+      "fiftyTwoWeekRange": "1.0 – 8.62"
     },
     "price_history": [
       {
@@ -233,18 +233,115 @@
       {
         "t": "2026-09-14T07:00:00Z",
         "price": 2.515
+      },
+      {
+        "t": "2026-09-15T07:00:00Z",
+        "price": 1.08
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-09-15T14:20:00Z",
+        "price": 1.042
+      },
+      {
+        "t": "2026-09-15T14:25:00Z",
+        "price": 1.066
+      },
+      {
+        "t": "2026-09-15T14:30:00Z",
+        "price": 1.03
+      },
+      {
+        "t": "2026-09-15T14:35:00Z",
+        "price": 1.01
+      },
+      {
+        "t": "2026-09-15T14:40:00Z",
+        "price": 1.07
+      },
+      {
+        "t": "2026-09-15T14:45:00Z",
+        "price": 1.118
+      },
+      {
+        "t": "2026-09-15T14:50:00Z",
+        "price": 1.148
+      },
+      {
+        "t": "2026-09-15T14:55:00Z",
+        "price": 1.152
+      },
+      {
+        "t": "2026-09-15T15:00:00Z",
+        "price": 1.14
+      },
+      {
+        "t": "2026-09-15T15:05:00Z",
+        "price": 1.128
+      },
+      {
+        "t": "2026-09-15T15:10:00Z",
+        "price": 1.106
+      },
+      {
+        "t": "2026-09-15T15:15:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-09-15T15:20:00Z",
+        "price": 1.13
+      },
+      {
+        "t": "2026-09-15T15:25:00Z",
+        "price": 1.15
+      },
+      {
+        "t": "2026-09-15T15:30:00Z",
+        "price": 1.08
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - t-online.de",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDhBY2YzUExFeWR0eW83b2ZnYWFtRHloOW9yQTVxQ2FabnF3MnlVSTRsenlTV0tZSmx3blNvSi1mX29uWlFweW1RRl9FWEFnSHU4RWdCVDNJNjFySUpHV2t5WmtRc1JEZjlSSEZNNFR1QUtRYUJ6MldyNzdSYjdDOHJlWkNtQnE2WG1EQzFiRm9TY3J4aFh4MUlDUzdGY0tuY21neTdlRkxwc2ZwZFpTM0V2bVpVQmVnM0U3NDRPS1dhZUhEQjNac29PcTBUX2VqVzdtcA?oc=5",
-        "published_at": "2026-06-11T07:00:00Z",
-        "source": "t-online.de",
-        "query": "\"MaaT Pharma\" stock news",
+        "title": "Analysten sorgen sich um MaaT Pharma - MarketScreener Schweiz",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTGptSUU4N2VXdGNSQVJyVmltWVd0VEF4NnJmcm1kYnhna3JPUElZMGxoZnVOYmUyYTFpWElIS1V1OUFrRDJFU1hGSlpNVzJZd3Rta2xuMjFhYTJ3cS0xRnlyaElIcDl0aWpYM1RxUlJFdDlLUDBBbHJabU41VGF1Vk1NZ3N0VWxIUzVyVnk2Q0N1ZlNJYmxUZzJFYnljMm02SElVTw?oc=5",
+        "published_at": "2026-09-15T08:55:28Z",
+        "source": "MarketScreener Schweiz",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
+        "source_type": "google_news_rss",
+        "trigger_type": "Analysten / Kursziel",
+        "trigger_level": "low",
+        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "relevance_score": 10
+      },
+      {
+        "title": "MaaT Pharma erhält nach erneuter Prüfung negatives CHMP-Votumstrendbild für MaaT013 (Xervyteg) im Rahmen des Antrags auf bedingte Marktzulassung in Europa - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTTNRcXNuUXQ3NGpXMzNyS2p4YzZ3QzNHdlk5NDFBeF85SEh1U0JBRjVNTjFUREpxdy1pQ0FuY1V1bVhTeXc5M3NpYnJjQnJOS2dDYlVLWWtnOU0tSnR0Wl9JOTRxRzRKdFZZZjJqWUd4SGpldVZDR1FHZlZjdThZbFRrUWJXRmFPTk1mc01sX2VxZDVqczhNY3NyMFJjYzhTS3N6NmZhdXdTZmZBRFRscTlxYVdaN1hFNUJtSlVPbkViN19IZm42M1pLSWRUbkhiS3ZLemN5S3c2STFmYmRORGM3R1pDZy1RY3hMaUtlWlU2Z0w2MkdOOGROWQ?oc=5",
+        "published_at": "2026-09-15T06:35:34Z",
+        "source": "MarketScreener Deutschland",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 20
+      },
+      {
+        "title": "Steuert MaaT Pharma auf eine negative CHMP-Stellungnahme zu- - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc2tuU0tVdTVrS1Fobmh4NlIwZ05uN1NjZDhpRG5WNEpxdUwyVWdzVzUwYjFZQnJmN2ZnVGZMd28wWDliWEw4dFNjaHNSSnBmQUpvb2lyWDRDaTQ3UkVXeElHT1Q1X3BLNUVCVklkeWtEbmNqQmVYTVRuYXVXWDJBTFdqYXp0NEppd0F3c2lBdE4xM2RZNWY3QTFvNTJxUU1rN09mTjV1Z1ByRlJxUWgwVVZRQ3VPV0hndWhXV05MTUlZNWM?oc=5",
+        "published_at": "2026-09-15T05:42:43Z",
+        "source": "MarketScreener Deutschland",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -274,7 +371,32 @@
     ],
     "sec_filings": [],
     "clinical_trials": [],
-    "detected_triggers": [],
+    "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "MaaT Pharma erhält nach erneuter Prüfung negatives CHMP-Votumstrendbild für MaaT013 (Xervyteg) im Rahmen des Antrags auf bedingte Marktzulassung in Europa - MarketScreener Deutschland",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "MarketScreener Deutschland",
+        "date": "2026-09-15T06:35:34Z",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTTNRcXNuUXQ3NGpXMzNyS2p4YzZ3QzNHdlk5NDFBeF85SEh1U0JBRjVNTjFUREpxdy1pQ0FuY1V1bVhTeXc5M3NpYnJjQnJOS2dDYlVLWWtnOU0tSnR0Wl9JOTRxRzRKdFZZZjJqWUd4SGpldVZDR1FHZlZjdThZbFRrUWJXRmFPTk1mc01sX2VxZDVqczhNY3NyMFJjYzhTS3N6NmZhdXdTZmZBRFRscTlxYVdaN1hFNUJtSlVPbkViN19IZm42M1pLSWRUbkhiS3ZLemN5S3c2STFmYmRORGM3R1pDZy1RY3hMaUtlWlU2Z0w2MkdOOGROWQ?oc=5"
+      },
+      {
+        "type": "Analysten / Kursziel",
+        "level": "low",
+        "title": "Analysten sorgen sich um MaaT Pharma - MarketScreener Schweiz",
+        "reason": "Trigger erkannt: Analysten / Kursziel.",
+        "impact": "Stimmungs- und Momentum-Trigger",
+        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
+        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
+        "source": "MarketScreener Schweiz",
+        "date": "2026-09-15T08:55:28Z",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTGptSUU4N2VXdGNSQVJyVmltWVd0VEF4NnJmcm1kYnhna3JPUElZMGxoZnVOYmUyYTFpWElIS1V1OUFrRDJFU1hGSlpNVzJZd3Rta2xuMjFhYTJ3cS0xRnlyaElIcDl0aWpYM1RxUlJFdDlLUDBBbHJabU41VGF1Vk1NZ3N0VWxIUzVyVnk2Q0N1ZlNJYmxUZzJFYnljMm02SElVTw?oc=5"
+      }
+    ],
     "queries_used": [
       "\"MaaT Pharma\" stock news",
       "\"MaaT013\" Xervyteg MaaT Pharma",
