@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.27",
-      "note": "Auto-Update: -11.86% vs. vorheriger Schlusskurs",
+      "value": "$3.41",
+      "note": "Auto-Update: -8.09% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-15T17:26:23Z",
+    "last_update_utc": "2026-09-15T20:19:57Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.27,
+      "regularMarketPrice": 3.41,
       "previousClose": 3.71,
-      "change": -0.44,
-      "changePercent": -11.86,
-      "regularMarketTime": "2026-09-15T17:26:08Z",
+      "change": -0.3,
+      "changePercent": -8.09,
+      "regularMarketTime": "2026-09-15T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -387,7 +387,7 @@
       },
       {
         "t": "2026-09-15T13:30:00Z",
-        "price": 3.27
+        "price": 3.41
       }
     ],
     "price_history_1d": [
@@ -580,8 +580,132 @@
         "price": 3.27
       },
       {
-        "t": "2026-09-15T17:26:08Z",
+        "t": "2026-09-15T17:25:00Z",
+        "price": 3.275
+      },
+      {
+        "t": "2026-09-15T17:30:00Z",
+        "price": 3.25
+      },
+      {
+        "t": "2026-09-15T17:35:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-09-15T17:40:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-09-15T17:45:00Z",
         "price": 3.27
+      },
+      {
+        "t": "2026-09-15T17:50:00Z",
+        "price": 3.2592
+      },
+      {
+        "t": "2026-09-15T17:55:00Z",
+        "price": 3.26
+      },
+      {
+        "t": "2026-09-15T18:00:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-09-15T18:05:00Z",
+        "price": 3.265
+      },
+      {
+        "t": "2026-09-15T18:10:00Z",
+        "price": 3.31
+      },
+      {
+        "t": "2026-09-15T18:15:00Z",
+        "price": 3.305
+      },
+      {
+        "t": "2026-09-15T18:20:00Z",
+        "price": 3.305
+      },
+      {
+        "t": "2026-09-15T18:25:00Z",
+        "price": 3.305
+      },
+      {
+        "t": "2026-09-15T18:30:00Z",
+        "price": 3.31
+      },
+      {
+        "t": "2026-09-15T18:35:00Z",
+        "price": 3.345
+      },
+      {
+        "t": "2026-09-15T18:40:00Z",
+        "price": 3.365
+      },
+      {
+        "t": "2026-09-15T18:45:00Z",
+        "price": 3.39
+      },
+      {
+        "t": "2026-09-15T18:50:00Z",
+        "price": 3.3795
+      },
+      {
+        "t": "2026-09-15T18:55:00Z",
+        "price": 3.375
+      },
+      {
+        "t": "2026-09-15T19:00:00Z",
+        "price": 3.335
+      },
+      {
+        "t": "2026-09-15T19:05:00Z",
+        "price": 3.365
+      },
+      {
+        "t": "2026-09-15T19:10:00Z",
+        "price": 3.36
+      },
+      {
+        "t": "2026-09-15T19:15:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-09-15T19:20:00Z",
+        "price": 3.36
+      },
+      {
+        "t": "2026-09-15T19:25:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-09-15T19:30:00Z",
+        "price": 3.35
+      },
+      {
+        "t": "2026-09-15T19:35:00Z",
+        "price": 3.37
+      },
+      {
+        "t": "2026-09-15T19:40:00Z",
+        "price": 3.388
+      },
+      {
+        "t": "2026-09-15T19:45:00Z",
+        "price": 3.4
+      },
+      {
+        "t": "2026-09-15T19:50:00Z",
+        "price": 3.405
+      },
+      {
+        "t": "2026-09-15T19:55:00Z",
+        "price": 3.415
+      },
+      {
+        "t": "2026-09-15T20:00:00Z",
+        "price": 3.41
       }
     ],
     "price_history_range": "1mo",
@@ -649,22 +773,6 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 23
-      },
-      {
-        "title": "JPMorgan stuft Rocket Pharmaceuticals auf neutral herab - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWdQb3pWSFJiQm1KQm1kQWNGMmZoM3ZrR3JUU0hub0x2ZFpCSzgwNHFpdV9sQTE5ZHJORy1ObkMwcjhBUFQxay1UdVhzOUtBS3V5NEZpOTdZTW1mWFY0NTRWaTNtbTNvMTAtRGFhSG9ISVBrODh2UWNRcFRxRUxDRVBFT3Q3ZEV0YUVUeEtfRzlKVVNIZFhwTDVLRzNJNGNHQXpMbHhvMURUQTU1QjYtNU1xZUY?oc=5",
-        "published_at": "2025-05-28T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
       },
       {
