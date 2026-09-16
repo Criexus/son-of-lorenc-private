@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.82",
-      "note": "Auto-Update: -17.3% vs. vorheriger Schlusskurs",
+      "value": "$2.90",
+      "note": "Auto-Update: 0.69% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-16T11:52:45Z",
+    "last_update_utc": "2026-09-16T15:43:34Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.82,
-      "previousClose": 3.41,
-      "change": -0.59,
-      "changePercent": -17.3,
-      "regularMarketTime": "2026-09-15T20:00:00Z",
+      "regularMarketPrice": 2.9,
+      "previousClose": 2.88,
+      "change": 0.02,
+      "changePercent": 0.69,
+      "regularMarketTime": "2026-09-16T15:40:11Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -298,132 +298,32 @@
       {
         "t": "2026-09-15T13:30:00Z",
         "price": 2.82
+      },
+      {
+        "t": "2026-09-16T13:30:00Z",
+        "price": 2.9
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-15T13:30:00Z",
-        "price": 2.8401
+        "t": "2026-09-16T13:30:00Z",
+        "price": 2.79
       },
       {
-        "t": "2026-09-15T13:40:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-15T14:00:00Z",
-        "price": 2.75
-      },
-      {
-        "t": "2026-09-15T14:10:00Z",
-        "price": 2.7505
-      },
-      {
-        "t": "2026-09-15T14:15:00Z",
-        "price": 2.9
-      },
-      {
-        "t": "2026-09-15T14:30:00Z",
-        "price": 2.89
-      },
-      {
-        "t": "2026-09-15T14:55:00Z",
-        "price": 2.869
-      },
-      {
-        "t": "2026-09-15T15:00:00Z",
-        "price": 2.8695
-      },
-      {
-        "t": "2026-09-15T15:10:00Z",
-        "price": 2.87
-      },
-      {
-        "t": "2026-09-15T15:30:00Z",
-        "price": 2.815
-      },
-      {
-        "t": "2026-09-15T15:35:00Z",
-        "price": 2.86
-      },
-      {
-        "t": "2026-09-15T15:55:00Z",
-        "price": 2.76
-      },
-      {
-        "t": "2026-09-15T16:50:00Z",
-        "price": 2.96
-      },
-      {
-        "t": "2026-09-15T16:55:00Z",
-        "price": 2.94
-      },
-      {
-        "t": "2026-09-15T17:00:00Z",
-        "price": 2.9001
-      },
-      {
-        "t": "2026-09-15T17:15:00Z",
-        "price": 2.9
-      },
-      {
-        "t": "2026-09-15T17:25:00Z",
-        "price": 2.94
-      },
-      {
-        "t": "2026-09-15T17:30:00Z",
-        "price": 2.92
-      },
-      {
-        "t": "2026-09-15T17:35:00Z",
-        "price": 2.8201
-      },
-      {
-        "t": "2026-09-15T17:40:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-09-15T17:45:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-09-15T17:50:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-09-15T18:30:00Z",
+        "t": "2026-09-16T13:45:00Z",
         "price": 2.825
       },
       {
-        "t": "2026-09-15T18:45:00Z",
-        "price": 2.85
+        "t": "2026-09-16T15:25:00Z",
+        "price": 2.93
       },
       {
-        "t": "2026-09-15T18:50:00Z",
-        "price": 2.872
+        "t": "2026-09-16T15:35:00Z",
+        "price": 2.925
       },
       {
-        "t": "2026-09-15T18:55:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-09-15T19:05:00Z",
-        "price": 2.89
-      },
-      {
-        "t": "2026-09-15T19:10:00Z",
-        "price": 2.88
-      },
-      {
-        "t": "2026-09-15T19:15:00Z",
-        "price": 2.89
-      },
-      {
-        "t": "2026-09-15T19:55:00Z",
-        "price": 2.9099
-      },
-      {
-        "t": "2026-09-15T20:00:00Z",
-        "price": 2.82
+        "t": "2026-09-16T15:40:11Z",
+        "price": 2.9
       }
     ],
     "price_history_range": "1mo",
@@ -590,154 +490,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05625035",
-        "title": "Lianhua Qingwen for the Rehabilitation of Patient With Coronavirus Infection",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Coronavirus, Traditional Chinese Medicine",
-        "last_update": "",
-        "start_date": "2022-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT05625035"
-      },
-      {
-        "nct_id": "NCT05028218",
-        "title": "A Clinical Study of TQB3824 in Subjects With Advanced Cancer",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Advanced Cancer",
-        "last_update": "",
-        "start_date": "2021-08-31",
-        "url": "https://clinicaltrials.gov/study/NCT05028218"
-      },
-      {
-        "nct_id": "NCT06603389",
-        "title": "The Development of Psychiatric Non-Suicidal Self-Injury Risk Assessment Scale",
+        "nct_id": "NCT05436964",
+        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Major Abdominal Surgery",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Non Suicidal Self Injury",
-        "last_update": "",
-        "start_date": "2022-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT06603389"
-      },
-      {
-        "nct_id": "NCT07796906",
-        "title": "Five-Element Music Therapy for Psychological Distress in Pancreatic Cancer Chemotherapy",
-        "status": "NOT_YET_RECRUITING",
         "phase": "NA",
-        "conditions": "Pancreatic Neoplasms, Pancreatic Cancer, Anxiety, Depression and/or Anxiety Symptoms",
+        "conditions": "Delirium in Old Age",
         "last_update": "",
-        "start_date": "2026-08-28",
-        "url": "https://clinicaltrials.gov/study/NCT07796906"
+        "start_date": "2022-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT05436964"
       },
       {
-        "nct_id": "NCT02467790",
-        "title": "Polyethylene Glycol Loxenatide Pharmacokinetics Study in Subjects With Normal and Insufficiency Renal Function",
-        "status": "UNKNOWN",
+        "nct_id": "NCT03325764",
+        "title": "Fitness, Physical Activity and Movement Analysis in Obese Patients Undergoing Bariatric Surgery",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Sleeve Gastrectomy",
+        "last_update": "",
+        "start_date": "2017-11-02",
+        "url": "https://clinicaltrials.gov/study/NCT03325764"
+      },
+      {
+        "nct_id": "NCT07024160",
+        "title": "Phase I Study of MT1011 Injection in Healthy Subjects",
+        "status": "RECRUITING",
         "phase": "PHASE1",
-        "conditions": "Type 2 Diabetes Mellitus",
+        "conditions": "Used in Patients Receiving Anticoagulant Therapy (e.g., Rivaroxaban or Apixaban, Inhibitors of Coagulation Factor Xa) Who Require Reversal of Anticoagulation",
         "last_update": "",
-        "start_date": "2015-02",
-        "url": "https://clinicaltrials.gov/study/NCT02467790"
+        "start_date": "2025-06-25",
+        "url": "https://clinicaltrials.gov/study/NCT07024160"
       },
       {
-        "nct_id": "NCT04995159",
-        "title": "Optimized Antiplatelet Therapy in Patients With CHD After Implantation of NeoVas™ BRS System",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Coronary Heart Disease",
-        "last_update": "",
-        "start_date": "2021-09",
-        "url": "https://clinicaltrials.gov/study/NCT04995159"
-      },
-      {
-        "nct_id": "NCT02812888",
-        "title": "Serum Betatrophin Levels and Its Influencing Factors in Patients With Hyperthyroidism",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Hyperthyroidism",
-        "last_update": "",
-        "start_date": "2016-07",
-        "url": "https://clinicaltrials.gov/study/NCT02812888"
-      },
-      {
-        "nct_id": "NCT07752264",
-        "title": "A Phase I/II Study of Eque-cel in Subjects Withimmune-mediated Necrotizing Myopathy",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Refractory Immune-mediated Necrotizing Myopathy",
-        "last_update": "",
-        "start_date": "2026-08-15",
-        "url": "https://clinicaltrials.gov/study/NCT07752264"
-      },
-      {
-        "nct_id": "NCT05762900",
-        "title": "Ultra-hypofractioNated Adjuvant Radiotherapy ± sImultaneous Integrated Boost for Low-risk Breast Cancer Patients",
-        "status": "RECRUITING",
+        "nct_id": "NCT05947825",
+        "title": "Sitagliptin Combined With Gemcitabine and Albumin-bound Paclitaxel in PDAC Patients",
+        "status": "ENROLLING_BY_INVITATION",
         "phase": "PHASE2",
-        "conditions": "Breast Cancer, Radiotherapy Side Effect",
+        "conditions": "PDAC - Pancreatic Ductal Adenocarcinoma",
         "last_update": "",
-        "start_date": "2022-10-25",
-        "url": "https://clinicaltrials.gov/study/NCT05762900"
+        "start_date": "2023-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT05947825"
       },
       {
-        "nct_id": "NCT02907606",
-        "title": "Urinary Circulating Tumor DNA Detection in Non-small Cell Lung Cancer: a Prospective Study",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Carcinoma, Non-small-cell Lung Cancer, Lung Neoplasms",
-        "last_update": "",
-        "start_date": "2016-09",
-        "url": "https://clinicaltrials.gov/study/NCT02907606"
-      },
-      {
-        "nct_id": "NCT07213804",
-        "title": "A Three-Part Phase 3 Study of Sofetabart Mipitecan in Participants With Platinum-Resistant (Part A) and Platinum-Sensitive (Parts B and C) Ovarian Cancer",
+        "nct_id": "NCT06847932",
+        "title": "Leveraging AI-ECG Technology for Early Notification and Tracking of AF Development",
         "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Atrial Fibrillation (AF), Premature Atrial Complexes, Atrial Arrhythmias, Artificial Intelligence (AI)",
+        "last_update": "",
+        "start_date": "2025-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT06847932"
+      },
+      {
+        "nct_id": "NCT07789184",
+        "title": "Radical Surgery Versus Non-Surgery in Gastric Cancer Patients With Peritoneal Metastasis After Successful Conversion Therapy",
+        "status": "NOT_YET_RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Ovarian Neoplasms, Fallopian Tube Neoplasms, Peritoneal Neoplasms, Neoplasm Metastasis",
+        "conditions": "Gastric Cancer, Peritoneal Metastasis",
         "last_update": "",
-        "start_date": "2025-10-22",
-        "url": "https://clinicaltrials.gov/study/NCT07213804"
+        "start_date": "2026-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT07789184"
       },
       {
-        "nct_id": "NCT02863367",
-        "title": "A One-Arm Exploratory Clinical Trial of Apatinib Plus Gemcitabine in Patients With Advanced Metastatic Pancreatic Cancer",
-        "status": "UNKNOWN",
+        "nct_id": "NCT07575334",
+        "title": "Acupuncture Therapy for Sudden Sensorineural Hearing Loss",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Sudden Sensorineural Hearing Loss (SSNHL)",
+        "last_update": "",
+        "start_date": "2026-04-13",
+        "url": "https://clinicaltrials.gov/study/NCT07575334"
+      },
+      {
+        "nct_id": "NCT07551427",
+        "title": "A Clinical Trial to Evaluate the Efficacy, Safety, and Pharmacokinetics of TQ05105 Tablets in Subjects With Intermediate/High-risk Myelofibrosis",
+        "status": "RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Metastatic Pancreatic Cancer",
+        "conditions": "Myelofibrosis",
         "last_update": "",
-        "start_date": "2016-08",
-        "url": "https://clinicaltrials.gov/study/NCT02863367"
+        "start_date": "2026-06-18",
+        "url": "https://clinicaltrials.gov/study/NCT07551427"
       },
       {
-        "nct_id": "NCT03601871",
-        "title": "The Efficacy and Safety of Thalidomide in Preventing CINV Induced by Cisplatin-containing Chemotherapy",
+        "nct_id": "NCT04112056",
+        "title": "Post-market Surveillance Study of an Infant Formula Containing Moderately Hydrolyzed Protein and Low Lactose",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Chemotherapy-induced Nausea and Vomiting",
+        "conditions": "Infant Nutrition Disorders, Gastrointestinal Dysfunction",
         "last_update": "",
-        "start_date": "2018-07-12",
-        "url": "https://clinicaltrials.gov/study/NCT03601871"
+        "start_date": "2019-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT04112056"
       },
       {
-        "nct_id": "NCT05859516",
-        "title": "Application of Point-of-care Ultrasound in Rapid Assessment of Cardiac Arrest Patients",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Cardiac Arrest, Point-of-care Ultrasound, Cardiopulmonary Resuscitation",
+        "nct_id": "NCT07589569",
+        "title": "An Open-label, Multicenter, Phase II Clinical Study to Evaluate HRS-7058 in Patients With Pancreatic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Pancreatic Cancer",
         "last_update": "",
-        "start_date": "2023-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05859516"
+        "start_date": "2026-06-04",
+        "url": "https://clinicaltrials.gov/study/NCT07589569"
       },
       {
-        "nct_id": "NCT06208436",
-        "title": "The Survival Outcome of Adjuvant Chemotherapy for Stage I Pancreatic Cancer",
+        "nct_id": "NCT06241482",
+        "title": "Safety and Efficacy of Enhanced Recovery After Surgery in Neurocritical Care",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Neurocritical Care, Traumatic Brain Injury, Cerebrovascular Disease, Moderate or Severe Coma",
+        "last_update": "",
+        "start_date": "2024-10-15",
+        "url": "https://clinicaltrials.gov/study/NCT06241482"
+      },
+      {
+        "nct_id": "NCT00657059",
+        "title": "Mycophenolate Mofetil (MMF) in Patients With IgA Nephropathy (IgAN)",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "IgA Nephropathy",
+        "last_update": "",
+        "start_date": "2007-09",
+        "url": "https://clinicaltrials.gov/study/NCT00657059"
+      },
+      {
+        "nct_id": "NCT05735262",
+        "title": "pBFS Guided Precision Neuromodulation Treatment for ASD",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Autism Spectrum Disorder",
+        "last_update": "",
+        "start_date": "2023-03-07",
+        "url": "https://clinicaltrials.gov/study/NCT05735262"
+      },
+      {
+        "nct_id": "NCT05499442",
+        "title": "EEG Motor Movement and Imagery Dataset for Stroke",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Pancreas Cancer, Chemotherapy",
+        "conditions": "Acute Stroke",
         "last_update": "",
-        "start_date": "2023-10-07",
-        "url": "https://clinicaltrials.gov/study/NCT06208436"
+        "start_date": "2022-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05499442"
+      },
+      {
+        "nct_id": "NCT05887505",
+        "title": "Effects of Vitamin D Status and Multiple Mega-dose Supplementation on Health Care Disparities in Perioperative Patients With Hepatocellular Carcinoma Receiving Hepatectomy",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Hepatocellular Carcinoma, Liver Function, Postoperative Complications",
+        "last_update": "",
+        "start_date": "2023-06-09",
+        "url": "https://clinicaltrials.gov/study/NCT05887505"
       }
     ],
     "detected_triggers": [
@@ -760,66 +660,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Polyethylene Glycol Loxenatide Pharmacokinetics Study in Subjects With Normal and Insufficiency Renal Function",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT02467790",
-        "date": "2015-02"
+        "title": "Mycophenolate Mofetil (MMF) in Patients With IgA Nephropathy (IgAN)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00657059",
+        "date": "2007-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A One-Arm Exploratory Clinical Trial of Apatinib Plus Gemcitabine in Patients With Advanced Metastatic Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT02863367",
-        "date": "2016-08"
+        "title": "Fitness, Physical Activity and Movement Analysis in Obese Patients Undergoing Bariatric Surgery",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT03325764",
+        "date": "2017-11-02"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Efficacy and Safety of Thalidomide in Preventing CINV Induced by Cisplatin-containing Chemotherapy",
+        "title": "Post-market Surveillance Study of an Infant Formula Containing Moderately Hydrolyzed Protein and Low Lactose",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03601871",
-        "date": "2018-07-12"
+        "source": "NCT04112056",
+        "date": "2019-10-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Clinical Study of TQB3824 in Subjects With Advanced Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT05028218",
-        "date": "2021-08-31"
+        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Major Abdominal Surgery",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT05436964",
+        "date": "2022-07-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Optimized Antiplatelet Therapy in Patients With CHD After Implantation of NeoVas™ BRS System",
+        "title": "pBFS Guided Precision Neuromodulation Treatment for ASD",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05735262",
+        "date": "2023-03-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Effects of Vitamin D Status and Multiple Mega-dose Supplementation on Health Care Disparities in Perioperative Patients With Hepatocellular Carcinoma Receiving Hepatectomy",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT04995159",
-        "date": "2021-09"
+        "source": "NCT05887505",
+        "date": "2023-06-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Ultra-hypofractioNated Adjuvant Radiotherapy ± sImultaneous Integrated Boost for Low-risk Breast Cancer Patients",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT05762900",
-        "date": "2022-10-25"
+        "title": "Sitagliptin Combined With Gemcitabine and Albumin-bound Paclitaxel in PDAC Patients",
+        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION PHASE2",
+        "source": "NCT05947825",
+        "date": "2023-07-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Lianhua Qingwen for the Rehabilitation of Patient With Coronavirus Infection",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05625035",
-        "date": "2022-11-01"
+        "title": "Safety and Efficacy of Enhanced Recovery After Surgery in Neurocritical Care",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06241482",
+        "date": "2024-10-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Three-Part Phase 3 Study of Sofetabart Mipitecan in Participants With Platinum-Resistant (Part A) and Platinum-Sensitive (Parts B and C) Ovarian Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07213804",
-        "date": "2025-10-22"
+        "title": "Phase I Study of MT1011 Injection in Healthy Subjects",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT07024160",
+        "date": "2025-06-25"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Leveraging AI-ECG Technology for Early Notification and Tracking of AF Development",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06847932",
+        "date": "2025-07-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -844,6 +760,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Acupuncture Therapy for Sudden Sensorineural Hearing Loss",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07575334",
+        "date": "2026-04-13"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -886,6 +810,22 @@
         "date": "2026-06-04"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "An Open-label, Multicenter, Phase II Clinical Study to Evaluate HRS-7058 in Patients With Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07589569",
+        "date": "2026-06-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Trial to Evaluate the Efficacy, Safety, and Pharmacokinetics of TQ05105 Tablets in Subjects With Intermediate/High-risk Myelofibrosis",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07551427",
+        "date": "2026-06-18"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-06-24",
@@ -912,58 +852,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Phase I/II Study of Eque-cel in Subjects Withimmune-mediated Necrotizing Myopathy",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1, PHASE2",
-        "source": "NCT07752264",
-        "date": "2026-08-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Five-Element Music Therapy for Psychological Distress in Pancreatic Cancer Chemotherapy",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07796906",
-        "date": "2026-08-28"
+        "title": "Radical Surgery Versus Non-Surgery in Gastric Cancer Patients With Peritoneal Metastasis After Successful Conversion Therapy",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
+        "source": "NCT07789184",
+        "date": "2026-10-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Serum Betatrophin Levels and Its Influencing Factors in Patients With Hyperthyroidism",
+        "title": "EEG Motor Movement and Imagery Dataset for Stroke",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT02812888",
-        "date": "2016-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Urinary Circulating Tumor DNA Detection in Non-small Cell Lung Cancer: a Prospective Study",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT02907606",
-        "date": "2016-09"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "The Development of Psychiatric Non-Suicidal Self-Injury Risk Assessment Scale",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06603389",
-        "date": "2022-11-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Application of Point-of-care Ultrasound in Rapid Assessment of Cardiac Arrest Patients",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05859516",
-        "date": "2023-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "The Survival Outcome of Adjuvant Chemotherapy for Stage I Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06208436",
-        "date": "2023-10-07"
+        "source": "NCT05499442",
+        "date": "2022-01-01"
       },
       {
         "type": "SEC Filing",
