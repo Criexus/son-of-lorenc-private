@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.42",
-      "note": "Auto-Update: -5.79% vs. vorheriger Schlusskurs",
+      "value": "$3.48",
+      "note": "Auto-Update: -4.13% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-16T19:11:31Z",
+    "last_update_utc": "2026-09-16T22:14:23Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.42,
+      "regularMarketPrice": 3.48,
       "previousClose": 3.63,
-      "change": -0.21,
-      "changePercent": -5.79,
-      "regularMarketTime": "2026-09-16T19:11:17Z",
+      "change": -0.15,
+      "changePercent": -4.13,
+      "regularMarketTime": "2026-09-16T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -391,7 +391,7 @@
       },
       {
         "t": "2026-09-16T13:30:00Z",
-        "price": 3.4199
+        "price": 3.48
       }
     ],
     "price_history_1d": [
@@ -672,8 +672,44 @@
         "price": 3.415
       },
       {
-        "t": "2026-09-16T19:11:17Z",
-        "price": 3.4199
+        "t": "2026-09-16T19:15:00Z",
+        "price": 3.405
+      },
+      {
+        "t": "2026-09-16T19:20:00Z",
+        "price": 3.41
+      },
+      {
+        "t": "2026-09-16T19:25:00Z",
+        "price": 3.405
+      },
+      {
+        "t": "2026-09-16T19:30:00Z",
+        "price": 3.43
+      },
+      {
+        "t": "2026-09-16T19:35:00Z",
+        "price": 3.435
+      },
+      {
+        "t": "2026-09-16T19:40:00Z",
+        "price": 3.425
+      },
+      {
+        "t": "2026-09-16T19:45:00Z",
+        "price": 3.45
+      },
+      {
+        "t": "2026-09-16T19:50:00Z",
+        "price": 3.475
+      },
+      {
+        "t": "2026-09-16T19:55:00Z",
+        "price": 3.49
+      },
+      {
+        "t": "2026-09-16T20:00:00Z",
+        "price": 3.48
       }
     ],
     "price_history_range": "1mo",
@@ -683,6 +719,22 @@
         "title": "Rocket Pharmaceuticals: Justiziar verkauft Aktien im Wert von 256.463 US-Dollar - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNM3BLcDQyN3lWaldEajVTMGlSeWhrRU9pcERWNDU4ZXlRLV90cHFGRlVDUGMwZkdCOE45SVVnamlBMWtEYXl2MkZUd1lJNk01YWI0RWhxZjB2SURtdDU0MGQzLU5aTVVSMDdkLXd6SW1leTYyUkRuMU1UZE0yLVhNS3lxc0hzSVZQc2JYZHpOVFM4Tk16d3VGSHU4OEpTbnFDTlpXOTllUjB6aTBtSS1UTjF3VE1makxqTjNRVVc0ZWNKdlRDOEU1VllVQ1R4U0FfN0J6YnZLaw?oc=5",
         "published_at": "2026-09-16T02:47:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      },
+      {
+        "title": "Rocket Pharmaceuticals: Danon-Studie nimmt wichtige Hürde - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFozSmpLblBYN21Gd29lMnpNbEZEYzRMQ3ZiNWo3b2JSTk5mWW9QNDdyajJ4bUpvTDdsTVpmRkZFbTFaY2IwaVhiaEZ0Z1ZzdzN0VDBtQmUwRGdkRENFM1p1SFJHV3lxWjNYY3dkQTNDQTBEaTh0QXpndXJSU2o5U3g4VEZ6QVdNU2h4cHNwQzRvZF95RjNFR01pMnJkaHpSQk5CVGNXN1MzeEpJTzAw?oc=5",
+        "published_at": "2026-09-15T14:26:00Z",
         "source": "Investing.com Deutsch",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
@@ -790,6 +842,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 23
+      },
+      {
+        "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUlybU4xWllPYU9iVnNwWkxwUmNOdjhYajBwVWhGZE5EY25YN3JvRUVMRXBnVVV6MDFvWXZWQzNzZ3ItR0xoOTFJS19Ddm43ZVVoWmhjb3JXNG44ZUthSlU4eUM0aFN0WmxkVU9BU3VncE9yZkN6bnkwckVhQzJkSEp1T2tKT1VaWnM1YmxHVWdITXZ6anBJeVZlR3dteTgzd1VqbzEtc3FsX3NX?oc=5",
+        "published_at": "2017-09-13T07:00:00Z",
+        "source": "Fierce Biotech",
+        "query": "Rocket Pharmaceuticals clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
       }
     ],
     "sec_filings": [

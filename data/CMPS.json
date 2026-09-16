@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$13.84",
-      "note": "Auto-Update: -8.77% vs. vorheriger Schlusskurs",
+      "value": "$13.80",
+      "note": "Auto-Update: -9.03% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-16T19:11:39Z",
+    "last_update_utc": "2026-09-16T22:14:32Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 13.84,
+      "regularMarketPrice": 13.8,
       "previousClose": 15.17,
-      "change": -1.33,
-      "changePercent": -8.77,
-      "regularMarketTime": "2026-09-16T19:11:06Z",
+      "change": -1.37,
+      "changePercent": -9.03,
+      "regularMarketTime": "2026-09-16T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-09-16T13:30:00Z",
-        "price": 13.84
+        "price": 13.8
       }
     ],
     "price_history_1d": [
@@ -694,45 +694,53 @@
         "price": 13.85
       },
       {
-        "t": "2026-09-16T19:11:31Z",
-        "price": 13.83
+        "t": "2026-09-16T19:10:00Z",
+        "price": 13.788
+      },
+      {
+        "t": "2026-09-16T19:15:00Z",
+        "price": 13.725
+      },
+      {
+        "t": "2026-09-16T19:20:00Z",
+        "price": 13.71
+      },
+      {
+        "t": "2026-09-16T19:25:00Z",
+        "price": 13.69
+      },
+      {
+        "t": "2026-09-16T19:30:00Z",
+        "price": 13.74
+      },
+      {
+        "t": "2026-09-16T19:35:00Z",
+        "price": 13.725
+      },
+      {
+        "t": "2026-09-16T19:40:00Z",
+        "price": 13.75
+      },
+      {
+        "t": "2026-09-16T19:45:00Z",
+        "price": 13.8151
+      },
+      {
+        "t": "2026-09-16T19:50:00Z",
+        "price": 13.81
+      },
+      {
+        "t": "2026-09-16T19:55:00Z",
+        "price": 13.805
+      },
+      {
+        "t": "2026-09-16T20:00:00Z",
+        "price": 13.8
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "COMP360: Psilocybin-Mittel nähert sich FDA-Zulassung nach Phase-3-Erfolg - ad-hoc-news.de",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkJvOGdyV3B5bE1xYXZuSDlQWUJ2RjV3bXpFSkgtWVZmYm02dzVvQmNDb2FEdzUwblN2R2ZBc3R1YnhIc3YzNVR2eHFodVo5ZERrV1BhQmRzTmozX2RaRXdma1pUdlZ3MDExUXlnLW5HaTV0bDFpWG02T2FTLU00MVRPd0VhTm1lbGUzcTJHajFOOUJnSFFkY3JlbXY5ZXNWbk9SZGU4M29uejVXSDJoMVN3S21peW1IbmtJdmdn?oc=5",
-        "published_at": "2026-09-13T23:52:34Z",
-        "source": "ad-hoc-news.de",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 6
-      },
-      {
-        "title": "Compass Pathways vergibt Schulungszuschuss an Strata Mental Health für COMP360-Therapie - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeFZLa3R1R2pJUkhwelR6MkNwNGcwUi0yRUVTT0xkNDdIRy1DYUNQY0Yybk1nM1BBM2hFSVBsa3puTmRfWXZ2UVdjbHNvdVhmajlfOXcyZ1BmTWlvbkx5bTNQOWJVZjZ2R3VIME1PRlRDTnBtODdIYWRsVzlaOUJWQWQwM0ZWLVhTSGY3elFLVVZJa0h0dG1YcG9vX2h1bG1oSmE2R0xzajI5TlhzT3cxQjdzRXZhVjRnSVAtRzJsQnc1UE9jYUJWYVVFLVBNemtnRzl1dURjNkM2UQ?oc=5",
-        "published_at": "2026-09-11T20:18:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 21
-      },
       {
         "title": "COMPASS Pathways auf der Cantor Healthcare Conference: Weg zur Markteinführung wird konkreter - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOemltUDc1X1RnUTYyYXZuQThiNkFQTTk5VzlVRkxfNUgtUU4wQXRHNmF2aFpfNEF1TDR6TENvLXJrUHVxUUZVUkhhNGIzV1hmOWJZTUY5YV9Lc3hUZEZib2NLeXlXRUZFUWtZQzI5OEVJWlJpa19iaDk0ZERGY055TnJZR1V4cVdoZ0NMNk90QWJGT1FBRjA4a3pacnM1MGJZZ1V0UHoyWExoeDdkZ2dkOFJUNGQ4R25iekdKbUxGWGY1WU5iSmFKbnpDNjJ1MjgtaGo1RUtjVXN1NHV0N2xweg?oc=5",
@@ -770,7 +778,7 @@
         "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQaEJiMTczMm1OVWJIc3ZuYUJKWG5YX1poVUJFV0Uza1NnbDZCS1dKMlBaWjBZdVdpQkRPQ3BLMTM1dnVzUVNGZEdzQkRTQmNTX0lOeGkyY0RqdUtXY1NpajhsTjctU2swVE90TDl4OFpIV01kRHhNOG5ZMzByR2Q1aVl4UEtPMndVRXAzRlZINWR2RXkyb1RXX0Z4SzlHbVFuT2Z2YjBrY0NCcTRjZE9Xdktnd29QcmtrNXIzWk9KLXEwdjRIdVRxOHNBT1dyZEJCX0lDbUs4T2x0b1RqOWdzQWlvcmFJQlA4TWNKd21zZXFSU2NHb0NNMHdHckFubVFFLXFOanJWeVVxeWRvTzBMUU4yRkY0YTJtcHkzUGFCZ011NTZET19BR1dKaHFMWmZrR3RNS3BhSk1HTHBpbXJB?oc=5",
         "published_at": "2026-09-09T19:49:00Z",
         "source": "FinanzNachrichten.de",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Studienphase / Readout",
         "trigger_level": "high",
@@ -803,6 +811,22 @@
         "published_at": "2026-07-29T07:00:00Z",
         "source": "Business Wire",
         "query": "COMPASS Pathways clinical trial",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "B.Riley bestätigt Kaufempfehlung für Compass Pathways Aktie mit Blick auf Markteinführung - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPb2dZV3IyUkdwZlV3eTFIN25GbGhFaTdtT0J4NGt0N2dMcnRmanA0TTlhZ09JOXVnSWQ1aDNmb0x3NWIwSmR1YzlxSnFWOWl0QWM2TVNiVWJDNERUNTRFNlctaXRiak01ekkzd2dmaHNXemFYaTRJUlhyMEJCUGZ6MHNLSEs5N0MzaGlUcWR2X0hHLUF1Yk5fVEN0djgzTXk1ZHUwNE9ULUFjMkJBU0RMbEMxMGxpOG5LbGtuSExmVnJPVTFNRHV4b0swWU5keE5ZS3VtZzd3dmpSRkNSVFNxRQ?oc=5",
+        "published_at": "2026-07-20T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -926,6 +950,22 @@
         "relevance_score": 17
       },
       {
+        "title": "Compass Pathways: Rolling Review für COMP360 - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQmtQM3BKT2tXdXlYdWs0X1NVWWhUTkIzRmx6SUFFS215bjNYOG1yU041N1F3Q3BFUlJ4NlZHQ2JPdXdmS3ZJMHZMRlRPaWdQRkxPcU9lQ1dZYjNCb0VmNW4wM3hyREFLZk1CX1cwN3pHcXJqYWFieWtyQzBaWUJSVG12YmlMVUxuZHEtaFVDQ2p3LWZMejBoelQ2Yzg?oc=5",
+        "published_at": "2026-05-19T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 21
+      },
+      {
         "title": "Compass Pathways Aktie erreicht Zwei-Jahres-Hoch nach Kapitalaufstockung - aktien.news",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeTQ2Wl9rc0tPWk9wREZ0SU1lRE5sN3RXc0djenBBbFlRR1hFcUlJQXVhOHNZdlVPWjFMckZEbDN0VXQ4MjNVUW5FZlpsOW5VUHFfdTZLWG1qOWNuTEwyMURfYmhScXppWjlzQTlaNl9ycnREX3RQSVVFX1piZFI2UVZab19fbHJ4YzFCLTVNdm8xRlBqaUV0MndEQ1E?oc=5",
         "published_at": "2026-05-14T07:00:00Z",
@@ -1022,22 +1062,6 @@
         "relevance_score": 19
       },
       {
-        "title": "COMPASS Pathways plc Aktie (A2QCDR) - Kurs Nasdaq - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpa1ZIZWFhYkNRdVNtTUJTbFVBUWI4eXJidUFnRTdaM0t5QV9udEZkM2tETGcxdkUwUTNwc2Vub3Bqa2pHaldmbEtvdWs1RlNxYkF2LXJSa0FGZXhOcGJ6cHlnY3lkV29fckZCX2VlUmRsRFJsTDNHMU13Tlo?oc=5",
-        "published_at": "2020-09-29T11:50:18Z",
-        "source": "MarketScreener Deutschland",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "COMPASS Pathways Aktie • A2QCDR • US20451W1018 - Onvista",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45UnVId215bmR1TFZtazJWbk13N2dTVkVuZlJJLWV2eHVMUDNQNVF0QTUtSTlnajRlckFNeHk4ZlEzNjBxM2pGdUlnSjNrdnhkRUFMNFNrYS10MmVqcm9LcHR1UFpmaGZWUTZBRmp1amJfRWM?oc=5",
         "published_at": "2020-09-24T11:33:47Z",
@@ -1054,10 +1078,10 @@
         "relevance_score": 17
       },
       {
-        "title": "COMPASS PATHWAYS AKTIE | Aktienkurs | US20451W1018 | News | A2QCDR - finanzen.net",
+        "title": "COMPASS PATHWAYS AKTIE | Aktienkurs | US20451W1018 | News | A2QCDR - Finanzen.net",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0OUtuenN6Q29SS092dGdlU29sWGV1RFlBRHBkdTdhMjkxLUdIVGw2cmJkWWJ4UjFZd1BSMEg1TTFSWjdSTVlyWHlNTzcyWjBEVzIxUURqUTB1MDMwblpiN0kyeW4?oc=5",
         "published_at": "2020-09-22T04:43:43Z",
-        "source": "finanzen.net",
+        "source": "Finanzen.net",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1410,18 +1434,6 @@
         "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQaEJiMTczMm1OVWJIc3ZuYUJKWG5YX1poVUJFV0Uza1NnbDZCS1dKMlBaWjBZdVdpQkRPQ3BLMTM1dnVzUVNGZEdzQkRTQmNTX0lOeGkyY0RqdUtXY1NpajhsTjctU2swVE90TDl4OFpIV01kRHhNOG5ZMzByR2Q1aVl4UEtPMndVRXAzRlZINWR2RXkyb1RXX0Z4SzlHbVFuT2Z2YjBrY0NCcTRjZE9Xdktnd29QcmtrNXIzWk9KLXEwdjRIdVRxOHNBT1dyZEJCX0lDbUs4T2x0b1RqOWdzQWlvcmFJQlA4TWNKd21zZXFSU2NHb0NNMHdHckFubVFFLXFOanJWeVVxeWRvTzBMUU4yRkY0YTJtcHkzUGFCZ011NTZET19BR1dKaHFMWmZrR3RNS3BhSk1HTHBpbXJB?oc=5"
       },
       {
-        "type": "FDA / Regulatorik",
-        "level": "high",
-        "title": "COMP360: Psilocybin-Mittel nähert sich FDA-Zulassung nach Phase-3-Erfolg - ad-hoc-news.de",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "ad-hoc-news.de",
-        "date": "2026-09-13T23:52:34Z",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkJvOGdyV3B5bE1xYXZuSDlQWUJ2RjV3bXpFSkgtWVZmYm02dzVvQmNDb2FEdzUwblN2R2ZBc3R1YnhIc3YzNVR2eHFodVo5ZERrV1BhQmRzTmozX2RaRXdma1pUdlZ3MDExUXlnLW5HaTV0bDFpWG02T2FTLU00MVRPd0VhTm1lbGUzcTJHajFOOUJnSFFkY3JlbXY5ZXNWbk9SZGU4M29uejVXSDJoMVN3S21peW1IbmtJdmdn?oc=5"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Safety and Efficacy of BKM120 in Patients With Metastatic Non-small Cell Lung Cancer",
@@ -1596,6 +1608,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-29"
       },
       {
         "type": "SEC Filing",
