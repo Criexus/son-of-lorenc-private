@@ -131,7 +131,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-18T19:50:41Z",
+    "last_update_utc": "2026-09-18T22:01:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
@@ -241,10 +241,6 @@
       {
         "t": "2026-09-16T07:00:00Z",
         "price": 1.44
-      },
-      {
-        "t": "2026-09-18T07:00:00Z",
-        "price": 1.63
       }
     ],
     "price_history_1d": [
@@ -474,6 +470,22 @@
         "published_at": "2026-09-15T05:42:43Z",
         "source": "de.marketscreener.com",
         "query": "\"MaaT013\" Xervyteg MaaT Pharma",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
+      {
+        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - T-Online",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ1hKZ2l2YXN0bUZLcWtqbFpyeGdMN0xKY3UxdVNna1V5TUphb1JkNXRUM0kxTkVqRVJTZkpaUW9zNEFrOG9aTklfaXBORGlIbW9IQXZHZHVHOG4wcWZnd29BcGpCWEFDNVlqMEVxN2RfaUZIS1pJQl9DTllNUk51TVdxcmtOZ3hsd25YWk82bVZYMXFiMVpmZkh4VmV4YVhNWEcxMUtPUjlzQ2g3T0taYzZ1Z0ZHUnNyWU5vbDQtQ3V6MXJSZklRb1c2Vno3QU5Cc1hjVQ?oc=5",
+        "published_at": "2026-06-30T07:00:00Z",
+        "source": "T-Online",
+        "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

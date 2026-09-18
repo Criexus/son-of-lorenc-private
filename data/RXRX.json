@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.74",
-      "note": "Auto-Update: 16.88% vs. vorheriger Schlusskurs",
+      "value": "$3.83",
+      "note": "Auto-Update: 19.69% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-18T19:50:59Z",
+    "last_update_utc": "2026-09-18T22:02:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.74,
+      "regularMarketPrice": 3.83,
       "previousClose": 3.2,
-      "change": 0.54,
-      "changePercent": 16.88,
-      "regularMarketTime": "2026-09-18T19:50:51Z",
+      "change": 0.63,
+      "changePercent": 19.69,
+      "regularMarketTime": "2026-09-18T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 7.18"
     },
     "price_history": [
-      {
-        "t": "2026-08-18T13:30:00Z",
-        "price": 3.09
-      },
       {
         "t": "2026-08-19T13:30:00Z",
         "price": 3.5
@@ -403,7 +399,7 @@
       },
       {
         "t": "2026-09-18T13:30:00Z",
-        "price": 3.74
+        "price": 3.83
       }
     ],
     "price_history_1d": [
@@ -712,29 +708,21 @@
         "price": 3.735
       },
       {
-        "t": "2026-09-18T19:50:51Z",
-        "price": 3.74
+        "t": "2026-09-18T19:50:00Z",
+        "price": 3.7805
+      },
+      {
+        "t": "2026-09-18T19:55:00Z",
+        "price": 3.83
+      },
+      {
+        "t": "2026-09-18T20:00:00Z",
+        "price": 3.83
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Recursion Pharmaceuticals Aktienkurs: RXRX Aktienchart, Marktkapitalisierung & Nachrichten heute - CoinGecko",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xaE9qX2pPMlVsdHBxOEJhN1ppVHFid29RWVZYaVNmVDgzLW5MYlUyeEp0N014ZWhYUXJfbFo3RlUtQUlPSEZLYVJQTTZfOGpEOHZvTDlfcTFtM2xXdVdHcVRlQndUdXJwRHRDdEt3?oc=5",
-        "published_at": "2026-09-16T05:19:04Z",
-        "source": "CoinGecko",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 25
-      },
       {
         "title": "Recursion auf Morgan Stanley Konferenz: KI-Plattform bringt Wirkstoffe in die klinische Phase - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTFpiYlp1NE4xOUNSa0hadXY2OEdpT05lVW5udTQzX2hOdGhkVHRxdXd4Yk1VSG5ndmp0bG1LUUUyaERGWm95SmlFQVV4c21wd1FNbjkxY0tCcWJocFBBc3Vic2tHODRJbHR1V1dMSnNIeFl3dnEtMlJ4WXJXVmNpUk9JbXFGN0M0Rm1WU2JhUXpMb2FmNmdaT0hyaWdLNTZndVMxU0c3RkF1X0lxWWZzR0JKa09hRTB0MVgyTHR3VTJPZ3RJYWJISmNDLTcwSU91aGlwUDY5WHBfQmhvQVVn?oc=5",
@@ -750,22 +738,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
-      },
-      {
-        "title": "Recursion Pharmaceuticals Stock Climbs 13% As AI Drug Pipeline Progress And Spending Cuts Boost Sentiment - TIKR.com",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcXZucEV1RVhmR2hueWw5YzhVd3FwM3VwbGFQOEdNeHlrTFVtaVpldW1EaW5jM0RNa2dKLXdEVE9yWExmWjBuYWw2S19HQU56RTMzRV96N0V5R1V5MnBqdGNRWkpIeVB0aXRfQlBNNDJENHp5T0RCZXZlMFVqcWxQNlVsU2VGTTVYZFdQelVJTWFOd01jQXJBaw?oc=5",
-        "published_at": "2026-08-20T07:00:00Z",
-        "source": "TIKR.com",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 18
       },
       {
         "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
