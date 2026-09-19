@@ -217,7 +217,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-19T00:27:41Z",
+    "last_update_utc": "2026-09-19T04:50:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -323,6 +323,10 @@
       {
         "t": "2026-09-17T13:30:00Z",
         "price": 3.2
+      },
+      {
+        "t": "2026-09-18T13:30:00Z",
+        "price": 3.23
       }
     ],
     "price_history_1d": [
@@ -532,22 +536,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Earnings Call-Transkript: Alti Global verzeichnet Umsatzwachstum im 1. Quartal 2025 - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNkEwa1hTWG82M3JzVjVoVUFkV2d2eno5Z19IWGNSZUNmZEpYRUJTMjN5SXdabXBSOGRuV2hJRE5ENEwwMGRLR3JrMENsU05wbzRNTTY2NU0xMGc4U0wwbkRoRWc4aEVDNmlwaHd5MUtVUGJWZGJIYkdIU1NFVnd4WURoV0pIWFZpdmo3aWxsT1NBVnJYdTloSTlwNFdGVXFDUzI3b3FuMGozZzA3OVd2dHRjUEQwMkloSzd2ampZbE1MbFhTX3otc1VyRVZjLXln?oc=5",
-        "published_at": "2025-05-12T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "ALTI stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 7
       },
       {
@@ -983,18 +971,6 @@
         "date": "2020-05-29"
       },
       {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Earnings Call-Transkript: Alti Global verzeichnet Umsatzwachstum im 1. Quartal 2025 - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2025-05-12T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNkEwa1hTWG82M3JzVjVoVUFkV2d2eno5Z19IWGNSZUNmZEpYRUJTMjN5SXdabXBSOGRuV2hJRE5ENEwwMGRLR3JrMENsU05wbzRNTTY2NU0xMGc4U0wwbkRoRWc4aEVDNmlwaHd5MUtVUGJWZGJIYkdIU1NFVnd4WURoV0pIWFZpdmo3aWxsT1NBVnJYdTloSTlwNFdGVXFDUzI3b3FuMGozZzA3OVd2dHRjUEQwMkloSzd2ampZbE1MbFhTX3otc1VyRVZjLXln?oc=5"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "10-Q · 2026-05-11",
@@ -1057,6 +1033,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-29"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-06-18",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-06-18"
       },
       {
         "type": "SEC Filing",
