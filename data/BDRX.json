@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$0.73",
-      "note": "Auto-Update: -43.85% vs. vorheriger Schlusskurs",
+      "value": "$0.71",
+      "note": "Auto-Update: -36.7% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-21T08:05:00Z",
+    "last_update_utc": "2026-09-21T15:11:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 0.73,
-      "previousClose": 1.3,
-      "change": -0.57,
-      "changePercent": -43.85,
-      "regularMarketTime": "2026-09-18T20:00:02Z",
+      "regularMarketPrice": 0.709,
+      "previousClose": 1.12,
+      "change": -0.411,
+      "changePercent": -36.7,
+      "regularMarketTime": "2026-09-21T15:00:59Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -214,14 +214,6 @@
       "fiftyTwoWeekRange": "0.61 – 59.4"
     },
     "price_history": [
-      {
-        "t": "2026-08-19T13:30:00Z",
-        "price": 1.26
-      },
-      {
-        "t": "2026-08-20T13:30:00Z",
-        "price": 1.26
-      },
       {
         "t": "2026-08-21T13:30:00Z",
         "price": 1.27
@@ -301,308 +293,92 @@
       {
         "t": "2026-09-18T13:30:00Z",
         "price": 0.73
+      },
+      {
+        "t": "2026-09-21T13:30:00Z",
+        "price": 0.709
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-18T13:30:00Z",
-        "price": 0.7969
-      },
-      {
-        "t": "2026-09-18T13:35:00Z",
-        "price": 0.8246
-      },
-      {
-        "t": "2026-09-18T13:40:00Z",
-        "price": 0.8091
-      },
-      {
-        "t": "2026-09-18T13:45:00Z",
-        "price": 0.7901
-      },
-      {
-        "t": "2026-09-18T13:50:00Z",
-        "price": 0.8
-      },
-      {
-        "t": "2026-09-18T13:55:00Z",
-        "price": 0.8
-      },
-      {
-        "t": "2026-09-18T14:00:00Z",
-        "price": 0.7995
-      },
-      {
-        "t": "2026-09-18T14:05:00Z",
-        "price": 0.7925
-      },
-      {
-        "t": "2026-09-18T14:10:00Z",
-        "price": 0.7801
-      },
-      {
-        "t": "2026-09-18T14:15:00Z",
-        "price": 0.7702
-      },
-      {
-        "t": "2026-09-18T14:20:00Z",
-        "price": 0.75
-      },
-      {
-        "t": "2026-09-18T14:25:00Z",
-        "price": 0.7579
-      },
-      {
-        "t": "2026-09-18T14:30:00Z",
-        "price": 0.7538
-      },
-      {
-        "t": "2026-09-18T14:35:00Z",
-        "price": 0.7838
-      },
-      {
-        "t": "2026-09-18T14:40:00Z",
-        "price": 0.7601
-      },
-      {
-        "t": "2026-09-18T14:45:00Z",
-        "price": 0.785
-      },
-      {
-        "t": "2026-09-18T14:50:00Z",
-        "price": 0.7737
-      },
-      {
-        "t": "2026-09-18T14:55:00Z",
-        "price": 0.77
-      },
-      {
-        "t": "2026-09-18T15:00:00Z",
-        "price": 0.7701
-      },
-      {
-        "t": "2026-09-18T15:05:00Z",
-        "price": 0.785
-      },
-      {
-        "t": "2026-09-18T15:10:00Z",
-        "price": 0.7824
-      },
-      {
-        "t": "2026-09-18T15:15:00Z",
-        "price": 0.77
-      },
-      {
-        "t": "2026-09-18T15:20:00Z",
-        "price": 0.77
-      },
-      {
-        "t": "2026-09-18T15:25:00Z",
-        "price": 0.7725
-      },
-      {
-        "t": "2026-09-18T15:30:00Z",
-        "price": 0.77
-      },
-      {
-        "t": "2026-09-18T15:35:00Z",
-        "price": 0.785
-      },
-      {
-        "t": "2026-09-18T15:45:00Z",
-        "price": 0.784
-      },
-      {
-        "t": "2026-09-18T15:50:00Z",
-        "price": 0.745
-      },
-      {
-        "t": "2026-09-18T15:55:00Z",
-        "price": 0.76
-      },
-      {
-        "t": "2026-09-18T16:00:00Z",
-        "price": 0.7445
-      },
-      {
-        "t": "2026-09-18T16:10:00Z",
-        "price": 0.7593
-      },
-      {
-        "t": "2026-09-18T16:15:00Z",
-        "price": 0.7522
-      },
-      {
-        "t": "2026-09-18T16:25:00Z",
-        "price": 0.7457
-      },
-      {
-        "t": "2026-09-18T16:30:00Z",
-        "price": 0.7522
-      },
-      {
-        "t": "2026-09-18T16:35:00Z",
-        "price": 0.7586
-      },
-      {
-        "t": "2026-09-18T16:40:00Z",
-        "price": 0.7592
-      },
-      {
-        "t": "2026-09-18T16:45:00Z",
-        "price": 0.7557
-      },
-      {
-        "t": "2026-09-18T16:50:00Z",
-        "price": 0.7593
-      },
-      {
-        "t": "2026-09-18T16:55:00Z",
-        "price": 0.7593
-      },
-      {
-        "t": "2026-09-18T17:00:00Z",
-        "price": 0.7522
-      },
-      {
-        "t": "2026-09-18T17:05:00Z",
-        "price": 0.7421
-      },
-      {
-        "t": "2026-09-18T17:10:00Z",
-        "price": 0.7274
-      },
-      {
-        "t": "2026-09-18T17:15:00Z",
-        "price": 0.7437
-      },
-      {
-        "t": "2026-09-18T17:20:00Z",
-        "price": 0.7282
-      },
-      {
-        "t": "2026-09-18T17:25:00Z",
-        "price": 0.7391
-      },
-      {
-        "t": "2026-09-18T17:30:00Z",
-        "price": 0.7391
-      },
-      {
-        "t": "2026-09-18T17:35:00Z",
-        "price": 0.75
-      },
-      {
-        "t": "2026-09-18T17:40:00Z",
-        "price": 0.7367
-      },
-      {
-        "t": "2026-09-18T17:45:00Z",
-        "price": 0.7482
-      },
-      {
-        "t": "2026-09-18T17:50:00Z",
-        "price": 0.7365
-      },
-      {
-        "t": "2026-09-18T17:55:00Z",
-        "price": 0.7351
-      },
-      {
-        "t": "2026-09-18T18:00:00Z",
-        "price": 0.74
-      },
-      {
-        "t": "2026-09-18T18:05:00Z",
-        "price": 0.7399
-      },
-      {
-        "t": "2026-09-18T18:10:00Z",
-        "price": 0.74
-      },
-      {
-        "t": "2026-09-18T18:15:00Z",
-        "price": 0.735
-      },
-      {
-        "t": "2026-09-18T18:25:00Z",
-        "price": 0.7384
-      },
-      {
-        "t": "2026-09-18T18:30:00Z",
-        "price": 0.7384
-      },
-      {
-        "t": "2026-09-18T18:35:00Z",
-        "price": 0.7399
-      },
-      {
-        "t": "2026-09-18T18:40:00Z",
-        "price": 0.74
-      },
-      {
-        "t": "2026-09-18T18:45:00Z",
-        "price": 0.735
-      },
-      {
-        "t": "2026-09-18T18:50:00Z",
-        "price": 0.7399
-      },
-      {
-        "t": "2026-09-18T18:55:00Z",
-        "price": 0.7381
-      },
-      {
-        "t": "2026-09-18T19:00:00Z",
-        "price": 0.74
-      },
-      {
-        "t": "2026-09-18T19:05:00Z",
-        "price": 0.745
-      },
-      {
-        "t": "2026-09-18T19:10:00Z",
-        "price": 0.7499
-      },
-      {
-        "t": "2026-09-18T19:15:00Z",
-        "price": 0.7402
-      },
-      {
-        "t": "2026-09-18T19:20:00Z",
-        "price": 0.7378
-      },
-      {
-        "t": "2026-09-18T19:25:00Z",
-        "price": 0.7378
-      },
-      {
-        "t": "2026-09-18T19:30:00Z",
-        "price": 0.7306
-      },
-      {
-        "t": "2026-09-18T19:35:00Z",
-        "price": 0.7391
-      },
-      {
-        "t": "2026-09-18T19:40:00Z",
-        "price": 0.7282
-      },
-      {
-        "t": "2026-09-18T19:45:00Z",
-        "price": 0.7391
-      },
-      {
-        "t": "2026-09-18T19:50:00Z",
-        "price": 0.7253
-      },
-      {
-        "t": "2026-09-18T19:55:00Z",
-        "price": 0.7298
-      },
-      {
-        "t": "2026-09-18T20:00:00Z",
+        "t": "2026-09-21T13:30:00Z",
         "price": 0.73
+      },
+      {
+        "t": "2026-09-21T13:35:00Z",
+        "price": 0.736
+      },
+      {
+        "t": "2026-09-21T13:40:00Z",
+        "price": 0.7151
+      },
+      {
+        "t": "2026-09-21T13:45:00Z",
+        "price": 0.7081
+      },
+      {
+        "t": "2026-09-21T13:50:00Z",
+        "price": 0.7
+      },
+      {
+        "t": "2026-09-21T13:55:00Z",
+        "price": 0.7
+      },
+      {
+        "t": "2026-09-21T14:00:00Z",
+        "price": 0.7158
+      },
+      {
+        "t": "2026-09-21T14:05:00Z",
+        "price": 0.691
+      },
+      {
+        "t": "2026-09-21T14:10:00Z",
+        "price": 0.7156
+      },
+      {
+        "t": "2026-09-21T14:15:00Z",
+        "price": 0.715
+      },
+      {
+        "t": "2026-09-21T14:20:00Z",
+        "price": 0.7074
+      },
+      {
+        "t": "2026-09-21T14:25:00Z",
+        "price": 0.7069
+      },
+      {
+        "t": "2026-09-21T14:30:00Z",
+        "price": 0.7068
+      },
+      {
+        "t": "2026-09-21T14:35:00Z",
+        "price": 0.7085
+      },
+      {
+        "t": "2026-09-21T14:40:00Z",
+        "price": 0.7003
+      },
+      {
+        "t": "2026-09-21T14:45:00Z",
+        "price": 0.72
+      },
+      {
+        "t": "2026-09-21T14:50:00Z",
+        "price": 0.7189
+      },
+      {
+        "t": "2026-09-21T14:55:00Z",
+        "price": 0.7
+      },
+      {
+        "t": "2026-09-21T15:00:00Z",
+        "price": 0.709
+      },
+      {
+        "t": "2026-09-21T15:11:42Z",
+        "price": 0.7147
       }
     ],
     "price_history_range": "1mo",
@@ -752,26 +528,6 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06950385",
-        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Familial Adenomatous Polyposis (FAP)",
-        "last_update": "",
-        "start_date": "2025-07-18",
-        "url": "https://clinicaltrials.gov/study/NCT06950385"
-      },
-      {
-        "nct_id": "NCT07689942",
-        "title": "Expanded Access to 0.5 mg eRapa for Familial Adenomatous Polyposis",
-        "status": "AVAILABLE",
-        "phase": "",
-        "conditions": "Familial Adenomatous Polyposis (FAP)",
-        "last_update": "",
-        "start_date": "",
-        "url": "https://clinicaltrials.gov/study/NCT07689942"
-      },
-      {
         "nct_id": "NCT05324501",
         "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
         "status": "TERMINATED",
@@ -790,6 +546,26 @@
         "last_update": "",
         "start_date": "2021-01-18",
         "url": "https://clinicaltrials.gov/study/NCT04230499"
+      },
+      {
+        "nct_id": "NCT06950385",
+        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Familial Adenomatous Polyposis (FAP)",
+        "last_update": "",
+        "start_date": "2025-07-18",
+        "url": "https://clinicaltrials.gov/study/NCT06950385"
+      },
+      {
+        "nct_id": "NCT07689942",
+        "title": "Expanded Access to 0.5 mg eRapa for Familial Adenomatous Polyposis",
+        "status": "AVAILABLE",
+        "phase": "",
+        "conditions": "Familial Adenomatous Polyposis (FAP)",
+        "last_update": "",
+        "start_date": "",
+        "url": "https://clinicaltrials.gov/study/NCT07689942"
       }
     ],
     "detected_triggers": [

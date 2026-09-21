@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.87",
-      "note": "Auto-Update: 0.35% vs. vorheriger Schlusskurs",
+      "value": "$2.82",
+      "note": "Auto-Update: 1.11% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-21T08:06:03Z",
+    "last_update_utc": "2026-09-21T15:12:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.87,
-      "previousClose": 2.86,
-      "change": 0.01,
-      "changePercent": 0.35,
-      "regularMarketTime": "2026-09-18T20:00:00Z",
+      "regularMarketPrice": 2.821,
+      "previousClose": 2.79,
+      "change": 0.031,
+      "changePercent": 1.11,
+      "regularMarketTime": "2026-09-21T15:04:08Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,14 +215,6 @@
       "fiftyTwoWeekRange": "2.61 – 4352.0"
     },
     "price_history": [
-      {
-        "t": "2026-08-19T13:30:00Z",
-        "price": 3.84
-      },
-      {
-        "t": "2026-08-20T13:30:00Z",
-        "price": 3.69
-      },
       {
         "t": "2026-08-21T13:30:00Z",
         "price": 3.27
@@ -302,76 +294,24 @@
       {
         "t": "2026-09-18T13:30:00Z",
         "price": 2.87
+      },
+      {
+        "t": "2026-09-21T13:30:00Z",
+        "price": 2.8206
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-18T13:30:00Z",
-        "price": 2.9401
+        "t": "2026-09-21T13:35:00Z",
+        "price": 2.8229
       },
       {
-        "t": "2026-09-18T13:45:00Z",
-        "price": 2.94
+        "t": "2026-09-21T14:35:00Z",
+        "price": 2.88
       },
       {
-        "t": "2026-09-18T13:50:00Z",
-        "price": 2.9201
-      },
-      {
-        "t": "2026-09-18T14:05:00Z",
-        "price": 2.9101
-      },
-      {
-        "t": "2026-09-18T14:10:00Z",
-        "price": 2.92
-      },
-      {
-        "t": "2026-09-18T14:20:00Z",
-        "price": 2.91
-      },
-      {
-        "t": "2026-09-18T14:25:00Z",
-        "price": 2.911
-      },
-      {
-        "t": "2026-09-18T14:30:00Z",
-        "price": 2.92
-      },
-      {
-        "t": "2026-09-18T15:05:00Z",
-        "price": 2.94
-      },
-      {
-        "t": "2026-09-18T15:35:00Z",
-        "price": 2.8603
-      },
-      {
-        "t": "2026-09-18T16:20:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-18T17:20:00Z",
-        "price": 2.84
-      },
-      {
-        "t": "2026-09-18T18:25:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-09-18T19:25:00Z",
-        "price": 2.85
-      },
-      {
-        "t": "2026-09-18T19:45:00Z",
-        "price": 2.865
-      },
-      {
-        "t": "2026-09-18T19:55:00Z",
-        "price": 2.89
-      },
-      {
-        "t": "2026-09-18T20:00:00Z",
-        "price": 2.87
+        "t": "2026-09-21T15:04:08Z",
+        "price": 2.8206
       }
     ],
     "price_history_range": "1mo",
@@ -521,154 +461,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT01696682",
-        "title": "The Optimal Width of Gastric Conduit for Minimally Invasive Esophagectomy: Wide or Narrow?",
+        "nct_id": "NCT04425226",
+        "title": "Pembrolizumab and LENvatinib in Participants With Hepatocellular Carcinoma (HCC) Before Liver Transplant",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Anastomotic Leakage",
+        "conditions": "Liver Transplant; Complications, Hepatocellular Carcinoma Recurrent",
         "last_update": "",
-        "start_date": "2012-09",
-        "url": "https://clinicaltrials.gov/study/NCT01696682"
+        "start_date": "2020-08-06",
+        "url": "https://clinicaltrials.gov/study/NCT04425226"
       },
       {
-        "nct_id": "NCT05326542",
-        "title": "Comparison of Efficacy of ESWL and Laser Lithotripsy in Chronic Pancreatitis With ERCP",
-        "status": "UNKNOWN",
+        "nct_id": "NCT07487883",
+        "title": "Cadherin 3(CDH3)-Targeted PET in Lung Malignant Tumors",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Non-Small Cell Lung Cancer, Malignant Neoplasm, Pulmonary Nodules, PET/CT",
+        "last_update": "",
+        "start_date": "2026-03-18",
+        "url": "https://clinicaltrials.gov/study/NCT07487883"
+      },
+      {
+        "nct_id": "NCT07003074",
+        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Breast Cancer",
+        "last_update": "",
+        "start_date": "2025-06-23",
+        "url": "https://clinicaltrials.gov/study/NCT07003074"
+      },
+      {
+        "nct_id": "NCT06075966",
+        "title": "The Study of INTRA Spine Non Fusion Technique in the Treatment of Lumbar Degenerative Disease",
+        "status": "ENROLLING_BY_INVITATION",
         "phase": "NA",
-        "conditions": "Pancreatitis, Chronic, Pancreatic Duct Stone",
+        "conditions": "Lumbar Degenerative Disease",
         "last_update": "",
-        "start_date": "2022-09",
-        "url": "https://clinicaltrials.gov/study/NCT05326542"
+        "start_date": "2020-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06075966"
       },
       {
-        "nct_id": "NCT06693505",
-        "title": "The Effect of Caffeinated Chewing Gum on Cognitive Performance in Night-shift Emergency Physicians",
+        "nct_id": "NCT02367794",
+        "title": "A Study of Atezolizumab in Combination With Carboplatin + Paclitaxel or Carboplatin + Nab-Paclitaxel Compared With Carboplatin + Nab-Paclitaxel in Participants With Stage IV Squamous Non-Small Cell Lung Cancer (NSCLC) [IMpower131]",
         "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Cognitive Performance, Sleep Quality",
+        "phase": "PHASE3",
+        "conditions": "Squamous Non-Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2022-10-01",
-        "url": "https://clinicaltrials.gov/study/NCT06693505"
+        "start_date": "2015-06-11",
+        "url": "https://clinicaltrials.gov/study/NCT02367794"
       },
       {
-        "nct_id": "NCT05061732",
-        "title": "Helicobacter Pylori Eradication and Follow-up",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Helicobacter Pylori Infection",
-        "last_update": "",
-        "start_date": "2021-09-30",
-        "url": "https://clinicaltrials.gov/study/NCT05061732"
-      },
-      {
-        "nct_id": "NCT07490704",
-        "title": "Clinical Outcomes of BronchiEctaSis in Taiwan: A Multicenter Prospective Cohort (BEST Study)",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "",
-        "conditions": "Bronchiectasis",
-        "last_update": "",
-        "start_date": "2023-04-04",
-        "url": "https://clinicaltrials.gov/study/NCT07490704"
-      },
-      {
-        "nct_id": "NCT07629258",
-        "title": "A Phase I Trial of GW01-200 Tablets in Subjects With Advanced Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Advanced Tumors",
-        "last_update": "",
-        "start_date": "2026-07-17",
-        "url": "https://clinicaltrials.gov/study/NCT07629258"
-      },
-      {
-        "nct_id": "NCT02644148",
-        "title": "Uncut Roux-en-Y Gastrojejunostomy for Early Gastric Cancer Patients",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Gastric Cancer",
-        "last_update": "",
-        "start_date": "2016-02",
-        "url": "https://clinicaltrials.gov/study/NCT02644148"
-      },
-      {
-        "nct_id": "NCT06149260",
-        "title": "Subcutaneous Semaglutide in Systemic Scleroderma",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Scleroderma, Systemic, Fibrosis, Semaglutide",
-        "last_update": "",
-        "start_date": "2024-02-29",
-        "url": "https://clinicaltrials.gov/study/NCT06149260"
-      },
-      {
-        "nct_id": "NCT07828210",
-        "title": "NeuroAiD Patient-Reported Outcomes in Patients With Mild to Moderate Ischemic Stroke",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Stroke, Stroke, Acute Ischemic, Stroke, Ischemic, Stroke, Cryptogenic",
-        "last_update": "",
-        "start_date": "2026-09-10",
-        "url": "https://clinicaltrials.gov/study/NCT07828210"
-      },
-      {
-        "nct_id": "NCT05274789",
-        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Robot-assisted Pancreaticoduodenectomy: a Randomized Controlled Study",
+        "nct_id": "NCT05541705",
+        "title": "Treadmill Oscillation Walking to Improve Weight Transfer During Gait Following Stroke",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Delirium in Old Age",
+        "conditions": "Treadmill Walking",
         "last_update": "",
-        "start_date": "2022-04-15",
-        "url": "https://clinicaltrials.gov/study/NCT05274789"
+        "start_date": "2022-12-15",
+        "url": "https://clinicaltrials.gov/study/NCT05541705"
       },
       {
-        "nct_id": "NCT07092423",
-        "title": "Effect of Semi-elemental Enteral Nutrition on Gastrointestinal Tolerance in Patients With Traumatic Brain Injury.",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Traumatic Brain Injury, Neurocritical Care, Enteral Feeding Intolerance",
-        "last_update": "",
-        "start_date": "2025-05-18",
-        "url": "https://clinicaltrials.gov/study/NCT07092423"
-      },
-      {
-        "nct_id": "NCT05560308",
-        "title": "Phase II Clinical Study of T-DM1 and Pyrotinib Maleate in Patients With HER2-positive Metastatic Breast Cancer Who Had Progressed on TKI Therapy",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "HER2+ Advanced Breast Cancer Patients Progressing on TKI Therapy",
-        "last_update": "",
-        "start_date": "2022-09-30",
-        "url": "https://clinicaltrials.gov/study/NCT05560308"
-      },
-      {
-        "nct_id": "NCT07574450",
-        "title": "Taiwan ED Airway Quality Surveillance Registry (TEAR)",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "Airway Management, Tracheal Intubation, Emergency Department, Peri-intubation Adverse Events",
-        "last_update": "",
-        "start_date": "2026-08",
-        "url": "https://clinicaltrials.gov/study/NCT07574450"
-      },
-      {
-        "nct_id": "NCT02948218",
-        "title": "Multi-center Clinical Research of Acupuncture Treatment of Knee Osteoarthritis",
+        "nct_id": "NCT04175587",
+        "title": "Randomized,International Multi-center Clinical Trial of RIF Plus RA for Non-high-risk APL",
         "status": "UNKNOWN",
         "phase": "PHASE3",
-        "conditions": "Knee Osteoarthritis",
+        "conditions": "Acute Promyelocytic Leukaemia",
         "last_update": "",
-        "start_date": "2017-01",
-        "url": "https://clinicaltrials.gov/study/NCT02948218"
+        "start_date": "2019-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT04175587"
       },
       {
-        "nct_id": "NCT07618260",
-        "title": "SIM0613 in Participants With Advanced Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Advanced Solid Cancer",
+        "nct_id": "NCT05229133",
+        "title": "Efficacy and Safety of CLEAR in Myopia and Astigmatism in Chinese Population",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Myopic Astigmatism",
         "last_update": "",
-        "start_date": "2026-05-15",
-        "url": "https://clinicaltrials.gov/study/NCT07618260"
+        "start_date": "2021-11-29",
+        "url": "https://clinicaltrials.gov/study/NCT05229133"
+      },
+      {
+        "nct_id": "NCT06300216",
+        "title": "A Real-world Study of Octreotide Microspheres in Chinese Patients With Neuroendocrine Tumors",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Neuroendocrine Tumors",
+        "last_update": "",
+        "start_date": "2024-03-26",
+        "url": "https://clinicaltrials.gov/study/NCT06300216"
+      },
+      {
+        "nct_id": "NCT04895579",
+        "title": "Lung Cancer With Copanlisib and Durvalumab",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Non Small Cell Lung Cancer",
+        "last_update": "",
+        "start_date": "2021-05-12",
+        "url": "https://clinicaltrials.gov/study/NCT04895579"
+      },
+      {
+        "nct_id": "NCT07551427",
+        "title": "A Clinical Trial to Evaluate the Efficacy, Safety, and Pharmacokinetics of TQ05105 Tablets in Subjects With Intermediate/High-risk Myelofibrosis",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Myelofibrosis",
+        "last_update": "",
+        "start_date": "2026-06-18",
+        "url": "https://clinicaltrials.gov/study/NCT07551427"
+      },
+      {
+        "nct_id": "NCT07509788",
+        "title": "Effects of Binaural Hearing on Listening Effort and Cognitive Development in Mandarin-speaking Children With Cochlear Implants",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Cochlear Implant Users, Cochlear Hearing Loss",
+        "last_update": "",
+        "start_date": "2025-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT07509788"
+      },
+      {
+        "nct_id": "NCT05549986",
+        "title": "Discriminant Ability of the Shock Index, Modified Shock Index, and Reverse Shock Index Multiplied by the Glasgow Coma Scale on Mortality in Adult Trauma Patients: A PATOS Study",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Trauma, Shock, Traumatic, Morality",
+        "last_update": "",
+        "start_date": "2016-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05549986"
+      },
+      {
+        "nct_id": "NCT05475756",
+        "title": "Safety and Efficacy of Intrauterine Biological Barrier on Postoperative Adhesion After Hysteroscopic Adhesiolysis",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Intrauterine Adhesion",
+        "last_update": "",
+        "start_date": "2022-02-25",
+        "url": "https://clinicaltrials.gov/study/NCT05475756"
+      },
+      {
+        "nct_id": "NCT07127822",
+        "title": "Assessing Iparomlimab and Tuvonralimab in Recurrent or Metastatic MSI-H/dMMR Gastric Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Gastric / Gastroesophageal Junction Adenocarcinoma, MSI-H Cancer",
+        "last_update": "",
+        "start_date": "2025-12-15",
+        "url": "https://clinicaltrials.gov/study/NCT07127822"
       }
     ],
     "detected_triggers": [
@@ -691,82 +631,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Optimal Width of Gastric Conduit for Minimally Invasive Esophagectomy: Wide or Narrow?",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT01696682",
-        "date": "2012-09"
+        "title": "A Study of Atezolizumab in Combination With Carboplatin + Paclitaxel or Carboplatin + Nab-Paclitaxel Compared With Carboplatin + Nab-Paclitaxel in Participants With Stage IV Squamous Non-Small Cell Lung Cancer (NSCLC) [IMpower131]",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT02367794",
+        "date": "2015-06-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Uncut Roux-en-Y Gastrojejunostomy for Early Gastric Cancer Patients",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT02644148",
-        "date": "2016-02"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Multi-center Clinical Research of Acupuncture Treatment of Knee Osteoarthritis",
+        "title": "Randomized,International Multi-center Clinical Trial of RIF Plus RA for Non-high-risk APL",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT02948218",
-        "date": "2017-01"
+        "source": "NCT04175587",
+        "date": "2019-12-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Helicobacter Pylori Eradication and Follow-up",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05061732",
-        "date": "2021-09-30"
+        "title": "The Study of INTRA Spine Non Fusion Technique in the Treatment of Lumbar Degenerative Disease",
+        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION NA",
+        "source": "NCT06075966",
+        "date": "2020-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Effect of Intraoperative Dexmedetomidine on Postoperative Delirium in Elderly Patients Undergoing Robot-assisted Pancreaticoduodenectomy: a Randomized Controlled Study",
+        "title": "Pembrolizumab and LENvatinib in Participants With Hepatocellular Carcinoma (HCC) Before Liver Transplant",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05274789",
-        "date": "2022-04-15"
+        "source": "NCT04425226",
+        "date": "2020-08-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Comparison of Efficacy of ESWL and Laser Lithotripsy in Chronic Pancreatitis With ERCP",
+        "title": "Lung Cancer With Copanlisib and Durvalumab",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT04895579",
+        "date": "2021-05-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy and Safety of CLEAR in Myopia and Astigmatism in Chinese Population",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05326542",
-        "date": "2022-09"
+        "source": "NCT05229133",
+        "date": "2021-11-29"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Phase II Clinical Study of T-DM1 and Pyrotinib Maleate in Patients With HER2-positive Metastatic Breast Cancer Who Had Progressed on TKI Therapy",
+        "title": "Safety and Efficacy of Intrauterine Biological Barrier on Postoperative Adhesion After Hysteroscopic Adhesiolysis",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05560308",
-        "date": "2022-09-30"
+        "source": "NCT05475756",
+        "date": "2022-02-25"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effect of Caffeinated Chewing Gum on Cognitive Performance in Night-shift Emergency Physicians",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT06693505",
-        "date": "2022-10-01"
+        "title": "Treadmill Oscillation Walking to Improve Weight Transfer During Gait Following Stroke",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05541705",
+        "date": "2022-12-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Subcutaneous Semaglutide in Systemic Scleroderma",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT06149260",
-        "date": "2024-02-29"
+        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07003074",
+        "date": "2025-06-23"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Effect of Semi-elemental Enteral Nutrition on Gastrointestinal Tolerance in Patients With Traumatic Brain Injury.",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07092423",
-        "date": "2025-05-18"
+        "title": "Assessing Iparomlimab and Tuvonralimab in Recurrent or Metastatic MSI-H/dMMR Gastric Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07127822",
+        "date": "2025-12-15"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -809,14 +749,6 @@
         "date": "2026-05-13"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "SIM0613 in Participants With Advanced Solid Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT07618260",
-        "date": "2026-05-15"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-05-19",
@@ -839,6 +771,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-06-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Trial to Evaluate the Efficacy, Safety, and Pharmacokinetics of TQ05105 Tablets in Subjects With Intermediate/High-risk Myelofibrosis",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07551427",
+        "date": "2026-06-18"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -866,27 +806,35 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Phase I Trial of GW01-200 Tablets in Subjects With Advanced Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT07629258",
-        "date": "2026-07-17"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "NeuroAiD Patient-Reported Outcomes in Patients With Mild to Moderate Ischemic Stroke",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT07828210",
-        "date": "2026-09-10"
+        "level": "low",
+        "title": "Discriminant Ability of the Shock Index, Modified Shock Index, and Reverse Shock Index Multiplied by the Glasgow Coma Scale on Mortality in Adult Trauma Patients: A PATOS Study",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05549986",
+        "date": "2016-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Clinical Outcomes of BronchiEctaSis in Taiwan: A Multicenter Prospective Cohort (BEST Study)",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
-        "source": "NCT07490704",
-        "date": "2023-04-04"
+        "title": "A Real-world Study of Octreotide Microspheres in Chinese Patients With Neuroendocrine Tumors",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
+        "source": "NCT06300216",
+        "date": "2024-03-26"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Effects of Binaural Hearing on Listening Effort and Cognitive Development in Mandarin-speaking Children With Cochlear Implants",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT07509788",
+        "date": "2025-10-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Cadherin 3(CDH3)-Targeted PET in Lung Malignant Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT07487883",
+        "date": "2026-03-18"
       },
       {
         "type": "SEC Filing",
@@ -895,14 +843,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "3 · 2026-04-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",

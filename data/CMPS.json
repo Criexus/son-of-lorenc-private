@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$15.19",
-      "note": "Auto-Update: 5.85% vs. vorheriger Schlusskurs",
+      "value": "$15.14",
+      "note": "Auto-Update: 4.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-21T08:05:16Z",
+    "last_update_utc": "2026-09-21T15:12:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 15.19,
-      "previousClose": 14.35,
-      "change": 0.84,
-      "changePercent": 5.85,
-      "regularMarketTime": "2026-09-18T20:00:02Z",
+      "regularMarketPrice": 15.145,
+      "previousClose": 14.54,
+      "change": 0.605,
+      "changePercent": 4.16,
+      "regularMarketTime": "2026-09-21T15:11:51Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,14 +331,6 @@
       "fiftyTwoWeekRange": "4.82 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-08-19T13:30:00Z",
-        "price": 14.01
-      },
-      {
-        "t": "2026-08-20T13:30:00Z",
-        "price": 13.82
-      },
       {
         "t": "2026-08-21T13:30:00Z",
         "price": 13.33
@@ -418,324 +410,100 @@
       {
         "t": "2026-09-18T13:30:00Z",
         "price": 15.19
+      },
+      {
+        "t": "2026-09-21T13:30:00Z",
+        "price": 15.145
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-18T13:30:00Z",
-        "price": 15.1186
-      },
-      {
-        "t": "2026-09-18T13:35:00Z",
-        "price": 15.1298
-      },
-      {
-        "t": "2026-09-18T13:40:00Z",
-        "price": 15.05
-      },
-      {
-        "t": "2026-09-18T13:45:00Z",
-        "price": 14.95
-      },
-      {
-        "t": "2026-09-18T13:50:00Z",
-        "price": 15.06
-      },
-      {
-        "t": "2026-09-18T13:55:00Z",
-        "price": 14.945
-      },
-      {
-        "t": "2026-09-18T14:00:00Z",
-        "price": 14.96
-      },
-      {
-        "t": "2026-09-18T14:05:00Z",
-        "price": 14.91
-      },
-      {
-        "t": "2026-09-18T14:10:00Z",
-        "price": 14.86
-      },
-      {
-        "t": "2026-09-18T14:15:00Z",
-        "price": 14.88
-      },
-      {
-        "t": "2026-09-18T14:20:00Z",
-        "price": 14.87
-      },
-      {
-        "t": "2026-09-18T14:25:00Z",
-        "price": 14.88
-      },
-      {
-        "t": "2026-09-18T14:30:00Z",
-        "price": 14.775
-      },
-      {
-        "t": "2026-09-18T14:35:00Z",
-        "price": 14.84
-      },
-      {
-        "t": "2026-09-18T14:40:00Z",
-        "price": 14.89
-      },
-      {
-        "t": "2026-09-18T14:45:00Z",
-        "price": 14.955
-      },
-      {
-        "t": "2026-09-18T14:50:00Z",
-        "price": 15.02
-      },
-      {
-        "t": "2026-09-18T14:55:00Z",
-        "price": 15.005
-      },
-      {
-        "t": "2026-09-18T15:00:00Z",
-        "price": 14.96
-      },
-      {
-        "t": "2026-09-18T15:05:00Z",
-        "price": 14.97
-      },
-      {
-        "t": "2026-09-18T15:10:00Z",
-        "price": 14.88
-      },
-      {
-        "t": "2026-09-18T15:15:00Z",
-        "price": 14.9
-      },
-      {
-        "t": "2026-09-18T15:20:00Z",
-        "price": 14.9063
-      },
-      {
-        "t": "2026-09-18T15:25:00Z",
-        "price": 14.905
-      },
-      {
-        "t": "2026-09-18T15:30:00Z",
-        "price": 14.94
-      },
-      {
-        "t": "2026-09-18T15:35:00Z",
-        "price": 14.98
-      },
-      {
-        "t": "2026-09-18T15:40:00Z",
-        "price": 14.96
-      },
-      {
-        "t": "2026-09-18T15:45:00Z",
-        "price": 15.01
-      },
-      {
-        "t": "2026-09-18T15:50:00Z",
-        "price": 14.965
-      },
-      {
-        "t": "2026-09-18T15:55:00Z",
-        "price": 14.96
-      },
-      {
-        "t": "2026-09-18T16:00:00Z",
-        "price": 14.965
-      },
-      {
-        "t": "2026-09-18T16:05:00Z",
-        "price": 14.8762
-      },
-      {
-        "t": "2026-09-18T16:10:00Z",
-        "price": 14.905
-      },
-      {
-        "t": "2026-09-18T16:15:00Z",
-        "price": 14.9099
-      },
-      {
-        "t": "2026-09-18T16:20:00Z",
-        "price": 14.89
-      },
-      {
-        "t": "2026-09-18T16:25:00Z",
-        "price": 14.9
-      },
-      {
-        "t": "2026-09-18T16:30:00Z",
-        "price": 14.93
-      },
-      {
-        "t": "2026-09-18T16:35:00Z",
-        "price": 14.96
-      },
-      {
-        "t": "2026-09-18T16:40:00Z",
-        "price": 14.99
-      },
-      {
-        "t": "2026-09-18T16:45:00Z",
-        "price": 15.02
-      },
-      {
-        "t": "2026-09-18T16:50:00Z",
-        "price": 15.025
-      },
-      {
-        "t": "2026-09-18T16:55:00Z",
-        "price": 15.01
-      },
-      {
-        "t": "2026-09-18T17:00:00Z",
-        "price": 15.06
-      },
-      {
-        "t": "2026-09-18T17:05:00Z",
-        "price": 15.31
-      },
-      {
-        "t": "2026-09-18T17:10:00Z",
-        "price": 15.19
-      },
-      {
-        "t": "2026-09-18T17:15:00Z",
-        "price": 15.195
-      },
-      {
-        "t": "2026-09-18T17:20:00Z",
-        "price": 15.165
-      },
-      {
-        "t": "2026-09-18T17:25:00Z",
-        "price": 15.12
-      },
-      {
-        "t": "2026-09-18T17:30:00Z",
-        "price": 15.11
-      },
-      {
-        "t": "2026-09-18T17:35:00Z",
-        "price": 15.14
-      },
-      {
-        "t": "2026-09-18T17:40:00Z",
-        "price": 15.185
-      },
-      {
-        "t": "2026-09-18T17:45:00Z",
-        "price": 15.31
-      },
-      {
-        "t": "2026-09-18T17:50:00Z",
-        "price": 15.285
-      },
-      {
-        "t": "2026-09-18T17:55:00Z",
-        "price": 15.33
-      },
-      {
-        "t": "2026-09-18T18:00:00Z",
+        "t": "2026-09-21T13:30:00Z",
         "price": 15.18
       },
       {
-        "t": "2026-09-18T18:05:00Z",
-        "price": 15.275
+        "t": "2026-09-21T13:35:00Z",
+        "price": 15.045
       },
       {
-        "t": "2026-09-18T18:10:00Z",
-        "price": 15.21
+        "t": "2026-09-21T13:40:00Z",
+        "price": 15.1
       },
       {
-        "t": "2026-09-18T18:15:00Z",
-        "price": 15.16
+        "t": "2026-09-21T13:45:00Z",
+        "price": 15.25
       },
       {
-        "t": "2026-09-18T18:20:00Z",
-        "price": 15.21
+        "t": "2026-09-21T13:50:00Z",
+        "price": 15.315
       },
       {
-        "t": "2026-09-18T18:25:00Z",
-        "price": 15.24
+        "t": "2026-09-21T13:55:00Z",
+        "price": 15.41
       },
       {
-        "t": "2026-09-18T18:30:00Z",
-        "price": 15.1701
+        "t": "2026-09-21T14:00:00Z",
+        "price": 15.54
       },
       {
-        "t": "2026-09-18T18:35:00Z",
-        "price": 15.15
+        "t": "2026-09-21T14:05:00Z",
+        "price": 15.4399
       },
       {
-        "t": "2026-09-18T18:40:00Z",
-        "price": 15.105
+        "t": "2026-09-21T14:10:00Z",
+        "price": 15.26
       },
       {
-        "t": "2026-09-18T18:45:00Z",
-        "price": 15.115
+        "t": "2026-09-21T14:15:00Z",
+        "price": 15.1898
       },
       {
-        "t": "2026-09-18T18:50:00Z",
-        "price": 15.105
+        "t": "2026-09-21T14:20:00Z",
+        "price": 15.31
       },
       {
-        "t": "2026-09-18T18:55:00Z",
-        "price": 15.09
+        "t": "2026-09-21T14:25:00Z",
+        "price": 15.3
       },
       {
-        "t": "2026-09-18T19:00:00Z",
-        "price": 15.11
+        "t": "2026-09-21T14:30:00Z",
+        "price": 15.345
       },
       {
-        "t": "2026-09-18T19:05:00Z",
-        "price": 15.205
+        "t": "2026-09-21T14:35:00Z",
+        "price": 15.34
       },
       {
-        "t": "2026-09-18T19:10:00Z",
-        "price": 15.15
+        "t": "2026-09-21T14:40:00Z",
+        "price": 15.27
       },
       {
-        "t": "2026-09-18T19:15:00Z",
-        "price": 15.205
+        "t": "2026-09-21T14:45:00Z",
+        "price": 15.195
       },
       {
-        "t": "2026-09-18T19:20:00Z",
-        "price": 15.215
-      },
-      {
-        "t": "2026-09-18T19:25:00Z",
-        "price": 15.21
-      },
-      {
-        "t": "2026-09-18T19:30:00Z",
+        "t": "2026-09-21T14:50:00Z",
         "price": 15.2
       },
       {
-        "t": "2026-09-18T19:35:00Z",
+        "t": "2026-09-21T14:55:00Z",
         "price": 15.19
       },
       {
-        "t": "2026-09-18T19:40:00Z",
-        "price": 15.1401
+        "t": "2026-09-21T15:00:00Z",
+        "price": 15.16
       },
       {
-        "t": "2026-09-18T19:45:00Z",
-        "price": 15.1125
+        "t": "2026-09-21T15:05:00Z",
+        "price": 15.0927
       },
       {
-        "t": "2026-09-18T19:50:00Z",
-        "price": 15.1801
+        "t": "2026-09-21T15:10:00Z",
+        "price": 15.1
       },
       {
-        "t": "2026-09-18T19:55:00Z",
-        "price": 15.185
-      },
-      {
-        "t": "2026-09-18T20:00:00Z",
-        "price": 15.19
+        "t": "2026-09-21T15:11:51Z",
+        "price": 15.145
       }
     ],
     "price_history_range": "1mo",
@@ -806,10 +574,10 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways gibt am 5. August 2026 die Finanzergebnisse für das zweite Quartal und das erste Halbjahr 2026 bekannt - businesswire.com",
+        "title": "Compass Pathways gibt am 5. August 2026 die Finanzergebnisse für das zweite Quartal und das erste Halbjahr 2026 bekannt - Business Wire",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5IaHZUYTdKRGtqYl81OUd0SHhnRzctdWd5MDdyVmhUWXl4NDVacHhEclRscGxSOEJjd0tXd3R0SHowQ2hwNmhBNkxLOG9fU0c5azFTT3p2a0s5V0dEajMzSTJ6Q2VNODg?oc=5",
         "published_at": "2026-07-29T07:00:00Z",
-        "source": "businesswire.com",
+        "source": "Business Wire",
         "query": "COMPASS Pathways clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1014,10 +782,10 @@
         "relevance_score": 21
       },
       {
-        "title": "Compass Pathways-Aktie: Ein Federstrich, der alles verändert! - Finanztrends",
+        "title": "Compass Pathways-Aktie: Ein Federstrich, der alles verändert! - finanztrends.de",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSS03VE9oVmlBa0ZYZFNVbWtlMmxvUzdXaF9LN0dEWFJoU1ZkamVBMk12S0xNNUNCYkpObWNiRUFTMTZ0WGMwVzU3cEtJcDQ3U1Zham5uVVpZZDJpNDZqb3pWQm1odHlCRExOMlV0aHZwMEFJYlpYdGY3NkVJak1Pb1paMThSQW5KZWh6dWp3?oc=5",
         "published_at": "2026-04-21T07:00:00Z",
-        "source": "Finanztrends",
+        "source": "finanztrends.de",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1270,74 +1038,34 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT01833169",
-        "title": "BKM120 for Patients With PI3K-activated Tumors",
+        "nct_id": "NCT07613879",
+        "title": "Mulligan Mobilization and Stabilization Exercises for Sensorimotor Function in Women With Text Neck Syndrome",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Neck Pain, Text Neck Syndrome, Cumulative Trauma Disorders, Posture",
+        "last_update": "",
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT07613879"
+      },
+      {
+        "nct_id": "NCT05651126",
+        "title": "Psilocybin in Adults With and Without Autism Spectrum Disorder",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Autism Spectrum Disorder",
+        "last_update": "",
+        "start_date": "2022-12-12",
+        "url": "https://clinicaltrials.gov/study/NCT05651126"
+      },
+      {
+        "nct_id": "NCT05312151",
+        "title": "The Safety and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
         "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "PI3K Pathway Activated Tumors",
+        "conditions": "Post Traumatic Stress Disorder",
         "last_update": "",
-        "start_date": "2013-03-29",
-        "url": "https://clinicaltrials.gov/study/NCT01833169"
-      },
-      {
-        "nct_id": "NCT06132178",
-        "title": "Psilocybin rTMS for Treatment Resistant Depression",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression, MDD, Major Depressive Disorder, Recurrent Depression",
-        "last_update": "",
-        "start_date": "2025-01-10",
-        "url": "https://clinicaltrials.gov/study/NCT06132178"
-      },
-      {
-        "nct_id": "NCT07570654",
-        "title": "Redefine Study: A Study Evaluating the Efficacy, Safety, and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
-        "status": "RECRUITING",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "PTSD - Post Traumatic Stress Disorder, PTSD, PTSD Symptoms, PTSD, Post Traumatic Stress Disorder",
-        "last_update": "",
-        "start_date": "2026-09",
-        "url": "https://clinicaltrials.gov/study/NCT07570654"
-      },
-      {
-        "nct_id": "NCT04241796",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Cancer",
-        "last_update": "",
-        "start_date": "2019-12-12",
-        "url": "https://clinicaltrials.gov/study/NCT04241796"
-      },
-      {
-        "nct_id": "NCT07348588",
-        "title": "Intravitreal Adalimumab in Inherited and Degenerative Retinal Diseases",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Retinitis Pigmentosa (RP), Extensive Macular Atrophy With Pseudodrusen (EMAP)",
-        "last_update": "",
-        "start_date": "2025-07-10",
-        "url": "https://clinicaltrials.gov/study/NCT07348588"
-      },
-      {
-        "nct_id": "NCT04015258",
-        "title": "Blueberry Study Aimed at Improving Cognition and Peripheral Blood Flow",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Vascular Stiffness, Cognitive Change, Blood Pressure",
-        "last_update": "",
-        "start_date": "2019-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT04015258"
-      },
-      {
-        "nct_id": "NCT06896695",
-        "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Head and Neck Carcinoma",
-        "last_update": "",
-        "start_date": "2025-09-23",
-        "url": "https://clinicaltrials.gov/study/NCT06896695"
+        "start_date": "2022-06-10",
+        "url": "https://clinicaltrials.gov/study/NCT05312151"
       },
       {
         "nct_id": "NCT06222359",
@@ -1350,54 +1078,34 @@
         "url": "https://clinicaltrials.gov/study/NCT06222359"
       },
       {
-        "nct_id": "NCT07341919",
-        "title": "Subtenon Autologous Platelet-Rich Plasma in Inherited and Degenerative Retinal Diseases",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Extensive Macular Atrophy With Pseudodrusen (EMAP), Retinitis Pigmentosa (RP)",
-        "last_update": "",
-        "start_date": "2025-01-04",
-        "url": "https://clinicaltrials.gov/study/NCT07341919"
-      },
-      {
-        "nct_id": "NCT04739865",
-        "title": "The Safety and Efficacy Of Psilocybin as an Adjunctive Therapy in Participants With Treatment Resistant Depression",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2020-08-10",
-        "url": "https://clinicaltrials.gov/study/NCT04739865"
-      },
-      {
-        "nct_id": "NCT05330299",
-        "title": "Acceptability of Identifying and Managing Psychological Distress in Inflammatory Bowel Disease: the COMPASS-IBD Study",
+        "nct_id": "NCT02242929",
+        "title": "Surgery Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma",
         "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "IBD, Psychological Distress, Treatment of Illness-related Distress in IBD",
-        "last_update": "",
-        "start_date": "2022-12-02",
-        "url": "https://clinicaltrials.gov/study/NCT05330299"
-      },
-      {
-        "nct_id": "NCT05733546",
-        "title": "A Phase II, Multicentre, Randomised, Double-blind, Controlled Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Efficacy of COMP360 in Participants With Recurrent Major Depressive Disorder",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Major Depressive Disorder",
-        "last_update": "",
-        "start_date": "2023-01-30",
-        "url": "https://clinicaltrials.gov/study/NCT05733546"
-      },
-      {
-        "nct_id": "NCT05711940",
-        "title": "Efficacy, Safety, and Tolerability of Two Administrations of COMP360 in Participants With TRD",
-        "status": "ACTIVE_NOT_RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Treatment Resistant Depression",
+        "conditions": "Nodular Basal Cell Carcinoma",
         "last_update": "",
-        "start_date": "2023-02-14",
-        "url": "https://clinicaltrials.gov/study/NCT05711940"
+        "start_date": "2016-01",
+        "url": "https://clinicaltrials.gov/study/NCT02242929"
+      },
+      {
+        "nct_id": "NCT00847288",
+        "title": "OptiVol® Care Pathway",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Heart Failure",
+        "last_update": "",
+        "start_date": "2009-03",
+        "url": "https://clinicaltrials.gov/study/NCT00847288"
+      },
+      {
+        "nct_id": "NCT06896695",
+        "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Head and Neck Carcinoma",
+        "last_update": "",
+        "start_date": "2025-09-23",
+        "url": "https://clinicaltrials.gov/study/NCT06896695"
       },
       {
         "nct_id": "NCT03428958",
@@ -1410,14 +1118,74 @@
         "url": "https://clinicaltrials.gov/study/NCT03428958"
       },
       {
-        "nct_id": "NCT05651126",
-        "title": "Psilocybin in Adults With and Without Autism Spectrum Disorder",
+        "nct_id": "NCT05220410",
+        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
         "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Autism Spectrum Disorder",
+        "phase": "PHASE2",
+        "conditions": "Treatment Resistant Depression, Suicidal Ideation",
         "last_update": "",
-        "start_date": "2022-12-12",
-        "url": "https://clinicaltrials.gov/study/NCT05651126"
+        "start_date": "2022-03-28",
+        "url": "https://clinicaltrials.gov/study/NCT05220410"
+      },
+      {
+        "nct_id": "NCT07570654",
+        "title": "Redefine Study: A Study Evaluating the Efficacy, Safety, and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
+        "status": "RECRUITING",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "PTSD - Post Traumatic Stress Disorder, PTSD, PTSD Symptoms, PTSD, Post Traumatic Stress Disorder",
+        "last_update": "",
+        "start_date": "2026-09",
+        "url": "https://clinicaltrials.gov/study/NCT07570654"
+      },
+      {
+        "nct_id": "NCT07341919",
+        "title": "Subtenon Autologous Platelet-Rich Plasma in Inherited and Degenerative Retinal Diseases",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Extensive Macular Atrophy With Pseudodrusen (EMAP), Retinitis Pigmentosa (RP)",
+        "last_update": "",
+        "start_date": "2025-01-04",
+        "url": "https://clinicaltrials.gov/study/NCT07341919"
+      },
+      {
+        "nct_id": "NCT05330299",
+        "title": "Acceptability of Identifying and Managing Psychological Distress in Inflammatory Bowel Disease: the COMPASS-IBD Study",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "IBD, Psychological Distress, Treatment of Illness-related Distress in IBD",
+        "last_update": "",
+        "start_date": "2022-12-02",
+        "url": "https://clinicaltrials.gov/study/NCT05330299"
+      },
+      {
+        "nct_id": "NCT06515106",
+        "title": "Antibody-mediated LGI1 Encephalitis: Symptoms, Biomarkers, and Mechanisms of the Chronic Phase of the Disease",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Limbic Encephalitis With LGI1 Antibodies",
+        "last_update": "",
+        "start_date": "2023-12-18",
+        "url": "https://clinicaltrials.gov/study/NCT06515106"
+      },
+      {
+        "nct_id": "NCT07226232",
+        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Major Depression",
+        "last_update": "",
+        "start_date": "2026-08-03",
+        "url": "https://clinicaltrials.gov/study/NCT07226232"
+      },
+      {
+        "nct_id": "NCT05624268",
+        "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Treatment Resistant Depression",
+        "last_update": "",
+        "start_date": "2023-01-24",
+        "url": "https://clinicaltrials.gov/study/NCT05624268"
       }
     ],
     "detected_triggers": [
@@ -1480,10 +1248,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "BKM120 for Patients With PI3K-activated Tumors",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT01833169",
-        "date": "2013-03-29"
+        "title": "OptiVol® Care Pathway",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT00847288",
+        "date": "2009-03"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Surgery Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT02242929",
+        "date": "2016-01"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1496,26 +1272,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Blueberry Study Aimed at Improving Cognition and Peripheral Blood Flow",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04015258",
-        "date": "2019-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04241796",
-        "date": "2019-12-12"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Safety and Efficacy Of Psilocybin as an Adjunctive Therapy in Participants With Treatment Resistant Depression",
+        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT04739865",
-        "date": "2020-08-10"
+        "source": "NCT05220410",
+        "date": "2022-03-28"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The Safety and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT05312151",
+        "date": "2022-06-10"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1536,18 +1304,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Phase II, Multicentre, Randomised, Double-blind, Controlled Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Efficacy of COMP360 in Participants With Recurrent Major Depressive Disorder",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
-        "source": "NCT05733546",
-        "date": "2023-01-30"
+        "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT05624268",
+        "date": "2023-01-24"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy, Safety, and Tolerability of Two Administrations of COMP360 in Participants With TRD",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE3",
-        "source": "NCT05711940",
-        "date": "2023-02-14"
+        "title": "Antibody-mediated LGI1 Encephalitis: Symptoms, Biomarkers, and Mechanisms of the Chronic Phase of the Disease",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06515106",
+        "date": "2023-12-18"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1560,18 +1328,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Psilocybin rTMS for Treatment Resistant Depression",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06132178",
-        "date": "2025-01-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Intravitreal Adalimumab in Inherited and Degenerative Retinal Diseases",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1, PHASE2",
-        "source": "NCT07348588",
-        "date": "2025-07-10"
+        "title": "Mulligan Mobilization and Stabilization Exercises for Sensorimotor Function in Women With Text Neck Syndrome",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT07613879",
+        "date": "2025-09-01"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1612,6 +1372,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07226232",
+        "date": "2026-08-03"
       },
       {
         "type": "SEC · Unternehmensereignis",
