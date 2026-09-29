@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-29T06:23:18Z",
+    "last_update_utc": "2026-09-29T13:10:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -890,22 +890,6 @@
         "relevance_score": 7
       },
       {
-        "title": "Altimmune, Inc. (ALT) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8tY3FOQmF0NlpDOGR0X2lkOW9VNkQzMVdUR1lvbHFzLV9aRFUtRlBaTjhyVElYc1A2dndhVlJHSjFoVWs3YUVuWnlfZHdnTVhK?oc=5",
-        "published_at": "2018-07-03T00:02:09Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
-      },
-      {
         "title": "Technische Analyse von Altimmune, Inc. (NASDAQ: ALT) - TradingView",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xb1o2d2EwUWFqMHBDX29zRnRjaW1IaUxsWllSRkhneXJvcGpaSnI4TEFkMHZxWjFrTThNeWNTRlVKemxzUG9QNHUxckhrZFVJWVZsRnQ5UmZ1MVM4WkcyV2Ffb2NlWk9U?oc=5",
         "published_at": "2018-05-19T08:56:00Z",
@@ -923,6 +907,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-09-29",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000132619026000056/alt-20260924x8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-09-17",
@@ -1055,25 +1046,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000170590426000002/xslF345X06/form4-05012026_080505.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000174361126000004/xslF345X06/form4-05012026_080524.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05989711",
-        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+        "nct_id": "NCT04415749",
+        "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
         "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Non-Alcoholic Steatohepatitis (NASH)",
+        "phase": "PHASE1",
+        "conditions": "Healthy Volunteers",
         "last_update": "",
-        "start_date": "2023-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT05989711"
+        "start_date": "2020-06-15",
+        "url": "https://clinicaltrials.gov/study/NCT04415749"
       },
       {
         "nct_id": "NCT04442230",
@@ -1086,14 +1070,44 @@
         "url": "https://clinicaltrials.gov/study/NCT04442230"
       },
       {
-        "nct_id": "NCT03232567",
-        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "nct_id": "NCT02496897",
+        "title": "Phase I Safety and Immunogenicity of FP-02.2 in Chronic Hepatitis B",
         "status": "COMPLETED",
-        "phase": "PHASE2",
+        "phase": "PHASE1",
+        "conditions": "Hepatitis B",
+        "last_update": "",
+        "start_date": "2015-07",
+        "url": "https://clinicaltrials.gov/study/NCT02496897"
+      },
+      {
+        "nct_id": "NCT03163342",
+        "title": "Immune Response Following Seasonal Influenza Vaccination",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
         "conditions": "Influenza",
         "last_update": "",
-        "start_date": "2017-09-18",
-        "url": "https://clinicaltrials.gov/study/NCT03232567"
+        "start_date": "2017-05-08",
+        "url": "https://clinicaltrials.gov/study/NCT03163342"
+      },
+      {
+        "nct_id": "NCT05006885",
+        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
+        "last_update": "",
+        "start_date": "2021-09-30",
+        "url": "https://clinicaltrials.gov/study/NCT05006885"
+      },
+      {
+        "nct_id": "NCT05295875",
+        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Obesity/Overweight",
+        "last_update": "",
+        "start_date": "2022-03-31",
+        "url": "https://clinicaltrials.gov/study/NCT05295875"
       },
       {
         "nct_id": "NCT04679909",
@@ -1106,36 +1120,6 @@
         "url": "https://clinicaltrials.gov/study/NCT04679909"
       },
       {
-        "nct_id": "NCT07795164",
-        "title": "Phase 3 Study of the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in MASH",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
-        "last_update": "",
-        "start_date": "2026-07-30",
-        "url": "https://clinicaltrials.gov/study/NCT07795164"
-      },
-      {
-        "nct_id": "NCT04684914",
-        "title": "HepTcell Immunotherapy in Patients With Inactive Chronic Hepatitis B (CHB)",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "Hepatitis B, Chronic",
-        "last_update": "",
-        "start_date": "2020-12-26",
-        "url": "https://clinicaltrials.gov/study/NCT04684914"
-      },
-      {
-        "nct_id": "NCT04415749",
-        "title": "NasoShield in Healthy Adults to Study Safety and Immunogenicity",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Healthy Volunteers",
-        "last_update": "",
-        "start_date": "2020-06-15",
-        "url": "https://clinicaltrials.gov/study/NCT04415749"
-      },
-      {
         "nct_id": "NCT07009860",
         "title": "RESTORE TRIAL: Study of the Efficacy and Safety of Pemvidutide in the Treatment of Alcohol-Associated Liver Disease (ALD)",
         "status": "ACTIVE_NOT_RECRUITING",
@@ -1144,16 +1128,6 @@
         "last_update": "",
         "start_date": "2025-06-16",
         "url": "https://clinicaltrials.gov/study/NCT07009860"
-      },
-      {
-        "nct_id": "NCT05134662",
-        "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Type 2 Diabetes",
-        "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05134662"
       },
       {
         "nct_id": "NCT00755703",
@@ -1176,14 +1150,14 @@
         "url": "https://clinicaltrials.gov/study/NCT06987513"
       },
       {
-        "nct_id": "NCT05295875",
-        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
+        "nct_id": "NCT05134662",
+        "title": "ALT-801 in Overweight and Obese Subjects With Type 2 Diabetes Mellitus (T2DM)",
         "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Obesity/Overweight",
+        "phase": "PHASE1",
+        "conditions": "Type 2 Diabetes",
         "last_update": "",
-        "start_date": "2022-03-31",
-        "url": "https://clinicaltrials.gov/study/NCT05295875"
+        "start_date": "2022-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT05134662"
       },
       {
         "nct_id": "NCT04561245",
@@ -1196,14 +1170,14 @@
         "url": "https://clinicaltrials.gov/study/NCT04561245"
       },
       {
-        "nct_id": "NCT03760549",
-        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
+        "nct_id": "NCT05292911",
+        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Influenza",
+        "phase": "PHASE1",
+        "conditions": "Non-Alcoholic Fatty Liver Disease",
         "last_update": "",
-        "start_date": "2019-01-21",
-        "url": "https://clinicaltrials.gov/study/NCT03760549"
+        "start_date": "2022-03-09",
+        "url": "https://clinicaltrials.gov/study/NCT05292911"
       },
       {
         "nct_id": "NCT03352466",
@@ -1214,6 +1188,16 @@
         "last_update": "",
         "start_date": "2018-01-18",
         "url": "https://clinicaltrials.gov/study/NCT03352466"
+      },
+      {
+        "nct_id": "NCT03232567",
+        "title": "Single-ascending-dose Study of the Safety and Immunogenicity of NasoVAX",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Influenza",
+        "last_update": "",
+        "start_date": "2017-09-18",
+        "url": "https://clinicaltrials.gov/study/NCT03232567"
       }
     ],
     "detected_triggers": [
@@ -1248,6 +1232,22 @@
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT00755703",
         "date": "2008-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Phase I Safety and Immunogenicity of FP-02.2 in Chronic Hepatitis B",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT02496897",
+        "date": "2015-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Immune Response Following Seasonal Influenza Vaccination",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT03163342",
+        "date": "2017-05-08"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1292,18 +1292,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "HepTcell Immunotherapy in Patients With Inactive Chronic Hepatitis B (CHB)",
-        "reason": "Studienregister-Treffer: TERMINATED PHASE2",
-        "source": "NCT04684914",
-        "date": "2020-12-26"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
         "title": "Safety and Immunogenicity of AdCOVID in Healthy Adults (COVID-19 Vaccine Study)",
         "reason": "Studienregister-Treffer: COMPLETED PHASE1",
         "source": "NCT04679909",
         "date": "2021-02-25"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With Non-alcoholic Fatty Liver Disease (NAFLD)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT05006885",
+        "date": "2021-09-30"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1316,18 +1316,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05295875",
-        "date": "2022-03-31"
+        "title": "Extension of ALT-801 in Diabetic and Non-Diabetic Overweight and Obese Subjects With (NAFLD)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT05292911",
+        "date": "2022-03-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "IMPACT TRIAL: Efficacy and Safety of Pemvidutide in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+        "title": "Efficacy and Safety of ALT-801 in the Treatment of Obesity",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05989711",
-        "date": "2023-07-27"
+        "source": "NCT05295875",
+        "date": "2022-03-31"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1390,14 +1390,6 @@
         "date": "2026-07-28"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Phase 3 Study of the Efficacy, Safety, and Clinical Outcomes of Pemvidutide in MASH",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07795164",
-        "date": "2026-07-30"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "10-Q · 2026-08-12",
@@ -1414,12 +1406,12 @@
         "date": "2026-08-12"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT03760549",
-        "date": "2019-01-21"
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-09-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-09-29"
       },
       {
         "type": "SEC Filing",
@@ -1433,14 +1425,6 @@
         "type": "SEC Filing",
         "level": "low",
         "title": "SCHEDULE 13G · 2026-05-01",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-01"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-05-01",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-01"

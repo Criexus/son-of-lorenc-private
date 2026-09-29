@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-29T06:23:10Z",
+    "last_update_utc": "2026-09-29T13:10:18Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -914,7 +914,23 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1hJZGx0YmQ3ek5PNEhyMDJMNTZaT2RMb3BVQmxReGNNMHVDWEpGa2JLd0xhamF4N25PMnJHTHBFeFVTaWhfLVVDMTJXaHg2bnhoSXgtckxYVUU2dkVqUnF6b1hQNkJyWnd1QVl5Sy1fX0tVVHY3N1ZPVVNfLXoxYmJPcWdQcUc4YXY0VFk4MnJFZTlfZXdMN1A4ckQ5anV5dVRRbEk5TjIyeWZTYnVpMzl3SQ?oc=5",
         "published_at": "2026-06-05T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: 157.000 Optionen für 17 Neueinstellungen - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTVY4NU5mb1FSZjY4aG93dlU0TWVFOUQ1VWZHSXJselRpbUF1cGFyVGRtQ3NpQ1pCMWlLYVFNaFpMZ2NrTlZMVEowTnpaZ0JBMm8yVk95ZDNmN0E4WWQtRXVYQkwtbHo0dU5ac29hQ3pzQ3BQMF9Ud2g2NWRxYjJxcVhwRVZFMVVzT2JKalBxTkx5OE1JZmpLejM2alZXN3lRTENpa0pHX1pLNFRNM0E?oc=5",
+        "published_at": "2026-06-05T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -940,22 +956,6 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 21
-      },
-      {
-        "title": "Compass Pathways: Aktie markiert neues 52-Wochen-Hoch bei 11,65 USD - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaklvWHJXU2o2NDJwa3NpRDNfMWNOSEpqMDhmQzJzWWMxN0hlazlHMEh5cGNwODRranl4UWM0ZDZtLXczUWZYYVE2aDNJV2RfYU11LUdkMjZQWTRmNjFSaER1RWRqZkM3eFFzTGRENk1aaklVSkFOeDBwVm94Zi1vMmJLZDJSdnZadkQ0cEp4T0dnZnJxQzZLQ3NlQjRTTnhZbVVXdkFRTEsyeUliUFpLRC14ekJjTXV2QWJJ?oc=5",
-        "published_at": "2026-05-21T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
       },
       {
         "title": "Compass Pathways: Rolling Review für COMP360 - Börse Express",
@@ -1054,10 +1054,10 @@
         "relevance_score": 16
       },
       {
-        "title": "COMPASS Pathways plc (CMPS) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "title": "COMPASS Pathways plc (CMPS) Aktienkurs, Nachrichten, Kurs und Verlauf - de.finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2cEs0R2l0LWJkYkI5SXRoRy1oUVAyUC1ISm5wNGdLbXlJS2ZfQUlWaXdlZVN3YlZBNTFKbjV6OW1ZVlRMMWhMb1JXWjVLYml2b0E?oc=5",
         "published_at": "2020-12-23T18:38:23Z",
-        "source": "Yahoo Finanzen Deutschland",
+        "source": "de.finance.yahoo.com",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1214,54 +1214,34 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05624268",
-        "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
+        "nct_id": "NCT04433858",
+        "title": "An Open Label Study of the Safety and Efficacy of Psilocybin in Participants With Treatment-Resistant Depression (P-TRD)",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
         "conditions": "Treatment Resistant Depression",
         "last_update": "",
-        "start_date": "2023-01-24",
-        "url": "https://clinicaltrials.gov/study/NCT05624268"
+        "start_date": "2021-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT04433858"
       },
       {
-        "nct_id": "NCT05312151",
-        "title": "The Safety and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
+        "nct_id": "NCT05220410",
+        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
         "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "Post Traumatic Stress Disorder",
+        "conditions": "Treatment Resistant Depression, Suicidal Ideation",
         "last_update": "",
-        "start_date": "2022-06-10",
-        "url": "https://clinicaltrials.gov/study/NCT05312151"
+        "start_date": "2022-03-28",
+        "url": "https://clinicaltrials.gov/study/NCT05220410"
       },
       {
-        "nct_id": "NCT04661514",
-        "title": "Evaluation of Psilocybin in Anorexia Nervosa: Safety and Efficacy",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Anorexia Nervosa",
+        "nct_id": "NCT07341919",
+        "title": "Subtenon Autologous Platelet-Rich Plasma in Inherited and Degenerative Retinal Diseases",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Extensive Macular Atrophy With Pseudodrusen (EMAP), Retinitis Pigmentosa (RP)",
         "last_update": "",
-        "start_date": "2021-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT04661514"
-      },
-      {
-        "nct_id": "NCT06258031",
-        "title": "PsilOCD: A Pharmacological-Challenge Feasibility Study",
-        "status": "COMPLETED",
-        "phase": "PHASE1",
-        "conditions": "Obsessive-Compulsive Disorder",
-        "last_update": "",
-        "start_date": "2022-10-28",
-        "url": "https://clinicaltrials.gov/study/NCT06258031"
-      },
-      {
-        "nct_id": "NCT05651126",
-        "title": "Psilocybin in Adults With and Without Autism Spectrum Disorder",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Autism Spectrum Disorder",
-        "last_update": "",
-        "start_date": "2022-12-12",
-        "url": "https://clinicaltrials.gov/study/NCT05651126"
+        "start_date": "2025-01-04",
+        "url": "https://clinicaltrials.gov/study/NCT07341919"
       },
       {
         "nct_id": "NCT07613879",
@@ -1274,74 +1254,64 @@
         "url": "https://clinicaltrials.gov/study/NCT07613879"
       },
       {
-        "nct_id": "NCT04519957",
-        "title": "Long Term Follow Up Study to COMP 001 And COMP 003 Trials (P-TRD LTFU)",
+        "nct_id": "NCT05624268",
+        "title": "Efficacy, Safety, and Tolerability of COMP360 in Participants With TRD",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2020-07-20",
-        "url": "https://clinicaltrials.gov/study/NCT04519957"
-      },
-      {
-        "nct_id": "NCT06222359",
-        "title": "Identifying and Managing Psychological Distress in Multiple Sclerosis: The COMPASS-MS Study",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Multiple Sclerosis, Depression, Anxiety",
-        "last_update": "",
-        "start_date": "2024-02",
-        "url": "https://clinicaltrials.gov/study/NCT06222359"
-      },
-      {
-        "nct_id": "NCT04241796",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Cancer",
-        "last_update": "",
-        "start_date": "2019-12-12",
-        "url": "https://clinicaltrials.gov/study/NCT04241796"
-      },
-      {
-        "nct_id": "NCT04433858",
-        "title": "An Open Label Study of the Safety and Efficacy of Psilocybin in Participants With Treatment-Resistant Depression (P-TRD)",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2021-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT04433858"
-      },
-      {
-        "nct_id": "NCT06247839",
-        "title": "The Effects of Psilocybin on Self-Focus and Self-Related Processing in Major Depressive Disorder",
-        "status": "RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Major Depressive Disorder",
+        "conditions": "Treatment Resistant Depression",
         "last_update": "",
-        "start_date": "2024-09-10",
-        "url": "https://clinicaltrials.gov/study/NCT06247839"
+        "start_date": "2023-01-24",
+        "url": "https://clinicaltrials.gov/study/NCT05624268"
       },
       {
-        "nct_id": "NCT07252856",
-        "title": "Transcultural Digital Solutions in Phase III Cardiac Rehabilitation",
-        "status": "RECRUITING",
+        "nct_id": "NCT05381974",
+        "title": "The Effects of Psilocybin on Self-Focus and Self-Related Processing in Treatment Resistant MDD",
+        "status": "WITHDRAWN",
+        "phase": "PHASE2",
+        "conditions": "Treatment-Resistant Major Depressive Disorder",
+        "last_update": "",
+        "start_date": "2022-09-15",
+        "url": "https://clinicaltrials.gov/study/NCT05381974"
+      },
+      {
+        "nct_id": "NCT07348588",
+        "title": "Intravitreal Adalimumab in Inherited and Degenerative Retinal Diseases",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Retinitis Pigmentosa (RP), Extensive Macular Atrophy With Pseudodrusen (EMAP)",
+        "last_update": "",
+        "start_date": "2025-07-10",
+        "url": "https://clinicaltrials.gov/study/NCT07348588"
+      },
+      {
+        "nct_id": "NCT05704153",
+        "title": "Modelling and Control of Non-invasive Vagus Nerve Stimulation for Autoimmune Diseases (1A)",
+        "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Heart Failure, Myocardial Infarction",
+        "conditions": "Systemic Lupus Erythematosus, Autoimmune Disorder, Vagus Nerve Autonomic Disorder",
         "last_update": "",
-        "start_date": "2026-04-20",
-        "url": "https://clinicaltrials.gov/study/NCT07252856"
+        "start_date": "2022-09-30",
+        "url": "https://clinicaltrials.gov/study/NCT05704153"
       },
       {
-        "nct_id": "NCT04015258",
-        "title": "Blueberry Study Aimed at Improving Cognition and Peripheral Blood Flow",
+        "nct_id": "NCT04656301",
+        "title": "Safety and Efficacy of Psilocybin for Body Dysmorphic Disorder",
         "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Vascular Stiffness, Cognitive Change, Blood Pressure",
+        "phase": "PHASE2",
+        "conditions": "Body Dysmorphic Disorders",
         "last_update": "",
-        "start_date": "2019-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT04015258"
+        "start_date": "2021-02-26",
+        "url": "https://clinicaltrials.gov/study/NCT04656301"
+      },
+      {
+        "nct_id": "NCT03428958",
+        "title": "A Safety, Pharmacokinetic and Efficacy Study of NUC-3373 in Combination With Standard Agents Used in Colorectal Cancer Treatment",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Colorectal Cancer, Colorectal Neoplasms, Colorectal Carcinoma, Colorectal Tumors",
+        "last_update": "",
+        "start_date": "2018-10-05",
+        "url": "https://clinicaltrials.gov/study/NCT03428958"
       },
       {
         "nct_id": "NCT06132178",
@@ -1354,14 +1324,44 @@
         "url": "https://clinicaltrials.gov/study/NCT06132178"
       },
       {
-        "nct_id": "NCT04739865",
-        "title": "The Safety and Efficacy Of Psilocybin as an Adjunctive Therapy in Participants With Treatment Resistant Depression",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression",
+        "nct_id": "NCT07252856",
+        "title": "Transcultural Digital Solutions in Phase III Cardiac Rehabilitation",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Heart Failure, Myocardial Infarction",
         "last_update": "",
-        "start_date": "2020-08-10",
-        "url": "https://clinicaltrials.gov/study/NCT04739865"
+        "start_date": "2026-04-20",
+        "url": "https://clinicaltrials.gov/study/NCT07252856"
+      },
+      {
+        "nct_id": "NCT06247839",
+        "title": "The Effects of Psilocybin on Self-Focus and Self-Related Processing in Major Depressive Disorder",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Major Depressive Disorder",
+        "last_update": "",
+        "start_date": "2024-09-10",
+        "url": "https://clinicaltrials.gov/study/NCT06247839"
+      },
+      {
+        "nct_id": "NCT06222359",
+        "title": "Identifying and Managing Psychological Distress in Multiple Sclerosis: The COMPASS-MS Study",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Multiple Sclerosis, Depression, Anxiety",
+        "last_update": "",
+        "start_date": "2024-02",
+        "url": "https://clinicaltrials.gov/study/NCT06222359"
+      },
+      {
+        "nct_id": "NCT05651126",
+        "title": "Psilocybin in Adults With and Without Autism Spectrum Disorder",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Autism Spectrum Disorder",
+        "last_update": "",
+        "start_date": "2022-12-12",
+        "url": "https://clinicaltrials.gov/study/NCT05651126"
       }
     ],
     "detected_triggers": [
@@ -1412,26 +1412,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Blueberry Study Aimed at Improving Cognition and Peripheral Blood Flow",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04015258",
-        "date": "2019-01-01"
+        "title": "A Safety, Pharmacokinetic and Efficacy Study of NUC-3373 in Combination With Standard Agents Used in Colorectal Cancer Treatment",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1, PHASE2",
+        "source": "NCT03428958",
+        "date": "2018-10-05"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04241796",
-        "date": "2019-12-12"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Safety and Efficacy Of Psilocybin as an Adjunctive Therapy in Participants With Treatment Resistant Depression",
+        "title": "Safety and Efficacy of Psilocybin for Body Dysmorphic Disorder",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT04739865",
-        "date": "2020-08-10"
+        "source": "NCT04656301",
+        "date": "2021-02-26"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1444,26 +1436,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Evaluation of Psilocybin in Anorexia Nervosa: Safety and Efficacy",
+        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT04661514",
-        "date": "2021-05-01"
+        "source": "NCT05220410",
+        "date": "2022-03-28"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Safety and Tolerability of COMP360 in Participants With Post-traumatic Stress Disorder",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05312151",
-        "date": "2022-06-10"
+        "title": "The Effects of Psilocybin on Self-Focus and Self-Related Processing in Treatment Resistant MDD",
+        "reason": "Studienregister-Treffer: WITHDRAWN PHASE2",
+        "source": "NCT05381974",
+        "date": "2022-09-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "PsilOCD: A Pharmacological-Challenge Feasibility Study",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
-        "source": "NCT06258031",
-        "date": "2022-10-28"
+        "title": "Modelling and Control of Non-invasive Vagus Nerve Stimulation for Autoimmune Diseases (1A)",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05704153",
+        "date": "2022-09-30"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1492,10 +1484,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
+        "title": "Subtenon Autologous Platelet-Rich Plasma in Inherited and Degenerative Retinal Diseases",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1, PHASE2",
+        "source": "NCT07341919",
+        "date": "2025-01-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
         "title": "Psilocybin rTMS for Treatment Resistant Depression",
         "reason": "Studienregister-Treffer: RECRUITING PHASE2",
         "source": "NCT06132178",
         "date": "2025-01-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Intravitreal Adalimumab in Inherited and Degenerative Retinal Diseases",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1, PHASE2",
+        "source": "NCT07348588",
+        "date": "2025-07-10"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1560,14 +1568,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-05"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Long Term Follow Up Study to COMP 001 And COMP 003 Trials (P-TRD LTFU)",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT04519957",
-        "date": "2020-07-20"
       },
       {
         "type": "ClinicalTrials.gov",
