@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$12.53",
-      "note": "Auto-Update: -8.87% vs. vorheriger Schlusskurs",
+      "value": "$12.44",
+      "note": "Auto-Update: -9.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-30T19:31:34Z",
+    "last_update_utc": "2026-09-30T23:18:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 12.53,
+      "regularMarketPrice": 12.44,
       "previousClose": 13.75,
-      "change": -1.22,
-      "changePercent": -8.87,
-      "regularMarketTime": "2026-09-30T19:31:23Z",
+      "change": -1.31,
+      "changePercent": -9.53,
+      "regularMarketTime": "2026-09-30T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "4.88 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-08-31T13:30:00Z",
-        "price": 13.51
-      },
       {
         "t": "2026-09-01T13:30:00Z",
         "price": 13.24
@@ -417,7 +413,7 @@
       },
       {
         "t": "2026-09-30T13:30:00Z",
-        "price": 12.53
+        "price": 12.44
       }
     ],
     "price_history_1d": [
@@ -711,11 +707,31 @@
       },
       {
         "t": "2026-09-30T19:30:00Z",
-        "price": 12.525
+        "price": 12.53
       },
       {
-        "t": "2026-09-30T19:31:23Z",
-        "price": 12.53
+        "t": "2026-09-30T19:35:00Z",
+        "price": 12.52
+      },
+      {
+        "t": "2026-09-30T19:40:00Z",
+        "price": 12.51
+      },
+      {
+        "t": "2026-09-30T19:45:00Z",
+        "price": 12.505
+      },
+      {
+        "t": "2026-09-30T19:50:00Z",
+        "price": 12.445
+      },
+      {
+        "t": "2026-09-30T19:55:00Z",
+        "price": 12.435
+      },
+      {
+        "t": "2026-09-30T20:00:00Z",
+        "price": 12.44
       }
     ],
     "price_history_range": "1mo",
@@ -738,10 +754,10 @@
         "relevance_score": 10
       },
       {
-        "title": "Compass Pathways: 433 Mio. Dollar Kassenbestand sichern Finanzierung bis 2028 - it-boltwise.de",
+        "title": "Compass Pathways: 433 Mio. Dollar Kassenbestand sichern Finanzierung bis 2028 - it boltwise",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2Jhemw3cnpzejVhdWtBYmNtUGpWcnN4NEpORDR2SmRlQ2tabHBvcGJOZ1RSOXg3SVFsTlhFMkNtV0FLSXhSRHczQnZISE1vWHF5ZjgtMHVQZlFVbjdFRjNvOENoN3VIenlkUHVQbDVERldmcG5HRGpPVGd5UWM4VnJzeGNZOC1GZm5DazZIUHZaOUxDNUEyd1pPSkFTdHB0Z1VzNkw0dG9rVGc?oc=5",
         "published_at": "2026-08-06T07:00:00Z",
-        "source": "it-boltwise.de",
+        "source": "it boltwise",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -914,6 +930,22 @@
         "relevance_score": 17
       },
       {
+        "title": "Compass Pathways: 157.000 Optionen für 17 Neueinstellungen - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTVY4NU5mb1FSZjY4aG93dlU0TWVFOUQ1VWZHSXJselRpbUF1cGFyVGRtQ3NpQ1pCMWlLYVFNaFpMZ2NrTlZMVEowTnpaZ0JBMm8yVk95ZDNmN0E4WWQtRXVYQkwtbHo0dU5ac29hQ3pzQ3BQMF9Ud2g2NWRxYjJxcVhwRVZFMVVzT2JKalBxTkx5OE1JZmpLejM2alZXN3lRTENpa0pHX1pLNFRNM0E?oc=5",
+        "published_at": "2026-06-05T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
         "title": "Compass Pathways steigt nach TD-Cowen-Update: Buy bleibt bestehen, Zulassung für COMP360 in 1H27 im Fokus - goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQmZGUnpEMGJJbkUzVGpwZldRRHk1OTRiRE1Rb3gzQ2VDeFc5OVFQM3lGSUh0WVdJeGZQZ3oydFZDek9rcWRkMDF2a0pGaXY2b183bzlHQmZtdjVCZXpfWlFXVUdSU0pRZWJFc1RVTm1SQll2Zk41SnVrZ0xMZEtkaWthN0ljY1gxSS15cHFSYmFkRWp4VUxyRnI0emRRaDVsdThaNTNKMUpDekY4blU5S3RJei1YcnE4bl9YdTZ2MW9DQ25WNWl4ZngwaXAyTVhE?oc=5",
         "published_at": "2026-06-01T07:00:00Z",
@@ -1040,22 +1072,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 20
-      },
-      {
-        "title": "COMPASS PATHWAYS AKTIE | Aktienkurs | US20451W1018 | News | A2QCDR - finanzen.net",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0OUtuenN6Q29SS092dGdlU29sWGV1RFlBRHBkdTdhMjkxLUdIVGw2cmJkWWJ4UjFZd1BSMEg1TTFSWjdSTVlyWHlNTzcyWjBEVzIxUURqUTB1MDMwblpiN0kyeW4?oc=5",
-        "published_at": "2020-09-22T04:43:43Z",
-        "source": "finanzen.net",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
       }
     ],
     "sec_filings": [
