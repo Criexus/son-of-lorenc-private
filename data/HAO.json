@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$2.75",
-      "note": "Auto-Update: -3.51% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -12.97% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-09-30T07:40:21Z",
+    "last_update_utc": "2026-09-30T14:23:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
       "regularMarketPrice": 2.75,
-      "previousClose": 2.85,
-      "change": -0.1,
-      "changePercent": -3.51,
-      "regularMarketTime": "2026-09-29T20:00:00Z",
+      "previousClose": 3.16,
+      "change": -0.41,
+      "changePercent": -12.97,
+      "regularMarketTime": "2026-09-30T14:17:39Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -298,91 +298,27 @@
       {
         "t": "2026-09-29T13:30:00Z",
         "price": 2.75
+      },
+      {
+        "t": "2026-09-30T13:30:00Z",
+        "price": 2.75
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-29T13:30:00Z",
-        "price": 2.75
+        "t": "2026-09-30T13:35:00Z",
+        "price": 2.71
       },
       {
-        "t": "2026-09-29T13:35:00Z",
-        "price": 2.6815
-      },
-      {
-        "t": "2026-09-29T14:00:00Z",
+        "t": "2026-09-30T13:55:00Z",
         "price": 2.74
       },
       {
-        "t": "2026-09-29T14:05:00Z",
-        "price": 2.77
+        "t": "2026-09-30T14:10:00Z",
+        "price": 2.74
       },
       {
-        "t": "2026-09-29T14:10:00Z",
-        "price": 2.77
-      },
-      {
-        "t": "2026-09-29T14:40:00Z",
-        "price": 2.7201
-      },
-      {
-        "t": "2026-09-29T14:45:00Z",
-        "price": 2.77
-      },
-      {
-        "t": "2026-09-29T15:00:00Z",
-        "price": 2.73
-      },
-      {
-        "t": "2026-09-29T15:35:00Z",
-        "price": 2.73
-      },
-      {
-        "t": "2026-09-29T16:10:00Z",
-        "price": 2.75
-      },
-      {
-        "t": "2026-09-29T16:35:00Z",
-        "price": 2.7484
-      },
-      {
-        "t": "2026-09-29T16:50:00Z",
-        "price": 2.7
-      },
-      {
-        "t": "2026-09-29T17:30:00Z",
-        "price": 2.7
-      },
-      {
-        "t": "2026-09-29T17:35:00Z",
-        "price": 2.77
-      },
-      {
-        "t": "2026-09-29T17:50:00Z",
-        "price": 2.75
-      },
-      {
-        "t": "2026-09-29T18:10:00Z",
-        "price": 2.6801
-      },
-      {
-        "t": "2026-09-29T18:35:00Z",
-        "price": 2.7295
-      },
-      {
-        "t": "2026-09-29T19:00:00Z",
-        "price": 2.75
-      },
-      {
-        "t": "2026-09-29T19:10:00Z",
-        "price": 2.77
-      },
-      {
-        "t": "2026-09-29T19:25:00Z",
-        "price": 2.77
-      },
-      {
-        "t": "2026-09-29T20:00:00Z",
+        "t": "2026-09-30T14:17:39Z",
         "price": 2.75
       }
     ],
@@ -533,64 +469,64 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05752097",
-        "title": "[18F]AlF-NOTA-FAPI-04 PET/CT in Inflammation and Fibrosis in Renal Diseases",
+        "nct_id": "NCT05976932",
+        "title": "Circulating Tumor DNA Monitoring in Platinum-resistant Ovarian Cancer",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "18F-FAPI PET/CT Examination, Renal Puncture Biopsy",
+        "conditions": "Ovarian Cancer",
         "last_update": "",
-        "start_date": "2023-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05752097"
+        "start_date": "2023-08",
+        "url": "https://clinicaltrials.gov/study/NCT05976932"
       },
       {
-        "nct_id": "NCT05035797",
-        "title": "CaRe-ECMO Program on ECMO Weaning",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Critical Illness",
-        "last_update": "",
-        "start_date": "2021-10-15",
-        "url": "https://clinicaltrials.gov/study/NCT05035797"
-      },
-      {
-        "nct_id": "NCT07114380",
-        "title": "Investigation of Cold Snare Polypectomy for Removing 10-20 mm 0-Ip Colorectal Polyp",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "10-20 mm Pedunculated Colorectal Polyp",
-        "last_update": "",
-        "start_date": "2025-08-25",
-        "url": "https://clinicaltrials.gov/study/NCT07114380"
-      },
-      {
-        "nct_id": "NCT05149027",
-        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Solid Tumors",
-        "last_update": "",
-        "start_date": "2021-12-20",
-        "url": "https://clinicaltrials.gov/study/NCT05149027"
-      },
-      {
-        "nct_id": "NCT07139470",
-        "title": "Sacituzumab Tirumotecan Plus Anlotinib for Metastatic Triple Negative Breast Cancer",
+        "nct_id": "NCT07315035",
+        "title": "QL1706-SOX vs SOX Alone as Neoadjuvant Therapy for Resectable Diffuse-Type Gastric Cancer",
         "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Triple Negative Breast Cancer",
+        "phase": "PHASE2",
+        "conditions": "Gastric Cancer Stage III",
         "last_update": "",
-        "start_date": "2025-08-15",
-        "url": "https://clinicaltrials.gov/study/NCT07139470"
+        "start_date": "2026-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT07315035"
       },
       {
-        "nct_id": "NCT05663424",
-        "title": "Comparative Efficacy of Different Time Interval Between rTMS and Rehabilitation Program for Motor Recovery in Stroke Patients",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Stroke",
+        "nct_id": "NCT07391826",
+        "title": "Megestrol Acetate Oral Suspension for Cachexia in Patients With cStage III Gastric/Gastroesophageal Junction Adenocarcinoma Receiving Neoadjuvant Therapy With Serplulimab Combined With SOX",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Stage III Gastric Cancer",
         "last_update": "",
-        "start_date": "2023-01",
-        "url": "https://clinicaltrials.gov/study/NCT05663424"
+        "start_date": "2026-02-15",
+        "url": "https://clinicaltrials.gov/study/NCT07391826"
+      },
+      {
+        "nct_id": "NCT03356444",
+        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Prostate Cancer, Castration-resistant Prostate Cancer, Drug",
+        "last_update": "",
+        "start_date": "2017-11",
+        "url": "https://clinicaltrials.gov/study/NCT03356444"
+      },
+      {
+        "nct_id": "NCT05512455",
+        "title": "Accuracy of Various Virtual Articulator Mounting Procedures: An in Vivo Study",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Occlusion",
+        "last_update": "",
+        "start_date": "2022-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT05512455"
+      },
+      {
+        "nct_id": "NCT05747768",
+        "title": "A Clinical Study to Evaluate the Pharmacokinetics of Microdose Midazolam, Dabigatran, Pitavastatin, Atorvastatin and Rosuvastatin in Healthy Volunteers and Renal Impairment Patients",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Chronic Kidney Disease",
+        "last_update": "",
+        "start_date": "2022-07-15",
+        "url": "https://clinicaltrials.gov/study/NCT05747768"
       },
       {
         "nct_id": "NCT07205705",
@@ -603,84 +539,84 @@
         "url": "https://clinicaltrials.gov/study/NCT07205705"
       },
       {
-        "nct_id": "NCT06583070",
-        "title": "SABR Combined With Targeted Therapy and Anti-PD-1 for Recurrent or Metastatic Renal Cancer",
+        "nct_id": "NCT05290454",
+        "title": "mNGS -Guided Antimicrobial Treatment in Early Severe Community-Acquired Pneumonia Among Immunocompromised Patients",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Severe Acute Respiratory Infection, Community-acquired Pneumonia, Respiratory Tract Infections, Pneumonia",
+        "last_update": "",
+        "start_date": "2022-08-19",
+        "url": "https://clinicaltrials.gov/study/NCT05290454"
+      },
+      {
+        "nct_id": "NCT07350564",
+        "title": "Intensive Versus Conventional Blood Pressure Control Following Stroke Thrombectomy",
         "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Radiation Therapy, Metastatic Renal Cancer, Recurrent Renal Cell Cancer",
-        "last_update": "",
-        "start_date": "2024-02-02",
-        "url": "https://clinicaltrials.gov/study/NCT06583070"
-      },
-      {
-        "nct_id": "NCT06564129",
-        "title": "Prediction of Anterior Circulation Large Vessel Occlusion Stroke With EEG",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Anterior Large Vessel Occlusion Stroke",
-        "last_update": "",
-        "start_date": "2024-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT06564129"
-      },
-      {
-        "nct_id": "NCT02812602",
-        "title": "Topical Anesthesia for Removal of Stitches After Total Knee Arthroplasty",
-        "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Metal Staple Removal After Total Knee Replacement",
+        "conditions": "Stroke",
         "last_update": "",
-        "start_date": "2016-04",
-        "url": "https://clinicaltrials.gov/study/NCT02812602"
+        "start_date": "2025-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT07350564"
       },
       {
-        "nct_id": "NCT06939439",
-        "title": "Using ctDNA to Guide Treatment Decisions for Stage III Gastric Cancer",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Gastric Cancer Stage III",
+        "nct_id": "NCT07284199",
+        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "CABG, Aortic Dissection, Valvular Heart Diseases",
         "last_update": "",
-        "start_date": "2024-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT06939439"
+        "start_date": "2025-12-15",
+        "url": "https://clinicaltrials.gov/study/NCT07284199"
       },
       {
-        "nct_id": "NCT07125612",
-        "title": "Impact of Perioperative Allogeneic Red Blood Cell Transfusion on Postoperative Myocardial Injury After Liver Resection",
+        "nct_id": "NCT03123406",
+        "title": "Efficacy and Safety of Cinacalcet in Ca, P and iPTH Levels in Patients With Mild, Moderate and Severe SHPT",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Myocardial Injury, Acuter Kidney Injury",
+        "phase": "PHASE4",
+        "conditions": "Hyperparathyroidism; Secondary, Renal",
         "last_update": "",
-        "start_date": "2016-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT07125612"
+        "start_date": "2017-04-19",
+        "url": "https://clinicaltrials.gov/study/NCT03123406"
       },
       {
-        "nct_id": "NCT05815069",
-        "title": "[18F]AlF-NOTA-pentixather PET/CT in Patients With Suspected Primary Hyperaldosteronism",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Primary Hyperaldosteronism, Aldosterone-Producing Adenoma",
-        "last_update": "",
-        "start_date": "2023-01-07",
-        "url": "https://clinicaltrials.gov/study/NCT05815069"
-      },
-      {
-        "nct_id": "NCT02971475",
-        "title": "ESWL Versus ESWL and Endoscopic Treatment",
+        "nct_id": "NCT04814485",
+        "title": "Efficacy and Safety of SHR-1020 Combined With Albumin-bound Paclitaxel in the Second-line Treatment of Pancreatic Cancer",
         "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Pancreatitis",
-        "last_update": "",
-        "start_date": "2016-11",
-        "url": "https://clinicaltrials.gov/study/NCT02971475"
-      },
-      {
-        "nct_id": "NCT05008965",
-        "title": "Evaluate the Efficacy and Safety of FB825 in Adult With Allergic Asthma",
-        "status": "RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Allergic Asthma",
+        "conditions": "Pancreatic Cancer",
         "last_update": "",
-        "start_date": "2021-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT05008965"
+        "start_date": "2021-04-22",
+        "url": "https://clinicaltrials.gov/study/NCT04814485"
+      },
+      {
+        "nct_id": "NCT06175481",
+        "title": "Correlation Between Popliteal Vein Compliance and Venous Clinical Severity Score",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Chronic Venous Disease (CVD), Vein Compliance, Venous Clinical Severity Score (VCSS)",
+        "last_update": "",
+        "start_date": "2023-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT06175481"
+      },
+      {
+        "nct_id": "NCT02928081",
+        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Carcinoma, Pancreatic Ductal",
+        "last_update": "",
+        "start_date": "2016-01",
+        "url": "https://clinicaltrials.gov/study/NCT02928081"
+      },
+      {
+        "nct_id": "NCT05587400",
+        "title": "Consistency of Electrical Cardiometry and Pulmonary Artery Catheter",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Pulmonary Arterial Hypertension, Right Ventricular Dysfunction",
+        "last_update": "",
+        "start_date": "2022-07-27",
+        "url": "https://clinicaltrials.gov/study/NCT05587400"
       }
     ],
     "detected_triggers": [
@@ -703,82 +639,66 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Topical Anesthesia for Removal of Stitches After Total Knee Arthroplasty",
+        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02812602",
-        "date": "2016-04"
+        "source": "NCT02928081",
+        "date": "2016-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "ESWL Versus ESWL and Endoscopic Treatment",
+        "title": "Efficacy and Safety of Cinacalcet in Ca, P and iPTH Levels in Patients With Mild, Moderate and Severe SHPT",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT03123406",
+        "date": "2017-04-19"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT03356444",
+        "date": "2017-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy and Safety of SHR-1020 Combined With Albumin-bound Paclitaxel in the Second-line Treatment of Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT04814485",
+        "date": "2021-04-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Study to Evaluate the Pharmacokinetics of Microdose Midazolam, Dabigatran, Pitavastatin, Atorvastatin and Rosuvastatin in Healthy Volunteers and Renal Impairment Patients",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT05747768",
+        "date": "2022-07-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Consistency of Electrical Cardiometry and Pulmonary Artery Catheter",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02971475",
-        "date": "2016-11"
+        "source": "NCT05587400",
+        "date": "2022-07-27"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Evaluate the Efficacy and Safety of FB825 in Adult With Allergic Asthma",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT05008965",
-        "date": "2021-07-27"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "CaRe-ECMO Program on ECMO Weaning",
+        "title": "mNGS -Guided Antimicrobial Treatment in Early Severe Community-Acquired Pneumonia Among Immunocompromised Patients",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05035797",
-        "date": "2021-10-15"
+        "source": "NCT05290454",
+        "date": "2022-08-19"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT05149027",
-        "date": "2021-12-20"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Comparative Efficacy of Different Time Interval Between rTMS and Rehabilitation Program for Motor Recovery in Stroke Patients",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05663424",
-        "date": "2023-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "[18F]AlF-NOTA-pentixather PET/CT in Patients With Suspected Primary Hyperaldosteronism",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05815069",
-        "date": "2023-01-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Using ctDNA to Guide Treatment Decisions for Stage III Gastric Cancer",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE3",
-        "source": "NCT06939439",
-        "date": "2024-12-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Sacituzumab Tirumotecan Plus Anlotinib for Metastatic Triple Negative Breast Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1, PHASE2",
-        "source": "NCT07139470",
-        "date": "2025-08-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Investigation of Cold Snare Polypectomy for Removing 10-20 mm 0-Ip Colorectal Polyp",
+        "title": "Intensive Versus Conventional Blood Pressure Control Following Stroke Thrombectomy",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07114380",
-        "date": "2025-08-25"
+        "source": "NCT07350564",
+        "date": "2025-11-01"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -789,12 +709,36 @@
         "date": "2025-11-15"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07284199",
+        "date": "2025-12-15"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "QL1706-SOX vs SOX Alone as Neoadjuvant Therapy for Resectable Diffuse-Type Gastric Cancer",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT07315035",
+        "date": "2026-01-01"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-02-10",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-02-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Megestrol Acetate Oral Suspension for Cachexia in Patients With cStage III Gastric/Gastroesophageal Junction Adenocarcinoma Receiving Neoadjuvant Therapy With Serplulimab Combined With SOX",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT07391826",
+        "date": "2026-02-15"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -879,34 +823,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Impact of Perioperative Allogeneic Red Blood Cell Transfusion on Postoperative Myocardial Injury After Liver Resection",
+        "title": "Accuracy of Various Virtual Articulator Mounting Procedures: An in Vivo Study",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05512455",
+        "date": "2022-04-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Correlation Between Popliteal Vein Compliance and Venous Clinical Severity Score",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT07125612",
-        "date": "2016-01-01"
+        "source": "NCT06175481",
+        "date": "2023-06-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "[18F]AlF-NOTA-FAPI-04 PET/CT in Inflammation and Fibrosis in Renal Diseases",
+        "title": "Circulating Tumor DNA Monitoring in Platinum-resistant Ovarian Cancer",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05752097",
-        "date": "2023-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "SABR Combined With Targeted Therapy and Anti-PD-1 for Recurrent or Metastatic Renal Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06583070",
-        "date": "2024-02-02"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Prediction of Anterior Circulation Large Vessel Occlusion Stroke With EEG",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06564129",
-        "date": "2024-09-01"
+        "source": "NCT05976932",
+        "date": "2023-08"
       },
       {
         "type": "SEC Filing",
