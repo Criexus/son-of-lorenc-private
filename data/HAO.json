@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.73",
-      "note": "Auto-Update: -13.61% vs. vorheriger Schlusskurs",
+      "value": "$2.69",
+      "note": "Auto-Update: -9.43% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-01T09:10:20Z",
+    "last_update_utc": "2026-10-01T16:35:27Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.73,
-      "previousClose": 3.16,
-      "change": -0.43,
-      "changePercent": -13.61,
-      "regularMarketTime": "2026-09-30T20:00:00Z",
+      "regularMarketPrice": 2.69,
+      "previousClose": 2.97,
+      "change": -0.28,
+      "changePercent": -9.43,
+      "regularMarketTime": "2026-10-01T16:16:11Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -298,96 +298,44 @@
       {
         "t": "2026-09-30T13:30:00Z",
         "price": 2.73
+      },
+      {
+        "t": "2026-10-01T13:30:00Z",
+        "price": 2.69
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-09-30T13:35:00Z",
-        "price": 2.71
+        "t": "2026-10-01T14:05:00Z",
+        "price": 2.6701
       },
       {
-        "t": "2026-09-30T13:55:00Z",
-        "price": 2.74
+        "t": "2026-10-01T14:10:00Z",
+        "price": 2.6705
       },
       {
-        "t": "2026-09-30T14:10:00Z",
-        "price": 2.74
-      },
-      {
-        "t": "2026-09-30T14:15:00Z",
+        "t": "2026-10-01T14:15:00Z",
         "price": 2.75
       },
       {
-        "t": "2026-09-30T14:30:00Z",
-        "price": 2.7105
+        "t": "2026-10-01T14:45:00Z",
+        "price": 2.6707
       },
       {
-        "t": "2026-09-30T15:10:00Z",
-        "price": 2.72
-      },
-      {
-        "t": "2026-09-30T15:30:00Z",
-        "price": 2.71
-      },
-      {
-        "t": "2026-09-30T15:50:00Z",
+        "t": "2026-10-01T15:00:00Z",
         "price": 2.78
       },
       {
-        "t": "2026-09-30T16:00:00Z",
-        "price": 2.7105
-      },
-      {
-        "t": "2026-09-30T16:10:00Z",
-        "price": 2.765
-      },
-      {
-        "t": "2026-09-30T16:15:00Z",
-        "price": 2.76
-      },
-      {
-        "t": "2026-09-30T16:45:00Z",
-        "price": 2.76
-      },
-      {
-        "t": "2026-09-30T18:00:00Z",
+        "t": "2026-10-01T15:10:00Z",
         "price": 2.77
       },
       {
-        "t": "2026-09-30T18:05:00Z",
-        "price": 2.77
+        "t": "2026-10-01T16:05:00Z",
+        "price": 2.78
       },
       {
-        "t": "2026-09-30T18:10:00Z",
-        "price": 2.771
-      },
-      {
-        "t": "2026-09-30T18:20:00Z",
-        "price": 2.76
-      },
-      {
-        "t": "2026-09-30T18:35:00Z",
-        "price": 2.77
-      },
-      {
-        "t": "2026-09-30T18:45:00Z",
-        "price": 2.7701
-      },
-      {
-        "t": "2026-09-30T19:20:00Z",
-        "price": 2.8
-      },
-      {
-        "t": "2026-09-30T19:50:00Z",
-        "price": 2.74
-      },
-      {
-        "t": "2026-09-30T19:55:00Z",
-        "price": 2.74
-      },
-      {
-        "t": "2026-09-30T20:00:00Z",
-        "price": 2.73
+        "t": "2026-10-01T16:16:11Z",
+        "price": 2.69
       }
     ],
     "price_history_range": "1mo",
@@ -537,154 +485,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05976932",
-        "title": "Circulating Tumor DNA Monitoring in Platinum-resistant Ovarian Cancer",
-        "status": "UNKNOWN",
+        "nct_id": "NCT05976607",
+        "title": "Clinical Study of 18F -FAPI-RGD in Renal Tumor",
+        "status": "COMPLETED",
         "phase": "",
-        "conditions": "Ovarian Cancer",
+        "conditions": "Renal Tumor",
         "last_update": "",
-        "start_date": "2023-08",
-        "url": "https://clinicaltrials.gov/study/NCT05976932"
+        "start_date": "2023-06-20",
+        "url": "https://clinicaltrials.gov/study/NCT05976607"
       },
       {
-        "nct_id": "NCT07315035",
-        "title": "QL1706-SOX vs SOX Alone as Neoadjuvant Therapy for Resectable Diffuse-Type Gastric Cancer",
+        "nct_id": "NCT07713745",
+        "title": "Platform Research for Innovative Medicines in NF2-SWN (PRIME-NF2)",
         "status": "NOT_YET_RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Gastric Cancer Stage III",
+        "conditions": "Neurofibromatosis Type 2, Vestibular Schwannoma, Non-vestibular Schwannoma, Meningioma",
         "last_update": "",
-        "start_date": "2026-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT07315035"
+        "start_date": "2026-07-18",
+        "url": "https://clinicaltrials.gov/study/NCT07713745"
       },
       {
-        "nct_id": "NCT07391826",
-        "title": "Megestrol Acetate Oral Suspension for Cachexia in Patients With cStage III Gastric/Gastroesophageal Junction Adenocarcinoma Receiving Neoadjuvant Therapy With Serplulimab Combined With SOX",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Stage III Gastric Cancer",
-        "last_update": "",
-        "start_date": "2026-02-15",
-        "url": "https://clinicaltrials.gov/study/NCT07391826"
-      },
-      {
-        "nct_id": "NCT03356444",
-        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Prostate Cancer, Castration-resistant Prostate Cancer, Drug",
-        "last_update": "",
-        "start_date": "2017-11",
-        "url": "https://clinicaltrials.gov/study/NCT03356444"
-      },
-      {
-        "nct_id": "NCT05512455",
-        "title": "Accuracy of Various Virtual Articulator Mounting Procedures: An in Vivo Study",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Occlusion",
-        "last_update": "",
-        "start_date": "2022-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT05512455"
-      },
-      {
-        "nct_id": "NCT05747768",
-        "title": "A Clinical Study to Evaluate the Pharmacokinetics of Microdose Midazolam, Dabigatran, Pitavastatin, Atorvastatin and Rosuvastatin in Healthy Volunteers and Renal Impairment Patients",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Chronic Kidney Disease",
-        "last_update": "",
-        "start_date": "2022-07-15",
-        "url": "https://clinicaltrials.gov/study/NCT05747768"
-      },
-      {
-        "nct_id": "NCT07205705",
-        "title": "Impact of Partially Replacing Wheat With Millets or Bengal Gram Flour in Rotis on Glycemia and Prediabetes Reversal",
-        "status": "NOT_YET_RECRUITING",
+        "nct_id": "NCT05346744",
+        "title": "Occlusal Contact Trueness Affected by Six Chairside CAD/CAM Ceramic Materials",
+        "status": "COMPLETED",
         "phase": "NA",
-        "conditions": "Pre Diabetes",
+        "conditions": "Tooth Defect",
         "last_update": "",
-        "start_date": "2025-11-15",
-        "url": "https://clinicaltrials.gov/study/NCT07205705"
+        "start_date": "2019-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT05346744"
       },
       {
-        "nct_id": "NCT05290454",
-        "title": "mNGS -Guided Antimicrobial Treatment in Early Severe Community-Acquired Pneumonia Among Immunocompromised Patients",
+        "nct_id": "NCT07716111",
+        "title": "Neoadjuvant SHR-A1811 and SHR-A1701 ± Pertuzumab for Potentially Immunotherapy-Sensitive GC or GEJ Adenocarcinoma",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Gastric or Gastroesophageal Junction Adenocarcinoma",
+        "last_update": "",
+        "start_date": "2026-07-16",
+        "url": "https://clinicaltrials.gov/study/NCT07716111"
+      },
+      {
+        "nct_id": "NCT06009900",
+        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Severe Acute Respiratory Infection, Community-acquired Pneumonia, Respiratory Tract Infections, Pneumonia",
+        "conditions": "Pain, Chronic",
         "last_update": "",
-        "start_date": "2022-08-19",
-        "url": "https://clinicaltrials.gov/study/NCT05290454"
+        "start_date": "2023-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT06009900"
       },
       {
-        "nct_id": "NCT07350564",
-        "title": "Intensive Versus Conventional Blood Pressure Control Following Stroke Thrombectomy",
+        "nct_id": "NCT03921645",
+        "title": "Use of Aaerosol Combined With Intravenous Antibiotics for the Treatment of Multidrug Resistant GNB Pneumonia",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Ventilator Associated Pneumonia, Multi-antibiotic Resistance",
+        "last_update": "",
+        "start_date": "2018-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT03921645"
+      },
+      {
+        "nct_id": "NCT05693012",
+        "title": "Assessment of Early Detection and Prognosis Based on cfDNA Methylation in Multiple Myeloma",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Multiple Myeloma",
+        "last_update": "",
+        "start_date": "2022-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05693012"
+      },
+      {
+        "nct_id": "NCT07474727",
+        "title": "A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Stroke",
-        "last_update": "",
-        "start_date": "2025-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT07350564"
-      },
-      {
-        "nct_id": "NCT07284199",
-        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "CABG, Aortic Dissection, Valvular Heart Diseases",
-        "last_update": "",
-        "start_date": "2025-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT07284199"
-      },
-      {
-        "nct_id": "NCT03123406",
-        "title": "Efficacy and Safety of Cinacalcet in Ca, P and iPTH Levels in Patients With Mild, Moderate and Severe SHPT",
-        "status": "COMPLETED",
-        "phase": "PHASE4",
-        "conditions": "Hyperparathyroidism; Secondary, Renal",
-        "last_update": "",
-        "start_date": "2017-04-19",
-        "url": "https://clinicaltrials.gov/study/NCT03123406"
-      },
-      {
-        "nct_id": "NCT04814485",
-        "title": "Efficacy and Safety of SHR-1020 Combined With Albumin-bound Paclitaxel in the Second-line Treatment of Pancreatic Cancer",
-        "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Pancreatic Cancer",
+        "conditions": "Colorectal Cancer",
         "last_update": "",
-        "start_date": "2021-04-22",
-        "url": "https://clinicaltrials.gov/study/NCT04814485"
+        "start_date": "2026-04-29",
+        "url": "https://clinicaltrials.gov/study/NCT07474727"
       },
       {
-        "nct_id": "NCT06175481",
-        "title": "Correlation Between Popliteal Vein Compliance and Venous Clinical Severity Score",
+        "nct_id": "NCT02537418",
+        "title": "Durvalumab With or Without Tremelimumab in Advanced Incurable Solid Malignancies Given With or Without Standard Chemotherapy Regimens",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Solid Malignancies",
+        "last_update": "",
+        "start_date": "2015-10-16",
+        "url": "https://clinicaltrials.gov/study/NCT02537418"
+      },
+      {
+        "nct_id": "NCT03880617",
+        "title": "Distress, Medication Adherence and Care Needs in Patients With CML and GIST Receiving Oral Targeted Therapy",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Chronic Venous Disease (CVD), Vein Compliance, Venous Clinical Severity Score (VCSS)",
+        "conditions": "CML, GIST",
         "last_update": "",
-        "start_date": "2023-06-01",
-        "url": "https://clinicaltrials.gov/study/NCT06175481"
+        "start_date": "2015-03-25",
+        "url": "https://clinicaltrials.gov/study/NCT03880617"
       },
       {
-        "nct_id": "NCT02928081",
-        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Carcinoma, Pancreatic Ductal",
+        "nct_id": "NCT07003074",
+        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Breast Cancer",
         "last_update": "",
-        "start_date": "2016-01",
-        "url": "https://clinicaltrials.gov/study/NCT02928081"
+        "start_date": "2025-06-23",
+        "url": "https://clinicaltrials.gov/study/NCT07003074"
       },
       {
-        "nct_id": "NCT05587400",
-        "title": "Consistency of Electrical Cardiometry and Pulmonary Artery Catheter",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Pulmonary Arterial Hypertension, Right Ventricular Dysfunction",
+        "nct_id": "NCT06569524",
+        "title": "Efficacy and Safety of Recombinant Human FGF21-Fc Fusion Protein for Injection (TQA2225/AP025) in Adult Subjects With Non-alcoholic Steatohepatitis (NASH)",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Non-alcoholic Steatohepatitis",
         "last_update": "",
-        "start_date": "2022-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT05587400"
+        "start_date": "2023-09-14",
+        "url": "https://clinicaltrials.gov/study/NCT06569524"
+      },
+      {
+        "nct_id": "NCT07145060",
+        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Primary Sjögren's Syndrome (pSS)",
+        "last_update": "",
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT07145060"
+      },
+      {
+        "nct_id": "NCT05981924",
+        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Analgesia, Lung Cancer",
+        "last_update": "",
+        "start_date": "2023-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05981924"
+      },
+      {
+        "nct_id": "NCT05947370",
+        "title": "Berberine on the Secretion of Incretin",
+        "status": "COMPLETED",
+        "phase": "EARLY_PHASE1",
+        "conditions": "Diabetes Mellitus",
+        "last_update": "",
+        "start_date": "2022-10-12",
+        "url": "https://clinicaltrials.gov/study/NCT05947370"
       }
     ],
     "detected_triggers": [
@@ -707,98 +655,74 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Standard Versus Extended Lymphadenectomy in Pancreatoduodenectomy for Patients With Pancreatic Head Adenocarcinoma",
+        "title": "Durvalumab With or Without Tremelimumab in Advanced Incurable Solid Malignancies Given With or Without Standard Chemotherapy Regimens",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1",
+        "source": "NCT02537418",
+        "date": "2015-10-16"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Use of Aaerosol Combined With Intravenous Antibiotics for the Treatment of Multidrug Resistant GNB Pneumonia",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02928081",
-        "date": "2016-01"
+        "source": "NCT03921645",
+        "date": "2018-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of Cinacalcet in Ca, P and iPTH Levels in Patients With Mild, Moderate and Severe SHPT",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
-        "source": "NCT03123406",
-        "date": "2017-04-19"
+        "title": "Occlusal Contact Trueness Affected by Six Chairside CAD/CAM Ceramic Materials",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT05346744",
+        "date": "2019-11-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT03356444",
-        "date": "2017-11"
+        "title": "Berberine on the Secretion of Incretin",
+        "reason": "Studienregister-Treffer: COMPLETED EARLY_PHASE1",
+        "source": "NCT05947370",
+        "date": "2022-10-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of SHR-1020 Combined With Albumin-bound Paclitaxel in the Second-line Treatment of Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT04814485",
-        "date": "2021-04-22"
+        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT05981924",
+        "date": "2023-08-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Clinical Study to Evaluate the Pharmacokinetics of Microdose Midazolam, Dabigatran, Pitavastatin, Atorvastatin and Rosuvastatin in Healthy Volunteers and Renal Impairment Patients",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05747768",
-        "date": "2022-07-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Consistency of Electrical Cardiometry and Pulmonary Artery Catheter",
+        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05587400",
-        "date": "2022-07-27"
+        "source": "NCT06009900",
+        "date": "2023-09-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "mNGS -Guided Antimicrobial Treatment in Early Severe Community-Acquired Pneumonia Among Immunocompromised Patients",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05290454",
-        "date": "2022-08-19"
+        "title": "Efficacy and Safety of Recombinant Human FGF21-Fc Fusion Protein for Injection (TQA2225/AP025) in Adult Subjects With Non-alcoholic Steatohepatitis (NASH)",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06569524",
+        "date": "2023-09-14"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Intensive Versus Conventional Blood Pressure Control Following Stroke Thrombectomy",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07350564",
-        "date": "2025-11-01"
+        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07003074",
+        "date": "2025-06-23"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Impact of Partially Replacing Wheat With Millets or Bengal Gram Flour in Rotis on Glycemia and Prediabetes Reversal",
+        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07205705",
-        "date": "2025-11-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07284199",
-        "date": "2025-12-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "QL1706-SOX vs SOX Alone as Neoadjuvant Therapy for Resectable Diffuse-Type Gastric Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07315035",
-        "date": "2026-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Megestrol Acetate Oral Suspension for Cachexia in Patients With cStage III Gastric/Gastroesophageal Junction Adenocarcinoma Receiving Neoadjuvant Therapy With Serplulimab Combined With SOX",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07391826",
-        "date": "2026-02-15"
+        "source": "NCT07145060",
+        "date": "2025-09-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -823,6 +747,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-04-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07474727",
+        "date": "2026-04-29"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -881,6 +813,22 @@
         "date": "2026-07-13"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Neoadjuvant SHR-A1811 and SHR-A1701 ± Pertuzumab for Potentially Immunotherapy-Sensitive GC or GEJ Adenocarcinoma",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT07716111",
+        "date": "2026-07-16"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Platform Research for Innovative Medicines in NF2-SWN (PRIME-NF2)",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT07713745",
+        "date": "2026-07-18"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "20-F · 2026-09-30",
@@ -891,26 +839,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Accuracy of Various Virtual Articulator Mounting Procedures: An in Vivo Study",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05512455",
-        "date": "2022-04-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Correlation Between Popliteal Vein Compliance and Venous Clinical Severity Score",
+        "title": "Distress, Medication Adherence and Care Needs in Patients With CML and GIST Receiving Oral Targeted Therapy",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06175481",
-        "date": "2023-06-01"
+        "source": "NCT03880617",
+        "date": "2015-03-25"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Circulating Tumor DNA Monitoring in Platinum-resistant Ovarian Cancer",
+        "title": "Assessment of Early Detection and Prognosis Based on cfDNA Methylation in Multiple Myeloma",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05976932",
-        "date": "2023-08"
+        "source": "NCT05693012",
+        "date": "2022-08-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Clinical Study of 18F -FAPI-RGD in Renal Tumor",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05976607",
+        "date": "2023-06-20"
       },
       {
         "type": "SEC Filing",
