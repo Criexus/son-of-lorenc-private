@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$178.31",
-      "note": "Auto-Update: 0.6% vs. vorheriger Schlusskurs",
+      "value": "$177.80",
+      "note": "Auto-Update: 0.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-02T18:58:33Z",
+    "last_update_utc": "2026-10-02T22:48:11Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 178.31,
+      "regularMarketPrice": 177.8,
       "previousClose": 177.25,
-      "change": 1.06,
-      "changePercent": 0.6,
-      "regularMarketTime": "2026-10-02T18:58:23Z",
+      "change": 0.55,
+      "changePercent": 0.31,
+      "regularMarketTime": "2026-10-02T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,10 +248,6 @@
       "fiftyTwoWeekRange": "61.0 – 183.51"
     },
     "price_history": [
-      {
-        "t": "2026-09-02T13:30:00Z",
-        "price": 163.06
-      },
       {
         "t": "2026-09-03T13:30:00Z",
         "price": 161.04
@@ -334,7 +330,7 @@
       },
       {
         "t": "2026-10-02T13:30:00Z",
-        "price": 178.31
+        "price": 177.8
       }
     ],
     "price_history_1d": [
@@ -600,11 +596,59 @@
       },
       {
         "t": "2026-10-02T18:55:00Z",
-        "price": 178.31
+        "price": 178.425
       },
       {
-        "t": "2026-10-02T18:58:23Z",
-        "price": 178.31
+        "t": "2026-10-02T19:00:00Z",
+        "price": 178.09
+      },
+      {
+        "t": "2026-10-02T19:05:00Z",
+        "price": 177.975
+      },
+      {
+        "t": "2026-10-02T19:10:00Z",
+        "price": 177.84
+      },
+      {
+        "t": "2026-10-02T19:15:00Z",
+        "price": 177.365
+      },
+      {
+        "t": "2026-10-02T19:20:00Z",
+        "price": 177.76
+      },
+      {
+        "t": "2026-10-02T19:25:00Z",
+        "price": 177.375
+      },
+      {
+        "t": "2026-10-02T19:30:00Z",
+        "price": 178.17
+      },
+      {
+        "t": "2026-10-02T19:35:00Z",
+        "price": 178.23
+      },
+      {
+        "t": "2026-10-02T19:40:00Z",
+        "price": 178.82
+      },
+      {
+        "t": "2026-10-02T19:45:00Z",
+        "price": 178.76
+      },
+      {
+        "t": "2026-10-02T19:50:00Z",
+        "price": 178.09
+      },
+      {
+        "t": "2026-10-02T19:55:00Z",
+        "price": 177.79
+      },
+      {
+        "t": "2026-10-02T20:00:00Z",
+        "price": 177.8
       }
     ],
     "price_history_range": "1mo",
@@ -631,6 +675,22 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2FtdDZ2VE4zdnVmNTlHaHpjbWFvb1BWa0tBblhkZU9fRkg3YkRDdXBESFFLdDZlUllWeW1QS0FIUEYzdm5iS0RPUnZXQVRad3R4WWZGckFETXY4dUhzWnYzU1JyRmlMVzM4T3RPd2VoWVJabXBobEt5U1ZOM3duaUdjdTl3b190NGFzSFAzbDR2Mmg3?oc=5",
         "published_at": "2026-09-22T08:36:17Z",
         "source": "aktien.news",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "ARK Invest stockt Beteiligung an Guardant Health auf - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR3FqdzYybmtzeTZYajNlc29pMThRNkNQYnBqbmk0bDNUeTRKZE9iWDl6UThCakJWcjlfVG4zcXpWTWlUeE5fRTJTM0xSTktLc3RLRTV3UEYtNHlkTWdCNmZOZUxfOFY3SmQyNXlzMjNlNUhSbmwtZnN0VmdPU0ZHc3hNLVZ5ek1sTEtCLWx5RVpqS2RJNW10U3lYZWppLW9pU3NRMGdEdnc2bThs?oc=5",
+        "published_at": "2026-09-17T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -742,6 +802,62 @@
     "sec_filings": [
       {
         "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000173784026000022/xslF345X06/wk-form4_1790974911.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000165295626000020/xslF345X06/wk-form4_1790974878.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192783126000024/xslF345X06/wk-form4_1790974847.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000187161526000018/xslF345X06/wk-form4_1790974819.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000197717926000018/xslF345X06/wk-form4_1790974793.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000170282426000016/xslF345X06/wk-form4_1790974766.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000175315926000022/xslF345X06/wk-form4_1790974735.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000175296826000018/xslF345X06/wk-form4_1790974702.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
         "filingDate": "2026-09-22",
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000125839426000018/xslF345X06/wk-form4_1790109186.xml",
         "source": "SEC EDGAR",
@@ -823,62 +939,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192783126000022/xslF345X06/wk-form4_1789423900.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-09-11",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426001011/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-27",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000175296826000016/xslF345X06/wk-form4_1787874431.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-24",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000175315926000020/xslF345X06/wk-form4_1787606490.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-24",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000125839426000016/xslF345X06/wk-form4_1787606446.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-08-21",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000197248126000267/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000186552526000026/xslF345X06/wk-form4_1787091359.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000196828126000023/xslF345X06/wk-form4_1787091297.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-08-17",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426000884/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -906,70 +966,6 @@
         "source": "Simply Wall Street",
         "date": "2026-09-23T19:29:36Z",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzctbEdySDFxeEZqMDRqY0NFcThWNWpuZHNKWEhGd1J6T3p2ZlBRZzVMZ1lrYVZjajFINHlzU0xNcGFnbUlxQXA0eGtDRy0xX2xlaW9YNnZiUS1OUWFXRGtLVldkWFJGMlVCc1B5bDNyaHpQaUlGc0JGMUpzY2N2NkljZnlDVng3dS1CbFhsUV9FZjgyM2hMM3pVclVMa29uUzhQRHMyR2V5Tnp6MmtOTkdpTkE2WmpkanhXa0JOcjhnUlQ1NzhYZ2pzVkFLS2ZrZ1Rj0gHYAUFVX3lxTE90c24xX19LajR3akJwMVcxdHJfSnZHcWJ2ZUNLV3I1dE5GdHlOdWNIYTFHcUF3Q2YxaGpJajFxeUt5R21GYUROVF9heXlEcmN2eVFzS2lhWUNXUEg2WVF6OGtWQ2pOck8xaW81SHVsSEhPU3ZkWDctLThZcWN3V3J2dl8zajlqY2ItTjFpT2NMX3h3MnJNOEduZXVNS0NkVUFLdmtHb2pFb1d2QlQ2aDdBMXZVRDJjLWRucC16bXpzYTdEOG83anZ6ME9kbk9KU0pFTXFPbWtHZw?oc=5"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-08-17",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-17"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-18",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-18"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-18",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-18"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-08-21",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-21"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-24"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-24",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-24"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-27",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-27"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-09-11",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-09-11"
       },
       {
         "type": "SEC Filing",
@@ -1066,6 +1062,70 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-09-22"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
       }
     ],
     "queries_used": [

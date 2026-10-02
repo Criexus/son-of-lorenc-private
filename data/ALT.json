@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.74",
-      "note": "Auto-Update: -10.46% vs. vorheriger Schlusskurs",
+      "value": "$2.73",
+      "note": "Auto-Update: -10.62% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-02T18:58:15Z",
+    "last_update_utc": "2026-10-02T22:47:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.74,
+      "regularMarketPrice": 2.735,
       "previousClose": 3.06,
-      "change": -0.32,
-      "changePercent": -10.46,
-      "regularMarketTime": "2026-10-02T18:57:51Z",
+      "change": -0.325,
+      "changePercent": -10.62,
+      "regularMarketTime": "2026-10-02T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "2.56 – 6.44"
     },
     "price_history": [
-      {
-        "t": "2026-09-02T13:30:00Z",
-        "price": 3.28
-      },
       {
         "t": "2026-09-03T13:30:00Z",
         "price": 3.23
@@ -686,7 +682,55 @@
         "price": 2.74
       },
       {
-        "t": "2026-10-02T18:58:06Z",
+        "t": "2026-10-02T19:00:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:05:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:10:00Z",
+        "price": 2.735
+      },
+      {
+        "t": "2026-10-02T19:15:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:20:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:25:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:30:00Z",
+        "price": 2.735
+      },
+      {
+        "t": "2026-10-02T19:35:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:40:00Z",
+        "price": 2.735
+      },
+      {
+        "t": "2026-10-02T19:45:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T19:50:00Z",
+        "price": 2.735
+      },
+      {
+        "t": "2026-10-02T19:55:00Z",
+        "price": 2.74
+      },
+      {
+        "t": "2026-10-02T20:00:00Z",
         "price": 2.735
       }
     ],
@@ -794,7 +838,7 @@
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFFWUFdJcjdXbUdnaXJYQl9aV1VHTF9rZTJkOU1BdnhXX3NWQ0VfVFRNbzh0TUYzLUF5X3diM3V2RmxhNndKeTFHelBESGpxNU5KaHYxbDVORnlpWU1Oc1FMNktvc0hKNmE2Nkk2WGxGZUdEQlBVSnc3MWZsSXhpTkhLeEVLQ1FNVFJRRWhUbmhDZDBzT2g2Ni1WS3FYQ1Bvckdr?oc=5",
         "published_at": "2026-03-05T08:00:00Z",
         "source": "Goldesel.de",
-        "query": "Altimmune ALT pemvidutide stock news",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
         "trigger_level": "medium",
@@ -826,6 +870,22 @@
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCa09PSkZxXzN3SzNFRkc0aVhNRnNVWXNvaFNYSGdqMDNqb0E2YUI0SnVsaDByRTRFSHJoemR2SEZYRnBydTdtaDdGMFFaVWs4?oc=5",
         "published_at": "2026-01-21T00:01:24Z",
         "source": "Goldesel.de",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 6
+      },
+      {
+        "title": "Altimmune Aktie: Kampf gegen die Klagewelle - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLTN5NGNjQnFNRXJxOWZhdVpORGRRRngwWFFKWU4yUUdRbTMyUWJCRWRmTlNMdkZUMFZPY0FEQzZlV0pBSlhSbmFleEd4S2phS2NRNmE0ajg5TjlNTFVJVEJBMnl0ZVhPQ1pEQWlpelk4SDNXTkxKbFg1Nk1OQ2hSVVM5eGZOV1FBcVNJcHA3ZmdtN1E2UDhSRGtB?oc=5",
+        "published_at": "2025-09-20T07:00:00Z",
+        "source": "Börse Express",
         "query": "ALT pemvidutide phase 2 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -887,6 +947,20 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000215682026000004/xslF345X06/form4-10022026_081031.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "3",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000215682026000003/xslF345X06/form3-10022026_081052.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "8-K",
         "filingDate": "2026-09-29",
@@ -1010,20 +1084,6 @@
         "form": "4",
         "filingDate": "2026-05-01",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000155513226000008/xslF345X06/form4-05012026_080545.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000152720426000002/xslF345X06/form4-05012026_080536.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-05-01",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000170590426000002/xslF345X06/form4-05012026_080505.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1428,10 +1488,10 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "4 · 2026-05-01",
+        "title": "SCHEDULE 13G · 2026-05-12",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-05-01"
+        "date": "2026-05-12"
       }
     ],
     "queries_used": [

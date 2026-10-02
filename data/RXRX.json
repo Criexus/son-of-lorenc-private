@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$4.06",
-      "note": "Auto-Update: 8.56% vs. vorheriger Schlusskurs",
+      "value": "$4.12",
+      "note": "Auto-Update: 10.16% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-02T18:58:58Z",
+    "last_update_utc": "2026-10-02T22:48:37Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 4.06,
+      "regularMarketPrice": 4.12,
       "previousClose": 3.74,
-      "change": 0.32,
-      "changePercent": 8.56,
-      "regularMarketTime": "2026-10-02T18:58:50Z",
+      "change": 0.38,
+      "changePercent": 10.16,
+      "regularMarketTime": "2026-10-02T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 7.18"
     },
     "price_history": [
-      {
-        "t": "2026-09-02T13:30:00Z",
-        "price": 3.38
-      },
       {
         "t": "2026-09-03T13:30:00Z",
         "price": 3.44
@@ -399,7 +395,7 @@
       },
       {
         "t": "2026-10-02T13:30:00Z",
-        "price": 4.06
+        "price": 4.12
       }
     ],
     "price_history_1d": [
@@ -668,8 +664,56 @@
         "price": 4.06
       },
       {
-        "t": "2026-10-02T18:58:50Z",
+        "t": "2026-10-02T19:00:00Z",
         "price": 4.06
+      },
+      {
+        "t": "2026-10-02T19:05:00Z",
+        "price": 4.06
+      },
+      {
+        "t": "2026-10-02T19:10:00Z",
+        "price": 4.06
+      },
+      {
+        "t": "2026-10-02T19:15:00Z",
+        "price": 4.076
+      },
+      {
+        "t": "2026-10-02T19:20:00Z",
+        "price": 4.075
+      },
+      {
+        "t": "2026-10-02T19:25:00Z",
+        "price": 4.075
+      },
+      {
+        "t": "2026-10-02T19:30:00Z",
+        "price": 4.085
+      },
+      {
+        "t": "2026-10-02T19:35:00Z",
+        "price": 4.085
+      },
+      {
+        "t": "2026-10-02T19:40:00Z",
+        "price": 4.085
+      },
+      {
+        "t": "2026-10-02T19:45:00Z",
+        "price": 4.08
+      },
+      {
+        "t": "2026-10-02T19:50:00Z",
+        "price": 4.085
+      },
+      {
+        "t": "2026-10-02T19:55:00Z",
+        "price": 4.13
+      },
+      {
+        "t": "2026-10-02T20:00:00Z",
+        "price": 4.12
       }
     ],
     "price_history_range": "1mo",
@@ -789,6 +833,20 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000116/xslF345X06/wk-form4_1790979462.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "4",
+        "filingDate": "2026-10-02",
+        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000115/xslF345X06/wk-form4_1790979423.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "8-K",
         "filingDate": "2026-09-21",
@@ -912,20 +970,6 @@
         "form": "SCHEDULE 13G",
         "filingDate": "2026-08-07",
         "url": "https://www.sec.gov/Archives/edgar/data/1601830/000009375126000530/xslSCHEDULE_13G_X02/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-06",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000185609426000014/xslF345X06/wk-form4_1786050562.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "10-Q",
-        "filingDate": "2026-08-05",
-        "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/rxrx-20260630.htm",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1106,14 +1150,6 @@
         "date": "2026-04-13"
       },
       {
-        "type": "SEC · Finanzbericht",
-        "level": "medium",
-        "title": "10-Q · 2026-08-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-05"
-      },
-      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "REC-7735 in Participants With Solid Tumors",
@@ -1128,14 +1164,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-09-21"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-06",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-06"
       },
       {
         "type": "SEC Filing",
@@ -1272,6 +1300,22 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-09-16"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-02"
       }
     ],
     "queries_used": [
