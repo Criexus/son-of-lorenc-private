@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.71",
-      "note": "Auto-Update: -6.55% vs. vorheriger Schlusskurs",
+      "value": "$2.70",
+      "note": "Auto-Update: -6.9% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-02T13:59:45Z",
+    "last_update_utc": "2026-10-02T18:58:52Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.71,
+      "regularMarketPrice": 2.7,
       "previousClose": 2.9,
-      "change": -0.19,
-      "changePercent": -6.55,
-      "regularMarketTime": "2026-10-02T13:36:07Z",
+      "change": -0.2,
+      "changePercent": -6.9,
+      "regularMarketTime": "2026-10-02T18:38:19Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -301,7 +301,7 @@
       },
       {
         "t": "2026-10-02T13:30:00Z",
-        "price": 2.71
+        "price": 2.7
       }
     ],
     "price_history_1d": [
@@ -310,13 +310,58 @@
         "price": 2.6601
       },
       {
-        "t": "2026-10-02T13:36:07Z",
+        "t": "2026-10-02T13:35:00Z",
         "price": 2.71
+      },
+      {
+        "t": "2026-10-02T14:40:00Z",
+        "price": 2.62
+      },
+      {
+        "t": "2026-10-02T14:45:00Z",
+        "price": 2.72
+      },
+      {
+        "t": "2026-10-02T15:05:00Z",
+        "price": 2.76
+      },
+      {
+        "t": "2026-10-02T15:40:00Z",
+        "price": 2.77
+      },
+      {
+        "t": "2026-10-02T15:45:00Z",
+        "price": 2.7644
+      },
+      {
+        "t": "2026-10-02T17:45:00Z",
+        "price": 2.71
+      },
+      {
+        "t": "2026-10-02T18:38:19Z",
+        "price": 2.7
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Haoxi Health Technology Limited (HAO) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VN19Cbmo0TFFERHVWbmVmMHFDaWlmS1ZHQXhSN2N0eWFjR2RGRjJKVnBTcERLT3ZYdEZTYUtpVE5sNWhaazdMNzNnNGlEWjR2?oc=5",
+        "published_at": "2017-11-06T16:19:20Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "Haoxi Health Technology HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 24
+      }
+    ],
     "sec_filings": [
       {
         "form": "20-F",
@@ -461,154 +506,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05976607",
-        "title": "Clinical Study of 18F -FAPI-RGD in Renal Tumor",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Renal Tumor",
-        "last_update": "",
-        "start_date": "2023-06-20",
-        "url": "https://clinicaltrials.gov/study/NCT05976607"
-      },
-      {
-        "nct_id": "NCT07713745",
-        "title": "Platform Research for Innovative Medicines in NF2-SWN (PRIME-NF2)",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Neurofibromatosis Type 2, Vestibular Schwannoma, Non-vestibular Schwannoma, Meningioma",
-        "last_update": "",
-        "start_date": "2026-07-18",
-        "url": "https://clinicaltrials.gov/study/NCT07713745"
-      },
-      {
-        "nct_id": "NCT05346744",
-        "title": "Occlusal Contact Trueness Affected by Six Chairside CAD/CAM Ceramic Materials",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Tooth Defect",
-        "last_update": "",
-        "start_date": "2019-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT05346744"
-      },
-      {
-        "nct_id": "NCT07716111",
-        "title": "Neoadjuvant SHR-A1811 and SHR-A1701 ± Pertuzumab for Potentially Immunotherapy-Sensitive GC or GEJ Adenocarcinoma",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Gastric or Gastroesophageal Junction Adenocarcinoma",
-        "last_update": "",
-        "start_date": "2026-07-16",
-        "url": "https://clinicaltrials.gov/study/NCT07716111"
-      },
-      {
-        "nct_id": "NCT06009900",
-        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Pain, Chronic",
-        "last_update": "",
-        "start_date": "2023-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT06009900"
-      },
-      {
-        "nct_id": "NCT03921645",
-        "title": "Use of Aaerosol Combined With Intravenous Antibiotics for the Treatment of Multidrug Resistant GNB Pneumonia",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Ventilator Associated Pneumonia, Multi-antibiotic Resistance",
-        "last_update": "",
-        "start_date": "2018-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT03921645"
-      },
-      {
-        "nct_id": "NCT05693012",
-        "title": "Assessment of Early Detection and Prognosis Based on cfDNA Methylation in Multiple Myeloma",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Multiple Myeloma",
-        "last_update": "",
-        "start_date": "2022-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05693012"
-      },
-      {
-        "nct_id": "NCT07474727",
-        "title": "A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer",
+        "nct_id": "NCT07126873",
+        "title": "A Safety, Tolerability, and Efficacy Study of E-islet 01 in Participants With Type 1 Diabetes",
         "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Colorectal Cancer",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Diabetes Mellitus, Type 1, Impaired Hypoglycemic Awareness, Severe Hypoglycemia",
         "last_update": "",
-        "start_date": "2026-04-29",
-        "url": "https://clinicaltrials.gov/study/NCT07474727"
+        "start_date": "2025-08-11",
+        "url": "https://clinicaltrials.gov/study/NCT07126873"
       },
       {
-        "nct_id": "NCT02537418",
-        "title": "Durvalumab With or Without Tremelimumab in Advanced Incurable Solid Malignancies Given With or Without Standard Chemotherapy Regimens",
-        "status": "ACTIVE_NOT_RECRUITING",
+        "nct_id": "NCT02304562",
+        "title": "Umbilical Cord Blood-derived Mesenchymal Stem Cells in Regeneration of Sweat Glands and Body Repair",
+        "status": "UNKNOWN",
         "phase": "PHASE1",
-        "conditions": "Solid Malignancies",
+        "conditions": "Sweat Gland Diseases",
         "last_update": "",
-        "start_date": "2015-10-16",
-        "url": "https://clinicaltrials.gov/study/NCT02537418"
+        "start_date": "2013-01",
+        "url": "https://clinicaltrials.gov/study/NCT02304562"
       },
       {
-        "nct_id": "NCT03880617",
-        "title": "Distress, Medication Adherence and Care Needs in Patients With CML and GIST Receiving Oral Targeted Therapy",
+        "nct_id": "NCT03259594",
+        "title": "Measurement of Renal Functional Reserve Change In Patients With SRC Before and After Laparoscopic Deroofing",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Simple Renal Cyst",
+        "last_update": "",
+        "start_date": "2018-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT03259594"
+      },
+      {
+        "nct_id": "NCT05149027",
+        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Solid Tumors",
+        "last_update": "",
+        "start_date": "2021-12-20",
+        "url": "https://clinicaltrials.gov/study/NCT05149027"
+      },
+      {
+        "nct_id": "NCT05742945",
+        "title": "Can ILR Reduce the Risk of Arm Lymphedema?",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "NA",
+        "conditions": "Breast Cancer Lymphedema",
+        "last_update": "",
+        "start_date": "2023-02-14",
+        "url": "https://clinicaltrials.gov/study/NCT05742945"
+      },
+      {
+        "nct_id": "NCT06574945",
+        "title": "Anesthesia for Loop Electrosurgical Excision Procedure (LEEP).",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Esketamine, Loop Electrosurgical Excision, Propofol",
+        "last_update": "",
+        "start_date": "2022-01-07",
+        "url": "https://clinicaltrials.gov/study/NCT06574945"
+      },
+      {
+        "nct_id": "NCT07348653",
+        "title": "A Study of MG2512 Injection in Participants With Advanced Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Advanced Solid Tumor",
+        "last_update": "",
+        "start_date": "2026-03-18",
+        "url": "https://clinicaltrials.gov/study/NCT07348653"
+      },
+      {
+        "nct_id": "NCT07075237",
+        "title": "Efficacy and Functional Recovery After Switching From Paliperidone Palmitate Injection to Oral Antipsychotics in Schizophrenia",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Schizophrenia",
+        "last_update": "",
+        "start_date": "2025-10",
+        "url": "https://clinicaltrials.gov/study/NCT07075237"
+      },
+      {
+        "nct_id": "NCT04215237",
+        "title": "How Atorvastatin Affects the Gut Flora and Metabolomics?",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Atherosclerotic Cardiovascular Disease",
+        "last_update": "",
+        "start_date": "2017-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT04215237"
+      },
+      {
+        "nct_id": "NCT07612241",
+        "title": "Pulsed Field Ablation Versus Radiofrequency Ablation: Effects of Pulmonary Vein Isolation Combined With Left Atrial Posterior Wall Isolation on Postoperative Gastric Motility in Patients With Persistent Atrial Fibrillation",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Persistent Atrial Fibrillation",
+        "last_update": "",
+        "start_date": "2026-05-31",
+        "url": "https://clinicaltrials.gov/study/NCT07612241"
+      },
+      {
+        "nct_id": "NCT02808195",
+        "title": "Comparative Effectiveness of a Kinect-based Unilateral Arm Training System vs Constraint-Induced Therapy for Children With Cerebral Palsy",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Cerebral Palsy",
+        "last_update": "",
+        "start_date": "2016-08",
+        "url": "https://clinicaltrials.gov/study/NCT02808195"
+      },
+      {
+        "nct_id": "NCT07495202",
+        "title": "A Clinical Trial Evaluating the Monkeypox Recombinant Protein Vaccine",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Health Volunteer",
+        "last_update": "",
+        "start_date": "2026-05-18",
+        "url": "https://clinicaltrials.gov/study/NCT07495202"
+      },
+      {
+        "nct_id": "NCT06622356",
+        "title": "Multivariate Analysis and Machine Learning Model Risk Prediction of Recurrent Pain After PLIF Surgery for Degenerative Lumbar Spine Disease At Long-term Follow-up",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "CML, GIST",
+        "conditions": "Lumbar Disc Herniation, Lumbar Degenerative Disease, Sarcopenia",
         "last_update": "",
-        "start_date": "2015-03-25",
-        "url": "https://clinicaltrials.gov/study/NCT03880617"
+        "start_date": "2024-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT06622356"
       },
       {
-        "nct_id": "NCT07003074",
-        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Breast Cancer",
-        "last_update": "",
-        "start_date": "2025-06-23",
-        "url": "https://clinicaltrials.gov/study/NCT07003074"
-      },
-      {
-        "nct_id": "NCT06569524",
-        "title": "Efficacy and Safety of Recombinant Human FGF21-Fc Fusion Protein for Injection (TQA2225/AP025) in Adult Subjects With Non-alcoholic Steatohepatitis (NASH)",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Non-alcoholic Steatohepatitis",
-        "last_update": "",
-        "start_date": "2023-09-14",
-        "url": "https://clinicaltrials.gov/study/NCT06569524"
-      },
-      {
-        "nct_id": "NCT07145060",
-        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
-        "status": "NOT_YET_RECRUITING",
+        "nct_id": "NCT06562101",
+        "title": "Effects of Intra-articular Stromal Vascular Fraction Injection on Clinical Symptoms and Cartilage Health in Osteoarthritic Knees",
+        "status": "COMPLETED",
         "phase": "NA",
-        "conditions": "Primary Sjögren's Syndrome (pSS)",
+        "conditions": "Osteoarthritis, Knee",
         "last_update": "",
-        "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07145060"
+        "start_date": "2020-12-04",
+        "url": "https://clinicaltrials.gov/study/NCT06562101"
       },
       {
-        "nct_id": "NCT05981924",
-        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Analgesia, Lung Cancer",
+        "nct_id": "NCT03908866",
+        "title": "Peripherally Inserted Versus Centrally Inserted Central Venous Catheters in the Neurosurgical Intensive Care Unit",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Thromboses, Venous, Infection, Economic Problems",
         "last_update": "",
-        "start_date": "2023-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05981924"
-      },
-      {
-        "nct_id": "NCT05947370",
-        "title": "Berberine on the Secretion of Incretin",
-        "status": "COMPLETED",
-        "phase": "EARLY_PHASE1",
-        "conditions": "Diabetes Mellitus",
-        "last_update": "",
-        "start_date": "2022-10-12",
-        "url": "https://clinicaltrials.gov/study/NCT05947370"
+        "start_date": "2019-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT03908866"
       }
     ],
     "detected_triggers": [
@@ -631,74 +676,90 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Durvalumab With or Without Tremelimumab in Advanced Incurable Solid Malignancies Given With or Without Standard Chemotherapy Regimens",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1",
-        "source": "NCT02537418",
-        "date": "2015-10-16"
+        "title": "Umbilical Cord Blood-derived Mesenchymal Stem Cells in Regeneration of Sweat Glands and Body Repair",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT02304562",
+        "date": "2013-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Use of Aaerosol Combined With Intravenous Antibiotics for the Treatment of Multidrug Resistant GNB Pneumonia",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03921645",
-        "date": "2018-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Occlusal Contact Trueness Affected by Six Chairside CAD/CAM Ceramic Materials",
+        "title": "Comparative Effectiveness of a Kinect-based Unilateral Arm Training System vs Constraint-Induced Therapy for Children With Cerebral Palsy",
         "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05346744",
-        "date": "2019-11-01"
+        "source": "NCT02808195",
+        "date": "2016-08"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Berberine on the Secretion of Incretin",
-        "reason": "Studienregister-Treffer: COMPLETED EARLY_PHASE1",
-        "source": "NCT05947370",
-        "date": "2022-10-12"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05981924",
-        "date": "2023-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
+        "title": "How Atorvastatin Affects the Gut Flora and Metabolomics?",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT06009900",
-        "date": "2023-09-01"
+        "source": "NCT04215237",
+        "date": "2017-11-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of Recombinant Human FGF21-Fc Fusion Protein for Injection (TQA2225/AP025) in Adult Subjects With Non-alcoholic Steatohepatitis (NASH)",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06569524",
-        "date": "2023-09-14"
+        "title": "Measurement of Renal Functional Reserve Change In Patients With SRC Before and After Laparoscopic Deroofing",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03259594",
+        "date": "2018-03-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Clinical Study of TQB2102 Versus Docetaxel Plus Trastuzumab and Pertuzumab in the Treatment of HER2 Positive Recurrent or Metastatic Breast Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07003074",
-        "date": "2025-06-23"
+        "title": "Peripherally Inserted Versus Centrally Inserted Central Venous Catheters in the Neurosurgical Intensive Care Unit",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03908866",
+        "date": "2019-04-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07145060",
-        "date": "2025-09-01"
+        "title": "Effects of Intra-articular Stromal Vascular Fraction Injection on Clinical Symptoms and Cartilage Health in Osteoarthritic Knees",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT06562101",
+        "date": "2020-12-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Evaluate Safety, Tolerability, PK/PD and Preliminary Efficacy of HBM4003 Combine With Toripalimab in Patients With Advanced HCC and Other Solid Tumors",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT05149027",
+        "date": "2021-12-20"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Anesthesia for Loop Electrosurgical Excision Procedure (LEEP).",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT06574945",
+        "date": "2022-01-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Can ILR Reduce the Risk of Arm Lymphedema?",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING NA",
+        "source": "NCT05742945",
+        "date": "2023-02-14"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Safety, Tolerability, and Efficacy Study of E-islet 01 in Participants With Type 1 Diabetes",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
+        "source": "NCT07126873",
+        "date": "2025-08-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy and Functional Recovery After Switching From Paliperidone Palmitate Injection to Oral Antipsychotics in Schizophrenia",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
+        "source": "NCT07075237",
+        "date": "2025-10"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -707,6 +768,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of MG2512 Injection in Participants With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT07348653",
+        "date": "2026-03-18"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -725,20 +794,20 @@
         "date": "2026-04-22"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Phase II Study of AMT-676 Combination Therapies in Advanced Colorectal Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT07474727",
-        "date": "2026-04-29"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-05-13",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-13"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Trial Evaluating the Monkeypox Recombinant Protein Vaccine",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT07495202",
+        "date": "2026-05-18"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -789,22 +858,6 @@
         "date": "2026-07-13"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Neoadjuvant SHR-A1811 and SHR-A1701 ± Pertuzumab for Potentially Immunotherapy-Sensitive GC or GEJ Adenocarcinoma",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07716111",
-        "date": "2026-07-16"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Platform Research for Innovative Medicines in NF2-SWN (PRIME-NF2)",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07713745",
-        "date": "2026-07-18"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "20-F · 2026-09-30",
@@ -815,26 +868,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Distress, Medication Adherence and Care Needs in Patients With CML and GIST Receiving Oral Targeted Therapy",
+        "title": "Multivariate Analysis and Machine Learning Model Risk Prediction of Recurrent Pain After PLIF Surgery for Degenerative Lumbar Spine Disease At Long-term Follow-up",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT03880617",
-        "date": "2015-03-25"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Assessment of Early Detection and Prognosis Based on cfDNA Methylation in Multiple Myeloma",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05693012",
-        "date": "2022-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Clinical Study of 18F -FAPI-RGD in Renal Tumor",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT05976607",
-        "date": "2023-06-20"
+        "source": "NCT06622356",
+        "date": "2024-09-20"
       },
       {
         "type": "SEC Filing",
@@ -843,6 +880,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
