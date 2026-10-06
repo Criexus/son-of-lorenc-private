@@ -135,7 +135,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-05T21:13:43Z",
+    "last_update_utc": "2026-10-06T01:49:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
@@ -237,10 +237,6 @@
       {
         "t": "2026-10-02T07:00:00Z",
         "price": 44.668
-      },
-      {
-        "t": "2026-10-05T07:00:00Z",
-        "price": 45.049
       }
     ],
     "price_history_1d": [
@@ -335,7 +331,24 @@
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Deka MSCI World UCITS ETF (ELFW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DMHFNbTVFUVk0NEl1OTZFSWJUOFE2bm9BemVIWm5CWVFMekxkN2dKYWsydk9CazhLekNxVjM3YUFxTl9xWS1yczdnNnhka0FmMHhmRWdB?oc=5",
+        "published_at": "2019-12-15T22:58:22Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "MSCI World ETF ELFW.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 18
+      }
+    ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [],
