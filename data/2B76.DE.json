@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$20.45",
-      "note": "Auto-Update: 6.17% vs. vorheriger Schlusskurs",
+      "value": "$20.43",
+      "note": "Auto-Update: 6.12% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-06T15:21:08Z",
+    "last_update_utc": "2026-10-06T20:27:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 20.445,
+      "regularMarketPrice": 20.435,
       "previousClose": 19.256,
-      "change": 1.189,
-      "changePercent": 6.17,
-      "regularMarketTime": "2026-10-06T15:05:17Z",
+      "change": 1.179,
+      "changePercent": 6.12,
+      "regularMarketTime": "2026-10-06T15:36:09Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -242,7 +242,7 @@
       },
       {
         "t": "2026-10-06T07:00:00Z",
-        "price": 20.445
+        "price": 20.435
       }
     ],
     "price_history_1d": [
@@ -595,13 +595,49 @@
         "price": 20.44
       },
       {
-        "t": "2026-10-06T15:05:17Z",
-        "price": 20.445
+        "t": "2026-10-06T15:05:00Z",
+        "price": 20.46
+      },
+      {
+        "t": "2026-10-06T15:10:00Z",
+        "price": 20.465
+      },
+      {
+        "t": "2026-10-06T15:15:00Z",
+        "price": 20.455
+      },
+      {
+        "t": "2026-10-06T15:20:00Z",
+        "price": 20.45
+      },
+      {
+        "t": "2026-10-06T15:25:00Z",
+        "price": 20.44
+      },
+      {
+        "t": "2026-10-06T15:30:00Z",
+        "price": 20.435
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "iShares MSCI Global Semiconductors UCITS ETF USD Acc (SEC0.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PNE4tbEVtNENqZ3pNNnN4aDY3eko2dk9KZUxmWmVOaW03SHZMUVJEVG5SclB2ZGFsT0NaSGpXb2pKUlM2SXdtajBoclRGWEU0LXRVTlV3?oc=5",
+        "published_at": "2022-04-01T09:58:06Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 9
+      },
       {
         "title": "L&G Clean Energy UCITS ETF USD Acc (RENW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EWXFyRmZTcjRqYmUwYXVPVzRtQWZGdEpXbjZPUklaYTVPdWRzQVdFUUZ1RFNGT3J1VlpKbDlfY2l4ZDFOdThTUjZ4M3pPNmJicjRxdTF3?oc=5",
@@ -617,6 +653,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
+      },
+      {
+        "title": "L&G ROBO Global Robotics and Automation UCITS ETF (IROB.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MZ05JV0RzRzQ3cFNNa1Z5Q29KTEthSEtmNjlUdHF2WmVvUUh1OWNWTk5naWZzNmV0TnRoSkdkcTU2RDhPTnhyVnBRY2NVczlISUtRS1BB?oc=5",
+        "published_at": "2020-05-03T05:51:31Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
       },
       {
         "title": "iShares MSCI World SRI UCITS ETF EUR (Acc) (2B7K.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
@@ -699,22 +751,6 @@
         "relevance_score": 9
       },
       {
-        "title": "Xtrackers MSCI World Health Care UCITS ETF 1C (XDWH.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYTmJIamk3UnUyaDhLTHJHUDhzc1VUUEQ1TXl6Yl9WaWVYSVBta3ZqUVNiTV94NE01Q21VLUZBd0JHR1paSkp6UWdCX2hRcHdVcEdDbnlB?oc=5",
-        "published_at": "2019-06-27T12:52:06Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      },
-      {
         "title": "iShares Nasdaq US Biotechnology UCITS ETF USD (Acc) (2B70.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VcUM5SWR6NlVUN3l3OEtzZzRfQkx4ZDJXRGwwYW5YQ0F4VEotVEszTlF3WmQxMmxqSTBwaVl4NjNQZDQwVmRGSXR5dmRqUWJIS2hQRkp3?oc=5",
         "published_at": "2019-06-17T21:03:04Z",
@@ -729,22 +765,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 9
-      },
-      {
-        "title": "Xtrackers CSI300 Swap UCITS ETF 1C (XCHA.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nY2lyTjBPa09sWXczSk52TXpVcl9iMDYyYThONUozVGczbVduSGpGUV9YLXRtOU1oLUtkUm5MbFFRSngxQ1BvN1dRRG1mOG9INGZYeEt3?oc=5",
-        "published_at": "2017-06-17T07:10:22Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
       },
       {
         "title": "iShares Gold Producers UCITS ETF USD (Acc) (IS0E.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
