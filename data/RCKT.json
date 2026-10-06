@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-06T20:25:59Z",
+    "last_update_utc": "2026-10-06T23:55:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -712,6 +712,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Rocket Pharmaceuticals sichert Kredit: Was das für die Rocket-Aktie bedeutet - AD HOC NEWS",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcUZnTUVCUUcyQWM0SWYzVTdEV0ZkMUc0Y3FRX21nSzQwUGswQnBRRUY0VDBvdGR1QlJOc2p2OFViYktkblNweG9LVjlWVTI4R2NXWXJ0ckdscjRKU2xZZWIyUWhHVEFjVVJmQnYxOGwxRzhEYjV4ZG12YkZCRFMtUE1xY2dYS19OdkkyRjFiU2JqUjVpTENoLVNDY1lrenBKRjFQeWxLWEtpcFVZZ09OXzJYUVEzM3pYNW1hVExpVDNrQU9R?oc=5",
+        "published_at": "2026-10-06T23:36:11Z",
+        "source": "AD HOC NEWS",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      },
+      {
         "title": "FDA bestätigt 12 Patienten und Rocket-Pharmaceuticals-Aktie hat 285,0 Mio. USD Börsenwert - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTdMdjdWbkdERGFhNnRlZVgyeHBHaHQ5QnhTMG5ram4zTktEUWktdDVsLWctdkpsbk5mU2ZZTG5veU12dVBJWmxIVGo5cGxSZkF1Nk1YaGNyMXkwUUtWVE9sM3dieEZ0ckw4Tnl0em5XZ1ZpaWozM0tnWUM0N1lmcVVvYnBHQmR1Y1g2allELXBvelpFbENRaUJlLXQ2aWh3STVKcl82TkI0bXRFWHkwbkZ2MFdxUjIwTTN1OVQ4S3F2YTZDVlFRdTRkekpaNEM1amZmRzBaOE1STWY5SUtFTU1vbw?oc=5",
         "published_at": "2026-10-06T09:18:14Z",
@@ -825,6 +841,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-10-06",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126038818/ef20083350_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-09-15",
@@ -955,13 +978,6 @@
         "form": "144",
         "filingDate": "2026-08-13",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326005994/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-08-11",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326005892/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1212,6 +1228,14 @@
         "date": "2026-09-15"
       },
       {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-10-06",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-06"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "The Natural History of Danon Disease",
@@ -1266,14 +1290,6 @@
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
         "source": "NCT06779825",
         "date": "2025-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-08-11",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-11"
       },
       {
         "type": "SEC Filing",
