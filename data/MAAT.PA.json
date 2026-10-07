@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$0.98",
-      "note": "Auto-Update: -4.76% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -4.56% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-07T10:27:05Z",
+    "last_update_utc": "2026-10-07T17:29:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 0.981,
+      "regularMarketPrice": 0.983,
       "previousClose": 1.03,
-      "change": -0.049,
-      "changePercent": -4.76,
-      "regularMarketTime": "2026-10-07T09:49:20Z",
+      "change": -0.047,
+      "changePercent": -4.56,
+      "regularMarketTime": "2026-10-07T15:35:04Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -244,7 +244,7 @@
       },
       {
         "t": "2026-10-07T07:00:00Z",
-        "price": 0.981
+        "price": 0.983
       }
     ],
     "price_history_1d": [
@@ -293,13 +293,121 @@
         "price": 0.981
       },
       {
-        "t": "2026-10-07T09:49:20Z",
+        "t": "2026-10-07T10:15:00Z",
+        "price": 0.972
+      },
+      {
+        "t": "2026-10-07T10:35:00Z",
+        "price": 0.98
+      },
+      {
+        "t": "2026-10-07T10:50:00Z",
+        "price": 0.953
+      },
+      {
+        "t": "2026-10-07T10:55:00Z",
+        "price": 0.953
+      },
+      {
+        "t": "2026-10-07T11:30:00Z",
+        "price": 0.95
+      },
+      {
+        "t": "2026-10-07T11:40:00Z",
+        "price": 0.957
+      },
+      {
+        "t": "2026-10-07T11:45:00Z",
+        "price": 0.957
+      },
+      {
+        "t": "2026-10-07T11:50:00Z",
+        "price": 0.957
+      },
+      {
+        "t": "2026-10-07T12:00:00Z",
+        "price": 0.959
+      },
+      {
+        "t": "2026-10-07T12:15:00Z",
+        "price": 0.951
+      },
+      {
+        "t": "2026-10-07T12:25:00Z",
+        "price": 0.959
+      },
+      {
+        "t": "2026-10-07T12:40:00Z",
+        "price": 0.975
+      },
+      {
+        "t": "2026-10-07T12:55:00Z",
+        "price": 0.965
+      },
+      {
+        "t": "2026-10-07T13:00:00Z",
+        "price": 0.967
+      },
+      {
+        "t": "2026-10-07T13:35:00Z",
+        "price": 0.966
+      },
+      {
+        "t": "2026-10-07T13:55:00Z",
+        "price": 0.96
+      },
+      {
+        "t": "2026-10-07T14:00:00Z",
+        "price": 0.968
+      },
+      {
+        "t": "2026-10-07T14:25:00Z",
+        "price": 0.975
+      },
+      {
+        "t": "2026-10-07T14:30:00Z",
+        "price": 0.985
+      },
+      {
+        "t": "2026-10-07T14:35:00Z",
         "price": 0.981
+      },
+      {
+        "t": "2026-10-07T14:40:00Z",
+        "price": 0.981
+      },
+      {
+        "t": "2026-10-07T14:45:00Z",
+        "price": 0.98
+      },
+      {
+        "t": "2026-10-07T15:25:00Z",
+        "price": 0.991
+      },
+      {
+        "t": "2026-10-07T15:30:00Z",
+        "price": 0.983
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - Onvista",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR24yR3ZEOEt1WllIdWtFb1djRVdPMU41dzc2Zy1sTktlbnM4cDBPMjJLSEl0ZGVoZERtd0xpQUpxcExualVUSUM5cmRMY1VKTk9FaHlfTDJodkRTV2hzd2lOSS1mU0wtXzJScWFTV2hjME5Gc0dsWjQtd1BCelYza1dZbUplTUlGaGNzMG9wSnZZems3ekNvU21IUnkzZEI2MXFVMXJGeXVJXzk5RjRlbFljZ2pyVUkxOXkwUTlnTnBpYXM?oc=5",
+        "published_at": "2026-10-07T12:10:13Z",
+        "source": "Onvista",
+        "query": "\"MaaT Pharma\" stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
+      },
       {
         "title": "Maat Pharma Aktie: EMA hält Ablehnung für MaaT013 aufrecht - AD HOC NEWS",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVUtTUkgtMF9ySldaVGJjMlQ0RWM0VmJVaDZuZXUwbkRJbS0tZmhPY3JILUk0REtqV1ZKSjd4MmkwcVB5ZGt4SG9HRDlfcVgxRm1aSFlpQlNvVmZYaTJUTmdqbmRHWnZpVmJuWjg2a2ZycnBoNW1iY01BVFlKQ1A2ZThtcTJDeVFZSlAteHl3Rkl2OXpxMVJUZGFkNW5jVkwxaXVmUjQ4YUJ5TjQ5UFFxckVyWmlWQ0JvUmRvVm12aDh1MUJHZk1feU1kOA?oc=5",
@@ -315,6 +423,22 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 14
+      },
+      {
+        "title": "MaaT Pharma Aktie (A3C7A5) - Kurs Euronext Paris - MarketScreener Schweiz",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KMlM0d2JmM0VDSEdHcF9jV1pCN0NBVUFUckplcU93QmU0UnBGUW5KczZrWWVwLVJSMlFZeExwbGJKaUZuNDdwb3h0dEJnOEdRaUwxcG5lVmZVVFlzdjVhdW1yZHdvU214TUtfV2pKWFI?oc=5",
+        "published_at": "2021-12-13T18:32:29Z",
+        "source": "MarketScreener Schweiz",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 10
       }
     ],
     "sec_filings": [],
