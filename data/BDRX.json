@@ -191,7 +191,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-09T01:32:19Z",
+    "last_update_utc": "2026-10-09T08:07:15Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -209,9 +209,9 @@
       "postMarketChange": null,
       "postMarketChangePercent": null,
       "postMarketTime": null,
-      "fiftyTwoWeekHigh": 59.4,
-      "fiftyTwoWeekLow": 0.5129,
-      "fiftyTwoWeekRange": "0.5129 – 59.4"
+      "fiftyTwoWeekHigh": 52.05,
+      "fiftyTwoWeekLow": 0.511,
+      "fiftyTwoWeekRange": "0.511 – 52.05"
     },
     "price_history": [
       {
@@ -465,6 +465,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Biodexa sichert sich 3,5 Millionen US-Dollar durch Kapitalerhöhung mit Optionsscheinen - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRU5qRUdVcTNtTVJTdEI2bHpPRmlzYmJjY0k5aUVrNVZ1TkF3UnBzczJzdFc1Umw0ZWlzbjNITWtNRmxFb2V3SnREcEQ4WVhhQ096VnN0QjFIb3pfdUwyY1RZT0ZMWmg0eGFLQzM2Rm9DREhMcGJRWW03RlVsZXo1UGJxUFhqZWFxcWlNel9hZ1RUOEFmNk5TMXJoUkJGeFg0czVHQVpYUzc0RzhnZk16RmVib05FY1I4SDBtMm5kcmNJTDNQMkV2YUg2VGY4STRiS2h2TXJHYw?oc=5",
+        "published_at": "2026-06-30T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Biodexa Pharmaceuticals BDRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 5
+      },
+      {
         "title": "Biodexa Pharmaceuticals: Biodexa Hits Key Milestone For Its Type 1 Diabetes Candidate Tolimidone, Enrolls First Patient In Phase 2a Study - FinanzNachrichten.de",
         "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOTXpiMFRsX1UwQXVmbU5PWEJ1cS15dG1Iem43a05Yd1hNclF5TWFMamdVb2VwSmxHNXZySjQ2UVFSZDdyVVU3THNnSzN5Z2ZlcndvQm1sTG5HYlp1TVgza1pxWTlUaW90VG4wUzFZTHdaNGd2Vmp1NFNXajdzYk41cWttQjZqakRPSW5SRF9ZbUVPRGJ1UUlwcmZvc2VydV9aSHBqZzNjWUxVY2pmUlRqS0x0Z3c5LVRMdm5MdlFJSktiYVo3LWh5OE8weWtjdXRxU0RNVEF3dG9KT09nQVBOMTYyWEROT1pyaldfY24xN1FMcEI4X1N4SnZIdjdQeEdvREtjYl9NbFg2R1ZGXzlGMERfd3lnRXF5blVXNTJiSGRVV2N4RjdTa1pWVFZPZw?oc=5",
         "published_at": "2025-06-18T07:00:00Z",
@@ -693,6 +709,18 @@
         "source": "FinanzNachrichten.de",
         "date": "2025-06-18T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOTXpiMFRsX1UwQXVmbU5PWEJ1cS15dG1Iem43a05Yd1hNclF5TWFMamdVb2VwSmxHNXZySjQ2UVFSZDdyVVU3THNnSzN5Z2ZlcndvQm1sTG5HYlp1TVgza1pxWTlUaW90VG4wUzFZTHdaNGd2Vmp1NFNXajdzYk41cWttQjZqakRPSW5SRF9ZbUVPRGJ1UUlwcmZvc2VydV9aSHBqZzNjWUxVY2pmUlRqS0x0Z3c5LVRMdm5MdlFJSktiYVo3LWh5OE8weWtjdXRxU0RNVEF3dG9KT09nQVBOMTYyWEROT1pyaldfY24xN1FMcEI4X1N4SnZIdjdQeEdvREtjYl9NbFg2R1ZGXzlGMERfd3lnRXF5blVXNTJiSGRVV2N4RjdTa1pWVFZPZw?oc=5"
+      },
+      {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Biodexa sichert sich 3,5 Millionen US-Dollar durch Kapitalerhöhung mit Optionsscheinen - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-06-30T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRU5qRUdVcTNtTVJTdEI2bHpPRmlzYmJjY0k5aUVrNVZ1TkF3UnBzczJzdFc1Umw0ZWlzbjNITWtNRmxFb2V3SnREcEQ4WVhhQ096VnN0QjFIb3pfdUwyY1RZT0ZMWmg0eGFLQzM2Rm9DREhMcGJRWW03RlVsZXo1UGJxUFhqZWFxcWlNel9hZ1RUOEFmNk5TMXJoUkJGeFg0czVHQVpYUzc0RzhnZk16RmVib05FY1I4SDBtMm5kcmNJTDNQMkV2YUg2VGY4STRiS2h2TXJHYw?oc=5"
       },
       {
         "type": "SEC · Finanzierung/Verwässerung",
