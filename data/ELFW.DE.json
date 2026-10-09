@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$45.06",
-      "note": "Auto-Update: 0.87% vs. vorheriger Schlusskurs",
+      "value": "$45.22",
+      "note": "Auto-Update: 1.24% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-09T08:08:33Z",
+    "last_update_utc": "2026-10-09T15:24:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 45.056,
+      "regularMarketPrice": 45.22,
       "previousClose": 44.668,
-      "change": 0.388,
-      "changePercent": 0.87,
-      "regularMarketTime": "2026-10-09T07:04:58Z",
+      "change": 0.552,
+      "changePercent": 1.24,
+      "regularMarketTime": "2026-10-09T15:06:20Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -244,7 +244,7 @@
       },
       {
         "t": "2026-10-09T07:00:00Z",
-        "price": 45.056
+        "price": 45.22
       }
     ],
     "price_history_1d": [
@@ -253,8 +253,52 @@
         "price": 45.056
       },
       {
-        "t": "2026-10-09T07:04:58Z",
-        "price": 45.056
+        "t": "2026-10-09T08:50:00Z",
+        "price": 45.139
+      },
+      {
+        "t": "2026-10-09T11:10:00Z",
+        "price": 45.121
+      },
+      {
+        "t": "2026-10-09T11:20:00Z",
+        "price": 45.144
+      },
+      {
+        "t": "2026-10-09T11:50:00Z",
+        "price": 45.16
+      },
+      {
+        "t": "2026-10-09T13:05:00Z",
+        "price": 45.181
+      },
+      {
+        "t": "2026-10-09T13:40:00Z",
+        "price": 45.179
+      },
+      {
+        "t": "2026-10-09T13:45:00Z",
+        "price": 45.16
+      },
+      {
+        "t": "2026-10-09T13:55:00Z",
+        "price": 45.176
+      },
+      {
+        "t": "2026-10-09T14:00:00Z",
+        "price": 45.177
+      },
+      {
+        "t": "2026-10-09T14:40:00Z",
+        "price": 45.158
+      },
+      {
+        "t": "2026-10-09T14:45:00Z",
+        "price": 45.161
+      },
+      {
+        "t": "2026-10-09T15:06:20Z",
+        "price": 45.22
       }
     ],
     "price_history_range": "1mo",

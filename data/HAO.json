@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.50",
-      "note": "Auto-Update: -7.41% vs. vorheriger Schlusskurs",
+      "value": "$2.42",
+      "note": "Auto-Update: -10.19% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-09T08:08:15Z",
+    "last_update_utc": "2026-10-09T15:24:21Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.5,
+      "regularMarketPrice": 2.425,
       "previousClose": 2.7,
-      "change": -0.2,
-      "changePercent": -7.41,
-      "regularMarketTime": "2026-10-08T20:00:00Z",
+      "change": -0.275,
+      "changePercent": -10.19,
+      "regularMarketTime": "2026-10-09T15:15:51Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -302,104 +302,32 @@
       {
         "t": "2026-10-08T13:30:00Z",
         "price": 2.5
+      },
+      {
+        "t": "2026-10-09T13:30:00Z",
+        "price": 2.425
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-08T13:40:00Z",
-        "price": 2.5201
+        "t": "2026-10-09T13:30:00Z",
+        "price": 2.3801
       },
       {
-        "t": "2026-10-08T13:45:00Z",
-        "price": 2.535
+        "t": "2026-10-09T13:35:00Z",
+        "price": 2.3874
       },
       {
-        "t": "2026-10-08T14:00:00Z",
-        "price": 2.53
+        "t": "2026-10-09T14:15:00Z",
+        "price": 2.41
       },
       {
-        "t": "2026-10-08T14:15:00Z",
-        "price": 2.581
+        "t": "2026-10-09T14:25:00Z",
+        "price": 2.39
       },
       {
-        "t": "2026-10-08T14:45:00Z",
-        "price": 2.53
-      },
-      {
-        "t": "2026-10-08T14:50:00Z",
-        "price": 2.5103
-      },
-      {
-        "t": "2026-10-08T14:55:00Z",
-        "price": 2.5123
-      },
-      {
-        "t": "2026-10-08T15:10:00Z",
-        "price": 2.51
-      },
-      {
-        "t": "2026-10-08T15:20:00Z",
-        "price": 2.5
-      },
-      {
-        "t": "2026-10-08T15:45:00Z",
-        "price": 2.475
-      },
-      {
-        "t": "2026-10-08T16:10:00Z",
-        "price": 2.4956
-      },
-      {
-        "t": "2026-10-08T16:25:00Z",
-        "price": 2.5099
-      },
-      {
-        "t": "2026-10-08T16:30:00Z",
-        "price": 2.5001
-      },
-      {
-        "t": "2026-10-08T16:35:00Z",
-        "price": 2.5016
-      },
-      {
-        "t": "2026-10-08T16:40:00Z",
-        "price": 2.5016
-      },
-      {
-        "t": "2026-10-08T16:55:00Z",
-        "price": 2.5016
-      },
-      {
-        "t": "2026-10-08T17:10:00Z",
-        "price": 2.52
-      },
-      {
-        "t": "2026-10-08T17:15:00Z",
-        "price": 2.52
-      },
-      {
-        "t": "2026-10-08T17:20:00Z",
-        "price": 2.5001
-      },
-      {
-        "t": "2026-10-08T17:25:00Z",
-        "price": 2.47
-      },
-      {
-        "t": "2026-10-08T18:15:00Z",
-        "price": 2.48
-      },
-      {
-        "t": "2026-10-08T18:55:00Z",
-        "price": 2.45
-      },
-      {
-        "t": "2026-10-08T19:55:00Z",
-        "price": 2.49
-      },
-      {
-        "t": "2026-10-08T20:00:00Z",
-        "price": 2.5
+        "t": "2026-10-09T15:15:51Z",
+        "price": 2.425
       }
     ],
     "price_history_range": "1mo",
@@ -566,134 +494,144 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06942611",
-        "title": "Transcranial Electrical Stimulation for Treating Chronic Pain in Inflammatory Demyelinating Diseases",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Idiopathic Inflammatory Demyelinating Disorders of the Central Nervous System",
-        "last_update": "",
-        "start_date": "2025-05-03",
-        "url": "https://clinicaltrials.gov/study/NCT06942611"
-      },
-      {
-        "nct_id": "NCT03564132",
-        "title": "Evaluating the Efficacy and Safety of Yi-Gan San in Children and Adolescents With Tourette's Disorder",
+        "nct_id": "NCT06086093",
+        "title": "Evaluate the Efficacy of RespireAidTM in Patient With Externally Contracted Seasonal Epidemic (外感時疫)",
         "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Tourette Disorder, Tic Disorders",
+        "phase": "NA",
+        "conditions": "Respiration Disorders",
         "last_update": "",
-        "start_date": "2018-06-16",
-        "url": "https://clinicaltrials.gov/study/NCT03564132"
+        "start_date": "2023-08-07",
+        "url": "https://clinicaltrials.gov/study/NCT06086093"
       },
       {
-        "nct_id": "NCT06093932",
-        "title": "Efficacy of Songling Xuemaikang Capsules on Grade 1 Hypertension: a Randomized Controlled Trial",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Hypertension,Essential",
+        "nct_id": "NCT02534545",
+        "title": "Remote Ischemic Conditioning for Avoiding Recurrence of Symptomatic Intracranial Atherosclerotic Stenosis (sICAS)",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Intracranial Atherosclerosis",
         "last_update": "",
-        "start_date": "2024-04-07",
-        "url": "https://clinicaltrials.gov/study/NCT06093932"
+        "start_date": "2015-10",
+        "url": "https://clinicaltrials.gov/study/NCT02534545"
       },
       {
-        "nct_id": "NCT07694648",
-        "title": "Clinical Multimodal Surveillance of Respiratory Syndrome Pathogens",
+        "nct_id": "NCT07665099",
+        "title": "The Effect of Esketamine on Postoperative Cognitive Function in Elderly Patients Undergoing Oral and Maxillofacial Surgery",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Perioperative Neurocognitive Disorders",
+        "last_update": "",
+        "start_date": "2026-07-01",
+        "url": "https://clinicaltrials.gov/study/NCT07665099"
+      },
+      {
+        "nct_id": "NCT05696626",
+        "title": "Evaluation of Lasofoxifene Combined With Abemaciclib Compared With Fulvestrant Combined With Abemaciclib in Locally Advanced or Metastatic ER+/HER2- Breast Cancer With an ESR1 Mutation",
         "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Metastatic Breast Cancer",
+        "last_update": "",
+        "start_date": "2023-10-31",
+        "url": "https://clinicaltrials.gov/study/NCT05696626"
+      },
+      {
+        "nct_id": "NCT07050576",
+        "title": "Lymph Node Metastasis in Early Esophageal Squamous Cell Carcinoma",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Respiratory Tract Infections (RTI), Respiratory Syndrome, Acute, Severe, Acute Respiratory Infections (ARIs)",
+        "conditions": "ESCC, Lymph Node Metastasis, Radiomics",
+        "last_update": "",
+        "start_date": "2024-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT07050576"
+      },
+      {
+        "nct_id": "NCT07050524",
+        "title": "Omega-3 Supplementation and Immunotherapy in Gastric Cancer: A Phase II Trial",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Gastric Cancer Stage III",
         "last_update": "",
         "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07694648"
+        "url": "https://clinicaltrials.gov/study/NCT07050524"
       },
       {
-        "nct_id": "NCT07047365",
-        "title": "TQB2930 Injection for the Treatment of HER2-positive Advanced Breast Cancer",
+        "nct_id": "NCT04937283",
+        "title": "Segmentectomy Versus Lobectomy for Lung Adenocarcinoma ≤ 2cm",
         "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "HER2-positive Advanced Breast Cancer",
+        "phase": "NA",
+        "conditions": "Lung Adenocarcinoma",
         "last_update": "",
-        "start_date": "2025-07-25",
-        "url": "https://clinicaltrials.gov/study/NCT07047365"
+        "start_date": "2019-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT04937283"
       },
       {
-        "nct_id": "NCT07490704",
-        "title": "Clinical Outcomes of BronchiEctaSis in Taiwan: A Multicenter Prospective Cohort (BEST Study)",
-        "status": "ACTIVE_NOT_RECRUITING",
+        "nct_id": "NCT06450145",
+        "title": "Evaluate the Efficacy and Safety of Interferon-α Combined With ATO in the Treatment of Arsenic-resistant APL",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Tumour",
+        "last_update": "",
+        "start_date": "2024-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT06450145"
+      },
+      {
+        "nct_id": "NCT05347901",
+        "title": "Clinical Precise Diagnosis and Treatment in the Kawasaki Disease",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Bronchiectasis",
+        "conditions": "Kawasaki Disease",
         "last_update": "",
-        "start_date": "2023-04-04",
-        "url": "https://clinicaltrials.gov/study/NCT07490704"
+        "start_date": "2021-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT05347901"
       },
       {
-        "nct_id": "NCT02367781",
-        "title": "A Study of Atezolizumab in Combination With Carboplatin Plus (+) Nab-Paclitaxel Compared With Carboplatin+Nab-Paclitaxel in Participants With Stage IV Non-Squamous Non-Small Cell Lung Cancer (NSCLC)",
+        "nct_id": "NCT05578183",
+        "title": "Therapeutic Effect of Transcranial Magnetic Stimulation on Memory Impairment in Patients After Stroke",
+        "status": "WITHDRAWN",
+        "phase": "NA",
+        "conditions": "Stroke, Stroke Sequelae, Cognitive Impairment",
+        "last_update": "",
+        "start_date": "2022-12-31",
+        "url": "https://clinicaltrials.gov/study/NCT05578183"
+      },
+      {
+        "nct_id": "NCT05471453",
+        "title": "Effectiveness of Adjuvant Supplements Prior to in IVF",
         "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Carcinoma, Non-Squamous Non-Small Cell Lung",
-        "last_update": "",
-        "start_date": "2015-04-16",
-        "url": "https://clinicaltrials.gov/study/NCT02367781"
-      },
-      {
-        "nct_id": "NCT03259477",
-        "title": "RFR Change of Precise Segmental Versus Complete Renal Arterial Clamping During LPN for Clinical T1 RCC",
-        "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Renal Cell Carcinoma",
+        "conditions": "Dietary Supplements",
         "last_update": "",
-        "start_date": "2018-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT03259477"
+        "start_date": "2022-03-02",
+        "url": "https://clinicaltrials.gov/study/NCT05471453"
       },
       {
-        "nct_id": "NCT03830879",
-        "title": "Shenzhen Birth Cohort Study",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Pregnancy Complications, Gestational Diabetes, Obstetric Labor Complications, Neurodevelopmental Disorders",
-        "last_update": "",
-        "start_date": "2018-03-06",
-        "url": "https://clinicaltrials.gov/study/NCT03830879"
-      },
-      {
-        "nct_id": "NCT07436741",
-        "title": "Surufatinib Plus Gemcitabine and Nab-paclitaxel vs. Gemcitabine Plus Nab-paclitaxel in Neoadjuvant Therapy for High - Risk Resectable or Borderline Resectable Pancreatic Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Pancreatic Cancer, Adult",
-        "last_update": "",
-        "start_date": "2026-03-03",
-        "url": "https://clinicaltrials.gov/study/NCT07436741"
-      },
-      {
-        "nct_id": "NCT06454773",
-        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
-        "status": "UNKNOWN",
-        "phase": "PHASE3",
-        "conditions": "Intervention",
-        "last_update": "",
-        "start_date": "2024-06-01",
-        "url": "https://clinicaltrials.gov/study/NCT06454773"
-      },
-      {
-        "nct_id": "NCT04748068",
-        "title": "Use of Glidesheath Slender to Reduce Radial Artery Occlusion Following 7 French Transradial Coronary Intervention",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Radial Artery Occlusion, Coronary Artery Disease",
-        "last_update": "",
-        "start_date": "2021-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT04748068"
-      },
-      {
-        "nct_id": "NCT06229496",
-        "title": "Dose Escalation and Dose Expansion Study of GAS in Subjects With Metastatic Pancreatic Adenocarcinoma",
+        "nct_id": "NCT06618651",
+        "title": "A Study of SHR-3821 Injection in Subjects With Advanced Solid Tumors",
         "status": "RECRUITING",
         "phase": "PHASE1",
-        "conditions": "Metastatic Pancreatic Adenocarcinoma",
+        "conditions": "Advanced Solid Tumors",
         "last_update": "",
-        "start_date": "2023-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT06229496"
+        "start_date": "2024-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT06618651"
+      },
+      {
+        "nct_id": "NCT07800819",
+        "title": "Sino-Russian Comparison of Outcomes After Proximal Gastrectomy With Double-Tract Reconstruction",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Gastric Adenocarcinoma, Adenocarcinoma of the Esophagogastric Junction",
+        "last_update": "",
+        "start_date": "2026-08-15",
+        "url": "https://clinicaltrials.gov/study/NCT07800819"
+      },
+      {
+        "nct_id": "NCT01862172",
+        "title": "Focal Cortical Atrophy After Myocardial Internal Capsule",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Ischemic Stroke",
+        "last_update": "",
+        "start_date": "2013-02",
+        "url": "https://clinicaltrials.gov/study/NCT01862172"
       },
       {
         "nct_id": "NCT06199505",
@@ -704,16 +642,6 @@
         "last_update": "",
         "start_date": "2023-11-21",
         "url": "https://clinicaltrials.gov/study/NCT06199505"
-      },
-      {
-        "nct_id": "NCT07298772",
-        "title": "A Study of SHR-4375 Injection in Combination With Other Antitumor Therapies in Patients With Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Advanced Solid Tumor",
-        "last_update": "",
-        "start_date": "2026-01-07",
-        "url": "https://clinicaltrials.gov/study/NCT07298772"
       }
     ],
     "detected_triggers": [
@@ -736,42 +664,58 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study of Atezolizumab in Combination With Carboplatin Plus (+) Nab-Paclitaxel Compared With Carboplatin+Nab-Paclitaxel in Participants With Stage IV Non-Squamous Non-Small Cell Lung Cancer (NSCLC)",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT02367781",
-        "date": "2015-04-16"
+        "title": "Focal Cortical Atrophy After Myocardial Internal Capsule",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT01862172",
+        "date": "2013-02"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "RFR Change of Precise Segmental Versus Complete Renal Arterial Clamping During LPN for Clinical T1 RCC",
+        "title": "Remote Ischemic Conditioning for Avoiding Recurrence of Symptomatic Intracranial Atherosclerotic Stenosis (sICAS)",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03259477",
-        "date": "2018-02-01"
+        "source": "NCT02534545",
+        "date": "2015-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Evaluating the Efficacy and Safety of Yi-Gan San in Children and Adolescents With Tourette's Disorder",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT03564132",
-        "date": "2018-06-16"
+        "title": "Segmentectomy Versus Lobectomy for Lung Adenocarcinoma ≤ 2cm",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT04937283",
+        "date": "2019-10-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Use of Glidesheath Slender to Reduce Radial Artery Occlusion Following 7 French Transradial Coronary Intervention",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT04748068",
-        "date": "2021-02-01"
+        "title": "Effectiveness of Adjuvant Supplements Prior to in IVF",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT05471453",
+        "date": "2022-03-02"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Dose Escalation and Dose Expansion Study of GAS in Subjects With Metastatic Pancreatic Adenocarcinoma",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT06229496",
-        "date": "2023-08-01"
+        "title": "Therapeutic Effect of Transcranial Magnetic Stimulation on Memory Impairment in Patients After Stroke",
+        "reason": "Studienregister-Treffer: WITHDRAWN NA",
+        "source": "NCT05578183",
+        "date": "2022-12-31"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Evaluate the Efficacy of RespireAidTM in Patient With Externally Contracted Seasonal Epidemic (外感時疫)",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT06086093",
+        "date": "2023-08-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Evaluation of Lasofoxifene Combined With Abemaciclib Compared With Fulvestrant Combined With Abemaciclib in Locally Advanced or Metastatic ER+/HER2- Breast Cancer With an ESR1 Mutation",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT05696626",
+        "date": "2023-10-31"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -784,50 +728,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy of Songling Xuemaikang Capsules on Grade 1 Hypertension: a Randomized Controlled Trial",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT06093932",
-        "date": "2024-04-07"
+        "title": "Evaluate the Efficacy and Safety of Interferon-α Combined With ATO in the Treatment of Arsenic-resistant APL",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT06450145",
+        "date": "2024-05-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT06454773",
-        "date": "2024-06-01"
+        "title": "A Study of SHR-3821 Injection in Subjects With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT06618651",
+        "date": "2024-11-13"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Transcranial Electrical Stimulation for Treating Chronic Pain in Inflammatory Demyelinating Diseases",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06942611",
-        "date": "2025-05-03"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "TQB2930 Injection for the Treatment of HER2-positive Advanced Breast Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07047365",
-        "date": "2025-07-25"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study of SHR-4375 Injection in Combination With Other Antitumor Therapies in Patients With Solid Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT07298772",
-        "date": "2026-01-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Surufatinib Plus Gemcitabine and Nab-paclitaxel vs. Gemcitabine Plus Nab-paclitaxel in Neoadjuvant Therapy for High - Risk Resectable or Borderline Resectable Pancreatic Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07436741",
-        "date": "2026-03-03"
+        "title": "Omega-3 Supplementation and Immunotherapy in Gastric Cancer: A Phase II Trial",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT07050524",
+        "date": "2025-09-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -894,6 +814,14 @@
         "date": "2026-06-24"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "The Effect of Esketamine on Postoperative Cognitive Function in Elderly Patients Undergoing Oral and Maxillofacial Surgery",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07665099",
+        "date": "2026-07-01"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "6-K · 2026-07-06",
@@ -920,26 +848,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Shenzhen Birth Cohort Study",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT03830879",
-        "date": "2018-03-06"
+        "title": "Clinical Precise Diagnosis and Treatment in the Kawasaki Disease",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05347901",
+        "date": "2021-08-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Clinical Outcomes of BronchiEctaSis in Taiwan: A Multicenter Prospective Cohort (BEST Study)",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
-        "source": "NCT07490704",
-        "date": "2023-04-04"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Clinical Multimodal Surveillance of Respiratory Syndrome Pathogens",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT07694648",
-        "date": "2025-09-01"
+        "title": "Lymph Node Metastasis in Early Esophageal Squamous Cell Carcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT07050576",
+        "date": "2024-05-01"
       },
       {
         "type": "SEC Filing",
@@ -948,6 +868,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
