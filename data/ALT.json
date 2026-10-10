@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-10T00:07:26Z",
+    "last_update_utc": "2026-10-10T06:05:43Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -414,6 +414,10 @@
       {
         "t": "2026-10-08T13:30:00Z",
         "price": 2.6
+      },
+      {
+        "t": "2026-10-09T13:30:00Z",
+        "price": 2.61
       }
     ],
     "price_history_1d": [
@@ -738,22 +742,6 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Altimmune forciert mit Pemvidutid Expansion bei Lebererkrankungen - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUGRDN2Vub2xqa1lySEdVZF9HakY1d1FTUVg2bU5ycUNpSDlYeEl5NDJvQV9hcGphWEY3MExrVExCckhVaEdMaHd0eHNxd2tpLWF6OTVNaTJYMFFLVGdkOFQxMFN5Qkh0MVZpakNJUVEzZnZfZVpmY1NLY1ItckxSLU5KREZGdndycE5vb1hzVVJSOFg1NlNORS1LNGZSME1yNGVTSG5xRldMem41SjQ3RUxsdGJ6b2JBU0Z0Zw?oc=5",
-        "published_at": "2026-09-30T15:15:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
         "title": "Altimmune beruft Richard Menziuso zum neuen Vice President und Principal Accounting Officer - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc0RPSkQ3UTdwdUpRenRXd3Y2UzA5d0hRQ2RzajNGOTYxVndVM1FwUFVUN3V0ODJEcFNtTlVhSFpBZU5HRzl6bm5OUnc3SlFEMjdLT2t0SEFxczB4TnItUURqaUZTVGR0dDRLM09heGYtUmg1UTZQZnZwNklvVHZ1eEdHeXdBUkpGVFRJOEVWTnViengxWmJCYmVjb2hsRTFNYVpmN2ZqWUxFQ0NEZFJIbEF6SUw0WW9uekRUZjI2MDJpRUJHZlVZMkh3S3A2Wm9BQWU5VXpkV2NldUc2dl9R?oc=5",
         "published_at": "2026-09-29T11:14:00Z",
@@ -799,6 +787,22 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Altimmune übertrifft Q1-EPS: Verlust je Aktie (-0,18 USD) besser als erwartet und Cash für Pemvidutide-Studien - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVm9YTEZXZUpqWlk2dEgzdERQR3gxSnpMVVlweFV1YVgzd1ItYjNYcm43Q21sajdpUFZDTE56eXBWZi0tWW1LMzR5bnYzdko3bEJxMTBHUnQ1dzY2ZUxRNTNIQzU3SXkwSXNEVTg3aHpoZUJla3pOaFgtVUlKTFRWc2Y5Z2xIOURZMjF0TXpJT1BibVE0YVJmSWgtZjJURGdCekMzeDQ4RE1LbjZJXzh5R2w5Y2VMZzhTLXJsV3VZcEoyUjQ2TDdnZmxoeTFXNkQtT0Uw?oc=5",
+        "published_at": "2026-05-13T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 13
       },
       {
@@ -1430,6 +1434,18 @@
         "date": "2026-05-13"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Altimmune übertrifft Q1-EPS: Verlust je Aktie (-0,18 USD) besser als erwartet und Cash für Pemvidutide-Studien - Goldesel.de",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Goldesel.de",
+        "date": "2026-05-13T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVm9YTEZXZUpqWlk2dEgzdERQR3gxSnpMVVlweFV1YVgzd1ItYjNYcm43Q21sajdpUFZDTE56eXBWZi0tWW1LMzR5bnYzdko3bEJxMTBHUnQ1dzY2ZUxRNTNIQzU3SXkwSXNEVTg3aHpoZUJla3pOaFgtVUlKTFRWc2Y5Z2xIOURZMjF0TXpJT1BibVE0YVJmSWgtZjJURGdCekMzeDQ4RE1LbjZJXzh5R2w5Y2VMZzhTLXJsV3VZcEoyUjQ2TDdnZmxoeTFXNkQtT0Uw?oc=5"
+      },
+      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-06-16",
@@ -1516,14 +1532,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-13"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G/A · 2026-05-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-15"
       }
     ],
     "queries_used": [
