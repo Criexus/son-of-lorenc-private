@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$0.92",
-      "note": "Auto-Update: -6.82% vs. vorheriger Schlusskurs",
+      "value": "$0.91",
+      "note": "Auto-Update: -7.12% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-13T09:36:19Z",
+    "last_update_utc": "2026-10-13T17:13:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 0.916,
+      "regularMarketPrice": 0.913,
       "previousClose": 0.983,
-      "change": -0.067,
-      "changePercent": -6.82,
-      "regularMarketTime": "2026-10-13T09:18:19Z",
+      "change": -0.07,
+      "changePercent": -7.12,
+      "regularMarketTime": "2026-10-13T15:35:29Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -236,7 +236,7 @@
       },
       {
         "t": "2026-10-13T07:00:00Z",
-        "price": 0.916
+        "price": 0.913
       }
     ],
     "price_history_1d": [
@@ -281,8 +281,52 @@
         "price": 0.927
       },
       {
-        "t": "2026-10-13T09:18:19Z",
+        "t": "2026-10-13T09:15:00Z",
         "price": 0.916
+      },
+      {
+        "t": "2026-10-13T09:20:00Z",
+        "price": 0.924
+      },
+      {
+        "t": "2026-10-13T09:30:00Z",
+        "price": 0.927
+      },
+      {
+        "t": "2026-10-13T11:25:00Z",
+        "price": 0.922
+      },
+      {
+        "t": "2026-10-13T11:35:00Z",
+        "price": 0.923
+      },
+      {
+        "t": "2026-10-13T12:30:00Z",
+        "price": 0.912
+      },
+      {
+        "t": "2026-10-13T12:35:00Z",
+        "price": 0.912
+      },
+      {
+        "t": "2026-10-13T12:55:00Z",
+        "price": 0.915
+      },
+      {
+        "t": "2026-10-13T13:25:00Z",
+        "price": 0.92
+      },
+      {
+        "t": "2026-10-13T15:05:00Z",
+        "price": 0.92
+      },
+      {
+        "t": "2026-10-13T15:25:00Z",
+        "price": 0.914
+      },
+      {
+        "t": "2026-10-13T15:30:00Z",
+        "price": 0.913
       }
     ],
     "price_history_range": "1mo",
@@ -293,22 +337,6 @@
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR24yR3ZEOEt1WllIdWtFb1djRVdPMU41dzc2Zy1sTktlbnM4cDBPMjJLSEl0ZGVoZERtd0xpQUpxcExualVUSUM5cmRMY1VKTk9FaHlfTDJodkRTV2hzd2lOSS1mU0wtXzJScWFTV2hjME5Gc0dsWjQtd1BCelYza1dZbUplTUlGaGNzMG9wSnZZems3ekNvU21IUnkzZEI2MXFVMXJGeXVJXzk5RjRlbFljZ2pyVUkxOXkwUTlnTnBpYXM?oc=5",
         "published_at": "2026-10-07T12:10:13Z",
         "source": "Onvista",
-        "query": "\"MaaT Pharma\" stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
-      {
-        "title": "MAAT PHARMA-Aktie mit neuem All-Time-Low - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUN6bDBSTGlnbENMZnpPa2gwZDJ3SFZRU0U4Mjk4WC1vWnBTOUtrcFNRMXYtRVF3VkxlLW1RZEdCNThsZjdWRWYxeVoyaFVYWTRuNmJEVTBjYS04Z281M3hOcnRTY25qSEVjNHFyeUc5Y2V6V3hEbFE1bXJOa2RleFdUWGp4QnF4WGZn?oc=5",
-        "published_at": "2026-10-06T01:06:00Z",
-        "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
