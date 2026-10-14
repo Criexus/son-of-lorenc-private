@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.26",
-      "note": "Auto-Update: -3.68% vs. vorheriger Schlusskurs",
+      "value": "$11.27",
+      "note": "Auto-Update: -3.59% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-14T19:49:01Z",
+    "last_update_utc": "2026-10-14T22:47:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.26,
+      "regularMarketPrice": 11.27,
       "previousClose": 11.69,
-      "change": -0.43,
-      "changePercent": -3.68,
-      "regularMarketTime": "2026-10-14T19:48:38Z",
+      "change": -0.42,
+      "changePercent": -3.59,
+      "regularMarketTime": "2026-10-14T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "4.88 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-09-14T13:30:00Z",
-        "price": 14.54
-      },
       {
         "t": "2026-09-15T13:30:00Z",
         "price": 13.81
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-10-14T13:30:00Z",
-        "price": 11.26
+        "price": 11.27
       }
     ],
     "price_history_1d": [
@@ -727,11 +723,19 @@
       },
       {
         "t": "2026-10-14T19:45:00Z",
-        "price": 11.25
+        "price": 11.26
       },
       {
-        "t": "2026-10-14T19:48:38Z",
-        "price": 11.26
+        "t": "2026-10-14T19:50:00Z",
+        "price": 11.28
+      },
+      {
+        "t": "2026-10-14T19:55:00Z",
+        "price": 11.265
+      },
+      {
+        "t": "2026-10-14T20:00:00Z",
+        "price": 11.27
       }
     ],
     "price_history_range": "1mo",
@@ -886,7 +890,7 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1hJZGx0YmQ3ek5PNEhyMDJMNTZaT2RMb3BVQmxReGNNMHVDWEpGa2JLd0xhamF4N25PMnJHTHBFeFVTaWhfLVVDMTJXaHg2bnhoSXgtckxYVUU2dkVqUnF6b1hQNkJyWnd1QVl5Sy1fX0tVVHY3N1ZPVVNfLXoxYmJPcWdQcUc4YXY0VFk4MnJFZTlfZXdMN1A4ckQ5anV5dVRRbEk5TjIyeWZTYnVpMzl3SQ?oc=5",
         "published_at": "2026-06-05T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "query": "CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -895,7 +899,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
+        "relevance_score": 16
       },
       {
         "title": "Compass Pathways steigt nach TD-Cowen-Update: Buy bleibt bestehen, Zulassung für COMP360 in 1H27 im Fokus - Goldesel.de",
@@ -992,6 +996,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 16
+      },
+      {
+        "title": "Umschichtung bei ARK: Cathie Wood trennt sich von DraftKings, kauft bei Figma und Compass Pathways zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTTJ2YjVGdGo1QU92dy16N1JkdVZIWlZoYU9zeEdRbFliVV9hRjRENnlELWhITnhhOXpRcHpUZHpWT0E0ZXp5ZDA4aFdfTVBuUGc3N1pCcDZyekRhdERWdHZFRC1XdUd0bl94ZVF2bUNMd2ZSYmZmc0ExcDNDbllXNXQ2UmNHTlB6RjBkaTlDdW9iWHlpcm9QYzc5bXMySW9oVDFOS1lhWGtWbjR5R2NkWi1jdXU3QXZRRXFXaGdvMGdBa3NVV3M3amNabEIzY0VXZXRQLXJBY2szUkVyZWRZN09MYU9nd2Z1UVpj?oc=5",
+        "published_at": "2026-02-20T08:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
       },
       {
         "title": "COMPASS Pathways berichtet über Q3-Ergebnisse und Studien-Updates - Investing.com Deutsch",
