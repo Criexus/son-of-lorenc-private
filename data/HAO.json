@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.27",
-      "note": "Auto-Update: -6.2% vs. vorheriger Schlusskurs",
+      "value": "$2.18",
+      "note": "Auto-Update: -16.15% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-14T10:48:26Z",
+    "last_update_utc": "2026-10-14T15:37:14Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.27,
-      "previousClose": 2.42,
-      "change": -0.15,
-      "changePercent": -6.2,
-      "regularMarketTime": "2026-10-13T20:00:00Z",
+      "regularMarketPrice": 2.18,
+      "previousClose": 2.6,
+      "change": -0.42,
+      "changePercent": -16.15,
+      "regularMarketTime": "2026-10-14T14:53:07Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -211,8 +211,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 4352.0,
-      "fiftyTwoWeekLow": 2.27,
-      "fiftyTwoWeekRange": "2.27 – 4352.0"
+      "fiftyTwoWeekLow": 2.1,
+      "fiftyTwoWeekRange": "2.1 – 4352.0"
     },
     "price_history": [
       {
@@ -302,112 +302,44 @@
       {
         "t": "2026-10-13T13:30:00Z",
         "price": 2.27
+      },
+      {
+        "t": "2026-10-14T13:30:00Z",
+        "price": 2.18
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-13T13:50:00Z",
-        "price": 2.3853
+        "t": "2026-10-14T13:35:00Z",
+        "price": 2.18
       },
       {
-        "t": "2026-10-13T14:05:00Z",
-        "price": 2.3896
+        "t": "2026-10-14T13:55:00Z",
+        "price": 2.1
       },
       {
-        "t": "2026-10-13T14:10:00Z",
-        "price": 2.35
+        "t": "2026-10-14T14:00:00Z",
+        "price": 2.15
       },
       {
-        "t": "2026-10-13T14:15:00Z",
-        "price": 2.33
+        "t": "2026-10-14T14:05:00Z",
+        "price": 2.15
       },
       {
-        "t": "2026-10-13T14:30:00Z",
-        "price": 2.355
+        "t": "2026-10-14T14:35:00Z",
+        "price": 2.1895
       },
       {
-        "t": "2026-10-13T14:35:00Z",
-        "price": 2.36
+        "t": "2026-10-14T14:40:00Z",
+        "price": 2.1899
       },
       {
-        "t": "2026-10-13T15:00:00Z",
-        "price": 2.3
+        "t": "2026-10-14T14:50:00Z",
+        "price": 2.18
       },
       {
-        "t": "2026-10-13T15:05:00Z",
-        "price": 2.35
-      },
-      {
-        "t": "2026-10-13T15:10:00Z",
-        "price": 2.35
-      },
-      {
-        "t": "2026-10-13T15:15:00Z",
-        "price": 2.3285
-      },
-      {
-        "t": "2026-10-13T15:30:00Z",
-        "price": 2.3201
-      },
-      {
-        "t": "2026-10-13T15:35:00Z",
-        "price": 2.3
-      },
-      {
-        "t": "2026-10-13T16:35:00Z",
-        "price": 2.365
-      },
-      {
-        "t": "2026-10-13T16:45:00Z",
-        "price": 2.322
-      },
-      {
-        "t": "2026-10-13T17:05:00Z",
-        "price": 2.3
-      },
-      {
-        "t": "2026-10-13T17:25:00Z",
-        "price": 2.34
-      },
-      {
-        "t": "2026-10-13T17:40:00Z",
-        "price": 2.29
-      },
-      {
-        "t": "2026-10-13T17:45:00Z",
-        "price": 2.29
-      },
-      {
-        "t": "2026-10-13T17:55:00Z",
-        "price": 2.3
-      },
-      {
-        "t": "2026-10-13T18:00:00Z",
-        "price": 2.3
-      },
-      {
-        "t": "2026-10-13T18:05:00Z",
-        "price": 2.3
-      },
-      {
-        "t": "2026-10-13T18:45:00Z",
-        "price": 2.3
-      },
-      {
-        "t": "2026-10-13T19:30:00Z",
-        "price": 2.3001
-      },
-      {
-        "t": "2026-10-13T19:45:00Z",
-        "price": 2.29
-      },
-      {
-        "t": "2026-10-13T19:55:00Z",
-        "price": 2.27
-      },
-      {
-        "t": "2026-10-13T20:00:00Z",
-        "price": 2.27
+        "t": "2026-10-14T14:53:07Z",
+        "price": 2.18
       }
     ],
     "price_history_range": "1mo",
@@ -574,154 +506,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06870292",
-        "title": "Posterior Nasal Nerve Combined With Anterior Ethmoid Neurotomy for Idiopathic Rhinitis",
+        "nct_id": "NCT06702813",
+        "title": "Physiological Effects and Safety of Continuous High-frequency Oscillatory Ventilation in ICU Patients",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Idiopathic Rhinitis",
+        "conditions": "Atelectasis, Postoperative, Hypoxia, Critical Illness",
         "last_update": "",
-        "start_date": "2026-10-01",
-        "url": "https://clinicaltrials.gov/study/NCT06870292"
+        "start_date": "2024-11-19",
+        "url": "https://clinicaltrials.gov/study/NCT06702813"
       },
       {
-        "nct_id": "NCT04034836",
-        "title": "Parecoxib as an Adjuvant to Scalp Nerve Blocks for Relief of Post-craniotomy Pain",
-        "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Pain, Postoperative, Neurosurgery",
-        "last_update": "",
-        "start_date": "2019-10-12",
-        "url": "https://clinicaltrials.gov/study/NCT04034836"
-      },
-      {
-        "nct_id": "NCT07845552",
-        "title": "Oral Food Challenge After One to Two Doses of Omalizumab Treatment for Food Allergy",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Food Allergy",
-        "last_update": "",
-        "start_date": "2026-10",
-        "url": "https://clinicaltrials.gov/study/NCT07845552"
-      },
-      {
-        "nct_id": "NCT05683314",
-        "title": "A Comparison Study for Unstable Sacrum/Pelvis and Acetabular Fracture Treated With Open Reduction and Internal Fixation With Minimally Invasive Internal Fixation",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Unstable Sacral/Pelvic or Acetabular Fracture",
-        "last_update": "",
-        "start_date": "2018-01-03",
-        "url": "https://clinicaltrials.gov/study/NCT05683314"
-      },
-      {
-        "nct_id": "NCT04140552",
-        "title": "Chinese Research Group of Gallbladder Cancer",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Gallbladder Neoplasms",
-        "last_update": "",
-        "start_date": "2008-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT04140552"
-      },
-      {
-        "nct_id": "NCT03325764",
-        "title": "Fitness, Physical Activity and Movement Analysis in Obese Patients Undergoing Bariatric Surgery",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Sleeve Gastrectomy",
-        "last_update": "",
-        "start_date": "2017-11-02",
-        "url": "https://clinicaltrials.gov/study/NCT03325764"
-      },
-      {
-        "nct_id": "NCT06931106",
-        "title": "Behavioral Intervention for PrEP Service Utilization Among Chinese MSM: A HAPA and CEI Integrated Model",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "HIV, PrEP, MSM, Behavior Changes",
-        "last_update": "",
-        "start_date": "2025-07",
-        "url": "https://clinicaltrials.gov/study/NCT06931106"
-      },
-      {
-        "nct_id": "NCT06119009",
-        "title": "New-onset Heart Blocks After Noncardiac Surgery: a Retrospective Study of More Than 280,000 Patients",
+        "nct_id": "NCT06946108",
+        "title": "Investigation on the Current Situation and Risk Factors Analysis of Exocrine Insufficiency in Chronic Pancreatitis",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Heart Block, Risk Factor",
+        "conditions": "Chronic Pancreatitis, Pancreatic Exocrine Insufficiency",
         "last_update": "",
-        "start_date": "2008-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06119009"
+        "start_date": "2022-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT06946108"
       },
       {
-        "nct_id": "NCT07157163",
-        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Influenza Vaccine, Healthcare Workers",
-        "last_update": "",
-        "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07157163"
-      },
-      {
-        "nct_id": "NCT05779215",
-        "title": "Registry of Acute Ischemic Stroke With Large- or Medium-vessel Occlusion",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Acute Ischemic Stroke",
-        "last_update": "",
-        "start_date": "2023-04-25",
-        "url": "https://clinicaltrials.gov/study/NCT05779215"
-      },
-      {
-        "nct_id": "NCT03473717",
-        "title": "Comparison of Pain Level During Intrauterine Device (IUD) Insertion Between Conventional and Direct Method",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "IUD Insertion",
-        "last_update": "",
-        "start_date": "2018-03-30",
-        "url": "https://clinicaltrials.gov/study/NCT03473717"
-      },
-      {
-        "nct_id": "NCT02948218",
-        "title": "Multi-center Clinical Research of Acupuncture Treatment of Knee Osteoarthritis",
+        "nct_id": "NCT04370925",
+        "title": "Efficacy of HIPEC in Patients With Colorectal Cancer at High Risk of Peritoneal Carcinomatosis",
         "status": "UNKNOWN",
         "phase": "PHASE3",
-        "conditions": "Knee Osteoarthritis",
+        "conditions": "Colorectal Cancer",
         "last_update": "",
-        "start_date": "2017-01",
-        "url": "https://clinicaltrials.gov/study/NCT02948218"
+        "start_date": "2020-06-04",
+        "url": "https://clinicaltrials.gov/study/NCT04370925"
       },
       {
-        "nct_id": "NCT07253142",
-        "title": "A Phase II Clinical Study to Evaluate HLX43 in Combination With Serplulimab in Subjects With Advanced Lung Cancer",
-        "status": "RECRUITING",
+        "nct_id": "NCT05047991",
+        "title": "Study of Irinotecan Liposome Injection-containing Regimens Versus Nab-paclitaxel Plus Gemcitabine in Patients With Previously Untreated, Metastatic Pancreatic Adenocarcinoma",
+        "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Non Small Cell Lung Cancer, Small Cell Lung Cancer",
+        "conditions": "Pancreatic Cancer Non-resectable, Pancreatic Cancer Metastatic",
         "last_update": "",
-        "start_date": "2026-02-05",
-        "url": "https://clinicaltrials.gov/study/NCT07253142"
+        "start_date": "2021-10",
+        "url": "https://clinicaltrials.gov/study/NCT05047991"
       },
       {
-        "nct_id": "NCT05580523",
-        "title": "Aspirin Versus Metformin in Pregnancies at High Risk of Preterm Preeclampsia: a 3-arm Randomized Controlled Trial",
+        "nct_id": "NCT06699420",
+        "title": "Qishenyiqi Dripping Pill for Coronary Microvascular Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Coronary Microvascular Disease",
+        "last_update": "",
+        "start_date": "2023-11-08",
+        "url": "https://clinicaltrials.gov/study/NCT06699420"
+      },
+      {
+        "nct_id": "NCT02489240",
+        "title": "Efficacy Study of Vitamin D to Treat Contrast-induced Nephropathy",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Preeclampsia",
+        "conditions": "Contrast-induced Nephropathy",
         "last_update": "",
-        "start_date": "2023-07-03",
-        "url": "https://clinicaltrials.gov/study/NCT05580523"
+        "start_date": "2015-07",
+        "url": "https://clinicaltrials.gov/study/NCT02489240"
       },
       {
-        "nct_id": "NCT07145060",
-        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Primary Sjögren's Syndrome (pSS)",
+        "nct_id": "NCT05534659",
+        "title": "Comparison of Programmable and Non-programmable CSF Shunts Among Adult Hydrocephalus Patients With Different Etiologies",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Hydrocephalus, Ventriculoperitoneal Shunt Malfunction",
         "last_update": "",
-        "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07145060"
+        "start_date": "2017-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05534659"
+      },
+      {
+        "nct_id": "NCT03356444",
+        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Prostate Cancer, Castration-resistant Prostate Cancer, Drug",
+        "last_update": "",
+        "start_date": "2017-11",
+        "url": "https://clinicaltrials.gov/study/NCT03356444"
+      },
+      {
+        "nct_id": "NCT05578300",
+        "title": "Effective Translation of Endovascular Thrombectomy Trials Into Real-world Practice in the Asia-Pacific",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Ischemic Stroke, Stroke, Stroke, Acute, Stroke, Ischemic",
+        "last_update": "",
+        "start_date": "2022-10-21",
+        "url": "https://clinicaltrials.gov/study/NCT05578300"
+      },
+      {
+        "nct_id": "NCT04831333",
+        "title": "Deep Learning-based System and AIDS-related Cytomegalovirus Retinitis",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Cytomegalovirus Retinitis",
+        "last_update": "",
+        "start_date": "2021-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT04831333"
+      },
+      {
+        "nct_id": "NCT02772133",
+        "title": "Circulating PRCP in STEMI Patients Undergoing Primary PCI",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Myocardial Infarction, Percutaneous Coronary Intervention, PRCP",
+        "last_update": "",
+        "start_date": "2016-05",
+        "url": "https://clinicaltrials.gov/study/NCT02772133"
+      },
+      {
+        "nct_id": "NCT04903652",
+        "title": "Pyrotinib Maleate Combined With Vinorelbine in the Treatment of HER2-positive Advanced Breast Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "HER2-positive Advanced Breast Cancer",
+        "last_update": "",
+        "start_date": "2021-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT04903652"
+      },
+      {
+        "nct_id": "NCT03084809",
+        "title": "Chemotherapy Combined With CIK Treating Colon Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "conditions": "Colorectal Cancer, Cytokine-induced Killer Cells, Postoperative Complications, Survival",
+        "last_update": "",
+        "start_date": "2012-05-06",
+        "url": "https://clinicaltrials.gov/study/NCT03084809"
+      },
+      {
+        "nct_id": "NCT07647263",
+        "title": "Trastuzumab Rezetecan Neoadjuvant Therapy in THP-Insensitive HER2-Positive Early Breast Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "HER2-positive Breast Cancer",
+        "last_update": "",
+        "start_date": "2026-03-24",
+        "url": "https://clinicaltrials.gov/study/NCT07647263"
+      },
+      {
+        "nct_id": "NCT05859516",
+        "title": "Application of Point-of-care Ultrasound in Rapid Assessment of Cardiac Arrest Patients",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Cardiac Arrest, Point-of-care Ultrasound, Cardiopulmonary Resuscitation",
+        "last_update": "",
+        "start_date": "2023-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT05859516"
       }
     ],
     "detected_triggers": [
@@ -744,74 +676,66 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Multi-center Clinical Research of Acupuncture Treatment of Knee Osteoarthritis",
+        "title": "Chemotherapy Combined With CIK Treating Colon Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE4",
+        "source": "NCT03084809",
+        "date": "2012-05-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy Study of Vitamin D to Treat Contrast-induced Nephropathy",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT02489240",
+        "date": "2015-07"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Docetaxel Versus Abiraterone as First-line Treatment in mCRPC Patients With Intraductal Carcinoma of the Prostate",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT03356444",
+        "date": "2017-11"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy of HIPEC in Patients With Colorectal Cancer at High Risk of Peritoneal Carcinomatosis",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
-        "source": "NCT02948218",
-        "date": "2017-01"
+        "source": "NCT04370925",
+        "date": "2020-06-04"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Fitness, Physical Activity and Movement Analysis in Obese Patients Undergoing Bariatric Surgery",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT03325764",
-        "date": "2017-11-02"
+        "title": "Pyrotinib Maleate Combined With Vinorelbine in the Treatment of HER2-positive Advanced Breast Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT04903652",
+        "date": "2021-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Comparison of Pain Level During Intrauterine Device (IUD) Insertion Between Conventional and Direct Method",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03473717",
-        "date": "2018-03-30"
+        "title": "Study of Irinotecan Liposome Injection-containing Regimens Versus Nab-paclitaxel Plus Gemcitabine in Patients With Previously Untreated, Metastatic Pancreatic Adenocarcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT05047991",
+        "date": "2021-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Parecoxib as an Adjuvant to Scalp Nerve Blocks for Relief of Post-craniotomy Pain",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT04034836",
-        "date": "2019-10-12"
+        "title": "Qishenyiqi Dripping Pill for Coronary Microvascular Disease",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
+        "source": "NCT06699420",
+        "date": "2023-11-08"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Aspirin Versus Metformin in Pregnancies at High Risk of Preterm Preeclampsia: a 3-arm Randomized Controlled Trial",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05580523",
-        "date": "2023-07-03"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Behavioral Intervention for PrEP Service Utilization Among Chinese MSM: A HAPA and CEI Integrated Model",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT06931106",
-        "date": "2025-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07157163",
-        "date": "2025-09-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Study of Yiqi Yangyin Formula in the Treatment of Primary Sjogren's Syndrome",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07145060",
-        "date": "2025-09-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Phase II Clinical Study to Evaluate HLX43 in Combination With Serplulimab in Subjects With Advanced Lung Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT07253142",
-        "date": "2026-02-05"
+        "title": "Physiological Effects and Safety of Continuous High-frequency Oscillatory Ventilation in ICU Patients",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06702813",
+        "date": "2024-11-19"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -820,6 +744,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Trastuzumab Rezetecan Neoadjuvant Therapy in THP-Insensitive HER2-Positive Early Breast Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT07647263",
+        "date": "2026-03-24"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -903,51 +835,51 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Oral Food Challenge After One to Two Doses of Omalizumab Treatment for Food Allergy",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
-        "source": "NCT07845552",
-        "date": "2026-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Posterior Nasal Nerve Combined With Anterior Ethmoid Neurotomy for Idiopathic Rhinitis",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06870292",
-        "date": "2026-10-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Chinese Research Group of Gallbladder Cancer",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT04140552",
-        "date": "2008-01-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "New-onset Heart Blocks After Noncardiac Surgery: a Retrospective Study of More Than 280,000 Patients",
+        "title": "Circulating PRCP in STEMI Patients Undergoing Primary PCI",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06119009",
-        "date": "2008-01-01"
+        "source": "NCT02772133",
+        "date": "2016-05"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "A Comparison Study for Unstable Sacrum/Pelvis and Acetabular Fracture Treated With Open Reduction and Internal Fixation With Minimally Invasive Internal Fixation",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05683314",
-        "date": "2018-01-03"
+        "title": "Comparison of Programmable and Non-programmable CSF Shunts Among Adult Hydrocephalus Patients With Different Etiologies",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT05534659",
+        "date": "2017-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Registry of Acute Ischemic Stroke With Large- or Medium-vessel Occlusion",
+        "title": "Deep Learning-based System and AIDS-related Cytomegalovirus Retinitis",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT04831333",
+        "date": "2021-04-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Investigation on the Current Situation and Risk Factors Analysis of Exocrine Insufficiency in Chronic Pancreatitis",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT06946108",
+        "date": "2022-06-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Effective Translation of Endovascular Thrombectomy Trials Into Real-world Practice in the Asia-Pacific",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05779215",
-        "date": "2023-04-25"
+        "source": "NCT05578300",
+        "date": "2022-10-21"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Application of Point-of-care Ultrasound in Rapid Assessment of Cardiac Arrest Patients",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05859516",
+        "date": "2023-02-01"
       },
       {
         "type": "SEC Filing",
