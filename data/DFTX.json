@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$34.33",
-      "note": "Auto-Update: 0.42% vs. vorheriger Schlusskurs",
+      "value": "$34.26",
+      "note": "Auto-Update: 0.23% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-15T19:33:12Z",
+    "last_update_utc": "2026-10-15T22:45:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 34.325,
+      "regularMarketPrice": 34.26,
       "previousClose": 34.18,
-      "change": 0.145,
-      "changePercent": 0.42,
-      "regularMarketTime": "2026-10-15T19:32:29Z",
+      "change": 0.08,
+      "changePercent": 0.23,
+      "regularMarketTime": "2026-10-15T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -252,10 +252,6 @@
       "fiftyTwoWeekRange": "10.465 – 49.7"
     },
     "price_history": [
-      {
-        "t": "2026-09-15T13:30:00Z",
-        "price": 36.82
-      },
       {
         "t": "2026-09-16T13:30:00Z",
         "price": 37.85
@@ -342,7 +338,7 @@
       },
       {
         "t": "2026-10-15T13:30:00Z",
-        "price": 34.325
+        "price": 34.26
       }
     ],
     "price_history_1d": [
@@ -636,20 +632,40 @@
       },
       {
         "t": "2026-10-15T19:30:00Z",
+        "price": 34.31
+      },
+      {
+        "t": "2026-10-15T19:35:00Z",
+        "price": 34.23
+      },
+      {
+        "t": "2026-10-15T19:40:00Z",
+        "price": 34.252
+      },
+      {
+        "t": "2026-10-15T19:45:00Z",
         "price": 34.305
       },
       {
-        "t": "2026-10-15T19:32:29Z",
-        "price": 34.325
+        "t": "2026-10-15T19:50:00Z",
+        "price": 34.32
+      },
+      {
+        "t": "2026-10-15T19:55:00Z",
+        "price": 34.26
+      },
+      {
+        "t": "2026-10-15T20:00:00Z",
+        "price": 34.26
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "JPMorgan startet Coverage für Definium Therapeutics mit „Overweight“ – Aktie legt zu - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUExTczZ2WWY5U204RFdyTGNwbmMybVFld1BoMFBTSFQxeTlfTUhSMWZVMWJIOGJyWE9HU3JwalNBTHpIS3VmZDJkM2tyZUkxQkE0cDdZTTVaR21IcG12Y2tEZGwxUS05Z3paajRZS0t6VXF1cW9HYV9MLTN3WUZBbENrcVlZYm9VRU0wdFVVMTc1cmNEUFpIMndUbDV4LXNkRDR0Wldqc0N1UHlkRUpHVDV4dS1BSnh1RGs1dzZVZW16OFh2amZDSkl5bHVwU094dGtSWlBWYnRoUQ?oc=5",
-        "published_at": "2026-10-09T13:59:00Z",
+        "title": "Definium Therapeutics: CFO verkauft Aktien im Wert von 123.496 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYnFiVlFzU2RaZkJvVlgwQVVEVU12djR5UXRfVjhmbkhjLXN2aDhyMF9vYmp2NWYzVVc4Sk4xQ0JFU0RUOWFhbjlIV1k2YTU5NzRVamdMTE1NeV8tQ1JjdzhHZ2JpUk5VenhUcDdLdHFmYXU2T1ZPNE5UbHlEdmxYU3RhMGR0M1ZWQ1dMelRqMjhQM1l1X3RhVmpyRDVNUGJGNkV6TnZFMHZVcklUempYRWNBYVBOSUZPYXVqc1oxdzFlNjhoa2dTeFFHYnVZZw?oc=5",
+        "published_at": "2026-09-30T01:32:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
@@ -812,22 +828,6 @@
         "published_at": "2026-06-22T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DT120 topline",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics erweitert Verwaltungsrat um Roger Adsett - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNal9OVGZzMUY1WF9uS3pBNFEyZVpjWjVSWndkNmxXX2hTQWhXQk9ucV9reTVIVU4tMGgyclVpRkc4VGx1NFpmQW5xNDBocmZfeFczT2pPZS1NTFJWcUFseWw4eVlMRlRBSlk4SEhxQU1JNm9STmRST0Ewelhza0xzZzFWRkFyNl9pSVZ1RFR4blpKczFTbDVuSll2ekFSZTZyOUM5NmFKdmhNV3BkdktTTDNBS293THV5?oc=5",
-        "published_at": "2026-01-29T08:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

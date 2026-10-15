@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$167.98",
-      "note": "Auto-Update: 1.46% vs. vorheriger Schlusskurs",
+      "value": "$165.88",
+      "note": "Auto-Update: 0.19% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-15T19:33:00Z",
+    "last_update_utc": "2026-10-15T22:45:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 167.98,
+      "regularMarketPrice": 165.88,
       "previousClose": 165.56,
-      "change": 2.42,
-      "changePercent": 1.46,
-      "regularMarketTime": "2026-10-15T19:32:42Z",
+      "change": 0.32,
+      "changePercent": 0.19,
+      "regularMarketTime": "2026-10-15T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,10 +248,6 @@
       "fiftyTwoWeekRange": "64.0 – 191.05"
     },
     "price_history": [
-      {
-        "t": "2026-09-15T13:30:00Z",
-        "price": 175.65
-      },
       {
         "t": "2026-09-16T13:30:00Z",
         "price": 174.9
@@ -338,7 +334,7 @@
       },
       {
         "t": "2026-10-15T13:30:00Z",
-        "price": 167.98
+        "price": 165.88
       }
     ],
     "price_history_1d": [
@@ -632,16 +628,52 @@
       },
       {
         "t": "2026-10-15T19:30:00Z",
-        "price": 167.91
+        "price": 167.63
       },
       {
-        "t": "2026-10-15T19:32:42Z",
-        "price": 167.98
+        "t": "2026-10-15T19:35:00Z",
+        "price": 167.265
+      },
+      {
+        "t": "2026-10-15T19:40:00Z",
+        "price": 166.28
+      },
+      {
+        "t": "2026-10-15T19:45:00Z",
+        "price": 166.275
+      },
+      {
+        "t": "2026-10-15T19:50:00Z",
+        "price": 166.475
+      },
+      {
+        "t": "2026-10-15T19:55:00Z",
+        "price": 165.87
+      },
+      {
+        "t": "2026-10-15T20:00:00Z",
+        "price": 165.88
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Patentstreit: PTAB bestätigt Patentschutz der University of Washington gegen Guardant Health - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWXdzTXFpRl8xM0lmMWZyNGFMSzMwTWRQMGtfRkZhLVVsRWVsYzFUZ3cwOXEwVmtxUzU0LXJVZ1BPY1FKMGhjckc4MjZDa3RXcnotUkpiMzNsV2hpTHZkYmpSVTQ3ZHBFa0lSQzNKbldXakVWUUdEUDhVRGI3ZU9Ta2RrVmlrb3I3NUJheGJJN2xCQ0NxaXhiUVE2T0ZhOHFpaWg4Y2daWldLTy1BU3hpel9uREhNQ3BFLWU1Y0hqc2JjUnFBSU5tWlQzRUdublcwZGN1ODlhUnlMMUpBS1Z4aw?oc=5",
+        "published_at": "2026-10-15T20:10:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Die Ergebnisse der Blutuntersuchungsstudie könnten für Guardant Health (GH) eine entscheidende Wende bedeuten - Simply Wall Street",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRm83SWU1bDBzR243YzdqOE5ZcGwxUU1qdmh6ZGRRcnE1enhoUS05dFFVZjFHWUdFbVBicEJUUVlYOHNCR1pmeUZpbXpOMXNUbUpQZzRCcW1zZTJQNjdVSXFQTzRxTnBwc3c2NWFDWU9vVzI2M0V5NmFvSG4yMjg0Q0E3Z3BrVExkR3BJUVpRNHVoOXNaQnZlc0ppcERnOEtZYWNQNFZVcE1UNUdXaE9CQ1hmRUJTLVlBXzZYZGxyaFJuWVB5X2EyT1phcEloemVIbjJuVUgxUWzSAdgBQVVfeXFMTUZvN0llNWwwc0duN2M3ajhOWXBsMVFNanZoemRkUXJxNXp4aFEtOXRRVWYxR1lHRW1QYnBCVFFZWDhzQkdaZnlGaW16TjFzVG1KUGc0QnFtc2UyUDY3VUlxUE80cU5wcHN3NjVhQ1lPb1cyNjNFeTZhb0huMjI4NENBN2dwa1RMZEdwSVFaUTR1aDlzWkJ2ZXNKaXBEZzhLWWFjUDRWVXBNVDVHV2hPQkNYZkVCUy1ZQV82WGRscmhSbllQeV9hMk9aYXBJaHplSG4yblVIMVFs?oc=5",
@@ -803,22 +835,6 @@
         "relevance_score": 23
       },
       {
-        "title": "Scotiabank hebt Kursziel für Guardant Health nach starken Ergebnissen auf 60 $ an - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcmVDcVQxa2tzZEdvRFRVUS04VzQycEpkZllDUXBtMVBBeEFqN3FHcFNQTkJoQmJXUFRmMlNLWndzc1VVM2FpNklOWWNNSXIwLWdLNmhtaHpYd0Y4OFpwT0hudHR0S1BSVHBMeGJTSUlSeW1RSmhQb1ljXzQxSGtralZZX0JZZHVsRHlldU5MY1g5djM0WjJZN1ktLXF0T2hsc3ZydU9NODEyZ2UxMWYzbzB6UG9yclN2Q1lSbDNTWDBUU1kzTS1ldHBfV25VMms5UlBGWl9n?oc=5",
-        "published_at": "2025-07-31T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
         "title": "Guardant Health AKTIE | Aktienkurs & News | A2N5RY – boerse.de - boerse.de",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pU2dpT3RDSXdwSjUzbmR4UVhCbnU3aFN0ei1HZDJwS0VYMDFxU21JNFJUanRQLVNGcEZDbmloSVFyWlNSY0lIenVyS2VVNkRDZ3h3ZnItNW1kZmlaSUtiRjhPNFNjRlZxUFczaDZMN3U?oc=5",
         "published_at": "2021-02-26T05:19:17Z",
@@ -836,6 +852,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-10-15",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000140225626000010/xslF345X06/wk-form4_1792101768.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "144",
         "filingDate": "2026-10-14",
@@ -968,13 +991,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426001026/xsl144X01/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-09-15",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426001020/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -1014,14 +1030,6 @@
         "source": "Simply Wall Street",
         "date": "2026-10-10T14:16:22Z",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaHJaclI0SmpfS3ZXWXpXdmNzVC1rOWlYVi1DS21NUW50bEZPdXVtQVpnQ1dBS2FPODJLeGF6UWNrVWNFM3dHMzNhYjVWLXlUTXJ4WDB0N1lvNmwtZHRMTUdHQTFYekpaX1VuUEs1QU9JUFduY3M0eG1xNnJvQ3pqUV9id3dYNHZxaFotZGlkVU5HNmdlUUVZWFJsT01SbFRlcFpXZEJ2SjBoaGVIRkZ1VGs2MjZyazd2LWhYS3NOU3ZGQ1lhd3dTRWlqWmlFVk84UkHSAdcBQVVfeXFMTTdVMzk3VzhPQlVSVEpxLXNsYlYxSHppRjZ0U0IzdE0xN1JzVTE5Y0lIcVBJMGZLbUt6cFJGcGx3eTdoeUtqdUpsMDdINGltSkU0RHJYTUU2cDgwVnZRTVZIVVJrQzhwOGU0RUxBYWdXcjVFcDNtU2lZZFdjRzJxLXJHZ1F6S2tXMGZwX2lpbkZLWlRuT1BxZWlIYmFwbS13cWxhY05qWFdBdHdzYXhIdE1jWGRWNFJSalhlZkN0dkhoM1lkakNpeFhab3FOUDZ3V2RwSTZ5MlU?oc=5"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-09-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-09-15"
       },
       {
         "type": "SEC Filing",
@@ -1174,6 +1182,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-10-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-10-15",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-15"
       }
     ],
     "queries_used": [

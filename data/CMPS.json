@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.57",
-      "note": "Auto-Update: 0.92% vs. vorheriger Schlusskurs",
+      "value": "$11.62",
+      "note": "Auto-Update: 1.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-15T19:32:34Z",
+    "last_update_utc": "2026-10-15T22:45:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.575,
+      "regularMarketPrice": 11.62,
       "previousClose": 11.47,
-      "change": 0.105,
-      "changePercent": 0.92,
-      "regularMarketTime": "2026-10-15T19:32:14Z",
+      "change": 0.15,
+      "changePercent": 1.31,
+      "regularMarketTime": "2026-10-15T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "4.88 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-09-15T13:30:00Z",
-        "price": 13.81
-      },
       {
         "t": "2026-09-16T13:30:00Z",
         "price": 13.8
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-10-15T13:30:00Z",
-        "price": 11.575
+        "price": 11.62
       }
     ],
     "price_history_1d": [
@@ -715,11 +711,31 @@
       },
       {
         "t": "2026-10-15T19:30:00Z",
-        "price": 11.58
+        "price": 11.575
       },
       {
-        "t": "2026-10-15T19:32:14Z",
-        "price": 11.575
+        "t": "2026-10-15T19:35:00Z",
+        "price": 11.665
+      },
+      {
+        "t": "2026-10-15T19:40:00Z",
+        "price": 11.65
+      },
+      {
+        "t": "2026-10-15T19:45:00Z",
+        "price": 11.615
+      },
+      {
+        "t": "2026-10-15T19:50:00Z",
+        "price": 11.615
+      },
+      {
+        "t": "2026-10-15T19:55:00Z",
+        "price": 11.615
+      },
+      {
+        "t": "2026-10-15T20:00:00Z",
+        "price": 11.62
       }
     ],
     "price_history_range": "1mo",
