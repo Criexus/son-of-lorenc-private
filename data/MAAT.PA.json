@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$0.98",
-      "note": "Auto-Update: 8.37% vs. vorheriger Schlusskurs",
+      "value": "$0.99",
+      "note": "Auto-Update: 9.03% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-16T14:31:50Z",
+    "last_update_utc": "2026-10-16T18:30:30Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 0.984,
+      "regularMarketPrice": 0.99,
       "previousClose": 0.908,
-      "change": 0.076,
-      "changePercent": 8.37,
-      "regularMarketTime": "2026-10-16T14:07:44Z",
+      "change": 0.082,
+      "changePercent": 9.03,
+      "regularMarketTime": "2026-10-16T15:35:13Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -244,7 +244,7 @@
       },
       {
         "t": "2026-10-16T07:00:00Z",
-        "price": 0.984
+        "price": 0.99
       }
     ],
     "price_history_1d": [
@@ -313,17 +313,49 @@
         "price": 0.985
       },
       {
-        "t": "2026-10-16T14:07:44Z",
+        "t": "2026-10-16T14:05:00Z",
         "price": 0.984
+      },
+      {
+        "t": "2026-10-16T14:15:00Z",
+        "price": 0.984
+      },
+      {
+        "t": "2026-10-16T14:40:00Z",
+        "price": 0.983
+      },
+      {
+        "t": "2026-10-16T14:45:00Z",
+        "price": 0.986
+      },
+      {
+        "t": "2026-10-16T15:00:00Z",
+        "price": 0.984
+      },
+      {
+        "t": "2026-10-16T15:10:00Z",
+        "price": 0.99
+      },
+      {
+        "t": "2026-10-16T15:15:00Z",
+        "price": 0.99
+      },
+      {
+        "t": "2026-10-16T15:25:00Z",
+        "price": 0.98
+      },
+      {
+        "t": "2026-10-16T15:30:00Z",
+        "price": 0.99
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Under Review - boerse.de - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc2xZV0IwQmZpV1l2cmswRHdsd3hQWUp1REZnUjJ2MDJrRmJod29MME1TNUxKTVluTm1FTTU1VFYzU2ZvMlVaTVZXNEEwalhTR3M1bTAxUjF0M0pCOTYxZkRMMXp5aWJfX2ZGc3VFdHA1Z0RCeGtGWUpLbWxJSEo4bzZKU1hQVDZIRnpyR0JrRUtBUVBoSWVFaHp3Q2ZBV3QzLTVBbmhoaDluUjhyT1hGSVBEdkFHc0FySGNWNUJkZm9YcU01N1E40gHMAUFVX3lxTE0yWlp3R1g5a3Y3dmVrV1YwTWlfeldlWGZZMVEtd3ZkM3JGTlVEdS1jSVRXTXhqeGstcUhDTzJOS1RBa3JXcmxTdFBZOFY5S1IteWFKN2NsOUlqR1o1ZVRzeVlnYVIzaWF5aFZlSTRoMlRhZS1VekdWUV9mejhOSmdfOWNhTmxMTnUzSE5Rd0phUEdyUk1pc2YzdDVwYk1HVXVhM3ZyOFdDcGxhYmNXQ1ZlVktZanBWNHdmNVVGTlVxOUl4a0gzQ1pGRXRzUA?oc=5",
-        "published_at": "2026-10-07T12:10:00Z",
+        "title": "MAAT PHARMA-Aktie mit neuem All-Time-Low - boerse.de",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajkyNnVmU1VQTi1kSnlIaFd5bW5iNXgxTDU1Z2w0YnM3Q3JNZm9FMUI2dUxPOFJGWGNqRWV2S05XUElzMUsxTkowcjAza2V2MDRyRHI2djQ4dEZOS1lyVkp0T3FkOXV2QlVJam1HYXVkemNFUVpSeWFpZkNlMWNkd2x0b0JqQ2t1U0xB?oc=5",
+        "published_at": "2026-10-10T00:38:00Z",
         "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
@@ -337,9 +369,9 @@
         "relevance_score": 10
       },
       {
-        "title": "MAAT PHARMA-Aktie mit neuem All-Time-Low - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUN6bDBSTGlnbENMZnpPa2gwZDJ3SFZRU0U4Mjk4WC1vWnBTOUtrcFNRMXYtRVF3VkxlLW1RZEdCNThsZjdWRWYxeVoyaFVYWTRuNmJEVTBjYS04Z281M3hOcnRTY25qSEVjNHFyeUc5Y2V6V3hEbFE1bXJOa2RleFdUWGp4QnF4WGZn?oc=5",
-        "published_at": "2026-10-06T01:06:00Z",
+        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Under Review - boerse.de - boerse.de",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc2xZV0IwQmZpV1l2cmswRHdsd3hQWUp1REZnUjJ2MDJrRmJod29MME1TNUxKTVluTm1FTTU1VFYzU2ZvMlVaTVZXNEEwalhTR3M1bTAxUjF0M0pCOTYxZkRMMXp5aWJfX2ZGc3VFdHA1Z0RCeGtGWUpLbWxJSEo4bzZKU1hQVDZIRnpyR0JrRUtBUVBoSWVFaHp3Q2ZBV3QzLTVBbmhoaDluUjhyT1hGSVBEdkFHc0FySGNWNUJkZm9YcU01N1E40gHMAUFVX3lxTE0yWlp3R1g5a3Y3dmVrV1YwTWlfeldlWGZZMVEtd3ZkM3JGTlVEdS1jSVRXTXhqeGstcUhDTzJOS1RBa3JXcmxTdFBZOFY5S1IteWFKN2NsOUlqR1o1ZVRzeVlnYVIzaWF5aFZlSTRoMlRhZS1VekdWUV9mejhOSmdfOWNhTmxMTnUzSE5Rd0phUEdyUk1pc2YzdDVwYk1HVXVhM3ZyOFdDcGxhYmNXQ1ZlVktZanBWNHdmNVVGTlVxOUl4a0gzQ1pGRXRzUA?oc=5",
+        "published_at": "2026-10-07T12:10:00Z",
         "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
