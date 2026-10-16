@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.54",
-      "note": "Auto-Update: -18.69% vs. vorheriger Schlusskurs",
+      "value": "$3.46",
+      "note": "Auto-Update: -20.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-16T18:30:49Z",
+    "last_update_utc": "2026-10-16T21:32:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.545,
+      "regularMarketPrice": 3.465,
       "previousClose": 4.36,
-      "change": -0.815,
-      "changePercent": -18.69,
-      "regularMarketTime": "2026-10-16T18:30:41Z",
+      "change": -0.895,
+      "changePercent": -20.53,
+      "regularMarketTime": "2026-10-16T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 7.18"
     },
     "price_history": [
-      {
-        "t": "2026-09-16T13:30:00Z",
-        "price": 3.19
-      },
       {
         "t": "2026-09-17T13:30:00Z",
         "price": 3.54
@@ -403,7 +399,7 @@
       },
       {
         "t": "2026-10-16T13:30:00Z",
-        "price": 3.545
+        "price": 3.465
       }
     ],
     "price_history_1d": [
@@ -513,7 +509,7 @@
       },
       {
         "t": "2026-10-16T15:40:00Z",
-        "price": 3.7383
+        "price": 3.73
       },
       {
         "t": "2026-10-16T15:45:00Z",
@@ -648,29 +644,85 @@
         "price": 3.5499
       },
       {
-        "t": "2026-10-16T18:30:41Z",
+        "t": "2026-10-16T18:30:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-16T18:35:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-10-16T18:40:00Z",
+        "price": 3.535
+      },
+      {
+        "t": "2026-10-16T18:45:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-10-16T18:50:00Z",
         "price": 3.545
+      },
+      {
+        "t": "2026-10-16T18:55:00Z",
+        "price": 3.525
+      },
+      {
+        "t": "2026-10-16T19:00:00Z",
+        "price": 3.515
+      },
+      {
+        "t": "2026-10-16T19:05:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-10-16T19:10:00Z",
+        "price": 3.505
+      },
+      {
+        "t": "2026-10-16T19:15:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-10-16T19:20:00Z",
+        "price": 3.495
+      },
+      {
+        "t": "2026-10-16T19:25:00Z",
+        "price": 3.495
+      },
+      {
+        "t": "2026-10-16T19:30:00Z",
+        "price": 3.495
+      },
+      {
+        "t": "2026-10-16T19:35:00Z",
+        "price": 3.4601
+      },
+      {
+        "t": "2026-10-16T19:40:00Z",
+        "price": 3.46
+      },
+      {
+        "t": "2026-10-16T19:45:00Z",
+        "price": 3.455
+      },
+      {
+        "t": "2026-10-16T19:50:00Z",
+        "price": 3.485
+      },
+      {
+        "t": "2026-10-16T19:55:00Z",
+        "price": 3.465
+      },
+      {
+        "t": "2026-10-16T20:00:00Z",
+        "price": 3.465
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Recursion verbucht Meilensteinzahlung über 10 Mio. US-Dollar aus Kooperation mit Sanofi - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQa1N3TUg4eTRwdDJCQk8xajhZdXphSUxWN1NqcjJXTU03X1pZQnk4OWRSTTR0VkdrbWpRTEtVRllNZ2E2aHVXd25ka3dmOWpJYTF6a1V3eXpVRWNZSzAtNFUzRE1QSEN2SEZyNGNrZnppTGVwbkdiQjFrSHE4ZGNIeXg2ekoxVnQ4ZGNaeUxsTTNQVDBoV1FXMm9mdEg1M29JVm1NOEV5Q1pPeHBSUXJUNGNsUEpObEpZOEdQUGhWcFZvakdUbmRYbWJyVjlpRFctRFo2UUNwNXM?oc=5",
-        "published_at": "2026-10-15T12:54:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
       {
         "title": "Recursion Pharmaceuticals bepreist Kapitalerhöhung über 200 Millionen $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTFhYTGMyWmlfOEVqaktOU21tN3hvdk5OdEt0bU1LMF9oSWxCWkdMaVJzOTVKd3hST3VMRTZZek9iZ0p1VnVjeHdweDZET19Ga3lNbGZvQTlvMk9mejRiaWk2TUh6cDd5S09acFBvX19yTEZVSG94Q0ZmNGwzcEctdFo0bnY0TTd2SXlScWJ4VVZoUm0xUEJKR1dCOEc4XzJWelRZbzhkeVdscFVRUDd0RFZZR2EzeEhtMnpOa3JtOTdUWkFk?oc=5",

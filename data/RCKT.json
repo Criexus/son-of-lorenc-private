@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.23",
-      "note": "Auto-Update: -12.7% vs. vorheriger Schlusskurs",
+      "value": "$2.18",
+      "note": "Auto-Update: -14.84% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-16T18:29:48Z",
+    "last_update_utc": "2026-10-16T21:31:58Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.235,
+      "regularMarketPrice": 2.18,
       "previousClose": 2.56,
-      "change": -0.325,
-      "changePercent": -12.7,
-      "regularMarketTime": "2026-10-16T18:29:32Z",
+      "change": -0.38,
+      "changePercent": -14.84,
+      "regularMarketTime": "2026-10-16T20:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -301,14 +301,10 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 5.45,
-      "fiftyTwoWeekLow": 2.18,
-      "fiftyTwoWeekRange": "2.18 – 5.45"
+      "fiftyTwoWeekLow": 2.17,
+      "fiftyTwoWeekRange": "2.17 – 5.45"
     },
     "price_history": [
-      {
-        "t": "2026-09-16T13:30:00Z",
-        "price": 3.48
-      },
       {
         "t": "2026-09-17T13:30:00Z",
         "price": 3.5
@@ -395,7 +391,7 @@
       },
       {
         "t": "2026-10-16T13:30:00Z",
-        "price": 2.235
+        "price": 2.18
       }
     ],
     "price_history_1d": [
@@ -640,13 +636,101 @@
         "price": 2.235
       },
       {
-        "t": "2026-10-16T18:29:32Z",
+        "t": "2026-10-16T18:30:00Z",
         "price": 2.235
+      },
+      {
+        "t": "2026-10-16T18:35:00Z",
+        "price": 2.235
+      },
+      {
+        "t": "2026-10-16T18:40:00Z",
+        "price": 2.225
+      },
+      {
+        "t": "2026-10-16T18:45:00Z",
+        "price": 2.22
+      },
+      {
+        "t": "2026-10-16T18:50:00Z",
+        "price": 2.225
+      },
+      {
+        "t": "2026-10-16T18:55:00Z",
+        "price": 2.215
+      },
+      {
+        "t": "2026-10-16T19:00:00Z",
+        "price": 2.205
+      },
+      {
+        "t": "2026-10-16T19:05:00Z",
+        "price": 2.22
+      },
+      {
+        "t": "2026-10-16T19:10:00Z",
+        "price": 2.2277
+      },
+      {
+        "t": "2026-10-16T19:15:00Z",
+        "price": 2.21
+      },
+      {
+        "t": "2026-10-16T19:20:00Z",
+        "price": 2.215
+      },
+      {
+        "t": "2026-10-16T19:25:00Z",
+        "price": 2.205
+      },
+      {
+        "t": "2026-10-16T19:30:00Z",
+        "price": 2.195
+      },
+      {
+        "t": "2026-10-16T19:35:00Z",
+        "price": 2.195
+      },
+      {
+        "t": "2026-10-16T19:40:00Z",
+        "price": 2.175
+      },
+      {
+        "t": "2026-10-16T19:45:00Z",
+        "price": 2.1701
+      },
+      {
+        "t": "2026-10-16T19:50:00Z",
+        "price": 2.18
+      },
+      {
+        "t": "2026-10-16T19:55:00Z",
+        "price": 2.18
+      },
+      {
+        "t": "2026-10-16T20:00:00Z",
+        "price": 2.18
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Leerink Partners senkt Ziel für die Rocket Pharmaceuticals-Aktie auf 4,00 US-Dollar - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRGJtTXZ0QnVOZzY3VGtqRkYtTjU4MGs4SjYwVng5b2FIb3VJM3B4MVNyVEdoUnpFbnBjdTJBaWJRYUFpNE12MEdKeUI0aGNZcWVadl9zMGtGUkY5a0RoYmtXNE1MVlVfUVpXWk9JOFF6NVVQN1JQdDFiS3V6TEM3TjFvZmtORWtKZUxpRjlwZEQ3MGNMd1JBNFk1WVAycmVlMi1NY3F1VWpLNGk3VUtxaDB4ajR6Z0w1MTBwelNLRGpWbWozQnE1bVA4TjBEUQ?oc=5",
+        "published_at": "2026-10-16T20:35:21Z",
+        "source": "ad-hoc-news.de",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      },
       {
         "title": "Rocket Pharmaceuticals: Aktie legt nach Hochstufung durch Goldman Sachs zu - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY25zS1M5dHRzMHl1Y0FqVUdLaDJ1RU4yUmRNd25PRzcya0NaczBKeTY3ZDF6UmNRQlVNQjFqMGFYN0NoMTAzVno1M1F4TFF6NlZEUjd0WE4zVFBsdllEOGZTUVJZZU1hRTFVRDgwMHM0cnFKX29BOC1mYzhXeXVUWlF4VGk3Vk5NWG85RkI5MFVMX0t2ZzhfNWVmRmZ5anN0VG9LYnZfTnFPMktVX09qcWoxYkV5MFpLakhWaW1VZE5Gc01IMklVX2hWNmM3NEk?oc=5",

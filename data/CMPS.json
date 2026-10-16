@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$10.80",
-      "note": "Auto-Update: -10.0% vs. vorheriger Schlusskurs",
+      "value": "$10.75",
+      "note": "Auto-Update: -10.42% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-16T18:29:57Z",
+    "last_update_utc": "2026-10-16T21:32:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 10.8,
+      "regularMarketPrice": 10.75,
       "previousClose": 12.0,
-      "change": -1.2,
-      "changePercent": -10.0,
-      "regularMarketTime": "2026-10-16T18:29:48Z",
+      "change": -1.25,
+      "changePercent": -10.42,
+      "regularMarketTime": "2026-10-16T20:00:02Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "4.88 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-09-16T13:30:00Z",
-        "price": 13.8
-      },
       {
         "t": "2026-09-17T13:30:00Z",
         "price": 15.0
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-10-16T13:30:00Z",
-        "price": 10.8
+        "price": 10.75
       }
     ],
     "price_history_1d": [
@@ -663,16 +659,104 @@
       },
       {
         "t": "2026-10-16T18:25:00Z",
+        "price": 10.8
+      },
+      {
+        "t": "2026-10-16T18:30:00Z",
+        "price": 10.81
+      },
+      {
+        "t": "2026-10-16T18:35:00Z",
+        "price": 10.815
+      },
+      {
+        "t": "2026-10-16T18:40:00Z",
+        "price": 10.82
+      },
+      {
+        "t": "2026-10-16T18:45:00Z",
+        "price": 10.78
+      },
+      {
+        "t": "2026-10-16T18:50:00Z",
+        "price": 10.775
+      },
+      {
+        "t": "2026-10-16T18:55:00Z",
+        "price": 10.765
+      },
+      {
+        "t": "2026-10-16T19:00:00Z",
+        "price": 10.76
+      },
+      {
+        "t": "2026-10-16T19:05:00Z",
+        "price": 10.7701
+      },
+      {
+        "t": "2026-10-16T19:10:00Z",
+        "price": 10.835
+      },
+      {
+        "t": "2026-10-16T19:15:00Z",
+        "price": 10.805
+      },
+      {
+        "t": "2026-10-16T19:20:00Z",
+        "price": 10.83
+      },
+      {
+        "t": "2026-10-16T19:25:00Z",
+        "price": 10.79
+      },
+      {
+        "t": "2026-10-16T19:30:00Z",
+        "price": 10.772
+      },
+      {
+        "t": "2026-10-16T19:35:00Z",
         "price": 10.77
       },
       {
-        "t": "2026-10-16T18:29:48Z",
-        "price": 10.8
+        "t": "2026-10-16T19:40:00Z",
+        "price": 10.745
+      },
+      {
+        "t": "2026-10-16T19:45:00Z",
+        "price": 10.755
+      },
+      {
+        "t": "2026-10-16T19:50:00Z",
+        "price": 10.76
+      },
+      {
+        "t": "2026-10-16T19:55:00Z",
+        "price": 10.745
+      },
+      {
+        "t": "2026-10-16T20:00:00Z",
+        "price": 10.75
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Compass Pathways-Aktie steht vor dem Quartalsbericht am 03.11.2026 - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdWxhTkJlTDNCR0xKczJUdU9PZ25pSTVxbWxqd3lLT2J4OGZjZ2JVMHNSc1pDV2ZCTzFEUjRMR3V4WVJXS181REsyc0hRUllkcmZHY2xTOTN4SkZ4YVV5a3ZoRVJIWUpyVElOY3huYVNEeDJ5ckZ6UWkzV1RIMGFNNU12WjdBd2VJSk1sdkVIUDRKVm91RThIWlRjMFkzbnAyS3BRTXFCb25aOVZsV3JNbWQ3NktuTzZucnhvUEx2a3gtdzQ?oc=5",
+        "published_at": "2026-10-16T20:57:12Z",
+        "source": "ad-hoc-news.de",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
       {
         "title": "ARK Invest: Cathie Wood verkauft Personalised Inc und investiert in Compass Pathways - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPelJoOS1iMzNDZGZkeHpqemN0NnU0R21NY2FBY095VWxQTFd6YVhxaDlXeml2M0JpcGpfNzBTMGMyV0RkTEtIczVManlfdFJXYlgtenpfSjhKcjRibkRsZ0oxSkFGN291aEtlQ0hNWmtLSGUwdzZ2OEVwemFXR2xmVUQ3OHdQUHdtM1N4UWFFd3F6cUhXaE5tQnNjTUlNZ3BzQ0FicGtsNUdLeWxMNDhZSDhIQVpBeVdkNTU5N0xuY296dktVc1RaaW9PZkRZY202X0F5OTJB?oc=5",
@@ -720,22 +804,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 21
-      },
-      {
-        "title": "Compass Pathways: Oppenheimer bekräftigt Einstufung nach positiven Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVzZpX0Jjb0lhV3pfZGJIVzZabm5iZkdsYVhQMnhFb1NGeVpPOTJaNjlQdGFhM1ZlVVo2OERQbWFNdzNpNmg1dWZFY29Oamk5cjFBb1pjTVhTcWxieVZLOEtkMXNqRkQyUldHQUV4Y1R0b05ZZUROX1FYOEpfbHEybUtrdWJIcWM2N2lMOXFsc3B0TUZJZ01WWEI2UEVfc2YyclJ6UTlWcUJ0VFZfNHdKdDZPSUNldGhZeVZHTlhaRFU3ajhkLVZJa2FvVjV0bUI1b2d3?oc=5",
-        "published_at": "2026-09-09T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
       },
       {
         "title": "Compass Pathways und Definium nähern sich dem Markt: Warum der nächste Engpass bei Psychedelika Emyria in den Fokus rückt - FinanzNachrichten.de",
