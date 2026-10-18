@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-18T06:09:41Z",
+    "last_update_utc": "2026-10-18T11:27:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -724,6 +724,22 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Recursion Pharmaceuticals Prices Offering Of 61.54 Mln Shares At $3.25/Shr - finanzen.ch",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUHZ1MXdrZVdrTldyZnZwcmZKWmNDYk1CT0ZsU1VMbnJINnA1MGQxZDVEaW5XYzZVWDVrV3JjM1IyY2tRaUc3NS14aVZHRnhYbGNjVURJWm1rQzlwbnBHQjQxTEh3UGVMS3BOSXZMbFh3NS13M242NGpoanVTTzlkX1MwOGROdjNRelg2ZE9EVUhtbTVGRzh3WWFrMzUzMWdtT1hFRzJNb0R0X05hem5hR01RNDMzNTR5OG1pT2RIVTMzbVdqaERN?oc=5",
+        "published_at": "2026-10-15T14:08:55Z",
+        "source": "finanzen.ch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 19
+      },
+      {
         "title": "Recursion Pharmaceuticals bepreist Kapitalerhöhung über 200 Millionen $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTFhYTGMyWmlfOEVqaktOU21tN3hvdk5OdEt0bU1LMF9oSWxCWkdMaVJzOTVKd3hST3VMRTZZek9iZ0p1VnVjeHdweDZET19Ga3lNbGZvQTlvMk9mejRiaWk2TUh6cDd5S09acFBvX19yTEZVSG94Q0ZmNGwzcEctdFo0bnY0TTd2SXlScWJ4VVZoUm0xUEJKR1dCOEc4XzJWelRZbzhkeVdscFVRUDd0RFZZR2EzeEhtMnpOa3JtOTdUWkFk?oc=5",
         "published_at": "2026-10-15T12:38:00Z",
@@ -760,22 +776,6 @@
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiT0FjQ1lUd0pfV3lJWFJSaTJGcFBBdG1FVjRPUk1Ddk9kaFplVXdIM19md2E4R3gteFZVUlFxUHl1MjhOQ19wQzktQ0p3Ty11ellCQU80N2hDTlhUMmp0U25rRmxGdw?oc=5",
         "published_at": "2026-10-07T17:04:51Z",
         "source": "Yahoo Finanzen Deutschland",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Cathie Woods ARK schichtet um: Biotech-Werte RXRX und NTLA zugekauft, Anteile an TWST verkauft - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVDJlejNSXzZ4M1JELVdmWkpnczVIYnZyZ1lkNXJUNXBzSEl0VU5QT2dBN3hYWmgyQ1pfM29vdUxpTlVrZmd2aWNYQmxwQ0lxbFN1OG1ZZHJwdDhoT1hpM0oyT1JIQVkwVTliZ0VBMmFhMUg1OUxBMk45TmlXTjkwOENuT3Z0aGE4S1ZPbXlobDNYdGliT3hTVjBGVS1kbDJYNmt5LVVpdTZkOTlWRzlNd0ZvOXRqUTZBdURhWS1tWXptY2N6N01xRXVXcVZtWjdCTTFQTmdaWHRIRHpTdE9HWA?oc=5",
-        "published_at": "2026-10-06T07:00:00Z",
-        "source": "Investing.com Deutsch",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -1174,6 +1174,18 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTFhYTGMyWmlfOEVqaktOU21tN3hvdk5OdEt0bU1LMF9oSWxCWkdMaVJzOTVKd3hST3VMRTZZek9iZ0p1VnVjeHdweDZET19Ga3lNbGZvQTlvMk9mejRiaWk2TUh6cDd5S09acFBvX19yTEZVSG94Q0ZmNGwzcEctdFo0bnY0TTd2SXlScWJ4VVZoUm0xUEJKR1dCOEc4XzJWelRZbzhkeVdscFVRUDd0RFZZR2EzeEhtMnpOa3JtOTdUWkFk?oc=5"
       },
       {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Recursion Pharmaceuticals Prices Offering Of 61.54 Mln Shares At $3.25/Shr - finanzen.ch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "finanzen.ch",
+        "date": "2026-10-15T14:08:55Z",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUHZ1MXdrZVdrTldyZnZwcmZKWmNDYk1CT0ZsU1VMbnJINnA1MGQxZDVEaW5XYzZVWDVrV3JjM1IyY2tRaUc3NS14aVZHRnhYbGNjVURJWm1rQzlwbnBHQjQxTEh3UGVMS3BOSXZMbFh3NS13M242NGpoanVTTzlkX1MwOGROdjNRelg2ZE9EVUhtbTVGRzh3WWFrMzUzMWdtT1hFRzJNb0R0X05hem5hR01RNDMzNTR5OG1pT2RIVTMzbVdqaERN?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
@@ -1380,14 +1392,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-10-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-07",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-10-07"
       }
     ],
     "queries_used": [
