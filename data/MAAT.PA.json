@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$0.99",
-      "note": "Auto-Update: 8.11% vs. vorheriger Schlusskurs",
+      "value": "$1.00",
+      "note": "Auto-Update: 9.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-19T15:46:09Z",
+    "last_update_utc": "2026-10-19T20:47:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 0.987,
+      "regularMarketPrice": 1.0,
       "previousClose": 0.913,
-      "change": 0.074,
-      "changePercent": 8.11,
-      "regularMarketTime": "2026-10-19T15:29:40Z",
+      "change": 0.087,
+      "changePercent": 9.53,
+      "regularMarketTime": "2026-10-19T15:35:03Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -236,7 +236,7 @@
       },
       {
         "t": "2026-10-19T07:00:00Z",
-        "price": 0.987
+        "price": 1.0
       }
     ],
     "price_history_1d": [
@@ -335,6 +335,10 @@
       {
         "t": "2026-10-19T15:25:00Z",
         "price": 0.987
+      },
+      {
+        "t": "2026-10-19T15:30:00Z",
+        "price": 1.0
       }
     ],
     "price_history_range": "1mo",
@@ -342,8 +346,8 @@
     "news": [
       {
         "title": "MAAT PHARMA-Aktie mit neuem All-Time-Low - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNGtpMmdSd1lteXlaRWFUWHZ0S1FoYmtPTnFfc25MMGgtZVpmV05WMkJGRDE2emxxMV8zV2FZRjgzMDUxQkhHQy1HdXVQMjdRajhlUU1yRGJELWxnOTRhT1JsUjBuWEJObjBTNW15OUszVE9kM25taGVhUHZLNTUteDFIUV96cGZRWE1z?oc=5",
-        "published_at": "2026-10-09T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajkyNnVmU1VQTi1kSnlIaFd5bW5iNXgxTDU1Z2w0YnM3Q3JNZm9FMUI2dUxPOFJGWGNqRWV2S05XUElzMUsxTkowcjAza2V2MDRyRHI2djQ4dEZOS1lyVkp0T3FkOXV2QlVJam1HYXVkemNFUVpSeWFpZkNlMWNkd2x0b0JqQ2t1U0xB?oc=5",
+        "published_at": "2026-10-10T00:38:00Z",
         "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
@@ -357,26 +361,10 @@
         "relevance_score": 10
       },
       {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - T-Online",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZnVEY2VWLWlGSWZHUUFOVWpybkdtUk9ZNmVUeGNXVFFfbi10MHo5WGNodjRlLVZidXRIaUo3VGJ4VkpJTGxzUXJTVGxTNG9HWTNBNjhhOGNwcm1oSmdPRDVOdEY4aXo1NW5fS2Fjb01nRUZsOWhsTXlNaDNUdkRfXzloaHE1eDZoVFdVbUpPNmxHSmFmM0xFS0thblJxeVdTUE45UnRfUXFmeHR2UWdXd3VoWjJCTHk0LUc1ZlpScnB1Ti1kcGhhWl9qVmptbXJLRG8zOQ?oc=5",
-        "published_at": "2026-10-07T12:10:00Z",
-        "source": "T-Online",
-        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
-      {
-        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): Under Review - boerse.de - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc2xZV0IwQmZpV1l2cmswRHdsd3hQWUp1REZnUjJ2MDJrRmJod29MME1TNUxKTVluTm1FTTU1VFYzU2ZvMlVaTVZXNEEwalhTR3M1bTAxUjF0M0pCOTYxZkRMMXp5aWJfX2ZGc3VFdHA1Z0RCeGtGWUpLbWxJSEo4bzZKU1hQVDZIRnpyR0JrRUtBUVBoSWVFaHp3Q2ZBV3QzLTVBbmhoaDluUjhyT1hGSVBEdkFHc0FySGNWNUJkZm9YcU01N1E40gHMAUFVX3lxTE0yWlp3R1g5a3Y3dmVrV1YwTWlfeldlWGZZMVEtd3ZkM3JGTlVEdS1jSVRXTXhqeGstcUhDTzJOS1RBa3JXcmxTdFBZOFY5S1IteWFKN2NsOUlqR1o1ZVRzeVlnYVIzaWF5aFZlSTRoMlRhZS1VekdWUV9mejhOSmdfOWNhTmxMTnUzSE5Rd0phUEdyUk1pc2YzdDVwYk1HVXVhM3ZyOFdDcGxhYmNXQ1ZlVktZanBWNHdmNVVGTlVxOUl4a0gzQ1pGRXRzUA?oc=5",
-        "published_at": "2026-10-07T07:00:00Z",
-        "source": "boerse.de",
+        "title": "Original-Research: MaaT Pharma SACA (von First Berlin Equity Research GmbH): ... - Onvista",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQR24yR3ZEOEt1WllIdWtFb1djRVdPMU41dzc2Zy1sTktlbnM4cDBPMjJLSEl0ZGVoZERtd0xpQUpxcExualVUSUM5cmRMY1VKTk9FaHlfTDJodkRTV2hzd2lOSS1mU0wtXzJScWFTV2hjME5Gc0dsWjQtd1BCelYza1dZbUplTUlGaGNzMG9wSnZZems3ekNvU21IUnkzZEI2MXFVMXJGeXVJXzk5RjRlbFljZ2pyVUkxOXkwUTlnTnBpYXM?oc=5",
+        "published_at": "2026-10-07T12:10:13Z",
+        "source": "Onvista",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -403,22 +391,6 @@
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "relevance_score": 14
-      },
-      {
-        "title": "MaaT Pharma Aktie (A3C7A5) - Kurs Euronext Paris - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDeFdjOUdWVlNweWJhNU91akZUUHRtT0ZoWVl1azhxNHpVMkQyR3F2ME5fQ1ROUDRpMUgtMGpISk83S09xMUZybFBqckdFdVRVLXI0WE9UbzB2Tmx4bzgtQnhpMW1Vd1J5UVdvTE85Tnk?oc=5",
-        "published_at": "2021-12-13T20:49:01Z",
-        "source": "MarketScreener Deutschland",
-        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
       }
     ],
     "sec_filings": [],
