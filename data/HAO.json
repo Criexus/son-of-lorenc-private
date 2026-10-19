@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.11",
-      "note": "Auto-Update: -12.08% vs. vorheriger Schlusskurs",
+      "value": "$2.08",
+      "note": "Auto-Update: -14.75% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-19T08:23:32Z",
+    "last_update_utc": "2026-10-19T15:46:22Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.11,
-      "previousClose": 2.4,
-      "change": -0.29,
-      "changePercent": -12.08,
-      "regularMarketTime": "2026-10-16T20:00:00Z",
+      "regularMarketPrice": 2.08,
+      "previousClose": 2.44,
+      "change": -0.36,
+      "changePercent": -14.75,
+      "regularMarketTime": "2026-10-19T15:38:26Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -211,18 +211,10 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 4352.0,
-      "fiftyTwoWeekLow": 2.09,
-      "fiftyTwoWeekRange": "2.09 – 4352.0"
+      "fiftyTwoWeekLow": 2.06,
+      "fiftyTwoWeekRange": "2.06 – 4352.0"
     },
     "price_history": [
-      {
-        "t": "2026-09-17T13:30:00Z",
-        "price": 2.93
-      },
-      {
-        "t": "2026-09-18T13:30:00Z",
-        "price": 2.87
-      },
       {
         "t": "2026-09-21T13:30:00Z",
         "price": 2.75
@@ -302,76 +294,28 @@
       {
         "t": "2026-10-16T13:30:00Z",
         "price": 2.11
+      },
+      {
+        "t": "2026-10-19T13:30:00Z",
+        "price": 2.08
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-16T13:30:00Z",
-        "price": 2.1585
-      },
-      {
-        "t": "2026-10-16T13:40:00Z",
-        "price": 2.13
-      },
-      {
-        "t": "2026-10-16T13:55:00Z",
-        "price": 2.13
-      },
-      {
-        "t": "2026-10-16T15:00:00Z",
+        "t": "2026-10-19T13:30:00Z",
         "price": 2.09
       },
       {
-        "t": "2026-10-16T15:05:00Z",
-        "price": 2.0901
+        "t": "2026-10-19T14:30:00Z",
+        "price": 2.08
       },
       {
-        "t": "2026-10-16T15:20:00Z",
-        "price": 2.12
+        "t": "2026-10-19T14:45:00Z",
+        "price": 2.0601
       },
       {
-        "t": "2026-10-16T16:05:00Z",
-        "price": 2.12
-      },
-      {
-        "t": "2026-10-16T16:10:00Z",
-        "price": 2.09
-      },
-      {
-        "t": "2026-10-16T18:30:00Z",
-        "price": 2.0901
-      },
-      {
-        "t": "2026-10-16T18:45:00Z",
-        "price": 2.12
-      },
-      {
-        "t": "2026-10-16T19:15:00Z",
-        "price": 2.11
-      },
-      {
-        "t": "2026-10-16T19:20:00Z",
-        "price": 2.11
-      },
-      {
-        "t": "2026-10-16T19:35:00Z",
-        "price": 2.1
-      },
-      {
-        "t": "2026-10-16T19:40:00Z",
-        "price": 2.1
-      },
-      {
-        "t": "2026-10-16T19:50:00Z",
-        "price": 2.1
-      },
-      {
-        "t": "2026-10-16T19:55:00Z",
-        "price": 2.11
-      },
-      {
-        "t": "2026-10-16T20:00:00Z",
-        "price": 2.11
+        "t": "2026-10-19T15:38:26Z",
+        "price": 2.08
       }
     ],
     "price_history_range": "1mo",
@@ -538,154 +482,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07219953",
-        "title": "A Study of Brenipatide in Participants With Alcohol Use Disorder",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Alcohol Use Disorder",
-        "last_update": "",
-        "start_date": "2025-10-16",
-        "url": "https://clinicaltrials.gov/study/NCT07219953"
-      },
-      {
-        "nct_id": "NCT07713745",
-        "title": "Platform Research for Innovative Medicines in NF2-SWN (PRIME-NF2)",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Neurofibromatosis Type 2, Vestibular Schwannoma, Non-vestibular Schwannoma, Meningioma",
-        "last_update": "",
-        "start_date": "2026-07-18",
-        "url": "https://clinicaltrials.gov/study/NCT07713745"
-      },
-      {
-        "nct_id": "NCT07589205",
-        "title": "Study of IBI3028 in Participants With Locally Advanced, Unresectable, or Metastatic Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Solid Tumor, Colorectal Cancer, Non-small Cell Lung Cancer, Pancreatic Ductal Adenocarcinoma",
-        "last_update": "",
-        "start_date": "2026-03-31",
-        "url": "https://clinicaltrials.gov/study/NCT07589205"
-      },
-      {
-        "nct_id": "NCT05518851",
-        "title": "TreAtments and outComes in paTients With prImary CutAneous Lymphoma",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Primary Cutaneous Lymphoma",
-        "last_update": "",
-        "start_date": "2022-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05518851"
-      },
-      {
-        "nct_id": "NCT05362201",
-        "title": "Application of the Visualization of Treatment Objective (VTO) Analyses in Fabricating Anterior Repositioning Splints",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Temporomandibular Joint Disorders",
-        "last_update": "",
-        "start_date": "2022-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT05362201"
-      },
-      {
-        "nct_id": "NCT04812600",
-        "title": "Microfluidic-based Tactile Sensor in Cardiac Rehabilitation",
-        "status": "UNKNOWN",
-        "phase": "",
-        "conditions": "Cardiovascular Diseases, Vascular Stiffness, Endothelial Dysfunction",
-        "last_update": "",
-        "start_date": "2021-03-20",
-        "url": "https://clinicaltrials.gov/study/NCT04812600"
-      },
-      {
-        "nct_id": "NCT06262581",
-        "title": "Neoadjuvant Tisleizumab(BGB-A317) for dMMR/MSI-H Non-late Stage CRC Patients Before Surgery",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "DMMR Colorectal Cancer, Anti PD-1, Immunotherapy",
-        "last_update": "",
-        "start_date": "2023-09-23",
-        "url": "https://clinicaltrials.gov/study/NCT06262581"
-      },
-      {
-        "nct_id": "NCT07075237",
-        "title": "Efficacy and Functional Recovery After Switching From Paliperidone Palmitate Injection to Oral Antipsychotics in Schizophrenia",
+        "nct_id": "NCT07746219",
+        "title": "The Clinical Research of Traditional Chinese Medicine Formula",
         "status": "NOT_YET_RECRUITING",
         "phase": "PHASE4",
-        "conditions": "Schizophrenia",
+        "conditions": "Urologic Injuries, Kidney Disease",
         "last_update": "",
-        "start_date": "2025-10",
-        "url": "https://clinicaltrials.gov/study/NCT07075237"
+        "start_date": "2026-08-31",
+        "url": "https://clinicaltrials.gov/study/NCT07746219"
       },
       {
-        "nct_id": "NCT02526368",
-        "title": "Pilot Study of (MR) Imaging With Pyruvate (13C) to Detect High Grade Prostate Cancer",
+        "nct_id": "NCT06183892",
+        "title": "Prospective, Multicenter Clinical Study of Prolonged-release Tacrolimus in Stable Pediatric Liver Transplant Recipients",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Liver Transplant",
+        "last_update": "",
+        "start_date": "2024-03-04",
+        "url": "https://clinicaltrials.gov/study/NCT06183892"
+      },
+      {
+        "nct_id": "NCT06249932",
+        "title": "Empagliflozin in Heart Failure with Reduced Ejection Fraction and End Stage Renal Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Heart Failure with Reduced Ejection Fraction, End Stage Renal Disease on Dialysis",
+        "last_update": "",
+        "start_date": "2024-03-13",
+        "url": "https://clinicaltrials.gov/study/NCT06249932"
+      },
+      {
+        "nct_id": "NCT06781944",
+        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Primary Membranous Nephropathy",
+        "last_update": "",
+        "start_date": "2024-10-23",
+        "url": "https://clinicaltrials.gov/study/NCT06781944"
+      },
+      {
+        "nct_id": "NCT05034549",
+        "title": "Noninvasive Ventilation for Chronic Heart Failure",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Chronic Stable Heart Failure",
+        "last_update": "",
+        "start_date": "2019-08-05",
+        "url": "https://clinicaltrials.gov/study/NCT05034549"
+      },
+      {
+        "nct_id": "NCT06400485",
+        "title": "AMT-676 in Patients With Advanced Solid Tumors",
         "status": "RECRUITING",
         "phase": "EARLY_PHASE1",
-        "conditions": "Prostate Cancer, Localized Prostate Carcinoma",
+        "conditions": "Advanced Solid Tumors",
         "last_update": "",
-        "start_date": "2016-03-22",
-        "url": "https://clinicaltrials.gov/study/NCT02526368"
+        "start_date": "2024-06-18",
+        "url": "https://clinicaltrials.gov/study/NCT06400485"
       },
       {
-        "nct_id": "NCT02806661",
-        "title": "Comparison of Vagus Nerve-preserving RADG and Conventional RADG for AGC",
+        "nct_id": "NCT04814485",
+        "title": "Efficacy and Safety of SHR-1020 Combined With Albumin-bound Paclitaxel in the Second-line Treatment of Pancreatic Cancer",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "conditions": "Pancreatic Cancer",
+        "last_update": "",
+        "start_date": "2021-04-22",
+        "url": "https://clinicaltrials.gov/study/NCT04814485"
+      },
+      {
+        "nct_id": "NCT05854043",
+        "title": "Modified Enhanced Recovery After Oblique Lateral Interbody Fusion Surgery",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Gastric Cancer",
+        "conditions": "Lumbar Spondylosis, Lumbar Spinal Stenosis, Lumbar Disc Herniation",
         "last_update": "",
-        "start_date": "2016-07",
-        "url": "https://clinicaltrials.gov/study/NCT02806661"
+        "start_date": "2023-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT05854043"
       },
       {
-        "nct_id": "NCT02643823",
-        "title": "Human Umbilical Cord-Mesenchymal Stem Cells for Rheumatoid Arthritis",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Rheumatoid Arthritis",
-        "last_update": "",
-        "start_date": "2016-01",
-        "url": "https://clinicaltrials.gov/study/NCT02643823"
-      },
-      {
-        "nct_id": "NCT05294822",
-        "title": "Autologous Regenerative Islet Transplantation for Insulin-dependent Diabetes",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Diabetes",
-        "last_update": "",
-        "start_date": "2019-09-30",
-        "url": "https://clinicaltrials.gov/study/NCT05294822"
-      },
-      {
-        "nct_id": "NCT04481841",
-        "title": "Head Yuanshi Dian Therapy in Burning Mouth Syndrome",
-        "status": "UNKNOWN",
-        "phase": "EARLY_PHASE1",
-        "conditions": "Burning Mouth Syndrome, Oral Mucosa Disease",
-        "last_update": "",
-        "start_date": "2020-07-27",
-        "url": "https://clinicaltrials.gov/study/NCT04481841"
-      },
-      {
-        "nct_id": "NCT07007286",
-        "title": "Real-world Study on Liver Cancer Risk in Chronic Hepatitis B Patients With Family History of Liver Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
-        "conditions": "HBV, HCC",
-        "last_update": "",
-        "start_date": "2025-06",
-        "url": "https://clinicaltrials.gov/study/NCT07007286"
-      },
-      {
-        "nct_id": "NCT01409967",
-        "title": "The Impact of Red Packed Cells Transfusion on the Main Biological Markers to Determine the Etiology of Anemias",
+        "nct_id": "NCT06622356",
+        "title": "Multivariate Analysis and Machine Learning Model Risk Prediction of Recurrent Pain After PLIF Surgery for Degenerative Lumbar Spine Disease At Long-term Follow-up",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Anemia",
+        "conditions": "Lumbar Disc Herniation, Lumbar Degenerative Disease, Sarcopenia",
         "last_update": "",
-        "start_date": "2011-05",
-        "url": "https://clinicaltrials.gov/study/NCT01409967"
+        "start_date": "2024-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT06622356"
+      },
+      {
+        "nct_id": "NCT06149260",
+        "title": "Subcutaneous Semaglutide in Systemic Scleroderma",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Scleroderma, Systemic, Fibrosis, Semaglutide",
+        "last_update": "",
+        "start_date": "2024-02-29",
+        "url": "https://clinicaltrials.gov/study/NCT06149260"
+      },
+      {
+        "nct_id": "NCT04398823",
+        "title": "A Multicenter Prospective Clinical Study of Endoscopic Foam Sclerotherapy for Internal Hemorrhoids",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Grade/Stage I Hemorrhoids, Prolapsed Grade II Internal Haemorrhoid, Prolapsed Grade III Internal Haemorrhoid",
+        "last_update": "",
+        "start_date": "2020-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT04398823"
+      },
+      {
+        "nct_id": "NCT04026282",
+        "title": "To Investigate the Cumulative Live Birth Rates Using GnRH Antagonist or Agonist Protocol for COS in ART Treatment",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Sterility",
+        "last_update": "",
+        "start_date": "2018-12-27",
+        "url": "https://clinicaltrials.gov/study/NCT04026282"
+      },
+      {
+        "nct_id": "NCT01764659",
+        "title": "4D-CT for Pancreatic Adenocarcinoma in Radiotherapy Simulation",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Pancreatic Adenocarcinoma",
+        "last_update": "",
+        "start_date": "2013-07",
+        "url": "https://clinicaltrials.gov/study/NCT01764659"
+      },
+      {
+        "nct_id": "NCT07044908",
+        "title": "TQB2922 and TAS-102 Tablets for Injection With or Without Bevacizumab in Chemotherapy-failed RAS/BRAF Wild-type Advanced Colorectal Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "RAS/BRAF Wild Type Colorectal Cancer",
+        "last_update": "",
+        "start_date": "2025-07-30",
+        "url": "https://clinicaltrials.gov/study/NCT07044908"
+      },
+      {
+        "nct_id": "NCT02214524",
+        "title": "Comparison of Active and Passive Perioperative Warming Techniques in Reducing Intraoperative Blood Loss",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Hypothermia, Blood Loss,, Blood Coagulation Disorders",
+        "last_update": "",
+        "start_date": "2014-08",
+        "url": "https://clinicaltrials.gov/study/NCT02214524"
       }
     ],
     "detected_triggers": [
@@ -708,74 +652,98 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Human Umbilical Cord-Mesenchymal Stem Cells for Rheumatoid Arthritis",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT02643823",
-        "date": "2016-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Pilot Study of (MR) Imaging With Pyruvate (13C) to Detect High Grade Prostate Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING EARLY_PHASE1",
-        "source": "NCT02526368",
-        "date": "2016-03-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Comparison of Vagus Nerve-preserving RADG and Conventional RADG for AGC",
+        "title": "Comparison of Active and Passive Perioperative Warming Techniques in Reducing Intraoperative Blood Loss",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT02806661",
-        "date": "2016-07"
+        "source": "NCT02214524",
+        "date": "2014-08"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Autologous Regenerative Islet Transplantation for Insulin-dependent Diabetes",
+        "title": "To Investigate the Cumulative Live Birth Rates Using GnRH Antagonist or Agonist Protocol for COS in ART Treatment",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05294822",
-        "date": "2019-09-30"
+        "source": "NCT04026282",
+        "date": "2018-12-27"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Head Yuanshi Dian Therapy in Burning Mouth Syndrome",
-        "reason": "Studienregister-Treffer: UNKNOWN EARLY_PHASE1",
-        "source": "NCT04481841",
-        "date": "2020-07-27"
+        "title": "Noninvasive Ventilation for Chronic Heart Failure",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05034549",
+        "date": "2019-08-05"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Application of the Visualization of Treatment Objective (VTO) Analyses in Fabricating Anterior Repositioning Splints",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05362201",
-        "date": "2022-04-01"
+        "title": "A Multicenter Prospective Clinical Study of Endoscopic Foam Sclerotherapy for Internal Hemorrhoids",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT04398823",
+        "date": "2020-05-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Neoadjuvant Tisleizumab(BGB-A317) for dMMR/MSI-H Non-late Stage CRC Patients Before Surgery",
+        "title": "Efficacy and Safety of SHR-1020 Combined With Albumin-bound Paclitaxel in the Second-line Treatment of Pancreatic Cancer",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT06262581",
-        "date": "2023-09-23"
+        "source": "NCT04814485",
+        "date": "2021-04-22"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Functional Recovery After Switching From Paliperidone Palmitate Injection to Oral Antipsychotics in Schizophrenia",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
-        "source": "NCT07075237",
-        "date": "2025-10"
+        "title": "Modified Enhanced Recovery After Oblique Lateral Interbody Fusion Surgery",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05854043",
+        "date": "2023-04-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study of Brenipatide in Participants With Alcohol Use Disorder",
+        "title": "Subcutaneous Semaglutide in Systemic Scleroderma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT06149260",
+        "date": "2024-02-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Prospective, Multicenter Clinical Study of Prolonged-release Tacrolimus in Stable Pediatric Liver Transplant Recipients",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06183892",
+        "date": "2024-03-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Empagliflozin in Heart Failure with Reduced Ejection Fraction and End Stage Renal Disease",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
+        "source": "NCT06249932",
+        "date": "2024-03-13"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "AMT-676 in Patients With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING EARLY_PHASE1",
+        "source": "NCT06400485",
+        "date": "2024-06-18"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
         "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07219953",
-        "date": "2025-10-16"
+        "source": "NCT06781944",
+        "date": "2024-10-23"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "TQB2922 and TAS-102 Tablets for Injection With or Without Bevacizumab in Chemotherapy-failed RAS/BRAF Wild-type Advanced Colorectal Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
+        "source": "NCT07044908",
+        "date": "2025-07-30"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -784,14 +752,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Study of IBI3028 in Participants With Locally Advanced, Unresectable, or Metastatic Solid Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT07589205",
-        "date": "2026-03-31"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -868,10 +828,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Platform Research for Innovative Medicines in NF2-SWN (PRIME-NF2)",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07713745",
-        "date": "2026-07-18"
+        "title": "The Clinical Research of Traditional Chinese Medicine Formula",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE4",
+        "source": "NCT07746219",
+        "date": "2026-08-31"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -884,34 +844,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "The Impact of Red Packed Cells Transfusion on the Main Biological Markers to Determine the Etiology of Anemias",
+        "title": "4D-CT for Pancreatic Adenocarcinoma in Radiotherapy Simulation",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT01409967",
-        "date": "2011-05"
+        "source": "NCT01764659",
+        "date": "2013-07"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Microfluidic-based Tactile Sensor in Cardiac Rehabilitation",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT04812600",
-        "date": "2021-03-20"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "TreAtments and outComes in paTients With prImary CutAneous Lymphoma",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05518851",
-        "date": "2022-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Real-world Study on Liver Cancer Risk in Chronic Hepatitis B Patients With Family History of Liver Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
-        "source": "NCT07007286",
-        "date": "2025-06"
+        "title": "Multivariate Analysis and Machine Learning Model Risk Prediction of Recurrent Pain After PLIF Surgery for Degenerative Lumbar Spine Disease At Long-term Follow-up",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT06622356",
+        "date": "2024-09-20"
       },
       {
         "type": "SEC Filing",
