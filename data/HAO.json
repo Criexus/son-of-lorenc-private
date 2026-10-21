@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.14",
-      "note": "Auto-Update: -5.73% vs. vorheriger Schlusskurs",
+      "value": "$2.03",
+      "note": "Auto-Update: -6.06% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-21T10:28:58Z",
+    "last_update_utc": "2026-10-21T15:29:04Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.14,
-      "previousClose": 2.27,
-      "change": -0.13,
-      "changePercent": -5.73,
-      "regularMarketTime": "2026-10-20T20:00:00Z",
+      "regularMarketPrice": 2.029,
+      "previousClose": 2.16,
+      "change": -0.131,
+      "changePercent": -6.06,
+      "regularMarketTime": "2026-10-21T15:22:55Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -302,64 +302,36 @@
       {
         "t": "2026-10-20T13:30:00Z",
         "price": 2.14
+      },
+      {
+        "t": "2026-10-21T13:30:00Z",
+        "price": 2.0288
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-20T13:40:00Z",
-        "price": 2.003
+        "t": "2026-10-21T13:30:00Z",
+        "price": 2.12
       },
       {
-        "t": "2026-10-20T13:45:00Z",
-        "price": 1.98
+        "t": "2026-10-21T13:35:00Z",
+        "price": 2.12
       },
       {
-        "t": "2026-10-20T13:55:00Z",
-        "price": 1.9928
-      },
-      {
-        "t": "2026-10-20T14:05:00Z",
-        "price": 1.99
-      },
-      {
-        "t": "2026-10-20T14:45:00Z",
+        "t": "2026-10-21T14:15:00Z",
         "price": 2.0
       },
       {
-        "t": "2026-10-20T15:50:00Z",
+        "t": "2026-10-21T14:20:00Z",
+        "price": 2.08
+      },
+      {
+        "t": "2026-10-21T15:05:00Z",
         "price": 2.03
       },
       {
-        "t": "2026-10-20T16:25:00Z",
-        "price": 2.03
-      },
-      {
-        "t": "2026-10-20T16:45:00Z",
-        "price": 2.0332
-      },
-      {
-        "t": "2026-10-20T16:50:00Z",
-        "price": 2.055
-      },
-      {
-        "t": "2026-10-20T19:05:00Z",
-        "price": 2.11
-      },
-      {
-        "t": "2026-10-20T19:15:00Z",
-        "price": 2.14
-      },
-      {
-        "t": "2026-10-20T19:20:00Z",
-        "price": 2.1145
-      },
-      {
-        "t": "2026-10-20T19:50:00Z",
-        "price": 2.13
-      },
-      {
-        "t": "2026-10-20T20:00:00Z",
-        "price": 2.14
+        "t": "2026-10-21T15:22:55Z",
+        "price": 2.0288
       }
     ],
     "price_history_range": "1mo",
@@ -526,154 +498,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06807151",
-        "title": "Leveraging Plasma Concentration Levels to Optimize Extracorporeal Treatment in Acute Diquat Poisoning",
+        "nct_id": "NCT03578211",
+        "title": "Impact of Decision Aids on Bariatric Surgery Choice",
         "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Diquat Poisoning, Blood Purification",
+        "phase": "NA",
+        "conditions": "Obesity, Morbid",
         "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT06807151"
+        "start_date": "2018-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT03578211"
       },
       {
-        "nct_id": "NCT07088757",
-        "title": "Low-Dose vs Standard-Dose Indomethacin for Preventing Post-ERCP Pancreatitis",
+        "nct_id": "NCT02149875",
+        "title": "Dl-3-n-butylphthalide and Cerebrolysin Treatment in Acute Ischemic Stroke",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Acute Cerebral Stroke Within 12 Hours for the First Time",
+        "last_update": "",
+        "start_date": "2010-01",
+        "url": "https://clinicaltrials.gov/study/NCT02149875"
+      },
+      {
+        "nct_id": "NCT03438812",
+        "title": "Dehydroepiandrosterone Maintain Mitochondrial Quality of Cumulus Cells in Poor Ovarian Responders",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Poor Responders, Dehydroepiandrosterone",
+        "last_update": "",
+        "start_date": "2017-09-06",
+        "url": "https://clinicaltrials.gov/study/NCT03438812"
+      },
+      {
+        "nct_id": "NCT05522881",
+        "title": "The Registry Study of Genetic Alterations of Oropharyngeal Cancer in Taiwan",
         "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Post-ERCP Pancreatitis",
+        "phase": "",
+        "conditions": "Oropharyngeal Squamous Cell Carcinoma",
         "last_update": "",
-        "start_date": "2025-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT07088757"
+        "start_date": "2022-11-25",
+        "url": "https://clinicaltrials.gov/study/NCT05522881"
       },
       {
-        "nct_id": "NCT02304562",
-        "title": "Umbilical Cord Blood-derived Mesenchymal Stem Cells in Regeneration of Sweat Glands and Body Repair",
+        "nct_id": "NCT04323332",
+        "title": "Traditional Chinese Medicine for Severe COVID-19",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "COVID-19",
+        "last_update": "",
+        "start_date": "2020-03",
+        "url": "https://clinicaltrials.gov/study/NCT04323332"
+      },
+      {
+        "nct_id": "NCT04482257",
+        "title": "Bioequivalence Study of Irinotecan Liposome Injection in Chinese Advanced Pancreatic Cancer.",
         "status": "UNKNOWN",
         "phase": "PHASE1",
-        "conditions": "Sweat Gland Diseases",
+        "conditions": "Advanced Pancreatic Cancer",
         "last_update": "",
-        "start_date": "2013-01",
-        "url": "https://clinicaltrials.gov/study/NCT02304562"
+        "start_date": "2020-07-07",
+        "url": "https://clinicaltrials.gov/study/NCT04482257"
       },
       {
-        "nct_id": "NCT05021965",
-        "title": "The Effectiveness of At-home , In-office and Combined Dental Bleaching System ：A Randomized Controlled Clinical Trial",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Tooth Bleaching",
-        "last_update": "",
-        "start_date": "2021-07-15",
-        "url": "https://clinicaltrials.gov/study/NCT05021965"
-      },
-      {
-        "nct_id": "NCT05957653",
-        "title": "Lidocaine Combined With Sufentanil for Preventing Catheter-related Bladder Discomfort",
+        "nct_id": "NCT06006312",
+        "title": "Establishment and Clinical Application of Pancreatic Endocrine and Exocrine Function Tests",
         "status": "UNKNOWN",
-        "phase": "PHASE4",
-        "conditions": "Prostate Cancer",
-        "last_update": "",
-        "start_date": "2023-10-07",
-        "url": "https://clinicaltrials.gov/study/NCT05957653"
-      },
-      {
-        "nct_id": "NCT05215457",
-        "title": "Severity Indices of Diquat Poisoning for Triage and Prognosis in Acute Diquat Poisoning",
-        "status": "COMPLETED",
         "phase": "",
-        "conditions": "Diquat Poisoning",
+        "conditions": "Chronic Pancreatitis, Pancreatic Exocrine Insufficiency, Diabetes Mellitus, Community Populations",
         "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT05215457"
+        "start_date": "2023-08",
+        "url": "https://clinicaltrials.gov/study/NCT06006312"
       },
       {
-        "nct_id": "NCT07832565",
-        "title": "Sandwich vs. Mixed Bone Augmentation for Implant Placement",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Peri-implant Bone and Soft Tissues",
-        "last_update": "",
-        "start_date": "2026-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT07832565"
-      },
-      {
-        "nct_id": "NCT07284199",
-        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "CABG, Aortic Dissection, Valvular Heart Diseases",
-        "last_update": "",
-        "start_date": "2025-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT07284199"
-      },
-      {
-        "nct_id": "NCT06781944",
-        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
+        "nct_id": "NCT06829784",
+        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
         "status": "RECRUITING",
         "phase": "PHASE3",
-        "conditions": "Primary Membranous Nephropathy",
+        "conditions": "Asthma",
         "last_update": "",
-        "start_date": "2024-10-23",
-        "url": "https://clinicaltrials.gov/study/NCT06781944"
+        "start_date": "2025-03-21",
+        "url": "https://clinicaltrials.gov/study/NCT06829784"
       },
       {
-        "nct_id": "NCT06485232",
-        "title": "Universal CAR-T Cells in Patients with Refractory Autoimmune Diseases of the Nervous System.",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "EARLY_PHASE1",
-        "conditions": "Neuromyelitis Optica Spectrum Disorders, Myasthenia Gravis, Generalized, Multiple Sclerosis, Chronic Inflammatory Demyelinating Polyradiculoneuropathy",
-        "last_update": "",
-        "start_date": "2025-02-28",
-        "url": "https://clinicaltrials.gov/study/NCT06485232"
-      },
-      {
-        "nct_id": "NCT05572944",
-        "title": "Formatting the Risk Prediction Models for Never-Smoking Lung Cancer",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Lung Cancer",
-        "last_update": "",
-        "start_date": "2022-12-15",
-        "url": "https://clinicaltrials.gov/study/NCT05572944"
-      },
-      {
-        "nct_id": "NCT06607900",
-        "title": "hUC-MSC-sEV-001 Nasal Drops for Neurodegenerative Diseases",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Alzheimer Disease, Parkinson Disease, Lewy Body Dementia, Multiple System Atrophy",
-        "last_update": "",
-        "start_date": "2025-07-01",
-        "url": "https://clinicaltrials.gov/study/NCT06607900"
-      },
-      {
-        "nct_id": "NCT06341257",
-        "title": "Efficacy and Toxicity of SCART",
-        "status": "WITHDRAWN",
-        "phase": "NA",
-        "conditions": "Tumor Size Greater Than or Equal to 5 cm",
-        "last_update": "",
-        "start_date": "2024-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06341257"
-      },
-      {
-        "nct_id": "NCT06581614",
-        "title": "Masticatory Performance Evaluation",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Masticatory Performance",
-        "last_update": "",
-        "start_date": "2024-08-31",
-        "url": "https://clinicaltrials.gov/study/NCT06581614"
-      },
-      {
-        "nct_id": "NCT03153605",
-        "title": "The Correlation and Relationship Between Chromaticity Parameters and Treatment Satisfaction Before and After Tooth Bleaching",
+        "nct_id": "NCT05035433",
+        "title": "Effect of the Sequence of Dilatation and Lithotripsy on the Treatment of Choledocholithiasis With ERCP",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Bleaching; Satisfactory",
+        "conditions": "Choledocholithiasis, Cholangiopancreatography, Endoscopic Retrograde",
         "last_update": "",
-        "start_date": "2016-04",
-        "url": "https://clinicaltrials.gov/study/NCT03153605"
+        "start_date": "2020-09-06",
+        "url": "https://clinicaltrials.gov/study/NCT05035433"
+      },
+      {
+        "nct_id": "NCT06777758",
+        "title": "Comparison of Remimazolam and Propofol in Endoscopic Examinations and Treatments",
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "conditions": "Postoperative Complications, Respiratory Depression, Postoperative Nausea, Vomiting",
+        "last_update": "",
+        "start_date": "2025-02-12",
+        "url": "https://clinicaltrials.gov/study/NCT06777758"
+      },
+      {
+        "nct_id": "NCT04331613",
+        "title": "Safety and Efficacy of CAStem for Severe COVID-19 Associated With/Without ARDS",
+        "status": "UNKNOWN",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "COVID-19, Acute Respiratory Distress Syndrome, Virus; Pneumonia, Acute Lung Injury",
+        "last_update": "",
+        "start_date": "2020-01-27",
+        "url": "https://clinicaltrials.gov/study/NCT04331613"
+      },
+      {
+        "nct_id": "NCT05697718",
+        "title": "Clinical Trial of Human Umbilical Cord Mesenchymal Stem Cells (IxCell hUC-MSC-S) in the Treatment of Ischemic Stroke",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Ischemic Stroke",
+        "last_update": "",
+        "start_date": "2023-04-10",
+        "url": "https://clinicaltrials.gov/study/NCT05697718"
+      },
+      {
+        "nct_id": "NCT07119190",
+        "title": "A Perioperative Comprehensive Diagnosis and Treatment System for Lung Cancer in the Era of Neoadjuvant Immunotherapy",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "",
+        "conditions": "Non-Small Cell Lung Cancer",
+        "last_update": "",
+        "start_date": "2025-08-06",
+        "url": "https://clinicaltrials.gov/study/NCT07119190"
+      },
+      {
+        "nct_id": "NCT00657059",
+        "title": "Mycophenolate Mofetil (MMF) in Patients With IgA Nephropathy (IgAN)",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "IgA Nephropathy",
+        "last_update": "",
+        "start_date": "2007-09",
+        "url": "https://clinicaltrials.gov/study/NCT00657059"
+      },
+      {
+        "nct_id": "NCT07618260",
+        "title": "SIM0613 in Participants With Advanced Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Advanced Solid Cancer",
+        "last_update": "",
+        "start_date": "2026-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT07618260"
       }
     ],
     "detected_triggers": [
@@ -696,82 +668,90 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Umbilical Cord Blood-derived Mesenchymal Stem Cells in Regeneration of Sweat Glands and Body Repair",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT02304562",
-        "date": "2013-01"
+        "title": "Mycophenolate Mofetil (MMF) in Patients With IgA Nephropathy (IgAN)",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00657059",
+        "date": "2007-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Correlation and Relationship Between Chromaticity Parameters and Treatment Satisfaction Before and After Tooth Bleaching",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03153605",
-        "date": "2016-04"
+        "title": "Dl-3-n-butylphthalide and Cerebrolysin Treatment in Acute Ischemic Stroke",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1, PHASE2",
+        "source": "NCT02149875",
+        "date": "2010-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effectiveness of At-home , In-office and Combined Dental Bleaching System ：A Randomized Controlled Clinical Trial",
+        "title": "Dehydroepiandrosterone Maintain Mitochondrial Quality of Cumulus Cells in Poor Ovarian Responders",
         "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05021965",
-        "date": "2021-07-15"
+        "source": "NCT03438812",
+        "date": "2017-09-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Lidocaine Combined With Sufentanil for Preventing Catheter-related Bladder Discomfort",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05957653",
-        "date": "2023-10-07"
+        "title": "Impact of Decision Aids on Bariatric Surgery Choice",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT03578211",
+        "date": "2018-05-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Toxicity of SCART",
-        "reason": "Studienregister-Treffer: WITHDRAWN NA",
-        "source": "NCT06341257",
-        "date": "2024-01-01"
+        "title": "Safety and Efficacy of CAStem for Severe COVID-19 Associated With/Without ARDS",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1, PHASE2",
+        "source": "NCT04331613",
+        "date": "2020-01-27"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "OBINOTUZUMAB Versus Cyclophosphamide + Glucocorticoids in Primary Membranous Nephropathy(Blossom Study)",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06781944",
-        "date": "2024-10-23"
+        "title": "Traditional Chinese Medicine for Severe COVID-19",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT04323332",
+        "date": "2020-03"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Universal CAR-T Cells in Patients with Refractory Autoimmune Diseases of the Nervous System.",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING EARLY_PHASE1",
-        "source": "NCT06485232",
-        "date": "2025-02-28"
+        "title": "Bioequivalence Study of Irinotecan Liposome Injection in Chinese Advanced Pancreatic Cancer.",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT04482257",
+        "date": "2020-07-07"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "hUC-MSC-sEV-001 Nasal Drops for Neurodegenerative Diseases",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1",
-        "source": "NCT06607900",
-        "date": "2025-07-01"
+        "title": "Effect of the Sequence of Dilatation and Lithotripsy on the Treatment of Choledocholithiasis With ERCP",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05035433",
+        "date": "2020-09-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Low-Dose vs Standard-Dose Indomethacin for Preventing Post-ERCP Pancreatitis",
+        "title": "Clinical Trial of Human Umbilical Cord Mesenchymal Stem Cells (IxCell hUC-MSC-S) in the Treatment of Ischemic Stroke",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT05697718",
+        "date": "2023-04-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Comparison of Remimazolam and Propofol in Endoscopic Examinations and Treatments",
         "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT07088757",
-        "date": "2025-09-15"
+        "source": "NCT06777758",
+        "date": "2025-02-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "CLEAR Trial: CA330 Cytokine Adsorption Column for Anticoagulant/Antiplatelet Patients in Non-Elective CPB Surgery.",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07284199",
-        "date": "2025-12-15"
+        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT06829784",
+        "date": "2025-03-21"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -804,6 +784,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-13"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "SIM0613 in Participants With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT07618260",
+        "date": "2026-05-15"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -863,43 +851,27 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Sandwich vs. Mixed Bone Augmentation for Implant Placement",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07832565",
-        "date": "2026-11-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Leveraging Plasma Concentration Levels to Optimize Extracorporeal Treatment in Acute Diquat Poisoning",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06807151",
-        "date": "2022-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Severity Indices of Diquat Poisoning for Triage and Prognosis in Acute Diquat Poisoning",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT05215457",
-        "date": "2022-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Formatting the Risk Prediction Models for Never-Smoking Lung Cancer",
+        "title": "The Registry Study of Genetic Alterations of Oropharyngeal Cancer in Taiwan",
         "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05572944",
-        "date": "2022-12-15"
+        "source": "NCT05522881",
+        "date": "2022-11-25"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Masticatory Performance Evaluation",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT06581614",
-        "date": "2024-08-31"
+        "title": "Establishment and Clinical Application of Pancreatic Endocrine and Exocrine Function Tests",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT06006312",
+        "date": "2023-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Perioperative Comprehensive Diagnosis and Treatment System for Lung Cancer in the Era of Neoadjuvant Immunotherapy",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
+        "source": "NCT07119190",
+        "date": "2025-08-06"
       },
       {
         "type": "SEC Filing",

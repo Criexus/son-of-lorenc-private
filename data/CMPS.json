@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.90",
-      "note": "Auto-Update: 6.82% vs. vorheriger Schlusskurs",
+      "value": "$11.95",
+      "note": "Auto-Update: 6.03% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-21T10:28:13Z",
+    "last_update_utc": "2026-10-21T15:28:19Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.9,
-      "previousClose": 11.14,
-      "change": 0.76,
-      "changePercent": 6.82,
-      "regularMarketTime": "2026-10-20T20:00:01Z",
+      "regularMarketPrice": 11.95,
+      "previousClose": 11.27,
+      "change": 0.68,
+      "changePercent": 6.03,
+      "regularMarketTime": "2026-10-21T15:28:02Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -418,324 +418,112 @@
       {
         "t": "2026-10-20T13:30:00Z",
         "price": 11.9
+      },
+      {
+        "t": "2026-10-21T13:30:00Z",
+        "price": 11.95
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-20T13:30:00Z",
-        "price": 11.07
-      },
-      {
-        "t": "2026-10-20T13:35:00Z",
-        "price": 11.09
-      },
-      {
-        "t": "2026-10-20T13:40:00Z",
-        "price": 11.17
-      },
-      {
-        "t": "2026-10-20T13:45:00Z",
-        "price": 11.23
-      },
-      {
-        "t": "2026-10-20T13:50:00Z",
-        "price": 11.38
-      },
-      {
-        "t": "2026-10-20T13:55:00Z",
-        "price": 11.395
-      },
-      {
-        "t": "2026-10-20T14:00:00Z",
-        "price": 11.5
-      },
-      {
-        "t": "2026-10-20T14:05:00Z",
-        "price": 11.49
-      },
-      {
-        "t": "2026-10-20T14:10:00Z",
-        "price": 11.565
-      },
-      {
-        "t": "2026-10-20T14:15:00Z",
-        "price": 11.6
-      },
-      {
-        "t": "2026-10-20T14:20:00Z",
-        "price": 11.58
-      },
-      {
-        "t": "2026-10-20T14:25:00Z",
-        "price": 11.685
-      },
-      {
-        "t": "2026-10-20T14:30:00Z",
-        "price": 11.735
-      },
-      {
-        "t": "2026-10-20T14:35:00Z",
-        "price": 11.75
-      },
-      {
-        "t": "2026-10-20T14:40:00Z",
-        "price": 11.795
-      },
-      {
-        "t": "2026-10-20T14:45:00Z",
-        "price": 11.841
-      },
-      {
-        "t": "2026-10-20T14:50:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-20T14:55:00Z",
-        "price": 11.885
-      },
-      {
-        "t": "2026-10-20T15:00:00Z",
+        "t": "2026-10-21T13:30:00Z",
         "price": 11.91
       },
       {
-        "t": "2026-10-20T15:05:00Z",
-        "price": 11.91
-      },
-      {
-        "t": "2026-10-20T15:10:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-20T15:15:00Z",
-        "price": 11.82
-      },
-      {
-        "t": "2026-10-20T15:20:00Z",
-        "price": 11.8132
-      },
-      {
-        "t": "2026-10-20T15:25:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-20T15:30:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-20T15:35:00Z",
-        "price": 11.8201
-      },
-      {
-        "t": "2026-10-20T15:40:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-20T15:45:00Z",
-        "price": 11.81
-      },
-      {
-        "t": "2026-10-20T15:50:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-20T15:55:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-20T16:00:00Z",
-        "price": 11.795
-      },
-      {
-        "t": "2026-10-20T16:05:00Z",
-        "price": 11.78
-      },
-      {
-        "t": "2026-10-20T16:10:00Z",
-        "price": 11.76
-      },
-      {
-        "t": "2026-10-20T16:15:00Z",
-        "price": 11.76
-      },
-      {
-        "t": "2026-10-20T16:20:00Z",
-        "price": 11.83
-      },
-      {
-        "t": "2026-10-20T16:25:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-20T16:30:00Z",
-        "price": 11.82
-      },
-      {
-        "t": "2026-10-20T16:35:00Z",
-        "price": 11.85
-      },
-      {
-        "t": "2026-10-20T16:40:00Z",
-        "price": 11.83
-      },
-      {
-        "t": "2026-10-20T16:45:00Z",
-        "price": 11.83
-      },
-      {
-        "t": "2026-10-20T16:50:00Z",
-        "price": 11.81
-      },
-      {
-        "t": "2026-10-20T16:55:00Z",
-        "price": 11.7904
-      },
-      {
-        "t": "2026-10-20T17:00:00Z",
-        "price": 11.81
-      },
-      {
-        "t": "2026-10-20T17:05:00Z",
-        "price": 11.82
-      },
-      {
-        "t": "2026-10-20T17:10:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-20T17:15:00Z",
-        "price": 11.895
-      },
-      {
-        "t": "2026-10-20T17:20:00Z",
-        "price": 11.895
-      },
-      {
-        "t": "2026-10-20T17:25:00Z",
-        "price": 11.8994
-      },
-      {
-        "t": "2026-10-20T17:30:00Z",
-        "price": 11.8936
-      },
-      {
-        "t": "2026-10-20T17:35:00Z",
-        "price": 11.915
-      },
-      {
-        "t": "2026-10-20T17:40:00Z",
-        "price": 11.9
-      },
-      {
-        "t": "2026-10-20T17:45:00Z",
-        "price": 11.92
-      },
-      {
-        "t": "2026-10-20T17:50:00Z",
-        "price": 11.92
-      },
-      {
-        "t": "2026-10-20T17:55:00Z",
-        "price": 11.915
-      },
-      {
-        "t": "2026-10-20T18:00:00Z",
-        "price": 11.9201
-      },
-      {
-        "t": "2026-10-20T18:05:00Z",
-        "price": 11.93
-      },
-      {
-        "t": "2026-10-20T18:10:00Z",
-        "price": 11.945
-      },
-      {
-        "t": "2026-10-20T18:15:00Z",
-        "price": 11.94
-      },
-      {
-        "t": "2026-10-20T18:20:00Z",
-        "price": 11.95
-      },
-      {
-        "t": "2026-10-20T18:25:00Z",
-        "price": 11.95
-      },
-      {
-        "t": "2026-10-20T18:30:00Z",
-        "price": 11.8961
-      },
-      {
-        "t": "2026-10-20T18:35:00Z",
-        "price": 11.91
-      },
-      {
-        "t": "2026-10-20T18:40:00Z",
-        "price": 11.9128
-      },
-      {
-        "t": "2026-10-20T18:45:00Z",
-        "price": 11.96
-      },
-      {
-        "t": "2026-10-20T18:50:00Z",
-        "price": 11.9747
-      },
-      {
-        "t": "2026-10-20T18:55:00Z",
-        "price": 11.9501
-      },
-      {
-        "t": "2026-10-20T19:00:00Z",
-        "price": 11.97
-      },
-      {
-        "t": "2026-10-20T19:05:00Z",
+        "t": "2026-10-21T13:35:00Z",
         "price": 11.98
       },
       {
-        "t": "2026-10-20T19:10:00Z",
-        "price": 11.96
-      },
-      {
-        "t": "2026-10-20T19:15:00Z",
-        "price": 11.96
-      },
-      {
-        "t": "2026-10-20T19:20:00Z",
-        "price": 11.93
-      },
-      {
-        "t": "2026-10-20T19:25:00Z",
-        "price": 11.95
-      },
-      {
-        "t": "2026-10-20T19:30:00Z",
+        "t": "2026-10-21T13:40:00Z",
         "price": 11.99
       },
       {
-        "t": "2026-10-20T19:35:00Z",
+        "t": "2026-10-21T13:45:00Z",
+        "price": 12.07
+      },
+      {
+        "t": "2026-10-21T13:50:00Z",
+        "price": 11.94
+      },
+      {
+        "t": "2026-10-21T13:55:00Z",
+        "price": 11.97
+      },
+      {
+        "t": "2026-10-21T14:00:00Z",
+        "price": 11.871
+      },
+      {
+        "t": "2026-10-21T14:05:00Z",
         "price": 11.96
       },
       {
-        "t": "2026-10-20T19:40:00Z",
-        "price": 11.9401
+        "t": "2026-10-21T14:10:00Z",
+        "price": 11.9399
       },
       {
-        "t": "2026-10-20T19:45:00Z",
+        "t": "2026-10-21T14:15:00Z",
+        "price": 11.96
+      },
+      {
+        "t": "2026-10-21T14:20:00Z",
+        "price": 12.0
+      },
+      {
+        "t": "2026-10-21T14:25:00Z",
+        "price": 12.0
+      },
+      {
+        "t": "2026-10-21T14:30:00Z",
+        "price": 12.0
+      },
+      {
+        "t": "2026-10-21T14:35:00Z",
+        "price": 11.955
+      },
+      {
+        "t": "2026-10-21T14:40:00Z",
+        "price": 11.98
+      },
+      {
+        "t": "2026-10-21T14:45:00Z",
+        "price": 11.9991
+      },
+      {
+        "t": "2026-10-21T14:50:00Z",
+        "price": 12.0076
+      },
+      {
+        "t": "2026-10-21T14:55:00Z",
+        "price": 11.95
+      },
+      {
+        "t": "2026-10-21T15:00:00Z",
         "price": 11.91
       },
       {
-        "t": "2026-10-20T19:50:00Z",
-        "price": 11.91
+        "t": "2026-10-21T15:05:00Z",
+        "price": 11.945
       },
       {
-        "t": "2026-10-20T19:55:00Z",
-        "price": 11.91
+        "t": "2026-10-21T15:10:00Z",
+        "price": 11.93
       },
       {
-        "t": "2026-10-20T20:00:00Z",
-        "price": 11.9
+        "t": "2026-10-21T15:15:00Z",
+        "price": 11.94
+      },
+      {
+        "t": "2026-10-21T15:20:00Z",
+        "price": 11.95
+      },
+      {
+        "t": "2026-10-21T15:25:00Z",
+        "price": 11.97
+      },
+      {
+        "t": "2026-10-21T15:28:11Z",
+        "price": 11.95
       }
     ],
     "price_history_range": "1mo",
@@ -921,22 +709,6 @@
         "title": "Compass Pathways Aktie: Zweite Studie bestätigt - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2ZuNW50NlZiam1IWlNOTTJ0ekZpREdqVXd2YWxtSTJzX19IRHd2aWZ1anFwbjZVY0x1RXIzd2VhYXBUMnoyZW1PNHp1NmxhUG9fV3VCTEdJUlJQbW5VMWxISFI2RE1wVFZiVW9mTjF5SG9wTWNUaFIwOGh4Tkp4Wk5GVVRkbGpOMThoVTRiMkh3MnJBUGlnOGx5RjFsWTA0?oc=5",
         "published_at": "2026-07-07T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways: COMP006 mit 3,8-Punkte-Vorteil - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEtDck4xMFpaeG1hMFRSYkRZaGtaN0szS0VSbmZSbHdsT21vaWR1UUlsVVQ0WnhJeFBLUWVJb2tPLUM4WHV1NU5tNWdUOV9jTUtUdzRFTXRlMkhIRmpFNV94Z0JEcktwbF9EdjRDbHFuVkNjck9QblNGdnVOSExoeXBjLWQ5RWtyNmZCQkI1el96YXFKbzktbmkyS3I1Yjg?oc=5",
-        "published_at": "2026-06-29T07:00:00Z",
         "source": "Börse Express",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
@@ -1238,74 +1010,24 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07341919",
-        "title": "Subtenon Autologous Platelet-Rich Plasma in Inherited and Degenerative Retinal Diseases",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Extensive Macular Atrophy With Pseudodrusen (EMAP), Retinitis Pigmentosa (RP)",
-        "last_update": "",
-        "start_date": "2025-01-04",
-        "url": "https://clinicaltrials.gov/study/NCT07341919"
-      },
-      {
-        "nct_id": "NCT07252856",
-        "title": "Transcultural Digital Solutions in Phase III Cardiac Rehabilitation",
-        "status": "RECRUITING",
+        "nct_id": "NCT05651126",
+        "title": "Psilocybin in Adults With and Without Autism Spectrum Disorder",
+        "status": "COMPLETED",
         "phase": "NA",
-        "conditions": "Heart Failure, Myocardial Infarction",
+        "conditions": "Autism Spectrum Disorder",
         "last_update": "",
-        "start_date": "2026-04-20",
-        "url": "https://clinicaltrials.gov/study/NCT07252856"
+        "start_date": "2022-12-12",
+        "url": "https://clinicaltrials.gov/study/NCT05651126"
       },
       {
-        "nct_id": "NCT05220410",
-        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
+        "nct_id": "NCT04656301",
+        "title": "Safety and Efficacy of Psilocybin for Body Dysmorphic Disorder",
         "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression, Suicidal Ideation",
+        "conditions": "Body Dysmorphic Disorders",
         "last_update": "",
-        "start_date": "2022-03-28",
-        "url": "https://clinicaltrials.gov/study/NCT05220410"
-      },
-      {
-        "nct_id": "NCT04661514",
-        "title": "Evaluation of Psilocybin in Anorexia Nervosa: Safety and Efficacy",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Anorexia Nervosa",
-        "last_update": "",
-        "start_date": "2021-05-01",
-        "url": "https://clinicaltrials.gov/study/NCT04661514"
-      },
-      {
-        "nct_id": "NCT03775200",
-        "title": "The Safety and Efficacy of Psilocybin in Participants With Treatment Resistant Depression",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2019-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT03775200"
-      },
-      {
-        "nct_id": "NCT06247839",
-        "title": "The Effects of Psilocybin on Self-Focus and Self-Related Processing in Major Depressive Disorder",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Major Depressive Disorder",
-        "last_update": "",
-        "start_date": "2024-09-10",
-        "url": "https://clinicaltrials.gov/study/NCT06247839"
-      },
-      {
-        "nct_id": "NCT06132178",
-        "title": "Psilocybin rTMS for Treatment Resistant Depression",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Treatment Resistant Depression, MDD, Major Depressive Disorder, Recurrent Depression",
-        "last_update": "",
-        "start_date": "2025-01-10",
-        "url": "https://clinicaltrials.gov/study/NCT06132178"
+        "start_date": "2021-02-26",
+        "url": "https://clinicaltrials.gov/study/NCT04656301"
       },
       {
         "nct_id": "NCT07570654",
@@ -1318,34 +1040,14 @@
         "url": "https://clinicaltrials.gov/study/NCT07570654"
       },
       {
-        "nct_id": "NCT07226232",
-        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
-        "status": "RECRUITING",
+        "nct_id": "NCT02242929",
+        "title": "Surgery Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma",
+        "status": "UNKNOWN",
         "phase": "PHASE3",
-        "conditions": "Major Depression",
+        "conditions": "Nodular Basal Cell Carcinoma",
         "last_update": "",
-        "start_date": "2026-08-03",
-        "url": "https://clinicaltrials.gov/study/NCT07226232"
-      },
-      {
-        "nct_id": "NCT04241796",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Cancer",
-        "last_update": "",
-        "start_date": "2019-12-12",
-        "url": "https://clinicaltrials.gov/study/NCT04241796"
-      },
-      {
-        "nct_id": "NCT07590726",
-        "title": "PIRe 2.0: A Stepped-Care Model for Involving Relatives Across Sectors",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Brain Injuries, Acute, Brain Tumor Adult, Brain (Nervous System) Cancers, Traumatic Brain Injuries",
-        "last_update": "",
-        "start_date": "2026-10-01",
-        "url": "https://clinicaltrials.gov/study/NCT07590726"
+        "start_date": "2016-01",
+        "url": "https://clinicaltrials.gov/study/NCT02242929"
       },
       {
         "nct_id": "NCT01833169",
@@ -1358,24 +1060,14 @@
         "url": "https://clinicaltrials.gov/study/NCT01833169"
       },
       {
-        "nct_id": "NCT04433845",
-        "title": "The Safety and Efficacy of Psilocybin in Participants With Type 2 Bipolar Disorder (BP-II) Depression.",
+        "nct_id": "NCT04433858",
+        "title": "An Open Label Study of the Safety and Efficacy of Psilocybin in Participants With Treatment-Resistant Depression (P-TRD)",
         "status": "UNKNOWN",
         "phase": "PHASE2",
         "conditions": "Treatment Resistant Depression",
         "last_update": "",
         "start_date": "2021-03-01",
-        "url": "https://clinicaltrials.gov/study/NCT04433845"
-      },
-      {
-        "nct_id": "NCT04519957",
-        "title": "Long Term Follow Up Study to COMP 001 And COMP 003 Trials (P-TRD LTFU)",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Treatment Resistant Depression",
-        "last_update": "",
-        "start_date": "2020-07-20",
-        "url": "https://clinicaltrials.gov/study/NCT04519957"
+        "url": "https://clinicaltrials.gov/study/NCT04433858"
       },
       {
         "nct_id": "NCT05711940",
@@ -1386,6 +1078,86 @@
         "last_update": "",
         "start_date": "2023-02-14",
         "url": "https://clinicaltrials.gov/study/NCT05711940"
+      },
+      {
+        "nct_id": "NCT07613879",
+        "title": "Mulligan Mobilization and Stabilization Exercises for Sensorimotor Function in Women With Text Neck Syndrome",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Neck Pain, Text Neck Syndrome, Cumulative Trauma Disorders, Posture",
+        "last_update": "",
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT07613879"
+      },
+      {
+        "nct_id": "NCT03428958",
+        "title": "A Safety, Pharmacokinetic and Efficacy Study of NUC-3373 in Combination With Standard Agents Used in Colorectal Cancer Treatment",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Colorectal Cancer, Colorectal Neoplasms, Colorectal Carcinoma, Colorectal Tumors",
+        "last_update": "",
+        "start_date": "2018-10-05",
+        "url": "https://clinicaltrials.gov/study/NCT03428958"
+      },
+      {
+        "nct_id": "NCT03775200",
+        "title": "The Safety and Efficacy of Psilocybin in Participants With Treatment Resistant Depression",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "conditions": "Treatment Resistant Depression",
+        "last_update": "",
+        "start_date": "2019-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT03775200"
+      },
+      {
+        "nct_id": "NCT07590726",
+        "title": "PIRe 2.0: A Stepped-Care Model for Involving Relatives Across Sectors",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Brain Injuries, Acute, Brain Tumor Adult, Brain (Nervous System) Cancers, Traumatic Brain Injuries",
+        "last_update": "",
+        "start_date": "2026-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT07590726"
+      },
+      {
+        "nct_id": "NCT06132178",
+        "title": "Psilocybin rTMS for Treatment Resistant Depression",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Treatment Resistant Depression, MDD, Major Depressive Disorder, Recurrent Depression",
+        "last_update": "",
+        "start_date": "2025-01-10",
+        "url": "https://clinicaltrials.gov/study/NCT06132178"
+      },
+      {
+        "nct_id": "NCT06258031",
+        "title": "PsilOCD: A Pharmacological-Challenge Feasibility Study",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Obsessive-Compulsive Disorder",
+        "last_update": "",
+        "start_date": "2022-10-28",
+        "url": "https://clinicaltrials.gov/study/NCT06258031"
+      },
+      {
+        "nct_id": "NCT05733546",
+        "title": "A Phase II, Multicentre, Randomised, Double-blind, Controlled Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Efficacy of COMP360 in Participants With Recurrent Major Depressive Disorder",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Major Depressive Disorder",
+        "last_update": "",
+        "start_date": "2023-01-30",
+        "url": "https://clinicaltrials.gov/study/NCT05733546"
+      },
+      {
+        "nct_id": "NCT06896695",
+        "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Head and Neck Carcinoma",
+        "last_update": "",
+        "start_date": "2025-09-23",
+        "url": "https://clinicaltrials.gov/study/NCT06896695"
       }
     ],
     "detected_triggers": [
@@ -1456,6 +1228,22 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
+        "title": "Surgery Versus Combined Treatment With Curettage and Imiquimod for Nodular Basal Cell Carcinoma",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT02242929",
+        "date": "2016-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Safety, Pharmacokinetic and Efficacy Study of NUC-3373 in Combination With Standard Agents Used in Colorectal Cancer Treatment",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1, PHASE2",
+        "source": "NCT03428958",
+        "date": "2018-10-05"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
         "title": "The Safety and Efficacy of Psilocybin in Participants With Treatment Resistant Depression",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
         "source": "NCT03775200",
@@ -1464,34 +1252,42 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Assessment of the Implementation of an Investigational Multi-Cancer Early Detection Test Into Clinical Practice",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT04241796",
-        "date": "2019-12-12"
+        "title": "Safety and Efficacy of Psilocybin for Body Dysmorphic Disorder",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
+        "source": "NCT04656301",
+        "date": "2021-02-26"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Safety and Efficacy of Psilocybin in Participants With Type 2 Bipolar Disorder (BP-II) Depression.",
+        "title": "An Open Label Study of the Safety and Efficacy of Psilocybin in Participants With Treatment-Resistant Depression (P-TRD)",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT04433845",
+        "source": "NCT04433858",
         "date": "2021-03-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Evaluation of Psilocybin in Anorexia Nervosa: Safety and Efficacy",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT04661514",
-        "date": "2021-05-01"
+        "title": "PsilOCD: A Pharmacological-Challenge Feasibility Study",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT06258031",
+        "date": "2022-10-28"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Safety and Efficacy of Psilocybin in Patients With Treatment-resistant Depression and Chronic Suicidal Ideation",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05220410",
-        "date": "2022-03-28"
+        "title": "Psilocybin in Adults With and Without Autism Spectrum Disorder",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT05651126",
+        "date": "2022-12-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Phase II, Multicentre, Randomised, Double-blind, Controlled Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Efficacy of COMP360 in Participants With Recurrent Major Depressive Disorder",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
+        "source": "NCT05733546",
+        "date": "2023-01-30"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1504,22 +1300,6 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effects of Psilocybin on Self-Focus and Self-Related Processing in Major Depressive Disorder",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06247839",
-        "date": "2024-09-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Subtenon Autologous Platelet-Rich Plasma in Inherited and Degenerative Retinal Diseases",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE1, PHASE2",
-        "source": "NCT07341919",
-        "date": "2025-01-04"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
         "title": "Psilocybin rTMS for Treatment Resistant Depression",
         "reason": "Studienregister-Treffer: RECRUITING PHASE2",
         "source": "NCT06132178",
@@ -1528,10 +1308,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Transcultural Digital Solutions in Phase III Cardiac Rehabilitation",
+        "title": "Mulligan Mobilization and Stabilization Exercises for Sensorimotor Function in Women With Text Neck Syndrome",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT07613879",
+        "date": "2025-09-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Financial Intervention (Financial Compass) to Identify and Address Financial Hardship Among Head and Neck Cancer Patients, Financial Compass Trial",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07252856",
-        "date": "2026-04-20"
+        "source": "NCT06896695",
+        "date": "2025-09-23"
       },
       {
         "type": "SEC · Unternehmensereignis",
@@ -1566,14 +1354,6 @@
         "date": "2026-07-07"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Psilocybin Intervention for Veterans Overcoming Treatment-Resistant Depression",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07226232",
-        "date": "2026-08-03"
-      },
-      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-08-05",
@@ -1604,14 +1384,6 @@
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
         "source": "NCT07590726",
         "date": "2026-10-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Long Term Follow Up Study to COMP 001 And COMP 003 Trials (P-TRD LTFU)",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT04519957",
-        "date": "2020-07-20"
       },
       {
         "type": "SEC Filing",
