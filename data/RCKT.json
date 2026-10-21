@@ -282,7 +282,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-21T00:43:36Z",
+    "last_update_utc": "2026-10-21T05:30:16Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -388,6 +388,10 @@
       {
         "t": "2026-10-19T13:30:00Z",
         "price": 2.24
+      },
+      {
+        "t": "2026-10-20T13:30:00Z",
+        "price": 2.34
       }
     ],
     "price_history_1d": [
@@ -712,22 +716,6 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Rocket Pharmaceuticals-Aktie liegt 3,69 Prozent über dem 52-Wochen-Tief - ad-hoc-news.de",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ2tIc1ZxWmRTOGIxTDA3YWRONGhSTU92eV9NeDhST2w5YldLRnNyX0JVS2lhMXhIVWdCN1FRRG5sTXVZVWVOTVJJcU9RSFlna1pBbzQtTUg3QnJsQzV2ZExzX0JwUUtGeXgwZ3ZtM1l5NEZ5bWJTeVhkZjZ2bUhDSzJjMmxkenQtVHdmVFdJOEVLMnFDeG9Db213MnhPS2FrQWkyLV9QbW5JajNuRVdmNkhtYjQwRko2VEYwRDd5eEhPNUo5SDlBdlZmOA?oc=5",
-        "published_at": "2026-10-19T18:32:33Z",
-        "source": "ad-hoc-news.de",
-        "query": "Rocket Pharmaceuticals RCKT stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      },
-      {
         "title": "Leerink Partners senkt Ziel für die Rocket Pharmaceuticals-Aktie auf 4,00 US-Dollar - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYUNHS3QzUU9MbU1RQ1Z6T3d6ckhPUjcwaDN2TWh4Q01QbDZfNTFTSUY4dmFRdGJRczhYRTVnQ1ptUThOZlgwdkZwREpKTERYYzBZNlJDcWNmcm1NSWg3SHhyOHhiU0ZNSlE2ekRlLTZkMWhXbGFsdHNURFdXVmRNT19ST3o3RDBqUlZhcjdneXJNT09NNWtVLWdFTkRqc3dHdENidU1NclhpQ2tnMVhkdF9NdHd3OHhVT0tnZm5zV0hJd2Q1MjRnU0RocVBhTVc3aDA2ZU1Ea0hNeEk?oc=5",
         "published_at": "2026-10-16T20:35:21Z",
@@ -778,7 +766,7 @@
       {
         "title": "FDA bestätigt 12 Patienten und Rocket-Pharmaceuticals-Aktie hat 285,0 Mio. USD Börsenwert - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTdMdjdWbkdERGFhNnRlZVgyeHBHaHQ5QnhTMG5ram4zTktEUWktdDVsLWctdkpsbk5mU2ZZTG5veU12dVBJWmxIVGo5cGxSZkF1Nk1YaGNyMXkwUUtWVE9sM3dieEZ0ckw4Tnl0em5XZ1ZpaWozM0tnWUM0N1lmcVVvYnBHQmR1Y1g2allELXBvelpFbENRaUJlLXQ2aWh3STVKcl82TkI0bXRFWHkwbkZ2MFdxUjIwTTN1OVQ4S3F2YTZDVlFRdTRkekpaNEM1amZmRzBaOE1STWY5SUtFTU1vbw?oc=5",
-        "published_at": "2026-10-06T09:18:14Z",
+        "published_at": "2026-10-06T07:00:00Z",
         "source": "ad-hoc-news.de",
         "query": "Rocket Pharmaceuticals RCKT stock news",
         "source_type": "google_news_rss",
@@ -824,6 +812,22 @@
         "relevance_score": 23
       },
       {
+        "title": "Rocket Pharmaceuticals Aktie: Kursrutsch um 5 % trotz positiver FDA-Nachricht - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUlFlcEhiazR6eDlpbmlxSDFnSlZwWEIyVE1Rb1d2OW51UmZmS2Z1TEdNR1pJd0VvRHlNbVhmYURnMFVaMzNHcjZFcFJwa1VvZ3REZ0k3U0Q5c3RFcVV5VGtKQWJpb2wyc1FVcWxpZTJRWXA0ODdWeFFvdDdma3k2bU5rLXdsX1J3T3FfSDJ0aW5Nc2ZZU1JLU1RObmNaX3hCQm4tSVpFNGxQdmRwWnJ1ZzQ2U25kcTdMcVdTMW14dXJjRFZjUHNuLTU0NnlKa1V6?oc=5",
+        "published_at": "2026-09-15T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Rocket Pharmaceuticals RCKT stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 23
+      },
+      {
         "title": "Rocket Pharmaceuticals, Inc. (RCKT) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vdnViNXR5QU9keEVYdkI4RHZMdnpxUXVzWUJvMkVRdG9mdTZVdEdNNEJ2SHRtbVZTai0yLUlKcTZPeVRHaVRBWlREc2JGd2ZKU0E?oc=5",
         "published_at": "2018-07-05T04:06:34Z",
@@ -838,22 +842,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 26
-      },
-      {
-        "title": "Rocket to merge with Inotek to bag Nasdaq listing, plots gene therapy trials - Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUlybU4xWllPYU9iVnNwWkxwUmNOdjhYajBwVWhGZE5EY25YN3JvRUVMRXBnVVV6MDFvWXZWQzNzZ3ItR0xoOTFJS19Ddm43ZVVoWmhjb3JXNG44ZUthSlU4eUM0aFN0WmxkVU9BU3VncE9yZkN6bnkwckVhQzJkSEp1T2tKT1VaWnM1YmxHVWdITXZ6anBJeVZlR3dteTgzd1VqbzEtc3FsX3NX?oc=5",
-        "published_at": "2017-09-13T07:00:00Z",
-        "source": "Fierce Biotech",
-        "query": "Rocket Pharmaceuticals clinical trial",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
       }
     ],
     "sec_filings": [
@@ -1154,13 +1142,25 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Rocket Pharmaceuticals Aktie: Kursrutsch um 5 % trotz positiver FDA-Nachricht - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-09-15T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUlFlcEhiazR6eDlpbmlxSDFnSlZwWEIyVE1Rb1d2OW51UmZmS2Z1TEdNR1pJd0VvRHlNbVhmYURnMFVaMzNHcjZFcFJwa1VvZ3REZ0k3U0Q5c3RFcVV5VGtKQWJpb2wyc1FVcWxpZTJRWXA0ODdWeFFvdDdma3k2bU5rLXdsX1J3T3FfSDJ0aW5Nc2ZZU1JLU1RObmNaX3hCQm4tSVpFNGxQdmRwWnJ1ZzQ2U25kcTdMcVdTMW14dXJjRFZjUHNuLTU0NnlKa1V6?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "FDA bestätigt 12 Patienten und Rocket-Pharmaceuticals-Aktie hat 285,0 Mio. USD Börsenwert - ad-hoc-news.de",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "source": "ad-hoc-news.de",
-        "date": "2026-10-06T09:18:14Z",
+        "date": "2026-10-06T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTdMdjdWbkdERGFhNnRlZVgyeHBHaHQ5QnhTMG5ram4zTktEUWktdDVsLWctdkpsbk5mU2ZZTG5veU12dVBJWmxIVGo5cGxSZkF1Nk1YaGNyMXkwUUtWVE9sM3dieEZ0ckw4Tnl0em5XZ1ZpaWozM0tnWUM0N1lmcVVvYnBHQmR1Y1g2allELXBvelpFbENRaUJlLXQ2aWh3STVKcl82TkI0bXRFWHkwbkZ2MFdxUjIwTTN1OVQ4S3F2YTZDVlFRdTRkekpaNEM1amZmRzBaOE1STWY5SUtFTU1vbw?oc=5"
       },
       {
@@ -1378,14 +1378,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-18"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-20",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-20"
       },
       {
         "type": "SEC Filing",
