@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$1.10",
-      "note": "Auto-Update: 12.94% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 12.53% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-21T15:28:51Z",
+    "last_update_utc": "2026-10-21T19:27:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 1.1,
+      "regularMarketPrice": 1.096,
       "previousClose": 0.974,
-      "change": 0.126,
-      "changePercent": 12.94,
-      "regularMarketTime": "2026-10-21T15:09:08Z",
+      "change": 0.122,
+      "changePercent": 12.53,
+      "regularMarketTime": "2026-10-21T15:35:07Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -244,7 +244,7 @@
       },
       {
         "t": "2026-10-21T07:00:00Z",
-        "price": 1.1
+        "price": 1.096
       }
     ],
     "price_history_1d": [
@@ -521,8 +521,28 @@
         "price": 1.1
       },
       {
-        "t": "2026-10-21T15:09:08Z",
+        "t": "2026-10-21T15:05:00Z",
         "price": 1.1
+      },
+      {
+        "t": "2026-10-21T15:10:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-10-21T15:15:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-10-21T15:20:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-10-21T15:25:00Z",
+        "price": 1.096
+      },
+      {
+        "t": "2026-10-21T15:30:00Z",
+        "price": 1.096
       }
     ],
     "price_history_range": "1mo",
@@ -578,8 +598,8 @@
       },
       {
         "title": "MAAT PHARMA-Aktie mit neuem All-Time-Low - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNGtpMmdSd1lteXlaRWFUWHZ0S1FoYmtPTnFfc25MMGgtZVpmV05WMkJGRDE2emxxMV8zV2FZRjgzMDUxQkhHQy1HdXVQMjdRajhlUU1yRGJELWxnOTRhT1JsUjBuWEJObjBTNW15OUszVE9kM25taGVhUHZLNTUteDFIUV96cGZRWE1z?oc=5",
-        "published_at": "2026-10-09T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQajkyNnVmU1VQTi1kSnlIaFd5bW5iNXgxTDU1Z2w0YnM3Q3JNZm9FMUI2dUxPOFJGWGNqRWV2S05XUElzMUsxTkowcjAza2V2MDRyRHI2djQ4dEZOS1lyVkp0T3FkOXV2QlVJam1HYXVkemNFUVpSeWFpZkNlMWNkd2x0b0JqQ2t1U0xB?oc=5",
+        "published_at": "2026-10-10T00:38:00Z",
         "source": "boerse.de",
         "query": "\"MaaT Pharma\" stock news",
         "source_type": "google_news_rss",
@@ -607,11 +627,39 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 10
+      },
+      {
+        "title": "Maat Pharma Aktie: EMA hält Ablehnung für MaaT013 aufrecht - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVUtTUkgtMF9ySldaVGJjMlQ0RWM0VmJVaDZuZXUwbkRJbS0tZmhPY3JILUk0REtqV1ZKSjd4MmkwcVB5ZGt4SG9HRDlfcVgxRm1aSFlpQlNvVmZYaTJUTmdqbmRHWnZpVmJuWjg2a2ZycnBoNW1iY01BVFlKQ1A2ZThtcTJDeVFZSlAteHl3Rkl2OXpxMVJUZGFkNW5jVkwxaXVmUjQ4YUJ5TjQ5UFFxckVyWmlWQ0JvUmRvVm12aDh1MUJHZk1feU1kOA?oc=5",
+        "published_at": "2026-09-21T07:00:00Z",
+        "source": "ad-hoc-news.de",
+        "query": "\"MaaT013\" Xervyteg MaaT Pharma",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 14
       }
     ],
     "sec_filings": [],
     "clinical_trials": [],
     "detected_triggers": [
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Maat Pharma Aktie: EMA hält Ablehnung für MaaT013 aufrecht - ad-hoc-news.de",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "ad-hoc-news.de",
+        "date": "2026-09-21T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVUtTUkgtMF9ySldaVGJjMlQ0RWM0VmJVaDZuZXUwbkRJbS0tZmhPY3JILUk0REtqV1ZKSjd4MmkwcVB5ZGt4SG9HRDlfcVgxRm1aSFlpQlNvVmZYaTJUTmdqbmRHWnZpVmJuWjg2a2ZycnBoNW1iY01BVFlKQ1A2ZThtcTJDeVFZSlAteHl3Rkl2OXpxMVJUZGFkNW5jVkwxaXVmUjQ4YUJ5TjQ5UFFxckVyWmlWQ0JvUmRvVm12aDh1MUJHZk1feU1kOA?oc=5"
+      },
       {
         "type": "FDA / Regulatorik",
         "level": "high",
