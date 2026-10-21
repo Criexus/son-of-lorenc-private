@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$168.41",
-      "note": "Auto-Update: 3.33% vs. vorheriger Schlusskurs",
+      "value": "$166.66",
+      "note": "Auto-Update: 2.25% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-21T19:27:45Z",
+    "last_update_utc": "2026-10-21T22:33:59Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 168.41,
+      "regularMarketPrice": 166.66,
       "previousClose": 162.99,
-      "change": 5.42,
-      "changePercent": 3.33,
-      "regularMarketTime": "2026-10-21T19:27:04Z",
+      "change": 3.67,
+      "changePercent": 2.25,
+      "regularMarketTime": "2026-10-21T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,10 +248,6 @@
       "fiftyTwoWeekRange": "66.59 – 191.05"
     },
     "price_history": [
-      {
-        "t": "2026-09-21T13:30:00Z",
-        "price": 173.87
-      },
       {
         "t": "2026-09-22T13:30:00Z",
         "price": 177.16
@@ -338,7 +334,7 @@
       },
       {
         "t": "2026-10-21T13:30:00Z",
-        "price": 168.41
+        "price": 166.66
       }
     ],
     "price_history_1d": [
@@ -628,11 +624,35 @@
       },
       {
         "t": "2026-10-21T19:25:00Z",
-        "price": 168.305
+        "price": 168.375
       },
       {
-        "t": "2026-10-21T19:27:04Z",
-        "price": 168.41
+        "t": "2026-10-21T19:30:00Z",
+        "price": 168.01
+      },
+      {
+        "t": "2026-10-21T19:35:00Z",
+        "price": 167.29
+      },
+      {
+        "t": "2026-10-21T19:40:00Z",
+        "price": 166.76
+      },
+      {
+        "t": "2026-10-21T19:45:00Z",
+        "price": 166.32
+      },
+      {
+        "t": "2026-10-21T19:50:00Z",
+        "price": 166.985
+      },
+      {
+        "t": "2026-10-21T19:55:00Z",
+        "price": 166.55
+      },
+      {
+        "t": "2026-10-21T20:00:00Z",
+        "price": 166.66
       }
     ],
     "price_history_range": "1mo",
@@ -819,22 +839,6 @@
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPd1V2bFJSem1WMzNWbHV4UERTa05waTZvUV9SNW9uNy13YkVRMmdkM1c2TXI2WnRFckE3cXFuQXFWUnZFR3VkakE1TTliSVgxeU5YNHdMMTRsM3R1cEdMM0NudHg1YUdlUTBPUzQtQ09oajN1a0FaZm0zQ1V0b1I3MnVZZmdjWXp2S0haS3ZjalhWQ1dzSVRGeGdyUFViYWZsSV9jblh3aEp3QXR0X2hiZEwwbGNuRjV0S2toS3NXNFNadlpMR0FZVlJQQzFPZG5Fak90M0ZPanJDemNNTmNIa1dSdw?oc=5",
         "published_at": "2025-09-24T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" Shield blood test news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health, Inc. Aktie (A2N5RY) - Kurs Nasdaq - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kNWpwVHJLZDBMNkZialZUX1ZGWmV4b2lCNm5wVDVfMk12aFRXNU1fMXFZZDNybzJQQ0lBSk52bkpjSVhGY0FPMjVJWXVZTjhMSkVwakJOR3B2NVhXSVV1T3NBd1lDeXE2am5ueTQ3RC13QThINmRyVGd3?oc=5",
-        "published_at": "2020-08-18T18:16:59Z",
-        "source": "MarketScreener Deutschland",
         "query": "\"Guardant Health\" Shield blood test news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",

@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.89",
-      "note": "Auto-Update: 5.5% vs. vorheriger Schlusskurs",
+      "value": "$11.84",
+      "note": "Auto-Update: 5.06% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-21T19:27:17Z",
+    "last_update_utc": "2026-10-21T22:33:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.89,
+      "regularMarketPrice": 11.84,
       "previousClose": 11.27,
-      "change": 0.62,
-      "changePercent": 5.5,
-      "regularMarketTime": "2026-10-21T19:27:01Z",
+      "change": 0.57,
+      "changePercent": 5.06,
+      "regularMarketTime": "2026-10-21T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -331,10 +331,6 @@
       "fiftyTwoWeekRange": "4.88 – 15.87"
     },
     "price_history": [
-      {
-        "t": "2026-09-21T13:30:00Z",
-        "price": 15.01
-      },
       {
         "t": "2026-09-22T13:30:00Z",
         "price": 14.78
@@ -421,7 +417,7 @@
       },
       {
         "t": "2026-10-21T13:30:00Z",
-        "price": 11.89
+        "price": 11.84
       }
     ],
     "price_history_1d": [
@@ -711,11 +707,35 @@
       },
       {
         "t": "2026-10-21T19:25:00Z",
-        "price": 11.885
+        "price": 11.9
       },
       {
-        "t": "2026-10-21T19:27:01Z",
-        "price": 11.89
+        "t": "2026-10-21T19:30:00Z",
+        "price": 11.905
+      },
+      {
+        "t": "2026-10-21T19:35:00Z",
+        "price": 11.902
+      },
+      {
+        "t": "2026-10-21T19:40:00Z",
+        "price": 11.88
+      },
+      {
+        "t": "2026-10-21T19:45:00Z",
+        "price": 11.88
+      },
+      {
+        "t": "2026-10-21T19:50:00Z",
+        "price": 11.84
+      },
+      {
+        "t": "2026-10-21T19:55:00Z",
+        "price": 11.85
+      },
+      {
+        "t": "2026-10-21T20:00:00Z",
+        "price": 11.84
       }
     ],
     "price_history_range": "1mo",
@@ -818,38 +838,6 @@
         "relevance_score": 21
       },
       {
-        "title": "Compass Pathways: Phase-3-Daten zeigen anhaltenden COMP360-Nutzen - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd2M2VkhMendNNXNoNk0tUU9NTllObDF4WWRJb2dDRUNsZ3JWc0ZuXzB6TGNnTmJiZkdsdGdPeHphT0M3eUlYcHp2RFhoLW96VGJnMHd3R0xCekszdm1YQ3Jua0dERGgyU09zaXBmbVNHcXE1aGJhMVFsVGYxcjZ4bkgyT29QaVdjU3hWZlJVNGt2b2h5VnNJLTRUeTI?oc=5",
-        "published_at": "2026-09-09T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 21
-      },
-      {
-        "title": "Compass Pathways: Oppenheimer bekräftigt Einstufung nach positiven Studiendaten - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVzZpX0Jjb0lhV3pfZGJIVzZabm5iZkdsYVhQMnhFb1NGeVpPOTJaNjlQdGFhM1ZlVVo2OERQbWFNdzNpNmg1dWZFY29Oamk5cjFBb1pjTVhTcWxieVZLOEtkMXNqRkQyUldHQUV4Y1R0b05ZZUROX1FYOEpfbHEybUtrdWJIcWM2N2lMOXFsc3B0TUZJZ01WWEI2UEVfc2YyclJ6UTlWcUJ0VFZfNHdKdDZPSUNldGhZeVZHTlhaRFU3ajhkLVZJa2FvVjV0bUI1b2d3?oc=5",
-        "published_at": "2026-09-09T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways und Definium nähern sich dem Markt: Warum der nächste Engpass bei Psychedelika Emyria in den Fokus rückt - FinanzNachrichten.de",
         "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPQkQzTUdVQWoxaTI1M1ZINFNOMUJzOFU0eHhwcVphWVRLemJ0MTB0NTJaWU1tZzBhbzRBd0JtRzd4bXdmZEJzdVUzOUNSTVozMExVSkFIdjRYNUZta2xLUWZWbGM3SVBPZ0g0cmNUTXBLSWVQRWVXVG9ReVNLenN2RGl0V3RNdU9ZYzRJd09JcW5lSmljSVpVa3NaTmVSTzNLT05JdWZqQW1FQWVDQ2szejlUTWV1TnNaS2d5b0xhNUx2SE5ZVkVGSG0yZkpXbWJhZGt5LVBZWW04SHdCcnA2UFpZRWx3TGhsVGl3RFhXbU1RMEl4TmU0QVlhT1dhU2lqMjYtSnJkcUJESGt2amRxeHpxRkJ4dF8xVGR2UmNR?oc=5",
         "published_at": "2026-08-27T07:00:00Z",
@@ -933,6 +921,22 @@
         "title": "Compass Pathways: COMP006 mit 3,8-Punkte-Vorteil - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEtDck4xMFpaeG1hMFRSYkRZaGtaN0szS0VSbmZSbHdsT21vaWR1UUlsVVQ0WnhJeFBLUWVJb2tPLUM4WHV1NU5tNWdUOV9jTUtUdzRFTXRlMkhIRmpFNV94Z0JEcktwbF9EdjRDbHFuVkNjck9QblNGdnVOSExoeXBjLWQ5RWtyNmZCQkI1el96YXFKbzktbmkyS3I1Yjg?oc=5",
         "published_at": "2026-06-29T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: 157.000 Optionen für 17 Neueinstellungen - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTVY4NU5mb1FSZjY4aG93dlU0TWVFOUQ1VWZHSXJselRpbUF1cGFyVGRtQ3NpQ1pCMWlLYVFNaFpMZ2NrTlZMVEowTnpaZ0JBMm8yVk95ZDNmN0E4WWQtRXVYQkwtbHo0dU5ac29hQ3pzQ3BQMF9Ud2g2NWRxYjJxcVhwRVZFMVVzT2JKalBxTkx5OE1JZmpLejM2alZXN3lRTENpa0pHX1pLNFRNM0E?oc=5",
+        "published_at": "2026-06-05T07:00:00Z",
         "source": "Börse Express",
         "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
