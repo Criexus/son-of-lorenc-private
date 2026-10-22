@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.10",
-      "note": "Auto-Update: 12.53% vs. vorheriger Schlusskurs",
+      "value": "$1.06",
+      "note": "Auto-Update: 7.07% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-22T06:14:45Z",
+    "last_update_utc": "2026-10-22T12:10:38Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 1.096,
-      "previousClose": 0.974,
-      "change": 0.122,
-      "changePercent": 12.53,
-      "regularMarketTime": "2026-10-21T15:35:07Z",
+      "regularMarketPrice": 1.06,
+      "previousClose": 0.99,
+      "change": 0.07,
+      "changePercent": 7.07,
+      "regularMarketTime": "2026-10-22T11:53:45Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -154,10 +154,6 @@
       "fiftyTwoWeekRange": "0.903 – 8.62"
     },
     "price_history": [
-      {
-        "t": "2026-09-21T07:00:00Z",
-        "price": 1.3
-      },
       {
         "t": "2026-09-22T07:00:00Z",
         "price": 1.43
@@ -241,304 +237,96 @@
       {
         "t": "2026-10-20T07:00:00Z",
         "price": 1.02
+      },
+      {
+        "t": "2026-10-21T07:00:00Z",
+        "price": 1.096
+      },
+      {
+        "t": "2026-10-22T07:00:00Z",
+        "price": 1.06
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-21T07:00:00Z",
-        "price": 1.05
+        "t": "2026-10-22T07:00:00Z",
+        "price": 1.122
       },
       {
-        "t": "2026-10-21T07:05:00Z",
-        "price": 1.05
-      },
-      {
-        "t": "2026-10-21T07:10:00Z",
-        "price": 1.05
-      },
-      {
-        "t": "2026-10-21T07:25:00Z",
-        "price": 1.06
-      },
-      {
-        "t": "2026-10-21T07:35:00Z",
-        "price": 1.086
-      },
-      {
-        "t": "2026-10-21T07:40:00Z",
-        "price": 1.102
-      },
-      {
-        "t": "2026-10-21T07:45:00Z",
-        "price": 1.124
-      },
-      {
-        "t": "2026-10-21T07:50:00Z",
-        "price": 1.15
-      },
-      {
-        "t": "2026-10-21T08:10:00Z",
-        "price": 1.146
-      },
-      {
-        "t": "2026-10-21T08:15:00Z",
-        "price": 1.112
-      },
-      {
-        "t": "2026-10-21T08:20:00Z",
-        "price": 1.134
-      },
-      {
-        "t": "2026-10-21T08:25:00Z",
-        "price": 1.142
-      },
-      {
-        "t": "2026-10-21T08:30:00Z",
-        "price": 1.142
-      },
-      {
-        "t": "2026-10-21T08:40:00Z",
-        "price": 1.124
-      },
-      {
-        "t": "2026-10-21T08:45:00Z",
-        "price": 1.144
-      },
-      {
-        "t": "2026-10-21T08:50:00Z",
-        "price": 1.142
-      },
-      {
-        "t": "2026-10-21T08:55:00Z",
-        "price": 1.136
-      },
-      {
-        "t": "2026-10-21T09:15:00Z",
-        "price": 1.146
-      },
-      {
-        "t": "2026-10-21T09:20:00Z",
-        "price": 1.152
-      },
-      {
-        "t": "2026-10-21T09:25:00Z",
-        "price": 1.148
-      },
-      {
-        "t": "2026-10-21T09:35:00Z",
-        "price": 1.174
-      },
-      {
-        "t": "2026-10-21T09:40:00Z",
-        "price": 1.19
-      },
-      {
-        "t": "2026-10-21T09:45:00Z",
-        "price": 1.19
-      },
-      {
-        "t": "2026-10-21T09:50:00Z",
-        "price": 1.19
-      },
-      {
-        "t": "2026-10-21T09:55:00Z",
-        "price": 1.18
-      },
-      {
-        "t": "2026-10-21T10:05:00Z",
-        "price": 1.19
-      },
-      {
-        "t": "2026-10-21T10:10:00Z",
-        "price": 1.19
-      },
-      {
-        "t": "2026-10-21T10:15:00Z",
-        "price": 1.17
-      },
-      {
-        "t": "2026-10-21T10:20:00Z",
-        "price": 1.162
-      },
-      {
-        "t": "2026-10-21T10:30:00Z",
-        "price": 1.162
-      },
-      {
-        "t": "2026-10-21T10:35:00Z",
-        "price": 1.16
-      },
-      {
-        "t": "2026-10-21T10:45:00Z",
-        "price": 1.156
-      },
-      {
-        "t": "2026-10-21T10:50:00Z",
-        "price": 1.11
-      },
-      {
-        "t": "2026-10-21T11:10:00Z",
-        "price": 1.116
-      },
-      {
-        "t": "2026-10-21T11:15:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T11:20:00Z",
+        "t": "2026-10-22T07:05:00Z",
         "price": 1.098
       },
       {
-        "t": "2026-10-21T11:25:00Z",
-        "price": 1.1
+        "t": "2026-10-22T07:15:00Z",
+        "price": 1.09
       },
       {
-        "t": "2026-10-21T11:30:00Z",
-        "price": 1.098
+        "t": "2026-10-22T07:25:00Z",
+        "price": 1.09
       },
       {
-        "t": "2026-10-21T11:35:00Z",
-        "price": 1.098
+        "t": "2026-10-22T07:30:00Z",
+        "price": 1.07
       },
       {
-        "t": "2026-10-21T11:40:00Z",
-        "price": 1.1
+        "t": "2026-10-22T07:40:00Z",
+        "price": 1.078
       },
       {
-        "t": "2026-10-21T11:45:00Z",
-        "price": 1.092
-      },
-      {
-        "t": "2026-10-21T11:55:00Z",
+        "t": "2026-10-22T08:05:00Z",
         "price": 1.076
       },
       {
-        "t": "2026-10-21T12:00:00Z",
-        "price": 1.096
+        "t": "2026-10-22T09:15:00Z",
+        "price": 1.076
       },
       {
-        "t": "2026-10-21T12:05:00Z",
-        "price": 1.098
+        "t": "2026-10-22T09:25:00Z",
+        "price": 1.066
       },
       {
-        "t": "2026-10-21T12:15:00Z",
-        "price": 1.08
+        "t": "2026-10-22T09:30:00Z",
+        "price": 1.062
       },
       {
-        "t": "2026-10-21T12:25:00Z",
-        "price": 1.096
+        "t": "2026-10-22T09:45:00Z",
+        "price": 1.064
       },
       {
-        "t": "2026-10-21T12:35:00Z",
-        "price": 1.096
+        "t": "2026-10-22T09:50:00Z",
+        "price": 1.068
       },
       {
-        "t": "2026-10-21T12:45:00Z",
-        "price": 1.1
+        "t": "2026-10-22T10:15:00Z",
+        "price": 1.072
       },
       {
-        "t": "2026-10-21T12:50:00Z",
-        "price": 1.098
+        "t": "2026-10-22T10:25:00Z",
+        "price": 1.062
       },
       {
-        "t": "2026-10-21T13:00:00Z",
-        "price": 1.1
+        "t": "2026-10-22T10:45:00Z",
+        "price": 1.076
       },
       {
-        "t": "2026-10-21T13:05:00Z",
-        "price": 1.1
+        "t": "2026-10-22T10:55:00Z",
+        "price": 1.07
       },
       {
-        "t": "2026-10-21T13:10:00Z",
-        "price": 1.098
+        "t": "2026-10-22T11:05:00Z",
+        "price": 1.062
       },
       {
-        "t": "2026-10-21T13:20:00Z",
-        "price": 1.1
+        "t": "2026-10-22T11:20:00Z",
+        "price": 1.062
       },
       {
-        "t": "2026-10-21T13:25:00Z",
-        "price": 1.096
+        "t": "2026-10-22T11:25:00Z",
+        "price": 1.074
       },
       {
-        "t": "2026-10-21T13:30:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T13:45:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-10-21T13:50:00Z",
-        "price": 1.09
-      },
-      {
-        "t": "2026-10-21T13:55:00Z",
-        "price": 1.092
-      },
-      {
-        "t": "2026-10-21T14:00:00Z",
-        "price": 1.092
-      },
-      {
-        "t": "2026-10-21T14:15:00Z",
-        "price": 1.096
-      },
-      {
-        "t": "2026-10-21T14:20:00Z",
-        "price": 1.096
-      },
-      {
-        "t": "2026-10-21T14:30:00Z",
-        "price": 1.086
-      },
-      {
-        "t": "2026-10-21T14:35:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T14:40:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T14:45:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T14:50:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T14:55:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T15:00:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T15:05:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T15:10:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T15:15:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T15:20:00Z",
-        "price": 1.1
-      },
-      {
-        "t": "2026-10-21T15:25:00Z",
-        "price": 1.096
-      },
-      {
-        "t": "2026-10-21T15:30:00Z",
-        "price": 1.096
+        "t": "2026-10-22T11:53:45Z",
+        "price": 1.06
       }
     ],
     "price_history_range": "1mo",
@@ -577,10 +365,10 @@
         "relevance_score": 10
       },
       {
-        "title": "MaaT Pharma erhält positives Feedback der US-FDA zur Entwicklung der Mikrobiomtherapie MaaT034 für solide Tumoren - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdi1WRGJEdTl4UmhNblJMMGJsY3dmaVlrM1ZzeGQ0bTByd2pHalNkVldzRWV5NURLQ1RLSnZzcHB5Q0FBUVg0X0xHakh1UzgyTWRTVlpxdkp6Y3JQeTZmNkJCaDJDVjZ3UG9FZlJlN2dfb1RCQmMzVVQtWXZ0ODU1RDc1eEJteWtOenJTZWxheXBaLXp6NlNrTGJmby1lT2JrU1VlWE5GRVZ5Z2tKYjR0OUZOZF9JVmV4NzZMeDd1QlZOWG1KcndUZnZ0Z1U2RUo3Ri1faFBDMlVnenFERVNsM3dxTlRXeTdtUC1adklSaFFqb04tNDBHVjZqNlY?oc=5",
+        "title": "MaaT Pharma erhält positives Feedback der US-FDA zur Entwicklung der Mikrobiomtherapie MaaT034 für solide Tumoren - MarketScreener Schweiz",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNjdzNEhteEVOSF95dzRrbHBBdTUyM21mQTJHN1Z4UmFBTzF1dy1yZU43dTlRT2RtTjJKa0tEYnIwV2FuLVE3aHp5dC1lRnB4ZkZfM1p6dVV4am5hNTgza1ZpVC1HbTRCdGdaWUFseUFfNGZPaEljSkRJR0d3Uk5lTUYzaXdZS3hyNHhYd291MXJjdHRtcGlLSFB1TGRXU01tUFBaNkhsSW9veWYtMG44aUVVNDlIbW51RUxSOWJyV0JXenY3UjZPN2phVkdpRFhmWEVNQWEtUThGRDRnSktWOHp4NzlFVE5HZ3hxVWtha09hc3VFSl9zeTk0dUM?oc=5",
         "published_at": "2026-10-20T04:26:16Z",
-        "source": "MarketScreener Deutschland",
+        "source": "MarketScreener Schweiz",
         "query": "\"MaaT034\" MaaT Pharma",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
@@ -631,14 +419,14 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "MaaT Pharma erhält positives Feedback der US-FDA zur Entwicklung der Mikrobiomtherapie MaaT034 für solide Tumoren - MarketScreener Deutschland",
+        "title": "MaaT Pharma erhält positives Feedback der US-FDA zur Entwicklung der Mikrobiomtherapie MaaT034 für solide Tumoren - MarketScreener Schweiz",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "MarketScreener Deutschland",
+        "source": "MarketScreener Schweiz",
         "date": "2026-10-20T04:26:16Z",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdi1WRGJEdTl4UmhNblJMMGJsY3dmaVlrM1ZzeGQ0bTByd2pHalNkVldzRWV5NURLQ1RLSnZzcHB5Q0FBUVg0X0xHakh1UzgyTWRTVlpxdkp6Y3JQeTZmNkJCaDJDVjZ3UG9FZlJlN2dfb1RCQmMzVVQtWXZ0ODU1RDc1eEJteWtOenJTZWxheXBaLXp6NlNrTGJmby1lT2JrU1VlWE5GRVZ5Z2tKYjR0OUZOZF9JVmV4NzZMeDd1QlZOWG1KcndUZnZ0Z1U2RUo3Ri1faFBDMlVnenFERVNsM3dxTlRXeTdtUC1adklSaFFqb04tNDBHVjZqNlY?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNjdzNEhteEVOSF95dzRrbHBBdTUyM21mQTJHN1Z4UmFBTzF1dy1yZU43dTlRT2RtTjJKa0tEYnIwV2FuLVE3aHp5dC1lRnB4ZkZfM1p6dVV4am5hNTgza1ZpVC1HbTRCdGdaWUFseUFfNGZPaEljSkRJR0d3Uk5lTUYzaXdZS3hyNHhYd291MXJjdHRtcGlLSFB1TGRXU01tUFBaNkhsSW9veWYtMG44aUVVNDlIbW51RUxSOWJyV0JXenY3UjZPN2phVkdpRFhmWEVNQWEtUThGRDRnSktWOHp4NzlFVE5HZ3hxVWtha09hc3VFSl9zeTk0dUM?oc=5"
       },
       {
         "type": "FDA / Regulatorik",
