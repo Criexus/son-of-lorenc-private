@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$11.84",
-      "note": "Auto-Update: 5.06% vs. vorheriger Schlusskurs",
+      "value": "$11.52",
+      "note": "Auto-Update: -0.86% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-22T12:10:06Z",
+    "last_update_utc": "2026-10-22T17:24:03Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 11.84,
-      "previousClose": 11.27,
-      "change": 0.57,
-      "changePercent": 5.06,
-      "regularMarketTime": "2026-10-21T20:00:01Z",
+      "regularMarketPrice": 11.52,
+      "previousClose": 11.62,
+      "change": -0.1,
+      "changePercent": -0.86,
+      "regularMarketTime": "2026-10-22T17:23:30Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -418,324 +418,204 @@
       {
         "t": "2026-10-21T13:30:00Z",
         "price": 11.84
+      },
+      {
+        "t": "2026-10-22T13:30:00Z",
+        "price": 11.52
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-21T13:30:00Z",
-        "price": 11.91
+        "t": "2026-10-22T13:30:00Z",
+        "price": 11.76
       },
       {
-        "t": "2026-10-21T13:35:00Z",
-        "price": 11.98
+        "t": "2026-10-22T13:35:00Z",
+        "price": 11.846
       },
       {
-        "t": "2026-10-21T13:40:00Z",
-        "price": 11.99
-      },
-      {
-        "t": "2026-10-21T13:45:00Z",
-        "price": 12.07
-      },
-      {
-        "t": "2026-10-21T13:50:00Z",
-        "price": 11.94
-      },
-      {
-        "t": "2026-10-21T13:55:00Z",
-        "price": 11.97
-      },
-      {
-        "t": "2026-10-21T14:00:00Z",
-        "price": 11.871
-      },
-      {
-        "t": "2026-10-21T14:05:00Z",
-        "price": 11.96
-      },
-      {
-        "t": "2026-10-21T14:10:00Z",
-        "price": 11.9399
-      },
-      {
-        "t": "2026-10-21T14:15:00Z",
-        "price": 11.96
-      },
-      {
-        "t": "2026-10-21T14:20:00Z",
-        "price": 12.0
-      },
-      {
-        "t": "2026-10-21T14:25:00Z",
-        "price": 12.0
-      },
-      {
-        "t": "2026-10-21T14:30:00Z",
-        "price": 12.0
-      },
-      {
-        "t": "2026-10-21T14:35:00Z",
-        "price": 11.955
-      },
-      {
-        "t": "2026-10-21T14:40:00Z",
-        "price": 11.98
-      },
-      {
-        "t": "2026-10-21T14:45:00Z",
-        "price": 11.9991
-      },
-      {
-        "t": "2026-10-21T14:50:00Z",
-        "price": 12.0076
-      },
-      {
-        "t": "2026-10-21T14:55:00Z",
-        "price": 11.95
-      },
-      {
-        "t": "2026-10-21T15:00:00Z",
-        "price": 11.91
-      },
-      {
-        "t": "2026-10-21T15:05:00Z",
-        "price": 11.945
-      },
-      {
-        "t": "2026-10-21T15:10:00Z",
-        "price": 11.93
-      },
-      {
-        "t": "2026-10-21T15:15:00Z",
-        "price": 11.94
-      },
-      {
-        "t": "2026-10-21T15:20:00Z",
-        "price": 11.95
-      },
-      {
-        "t": "2026-10-21T15:25:00Z",
-        "price": 11.95
-      },
-      {
-        "t": "2026-10-21T15:30:00Z",
-        "price": 11.91
-      },
-      {
-        "t": "2026-10-21T15:35:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-21T15:40:00Z",
-        "price": 11.895
-      },
-      {
-        "t": "2026-10-21T15:45:00Z",
-        "price": 11.875
-      },
-      {
-        "t": "2026-10-21T15:50:00Z",
-        "price": 11.89
-      },
-      {
-        "t": "2026-10-21T15:55:00Z",
-        "price": 11.83
-      },
-      {
-        "t": "2026-10-21T16:00:00Z",
-        "price": 11.83
-      },
-      {
-        "t": "2026-10-21T16:05:00Z",
-        "price": 11.8101
-      },
-      {
-        "t": "2026-10-21T16:10:00Z",
-        "price": 11.8
-      },
-      {
-        "t": "2026-10-21T16:15:00Z",
-        "price": 11.8
-      },
-      {
-        "t": "2026-10-21T16:20:00Z",
-        "price": 11.775
-      },
-      {
-        "t": "2026-10-21T16:25:00Z",
-        "price": 11.82
-      },
-      {
-        "t": "2026-10-21T16:30:00Z",
-        "price": 11.83
-      },
-      {
-        "t": "2026-10-21T16:35:00Z",
-        "price": 11.87
-      },
-      {
-        "t": "2026-10-21T16:40:00Z",
-        "price": 11.82
-      },
-      {
-        "t": "2026-10-21T16:45:00Z",
-        "price": 11.8498
-      },
-      {
-        "t": "2026-10-21T16:50:00Z",
-        "price": 11.8677
-      },
-      {
-        "t": "2026-10-21T16:55:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-21T17:00:00Z",
-        "price": 11.85
-      },
-      {
-        "t": "2026-10-21T17:05:00Z",
-        "price": 11.89
-      },
-      {
-        "t": "2026-10-21T17:10:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-21T17:15:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-21T17:20:00Z",
-        "price": 11.835
-      },
-      {
-        "t": "2026-10-21T17:25:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-21T17:30:00Z",
-        "price": 11.9
-      },
-      {
-        "t": "2026-10-21T17:35:00Z",
-        "price": 11.925
-      },
-      {
-        "t": "2026-10-21T17:40:00Z",
-        "price": 11.925
-      },
-      {
-        "t": "2026-10-21T17:45:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-21T17:50:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-21T17:55:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-21T18:00:00Z",
-        "price": 11.87
-      },
-      {
-        "t": "2026-10-21T18:05:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-21T18:10:00Z",
-        "price": 11.8586
-      },
-      {
-        "t": "2026-10-21T18:15:00Z",
-        "price": 11.86
-      },
-      {
-        "t": "2026-10-21T18:20:00Z",
-        "price": 11.8514
-      },
-      {
-        "t": "2026-10-21T18:25:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-21T18:30:00Z",
-        "price": 11.82
-      },
-      {
-        "t": "2026-10-21T18:35:00Z",
+        "t": "2026-10-22T13:40:00Z",
         "price": 11.81
       },
       {
-        "t": "2026-10-21T18:40:00Z",
-        "price": 11.87
+        "t": "2026-10-22T13:45:00Z",
+        "price": 11.83
       },
       {
-        "t": "2026-10-21T18:45:00Z",
-        "price": 11.85
-      },
-      {
-        "t": "2026-10-21T18:50:00Z",
-        "price": 11.88
-      },
-      {
-        "t": "2026-10-21T18:55:00Z",
-        "price": 11.87
-      },
-      {
-        "t": "2026-10-21T19:00:00Z",
-        "price": 11.89
-      },
-      {
-        "t": "2026-10-21T19:05:00Z",
-        "price": 11.85
-      },
-      {
-        "t": "2026-10-21T19:10:00Z",
+        "t": "2026-10-22T13:50:00Z",
         "price": 11.82
       },
       {
-        "t": "2026-10-21T19:15:00Z",
-        "price": 11.865
+        "t": "2026-10-22T13:55:00Z",
+        "price": 11.89
       },
       {
-        "t": "2026-10-21T19:20:00Z",
-        "price": 11.84
-      },
-      {
-        "t": "2026-10-21T19:25:00Z",
-        "price": 11.9
-      },
-      {
-        "t": "2026-10-21T19:30:00Z",
-        "price": 11.905
-      },
-      {
-        "t": "2026-10-21T19:35:00Z",
-        "price": 11.902
-      },
-      {
-        "t": "2026-10-21T19:40:00Z",
+        "t": "2026-10-22T14:00:00Z",
         "price": 11.88
       },
       {
-        "t": "2026-10-21T19:45:00Z",
-        "price": 11.88
+        "t": "2026-10-22T14:05:00Z",
+        "price": 11.845
       },
       {
-        "t": "2026-10-21T19:50:00Z",
-        "price": 11.84
+        "t": "2026-10-22T14:10:00Z",
+        "price": 11.735
       },
       {
-        "t": "2026-10-21T19:55:00Z",
-        "price": 11.85
+        "t": "2026-10-22T14:15:00Z",
+        "price": 11.75
       },
       {
-        "t": "2026-10-21T20:00:00Z",
-        "price": 11.84
+        "t": "2026-10-22T14:20:00Z",
+        "price": 11.745
+      },
+      {
+        "t": "2026-10-22T14:25:00Z",
+        "price": 11.7034
+      },
+      {
+        "t": "2026-10-22T14:30:00Z",
+        "price": 11.64
+      },
+      {
+        "t": "2026-10-22T14:35:00Z",
+        "price": 11.67
+      },
+      {
+        "t": "2026-10-22T14:40:00Z",
+        "price": 11.76
+      },
+      {
+        "t": "2026-10-22T14:45:00Z",
+        "price": 11.68
+      },
+      {
+        "t": "2026-10-22T14:50:00Z",
+        "price": 11.68
+      },
+      {
+        "t": "2026-10-22T14:55:00Z",
+        "price": 11.7248
+      },
+      {
+        "t": "2026-10-22T15:00:00Z",
+        "price": 11.615
+      },
+      {
+        "t": "2026-10-22T15:05:00Z",
+        "price": 11.61
+      },
+      {
+        "t": "2026-10-22T15:10:00Z",
+        "price": 11.62
+      },
+      {
+        "t": "2026-10-22T15:15:00Z",
+        "price": 11.71
+      },
+      {
+        "t": "2026-10-22T15:20:00Z",
+        "price": 11.6904
+      },
+      {
+        "t": "2026-10-22T15:25:00Z",
+        "price": 11.622
+      },
+      {
+        "t": "2026-10-22T15:30:00Z",
+        "price": 11.66
+      },
+      {
+        "t": "2026-10-22T15:35:00Z",
+        "price": 11.61
+      },
+      {
+        "t": "2026-10-22T15:40:00Z",
+        "price": 11.6
+      },
+      {
+        "t": "2026-10-22T15:45:00Z",
+        "price": 11.6
+      },
+      {
+        "t": "2026-10-22T15:50:00Z",
+        "price": 11.65
+      },
+      {
+        "t": "2026-10-22T15:55:00Z",
+        "price": 11.64
+      },
+      {
+        "t": "2026-10-22T16:00:00Z",
+        "price": 11.62
+      },
+      {
+        "t": "2026-10-22T16:05:00Z",
+        "price": 11.62
+      },
+      {
+        "t": "2026-10-22T16:10:00Z",
+        "price": 11.63
+      },
+      {
+        "t": "2026-10-22T16:15:00Z",
+        "price": 11.67
+      },
+      {
+        "t": "2026-10-22T16:20:00Z",
+        "price": 11.6603
+      },
+      {
+        "t": "2026-10-22T16:25:00Z",
+        "price": 11.68
+      },
+      {
+        "t": "2026-10-22T16:30:00Z",
+        "price": 11.64
+      },
+      {
+        "t": "2026-10-22T16:35:00Z",
+        "price": 11.57
+      },
+      {
+        "t": "2026-10-22T16:40:00Z",
+        "price": 11.55
+      },
+      {
+        "t": "2026-10-22T16:45:00Z",
+        "price": 11.47
+      },
+      {
+        "t": "2026-10-22T16:50:00Z",
+        "price": 11.5
+      },
+      {
+        "t": "2026-10-22T16:55:00Z",
+        "price": 11.54
+      },
+      {
+        "t": "2026-10-22T17:00:00Z",
+        "price": 11.49
+      },
+      {
+        "t": "2026-10-22T17:05:00Z",
+        "price": 11.52
+      },
+      {
+        "t": "2026-10-22T17:10:00Z",
+        "price": 11.52
+      },
+      {
+        "t": "2026-10-22T17:15:00Z",
+        "price": 11.54
+      },
+      {
+        "t": "2026-10-22T17:20:00Z",
+        "price": 11.5202
+      },
+      {
+        "t": "2026-10-22T17:23:30Z",
+        "price": 11.52
       }
     ],
     "price_history_range": "1mo",
@@ -763,6 +643,22 @@
         "published_at": "2026-10-20T14:02:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "ARK Invest: Cathie Wood verkauft Personalised Inc und investiert in Compass Pathways - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPelJoOS1iMzNDZGZkeHpqemN0NnU0R21NY2FBY095VWxQTFd6YVhxaDlXeml2M0JpcGpfNzBTMGMyV0RkTEtIczVManlfdFJXYlgtenpfSjhKcjRibkRsZ0oxSkFGN291aEtlQ0hNWmtLSGUwdzZ2OEVwemFXR2xmVUQ3OHdQUHdtM1N4UWFFd3F6cUhXaE5tQnNjTUlNZ3BzQ0FicGtsNUdLeWxMNDhZSDhIQVpBeVdkNTU5N0xuY296dktVc1RaaW9PZkRZY202X0F5OTJB?oc=5",
+        "published_at": "2026-10-13T00:08:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

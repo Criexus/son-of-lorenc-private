@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.64",
-      "note": "Auto-Update: -2.67% vs. vorheriger Schlusskurs",
+      "value": "$3.50",
+      "note": "Auto-Update: -15.99% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-22T12:10:57Z",
+    "last_update_utc": "2026-10-22T17:24:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.64,
-      "previousClose": 3.74,
-      "change": -0.1,
-      "changePercent": -2.67,
-      "regularMarketTime": "2026-10-21T20:00:00Z",
+      "regularMarketPrice": 3.495,
+      "previousClose": 4.16,
+      "change": -0.665,
+      "changePercent": -15.99,
+      "regularMarketTime": "2026-10-22T17:24:47Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -400,345 +400,209 @@
       {
         "t": "2026-10-21T13:30:00Z",
         "price": 3.64
+      },
+      {
+        "t": "2026-10-22T13:30:00Z",
+        "price": 3.495
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-21T13:30:00Z",
-        "price": 3.5701
+        "t": "2026-10-22T13:30:00Z",
+        "price": 3.6199
       },
       {
-        "t": "2026-10-21T13:35:00Z",
-        "price": 3.615
+        "t": "2026-10-22T13:35:00Z",
+        "price": 3.6499
       },
       {
-        "t": "2026-10-21T13:40:00Z",
-        "price": 3.625
-      },
-      {
-        "t": "2026-10-21T13:45:00Z",
-        "price": 3.6309
-      },
-      {
-        "t": "2026-10-21T13:50:00Z",
-        "price": 3.58
-      },
-      {
-        "t": "2026-10-21T13:55:00Z",
-        "price": 3.6014
-      },
-      {
-        "t": "2026-10-21T14:00:00Z",
-        "price": 3.585
-      },
-      {
-        "t": "2026-10-21T14:05:00Z",
-        "price": 3.63
-      },
-      {
-        "t": "2026-10-21T14:10:00Z",
-        "price": 3.615
-      },
-      {
-        "t": "2026-10-21T14:15:00Z",
-        "price": 3.605
-      },
-      {
-        "t": "2026-10-21T14:20:00Z",
-        "price": 3.6286
-      },
-      {
-        "t": "2026-10-21T14:25:00Z",
-        "price": 3.605
-      },
-      {
-        "t": "2026-10-21T14:30:00Z",
-        "price": 3.61
-      },
-      {
-        "t": "2026-10-21T14:35:00Z",
-        "price": 3.6305
-      },
-      {
-        "t": "2026-10-21T14:40:00Z",
-        "price": 3.6323
-      },
-      {
-        "t": "2026-10-21T14:45:00Z",
-        "price": 3.6323
-      },
-      {
-        "t": "2026-10-21T14:50:00Z",
-        "price": 3.65
-      },
-      {
-        "t": "2026-10-21T14:55:00Z",
-        "price": 3.67
-      },
-      {
-        "t": "2026-10-21T15:00:00Z",
-        "price": 3.6699
-      },
-      {
-        "t": "2026-10-21T15:05:00Z",
-        "price": 3.675
-      },
-      {
-        "t": "2026-10-21T15:10:00Z",
-        "price": 3.705
-      },
-      {
-        "t": "2026-10-21T15:15:00Z",
-        "price": 3.6997
-      },
-      {
-        "t": "2026-10-21T15:20:00Z",
-        "price": 3.695
-      },
-      {
-        "t": "2026-10-21T15:25:00Z",
-        "price": 3.745
-      },
-      {
-        "t": "2026-10-21T15:30:00Z",
-        "price": 3.715
-      },
-      {
-        "t": "2026-10-21T15:35:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-10-21T15:40:00Z",
-        "price": 3.7399
-      },
-      {
-        "t": "2026-10-21T15:45:00Z",
-        "price": 3.7301
-      },
-      {
-        "t": "2026-10-21T15:50:00Z",
-        "price": 3.7123
-      },
-      {
-        "t": "2026-10-21T15:55:00Z",
-        "price": 3.715
-      },
-      {
-        "t": "2026-10-21T16:00:00Z",
-        "price": 3.74
-      },
-      {
-        "t": "2026-10-21T16:05:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-10-21T16:10:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-10-21T16:15:00Z",
-        "price": 3.7282
-      },
-      {
-        "t": "2026-10-21T16:20:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-10-21T16:25:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-10-21T16:30:00Z",
-        "price": 3.73
-      },
-      {
-        "t": "2026-10-21T16:35:00Z",
-        "price": 3.745
-      },
-      {
-        "t": "2026-10-21T16:40:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-10-21T16:45:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-10-21T16:50:00Z",
-        "price": 3.745
-      },
-      {
-        "t": "2026-10-21T16:55:00Z",
-        "price": 3.7401
-      },
-      {
-        "t": "2026-10-21T17:00:00Z",
-        "price": 3.72
-      },
-      {
-        "t": "2026-10-21T17:05:00Z",
-        "price": 3.7317
-      },
-      {
-        "t": "2026-10-21T17:10:00Z",
-        "price": 3.7324
-      },
-      {
-        "t": "2026-10-21T17:15:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-10-21T17:20:00Z",
-        "price": 3.7202
-      },
-      {
-        "t": "2026-10-21T17:25:00Z",
-        "price": 3.7297
-      },
-      {
-        "t": "2026-10-21T17:30:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-10-21T17:35:00Z",
-        "price": 3.73
-      },
-      {
-        "t": "2026-10-21T17:40:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-10-21T17:45:00Z",
-        "price": 3.721
-      },
-      {
-        "t": "2026-10-21T17:50:00Z",
-        "price": 3.7223
-      },
-      {
-        "t": "2026-10-21T17:55:00Z",
-        "price": 3.725
-      },
-      {
-        "t": "2026-10-21T18:00:00Z",
-        "price": 3.7301
-      },
-      {
-        "t": "2026-10-21T18:05:00Z",
-        "price": 3.735
-      },
-      {
-        "t": "2026-10-21T18:10:00Z",
-        "price": 3.71
-      },
-      {
-        "t": "2026-10-21T18:15:00Z",
-        "price": 3.715
-      },
-      {
-        "t": "2026-10-21T18:20:00Z",
-        "price": 3.705
-      },
-      {
-        "t": "2026-10-21T18:25:00Z",
-        "price": 3.7
-      },
-      {
-        "t": "2026-10-21T18:30:00Z",
-        "price": 3.7002
-      },
-      {
-        "t": "2026-10-21T18:35:00Z",
-        "price": 3.685
-      },
-      {
-        "t": "2026-10-21T18:40:00Z",
-        "price": 3.685
-      },
-      {
-        "t": "2026-10-21T18:45:00Z",
-        "price": 3.6815
-      },
-      {
-        "t": "2026-10-21T18:50:00Z",
-        "price": 3.681
-      },
-      {
-        "t": "2026-10-21T18:55:00Z",
-        "price": 3.67
-      },
-      {
-        "t": "2026-10-21T19:00:00Z",
-        "price": 3.655
-      },
-      {
-        "t": "2026-10-21T19:05:00Z",
-        "price": 3.65
-      },
-      {
-        "t": "2026-10-21T19:10:00Z",
-        "price": 3.6317
-      },
-      {
-        "t": "2026-10-21T19:15:00Z",
-        "price": 3.625
-      },
-      {
-        "t": "2026-10-21T19:20:00Z",
-        "price": 3.625
-      },
-      {
-        "t": "2026-10-21T19:25:00Z",
-        "price": 3.645
-      },
-      {
-        "t": "2026-10-21T19:30:00Z",
-        "price": 3.645
-      },
-      {
-        "t": "2026-10-21T19:35:00Z",
-        "price": 3.645
-      },
-      {
-        "t": "2026-10-21T19:40:00Z",
+        "t": "2026-10-22T13:40:00Z",
         "price": 3.635
       },
       {
-        "t": "2026-10-21T19:45:00Z",
-        "price": 3.645
+        "t": "2026-10-22T13:45:00Z",
+        "price": 3.615
       },
       {
-        "t": "2026-10-21T19:50:00Z",
-        "price": 3.66
+        "t": "2026-10-22T13:50:00Z",
+        "price": 3.63
       },
       {
-        "t": "2026-10-21T19:55:00Z",
-        "price": 3.64
+        "t": "2026-10-22T13:55:00Z",
+        "price": 3.635
       },
       {
-        "t": "2026-10-21T20:00:00Z",
-        "price": 3.64
+        "t": "2026-10-22T14:00:00Z",
+        "price": 3.6209
+      },
+      {
+        "t": "2026-10-22T14:05:00Z",
+        "price": 3.605
+      },
+      {
+        "t": "2026-10-22T14:10:00Z",
+        "price": 3.5914
+      },
+      {
+        "t": "2026-10-22T14:15:00Z",
+        "price": 3.6
+      },
+      {
+        "t": "2026-10-22T14:20:00Z",
+        "price": 3.58
+      },
+      {
+        "t": "2026-10-22T14:25:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-10-22T14:30:00Z",
+        "price": 3.545
+      },
+      {
+        "t": "2026-10-22T14:35:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-22T14:40:00Z",
+        "price": 3.595
+      },
+      {
+        "t": "2026-10-22T14:45:00Z",
+        "price": 3.5841
+      },
+      {
+        "t": "2026-10-22T14:50:00Z",
+        "price": 3.605
+      },
+      {
+        "t": "2026-10-22T14:55:00Z",
+        "price": 3.58
+      },
+      {
+        "t": "2026-10-22T15:00:00Z",
+        "price": 3.585
+      },
+      {
+        "t": "2026-10-22T15:05:00Z",
+        "price": 3.58
+      },
+      {
+        "t": "2026-10-22T15:10:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-10-22T15:15:00Z",
+        "price": 3.5701
+      },
+      {
+        "t": "2026-10-22T15:20:00Z",
+        "price": 3.5798
+      },
+      {
+        "t": "2026-10-22T15:25:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-22T15:30:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-22T15:35:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-22T15:40:00Z",
+        "price": 3.56
+      },
+      {
+        "t": "2026-10-22T15:45:00Z",
+        "price": 3.555
+      },
+      {
+        "t": "2026-10-22T15:50:00Z",
+        "price": 3.5799
+      },
+      {
+        "t": "2026-10-22T15:55:00Z",
+        "price": 3.575
+      },
+      {
+        "t": "2026-10-22T16:00:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-22T16:05:00Z",
+        "price": 3.57
+      },
+      {
+        "t": "2026-10-22T16:10:00Z",
+        "price": 3.55
+      },
+      {
+        "t": "2026-10-22T16:15:00Z",
+        "price": 3.5698
+      },
+      {
+        "t": "2026-10-22T16:20:00Z",
+        "price": 3.575
+      },
+      {
+        "t": "2026-10-22T16:25:00Z",
+        "price": 3.59
+      },
+      {
+        "t": "2026-10-22T16:30:00Z",
+        "price": 3.56
+      },
+      {
+        "t": "2026-10-22T16:35:00Z",
+        "price": 3.53
+      },
+      {
+        "t": "2026-10-22T16:40:00Z",
+        "price": 3.52
+      },
+      {
+        "t": "2026-10-22T16:45:00Z",
+        "price": 3.5029
+      },
+      {
+        "t": "2026-10-22T16:50:00Z",
+        "price": 3.5301
+      },
+      {
+        "t": "2026-10-22T16:55:00Z",
+        "price": 3.5201
+      },
+      {
+        "t": "2026-10-22T17:00:00Z",
+        "price": 3.5108
+      },
+      {
+        "t": "2026-10-22T17:05:00Z",
+        "price": 3.505
+      },
+      {
+        "t": "2026-10-22T17:10:00Z",
+        "price": 3.505
+      },
+      {
+        "t": "2026-10-22T17:15:00Z",
+        "price": 3.505
+      },
+      {
+        "t": "2026-10-22T17:20:00Z",
+        "price": 3.505
+      },
+      {
+        "t": "2026-10-22T17:24:49Z",
+        "price": 3.5
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "Cathie Wood's weekly recap: adds to CoreWeave, Meta, Recursion; cuts Personalis, Toast - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORWxkeEllbnNMQm04bndaLWQ2dVBpRG9BelBpR294RWdld1k2VGlJbzQwT2Z2LWRmQ1JWZWpoYzlPQ3JZOERQZnBBRnNiTzdVLUVBUjEyRXAzZGN0NWxfRTlyRkVPbU1nOS1aSjF1T1A0TTdDa0xVdVdxanY5T1JPaEphN01zcFNyVTYxNHd0OWhwSmxkd0ZMcU5LVFl3dnZwR3R6alR5Q19DdllFNExLYkdjOEVpcEFyZnZVYk9ZVzZibWx2bEQ2Q1NKMndudTJZTy1ZQzk3OW5KRDQ?oc=5",
-        "published_at": "2026-10-19T11:05:56Z",
-        "source": "TradingView",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
       {
         "title": "RXRX Oct 2026 0.500 put (RXRX261016P00000500) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiT0FjQ1lUd0pfV3lJWFJSaTJGcFBBdG1FVjRPUk1Ddk9kaFplVXdIM19md2E4R3gteFZVUlFxUHl1MjhOQ19wQzktQ0p3Ty11ellCQU80N2hDTlhUMmp0U25rRmxGdw?oc=5",
@@ -758,7 +622,7 @@
       {
         "title": "Recursion Pharmaceuticals: Direktor verkauft Aktien im Wert von 125.000 $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa1c4bTFGZmt2Qjlka3NYUkItQWJSV3pCbHBNVFQzenh5ZlBUa1paMWlNUGwtVGV2Rm15Wld2RC1tYTQ5VjRvU1ZsbzBELUJyTWVkcGpEREdnYm9MeG1wUGFMYmFudDZTUkZNOFlQbUxmZ3lzTjRDdUlrSlFYa2Q3RFZuMU8zcXJZOXJLSGg1R18yejRWYTNlRDZMR1drWFFOamh1Qnd5UFIyLWh6Q0ZLd21iclRlemNHU05Bc2tSQ2k4T2ExZHJDVUVEQXd5NnM?oc=5",
-        "published_at": "2026-10-08T07:00:00Z",
+        "published_at": "2026-10-08T00:03:00Z",
         "source": "Investing.com Deutsch",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
@@ -850,6 +714,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 26
+      },
+      {
+        "title": "Earnings Call Transkript: Recursion Pharmaceuticals Q1 2025 Ergebnisse verfehlen Prognosen - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcTVuNmpiWHBRWDdfWU0yM0dZS1hOUERPSDdNSUJmMmQ0NW5LZ25WQVdxVEl3MTdEMWtYUWxrcWZkZk52aXQtemFQQno4ak91UGhvSVFseWx1NkxMbGpCOTQzVF9mVlNzNHNoU3B3LWZRSkJYa3FoSXRVcWEtT0lqUW13MHFxaEtyYm1udUhBRTFkWVpiWWRuODBYV3dzOHIwRU05Y19RUjBxSmI4Wkdma1pRY2huVUo3bXJJcXVldl8zYW0wNy1EV1JzVGxrYnZrUFpkejVpRzEwcUtn?oc=5",
+        "published_at": "2025-05-05T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 19
       },
       {
         "title": "RECURSION PHARMACEUTICALS, A AKTIE | Aktienkurs | US75629V1044 | News | A3CM1C - Finanzen.net",
@@ -1210,6 +1090,18 @@
         "date": "2025-03-31"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Earnings Call Transkript: Recursion Pharmaceuticals Q1 2025 Ergebnisse verfehlen Prognosen - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2025-05-05T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcTVuNmpiWHBRWDdfWU0yM0dZS1hOUERPSDdNSUJmMmQ0NW5LZ25WQVdxVEl3MTdEMWtYUWxrcWZkZk52aXQtemFQQno4ak91UGhvSVFseWx1NkxMbGpCOTQzVF9mVlNzNHNoU3B3LWZRSkJYa3FoSXRVcWEtT0lqUW13MHFxaEtyYm1udUhBRTFkWVpiWWRuODBYV3dzOHIwRU05Y19RUjBxSmI4Wkdma1pRY2huVUo3bXJJcXVldl8zYW0wNy1EV1JzVGxrYnZrUFpkejVpRzEwcUtn?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
@@ -1352,14 +1244,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-10-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-07",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-10-07"
       },
       {
         "type": "SEC Filing",
