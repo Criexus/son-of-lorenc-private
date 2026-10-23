@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$1.08",
-      "note": "Auto-Update: 8.2% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 8.4% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-23T07:46:37Z",
+    "last_update_utc": "2026-10-23T12:56:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 1.082,
+      "regularMarketPrice": 1.084,
       "previousClose": 1.0,
-      "change": 0.082,
-      "changePercent": 8.2,
-      "regularMarketTime": "2026-10-23T07:12:13Z",
+      "change": 0.084,
+      "changePercent": 8.4,
+      "regularMarketTime": "2026-10-23T12:05:50Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -239,8 +239,12 @@
         "price": 1.096
       },
       {
+        "t": "2026-10-22T07:00:00Z",
+        "price": 1.062
+      },
+      {
         "t": "2026-10-23T07:00:00Z",
-        "price": 1.082
+        "price": 1.084
       }
     ],
     "price_history_1d": [
@@ -257,8 +261,68 @@
         "price": 1.082
       },
       {
-        "t": "2026-10-23T07:12:13Z",
+        "t": "2026-10-23T07:40:00Z",
+        "price": 1.102
+      },
+      {
+        "t": "2026-10-23T07:45:00Z",
+        "price": 1.08
+      },
+      {
+        "t": "2026-10-23T07:50:00Z",
+        "price": 1.08
+      },
+      {
+        "t": "2026-10-23T07:55:00Z",
+        "price": 1.08
+      },
+      {
+        "t": "2026-10-23T08:15:00Z",
+        "price": 1.08
+      },
+      {
+        "t": "2026-10-23T08:30:00Z",
+        "price": 1.078
+      },
+      {
+        "t": "2026-10-23T09:05:00Z",
+        "price": 1.068
+      },
+      {
+        "t": "2026-10-23T09:25:00Z",
+        "price": 1.068
+      },
+      {
+        "t": "2026-10-23T09:30:00Z",
+        "price": 1.068
+      },
+      {
+        "t": "2026-10-23T10:00:00Z",
+        "price": 1.064
+      },
+      {
+        "t": "2026-10-23T10:45:00Z",
+        "price": 1.06
+      },
+      {
+        "t": "2026-10-23T10:50:00Z",
+        "price": 1.058
+      },
+      {
+        "t": "2026-10-23T10:55:00Z",
         "price": 1.082
+      },
+      {
+        "t": "2026-10-23T11:25:00Z",
+        "price": 1.086
+      },
+      {
+        "t": "2026-10-23T12:05:00Z",
+        "price": 1.084
+      },
+      {
+        "t": "2026-10-23T12:05:50Z",
+        "price": 1.084
       }
     ],
     "price_history_range": "1mo",
@@ -281,10 +345,10 @@
         "relevance_score": 14
       },
       {
-        "title": "MaaT Pharma nimmt eine regulatorische Hürde bei der FDA - MarketScreener Schweiz",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEN5MDdEWFVFd0hFNUZuQW01Tko1bUZQWk1ST1BfSFZTMThGb3lHODdGbnZRdC0zdjJZdE1OajBYd2FpNzVZVlBIbGN1dmwyTkFWczEySUpNbkg1YTFRc3dpT2tzX2ZUdDg2Qk1FR19HYjd5dDU4MzV0OE1WMDg3UmpmemtGRkNQRm1kcEc0MGZEZ3VPOHJ3SzZiNVZrOXNOc3J1VXJyaDRXclJ1bjRhLTFYbV9oTXp3bnVnOC0zZw?oc=5",
+        "title": "MaaT Pharma nimmt eine regulatorische Hürde bei der FDA - MarketScreener Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ1Jta293dmRUYzBHdUZ4Nkt6SXRST2VJd1cwMGRSNXBzb2hkR1FjMWlIbDdXb0hLbG5SREhkNENGNm1McE9vM3JaeV81OWNGLUl3MEpoN3EwQ2NtTGtiSUFTZndDaVJWYVBQdndIUnltamFOLW1OUFRWTVpSYmNmYVBvRmFpRWUzaFBjMmJzQXVfdXhoWUpYMFRRVGF6WUxoTVFnbGY1ZVVuZTFkOVJYajVWT2Z5NmNXd2NKbVdkWQ?oc=5",
         "published_at": "2026-10-20T04:54:21Z",
-        "source": "MarketScreener Schweiz",
+        "source": "MarketScreener Deutschland",
         "query": "\"MaaT034\" MaaT Pharma",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
@@ -347,14 +411,14 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "MaaT Pharma nimmt eine regulatorische Hürde bei der FDA - MarketScreener Schweiz",
+        "title": "MaaT Pharma nimmt eine regulatorische Hürde bei der FDA - MarketScreener Deutschland",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "MarketScreener Schweiz",
+        "source": "MarketScreener Deutschland",
         "date": "2026-10-20T04:54:21Z",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeEN5MDdEWFVFd0hFNUZuQW01Tko1bUZQWk1ST1BfSFZTMThGb3lHODdGbnZRdC0zdjJZdE1OajBYd2FpNzVZVlBIbGN1dmwyTkFWczEySUpNbkg1YTFRc3dpT2tzX2ZUdDg2Qk1FR19HYjd5dDU4MzV0OE1WMDg3UmpmemtGRkNQRm1kcEc0MGZEZ3VPOHJ3SzZiNVZrOXNOc3J1VXJyaDRXclJ1bjRhLTFYbV9oTXp3bnVnOC0zZw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ1Jta293dmRUYzBHdUZ4Nkt6SXRST2VJd1cwMGRSNXBzb2hkR1FjMWlIbDdXb0hLbG5SREhkNENGNm1McE9vM3JaeV81OWNGLUl3MEpoN3EwQ2NtTGtiSUFTZndDaVJWYVBQdndIUnltamFOLW1OUFRWTVpSYmNmYVBvRmFpRWUzaFBjMmJzQXVfdXhoWUpYMFRRVGF6WUxoTVFnbGY1ZVVuZTFkOVJYajVWT2Z5NmNXd2NKbVdkWQ?oc=5"
       },
       {
         "type": "FDA / Regulatorik",
