@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$44.42",
-      "note": "Auto-Update: -0.87% vs. vorheriger Schlusskurs",
+      "value": "$44.59",
+      "note": "Auto-Update: -0.5% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-23T12:57:20Z",
+    "last_update_utc": "2026-10-23T17:37:14Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 44.418,
+      "regularMarketPrice": 44.585,
       "previousClose": 44.81,
-      "change": -0.392,
-      "changePercent": -0.87,
-      "regularMarketTime": "2026-10-23T12:37:36Z",
+      "change": -0.225,
+      "changePercent": -0.5,
+      "regularMarketTime": "2026-10-23T15:36:04Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,7 +248,7 @@
       },
       {
         "t": "2026-10-23T07:00:00Z",
-        "price": 44.418
+        "price": 44.585
       }
     ],
     "price_history_1d": [
@@ -313,8 +313,36 @@
         "price": 44.484
       },
       {
-        "t": "2026-10-23T12:37:36Z",
+        "t": "2026-10-23T12:35:00Z",
         "price": 44.418
+      },
+      {
+        "t": "2026-10-23T12:50:00Z",
+        "price": 44.4
+      },
+      {
+        "t": "2026-10-23T13:15:00Z",
+        "price": 44.409
+      },
+      {
+        "t": "2026-10-23T14:15:00Z",
+        "price": 44.322
+      },
+      {
+        "t": "2026-10-23T14:45:00Z",
+        "price": 44.49
+      },
+      {
+        "t": "2026-10-23T15:15:00Z",
+        "price": 44.54
+      },
+      {
+        "t": "2026-10-23T15:25:00Z",
+        "price": 44.568
+      },
+      {
+        "t": "2026-10-23T15:30:00Z",
+        "price": 44.585
       }
     ],
     "price_history_range": "1mo",
@@ -325,7 +353,7 @@
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DMHFNbTVFUVk0NEl1OTZFSWJUOFE2bm9BemVIWm5CWVFMekxkN2dKYWsydk9CazhLekNxVjM3YUFxTl9xWS1yczdnNnhka0FmMHhmRWdB?oc=5",
         "published_at": "2019-12-15T22:58:22Z",
         "source": "Yahoo Finanzen Deutschland",
-        "query": "MSCI World ETF ELFW.DE stock news",
+        "query": "ELFW.DE stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -334,7 +362,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 18
+        "relevance_score": 17
       }
     ],
     "sec_filings": [],

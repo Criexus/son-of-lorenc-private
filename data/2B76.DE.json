@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.74",
-      "note": "Auto-Update: -0.48% vs. vorheriger Schlusskurs",
+      "value": "$18.90",
+      "note": "Auto-Update: 0.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-23T12:57:14Z",
+    "last_update_utc": "2026-10-23T17:37:08Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.74,
+      "regularMarketPrice": 18.896,
       "previousClose": 18.83,
-      "change": -0.09,
-      "changePercent": -0.48,
-      "regularMarketTime": "2026-10-23T12:41:35Z",
+      "change": 0.066,
+      "changePercent": 0.35,
+      "regularMarketTime": "2026-10-23T15:36:12Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -250,7 +250,7 @@
       },
       {
         "t": "2026-10-23T07:00:00Z",
-        "price": 18.74
+        "price": 18.896
       }
     ],
     "price_history_1d": [
@@ -471,29 +471,113 @@
         "price": 18.75
       },
       {
-        "t": "2026-10-23T12:41:35Z",
-        "price": 18.74
+        "t": "2026-10-23T12:40:00Z",
+        "price": 18.716
+      },
+      {
+        "t": "2026-10-23T12:45:00Z",
+        "price": 18.738
+      },
+      {
+        "t": "2026-10-23T12:50:00Z",
+        "price": 18.71
+      },
+      {
+        "t": "2026-10-23T12:55:00Z",
+        "price": 18.7
+      },
+      {
+        "t": "2026-10-23T13:15:00Z",
+        "price": 18.708
+      },
+      {
+        "t": "2026-10-23T13:20:00Z",
+        "price": 18.716
+      },
+      {
+        "t": "2026-10-23T13:35:00Z",
+        "price": 18.7
+      },
+      {
+        "t": "2026-10-23T13:40:00Z",
+        "price": 18.762
+      },
+      {
+        "t": "2026-10-23T13:45:00Z",
+        "price": 18.762
+      },
+      {
+        "t": "2026-10-23T13:50:00Z",
+        "price": 18.772
+      },
+      {
+        "t": "2026-10-23T13:55:00Z",
+        "price": 18.786
+      },
+      {
+        "t": "2026-10-23T14:00:00Z",
+        "price": 18.818
+      },
+      {
+        "t": "2026-10-23T14:05:00Z",
+        "price": 18.79
+      },
+      {
+        "t": "2026-10-23T14:15:00Z",
+        "price": 18.72
+      },
+      {
+        "t": "2026-10-23T14:20:00Z",
+        "price": 18.748
+      },
+      {
+        "t": "2026-10-23T14:25:00Z",
+        "price": 18.748
+      },
+      {
+        "t": "2026-10-23T14:30:00Z",
+        "price": 18.766
+      },
+      {
+        "t": "2026-10-23T14:35:00Z",
+        "price": 18.772
+      },
+      {
+        "t": "2026-10-23T14:40:00Z",
+        "price": 18.884
+      },
+      {
+        "t": "2026-10-23T14:45:00Z",
+        "price": 18.876
+      },
+      {
+        "t": "2026-10-23T14:50:00Z",
+        "price": 18.9
+      },
+      {
+        "t": "2026-10-23T14:55:00Z",
+        "price": 18.906
+      },
+      {
+        "t": "2026-10-23T15:00:00Z",
+        "price": 18.866
+      },
+      {
+        "t": "2026-10-23T15:15:00Z",
+        "price": 18.896
+      },
+      {
+        "t": "2026-10-23T15:25:00Z",
+        "price": 18.924
+      },
+      {
+        "t": "2026-10-23T15:30:00Z",
+        "price": 18.896
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "iShares MSCI Global Semiconductors UCITS ETF USD Acc (SEC0.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PNE4tbEVtNENqZ3pNNnN4aDY3eko2dk9KZUxmWmVOaW03SHZMUVJEVG5SclB2ZGFsT0NaSGpXb2pKUlM2SXdtajBoclRGWEU0LXRVTlV3?oc=5",
-        "published_at": "2022-04-01T09:58:06Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 9
-      },
       {
         "title": "Amundi Global Memory Chips UCITS ETF Accumulation (DRUP.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hRk50U3BDNXJDNkNMUGNNcWFGQnJmMUhiZTAwVlZ2MTNwcDlQRS1pUW5BYl9oa3Q2cGZ1UHFvWTFEcVFwcnZnRnByd281SjhYR1VNNHR3?oc=5",
@@ -621,6 +705,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
+      },
+      {
+        "title": "iShares Automation & Robotics UCITS ETF - USD ACC, ETF, IE00BYZK4552 - Comdirect",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Jc050cUpFc01aV0hjX09TME5KT3hxQzByWWhHUmk1bWdteU42STVESjVOemJodFdNa3VtYkVzN0pvVmZFVHpvYlFlWWJTTjlCa0V4SEg5TGRZdw?oc=5",
+        "published_at": "2019-01-08T08:47:34Z",
+        "source": "Comdirect",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 47
       },
       {
         "title": "Xtrackers CSI300 Swap UCITS ETF 1C (XCHA.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
