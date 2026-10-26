@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$171.54",
-      "note": "Auto-Update: 8.65% vs. vorheriger Schlusskurs",
+      "value": "$173.25",
+      "note": "Auto-Update: 9.74% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-26T19:38:47Z",
+    "last_update_utc": "2026-10-26T23:26:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 171.54,
+      "regularMarketPrice": 173.25,
       "previousClose": 157.88,
-      "change": 13.66,
-      "changePercent": 8.65,
-      "regularMarketTime": "2026-10-26T19:38:37Z",
+      "change": 15.37,
+      "changePercent": 9.74,
+      "regularMarketTime": "2026-10-26T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -330,7 +330,7 @@
       },
       {
         "t": "2026-10-26T13:30:00Z",
-        "price": 171.54
+        "price": 173.25
       }
     ],
     "price_history_1d": [
@@ -628,11 +628,27 @@
       },
       {
         "t": "2026-10-26T19:35:00Z",
-        "price": 171.265
+        "price": 172.28
       },
       {
-        "t": "2026-10-26T19:38:37Z",
-        "price": 171.54
+        "t": "2026-10-26T19:40:00Z",
+        "price": 172.19
+      },
+      {
+        "t": "2026-10-26T19:45:00Z",
+        "price": 172.14
+      },
+      {
+        "t": "2026-10-26T19:50:00Z",
+        "price": 172.36
+      },
+      {
+        "t": "2026-10-26T19:55:00Z",
+        "price": 173.33
+      },
+      {
+        "t": "2026-10-26T20:00:00Z",
+        "price": 173.25
       }
     ],
     "price_history_range": "1mo",
@@ -692,22 +708,6 @@
         "published_at": "2026-10-15T22:59:18Z",
         "source": "AD HOC NEWS",
         "query": "\"Guardant Health\" Shield blood test news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health: Board-Mitglied Alex M. Azar II veräußert Aktien im Wert von 11.032 US-Dollar - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQazJLRVQ3SFpMdll0YURjZTNOQnBOTDVjUzdHSVVzeVNFVUxVWjVGMWgtREtwbS1adnhzMG9VX09tZk5yZThpMnV5ejdyYkVlcXUzd1dnX0J0eGN2QVhaT2w5Ql8wWlZQY3ZYLWdZejE5cEVUV3BlS0NsTkhqX2lyYXRYZ2JxQ05rb0NyVWM1Um9waWNzdVRvdV84dmVjMjRCUzZ3Zzk4VmR1Q2RKa1BPenV1cFA0S3NRM2J2VThIajk5dG5DYlJ6Q29hRGcyM0N2R04tN1BHVTRpUTdjYmp6ODJmbGM3Rm8?oc=5",
-        "published_at": "2026-10-15T22:32:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -788,22 +788,6 @@
         "published_at": "2026-07-10T07:00:00Z",
         "source": "aktien.news",
         "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health und Quest Diagnostics kooperieren zur Erweiterung von blutbasiertem Krebstest - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPd1V2bFJSem1WMzNWbHV4UERTa05waTZvUV9SNW9uNy13YkVRMmdkM1c2TXI2WnRFckE3cXFuQXFWUnZFR3VkakE1TTliSVgxeU5YNHdMMTRsM3R1cEdMM0NudHg1YUdlUTBPUzQtQ09oajN1a0FaZm0zQ1V0b1I3MnVZZmdjWXp2S0haS3ZjalhWQ1dzSVRGeGdyUFViYWZsSV9jblh3aEp3QXR0X2hiZEwwbGNuRjV0S2toS3NXNFNadlpMR0FZVlJQQzFPZG5Fak90M0ZPanJDemNNTmNIa1dSdw?oc=5",
-        "published_at": "2025-09-24T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" Shield blood test news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$3.80",
-      "note": "Auto-Update: 5.35% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: 5.26% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-26T19:39:12Z",
+    "last_update_utc": "2026-10-26T23:27:12Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.803,
+      "regularMarketPrice": 3.8,
       "previousClose": 3.61,
-      "change": 0.193,
-      "changePercent": 5.35,
-      "regularMarketTime": "2026-10-26T19:39:03Z",
+      "change": 0.19,
+      "changePercent": 5.26,
+      "regularMarketTime": "2026-10-26T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -395,7 +395,7 @@
       },
       {
         "t": "2026-10-26T13:30:00Z",
-        "price": 3.803
+        "price": 3.8
       }
     ],
     "price_history_1d": [
@@ -693,16 +693,48 @@
       },
       {
         "t": "2026-10-26T19:35:00Z",
-        "price": 3.8001
+        "price": 3.8
       },
       {
-        "t": "2026-10-26T19:39:03Z",
-        "price": 3.803
+        "t": "2026-10-26T19:40:00Z",
+        "price": 3.795
+      },
+      {
+        "t": "2026-10-26T19:45:00Z",
+        "price": 3.795
+      },
+      {
+        "t": "2026-10-26T19:50:00Z",
+        "price": 3.79
+      },
+      {
+        "t": "2026-10-26T19:55:00Z",
+        "price": 3.805
+      },
+      {
+        "t": "2026-10-26T20:00:00Z",
+        "price": 3.8
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Recursion Pharmaceuticals bepreist Kapitalerhöhung über 200 Millionen $ - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTFhYTGMyWmlfOEVqaktOU21tN3hvdk5OdEt0bU1LMF9oSWxCWkdMaVJzOTVKd3hST3VMRTZZek9iZ0p1VnVjeHdweDZET19Ga3lNbGZvQTlvMk9mejRiaWk2TUh6cDd5S09acFBvX19yTEZVSG94Q0ZmNGwzcEctdFo0bnY0TTd2SXlScWJ4VVZoUm0xUEJKR1dCOEc4XzJWelRZbzhkeVdscFVRUDd0RFZZR2EzeEhtMnpOa3JtOTdUWkFk?oc=5",
+        "published_at": "2026-10-15T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Finanzierung / Verwässerung",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "summary": "Trigger erkannt: Finanzierung / Verwässerung. Einordnung: Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern. Beobachten: Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "relevance_score": 19
+      },
       {
         "title": "Recursion Pharmaceuticals: Direktor verkauft Aktien im Wert von 125.000 $ - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa1c4bTFGZmt2Qjlka3NYUkItQWJSV3pCbHBNVFQzenh5ZlBUa1paMWlNUGwtVGV2Rm15Wld2RC1tYTQ5VjRvU1ZsbzBELUJyTWVkcGpEREdnYm9MeG1wUGFMYmFudDZTUkZNOFlQbUxmZ3lzTjRDdUlrSlFYa2Q3RFZuMU8zcXJZOXJLSGg1R18yejRWYTNlRDZMR1drWFFOamh1Qnd5UFIyLWh6Q0ZLd21iclRlemNHU05Bc2tSQ2k4T2ExZHJDVUVEQXd5NnM?oc=5",
@@ -1110,6 +1142,18 @@
         "date": "2026-10-15"
       },
       {
+        "type": "Finanzierung / Verwässerung",
+        "level": "high",
+        "title": "Recursion Pharmaceuticals bepreist Kapitalerhöhung über 200 Millionen $ - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Finanzierung / Verwässerung.",
+        "impact": "hohes Risiko für Kursdruck",
+        "assessment": "Finanzierungs- und Offering-Meldungen können kurzfristig stark belasten, weil sie Verwässerung oder Kapitalbedarf signalisieren können. Gleichzeitig kann frisches Kapital den Runway verlängern.",
+        "watch": "Volumen, Preis je Aktie, Warrants, ATM/Shelf-Struktur und Cash Runway prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-10-15T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTFhYTGMyWmlfOEVqaktOU21tN3hvdk5OdEt0bU1LMF9oSWxCWkdMaVJzOTVKd3hST3VMRTZZek9iZ0p1VnVjeHdweDZET19Ga3lNbGZvQTlvMk9mejRiaWk2TUh6cDd5S09acFBvX19yTEZVSG94Q0ZmNGwzcEctdFo0bnY0TTd2SXlScWJ4VVZoUm0xUEJKR1dCOEc4XzJWelRZbzhkeVdscFVRUDd0RFZZR2EzeEhtMnpOa3JtOTdUWkFk?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "medium",
         "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
@@ -1316,14 +1360,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-10-06"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-07",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-10-07"
       },
       {
         "type": "SEC Filing",

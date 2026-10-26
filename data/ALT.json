@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.03",
-      "note": "Auto-Update: -8.97% vs. vorheriger Schlusskurs",
+      "value": "$2.05",
+      "note": "Auto-Update: -8.07% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-26T19:38:29Z",
+    "last_update_utc": "2026-10-26T23:26:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.03,
+      "regularMarketPrice": 2.05,
       "previousClose": 2.23,
-      "change": -0.2,
-      "changePercent": -8.97,
-      "regularMarketTime": "2026-10-26T19:38:00Z",
+      "change": -0.18,
+      "changePercent": -8.07,
+      "regularMarketTime": "2026-10-26T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -413,7 +413,7 @@
       },
       {
         "t": "2026-10-26T13:30:00Z",
-        "price": 2.03
+        "price": 2.05
       }
     ],
     "price_history_1d": [
@@ -711,11 +711,27 @@
       },
       {
         "t": "2026-10-26T19:35:00Z",
+        "price": 2.035
+      },
+      {
+        "t": "2026-10-26T19:40:00Z",
+        "price": 2.02
+      },
+      {
+        "t": "2026-10-26T19:45:00Z",
+        "price": 2.035
+      },
+      {
+        "t": "2026-10-26T19:50:00Z",
         "price": 2.03
       },
       {
-        "t": "2026-10-26T19:38:00Z",
-        "price": 2.03
+        "t": "2026-10-26T19:55:00Z",
+        "price": 2.045
+      },
+      {
+        "t": "2026-10-26T20:00:00Z",
+        "price": 2.05
       }
     ],
     "price_history_range": "1mo",
@@ -848,22 +864,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 6
-      },
-      {
-        "title": "Altimmune-Aktie fällt nach Ergebnissen der MASH-Behandlungsstudie - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYVpuaExvcVVsRllmYnBqUnZlbmktS2NUblNmcl9jVGZwVGtyOWdDUXcwX1lObURUY0hoRldwYW94dTZOcFNXVmFWa3FJLTE4QXhWVW14X0JJQmQzVjFFYzI4OG4wNzVNQWozakdEYU1mMmh0ZklJbW9xWlNuRnRPZF9KWEhfcDM4dWYtZ19rMGJnQkp1RGxveUU5WHpoTG9kTzFsUVNYbjZWRzAzd1c2Um9mQ1lWbUJhNFBST2duVy1udw?oc=5",
-        "published_at": "2025-06-26T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Altimmune ALT pemvidutide stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Altimmune Inc Aktie | Kurs | Dividende | Nachrichten (A2N5Z6, US02155H2004) - extraETF",
