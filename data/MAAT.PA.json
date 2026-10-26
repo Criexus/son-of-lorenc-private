@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.07",
-      "note": "Auto-Update: 4.9% vs. vorheriger Schlusskurs",
+      "value": "$1.06",
+      "note": "Auto-Update: 4.12% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -131,15 +131,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-26T13:42:35Z",
+    "last_update_utc": "2026-10-26T19:38:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 1.07,
+      "regularMarketPrice": 1.062,
       "previousClose": 1.02,
-      "change": 0.05,
-      "changePercent": 4.9,
-      "regularMarketTime": "2026-10-26T13:14:11Z",
+      "change": 0.042,
+      "changePercent": 4.12,
+      "regularMarketTime": "2026-10-26T16:35:16Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -236,7 +236,7 @@
       },
       {
         "t": "2026-10-26T08:00:00Z",
-        "price": 1.07
+        "price": 1.062
       }
     ],
     "price_history_1d": [
@@ -321,29 +321,69 @@
         "price": 1.078
       },
       {
-        "t": "2026-10-26T13:14:11Z",
+        "t": "2026-10-26T13:10:00Z",
         "price": 1.07
+      },
+      {
+        "t": "2026-10-26T14:00:00Z",
+        "price": 1.054
+      },
+      {
+        "t": "2026-10-26T14:05:00Z",
+        "price": 1.054
+      },
+      {
+        "t": "2026-10-26T14:30:00Z",
+        "price": 1.038
+      },
+      {
+        "t": "2026-10-26T14:45:00Z",
+        "price": 1.046
+      },
+      {
+        "t": "2026-10-26T14:50:00Z",
+        "price": 1.042
+      },
+      {
+        "t": "2026-10-26T14:55:00Z",
+        "price": 1.06
+      },
+      {
+        "t": "2026-10-26T15:00:00Z",
+        "price": 1.07
+      },
+      {
+        "t": "2026-10-26T15:05:00Z",
+        "price": 1.072
+      },
+      {
+        "t": "2026-10-26T15:10:00Z",
+        "price": 1.062
+      },
+      {
+        "t": "2026-10-26T15:25:00Z",
+        "price": 1.062
+      },
+      {
+        "t": "2026-10-26T15:40:00Z",
+        "price": 1.062
+      },
+      {
+        "t": "2026-10-26T16:00:00Z",
+        "price": 1.07
+      },
+      {
+        "t": "2026-10-26T16:20:00Z",
+        "price": 1.07
+      },
+      {
+        "t": "2026-10-26T16:30:00Z",
+        "price": 1.062
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
-      {
-        "title": "MAAT PHARMA-Aktie über 20-Tage-Linie - boerse.de",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjJYT1BiZE80NmdOa24yd2NybGd3TEZhNjE3eDNTTEdWUjVTR0NYVERfQkxuSXNCUHcxTmE1SkxlRVJ3bUJnQU0yWkFhaVFIdUdLZEIwaUEyQ0hxRUNtWkFpdkR6YTRnZ2xlZkdReDJGYmZHZGd4VDA3dmlvTjZkclo5N0E5N2M?oc=5",
-        "published_at": "2026-10-24T06:14:00Z",
-        "source": "boerse.de",
-        "query": "\"MaaT Pharma\" stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 10
-      },
       {
         "title": "Maat Pharma Aktie: FDA unterstützt MaaT034-Entwicklung - ad-hoc-news.de",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ2xiQ0EwUUpEdDBsaVoyaXhsUWtZUEwzVGZpdjFFZENLcFl2dkhHYTMwTlVOQlBJOGZLYUxidy0yaEVjYWJCaWVHdWxSOGtQME9mYWtJdEQtMkt4THJmbmpGQTRTTjI0aDUtUWt4RFJlc2Frd2kyV2JXZW1ZMU03aG0zSndKbW9iTzZua3Z1Q2VRYXFiUlBYS1NrWThaQ2NEekMtVmFlMXFIZkRIOFhRRFgtbnFyazRzeFNHV09waF9JeWxo?oc=5",
