@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.39",
-      "note": "Auto-Update: 717.38% vs. vorheriger Schlusskurs",
+      "value": "$3.19",
+      "note": "Auto-Update: -5.95% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-26T06:32:19Z",
+    "last_update_utc": "2026-10-26T13:41:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.3864,
-      "previousClose": 0.4143,
-      "change": 2.9721,
-      "changePercent": 717.38,
-      "regularMarketTime": "2026-10-23T20:00:01Z",
+      "regularMarketPrice": 3.185,
+      "previousClose": 3.3864,
+      "change": -0.2014,
+      "changePercent": -5.95,
+      "regularMarketTime": "2026-10-26T13:34:45Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -210,8 +210,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 357.6,
-      "fiftyTwoWeekLow": 0.3845,
-      "fiftyTwoWeekRange": "0.3845 – 357.6"
+      "fiftyTwoWeekLow": 2.6968,
+      "fiftyTwoWeekRange": "2.6968 – 357.6"
     },
     "price_history": [
       {
@@ -309,180 +309,16 @@
       {
         "t": "2026-10-26T06:32:19Z",
         "price": 3.3864
+      },
+      {
+        "t": "2026-10-26T13:41:45Z",
+        "price": 3.185
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-23T13:30:00Z",
-        "price": 0.387
-      },
-      {
-        "t": "2026-10-23T13:45:00Z",
-        "price": 0.415
-      },
-      {
-        "t": "2026-10-23T13:55:00Z",
-        "price": 0.4106
-      },
-      {
-        "t": "2026-10-23T14:00:00Z",
-        "price": 0.4076
-      },
-      {
-        "t": "2026-10-23T14:05:00Z",
-        "price": 0.413
-      },
-      {
-        "t": "2026-10-23T14:10:00Z",
-        "price": 0.4138
-      },
-      {
-        "t": "2026-10-23T14:15:00Z",
-        "price": 0.4133
-      },
-      {
-        "t": "2026-10-23T14:30:00Z",
-        "price": 0.4015
-      },
-      {
-        "t": "2026-10-23T14:40:00Z",
-        "price": 0.41
-      },
-      {
-        "t": "2026-10-23T14:55:00Z",
-        "price": 0.403
-      },
-      {
-        "t": "2026-10-23T15:00:00Z",
-        "price": 0.4029
-      },
-      {
-        "t": "2026-10-23T15:05:00Z",
-        "price": 0.4139
-      },
-      {
-        "t": "2026-10-23T15:10:00Z",
-        "price": 0.4158
-      },
-      {
-        "t": "2026-10-23T15:15:00Z",
-        "price": 0.4199
-      },
-      {
-        "t": "2026-10-23T15:20:00Z",
-        "price": 0.42
-      },
-      {
-        "t": "2026-10-23T15:25:00Z",
-        "price": 0.4233
-      },
-      {
-        "t": "2026-10-23T15:30:00Z",
-        "price": 0.4203
-      },
-      {
-        "t": "2026-10-23T15:45:00Z",
-        "price": 0.4201
-      },
-      {
-        "t": "2026-10-23T15:50:00Z",
-        "price": 0.4154
-      },
-      {
-        "t": "2026-10-23T15:55:00Z",
-        "price": 0.43
-      },
-      {
-        "t": "2026-10-23T16:00:00Z",
-        "price": 0.422
-      },
-      {
-        "t": "2026-10-23T16:05:00Z",
-        "price": 0.42
-      },
-      {
-        "t": "2026-10-23T16:10:00Z",
-        "price": 0.4187
-      },
-      {
-        "t": "2026-10-23T16:15:00Z",
-        "price": 0.4201
-      },
-      {
-        "t": "2026-10-23T16:30:00Z",
-        "price": 0.4201
-      },
-      {
-        "t": "2026-10-23T16:35:00Z",
-        "price": 0.4201
-      },
-      {
-        "t": "2026-10-23T16:40:00Z",
-        "price": 0.4101
-      },
-      {
-        "t": "2026-10-23T16:45:00Z",
-        "price": 0.4181
-      },
-      {
-        "t": "2026-10-23T17:10:00Z",
-        "price": 0.4059
-      },
-      {
-        "t": "2026-10-23T17:20:00Z",
-        "price": 0.41
-      },
-      {
-        "t": "2026-10-23T17:30:00Z",
-        "price": 0.4105
-      },
-      {
-        "t": "2026-10-23T17:50:00Z",
-        "price": 0.4111
-      },
-      {
-        "t": "2026-10-23T18:05:00Z",
-        "price": 0.4102
-      },
-      {
-        "t": "2026-10-23T18:25:00Z",
-        "price": 0.4091
-      },
-      {
-        "t": "2026-10-23T18:30:00Z",
-        "price": 0.4122
-      },
-      {
-        "t": "2026-10-23T19:10:00Z",
-        "price": 0.4218
-      },
-      {
-        "t": "2026-10-23T19:20:00Z",
-        "price": 0.4218
-      },
-      {
-        "t": "2026-10-23T19:30:00Z",
-        "price": 0.4101
-      },
-      {
-        "t": "2026-10-23T19:35:00Z",
-        "price": 0.4128
-      },
-      {
-        "t": "2026-10-23T19:45:00Z",
-        "price": 0.4219
-      },
-      {
-        "t": "2026-10-23T19:50:00Z",
-        "price": 0.4082
-      },
-      {
-        "t": "2026-10-23T19:55:00Z",
-        "price": 0.42
-      },
-      {
-        "t": "2026-10-23T20:00:00Z",
-        "price": 3.3864
+        "t": "2026-10-26T13:34:45Z",
+        "price": 3.185
       }
     ],
     "price_history_range": "1mo",
@@ -665,14 +501,14 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05324501",
-        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
-        "status": "TERMINATED",
-        "phase": "PHASE1",
-        "conditions": "Recurrent Glioblastoma",
+        "nct_id": "NCT06950385",
+        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Familial Adenomatous Polyposis (FAP)",
         "last_update": "",
-        "start_date": "2022-10-19",
-        "url": "https://clinicaltrials.gov/study/NCT05324501"
+        "start_date": "2025-07-18",
+        "url": "https://clinicaltrials.gov/study/NCT06950385"
       },
       {
         "nct_id": "NCT07689942",
@@ -695,14 +531,14 @@
         "url": "https://clinicaltrials.gov/study/NCT04230499"
       },
       {
-        "nct_id": "NCT06950385",
-        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Familial Adenomatous Polyposis (FAP)",
+        "nct_id": "NCT05324501",
+        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Glioblastoma",
         "last_update": "",
-        "start_date": "2025-07-18",
-        "url": "https://clinicaltrials.gov/study/NCT06950385"
+        "start_date": "2022-10-19",
+        "url": "https://clinicaltrials.gov/study/NCT05324501"
       }
     ],
     "detected_triggers": [
