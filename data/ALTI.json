@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.52",
-      "note": "Auto-Update: -5.43% vs. vorheriger Schlusskurs",
+      "value": "$2.53",
+      "note": "Auto-Update: -5.24% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-27T19:45:40Z",
+    "last_update_utc": "2026-10-27T23:19:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.525,
+      "regularMarketPrice": 2.53,
       "previousClose": 2.67,
-      "change": -0.145,
-      "changePercent": -5.43,
-      "regularMarketTime": "2026-10-27T19:44:36Z",
+      "change": -0.14,
+      "changePercent": -5.24,
+      "regularMarketTime": "2026-10-27T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -326,7 +326,7 @@
       },
       {
         "t": "2026-10-27T13:30:00Z",
-        "price": 2.525
+        "price": 2.53
       }
     ],
     "price_history_1d": [
@@ -548,11 +548,19 @@
       },
       {
         "t": "2026-10-27T19:40:00Z",
-        "price": 2.515
+        "price": 2.525
       },
       {
-        "t": "2026-10-27T19:44:36Z",
-        "price": 2.525
+        "t": "2026-10-27T19:50:00Z",
+        "price": 2.51
+      },
+      {
+        "t": "2026-10-27T19:55:00Z",
+        "price": 2.52
+      },
+      {
+        "t": "2026-10-27T20:00:00Z",
+        "price": 2.53
       }
     ],
     "price_history_range": "1mo",
@@ -563,7 +571,7 @@
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQVdpd3YxOXJXSkpWTXU4RVZ1QjVKQmFYcFQzRnlJSndJamEtcVNGYW1TRlJuQ0ZvekFUcWUzdVp0TlBQcFNYREQ5cGhDV01WNnZJaFpaUG00bWY1N0Z0MDNQdDJqa3ZpYmNfcmRjWkpodklQczFldFAzN2pDUk4tVmpYRWtzcUdVb0tXYkJNdGoxdHRYSU56UURpTm9ZcklaYVpsemRSbURKZmJmdnZvVThmMF9GY1BPcEJJYm1Daw?oc=5",
         "published_at": "2026-10-20T12:54:00Z",
         "source": "Investing.com Deutsch",
-        "query": "AlTi Global, Inc. ALTI stock news",
+        "query": "ALTI ALTI stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -572,7 +580,7 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 8
+        "relevance_score": 7
       },
       {
         "title": "ASML: AlTi Global reduziert um 76,3 Prozent - Börse Express",
