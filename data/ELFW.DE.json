@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$44.80",
-      "note": "Auto-Update: 0.05% vs. vorheriger Schlusskurs",
+      "value": "$45.00",
+      "note": "Auto-Update: 0.5% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -135,15 +135,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-27T08:06:17Z",
+    "last_update_utc": "2026-10-27T14:45:00Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 44.799,
+      "regularMarketPrice": 45.0,
       "previousClose": 44.778,
-      "change": 0.021,
-      "changePercent": 0.05,
-      "regularMarketTime": "2026-10-26T16:36:10Z",
+      "change": 0.222,
+      "changePercent": 0.5,
+      "regularMarketTime": "2026-10-27T13:49:34Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -237,9 +237,54 @@
       {
         "t": "2026-10-23T07:00:00Z",
         "price": 44.585
+      },
+      {
+        "t": "2026-10-26T08:00:00Z",
+        "price": 44.799
+      },
+      {
+        "t": "2026-10-27T08:00:00Z",
+        "price": 45.0
       }
     ],
-    "price_history_1d": [],
+    "price_history_1d": [
+      {
+        "t": "2026-10-27T08:05:00Z",
+        "price": 44.862
+      },
+      {
+        "t": "2026-10-27T08:35:00Z",
+        "price": 44.815
+      },
+      {
+        "t": "2026-10-27T10:00:00Z",
+        "price": 44.949
+      },
+      {
+        "t": "2026-10-27T10:35:00Z",
+        "price": 44.958
+      },
+      {
+        "t": "2026-10-27T10:40:00Z",
+        "price": 44.974
+      },
+      {
+        "t": "2026-10-27T12:10:00Z",
+        "price": 45.028
+      },
+      {
+        "t": "2026-10-27T13:20:00Z",
+        "price": 45.006
+      },
+      {
+        "t": "2026-10-27T13:45:00Z",
+        "price": 45.0
+      },
+      {
+        "t": "2026-10-27T13:49:34Z",
+        "price": 45.0
+      }
+    ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [],

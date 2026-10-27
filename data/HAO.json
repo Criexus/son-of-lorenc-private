@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.96",
-      "note": "Auto-Update: -4.85% vs. vorheriger Schlusskurs",
+      "value": "$1.81",
+      "note": "Auto-Update: -15.42% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-27T08:05:59Z",
+    "last_update_utc": "2026-10-27T14:44:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.96,
-      "previousClose": 2.06,
-      "change": -0.1,
-      "changePercent": -4.85,
-      "regularMarketTime": "2026-10-26T20:00:00Z",
+      "regularMarketPrice": 1.81,
+      "previousClose": 2.14,
+      "change": -0.33,
+      "changePercent": -15.42,
+      "regularMarketTime": "2026-10-27T14:40:42Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -211,8 +211,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 4352.0,
-      "fiftyTwoWeekLow": 1.9,
-      "fiftyTwoWeekRange": "1.9 – 4352.0"
+      "fiftyTwoWeekLow": 1.68,
+      "fiftyTwoWeekRange": "1.68 – 4352.0"
     },
     "price_history": [
       {
@@ -298,56 +298,60 @@
       {
         "t": "2026-10-26T13:30:00Z",
         "price": 1.96
+      },
+      {
+        "t": "2026-10-27T13:30:00Z",
+        "price": 1.81
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-26T13:30:00Z",
-        "price": 2.02
+        "t": "2026-10-27T13:30:00Z",
+        "price": 1.72
       },
       {
-        "t": "2026-10-26T13:45:00Z",
-        "price": 1.99
+        "t": "2026-10-27T13:35:00Z",
+        "price": 1.75
       },
       {
-        "t": "2026-10-26T14:35:00Z",
-        "price": 2.0
+        "t": "2026-10-27T13:40:00Z",
+        "price": 1.75
       },
       {
-        "t": "2026-10-26T16:10:00Z",
-        "price": 1.95
+        "t": "2026-10-27T13:45:00Z",
+        "price": 1.7
       },
       {
-        "t": "2026-10-26T16:25:00Z",
-        "price": 1.929
+        "t": "2026-10-27T13:55:00Z",
+        "price": 1.7
       },
       {
-        "t": "2026-10-26T16:40:00Z",
-        "price": 1.925
+        "t": "2026-10-27T14:05:00Z",
+        "price": 1.71
       },
       {
-        "t": "2026-10-26T16:45:00Z",
-        "price": 1.91
+        "t": "2026-10-27T14:10:00Z",
+        "price": 1.71
       },
       {
-        "t": "2026-10-26T17:05:00Z",
-        "price": 2.0
+        "t": "2026-10-27T14:15:00Z",
+        "price": 1.71
       },
       {
-        "t": "2026-10-26T17:15:00Z",
-        "price": 2.01
+        "t": "2026-10-27T14:20:00Z",
+        "price": 1.7499
       },
       {
-        "t": "2026-10-26T17:20:00Z",
-        "price": 2.01
+        "t": "2026-10-27T14:25:00Z",
+        "price": 1.815
       },
       {
-        "t": "2026-10-26T17:25:00Z",
-        "price": 2.01
+        "t": "2026-10-27T14:30:00Z",
+        "price": 1.78
       },
       {
-        "t": "2026-10-26T20:00:00Z",
-        "price": 1.96
+        "t": "2026-10-27T14:40:42Z",
+        "price": 1.81
       }
     ],
     "price_history_range": "1mo",
@@ -514,154 +518,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05086536",
-        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
+        "nct_id": "NCT06120413",
+        "title": "18F-LN1 PET/CT in Urothelial Carcinomas",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Hepatitis B, Decompensated Cirrhosis",
+        "conditions": "Urothelial Carcinoma",
         "last_update": "",
-        "start_date": "2021-10-15",
-        "url": "https://clinicaltrials.gov/study/NCT05086536"
+        "start_date": "2023-11-01",
+        "url": "https://clinicaltrials.gov/study/NCT06120413"
       },
       {
-        "nct_id": "NCT00076544",
-        "title": "Ziconotide Effectiveness and Safety Trial in Patients With Chronic Severe Pain",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Pain",
-        "last_update": "",
-        "start_date": "2004-02",
-        "url": "https://clinicaltrials.gov/study/NCT00076544"
-      },
-      {
-        "nct_id": "NCT06807151",
-        "title": "Leveraging Plasma Concentration Levels to Optimize Extracorporeal Treatment in Acute Diquat Poisoning",
+        "nct_id": "NCT03829852",
+        "title": "Regorafenib in Taiwan Metastatic Colorectal Cancer (mCRC) Patients",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Diquat Poisoning, Blood Purification",
+        "conditions": "Metastatic Colorectal Cancer",
         "last_update": "",
-        "start_date": "2022-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT06807151"
+        "start_date": "2019-02-11",
+        "url": "https://clinicaltrials.gov/study/NCT03829852"
       },
       {
-        "nct_id": "NCT07157163",
-        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Influenza Vaccine, Healthcare Workers",
-        "last_update": "",
-        "start_date": "2025-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT07157163"
-      },
-      {
-        "nct_id": "NCT06453135",
-        "title": "Eculizumab for Prevention of Antibody-Mediated Rejection in ABO-Incompatible Living Donor Kidney Transplantation",
-        "status": "UNKNOWN",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Kidney Transplantation",
-        "last_update": "",
-        "start_date": "2024-07",
-        "url": "https://clinicaltrials.gov/study/NCT06453135"
-      },
-      {
-        "nct_id": "NCT01920984",
-        "title": "Vitreous Levels of Cysteine-rich 61 in Patients With Proliferative Diabetic Retinopathy",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Proliferative Diabetic Retinopathy",
-        "last_update": "",
-        "start_date": "2005-01",
-        "url": "https://clinicaltrials.gov/study/NCT01920984"
-      },
-      {
-        "nct_id": "NCT05850871",
-        "title": "Drug Resistance Mechanism of Enterobacteriaceae and Its Strategies",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Carbapenem-Resistant Enterobacteriaceae Infection",
-        "last_update": "",
-        "start_date": "2023-01-06",
-        "url": "https://clinicaltrials.gov/study/NCT05850871"
-      },
-      {
-        "nct_id": "NCT06029764",
-        "title": "Extended One-level Interbody Fusion for Adjacent Vacuum Phenomenon in Lumbar Degenerative Disc Disease",
+        "nct_id": "NCT06833645",
+        "title": "[18F]AV45(Aβ) and [18F]AV1451(Tau)PET/CT in the Diagnosis of Early Pathological Changes of Alzheimer's Disease",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Adjacent Segment Degeneration",
+        "phase": "",
+        "conditions": "Alzheimer's Disease",
         "last_update": "",
-        "start_date": "2023-02-01",
-        "url": "https://clinicaltrials.gov/study/NCT06029764"
+        "start_date": "2024-05-10",
+        "url": "https://clinicaltrials.gov/study/NCT06833645"
       },
       {
-        "nct_id": "NCT04014478",
-        "title": "A Clinical Trial to Evaluate Safety and Efficacy of Endovascualr Denervation in Treatment of Cancer Pain",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Liver Cancer, Pancreas Cancer, Stomach Cancer, Bile Duct Cancer",
-        "last_update": "",
-        "start_date": "2019-07-15",
-        "url": "https://clinicaltrials.gov/study/NCT04014478"
-      },
-      {
-        "nct_id": "NCT07649421",
-        "title": "PSMA PET/CT-Guided SBRT Plus Darolutamide in mHSPC",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Metastatic Hormone-Sensitive Prostate Cancer (mHSPC)",
-        "last_update": "",
-        "start_date": "2026-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT07649421"
-      },
-      {
-        "nct_id": "NCT07789184",
-        "title": "Radical Surgery Versus Non-Surgery in Gastric Cancer Patients With Peritoneal Metastasis After Successful Conversion Therapy",
+        "nct_id": "NCT06771479",
+        "title": "A Study Evaluating the Safety and Immunogenicity of MVA Strain Monkeypox Attenuated Live Vaccine",
         "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Gastric Cancer, Peritoneal Metastasis",
+        "phase": "PHASE1",
+        "conditions": "Monkeypox",
         "last_update": "",
-        "start_date": "2026-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT07789184"
+        "start_date": "2025-01-22",
+        "url": "https://clinicaltrials.gov/study/NCT06771479"
       },
       {
-        "nct_id": "NCT05896787",
-        "title": "Candonilimab (AK104) Plus Preoperative Chemotherapy for Locally Advanced Esophageal Squamous Cell Carcinoma (ESCC)",
+        "nct_id": "NCT05372120",
+        "title": "A Clinical Trial of ICP-192 in Treated Patients With Advanced Solid Tumors With FGF/FGFR Gene Alterations",
         "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Esophageal Squamous Cell Carcinoma",
+        "conditions": "Advanced Solid Tumor",
         "last_update": "",
-        "start_date": "2023-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05896787"
+        "start_date": "2021-12-15",
+        "url": "https://clinicaltrials.gov/study/NCT05372120"
       },
       {
-        "nct_id": "NCT05981924",
-        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
+        "nct_id": "NCT05593146",
+        "title": "A Randomized Controlled Study Evaluating Modified Cup Anteversion Placement in Prevention of Postoperative Dislocation in Patients Undergoing Acetabular Tumor Resection and Reconstruction",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Periacetabular Tumor",
+        "last_update": "",
+        "start_date": "2023-04-13",
+        "url": "https://clinicaltrials.gov/study/NCT05593146"
+      },
+      {
+        "nct_id": "NCT06009900",
+        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Pain, Chronic",
+        "last_update": "",
+        "start_date": "2023-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT06009900"
+      },
+      {
+        "nct_id": "NCT06952400",
+        "title": "The Registry Study of Genetic Alterations of Melanoma in Taiwan",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Primary Melanoma of the Extremity",
+        "last_update": "",
+        "start_date": "2022-08-22",
+        "url": "https://clinicaltrials.gov/study/NCT06952400"
+      },
+      {
+        "nct_id": "NCT05386420",
+        "title": "A Safety and Efficacy Study of Hymecromone Tablets for the Treatment of Patients With COVID-19.",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "COVID-19",
+        "last_update": "",
+        "start_date": "2022-05-23",
+        "url": "https://clinicaltrials.gov/study/NCT05386420"
+      },
+      {
+        "nct_id": "NCT06461910",
+        "title": "Efficacy and Safety of Anti-PD-1, Thymalfasin, and SOX in Neoadjuvant Treatment of cStage III Gastric/Gastroesophageal Junction Adenocarcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Gastric Cancer, Esophagogastric Junction Adenocarcinoma",
+        "last_update": "",
+        "start_date": "2024-06-14",
+        "url": "https://clinicaltrials.gov/study/NCT06461910"
+      },
+      {
+        "nct_id": "NCT05458713",
+        "title": "The Effect of Laser Acupuncture in Different Meridians on the Autonomic Nervous System and Its Brain Mechanisms",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Laser Acupuncture, Meridian, Heart Rate Variability, Brain Mechanism",
+        "last_update": "",
+        "start_date": "2022-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT05458713"
+      },
+      {
+        "nct_id": "NCT01846416",
+        "title": "A Study of Atezolizumab in Participants With Programmed Death-Ligand 1 (PD-L1) Positive Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) [FIR]",
         "status": "COMPLETED",
         "phase": "PHASE2",
-        "conditions": "Analgesia, Lung Cancer",
-        "last_update": "",
-        "start_date": "2023-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT05981924"
-      },
-      {
-        "nct_id": "NCT07119190",
-        "title": "A Perioperative Comprehensive Diagnosis and Treatment System for Lung Cancer in the Era of Neoadjuvant Immunotherapy",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "",
         "conditions": "Non-Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2025-08-06",
-        "url": "https://clinicaltrials.gov/study/NCT07119190"
+        "start_date": "2013-05-30",
+        "url": "https://clinicaltrials.gov/study/NCT01846416"
       },
       {
-        "nct_id": "NCT06485609",
-        "title": "Clinical Study of Radical Right Hemicolectomy Versus Radical Right Hemicolectomy Combined with Indocyanine Green Fluorescence Imaging Lymphatic Tracer Dissection for the Treatment of Right Colon Cancer",
+        "nct_id": "NCT07694648",
+        "title": "Clinical Multimodal Surveillance of Respiratory Syndrome Pathogens",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Colon Cancer",
+        "phase": "",
+        "conditions": "Respiratory Tract Infections (RTI), Respiratory Syndrome, Acute, Severe, Acute Respiratory Infections (ARIs)",
         "last_update": "",
-        "start_date": "2024-08-10",
-        "url": "https://clinicaltrials.gov/study/NCT06485609"
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT07694648"
+      },
+      {
+        "nct_id": "NCT04172181",
+        "title": "Multi-center Clinical Study of Cord Blood Stem Cell Transplantation for SCID",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Severe Combined Immunodeficiency Disease",
+        "last_update": "",
+        "start_date": "2019-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT04172181"
+      },
+      {
+        "nct_id": "NCT06798129",
+        "title": "Effects of Extracorporeal Treatment in Patients With Acute Poisoning",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "",
+        "conditions": "Poisoning, Extracorporeal Treatment",
+        "last_update": "",
+        "start_date": "2015-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT06798129"
       }
     ],
     "detected_triggers": [
@@ -684,82 +688,66 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Ziconotide Effectiveness and Safety Trial in Patients With Chronic Severe Pain",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT00076544",
-        "date": "2004-02"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Vitreous Levels of Cysteine-rich 61 in Patients With Proliferative Diabetic Retinopathy",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT01920984",
-        "date": "2005-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Clinical Trial to Evaluate Safety and Efficacy of Endovascualr Denervation in Treatment of Cancer Pain",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT04014478",
-        "date": "2019-07-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Drug Resistance Mechanism of Enterobacteriaceae and Its Strategies",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05850871",
-        "date": "2023-01-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Extended One-level Interbody Fusion for Adjacent Vacuum Phenomenon in Lumbar Degenerative Disc Disease",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06029764",
-        "date": "2023-02-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Candonilimab (AK104) Plus Preoperative Chemotherapy for Locally Advanced Esophageal Squamous Cell Carcinoma (ESCC)",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT05896787",
-        "date": "2023-08-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Perioperative Music Therapy Plus Oxycodone in Perioperative Management of Lung Surgery",
+        "title": "A Study of Atezolizumab in Participants With Programmed Death-Ligand 1 (PD-L1) Positive Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) [FIR]",
         "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT05981924",
-        "date": "2023-08-01"
+        "source": "NCT01846416",
+        "date": "2013-05-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Eculizumab for Prevention of Antibody-Mediated Rejection in ABO-Incompatible Living Donor Kidney Transplantation",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1, PHASE2",
-        "source": "NCT06453135",
-        "date": "2024-07"
+        "title": "A Clinical Trial of ICP-192 in Treated Patients With Advanced Solid Tumors With FGF/FGFR Gene Alterations",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT05372120",
+        "date": "2021-12-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Clinical Study of Radical Right Hemicolectomy Versus Radical Right Hemicolectomy Combined with Indocyanine Green Fluorescence Imaging Lymphatic Tracer Dissection for the Treatment of Right Colon Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06485609",
-        "date": "2024-08-10"
+        "title": "A Safety and Efficacy Study of Hymecromone Tablets for the Treatment of Patients With COVID-19.",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05386420",
+        "date": "2022-05-23"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Nudge and Motivational Interviewing Interventions to Improve Influenza Vaccine Uptake Among Healthcare Workers in China",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07157163",
-        "date": "2025-09-01"
+        "title": "The Effect of Laser Acupuncture in Different Meridians on the Autonomic Nervous System and Its Brain Mechanisms",
+        "reason": "Studienregister-Treffer: COMPLETED NA",
+        "source": "NCT05458713",
+        "date": "2022-11-13"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Randomized Controlled Study Evaluating Modified Cup Anteversion Placement in Prevention of Postoperative Dislocation in Patients Undergoing Acetabular Tumor Resection and Reconstruction",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT05593146",
+        "date": "2023-04-13"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Safety and Efficacy of Low-intensity Laser Therapy in the Treatment of Chronic Musculoskeletal Pain",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT06009900",
+        "date": "2023-09-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Efficacy and Safety of Anti-PD-1, Thymalfasin, and SOX in Neoadjuvant Treatment of cStage III Gastric/Gastroesophageal Junction Adenocarcinoma",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06461910",
+        "date": "2024-06-14"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study Evaluating the Safety and Immunogenicity of MVA Strain Monkeypox Attenuated Live Vaccine",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT06771479",
+        "date": "2025-01-22"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -842,14 +830,6 @@
         "date": "2026-07-13"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "PSMA PET/CT-Guided SBRT Plus Darolutamide in mHSPC",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07649421",
-        "date": "2026-09-15"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "20-F · 2026-09-30",
@@ -859,35 +839,59 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Radical Surgery Versus Non-Surgery in Gastric Cancer Patients With Peritoneal Metastasis After Successful Conversion Therapy",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT07789184",
-        "date": "2026-12-01"
+        "level": "low",
+        "title": "Effects of Extracorporeal Treatment in Patients With Acute Poisoning",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING ",
+        "source": "NCT06798129",
+        "date": "2015-01-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Re-compensation and Its Clinical Characteristics in HBV Decompensated Cirrhosis",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT05086536",
-        "date": "2021-10-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Leveraging Plasma Concentration Levels to Optimize Extracorporeal Treatment in Acute Diquat Poisoning",
+        "title": "Regorafenib in Taiwan Metastatic Colorectal Cancer (mCRC) Patients",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT06807151",
-        "date": "2022-02-01"
+        "source": "NCT03829852",
+        "date": "2019-02-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "A Perioperative Comprehensive Diagnosis and Treatment System for Lung Cancer in the Era of Neoadjuvant Immunotherapy",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING ",
-        "source": "NCT07119190",
-        "date": "2025-08-06"
+        "title": "Multi-center Clinical Study of Cord Blood Stem Cell Transplantation for SCID",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT04172181",
+        "date": "2019-12-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "The Registry Study of Genetic Alterations of Melanoma in Taiwan",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06952400",
+        "date": "2022-08-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "18F-LN1 PET/CT in Urothelial Carcinomas",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT06120413",
+        "date": "2023-11-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "[18F]AV45(Aβ) and [18F]AV1451(Tau)PET/CT in the Diagnosis of Early Pathological Changes of Alzheimer's Disease",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06833645",
+        "date": "2024-05-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Clinical Multimodal Surveillance of Respiratory Syndrome Pathogens",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT07694648",
+        "date": "2025-09-01"
       },
       {
         "type": "SEC Filing",
