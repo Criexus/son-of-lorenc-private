@@ -225,7 +225,7 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-28T20:40:20Z",
+    "last_update_utc": "2026-10-29T00:31:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -331,10 +331,6 @@
       {
         "t": "2026-10-27T13:30:00Z",
         "price": 178.06
-      },
-      {
-        "t": "2026-10-28T13:30:00Z",
-        "price": 182.59
       }
     ],
     "price_history_1d": [
@@ -696,6 +692,22 @@
         "published_at": "2026-10-21T05:04:02Z",
         "source": "News.de",
         "query": "\"Guardant360\" Reveal Guardant Health news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Guardant Health: Director Tariq Musa veräußert Aktien im Wert von 19.242 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOG9fbFQ1Ni1GVy1yVmxjdVp6NjNPT0dmZENCOVE0dTdrR0tyV05CSG9NdkNYSHJyNlM3QXJjTE1LV2MtdWhDUmoyS1htT1VBdFhMVUVYQ2JmSnYxcDFOWDZRdkNrNFFGLVZmZDFkcmdodlR2d0N0cFJxd09CM0tGRHotdXhlRTJnLW4tdGxNQzhEY1BiY0hYQV8xcE40REFlcW5Za1JibnVnX2hueGtFUlllQzgtUEltWUpoQmgtLTJMT1lNQWFiOVk0MUVBanJhVkxfOGdkWGhhcDQ?oc=5",
+        "published_at": "2026-10-20T03:02:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
