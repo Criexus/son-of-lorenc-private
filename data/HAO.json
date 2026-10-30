@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.97",
-      "note": "Auto-Update: -7.08% vs. vorheriger Schlusskurs",
+      "value": "$1.92",
+      "note": "Auto-Update: -9.43% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-10-30T16:05:54Z",
+    "last_update_utc": "2026-10-30T20:56:57Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.97,
+      "regularMarketPrice": 1.92,
       "previousClose": 2.12,
-      "change": -0.15,
-      "changePercent": -7.08,
-      "regularMarketTime": "2026-10-30T15:55:49Z",
+      "change": -0.2,
+      "changePercent": -9.43,
+      "regularMarketTime": "2026-10-30T20:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -305,7 +305,7 @@
       },
       {
         "t": "2026-10-30T13:30:00Z",
-        "price": 1.97
+        "price": 1.92
       }
     ],
     "price_history_1d": [
@@ -346,13 +346,66 @@
         "price": 1.9701
       },
       {
-        "t": "2026-10-30T15:55:49Z",
+        "t": "2026-10-30T15:55:00Z",
         "price": 1.97
+      },
+      {
+        "t": "2026-10-30T16:10:00Z",
+        "price": 1.9
+      },
+      {
+        "t": "2026-10-30T16:20:00Z",
+        "price": 1.99
+      },
+      {
+        "t": "2026-10-30T17:10:00Z",
+        "price": 1.925
+      },
+      {
+        "t": "2026-10-30T17:35:00Z",
+        "price": 1.9079
+      },
+      {
+        "t": "2026-10-30T17:40:00Z",
+        "price": 1.8701
+      },
+      {
+        "t": "2026-10-30T18:05:00Z",
+        "price": 1.86
+      },
+      {
+        "t": "2026-10-30T19:20:00Z",
+        "price": 1.86
+      },
+      {
+        "t": "2026-10-30T19:55:00Z",
+        "price": 1.9
+      },
+      {
+        "t": "2026-10-30T20:00:00Z",
+        "price": 1.92
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Haoxi Health Technology Limited (HAO) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VN19Cbmo0TFFERHVWbmVmMHFDaWlmS1ZHQXhSN2N0eWFjR2RGRjJKVnBTcERLT3ZYdEZTYUtpVE5sNWhaazdMNzNnNGlEWjR2?oc=5",
+        "published_at": "2017-11-06T16:19:20Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      }
+    ],
     "sec_filings": [
       {
         "form": "20-F",
