@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-01T16:14:05Z",
+    "last_update_utc": "2026-11-01T20:39:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -779,6 +779,22 @@
         "published_at": "2026-06-30T07:00:00Z",
         "source": "Börse Express",
         "query": "Altimmune ALT pemvidutide stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Altimmune startet mit Outperform und $10 Kursziel: Pemvidutide als Schlüssel in der MASH-Wette - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUjRMWk5mclFzX0M1M2FUZmdzWl9yTDhNNUZBY1pfSTdHdTlmaWt1UnYyMm56aVNZNmlkUmprTGI4aHhGcW5YZ1lPMTZZSUszbjBjdWxqeE9GWW1kakF2dnczVlJjTEZmbG1GUXdtU293WFFkbElWVmZmNW52OVNOVXNjTk5nS0N5TE1RTWo5d2FxLWFUUlhlazV5ZkpQMW9RSFUtWVZlRjA3by04YjFXSDNlV2lBMkhVYUVONG05Yk5oUQ?oc=5",
+        "published_at": "2026-06-22T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "Altimmune ALT stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
