@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-01T09:30:29Z",
+    "last_update_utc": "2026-11-01T16:14:48Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -812,6 +812,22 @@
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXhpaXh2Tngya3pMeWFpcUNBcmpOOEpGMXNLMlNVNHlFU18xRk12TjhfS21IeGVEd09UaTJYUFRER3lYWVE4aHFHcHRuRGRMczBlVU1OR1J4Wm1abU90aUZocGEtaUdDUWU3VThUd2VwQ1VEdTFrRjB6dkF6dDZLVEEyWlcwdEdVU1dtZ0dPX2dnTDl5ZVk4YV83ZWVaSU1KbHVjYjZwdTNwQkJGdk1RbHp5amFQcHc?oc=5",
         "published_at": "2025-09-18T07:00:00Z",
         "source": "TIKR.com",
+        "query": "RXRX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 25
+      },
+      {
+        "title": "Technische Analyse von Recursion Pharmaceuticals, Inc. (NASDAQ: RXRX) - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMa3lVaTdwRFBqMWNldWRBZ3RDYktWTE9EdWhPbWZ3SnZ6YzV0VHdkeWVnX29QdkhuWDczSU5JOXd3U25raFFoTFF5UkwxQk5laEJoTjBybkxjZUQ5Uk9ydHF5WWpOY3ZZRlE?oc=5",
+        "published_at": "2021-04-21T18:11:46Z",
+        "source": "TradingView",
         "query": "RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
