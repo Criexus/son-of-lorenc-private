@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.92",
-      "note": "Auto-Update: -9.43% vs. vorheriger Schlusskurs",
+      "value": "$1.96",
+      "note": "Auto-Update: 0.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-02T12:59:55Z",
+    "last_update_utc": "2026-11-02T22:09:42Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.92,
-      "previousClose": 2.12,
-      "change": -0.2,
-      "changePercent": -9.43,
-      "regularMarketTime": "2026-10-30T20:00:01Z",
+      "regularMarketPrice": 1.96,
+      "previousClose": 1.96,
+      "change": 0.0,
+      "changePercent": 0.0,
+      "regularMarketTime": "2026-11-02T21:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -215,18 +215,6 @@
       "fiftyTwoWeekRange": "1.6 – 4352.0"
     },
     "price_history": [
-      {
-        "t": "2026-09-30T13:30:00Z",
-        "price": 2.73
-      },
-      {
-        "t": "2026-10-01T13:30:00Z",
-        "price": 2.7
-      },
-      {
-        "t": "2026-10-02T13:30:00Z",
-        "price": 2.7
-      },
       {
         "t": "2026-10-05T13:30:00Z",
         "price": 2.635
@@ -306,84 +294,56 @@
       {
         "t": "2026-10-30T13:30:00Z",
         "price": 1.92
+      },
+      {
+        "t": "2026-11-02T14:30:00Z",
+        "price": 1.96
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-10-30T13:30:00Z",
-        "price": 1.7901
+        "t": "2026-11-02T14:30:00Z",
+        "price": 1.94
       },
       {
-        "t": "2026-10-30T13:35:00Z",
-        "price": 1.89
+        "t": "2026-11-02T15:00:00Z",
+        "price": 2.03
       },
       {
-        "t": "2026-10-30T13:45:00Z",
+        "t": "2026-11-02T15:10:00Z",
         "price": 1.98
       },
       {
-        "t": "2026-10-30T14:00:00Z",
-        "price": 1.99
+        "t": "2026-11-02T15:15:00Z",
+        "price": 1.96
       },
       {
-        "t": "2026-10-30T14:10:00Z",
-        "price": 1.995
+        "t": "2026-11-02T15:45:00Z",
+        "price": 1.915
       },
       {
-        "t": "2026-10-30T14:20:00Z",
-        "price": 2.15
-      },
-      {
-        "t": "2026-10-30T14:35:00Z",
-        "price": 2.025
-      },
-      {
-        "t": "2026-10-30T15:30:00Z",
-        "price": 2.02
-      },
-      {
-        "t": "2026-10-30T15:40:00Z",
-        "price": 1.9701
-      },
-      {
-        "t": "2026-10-30T15:55:00Z",
-        "price": 1.97
-      },
-      {
-        "t": "2026-10-30T16:10:00Z",
-        "price": 1.9
-      },
-      {
-        "t": "2026-10-30T16:20:00Z",
-        "price": 1.99
-      },
-      {
-        "t": "2026-10-30T17:10:00Z",
-        "price": 1.925
-      },
-      {
-        "t": "2026-10-30T17:35:00Z",
-        "price": 1.9079
-      },
-      {
-        "t": "2026-10-30T17:40:00Z",
-        "price": 1.8701
-      },
-      {
-        "t": "2026-10-30T18:05:00Z",
-        "price": 1.86
-      },
-      {
-        "t": "2026-10-30T19:20:00Z",
-        "price": 1.86
-      },
-      {
-        "t": "2026-10-30T19:55:00Z",
-        "price": 1.9
-      },
-      {
-        "t": "2026-10-30T20:00:00Z",
+        "t": "2026-11-02T15:55:00Z",
         "price": 1.92
+      },
+      {
+        "t": "2026-11-02T16:30:00Z",
+        "price": 1.81
+      },
+      {
+        "t": "2026-11-02T16:45:00Z",
+        "price": 1.8796
+      },
+      {
+        "t": "2026-11-02T19:40:00Z",
+        "price": 1.911
+      },
+      {
+        "t": "2026-11-02T20:20:00Z",
+        "price": 1.91
+      },
+      {
+        "t": "2026-11-02T21:00:00Z",
+        "price": 1.96
       }
     ],
     "price_history_range": "1mo",
@@ -533,154 +493,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06834971",
-        "title": "Colistin Methanesulfonate Sodium Inhalation for Prophylaxis of Ventilator-Associated Pneumonia (CIVAP): A Prospective, Multicentre, Double-Blind, Randomized, Placebo-Controlled Trial",
+        "nct_id": "NCT07894107",
+        "title": "Development and Validation of Risk Prediction Models for Stroke and Cognitive Impairment in Moyamoya Disease and Moyamoya Syndrome",
+        "status": "RECRUITING",
+        "phase": "",
+        "conditions": "Moyamoya Disease, Moyamoya Syndrome",
+        "last_update": "",
+        "start_date": "2026-08-03",
+        "url": "https://clinicaltrials.gov/study/NCT07894107"
+      },
+      {
+        "nct_id": "NCT05173792",
+        "title": "Study of AK119 in Subjects With Advanced Solid Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Solid Tumor",
+        "last_update": "",
+        "start_date": "2021-12-22",
+        "url": "https://clinicaltrials.gov/study/NCT05173792"
+      },
+      {
+        "nct_id": "NCT06029764",
+        "title": "Extended One-level Interbody Fusion for Adjacent Vacuum Phenomenon in Lumbar Degenerative Disc Disease",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Ventilator-Associated Pneumonia (VAP)",
+        "conditions": "Adjacent Segment Degeneration",
         "last_update": "",
-        "start_date": "2025-07-15",
-        "url": "https://clinicaltrials.gov/study/NCT06834971"
+        "start_date": "2023-02-01",
+        "url": "https://clinicaltrials.gov/study/NCT06029764"
       },
       {
-        "nct_id": "NCT07242599",
-        "title": "Ongericimab Injection Reducing Recurrence of Ischemic Stroke",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Ischemic Cerebral Infarction",
-        "last_update": "",
-        "start_date": "2026-04-22",
-        "url": "https://clinicaltrials.gov/study/NCT07242599"
-      },
-      {
-        "nct_id": "NCT03883152",
-        "title": "Eating Difficulties in HNC Patients - Influencing Factors and Short and Long Term Impacts on PF and Depression",
+        "nct_id": "NCT06175481",
+        "title": "Correlation Between Popliteal Vein Compliance and Venous Clinical Severity Score",
         "status": "COMPLETED",
         "phase": "",
-        "conditions": "Head and Neck Cancer",
-        "last_update": "",
-        "start_date": "2017-06-27",
-        "url": "https://clinicaltrials.gov/study/NCT03883152"
-      },
-      {
-        "nct_id": "NCT05916547",
-        "title": "Safety and Efficacy of P-ESWL and ERCP",
-        "status": "COMPLETED",
-        "phase": "",
-        "conditions": "Pancreatic Duct Stone",
+        "conditions": "Chronic Venous Disease (CVD), Vein Compliance, Venous Clinical Severity Score (VCSS)",
         "last_update": "",
         "start_date": "2023-06-01",
-        "url": "https://clinicaltrials.gov/study/NCT05916547"
+        "url": "https://clinicaltrials.gov/study/NCT06175481"
       },
       {
-        "nct_id": "NCT06093932",
-        "title": "Efficacy of Songling Xuemaikang Capsules on Grade 1 Hypertension: a Randomized Controlled Trial",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Hypertension,Essential",
+        "nct_id": "NCT06533605",
+        "title": "Phase I Clinical Study to Evaluate the Safety and Efficacy of SSGJ-706 Monotherapy for Patients With Advanced Solid Tumors",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Advanced Solid Tumors Patients",
         "last_update": "",
-        "start_date": "2024-04-07",
-        "url": "https://clinicaltrials.gov/study/NCT06093932"
+        "start_date": "2024-08",
+        "url": "https://clinicaltrials.gov/study/NCT06533605"
       },
       {
-        "nct_id": "NCT06794047",
-        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
+        "nct_id": "NCT05580523",
+        "title": "Aspirin Versus Metformin in Pregnancies at High Risk of Preterm Preeclampsia: a 3-arm Randomized Controlled Trial",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Preeclampsia",
+        "last_update": "",
+        "start_date": "2023-07-03",
+        "url": "https://clinicaltrials.gov/study/NCT05580523"
+      },
+      {
+        "nct_id": "NCT07714980",
+        "title": "TEAS Timing for Gastrectomy Recovery (TEAS-TIME Trial)",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Diminished Ovarian Reserve, IVF Outcomes",
+        "conditions": "Gastric Cancer (GC), Stomach Neoplasms",
         "last_update": "",
-        "start_date": "2025-03-17",
-        "url": "https://clinicaltrials.gov/study/NCT06794047"
+        "start_date": "2026-07-25",
+        "url": "https://clinicaltrials.gov/study/NCT07714980"
       },
       {
-        "nct_id": "NCT02201264",
-        "title": "Cardiovascular Patient Outcomes and Research Team Primary PCI Registry",
-        "status": "COMPLETED",
+        "nct_id": "NCT07139470",
+        "title": "Sacituzumab Tirumotecan Plus Anlotinib for Metastatic Triple Negative Breast Cancer",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Triple Negative Breast Cancer",
+        "last_update": "",
+        "start_date": "2025-08-15",
+        "url": "https://clinicaltrials.gov/study/NCT07139470"
+      },
+      {
+        "nct_id": "NCT02974829",
+        "title": "REALM China Extension Study",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "ST Elevation Myocardial Infarction",
+        "conditions": "Hepatitis B, Chronic",
         "last_update": "",
-        "start_date": "2006-04",
-        "url": "https://clinicaltrials.gov/study/NCT02201264"
+        "start_date": "2016-05",
+        "url": "https://clinicaltrials.gov/study/NCT02974829"
       },
       {
-        "nct_id": "NCT01715532",
-        "title": "Role of Huachansu in Treating Hepatocellular Carcinoma and the Correlation With Na+/K+-ATPase",
+        "nct_id": "NCT03854851",
+        "title": "NALDEBAIN for Postoperative Pain Management in Take Down of Anastomosis",
         "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Postoperative Pain",
+        "last_update": "",
+        "start_date": "2019-03-01",
+        "url": "https://clinicaltrials.gov/study/NCT03854851"
+      },
+      {
+        "nct_id": "NCT06859931",
+        "title": "Clinical Trial of TQB3702 Tablets in Subjects With Systemic Lupus Erythematosus (SLE)",
+        "status": "NOT_YET_RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Carcinoma, Hepatocellular",
+        "conditions": "Systemic Lupus Erythematosus",
         "last_update": "",
-        "start_date": "2012-07",
-        "url": "https://clinicaltrials.gov/study/NCT01715532"
+        "start_date": "2025-03",
+        "url": "https://clinicaltrials.gov/study/NCT06859931"
       },
       {
-        "nct_id": "NCT06995118",
-        "title": "The Application of \"HUAXI Hole 1\" in Reverse-sequence Endoscopic Nipple-sparing Mastectomy With Direct-to-implant Breast Reconstruction",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Breast Cancer Early Stage Breast Cancer (Stage 1-3)",
-        "last_update": "",
-        "start_date": "2025-06-17",
-        "url": "https://clinicaltrials.gov/study/NCT06995118"
-      },
-      {
-        "nct_id": "NCT06572085",
-        "title": "Neuroprotective Effect of Butylphthalide for Cardiac Arrest Patients",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Butylphthalide, Cardiac Arrest, Neuroprotective Drugs",
-        "last_update": "",
-        "start_date": "2022-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06572085"
-      },
-      {
-        "nct_id": "NCT07144423",
-        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Chronic Subdural Hematoma",
-        "last_update": "",
-        "start_date": "2025-11-19",
-        "url": "https://clinicaltrials.gov/study/NCT07144423"
-      },
-      {
-        "nct_id": "NCT05410925",
-        "title": "Efficacy and Safety of a Half-dose Bolus of r-SAK Prior to Primary PCI in ST-elevation Myocardial Infarction",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "ST Elevation Myocardial Infarction",
-        "last_update": "",
-        "start_date": "2023-04-08",
-        "url": "https://clinicaltrials.gov/study/NCT05410925"
-      },
-      {
-        "nct_id": "NCT02978313",
-        "title": "Cetuximab Monotherapy Maintenance Treatment in mCRC",
+        "nct_id": "NCT05348902",
+        "title": "Locked-in Syndrome Caused by Pulmonary Arteriovenous Malformation: A Case Report",
         "status": "UNKNOWN",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "Colorectal Cancer",
+        "phase": "",
+        "conditions": "Locked-In Syndrome；Pulmonary Arteriovenous Malformation",
         "last_update": "",
-        "start_date": "2016-11",
-        "url": "https://clinicaltrials.gov/study/NCT02978313"
+        "start_date": "2021-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT05348902"
       },
       {
-        "nct_id": "NCT06300879",
-        "title": "A Prospective Study on Esophagogastrostomy by an Innovative Surgical Technique",
+        "nct_id": "NCT07079228",
+        "title": "A Study to Compare QLS31905 and Chemotherapy With Placebo and Chemotherapy in Participants With Pancreatic Cancer",
         "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Pancreatic Cancer",
+        "last_update": "",
+        "start_date": "2025-09-08",
+        "url": "https://clinicaltrials.gov/study/NCT07079228"
+      },
+      {
+        "nct_id": "NCT06904664",
+        "title": "An Application That Can Provide Early Warning of Temperature Health Risks and Give Protective Suggestions or Personalized Suggestions Based on Patients' Own Secondary Prevention Risk Factors Was Applied to Intervene, and the Intervention Effect of APP on Stroke Recurrence Risk Was Analyzed",
+        "status": "NOT_YET_RECRUITING",
         "phase": "NA",
-        "conditions": "Gastric Cancer, Adenocarcinoma of Esophagogastric Junction",
+        "conditions": "Acute Ischemic Stroke",
         "last_update": "",
-        "start_date": "2024-01-01",
-        "url": "https://clinicaltrials.gov/study/NCT06300879"
+        "start_date": "2025-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT06904664"
       },
       {
-        "nct_id": "NCT07342426",
-        "title": "High and Low Dose High-intensity Laser Therapy Lateral Epicondylitis",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Lateral Epicondylitis, High Intensity Laser Therapy, Tennis Elbow, High Intensity Laser",
+        "nct_id": "NCT05378971",
+        "title": "Clinical Research of Pomalidomide Maintenance Therapy for Primary Multiple Myeloma",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Multiple Myeloma",
         "last_update": "",
-        "start_date": "2026-01-12",
-        "url": "https://clinicaltrials.gov/study/NCT07342426"
+        "start_date": "2022-05-15",
+        "url": "https://clinicaltrials.gov/study/NCT05378971"
       }
     ],
     "detected_triggers": [
@@ -703,90 +663,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Role of Huachansu in Treating Hepatocellular Carcinoma and the Correlation With Na+/K+-ATPase",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT01715532",
-        "date": "2012-07"
+        "title": "NALDEBAIN for Postoperative Pain Management in Take Down of Anastomosis",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT03854851",
+        "date": "2019-03-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Cetuximab Monotherapy Maintenance Treatment in mCRC",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2, PHASE3",
-        "source": "NCT02978313",
-        "date": "2016-11"
+        "title": "Study of AK119 in Subjects With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT05173792",
+        "date": "2021-12-22"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Neuroprotective Effect of Butylphthalide for Cardiac Arrest Patients",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT06572085",
-        "date": "2022-01-01"
+        "title": "Clinical Research of Pomalidomide Maintenance Therapy for Primary Multiple Myeloma",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05378971",
+        "date": "2022-05-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy and Safety of a Half-dose Bolus of r-SAK Prior to Primary PCI in ST-elevation Myocardial Infarction",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT05410925",
-        "date": "2023-04-08"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Prospective Study on Esophagogastrostomy by an Innovative Surgical Technique",
+        "title": "Extended One-level Interbody Fusion for Adjacent Vacuum Phenomenon in Lumbar Degenerative Disc Disease",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06300879",
-        "date": "2024-01-01"
+        "source": "NCT06029764",
+        "date": "2023-02-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Efficacy of Songling Xuemaikang Capsules on Grade 1 Hypertension: a Randomized Controlled Trial",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT06093932",
-        "date": "2024-04-07"
+        "title": "Aspirin Versus Metformin in Pregnancies at High Risk of Preterm Preeclampsia: a 3-arm Randomized Controlled Trial",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT05580523",
+        "date": "2023-07-03"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Effect of VitC on IVF Outcome of DOR Patients",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06794047",
-        "date": "2025-03-17"
+        "title": "Phase I Clinical Study to Evaluate the Safety and Efficacy of SSGJ-706 Monotherapy for Patients With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT06533605",
+        "date": "2024-08"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "The Application of \"HUAXI Hole 1\" in Reverse-sequence Endoscopic Nipple-sparing Mastectomy With Direct-to-implant Breast Reconstruction",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06995118",
-        "date": "2025-06-17"
+        "title": "Clinical Trial of TQB3702 Tablets in Subjects With Systemic Lupus Erythematosus (SLE)",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT06859931",
+        "date": "2025-03"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Colistin Methanesulfonate Sodium Inhalation for Prophylaxis of Ventilator-Associated Pneumonia (CIVAP): A Prospective, Multicentre, Double-Blind, Randomized, Placebo-Controlled Trial",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06834971",
-        "date": "2025-07-15"
+        "title": "Sacituzumab Tirumotecan Plus Anlotinib for Metastatic Triple Negative Breast Cancer",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1, PHASE2",
+        "source": "NCT07139470",
+        "date": "2025-08-15"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Neuroendoscopy-assisted Drainage Versus Burr Hole Drainage for Chronic Subdural Hematoma",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07144423",
-        "date": "2025-11-19"
+        "title": "An Application That Can Provide Early Warning of Temperature Health Risks and Give Protective Suggestions or Personalized Suggestions Based on Patients' Own Secondary Prevention Risk Factors Was Applied to Intervene, and the Intervention Effect of APP on Stroke Recurrence Risk Was Analyzed",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT06904664",
+        "date": "2025-09-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "High and Low Dose High-intensity Laser Therapy Lateral Epicondylitis",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT07342426",
-        "date": "2026-01-12"
+        "title": "A Study to Compare QLS31905 and Chemotherapy With Placebo and Chemotherapy in Participants With Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT07079228",
+        "date": "2025-09-08"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -810,14 +762,6 @@
         "title": "6-K · 2026-04-22",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-04-22"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Ongericimab Injection Reducing Recurrence of Ischemic Stroke",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE3",
-        "source": "NCT07242599",
         "date": "2026-04-22"
       },
       {
@@ -877,6 +821,14 @@
         "date": "2026-07-13"
       },
       {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "TEAS Timing for Gastrectomy Recovery (TEAS-TIME Trial)",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT07714980",
+        "date": "2026-07-25"
+      },
+      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "20-F · 2026-09-30",
@@ -887,25 +839,25 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Cardiovascular Patient Outcomes and Research Team Primary PCI Registry",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT02201264",
-        "date": "2006-04"
+        "title": "REALM China Extension Study",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT02974829",
+        "date": "2016-05"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Eating Difficulties in HNC Patients - Influencing Factors and Short and Long Term Impacts on PF and Depression",
-        "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT03883152",
-        "date": "2017-06-27"
+        "title": "Locked-in Syndrome Caused by Pulmonary Arteriovenous Malformation: A Case Report",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05348902",
+        "date": "2021-10-01"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Safety and Efficacy of P-ESWL and ERCP",
+        "title": "Correlation Between Popliteal Vein Compliance and Venous Clinical Severity Score",
         "reason": "Studienregister-Treffer: COMPLETED ",
-        "source": "NCT05916547",
+        "source": "NCT06175481",
         "date": "2023-06-01"
       },
       {
@@ -915,6 +867,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
