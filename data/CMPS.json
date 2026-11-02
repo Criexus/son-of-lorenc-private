@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-02T00:00:32Z",
+    "last_update_utc": "2026-11-02T04:56:50Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -735,7 +735,7 @@
       },
       {
         "t": "2026-10-30T19:55:00Z",
-        "price": 11.58
+        "price": 11.57
       },
       {
         "t": "2026-10-30T20:00:00Z",
@@ -751,6 +751,22 @@
         "published_at": "2026-10-28T04:09:00Z",
         "source": "Small Microcap",
         "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways-Aktie: Seit Jahresbeginn legte die Compass Pathways-Aktie 77,40 Prozent zu - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYVRlWXQ0RDlyaUxxTXhPWW1sNTVuZF9zY3VqeU9JZEZTdC1MSFIzMTZMNjdfYjV2S1hrWUVyZUw4LTIxbk91RWxmVXlweE8tT0RIV3REVjRkX1A3dnJFbFJuZktDc0c0ZTdzT2lMZW9xTTk0dl9qYVF4V1JFUVpNU1V1ckFqdE9NdzlfZ3pOSHdJWjBlajgwY3J6NUJmQXk0UC1sbzRILVMxa0ZFSWVwUmtvQUF3SzQzMW5hN2w0ai1SdXNKbDhsaFRuR0toT0tjSEVmZzZLR3I3a1dxNkNBRGQ1WQ?oc=5",
+        "published_at": "2026-10-21T07:00:00Z",
+        "source": "ad-hoc-news.de",
+        "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -778,9 +794,25 @@
         "relevance_score": 17
       },
       {
-        "title": "ARK Invest: Cathie Wood verkauft Personalised Inc und investiert in Compass Pathways - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPelJoOS1iMzNDZGZkeHpqemN0NnU0R21NY2FBY095VWxQTFd6YVhxaDlXeml2M0JpcGpfNzBTMGMyV0RkTEtIczVManlfdFJXYlgtenpfSjhKcjRibkRsZ0oxSkFGN291aEtlQ0hNWmtLSGUwdzZ2OEVwemFXR2xmVUQ3OHdQUHdtM1N4UWFFd3F6cUhXaE5tQnNjTUlNZ3BzQ0FicGtsNUdLeWxMNDhZSDhIQVpBeVdkNTU5N0xuY296dktVc1RaaW9PZkRZY202X0F5OTJB?oc=5",
-        "published_at": "2026-10-13T07:00:00Z",
+        "title": "Jefferies bekräftigt Kaufempfehlung für Compass Pathways und setzt auf Zulassungs-Erfolg - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU3Bqakw4VXE3MFFfQUExMERlRlZJeDNhM25DTlk2c0duNW1pbjluMmdXU3BoTEVCcmZ1WWFNb2h5NkR3V05GeXlFZUlTSWZ6a2RMbWRwbENubmRGTE1IMHhjUXRXblZ4TmU0OHNsTWFXLWRISFVleVI1UXZ1ZWtmY2NGdzd4Y3ZocGhjTVJWRmNZYlhDZVRSWnlPZ2NacU5rdDh0dzVTZ1hsMUhWZG5udV96OWV5ZlNiX0lpbzhFQVhpZUZueTZnbkpubzhBS2g4VEthYk0wQU44TlBhNGtN?oc=5",
+        "published_at": "2026-09-09T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways: Oppenheimer bekräftigt Einstufung nach positiven Studiendaten - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVzZpX0Jjb0lhV3pfZGJIVzZabm5iZkdsYVhQMnhFb1NGeVpPOTJaNjlQdGFhM1ZlVVo2OERQbWFNdzNpNmg1dWZFY29Oamk5cjFBb1pjTVhTcWxieVZLOEtkMXNqRkQyUldHQUV4Y1R0b05ZZUROX1FYOEpfbHEybUtrdWJIcWM2N2lMOXFsc3B0TUZJZ01WWEI2UEVfc2YyclJ6UTlWcUJ0VFZfNHdKdDZPSUNldGhZeVZHTlhaRFU3ajhkLVZJa2FvVjV0bUI1b2d3?oc=5",
+        "published_at": "2026-09-09T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS stock news",
         "source_type": "google_news_rss",
@@ -792,6 +824,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "Therapieresistente Depression: COMP360 zeigt Langzeitwirkung über 52 Wochen - ad-hoc-news.de",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbTNXbHQzalFzZk93X29HZVpWaHdZYnhoby1JQmMxLWRmcjRQVkpwWVJRTDV1UWI1MDBQNFdUSXFmb0x4ODgzdkVRLUtWSHcwY1JjbVlxekRCd3RSbzV0RnBZdU9waUtFXzJ5ZDk5eXhmSkNVV3BTVU43ZXVmX0RGcXE4YUpQS2pEQzFaRHVqWVFjVVdubnV4U1hmbmxaTmY0N1RBZk04b0FrVk9ZREN0b3p2N2ZiaVl1VjlnaFBSLVpJZw?oc=5",
+        "published_at": "2026-09-09T07:00:00Z",
+        "source": "ad-hoc-news.de",
+        "query": "COMPASS Pathways COMP360 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
       },
       {
         "title": "Compass Pathways und Definium nähern sich dem Markt: Warum der nächste Engpass bei Psychedelika Emyria in den Fokus rückt - FinanzNachrichten.de",
@@ -874,22 +922,6 @@
         "relevance_score": 17
       },
       {
-        "title": "Warum die Aktie von Compass Pathways heute einbricht - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR1hJZGx0YmQ3ek5PNEhyMDJMNTZaT2RMb3BVQmxReGNNMHVDWEpGa2JLd0xhamF4N25PMnJHTHBFeFVTaWhfLVVDMTJXaHg2bnhoSXgtckxYVUU2dkVqUnF6b1hQNkJyWnd1QVl5Sy1fX0tVVHY3N1ZPVVNfLXoxYmJPcWdQcUc4YXY0VFk4MnJFZTlfZXdMN1A4ckQ5anV5dVRRbEk5TjIyeWZTYnVpMzl3SQ?oc=5",
-        "published_at": "2026-06-05T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways: Rolling Review für COMP360 - Börse Express",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQmtQM3BKT2tXdXlYdWs0X1NVWWhUTkIzRmx6SUFFS215bjNYOG1yU041N1F3Q3BFUlJ4NlZHQ2JPdXdmS3ZJMHZMRlRPaWdQRkxPcU9lQ1dZYjNCb0VmNW4wM3hyREFLZk1CX1cwN3pHcXJqYWFieWtyQzBaWUJSVG12YmlMVUxuZHEtaFVDQ2p3LWZMejBoelQ2Yzg?oc=5",
         "published_at": "2026-05-19T07:00:00Z",
@@ -920,22 +952,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways kooperiert mit Osmind: COMP360-Umsetzung in Kliniken nach FDA-Zulassung rückt näher - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjREaXpuSVBNUzNUZTNUV3ZMSFNxYWJUUUgtclVuMTNxTTlrNEFNai1GZDVndzRwUmhtTUtBNVJjUjhTZWFZb0dGUFBzWDdtdGdVRVlod2tZUVlVUllCQ2NscURQa2tCUS14TE1DWmZfcWZhUHZMb2pRbkhrSzdwZzByTFlDZEhZWFNhUnV3bFY4R2F0SGtDVFR0LVBBTENEbnJaY2sydUh5VHBDZUl2NGZHa0ZFMlhFTEkzbnlnM3RKV3B3cm1zZjQ0TQ?oc=5",
-        "published_at": "2026-04-21T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 21
       },
       {
         "title": "COMPASS Pathways Stock Rallies 50% Following Trump Executive Order on Psychedelic Research - TIKR.com",
@@ -1344,18 +1360,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Compass Pathways kooperiert mit Osmind: COMP360-Umsetzung in Kliniken nach FDA-Zulassung rückt näher - Goldesel.de",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Goldesel.de",
-        "date": "2026-04-21T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjREaXpuSVBNUzNUZTNUV3ZMSFNxYWJUUUgtclVuMTNxTTlrNEFNai1GZDVndzRwUmhtTUtBNVJjUjhTZWFZb0dGUFBzWDdtdGdVRVlod2tZUVlVUllCQ2NscURQa2tCUS14TE1DWmZfcWZhUHZMb2pRbkhrSzdwZzByTFlDZEhZWFNhUnV3bFY4R2F0SGtDVFR0LVBBTENEbnJaY2sydUh5VHBDZUl2NGZHa0ZFMlhFTEkzbnlnM3RKV3B3cm1zZjQ0TQ?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Compass Pathways: Evercore stuft nach COMP006-Daten auf Outperform – Zulassung 1H 2027 im Blick - Goldesel.de",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1384,6 +1388,18 @@
         "source": "Investing.com Deutsch",
         "date": "2026-08-05T07:00:00Z",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRHI0WmdBOWdsV3BkQmNjcTB0UlNXcWFET19idkNKaVlnQW1FbkU0NXF5dUV1bnh5UGptOGw1SGJFcFRSNGZNR0JVdkE4elRMVlNIQjhaVUExbHczVnJjSXVzaWdlTlA4NmRwUl9hX1Fac0NUNVB1VXc4SXRYNm11ZTBOX21yUmdVTHR5QjBPcEFjbThXV3lNRWZxaE8zSlZudmZwbUJFckhlSmQ4T0VHRFNqaHljZHJ0VlZoUWEwTUpYQi1aRlVjc2ZpNXJUcDNwWXM1MG5GRQ?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
+        "title": "Jefferies bekräftigt Kaufempfehlung für Compass Pathways und setzt auf Zulassungs-Erfolg - Investing.com Deutsch",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-09-09T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU3Bqakw4VXE3MFFfQUExMERlRlZJeDNhM25DTlk2c0duNW1pbjluMmdXU3BoTEVCcmZ1WWFNb2h5NkR3V05GeXlFZUlTSWZ6a2RMbWRwbENubmRGTE1IMHhjUXRXblZ4TmU0OHNsTWFXLWRISFVleVI1UXZ1ZWtmY2NGdzd4Y3ZocGhjTVJWRmNZYlhDZVRSWnlPZ2NacU5rdDh0dzVTZ1hsMUhWZG5udV96OWV5ZlNiX0lpbzhFQVhpZUZueTZnbkpubzhBS2g4VEthYk0wQU44TlBhNGtN?oc=5"
       },
       {
         "type": "ClinicalTrials.gov",
