@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-02T22:09:04Z",
+    "last_update_utc": "2026-11-03T03:32:11Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -651,7 +651,7 @@
       },
       {
         "t": "2026-11-02T19:20:00Z",
-        "price": 2.0201
+        "price": 2.025
       },
       {
         "t": "2026-11-02T19:25:00Z",
@@ -831,22 +831,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Altimmune übertrifft Q1-EPS: Verlust je Aktie (-0,18 USD) besser als erwartet und Cash für Pemvidutide-Studien - Goldesel.de",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVm9YTEZXZUpqWlk2dEgzdERQR3gxSnpMVVlweFV1YVgzd1ItYjNYcm43Q21sajdpUFZDTE56eXBWZi0tWW1LMzR5bnYzdko3bEJxMTBHUnQ1dzY2ZUxRNTNIQzU3SXkwSXNEVTg3aHpoZUJla3pOaFgtVUlKTFRWc2Y5Z2xIOURZMjF0TXpJT1BibVE0YVJmSWgtZjJURGdCekMzeDQ4RE1LbjZJXzh5R2w5Y2VMZzhTLXJsV3VZcEoyUjQ2TDdnZmxoeTFXNkQtT0Uw?oc=5",
-        "published_at": "2026-05-13T07:00:00Z",
-        "source": "Goldesel.de",
-        "query": "ALT pemvidutide phase 2 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 13
       },
       {
@@ -1410,18 +1394,6 @@
         "date": "2026-05-13"
       },
       {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Altimmune übertrifft Q1-EPS: Verlust je Aktie (-0,18 USD) besser als erwartet und Cash für Pemvidutide-Studien - Goldesel.de",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Goldesel.de",
-        "date": "2026-05-13T07:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVm9YTEZXZUpqWlk2dEgzdERQR3gxSnpMVVlweFV1YVgzd1ItYjNYcm43Q21sajdpUFZDTE56eXBWZi0tWW1LMzR5bnYzdko3bEJxMTBHUnQ1dzY2ZUxRNTNIQzU3SXkwSXNEVTg3aHpoZUJla3pOaFgtVUlKTFRWc2Y5Z2xIOURZMjF0TXpJT1BibVE0YVJmSWgtZjJURGdCekMzeDQ4RE1LbjZJXzh5R2w5Y2VMZzhTLXJsV3VZcEoyUjQ2TDdnZmxoeTFXNkQtT0Uw?oc=5"
-      },
-      {
         "type": "SEC · Unternehmensereignis",
         "level": "medium",
         "title": "8-K · 2026-06-16",
@@ -1512,6 +1484,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-05-13"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-05-15",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-15"
       }
     ],
     "queries_used": [
