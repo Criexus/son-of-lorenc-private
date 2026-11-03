@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.80",
-      "note": "Auto-Update: -24.12% vs. vorheriger Schlusskurs",
+      "value": "$2.85",
+      "note": "Auto-Update: -27.35% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-03T11:27:05Z",
+    "last_update_utc": "2026-11-03T18:31:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.8,
-      "previousClose": 3.69,
-      "change": -0.89,
-      "changePercent": -24.12,
-      "regularMarketTime": "2026-11-02T21:00:00Z",
+      "regularMarketPrice": 2.855,
+      "previousClose": 3.93,
+      "change": -1.075,
+      "changePercent": -27.35,
+      "regularMarketTime": "2026-11-03T17:00:17Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -297,96 +297,40 @@
       {
         "t": "2026-11-02T14:30:00Z",
         "price": 2.8
+      },
+      {
+        "t": "2026-11-03T14:30:00Z",
+        "price": 2.855
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-02T14:30:00Z",
-        "price": 3.24
+        "t": "2026-11-03T14:30:00Z",
+        "price": 3.0256
       },
       {
-        "t": "2026-11-02T14:35:00Z",
-        "price": 3.22
-      },
-      {
-        "t": "2026-11-02T14:45:00Z",
-        "price": 3.19
-      },
-      {
-        "t": "2026-11-02T14:55:00Z",
-        "price": 3.14
-      },
-      {
-        "t": "2026-11-02T15:15:00Z",
-        "price": 3.19
-      },
-      {
-        "t": "2026-11-02T15:35:00Z",
-        "price": 3.13
-      },
-      {
-        "t": "2026-11-02T15:40:00Z",
-        "price": 3.2
-      },
-      {
-        "t": "2026-11-02T15:55:00Z",
-        "price": 3.155
-      },
-      {
-        "t": "2026-11-02T16:05:00Z",
-        "price": 3.18
-      },
-      {
-        "t": "2026-11-02T16:15:00Z",
-        "price": 3.1972
-      },
-      {
-        "t": "2026-11-02T16:35:00Z",
-        "price": 3.07
-      },
-      {
-        "t": "2026-11-02T16:40:00Z",
-        "price": 2.97
-      },
-      {
-        "t": "2026-11-02T16:45:00Z",
-        "price": 2.9602
-      },
-      {
-        "t": "2026-11-02T17:00:00Z",
-        "price": 2.9631
-      },
-      {
-        "t": "2026-11-02T17:55:00Z",
-        "price": 2.91
-      },
-      {
-        "t": "2026-11-02T18:50:00Z",
-        "price": 2.92
-      },
-      {
-        "t": "2026-11-02T18:55:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-11-02T19:50:00Z",
-        "price": 2.9841
-      },
-      {
-        "t": "2026-11-02T20:20:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-11-02T20:25:00Z",
-        "price": 2.83
-      },
-      {
-        "t": "2026-11-02T20:55:00Z",
+        "t": "2026-11-03T14:45:00Z",
         "price": 2.8
       },
       {
-        "t": "2026-11-02T21:00:00Z",
-        "price": 2.8
+        "t": "2026-11-03T15:00:00Z",
+        "price": 3.03
+      },
+      {
+        "t": "2026-11-03T15:10:00Z",
+        "price": 2.8151
+      },
+      {
+        "t": "2026-11-03T15:50:00Z",
+        "price": 2.81
+      },
+      {
+        "t": "2026-11-03T17:00:00Z",
+        "price": 2.855
+      },
+      {
+        "t": "2026-11-03T17:00:17Z",
+        "price": 2.855
       }
     ],
     "price_history_range": "1mo",
@@ -553,16 +497,6 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT05324501",
-        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
-        "status": "TERMINATED",
-        "phase": "PHASE1",
-        "conditions": "Recurrent Glioblastoma",
-        "last_update": "",
-        "start_date": "2022-10-19",
-        "url": "https://clinicaltrials.gov/study/NCT05324501"
-      },
-      {
         "nct_id": "NCT06950385",
         "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
         "status": "RECRUITING",
@@ -581,6 +515,16 @@
         "last_update": "",
         "start_date": "2021-01-18",
         "url": "https://clinicaltrials.gov/study/NCT04230499"
+      },
+      {
+        "nct_id": "NCT05324501",
+        "title": "A Study of Intra-tumoral Administered MTX110 in Patients With Recurrent Glioblastoma",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Glioblastoma",
+        "last_update": "",
+        "start_date": "2022-10-19",
+        "url": "https://clinicaltrials.gov/study/NCT05324501"
       },
       {
         "nct_id": "NCT07689942",
