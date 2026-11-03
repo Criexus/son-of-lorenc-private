@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.48",
-      "note": "Auto-Update: 4.23% vs. vorheriger Schlusskurs",
+      "value": "$1.50",
+      "note": "Auto-Update: 5.63% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -165,15 +165,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-03T18:32:23Z",
+    "last_update_utc": "2026-11-03T23:46:06Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.48,
+      "regularMarketPrice": 1.5,
       "previousClose": 1.42,
-      "change": 0.06,
-      "changePercent": 4.23,
-      "regularMarketTime": "2026-11-03T18:13:08Z",
+      "change": 0.08,
+      "changePercent": 5.63,
+      "regularMarketTime": "2026-11-03T21:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -274,7 +274,7 @@
       },
       {
         "t": "2026-11-03T14:30:00Z",
-        "price": 1.48
+        "price": 1.5
       }
     ],
     "price_history_1d": [
@@ -323,13 +323,77 @@
         "price": 1.48
       },
       {
-        "t": "2026-11-03T18:13:08Z",
-        "price": 1.48
+        "t": "2026-11-03T18:30:00Z",
+        "price": 1.4524
+      },
+      {
+        "t": "2026-11-03T18:50:00Z",
+        "price": 1.43
+      },
+      {
+        "t": "2026-11-03T18:55:00Z",
+        "price": 1.45
+      },
+      {
+        "t": "2026-11-03T20:00:00Z",
+        "price": 1.45
+      },
+      {
+        "t": "2026-11-03T20:10:00Z",
+        "price": 1.45
+      },
+      {
+        "t": "2026-11-03T20:15:00Z",
+        "price": 1.49
+      },
+      {
+        "t": "2026-11-03T20:25:00Z",
+        "price": 1.49
+      },
+      {
+        "t": "2026-11-03T20:30:00Z",
+        "price": 1.465
+      },
+      {
+        "t": "2026-11-03T20:35:00Z",
+        "price": 1.49
+      },
+      {
+        "t": "2026-11-03T20:40:00Z",
+        "price": 1.465
+      },
+      {
+        "t": "2026-11-03T20:45:00Z",
+        "price": 1.49
+      },
+      {
+        "t": "2026-11-03T20:55:00Z",
+        "price": 1.49
+      },
+      {
+        "t": "2026-11-03T21:00:00Z",
+        "price": 1.5
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "Basic earnings per share (basic EPS) von Enveric Biosciences, Inc. – NASDAQ:ENVB - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV3gyZ0s1b3BzbG5pd3FYTXNJMW00dTdkdFJnRV9KYktSUjF5aFU4cTlISUdndTQ1cnNmMk1OQ1FOTWVZSHRrUmRLbkEwNW5mU2dINmFWenowQXdaejhsR0tkR3RsSXNTZi1QenE1S3pHWUozNkFlcjRrNEZ5aE9xNzRGeVlqWVE2Q2diRl9IYXVzc3d4TVl4b2s3MGNyZ2ZLeVE?oc=5",
+        "published_at": "2023-07-04T18:21:21Z",
+        "source": "TradingView",
+        "query": "ENVB stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 13
+      },
       {
         "title": "Enveric Biosciences, Inc. (ENVB) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zUWlRSUNLTTEzVVFqZEswb2tfa0J5SFBvMHFjdkhJaWhTa0o1UWJmemxEd0JpWEdWMktvTnYzWTlqMnpBTmd4WnZIdzVrR3R5Mmc?oc=5",
@@ -348,6 +412,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-11-03",
+        "url": "https://www.sec.gov/Archives/edgar/data/890821/000121465926013680/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "10-Q",
         "filingDate": "2026-08-14",
@@ -480,13 +551,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/890821/000092963826001905/xslSCHEDULE_13G_X02/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "10-Q",
-        "filingDate": "2026-05-15",
-        "url": "https://www.sec.gov/Archives/edgar/data/890821/000149315226023353/form10-q.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -500,12 +564,16 @@
         "date": "2026-06-09"
       },
       {
-        "type": "SEC · Finanzbericht",
+        "type": "Quartalszahlen / Cash",
         "level": "medium",
-        "title": "10-Q · 2026-05-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-15"
+        "title": "Basic earnings per share (basic EPS) von Enveric Biosciences, Inc. – NASDAQ:ENVB - TradingView",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "TradingView",
+        "date": "2023-07-04T18:21:21Z",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV3gyZ0s1b3BzbG5pd3FYTXNJMW00dTdkdFJnRV9KYktSUjF5aFU4cTlISUdndTQ1cnNmMk1OQ1FOTWVZSHRrUmRLbkEwNW5mU2dINmFWenowQXdaejhsR0tkR3RsSXNTZi1QenE1S3pHWUozNkFlcjRrNEZ5aE9xNzRGeVlqWVE2Q2diRl9IYXVzc3d4TVl4b2s3MGNyZ2ZLeVE?oc=5"
       },
       {
         "type": "SEC · Unternehmensereignis",
@@ -650,6 +718,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-14"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G · 2026-11-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-03"
       }
     ],
     "queries_used": [
