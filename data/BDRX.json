@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.82",
-      "note": "Auto-Update: -28.24% vs. vorheriger Schlusskurs",
+      "value": "$2.90",
+      "note": "Auto-Update: -29.95% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-04T11:41:57Z",
+    "last_update_utc": "2026-11-04T18:59:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.82,
-      "previousClose": 3.93,
-      "change": -1.11,
-      "changePercent": -28.24,
-      "regularMarketTime": "2026-11-03T21:00:00Z",
+      "regularMarketPrice": 2.9,
+      "previousClose": 4.14,
+      "change": -1.24,
+      "changePercent": -29.95,
+      "regularMarketTime": "2026-11-04T16:04:12Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -301,48 +301,40 @@
       {
         "t": "2026-11-03T14:30:00Z",
         "price": 2.82
+      },
+      {
+        "t": "2026-11-04T14:30:00Z",
+        "price": 2.9
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-03T14:30:00Z",
-        "price": 3.0256
+        "t": "2026-11-04T14:40:00Z",
+        "price": 3.0456
       },
       {
-        "t": "2026-11-03T14:45:00Z",
-        "price": 2.8
+        "t": "2026-11-04T14:45:00Z",
+        "price": 2.7501
       },
       {
-        "t": "2026-11-03T15:00:00Z",
-        "price": 3.03
+        "t": "2026-11-04T14:55:00Z",
+        "price": 2.8169
       },
       {
-        "t": "2026-11-03T15:10:00Z",
-        "price": 2.8151
+        "t": "2026-11-04T15:00:00Z",
+        "price": 2.9984
       },
       {
-        "t": "2026-11-03T15:50:00Z",
-        "price": 2.81
+        "t": "2026-11-04T15:55:00Z",
+        "price": 2.83
       },
       {
-        "t": "2026-11-03T17:00:00Z",
-        "price": 2.855
+        "t": "2026-11-04T16:00:00Z",
+        "price": 2.9
       },
       {
-        "t": "2026-11-03T19:40:00Z",
-        "price": 2.81
-      },
-      {
-        "t": "2026-11-03T20:30:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-11-03T20:50:00Z",
-        "price": 2.82
-      },
-      {
-        "t": "2026-11-03T21:00:00Z",
-        "price": 2.82
+        "t": "2026-11-04T16:04:12Z",
+        "price": 2.9
       }
     ],
     "price_history_range": "1mo",
@@ -509,16 +501,6 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06950385",
-        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Familial Adenomatous Polyposis (FAP)",
-        "last_update": "",
-        "start_date": "2025-07-18",
-        "url": "https://clinicaltrials.gov/study/NCT06950385"
-      },
-      {
         "nct_id": "NCT04230499",
         "title": "Trial of eRapa to Prevent Progression in Familial Adenomatous Polyposis Patients Under Active Surveillance",
         "status": "COMPLETED",
@@ -527,6 +509,16 @@
         "last_update": "",
         "start_date": "2021-01-18",
         "url": "https://clinicaltrials.gov/study/NCT04230499"
+      },
+      {
+        "nct_id": "NCT06950385",
+        "title": "Phase 3 Trial of eRapa in Patients With Familial Adenomatous Polyposis",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Familial Adenomatous Polyposis (FAP)",
+        "last_update": "",
+        "start_date": "2025-07-18",
+        "url": "https://clinicaltrials.gov/study/NCT06950385"
       },
       {
         "nct_id": "NCT05324501",

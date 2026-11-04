@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.68",
-      "note": "Auto-Update: -9.14% vs. vorheriger Schlusskurs",
+      "value": "$3.90",
+      "note": "Auto-Update: -10.23% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-04T11:43:05Z",
+    "last_update_utc": "2026-11-04T19:00:56Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.68,
-      "previousClose": 4.05,
-      "change": -0.37,
-      "changePercent": -9.14,
-      "regularMarketTime": "2026-11-03T21:00:00Z",
+      "regularMarketPrice": 3.905,
+      "previousClose": 4.35,
+      "change": -0.445,
+      "changePercent": -10.23,
+      "regularMarketTime": "2026-11-04T19:00:33Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -400,381 +400,241 @@
       {
         "t": "2026-11-03T14:30:00Z",
         "price": 3.68
+      },
+      {
+        "t": "2026-11-04T14:30:00Z",
+        "price": 3.905
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-03T14:30:00Z",
-        "price": 3.91
+        "t": "2026-11-04T14:30:00Z",
+        "price": 3.825
       },
       {
-        "t": "2026-11-03T14:35:00Z",
-        "price": 4.025
-      },
-      {
-        "t": "2026-11-03T14:40:00Z",
-        "price": 4.04
-      },
-      {
-        "t": "2026-11-03T14:45:00Z",
-        "price": 4.06
-      },
-      {
-        "t": "2026-11-03T14:50:00Z",
-        "price": 3.9502
-      },
-      {
-        "t": "2026-11-03T14:55:00Z",
-        "price": 3.9696
-      },
-      {
-        "t": "2026-11-03T15:00:00Z",
-        "price": 3.92
-      },
-      {
-        "t": "2026-11-03T15:05:00Z",
-        "price": 3.975
-      },
-      {
-        "t": "2026-11-03T15:10:00Z",
-        "price": 3.955
-      },
-      {
-        "t": "2026-11-03T15:15:00Z",
-        "price": 3.975
-      },
-      {
-        "t": "2026-11-03T15:20:00Z",
-        "price": 3.9502
-      },
-      {
-        "t": "2026-11-03T15:25:00Z",
-        "price": 3.945
-      },
-      {
-        "t": "2026-11-03T15:30:00Z",
-        "price": 3.915
-      },
-      {
-        "t": "2026-11-03T15:35:00Z",
-        "price": 3.9486
-      },
-      {
-        "t": "2026-11-03T15:40:00Z",
-        "price": 3.945
-      },
-      {
-        "t": "2026-11-03T15:45:00Z",
-        "price": 3.9301
-      },
-      {
-        "t": "2026-11-03T15:50:00Z",
-        "price": 3.885
-      },
-      {
-        "t": "2026-11-03T15:55:00Z",
-        "price": 3.8799
-      },
-      {
-        "t": "2026-11-03T16:00:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T16:05:00Z",
-        "price": 3.875
-      },
-      {
-        "t": "2026-11-03T16:10:00Z",
-        "price": 3.86
-      },
-      {
-        "t": "2026-11-03T16:15:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T16:20:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-11-03T16:25:00Z",
-        "price": 3.86
-      },
-      {
-        "t": "2026-11-03T16:30:00Z",
-        "price": 3.822
-      },
-      {
-        "t": "2026-11-03T16:35:00Z",
-        "price": 3.845
-      },
-      {
-        "t": "2026-11-03T16:40:00Z",
-        "price": 3.85
-      },
-      {
-        "t": "2026-11-03T16:45:00Z",
-        "price": 3.84
-      },
-      {
-        "t": "2026-11-03T16:50:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T16:55:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T17:00:00Z",
-        "price": 3.8502
-      },
-      {
-        "t": "2026-11-03T17:05:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T17:10:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T17:15:00Z",
-        "price": 3.865
-      },
-      {
-        "t": "2026-11-03T17:20:00Z",
-        "price": 3.8599
-      },
-      {
-        "t": "2026-11-03T17:25:00Z",
-        "price": 3.8701
-      },
-      {
-        "t": "2026-11-03T17:30:00Z",
-        "price": 3.8501
-      },
-      {
-        "t": "2026-11-03T17:35:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-11-03T17:40:00Z",
-        "price": 3.84
-      },
-      {
-        "t": "2026-11-03T17:45:00Z",
-        "price": 3.845
-      },
-      {
-        "t": "2026-11-03T17:50:00Z",
-        "price": 3.83
-      },
-      {
-        "t": "2026-11-03T17:55:00Z",
-        "price": 3.835
-      },
-      {
-        "t": "2026-11-03T18:00:00Z",
-        "price": 3.835
-      },
-      {
-        "t": "2026-11-03T18:05:00Z",
-        "price": 3.845
-      },
-      {
-        "t": "2026-11-03T18:10:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-11-03T18:15:00Z",
-        "price": 3.855
-      },
-      {
-        "t": "2026-11-03T18:20:00Z",
-        "price": 3.8604
-      },
-      {
-        "t": "2026-11-03T18:25:00Z",
-        "price": 3.86
-      },
-      {
-        "t": "2026-11-03T18:30:00Z",
-        "price": 3.8697
-      },
-      {
-        "t": "2026-11-03T18:35:00Z",
-        "price": 3.835
-      },
-      {
-        "t": "2026-11-03T18:40:00Z",
-        "price": 3.84
-      },
-      {
-        "t": "2026-11-03T18:45:00Z",
-        "price": 3.83
-      },
-      {
-        "t": "2026-11-03T18:50:00Z",
-        "price": 3.8225
-      },
-      {
-        "t": "2026-11-03T18:55:00Z",
-        "price": 3.82
-      },
-      {
-        "t": "2026-11-03T19:00:00Z",
-        "price": 3.8299
-      },
-      {
-        "t": "2026-11-03T19:05:00Z",
-        "price": 3.8055
-      },
-      {
-        "t": "2026-11-03T19:10:00Z",
-        "price": 3.805
-      },
-      {
-        "t": "2026-11-03T19:15:00Z",
+        "t": "2026-11-04T14:35:00Z",
         "price": 3.8
       },
       {
-        "t": "2026-11-03T19:20:00Z",
+        "t": "2026-11-04T14:40:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-11-04T14:45:00Z",
+        "price": 3.94
+      },
+      {
+        "t": "2026-11-04T14:50:00Z",
+        "price": 3.92
+      },
+      {
+        "t": "2026-11-04T14:55:00Z",
+        "price": 3.875
+      },
+      {
+        "t": "2026-11-04T15:00:00Z",
         "price": 3.815
       },
       {
-        "t": "2026-11-03T19:25:00Z",
-        "price": 3.8003
+        "t": "2026-11-04T15:05:00Z",
+        "price": 3.86
       },
       {
-        "t": "2026-11-03T19:30:00Z",
+        "t": "2026-11-04T15:10:00Z",
+        "price": 3.845
+      },
+      {
+        "t": "2026-11-04T15:15:00Z",
+        "price": 3.855
+      },
+      {
+        "t": "2026-11-04T15:20:00Z",
+        "price": 3.825
+      },
+      {
+        "t": "2026-11-04T15:25:00Z",
         "price": 3.805
       },
       {
-        "t": "2026-11-03T19:35:00Z",
-        "price": 3.805
+        "t": "2026-11-04T15:30:00Z",
+        "price": 3.789
       },
       {
-        "t": "2026-11-03T19:40:00Z",
-        "price": 3.8135
+        "t": "2026-11-04T15:35:00Z",
+        "price": 3.84
       },
       {
-        "t": "2026-11-03T19:45:00Z",
+        "t": "2026-11-04T15:40:00Z",
         "price": 3.795
       },
       {
-        "t": "2026-11-03T19:50:00Z",
-        "price": 3.785
+        "t": "2026-11-04T15:45:00Z",
+        "price": 3.7889
       },
       {
-        "t": "2026-11-03T19:55:00Z",
-        "price": 3.785
+        "t": "2026-11-04T15:50:00Z",
+        "price": 3.74
       },
       {
-        "t": "2026-11-03T20:00:00Z",
-        "price": 3.775
+        "t": "2026-11-04T15:55:00Z",
+        "price": 3.735
       },
       {
-        "t": "2026-11-03T20:05:00Z",
-        "price": 3.785
+        "t": "2026-11-04T16:00:00Z",
+        "price": 3.735
       },
       {
-        "t": "2026-11-03T20:10:00Z",
-        "price": 3.785
+        "t": "2026-11-04T16:05:00Z",
+        "price": 3.76
       },
       {
-        "t": "2026-11-03T20:15:00Z",
-        "price": 3.7899
+        "t": "2026-11-04T16:10:00Z",
+        "price": 3.79
       },
       {
-        "t": "2026-11-03T20:20:00Z",
+        "t": "2026-11-04T16:15:00Z",
         "price": 3.795
       },
       {
-        "t": "2026-11-03T20:25:00Z",
+        "t": "2026-11-04T16:20:00Z",
         "price": 3.755
       },
       {
-        "t": "2026-11-03T20:30:00Z",
-        "price": 3.745
+        "t": "2026-11-04T16:25:00Z",
+        "price": 3.755
       },
       {
-        "t": "2026-11-03T20:35:00Z",
-        "price": 3.73
+        "t": "2026-11-04T16:30:00Z",
+        "price": 3.775
       },
       {
-        "t": "2026-11-03T20:40:00Z",
-        "price": 3.695
+        "t": "2026-11-04T16:35:00Z",
+        "price": 3.8102
       },
       {
-        "t": "2026-11-03T20:45:00Z",
-        "price": 3.6969
+        "t": "2026-11-04T16:40:00Z",
+        "price": 3.855
       },
       {
-        "t": "2026-11-03T20:50:00Z",
-        "price": 3.6799
+        "t": "2026-11-04T16:45:00Z",
+        "price": 3.865
       },
       {
-        "t": "2026-11-03T20:55:00Z",
-        "price": 3.69
+        "t": "2026-11-04T16:50:00Z",
+        "price": 3.885
       },
       {
-        "t": "2026-11-03T21:00:00Z",
-        "price": 3.68
+        "t": "2026-11-04T16:55:00Z",
+        "price": 3.8982
+      },
+      {
+        "t": "2026-11-04T17:00:00Z",
+        "price": 3.875
+      },
+      {
+        "t": "2026-11-04T17:05:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-11-04T17:10:00Z",
+        "price": 3.875
+      },
+      {
+        "t": "2026-11-04T17:15:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-11-04T17:20:00Z",
+        "price": 3.93
+      },
+      {
+        "t": "2026-11-04T17:25:00Z",
+        "price": 3.9401
+      },
+      {
+        "t": "2026-11-04T17:30:00Z",
+        "price": 3.945
+      },
+      {
+        "t": "2026-11-04T17:35:00Z",
+        "price": 3.93
+      },
+      {
+        "t": "2026-11-04T17:40:00Z",
+        "price": 3.91
+      },
+      {
+        "t": "2026-11-04T17:45:00Z",
+        "price": 3.9098
+      },
+      {
+        "t": "2026-11-04T17:50:00Z",
+        "price": 3.915
+      },
+      {
+        "t": "2026-11-04T17:55:00Z",
+        "price": 3.905
+      },
+      {
+        "t": "2026-11-04T18:00:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-11-04T18:05:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-11-04T18:10:00Z",
+        "price": 3.885
+      },
+      {
+        "t": "2026-11-04T18:15:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-11-04T18:20:00Z",
+        "price": 3.905
+      },
+      {
+        "t": "2026-11-04T18:25:00Z",
+        "price": 3.905
+      },
+      {
+        "t": "2026-11-04T18:30:00Z",
+        "price": 3.895
+      },
+      {
+        "t": "2026-11-04T18:35:00Z",
+        "price": 3.89
+      },
+      {
+        "t": "2026-11-04T18:40:00Z",
+        "price": 3.885
+      },
+      {
+        "t": "2026-11-04T18:45:00Z",
+        "price": 3.8913
+      },
+      {
+        "t": "2026-11-04T18:50:00Z",
+        "price": 3.885
+      },
+      {
+        "t": "2026-11-04T18:55:00Z",
+        "price": 3.9
+      },
+      {
+        "t": "2026-11-04T19:00:33Z",
+        "price": 3.905
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
       {
-        "title": "Transcript : Recursion Pharmaceuticals, Inc., Q3 2026 Earnings Call, Nov 03, 2026 - MarketScreener Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMHJaWG1SYXctZTZGanRRd1JVNXJGVjR4TWFDRlZBNnNQeWQwb2lBckloUlBHNk43dDI0dTNiMDI4RVBmYU1fQTFVWDhfT2lGQkZwdnM3NmpkUHRQMkE3MFBnR29FTE54ckl2UjhwYUtVZkNpal96bk9zcWk0TVE3QnV5OVpSSFZQVlBHQjVKc1JvdVFFQ0lMMU4wcWgtWGsyZncxc0JGanNFSXhrUTRYVFRwWkxkM3A0aTR5eUt3b0x1bWpGcUJCajBjQ25OZHQ2Rno2U1ZuY3dQRzMxbXNoeGpDNW95MzNBMlVXUGtCdHRqUFh3UmpOU0RB?oc=5",
-        "published_at": "2026-11-03T20:50:18Z",
-        "source": "MarketScreener Deutschland",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "relevance_score": 19
-      },
-      {
-        "title": "Recursion Pharmaceuticals: EPS erfüllt Schätzungen - Umsatz besser als erwartet - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbUpDV1ZGRV9Id2lSdUpzeHVEVjgtcEJkRGJHLUo5VTM4ZTlZZXNaeDNjSGEzNy1pUXdXUHZxbl9jZkhIamVvUnpPUDhyTEx0MDRpblZPXzZRWE5YTk5CRzVLVXhFVG5NNGs2ZTF2bU4tb2JFRU5vQlFOdDNpajNjb0dQZ2d6X2UyZ0lIdU1KdzU2U09rMm9fWlhsWUhOczhhc242VDctaVVSYTRqVzd6R0E3aUNRV3lkR0lFNFpBU3Vqbm8?oc=5",
-        "published_at": "2026-11-02T21:48:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 19
-      },
-      {
         "title": "Recursion ernennt Fred Hassan zum neuen Verwaltungsratsvorsitzenden - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcDNnbWdhaEh4STExaVlzRUNFNFlSRVZQb3lfa0JlNmx4enVLYmZxb1QzeWgxZmNmbzFUTDNiU0VyUm50U0xEY08xMmZmaHJjT3llRTJIZ0NNeFhkNXZrWkFOb1V0N3VURGw3U1I4MXRYUHBKV0V4RDN2Y3hrRFo3eEZkOEYzb3RkTTRZSmx5VFotUlZvQ29lSUJyaGNubkpUMEdXV1dqbTZTT214UVZzUXJ6RS1kb0QtQ3NDUG1hOXY?oc=5",
         "published_at": "2026-11-02T21:14:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Recursion verbucht Meilensteinzahlung über 10 Mio. US-Dollar aus Kooperation mit Sanofi - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQa1N3TUg4eTRwdDJCQk8xajhZdXphSUxWN1NqcjJXTU03X1pZQnk4OWRSTTR0VkdrbWpRTEtVRllNZ2E2aHVXd25ka3dmOWpJYTF6a1V3eXpVRWNZSzAtNFUzRE1QSEN2SEZyNGNrZnppTGVwbkdiQjFrSHE4ZGNIeXg2ekoxVnQ4ZGNaeUxsTTNQVDBoV1FXMm9mdEg1M29JVm1NOEV5Q1pPeHBSUXJUNGNsUEpObEpZOEdQUGhWcFZvakdUbmRYbWJyVjlpRFctRFo2UUNwNXM?oc=5",
-        "published_at": "2026-10-15T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
@@ -818,22 +678,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 19
-      },
-      {
-        "title": "RXRX Prognose — Kursziel für 2027 - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRRWTJ1NjJLSm5rTUVUeTZoTndlQ0tyV3RwbGlrQ2laOGhKNXVxV2hYZzgzcExqY3BFRWhPd3ZmMkNUR21zUnFMWGozeDd6UkpWV09PTmVDeUJhTTM5b2Fld2d2Rzk4RkUzN1pER3JPbF9rME1xdg?oc=5",
-        "published_at": "2026-06-25T12:31:22Z",
-        "source": "TradingView",
-        "query": "RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Recursion Pharmaceuticals liegt 88% unter dem Rekordhoch. Ist die RXRX-Aktie endlich ein guter Kauf? - TIKR.com",
@@ -1064,46 +908,6 @@
         "url": "https://clinicaltrials.gov/study/NCT06005974"
       },
       {
-        "nct_id": "NCT05985655",
-        "title": "Study to Assess GTAEXS617 in Participants With Advanced Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Head and Neck Squamous Cell Carcinoma (HNSCC), Pancreatic Adenocarcinoma, Non-small Cell Lung Cancer (NSCLC), Platinum-resistant High-grade Epithelial Ovarian, Primary Peritoneal, or Fallopian Tube Cancers (HGSOC)",
-        "last_update": "",
-        "start_date": "2023-07-06",
-        "url": "https://clinicaltrials.gov/study/NCT05985655"
-      },
-      {
-        "nct_id": "NCT07517198",
-        "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Solid Tumor, Small Cell Lung Cancer (SCLC), High Grade Neuroendocrine Cancer, Small Cell Carcinomas of Non-lung Origin",
-        "last_update": "",
-        "start_date": "2026-04-13",
-        "url": "https://clinicaltrials.gov/study/NCT07517198"
-      },
-      {
-        "nct_id": "NCT06536465",
-        "title": "The Clostridioides Difficile Trial of REC-3964",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "Recurrent Clostridioides Difficile Infection",
-        "last_update": "",
-        "start_date": "2024-10-14",
-        "url": "https://clinicaltrials.gov/study/NCT06536465"
-      },
-      {
-        "nct_id": "NCT06678659",
-        "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Unresectable, Locally Advanced, Metastatic Cancers, Relapsed/Refractory Lymphomas",
-        "last_update": "",
-        "start_date": "2024-11-21",
-        "url": "https://clinicaltrials.gov/study/NCT06678659"
-      },
-      {
         "nct_id": "NCT06980116",
         "title": "Dose Determining Study of EXS73565 in Participants With Relapsed or Refractory B-Cell Malignancies",
         "status": "RECRUITING",
@@ -1112,16 +916,6 @@
         "last_update": "",
         "start_date": "2025-03-31",
         "url": "https://clinicaltrials.gov/study/NCT06980116"
-      },
-      {
-        "nct_id": "NCT07819136",
-        "title": "REC-7735 in Participants With Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Solid Tumors",
-        "last_update": "",
-        "start_date": "2026-09",
-        "url": "https://clinicaltrials.gov/study/NCT07819136"
       },
       {
         "nct_id": "NCT05130866",
@@ -1134,6 +928,16 @@
         "url": "https://clinicaltrials.gov/study/NCT05130866"
       },
       {
+        "nct_id": "NCT05985655",
+        "title": "Study to Assess GTAEXS617 in Participants With Advanced Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Head and Neck Squamous Cell Carcinoma (HNSCC), Pancreatic Adenocarcinoma, Non-small Cell Lung Cancer (NSCLC), Platinum-resistant High-grade Epithelial Ovarian, Primary Peritoneal, or Fallopian Tube Cancers (HGSOC)",
+        "last_update": "",
+        "start_date": "2023-07-06",
+        "url": "https://clinicaltrials.gov/study/NCT05985655"
+      },
+      {
         "nct_id": "NCT05085561",
         "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
         "status": "COMPLETED",
@@ -1142,6 +946,46 @@
         "last_update": "",
         "start_date": "2022-03-17",
         "url": "https://clinicaltrials.gov/study/NCT05085561"
+      },
+      {
+        "nct_id": "NCT07517198",
+        "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "conditions": "Solid Tumor, Small Cell Lung Cancer (SCLC), High Grade Neuroendocrine Cancer, Small Cell Carcinomas of Non-lung Origin",
+        "last_update": "",
+        "start_date": "2026-04-13",
+        "url": "https://clinicaltrials.gov/study/NCT07517198"
+      },
+      {
+        "nct_id": "NCT07819136",
+        "title": "REC-7735 in Participants With Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Solid Tumors",
+        "last_update": "",
+        "start_date": "2026-09",
+        "url": "https://clinicaltrials.gov/study/NCT07819136"
+      },
+      {
+        "nct_id": "NCT06678659",
+        "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Unresectable, Locally Advanced, Metastatic Cancers, Relapsed/Refractory Lymphomas",
+        "last_update": "",
+        "start_date": "2024-11-21",
+        "url": "https://clinicaltrials.gov/study/NCT06678659"
+      },
+      {
+        "nct_id": "NCT06536465",
+        "title": "The Clostridioides Difficile Trial of REC-3964",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Recurrent Clostridioides Difficile Infection",
+        "last_update": "",
+        "start_date": "2024-10-14",
+        "url": "https://clinicaltrials.gov/study/NCT06536465"
       }
     ],
     "detected_triggers": [
@@ -1274,18 +1118,6 @@
         "date": "2026-11-02"
       },
       {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Transcript : Recursion Pharmaceuticals, Inc., Q3 2026 Earnings Call, Nov 03, 2026 - MarketScreener Deutschland",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "MarketScreener Deutschland",
-        "date": "2026-11-03T20:50:18Z",
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMHJaWG1SYXctZTZGanRRd1JVNXJGVjR4TWFDRlZBNnNQeWQwb2lBckloUlBHNk43dDI0dTNiMDI4RVBmYU1fQTFVWDhfT2lGQkZwdnM3NmpkUHRQMkE3MFBnR29FTE54ckl2UjhwYUtVZkNpal96bk9zcWk0TVE3QnV5OVpSSFZQVlBHQjVKc1JvdVFFQ0lMMU4wcWgtWGsyZncxc0JGanNFSXhrUTRYVFRwWkxkM3A0aTR5eUt3b0x1bWpGcUJCajBjQ25OZHQ2Rno2U1ZuY3dQRzMxbXNoeGpDNW95MzNBMlVXUGtCdHRqUFh3UmpOU0RB?oc=5"
-      },
-      {
         "type": "SEC Filing",
         "level": "low",
         "title": "144 · 2026-08-20",
@@ -1388,6 +1220,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-10-07"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-11-03",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-03"
       }
     ],
     "queries_used": [
