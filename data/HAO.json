@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.98",
-      "note": "Auto-Update: -1.98% vs. vorheriger Schlusskurs",
+      "value": "$1.88",
+      "note": "Auto-Update: -7.84% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-05T07:06:28Z",
+    "last_update_utc": "2026-11-05T15:40:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.98,
-      "previousClose": 2.02,
-      "change": -0.04,
-      "changePercent": -1.98,
-      "regularMarketTime": "2026-11-04T21:00:01Z",
+      "regularMarketPrice": 1.88,
+      "previousClose": 2.04,
+      "change": -0.16,
+      "changePercent": -7.84,
+      "regularMarketTime": "2026-11-05T15:30:26Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -306,52 +306,24 @@
       {
         "t": "2026-11-04T14:30:00Z",
         "price": 1.98
+      },
+      {
+        "t": "2026-11-05T14:30:00Z",
+        "price": 1.88
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-04T15:25:00Z",
-        "price": 1.8
-      },
-      {
-        "t": "2026-11-04T15:30:00Z",
-        "price": 1.835
-      },
-      {
-        "t": "2026-11-04T15:40:00Z",
-        "price": 1.9
-      },
-      {
-        "t": "2026-11-04T16:40:00Z",
+        "t": "2026-11-05T15:00:00Z",
         "price": 1.88
       },
       {
-        "t": "2026-11-04T18:05:00Z",
-        "price": 1.8874
+        "t": "2026-11-05T15:25:00Z",
+        "price": 1.8847
       },
       {
-        "t": "2026-11-04T18:10:00Z",
-        "price": 1.8895
-      },
-      {
-        "t": "2026-11-04T18:15:00Z",
-        "price": 1.9
-      },
-      {
-        "t": "2026-11-04T19:15:00Z",
-        "price": 1.95
-      },
-      {
-        "t": "2026-11-04T19:25:00Z",
-        "price": 1.9492
-      },
-      {
-        "t": "2026-11-04T20:00:00Z",
-        "price": 1.9739
-      },
-      {
-        "t": "2026-11-04T21:00:00Z",
-        "price": 1.98
+        "t": "2026-11-05T15:30:26Z",
+        "price": 1.88
       }
     ],
     "price_history_range": "1mo",
@@ -501,44 +473,24 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT06079983",
-        "title": "JSKN003 Versus Treatment Of Physician'S Choice For HER2-low, Unresectable and/or Metastatic Breast Cancer Subjects",
+        "nct_id": "NCT06618651",
+        "title": "A Study of SHR-3821 Injection in Subjects With Advanced Solid Tumors",
         "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Breast Cancer",
+        "phase": "PHASE1",
+        "conditions": "Advanced Solid Tumors",
         "last_update": "",
-        "start_date": "2023-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT06079983"
+        "start_date": "2024-11-13",
+        "url": "https://clinicaltrials.gov/study/NCT06618651"
       },
       {
-        "nct_id": "NCT04056273",
-        "title": "Assess the Use of rEBUS With a Guide Sheath to Increase Transbronchial Lung Biopsy Yield Rate",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Diagnoses Disease, Lung Tumor",
-        "last_update": "",
-        "start_date": "2019-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT04056273"
-      },
-      {
-        "nct_id": "NCT01237483",
-        "title": "Reirradiation and Erbitux in the HNSCC",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Head and Neck Cancer Squamous Cell",
-        "last_update": "",
-        "start_date": "2010-10",
-        "url": "https://clinicaltrials.gov/study/NCT01237483"
-      },
-      {
-        "nct_id": "NCT07896954",
-        "title": "A Comparison of Heart Rate Variability Biofeedback, Mindfulness, and Psychoeducation-based Interventions on Clinical Recovery Outcomes in Patients Undergoing Total Knee Arthroplasty",
+        "nct_id": "NCT07905937",
+        "title": "Exploration of Whole-Brain Radiotherapy Combined With PD-1 Inhibitors on Brain Injury",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Pain (Knee), Pain and Anxiety, TKA",
+        "phase": "",
+        "conditions": "Small Cell Lung Cancer ( SCLC ), Brain Injury",
         "last_update": "",
-        "start_date": "2026-01-21",
-        "url": "https://clinicaltrials.gov/study/NCT07896954"
+        "start_date": "2026-06-30",
+        "url": "https://clinicaltrials.gov/study/NCT07905937"
       },
       {
         "nct_id": "NCT06756451",
@@ -551,104 +503,124 @@
         "url": "https://clinicaltrials.gov/study/NCT06756451"
       },
       {
-        "nct_id": "NCT06812065",
-        "title": "Randomized Controlled Clinical Trial of Hyperthermia and Hydrogen Peroxide 3% in the Treatment of Cutaneous Warts",
+        "nct_id": "NCT06650046",
+        "title": "Study on Topping-off Technique for Treating LDD",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Warts",
+        "conditions": "Lumbar Degenerative Disease",
         "last_update": "",
-        "start_date": "2022-12-07",
-        "url": "https://clinicaltrials.gov/study/NCT06812065"
+        "start_date": "2024-10-18",
+        "url": "https://clinicaltrials.gov/study/NCT06650046"
       },
       {
-        "nct_id": "NCT06829784",
-        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Asthma",
+        "nct_id": "NCT03153605",
+        "title": "The Correlation and Relationship Between Chromaticity Parameters and Treatment Satisfaction Before and After Tooth Bleaching",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Bleaching; Satisfactory",
         "last_update": "",
-        "start_date": "2025-03-21",
-        "url": "https://clinicaltrials.gov/study/NCT06829784"
+        "start_date": "2016-04",
+        "url": "https://clinicaltrials.gov/study/NCT03153605"
       },
       {
-        "nct_id": "NCT06777758",
-        "title": "Comparison of Remimazolam and Propofol in Endoscopic Examinations and Treatments",
-        "status": "RECRUITING",
-        "phase": "PHASE4",
-        "conditions": "Postoperative Complications, Respiratory Depression, Postoperative Nausea, Vomiting",
-        "last_update": "",
-        "start_date": "2025-02-12",
-        "url": "https://clinicaltrials.gov/study/NCT06777758"
-      },
-      {
-        "nct_id": "NCT03879915",
-        "title": "Dental Implants in Patients With X-linked Hypophosphatemia",
+        "nct_id": "NCT05499442",
+        "title": "EEG Motor Movement and Imagery Dataset for Stroke",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "X-linked Hypophosphatemia",
+        "conditions": "Acute Stroke",
         "last_update": "",
-        "start_date": "2019-09-27",
-        "url": "https://clinicaltrials.gov/study/NCT03879915"
+        "start_date": "2022-01-01",
+        "url": "https://clinicaltrials.gov/study/NCT05499442"
       },
       {
-        "nct_id": "NCT06751199",
-        "title": "UCMSCs Combined With Allogeneic Islet Transplantation for the Treatment of Diabetes",
+        "nct_id": "NCT06649305",
+        "title": "A Prospective Multicenter Clinical Study： IntracOronary neaR-Infrared Spectroscopy and OptIcal Coherence Tomography for Evaluating Coronary vulNerable Plaque in Patients With diabeTes",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Diabetes",
-        "last_update": "",
-        "start_date": "2024-12-30",
-        "url": "https://clinicaltrials.gov/study/NCT06751199"
-      },
-      {
-        "nct_id": "NCT06030804",
-        "title": "Perioperative Dexmedetomidine and Long-term Survival After Cancer Surgery",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Elderly, Cancer Surgery, Dexmedetomidine, Long-Term Survivors",
-        "last_update": "",
-        "start_date": "2023-09-12",
-        "url": "https://clinicaltrials.gov/study/NCT06030804"
-      },
-      {
-        "nct_id": "NCT07060625",
-        "title": "The Effect of Semi-recumbent Position on Hypoxemia After Lung Segment/Lobe Surgery",
-        "status": "ENROLLING_BY_INVITATION",
         "phase": "",
-        "conditions": "Lung Cancer (Diagnosis), Hypoxemia",
+        "conditions": "Coronary Heart Disease (CHD), Diabetes (DM)",
         "last_update": "",
-        "start_date": "2024-12-23",
-        "url": "https://clinicaltrials.gov/study/NCT07060625"
+        "start_date": "2024-10-30",
+        "url": "https://clinicaltrials.gov/study/NCT06649305"
       },
       {
-        "nct_id": "NCT07070349",
-        "title": "A Trial of HRS-6213 in Healthy Subjects and Patients With Solid Tumors",
+        "nct_id": "NCT06008405",
+        "title": "Clinical Trial Evaluating the Safety of the TQB2928 Injection Combination Therapy",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "conditions": "Acute Myeloid Leukemia, Myelodysplastic Syndromes",
+        "last_update": "",
+        "start_date": "2023-09",
+        "url": "https://clinicaltrials.gov/study/NCT06008405"
+      },
+      {
+        "nct_id": "NCT01979237",
+        "title": "Comparing FARES Method With SPASO Method for Reduction of Anterior Shoulder Dislocation: a Prospective Randomized Trial",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Shoulder Anterior Dislocation",
+        "last_update": "",
+        "start_date": "2013-11",
+        "url": "https://clinicaltrials.gov/study/NCT01979237"
+      },
+      {
+        "nct_id": "NCT07762872",
+        "title": "A Multicenter Prospective Real-World Effectiveness and Safety of Satralizumab in the Early Treatment of Attacks in NMOSD",
         "status": "RECRUITING",
-        "phase": "PHASE1, PHASE2",
-        "conditions": "Patients With Solid Tumors",
+        "phase": "",
+        "conditions": "Neuromyelitis Optica Spectrum Disorders (NMOSD)",
         "last_update": "",
-        "start_date": "2025-07-10",
-        "url": "https://clinicaltrials.gov/study/NCT07070349"
+        "start_date": "2026-07-20",
+        "url": "https://clinicaltrials.gov/study/NCT07762872"
       },
       {
-        "nct_id": "NCT07168720",
-        "title": "The Study is Being Conducted to Evaluate the Efficacy and Safety of Dexmedetomidine Hydrochloride Microneedles for Preoperative Sedation in Children",
+        "nct_id": "NCT02636985",
+        "title": "Application of Ultrasonic Elastography in Lung Lesions",
+        "status": "COMPLETED",
+        "phase": "",
+        "conditions": "Elastography",
+        "last_update": "",
+        "start_date": "2011-12",
+        "url": "https://clinicaltrials.gov/study/NCT02636985"
+      },
+      {
+        "nct_id": "NCT06924918",
+        "title": "Scalp Acupuncture Treatment for Chronic Tic Disorders in Children",
+        "status": "ENROLLING_BY_INVITATION",
+        "phase": "NA",
+        "conditions": "Tic Disorder",
+        "last_update": "",
+        "start_date": "2025-08-01",
+        "url": "https://clinicaltrials.gov/study/NCT06924918"
+      },
+      {
+        "nct_id": "NCT03473717",
+        "title": "Comparison of Pain Level During Intrauterine Device (IUD) Insertion Between Conventional and Direct Method",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "IUD Insertion",
+        "last_update": "",
+        "start_date": "2018-03-30",
+        "url": "https://clinicaltrials.gov/study/NCT03473717"
+      },
+      {
+        "nct_id": "NCT06496490",
+        "title": "A Clinical Trial of TQB2102 for Injection in Non-small Cell Lung Cancer With HER2 Gene Abnormality",
         "status": "RECRUITING",
         "phase": "PHASE2",
-        "conditions": "Preoperative Sedation",
+        "conditions": "Non-Small Cell Lung Cancer",
         "last_update": "",
-        "start_date": "2025-08-29",
-        "url": "https://clinicaltrials.gov/study/NCT07168720"
+        "start_date": "2024-08-06",
+        "url": "https://clinicaltrials.gov/study/NCT06496490"
       },
       {
-        "nct_id": "NCT07045844",
-        "title": "Effects of Enteral Feeding Regimens on NEC, Mortality, and Neurodevelopment in Very Preterm Infants",
+        "nct_id": "NCT06431490",
+        "title": "A Study of TQB2102 for Injection in the Treatment of HER2-positive Biliary Tract Cancer",
         "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Very Preterm Infant, Necrotizing Enterocolitis (NEC)",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Biliary Tract Cancer",
         "last_update": "",
-        "start_date": "2026-01-23",
-        "url": "https://clinicaltrials.gov/study/NCT07045844"
+        "start_date": "2024-07-22",
+        "url": "https://clinicaltrials.gov/study/NCT06431490"
       }
     ],
     "detected_triggers": [
@@ -671,66 +643,66 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Reirradiation and Erbitux in the HNSCC",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT01237483",
-        "date": "2010-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Assess the Use of rEBUS With a Guide Sheath to Increase Transbronchial Lung Biopsy Yield Rate",
+        "title": "Comparing FARES Method With SPASO Method for Reduction of Anterior Shoulder Dislocation: a Prospective Randomized Trial",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT04056273",
-        "date": "2019-09-01"
+        "source": "NCT01979237",
+        "date": "2013-11"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Randomized Controlled Clinical Trial of Hyperthermia and Hydrogen Peroxide 3% in the Treatment of Cutaneous Warts",
+        "title": "The Correlation and Relationship Between Chromaticity Parameters and Treatment Satisfaction Before and After Tooth Bleaching",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03153605",
+        "date": "2016-04"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Comparison of Pain Level During Intrauterine Device (IUD) Insertion Between Conventional and Direct Method",
+        "reason": "Studienregister-Treffer: UNKNOWN NA",
+        "source": "NCT03473717",
+        "date": "2018-03-30"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Trial Evaluating the Safety of the TQB2928 Injection Combination Therapy",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
+        "source": "NCT06008405",
+        "date": "2023-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of TQB2102 for Injection in the Treatment of HER2-positive Biliary Tract Cancer",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
+        "source": "NCT06431490",
+        "date": "2024-07-22"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Trial of TQB2102 for Injection in Non-small Cell Lung Cancer With HER2 Gene Abnormality",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT06496490",
+        "date": "2024-08-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Study on Topping-off Technique for Treating LDD",
         "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06812065",
-        "date": "2022-12-07"
+        "source": "NCT06650046",
+        "date": "2024-10-18"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Perioperative Dexmedetomidine and Long-term Survival After Cancer Surgery",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06030804",
-        "date": "2023-09-12"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "JSKN003 Versus Treatment Of Physician'S Choice For HER2-low, Unresectable and/or Metastatic Breast Cancer Subjects",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06079983",
-        "date": "2023-12-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "UCMSCs Combined With Allogeneic Islet Transplantation for the Treatment of Diabetes",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT06751199",
-        "date": "2024-12-30"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Comparison of Remimazolam and Propofol in Endoscopic Examinations and Treatments",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE4",
-        "source": "NCT06777758",
-        "date": "2025-02-12"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06829784",
-        "date": "2025-03-21"
+        "title": "A Study of SHR-3821 Injection in Subjects With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
+        "source": "NCT06618651",
+        "date": "2024-11-13"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -743,34 +715,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Trial of HRS-6213 in Healthy Subjects and Patients With Solid Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT07070349",
-        "date": "2025-07-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "The Study is Being Conducted to Evaluate the Efficacy and Safety of Dexmedetomidine Hydrochloride Microneedles for Preoperative Sedation in Children",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT07168720",
-        "date": "2025-08-29"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "A Comparison of Heart Rate Variability Biofeedback, Mindfulness, and Psychoeducation-based Interventions on Clinical Recovery Outcomes in Patients Undergoing Total Knee Arthroplasty",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07896954",
-        "date": "2026-01-21"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Effects of Enteral Feeding Regimens on NEC, Mortality, and Neurodevelopment in Very Preterm Infants",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07045844",
-        "date": "2026-01-23"
+        "title": "Scalp Acupuncture Treatment for Chronic Tic Disorders in Children",
+        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION NA",
+        "source": "NCT06924918",
+        "date": "2025-08-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -863,18 +811,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Dental Implants in Patients With X-linked Hypophosphatemia",
-        "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT03879915",
-        "date": "2019-09-27"
+        "title": "Application of Ultrasonic Elastography in Lung Lesions",
+        "reason": "Studienregister-Treffer: COMPLETED ",
+        "source": "NCT02636985",
+        "date": "2011-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "The Effect of Semi-recumbent Position on Hypoxemia After Lung Segment/Lobe Surgery",
-        "reason": "Studienregister-Treffer: ENROLLING_BY_INVITATION ",
-        "source": "NCT07060625",
-        "date": "2024-12-23"
+        "title": "EEG Motor Movement and Imagery Dataset for Stroke",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT05499442",
+        "date": "2022-01-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "A Prospective Multicenter Clinical Study： IntracOronary neaR-Infrared Spectroscopy and OptIcal Coherence Tomography for Evaluating Coronary vulNerable Plaque in Patients With diabeTes",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT06649305",
+        "date": "2024-10-30"
       },
       {
         "type": "SEC Filing",
@@ -883,6 +839,22 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
