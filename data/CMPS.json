@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$8.69",
-      "note": "Auto-Update: -29.23% vs. vorheriger Schlusskurs",
+      "value": "$8.60",
+      "note": "Auto-Update: -29.97% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-04T19:00:05Z",
+    "last_update_utc": "2026-11-05T00:11:18Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 8.69,
+      "regularMarketPrice": 8.6,
       "previousClose": 12.28,
-      "change": -3.59,
-      "changePercent": -29.23,
-      "regularMarketTime": "2026-11-04T18:59:41Z",
+      "change": -3.68,
+      "changePercent": -29.97,
+      "regularMarketTime": "2026-11-04T21:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -421,7 +421,7 @@
       },
       {
         "t": "2026-11-04T14:30:00Z",
-        "price": 8.69
+        "price": 8.6
       }
     ],
     "price_history_1d": [
@@ -639,11 +639,107 @@
       },
       {
         "t": "2026-11-04T18:55:00Z",
+        "price": 8.69
+      },
+      {
+        "t": "2026-11-04T19:00:00Z",
         "price": 8.68
       },
       {
-        "t": "2026-11-04T18:59:41Z",
-        "price": 8.69
+        "t": "2026-11-04T19:05:00Z",
+        "price": 8.665
+      },
+      {
+        "t": "2026-11-04T19:10:00Z",
+        "price": 8.63
+      },
+      {
+        "t": "2026-11-04T19:15:00Z",
+        "price": 8.64
+      },
+      {
+        "t": "2026-11-04T19:20:00Z",
+        "price": 8.62
+      },
+      {
+        "t": "2026-11-04T19:25:00Z",
+        "price": 8.645
+      },
+      {
+        "t": "2026-11-04T19:30:00Z",
+        "price": 8.63
+      },
+      {
+        "t": "2026-11-04T19:35:00Z",
+        "price": 8.65
+      },
+      {
+        "t": "2026-11-04T19:40:00Z",
+        "price": 8.635
+      },
+      {
+        "t": "2026-11-04T19:45:00Z",
+        "price": 8.55
+      },
+      {
+        "t": "2026-11-04T19:50:00Z",
+        "price": 8.57
+      },
+      {
+        "t": "2026-11-04T19:55:00Z",
+        "price": 8.555
+      },
+      {
+        "t": "2026-11-04T20:00:00Z",
+        "price": 8.54
+      },
+      {
+        "t": "2026-11-04T20:05:00Z",
+        "price": 8.51
+      },
+      {
+        "t": "2026-11-04T20:10:00Z",
+        "price": 8.52
+      },
+      {
+        "t": "2026-11-04T20:15:00Z",
+        "price": 8.5758
+      },
+      {
+        "t": "2026-11-04T20:20:00Z",
+        "price": 8.53
+      },
+      {
+        "t": "2026-11-04T20:25:00Z",
+        "price": 8.55
+      },
+      {
+        "t": "2026-11-04T20:30:00Z",
+        "price": 8.65
+      },
+      {
+        "t": "2026-11-04T20:35:00Z",
+        "price": 8.62
+      },
+      {
+        "t": "2026-11-04T20:40:00Z",
+        "price": 8.65
+      },
+      {
+        "t": "2026-11-04T20:45:00Z",
+        "price": 8.67
+      },
+      {
+        "t": "2026-11-04T20:50:00Z",
+        "price": 8.56
+      },
+      {
+        "t": "2026-11-04T20:55:00Z",
+        "price": 8.595
+      },
+      {
+        "t": "2026-11-04T21:00:00Z",
+        "price": 8.6
       }
     ],
     "price_history_range": "1mo",
@@ -735,22 +831,6 @@
         "published_at": "2026-11-03T04:45:48Z",
         "source": "ad-hoc-news.de",
         "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Newron stürzt ab, Compass Pathways hält sich: Was Psychiatrie-Biotechs an der Börse unterscheidet - Small Microcap",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN091Nm5lc05ocmJld1JWQUIxMk1lbzh4VE8wOU01d0ZXVUVVYVFNWXY2TWJ4R0JnMDlzaE9weEE2QUl6Smk3NVU3UUNnNTRPTUJwRkcwVVVUVmgtQzhPRzU3a2NXZ2RiTjZ5MExjNFhCei1yTkY5SzFPRUs3YTlZdG1oS3lrZDB2cy13VS1XeDVBT1ZYTm5rVS1CMU9hd3N1SlNFalN1aThGTktCUS1sR0t2WS1jUEJNMklHdU1kWWtOX0U?oc=5",
-        "published_at": "2026-10-28T04:09:00Z",
-        "source": "Small Microcap",
-        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
