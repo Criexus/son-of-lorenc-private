@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-07T18:56:41Z",
+    "last_update_utc": "2026-11-07T22:26:53Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -938,22 +938,6 @@
         "relevance_score": 17
       },
       {
-        "title": "Compass Pathways: COMP006 mit 3,8-Punkte-Vorteil - Börse Express",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEtDck4xMFpaeG1hMFRSYkRZaGtaN0szS0VSbmZSbHdsT21vaWR1UUlsVVQ0WnhJeFBLUWVJb2tPLUM4WHV1NU5tNWdUOV9jTUtUdzRFTXRlMkhIRmpFNV94Z0JEcktwbF9EdjRDbHFuVkNjck9QblNGdnVOSExoeXBjLWQ5RWtyNmZCQkI1el96YXFKbzktbmkyS3I1Yjg?oc=5",
-        "published_at": "2026-06-29T07:00:00Z",
-        "source": "Börse Express",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways steigt nach TD-Cowen-Update: Buy bleibt bestehen, Zulassung für COMP360 in 1H27 im Fokus - Goldesel.de",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQmZGUnpEMGJJbkUzVGpwZldRRHk1OTRiRE1Rb3gzQ2VDeFc5OVFQM3lGSUh0WVdJeGZQZ3oydFZDek9rcWRkMDF2a0pGaXY2b183bzlHQmZtdjVCZXpfWlFXVUdSU0pRZWJFc1RVTm1SQll2Zk41SnVrZ0xMZEtkaWthN0ljY1gxSS15cHFSYmFkRWp4VUxyRnI0emRRaDVsdThaNTNKMUpDekY4blU5S3RJei1YcnE4bl9YdTZ2MW9DQ25WNWl4ZngwaXAyTVhE?oc=5",
         "published_at": "2026-06-01T07:00:00Z",
@@ -1023,6 +1007,22 @@
         "published_at": "2026-05-13T07:00:00Z",
         "source": "Investing.com Deutsch",
         "query": "COMPASS Pathways CMPS stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "FDA / Regulatorik",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
+      },
+      {
+        "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5",
+        "published_at": "2026-04-21T07:00:00Z",
+        "source": "Börse Express",
+        "query": "COMPASS Pathways COMP360 phase 3",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -1408,6 +1408,18 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
+        "title": "Compass Pathways Aktie: Zulassungs-Fast-Track - Börse Express",
+        "reason": "Trigger erkannt: FDA / Regulatorik.",
+        "impact": "potenziell hoher Kurshebel",
+        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
+        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "source": "Börse Express",
+        "date": "2026-04-21T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY3lwY2E2UE1SMzZGMmRGbkxBQ1R4Mk9HSUNrUWI1S0gzLV84Qjh3dFNnVzM3NTB5TkhGNHBFUWxnZFhBX0FQdjFTV1Y3eldQdUlnenBNUGEyZHp3SmkwQXpZNklyYkdwTnpLQXFxZm1SQjZyVWRtZmVmdkhtWVg2QzIyOW5qb25iMnJOdGM2YWlXR1FrZXlqdmtIdzc?oc=5"
+      },
+      {
+        "type": "FDA / Regulatorik",
+        "level": "high",
         "title": "Starke Zahlen und FDA-Rückenwind: Aktie von Compass Pathways legt 8 % zu - Investing.com Deutsch",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1652,18 +1664,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-11-03"
-      },
-      {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Earnings Call: COMPASS Pathways übertrifft Verlustschätzungen für das 3. Quartal 2026 – Markteinführung von COMP360 für 2027 anvisiert - Investing.com Deutsch",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-11-03T14:03:00Z",
-        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNMmozSTNmcGZyTzJmVDBUXzM1NGdwSjFsM19zNXNLM3pLTU9iMjZkaHptUHQtUjRWOFZvVm9JMHQtaWdNeU9qMmVCU0xsUzdtbzhGVkZIQ2pGOXB6LWU5eEtsUGp1WGFUeU5ocDZMNFR6QnJFajdlbUdWWjV0SzlNeWJIQmU3R0JNYy1mekRPYTR2aExSWnRjUXdYT1IxdkJac1ZEV0tNQWpQRDJsYTRKdlg1cnNXTl9VS0EzWmtBcWNMVGF3czN2SE9kOThHRHl6YnB2TU9UekVUYkhkYWJKenloOXRMVExmSzV4ckpEY3ljVUQ2R0dfQVE0enl6QXhxMmM0OFJmdEhnLUIzdUpqYkFZY3M?oc=5"
       }
     ],
     "queries_used": [
