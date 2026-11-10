@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-10T03:40:23Z",
+    "last_update_utc": "2026-11-10T11:56:05Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -996,6 +996,13 @@
     ],
     "sec_filings": [
       {
+        "form": "SCHEDULE 13G",
+        "filingDate": "2026-11-10",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000009375126000611/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
         "form": "4",
         "filingDate": "2026-11-04",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000136368326000009/xslF345X06/form4-11042026_091140.xml",
@@ -1125,13 +1132,6 @@
         "form": "8-K",
         "filingDate": "2026-06-16",
         "url": "https://www.sec.gov/Archives/edgar/data/1326190/000110465926074575/tm2618087d1_8k.htm",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G/A",
-        "filingDate": "2026-05-15",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326190/000121465926006495/xslSCHEDULE_13G_X02/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1516,14 +1516,6 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "SCHEDULE 13G/A · 2026-05-15",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-05-15"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
         "title": "4 · 2026-08-03",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
@@ -1544,6 +1536,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-08-13"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-09-17",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-09-17"
       }
     ],
     "queries_used": [
