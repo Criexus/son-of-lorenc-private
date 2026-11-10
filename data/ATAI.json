@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-09T21:10:24Z",
+    "last_update_utc": "2026-11-10T03:39:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -456,7 +456,7 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ3B0RmFEVi1HclUyaG11OUh1V1NSWUNQMlBVcGRPSzlxRG9DUGVGeXVadTNYTzA1YnlhODNaTDVRUjQxdE1qeUdmdVQwWTR6WjZWYzZXMVN0ajBvUFM2TEY4b1VmYWZkNUJyYWRhSXlzbG1KLWt5ckRtZEkzOGRnWk43a1BhRVhwaERRcjVodTFDdFc4SURBTFpLN2Eza0Y1bS1SV1ppLVdsbHg0RUI0c3dScw?oc=5",
         "published_at": "2026-07-22T07:00:00Z",
         "source": "Börse Express",
-        "query": "AtaiBeckley BPL-003 phase 3",
+        "query": "ATAI EMP-01 VLS-01 FDA",
         "source_type": "google_news_rss",
         "trigger_type": "FDA / Regulatorik",
         "trigger_level": "high",
@@ -465,7 +465,7 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 22
+        "relevance_score": 21
       },
       {
         "title": "Atai Beckley Aktie: Eli Lilly-Deal bis 3,8 Milliarden - Kapitalmarktexperten",
@@ -594,6 +594,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
+      },
+      {
+        "title": "Atai Beckley Aktie: BPL-003-Phase 3 im Fokus - Börse Express",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZTZFbU1oNlJyaERPTU5tVEEtbkpqeGZfNGxkbzQxczNnSHZMM3k3ZkE3dGNjQ3V2MVQ4MGxuWGJzbzhFWC1BWTZEcmtFc1c2bUFLV1ZhU21ZUjFMY3NCVlNBZG9BaHZ2eXNRbHNPb1NZb3htMFFyLU81cUxpWFBhWFhjTWEzRnNXU2tVY01Bb2YzZy1seG5XeHRpaw?oc=5",
+        "published_at": "2026-06-06T07:00:00Z",
+        "source": "Börse Express",
+        "query": "AtaiBeckley BPL-003 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 22
       },
       {
         "title": "AtaiBeckley profitiert von US-Signal zu Ibogaine: Trump plant Prüfung der PTSD-Substanz - Goldesel.de",
@@ -762,6 +778,18 @@
       }
     ],
     "detected_triggers": [
+      {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "Atai Beckley Aktie: BPL-003-Phase 3 im Fokus - Börse Express",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "Börse Express",
+        "date": "2026-06-06T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZTZFbU1oNlJyaERPTU5tVEEtbkpqeGZfNGxkbzQxczNnSHZMM3k3ZkE3dGNjQ3V2MVQ4MGxuWGJzbzhFWC1BWTZEcmtFc1c2bUFLV1ZhU21ZUjFMY3NCVlNBZG9BaHZ2eXNRbHNPb1NZb3htMFFyLU81cUxpWFBhWFhjTWEzRnNXU2tVY01Bb2YzZy1seG5XeHRpaw?oc=5"
+      },
       {
         "type": "Studienphase / Readout",
         "level": "high",

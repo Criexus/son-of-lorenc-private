@@ -217,7 +217,7 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-09T21:11:58Z",
+    "last_update_utc": "2026-11-10T03:41:25Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -531,6 +531,38 @@
     "price_history_1d_range": "1d/5m",
     "news": [
       {
+        "title": "Earnings Call: AlTi Global verfehlt Erwartungen für Q3 2026 trotz deutlicher Kostensenkungen - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUTBVSG9BRnphc2RuYXBHS2VpcE01OG1DdVBmYlNPSGdSTXFwNGpaZWtWR1pIcmVCYjVYaV8zdlF3bEFtX2ZTckRKQW5jTHV5MldlWTVwNmlNZlBHX0d2MDgxRlFwak9fOVN5RklJcHNrQTAxZHVLNENrb3JFRUY4a2F2YWZIaV8zbkh2cUZxejV5Z3pITDNPdDlNRUVvUWM4TWhNU09ManQxdmNsOEw2NE4yQ01VbUU1X3dFb25iVFRnSTI2MlFhVFp6ckhkNmZRSGltLVRuNlhUbFRyaF9v?oc=5",
+        "published_at": "2026-11-09T22:37:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALTI ALTI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 7
+      },
+      {
+        "title": "Alti Global: EPS verfehlt Schätzungen um 0,16 $ - Umsatz schlechter als erwartet - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWFEza0Rad01TRTFvZ2IzaS0xQ1A1a09tTVVmVVZGbHJvRWdLUHprQmR3M2dRVXhFdWdMMnFudjQzM3VUSUt4VUR2THlHN2ZOb2dHc2xzWjZVQ21KSzdYUmNZZXBYOTNsaTUyTm81SEt2dDhCLVZnV3ltT0Y0THRvdXB3cjhLSDFIbmV3MDhqbmROQjhlZkNCYmFJOXNoWkFfalhscTFaUENySUJHYXd0YjhEOUdQV2FRRTlWNzg3RTBGQQ?oc=5",
+        "published_at": "2026-11-09T22:16:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALTI ALTI stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 7
+      },
+      {
         "title": "ALTI GLOBAL AKTIE | Aktienkurs | US02157E1064 | News | A3D88N - Finanzen.net",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9WZFhnRU1lVGNMdmJYRXhheVdZNzg3dkxfSHFVQzZPSFlWaEJaWkxPcERDZE9VdXh1aWhFa0trcXQ5Y0pXOTRYM3lrOXdxSmNVWUFvU2ZUQU1KZlhkQ3c?oc=5",
         "published_at": "2025-12-31T08:00:00Z",
@@ -564,6 +596,20 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026072199/alti-20261109.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-09",
+        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000162828026072191/alti-20260930.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "13F-HR",
         "filingDate": "2026-11-09",
@@ -687,20 +733,6 @@
         "form": "4",
         "filingDate": "2026-06-18",
         "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126025754/xslF345X06/form4.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126025753/xslF345X06/form4.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-06-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1838615/000114036126025752/xslF345X06/form4.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1027,20 +1059,32 @@
         "date": "2026-10-20"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-18",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-11-09",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-06-18"
+        "date": "2026-11-09"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-06-18",
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-11-09",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-06-18"
+        "date": "2026-11-09"
+      },
+      {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Earnings Call: AlTi Global verfehlt Erwartungen für Q3 2026 trotz deutlicher Kostensenkungen - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-11-09T22:37:00Z",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUTBVSG9BRnphc2RuYXBHS2VpcE01OG1DdVBmYlNPSGdSTXFwNGpaZWtWR1pIcmVCYjVYaV8zdlF3bEFtX2ZTckRKQW5jTHV5MldlWTVwNmlNZlBHX0d2MDgxRlFwak9fOVN5RklJcHNrQTAxZHVLNENrb3JFRUY4a2F2YWZIaV8zbkh2cUZxejV5Z3pITDNPdDlNRUVvUWM4TWhNU09ManQxdmNsOEw2NE4yQ01VbUU1X3dFb25iVFRnSTI2MlFhVFp6ckhkNmZRSGltLVRuNlhUbFRyaF9v?oc=5"
       },
       {
         "type": "SEC Filing",
@@ -1089,14 +1133,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-07-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "EFFECT · 2026-07-10",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-10"
       }
     ],
     "queries_used": [
