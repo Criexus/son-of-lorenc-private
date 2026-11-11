@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$18.17",
-      "note": "Auto-Update: -0.33% vs. vorheriger Schlusskurs",
+      "value": "$18.31",
+      "note": "Auto-Update: 0.43% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-11T14:48:40Z",
+    "last_update_utc": "2026-11-11T21:39:31Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 18.168,
+      "regularMarketPrice": 18.306,
       "previousClose": 18.228,
-      "change": -0.06,
-      "changePercent": -0.33,
-      "regularMarketTime": "2026-11-11T14:32:21Z",
+      "change": 0.078,
+      "changePercent": 0.43,
+      "regularMarketTime": "2026-11-11T16:36:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -250,7 +250,7 @@
       },
       {
         "t": "2026-11-11T08:00:00Z",
-        "price": 18.168
+        "price": 18.306
       }
     ],
     "price_history_1d": [
@@ -488,16 +488,108 @@
       },
       {
         "t": "2026-11-11T14:30:00Z",
-        "price": 18.176
+        "price": 18.136
       },
       {
-        "t": "2026-11-11T14:32:21Z",
+        "t": "2026-11-11T14:35:00Z",
+        "price": 18.1
+      },
+      {
+        "t": "2026-11-11T14:40:00Z",
+        "price": 18.088
+      },
+      {
+        "t": "2026-11-11T14:45:00Z",
+        "price": 18.092
+      },
+      {
+        "t": "2026-11-11T14:50:00Z",
+        "price": 18.13
+      },
+      {
+        "t": "2026-11-11T14:55:00Z",
         "price": 18.168
+      },
+      {
+        "t": "2026-11-11T15:05:00Z",
+        "price": 18.142
+      },
+      {
+        "t": "2026-11-11T15:10:00Z",
+        "price": 18.124
+      },
+      {
+        "t": "2026-11-11T15:20:00Z",
+        "price": 18.122
+      },
+      {
+        "t": "2026-11-11T15:25:00Z",
+        "price": 18.16
+      },
+      {
+        "t": "2026-11-11T15:35:00Z",
+        "price": 18.21
+      },
+      {
+        "t": "2026-11-11T15:40:00Z",
+        "price": 18.216
+      },
+      {
+        "t": "2026-11-11T15:45:00Z",
+        "price": 18.216
+      },
+      {
+        "t": "2026-11-11T15:50:00Z",
+        "price": 18.246
+      },
+      {
+        "t": "2026-11-11T16:00:00Z",
+        "price": 18.276
+      },
+      {
+        "t": "2026-11-11T16:05:00Z",
+        "price": 18.244
+      },
+      {
+        "t": "2026-11-11T16:10:00Z",
+        "price": 18.266
+      },
+      {
+        "t": "2026-11-11T16:15:00Z",
+        "price": 18.274
+      },
+      {
+        "t": "2026-11-11T16:20:00Z",
+        "price": 18.298
+      },
+      {
+        "t": "2026-11-11T16:25:00Z",
+        "price": 18.304
+      },
+      {
+        "t": "2026-11-11T16:30:00Z",
+        "price": 18.306
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "L&G ROBO Global Robotics and Automation UCITS ETF (IROB.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MZ05JV0RzRzQ3cFNNa1Z5Q29KTEthSEtmNjlUdHF2WmVvUUh1OWNWTk5naWZzNmV0TnRoSkdkcTU2RDhPTnhyVnBRY2NVczlISUtRS1BB?oc=5",
+        "published_at": "2020-05-03T05:51:31Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 19
+      },
       {
         "title": "L&G Artificial Intelligence UCITS ETF (XMLD.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DRWRoTVAzeVQzQzhZQzNNWmxHUzY1VXRhYVc2NS1WcHNPSVpnTWxqS0RDazlOc3EwM2k3dlJXNGk4MlB1cjlrck5mb2tTX1hqbDFFbHV3?oc=5",
