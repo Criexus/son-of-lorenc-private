@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$34.30",
-      "note": "Auto-Update: 2.66% vs. vorheriger Schlusskurs",
+      "value": "$34.64",
+      "note": "Auto-Update: 3.68% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -229,15 +229,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-10T19:01:40Z",
+    "last_update_utc": "2026-11-11T00:07:29Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 34.3,
+      "regularMarketPrice": 34.64,
       "previousClose": 33.41,
-      "change": 0.89,
-      "changePercent": 2.66,
-      "regularMarketTime": "2026-11-10T19:01:24Z",
+      "change": 1.23,
+      "changePercent": 3.68,
+      "regularMarketTime": "2026-11-10T21:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -338,7 +338,7 @@
       },
       {
         "t": "2026-11-10T14:30:00Z",
-        "price": 34.3
+        "price": 34.64
       }
     ],
     "price_history_1d": [
@@ -560,11 +560,103 @@
       },
       {
         "t": "2026-11-10T19:00:00Z",
+        "price": 34.31
+      },
+      {
+        "t": "2026-11-10T19:05:00Z",
+        "price": 34.43
+      },
+      {
+        "t": "2026-11-10T19:10:00Z",
+        "price": 34.34
+      },
+      {
+        "t": "2026-11-10T19:15:00Z",
+        "price": 34.35
+      },
+      {
+        "t": "2026-11-10T19:20:00Z",
         "price": 34.29
       },
       {
-        "t": "2026-11-10T19:01:24Z",
+        "t": "2026-11-10T19:25:00Z",
+        "price": 34.33
+      },
+      {
+        "t": "2026-11-10T19:30:00Z",
+        "price": 34.41
+      },
+      {
+        "t": "2026-11-10T19:35:00Z",
         "price": 34.3
+      },
+      {
+        "t": "2026-11-10T19:40:00Z",
+        "price": 34.3
+      },
+      {
+        "t": "2026-11-10T19:45:00Z",
+        "price": 34.26
+      },
+      {
+        "t": "2026-11-10T19:50:00Z",
+        "price": 34.31
+      },
+      {
+        "t": "2026-11-10T19:55:00Z",
+        "price": 34.315
+      },
+      {
+        "t": "2026-11-10T20:00:00Z",
+        "price": 34.07
+      },
+      {
+        "t": "2026-11-10T20:05:00Z",
+        "price": 34.23
+      },
+      {
+        "t": "2026-11-10T20:10:00Z",
+        "price": 34.17
+      },
+      {
+        "t": "2026-11-10T20:15:00Z",
+        "price": 34.29
+      },
+      {
+        "t": "2026-11-10T20:20:00Z",
+        "price": 34.31
+      },
+      {
+        "t": "2026-11-10T20:25:00Z",
+        "price": 34.38
+      },
+      {
+        "t": "2026-11-10T20:30:00Z",
+        "price": 34.3925
+      },
+      {
+        "t": "2026-11-10T20:35:00Z",
+        "price": 34.4
+      },
+      {
+        "t": "2026-11-10T20:40:00Z",
+        "price": 34.405
+      },
+      {
+        "t": "2026-11-10T20:45:00Z",
+        "price": 34.565
+      },
+      {
+        "t": "2026-11-10T20:50:00Z",
+        "price": 34.7
+      },
+      {
+        "t": "2026-11-10T20:55:00Z",
+        "price": 34.615
+      },
+      {
+        "t": "2026-11-10T21:00:00Z",
+        "price": 34.64
       }
     ],
     "price_history_range": "1mo",
@@ -591,7 +683,7 @@
         "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNanNGaUJsNDEzeEtreGpNRkJ1amo2X2tNQTVERUU0R0Zvckd5NTRPUkJaRDVrQkNVWGMwRnFyd0piLVJpeXJhSGQ1NTNyN0REYnN1NEQ3WmNqQ0hlZnZ3VW1GaFFoUU5ZLTRiZFVhMWI1ZnVrT240ZTlTQXVab0VSQjlrMEFEekk5d0JHR3JrcWVrWWRhdU5lN0d1X2FYWmc3V19WcGZoZ1d4bXFkTi1ELTFEUkZnYzNSUlMtV0lkTFZIMDBkS1Bxc1k1RzJzNVNlMEExT29WZEZGc3UxdEtZUktHbzNmWkdhMndFc0xpcW9kYTdf?oc=5",
         "published_at": "2026-11-09T22:50:48Z",
         "source": "MarketScreener Deutschland",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "query": "\"Definium Therapeutics\" DT120 topline",
         "source_type": "google_news_rss",
         "trigger_type": "Quartalszahlen / Cash",
         "trigger_level": "medium",
@@ -655,7 +747,7 @@
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPU1ZiYV9KN3puS3d0NGxLWXFseURQdk1EaXpPTG9fQ215UXRfanlDai0wUEJoQ2ZLR3FIMTZuUXB5UDUwRmU5SWpLYmlyNkRDUHJZODgxVVRFUjlaNTRvcGs4V2JzWjRtdEZaM1hlcEU4RjZPMFlSZjF5aVozZGZkQk51TVFfR3pDMVdHYWRXaDhjUWIzdTM0aWVwanplRF85SjBhdkJ1Z3ktVG15dGNuOHZwTm5McldWRy1kNWF4Nld1WHFDVUdxSmRHY0FKZy1FWmFXSFFhMA?oc=5",
         "published_at": "2026-10-19T07:00:00Z",
         "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DT120 topline",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -671,6 +763,22 @@
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM0lWMG9FcWpHT3ZtcTNFdWhxM2ZEcU9rbzdZdm9zbDNpSzBjVDNaeEJEVDhKTS0tdmV0QUVQd2N0SW1KNFZGUzY1SlFDeUpTWnZXbWpicUljWjN2ODhjam5FbThRSWQxdm5qTFV2bElNalg2UEZfZWpoN1NQMHFMOElxdm9ON3YwbGFlTlNZWkU1OFpFOThRXy1tVDA4ZkJ3Z3c?oc=5",
         "published_at": "2026-09-14T07:00:00Z",
         "source": "aktien.news",
+        "query": "\"Definium Therapeutics\" DFTX stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Definium Therapeutics: Aktie legt nach positiven Studienergebnissen kräftig zu - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNVR3WnFIaDA5aXQ3X2dERFNRVGNHOG50dlctQ1ZKVmtBQmtJWFRaT2R4ZEpVeDI5NDJ3bVR4WTkzRnBrNi11R1RhTlowcjg3SG9VeFhhMFB4MGtIdS1aVmNMZWd3UVZKZkdjX0d5bkVPWmlkSnA2enhNc3lxazdtZlM0cUx6MWNCMUdreVhwemtHN2I4TDB4QzdoUHhRbHFYbXVjRWUxUmZHRmtiRG92aXNaUlZxcTVhUUlXRHpFWWRQamJRdk9oX1M1LWM5Tk9YSkZfYg?oc=5",
+        "published_at": "2026-09-14T07:00:00Z",
+        "source": "Investing.com Deutsch",
         "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
@@ -704,22 +812,6 @@
         "published_at": "2026-08-12T07:00:00Z",
         "source": "Finanzen.net",
         "query": "\"Definium Therapeutics\" DT120 topline",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Definium Therapeutics Aktie schießt nach positiven Studiendaten um fast 40 % in die Höhe - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQlhrbkt4WElQcjA1dVMyV2VIUG4tb25Wa3dYNFUwMUFteG4yRTlwemgzMXRTbzdMY292YWFTeGc5V25MbWFlNFIyZDdQenVSek9oLThmeTJqMldGNC1aSkxucWp3VzNnSHVQQWJxbjBVUGVKbFMybU0tbGhuY3pLem9HVXJqODdrTDhZTnZRcjAtRGNsSmFjd204TTlubk0xb0tMY2J4Rm9MQ0xYUGJ4T1JIeVV2Y2puck14dnVIb203eWtiazMzR255WG5CTlhZSUJjb0dQMTl3d18tcmdqenZn?oc=5",
-        "published_at": "2026-06-22T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Definium Therapeutics\" DFTX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",

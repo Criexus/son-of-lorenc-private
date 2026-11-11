@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$9.09",
-      "note": "Auto-Update: 5.82% vs. vorheriger Schlusskurs",
+      "value": "$9.25",
+      "note": "Auto-Update: 7.68% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -308,15 +308,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-10T19:00:57Z",
+    "last_update_utc": "2026-11-11T00:06:49Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 9.09,
+      "regularMarketPrice": 9.25,
       "previousClose": 8.59,
-      "change": 0.5,
-      "changePercent": 5.82,
-      "regularMarketTime": "2026-11-10T19:00:38Z",
+      "change": 0.66,
+      "changePercent": 7.68,
+      "regularMarketTime": "2026-11-10T21:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -417,7 +417,7 @@
       },
       {
         "t": "2026-11-10T14:30:00Z",
-        "price": 9.09
+        "price": 9.25
       }
     ],
     "price_history_1d": [
@@ -638,8 +638,104 @@
         "price": 9.07
       },
       {
-        "t": "2026-11-10T19:00:38Z",
+        "t": "2026-11-10T19:00:00Z",
         "price": 9.09
+      },
+      {
+        "t": "2026-11-10T19:05:00Z",
+        "price": 9.105
+      },
+      {
+        "t": "2026-11-10T19:10:00Z",
+        "price": 9.09
+      },
+      {
+        "t": "2026-11-10T19:15:00Z",
+        "price": 9.1
+      },
+      {
+        "t": "2026-11-10T19:20:00Z",
+        "price": 9.08
+      },
+      {
+        "t": "2026-11-10T19:25:00Z",
+        "price": 9.1
+      },
+      {
+        "t": "2026-11-10T19:30:00Z",
+        "price": 9.095
+      },
+      {
+        "t": "2026-11-10T19:35:00Z",
+        "price": 9.12
+      },
+      {
+        "t": "2026-11-10T19:40:00Z",
+        "price": 9.12
+      },
+      {
+        "t": "2026-11-10T19:45:00Z",
+        "price": 9.125
+      },
+      {
+        "t": "2026-11-10T19:50:00Z",
+        "price": 9.11
+      },
+      {
+        "t": "2026-11-10T19:55:00Z",
+        "price": 9.105
+      },
+      {
+        "t": "2026-11-10T20:00:00Z",
+        "price": 9.09
+      },
+      {
+        "t": "2026-11-10T20:05:00Z",
+        "price": 9.09
+      },
+      {
+        "t": "2026-11-10T20:10:00Z",
+        "price": 9.11
+      },
+      {
+        "t": "2026-11-10T20:15:00Z",
+        "price": 9.155
+      },
+      {
+        "t": "2026-11-10T20:20:00Z",
+        "price": 9.19
+      },
+      {
+        "t": "2026-11-10T20:25:00Z",
+        "price": 9.17
+      },
+      {
+        "t": "2026-11-10T20:30:00Z",
+        "price": 9.18
+      },
+      {
+        "t": "2026-11-10T20:35:00Z",
+        "price": 9.17
+      },
+      {
+        "t": "2026-11-10T20:40:00Z",
+        "price": 9.18
+      },
+      {
+        "t": "2026-11-10T20:45:00Z",
+        "price": 9.245
+      },
+      {
+        "t": "2026-11-10T20:50:00Z",
+        "price": 9.25
+      },
+      {
+        "t": "2026-11-10T20:55:00Z",
+        "price": 9.26
+      },
+      {
+        "t": "2026-11-10T21:00:00Z",
+        "price": 9.25
       }
     ],
     "price_history_range": "1mo",
@@ -710,22 +806,6 @@
         "relevance_score": 17
       },
       {
-        "title": "Oppenheimer bekräftigt Einstufung für Compass Pathways vor Einreichung des Zulassungsantrags - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeFlGbnlQNHV0ZWM2cW5rbHF5b2x1SWliSVVsVC1jT012R2dJZ2xPSnA4LWFjWlN4d2lpeHZnZFFNYklTQXE2bndIWXJpTXBrWWFpSFRhUXAyMTVUdnVhYVQ3Rmc1elFMT3c3RU1rQk1jMlFaMEFGSkY5ODloMHRjTlJ3eVBJaEJMWnZHc0VOVTh1RjBJWFZDVTVCR3R1MmstTXF4eG92aHNuMmVxd21HemJlRDdtRXFqbzBlTjM0NUxnSl9JeXZCbWxFb3NBSkNJZFJtWFhZNkZtaUFoc3BTNlNVbTZDdw?oc=5",
-        "published_at": "2026-11-03T21:10:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "COMPASS Pathways CMPS COMP360 stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "FDA / Regulatorik",
-        "trigger_level": "high",
-        "trigger_reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "relevance_score": 17
-      },
-      {
         "title": "Compass Pathways: TD Cowen bekräftigt Kaufempfehlung vor Einreichung des Zulassungsantrags (NDA) - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeENkaWZzeHJLUVFSRWNpWUpDdWlZdzllNnkyVHJGdEJ1LUZrS01NU3JLWVlwMnF0YjdDNmd0VTVGUndDMnE0a0wyY0tRLXZWY2R1QzdVMFZvdFhzZ0RFSk9DbDQzNm43OUNrd3Rac3BEZzBaQ1czb2lHMEtjNHZoQXhfMWItMER6TzZyMlg0LVBQWGFIbkZWUDVtbkV6Vm51enFtcG4xeFlmZ3VkamRPV0h4S1EtVDB1RVNGRkxMVG9RaDdrb1l3MnUyR1JrdDF5WE9JbzJaU0Q4YU9oc005MFZXOUF6Q0U?oc=5",
         "published_at": "2026-11-03T20:18:00Z",
@@ -739,6 +819,22 @@
         "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
         "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
         "summary": "Trigger erkannt: FDA / Regulatorik. Einordnung: Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung. Beobachten: Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
+        "relevance_score": 17
+      },
+      {
+        "title": "B.Riley bekräftigt Kaufempfehlung für Compass Pathways – Kursziel 22 US-Dollar - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUmdJeFFCTVgzeTVzd2pfdW4xZTExRjFnMWpnM3V4SXFrSVgzUGFzTzNZVUhrOFZvUC1ySTRhaVRYamxVTDNQWTQ1QlV3MWFEN2gyd2VmUjlMZFNGcE1uNFBRSlFsQ09KQlYzcVRXUWFldjdsbVowMjBPN1lmLXgyd3diYmlQOEF1dk80RFVFY0NaQ0tJeEp5VnNUU1YtTmZNZGY3Zi1rY1lSdlA4SWp4TWp4MWpGNTkzd2ZKaDhKY2VUczF2UXlSU1RPN3UzSlE?oc=5",
+        "published_at": "2026-10-26T07:00:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "COMPASS Pathways CMPS COMP360 stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 17
       },
       {
@@ -1300,18 +1396,6 @@
       {
         "type": "FDA / Regulatorik",
         "level": "high",
-        "title": "Oppenheimer bekräftigt Einstufung für Compass Pathways vor Einreichung des Zulassungsantrags - Investing.com Deutsch",
-        "reason": "Trigger erkannt: FDA / Regulatorik.",
-        "impact": "potenziell hoher Kurshebel",
-        "assessment": "Regulatorische Meldungen können bei Biotech-Werten stark kursrelevant sein. Wichtig ist zu prüfen, ob es sich um eine echte Zulassungs-/FDA-Entwicklung handelt oder nur um eine allgemeine Erwähnung.",
-        "watch": "Auf offizielle Unternehmensmeldung, FDA/EMA-Kontext, Zeitplan und konkrete Programme achten.",
-        "source": "Investing.com Deutsch",
-        "date": "2026-11-03T21:10:00Z",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeFlGbnlQNHV0ZWM2cW5rbHF5b2x1SWliSVVsVC1jT012R2dJZ2xPSnA4LWFjWlN4d2lpeHZnZFFNYklTQXE2bndIWXJpTXBrWWFpSFRhUXAyMTVUdnVhYVQ3Rmc1elFMT3c3RU1rQk1jMlFaMEFGSkY5ODloMHRjTlJ3eVBJaEJMWnZHc0VOVTh1RjBJWFZDVTVCR3R1MmstTXF4eG92aHNuMmVxd21HemJlRDdtRXFqbzBlTjM0NUxnSl9JeXZCbWxFb3NBSkNJZFJtWFhZNkZtaUFoc3BTNlNVbTZDdw?oc=5"
-      },
-      {
-        "type": "FDA / Regulatorik",
-        "level": "high",
         "title": "Jefferies bekräftigt Kaufempfehlung für Compass Pathways vor möglicher TRD-Zulassung - Investing.com Deutsch",
         "reason": "Trigger erkannt: FDA / Regulatorik.",
         "impact": "potenziell hoher Kurshebel",
@@ -1500,6 +1584,14 @@
         "reason": "Studienregister-Treffer: COMPLETED ",
         "source": "NCT04519957",
         "date": "2020-07-20"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-29"
       }
     ],
     "queries_used": [

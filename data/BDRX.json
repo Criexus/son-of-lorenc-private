@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.55",
-      "note": "Auto-Update: -9.57% vs. vorheriger Schlusskurs",
+      "value": "$2.46",
+      "note": "Auto-Update: -12.77% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -191,15 +191,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-10T19:00:41Z",
+    "last_update_utc": "2026-11-11T00:06:33Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.55,
+      "regularMarketPrice": 2.46,
       "previousClose": 2.82,
-      "change": -0.27,
-      "changePercent": -9.57,
-      "regularMarketTime": "2026-11-10T18:32:33Z",
+      "change": -0.36,
+      "changePercent": -12.77,
+      "regularMarketTime": "2026-11-10T21:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -300,7 +300,7 @@
       },
       {
         "t": "2026-11-10T14:30:00Z",
-        "price": 2.5499
+        "price": 2.46
       }
     ],
     "price_history_1d": [
@@ -370,11 +370,27 @@
       },
       {
         "t": "2026-11-10T18:30:00Z",
-        "price": 2.51
+        "price": 2.5499
       },
       {
-        "t": "2026-11-10T18:32:33Z",
-        "price": 2.5499
+        "t": "2026-11-10T19:05:00Z",
+        "price": 2.42
+      },
+      {
+        "t": "2026-11-10T20:25:00Z",
+        "price": 2.4
+      },
+      {
+        "t": "2026-11-10T20:45:00Z",
+        "price": 2.4203
+      },
+      {
+        "t": "2026-11-10T20:55:00Z",
+        "price": 2.46
+      },
+      {
+        "t": "2026-11-10T21:00:00Z",
+        "price": 2.46
       }
     ],
     "price_history_range": "1mo",
@@ -395,22 +411,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 5
-      },
-      {
-        "title": "Biodexa Pharmaceuticals Plc (BDRX) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEVFh1Y3JjRElDX3lHb0xxMmx6dG5QRm1MRXFhT3N6eGlkcktrTGlsaE5oTVZ3R2puTF9pLVoxWTllTjRwNWFPanA3SmRRUGRrNUE?oc=5",
-        "published_at": "2024-05-13T21:37:29Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "Biodexa BDRX clinical trial oncology",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 20
       }
     ],
     "sec_filings": [
