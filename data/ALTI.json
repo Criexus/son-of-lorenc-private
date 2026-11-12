@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.01",
-      "note": "Auto-Update: -22.99% vs. vorheriger Schlusskurs",
+      "value": "$1.75",
+      "note": "Auto-Update: -26.34% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-12T10:27:41Z",
+    "last_update_utc": "2026-11-12T18:30:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.01,
-      "previousClose": 2.61,
-      "change": -0.6,
-      "changePercent": -22.99,
-      "regularMarketTime": "2026-11-11T21:00:01Z",
+      "regularMarketPrice": 1.753,
+      "previousClose": 2.38,
+      "change": -0.627,
+      "changePercent": -26.34,
+      "regularMarketTime": "2026-11-12T18:29:49Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -236,8 +236,8 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 5.445,
-      "fiftyTwoWeekLow": 1.974,
-      "fiftyTwoWeekRange": "1.974 – 5.445"
+      "fiftyTwoWeekLow": 1.71,
+      "fiftyTwoWeekRange": "1.71 – 5.445"
     },
     "price_history": [
       {
@@ -331,228 +331,132 @@
       {
         "t": "2026-11-11T14:30:00Z",
         "price": 2.01
+      },
+      {
+        "t": "2026-11-12T14:30:00Z",
+        "price": 1.7529
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-11T14:30:00Z",
-        "price": 2.26
-      },
-      {
-        "t": "2026-11-11T14:35:00Z",
-        "price": 2.2
-      },
-      {
-        "t": "2026-11-11T14:40:00Z",
-        "price": 2.18
-      },
-      {
-        "t": "2026-11-11T14:45:00Z",
-        "price": 2.21
-      },
-      {
-        "t": "2026-11-11T14:50:00Z",
-        "price": 2.2
-      },
-      {
-        "t": "2026-11-11T15:00:00Z",
-        "price": 2.21
-      },
-      {
-        "t": "2026-11-11T15:10:00Z",
-        "price": 2.19
-      },
-      {
-        "t": "2026-11-11T15:15:00Z",
-        "price": 2.175
-      },
-      {
-        "t": "2026-11-11T15:20:00Z",
-        "price": 2.16
-      },
-      {
-        "t": "2026-11-11T15:30:00Z",
-        "price": 2.18
-      },
-      {
-        "t": "2026-11-11T15:35:00Z",
-        "price": 2.16
-      },
-      {
-        "t": "2026-11-11T15:40:00Z",
-        "price": 2.15
-      },
-      {
-        "t": "2026-11-11T15:45:00Z",
-        "price": 2.14
-      },
-      {
-        "t": "2026-11-11T15:55:00Z",
-        "price": 2.14
-      },
-      {
-        "t": "2026-11-11T16:00:00Z",
-        "price": 2.1487
-      },
-      {
-        "t": "2026-11-11T16:05:00Z",
-        "price": 2.165
-      },
-      {
-        "t": "2026-11-11T16:20:00Z",
-        "price": 2.1747
-      },
-      {
-        "t": "2026-11-11T16:25:00Z",
-        "price": 2.165
-      },
-      {
-        "t": "2026-11-11T16:30:00Z",
-        "price": 2.15
-      },
-      {
-        "t": "2026-11-11T16:35:00Z",
-        "price": 2.1599
-      },
-      {
-        "t": "2026-11-11T16:40:00Z",
-        "price": 2.15
-      },
-      {
-        "t": "2026-11-11T16:45:00Z",
-        "price": 2.16
-      },
-      {
-        "t": "2026-11-11T16:50:00Z",
-        "price": 2.145
-      },
-      {
-        "t": "2026-11-11T17:00:00Z",
-        "price": 2.14
-      },
-      {
-        "t": "2026-11-11T17:10:00Z",
-        "price": 2.095
-      },
-      {
-        "t": "2026-11-11T17:20:00Z",
-        "price": 2.08
-      },
-      {
-        "t": "2026-11-11T17:30:00Z",
-        "price": 2.06
-      },
-      {
-        "t": "2026-11-11T17:35:00Z",
-        "price": 2.06
-      },
-      {
-        "t": "2026-11-11T17:45:00Z",
-        "price": 2.0632
-      },
-      {
-        "t": "2026-11-11T17:50:00Z",
-        "price": 2.07
-      },
-      {
-        "t": "2026-11-11T17:55:00Z",
-        "price": 2.06
-      },
-      {
-        "t": "2026-11-11T18:00:00Z",
-        "price": 2.055
-      },
-      {
-        "t": "2026-11-11T18:05:00Z",
-        "price": 2.065
-      },
-      {
-        "t": "2026-11-11T18:10:00Z",
-        "price": 2.065
-      },
-      {
-        "t": "2026-11-11T18:15:00Z",
-        "price": 2.07
-      },
-      {
-        "t": "2026-11-11T18:20:00Z",
-        "price": 2.07
-      },
-      {
-        "t": "2026-11-11T18:25:00Z",
-        "price": 2.07
-      },
-      {
-        "t": "2026-11-11T18:30:00Z",
-        "price": 2.07
-      },
-      {
-        "t": "2026-11-11T18:35:00Z",
-        "price": 2.065
-      },
-      {
-        "t": "2026-11-11T19:05:00Z",
-        "price": 2.04
-      },
-      {
-        "t": "2026-11-11T19:20:00Z",
-        "price": 2.04
-      },
-      {
-        "t": "2026-11-11T19:30:00Z",
-        "price": 2.065
-      },
-      {
-        "t": "2026-11-11T19:40:00Z",
-        "price": 2.065
-      },
-      {
-        "t": "2026-11-11T19:50:00Z",
-        "price": 2.08
-      },
-      {
-        "t": "2026-11-11T20:05:00Z",
-        "price": 2.0501
-      },
-      {
-        "t": "2026-11-11T20:10:00Z",
-        "price": 2.04
-      },
-      {
-        "t": "2026-11-11T20:15:00Z",
-        "price": 2.02
-      },
-      {
-        "t": "2026-11-11T20:25:00Z",
+        "t": "2026-11-12T14:30:00Z",
         "price": 2.01
       },
       {
-        "t": "2026-11-11T20:30:00Z",
-        "price": 2.02
+        "t": "2026-11-12T14:40:00Z",
+        "price": 1.9016
       },
       {
-        "t": "2026-11-11T20:35:00Z",
-        "price": 2.02
+        "t": "2026-11-12T14:45:00Z",
+        "price": 1.92
       },
       {
-        "t": "2026-11-11T20:40:00Z",
-        "price": 2.04
+        "t": "2026-11-12T14:50:00Z",
+        "price": 1.92
       },
       {
-        "t": "2026-11-11T20:45:00Z",
-        "price": 2.0
+        "t": "2026-11-12T15:05:00Z",
+        "price": 1.92
       },
       {
-        "t": "2026-11-11T20:50:00Z",
-        "price": 1.985
+        "t": "2026-11-12T15:35:00Z",
+        "price": 1.85
       },
       {
-        "t": "2026-11-11T20:55:00Z",
-        "price": 2.0
+        "t": "2026-11-12T15:40:00Z",
+        "price": 1.78
       },
       {
-        "t": "2026-11-11T21:00:00Z",
-        "price": 2.01
+        "t": "2026-11-12T15:45:00Z",
+        "price": 1.855
+      },
+      {
+        "t": "2026-11-12T15:50:00Z",
+        "price": 1.83
+      },
+      {
+        "t": "2026-11-12T16:10:00Z",
+        "price": 1.825
+      },
+      {
+        "t": "2026-11-12T16:15:00Z",
+        "price": 1.79
+      },
+      {
+        "t": "2026-11-12T16:20:00Z",
+        "price": 1.795
+      },
+      {
+        "t": "2026-11-12T16:25:00Z",
+        "price": 1.805
+      },
+      {
+        "t": "2026-11-12T16:35:00Z",
+        "price": 1.815
+      },
+      {
+        "t": "2026-11-12T16:45:00Z",
+        "price": 1.8008
+      },
+      {
+        "t": "2026-11-12T16:50:00Z",
+        "price": 1.795
+      },
+      {
+        "t": "2026-11-12T16:55:00Z",
+        "price": 1.795
+      },
+      {
+        "t": "2026-11-12T17:00:00Z",
+        "price": 1.795
+      },
+      {
+        "t": "2026-11-12T17:10:00Z",
+        "price": 1.765
+      },
+      {
+        "t": "2026-11-12T17:15:00Z",
+        "price": 1.755
+      },
+      {
+        "t": "2026-11-12T17:30:00Z",
+        "price": 1.755
+      },
+      {
+        "t": "2026-11-12T17:40:00Z",
+        "price": 1.73
+      },
+      {
+        "t": "2026-11-12T17:45:00Z",
+        "price": 1.755
+      },
+      {
+        "t": "2026-11-12T17:50:00Z",
+        "price": 1.81
+      },
+      {
+        "t": "2026-11-12T17:55:00Z",
+        "price": 1.805
+      },
+      {
+        "t": "2026-11-12T18:00:00Z",
+        "price": 1.79
+      },
+      {
+        "t": "2026-11-12T18:15:00Z",
+        "price": 1.755
+      },
+      {
+        "t": "2026-11-12T18:20:00Z",
+        "price": 1.74
+      },
+      {
+        "t": "2026-11-12T18:25:00Z",
+        "price": 1.7525
+      },
+      {
+        "t": "2026-11-12T18:29:49Z",
+        "price": 1.7529
       }
     ],
     "price_history_range": "1mo",
@@ -735,124 +639,24 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT00866918",
-        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Promyelocytic Leukemia",
+        "nct_id": "NCT03275389",
+        "title": "A Study to Evaluate the Reactogenicity, Safety and Immunogenicity of GlaxoSmithKline (GSK) Biologicals' Investigational Supra-seasonal Universal Influenza Vaccines - Inactivated (SUIVs) (GSK3816302A) in Healthy Adults Aged 18 to 39 Years",
         "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Childhood Acute Promyelocytic Leukemia With PML-RARA, Myeloid Neoplasm",
+        "phase": "PHASE1",
+        "conditions": "Influenza, Human",
         "last_update": "",
-        "start_date": "2009-03-09",
-        "url": "https://clinicaltrials.gov/study/NCT00866918"
+        "start_date": "2017-09-08",
+        "url": "https://clinicaltrials.gov/study/NCT03275389"
       },
       {
-        "nct_id": "NCT06918431",
-        "title": "Asparaginase Erwinia Chrysanthemi With Chemotherapy for the Treatment of High-Risk Adults With Newly Diagnosed Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative, Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2025-10-10",
-        "url": "https://clinicaltrials.gov/study/NCT06918431"
-      },
-      {
-        "nct_id": "NCT00557193",
-        "title": "Combination Chemotherapy With or Without Lestaurtinib in Treating Younger Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Acute Lymphoblastic Leukemia, Acute Undifferentiated Leukemia, Childhood T Acute Lymphoblastic Leukemia",
-        "last_update": "",
-        "start_date": "2008-01-15",
-        "url": "https://clinicaltrials.gov/study/NCT00557193"
-      },
-      {
-        "nct_id": "NCT01190930",
-        "title": "Risk-Adapted Chemotherapy in Treating Younger Patients With Newly Diagnosed Standard-Risk Acute Lymphoblastic Leukemia or Localized B-Lineage Lymphoblastic Lymphoma",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Acute Lymphoblastic Leukemia, Adult B Lymphoblastic Lymphoma, Ann Arbor Stage I B Lymphoblastic Lymphoma, Ann Arbor Stage II B Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2010-08-11",
-        "url": "https://clinicaltrials.gov/study/NCT01190930"
-      },
-      {
-        "nct_id": "NCT01256398",
-        "title": "Dasatinib Followed by Stem Cell Transplant in Treating Older Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Acute Lymphoblastic Leukemia, Adult B Acute Lymphoblastic Leukemia With t(9;22)(q34.1;q11.2); BCR-ABL1",
-        "last_update": "",
-        "start_date": "2010-12-14",
-        "url": "https://clinicaltrials.gov/study/NCT01256398"
-      },
-      {
-        "nct_id": "NCT00501826",
-        "title": "Combination Chemotherapy and Nelarabine in Treating Patients With T-cell Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
-        "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "T Acute Lymphoblastic Leukemia, T Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2007-07-11",
-        "url": "https://clinicaltrials.gov/study/NCT00501826"
-      },
-      {
-        "nct_id": "NCT03518112",
-        "title": "Low-Intensity Chemotherapy and Blinatumomab in Treating Patients With Philadelphia Chromosome Negative Relapsed or Refractory Acute Lymphoblastic Leukemia",
-        "status": "TERMINATED",
-        "phase": "PHASE2",
-        "conditions": "Philadelphia Chromosome Negative, Recurrent B Acute Lymphoblastic Leukemia, Refractory B Acute Lymphoblastic Leukemia",
-        "last_update": "",
-        "start_date": "2018-04-18",
-        "url": "https://clinicaltrials.gov/study/NCT03518112"
-      },
-      {
-        "nct_id": "NCT07636564",
-        "title": "Testing Blinatumomab With or Without Revumenib in Patients With B-cell Acute Lymphoblastic Leukemia With a Genetic Change Requiring More Treatment",
+        "nct_id": "NCT07716735",
+        "title": "Mercaptopurine for the Treatment of Hereditary Leiomyomatosis and Renal Cell Carcinoma (HLRCC), Uterine/Cutaneous Leiomyomas, and Kidney Cancer",
         "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Acute Leukemia of Ambiguous Lineage, B Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative, T Acute Lymphoblastic Leukemia",
+        "phase": "PHASE1",
+        "conditions": "Advanced Kidney Carcinoma, Advanced Renal Cell Carcinoma, Hereditary Leiomyomatosis and Renal Cell Carcinoma, Metastatic Kidney Carcinoma",
         "last_update": "",
-        "start_date": "2026-10-14",
-        "url": "https://clinicaltrials.gov/study/NCT07636564"
-      },
-      {
-        "nct_id": "NCT00316095",
-        "title": "Combination of Telmisartan and Simvastatin in the Treatment of Hypertension and Hypercholesterolemia",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Hypertension, Dyslipidemias",
-        "last_update": "",
-        "start_date": "2006-04",
-        "url": "https://clinicaltrials.gov/study/NCT00316095"
-      },
-      {
-        "nct_id": "NCT01531582",
-        "title": "Minocycline in the Treatment of Angelman Syndrome",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Angelman Syndrome",
-        "last_update": "",
-        "start_date": "2012-04",
-        "url": "https://clinicaltrials.gov/study/NCT01531582"
-      },
-      {
-        "nct_id": "NCT03959085",
-        "title": "Inotuzumab Ozogamicin and Post-Induction Chemotherapy in Treating Patients With High-Risk B-ALL, Mixed Phenotype Acute Leukemia, and B-LLy",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "B Acute Lymphoblastic Leukemia, B Lymphoblastic Lymphoma, Central Nervous System Leukemia, Mixed Phenotype Acute Leukemia",
-        "last_update": "",
-        "start_date": "2019-10-31",
-        "url": "https://clinicaltrials.gov/study/NCT03959085"
-      },
-      {
-        "nct_id": "NCT06210750",
-        "title": "Adding Targeted Drugs to Usual Chemotherapy for Adults With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia (T-ALL) and T-Cell Lymphoblastic Lymphoma (T-LBL)",
-        "status": "WITHDRAWN",
-        "phase": "PHASE2",
-        "conditions": "T Acute Lymphoblastic Leukemia, T Lymphoblastic Lymphoma",
-        "last_update": "",
-        "start_date": "2024-08-09",
-        "url": "https://clinicaltrials.gov/study/NCT06210750"
+        "start_date": "2026-12-01",
+        "url": "https://clinicaltrials.gov/study/NCT07716735"
       },
       {
         "nct_id": "NCT00267943",
@@ -865,6 +669,16 @@
         "url": "https://clinicaltrials.gov/study/NCT00267943"
       },
       {
+        "nct_id": "NCT00075725",
+        "title": "Dexamethasone Compared With Prednisone During Induction Therapy and Methotrexate With or Without Leucovorin During Maintenance Therapy in Treating Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia, Adult B Acute Lymphoblastic Leukemia, Childhood B Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2003-12-29",
+        "url": "https://clinicaltrials.gov/study/NCT00075725"
+      },
+      {
         "nct_id": "NCT03517254",
         "title": "Use of Glutamine for Recovery Muscle Strength",
         "status": "UNKNOWN",
@@ -875,14 +689,104 @@
         "url": "https://clinicaltrials.gov/study/NCT03517254"
       },
       {
-        "nct_id": "NCT02143414",
-        "title": "Blinatumomab and Combination Chemotherapy or Dasatinib, Prednisone, and Blinatumomab in Treating Older Patients With Acute Lymphoblastic Leukemia",
-        "status": "ACTIVE_NOT_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia With t(9;22)(q34.1;q11.2); BCR-ABL1, Recurrent Acute Lymphoblastic Leukemia",
+        "nct_id": "NCT01531582",
+        "title": "Minocycline in the Treatment of Angelman Syndrome",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "conditions": "Angelman Syndrome",
         "last_update": "",
-        "start_date": "2015-06-30",
-        "url": "https://clinicaltrials.gov/study/NCT02143414"
+        "start_date": "2012-04",
+        "url": "https://clinicaltrials.gov/study/NCT01531582"
+      },
+      {
+        "nct_id": "NCT02003222",
+        "title": "Combination Chemotherapy With or Without Blinatumomab in Treating Patients With Newly Diagnosed BCR-ABL-Negative B Lineage Acute Lymphoblastic Leukemia",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative",
+        "last_update": "",
+        "start_date": "2014-05-19",
+        "url": "https://clinicaltrials.gov/study/NCT02003222"
+      },
+      {
+        "nct_id": "NCT01503632",
+        "title": "Assessing Compliance With Mercaptopurine Treatment in Younger Patients With Acute Lymphoblastic Leukemia in First Remission",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2012-02-21",
+        "url": "https://clinicaltrials.gov/study/NCT01503632"
+      },
+      {
+        "nct_id": "NCT07636564",
+        "title": "Testing Blinatumomab With or Without Revumenib in Patients With B-cell Acute Lymphoblastic Leukemia With a Genetic Change Requiring More Treatment",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Acute Leukemia of Ambiguous Lineage, B Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative, T Acute Lymphoblastic Leukemia",
+        "last_update": "",
+        "start_date": "2026-10-14",
+        "url": "https://clinicaltrials.gov/study/NCT07636564"
+      },
+      {
+        "nct_id": "NCT00408005",
+        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia or T-cell Lymphoblastic Lymphoma",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "T Acute Lymphoblastic Leukemia, T Lymphoblastic Lymphoma",
+        "last_update": "",
+        "start_date": "2007-01-30",
+        "url": "https://clinicaltrials.gov/study/NCT00408005"
+      },
+      {
+        "nct_id": "NCT00720109",
+        "title": "Dasatinib and Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
+        "status": "COMPLETED",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia, Adult B Acute Lymphoblastic Leukemia With t(9;22)(q34.1;q11.2); BCR-ABL1, Childhood B Acute Lymphoblastic Leukemia With t(9;22)(q34.1;q11.2); BCR-ABL1",
+        "last_update": "",
+        "start_date": "2008-07-14",
+        "url": "https://clinicaltrials.gov/study/NCT00720109"
+      },
+      {
+        "nct_id": "NCT01190930",
+        "title": "Risk-Adapted Chemotherapy in Treating Younger Patients With Newly Diagnosed Standard-Risk Acute Lymphoblastic Leukemia or Localized B-Lineage Lymphoblastic Lymphoma",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Acute Lymphoblastic Leukemia, Adult B Lymphoblastic Lymphoma, Ann Arbor Stage I B Lymphoblastic Lymphoma, Ann Arbor Stage II B Lymphoblastic Lymphoma",
+        "last_update": "",
+        "start_date": "2010-08-11",
+        "url": "https://clinicaltrials.gov/study/NCT01190930"
+      },
+      {
+        "nct_id": "NCT06918431",
+        "title": "Asparaginase Erwinia Chrysanthemi With Chemotherapy for the Treatment of High-Risk Adults With Newly Diagnosed Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative, Lymphoblastic Lymphoma",
+        "last_update": "",
+        "start_date": "2025-10-10",
+        "url": "https://clinicaltrials.gov/study/NCT06918431"
+      },
+      {
+        "nct_id": "NCT03488225",
+        "title": "Combination Chemotherapy and Inotuzumab Ozogamicin in Treating Patients With B Acute Lymphoblastic Leukemia",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "conditions": "Acute Lymphoblastic Leukemia in Remission, B Acute Lymphoblastic Leukemia, B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative",
+        "last_update": "",
+        "start_date": "2018-03-28",
+        "url": "https://clinicaltrials.gov/study/NCT03488225"
+      },
+      {
+        "nct_id": "NCT00109824",
+        "title": "Decitabine With or Without Valproic Acid in Treating Patients With Relapsed or Refractory Non-Hodgkin's Lymphoma",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "conditions": "Recurrent Adult Burkitt Lymphoma, Recurrent Adult Diffuse Large Cell Lymphoma, Recurrent Mantle Cell Lymphoma",
+        "last_update": "",
+        "start_date": "2006-03",
+        "url": "https://clinicaltrials.gov/study/NCT00109824"
       }
     ],
     "detected_triggers": [
@@ -897,6 +801,14 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
+        "title": "Dexamethasone Compared With Prednisone During Induction Therapy and Methotrexate With or Without Leucovorin During Maintenance Therapy in Treating Patients With Newly Diagnosed High-Risk Acute Lymphoblastic Leukemia",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00075725",
+        "date": "2003-12-29"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
         "title": "Open-label Follow-up Trial of Fixed Dose Combination of Telmisartan + Hydrochlorothiazide in Hypertensive Patients",
         "reason": "Studienregister-Treffer: COMPLETED PHASE3",
         "source": "NCT00267943",
@@ -905,34 +817,26 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Combination of Telmisartan and Simvastatin in the Treatment of Hypertension and Hypercholesterolemia",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT00316095",
-        "date": "2006-04"
+        "title": "Decitabine With or Without Valproic Acid in Treating Patients With Relapsed or Refractory Non-Hodgkin's Lymphoma",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT00109824",
+        "date": "2006-03"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Combination Chemotherapy and Nelarabine in Treating Patients With T-cell Acute Lymphoblastic Leukemia or Lymphoblastic Lymphoma",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT00501826",
-        "date": "2007-07-11"
+        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia or T-cell Lymphoblastic Lymphoma",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT00408005",
+        "date": "2007-01-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Combination Chemotherapy With or Without Lestaurtinib in Treating Younger Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT00557193",
-        "date": "2008-01-15"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Promyelocytic Leukemia",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT00866918",
-        "date": "2009-03-09"
+        "title": "Dasatinib and Combination Chemotherapy in Treating Young Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE2, PHASE3",
+        "source": "NCT00720109",
+        "date": "2008-07-14"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -945,10 +849,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Dasatinib Followed by Stem Cell Transplant in Treating Older Patients With Newly Diagnosed Acute Lymphoblastic Leukemia",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT01256398",
-        "date": "2010-12-14"
+        "title": "Assessing Compliance With Mercaptopurine Treatment in Younger Patients With Acute Lymphoblastic Leukemia in First Remission",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT01503632",
+        "date": "2012-02-21"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -961,10 +865,18 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Blinatumomab and Combination Chemotherapy or Dasatinib, Prednisone, and Blinatumomab in Treating Older Patients With Acute Lymphoblastic Leukemia",
-        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE2",
-        "source": "NCT02143414",
-        "date": "2015-06-30"
+        "title": "Combination Chemotherapy With or Without Blinatumomab in Treating Patients With Newly Diagnosed BCR-ABL-Negative B Lineage Acute Lymphoblastic Leukemia",
+        "reason": "Studienregister-Treffer: ACTIVE_NOT_RECRUITING PHASE3",
+        "source": "NCT02003222",
+        "date": "2014-05-19"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study to Evaluate the Reactogenicity, Safety and Immunogenicity of GlaxoSmithKline (GSK) Biologicals' Investigational Supra-seasonal Universal Influenza Vaccines - Inactivated (SUIVs) (GSK3816302A) in Healthy Adults Aged 18 to 39 Years",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE1",
+        "source": "NCT03275389",
+        "date": "2017-09-08"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -977,26 +889,10 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Low-Intensity Chemotherapy and Blinatumomab in Treating Patients With Philadelphia Chromosome Negative Relapsed or Refractory Acute Lymphoblastic Leukemia",
+        "title": "Combination Chemotherapy and Inotuzumab Ozogamicin in Treating Patients With B Acute Lymphoblastic Leukemia",
         "reason": "Studienregister-Treffer: TERMINATED PHASE2",
-        "source": "NCT03518112",
-        "date": "2018-04-18"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Inotuzumab Ozogamicin and Post-Induction Chemotherapy in Treating Patients With High-Risk B-ALL, Mixed Phenotype Acute Leukemia, and B-LLy",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT03959085",
-        "date": "2019-10-31"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Adding Targeted Drugs to Usual Chemotherapy for Adults With Newly Diagnosed T-Cell Acute Lymphoblastic Leukemia (T-ALL) and T-Cell Lymphoblastic Lymphoma (T-LBL)",
-        "reason": "Studienregister-Treffer: WITHDRAWN PHASE2",
-        "source": "NCT06210750",
-        "date": "2024-08-09"
+        "source": "NCT03488225",
+        "date": "2018-03-28"
       },
       {
         "type": "ClinicalTrials.gov",
@@ -1069,6 +965,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-11-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Mercaptopurine for the Treatment of Hereditary Leiomyomatosis and Renal Cell Carcinoma (HLRCC), Uterine/Cutaneous Leiomyomas, and Kidney Cancer",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1",
+        "source": "NCT07716735",
+        "date": "2026-12-01"
       },
       {
         "type": "SEC Filing",
