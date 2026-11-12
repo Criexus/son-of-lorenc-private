@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.40",
-      "note": "Auto-Update: -1.44% vs. vorheriger Schlusskurs",
+      "value": "$2.39",
+      "note": "Auto-Update: -1.85% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -282,15 +282,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-12T18:28:41Z",
+    "last_update_utc": "2026-11-12T23:45:11Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.4,
+      "regularMarketPrice": 2.39,
       "previousClose": 2.435,
-      "change": -0.035,
-      "changePercent": -1.44,
-      "regularMarketTime": "2026-11-12T18:28:16Z",
+      "change": -0.045,
+      "changePercent": -1.85,
+      "regularMarketTime": "2026-11-12T21:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -305,10 +305,6 @@
       "fiftyTwoWeekRange": "2.165 – 5.45"
     },
     "price_history": [
-      {
-        "t": "2026-10-12T13:30:00Z",
-        "price": 2.48
-      },
       {
         "t": "2026-10-13T13:30:00Z",
         "price": 2.3
@@ -399,7 +395,7 @@
       },
       {
         "t": "2026-11-12T14:30:00Z",
-        "price": 2.4
+        "price": 2.39
       }
     ],
     "price_history_1d": [
@@ -593,11 +589,131 @@
       },
       {
         "t": "2026-11-12T18:25:00Z",
+        "price": 2.405
+      },
+      {
+        "t": "2026-11-12T18:30:00Z",
+        "price": 2.41
+      },
+      {
+        "t": "2026-11-12T18:35:00Z",
+        "price": 2.41
+      },
+      {
+        "t": "2026-11-12T18:40:00Z",
+        "price": 2.425
+      },
+      {
+        "t": "2026-11-12T18:45:00Z",
+        "price": 2.415
+      },
+      {
+        "t": "2026-11-12T18:50:00Z",
+        "price": 2.42
+      },
+      {
+        "t": "2026-11-12T18:55:00Z",
+        "price": 2.415
+      },
+      {
+        "t": "2026-11-12T19:00:00Z",
+        "price": 2.42
+      },
+      {
+        "t": "2026-11-12T19:05:00Z",
+        "price": 2.415
+      },
+      {
+        "t": "2026-11-12T19:10:00Z",
+        "price": 2.415
+      },
+      {
+        "t": "2026-11-12T19:15:00Z",
+        "price": 2.43
+      },
+      {
+        "t": "2026-11-12T19:20:00Z",
+        "price": 2.415
+      },
+      {
+        "t": "2026-11-12T19:25:00Z",
+        "price": 2.4
+      },
+      {
+        "t": "2026-11-12T19:30:00Z",
+        "price": 2.39
+      },
+      {
+        "t": "2026-11-12T19:35:00Z",
+        "price": 2.385
+      },
+      {
+        "t": "2026-11-12T19:40:00Z",
+        "price": 2.385
+      },
+      {
+        "t": "2026-11-12T19:45:00Z",
+        "price": 2.385
+      },
+      {
+        "t": "2026-11-12T19:50:00Z",
+        "price": 2.385
+      },
+      {
+        "t": "2026-11-12T19:55:00Z",
+        "price": 2.39
+      },
+      {
+        "t": "2026-11-12T20:00:00Z",
+        "price": 2.375
+      },
+      {
+        "t": "2026-11-12T20:05:00Z",
+        "price": 2.3801
+      },
+      {
+        "t": "2026-11-12T20:10:00Z",
+        "price": 2.385
+      },
+      {
+        "t": "2026-11-12T20:15:00Z",
+        "price": 2.4098
+      },
+      {
+        "t": "2026-11-12T20:20:00Z",
+        "price": 2.405
+      },
+      {
+        "t": "2026-11-12T20:25:00Z",
+        "price": 2.39
+      },
+      {
+        "t": "2026-11-12T20:30:00Z",
         "price": 2.395
       },
       {
-        "t": "2026-11-12T18:28:16Z",
+        "t": "2026-11-12T20:35:00Z",
+        "price": 2.38
+      },
+      {
+        "t": "2026-11-12T20:40:00Z",
+        "price": 2.395
+      },
+      {
+        "t": "2026-11-12T20:45:00Z",
+        "price": 2.395
+      },
+      {
+        "t": "2026-11-12T20:50:00Z",
         "price": 2.4
+      },
+      {
+        "t": "2026-11-12T20:55:00Z",
+        "price": 2.4
+      },
+      {
+        "t": "2026-11-12T21:00:00Z",
+        "price": 2.39
       }
     ],
     "price_history_range": "1mo",
@@ -669,6 +785,27 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "4",
+        "filingDate": "2026-11-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126043480/xslF345X06/form4.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126043434/ef20085455_8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "10-Q",
+        "filingDate": "2026-11-12",
+        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000119312526458320/rckt-20260930.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-11-09",
@@ -785,27 +922,6 @@
         "form": "144",
         "filingDate": "2026-08-18",
         "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326006169/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-08-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326006168/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "144",
-        "filingDate": "2026-08-18",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000195917326006166/xsl144X01/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-08-17",
-        "url": "https://www.sec.gov/Archives/edgar/data/1281895/000114036126033417/xslF345X06/form4.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -1080,6 +1196,22 @@
         "date": "2026-10-06"
       },
       {
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-11-12",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-12"
+      },
+      {
+        "type": "SEC · Finanzbericht",
+        "level": "medium",
+        "title": "10-Q · 2026-11-12",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-12"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Quality of Life of Patients Who Have Rocket Indwelling Pleural Catheter Drainage or Repeated Large Volume Paracentesis",
@@ -1110,30 +1242,6 @@
         "reason": "Studienregister-Treffer: RECRUITING ",
         "source": "NCT06644742",
         "date": "2026-05-15"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-08-17",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-17"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-08-18",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-18"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "144 · 2026-08-18",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-08-18"
       },
       {
         "type": "SEC Filing",
@@ -1206,6 +1314,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-09-15"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-10-30",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-10-30"
       }
     ],
     "queries_used": [
