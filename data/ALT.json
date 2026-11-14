@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-14T05:25:23Z",
+    "last_update_utc": "2026-11-14T12:21:24Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -760,6 +760,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
+      },
+      {
+        "title": "Earnings Call: Altimmune weitet Verlust im Q3 2026 aus – Aktie verliert 5,4 % - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQenE3dEF0RVZ3OHlVWnRIcmdzR2h1NkI1aGJmcVptOGRTbU1VM2R2TDlMbW0ybElwNnFhZmlfQzRoa0R1Y3Z1NWVCcUxPNlZNZmdZdTJ1OWhQVm8xQUpaWkd3UEpvdGYwbnowRm5SX2F6RElhbUxOYzRyZGpuMVRhaTJQVGJVT01Fc0k3eFpJdzNVZDQ1RDRlVHREUkM4VHhYV2lpREVleHA2SWh5ZmRQa1Nub0JXdW1WQ0lRbllTNGNidVdHeUww?oc=5",
+        "published_at": "2026-11-12T14:59:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "ALT pemvidutide phase 2 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Quartalszahlen / Cash",
+        "trigger_level": "medium",
+        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "relevance_score": 6
       },
       {
         "title": "Altimmune veröffentlicht 48-Wochen-Ergebnisse der Pemvidutide-Studie in The Lancet - Investing.com Deutsch",
@@ -1526,6 +1542,18 @@
         "date": "2026-11-12"
       },
       {
+        "type": "Quartalszahlen / Cash",
+        "level": "medium",
+        "title": "Earnings Call: Altimmune weitet Verlust im Q3 2026 aus – Aktie verliert 5,4 % - Investing.com Deutsch",
+        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
+        "impact": "fundamentaler Risiko-Trigger",
+        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
+        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
+        "source": "Investing.com Deutsch",
+        "date": "2026-11-12T14:59:00Z",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQenE3dEF0RVZ3OHlVWnRIcmdzR2h1NkI1aGJmcVptOGRTbU1VM2R2TDlMbW0ybElwNnFhZmlfQzRoa0R1Y3Z1NWVCcUxPNlZNZmdZdTJ1OWhQVm8xQUpaWkd3UEpvdGYwbnowRm5SX2F6RElhbUxOYzRyZGpuMVRhaTJQVGJVT01Fc0k3eFpJdzNVZDQ1RDRlVHREUkM4VHhYV2lpREVleHA2SWh5ZmRQa1Nub0JXdW1WQ0lRbllTNGNidVdHeUww?oc=5"
+      },
+      {
         "type": "ClinicalTrials.gov",
         "level": "low",
         "title": "Study of the Safety and Immunogenicity of NasoVAX Extension",
@@ -1564,14 +1592,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-10-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-05",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-10-05"
       }
     ],
     "queries_used": [
