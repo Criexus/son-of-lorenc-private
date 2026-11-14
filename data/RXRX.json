@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$3.21",
-      "note": "Auto-Update: -8.95% vs. vorheriger Schlusskurs",
+      "value": "$3.19",
+      "note": "Auto-Update: -9.52% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-13T18:54:37Z",
+    "last_update_utc": "2026-11-14T00:01:16Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 3.205,
+      "regularMarketPrice": 3.185,
       "previousClose": 3.52,
-      "change": -0.315,
-      "changePercent": -8.95,
-      "regularMarketTime": "2026-11-13T18:54:22Z",
+      "change": -0.335,
+      "changePercent": -9.52,
+      "regularMarketTime": "2026-11-13T21:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 5.24"
     },
     "price_history": [
-      {
-        "t": "2026-10-13T13:30:00Z",
-        "price": 3.835
-      },
       {
         "t": "2026-10-14T13:30:00Z",
         "price": 3.74
@@ -407,7 +403,7 @@
       },
       {
         "t": "2026-11-13T14:30:00Z",
-        "price": 3.205
+        "price": 3.185
       }
     ],
     "price_history_1d": [
@@ -624,8 +620,108 @@
         "price": 3.205
       },
       {
-        "t": "2026-11-13T18:54:22Z",
+        "t": "2026-11-13T18:55:00Z",
+        "price": 3.1953
+      },
+      {
+        "t": "2026-11-13T19:00:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-11-13T19:05:00Z",
         "price": 3.205
+      },
+      {
+        "t": "2026-11-13T19:10:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-11-13T19:15:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-11-13T19:20:00Z",
+        "price": 3.2101
+      },
+      {
+        "t": "2026-11-13T19:25:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-11-13T19:30:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-11-13T19:35:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-11-13T19:40:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-11-13T19:45:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-11-13T19:50:00Z",
+        "price": 3.205
+      },
+      {
+        "t": "2026-11-13T19:55:00Z",
+        "price": 3.2118
+      },
+      {
+        "t": "2026-11-13T20:00:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-11-13T20:05:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-11-13T20:10:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-11-13T20:15:00Z",
+        "price": 3.2
+      },
+      {
+        "t": "2026-11-13T20:20:00Z",
+        "price": 3.21
+      },
+      {
+        "t": "2026-11-13T20:25:00Z",
+        "price": 3.2001
+      },
+      {
+        "t": "2026-11-13T20:30:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-11-13T20:35:00Z",
+        "price": 3.19
+      },
+      {
+        "t": "2026-11-13T20:40:00Z",
+        "price": 3.195
+      },
+      {
+        "t": "2026-11-13T20:45:00Z",
+        "price": 3.22
+      },
+      {
+        "t": "2026-11-13T20:50:00Z",
+        "price": 3.215
+      },
+      {
+        "t": "2026-11-13T20:55:00Z",
+        "price": 3.185
+      },
+      {
+        "t": "2026-11-13T21:00:00Z",
+        "price": 3.185
       }
     ],
     "price_history_range": "1mo",
@@ -748,7 +844,7 @@
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SM3lEZUtWOWszLWRXLVhLZEdadU5TLV9qLUVCejVsd0VXSUd3YVZmTWhSNGt6bkZKWFl2MFZidzlIVzUyS2xUY3E0RFNTNVoxY3pkamk4VXBaTWs?oc=5",
         "published_at": "2021-04-16T06:05:44Z",
         "source": "TradingView",
-        "query": "RXRX stock news",
+        "query": "Recursion Pharmaceuticals RXRX stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
