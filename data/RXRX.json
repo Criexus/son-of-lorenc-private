@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$2.91",
-      "note": "Auto-Update: -23.55% vs. vorheriger Schlusskurs",
+      "value": "$2.90",
+      "note": "Auto-Update: -23.65% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -290,15 +290,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-16T18:44:23Z",
+    "last_update_utc": "2026-11-17T02:11:51Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 2.909,
+      "regularMarketPrice": 2.905,
       "previousClose": 3.805,
-      "change": -0.896,
-      "changePercent": -23.55,
-      "regularMarketTime": "2026-11-16T18:44:07Z",
+      "change": -0.9,
+      "changePercent": -23.65,
+      "regularMarketTime": "2026-11-16T21:00:00Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -313,10 +313,6 @@
       "fiftyTwoWeekRange": "2.77 – 5.24"
     },
     "price_history": [
-      {
-        "t": "2026-10-16T13:30:00Z",
-        "price": 3.465
-      },
       {
         "t": "2026-10-19T13:30:00Z",
         "price": 3.61
@@ -396,10 +392,6 @@
       {
         "t": "2026-11-13T14:30:00Z",
         "price": 3.185
-      },
-      {
-        "t": "2026-11-16T14:30:00Z",
-        "price": 2.909
       }
     ],
     "price_history_1d": [
@@ -605,11 +597,119 @@
       },
       {
         "t": "2026-11-16T18:40:00Z",
+        "price": 2.8999
+      },
+      {
+        "t": "2026-11-16T18:45:00Z",
         "price": 2.905
       },
       {
-        "t": "2026-11-16T18:44:07Z",
+        "t": "2026-11-16T18:50:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T18:55:00Z",
+        "price": 2.895
+      },
+      {
+        "t": "2026-11-16T19:00:00Z",
+        "price": 2.895
+      },
+      {
+        "t": "2026-11-16T19:05:00Z",
+        "price": 2.89
+      },
+      {
+        "t": "2026-11-16T19:10:00Z",
         "price": 2.909
+      },
+      {
+        "t": "2026-11-16T19:15:00Z",
+        "price": 2.9001
+      },
+      {
+        "t": "2026-11-16T19:20:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-11-16T19:25:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T19:30:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-11-16T19:35:00Z",
+        "price": 2.9001
+      },
+      {
+        "t": "2026-11-16T19:40:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-11-16T19:45:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T19:50:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T19:55:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T20:00:00Z",
+        "price": 2.9001
+      },
+      {
+        "t": "2026-11-16T20:05:00Z",
+        "price": 2.902
+      },
+      {
+        "t": "2026-11-16T20:10:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-11-16T20:15:00Z",
+        "price": 2.91
+      },
+      {
+        "t": "2026-11-16T20:20:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-11-16T20:25:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T20:30:00Z",
+        "price": 2.9098
+      },
+      {
+        "t": "2026-11-16T20:35:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T20:40:00Z",
+        "price": 2.9
+      },
+      {
+        "t": "2026-11-16T20:45:00Z",
+        "price": 2.9001
+      },
+      {
+        "t": "2026-11-16T20:50:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T20:55:00Z",
+        "price": 2.905
+      },
+      {
+        "t": "2026-11-16T21:00:00Z",
+        "price": 2.905
       }
     ],
     "price_history_range": "1mo",
@@ -645,22 +745,6 @@
         "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
         "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
         "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 7
-      },
-      {
-        "title": "Cathie Woods ARK schichtet um: Biotech-Werte RXRX und NTLA zugekauft, Anteile an TWST verkauft - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVDJlejNSXzZ4M1JELVdmWkpnczVIYnZyZ1lkNXJUNXBzSEl0VU5QT2dBN3hYWmgyQ1pfM29vdUxpTlVrZmd2aWNYQmxwQ0lxbFN1OG1ZZHJwdDhoT1hpM0oyT1JIQVkwVTliZ0VBMmFhMUg1OUxBMk45TmlXTjkwOENuT3Z0aGE4S1ZPbXlobDNYdGliT3hTVjBGVS1kbDJYNmt5LVVpdTZkOTlWRzlNd0ZvOXRqUTZBdURhWS1tWXptY2N6N01xRXVXcVZtWjdCTTFQTmdaWHRIRHpTdE9HWA?oc=5",
-        "published_at": "2026-10-06T07:00:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 7
       },
       {

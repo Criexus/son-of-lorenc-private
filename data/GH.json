@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$144.62",
-      "note": "Auto-Update: -8.92% vs. vorheriger Schlusskurs",
+      "value": "$144.03",
+      "note": "Auto-Update: -9.3% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -225,15 +225,15 @@
     "Son of Lorenc"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-16T18:43:58Z",
+    "last_update_utc": "2026-11-17T02:11:26Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 144.625,
+      "regularMarketPrice": 144.03,
       "previousClose": 158.79,
-      "change": -14.165,
-      "changePercent": -8.92,
-      "regularMarketTime": "2026-11-16T18:42:59Z",
+      "change": -14.76,
+      "changePercent": -9.3,
+      "regularMarketTime": "2026-11-16T21:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -248,10 +248,6 @@
       "fiftyTwoWeekRange": "74.55 – 191.05"
     },
     "price_history": [
-      {
-        "t": "2026-10-16T13:30:00Z",
-        "price": 158.6
-      },
       {
         "t": "2026-10-19T13:30:00Z",
         "price": 157.88
@@ -331,10 +327,6 @@
       {
         "t": "2026-11-13T14:30:00Z",
         "price": 151.7
-      },
-      {
-        "t": "2026-11-16T14:30:00Z",
-        "price": 144.625
       }
     ],
     "price_history_1d": [
@@ -540,11 +532,119 @@
       },
       {
         "t": "2026-11-16T18:40:00Z",
-        "price": 144.3
+        "price": 144.465
       },
       {
-        "t": "2026-11-16T18:42:59Z",
-        "price": 144.625
+        "t": "2026-11-16T18:45:00Z",
+        "price": 145.31
+      },
+      {
+        "t": "2026-11-16T18:50:00Z",
+        "price": 145.53
+      },
+      {
+        "t": "2026-11-16T18:55:00Z",
+        "price": 145.45
+      },
+      {
+        "t": "2026-11-16T19:00:00Z",
+        "price": 145.54
+      },
+      {
+        "t": "2026-11-16T19:05:00Z",
+        "price": 145.88
+      },
+      {
+        "t": "2026-11-16T19:10:00Z",
+        "price": 145.875
+      },
+      {
+        "t": "2026-11-16T19:15:00Z",
+        "price": 145.77
+      },
+      {
+        "t": "2026-11-16T19:20:00Z",
+        "price": 145.65
+      },
+      {
+        "t": "2026-11-16T19:25:00Z",
+        "price": 145.62
+      },
+      {
+        "t": "2026-11-16T19:30:00Z",
+        "price": 145.82
+      },
+      {
+        "t": "2026-11-16T19:35:00Z",
+        "price": 145.4275
+      },
+      {
+        "t": "2026-11-16T19:40:00Z",
+        "price": 144.96
+      },
+      {
+        "t": "2026-11-16T19:45:00Z",
+        "price": 145.0
+      },
+      {
+        "t": "2026-11-16T19:50:00Z",
+        "price": 145.12
+      },
+      {
+        "t": "2026-11-16T19:55:00Z",
+        "price": 144.78
+      },
+      {
+        "t": "2026-11-16T20:00:00Z",
+        "price": 144.745
+      },
+      {
+        "t": "2026-11-16T20:05:00Z",
+        "price": 144.85
+      },
+      {
+        "t": "2026-11-16T20:10:00Z",
+        "price": 144.98
+      },
+      {
+        "t": "2026-11-16T20:15:00Z",
+        "price": 145.4
+      },
+      {
+        "t": "2026-11-16T20:20:00Z",
+        "price": 145.165
+      },
+      {
+        "t": "2026-11-16T20:25:00Z",
+        "price": 145.38
+      },
+      {
+        "t": "2026-11-16T20:30:00Z",
+        "price": 144.67
+      },
+      {
+        "t": "2026-11-16T20:35:00Z",
+        "price": 144.55
+      },
+      {
+        "t": "2026-11-16T20:40:00Z",
+        "price": 145.17
+      },
+      {
+        "t": "2026-11-16T20:45:00Z",
+        "price": 145.105
+      },
+      {
+        "t": "2026-11-16T20:50:00Z",
+        "price": 144.2
+      },
+      {
+        "t": "2026-11-16T20:55:00Z",
+        "price": 144.03
+      },
+      {
+        "t": "2026-11-16T21:00:00Z",
+        "price": 144.03
       }
     ],
     "price_history_range": "1mo",
@@ -556,6 +656,22 @@
         "published_at": "2026-11-13T08:00:00Z",
         "source": "MarketScreener Deutschland",
         "query": "\"Guardant360\" Reveal Guardant Health news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 13
+      },
+      {
+        "title": "Guardant Health: Erfolgreiche Wandelanleihe-Emission beflügelt die Aktie - Investing.com Deutsch",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMDN6NkJhS3BMYWlqY3l4RzN6SjNJdlJFdXI4NkEzMnRONXNyOWZ6cDdCeVBINjZ6OUpfUGZOTTdSbmpXMkhJN3VIb2FfTVByNGNWa3NYOGRzUlNHc0tvV1RTY2l3aWZZN0MtRDBtS29vR0Z6Y3NHWmdLbkpCRktETXp5TW9Oc1k4anA5aWp1WEVaanFlWUlSd1VKZkozdUE0RFNIbHMxWHZOV0l3Y1YtN2Fhb29STUV3dDAxa0N0ejVhbm8xZUxHWHhhOA?oc=5",
+        "published_at": "2026-11-12T14:10:00Z",
+        "source": "Investing.com Deutsch",
+        "query": "\"Guardant Health\" GH stock news",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
@@ -585,22 +701,6 @@
       {
         "title": "Guardant Health: Technologiechefin Darya Chudova veräußert Aktien im Wert von 1,38 Millionen US-Dollar - Investing.com Deutsch",
         "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNEQ1a1hpZEs3Ym11aUNpN09rLXpHN0JvVTJCZFg3QkZ1dkFfYjFQbzk3WmNWUEhPZGZXZ3JMekstY1k5MGgxcGtmUFdESlNUTHdEWUE1dDYtdVpOeU1OT3V0N0ZFTzVFWHNKMnRDeWh2SGRKYVRNMEtadnlnSkYzX2VuTGREMHZCcHk5bEM1WGZ4eEJXVG92SG1Ka2RXbDk1YjM1bnpUU2wyZTh6T3FSUjFsOVladnk5TE1hWnhKbVBFN0FDc2Q1THlLdDBRdjdRWURRMnFNcG0zM212RjljTkpBamUxNElXcUpaNTV4blQzMFVlRUE?oc=5",
-        "published_at": "2026-11-11T23:02:00Z",
-        "source": "Investing.com Deutsch",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health: Director Alex Azar II veräußert Aktien im Wert von 144.550 $ - Investing.com Deutsch",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUkFYNVAtUDlLZ2hlLU5mTnI1NUp3NGhWN0d0cDQ2eHh3cTNKRi1KSmVDV3ZacDBfS2dkcFJoR09WSmhaZmotTlpMWjE2bUd0TGxIaTFLRTdjTDR5aDNPakdKc1RaLW5CWTdlSHJWUEdLQndiODBMYmlSZUx5TzhmWDFYRXd5elU3MDdUYTMxTnpvMXVKampOS0Q4Wl9IWGxIWmpFVlFZMGJQRHNiTGtzeWFmSnBVaVBxV1NfWjBWWnJBUUtqLVNGRm9aSmxlY1ZtR29oNQ?oc=5",
         "published_at": "2026-11-11T23:02:00Z",
         "source": "Investing.com Deutsch",
         "query": "\"Guardant Health\" GH stock news",
@@ -741,25 +841,30 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 13
-      },
-      {
-        "title": "Guardant Health, Inc. (GH) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Lb05mdjR2blFVbG90ejk4NHY0WVdqRWNzQU13dEhJVVRCVEJ4TEozY2U5UU5sYWV5aUVVaW9HQ1hpcWpQLVBfWHJ0S3RlXzg?oc=5",
-        "published_at": "2018-11-22T15:32:40Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "\"Guardant Health\" GH stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 14
       }
     ],
     "sec_filings": [
+      {
+        "form": "144",
+        "filingDate": "2026-11-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426001191/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "144",
+        "filingDate": "2026-11-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192109426001190/xsl144X01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
+      {
+        "form": "8-K",
+        "filingDate": "2026-11-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000119312526463573/d128095d8k.htm",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "4",
         "filingDate": "2026-11-13",
@@ -878,27 +983,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1576280/000140225626000008/xslF345X06/wk-form4_1791925851.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-10-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000173784026000022/xslF345X06/wk-form4_1790974911.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-10-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000165295626000020/xslF345X06/wk-form4_1790974878.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "4",
-        "filingDate": "2026-10-02",
-        "url": "https://www.sec.gov/Archives/edgar/data/1576280/000192783126000024/xslF345X06/wk-form4_1790974847.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -936,28 +1020,12 @@
         "date": "2026-11-05"
       },
       {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-02",
+        "type": "SEC · Unternehmensereignis",
+        "level": "medium",
+        "title": "8-K · 2026-11-16",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-10-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-10-02"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "4 · 2026-10-02",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-10-02"
+        "date": "2026-11-16"
       },
       {
         "type": "SEC Filing",
@@ -1062,6 +1130,22 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-11-13"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-11-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-16"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "144 · 2026-11-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-16"
       }
     ],
     "queries_used": [

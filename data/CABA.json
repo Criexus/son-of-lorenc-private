@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.15",
-      "note": "Auto-Update: -23.33% vs. vorheriger Schlusskurs",
+      "value": "$1.11",
+      "note": "Auto-Update: -26.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -166,15 +166,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-16T18:43:46Z",
+    "last_update_utc": "2026-11-17T02:11:13Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.15,
+      "regularMarketPrice": 1.11,
       "previousClose": 1.5,
-      "change": -0.35,
-      "changePercent": -23.33,
-      "regularMarketTime": "2026-11-16T18:43:15Z",
+      "change": -0.39,
+      "changePercent": -26.0,
+      "regularMarketTime": "2026-11-16T21:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -185,14 +185,10 @@
       "postMarketChangePercent": null,
       "postMarketTime": null,
       "fiftyTwoWeekHigh": 4.23,
-      "fiftyTwoWeekLow": 1.15,
-      "fiftyTwoWeekRange": "1.15 – 4.23"
+      "fiftyTwoWeekLow": 1.1,
+      "fiftyTwoWeekRange": "1.1 – 4.23"
     },
     "price_history": [
-      {
-        "t": "2026-10-16T13:30:00Z",
-        "price": 1.41
-      },
       {
         "t": "2026-10-19T13:30:00Z",
         "price": 1.48
@@ -272,10 +268,6 @@
       {
         "t": "2026-11-13T14:30:00Z",
         "price": 1.28
-      },
-      {
-        "t": "2026-11-16T14:30:00Z",
-        "price": 1.15
       }
     ],
     "price_history_1d": [
@@ -484,14 +476,129 @@
         "price": 1.15
       },
       {
-        "t": "2026-11-16T18:43:15Z",
-        "price": 1.15
+        "t": "2026-11-16T18:45:00Z",
+        "price": 1.145
+      },
+      {
+        "t": "2026-11-16T18:50:00Z",
+        "price": 1.1454
+      },
+      {
+        "t": "2026-11-16T18:55:00Z",
+        "price": 1.1456
+      },
+      {
+        "t": "2026-11-16T19:00:00Z",
+        "price": 1.1401
+      },
+      {
+        "t": "2026-11-16T19:05:00Z",
+        "price": 1.14
+      },
+      {
+        "t": "2026-11-16T19:10:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T19:15:00Z",
+        "price": 1.1297
+      },
+      {
+        "t": "2026-11-16T19:20:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-11-16T19:25:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T19:30:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T19:35:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T19:40:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T19:45:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T19:50:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-11-16T19:55:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-11-16T20:00:00Z",
+        "price": 1.125
+      },
+      {
+        "t": "2026-11-16T20:05:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-11-16T20:10:00Z",
+        "price": 1.12
+      },
+      {
+        "t": "2026-11-16T20:15:00Z",
+        "price": 1.105
+      },
+      {
+        "t": "2026-11-16T20:20:00Z",
+        "price": 1.105
+      },
+      {
+        "t": "2026-11-16T20:25:00Z",
+        "price": 1.11
+      },
+      {
+        "t": "2026-11-16T20:30:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-11-16T20:35:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-11-16T20:40:00Z",
+        "price": 1.11
+      },
+      {
+        "t": "2026-11-16T20:45:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-11-16T20:50:00Z",
+        "price": 1.11
+      },
+      {
+        "t": "2026-11-16T20:55:00Z",
+        "price": 1.1
+      },
+      {
+        "t": "2026-11-16T21:00:00Z",
+        "price": 1.11
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [],
     "sec_filings": [
+      {
+        "form": "SCHEDULE 13G/A",
+        "filingDate": "2026-11-16",
+        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000117266126005291/xslSCHEDULE_13G_X02/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "SCHEDULE 13G/A",
         "filingDate": "2026-11-16",
@@ -624,13 +731,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1759138/000201238326002220/xslSCHEDULE_13G_X02/primary_doc.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "SCHEDULE 13G/A",
-        "filingDate": "2026-07-23",
-        "url": "https://www.sec.gov/Archives/edgar/data/1759138/000110465926086361/xslSCHEDULE_13G_X02/primary_doc.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
       }
     ],
     "clinical_trials": [],
@@ -682,14 +782,6 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-11-09"
-      },
-      {
-        "type": "SEC Filing",
-        "level": "low",
-        "title": "SCHEDULE 13G/A · 2026-07-23",
-        "reason": "Offizielle SEC-Meldung gefunden.",
-        "source": "SEC EDGAR",
-        "date": "2026-07-23"
       },
       {
         "type": "SEC Filing",
@@ -786,6 +878,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-11-12"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "SCHEDULE 13G/A · 2026-11-16",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-16"
       },
       {
         "type": "SEC Filing",

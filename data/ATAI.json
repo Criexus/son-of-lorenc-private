@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-16T18:43:09Z",
+    "last_update_utc": "2026-11-17T02:10:35Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -537,6 +537,22 @@
         "published_at": "2026-07-16T07:00:00Z",
         "source": "de.qz.com",
         "query": "AtaiBeckley BPL-003 phase 3",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 15
+      },
+      {
+        "title": "VA-HHS stärkt Psychedelika-Studien: AtaiBeckley rutscht nach News ins Minus – Anleger müssen prüfen - Goldesel.de",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbFNRVlN3dGRfWHJxaU53ZkxfZzBDU1g3Q1VEV0hhMlcwOUpJZ2hPb3NQV09XZkx6UGN3V2xRTGJGNVZnc01TYm8yMmVXNjdlUFZfWVhpdlNyLWZMdXhNZmxONUNWWDNwYW5hUjNCdFA5UU53Zm91cldtTXNUX0pyQmFGY2hoOFMxbG10UnhUcUhBOHAyUllQcjJFZ2J1STZrRWx1cDN0c1dVdmJpNThzR2J5bU8ta2o5NnBKMzFaekpjY29DY3BJ?oc=5",
+        "published_at": "2026-07-13T07:00:00Z",
+        "source": "Goldesel.de",
+        "query": "atai Beckley clinical trial",
         "source_type": "google_news_rss",
         "trigger_type": "Allgemeine News",
         "trigger_level": "low",
