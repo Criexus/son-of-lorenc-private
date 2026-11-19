@@ -290,7 +290,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-19T00:35:30Z",
+    "last_update_utc": "2026-11-19T08:08:36Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -758,22 +758,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 19
-      },
-      {
-        "title": "Recursion-Aktie: J.P.-Morgan-Analystin Priyanka Grover senkt das Kursziel auf 7 Dollar – bleibt aber bei „Overweight“ - AktienCheck.de",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaW9VSFhtREF6YzNIZkF3VWQwRVJGeDBrY2dLVjhXZnFKaWRBSG9hZXJ0SnRhM1NFNFpRLV9kb3I1OFdUSTV0OHNKcUUwZTR6bVFsYi0yVng5UHJaQmNpN21xM2VVc0hfZmtOTXA5a21jWkw3QlljeW9ZWGlFenU4UXNEVlFPZWNYWHI5NmhIbC14SGlWX3JyX3BjTGlqaGJlMHpSV3pKODh5ZFU?oc=5",
-        "published_at": "2026-11-16T13:38:39Z",
-        "source": "AktienCheck.de",
-        "query": "Recursion Pharmaceuticals RXRX stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Analysten / Kursziel",
-        "trigger_level": "low",
-        "trigger_reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "summary": "Trigger erkannt: Analysten / Kursziel. Einordnung: Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert. Beobachten: Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "relevance_score": 7
       },
       {
         "title": "Recursion Pharmaceuticals: EPS erfüllt Schätzungen - Umsatz besser als erwartet - Investing.com Deutsch",
@@ -1366,16 +1350,12 @@
         "date": "2026-11-13"
       },
       {
-        "type": "Analysten / Kursziel",
+        "type": "SEC Filing",
         "level": "low",
-        "title": "Recursion-Aktie: J.P.-Morgan-Analystin Priyanka Grover senkt das Kursziel auf 7 Dollar – bleibt aber bei „Overweight“ - AktienCheck.de",
-        "reason": "Trigger erkannt: Analysten / Kursziel.",
-        "impact": "Stimmungs- und Momentum-Trigger",
-        "assessment": "Analystenratings können kurzfristig Momentum erzeugen, ersetzen aber keine fundamentalen Daten. Wichtig ist, ob die Begründung auf neuen Fakten oder nur Bewertungsannahmen basiert.",
-        "watch": "Kurszieländerung, Ratingänderung, Begründung und Abweichung zum aktuellen Kurs prüfen.",
-        "source": "AktienCheck.de",
-        "date": "2026-11-16T13:38:39Z",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaW9VSFhtREF6YzNIZkF3VWQwRVJGeDBrY2dLVjhXZnFKaWRBSG9hZXJ0SnRhM1NFNFpRLV9kb3I1OFdUSTV0OHNKcUUwZTR6bVFsYi0yVng5UHJaQmNpN21xM2VVc0hfZmtOTXA5a21jWkw3QlljeW9ZWGlFenU4UXNEVlFPZWNYWHI5NmhIbC14SGlWX3JyX3BjTGlqaGJlMHpSV3pKODh5ZFU?oc=5"
+        "title": "4 · 2026-11-18",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-11-18"
       },
       {
         "type": "SEC Filing",
