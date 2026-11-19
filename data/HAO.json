@@ -12,7 +12,7 @@
     {
       "label": "Aktueller Kurs",
       "value": "$1.75",
-      "note": "Auto-Update: -5.66% vs. vorheriger Schlusskurs",
+      "note": "Auto-Update: -3.31% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-19T08:08:30Z",
+    "last_update_utc": "2026-11-19T17:29:40Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
       "regularMarketPrice": 1.75,
-      "previousClose": 1.855,
-      "change": -0.105,
-      "changePercent": -5.66,
-      "regularMarketTime": "2026-11-18T21:00:01Z",
+      "previousClose": 1.81,
+      "change": -0.06,
+      "changePercent": -3.31,
+      "regularMarketTime": "2026-11-19T16:07:58Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -306,37 +306,50 @@
       {
         "t": "2026-11-18T14:30:00Z",
         "price": 1.75
+      },
+      {
+        "t": "2026-11-19T14:30:00Z",
+        "price": 1.75
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-18T14:30:00Z",
-        "price": 1.78
+        "t": "2026-11-19T14:40:00Z",
+        "price": 1.79
       },
       {
-        "t": "2026-11-18T15:35:00Z",
-        "price": 1.81
-      },
-      {
-        "t": "2026-11-18T15:40:00Z",
-        "price": 1.84
-      },
-      {
-        "t": "2026-11-18T17:15:00Z",
-        "price": 1.82
-      },
-      {
-        "t": "2026-11-18T20:55:00Z",
+        "t": "2026-11-19T14:55:00Z",
         "price": 1.75
       },
       {
-        "t": "2026-11-18T21:00:00Z",
+        "t": "2026-11-19T16:05:00Z",
+        "price": 1.75
+      },
+      {
+        "t": "2026-11-19T16:07:58Z",
         "price": 1.75
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [],
+    "news": [
+      {
+        "title": "Haoxi Health Technology Limited (HAO) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VN19Cbmo0TFFERHVWbmVmMHFDaWlmS1ZHQXhSN2N0eWFjR2RGRjJKVnBTcERLT3ZYdEZTYUtpVE5sNWhaazdMNzNnNGlEWjR2?oc=5",
+        "published_at": "2017-11-06T16:19:20Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "HAO stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 23
+      }
+    ],
     "sec_filings": [
       {
         "form": "F-3",
@@ -481,154 +494,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT07280559",
-        "title": "Evaluation of AI-assisted LDCT Screening in Lung Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "NA",
-        "conditions": "Lung Cancer",
-        "last_update": "",
-        "start_date": "2025-12-11",
-        "url": "https://clinicaltrials.gov/study/NCT07280559"
-      },
-      {
-        "nct_id": "NCT05815069",
-        "title": "[18F]AlF-NOTA-pentixather PET/CT in Patients With Suspected Primary Hyperaldosteronism",
-        "status": "COMPLETED",
-        "phase": "NA",
-        "conditions": "Primary Hyperaldosteronism, Aldosterone-Producing Adenoma",
-        "last_update": "",
-        "start_date": "2023-01-07",
-        "url": "https://clinicaltrials.gov/study/NCT05815069"
-      },
-      {
-        "nct_id": "NCT01237483",
-        "title": "Reirradiation and Erbitux in the HNSCC",
-        "status": "COMPLETED",
-        "phase": "PHASE2",
-        "conditions": "Head and Neck Cancer Squamous Cell",
-        "last_update": "",
-        "start_date": "2010-10",
-        "url": "https://clinicaltrials.gov/study/NCT01237483"
-      },
-      {
-        "nct_id": "NCT07912606",
-        "title": "D2 Gastrectomy With or Without Para-Aortic Lymph Node Dissection After Chemoimmunotherapy for Gastric Cancer",
-        "status": "NOT_YET_RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "Gastric Adenocarcinoma, Gastroesophageal Junction Adenocarcinoma",
-        "last_update": "",
-        "start_date": "2026-11-01",
-        "url": "https://clinicaltrials.gov/study/NCT07912606"
-      },
-      {
-        "nct_id": "NCT06259552",
-        "title": "A Study of SPX-303, a Bispecific Antibody Targeting LILRB2 and PD-L1 in Patients With Solid Tumors",
-        "status": "RECRUITING",
-        "phase": "PHASE1",
-        "conditions": "Solid Tumor, HNSCC, RCC, CRC",
-        "last_update": "",
-        "start_date": "2024-03-20",
-        "url": "https://clinicaltrials.gov/study/NCT06259552"
-      },
-      {
-        "nct_id": "NCT00625898",
-        "title": "BETH Study: Treatment of HER2 Positive Breast Cancer With Chemotherapy Plus Trastuzumab vs Chemotherapy Plus Trastuzumab Plus Bevacizumab",
-        "status": "TERMINATED",
-        "phase": "PHASE3",
-        "conditions": "Breast Cancer",
-        "last_update": "",
-        "start_date": "2008-04",
-        "url": "https://clinicaltrials.gov/study/NCT00625898"
-      },
-      {
-        "nct_id": "NCT07648693",
-        "title": "Evaluation of the Safety and Effectiveness of CHORDS® Cerebral Protection System During TAVR: DUET Trial",
-        "status": "RECRUITING",
-        "phase": "NA",
-        "conditions": "Transcatheter Aortic Valve Replacement (TAVR), Cerebral Vascular Accident (CVA)/Stroke",
-        "last_update": "",
-        "start_date": "2025-10-31",
-        "url": "https://clinicaltrials.gov/study/NCT07648693"
-      },
-      {
-        "nct_id": "NCT06829784",
-        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
-        "status": "RECRUITING",
-        "phase": "PHASE3",
-        "conditions": "Asthma",
-        "last_update": "",
-        "start_date": "2025-03-21",
-        "url": "https://clinicaltrials.gov/study/NCT06829784"
-      },
-      {
-        "nct_id": "NCT03578848",
-        "title": "Guiding Hypertension Management Using Different Blood Pressure Monitoring Strategies",
-        "status": "UNKNOWN",
-        "phase": "NA",
-        "conditions": "Hypertension",
-        "last_update": "",
-        "start_date": "2018-06-06",
-        "url": "https://clinicaltrials.gov/study/NCT03578848"
-      },
-      {
-        "nct_id": "NCT06443333",
-        "title": "National, Multicentric Registry Study on Neuroimmunological Diseases in China",
-        "status": "UNKNOWN",
+        "nct_id": "NCT06929338",
+        "title": "xDRIVE in Metastatic Colorectal Cancer",
+        "status": "WITHDRAWN",
         "phase": "",
-        "conditions": "Multiple Sclerosis, NMO Spectrum Disorder, Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease, Myasthenia Gravis",
+        "conditions": "Metastatic Colon Adenocarcinoma, Metastatic Colon Cancer, Metastatic Rectal Adenocarcinoma, Metastatic Rectal Carcinoma",
         "last_update": "",
-        "start_date": "2020-12-01",
-        "url": "https://clinicaltrials.gov/study/NCT06443333"
+        "start_date": "2025-09-15",
+        "url": "https://clinicaltrials.gov/study/NCT06929338"
       },
       {
-        "nct_id": "NCT05446545",
-        "title": "Bespoke ctDNA Assay for Recurrence and Treatment Response Monitoring in Advanced Epithelial Ovarian Cancer",
+        "nct_id": "NCT06496958",
+        "title": "Water Exchange and CO2 Insufflation With Abdominal Compression Device to Reduce Manual Assistance",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "conditions": "Manual Pressure, Repositioning, Colonoscopy, Colon Polyp",
+        "last_update": "",
+        "start_date": "2024-09-02",
+        "url": "https://clinicaltrials.gov/study/NCT06496958"
+      },
+      {
+        "nct_id": "NCT05686642",
+        "title": "Efficacy and Safety of LT3001 on Treating the Acute Ischemic Stroke",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "Acute Ischemic Stroke",
+        "last_update": "",
+        "start_date": "2023-04-06",
+        "url": "https://clinicaltrials.gov/study/NCT05686642"
+      },
+      {
+        "nct_id": "NCT07426146",
+        "title": "Feasibility Effects of a Low-GI, High-fibre Diet in PCOS: a Prospective Cohort Study in Remote Yunnan",
         "status": "RECRUITING",
         "phase": "",
-        "conditions": "Ovarian Cancer",
+        "conditions": "PCOS (Polycystic Ovary Syndrome)",
+        "last_update": "",
+        "start_date": "2025-08-10",
+        "url": "https://clinicaltrials.gov/study/NCT07426146"
+      },
+      {
+        "nct_id": "NCT06409429",
+        "title": "Nimotuzumab Combined With GX as Postoperative Adjuvant Therapy in Pancreatic Cancer",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2, PHASE3",
+        "conditions": "Pancreatic Cancer",
+        "last_update": "",
+        "start_date": "2024-05-01",
+        "url": "https://clinicaltrials.gov/study/NCT06409429"
+      },
+      {
+        "nct_id": "NCT03468556",
+        "title": "A Randomized, Double-Blind, Placebo Controlled Study to Assess the Efficacy and Safety of SNP-610 for the Treatment of Patients With Non-alcoholic Steatohepatitis",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "conditions": "NASH - Nonalcoholic Steatohepatitis",
+        "last_update": "",
+        "start_date": "2026-04-01",
+        "url": "https://clinicaltrials.gov/study/NCT03468556"
+      },
+      {
+        "nct_id": "NCT06454773",
+        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "conditions": "Intervention",
+        "last_update": "",
+        "start_date": "2024-06-01",
+        "url": "https://clinicaltrials.gov/study/NCT06454773"
+      },
+      {
+        "nct_id": "NCT04966962",
+        "title": "Establishment and Validation of an Early Diagnostic Model for Bladder Cancer Based on Serum and Urine Metabolomics",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Bladder Cancer",
         "last_update": "",
         "start_date": "2021-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT05446545"
+        "url": "https://clinicaltrials.gov/study/NCT04966962"
       },
       {
-        "nct_id": "NCT01301755",
-        "title": "Diagnosis of Invasive Pulmonary Aspergillosis by Direct Lung Tissue Aspergillus Galactomannan Antigen Detection From Aspirate by Ultrasound-guided Fine Needle Aspiration",
-        "status": "UNKNOWN",
+        "nct_id": "NCT07741669",
+        "title": "Study on the Incremental Predictive Value of Early Resting-State EEG Phenotypes for Functional Prognosis and Risk Stratification in Acute Ischemic Stroke",
+        "status": "NOT_YET_RECRUITING",
         "phase": "",
-        "conditions": "Immunocompromised",
+        "conditions": "Stroke",
         "last_update": "",
-        "start_date": "2010-03",
-        "url": "https://clinicaltrials.gov/study/NCT01301755"
+        "start_date": "2026-07-15",
+        "url": "https://clinicaltrials.gov/study/NCT07741669"
       },
       {
-        "nct_id": "NCT05014685",
-        "title": "PPI-amoxicillin for H. Pylori Treatment",
+        "nct_id": "NCT05887505",
+        "title": "Effects of Vitamin D Status and Multiple Mega-dose Supplementation on Health Care Disparities in Perioperative Patients With Hepatocellular Carcinoma Receiving Hepatectomy",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "conditions": "Hepatocellular Carcinoma, Liver Function, Postoperative Complications",
+        "last_update": "",
+        "start_date": "2023-06-09",
+        "url": "https://clinicaltrials.gov/study/NCT05887505"
+      },
+      {
+        "nct_id": "NCT01813656",
+        "title": "An Study of Aripiprazole in the Treatment of Methamphetamine Dependence",
+        "status": "TERMINATED",
+        "phase": "PHASE4",
+        "conditions": "Methamphetamine Dependence",
+        "last_update": "",
+        "start_date": "2012-09",
+        "url": "https://clinicaltrials.gov/study/NCT01813656"
+      },
+      {
+        "nct_id": "NCT04263922",
+        "title": "Huaiqihuang Granule in the Treatment of Primary Glomerulonephritis of Stage CKD3",
         "status": "UNKNOWN",
         "phase": "PHASE4",
-        "conditions": "Helicobacter Pylori Infection",
+        "conditions": "Renal Insufficiency, Chronic",
         "last_update": "",
-        "start_date": "2021-08-20",
-        "url": "https://clinicaltrials.gov/study/NCT05014685"
+        "start_date": "2020-06-30",
+        "url": "https://clinicaltrials.gov/study/NCT04263922"
       },
       {
-        "nct_id": "NCT05854043",
-        "title": "Modified Enhanced Recovery After Oblique Lateral Interbody Fusion Surgery",
+        "nct_id": "NCT05827757",
+        "title": "Evaluating the Safety and Efficacy of Autologous Adipose Tissue-derived Mesenchymal Stem Cell Transplantation on Proinflammatory Cytokines and Anti-inflammatory Cytokines on Ageing-related Low-grade Inflammation Patients.",
+        "status": "UNKNOWN",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Aging Problems, Aging, Chronic Inflammation",
+        "last_update": "",
+        "start_date": "2020-04-28",
+        "url": "https://clinicaltrials.gov/study/NCT05827757"
+      },
+      {
+        "nct_id": "NCT05024565",
+        "title": "Prolonged Intravenous Infusion of β-lactam Antibiotics in Early Septic Patients",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Lumbar Spondylosis, Lumbar Spinal Stenosis, Lumbar Disc Herniation",
+        "conditions": "Sepsis",
         "last_update": "",
-        "start_date": "2023-04-01",
-        "url": "https://clinicaltrials.gov/study/NCT05854043"
+        "start_date": "2021-09-20",
+        "url": "https://clinicaltrials.gov/study/NCT05024565"
       },
       {
-        "nct_id": "NCT02111577",
-        "title": "Phase III Study of DCVAC/PCa Added to Standard Chemotherapy for Men With Metastatic Castration Resistant Prostate Cancer",
-        "status": "COMPLETED",
-        "phase": "PHASE3",
-        "conditions": "Metastatic Castration-resistant Prostate Cancer",
+        "nct_id": "NCT04812600",
+        "title": "Microfluidic-based Tactile Sensor in Cardiac Rehabilitation",
+        "status": "UNKNOWN",
+        "phase": "",
+        "conditions": "Cardiovascular Diseases, Vascular Stiffness, Endothelial Dysfunction",
         "last_update": "",
-        "start_date": "2014-05-26",
-        "url": "https://clinicaltrials.gov/study/NCT02111577"
+        "start_date": "2021-03-20",
+        "url": "https://clinicaltrials.gov/study/NCT04812600"
       }
     ],
     "detected_triggers": [
@@ -659,90 +672,82 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "BETH Study: Treatment of HER2 Positive Breast Cancer With Chemotherapy Plus Trastuzumab vs Chemotherapy Plus Trastuzumab Plus Bevacizumab",
-        "reason": "Studienregister-Treffer: TERMINATED PHASE3",
-        "source": "NCT00625898",
-        "date": "2008-04"
+        "title": "An Study of Aripiprazole in the Treatment of Methamphetamine Dependence",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE4",
+        "source": "NCT01813656",
+        "date": "2012-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Reirradiation and Erbitux in the HNSCC",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE2",
-        "source": "NCT01237483",
-        "date": "2010-10"
+        "title": "Evaluating the Safety and Efficacy of Autologous Adipose Tissue-derived Mesenchymal Stem Cell Transplantation on Proinflammatory Cytokines and Anti-inflammatory Cytokines on Ageing-related Low-grade Inflammation Patients.",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE1, PHASE2",
+        "source": "NCT05827757",
+        "date": "2020-04-28"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "Phase III Study of DCVAC/PCa Added to Standard Chemotherapy for Men With Metastatic Castration Resistant Prostate Cancer",
-        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
-        "source": "NCT02111577",
-        "date": "2014-05-26"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Guiding Hypertension Management Using Different Blood Pressure Monitoring Strategies",
-        "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT03578848",
-        "date": "2018-06-06"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "PPI-amoxicillin for H. Pylori Treatment",
+        "title": "Huaiqihuang Granule in the Treatment of Primary Glomerulonephritis of Stage CKD3",
         "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
-        "source": "NCT05014685",
-        "date": "2021-08-20"
+        "source": "NCT04263922",
+        "date": "2020-06-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "[18F]AlF-NOTA-pentixather PET/CT in Patients With Suspected Primary Hyperaldosteronism",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT05815069",
-        "date": "2023-01-07"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Modified Enhanced Recovery After Oblique Lateral Interbody Fusion Surgery",
+        "title": "Prolonged Intravenous Infusion of β-lactam Antibiotics in Early Septic Patients",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05854043",
-        "date": "2023-04-01"
+        "source": "NCT05024565",
+        "date": "2021-09-20"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Study of SPX-303, a Bispecific Antibody Targeting LILRB2 and PD-L1 in Patients With Solid Tumors",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE1",
-        "source": "NCT06259552",
-        "date": "2024-03-20"
+        "title": "Efficacy and Safety of LT3001 on Treating the Acute Ischemic Stroke",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
+        "source": "NCT05686642",
+        "date": "2023-04-06"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "TQC2731 Clinical Trial for the Treatment of Severe Asthma With Injection",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
-        "source": "NCT06829784",
-        "date": "2025-03-21"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Evaluation of the Safety and Effectiveness of CHORDS® Cerebral Protection System During TAVR: DUET Trial",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07648693",
-        "date": "2025-10-31"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Evaluation of AI-assisted LDCT Screening in Lung Cancer",
+        "title": "Effects of Vitamin D Status and Multiple Mega-dose Supplementation on Health Care Disparities in Perioperative Patients With Hepatocellular Carcinoma Receiving Hepatectomy",
         "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
-        "source": "NCT07280559",
-        "date": "2025-12-11"
+        "source": "NCT05887505",
+        "date": "2023-06-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Nimotuzumab Combined With GX as Postoperative Adjuvant Therapy in Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2, PHASE3",
+        "source": "NCT06409429",
+        "date": "2024-05-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "To Evaluate the Impact of Consumption of Bioactive Compounds Extracted From Hemp Hull and Black Pepper on Fasting Blood Glucose Levels in People With Pre-diabetes: A Randomized Placebo-Controlled Parallel Arm Trial",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE3",
+        "source": "NCT06454773",
+        "date": "2024-06-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Water Exchange and CO2 Insufflation With Abdominal Compression Device to Reduce Manual Assistance",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06496958",
+        "date": "2024-09-02"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Randomized, Double-Blind, Placebo Controlled Study to Assess the Efficacy and Safety of SNP-610 for the Treatment of Patients With Non-alcoholic Steatohepatitis",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
+        "source": "NCT03468556",
+        "date": "2026-04-01"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -826,35 +831,35 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "D2 Gastrectomy With or Without Para-Aortic Lymph Node Dissection After Chemoimmunotherapy for Gastric Cancer",
-        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE2",
-        "source": "NCT07912606",
-        "date": "2026-11-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Diagnosis of Invasive Pulmonary Aspergillosis by Direct Lung Tissue Aspergillus Galactomannan Antigen Detection From Aspirate by Ultrasound-guided Fine Needle Aspiration",
+        "title": "Microfluidic-based Tactile Sensor in Cardiac Rehabilitation",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT01301755",
-        "date": "2010-03"
+        "source": "NCT04812600",
+        "date": "2021-03-20"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "National, Multicentric Registry Study on Neuroimmunological Diseases in China",
+        "title": "Establishment and Validation of an Early Diagnostic Model for Bladder Cancer Based on Serum and Urine Metabolomics",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT06443333",
-        "date": "2020-12-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Bespoke ctDNA Assay for Recurrence and Treatment Response Monitoring in Advanced Epithelial Ovarian Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT05446545",
+        "source": "NCT04966962",
         "date": "2021-09-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "Feasibility Effects of a Low-GI, High-fibre Diet in PCOS: a Prospective Cohort Study in Remote Yunnan",
+        "reason": "Studienregister-Treffer: RECRUITING ",
+        "source": "NCT07426146",
+        "date": "2025-08-10"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "low",
+        "title": "xDRIVE in Metastatic Colorectal Cancer",
+        "reason": "Studienregister-Treffer: WITHDRAWN ",
+        "source": "NCT06929338",
+        "date": "2025-09-15"
       },
       {
         "type": "SEC Filing",
@@ -863,6 +868,14 @@
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
         "date": "2026-03-19"
+      },
+      {
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "3 · 2026-04-02",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
