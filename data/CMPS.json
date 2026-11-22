@@ -308,7 +308,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-22T10:28:24Z",
+    "last_update_utc": "2026-11-22T17:57:45Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -823,22 +823,6 @@
         "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
-        "title": "Compass Pathways Q3 2026 Ergebnisse: Ausgaben für Marktstart weiten operativen Verlust aus - TradingKey",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84U0pTU0tBZ2RQNTdUYllkYTlkbWJaZnRUSmN6SHM4bjdtMjFhT0dUTFNnY29LRVlqQkctRmlPVzd0NGNXS2Jhc2ZoaEstTTZsOVVKRkhrRXIyOVQ2YWpEME52RS0?oc=5",
-        "published_at": "2026-11-03T08:00:00Z",
-        "source": "TradingKey",
-        "query": "COMPASS Pathways COMP360 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Quartalszahlen / Cash",
-        "trigger_level": "medium",
-        "trigger_reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "summary": "Trigger erkannt: Quartalszahlen / Cash. Einordnung: Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit. Beobachten: Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
         "relevance_score": 17
       },
       {
@@ -1622,16 +1606,12 @@
         "date": "2026-11-03"
       },
       {
-        "type": "Quartalszahlen / Cash",
-        "level": "medium",
-        "title": "Compass Pathways Q3 2026 Ergebnisse: Ausgaben für Marktstart weiten operativen Verlust aus - TradingKey",
-        "reason": "Trigger erkannt: Quartalszahlen / Cash.",
-        "impact": "fundamentaler Risiko-Trigger",
-        "assessment": "Quartalszahlen sind bei Entwicklungsfirmen vor allem wegen Cashbestand, Burn Rate und Runway wichtig. Umsatz ist bei frühen Biotechs oft weniger entscheidend als Finanzierungssicherheit.",
-        "watch": "Cash, Burn Rate, Runway, operative Kosten, neue Aktien und Guidance prüfen.",
-        "source": "TradingKey",
-        "date": "2026-11-03T08:00:00Z",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE84U0pTU0tBZ2RQNTdUYllkYTlkbWJaZnRUSmN6SHM4bjdtMjFhT0dUTFNnY29LRVlqQkctRmlPVzd0NGNXS2Jhc2ZoaEstTTZsOVVKRkhrRXIyOVQ2YWpEME52RS0?oc=5"
+        "type": "SEC Filing",
+        "level": "low",
+        "title": "4 · 2026-05-29",
+        "reason": "Offizielle SEC-Meldung gefunden.",
+        "source": "SEC EDGAR",
+        "date": "2026-05-29"
       },
       {
         "type": "SEC Filing",
