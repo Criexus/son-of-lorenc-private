@@ -192,7 +192,7 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-24T01:20:21Z",
+    "last_update_utc": "2026-11-24T11:13:01Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -294,6 +294,10 @@
       {
         "t": "2026-11-20T14:30:00Z",
         "price": 1.6
+      },
+      {
+        "t": "2026-11-23T14:30:00Z",
+        "price": 1.635
       }
     ],
     "price_history_1d": [
@@ -343,6 +347,13 @@
       }
     ],
     "sec_filings": [
+      {
+        "form": "EFFECT",
+        "filingDate": "2026-11-23",
+        "url": "https://www.sec.gov/Archives/edgar/data/1954594/999999999526003605/xslEFFECTX01/primary_doc.xml",
+        "source": "SEC EDGAR",
+        "description": "Offizielle SEC-Meldung"
+      },
       {
         "form": "F-3",
         "filingDate": "2026-11-12",
@@ -473,13 +484,6 @@
         "form": "3",
         "filingDate": "2026-04-02",
         "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026039652/xslF345X06/ownership.xml",
-        "source": "SEC EDGAR",
-        "description": "Offizielle SEC-Meldung"
-      },
-      {
-        "form": "3",
-        "filingDate": "2026-03-19",
-        "url": "https://www.sec.gov/Archives/edgar/data/1954594/000121390026031919/xslF345X06/ownership.xml",
         "source": "SEC EDGAR",
         "description": "Offizielle SEC-Meldung"
       }
@@ -864,10 +868,10 @@
       {
         "type": "SEC Filing",
         "level": "low",
-        "title": "3 · 2026-03-19",
+        "title": "3 · 2026-04-02",
         "reason": "Offizielle SEC-Meldung gefunden.",
         "source": "SEC EDGAR",
-        "date": "2026-03-19"
+        "date": "2026-04-02"
       },
       {
         "type": "SEC Filing",
