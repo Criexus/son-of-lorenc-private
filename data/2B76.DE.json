@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$15.84",
-      "note": "Auto-Update: -6.46% vs. vorheriger Schlusskurs",
+      "value": "$15.62",
+      "note": "Auto-Update: -7.76% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-25T14:44:06Z",
+    "last_update_utc": "2026-11-25T23:25:35Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 15.84,
+      "regularMarketPrice": 15.62,
       "previousClose": 16.934,
-      "change": -1.094,
-      "changePercent": -6.46,
-      "regularMarketTime": "2026-11-25T14:26:11Z",
+      "change": -1.314,
+      "changePercent": -7.76,
+      "regularMarketTime": "2026-11-25T16:36:03Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -247,10 +247,6 @@
       {
         "t": "2026-11-24T08:00:00Z",
         "price": 16.208
-      },
-      {
-        "t": "2026-11-25T08:00:00Z",
-        "price": 15.84
       }
     ],
     "price_history_1d": [
@@ -519,13 +515,125 @@
         "price": 15.834
       },
       {
-        "t": "2026-11-25T14:26:11Z",
+        "t": "2026-11-25T14:25:00Z",
         "price": 15.84
+      },
+      {
+        "t": "2026-11-25T14:30:00Z",
+        "price": 15.7
+      },
+      {
+        "t": "2026-11-25T14:35:00Z",
+        "price": 15.652
+      },
+      {
+        "t": "2026-11-25T14:40:00Z",
+        "price": 15.574
+      },
+      {
+        "t": "2026-11-25T14:45:00Z",
+        "price": 15.612
+      },
+      {
+        "t": "2026-11-25T14:50:00Z",
+        "price": 15.62
+      },
+      {
+        "t": "2026-11-25T14:55:00Z",
+        "price": 15.738
+      },
+      {
+        "t": "2026-11-25T15:00:00Z",
+        "price": 15.83
+      },
+      {
+        "t": "2026-11-25T15:05:00Z",
+        "price": 15.816
+      },
+      {
+        "t": "2026-11-25T15:10:00Z",
+        "price": 15.762
+      },
+      {
+        "t": "2026-11-25T15:15:00Z",
+        "price": 15.726
+      },
+      {
+        "t": "2026-11-25T15:20:00Z",
+        "price": 15.65
+      },
+      {
+        "t": "2026-11-25T15:25:00Z",
+        "price": 15.656
+      },
+      {
+        "t": "2026-11-25T15:30:00Z",
+        "price": 15.72
+      },
+      {
+        "t": "2026-11-25T15:35:00Z",
+        "price": 15.794
+      },
+      {
+        "t": "2026-11-25T15:40:00Z",
+        "price": 15.69
+      },
+      {
+        "t": "2026-11-25T15:45:00Z",
+        "price": 15.668
+      },
+      {
+        "t": "2026-11-25T15:50:00Z",
+        "price": 15.73
+      },
+      {
+        "t": "2026-11-25T16:00:00Z",
+        "price": 15.666
+      },
+      {
+        "t": "2026-11-25T16:05:00Z",
+        "price": 15.63
+      },
+      {
+        "t": "2026-11-25T16:10:00Z",
+        "price": 15.656
+      },
+      {
+        "t": "2026-11-25T16:15:00Z",
+        "price": 15.614
+      },
+      {
+        "t": "2026-11-25T16:20:00Z",
+        "price": 15.674
+      },
+      {
+        "t": "2026-11-25T16:25:00Z",
+        "price": 15.676
+      },
+      {
+        "t": "2026-11-25T16:30:00Z",
+        "price": 15.62
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
     "news": [
+      {
+        "title": "L&G Hydrogen Economy UCITS ETF-USD Acc (HTMW.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5nSFNOaml3Vm5LQWx3V3NmSzRJTHRjUUQtX1hWdG9vcWtTVUVnbXY0NjNyeGZLV19PM1ZQS2xtdVdPc0FaYkotTmlaWGttREpERl9wUjl3?oc=5",
+        "published_at": "2021-07-23T01:50:44Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
+      },
       {
         "title": "L&G ROBO Global Robotics and Automation UCITS ETF (IROB.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MZ05JV0RzRzQ3cFNNa1Z5Q29KTEthSEtmNjlUdHF2WmVvUUh1OWNWTk5naWZzNmV0TnRoSkdkcTU2RDhPTnhyVnBRY2NVczlISUtRS1BB?oc=5",
@@ -637,22 +745,6 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 9
-      },
-      {
-        "title": "Xtrackers Artificial Intelligence & Big Data UCITS ETF 1C (XAIX.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTYnpNNHoxbTZ0d1J4WkwtNEkzM2NDWjZ2TWVaTk00bWE1em1LdGg3OTZlUjZ6MXB5UnJrd0ZoTG16V0JGbU1BeFlkTGdJWXI3cUJoS3hB?oc=5",
-        "published_at": "2019-07-22T10:14:04Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 6
       },
       {
         "title": "iShares Core MSCI Japan IMI UCITS ETF USD (Acc) (EUNN.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
