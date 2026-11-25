@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.85",
-      "note": "Auto-Update: 1.92% vs. vorheriger Schlusskurs",
+      "value": "$1.75",
+      "note": "Auto-Update: 0.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -192,15 +192,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-25T04:23:20Z",
+    "last_update_utc": "2026-11-25T14:43:54Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.855,
-      "previousClose": 1.82,
-      "change": 0.035,
-      "changePercent": 1.92,
-      "regularMarketTime": "2026-11-24T21:00:00Z",
+      "regularMarketPrice": 1.75,
+      "previousClose": 1.75,
+      "change": 0.0,
+      "changePercent": 0.0,
+      "regularMarketTime": "2026-11-25T14:30:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -302,134 +302,21 @@
       {
         "t": "2026-11-24T14:30:00Z",
         "price": 1.855
+      },
+      {
+        "t": "2026-11-25T14:30:00Z",
+        "price": 1.75
       }
     ],
     "price_history_1d": [
       {
-        "t": "2026-11-24T14:35:00Z",
-        "price": 1.665
-      },
-      {
-        "t": "2026-11-24T14:50:00Z",
-        "price": 1.62
-      },
-      {
-        "t": "2026-11-24T15:05:00Z",
-        "price": 1.6091
-      },
-      {
-        "t": "2026-11-24T16:10:00Z",
-        "price": 1.995
-      },
-      {
-        "t": "2026-11-24T16:15:00Z",
-        "price": 1.8751
-      },
-      {
-        "t": "2026-11-24T16:20:00Z",
-        "price": 1.85
-      },
-      {
-        "t": "2026-11-24T16:25:00Z",
-        "price": 1.7253
-      },
-      {
-        "t": "2026-11-24T16:30:00Z",
-        "price": 1.84
-      },
-      {
-        "t": "2026-11-24T16:40:00Z",
-        "price": 1.78
-      },
-      {
-        "t": "2026-11-24T16:45:00Z",
-        "price": 1.81
-      },
-      {
-        "t": "2026-11-24T16:50:00Z",
-        "price": 1.84
-      },
-      {
-        "t": "2026-11-24T17:10:00Z",
-        "price": 1.81
-      },
-      {
-        "t": "2026-11-24T17:25:00Z",
-        "price": 1.76
-      },
-      {
-        "t": "2026-11-24T17:30:00Z",
-        "price": 1.78
-      },
-      {
-        "t": "2026-11-24T17:40:00Z",
-        "price": 1.78
-      },
-      {
-        "t": "2026-11-24T17:45:00Z",
-        "price": 1.815
-      },
-      {
-        "t": "2026-11-24T18:05:00Z",
-        "price": 1.815
-      },
-      {
-        "t": "2026-11-24T18:10:00Z",
-        "price": 1.77
-      },
-      {
-        "t": "2026-11-24T18:25:00Z",
-        "price": 1.8356
-      },
-      {
-        "t": "2026-11-24T18:40:00Z",
-        "price": 1.81
-      },
-      {
-        "t": "2026-11-24T18:55:00Z",
-        "price": 1.8
-      },
-      {
-        "t": "2026-11-24T19:10:00Z",
-        "price": 1.84
-      },
-      {
-        "t": "2026-11-24T20:20:00Z",
-        "price": 1.76
-      },
-      {
-        "t": "2026-11-24T20:50:00Z",
-        "price": 1.845
-      },
-      {
-        "t": "2026-11-24T20:55:00Z",
-        "price": 1.77
-      },
-      {
-        "t": "2026-11-24T21:00:00Z",
-        "price": 1.855
+        "t": "2026-11-25T14:30:01Z",
+        "price": 1.75
       }
     ],
     "price_history_range": "1mo",
     "price_history_1d_range": "1d/5m",
-    "news": [
-      {
-        "title": "Haoxi Health Technology Limited (HAO) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9VN19Cbmo0TFFERHVWbmVmMHFDaWlmS1ZHQXhSN2N0eWFjR2RGRjJKVnBTcERLT3ZYdEZTYUtpVE5sNWhaazdMNzNnNGlEWjR2?oc=5",
-        "published_at": "2017-11-06T16:19:20Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "HAO stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 23
-      }
-    ],
+    "news": [],
     "sec_filings": [
       {
         "form": "EFFECT",
@@ -574,154 +461,154 @@
     ],
     "clinical_trials": [
       {
-        "nct_id": "NCT04218916",
-        "title": "Rhodiola Rosea for Coronary Microvascular Disease",
-        "status": "UNKNOWN",
-        "phase": "PHASE2, PHASE3",
-        "conditions": "Coronary Microvascular Disease",
+        "nct_id": "NCT07911579",
+        "title": "A Study of SYH2051 in Combination With Irinotecan Hydrochloride Liposome Injection in Subjects With Advanced Solid Tumors",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Advanced Solid Tumors",
         "last_update": "",
-        "start_date": "2020-01",
-        "url": "https://clinicaltrials.gov/study/NCT04218916"
+        "start_date": "2026-11-30",
+        "url": "https://clinicaltrials.gov/study/NCT07911579"
       },
       {
-        "nct_id": "NCT07753499",
-        "title": "Trophoblast Cell-Surface Antigen 2 (Trop-2) Targeted PET/CT in Recurrent and Metastatic Thyroid Cancer",
+        "nct_id": "NCT05840341",
+        "title": "Clinical Efficacy of QYHJ and Standard Chemotherapy in the Treatment of Advanced Pancreatic Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "conditions": "Pancreatic Neoplasms",
+        "last_update": "",
+        "start_date": "2023-04-17",
+        "url": "https://clinicaltrials.gov/study/NCT05840341"
+      },
+      {
+        "nct_id": "NCT06717022",
+        "title": "A Clinical Study of CHT102 in Mesothelin Positive Advanced Solid Tumors",
         "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Tumor, Solid Tumor, Thyroid Cancer",
+        "conditions": "Mesothelin Positive Tumors",
         "last_update": "",
-        "start_date": "2026-08-01",
-        "url": "https://clinicaltrials.gov/study/NCT07753499"
+        "start_date": "2024-05-06",
+        "url": "https://clinicaltrials.gov/study/NCT06717022"
       },
       {
-        "nct_id": "NCT05449184",
-        "title": "A Prospective, Randomized, Controlled Clinical Study of BET Combined With Tympanostomy Tube Insertion in the Treatment of Intractable OME After Radiotherapy for NPC",
+        "nct_id": "NCT02534545",
+        "title": "Remote Ischemic Conditioning for Avoiding Recurrence of Symptomatic Intracranial Atherosclerotic Stenosis (sICAS)",
         "status": "UNKNOWN",
         "phase": "NA",
-        "conditions": "Otitis Media With Effusion After Nasopharyngeal Carcinoma",
+        "conditions": "Intracranial Atherosclerosis",
         "last_update": "",
-        "start_date": "2022-06-14",
-        "url": "https://clinicaltrials.gov/study/NCT05449184"
+        "start_date": "2015-10",
+        "url": "https://clinicaltrials.gov/study/NCT02534545"
       },
       {
-        "nct_id": "NCT06978933",
-        "title": "FGF19 Overexpression Combination Unified Study in HCC-19",
+        "nct_id": "NCT05580354",
+        "title": "Safety and Efficacy of BCG Combined With Tislelizumab for BCG-untreated Patients With High-risk Non-muscle Invasive Bladder Cancer",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Non-muscle-invasive Bladder Cancer",
+        "last_update": "",
+        "start_date": "2022-10-09",
+        "url": "https://clinicaltrials.gov/study/NCT05580354"
+      },
+      {
+        "nct_id": "NCT04263922",
+        "title": "Huaiqihuang Granule in the Treatment of Primary Glomerulonephritis of Stage CKD3",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "conditions": "Renal Insufficiency, Chronic",
+        "last_update": "",
+        "start_date": "2020-06-30",
+        "url": "https://clinicaltrials.gov/study/NCT04263922"
+      },
+      {
+        "nct_id": "NCT02026739",
+        "title": "The Optimal Intraoperative Supplemental Oxygen Administration During Minimally Invasive Esophagectomy",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "conditions": "Oxygenation Index",
+        "last_update": "",
+        "start_date": "2013-09",
+        "url": "https://clinicaltrials.gov/study/NCT02026739"
+      },
+      {
+        "nct_id": "NCT06160492",
+        "title": "5-Aminolevulinic Acid for Photodynamic Diagnosis of Malignant Glioma",
         "status": "RECRUITING",
-        "phase": "PHASE2",
-        "conditions": "HCC - Hepatocellular Carcinoma",
+        "phase": "PHASE3",
+        "conditions": "5-aminolevulinic Acid, Fluorescence-guided Resection, High-Grade Glioma (WHO III-IV)",
         "last_update": "",
-        "start_date": "2025-04-30",
-        "url": "https://clinicaltrials.gov/study/NCT06978933"
+        "start_date": "2025-04-14",
+        "url": "https://clinicaltrials.gov/study/NCT06160492"
       },
       {
-        "nct_id": "NCT05787535",
-        "title": "HRYZ-T101 TCR-T Cell for HPV-18 Positive Advanced Solid Tumor",
-        "status": "UNKNOWN",
-        "phase": "PHASE1",
-        "conditions": "Cervical Cancer, Head and Neck Squamous Cell Carcinoma, Oropharyngeal Cancer, Vagina Tumor",
+        "nct_id": "NCT03257722",
+        "title": "Pembrolizumab + Idelalisib for Lung Cancer Study",
+        "status": "TERMINATED",
+        "phase": "PHASE1, PHASE2",
+        "conditions": "Non Small Cell Lung Cancer, Metastasis, Recurrence",
         "last_update": "",
-        "start_date": "2023-03-21",
-        "url": "https://clinicaltrials.gov/study/NCT05787535"
+        "start_date": "2017-09-26",
+        "url": "https://clinicaltrials.gov/study/NCT03257722"
       },
       {
-        "nct_id": "NCT05229133",
-        "title": "Efficacy and Safety of CLEAR in Myopia and Astigmatism in Chinese Population",
-        "status": "UNKNOWN",
+        "nct_id": "NCT07824739",
+        "title": "AI Assistance for Detecting Active Bleeding During DSA Procedures",
+        "status": "NOT_YET_RECRUITING",
         "phase": "NA",
-        "conditions": "Myopic Astigmatism",
+        "conditions": "DSA, Bleeding, AI (Artificial Intelligence), Hemorrhage",
         "last_update": "",
-        "start_date": "2021-11-29",
-        "url": "https://clinicaltrials.gov/study/NCT05229133"
+        "start_date": "2026-10-01",
+        "url": "https://clinicaltrials.gov/study/NCT07824739"
       },
       {
-        "nct_id": "NCT06929338",
-        "title": "xDRIVE in Metastatic Colorectal Cancer",
-        "status": "WITHDRAWN",
+        "nct_id": "NCT04664647",
+        "title": "The Clinical Features of Combined Central and Peripheral Demyelination",
+        "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Metastatic Colon Adenocarcinoma, Metastatic Colon Cancer, Metastatic Rectal Adenocarcinoma, Metastatic Rectal Carcinoma",
+        "conditions": "Combined Central and Peripheral Demyelination Disease",
         "last_update": "",
-        "start_date": "2025-09-15",
-        "url": "https://clinicaltrials.gov/study/NCT06929338"
+        "start_date": "2020-12",
+        "url": "https://clinicaltrials.gov/study/NCT04664647"
       },
       {
-        "nct_id": "NCT06150885",
-        "title": "A Safety And Efficacy Study Of Allogeneic CAR Gamma-Delta T Cells in Subjects With Relapsed/Refractory Solid Tumors",
+        "nct_id": "NCT07070349",
+        "title": "A Trial of HRS-6213 in Healthy Subjects and Patients With Solid Tumors",
         "status": "RECRUITING",
         "phase": "PHASE1, PHASE2",
-        "conditions": "Solid Tumor",
+        "conditions": "Patients With Solid Tumors",
         "last_update": "",
-        "start_date": "2024-09-01",
-        "url": "https://clinicaltrials.gov/study/NCT06150885"
+        "start_date": "2025-07-10",
+        "url": "https://clinicaltrials.gov/study/NCT07070349"
       },
       {
-        "nct_id": "NCT04964310",
-        "title": "Screening of Susceptibility Genes for APAP Induced Drug Induced LIver Injury in ChiNese Population: a Case-control Study",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Acetaminophen, Drug-Induced Liver Injury, Pharmacogenetics, China",
-        "last_update": "",
-        "start_date": "2020-08-31",
-        "url": "https://clinicaltrials.gov/study/NCT04964310"
-      },
-      {
-        "nct_id": "NCT02634502",
-        "title": "Radiofrequency Ablation Combined With S-1 for Pancreatic Cancer With Liver Metastasis",
+        "nct_id": "NCT06523049",
+        "title": "Vorolanib Plus Sintilimab for Advanced Renal Cell Carcinoma After Failure of Prior Immune Checkpoint Inhibitors Based Combination Therapy",
         "status": "UNKNOWN",
         "phase": "PHASE2",
-        "conditions": "Carcinoma, Pancreatic",
+        "conditions": "Renal Cell Carcinoma, Immunotherapy, Molecular Targeted Therapy",
         "last_update": "",
-        "start_date": "2013-10",
-        "url": "https://clinicaltrials.gov/study/NCT02634502"
+        "start_date": "2024-08",
+        "url": "https://clinicaltrials.gov/study/NCT06523049"
       },
       {
-        "nct_id": "NCT04381754",
-        "title": "Use of Implanting the Biotronik Passeo-18 Lux Drug Coated Balloon to Treat Failing Haemodialysis Arteriovenous Fistulas and Grafts.",
+        "nct_id": "NCT06183138",
+        "title": "Multicenter Analysis of Genomic and Metabolic Data of Neonatal Genetic Diseases",
         "status": "UNKNOWN",
         "phase": "",
-        "conditions": "Arterio-venous Fistula, Dialysis Access Malfunction, Hemodialysis Access Failure, Arteriovenous Graft Stenosis",
+        "conditions": "Hereditary Diseases",
         "last_update": "",
-        "start_date": "2020-06",
-        "url": "https://clinicaltrials.gov/study/NCT04381754"
+        "start_date": "2022-09-01",
+        "url": "https://clinicaltrials.gov/study/NCT06183138"
       },
       {
-        "nct_id": "NCT01813656",
-        "title": "An Study of Aripiprazole in the Treatment of Methamphetamine Dependence",
-        "status": "TERMINATED",
-        "phase": "PHASE4",
-        "conditions": "Methamphetamine Dependence",
-        "last_update": "",
-        "start_date": "2012-09",
-        "url": "https://clinicaltrials.gov/study/NCT01813656"
-      },
-      {
-        "nct_id": "NCT02801279",
-        "title": "Development of Kinect-assisted Home-based Bilateral Arm Training Program for Cerebral Palsy",
-        "status": "COMPLETED",
+        "nct_id": "NCT06030804",
+        "title": "Perioperative Dexmedetomidine and Long-term Survival After Cancer Surgery",
+        "status": "RECRUITING",
         "phase": "NA",
-        "conditions": "Cerebral Palsy",
+        "conditions": "Elderly, Cancer Surgery, Dexmedetomidine, Long-Term Survivors",
         "last_update": "",
-        "start_date": "2017-03-04",
-        "url": "https://clinicaltrials.gov/study/NCT02801279"
-      },
-      {
-        "nct_id": "NCT03830879",
-        "title": "Shenzhen Birth Cohort Study",
-        "status": "RECRUITING",
-        "phase": "",
-        "conditions": "Pregnancy Complications, Gestational Diabetes, Obstetric Labor Complications, Neurodevelopmental Disorders",
-        "last_update": "",
-        "start_date": "2018-03-06",
-        "url": "https://clinicaltrials.gov/study/NCT03830879"
-      },
-      {
-        "nct_id": "NCT03578575",
-        "title": "To Investigate the Molecular Mechanism of Traditional Chinese Medicine Constitution Using Next-generation Sequencing in Nasopharyngeal Carcinoma",
-        "status": "UNKNOWN",
-        "phase": "PHASE2",
-        "conditions": "Nasopharyngeal Carcinoma",
-        "last_update": "",
-        "start_date": "2018-07-26",
-        "url": "https://clinicaltrials.gov/study/NCT03578575"
+        "start_date": "2023-09-12",
+        "url": "https://clinicaltrials.gov/study/NCT06030804"
       }
     ],
     "detected_triggers": [
@@ -752,82 +639,90 @@
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "An Study of Aripiprazole in the Treatment of Methamphetamine Dependence",
-        "reason": "Studienregister-Treffer: TERMINATED PHASE4",
-        "source": "NCT01813656",
-        "date": "2012-09"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Radiofrequency Ablation Combined With S-1 for Pancreatic Cancer With Liver Metastasis",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT02634502",
-        "date": "2013-10"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Development of Kinect-assisted Home-based Bilateral Arm Training Program for Cerebral Palsy",
-        "reason": "Studienregister-Treffer: COMPLETED NA",
-        "source": "NCT02801279",
-        "date": "2017-03-04"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "To Investigate the Molecular Mechanism of Traditional Chinese Medicine Constitution Using Next-generation Sequencing in Nasopharyngeal Carcinoma",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
-        "source": "NCT03578575",
-        "date": "2018-07-26"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Rhodiola Rosea for Coronary Microvascular Disease",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE2, PHASE3",
-        "source": "NCT04218916",
-        "date": "2020-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Efficacy and Safety of CLEAR in Myopia and Astigmatism in Chinese Population",
+        "title": "The Optimal Intraoperative Supplemental Oxygen Administration During Minimally Invasive Esophagectomy",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05229133",
-        "date": "2021-11-29"
+        "source": "NCT02026739",
+        "date": "2013-09"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Prospective, Randomized, Controlled Clinical Study of BET Combined With Tympanostomy Tube Insertion in the Treatment of Intractable OME After Radiotherapy for NPC",
+        "title": "Remote Ischemic Conditioning for Avoiding Recurrence of Symptomatic Intracranial Atherosclerotic Stenosis (sICAS)",
         "reason": "Studienregister-Treffer: UNKNOWN NA",
-        "source": "NCT05449184",
-        "date": "2022-06-14"
+        "source": "NCT02534545",
+        "date": "2015-10"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "HRYZ-T101 TCR-T Cell for HPV-18 Positive Advanced Solid Tumor",
-        "reason": "Studienregister-Treffer: UNKNOWN PHASE1",
-        "source": "NCT05787535",
-        "date": "2023-03-21"
+        "title": "Pembrolizumab + Idelalisib for Lung Cancer Study",
+        "reason": "Studienregister-Treffer: TERMINATED PHASE1, PHASE2",
+        "source": "NCT03257722",
+        "date": "2017-09-26"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
-        "title": "A Safety And Efficacy Study Of Allogeneic CAR Gamma-Delta T Cells in Subjects With Relapsed/Refractory Solid Tumors",
+        "title": "Huaiqihuang Granule in the Treatment of Primary Glomerulonephritis of Stage CKD3",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT04263922",
+        "date": "2020-06-30"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Safety and Efficacy of BCG Combined With Tislelizumab for BCG-untreated Patients With High-risk Non-muscle Invasive Bladder Cancer",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE4",
+        "source": "NCT05580354",
+        "date": "2022-10-09"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Clinical Efficacy of QYHJ and Standard Chemotherapy in the Treatment of Advanced Pancreatic Cancer",
+        "reason": "Studienregister-Treffer: COMPLETED PHASE3",
+        "source": "NCT05840341",
+        "date": "2023-04-17"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Perioperative Dexmedetomidine and Long-term Survival After Cancer Surgery",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06030804",
+        "date": "2023-09-12"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Clinical Study of CHT102 in Mesothelin Positive Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: RECRUITING NA",
+        "source": "NCT06717022",
+        "date": "2024-05-06"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "Vorolanib Plus Sintilimab for Advanced Renal Cell Carcinoma After Failure of Prior Immune Checkpoint Inhibitors Based Combination Therapy",
+        "reason": "Studienregister-Treffer: UNKNOWN PHASE2",
+        "source": "NCT06523049",
+        "date": "2024-08"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "5-Aminolevulinic Acid for Photodynamic Diagnosis of Malignant Glioma",
+        "reason": "Studienregister-Treffer: RECRUITING PHASE3",
+        "source": "NCT06160492",
+        "date": "2025-04-14"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Trial of HRS-6213 in Healthy Subjects and Patients With Solid Tumors",
         "reason": "Studienregister-Treffer: RECRUITING PHASE1, PHASE2",
-        "source": "NCT06150885",
-        "date": "2024-09-01"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "FGF19 Overexpression Combination Unified Study in HCC-19",
-        "reason": "Studienregister-Treffer: RECRUITING PHASE2",
-        "source": "NCT06978933",
-        "date": "2025-04-30"
+        "source": "NCT07070349",
+        "date": "2025-07-10"
       },
       {
         "type": "SEC · Finanzbericht",
@@ -902,14 +797,6 @@
         "date": "2026-07-13"
       },
       {
-        "type": "ClinicalTrials.gov",
-        "level": "medium",
-        "title": "Trophoblast Cell-Surface Antigen 2 (Trop-2) Targeted PET/CT in Recurrent and Metastatic Thyroid Cancer",
-        "reason": "Studienregister-Treffer: RECRUITING NA",
-        "source": "NCT07753499",
-        "date": "2026-08-01"
-      },
-      {
         "type": "SEC · Finanzbericht",
         "level": "medium",
         "title": "20-F · 2026-09-30",
@@ -919,35 +806,35 @@
       },
       {
         "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "Shenzhen Birth Cohort Study",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT03830879",
-        "date": "2018-03-06"
+        "level": "medium",
+        "title": "AI Assistance for Detecting Active Bleeding During DSA Procedures",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING NA",
+        "source": "NCT07824739",
+        "date": "2026-10-01"
+      },
+      {
+        "type": "ClinicalTrials.gov",
+        "level": "medium",
+        "title": "A Study of SYH2051 in Combination With Irinotecan Hydrochloride Liposome Injection in Subjects With Advanced Solid Tumors",
+        "reason": "Studienregister-Treffer: NOT_YET_RECRUITING PHASE1, PHASE2",
+        "source": "NCT07911579",
+        "date": "2026-11-30"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Use of Implanting the Biotronik Passeo-18 Lux Drug Coated Balloon to Treat Failing Haemodialysis Arteriovenous Fistulas and Grafts.",
+        "title": "The Clinical Features of Combined Central and Peripheral Demyelination",
         "reason": "Studienregister-Treffer: UNKNOWN ",
-        "source": "NCT04381754",
-        "date": "2020-06"
+        "source": "NCT04664647",
+        "date": "2020-12"
       },
       {
         "type": "ClinicalTrials.gov",
         "level": "low",
-        "title": "Screening of Susceptibility Genes for APAP Induced Drug Induced LIver Injury in ChiNese Population: a Case-control Study",
-        "reason": "Studienregister-Treffer: RECRUITING ",
-        "source": "NCT04964310",
-        "date": "2020-08-31"
-      },
-      {
-        "type": "ClinicalTrials.gov",
-        "level": "low",
-        "title": "xDRIVE in Metastatic Colorectal Cancer",
-        "reason": "Studienregister-Treffer: WITHDRAWN ",
-        "source": "NCT06929338",
-        "date": "2025-09-15"
+        "title": "Multicenter Analysis of Genomic and Metabolic Data of Neonatal Genetic Diseases",
+        "reason": "Studienregister-Treffer: UNKNOWN ",
+        "source": "NCT06183138",
+        "date": "2022-09-01"
       },
       {
         "type": "SEC Filing",
