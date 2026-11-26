@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$16.42",
-      "note": "Auto-Update: -3.06% vs. vorheriger Schlusskurs",
+      "value": "$16.41",
+      "note": "Auto-Update: -3.11% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -137,15 +137,15 @@
     "Automatische Quellen werden nach Update ergänzt."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-26T15:31:35Z",
+    "last_update_utc": "2026-11-26T23:58:46Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "EUR",
-      "regularMarketPrice": 16.42,
+      "regularMarketPrice": 16.412,
       "previousClose": 16.938,
-      "change": -0.518,
-      "changePercent": -3.06,
-      "regularMarketTime": "2026-11-26T15:12:42Z",
+      "change": -0.526,
+      "changePercent": -3.11,
+      "regularMarketTime": "2026-11-26T16:35:48Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -251,10 +251,6 @@
       {
         "t": "2026-11-25T08:00:00Z",
         "price": 15.62
-      },
-      {
-        "t": "2026-11-26T08:00:00Z",
-        "price": 16.42
       }
     ],
     "price_history_1d": [
@@ -495,8 +491,64 @@
         "price": 16.396
       },
       {
-        "t": "2026-11-26T15:12:42Z",
+        "t": "2026-11-26T15:10:00Z",
         "price": 16.42
+      },
+      {
+        "t": "2026-11-26T15:15:00Z",
+        "price": 16.428
+      },
+      {
+        "t": "2026-11-26T15:20:00Z",
+        "price": 16.414
+      },
+      {
+        "t": "2026-11-26T15:25:00Z",
+        "price": 16.44
+      },
+      {
+        "t": "2026-11-26T15:40:00Z",
+        "price": 16.438
+      },
+      {
+        "t": "2026-11-26T15:45:00Z",
+        "price": 16.436
+      },
+      {
+        "t": "2026-11-26T15:50:00Z",
+        "price": 16.43
+      },
+      {
+        "t": "2026-11-26T15:55:00Z",
+        "price": 16.442
+      },
+      {
+        "t": "2026-11-26T16:00:00Z",
+        "price": 16.44
+      },
+      {
+        "t": "2026-11-26T16:05:00Z",
+        "price": 16.456
+      },
+      {
+        "t": "2026-11-26T16:10:00Z",
+        "price": 16.466
+      },
+      {
+        "t": "2026-11-26T16:15:00Z",
+        "price": 16.438
+      },
+      {
+        "t": "2026-11-26T16:20:00Z",
+        "price": 16.424
+      },
+      {
+        "t": "2026-11-26T16:25:00Z",
+        "price": 16.43
+      },
+      {
+        "t": "2026-11-26T16:30:00Z",
+        "price": 16.412
       }
     ],
     "price_history_range": "1mo",
@@ -615,22 +667,6 @@
         "relevance_score": 9
       },
       {
-        "title": "Xtrackers Future Mobility UCITS ETF 1C (XMOV.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DRFNZRGFRMzg0QVZKQ2E3N3lONXVIMHg4MlpzZDREV3Uzc2RiMDVxZmRsYlJDRXl3WnJUV3dvTlFPR0hfaVY3OVJ4V3otcndGajZ1VWpB?oc=5",
-        "published_at": "2019-10-07T05:21:45Z",
-        "source": "Yahoo Finanzen Deutschland",
-        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 5
-      },
-      {
         "title": "iShares Core MSCI Japan IMI UCITS ETF USD (Acc) (EUNN.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsNmZMSF9yeXpqOHh4YTRtTUkzRk9FdFpPeDdfSHRtLTVpRFJRZ3Mwa2ZTRXp2LWlLR1hhUlhXSXYzcmEwNjdMZW5aMVRRUlc4SkVUNkd3?oc=5",
         "published_at": "2019-07-20T16:11:13Z",
@@ -645,6 +681,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 9
+      },
+      {
+        "title": "L&G Cyber Security UCITS ETF (USPY.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HMG9BaGVVNy1FT1pXMjZwdXR6NzlXeG5GMmpNXzVEb3dlSEY2M3ZvNU1SNFZMQ3hfU0dQMDhsMFdWcjlLUnZLRHFqcU9XelFGMzRtVlBB?oc=5",
+        "published_at": "2017-06-14T23:50:34Z",
+        "source": "Yahoo Finanzen Deutschland",
+        "query": "iShares Automation & Robotics UCITS ETF 2B76.DE stock news",
+        "source_type": "google_news_rss",
+        "trigger_type": "Allgemeine News",
+        "trigger_level": "low",
+        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
+        "impact": "unklare Kursrelevanz",
+        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
+        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
+        "relevance_score": 5
       },
       {
         "title": "iShares Gold Producers UCITS ETF USD (Acc) (IS0E.DE) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
