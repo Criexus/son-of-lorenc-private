@@ -303,7 +303,7 @@
     "Investing.com / StockAnalysis Kursdaten: April–Mai 2026 historische Kurse und 52W-Spanne."
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-26T23:57:24Z",
+    "last_update_utc": "2026-11-27T06:18:28Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
@@ -436,22 +436,6 @@
         "relevance_score": 17
       },
       {
-        "title": "Atai Beckley Aktie: Lilly zahlt 2,8 Milliarden - Börse Global",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX3dkdGRyeDlaa3FwdnZ4bDVSNTFYUVJGcGtudDZLZWh6SHNUWXotRWVhNDdjMkJpM0FoYnNISU9sRUt1MG5sTU5kRm4wM3NaSjVYb1RuaWFkazFNM0VJX2I0U19fODFhYlZRN0RnYWtWUUJpWENfYTF4TkplWkR6cXVTNFZDYlE?oc=5",
-        "published_at": "2026-07-27T07:00:00Z",
-        "source": "Börse Global",
-        "query": "AtaiBeckley BPL-003 phase 3",
-        "source_type": "google_news_rss",
-        "trigger_type": "Allgemeine News",
-        "trigger_level": "low",
-        "trigger_reason": "Allgemeine Meldung ohne harten Schlüsseltrigger.",
-        "impact": "unklare Kursrelevanz",
-        "assessment": "Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt.",
-        "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
-        "relevance_score": 17
-      },
-      {
         "title": "Mit AtaiBeckley-Übernahme: Eli Lilly setzt auf Psychedelika gegen Depressionen - TARA24",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPelU5dzFZTlpEb3F4azRNU2NtRzlBU0Z3UWU2dHNmZnhMenVCT0g4RkNRLS1aQzJhRVl4blZZTlZvb1YxUzc1X2E1S2xJdVNVSFo4MmFSck9VUE9pWTdfcXN3TUVGZ2Q5QkxmX3JfT1ZWN28zNWVabm9GN1lhelh6Qy1WTFVRdGp2MnN3dml3LVY2OWN0UEFxZklPaldVSE1XZ3BuZUVucXNiVFpmT3ItYXdn?oc=5",
         "published_at": "2026-07-23T07:00:00Z",
@@ -562,6 +546,22 @@
         "watch": "Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "summary": "Allgemeine Meldung ohne harten Schlüsseltrigger. Einordnung: Diese Meldung enthält keinen eindeutigen harten Trigger. Sie sollte trotzdem geprüft werden, wenn sie häufig auftaucht oder von einer wichtigen Quelle kommt. Beobachten: Quelle, Inhalt und Zusammenhang mit Pipeline, Cash oder Kursbewegung prüfen.",
         "relevance_score": 15
+      },
+      {
+        "title": "Is AtaiBeckley Inc. (ATAI) Stock a Psychedelic Medicine Opportunity Ahead of Phase 2 Results? - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYl93ZnRHcUhabEJCX0hGTEo4Tzk0SE1aYUhTck5ValZoZHBXU21ZX1REdTdOM1FyZzJKV3I1Mi1jNjR3ZlQ4TTdTNl90V200VUk0LW5oZ0k0Rl9MQWIzRlJ2WDFrZmVRSjMyS2gtNU5NT3ZzaTc5TGxlY1RnalI0U1lDaTk1dmVLYVB3aWRaYmtKQko0YWlnNDVab1ZsRmE0?oc=5",
+        "published_at": "2026-07-15T07:00:00Z",
+        "source": "Yahoo Finance",
+        "query": "ATAI Life Sciences AtaiBeckley BPL-003 stock",
+        "source_type": "google_news_rss",
+        "trigger_type": "Studienphase / Readout",
+        "trigger_level": "high",
+        "trigger_reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "summary": "Trigger erkannt: Studienphase / Readout. Einordnung: Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden. Beobachten: Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "relevance_score": 19
       },
       {
         "title": "VA-HHS stärkt Psychedelika-Studien: AtaiBeckley rutscht nach News ins Minus – Anleger müssen prüfen - Goldesel.de",
@@ -762,6 +762,18 @@
       }
     ],
     "detected_triggers": [
+      {
+        "type": "Studienphase / Readout",
+        "level": "high",
+        "title": "Is AtaiBeckley Inc. (ATAI) Stock a Psychedelic Medicine Opportunity Ahead of Phase 2 Results? - Yahoo Finance",
+        "reason": "Trigger erkannt: Studienphase / Readout.",
+        "impact": "potenziell hoher klinischer Trigger",
+        "assessment": "Studien- und Readout-Meldungen sind bei Pipeline-Werten oft der zentrale Kurstreiber. Entscheidend ist, ob harte Daten, Endpunkte, Sicherheitsdaten oder nur Ankündigungen kommuniziert wurden.",
+        "watch": "Primären Endpunkt, Sicherheitsprofil, Patientenzahl, Phase und nächsten Meilenstein prüfen.",
+        "source": "Yahoo Finance",
+        "date": "2026-07-15T07:00:00Z",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYl93ZnRHcUhabEJCX0hGTEo4Tzk0SE1aYUhTck5ValZoZHBXU21ZX1REdTdOM1FyZzJKV3I1Mi1jNjR3ZlQ4TTdTNl90V200VUk0LW5oZ0k0Rl9MQWIzRlJ2WDFrZmVRSjMyS2gtNU5NT3ZzaTc5TGxlY1RnalI0U1lDaTk1dmVLYVB3aWRaYmtKQko0YWlnNDVab1ZsRmE0?oc=5"
+      },
       {
         "type": "ClinicalTrials.gov",
         "level": "medium",
