@@ -11,8 +11,8 @@
   "metrics": [
     {
       "label": "Aktueller Kurs",
-      "value": "$1.46",
-      "note": "Auto-Update: -2.67% vs. vorheriger Schlusskurs",
+      "value": "$1.44",
+      "note": "Auto-Update: -4.0% vs. vorheriger Schlusskurs",
       "key": "price"
     },
     {
@@ -217,15 +217,15 @@
     "Son of Lorenc Mastertemplate"
   ],
   "latest_auto": {
-    "last_update_utc": "2026-11-27T16:53:47Z",
+    "last_update_utc": "2026-11-28T00:18:18Z",
     "price": {
       "source": "Yahoo Finance Chart Endpoint",
       "currency": "USD",
-      "regularMarketPrice": 1.46,
+      "regularMarketPrice": 1.44,
       "previousClose": 1.5,
-      "change": -0.04,
-      "changePercent": -2.67,
-      "regularMarketTime": "2026-11-27T16:23:21Z",
+      "change": -0.06,
+      "changePercent": -4.0,
+      "regularMarketTime": "2026-11-27T18:00:01Z",
       "marketState": null,
       "preMarketPrice": null,
       "preMarketChange": null,
@@ -240,10 +240,6 @@
       "fiftyTwoWeekRange": "1.16 – 5.445"
     },
     "price_history": [
-      {
-        "t": "2026-10-27T13:30:00Z",
-        "price": 2.53
-      },
       {
         "t": "2026-10-28T13:30:00Z",
         "price": 2.47
@@ -330,7 +326,7 @@
       },
       {
         "t": "2026-11-27T14:30:00Z",
-        "price": 1.46
+        "price": 1.44
       }
     ],
     "price_history_1d": [
@@ -407,8 +403,36 @@
         "price": 1.45
       },
       {
-        "t": "2026-11-27T16:23:21Z",
+        "t": "2026-11-27T16:20:00Z",
         "price": 1.46
+      },
+      {
+        "t": "2026-11-27T16:50:00Z",
+        "price": 1.465
+      },
+      {
+        "t": "2026-11-27T17:00:00Z",
+        "price": 1.4614
+      },
+      {
+        "t": "2026-11-27T17:15:00Z",
+        "price": 1.44
+      },
+      {
+        "t": "2026-11-27T17:25:00Z",
+        "price": 1.42
+      },
+      {
+        "t": "2026-11-27T17:50:00Z",
+        "price": 1.42
+      },
+      {
+        "t": "2026-11-27T17:55:00Z",
+        "price": 1.45
+      },
+      {
+        "t": "2026-11-27T18:00:00Z",
+        "price": 1.44
       }
     ],
     "price_history_range": "1mo",
